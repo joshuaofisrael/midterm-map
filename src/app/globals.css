@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink antialiased;
+  background-image:
+    linear-gradient(180deg, rgba(238, 243, 248, 0.9), rgba(246, 247, 249, 1) 18rem);
+  min-height: 100vh;
+}
+
+:focus-visible {
+  @apply outline outline-2 outline-offset-2 outline-navy;
+}
+
+.prose-legal h2 {
+  @apply mt-8 mb-3 font-serif text-2xl font-semibold text-ink;
+}
+
+.prose-legal h3 {
+  @apply mt-6 mb-2 font-serif text-xl font-semibold text-ink;
+}
+
+.prose-legal p,
+.prose-legal li {
+  @apply text-[1.05rem] leading-7 text-ink;
+}
+
+.prose-legal ul {
+  @apply my-4 list-disc space-y-2 pl-5;
+}
+
+.prose-legal a {
+  @apply text-navy underline decoration-navy/30 underline-offset-2 hover:decoration-navy;
+}
+
+.skip-link {
+  @apply sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-white focus:px-3 focus:py-2 focus:shadow-card;
+}
