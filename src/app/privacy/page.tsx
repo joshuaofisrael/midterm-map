@@ -8,7 +8,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "Privacy Policy",
   description:
-    `Privacy practices for ${SITE.name} (Joshua Israel Ventures LLC): client-side ZIP lookup, no voter-file sales, no analytics cookies in this MVP, and email handling.`,
+    `Privacy practices for ${SITE.name} (Joshua Israel Ventures LLC): client-side ZIP lookup, no voter-file sales, Cloudflare Web Analytics, and email handling.`,
   path: "/privacy",
 });
 
@@ -55,16 +55,22 @@ export default function PrivacyPage() {
 
         <h2>Cookies and analytics</h2>
         <p>
-          This MVP does <strong>not</strong> implement first-party analytics
-          cookies, advertising pixels, or a cookie consent banner, because those
-          tools are not installed. Your hosting provider (GitHub Pages)
-          and your own browser may still create ordinary technical logs such as
-          IP address, user agent, and requested URL. We do not treat hosting
-          logs as a marketing list.
+          {SITE.name} uses <strong>Cloudflare Web Analytics</strong>, a
+          privacy-oriented measurement tool. It may load a lightweight beacon
+          script from Cloudflare to count visits and basic traffic. We do not
+          use that beacon to sell, license, or broker voter-file data, and we
+          do not run advertising pixels or a first-party marketing cookie
+          banner in this MVP.
         </p>
         <p>
-          If analytics or other cookies are added later, this policy should be
-          updated with the tool name and purpose before those scripts go live.
+          Your hosting provider (GitHub Pages) and your own browser may still
+          create ordinary technical logs such as IP address, user agent, and
+          requested URL. We do not treat hosting logs as a marketing list.
+        </p>
+        <p>
+          If additional analytics or cookies are added later, this policy should
+          be updated with the tool name and purpose before those scripts go
+          live.
         </p>
 
         <h2>Email you send us</h2>

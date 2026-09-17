@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
 import { SITE } from "@/data/site";
+import { CloudflareAnalytics } from "@/components/CloudflareAnalytics";
 import { JsonLd } from "@/components/JsonLd";
 import { SiteShell } from "@/components/SiteShell";
 import "./globals.css";
@@ -118,6 +119,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${sourceSans.variable} ${sourceSerif.variable} font-sans`}>
         <JsonLd data={[organizationJsonLd, websiteJsonLd]} />
         <SiteShell>{children}</SiteShell>
+        <CloudflareAnalytics />
       </body>
     </html>
   );

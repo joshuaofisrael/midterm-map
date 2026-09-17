@@ -21,7 +21,7 @@ This document is an **internal owner checklist**. It is **not legal advice** and
 ### Required legal pages
 - [x] `/about` — operator, what the site is, what it is not
 - [x] `/disclaimer` — election-specific cautions (not official; not legal advice; not an endorsement; ballots may be incomplete; ratings editorial/demo; poll demo rows; unofficial returns)
-- [x] `/privacy` — no voter-file sales; client-side ZIP; no analytics cookies implemented; email handling
+- [x] `/privacy` — no voter-file sales; client-side ZIP; Cloudflare Web Analytics (privacy-oriented beacon; not selling voter data); email handling
 - [x] `/terms` — use of site, LLC operator, limitation of liability, Florida governing law, no campaign contribution solicitation
 - [x] Footer links: Disclaimer / Privacy / Terms / About
 - [x] Footer line: “Not an official election website. Verify ballot and voting details with your state or county election office.”
