@@ -127,9 +127,14 @@ export const HOUSE_RACES: RaceGuide[] = [
         name: "Tony Kozycki",
         party: "DEM",
         partyLabel: "Democratic",
-        bio: "Kozycki is the Democratic nominee listed on Decision Desk HQ’s public GA-07 forecast page as of September 16, 2026. Confirm spelling and ballot status with the Georgia Secretary of State.",
-        links: [ballotpedia("Georgia's 7th Congressional District election, 2026", "Georgia%27s_7th_Congressional_District_election,_2026")],
+        statusNote: "Democratic nominee; Navy veteran and attorney",
+        bio: "Kozycki is a former Navy F/A-18 Super Hornet pilot who graduated from the U.S. Naval Academy and later earned a law degree from Georgia State. Ballotpedia lists Navy service from 2004 to 2017 and later work as an attorney. Decision Desk HQ lists him as the Democratic nominee in Georgia’s 7th District.",
+        links: [
+          officialSite("Campaign site", "https://kozyckiforcongress.com/index.html"),
+          ballotpedia("Tony Kozycki", "Tony_Kozycki"),
+        ],
         sources: [
+          cite("Ballotpedia, Tony Kozycki", "https://ballotpedia.org/Tony_Kozycki"),
           cite(
             "Decision Desk HQ, 2026 Georgia US House 7",
             "https://newsnation-votes.decisiondeskhq.com/races/2026-11-03/georgia-us-house-7-general-election/forecast",
@@ -219,21 +224,28 @@ export const HOUSE_RACES: RaceGuide[] = [
     district: "1",
     title: "North Carolina 1st Congressional District — 2026",
     shortTitle: "NC-01",
-    featured: false,
+    featured: true,
     overview:
-      "North Carolina’s 1st District elects a U.S. representative on November 3, 2026. Democratic incumbent Don Davis is seeking another term. Confirm the Republican and any third-party nominees on the State Board of Elections candidate list.",
+      "North Carolina’s 1st District elects a U.S. representative on November 3, 2026. Democratic incumbent Don Davis faces Republican Laurie Buckhout in a rematch of 2024. Ballotpedia also lists Libertarian Tom Bailey.",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "Ballotpedia’s original 2026 House battlegrounds list included NC-01. Maps can change through official legal processes. The State Board of Elections and your county board confirm district assignment.",
+      "The General Assembly redrew the district after 2024. WRAL reported the new lines cover more of coastal eastern North Carolina and are more Republican-leaning than the map Davis won. Your county board of elections assigns the district on the official sample ballot.",
     howToRead:
-      "This page lists the sitting member. The full November field should be read from ncsbe.gov or Ballotpedia, not assumed from a template.",
+      "Buckhout won the March 3, 2026 Republican primary with 39.5% against four other candidates, per Ballotpedia’s certified table. Confirm every qualified November name with the North Carolina State Board of Elections.",
     candidates: [
       person({
         name: "Don Davis",
         party: "DEM",
         partyLabel: "Democratic",
         incumbent: true,
-        bio: "Davis has represented North Carolina’s 1st District since 2023. He is a former Air Force officer, mayor of Snow Hill, and state senator. House records list him as the incumbent seeking re-election in 2026.",
+        bio: "Davis has represented North Carolina’s 1st District since 2023. He is a former Air Force officer, mayor of Snow Hill, and state senator. He defeated Buckhout in 2024 and is seeking another term on the redrawn map.",
+        image: {
+          src: "/candidates/don-davis.jpg",
+          alt: "Official portrait of Rep. Don Davis",
+          attribution: "U.S. House / Library of Congress / public domain",
+          license: "Public domain (U.S. government work)",
+          sourceUrl: "https://commons.wikimedia.org/wiki/File:Portrait_of_Congressman_Don_Davis.jpg",
+        },
         links: [
           officialSite("House office", "https://dondavis.house.gov/"),
           wiki("Don Davis", "Don_Davis_(North_Carolina_politician)"),
@@ -244,10 +256,34 @@ export const HOUSE_RACES: RaceGuide[] = [
           cite("Ballotpedia, North Carolina's 1st Congressional District election, 2026", "https://ballotpedia.org/North_Carolina%27s_1st_Congressional_District_election,_2026"),
         ],
       }),
+      person({
+        name: "Laurie Buckhout",
+        party: "REP",
+        partyLabel: "Republican",
+        statusNote: "Republican nominee after the March 3, 2026 primary",
+        bio: "Buckhout is a retired Army colonel and the 2024 Republican nominee in this district. She won the 2026 GOP primary with 39.5% of the vote. Ballotpedia describes later work as a consultant and a short 2025 stint as assistant national cyber director for policy.",
+        links: [ballotpedia("Laurie Buckhout", "Laurie_Buckhout")],
+        sources: [
+          cite(
+            "Ballotpedia, North Carolina's 1st Congressional District election, 2026 (March 3 Republican primary)",
+            "https://ballotpedia.org/North_Carolina%27s_1st_Congressional_District_election,_2026_(March_3_Republican_primary)",
+          ),
+          cite(
+            "WRAL, Buckhout wins GOP primary to take on Davis in rematch of 2024 race",
+            "https://www.wral.com/news/nccapitol/republican-gop-primary-redrawn-nc-1st-district-challenge-don-davis-march-2026/",
+            "September 17, 2026",
+            "March 2026",
+          ),
+        ],
+      }),
     ],
     ratings: [],
     sources: [
-      cite("Ballotpedia, U.S. House battlegrounds, 2026", "https://ballotpedia.org/U.S._House_battlegrounds,_2026"),
+      cite("Ballotpedia, North Carolina's 1st Congressional District election, 2026", "https://ballotpedia.org/North_Carolina%27s_1st_Congressional_District_election,_2026"),
+      cite(
+        "WRAL, Buckhout wins GOP primary to take on Davis in rematch of 2024 race",
+        "https://www.wral.com/news/nccapitol/republican-gop-primary-redrawn-nc-1st-district-challenge-don-davis-march-2026/",
+      ),
     ],
     aggregatorLinks: houseAggregators("https://ballotpedia.org/North_Carolina%27s_1st_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
@@ -679,7 +715,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         party: "REP",
         partyLabel: "Republican",
         statusNote: "Advanced from the June 2, 2026 top-two primary",
-        bio: "Lincoln is a former mayor of Stockton. He finished second in the 2026 top-two primary and advanced to November. Confirm biography details on Ballotpedia and official filings.",
+        bio: "Lincoln is a former mayor of Stockton. He finished second in the June 2026 top-two primary with 27.7% and advanced to November against Gray.",
         links: [
           wiki("Kevin Lincoln", "Kevin_Lincoln_(politician)"),
           ballotpedia("Kevin Lincoln", "Kevin_Lincoln"),
@@ -714,12 +750,12 @@ export const HOUSE_RACES: RaceGuide[] = [
     shortTitle: "NY-22",
     featured: false,
     overview:
-      "New York’s 22nd District (central New York) elects a U.S. representative on November 3, 2026. Democratic incumbent John Mannion is seeking another term. Confirm the Republican and any additional party lines with your county board of elections.",
+      "New York’s 22nd District (central New York) elects a U.S. representative on November 3, 2026. Democratic incumbent John Mannion faces Republican Kailee Buller. Fusion or additional party lines, if any, appear on the official ballot.",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "The district has changed parties in recent cycles. County boards of elections assign the district on your ballot. Fusion lines, if any, are official New York ballot design.",
+      "The district has changed parties in recent cycles. Decision Desk HQ treated the June 23 Republican primary as uncontested. County boards of elections assign the district and print every qualified line.",
     howToRead:
-      "This page lists the sitting member. Read the official sample ballot for every qualified line.",
+      "WKTV reported in May 2026 that Buller was the Republican nominee with no GOP primary opponent. Confirm Conservative or Working Families lines with your county board.",
     candidates: [
       person({
         name: "John Mannion",
@@ -743,10 +779,38 @@ export const HOUSE_RACES: RaceGuide[] = [
           cite("Ballotpedia, New York's 22nd Congressional District election, 2026", "https://ballotpedia.org/New_York%27s_22nd_Congressional_District_election,_2026"),
         ],
       }),
+      person({
+        name: "Kailee Buller",
+        party: "REP",
+        partyLabel: "Republican",
+        statusNote: "Republican nominee after an uncontested June 23, 2026 primary",
+        bio: "Buller is an Auburn native who resigned as chief of staff to Agriculture Secretary Brooke Rollins to run for Congress. Local reporting describes prior food-industry and USDA work in both Trump administrations. Decision Desk HQ listed her as the Republican nominee in the uncontested June primary.",
+        links: [
+          officialSite("Campaign site", "https://kaileebuller.com/"),
+          ballotpedia("Kailee Buller", "Kailee_Buller"),
+        ],
+        sources: [
+          cite(
+            "WKTV, Republican candidate challenges Congressman John Mannion",
+            "https://www.wktv.com/news/republican-candidate-challenges-congressman-john-mannion-for-22nd-congressional-seat/article_d0365e32-fb87-4916-b95a-f3d8ab54f915.html",
+            "September 17, 2026",
+            "May 5, 2026",
+          ),
+          cite(
+            "Decision Desk HQ, 2026 New York US House 22 Republican primary",
+            "https://votes.decisiondeskhq.com/races/2026-06-23/new-york-us-house-22-republican-primary",
+          ),
+          cite("Ballotpedia, Kailee Buller", "https://ballotpedia.org/Kailee_Buller"),
+        ],
+      }),
     ],
     ratings: [],
     sources: [
       cite("Ballotpedia, New York's 22nd Congressional District election, 2026", "https://ballotpedia.org/New_York%27s_22nd_Congressional_District_election,_2026"),
+      cite(
+        "Decision Desk HQ, 2026 New York US House 22 Republican primary",
+        "https://votes.decisiondeskhq.com/races/2026-06-23/new-york-us-house-22-republican-primary",
+      ),
     ],
     aggregatorLinks: houseAggregators("https://ballotpedia.org/New_York%27s_22nd_Congressional_District_election,_2026"),
     relatedPollSlugs: [],

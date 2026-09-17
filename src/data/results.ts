@@ -45,6 +45,7 @@ export const KEY_RESULT_SLUGS = [
   "oh-governor-2026",
   "pa-07-house-2026",
   "nv-03-house-2026",
+  "nc-01-house-2026",
 ] as const;
 
 export function resultShellForRace(slug: string): RaceResultShell {

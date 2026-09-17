@@ -35,5 +35,6 @@ Portraits in `public/candidates/` were downloaded from [Wikimedia Commons](https
 | `anna-paulina-luna.jpg` | [Anna Paulina Luna](https://commons.wikimedia.org/wiki/File:Anna_Paulina_Luna.jpg) | Public domain | U.S. House |
 | `adam-gray.jpg` | [Adam Gray 119th congress](https://commons.wikimedia.org/wiki/File:Adam_Gray_119th_congress.webp) | Public domain | U.S. House |
 | `john-mannion.jpg` | [John Mannion, official portrait (119th Congress) (cropped)](https://commons.wikimedia.org/wiki/File:John_Mannion,_official_portrait_(119th_Congress)_(cropped).jpg) | Public domain | U.S. House |
+| `don-davis.jpg` | [Portrait of Congressman Don Davis](https://commons.wikimedia.org/wiki/File:Portrait_of_Congressman_Don_Davis.jpg) | Public domain | U.S. House / Library of Congress |
 
 Captions on race pages repeat license and a link to the Commons file. Do not add New York Times, Washington Post, or Associated Press photographs.
