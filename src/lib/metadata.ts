@@ -14,17 +14,19 @@ export function pageMetadata(input: {
   path: string;
   index?: boolean;
 }): Metadata {
-  const title =
-    input.title === SITE.name ? SITE.name : `${input.title} · ${SITE.name}`;
+  const isHome = input.title === SITE.name;
+  const socialTitle = isHome
+    ? `${SITE.name} · 2026 U.S. midterms voter information`
+    : `${input.title} · ${SITE.name}`;
   const url = absoluteUrl(input.path);
 
   return {
-    title,
+    title: isHome ? { absolute: socialTitle } : input.title,
     description: input.description,
     alternates: { canonical: url },
     robots: input.index === false ? { index: false, follow: true } : { index: true, follow: true },
     openGraph: {
-      title,
+      title: socialTitle,
       description: input.description,
       url,
       siteName: SITE.name,
@@ -34,7 +36,7 @@ export function pageMetadata(input: {
     },
     twitter: {
       card: "summary_large_image",
-      title,
+      title: socialTitle,
       description: input.description,
       images: [OG_IMAGE.url],
     },

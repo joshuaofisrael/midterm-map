@@ -12,7 +12,7 @@ import { JsonLd } from "@/components/JsonLd";
 export const metadata = pageMetadata({
   title: "Ballot lookup",
   description:
-    "Client-side ZIP and state lookup for structured 2026 sample ballot sections. Not an official ballot. Verify with your state or county election office.",
+    "Client-side ZIP and state lookup for structured 2026 sample-ballot sections and official election-office links. Not an official ballot. Verify with your state or county election office.",
   path: "/ballot",
 });
 
@@ -29,7 +29,7 @@ export default function BallotIndexPage() {
       <PageHeader
         eyebrow="Ballot"
         title="Look up a structured sample ballot"
-        lede="Enter a ZIP or choose a starter state. Matching stays in your browser. This is a voter information sketch, not your official ballot and not a certified list of contests."
+        lede="Enter a ZIP or choose a starter state. Matching stays in your browser. This is a voter information sketch of offices on the 2026 cycle, not your official sample ballot and not a certified list of contests."
       />
       <OfficialNotice />
       <BallotLookup />

@@ -20,8 +20,7 @@ export const HOUSE_METER: ChamberMeter = {
   demSeats: null,
   repSeats: null,
   otherSeats: null,
-  isDemo: true,
-  note: "Pre-election shell. No live returns. Majority line (218) is a structural fact about the House, not a forecast.",
+  note: "Awaiting unofficial returns. Majority line (218) is a structural fact about the House, not a forecast. Map the Midterms does not certify results.",
 };
 
 export const SENATE_METER: ChamberMeter = {
@@ -32,8 +31,7 @@ export const SENATE_METER: ChamberMeter = {
   demSeats: null,
   repSeats: null,
   otherSeats: null,
-  isDemo: true,
-  note: "Pre-election shell. No live returns. 51 is shown as a simple majority marker, not a prediction. Ties and the vice presidency are official constitutional facts, not called here.",
+  note: "Awaiting unofficial returns. 51 is shown as a simple majority marker, not a prediction. Ties and the vice presidency are constitutional facts, not called here.",
 };
 
 export const KEY_RESULT_SLUGS = [
@@ -47,23 +45,22 @@ export const KEY_RESULT_SLUGS = [
   "oh-governor-2026",
   "pa-07-house-2026",
   "nv-03-house-2026",
+  "nc-01-house-2026",
 ] as const;
 
 export function resultShellForRace(slug: string): RaceResultShell {
   const race = RACES.find((item) => item.slug === slug);
   const lines = (race?.candidates ?? []).map((candidate) => ({
-    candidateLabel: candidate.label,
+    candidateLabel: candidate.name,
     party: candidate.party,
     percent: null,
     votes: null,
-    isDemo: true as const,
   }));
 
   return {
     raceSlug: slug,
     status: "awaiting",
-    reportingNote:
-      `Awaiting returns. Any later numbers shown in this template will be unofficial until a state or county certifies the contest. ${SITE.name} does not certify results.`,
+    reportingNote: `Awaiting unofficial returns. Any later numbers shown here will be unofficial until a state or county certifies the contest. ${SITE.name} does not certify results.`,
     lines,
   };
 }

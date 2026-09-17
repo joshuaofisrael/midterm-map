@@ -3,10 +3,10 @@ import { notFound } from "next/navigation";
 import { BallotLookup } from "@/components/BallotLookup";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CrossLinks } from "@/components/CrossLinks";
-import { DemoBadge } from "@/components/DemoBadge";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import { StatusChip } from "@/components/StatusChip";
 import { ballotSectionsForState } from "@/data/ballots";
 import { racesForState } from "@/data/races";
 import { getState, isStateCode, STARTER_STATES } from "@/data/states";
@@ -21,8 +21,8 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   const state = getState(code);
   if (!state) return {};
   return pageMetadata({
-    title: `${state.name} sample ballot structure`,
-    description: `Structured 2026 sample ballot sections for ${state.name}. Not an official ballot. Verify contests with ${state.officialElectionOffice.label}.`,
+    title: `${state.name} 2026 sample ballot structure`,
+    description: `Structured 2026 sample-ballot sections for ${state.name}, with official ${state.officialElectionOffice.label} and Vote.gov links. Not an official ballot.`,
     path: `/ballot/${state.code}`,
   });
 }
@@ -63,7 +63,7 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
       <aside className="rounded-xl border border-line bg-paper-card p-5">
         <div className="flex flex-wrap items-center gap-2">
           <h2 className="font-serif text-xl font-semibold">Verify with officials</h2>
-          <DemoBadge>Not your official ballot</DemoBadge>
+          <StatusChip tone="neutral">Not your official ballot</StatusChip>
         </div>
         <ul className="mt-3 list-disc space-y-1 pl-5 text-sm leading-6">
           <li>
@@ -72,10 +72,24 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
               {state.officialElectionOffice.label}
             </a>
           </li>
+          {state.sampleBallotOfficial && (
+            <li>
+              Official sample-ballot starting point:{" "}
+              <a className="text-navy underline" href={state.sampleBallotOfficial.href} rel="noopener noreferrer">
+                {state.sampleBallotOfficial.label}
+              </a>
+            </li>
+          )}
           <li>
             Registration starting point:{" "}
             <a className="text-navy underline" href={state.voteGov.href} rel="noopener noreferrer">
               {state.voteGov.label}
+            </a>
+          </li>
+          <li>
+            Independent encyclopedia:{" "}
+            <a className="text-navy underline" href={state.ballotpedia.href} rel="noopener noreferrer">
+              {state.ballotpedia.label}
             </a>
           </li>
           <li>{state.registrationNote}</li>
@@ -91,10 +105,7 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
             <div className="mt-4 space-y-4">
               {section.contests.map((contest) => (
                 <div key={contest.id} className="border-t border-line pt-4">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <h3 className="font-semibold">{contest.heading}</h3>
-                    <DemoBadge>Sample section</DemoBadge>
-                  </div>
+                  <h3 className="font-semibold">{contest.heading}</h3>
                   <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-6">
                     {contest.lines.map((line) => (
                       <li key={line}>{line}</li>
@@ -107,7 +118,7 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
                       </Link>
                       {" · "}
                       <Link className="text-navy hover:underline" href={`/results/${contest.raceSlug}`}>
-                        Results shell
+                        Results page
                       </Link>
                     </p>
                   )}

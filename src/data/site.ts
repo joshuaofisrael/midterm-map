@@ -9,7 +9,7 @@ export const SITE = {
   name: "Map the Midterms",
   tagline: "A voter information utility for the 2026 U.S. midterms",
   description:
-    "Ballot lookup, race guides, poll tables, and a results tracker shell for the Tuesday, November 3, 2026 U.S. midterm elections. Informational only. Not an official election website.",
+    "Sourced 2026 U.S. midterm voter information: sample-ballot sketches, Senate and governor race guides, published polls, and a results tracker. Informational only. Not an official election website.",
   url: publicSiteUrl(),
   brandNote:
     "Map the Midterms is an unfiled brand / service name of Joshua Israel Ventures LLC. It is not a separate company and is not claimed here as a filed DBA or trademark.",

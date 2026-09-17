@@ -2,19 +2,19 @@ import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ControlMeter } from "@/components/ControlMeter";
 import { CrossLinks } from "@/components/CrossLinks";
-import { DemoBadge } from "@/components/DemoBadge";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
+import { StatusChip } from "@/components/StatusChip";
 import { getRace } from "@/data/races";
 import { HOUSE_METER, isPreElection, KEY_RESULT_SLUGS, SENATE_METER } from "@/data/results";
 import { SITE } from "@/data/site";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
-  title: "Live results tracker",
+  title: "2026 results tracker",
   description:
-    "2026 midterm results dashboard shell with House and Senate control meters and key races. Pre-election mode before November 3, 2026. Returns are unofficial until certified.",
+    "2026 midterm results dashboard with House and Senate control meters and key races. Awaiting unofficial returns before November 3, 2026. Returns are unofficial until certified.",
   path: "/results",
 });
 
@@ -33,7 +33,7 @@ export default function ResultsPage() {
       <PageHeader
         eyebrow="Results"
         title="Results tracker"
-        lede={`A dashboard shell for Election Night and the days after. ${SITE.name} does not certify outcomes. Any future vote totals shown here will be unofficial until a state or county completes certification.`}
+        lede={`A dashboard for Election Night and the days after. ${SITE.name} does not certify outcomes. Any future vote totals shown here will be unofficial until a state or county completes certification.`}
       />
       <OfficialNotice />
 
@@ -42,7 +42,7 @@ export default function ResultsPage() {
           <h2 className="font-serif text-xl font-semibold">
             {preElection ? "Awaiting returns" : "Unofficial returns window"}
           </h2>
-          <DemoBadge>{preElection ? "Pre-election mode" : "Unofficial"}</DemoBadge>
+          <StatusChip>{preElection ? "Pre-election" : "Unofficial"}</StatusChip>
         </div>
         <p className="mt-2 text-sm leading-6">
           {preElection
@@ -59,7 +59,7 @@ export default function ResultsPage() {
       <section>
         <h2 className="font-serif text-2xl font-semibold">Key races</h2>
         <p className="mt-2 text-sm text-ink-muted">
-          Selected Senate, governor, and House templates. Each row opens an unofficial-returns page.
+          Selected Senate, governor, and House contests. Each row opens an unofficial-returns page.
         </p>
         <ul className="mt-4 divide-y divide-line rounded-xl border border-line bg-paper-card">
           {KEY_RESULT_SLUGS.map((slug) => {
@@ -71,7 +71,9 @@ export default function ResultsPage() {
                   <Link className="font-semibold hover:text-navy" href={`/results/${race.slug}`}>
                     {race.title}
                   </Link>
-                  <p className="text-sm text-ink-muted">Awaiting unofficial returns · demo candidates</p>
+                  <p className="text-sm text-ink-muted">
+                    Awaiting unofficial returns · {race.candidates.map((candidate) => candidate.name).join(" vs. ")}
+                  </p>
                 </div>
                 <Link className="text-sm font-medium text-navy hover:underline" href={`/races/${race.slug}`}>
                   Race guide

@@ -1,22 +1,19 @@
 import Link from "next/link";
 import { ratingBoard } from "@/data/polls";
 import { ratingTone } from "@/lib/format";
-import { DemoBadge } from "./DemoBadge";
 
 export function RatingBoard() {
   const columns = ratingBoard();
 
   return (
     <section>
-      <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
-        <div>
-          <h2 className="font-serif text-2xl font-semibold">Race ratings board</h2>
-          <p className="mt-1 max-w-2xl text-sm leading-6 text-ink-muted">
-            Illustrative / editorial demo placements for layout and SEO structure.
-            These are not a live forecast and are not labeled as a house rating product.
-          </p>
-        </div>
-        <DemoBadge>Editorial demo</DemoBadge>
+      <div className="mb-4">
+        <h2 className="font-serif text-2xl font-semibold">Attributed race ratings</h2>
+        <p className="mt-1 max-w-2xl text-sm leading-6 text-ink-muted">
+          Placements appear only when a named outlet (Cook Political Report, Inside Elections,
+          Sabato’s Crystal Ball, or Decision Desk HQ) has published a rating we can link.
+          They are not Map the Midterms forecasts.
+        </p>
       </div>
       <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
         {columns.map((column) => (
@@ -25,16 +22,21 @@ export function RatingBoard() {
               {column.tier}
             </div>
             <ul className="space-y-2">
-              {column.races.length === 0 && (
-                <li className="text-sm text-ink-soft">No demo races in this column.</li>
-              )}
-              {column.races.map((race) => (
-                <li key={race.slug}>
-                  <Link className="text-sm font-medium text-navy hover:underline" href={`/races/${race.slug}`}>
-                    {race.shortTitle}
-                  </Link>
-                </li>
-              ))}
+              {column.races.map((race) => {
+                const match = race.ratings.find((rating) => rating.tier === column.tier);
+                return (
+                  <li key={`${race.slug}-${column.tier}`}>
+                    <Link className="text-sm font-medium text-navy hover:underline" href={`/races/${race.slug}`}>
+                      {race.shortTitle}
+                    </Link>
+                    {match && (
+                      <p className="text-xs text-ink-muted">
+                        {match.outlet} · {match.asOf}
+                      </p>
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           </div>
         ))}

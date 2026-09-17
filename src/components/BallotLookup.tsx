@@ -35,7 +35,7 @@ export function BallotLookup({ initialState = "" }: { initialState?: string }) {
 
     if (fromZip && state && state !== fromZip) {
       setMessage(
-        `ZIP prefix maps to ${fromZip} in this demo table. Opening ${fromZip}. Confirm the official sample ballot for your address.`,
+        `ZIP prefix maps to ${fromZip} in this local table. Opening ${fromZip}. Confirm the official sample ballot for your address.`,
       );
     } else {
       setMessage(null);

@@ -15,6 +15,17 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://azsos.gov/elections",
     },
     voteGov: { label: "Vote.gov Arizona", href: "https://www.vote.gov/register/arizona/" },
+    ballotpedia: { label: "Ballotpedia — Arizona elections 2026", href: "https://ballotpedia.org/Arizona_elections,_2026" },
+    statewideOffices2026: [
+      "Governor and lieutenant governor (first paired ticket)",
+      "Secretary of state",
+      "Attorney general",
+      "State treasurer",
+      "Superintendent of public instruction",
+      "State mine inspector",
+      "Corporation Commission seats on this cycle",
+    ],
+    sampleBallotOfficial: { label: "Arizona Secretary of State — Elections", href: "https://azsos.gov/elections" },
     registrationNote:
       "Arizona registration deadlines and rules are set by state law. Check the Secretary of State and your county recorder.",
     earlyVotingNote:
@@ -45,6 +56,20 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://sos.ga.gov/elections-division-georgia-secretary-states-office",
     },
     voteGov: { label: "Vote.gov Georgia", href: "https://www.vote.gov/register/georgia/" },
+    ballotpedia: { label: "Ballotpedia — Georgia elections 2026", href: "https://ballotpedia.org/Georgia_elections,_2026" },
+    statewideOffices2026: [
+      "U.S. Senate (Class 2)",
+      "Governor",
+      "Lieutenant governor",
+      "Secretary of state",
+      "Attorney general",
+      "Commissioner of agriculture",
+      "Commissioner of insurance",
+      "Commissioner of labor",
+      "State school superintendent",
+      "Public Service Commission seats on this cycle",
+    ],
+    sampleBallotOfficial: { label: "Georgia My Voter Page", href: "https://www.mvp.sos.ga.gov/" },
     registrationNote:
       "Georgia voter registration is administered by the Secretary of State and county election offices. Deadlines are official-only.",
     earlyVotingNote:
@@ -75,6 +100,16 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://www.michigan.gov/sos/elections",
     },
     voteGov: { label: "Vote.gov Michigan", href: "https://www.vote.gov/register/michigan/" },
+    ballotpedia: { label: "Ballotpedia — Michigan elections 2026", href: "https://ballotpedia.org/Michigan_elections,_2026" },
+    statewideOffices2026: [
+      "U.S. Senate (Class 2)",
+      "Governor and lieutenant governor",
+      "Attorney general",
+      "Secretary of state",
+      "State Board of Education seats on this cycle",
+      "University governing-board seats on this cycle",
+    ],
+    sampleBallotOfficial: { label: "Michigan Secretary of State — Elections", href: "https://www.michigan.gov/sos/elections" },
     registrationNote:
       "Michigan offers online, mail, and in-person registration, including same-day options in many cases. Confirm current rules with the state.",
     earlyVotingNote:
@@ -108,6 +143,14 @@ export const STARTER_STATES: StateProfile[] = [
       label: "Vote.gov North Carolina",
       href: "https://www.vote.gov/register/north-carolina/",
     },
+    ballotpedia: { label: "Ballotpedia — North Carolina elections 2026", href: "https://ballotpedia.org/North_Carolina_elections,_2026" },
+    statewideOffices2026: [
+      "U.S. Senate (Class 2)",
+      "U.S. House (address-specific)",
+      "State legislature seats on this cycle",
+      "Judicial and local contests as certified for your county",
+    ],
+    sampleBallotOfficial: { label: "North Carolina State Board of Elections", href: "https://www.ncsbe.gov/" },
     registrationNote:
       "Registration is handled through the State Board of Elections and county boards. Check the official deadline calendar.",
     earlyVotingNote:
@@ -138,6 +181,16 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://www.nvsos.gov/sos/elections",
     },
     voteGov: { label: "Vote.gov Nevada", href: "https://www.vote.gov/register/nevada/" },
+    ballotpedia: { label: "Ballotpedia — Nevada elections 2026", href: "https://ballotpedia.org/Nevada_elections,_2026" },
+    statewideOffices2026: [
+      "Governor",
+      "Lieutenant governor",
+      "Attorney general",
+      "Secretary of state",
+      "State treasurer",
+      "State controller",
+    ],
+    sampleBallotOfficial: { label: "Nevada Secretary of State — Elections", href: "https://www.nvsos.gov/sos/elections" },
     registrationNote:
       "Nevada registration options include online and same-day in many circumstances. County clerks administer the rolls.",
     earlyVotingNote:
@@ -168,6 +221,15 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://www.ohiosos.gov/elections/",
     },
     voteGov: { label: "Vote.gov Ohio", href: "https://www.vote.gov/register/ohio/" },
+    ballotpedia: { label: "Ballotpedia — Ohio elections 2026", href: "https://ballotpedia.org/Ohio_elections,_2026" },
+    statewideOffices2026: [
+      "Governor and lieutenant governor (joint ticket)",
+      "Attorney general",
+      "Secretary of state",
+      "Treasurer of state",
+      "Auditor of state",
+    ],
+    sampleBallotOfficial: { label: "Ohio Secretary of State — Elections", href: "https://www.ohiosos.gov/elections/" },
     registrationNote:
       "Ohio voter registration is processed by county boards of elections. Confirm deadlines on the Secretary of State site.",
     earlyVotingNote:
@@ -201,6 +263,14 @@ export const STARTER_STATES: StateProfile[] = [
       label: "Vote.gov Pennsylvania",
       href: "https://www.vote.gov/register/pennsylvania/",
     },
+    ballotpedia: { label: "Ballotpedia — Pennsylvania elections 2026", href: "https://ballotpedia.org/Pennsylvania_elections,_2026" },
+    statewideOffices2026: [
+      "Governor and lieutenant governor",
+      "Attorney general",
+      "Auditor general",
+      "State treasurer",
+    ],
+    sampleBallotOfficial: { label: "Pennsylvania Department of State — Voting", href: "https://www.pa.gov/agencies/vote" },
     registrationNote:
       "Register or update through official Pennsylvania tools. County election offices maintain the lists.",
     earlyVotingNote:
@@ -231,6 +301,14 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://elections.wi.gov/",
     },
     voteGov: { label: "Vote.gov Wisconsin", href: "https://www.vote.gov/register/wisconsin/" },
+    ballotpedia: { label: "Ballotpedia — Wisconsin elections 2026", href: "https://ballotpedia.org/Wisconsin_elections,_2026" },
+    statewideOffices2026: [
+      "Governor and lieutenant governor",
+      "Attorney general",
+      "Secretary of state",
+      "State treasurer",
+    ],
+    sampleBallotOfficial: { label: "Wisconsin Elections Commission", href: "https://elections.wi.gov/" },
     registrationNote:
       "Wisconsin allows several registration methods, including election-day registration in many cases. Confirm with your municipal clerk.",
     earlyVotingNote:
@@ -261,6 +339,18 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://www.sos.texas.gov/elections/",
     },
     voteGov: { label: "Vote.gov Texas", href: "https://www.vote.gov/register/texas/" },
+    ballotpedia: { label: "Ballotpedia — Texas elections 2026", href: "https://ballotpedia.org/Texas_elections,_2026" },
+    statewideOffices2026: [
+      "U.S. Senate (Class 2)",
+      "Governor",
+      "Lieutenant governor",
+      "Attorney general",
+      "Comptroller of public accounts",
+      "Commissioner of the General Land Office",
+      "Commissioner of agriculture",
+      "Railroad Commission seats on this cycle",
+    ],
+    sampleBallotOfficial: { label: "Texas Secretary of State — Elections", href: "https://www.sos.texas.gov/elections/" },
     registrationNote:
       "Texas registration is processed by county voter registrars. Check the official deadline before Election Day.",
     earlyVotingNote:
@@ -291,6 +381,14 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://www.dos.fl.gov/elections/",
     },
     voteGov: { label: "Vote.gov Florida", href: "https://www.vote.gov/register/florida/" },
+    ballotpedia: { label: "Ballotpedia — Florida elections 2026", href: "https://ballotpedia.org/Florida_elections,_2026" },
+    statewideOffices2026: [
+      "Governor and lieutenant governor",
+      "Attorney general",
+      "Chief financial officer",
+      "Commissioner of agriculture",
+    ],
+    sampleBallotOfficial: { label: "Florida Division of Elections", href: "https://www.dos.fl.gov/elections/" },
     registrationNote:
       "Florida registration is handled by county supervisors of elections. Book-closing deadlines are official.",
     earlyVotingNote:
@@ -321,6 +419,18 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://www.sos.ca.gov/elections",
     },
     voteGov: { label: "Vote.gov California", href: "https://www.vote.gov/register/california/" },
+    ballotpedia: { label: "Ballotpedia — California elections 2026", href: "https://ballotpedia.org/California_elections,_2026" },
+    statewideOffices2026: [
+      "Governor",
+      "Lieutenant governor",
+      "Attorney general",
+      "Secretary of state",
+      "Controller",
+      "Treasurer",
+      "Insurance commissioner",
+      "Superintendent of public instruction",
+    ],
+    sampleBallotOfficial: { label: "California Secretary of State — Elections", href: "https://www.sos.ca.gov/elections" },
     registrationNote:
       "California offers online, same-day, and conditional registration in many cases. Confirm with your county elections office.",
     earlyVotingNote:
@@ -351,6 +461,13 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://elections.ny.gov/",
     },
     voteGov: { label: "Vote.gov New York", href: "https://www.vote.gov/register/new-york/" },
+    ballotpedia: { label: "Ballotpedia — New York elections 2026", href: "https://ballotpedia.org/New_York_elections,_2026" },
+    statewideOffices2026: [
+      "Governor and lieutenant governor",
+      "Attorney general",
+      "Comptroller",
+    ],
+    sampleBallotOfficial: { label: "New York State Board of Elections", href: "https://elections.ny.gov/" },
     registrationNote:
       "New York registration is processed by county boards of elections. Deadlines differ for primary and general elections.",
     earlyVotingNote:

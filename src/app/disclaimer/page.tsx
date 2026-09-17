@@ -65,20 +65,21 @@ export default function DisclaimerPage() {
           authority and with the sample ballot those offices publish.
         </p>
 
-        <h2>Race ratings are editorial illustrations</h2>
+        <h2>Race ratings are quotations, not our forecast</h2>
         <p>
-          Solid / Likely / Lean / Tossup placements are labeled illustrative or
-          editorial demo unless a later version clearly says a specific
-          methodology and source. They are not a guarantee of outcomes and are
-          not an official forecast.
+          Solid / Likely / Lean / Tossup placements appear only when a named
+          outlet (for example Cook Political Report, Inside Elections, or
+          Sabato’s Crystal Ball) has published a rating we can link. They are
+          not a Map the Midterms forecast and not a guarantee of outcomes.
         </p>
 
-        <h2>Poll tables may include demo rows</h2>
+        <h2>Poll tables show cited surveys only</h2>
         <p>
-          Poll tables in this MVP include seeded demo rows that are marked
-          <strong> demo</strong>. Those rows are not real poll releases. When
-          live cited polls are added, they should keep source, dates, and
-          sample visible. National strips are also demo until labeled otherwise.
+          Poll tables list individual published surveys with pollster, dates,
+          sample, and a source link. We do not invent numbers. If a race has no
+          public poll we can cite, the page says so and points to RealClearPolitics
+          and FiveThirtyEight / ABC. National generic-ballot rows are likewise
+          individual published surveys, not our average.
         </p>
 
         <h2>Results before certification are unofficial</h2>
