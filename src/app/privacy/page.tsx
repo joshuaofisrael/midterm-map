@@ -8,7 +8,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "Privacy Policy",
   description:
-    "Privacy practices for Midterm Map (Joshua Israel Ventures LLC): client-side ZIP lookup, no voter-file sales, no analytics cookies in this MVP, and email handling.",
+    `Privacy practices for ${SITE.name} (Joshua Israel Ventures LLC): client-side ZIP lookup, no voter-file sales, no analytics cookies in this MVP, and email handling.`,
   path: "/privacy",
 });
 
@@ -25,7 +25,7 @@ export default function PrivacyPage() {
       <PageHeader
         eyebrow={`Last updated ${SITE.lastUpdated}`}
         title="Privacy Policy"
-        lede="How Joshua Israel Ventures LLC handles information on Midterm Map."
+        lede={`How Joshua Israel Ventures LLC handles information on ${SITE.name}.`}
       />
       <div className="prose-legal">
         <p>
@@ -57,7 +57,7 @@ export default function PrivacyPage() {
         <p>
           This MVP does <strong>not</strong> implement first-party analytics
           cookies, advertising pixels, or a cookie consent banner, because those
-          tools are not installed. Your hosting provider (for example Vercel)
+          tools are not installed. Your hosting provider (GitHub Pages)
           and your own browser may still create ordinary technical logs such as
           IP address, user agent, and requested URL. We do not treat hosting
           logs as a marketing list.

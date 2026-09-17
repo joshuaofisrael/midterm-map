@@ -20,7 +20,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-line bg-white/95 backdrop-blur">
       <div className="mx-auto flex max-w-site items-center justify-between gap-4 px-4 py-3">
         <Link href="/" className="min-w-0">
-          <span className="block font-serif text-xl font-semibold tracking-tight text-ink">
+          <span className="block font-serif text-lg font-semibold tracking-tight text-ink sm:text-xl">
             {SITE.name}
           </span>
           <span className="block truncate text-xs text-ink-muted">

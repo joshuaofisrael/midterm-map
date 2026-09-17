@@ -33,7 +33,7 @@ export default function ResultsPage() {
       <PageHeader
         eyebrow="Results"
         title="Results tracker"
-        lede="A dashboard shell for Election Night and the days after. Midterm Map does not certify outcomes. Any future vote totals shown here will be unofficial until a state or county completes certification."
+        lede={`A dashboard shell for Election Night and the days after. ${SITE.name} does not certify outcomes. Any future vote totals shown here will be unofficial until a state or county completes certification.`}
       />
       <OfficialNotice />
 

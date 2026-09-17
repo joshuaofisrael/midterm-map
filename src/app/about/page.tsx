@@ -7,7 +7,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
   title: "About",
-  description: `About Midterm Map, a 2026 midterms voter information utility operated by ${SITE.legalName}.`,
+  description: `About ${SITE.name}, a 2026 midterms voter information utility operated by ${SITE.legalName}.`,
   path: "/about",
 });
 
@@ -23,7 +23,7 @@ export default function AboutPage() {
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "About" }]} />
       <PageHeader
         eyebrow="About"
-        title="Who operates Midterm Map"
+        title={`Who operates ${SITE.name}`}
         lede="A voter information utility for the 2026 U.S. midterms, published by Joshua Israel Ventures LLC."
       />
       <div className="prose-legal">
@@ -42,7 +42,7 @@ export default function AboutPage() {
 
         <h2>What this site is</h2>
         <p>
-          Midterm Map is a public-facing informational hub. It gathers three
+          {SITE.name} is a public-facing informational hub. It gathers three
           tools in one place: a structured sample-ballot sketch, race-guide
           templates with poll and rating modules, and a results-tracker shell
           for Election Day {SITE.electionDayLabel}. The goal is plain-English

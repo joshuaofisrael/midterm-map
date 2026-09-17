@@ -2,11 +2,11 @@
   "name": "midterm-map",
   "version": "0.1.0",
   "private": true,
-  "description": "Midterm Map — 2026 US midterms voter information hub operated by Joshua Israel Ventures LLC.",
+  "description": "Map the Midterms — 2026 US midterms voter information hub operated by Joshua Israel Ventures LLC.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "python3 -m http.server 3000 --directory out",
     "lint": "next lint"
   },
   "dependencies": {

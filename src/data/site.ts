@@ -1,17 +1,24 @@
+const DEFAULT_SITE_URL = "https://mapthemidterms.com";
+
+function publicSiteUrl(): string {
+  const raw = process.env.NEXT_PUBLIC_SITE_URL ?? DEFAULT_SITE_URL;
+  return raw.replace(/\/+$/, "");
+}
+
 export const SITE = {
-  name: "Midterm Map",
+  name: "Map the Midterms",
   tagline: "A voter information utility for the 2026 U.S. midterms",
   description:
     "Ballot lookup, race guides, poll tables, and a results tracker shell for the Tuesday, November 3, 2026 U.S. midterm elections. Informational only. Not an official election website.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://midtermmap.com",
+  url: publicSiteUrl(),
   brandNote:
-    "Midterm Map is an unfiled brand / service name of Joshua Israel Ventures LLC. It is not a separate company and is not claimed here as a filed DBA or trademark.",
+    "Map the Midterms is an unfiled brand / service name of Joshua Israel Ventures LLC. It is not a separate company and is not claimed here as a filed DBA or trademark.",
   legalName: "Joshua Israel Ventures LLC",
   entityType: "Florida limited liability company",
   sunbizDocumentNumber: "L26000261819",
   sunbizStatus: "ACTIVE",
   email: "joshuaofisrael@gmail.com",
-  emailSubject: "[Contact: Midterm Map]",
+  emailSubject: "[Contact: Map the Midterms]",
   location: "Miami Beach, FL",
   electionDayLabel: "Tuesday, November 3, 2026",
   electionDayIso: "2026-11-03",
@@ -40,4 +47,14 @@ export const PRIMARY_NAV = [
 
 export function contactMailto(): string {
   return `mailto:${SITE.email}?subject=${encodeURIComponent(SITE.emailSubject)}`;
+}
+
+/** Apex canonical URL. Directory routes use a trailing slash for GitHub Pages. */
+export function absoluteUrl(path: string = "/"): string {
+  const base = SITE.url.replace(/\/+$/, "");
+  if (!path || path === "/") {
+    return `${base}/`;
+  }
+  const clean = path.replace(/^\/+|\/+$/g, "");
+  return `${base}/${clean}/`;
 }

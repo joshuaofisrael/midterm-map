@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { PageHeader } from "@/components/PageHeader";
+import { SITE } from "@/data/site";
 
 export default function NotFound() {
   return (
@@ -7,7 +8,7 @@ export default function NotFound() {
       <PageHeader
         eyebrow="404"
         title="This page is not on the map"
-        lede="The link may be outdated, or the route does not exist yet. Midterm Map is an informational preview — it is not an official election website."
+        lede={`The link may be outdated, or the route does not exist yet. ${SITE.name} is an informational preview — it is not an official election website.`}
       />
       <ul className="space-y-2 text-navy">
         <li>

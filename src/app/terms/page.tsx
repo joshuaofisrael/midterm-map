@@ -8,7 +8,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "Terms of Use",
   description:
-    "Terms for Midterm Map, operated by Joshua Israel Ventures LLC: informational use, Florida governing law, limitation of liability, and no campaign contribution solicitation.",
+    `Terms for ${SITE.name}, operated by Joshua Israel Ventures LLC: informational use, Florida governing law, limitation of liability, and no campaign contribution solicitation.`,
   path: "/terms",
 });
 
@@ -25,7 +25,7 @@ export default function TermsPage() {
       <PageHeader
         eyebrow={`Last updated ${SITE.lastUpdated}`}
         title="Terms of Use"
-        lede="By using Midterm Map, you agree to these terms."
+        lede={`By using ${SITE.name}, you agree to these terms.`}
       />
       <div className="prose-legal">
         <p>

@@ -8,6 +8,7 @@ import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { getRace, RACES } from "@/data/races";
 import { isPreElection, resultShellForRace } from "@/data/results";
+import { SITE } from "@/data/site";
 import { getState } from "@/data/states";
 import { chamberLabel, partyTone } from "@/lib/format";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
@@ -22,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!race) return {};
   return pageMetadata({
     title: `Unofficial returns — ${race.shortTitle}`,
-    description: `Results shell for ${race.title}. Returns are unofficial until certified by election authorities. Midterm Map does not certify results.`,
+    description: `Results shell for ${race.title}. Returns are unofficial until certified by election authorities. ${SITE.name} does not certify results.`,
     path: `/results/${race.slug}`,
   });
 }
