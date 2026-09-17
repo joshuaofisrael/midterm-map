@@ -43,6 +43,8 @@ This repo deploys a static export. Do **not** attach Vercel or another paid host
 
 Pushes to `main` run `.github/workflows/pages.yml` (`npm ci`, `npm run build`, `actions/upload-pages-artifact`, `actions/deploy-pages`). You can also run the workflow from the Actions tab.
 
+Cloudflare Web Analytics token is embedded for mapthemidterms.com; replace the token in `src/components/CloudflareAnalytics.tsx` if rotated.
+
 ### Namecheap DNS
 
 Domain **mapthemidterms.com** is registered at Namecheap. Point DNS at GitHub Pages (not Vercel):
