@@ -1,5 +1,5 @@
 import type { ChamberMeter } from "@/data/types";
-import { DemoBadge } from "./DemoBadge";
+import { StatusChip } from "./StatusChip";
 
 export function ControlMeter({ meter }: { meter: ChamberMeter }) {
   const awaiting = meter.demSeats == null && meter.repSeats == null;
@@ -8,7 +8,7 @@ export function ControlMeter({ meter }: { meter: ChamberMeter }) {
     <section className="rounded-xl border border-line bg-paper-card p-5 shadow-card">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <h2 className="font-serif text-xl font-semibold">{meter.title}</h2>
-        <DemoBadge>Awaiting returns</DemoBadge>
+        <StatusChip>Awaiting returns</StatusChip>
       </div>
       <p className="mt-2 text-sm leading-6 text-ink-muted">{meter.note}</p>
       <div className="mt-4">

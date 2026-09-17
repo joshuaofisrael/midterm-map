@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { BallotLookup } from "@/components/BallotLookup";
-import { DemoBadge } from "@/components/DemoBadge";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { RaceCard } from "@/components/RaceCard";
 import { featuredRaces } from "@/data/races";
@@ -18,22 +17,22 @@ const CTAS = [
   {
     href: "/ballot",
     title: "Ballot lookup",
-    body: "Enter a ZIP or starter state for a structured sample ballot. Confirm the official version with your election office.",
+    body: "Enter a ZIP or starter state for a structured sample-ballot sketch. Confirm the official version with your election office.",
   },
   {
     href: "/races",
     title: "Race guides",
-    body: "Senate, governor, and House templates with nominative party labels and no endorsement language.",
+    body: "Senate, governor, and House pages with sourced candidate names, short bios, and outbound citations.",
   },
   {
     href: "/polls",
     title: "Polls & ratings",
-    body: "A ratings board and poll tables. Seeded rows are marked demo until real, cited feeds exist.",
+    body: "Published surveys with pollster, dates, sample, and source links. Ratings appear only when a named outlet is cited.",
   },
   {
     href: "/results",
     title: "Results tracker",
-    body: "House and Senate control meters and key-race shells. Pre-election mode until November 3, 2026.",
+    body: "House and Senate control meters and key-race pages. Awaiting unofficial returns until November 3, 2026.",
   },
 ];
 
@@ -98,14 +97,11 @@ export default function HomePage() {
       </section>
 
       <section>
-        <div className="mb-5 flex flex-wrap items-end justify-between gap-3">
-          <div>
-            <h2 className="font-serif text-2xl font-semibold">Featured race guides</h2>
-            <p className="mt-1 text-sm text-ink-muted">
-              Office explainers with demo ratings. Names are placeholders, not endorsements.
-            </p>
-          </div>
-          <DemoBadge>Placeholder candidates</DemoBadge>
+        <div className="mb-5">
+          <h2 className="font-serif text-2xl font-semibold">Featured race guides</h2>
+          <p className="mt-1 text-sm text-ink-muted">
+            Battleground Senate and governor pages with sourced names, bios, and citations.
+          </p>
         </div>
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {featured.map((race) => (
@@ -120,10 +116,10 @@ export default function HomePage() {
       </section>
 
       <section>
-        <h2 className="font-serif text-2xl font-semibold">Starter state hubs</h2>
+        <h2 className="font-serif text-2xl font-semibold">State hubs</h2>
         <p className="mt-2 max-w-2xl text-sm text-ink-muted">
-          Twelve states ship in this MVP. Each hub links ballot structure, local
-          race guides, polls, and the results shell.
+          Twelve states: Arizona, Georgia, Michigan, North Carolina, Nevada, Ohio,
+          Pennsylvania, Wisconsin, Texas, Florida, California, and New York.
         </p>
         <ul className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {STARTER_STATES.map((state) => (
@@ -134,7 +130,7 @@ export default function HomePage() {
               <p className="mt-1 text-sm text-ink-muted">{state.summary}</p>
               <div className="mt-3 flex gap-3 text-sm">
                 <Link className="text-navy hover:underline" href={`/ballot/${state.code}`}>
-                  Ballot
+                  Sample ballot
                 </Link>
                 <Link className="text-navy hover:underline" href={`/states/${state.code}`}>
                   Hub

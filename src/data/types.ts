@@ -14,9 +14,18 @@ export type StateCode =
 
 export type Chamber = "senate" | "house" | "governor" | "statewide";
 
-export type PartyId = "DEM" | "REP" | "IND" | "OTH" | "TBD";
+export type PartyId = "DEM" | "REP" | "IND" | "LIB" | "GRN" | "OTH" | "TBD";
 
-export type RatingTier = "Solid D" | "Likely D" | "Lean D" | "Tossup" | "Lean R" | "Likely R" | "Solid R";
+export type RatingTier =
+  | "Solid D"
+  | "Likely D"
+  | "Lean D"
+  | "Tilt D"
+  | "Tossup"
+  | "Tilt R"
+  | "Lean R"
+  | "Likely R"
+  | "Solid R";
 
 export type BallotSectionKind =
   | "federal"
@@ -30,6 +39,45 @@ export interface OfficialSource {
   href: string;
 }
 
+export interface Citation {
+  name: string;
+  url: string;
+  accessed?: string;
+  published?: string;
+}
+
+export interface CandidateImage {
+  src: string;
+  alt: string;
+  attribution: string;
+  license: string;
+  sourceUrl: string;
+}
+
+export interface CandidateLink {
+  label: string;
+  href: string;
+}
+
+export interface Candidate {
+  name: string;
+  party: PartyId;
+  partyLabel: string;
+  incumbent?: boolean;
+  statusNote?: string;
+  bio: string;
+  image?: CandidateImage;
+  links: CandidateLink[];
+  sources: Citation[];
+}
+
+export interface RaceRating {
+  outlet: string;
+  tier: RatingTier;
+  url: string;
+  asOf: string;
+}
+
 export interface StateProfile {
   code: StateCode;
   name: string;
@@ -40,21 +88,16 @@ export interface StateProfile {
   summary: string;
   officialElectionOffice: OfficialSource;
   voteGov: OfficialSource;
+  ballotpedia: OfficialSource;
   registrationNote: string;
   earlyVotingNote: string;
   mailNote: string;
   idNote: string;
   hasSenateClass2: boolean;
   hasGovernor2026: boolean;
+  statewideOffices2026: string[];
   sampleBallotNotes: string[];
-}
-
-export interface CandidatePlaceholder {
-  label: string;
-  party: PartyId;
-  partyLabel: string;
-  isDemo: true;
-  note: string;
+  sampleBallotOfficial?: OfficialSource;
 }
 
 export interface RaceGuide {
@@ -66,16 +109,18 @@ export interface RaceGuide {
   shortTitle: string;
   featured: boolean;
   district?: string;
-  currentOfficeholderNote?: string;
+  incumbentNote?: string;
   overview: string;
-  whatIsOnTheLine: string;
+  officeExplainer: string;
+  whyItMatters: string;
   howToRead: string;
-  candidates: CandidatePlaceholder[];
-  rating: RatingTier;
-  ratingIsDemo: true;
-  ratingNote: string;
+  candidates: Candidate[];
+  ratings: RaceRating[];
+  sources: Citation[];
+  aggregatorLinks: OfficialSource[];
   relatedPollSlugs: string[];
   ballotSections: string[];
+  faqs: { question: string; answer: string }[];
 }
 
 export interface PollRow {
@@ -84,20 +129,24 @@ export interface PollRow {
   pollster: string;
   dates: string;
   sample: string;
+  moe?: string;
   dem: number | null;
+  demLabel?: string;
   rep: number | null;
+  repLabel?: string;
   other: number | null;
   spread: string;
-  isDemo: true;
-  note: string;
+  source: Citation;
 }
 
 export interface NationalStripRow {
   label: string;
   dem: number;
   rep: number;
-  other: number;
-  isDemo: true;
+  other?: number;
+  dates: string;
+  sample: string;
+  source: Citation;
 }
 
 export interface BallotContest {
@@ -106,7 +155,6 @@ export interface BallotContest {
   kind: BallotSectionKind;
   raceSlug?: string;
   lines: string[];
-  isDemo: true;
 }
 
 export interface BallotSection {
@@ -121,7 +169,6 @@ export interface ResultLine {
   party: PartyId;
   percent: number | null;
   votes: number | null;
-  isDemo: true;
 }
 
 export interface RaceResultShell {
@@ -139,6 +186,5 @@ export interface ChamberMeter {
   demSeats: number | null;
   repSeats: number | null;
   otherSeats: number | null;
-  isDemo: true;
   note: string;
 }

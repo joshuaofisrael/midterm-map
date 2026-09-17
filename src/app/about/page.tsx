@@ -43,15 +43,15 @@ export default function AboutPage() {
         <h2>What this site is</h2>
         <p>
           {SITE.name} is a public-facing informational hub. It gathers three
-          tools in one place: a structured sample-ballot sketch, race-guide
-          templates with poll and rating modules, and a results-tracker shell
+          tools in one place: a structured sample-ballot sketch, sourced race
+          guides with cited polls and attributed ratings, and a results tracker
           for Election Day {SITE.electionDayLabel}. The goal is plain-English
           orientation — not persuasion.
         </p>
         <ul>
           <li>Neutral, factual framing for voters, journalists, and students</li>
           <li>Cross-links among ballot, races, polls, and results</li>
-          <li>Clear labels when data is demo, illustrative, or unofficial</li>
+          <li>Visible sources on candidate facts, ratings, and poll rows</li>
           <li>Pointers to official state, county, and Vote.gov sources</li>
         </ul>
 
@@ -68,10 +68,10 @@ export default function AboutPage() {
         <h2>Editorial approach</h2>
         <p>
           Candidate names and party labels, when they appear, are for
-          identification of an office or ticket only. Until certified nominee
-          lists are wired in, placeholder lines are marked demo. Race ratings
-          are editorial illustrations unless a later version says otherwise.
-          We prefer conservative wording over traffic-chasing claims.
+          identification of an office or ticket only. Bios are short original
+          paraphrases with outbound links. Race ratings appear only when a
+          named outlet is cited. We prefer conservative wording over
+          traffic-chasing claims.
         </p>
         <p>
           Read the <Link href="/disclaimer">disclaimer</Link>,{" "}

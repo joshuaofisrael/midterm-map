@@ -4,7 +4,7 @@ Public informational website for the **U.S. 2026 midterm elections** (Election D
 
 **Map the Midterms** is an unfiled brand / service name of **Joshua Israel Ventures LLC**, a Florida limited liability company (Sunbiz document number **L26000261819**, ACTIVE). It is not a separate company and is not claimed here as a filed DBA or trademark.
 
-The site is a **voter information utility**: ballot sketches, race-guide templates, demo poll/rating boards, and a results-tracker shell. It is **not** an official election website.
+The site is a **voter information utility**: sample-ballot sketches, sourced race guides, cited poll tables, attributed ratings, and a results-tracker shell. It is **not** an official election website.
 
 Production URL: **https://mapthemidterms.com** (apex is canonical). Hosted on **free GitHub Pages** — not Vercel or any paid host.
 
@@ -79,7 +79,7 @@ Do not use `https://joshuaofisrael.github.io/midterm-map/` as the public URL. Ca
 | `/ballot/[state]` | Structured sample ballot sections |
 | `/races` | Race guide index |
 | `/races/[slug]` | Race guide template |
-| `/polls` | Ratings board + demo poll tables |
+| `/polls` | Attributed ratings + cited poll tables |
 | `/results` | House/Senate meters, key races, pre-election mode |
 | `/results/[slug]` | Per-race unofficial-returns shell |
 | `/states/[state]` | State hub |
@@ -109,26 +109,28 @@ Do **not** invent a street address or publish an EIN. If a location is required,
 4. Keep `legalName` as `Joshua Israel Ventures LLC` unless the operating entity actually changes.
 5. Repeat that the public name is an unfiled brand of the LLC unless counsel says a DBA/trademark has been filed.
 
-## How to replace demo data
+## How editorial data is stored
 
-All product numbers and placeholder candidates are local TypeScript modules:
+All product numbers and candidate rows are local TypeScript modules:
 
 | Data | File |
 |------|------|
 | Starter states, official office links, voting-process notes | `src/data/states.ts` |
-| Race guides, demo candidate lines, editorial ratings | `src/data/races.ts` |
-| Seeded poll rows and national strip | `src/data/polls.ts` |
+| Race guides, candidate bios, attributed ratings | `src/data/races.ts` and `src/data/races/` |
+| Cited poll rows and national generic-ballot surveys | `src/data/polls.ts` |
 | ZIP3 → state map (browser only) | `src/data/zip.ts` |
 | Results shells, chamber meters, Election Day helper | `src/data/results.ts` |
 | Sample ballot section builder | `src/data/ballots.ts` |
+| Candidate photo licenses | `public/ATTRIBUTION.md` |
 
-When real feeds exist:
+When updating:
 
 1. Keep types in `src/data/types.ts`.
-2. Remove `isDemo: true` only for rows that are actually sourced and dated.
-3. Do not label unofficial returns as certified.
-4. Do not add donate-to-campaign CTAs.
-5. Update `/privacy` before adding analytics or server-side ZIP processing.
+2. Every factual field shown to readers needs a visible source (name, URL, access date when possible).
+3. Do not invent poll numbers. If a race has no public poll, say so and link RCP / 538.
+4. Do not label unofficial returns as certified.
+5. Do not add donate-to-campaign CTAs.
+6. Update `/privacy` before adding analytics or server-side ZIP processing.
 
 ## Design and SEO
 

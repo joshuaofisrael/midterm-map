@@ -48,7 +48,7 @@ export default function TermsPage() {
         <h2>Your responsibilities</h2>
         <ul>
           <li>Verify ballots, districts, deadlines, and ID rules with official election offices</li>
-          <li>Treat demo poll, rating, and candidate rows as placeholders until labeled otherwise</li>
+          <li>Treat poll numbers and ratings as citations of third-party publications, not as our forecast</li>
           <li>Treat any returns as unofficial until the relevant authority certifies them</li>
           <li>Do not misuse the site to scrape, attack, or impersonate a government office</li>
         </ul>

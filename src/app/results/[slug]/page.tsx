@@ -2,10 +2,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CrossLinks } from "@/components/CrossLinks";
-import { DemoBadge } from "@/components/DemoBadge";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
+import { StatusChip } from "@/components/StatusChip";
 import { getRace, RACES } from "@/data/races";
 import { isPreElection, resultShellForRace } from "@/data/results";
 import { SITE } from "@/data/site";
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!race) return {};
   return pageMetadata({
     title: `Unofficial returns — ${race.shortTitle}`,
-    description: `Results shell for ${race.title}. Returns are unofficial until certified by election authorities. ${SITE.name} does not certify results.`,
+    description: `Results page for ${race.title}. Returns are unofficial until certified by election authorities. ${SITE.name} does not certify results.`,
     path: `/results/${race.slug}`,
   });
 }
@@ -55,7 +55,7 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
       <PageHeader
         eyebrow={`${chamberLabel(race.chamber)} · Results`}
         title={race.title}
-        lede="Per-race returns template. This page will never be labeled as certified results. Certification is a government function."
+        lede="Per-race returns page. This page will never be labeled as certified results. Certification is a government function."
       />
       <OfficialNotice />
 
@@ -64,13 +64,13 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
           <h2 className="font-serif text-xl font-semibold">
             {preElection ? "Awaiting unofficial returns" : "Unofficial returns"}
           </h2>
-          <DemoBadge>Not certified</DemoBadge>
+          <StatusChip>Not certified</StatusChip>
         </div>
         <p className="mt-2 text-sm leading-6 text-ink-muted">{shell.reportingNote}</p>
         <table className="mt-4 min-w-full text-sm">
           <thead className="text-left text-xs uppercase tracking-wide text-ink-muted">
             <tr>
-              <th className="py-2 pr-4">Candidate line</th>
+              <th className="py-2 pr-4">Candidate</th>
               <th className="py-2 pr-4">Party</th>
               <th className="py-2 pr-4">Votes</th>
               <th className="py-2">Percent</th>
@@ -81,7 +81,6 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
               <tr key={line.candidateLabel} className="border-t border-line">
                 <td className={`py-2.5 pr-4 font-medium ${partyTone(line.party)}`}>
                   {line.candidateLabel}
-                  <div className="text-xs font-normal text-demo">Demo placeholder</div>
                 </td>
                 <td className="py-2.5 pr-4">{line.party}</td>
                 <td className="py-2.5 pr-4 tabular-nums">{line.votes ?? "—"}</td>

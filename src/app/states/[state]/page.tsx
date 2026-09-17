@@ -87,11 +87,26 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
                 {state.voteGov.label}
               </a>
             </li>
+            <li>
+              <a className="font-medium text-navy hover:underline" href={state.ballotpedia.href} rel="noopener noreferrer">
+                {state.ballotpedia.label}
+              </a>
+            </li>
           </ul>
           <p className="mt-4 text-sm text-ink-muted">
             Senate Class 2 on this cycle: {state.hasSenateClass2 ? "Yes" : "No"}. Governor on this
             cycle: {state.hasGovernor2026 ? "Yes" : "No"}.
           </p>
+          {state.statewideOffices2026.length > 0 && (
+            <div className="mt-4">
+              <p className="text-sm font-semibold">Statewide offices often on the 2026 ballot</p>
+              <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-6 text-ink-muted">
+                {state.statewideOffices2026.map((office) => (
+                  <li key={office}>{office}</li>
+                ))}
+              </ul>
+            </div>
+          )}
         </article>
       </section>
 

@@ -20,7 +20,7 @@ This document is an **internal owner checklist**. It is **not legal advice** and
 
 ### Required legal pages
 - [x] `/about` — operator, what the site is, what it is not
-- [x] `/disclaimer` — election-specific cautions (not official; not legal advice; not an endorsement; ballots may be incomplete; ratings editorial/demo; poll demo rows; unofficial returns)
+- [x] `/disclaimer` — election-specific cautions (not official; not legal advice; not an endorsement; ballots may be incomplete; ratings attributed to named outlets; polls cited or honestly empty; unofficial returns)
 - [x] `/privacy` — no voter-file sales; client-side ZIP; Cloudflare Web Analytics (privacy-oriented beacon; not selling voter data); email handling
 - [x] `/terms` — use of site, LLC operator, limitation of liability, Florida governing law, no campaign contribution solicitation
 - [x] Footer links: Disclaimer / Privacy / Terms / About
@@ -33,8 +33,8 @@ This document is an **internal owner checklist**. It is **not legal advice** and
 - [x] No “official ballot,” “certified results,” or “your official voter guide” claims
 - [x] No SSN, voter-registration-number, citizenship-doc, or ballot-image collection
 - [x] No candidate/PAC donate CTAs
-- [x] Candidate names / party labels framed as nominative identification; placeholders marked demo
-- [x] Demo poll rows, national strip, and ratings labeled demo / editorial illustration
+- [x] Candidate names / party labels framed as nominative identification with sources
+- [x] Poll rows and ratings appear only with a named outlet, URL, and access date when possible
 - [x] Results labeled unofficial / awaiting returns; pre-election mode before 2026-11-03
 
 ## What counsel should still review
@@ -44,7 +44,7 @@ These items are **intentionally not signed off** in this repo:
 1. **Whether Florida LLC public-facing legal pages are sufficient** for a national election-information site (governing law, venue, limitation of liability, warranty disclaimer).
 2. **Election-administration and voter-intimidation optics** — tone is conservative, but counsel should confirm that ZIP sketches, district examples, and “sample ballot” wording cannot be read as official instruction in any target state.
 3. **Campaign-finance / political-committee risk** if the site later adds ads, email lists, or paid promotion. MVP does not solicit contributions; adding any fundraising or coordinated messaging needs a new review.
-4. **Defamation / nominative-use risk** when real candidate names replace demo placeholders. Do not publish accusations, fundraising, or implied endorsements.
+4. **Defamation / nominative-use risk** when publishing real candidate names. Do not publish accusations, fundraising, or implied endorsements.
 5. **Trademark / brand filing** if “Map the Midterms” will be used commercially. The site currently states the name is unfiled. Do not treat the public name as a filed DBA or registered mark.
 6. **Privacy / logging** once a custom domain, analytics, forms, or email vendor is connected. Update `/privacy` before adding scripts.
 7. **Accessibility and public-accommodation claims** if the site is presented as a primary voter tool for people with disabilities (it is not a replacement for official accessible ballots).
