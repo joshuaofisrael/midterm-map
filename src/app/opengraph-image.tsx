@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { SITE } from "@/data/site";
 
 export const runtime = "edge";
-export const alt = "Midterm Map — 2026 U.S. midterms voter information";
+export const alt = "Map the Midterms — 2026 U.S. midterms voter information";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -34,7 +34,7 @@ export default function OpenGraphImage() {
           >
             Voter information utility
           </div>
-          <div style={{ display: "flex", fontSize: 76, lineHeight: 1.05, fontWeight: 700 }}>
+          <div style={{ display: "flex", fontSize: 64, lineHeight: 1.05, fontWeight: 700 }}>
             {SITE.name}
           </div>
           <div

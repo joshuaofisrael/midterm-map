@@ -29,6 +29,7 @@ export const metadata: Metadata = {
   creator: SITE.legalName,
   publisher: SITE.legalName,
   keywords: [
+    "Map the Midterms",
     "2026 midterms",
     "Election Day November 3 2026",
     "sample ballot",
@@ -73,7 +74,7 @@ const organizationJsonLd = {
     value: SITE.sunbizDocumentNumber,
   },
   description:
-    "Florida limited liability company that operates informational websites, including Midterm Map as an unfiled brand name.",
+    `Florida limited liability company that operates informational websites, including ${SITE.name} as an unfiled brand name.`,
 };
 
 const websiteJsonLd = {
@@ -97,7 +98,7 @@ const websiteJsonLd = {
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
     eventStatus: "https://schema.org/EventScheduled",
     description:
-      "U.S. congressional and many state elections on Tuesday, November 3, 2026. Midterm Map is not an official election website.",
+      `U.S. congressional and many state elections on Tuesday, November 3, 2026. ${SITE.name} is not an official election website.`,
   },
 };
 

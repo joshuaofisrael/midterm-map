@@ -63,7 +63,7 @@ export function resultShellForRace(slug: string): RaceResultShell {
     raceSlug: slug,
     status: "awaiting",
     reportingNote:
-      "Awaiting returns. Any later numbers shown in this template will be unofficial until a state or county certifies the contest. Midterm Map does not certify results.",
+      `Awaiting returns. Any later numbers shown in this template will be unofficial until a state or county certifies the contest. ${SITE.name} does not certify results.`,
     lines,
   };
 }

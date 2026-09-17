@@ -101,7 +101,7 @@ export function ballotSectionsForState(code: StateCode): BallotSection[] {
       kind: "legislature",
       title: "State legislature",
       intro:
-        "State Senate and State House / Assembly districts are address-specific. Midterm Map does not assign your legislative district in this MVP.",
+        "State Senate and State House / Assembly districts are address-specific. Map the Midterms does not assign your legislative district in this MVP.",
       contests: [
         {
           id: `${code}-leg`,

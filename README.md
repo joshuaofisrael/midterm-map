@@ -1,10 +1,12 @@
-# Midterm Map
+# Map the Midterms
 
 Public informational website for the **U.S. 2026 midterm elections** (Election Day **Tuesday, November 3, 2026**).
 
-**Midterm Map** is an unfiled brand / service name of **Joshua Israel Ventures LLC**, a Florida limited liability company (Sunbiz document number **L26000261819**, ACTIVE). It is not a separate company and is not claimed here as a filed DBA or trademark.
+**Map the Midterms** is an unfiled brand / service name of **Joshua Israel Ventures LLC**, a Florida limited liability company (Sunbiz document number **L26000261819**, ACTIVE). It is not a separate company and is not claimed here as a filed DBA or trademark.
 
 The site is a **voter information utility**: ballot sketches, race-guide templates, demo poll/rating boards, and a results-tracker shell. It is **not** an official election website.
+
+Production URL: **https://mapthemidterms.com** (apex is canonical).
 
 ## Stack
 
@@ -26,7 +28,14 @@ npm run start    # serve the production build
 npm run lint     # Next.js ESLint
 ```
 
-Set `NEXT_PUBLIC_SITE_URL` to the public origin (defaults to `https://midtermmap.com` for canonical / OG / sitemap URLs).
+Set `NEXT_PUBLIC_SITE_URL` to the public origin (defaults to `https://mapthemidterms.com` for canonical / OG / sitemap URLs).
+
+## Domain / deploy
+
+- Domain **mapthemidterms.com** is registered at Namecheap.
+- After deploying this Next.js app to Vercel, point Namecheap DNS to Vercel (Vercel nameservers, or the A / CNAME records Vercel shows for the project).
+- Add both `mapthemidterms.com` and `www.mapthemidterms.com` in the Vercel project. Apex is canonical; `next.config.ts` redirects `www` to apex.
+- In the Vercel project environment, set `NEXT_PUBLIC_SITE_URL=https://mapthemidterms.com`.
 
 ## Routes
 
@@ -62,8 +71,8 @@ Do **not** invent a street address or publish an EIN. If a location is required,
 ## How to rename the brand
 
 1. Change `name`, `tagline`, `description`, `url`, and `brandNote` in `src/data/site.ts`.
-2. Update `NEXT_PUBLIC_SITE_URL`.
-3. Search the repo for `Midterm Map` / `midtermmap.com` (README, COMPLIANCE, OG image).
+2. Update `NEXT_PUBLIC_SITE_URL` and the www→apex redirect host in `next.config.ts`.
+3. Search the repo for `Map the Midterms` / `mapthemidterms.com` (README, COMPLIANCE, OG image).
 4. Keep `legalName` as `Joshua Israel Ventures LLC` unless the operating entity actually changes.
 5. Repeat that the public name is an unfiled brand of the LLC unless counsel says a DBA/trademark has been filed.
 
@@ -98,4 +107,4 @@ Live government APIs, paid Associated Press results, user accounts, comments, ca
 
 ## License / contact
 
-Operated by Joshua Israel Ventures LLC. Email `joshuaofisrael@gmail.com` with subject `[Contact: Midterm Map]`.
+Operated by Joshua Israel Ventures LLC. Email `joshuaofisrael@gmail.com` with subject `[Contact: Map the Midterms]`.

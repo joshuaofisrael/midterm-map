@@ -22,7 +22,7 @@ export const STARTER_STATES: StateProfile[] = [
     mailNote:
       "Request or status tools for mail ballots are handled by county recorders, not this site.",
     idNote:
-      "Arizona may ask for identification at the polling place. Acceptable ID lists are published by the state, not by Midterm Map.",
+      "Arizona may ask for identification at the polling place. Acceptable ID lists are published by the state, not by Map the Midterms.",
     hasSenateClass2: false,
     hasGovernor2026: true,
     sampleBallotNotes: [

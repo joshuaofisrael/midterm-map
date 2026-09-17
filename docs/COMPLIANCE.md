@@ -1,7 +1,8 @@
-# Compliance notes — Midterm Map
+# Compliance notes — Map the Midterms
 
 **Operator:** Joshua Israel Ventures LLC (Florida LLC, Sunbiz L26000261819, ACTIVE)  
-**Site brand:** Midterm Map (unfiled brand / service name of the LLC; not a separate company; not claimed as a filed DBA or trademark)  
+**Site brand:** Map the Midterms (unfiled brand / service name of the LLC; not a separate company; not claimed as a filed DBA or trademark)  
+**Rename note:** The public-facing name previously appeared as “Midterm Map.” The operator is unchanged. Neither name is claimed here as a filed DBA or trademark.  
 **Contact:** joshuaofisrael@gmail.com  
 **Location used on-site:** Miami Beach, FL (no street address published; EIN not published)
 
@@ -12,7 +13,7 @@ This document is an **internal owner checklist**. It is **not legal advice** and
 ### Ownership and identity
 - [x] LLC legal name in the sitewide footer, About, Terms, Privacy, Disclaimer
 - [x] Organization JSON-LD names Joshua Israel Ventures LLC as the organization / publisher
-- [x] WebSite JSON-LD names Midterm Map as the site name and the LLC as publisher/operator
+- [x] WebSite JSON-LD names Map the Midterms as the site name and the LLC as publisher/operator
 - [x] Brand described as an unfiled name of the LLC (About, footer, Terms)
 - [x] Sunbiz document number listed as public corporate identification (About, footer)
 - [x] Contact email only; no invented street address
@@ -44,7 +45,7 @@ These items are **intentionally not signed off** in this repo:
 2. **Election-administration and voter-intimidation optics** — tone is conservative, but counsel should confirm that ZIP sketches, district examples, and “sample ballot” wording cannot be read as official instruction in any target state.
 3. **Campaign-finance / political-committee risk** if the site later adds ads, email lists, or paid promotion. MVP does not solicit contributions; adding any fundraising or coordinated messaging needs a new review.
 4. **Defamation / nominative-use risk** when real candidate names replace demo placeholders. Do not publish accusations, fundraising, or implied endorsements.
-5. **Trademark / brand filing** if “Midterm Map” will be used commercially. The site currently states the name is unfiled.
+5. **Trademark / brand filing** if “Map the Midterms” will be used commercially. The site currently states the name is unfiled. Do not treat the public name as a filed DBA or registered mark.
 6. **Privacy / logging** once a custom domain, analytics, forms, or email vendor is connected. Update `/privacy` before adding scripts.
 7. **Accessibility and public-accommodation claims** if the site is presented as a primary voter tool for people with disabilities (it is not a replacement for official accessible ballots).
 8. **State-specific electioneering or “voter guide” statutes** if distribution is targeted (mail, SMS, paid social) rather than a passive website.

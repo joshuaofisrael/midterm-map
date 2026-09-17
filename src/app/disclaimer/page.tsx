@@ -9,7 +9,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "Disclaimer",
   description:
-    "Election-information disclaimer for Midterm Map: not an official government site, not legal advice, not an endorsement. Verify ballots and results with official authorities.",
+    `Election-information disclaimer for ${SITE.name}: not an official government site, not legal advice, not an endorsement. Verify ballots and results with official authorities.`,
   path: "/disclaimer",
 });
 
@@ -26,7 +26,7 @@ export default function DisclaimerPage() {
       <PageHeader
         eyebrow={`Last updated ${SITE.lastUpdated}`}
         title="Disclaimer"
-        lede="Read this before you rely on anything on Midterm Map. This page is informational product copy, not a lawyer’s sign-off."
+        lede={`Read this before you rely on anything on ${SITE.name}. This page is informational product copy, not a lawyer’s sign-off.`}
       />
       <OfficialNotice />
       <div className="prose-legal">
@@ -84,7 +84,7 @@ export default function DisclaimerPage() {
         <h2>Results before certification are unofficial</h2>
         <p>
           Any returns displayed before a state or county certifies a contest are{" "}
-          <strong>unofficial</strong>. Midterm Map does not publish “certified
+          <strong>unofficial</strong>. {SITE.name} does not publish “certified
           results.” Recounts, provisional ballots, and canvass timelines are
           official processes. Do not treat a meter or table here as a final
           outcome.

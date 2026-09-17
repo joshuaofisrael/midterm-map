@@ -60,7 +60,7 @@ export const RACES: RaceGuide[] = [
     currentOfficeholderNote:
       "This Class 2 seat is publicly identified with the current officeholder for orientation only. 2026 nominees are not presented as certified on this page.",
     overview:
-      "Michigan’s Class 2 Senate seat is on the 2026 cycle. Midterm Map lists the office and links related tools. Candidate rows below are demo placeholders.",
+      "Michigan’s Class 2 Senate seat is on the 2026 cycle. Map the Midterms lists the office and links related tools. Candidate rows below are demo placeholders.",
     whatIsOnTheLine:
       "One U.S. Senate seat for Michigan. Certification and any recounts are handled by Michigan election authorities, not this site.",
     howToRead:
@@ -106,7 +106,7 @@ export const RACES: RaceGuide[] = [
     currentOfficeholderNote:
       "This Class 2 seat is publicly identified with the current officeholder for orientation only. 2026 nominees are not presented as certified on this page.",
     overview:
-      "Texas’s Class 2 Senate seat is on the 2026 cycle. Midterm Map provides a neutral office explainer and links into ballot, polls, and results shells.",
+      "Texas’s Class 2 Senate seat is on the 2026 cycle. Map the Midterms provides a neutral office explainer and links into ballot, polls, and results shells.",
     whatIsOnTheLine:
       "One U.S. Senate seat for Texas. Official canvass is a state function.",
     howToRead:
@@ -257,7 +257,7 @@ export const RACES: RaceGuide[] = [
     whatIsOnTheLine:
       "Wisconsin’s chief executive, alongside other constitutional offices that may share the ballot.",
     howToRead:
-      "Party labels identify tickets. Midterm Map does not endorse any candidate or party.",
+      "Party labels identify tickets. Map the Midterms does not endorse any candidate or party.",
     candidates: demoPair(),
     rating: "Tossup",
     ratingIsDemo: true,
@@ -363,7 +363,7 @@ export const RACES: RaceGuide[] = [
     whatIsOnTheLine:
       "One seat in the U.S. House of Representatives for a two-year term.",
     howToRead:
-      "House pages on Midterm Map are templates. Confirm the district number on your county sample ballot.",
+      "House pages on Map the Midterms are templates. Confirm the district number on your county sample ballot.",
     candidates: demoPair(),
     rating: "Lean R",
     ratingIsDemo: true,
