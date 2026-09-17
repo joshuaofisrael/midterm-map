@@ -57,7 +57,7 @@ export default function PrivacyPage() {
         <p>
           This MVP does <strong>not</strong> implement first-party analytics
           cookies, advertising pixels, or a cookie consent banner, because those
-          tools are not installed. Your hosting provider (for example Vercel)
+          tools are not installed. Your hosting provider (GitHub Pages)
           and your own browser may still create ordinary technical logs such as
           IP address, user agent, and requested URL. We do not treat hosting
           logs as a marketing list.

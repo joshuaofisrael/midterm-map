@@ -48,3 +48,13 @@ export const PRIMARY_NAV = [
 export function contactMailto(): string {
   return `mailto:${SITE.email}?subject=${encodeURIComponent(SITE.emailSubject)}`;
 }
+
+/** Apex canonical URL. Directory routes use a trailing slash for GitHub Pages. */
+export function absoluteUrl(path: string = "/"): string {
+  const base = SITE.url.replace(/\/+$/, "");
+  if (!path || path === "/") {
+    return `${base}/`;
+  }
+  const clean = path.replace(/^\/+|\/+$/g, "");
+  return `${base}/${clean}/`;
+}

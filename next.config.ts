@@ -1,17 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "export",
   reactStrictMode: true,
   poweredByHeader: false,
-  async redirects() {
-    return [
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "www.mapthemidterms.com" }],
-        destination: "https://mapthemidterms.com/:path*",
-        permanent: true,
-      },
-    ];
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
   },
 };
 

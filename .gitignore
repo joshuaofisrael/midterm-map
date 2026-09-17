@@ -37,5 +37,5 @@ yarn-error.log*
 next-env.d.ts
 *.tsbuildinfo
 
-# vercel
+# local env / tooling
 .vercel
