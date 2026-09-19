@@ -65,6 +65,11 @@ export function resultShellForRace(slug: string): RaceResultShell {
   };
 }
 
+/** True once a shell has unofficial vote totals, not just candidate names. */
+export function resultShellHasReturns(shell: RaceResultShell): boolean {
+  return shell.lines.some((line) => line.votes != null || line.percent != null);
+}
+
 export function allResultShells(): RaceResultShell[] {
   return RACES.map((race) => resultShellForRace(race.slug));
 }
