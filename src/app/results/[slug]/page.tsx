@@ -7,7 +7,7 @@ import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { StatusChip } from "@/components/StatusChip";
 import { getRace, RACES } from "@/data/races";
-import { isPreElection, resultShellForRace } from "@/data/results";
+import { isPreElection, resultShellForRace, resultShellHasReturns } from "@/data/results";
 import { SITE } from "@/data/site";
 import { getState } from "@/data/states";
 import { chamberLabel, partyTone } from "@/lib/format";
@@ -21,10 +21,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const race = getRace(slug);
   if (!race) return {};
+  const shell = resultShellForRace(race.slug);
+  // Thin pre-return shells stay noindex,follow. Race guides remain indexable.
   return pageMetadata({
     title: `Unofficial returns — ${race.shortTitle}`,
     description: `Results page for ${race.title}. Returns are unofficial until certified by election authorities. ${SITE.name} does not certify results.`,
     path: `/results/${race.slug}`,
+    index: resultShellHasReturns(shell),
   });
 }
 
@@ -66,7 +69,12 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
           </h2>
           <StatusChip>Not certified</StatusChip>
         </div>
-        <p className="mt-2 text-sm leading-6 text-ink-muted">{shell.reportingNote}</p>
+        <p className="mt-2 text-sm leading-6 text-ink-muted">
+          {shell.reportingNote}
+          {!resultShellHasReturns(shell)
+            ? " This page is a pre-election stub until unofficial returns exist."
+            : null}
+        </p>
         <table className="mt-4 min-w-full text-sm">
           <thead className="text-left text-xs uppercase tracking-wide text-ink-muted">
             <tr>
