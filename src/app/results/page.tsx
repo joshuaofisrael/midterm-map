@@ -7,7 +7,14 @@ import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { StatusChip } from "@/components/StatusChip";
 import { getRace } from "@/data/races";
-import { HOUSE_METER, isPreElection, KEY_RESULT_SLUGS, SENATE_METER } from "@/data/results";
+import {
+  HOUSE_METER,
+  isPreElection,
+  KEY_RESULT_SLUGS,
+  SENATE_METER,
+  resultShellForRace,
+  resultShellHasReturns,
+} from "@/data/results";
 import { SITE } from "@/data/site";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
@@ -59,20 +66,28 @@ export default function ResultsPage() {
       <section>
         <h2 className="font-serif text-2xl font-semibold">Key races</h2>
         <p className="mt-2 text-sm text-ink-muted">
-          Selected Senate, governor, and House contests. Each row opens an unofficial-returns page.
+          Selected Senate, governor, and House contests. Unofficial returns appear here on
+          Election Night ({SITE.electionDayLabel}). Until a race has returns, the title opens
+          the race guide. This page does not invent vote totals.
         </p>
         <ul className="mt-4 divide-y divide-line rounded-xl border border-line bg-paper-card">
           {KEY_RESULT_SLUGS.map((slug) => {
             const race = getRace(slug);
             if (!race) return null;
+            const hasReturns = resultShellHasReturns(resultShellForRace(race.slug));
+            const names = race.candidates.map((candidate) => candidate.name).join(" vs. ");
             return (
               <li key={slug} className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
                 <div>
-                  <Link className="font-semibold hover:text-navy" href={`/results/${race.slug}`}>
+                  <Link
+                    className="font-semibold hover:text-navy"
+                    href={hasReturns ? `/results/${race.slug}` : `/races/${race.slug}`}
+                  >
                     {race.title}
                   </Link>
                   <p className="text-sm text-ink-muted">
-                    Awaiting unofficial returns · {race.candidates.map((candidate) => candidate.name).join(" vs. ")}
+                    {hasReturns ? "Unofficial returns" : "Awaiting unofficial returns"}
+                    {names ? ` · ${names}` : ""}
                   </p>
                 </div>
                 <Link className="text-sm font-medium text-navy hover:underline" href={`/races/${race.slug}`}>
