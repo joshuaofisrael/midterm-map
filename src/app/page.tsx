@@ -1,10 +1,13 @@
 import Link from "next/link";
 import { BallotLookup } from "@/components/BallotLookup";
+import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { RaceCard } from "@/components/RaceCard";
+import { HOME_FAQS } from "@/data/homeFaqs";
 import { featuredRaces } from "@/data/races";
 import { SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
+import { faqJsonLd } from "@/lib/format";
 import { pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -41,6 +44,7 @@ export default function HomePage() {
 
   return (
     <div className="space-y-14">
+      <JsonLd data={faqJsonLd(HOME_FAQS)} />
       <section className="grid items-start gap-8 lg:grid-cols-[1.2fr_0.8fr]">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.16em] text-navy">
@@ -139,6 +143,31 @@ export default function HomePage() {
             </li>
           ))}
         </ul>
+      </section>
+
+      <section id="faq" className="rounded-xl border border-line bg-paper-card p-5">
+        <h2 className="font-serif text-2xl font-semibold">Questions people ask</h2>
+        <p className="mt-2 max-w-2xl text-sm text-ink-muted">
+          Short answers for first-time visitors. Confirm anything that affects how you
+          vote with your election office.
+        </p>
+        <dl className="mt-5 space-y-5">
+          {HOME_FAQS.map((faq) => (
+            <div key={faq.question}>
+              <dt className="font-semibold">{faq.question}</dt>
+              <dd className="mt-1 text-sm leading-6 text-ink-muted">{faq.answer}</dd>
+            </div>
+          ))}
+        </dl>
+        <p className="mt-5 text-sm">
+          <Link className="font-medium text-navy hover:underline" href="/ballot">
+            Ballot lookup and official office links
+          </Link>
+          {" · "}
+          <a className="font-medium text-navy hover:underline" href={SITE.voteGovUrl} rel="noopener noreferrer">
+            Vote.gov
+          </a>
+        </p>
       </section>
     </div>
   );
