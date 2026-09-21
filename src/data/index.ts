@@ -1,5 +1,6 @@
 export * from "./site";
 export * from "./types";
+export * from "./homeFaqs";
 export * from "./sources";
 export * from "./states";
 export * from "./races";
