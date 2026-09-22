@@ -7,7 +7,9 @@ import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { RaceCard } from "@/components/RaceCard";
 import { racesForState } from "@/data/races";
+import { stateHubFaqs } from "@/data/stateFaqs";
 import { getState, isStateCode, STARTER_STATES } from "@/data/states";
+import { faqJsonLd } from "@/lib/format";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
@@ -20,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   if (!state) return {};
   return pageMetadata({
     title: `${state.name} 2026 midterms`,
-    description: `${state.summary} Ballot structure, race guides, polls, and a results shell. Not an official election website.`,
+    description: `${state.summary} Ballot structure, race guides, and how to confirm rules with the official election office. Not an official election website.`,
     path: `/states/${state.code}`,
   });
 }
@@ -31,14 +33,20 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
   const state = getState(code);
   if (!state) notFound();
   const races = racesForState(state.code);
+  const faqs = stateHubFaqs(state, races);
+  const sampleBallot = state.sampleBallotOfficial;
+  const distinctSample = sampleBallot && sampleBallot.href !== state.officialElectionOffice.href;
 
   return (
     <div className="space-y-8">
       <JsonLd
-        data={breadcrumbJsonLd([
-          { name: "Home", path: "/" },
-          { name: state.name, path: `/states/${state.code}` },
-        ])}
+        data={[
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: state.name, path: `/states/${state.code}` },
+          ]),
+          faqJsonLd(faqs),
+        ]}
       />
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: state.name }]} />
       <PageHeader
@@ -117,6 +125,57 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
             <RaceCard key={race.slug} race={race} />
           ))}
         </div>
+      </section>
+
+      <section id="faq" className="rounded-xl border border-line bg-paper-card p-5">
+        <h2 className="font-serif text-2xl font-semibold">
+          Questions about the {state.name} 2026 midterms
+        </h2>
+        <p className="mt-2 max-w-2xl text-sm text-ink-muted">
+          Short answers from the offices and race guides already linked on this page.
+          Confirm anything that affects how you vote with {state.officialElectionOffice.label}.
+        </p>
+        <dl className="mt-5 space-y-5">
+          {faqs.map((faq) => (
+            <div key={faq.question}>
+              <dt className="font-semibold">{faq.question}</dt>
+              <dd className="mt-1 text-sm leading-6 text-ink-muted">{faq.answer}</dd>
+            </div>
+          ))}
+        </dl>
+        <p className="mt-5 text-sm">
+          <a
+            className="font-medium text-navy hover:underline"
+            href={state.officialElectionOffice.href}
+            rel="noopener noreferrer"
+          >
+            {state.officialElectionOffice.label}
+          </a>
+          {distinctSample && sampleBallot && (
+            <>
+              {" · "}
+              <a
+                className="font-medium text-navy hover:underline"
+                href={sampleBallot.href}
+                rel="noopener noreferrer"
+              >
+                {sampleBallot.label}
+              </a>
+            </>
+          )}
+          {" · "}
+          <a
+            className="font-medium text-navy hover:underline"
+            href={state.voteGov.href}
+            rel="noopener noreferrer"
+          >
+            {state.voteGov.label}
+          </a>
+          {" · "}
+          <Link className="font-medium text-navy hover:underline" href={`/ballot/${state.code}`}>
+            Sample ballot structure
+          </Link>
+        </p>
       </section>
       <CrossLinks state={state.code} />
     </div>

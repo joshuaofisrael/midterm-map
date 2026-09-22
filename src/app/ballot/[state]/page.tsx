@@ -8,6 +8,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
 import { StatusChip } from "@/components/StatusChip";
 import { ballotSectionsForState } from "@/data/ballots";
+import { indexableRaceHref } from "@/data/results";
 import { racesForState } from "@/data/races";
 import { getState, isStateCode, STARTER_STATES } from "@/data/states";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
@@ -116,10 +117,17 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
                       <Link className="text-navy hover:underline" href={`/races/${contest.raceSlug}`}>
                         Open the race guide
                       </Link>
-                      {" · "}
-                      <Link className="text-navy hover:underline" href={`/results/${contest.raceSlug}`}>
-                        Results page
-                      </Link>
+                      {indexableRaceHref(contest.raceSlug).startsWith("/results/") && (
+                        <>
+                          {" · "}
+                          <Link
+                            className="text-navy hover:underline"
+                            href={indexableRaceHref(contest.raceSlug)}
+                          >
+                            Results page
+                          </Link>
+                        </>
+                      )}
                     </p>
                   )}
                 </div>

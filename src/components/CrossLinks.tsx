@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { indexableRaceHref } from "@/data/results";
 
 export function CrossLinks({
   state,
@@ -19,8 +20,12 @@ export function CrossLinks({
     links.push({ href: `/ballot/${state}`, label: `${state} sample ballot` });
   }
   if (raceSlug) {
-    links.push({ href: `/races/${raceSlug}`, label: "This race guide" });
-    links.push({ href: `/results/${raceSlug}`, label: "This race result" });
+    const guideHref = `/races/${raceSlug}`;
+    links.push({ href: guideHref, label: "This race guide" });
+    const resultsHref = indexableRaceHref(raceSlug);
+    if (resultsHref !== guideHref) {
+      links.push({ href: resultsHref, label: "This race result" });
+    }
   }
 
   const unique = links.filter(

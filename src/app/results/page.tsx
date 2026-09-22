@@ -9,6 +9,7 @@ import { StatusChip } from "@/components/StatusChip";
 import { getRace } from "@/data/races";
 import {
   HOUSE_METER,
+  indexableRaceHref,
   isPreElection,
   KEY_RESULT_SLUGS,
   SENATE_METER,
@@ -81,7 +82,7 @@ export default function ResultsPage() {
                 <div>
                   <Link
                     className="font-semibold hover:text-navy"
-                    href={hasReturns ? `/results/${race.slug}` : `/races/${race.slug}`}
+                    href={indexableRaceHref(race.slug)}
                   >
                     {race.title}
                   </Link>

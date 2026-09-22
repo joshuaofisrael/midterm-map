@@ -1,11 +1,14 @@
 import Link from "next/link";
 import type { RaceGuide } from "@/data/types";
+import { indexableRaceHref } from "@/data/results";
 import { getState } from "@/data/states";
 import { chamberLabel, ratingTone } from "@/lib/format";
 
 export function RaceCard({ race, compact = false }: { race: RaceGuide; compact?: boolean }) {
   const state = getState(race.state);
   const primaryRating = race.ratings[0];
+  const resultsHref = indexableRaceHref(race.slug);
+  const resultsReady = resultsHref.startsWith("/results/");
 
   return (
     <article className="flex h-full flex-col rounded-xl border border-line bg-paper-card p-5 shadow-card">
@@ -43,9 +46,11 @@ export function RaceCard({ race, compact = false }: { race: RaceGuide; compact?:
         <Link className="text-ink-muted hover:text-navy hover:underline" href={`/polls#${race.slug}`}>
           Polls
         </Link>
-        <Link className="text-ink-muted hover:text-navy hover:underline" href={`/results/${race.slug}`}>
-          Results
-        </Link>
+        {resultsReady && (
+          <Link className="text-ink-muted hover:text-navy hover:underline" href={resultsHref}>
+            Results
+          </Link>
+        )}
         <Link className="text-ink-muted hover:text-navy hover:underline" href={`/ballot/${race.state}`}>
           Sample ballot
         </Link>

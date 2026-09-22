@@ -70,6 +70,18 @@ export function resultShellHasReturns(shell: RaceResultShell): boolean {
   return shell.lines.some((line) => line.votes != null || line.percent != null);
 }
 
+/**
+ * Where an indexable page should send someone for a race.
+ * Empty /results/{slug} shells stay routable for Election Night and stay
+ * noindex, but they are not the link target until unofficial returns exist.
+ * Unknown slugs fall back to the results hub.
+ */
+export function indexableRaceHref(raceSlug?: string): string {
+  if (!raceSlug || !RACES.some((race) => race.slug === raceSlug)) return "/results";
+  if (resultShellHasReturns(resultShellForRace(raceSlug))) return `/results/${raceSlug}`;
+  return `/races/${raceSlug}`;
+}
+
 export function allResultShells(): RaceResultShell[] {
   return RACES.map((race) => resultShellForRace(race.slug));
 }
