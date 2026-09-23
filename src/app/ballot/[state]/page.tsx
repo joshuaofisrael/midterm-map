@@ -7,10 +7,12 @@ import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
 import { StatusChip } from "@/components/StatusChip";
+import { ballotStateFaqs } from "@/data/ballotFaqs";
 import { ballotSectionsForState } from "@/data/ballots";
 import { indexableRaceHref } from "@/data/results";
 import { racesForState } from "@/data/races";
 import { getState, isStateCode, STARTER_STATES } from "@/data/states";
+import { faqJsonLd } from "@/lib/format";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
@@ -36,15 +38,21 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
 
   const sections = ballotSectionsForState(state.code);
   const races = racesForState(state.code);
+  const faqs = ballotStateFaqs(state, races);
+  const sampleBallot = state.sampleBallotOfficial;
+  const distinctSample = sampleBallot && sampleBallot.href !== state.officialElectionOffice.href;
 
   return (
     <div className="space-y-8">
       <JsonLd
-        data={breadcrumbJsonLd([
-          { name: "Home", path: "/" },
-          { name: "Ballot", path: "/ballot" },
-          { name: state.name, path: `/ballot/${state.code}` },
-        ])}
+        data={[
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "Ballot", path: "/ballot" },
+            { name: state.name, path: `/ballot/${state.code}` },
+          ]),
+          faqJsonLd(faqs),
+        ]}
       />
       <Breadcrumbs
         items={[
@@ -151,6 +159,55 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
         <p className="mt-3 text-sm">
           <Link className="font-medium text-navy hover:underline" href={`/states/${state.code}`}>
             Full {state.name} hub
+          </Link>
+        </p>
+      </section>
+
+      <section id="faq" className="rounded-xl border border-line bg-paper-card p-5">
+        <h2 className="font-serif text-xl font-semibold">Questions readers ask</h2>
+        <p className="mt-2 max-w-2xl text-sm text-ink-muted">
+          Short answers from the offices, sample-ballot notes, and race-guide titles already on this
+          page. Confirm your official sample ballot with {state.officialElectionOffice.label}.
+        </p>
+        <dl className="mt-5 space-y-5">
+          {faqs.map((faq) => (
+            <div key={faq.question}>
+              <dt className="font-semibold">{faq.question}</dt>
+              <dd className="mt-1 text-sm leading-6 text-ink-muted">{faq.answer}</dd>
+            </div>
+          ))}
+        </dl>
+        <p className="mt-5 text-sm">
+          <a
+            className="font-medium text-navy hover:underline"
+            href={state.officialElectionOffice.href}
+            rel="noopener noreferrer"
+          >
+            {state.officialElectionOffice.label}
+          </a>
+          {distinctSample && sampleBallot && (
+            <>
+              {" · "}
+              <a
+                className="font-medium text-navy hover:underline"
+                href={sampleBallot.href}
+                rel="noopener noreferrer"
+              >
+                {sampleBallot.label}
+              </a>
+            </>
+          )}
+          {" · "}
+          <a
+            className="font-medium text-navy hover:underline"
+            href={state.voteGov.href}
+            rel="noopener noreferrer"
+          >
+            {state.voteGov.label}
+          </a>
+          {" · "}
+          <Link className="font-medium text-navy hover:underline" href={`/states/${state.code}`}>
+            {state.name} hub
           </Link>
         </p>
       </section>
