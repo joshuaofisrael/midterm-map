@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CrossLinks } from "@/components/CrossLinks";
 import { JsonLd } from "@/components/JsonLd";
@@ -5,8 +6,11 @@ import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { PollTable } from "@/components/PollTable";
 import { RatingBoard } from "@/components/RatingBoard";
+import { POLLS_HUB_FAQS } from "@/data/pollsFaqs";
 import { NATIONAL_GENERIC_BALLOT, POLLS } from "@/data/polls";
+import { SITE } from "@/data/site";
 import { AGGREGATORS } from "@/data/sources";
+import { faqJsonLd } from "@/lib/format";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -20,10 +24,13 @@ export default function PollsPage() {
   return (
     <div className="space-y-10">
       <JsonLd
-        data={breadcrumbJsonLd([
-          { name: "Home", path: "/" },
-          { name: "Polls", path: "/polls" },
-        ])}
+        data={[
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "Polls", path: "/polls" },
+          ]),
+          faqJsonLd(POLLS_HUB_FAQS),
+        ]}
       />
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "Polls" }]} />
       <PageHeader
@@ -69,6 +76,43 @@ export default function PollsPage() {
 
       <RatingBoard />
       <PollTable rows={POLLS} caption="Published 2026 surveys we can cite" />
+      <section id="faq" className="rounded-xl border border-line bg-paper-card p-5">
+        <h2 className="font-serif text-xl font-semibold">Questions readers ask</h2>
+        <p className="mt-2 max-w-2xl text-sm text-ink-muted">
+          Short answers from the surveys, ratings, and aggregator links already on this page. A
+          number here is not a prediction. Confirm anything that affects how you vote with your
+          election office.
+        </p>
+        <dl className="mt-5 space-y-5">
+          {POLLS_HUB_FAQS.map((faq) => (
+            <div key={faq.question}>
+              <dt className="font-semibold">{faq.question}</dt>
+              <dd className="mt-1 text-sm leading-6 text-ink-muted">{faq.answer}</dd>
+            </div>
+          ))}
+        </dl>
+        <p className="mt-5 text-sm">
+          <Link className="font-medium text-navy hover:underline" href="/races">
+            Race guides
+          </Link>
+          {" · "}
+          <Link className="font-medium text-navy hover:underline" href="/ballot">
+            Ballot lookup
+          </Link>
+          {" · "}
+          <a className="font-medium text-navy hover:underline" href={AGGREGATORS.rcp.href} rel="noopener noreferrer">
+            RealClearPolitics
+          </a>
+          {" · "}
+          <a className="font-medium text-navy hover:underline" href={AGGREGATORS.fte.href} rel="noopener noreferrer">
+            FiveThirtyEight / ABC
+          </a>
+          {" · "}
+          <a className="font-medium text-navy hover:underline" href={SITE.voteGovUrl} rel="noopener noreferrer">
+            Vote.gov
+          </a>
+        </p>
+      </section>
       <CrossLinks />
     </div>
   );
