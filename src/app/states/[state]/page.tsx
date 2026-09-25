@@ -9,6 +9,7 @@ import { RaceCard } from "@/components/RaceCard";
 import { racesForState } from "@/data/races";
 import { stateHubFaqs } from "@/data/stateFaqs";
 import { getState, isStateCode, STARTER_STATES } from "@/data/states";
+import type { StateProfile } from "@/data/types";
 import { faqJsonLd } from "@/lib/format";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
@@ -21,8 +22,8 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   const state = getState(code);
   if (!state) return {};
   return pageMetadata({
-    title: `${state.name} 2026 midterms`,
-    description: `${state.summary} Ballot structure, race guides, and how to confirm rules with the official election office. Not an official election website.`,
+    title: stateHubTitle(state.name),
+    description: stateHubDescription(state),
     path: `/states/${state.code}`,
   });
 }
@@ -51,7 +52,7 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: state.name }]} />
       <PageHeader
         eyebrow={`${state.name} hub`}
-        title={`${state.name} and the 2026 midterms`}
+        title={stateHubHeading(state.name)}
         lede={state.summary}
       />
       <OfficialNotice compact />
@@ -180,4 +181,73 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
       <CrossLinks state={state.code} />
     </div>
   );
+}
+
+/** Search title. Site name is appended by pageMetadata; keep this under ~60 characters. */
+function stateHubTitle(name: string): string {
+  return `${name} 2026 midterms: ballot, races & voting`;
+}
+
+function stateHubHeading(name: string): string {
+  return `${name} 2026 midterms: ballot, races, and voting rules`;
+}
+
+function stateHubDescription(state: StateProfile): string {
+  return `${stateCycleLead(state)} This page covers sample-ballot structure, race guides, and how to confirm rules with ${state.officialElectionOffice.label}. Not an official election website.`;
+}
+
+/**
+ * One sentence from stored cycle flags and statewide offices.
+ * Does not invent offices that are not on the state profile.
+ */
+function stateCycleLead(state: StateProfile): string {
+  const listed = joinOffices(notableOffices(state));
+
+  if (state.hasSenateClass2 && state.hasGovernor2026) {
+    const extra = listed ? `, along with the ${listed}` : "";
+    return `${state.name}’s 2026 cycle includes a Class 2 U.S. Senate seat and the governor’s office${extra}.`;
+  }
+
+  if (state.hasSenateClass2) {
+    const extra = listed ? `, with other offices often listed such as ${listed}` : "";
+    return `${state.name}’s 2026 cycle includes a Class 2 U.S. Senate seat${extra}; the governor’s office is not on the regular 2026 ballot.`;
+  }
+
+  if (state.hasGovernor2026) {
+    const extra = listed ? ` and other statewide offices such as ${listed}` : "";
+    return `${state.name}’s 2026 cycle includes the governor’s office${extra}, with no Class 2 U.S. Senate seat scheduled.`;
+  }
+
+  const extra = listed ? `; offices often listed include ${listed}` : "";
+  return `No Class 2 U.S. Senate seat or governor’s office is scheduled for ${state.name} in 2026${extra}.`;
+}
+
+function notableOffices(state: StateProfile): string[] {
+  return state.statewideOffices2026
+    .filter((office) => {
+      const normalized = office.toLowerCase();
+      if (normalized.startsWith("u.s. senate")) return false;
+      if (normalized.startsWith("governor")) return false;
+      if (normalized.startsWith("u.s. house")) return false;
+      if (normalized.includes("address-specific")) return false;
+      if (normalized.includes("as certified")) return false;
+      if (normalized.includes("local contest")) return false;
+      return true;
+    })
+    .slice(0, 2)
+    .map(proseOffice);
+}
+
+function proseOffice(office: string): string {
+  const trimmed = office.replace(/ on this cycle$/, "");
+  if (/^(U\.S\.|Public |Corporation |Railroad |State Board |University |Judicial )/.test(trimmed)) {
+    return trimmed;
+  }
+  return trimmed.charAt(0).toLowerCase() + trimmed.slice(1);
+}
+
+function joinOffices(offices: string[]): string {
+  if (offices.length === 0) return "";
+  if (offices.length === 1) return offices[0];
+  return `${offices[0]} and ${offices[1]}`;
 }

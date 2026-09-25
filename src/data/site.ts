@@ -27,7 +27,7 @@ export const SITE = {
     "Not an official election website. Verify ballot and voting details with your state or county election office.",
   verifyShort:
     "This is not an official government, secretary of state, or county election site. Confirm your sample ballot, districts, and voting rules with your state or county election office.",
-  lastUpdated: "September 21, 2026",
+  lastUpdated: "September 25, 2026",
   voteGovUrl: "https://www.vote.gov/",
 } as const;
 
