@@ -2,28 +2,45 @@ import Link from "next/link";
 import { BallotLookup } from "@/components/BallotLookup";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CrossLinks } from "@/components/CrossLinks";
+import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
-import { SITE } from "@/data/site";
+import { VoterChecklist } from "@/components/VoterChecklist";
+import { absoluteUrl, SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
+import { VOTER_CHECKLIST } from "@/data/voterChecklist";
+import { howToJsonLd } from "@/lib/format";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
-import { JsonLd } from "@/components/JsonLd";
 
 export const metadata = pageMetadata({
   title: "Ballot lookup",
   description:
-    "Client-side ZIP and state lookup for structured 2026 sample-ballot sections and official election-office links. Not an official ballot. Verify with your state or county election office.",
+    "2026 ballot lookup and voter checklist: registration, sample ballot, polling place, and ID rules. Not an official ballot. Verify with your election office.",
   path: "/ballot",
 });
 
 export default function BallotIndexPage() {
+  const checklistUrl = `${absoluteUrl("/ballot")}#${VOTER_CHECKLIST.id}`;
+
   return (
     <div className="space-y-8">
       <JsonLd
-        data={breadcrumbJsonLd([
-          { name: "Home", path: "/" },
-          { name: "Ballot", path: "/ballot" },
-        ])}
+        data={[
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "Ballot", path: "/ballot" },
+          ]),
+          howToJsonLd({
+            name: VOTER_CHECKLIST.name,
+            description: VOTER_CHECKLIST.description,
+            url: checklistUrl,
+            steps: VOTER_CHECKLIST.steps.map((step) => ({
+              name: step.name,
+              text: step.text,
+              url: `${absoluteUrl("/ballot")}#${step.id}`,
+            })),
+          }),
+        ]}
       />
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "Ballot" }]} />
       <PageHeader
@@ -32,8 +49,11 @@ export default function BallotIndexPage() {
         lede="Enter a ZIP or choose a starter state. Matching stays in your browser. This is a voter information sketch of offices on the 2026 cycle, not your official sample ballot and not a certified list of contests."
       />
       <OfficialNotice />
-      <BallotLookup />
-      <section>
+      <div id="ballot-lookup">
+        <BallotLookup />
+      </div>
+      <VoterChecklist />
+      <section id="starter-states">
         <h2 className="font-serif text-2xl font-semibold">Starter states</h2>
         <p className="mt-2 max-w-2xl text-sm text-ink-muted">
           MVP coverage: Arizona, Georgia, Michigan, North Carolina, Nevada, Ohio,

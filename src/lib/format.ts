@@ -47,6 +47,32 @@ export function faqJsonLd(faqs: { question: string; answer: string }[]) {
   };
 }
 
+/**
+ * HowTo JSON-LD. Step `text` must match the visible instruction.
+ * `url` values should already be absolute.
+ */
+export function howToJsonLd(howto: {
+  name: string;
+  description: string;
+  url?: string;
+  steps: { name: string; text: string; url?: string }[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: howto.name,
+    description: howto.description,
+    ...(howto.url ? { url: howto.url } : {}),
+    step: howto.steps.map((step, index) => ({
+      "@type": "HowToStep",
+      position: index + 1,
+      name: step.name,
+      text: step.text,
+      ...(step.url ? { url: step.url } : {}),
+    })),
+  };
+}
+
 export function chamberLabel(chamber: string): string {
   switch (chamber) {
     case "senate":
