@@ -7,6 +7,7 @@ import { HOME_FAQS } from "@/data/homeFaqs";
 import { featuredRaces } from "@/data/races";
 import { SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
+import { VOTER_CHECKLIST } from "@/data/voterChecklist";
 import { faqJsonLd } from "@/lib/format";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -20,7 +21,7 @@ const CTAS = [
   {
     href: "/ballot",
     title: "Ballot lookup",
-    body: "Enter a ZIP or starter state for a structured sample-ballot sketch. Confirm the official version with your election office.",
+    body: "Enter a ZIP or starter state for a structured sample-ballot sketch. The same page includes a 2026 voter checklist. Confirm the official version with your election office.",
   },
   {
     href: "/races",
@@ -160,6 +161,13 @@ export default function HomePage() {
           ))}
         </dl>
         <p className="mt-5 text-sm">
+          <Link
+            className="font-medium text-navy hover:underline"
+            href={`/ballot#${VOTER_CHECKLIST.id}`}
+          >
+            2026 voter checklist before Election Day
+          </Link>
+          {" · "}
           <Link className="font-medium text-navy hover:underline" href="/ballot">
             Ballot lookup and official office links
           </Link>
