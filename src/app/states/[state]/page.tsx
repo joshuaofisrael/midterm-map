@@ -119,6 +119,31 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
         </article>
       </section>
 
+      {state.officialVoterLinks && state.officialVoterLinks.length > 0 && (
+        <section id="official-links" className="rounded-xl border border-line bg-paper-card p-5">
+          <h2 className="font-serif text-2xl font-semibold">
+            Official {state.name} election and voter links
+          </h2>
+          <p className="mt-2 max-w-2xl text-sm leading-6 text-ink-muted">
+            This site is not an official election website. Use these {state.name} tools to check
+            your registration, find your polling place, and track a mail or absentee ballot.
+          </p>
+          <ul className="mt-4 space-y-2 text-sm">
+            {state.officialVoterLinks.map((link) => (
+              <li key={link.href}>
+                <a
+                  className="font-medium text-navy hover:underline"
+                  href={link.href}
+                  rel="noopener noreferrer"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       <section>
         <h2 className="font-serif text-2xl font-semibold">Race guides</h2>
         <div className="mt-4 grid gap-4 md:grid-cols-2">

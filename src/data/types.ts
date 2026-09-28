@@ -98,6 +98,8 @@ export interface StateProfile {
   statewideOffices2026: string[];
   sampleBallotNotes: string[];
   sampleBallotOfficial?: OfficialSource;
+  /** State election-office and voter-tool links. Omit when a state has none curated. */
+  officialVoterLinks?: OfficialSource[];
 }
 
 export interface RaceGuide {

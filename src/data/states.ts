@@ -261,8 +261,30 @@ export const STARTER_STATES: StateProfile[] = [
     },
     voteGov: {
       label: "Vote.gov Pennsylvania",
-      href: "https://www.vote.gov/register/pennsylvania/",
+      href: "https://vote.gov/register/pennsylvania",
     },
+    officialVoterLinks: [
+      {
+        label: "Pennsylvania Department of State — voting and elections",
+        href: "https://www.pa.gov/agencies/vote",
+      },
+      {
+        label: "Check your voter registration status",
+        href: "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx",
+      },
+      {
+        label: "Find your polling place",
+        href: "https://www.pavoterservices.pa.gov/Pages/PollingPlaceInfo.aspx",
+      },
+      {
+        label: "Track your mail or absentee ballot",
+        href: "https://www.pavoterservices.pa.gov/Pages/BallotTracking.aspx",
+      },
+      {
+        label: "Vote.gov Pennsylvania",
+        href: "https://vote.gov/register/pennsylvania",
+      },
+    ],
     ballotpedia: { label: "Ballotpedia — Pennsylvania elections 2026", href: "https://ballotpedia.org/Pennsylvania_elections,_2026" },
     statewideOffices2026: [
       "Governor and lieutenant governor",
