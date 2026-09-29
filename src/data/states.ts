@@ -55,7 +55,28 @@ export const STARTER_STATES: StateProfile[] = [
       label: "Georgia Secretary of State — Elections",
       href: "https://sos.ga.gov/elections-division-georgia-secretary-states-office",
     },
-    voteGov: { label: "Vote.gov Georgia", href: "https://www.vote.gov/register/georgia/" },
+    voteGov: {
+      label: "Vote.gov Georgia",
+      href: "https://vote.gov/register/georgia",
+    },
+    officialVoterLinks: [
+      {
+        label: "Georgia Secretary of State — Elections Division",
+        href: "https://sos.ga.gov/elections-division-georgia-secretary-states-office",
+      },
+      {
+        label: "My Voter Page — registration, polling place, and absentee status",
+        href: "https://mvp.sos.ga.gov/s/",
+      },
+      {
+        label: "Secure My Absentee Ballot — request an absentee ballot",
+        href: "https://securemyabsenteeballot.sos.ga.gov/s/",
+      },
+      {
+        label: "Vote.gov Georgia",
+        href: "https://vote.gov/register/georgia",
+      },
+    ],
     ballotpedia: { label: "Ballotpedia — Georgia elections 2026", href: "https://ballotpedia.org/Georgia_elections,_2026" },
     statewideOffices2026: [
       "U.S. Senate (Class 2)",
@@ -69,7 +90,7 @@ export const STARTER_STATES: StateProfile[] = [
       "State school superintendent",
       "Public Service Commission seats on this cycle",
     ],
-    sampleBallotOfficial: { label: "Georgia My Voter Page", href: "https://www.mvp.sos.ga.gov/" },
+    sampleBallotOfficial: { label: "Georgia My Voter Page", href: "https://mvp.sos.ga.gov/s/" },
     registrationNote:
       "Georgia voter registration is administered by the Secretary of State and county election offices. Deadlines are official-only.",
     earlyVotingNote:
