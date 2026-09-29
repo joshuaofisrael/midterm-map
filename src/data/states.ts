@@ -65,11 +65,15 @@ export const STARTER_STATES: StateProfile[] = [
         href: "https://sos.ga.gov/elections-division-georgia-secretary-states-office",
       },
       {
-        label: "My Voter Page — registration, polling place, and absentee status",
+        label: "My Voter Page — registration, polling place, and ballot status",
         href: "https://mvp.sos.ga.gov/s/",
       },
       {
-        label: "Secure My Absentee Ballot — request an absentee ballot",
+        label: "Register to vote online (Georgia)",
+        href: "https://registertovote.sos.ga.gov/GAOLVR/",
+      },
+      {
+        label: "Request or manage an absentee ballot",
         href: "https://securemyabsenteeballot.sos.ga.gov/s/",
       },
       {
