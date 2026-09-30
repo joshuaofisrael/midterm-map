@@ -106,11 +106,8 @@ const websiteJsonLd = {
     email: SITE.email,
   },
   about: {
-    "@type": "Event",
+    "@type": "Thing",
     name: "United States 2026 midterm elections",
-    startDate: SITE.electionDayIso,
-    eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-    eventStatus: "https://schema.org/EventScheduled",
     description:
       `U.S. congressional and many state elections on Tuesday, November 3, 2026. ${SITE.name} is not an official election website.`,
   },
