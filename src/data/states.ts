@@ -14,7 +14,29 @@ export const STARTER_STATES: StateProfile[] = [
       label: "Arizona Secretary of State — Elections",
       href: "https://azsos.gov/elections",
     },
-    voteGov: { label: "Vote.gov Arizona", href: "https://www.vote.gov/register/arizona/" },
+    voteGov: { label: "Vote.gov Arizona", href: "https://vote.gov/register/arizona" },
+    officialVoterLinks: [
+      {
+        label: "Arizona Secretary of State — Elections",
+        href: "https://azsos.gov/elections",
+      },
+      {
+        label: "Arizona Voter Information Portal — registration, polling place, and ballot status",
+        href: "https://my.arizona.vote/PortalList.aspx",
+      },
+      {
+        label: "Register or update voter registration online (AZ MVD Now)",
+        href: "https://azmvdnow.gov/vr",
+      },
+      {
+        label: "Request a one-time ballot-by-mail",
+        href: "https://my.arizona.vote/Early/ApplicationLogin.aspx",
+      },
+      {
+        label: "Vote.gov Arizona",
+        href: "https://vote.gov/register/arizona",
+      },
+    ],
     ballotpedia: { label: "Ballotpedia — Arizona elections 2026", href: "https://ballotpedia.org/Arizona_elections,_2026" },
     statewideOffices2026: [
       "Governor and lieutenant governor (first paired ticket)",
