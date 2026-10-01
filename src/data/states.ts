@@ -146,7 +146,33 @@ export const STARTER_STATES: StateProfile[] = [
       label: "Michigan Secretary of State — Elections",
       href: "https://www.michigan.gov/sos/elections",
     },
-    voteGov: { label: "Vote.gov Michigan", href: "https://www.vote.gov/register/michigan/" },
+    voteGov: { label: "Vote.gov Michigan", href: "https://vote.gov/register/michigan" },
+    officialVoterLinks: [
+      {
+        label: "Michigan Secretary of State — Elections",
+        href: "https://www.michigan.gov/sos/elections",
+      },
+      {
+        label: "Michigan Voter Information Center — registration, polling place, sample ballot, and ballot tracking",
+        href: "https://mvic.sos.state.mi.us/Voter/Index",
+      },
+      {
+        label: "Register to vote online (Michigan)",
+        href: "https://mvic.sos.state.mi.us/RegisterVoter/Index",
+      },
+      {
+        label: "Apply for an absentee ballot online",
+        href: "https://mvic.sos.state.mi.us/AVApplication",
+      },
+      {
+        label: "Absentee voting (Michigan SOS)",
+        href: "https://www.michigan.gov/sos/elections/voting/absentee-voting",
+      },
+      {
+        label: "Vote.gov Michigan",
+        href: "https://vote.gov/register/michigan",
+      },
+    ],
     ballotpedia: { label: "Ballotpedia — Michigan elections 2026", href: "https://ballotpedia.org/Michigan_elections,_2026" },
     statewideOffices2026: [
       "U.S. Senate (Class 2)",
@@ -156,7 +182,7 @@ export const STARTER_STATES: StateProfile[] = [
       "State Board of Education seats on this cycle",
       "University governing-board seats on this cycle",
     ],
-    sampleBallotOfficial: { label: "Michigan Secretary of State — Elections", href: "https://www.michigan.gov/sos/elections" },
+    sampleBallotOfficial: { label: "Michigan Voter Information Center", href: "https://mvic.sos.state.mi.us/Voter/Index" },
     registrationNote:
       "Michigan offers online, mail, and in-person registration, including same-day options in many cases. Confirm current rules with the state.",
     earlyVotingNote:
