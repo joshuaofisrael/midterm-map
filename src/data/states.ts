@@ -214,8 +214,30 @@ export const STARTER_STATES: StateProfile[] = [
     },
     voteGov: {
       label: "Vote.gov North Carolina",
-      href: "https://www.vote.gov/register/north-carolina/",
+      href: "https://vote.gov/register/north-carolina",
     },
+    officialVoterLinks: [
+      {
+        label: "North Carolina State Board of Elections",
+        href: "https://www.ncsbe.gov/",
+      },
+      {
+        label: "Voter Search — registration status, polling place, and sample ballot tools",
+        href: "https://vt.ncsbe.gov/RegLkup/",
+      },
+      {
+        label: "Register or update voter registration online (NCDMV)",
+        href: "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
+      },
+      {
+        label: "Request an absentee ballot (NC Absentee Ballot Portal)",
+        href: "https://votebymail.ncsbe.gov/app/home",
+      },
+      {
+        label: "Vote.gov North Carolina",
+        href: "https://vote.gov/register/north-carolina",
+      },
+    ],
     ballotpedia: { label: "Ballotpedia — North Carolina elections 2026", href: "https://ballotpedia.org/North_Carolina_elections,_2026" },
     statewideOffices2026: [
       "U.S. Senate (Class 2)",
@@ -223,7 +245,7 @@ export const STARTER_STATES: StateProfile[] = [
       "State legislature seats on this cycle",
       "Judicial and local contests as certified for your county",
     ],
-    sampleBallotOfficial: { label: "North Carolina State Board of Elections", href: "https://www.ncsbe.gov/" },
+    sampleBallotOfficial: { label: "North Carolina Voter Search", href: "https://vt.ncsbe.gov/RegLkup/" },
     registrationNote:
       "Registration is handled through the State Board of Elections and county boards. Check the official deadline calendar.",
     earlyVotingNote:
