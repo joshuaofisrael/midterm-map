@@ -417,7 +417,32 @@ export const STARTER_STATES: StateProfile[] = [
       label: "Wisconsin Elections Commission",
       href: "https://elections.wi.gov/",
     },
-    voteGov: { label: "Vote.gov Wisconsin", href: "https://www.vote.gov/register/wisconsin/" },
+    voteGov: {
+      label: "Vote.gov Wisconsin",
+      href: "https://vote.gov/register/wisconsin",
+    },
+    officialVoterLinks: [
+      {
+        label: "Wisconsin Elections Commission",
+        href: "https://elections.wi.gov/",
+      },
+      {
+        label: "MyVote Wisconsin — registration status, sample ballot, and municipal clerk tools",
+        href: "https://myvote.wi.gov/",
+      },
+      {
+        label: "Register or update voter registration (MyVote)",
+        href: "https://myvote.wi.gov/en-us/Voter-Registration",
+      },
+      {
+        label: "Request an absentee ballot (MyVote)",
+        href: "https://myvote.wi.gov/en-us/Request-An-Absentee-Ballot",
+      },
+      {
+        label: "Vote.gov Wisconsin",
+        href: "https://vote.gov/register/wisconsin",
+      },
+    ],
     ballotpedia: { label: "Ballotpedia — Wisconsin elections 2026", href: "https://ballotpedia.org/Wisconsin_elections,_2026" },
     statewideOffices2026: [
       "Governor and lieutenant governor",
@@ -425,7 +450,7 @@ export const STARTER_STATES: StateProfile[] = [
       "Secretary of state",
       "State treasurer",
     ],
-    sampleBallotOfficial: { label: "Wisconsin Elections Commission", href: "https://elections.wi.gov/" },
+    sampleBallotOfficial: { label: "MyVote Wisconsin", href: "https://myvote.wi.gov/" },
     registrationNote:
       "Wisconsin allows several registration methods, including election-day registration in many cases. Confirm with your municipal clerk.",
     earlyVotingNote:
