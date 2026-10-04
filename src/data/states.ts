@@ -275,7 +275,29 @@ export const STARTER_STATES: StateProfile[] = [
       label: "Nevada Secretary of State — Elections",
       href: "https://www.nvsos.gov/sos/elections",
     },
-    voteGov: { label: "Vote.gov Nevada", href: "https://www.vote.gov/register/nevada/" },
+    voteGov: { label: "Vote.gov Nevada", href: "https://vote.gov/register/nevada" },
+    officialVoterLinks: [
+      {
+        label: "Nevada Secretary of State — Elections",
+        href: "https://www.nvsos.gov/sos/elections",
+      },
+      {
+        label: "Check voter registration, sample ballot, and polling place",
+        href: "https://www.nvsos.gov/votersearch/",
+      },
+      {
+        label: "Register or update voter registration online",
+        href: "https://registertovote.nv.gov/",
+      },
+      {
+        label: "Track your mail ballot (MyBallot.NV.gov)",
+        href: "https://myballot.nv.gov/",
+      },
+      {
+        label: "Vote.gov Nevada",
+        href: "https://vote.gov/register/nevada",
+      },
+    ],
     ballotpedia: { label: "Ballotpedia — Nevada elections 2026", href: "https://ballotpedia.org/Nevada_elections,_2026" },
     statewideOffices2026: [
       "Governor",
@@ -285,7 +307,10 @@ export const STARTER_STATES: StateProfile[] = [
       "State treasurer",
       "State controller",
     ],
-    sampleBallotOfficial: { label: "Nevada Secretary of State — Elections", href: "https://www.nvsos.gov/sos/elections" },
+    sampleBallotOfficial: {
+      label: "Nevada Voter Search",
+      href: "https://www.nvsos.gov/votersearch/",
+    },
     registrationNote:
       "Nevada registration options include online and same-day in many circumstances. County clerks administer the rolls.",
     earlyVotingNote:
