@@ -340,7 +340,37 @@ export const STARTER_STATES: StateProfile[] = [
       label: "Ohio Secretary of State — Elections",
       href: "https://www.ohiosos.gov/elections/",
     },
-    voteGov: { label: "Vote.gov Ohio", href: "https://www.vote.gov/register/ohio/" },
+    voteGov: { label: "Vote.gov Ohio", href: "https://vote.gov/register/ohio" },
+    officialVoterLinks: [
+      {
+        label: "Ohio Secretary of State — Elections",
+        href: "https://www.ohiosos.gov/elections/",
+      },
+      {
+        label: "Voter lookup (registration status)",
+        href: "https://voterlookup.ohiosos.gov/voterlookup.aspx",
+      },
+      {
+        label: "Find my polling location",
+        href: "https://www.ohiosos.gov/directories/find-my-polling-location",
+      },
+      {
+        label: "Register or update online",
+        href: "https://olvr.ohiosos.gov/",
+      },
+      {
+        label: "Request an absentee ballot",
+        href: "https://www.ohiosos.gov/elections/request-an-absentee-ballot",
+      },
+      {
+        label: "Track my ballot",
+        href: "https://www.ohiosos.gov/directories/ballot-tracking",
+      },
+      {
+        label: "Vote.gov Ohio",
+        href: "https://vote.gov/register/ohio",
+      },
+    ],
     ballotpedia: { label: "Ballotpedia — Ohio elections 2026", href: "https://ballotpedia.org/Ohio_elections,_2026" },
     statewideOffices2026: [
       "Governor and lieutenant governor (joint ticket)",
@@ -349,7 +379,10 @@ export const STARTER_STATES: StateProfile[] = [
       "Treasurer of state",
       "Auditor of state",
     ],
-    sampleBallotOfficial: { label: "Ohio Secretary of State — Elections", href: "https://www.ohiosos.gov/elections/" },
+    sampleBallotOfficial: {
+      label: "Ohio voter lookup",
+      href: "https://voterlookup.ohiosos.gov/voterlookup.aspx",
+    },
     registrationNote:
       "Ohio voter registration is processed by county boards of elections. Confirm deadlines on the Secretary of State site.",
     earlyVotingNote:
@@ -503,9 +536,31 @@ export const STARTER_STATES: StateProfile[] = [
       "Texas’s 2026 cycle includes a U.S. Senate Class 2 seat, statewide executive offices, and a large U.S. House map. County election administrators publish sample ballots.",
     officialElectionOffice: {
       label: "Texas Secretary of State — Elections",
-      href: "https://www.sos.texas.gov/elections/",
+      href: "https://www.sos.texas.gov/elections/index.shtml",
     },
-    voteGov: { label: "Vote.gov Texas", href: "https://www.vote.gov/register/texas/" },
+    voteGov: { label: "Vote.gov Texas", href: "https://vote.gov/register/texas" },
+    officialVoterLinks: [
+      {
+        label: "Texas Secretary of State — Elections",
+        href: "https://www.sos.texas.gov/elections/index.shtml",
+      },
+      {
+        label: "VoteTexas.gov (official state voter site)",
+        href: "https://www.votetexas.gov/",
+      },
+      {
+        label: "Am I Registered? / Where's my polling place",
+        href: "https://goelect.txelections.civixapps.com/ivis-mvp-ui/#/login",
+      },
+      {
+        label: "Track my mail ballot",
+        href: "https://www.votetexas.gov/voting-by-mail/track-my-ballot.html",
+      },
+      {
+        label: "Vote.gov Texas",
+        href: "https://vote.gov/register/texas",
+      },
+    ],
     ballotpedia: { label: "Ballotpedia — Texas elections 2026", href: "https://ballotpedia.org/Texas_elections,_2026" },
     statewideOffices2026: [
       "U.S. Senate (Class 2)",
@@ -517,7 +572,10 @@ export const STARTER_STATES: StateProfile[] = [
       "Commissioner of agriculture",
       "Railroad Commission seats on this cycle",
     ],
-    sampleBallotOfficial: { label: "Texas Secretary of State — Elections", href: "https://www.sos.texas.gov/elections/" },
+    sampleBallotOfficial: {
+      label: "Am I Registered? / Where's my polling place",
+      href: "https://goelect.txelections.civixapps.com/ivis-mvp-ui/#/login",
+    },
     registrationNote:
       "Texas registration is processed by county voter registrars. Check the official deadline before Election Day.",
     earlyVotingNote:
@@ -545,9 +603,35 @@ export const STARTER_STATES: StateProfile[] = [
       "Florida’s 2026 cycle includes statewide executive offices and U.S. House races. Supervisors of elections in each county issue sample ballots.",
     officialElectionOffice: {
       label: "Florida Division of Elections",
-      href: "https://www.dos.fl.gov/elections/",
+      href: "https://dos.fl.gov/elections/",
     },
-    voteGov: { label: "Vote.gov Florida", href: "https://www.vote.gov/register/florida/" },
+    voteGov: { label: "Vote.gov Florida", href: "https://vote.gov/register/florida" },
+    officialVoterLinks: [
+      {
+        label: "Florida Division of Elections",
+        href: "https://dos.fl.gov/elections/",
+      },
+      {
+        label: "Check voter status and polling place",
+        href: "https://registration.dos.fl.gov/CheckVoterStatus",
+      },
+      {
+        label: "Online voter registration",
+        href: "https://dos.fl.gov/elections/for-voters/voter-registration/online-voter-registration/",
+      },
+      {
+        label: "Vote-by-mail ballot status lookup",
+        href: "https://dos.fl.gov/elections/for-voters/check-your-voter-status-and-polling-place/vote-by-mail-ballot-information-and-status-lookup/",
+      },
+      {
+        label: "Find your county Supervisor of Elections",
+        href: "https://dos.fl.gov/elections/contacts/supervisor-of-elections/",
+      },
+      {
+        label: "Vote.gov Florida",
+        href: "https://vote.gov/register/florida",
+      },
+    ],
     ballotpedia: { label: "Ballotpedia — Florida elections 2026", href: "https://ballotpedia.org/Florida_elections,_2026" },
     statewideOffices2026: [
       "Governor and lieutenant governor",
@@ -555,7 +639,10 @@ export const STARTER_STATES: StateProfile[] = [
       "Chief financial officer",
       "Commissioner of agriculture",
     ],
-    sampleBallotOfficial: { label: "Florida Division of Elections", href: "https://www.dos.fl.gov/elections/" },
+    sampleBallotOfficial: {
+      label: "Find your county Supervisor of Elections",
+      href: "https://dos.fl.gov/elections/contacts/supervisor-of-elections/",
+    },
     registrationNote:
       "Florida registration is handled by county supervisors of elections. Book-closing deadlines are official.",
     earlyVotingNote:
@@ -585,7 +672,33 @@ export const STARTER_STATES: StateProfile[] = [
       label: "California Secretary of State — Elections",
       href: "https://www.sos.ca.gov/elections",
     },
-    voteGov: { label: "Vote.gov California", href: "https://www.vote.gov/register/california/" },
+    voteGov: { label: "Vote.gov California", href: "https://vote.gov/register/california" },
+    officialVoterLinks: [
+      {
+        label: "California Secretary of State — Elections",
+        href: "https://www.sos.ca.gov/elections",
+      },
+      {
+        label: "Check registration status",
+        href: "https://voterstatus.sos.ca.gov/",
+      },
+      {
+        label: "Register to vote online",
+        href: "https://registertovote.ca.gov/",
+      },
+      {
+        label: "Where's My Ballot? tracking",
+        href: "https://www.sos.ca.gov/elections/ballot-status/wheres-my-ballot",
+      },
+      {
+        label: "Find your polling place / vote center",
+        href: "https://www.sos.ca.gov/elections/polling-place",
+      },
+      {
+        label: "Vote.gov California",
+        href: "https://vote.gov/register/california",
+      },
+    ],
     ballotpedia: { label: "Ballotpedia — California elections 2026", href: "https://ballotpedia.org/California_elections,_2026" },
     statewideOffices2026: [
       "Governor",
@@ -597,7 +710,10 @@ export const STARTER_STATES: StateProfile[] = [
       "Insurance commissioner",
       "Superintendent of public instruction",
     ],
-    sampleBallotOfficial: { label: "California Secretary of State — Elections", href: "https://www.sos.ca.gov/elections" },
+    sampleBallotOfficial: {
+      label: "Check registration status",
+      href: "https://voterstatus.sos.ca.gov/",
+    },
     registrationNote:
       "California offers online, same-day, and conditional registration in many cases. Confirm with your county elections office.",
     earlyVotingNote:
@@ -627,14 +743,39 @@ export const STARTER_STATES: StateProfile[] = [
       label: "New York State Board of Elections",
       href: "https://elections.ny.gov/",
     },
-    voteGov: { label: "Vote.gov New York", href: "https://www.vote.gov/register/new-york/" },
+    voteGov: { label: "Vote.gov New York", href: "https://vote.gov/register/new-york" },
+    officialVoterLinks: [
+      {
+        label: "New York State Board of Elections",
+        href: "https://elections.ny.gov/",
+      },
+      {
+        label: "Voter registration lookup",
+        href: "https://voterlookup.elections.ny.gov/",
+      },
+      {
+        label: "Register to vote",
+        href: "https://elections.ny.gov/register-vote",
+      },
+      {
+        label: "Request an absentee or early mail ballot",
+        href: "https://elections.ny.gov/request-ballot",
+      },
+      {
+        label: "Vote.gov New York",
+        href: "https://vote.gov/register/new-york",
+      },
+    ],
     ballotpedia: { label: "Ballotpedia — New York elections 2026", href: "https://ballotpedia.org/New_York_elections,_2026" },
     statewideOffices2026: [
       "Governor and lieutenant governor",
       "Attorney general",
       "Comptroller",
     ],
-    sampleBallotOfficial: { label: "New York State Board of Elections", href: "https://elections.ny.gov/" },
+    sampleBallotOfficial: {
+      label: "Voter registration lookup",
+      href: "https://voterlookup.elections.ny.gov/",
+    },
     registrationNote:
       "New York registration is processed by county boards of elections. Deadlines differ for primary and general elections.",
     earlyVotingNote:
