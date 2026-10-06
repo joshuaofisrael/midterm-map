@@ -1,3 +1,4 @@
+import { electionDatesFor } from "./electionDates";
 import { SITE } from "./site";
 import type { RaceGuide, StateProfile } from "./types";
 
@@ -8,7 +9,7 @@ export type StateFaq = {
 
 /**
  * State-hub FAQ copy. The same strings render on /states/[code] and in FAQPage JSON-LD.
- * Answers only restate fields already stored on the state profile and race guides.
+ * Answers restate fields already stored on the state profile, race guides, and sourced election dates.
  */
 export function stateHubFaqs(state: StateProfile, races: RaceGuide[]): StateFaq[] {
   const office = state.officialElectionOffice.label;
@@ -60,7 +61,7 @@ export function stateHubFaqs(state: StateProfile, races: RaceGuide[]): StateFaq[
     },
     {
       question: `When is Election Day 2026 in ${state.name}?`,
-      answer: `The 2026 U.S. midterm general election is ${SITE.electionDayLabel}. ${state.timezoneNote} ${state.earlyVotingNote} Map the Midterms does not publish registration deadlines or county voting hours. Confirm those dates with ${office}.`,
+      answer: `${electionDatesFor(state.code).faqAnswer} ${state.timezoneNote}`,
     },
     {
       question: `Is Map the Midterms an official ${state.name} election website?`,

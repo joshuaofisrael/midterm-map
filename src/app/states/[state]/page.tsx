@@ -6,6 +6,8 @@ import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { RaceCard } from "@/components/RaceCard";
+import { KeyDatesSection } from "@/components/ElectionDates";
+import { electionDatesFor } from "@/data/electionDates";
 import { racesForState } from "@/data/races";
 import { stateHubFaqs } from "@/data/stateFaqs";
 import { getState, isStateCode, STARTER_STATES } from "@/data/states";
@@ -119,6 +121,8 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
         </article>
       </section>
 
+      <KeyDatesSection state={state} dates={electionDatesFor(state.code)} />
+
       {state.officialVoterLinks && state.officialVoterLinks.length > 0 && (
         <section id="official-links" className="rounded-xl border border-line bg-paper-card p-5">
           <h2 className="font-serif text-2xl font-semibold">
@@ -218,7 +222,7 @@ function stateHubHeading(name: string): string {
 }
 
 function stateHubDescription(state: StateProfile): string {
-  return `${stateCycleLead(state)} This page covers sample-ballot structure, race guides, and how to confirm rules with ${state.officialElectionOffice.label}. Not an official election website.`;
+  return `${stateCycleLead(state)} This page covers sample-ballot structure, race guides, key 2026 election dates, and how to confirm rules with ${state.officialElectionOffice.label}. Not an official election website.`;
 }
 
 /**

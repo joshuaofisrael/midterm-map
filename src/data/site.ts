@@ -9,7 +9,7 @@ export const SITE = {
   name: "Map the Midterms",
   tagline: "A voter information utility for the 2026 U.S. midterms",
   description:
-    "Sourced 2026 U.S. midterm voter information: sample-ballot sketches, Senate and governor race guides, published polls, and a results tracker. Informational only. Not an official election website.",
+    "Sourced 2026 U.S. midterm voter information: sample-ballot sketches, Senate and governor race guides, published polls, key general-election dates, and a results tracker. Informational only. Not an official election website.",
   url: publicSiteUrl(),
   brandNote:
     "Map the Midterms is an unfiled brand / service name of Joshua Israel Ventures LLC. It is not a separate company and is not claimed here as a filed DBA or trademark.",
@@ -27,7 +27,7 @@ export const SITE = {
     "Not an official election website. Verify ballot and voting details with your state or county election office.",
   verifyShort:
     "This is not an official government, secretary of state, or county election site. Confirm your sample ballot, districts, and voting rules with your state or county election office.",
-  lastUpdated: "October 5, 2026",
+  lastUpdated: "October 6, 2026",
   voteGovUrl: "https://www.vote.gov/",
 } as const;
 
@@ -40,6 +40,7 @@ export const LEGAL_NAV = [
 
 export const PRIMARY_NAV = [
   { href: "/ballot", label: "Ballot" },
+  { href: "/voting-deadlines", label: "Deadlines" },
   { href: "/races", label: "Races" },
   { href: "/polls", label: "Polls" },
   { href: "/results", label: "Results" },
