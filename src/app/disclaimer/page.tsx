@@ -62,7 +62,9 @@ export default function DisclaimerPage() {
           redistricting, candidate qualification, or measure certification.{" "}
           <strong>You must verify</strong> your contests, districts, polling
           place, ID rules, and deadlines with your state or county election
-          authority and with the sample ballot those offices publish.
+          authority and with the sample ballot those offices publish. Election
+          dates on this site can change. The date next to a deadline is only as
+          current as the official page it cites.
         </p>
 
         <h2>Race ratings are quotations, not our forecast</h2>

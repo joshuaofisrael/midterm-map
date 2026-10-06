@@ -10,6 +10,7 @@ export function CrossLinks({
 }) {
   const links = [
     { href: "/ballot", label: "Ballot lookup" },
+    { href: "/voting-deadlines", label: "Voting deadlines" },
     { href: "/races", label: "Race guides" },
     { href: "/polls", label: "Polls & ratings" },
     { href: "/results", label: "Results tracker" },

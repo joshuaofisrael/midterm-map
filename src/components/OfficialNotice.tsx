@@ -15,9 +15,10 @@ export function OfficialNotice({
     >
       <p className="font-semibold">Not an official election website</p>
       <p className="mt-1 text-ink">
-        {compact ? SITE.verifyShort : SITE.officialNotUs} Confirm your sample
-        ballot, districts, deadlines, and ID rules with your state or county
-        election office or{" "}
+        {compact ? SITE.verifyShort : SITE.officialNotUs} Election dates can
+        change, so confirm every deadline with the official office before you
+        rely on it. Confirm your sample ballot, districts, deadlines, and ID
+        rules with your state or county election office or{" "}
         <a className="underline underline-offset-2" href={SITE.voteGovUrl} rel="noopener noreferrer">
           Vote.gov
         </a>

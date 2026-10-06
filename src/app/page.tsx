@@ -38,6 +38,11 @@ const CTAS = [
     title: "Results tracker",
     body: "House and Senate control meters and key-race pages. Awaiting unofficial returns until November 3, 2026.",
   },
+  {
+    href: "/voting-deadlines",
+    title: "Voting deadlines",
+    body: "Registration, early voting, and mail-ballot dates for 12 states, each tied to an official election-office page.",
+  },
 ];
 
 export default function HomePage() {

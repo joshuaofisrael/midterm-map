@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPaths = [
     "",
     "/ballot",
+    "/voting-deadlines",
     "/races",
     "/polls",
     "/results",
@@ -45,7 +46,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [...staticPaths, ...statePaths, ...racePaths].map((path) => ({
     url: absoluteUrl(path || "/"),
     lastModified,
-    changeFrequency: path === "" ? "weekly" : "monthly",
-    priority: path === "" ? 1 : path.startsWith("/races/") ? 0.8 : 0.6,
+    changeFrequency:
+      path === "" || path === "/voting-deadlines" || path.startsWith("/states/")
+        ? "weekly"
+        : "monthly",
+    priority:
+      path === "" ? 1 : path === "/voting-deadlines" || path.startsWith("/states/") ? 0.8 : path.startsWith("/races/") ? 0.8 : 0.6,
   }));
 }
