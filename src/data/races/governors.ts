@@ -1,5 +1,6 @@
 import type { RaceGuide } from "../types";
 import { cite } from "../sources";
+import { photo } from "../candidateImages";
 import {
   ballotpedia,
   cook,
@@ -46,13 +47,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
         incumbent: true,
         statusNote: "Running mate: John Giles (independent), former Mesa mayor",
         bio: "Hobbs has been Arizona governor since 2023 after serving as secretary of state. She won the 2022 election and is seeking a second term. Before statewide office she served in the Arizona Legislature and as a social worker.",
-        image: {
-          src: "/candidates/katie-hobbs.jpg",
-          alt: "Official portrait of Gov. Katie Hobbs",
-          attribution: "Gage Skidmore, CC BY-SA 3.0",
-          license: "CC BY-SA 3.0",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Katie_Hobbs_by_Gage_Skidmore.jpg",
-        },
+        image: photo("katie-hobbs"),
         links: [
           officialSite("Office of the Governor", "https://azgovernor.gov/"),
           wiki("Katie Hobbs", "Katie_Hobbs"),
@@ -69,13 +64,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
         partyLabel: "Republican",
         statusNote: "Running mate: Sine Kerr, former state senator",
         bio: "Biggs has represented Arizona’s 5th Congressional District in the U.S. House since 2017. He won the July 2026 Republican primary over Rep. David Schweikert and other candidates. He previously served as president of the Arizona Senate.",
-        image: {
-          src: "/candidates/andy-biggs.jpg",
-          alt: "Official portrait of Rep. Andy Biggs",
-          attribution: "U.S. Congress / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Andy_Biggs_official_portrait_(headshot).jpg",
-        },
+        image: photo("andy-biggs"),
         links: [
           officialSite("House office", "https://biggs.house.gov/"),
           wiki("Andy Biggs", "Andy_Biggs"),
@@ -129,13 +118,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
         partyLabel: "Democratic",
         statusNote: "Democratic nominee after the May 2026 primary",
         bio: "Bottoms was mayor of Atlanta from 2018 to 2022 and later served in the Biden White House as a senior adviser. She won the 2026 Democratic nomination for governor. Public biographies emphasize city executive work and federal service.",
-        image: {
-          src: "/candidates/keisha-lance-bottoms.jpg",
-          alt: "Official portrait of Keisha Lance Bottoms",
-          attribution: "White House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Keisha_Lance_Bottoms_official_portrait.jpg",
-        },
+        image: photo("keisha-lance-bottoms"),
         links: [
           wiki("Keisha Lance Bottoms", "Keisha_Lance_Bottoms"),
           ballotpedia("Keisha Lance Bottoms", "Keisha_Lance_Bottoms"),
@@ -193,13 +176,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
         partyLabel: "Democratic",
         statusNote: "Democratic nominee; current secretary of state",
         bio: "Benson has been Michigan secretary of state since 2019. She is a former law-school dean. She is the Democratic nominee for the open governorship in 2026.",
-        image: {
-          src: "/candidates/jocelyn-benson.jpg",
-          alt: "Portrait of Michigan Secretary of State Jocelyn Benson",
-          attribution: "Michigan Department of State / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Jocelyn_Benson.jpg",
-        },
+        image: photo("jocelyn-benson"),
         links: [
           officialSite("Michigan Secretary of State", "https://www.michigan.gov/sos"),
           wiki("Jocelyn Benson", "Jocelyn_Benson"),
@@ -218,13 +195,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
         party: "REP",
         partyLabel: "Republican",
         bio: "James represented Michigan’s 10th Congressional District from 2023 to 2025. He is an Army veteran and business executive who previously ran statewide Senate campaigns. He is the 2026 Republican nominee for governor.",
-        image: {
-          src: "/candidates/john-james.jpg",
-          alt: "Official portrait of former Rep. John James",
-          attribution: "U.S. House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Rep._John_James_official_photo.jpg",
-        },
+        image: photo("john-james"),
         links: [
           wiki("John James", "John_James_(Michigan_politician)"),
           ballotpedia("John James", "John_James_(Michigan_politician)"),
@@ -268,13 +239,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
         partyLabel: "Republican",
         incumbent: true,
         bio: "Lombardo has been Nevada governor since 2023 after serving as Clark County sheriff. He won the June 2026 Republican primary. His official biography emphasizes public-safety and executive experience in southern Nevada.",
-        image: {
-          src: "/candidates/joe-lombardo.jpg",
-          alt: "Official portrait of Gov. Joe Lombardo",
-          attribution: "Office of Glenn Youngkin, CC BY 2.0",
-          license: "CC BY 2.0",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Governor_Joe_Lombardo.jpg",
-        },
+        image: photo("joe-lombardo"),
         links: [
           officialSite("Office of the Governor", "https://gov.nv.gov/"),
           wiki("Joe Lombardo", "Joe_Lombardo"),
@@ -344,13 +309,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
         partyLabel: "Republican",
         statusNote: "Republican nominee; running mate Rob McColley reported on Wikipedia",
         bio: "Ramaswamy is a biotechnology entrepreneur and author who sought the 2024 Republican presidential nomination. He is the 2026 Republican nominee for Ohio governor. Public biographies emphasize his business career and national campaign.",
-        image: {
-          src: "/candidates/vivek-ramaswamy.jpg",
-          alt: "Vivek Ramaswamy speaking at a public event",
-          attribution: "Gage Skidmore, CC BY-SA 2.0",
-          license: "CC BY-SA 2.0",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Vivek_Ramaswamy_by_Gage_Skidmore.jpg",
-        },
+        image: photo("vivek-ramaswamy"),
         links: [
           wiki("Vivek Ramaswamy", "Vivek_Ramaswamy"),
           ballotpedia("Vivek Ramaswamy", "Vivek_Ramaswamy"),
@@ -411,13 +370,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
         partyLabel: "Democratic",
         incumbent: true,
         bio: "Shapiro has been Pennsylvania governor since 2023 after serving as attorney general. He is seeking a second term. Official biographies emphasize statewide executive and law-enforcement work.",
-        image: {
-          src: "/candidates/josh-shapiro.jpg",
-          alt: "Official portrait of Gov. Josh Shapiro",
-          attribution: "Commonwealth of Pennsylvania / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Governor_Josh_Shapiro_official_photo.jpg",
-        },
+        image: photo("josh-shapiro"),
         links: [
           officialSite("Office of the Governor", "https://www.governor.pa.gov/"),
           wiki("Josh Shapiro", "Josh_Shapiro"),
@@ -434,13 +387,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
         partyLabel: "Republican",
         statusNote: "Republican nominee; current state treasurer",
         bio: "Garrity has been Pennsylvania treasurer since 2021. She is an Army veteran. She is the 2026 Republican nominee for governor.",
-        image: {
-          src: "/candidates/stacy-garrity.jpg",
-          alt: "Official portrait of Treasurer Stacy Garrity",
-          attribution: "Pennsylvania Treasury / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Stacy_Garrity_official_photo.jpg",
-        },
+        image: photo("stacy-garrity"),
         links: [
           officialSite("Pennsylvania Treasury", "https://www.patreasury.gov/"),
           wiki("Stacy Garrity", "Stacy_Garrity"),
@@ -499,13 +446,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
         partyLabel: "Republican",
         statusNote: "Republican nominee; U.S. representative, WI-07",
         bio: "Tiffany has represented Wisconsin’s 7th Congressional District since 2020. He previously served in the Wisconsin Legislature. He is the 2026 Republican nominee for governor.",
-        image: {
-          src: "/candidates/tom-tiffany.jpg",
-          alt: "Official portrait of Rep. Tom Tiffany",
-          attribution: "U.S. House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Tom_Tiffany_official_portrait.jpg",
-        },
+        image: photo("tom-tiffany"),
         links: [
           officialSite("House office", "https://tiffany.house.gov/"),
           wiki("Tom Tiffany", "Tom_Tiffany"),
@@ -549,13 +490,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
         partyLabel: "Republican",
         statusNote: "Republican nominee; U.S. representative, FL-19",
         bio: "Donalds has represented Florida’s 19th Congressional District since 2021. He won the August 2026 Republican primary for governor. House biographies list prior work in finance and the Florida House.",
-        image: {
-          src: "/candidates/byron-donalds.jpg",
-          alt: "Official portrait of Rep. Byron Donalds",
-          attribution: "U.S. House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Rep._Byron_Donalds_official_photo.jpg",
-        },
+        image: photo("byron-donalds"),
         links: [
           officialSite("House office", "https://donalds.house.gov/"),
           wiki("Byron Donalds", "Byron_Donalds"),
@@ -572,13 +507,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
         partyLabel: "Democratic",
         statusNote: "Democratic nominee; former Republican U.S. representative",
         bio: "Jolly represented Florida’s 13th Congressional District as a Republican from 2014 to 2017. He is the 2026 Democratic nominee for governor. Public biographies describe later work as a commentator and attorney.",
-        image: {
-          src: "/candidates/david-jolly.jpg",
-          alt: "Official portrait of former Rep. David Jolly",
-          attribution: "U.S. House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:David_Jolly_official_portrait.jpg",
-        },
+        image: photo("david-jolly"),
         links: [
           wiki("David Jolly", "David_Jolly"),
           ballotpedia("David Jolly", "David_Jolly"),
@@ -627,13 +556,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
         partyLabel: "Democratic",
         statusNote: "Advanced from the June 2, 2026 top-two primary (28.0%)",
         bio: "Becerra served as U.S. secretary of health and human services from 2021 to 2025 and as California attorney general before that. He also represented a Los Angeles-area House district. He is one of two candidates in the November governor’s race.",
-        image: {
-          src: "/candidates/xavier-becerra.jpg",
-          alt: "Official portrait of Xavier Becerra",
-          attribution: "U.S. Department of Health and Human Services / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Xavier_Becerra_HHS_portrait.jpg",
-        },
+        image: photo("xavier-becerra"),
         links: [
           wiki("Xavier Becerra", "Xavier_Becerra"),
           ballotpedia("Xavier Becerra", "Xavier_Becerra"),
@@ -691,13 +614,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
         partyLabel: "Democratic",
         incumbent: true,
         bio: "Hochul became New York governor in 2021 and won a full term in 2022. She previously served as lieutenant governor and as a member of Congress. She is seeking another term in 2026.",
-        image: {
-          src: "/candidates/kathy-hochul.jpg",
-          alt: "Official portrait of Gov. Kathy Hochul",
-          attribution: "Office of the Governor of New York / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Kathy_Hochul_official_portrait.jpg",
-        },
+        image: photo("kathy-hochul"),
         links: [
           officialSite("Office of the Governor", "https://www.governor.ny.gov/"),
           wiki("Kathy Hochul", "Kathy_Hochul"),
@@ -757,13 +674,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
         partyLabel: "Republican",
         incumbent: true,
         bio: "Abbott has been Texas governor since 2015 after serving as attorney general and as a state supreme court justice. He is seeking another term. Official biographies emphasize statewide executive tenure.",
-        image: {
-          src: "/candidates/greg-abbott.jpg",
-          alt: "Official portrait of Gov. Greg Abbott",
-          attribution: "Gage Skidmore, CC BY-SA 3.0",
-          license: "CC BY-SA 3.0",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Greg_Abbott_by_Gage_Skidmore.jpg",
-        },
+        image: photo("greg-abbott"),
         links: [
           officialSite("Office of the Governor", "https://gov.texas.gov/"),
           wiki("Greg Abbott", "Greg_Abbott"),

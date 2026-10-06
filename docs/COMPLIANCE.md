@@ -21,8 +21,8 @@ This document is an **internal owner checklist**. It is **not legal advice** and
 ### Required legal pages
 - [x] `/about` — operator, what the site is, what it is not
 - [x] `/disclaimer` — election-specific cautions (not official; not legal advice; not an endorsement; ballots may be incomplete; ratings attributed to named outlets; polls cited or honestly empty; unofficial returns)
-- [x] `/privacy` — no voter-file sales; client-side ZIP; Cloudflare Web Analytics (privacy-oriented beacon; not selling voter data); email handling
-- [x] `/terms` — use of site, LLC operator, limitation of liability, Florida governing law, no campaign contribution solicitation
+- [x] `/privacy` — no accounts; browser-only ZIP; cookieless Cloudflare Web Analytics (aggregate); GitHub Pages IP logging; no sale/sharing; email handling; retention; EU/UK GDPR and U.S. state-law rights; children; contact
+- [x] `/terms` — informational-only, no warranties, limitation of liability, Florida governing law, LLC operator, corrections, third-party links, image licenses, copyright/takedown contact, severability, no campaign contribution solicitation
 - [x] Footer links: Disclaimer / Privacy / Terms / About
 - [x] Footer line: “Not an official election website. Verify ballot and voting details with your state or county election office.”
 - [x] Persistent official-not-us banner sitewide, plus stronger notices on Ballot and Results
@@ -37,6 +37,14 @@ This document is an **internal owner checklist**. It is **not legal advice** and
 - [x] Poll rows and ratings appear only with a named outlet, URL, and access date when possible
 - [x] Results labeled unofficial / awaiting returns; pre-election mode before 2026-11-03
 
+## October 6, 2026 compliance pass (not legal advice)
+
+- Candidate photos: every file re-matched to its Wikimedia Commons page. Earlier captions credited several CC BY / BY-SA photos as "public domain" and linked to Commons pages that did not exist. Credits now live in `src/data/candidateImages.ts` (author, license, license link, file link, changes note) and `public/ATTRIBUTION.md`. The El-Sayed event photo (with audience members) was swapped for a cropped CC BY-SA portrait, and the Becerra California-AG photo for a federal HHS portrait.
+- Ohio dates: statewide rules now cite the Ohio Revised Code (§§ 3503.19, 3509.051, 3509.03, 3509.05 as amended by S.B. 293, 3501.32) and Vote.gov because ohiosos.gov blocks automated reads. Cuyahoga County items are labeled county-only.
+- All 12 states' dates re-checked against their cited official pages on October 6, 2026 (Nevada FAQ page blocked automated reads; the Nevada procedures manual corroborates the October 17–30 vote-center window). Pages now show "last checked" dates and explain that browser markers ignore cutoff times and time zones.
+- Voter checklist no longer says the site publishes no deadlines.
+- Privacy policy rewritten; legal pages use `SITE.legalLastUpdated`.
+
 ## What counsel should still review
 
 These items are **intentionally not signed off** in this repo:
@@ -46,7 +54,7 @@ These items are **intentionally not signed off** in this repo:
 3. **Campaign-finance / political-committee risk** if the site later adds ads, email lists, or paid promotion. MVP does not solicit contributions; adding any fundraising or coordinated messaging needs a new review.
 4. **Defamation / nominative-use risk** when publishing real candidate names. Do not publish accusations, fundraising, or implied endorsements.
 5. **Trademark / brand filing** if “Map the Midterms” will be used commercially. The site currently states the name is unfiled. Do not treat the public name as a filed DBA or registered mark.
-6. **Privacy / logging** once a custom domain, analytics, forms, or email vendor is connected. Update `/privacy` before adding scripts.
+6. **Privacy / logging** — `/privacy` now describes Cloudflare Web Analytics and GitHub Pages logging and adds GDPR / U.S. state-law rights language. Counsel should confirm it is sufficient. Update `/privacy` before adding any script, form, or vendor.
 7. **Accessibility and public-accommodation claims** if the site is presented as a primary voter tool for people with disabilities (it is not a replacement for official accessible ballots).
 8. **State-specific electioneering or “voter guide” statutes** if distribution is targeted (mail, SMS, paid social) rather than a passive website.
 9. **Results republication** if unofficial returns from any third party are later displayed (license terms, “certified” language, takedown process).

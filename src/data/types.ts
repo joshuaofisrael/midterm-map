@@ -49,9 +49,16 @@ export interface Citation {
 export interface CandidateImage {
   src: string;
   alt: string;
+  /** Author or credit line exactly as the Commons file page names it. */
   attribution: string;
+  /** License name, e.g. "CC BY-SA 4.0" or "Public domain (as marked on Wikimedia Commons)". */
   license: string;
+  /** Required for Creative Commons licenses. */
+  licenseUrl?: string;
+  /** Wikimedia Commons file page. */
   sourceUrl: string;
+  /** Changes made for this site (resize, format conversion, display crop). */
+  changes: string;
 }
 
 export interface CandidateLink {

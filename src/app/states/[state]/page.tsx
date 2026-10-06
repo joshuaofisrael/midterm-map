@@ -129,8 +129,10 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
             Official {state.name} election and voter links
           </h2>
           <p className="mt-2 max-w-2xl text-sm leading-6 text-ink-muted">
-            This site is not an official election website. Use these {state.name} tools to check
-            your registration, find your polling place, and track a mail or absentee ballot.
+            This site is not an official election website and is not affiliated with these
+            offices. The links below go to official government websites (and Vote.gov) outside
+            this site. Use these {state.name} tools to check your registration, find your polling
+            place, and track a mail or absentee ballot.
           </p>
           <ul className="mt-4 space-y-2 text-sm">
             {state.officialVoterLinks.map((link) => (

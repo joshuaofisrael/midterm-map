@@ -1,5 +1,6 @@
 import type { RaceGuide } from "../types";
 import { cite } from "../sources";
+import { photo } from "../candidateImages";
 import {
   BP_GA_SENATE,
   BP_MI_SENATE,
@@ -58,13 +59,7 @@ export const SENATE_RACES: RaceGuide[] = [
         partyLabel: "Democratic",
         incumbent: true,
         bio: "Ossoff is Georgia’s junior U.S. senator. He won a January 2021 runoff and took office that month. Before the Senate he worked as a documentary producer and congressional aide. His public biography emphasizes oversight, economic development, and constituent casework.",
-        image: {
-          src: "/candidates/jon-ossoff.jpg",
-          alt: "Official portrait of Sen. Jon Ossoff",
-          attribution: "U.S. Senate Photographic Studio",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Jon_Ossoff_Senate_Portrait_2021_(cropped).jpg",
-        },
+        image: photo("jon-ossoff"),
         links: [
           officialSite("Senate office", "https://www.ossoff.senate.gov/"),
           wiki("Jon Ossoff", "Jon_Ossoff"),
@@ -80,13 +75,7 @@ export const SENATE_RACES: RaceGuide[] = [
         party: "REP",
         partyLabel: "Republican",
         bio: "Collins represents Georgia’s 10th Congressional District in the U.S. House and is the Republican Senate nominee. He is a small-business owner from Jackson County. House records list him as serving since January 2023.",
-        image: {
-          src: "/candidates/mike-collins.jpg",
-          alt: "Official portrait of Rep. Mike Collins",
-          attribution: "U.S. House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Rep._Mike_Collins_official_photo,_118th_Congress_(cropped).jpg",
-        },
+        image: photo("mike-collins"),
         links: [
           officialSite("House office", "https://collins.house.gov/"),
           wiki("Mike Collins", "Mike_Collins_(Georgia_politician)"),
@@ -149,13 +138,7 @@ export const SENATE_RACES: RaceGuide[] = [
         partyLabel: "Democratic",
         statusNote: "Democratic nominee after the August 4, 2026 primary",
         bio: "El-Sayed is a physician and former Detroit health director. He previously ran for Michigan governor in 2018. After winning the 2026 Democratic Senate primary he became the party’s nominee for the open Peters seat.",
-        image: {
-          src: "/candidates/abdul-el-sayed.jpg",
-          alt: "Portrait of Abdul El-Sayed",
-          attribution: "U.S. Department of Health and Human Services / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Abdul_El-Sayed_HHS.jpg",
-        },
+        image: photo("abdul-el-sayed"),
         links: [
           wiki("Abdul El-Sayed", "Abdul_El-Sayed"),
           ballotpedia("Abdul El-Sayed", "Abdul_El-Sayed"),
@@ -174,13 +157,7 @@ export const SENATE_RACES: RaceGuide[] = [
         partyLabel: "Republican",
         statusNote: "Republican nominee; former U.S. representative",
         bio: "Rogers represented a mid-Michigan House district from 2001 to 2015 and later chaired the House Intelligence Committee. He was the 2024 Republican Senate nominee against Elissa Slotkin. He is the 2026 Republican nominee for this open seat.",
-        image: {
-          src: "/candidates/mike-rogers.jpg",
-          alt: "Official portrait of former Rep. Mike Rogers",
-          attribution: "U.S. House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Mike_Rogers_official_photo.jpg",
-        },
+        image: photo("mike-rogers"),
         links: [
           wiki("Mike Rogers", "Mike_Rogers_(Michigan_politician)"),
           ballotpedia("Mike Rogers", "Mike_Rogers_(Michigan)"),
@@ -226,13 +203,7 @@ export const SENATE_RACES: RaceGuide[] = [
         party: "DEM",
         partyLabel: "Democratic",
         bio: "Cooper served two terms as North Carolina governor (2017–2025) after a long tenure as state attorney general. He is the Democratic nominee for the open Tillis seat. Public biographies emphasize his statewide executive record and prior work as a legislator.",
-        image: {
-          src: "/candidates/roy-cooper.jpg",
-          alt: "Official portrait of former Gov. Roy Cooper",
-          attribution: "RadioFan, CC BY-SA 4.0",
-          license: "CC BY-SA 4.0",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:NC_Governor_Roy_Cooper.jpg",
-        },
+        image: photo("roy-cooper"),
         links: [
           wiki("Roy Cooper", "Roy_Cooper"),
           ballotpedia("Roy Cooper", "Roy_Cooper"),
@@ -296,13 +267,7 @@ export const SENATE_RACES: RaceGuide[] = [
         partyLabel: "Republican",
         statusNote: "Republican nominee; Texas attorney general",
         bio: "Paxton has been Texas attorney general since 2015. He defeated incumbent Sen. John Cornyn in the 2026 Republican primary with President Trump’s endorsement. His official biography emphasizes law-enforcement and litigation work on behalf of the state.",
-        image: {
-          src: "/candidates/ken-paxton.jpg",
-          alt: "Official portrait of Texas Attorney General Ken Paxton",
-          attribution: "Office of the Texas Attorney General / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Ken_Paxton_official_photo.jpg",
-        },
+        image: photo("ken-paxton"),
         links: [
           officialSite("Texas Attorney General", "https://www.texasattorneygeneral.gov/"),
           wiki("Ken Paxton", "Ken_Paxton"),

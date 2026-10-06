@@ -1,5 +1,6 @@
 import type { RaceGuide } from "../types";
 import { cite } from "../sources";
+import { photo } from "../candidateImages";
 import {
   ballotpedia,
   houseAggregators,
@@ -103,13 +104,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         partyLabel: "Republican",
         incumbent: true,
         bio: "McCormick has represented Georgia’s 7th District since 2023. He is an emergency physician and Marine veteran. House records list him as seeking another term in 2026.",
-        image: {
-          src: "/candidates/rich-mccormick.jpg",
-          alt: "Official portrait of Rep. Rich McCormick",
-          attribution: "U.S. House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Rep._Rich_McCormick_official_photo,_118th_Congress_(cropped).jpg",
-        },
+        image: photo("rich-mccormick"),
         links: [
           officialSite("House office", "https://mccormick.house.gov/"),
           wiki("Rich McCormick", "Rich_McCormick"),
@@ -179,13 +174,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         partyLabel: "Republican",
         incumbent: true,
         bio: "Barrett has represented Michigan’s 7th District since 2025. He is an Army veteran and former state senator. He advanced from the 2026 Republican primary.",
-        image: {
-          src: "/candidates/tom-barrett.jpg",
-          alt: "Official portrait of Rep. Tom Barrett",
-          attribution: "U.S. House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Rep._Tom_Barrett_official_photo,_119th_Congress_(3x4_close).jpg",
-        },
+        image: photo("tom-barrett"),
         links: [
           officialSite("House office", "https://barrett.house.gov/"),
           wiki("Tom Barrett", "Tom_Barrett_(Michigan_politician)"),
@@ -239,13 +228,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         partyLabel: "Democratic",
         incumbent: true,
         bio: "Davis has represented North Carolina’s 1st District since 2023. He is a former Air Force officer, mayor of Snow Hill, and state senator. He defeated Buckhout in 2024 and is seeking another term on the redrawn map.",
-        image: {
-          src: "/candidates/don-davis.jpg",
-          alt: "Official portrait of Rep. Don Davis",
-          attribution: "U.S. House / Library of Congress / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Portrait_of_Congressman_Don_Davis.jpg",
-        },
+        image: photo("don-davis"),
         links: [
           officialSite("House office", "https://dondavis.house.gov/"),
           wiki("Don Davis", "Don_Davis_(North_Carolina_politician)"),
@@ -261,7 +244,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         party: "REP",
         partyLabel: "Republican",
         statusNote: "Republican nominee after the March 3, 2026 primary",
-        bio: "Buckhout is a retired Army colonel and the 2024 Republican nominee in this district. She won the 2026 GOP primary with 39.5% of the vote. Ballotpedia describes later work as a consultant and a short 2025 stint as assistant national cyber director for policy.",
+        bio: "Buckhout is a retired Army colonel and the 2024 Republican nominee in this district. She won the 2026 GOP primary with 39.5% of the vote. Ballotpedia describes later work as a consultant and 2025 service as assistant national cyber director for policy.",
         links: [ballotpedia("Laurie Buckhout", "Laurie_Buckhout")],
         sources: [
           cite(
@@ -313,13 +296,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         partyLabel: "Democratic",
         incumbent: true,
         bio: "Lee has represented Nevada’s 3rd District since 2019. She is a former education nonprofit executive. She won the 2026 Democratic primary with 69.2% of the vote, according to Ballotpedia.",
-        image: {
-          src: "/candidates/susie-lee.jpg",
-          alt: "Official portrait of Rep. Susie Lee",
-          attribution: "U.S. House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Susie_Lee_official_portrait.jpg",
-        },
+        image: photo("susie-lee"),
         links: [
           officialSite("House office", "https://susielee.house.gov/"),
           wiki("Susie Lee", "Susie_Lee"),
@@ -373,13 +350,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         partyLabel: "Democratic",
         incumbent: true,
         bio: "Kaptur has represented a northwest Ohio House district since 1983. She is seeking a 23rd term. Official biographies emphasize Great Lakes, manufacturing, and veterans’ work.",
-        image: {
-          src: "/candidates/marcy-kaptur.jpg",
-          alt: "Official portrait of Rep. Marcy Kaptur",
-          attribution: "U.S. House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Marcy_Kaptur_official_photo.jpg",
-        },
+        image: photo("marcy-kaptur"),
         links: [
           officialSite("House office", "https://kaptur.house.gov/"),
           wiki("Marcy Kaptur", "Marcy_Kaptur"),
@@ -448,13 +419,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         partyLabel: "Republican",
         incumbent: true,
         bio: "Mackenzie has represented Pennsylvania’s 7th District since 2025 after serving in the state House. He advanced from the 2026 Republican primary unopposed, according to Ballotpedia.",
-        image: {
-          src: "/candidates/ryan-mackenzie.jpg",
-          alt: "Official portrait of Rep. Ryan Mackenzie",
-          attribution: "U.S. House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Rep._Ryan_Mackenzie_official_photo.jpg",
-        },
+        image: photo("ryan-mackenzie"),
         links: [
           officialSite("House office", "https://mackenzie.house.gov/"),
           wiki("Ryan Mackenzie", "Ryan_Mackenzie"),
@@ -508,13 +473,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         partyLabel: "Republican",
         incumbent: true,
         bio: "Van Orden has represented Wisconsin’s 3rd District since 2023. He is a retired Navy SEAL. He advanced from the 2026 Republican primary.",
-        image: {
-          src: "/candidates/derrick-van-orden.jpg",
-          alt: "Official portrait of Rep. Derrick Van Orden",
-          attribution: "U.S. House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Derrick_Van_Orden_117th_Congress.jpeg",
-        },
+        image: photo("derrick-van-orden"),
         links: [
           officialSite("House office", "https://vanorden.house.gov/"),
           wiki("Derrick Van Orden", "Derrick_Van_Orden"),
@@ -568,13 +527,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         partyLabel: "Republican",
         incumbent: true,
         bio: "De La Cruz has represented Texas’s 15th District since 2023. She advanced from the March 2026 Republican primary. Official biographies emphasize small-business and border-district work.",
-        image: {
-          src: "/candidates/monica-de-la-cruz.jpg",
-          alt: "Official portrait of Rep. Monica De La Cruz",
-          attribution: "U.S. House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Rep._Monica_De_La_Cruz_official_photo.jpg",
-        },
+        image: photo("monica-de-la-cruz"),
         links: [
           officialSite("House office", "https://delacruz.house.gov/"),
           wiki("Monica De La Cruz", "Monica_De_La_Cruz"),
@@ -620,7 +573,7 @@ export const HOUSE_RACES: RaceGuide[] = [
       "Florida’s 13th District (Pinellas County) elects a U.S. representative on November 3, 2026. Republican incumbent Anna Paulina Luna faces Democrat Leela Gray. A no-party candidate has also been reported as qualified.",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "The district is a Tampa Bay seat whose lines are set by official Florida maps. Supervisors of elections print the district that matches your registration. National party committees have treated the race as a general-election target after Gray’s August primary.",
+      "The district is a Tampa Bay seat whose lines are set by official Florida maps. Supervisors of elections print the district that matches your registration.",
     howToRead:
       "Gray won the August 18, 2026 Democratic primary. Confirm every qualified name with your supervisor of elections.",
     candidates: [
@@ -630,13 +583,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         partyLabel: "Republican",
         incumbent: true,
         bio: "Luna has represented Florida’s 13th District since 2023. She is an Air Force veteran. House records list her as seeking a third term in 2026.",
-        image: {
-          src: "/candidates/anna-paulina-luna.jpg",
-          alt: "Official portrait of Rep. Anna Paulina Luna",
-          attribution: "U.S. House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Rep._Anna_Paulina_Luna_official_photo.jpg",
-        },
+        image: photo("anna-paulina-luna"),
         links: [
           officialSite("House office", "https://luna.house.gov/"),
           wiki("Anna Paulina Luna", "Anna_Paulina_Luna"),
@@ -652,9 +599,10 @@ export const HOUSE_RACES: RaceGuide[] = [
         party: "DEM",
         partyLabel: "Democratic",
         statusNote: "Democratic nominee after the August 18, 2026 primary",
-        bio: "Gray is a retired U.S. Army brigadier general and attorney. She won the August 2026 Democratic primary. Contemporaneous reporting says national Democrats later added her to a recruitment list; that is a party decision, not an endorsement by this site.",
+        bio: "Gray won the August 18, 2026 Democratic primary, according to Ballotpedia. In the biography she submitted to Ballotpedia, she says she served 30 years in the U.S. Army and rose to the rank of brigadier general.",
         links: [ballotpedia("Leela Gray", "Leela_Gray")],
         sources: [
+          cite("Ballotpedia, Florida's 13th Congressional District election, 2026", "https://ballotpedia.org/Florida%27s_13th_Congressional_District_election,_2026", "October 6, 2026"),
           cite("Smarter.Vote, 2026 Florida's 13th Congressional District Election", "https://smarter.vote/races/fl-house-13-2026/"),
         ],
       }),
@@ -691,13 +639,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         partyLabel: "Democratic",
         incumbent: true,
         bio: "Gray has represented California’s 13th District since 2025 after serving in the state Assembly. He finished first in the June 2026 top-two primary.",
-        image: {
-          src: "/candidates/adam-gray.jpg",
-          alt: "Official portrait of Rep. Adam Gray",
-          attribution: "U.S. House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:Rep._Adam_Gray_official_photo.jpg",
-        },
+        image: photo("adam-gray"),
         links: [
           officialSite("House office", "https://gray.house.gov/"),
           wiki("Adam Gray", "Adam_Gray"),
@@ -763,13 +705,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         partyLabel: "Democratic",
         incumbent: true,
         bio: "Mannion has represented New York’s 22nd District since 2025 after serving in the state Senate. He is a former science teacher. House records list him as the incumbent seeking re-election in 2026.",
-        image: {
-          src: "/candidates/john-mannion.jpg",
-          alt: "Official portrait of Rep. John Mannion",
-          attribution: "U.S. House / public domain",
-          license: "Public domain (U.S. government work)",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:John_Mannion,_official_portrait_(119th_Congress)_(cropped).jpg",
-        },
+        image: photo("john-mannion"),
         links: [
           officialSite("House office", "https://mannion.house.gov/"),
           wiki("John Mannion", "John_Mannion_(New_York_politician)"),

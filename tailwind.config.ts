@@ -8,7 +8,7 @@ const config: Config = {
         ink: {
           DEFAULT: "#1a2332",
           muted: "#4a5568",
-          soft: "#6b7280",
+          soft: "#5b6472",
         },
         paper: {
           DEFAULT: "#f6f7f9",

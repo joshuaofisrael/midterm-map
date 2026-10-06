@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CrossLinks } from "@/components/CrossLinks";
 import { JsonLd } from "@/components/JsonLd";
+import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { RaceCard } from "@/components/RaceCard";
 import { RACES_HUB_FAQS } from "@/data/racesFaqs";
@@ -41,6 +42,7 @@ export default function RacesPage() {
         title="Race guides for the 2026 midterms"
         lede={`${RACES.length} guides cover Senate, governor, and selected House districts in our starter states. Candidate names are reported as of mid-September 2026. Party labels identify tickets only. Nothing here is an endorsement.`}
       />
+      <OfficialNotice compact />
       {GROUPS.map((group) => (
         <section key={group.key}>
           <h2 className="font-serif text-2xl font-semibold">{group.title}</h2>

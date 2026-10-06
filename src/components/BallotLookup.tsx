@@ -28,7 +28,7 @@ export function BallotLookup({ initialState = "" }: { initialState?: string }) {
 
     if (digits.length === 5 && !fromZip) {
       setMessage(
-        "That ZIP prefix is outside this MVP’s starter states. Choose a listed state or verify with your election office and Vote.gov.",
+        "That ZIP prefix is outside the 12 states this site covers. Choose a listed state or verify with your election office and Vote.gov.",
       );
       return;
     }

@@ -105,10 +105,11 @@ export const VOTER_CHECKLIST: {
     {
       id: "checklist-deadlines",
       name: "Double-check deadlines and Election Day",
-      text: `Election Day is ${SITE.electionDayLabel}. Registration deadlines, mail-ballot request and return deadlines, and early-voting dates differ by state and can differ by county. Confirm each of those dates with your state or county election office. Aside from Election Day, this site does not publish voting deadlines.`,
+      text: `Election Day is ${SITE.electionDayLabel}. Registration deadlines, mail-ballot request and return deadlines, and early-voting dates differ by state and can differ by county. Confirm each of those dates with your state or county election office. This site’s voting-deadlines page lists key statewide dates for its 12 starter states, each with a linked official source and the date it was last checked, but it is not an official calendar and does not cover other states or local hours.`,
       links: [
         { href: SITE.voteGovUrl, label: "Vote.gov" },
         { href: USA_GOV_VOTING, label: "USA.gov — Voting and elections" },
+        { href: "/voting-deadlines", label: "Key 2026 dates for 12 states (this site)" },
       ],
     },
     {
