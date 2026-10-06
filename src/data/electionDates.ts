@@ -2,7 +2,9 @@ import type { StateCode } from "./types";
 
 /**
  * Key dates for the November 3, 2026 general election.
- * Every sentence is paraphrased from an official page fetched and read on October 6, 2026.
+ * Every sentence is paraphrased from an official page (or statute) fetched and read on October 6, 2026.
+ * Ohio: ohiosos.gov blocks automated reads, so statewide rules cite the Ohio Revised Code
+ * (codes.ohio.gov) and Vote.gov; Cuyahoga County items are labeled as county-only.
  * A field that could not be verified is listed under `omitted` instead of guessed.
  * `startsOn` / `endsOn` are calendar dates the cited page prints (YYYY-MM-DD).
  * Relative rules stay in `text` when the office did not print a calendar date.
@@ -60,6 +62,54 @@ const AZ_VOTEGOV: DeadlineSource = {
   label: "Vote.gov — register in Arizona",
   href: "https://vote.gov/register/arizona",
 };
+
+const OH_ORC_3503_19: DeadlineSource = {
+  label: "Ohio Revised Code § 3503.19 — registration deadline",
+  href: "https://codes.ohio.gov/ohio-revised-code/section-3503.19",
+};
+
+const OH_ORC_3509_051: DeadlineSource = {
+  label: "Ohio Revised Code § 3509.051 — in-person absentee voting period",
+  href: "https://codes.ohio.gov/ohio-revised-code/section-3509.051",
+};
+
+const OH_ORC_3509_03: DeadlineSource = {
+  label: "Ohio Revised Code § 3509.03 — absentee application deadline",
+  href: "https://codes.ohio.gov/ohio-revised-code/section-3509.03",
+};
+
+const OH_ORC_3509_05: DeadlineSource = {
+  label: "Ohio Revised Code § 3509.05 — absentee ballot return",
+  href: "https://codes.ohio.gov/ohio-revised-code/section-3509.05",
+};
+
+const OH_ORC_3501_32: DeadlineSource = {
+  label: "Ohio Revised Code § 3501.32 — Election Day poll hours",
+  href: "https://codes.ohio.gov/ohio-revised-code/section-3501.32",
+};
+
+const OH_VOTEGOV: DeadlineSource = {
+  label: "Vote.gov — register in Ohio",
+  href: "https://vote.gov/register/ohio",
+};
+
+const OH_CUYAHOGA_FAQ: DeadlineSource = {
+  label: "Cuyahoga County Board of Elections — November 3, 2026 FAQs (county source)",
+  href: "https://boe.cuyahogacounty.gov/voters/election-faqs",
+};
+
+const OH_CUYAHOGA_EARLY: DeadlineSource = {
+  label: "Cuyahoga County Board of Elections — early in-person voting hours (Cuyahoga County only)",
+  href: "https://boe.cuyahogacounty.gov/voters/vote-early-in-person",
+};
+
+/** Date every fact below was last checked against the linked official pages. */
+export const DATES_CHECKED_ON = "October 6, 2026";
+
+/** Plain-language caveat shown wherever the browser markers appear. */
+export const MARKER_NOTE =
+  "“Passed,” “Deadline today,” “In progress,” and “Upcoming” markers use only the date on your device. They ignore cutoff times and your state’s time zone, so a deadline marked for today may already have closed. Always check the official office.";
+
 
 export const ELECTION_DATES: StateElectionDates[] = [
   {
@@ -470,71 +520,47 @@ export const ELECTION_DATES: StateElectionDates[] = [
   {
     code: "OH",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Cuyahoga County Board of Elections, publishing deadlines for that statewide election, lists Monday, October 5, 2026 as the registration deadline (a mailed form must be postmarked by October 5), October 6 as the start of absentee and early in-person voting, 8:30 p.m. on October 27 as the vote-by-mail application deadline, and 7:30 p.m. on Election Day as the deadline for a voted absentee ballot to arrive. Its early-voting calendar runs through November 1. Those daily hours are the county’s; confirm your county’s hours. The Secretary of State’s own schedule page could not be read directly for this update. Dates can change. Confirm with the Ohio Secretary of State and your county board.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. Ohio law requires voters to register by the 30th day before the election, and the Cuyahoga County Board of Elections lists that deadline for this election as Monday, October 5, 2026. Under the Ohio Revised Code, early in-person (absentee) voting runs from the day after registration closes (October 6, per the Cuyahoga board) through 5 p.m. on Sunday, November 1; a vote-by-mail application must reach your county board of elections by the close of business on Tuesday, October 27; and a voted absentee ballot must reach the county board by the close of the polls (7:30 p.m.) on Election Day. Confirm daily early-voting hours and office closing times with your own county board. The Ohio Secretary of State website blocked automated reads for this update. Dates can change. Confirm with the Ohio Secretary of State and your county board of elections.",
     facts: [
       {
         id: "oh-register",
         category: "registration",
         label: "Voter registration",
-        text: "The Cuyahoga County Board of Elections says the deadline to register for the November 3, 2026 general election is Monday, October 5. A mailed registration form must be postmarked by October 5. That board says its own office is open until 9 p.m. that day for in-person registration. The page does not state a separate online cutoff.",
+        text: "Ohio Revised Code § 3503.19 requires a registration to be received, or a mailed form to be postmarked, no later than the 30th day before the election. Vote.gov also lists 30 days before Election Day for online, mail, and in-person registration in Ohio. The 30th day before November 3, 2026 is Sunday, October 4. The Cuyahoga County Board of Elections lists the deadline for this election as Monday, October 5, 2026, with a mailed form postmarked by October 5. That board’s note that its office stayed open until 9 p.m. that day applies to Cuyahoga County only.",
         endsOn: "2026-10-05",
-        sources: [
-          {
-            label: "Cuyahoga County Board of Elections — November 3, 2026 FAQs",
-            href: "https://boe.cuyahogacounty.gov/voters/election-faqs",
-          },
-        ],
+        sources: [OH_ORC_3503_19, OH_VOTEGOV, OH_CUYAHOGA_FAQ],
       },
       {
         id: "oh-early",
         category: "early",
-        label: "Early in-person voting",
-        text: "That board says absentee voting, including early in-person voting, begins Tuesday, October 6, 2026, and its early-voting calendar for this general election runs through Sunday, November 1. The hour-by-hour schedule on that calendar is Cuyahoga County’s. Other county boards publish their own hours.",
+        label: "Early in-person (absentee) voting",
+        text: "Ohio Revised Code § 3509.051 allows in-person absentee voting from the first day after voter registration closes through 5 p.m. on the Sunday before the election, which is November 1, 2026. The Cuyahoga County Board of Elections lists Tuesday, October 6, 2026 as the first day. Daily hours are not set by that statute. The hour-by-hour calendar linked here is Cuyahoga County’s only, so check your own county board of elections for its hours.",
         startsOn: "2026-10-06",
         endsOn: "2026-11-01",
-        sources: [
-          {
-            label: "Cuyahoga County Board of Elections — November 3, 2026 FAQs",
-            href: "https://boe.cuyahogacounty.gov/voters/election-faqs",
-          },
-          {
-            label: "Cuyahoga County Board of Elections — early in-person voting",
-            href: "https://boe.cuyahogacounty.gov/voters/vote-early-in-person",
-          },
-        ],
+        sources: [OH_ORC_3509_051, OH_CUYAHOGA_FAQ, OH_CUYAHOGA_EARLY],
       },
       {
         id: "oh-request",
         category: "mail-request",
         label: "Vote-by-mail application",
-        text: "Vote-by-mail applications are accepted until 8:30 p.m. on Tuesday, October 27, 2026. A voter must request a ballot; the board says the Secretary of State also mails an application that still has to be completed and returned.",
+        text: "Ohio Revised Code § 3509.03 requires an absentee (vote-by-mail) application to reach the county board of elections by the close of business on the seventh day before the election, which is Tuesday, October 27, 2026. The Cuyahoga County Board of Elections says it accepts applications until 8:30 p.m. that day. That closing time is Cuyahoga’s only, so check your own county board’s hours. The Cuyahoga board also says a mailed application from the Secretary of State still has to be completed and returned.",
         endsOn: "2026-10-27",
-        sources: [
-          {
-            label: "Cuyahoga County Board of Elections — November 3, 2026 FAQs",
-            href: "https://boe.cuyahogacounty.gov/voters/election-faqs",
-          },
-        ],
+        sources: [OH_ORC_3509_03, OH_CUYAHOGA_FAQ],
       },
       {
         id: "oh-return",
         category: "mail-return",
         label: "Absentee ballot return",
-        text: "A voted absentee ballot must arrive at the board of elections by 7:30 p.m. on Election Day. Polls that day are open from 6:30 a.m. to 7:30 p.m.",
+        text: "Ohio Revised Code § 3509.05, as amended by Senate Bill 293 (effective March 20, 2026), requires a voted absentee ballot to be delivered to the county board of elections no later than the close of the polls on Election Day. Ballots that arrive later are not counted. Military and overseas voters follow separate rules. Ohio Revised Code § 3501.32 sets Election Day poll hours at 6:30 a.m. to 7:30 p.m., and the Cuyahoga County Board of Elections lists the same 7:30 p.m. arrival deadline.",
         endsOn: "2026-11-03",
-        sources: [
-          {
-            label: "Cuyahoga County Board of Elections — November 3, 2026 FAQs",
-            href: "https://boe.cuyahogacounty.gov/voters/election-faqs",
-          },
-        ],
+        sources: [OH_ORC_3509_05, OH_ORC_3501_32, OH_CUYAHOGA_FAQ],
       },
     ],
     omitted: [
       {
         category: "registration",
         label: "Same-day or Election Day registration",
-        text: "Check with the Ohio Secretary of State. The county FAQ read for this update does not describe Election Day registration. The Secretary of State site blocked a direct read from this update.",
+        text: "Check with the Ohio Secretary of State. The Ohio Revised Code sections and county FAQ read for this update do not describe Election Day registration. The Secretary of State website blocked automated reads for this update.",
       },
     ],
   },

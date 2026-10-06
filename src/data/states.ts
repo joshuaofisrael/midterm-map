@@ -55,7 +55,7 @@ export const STARTER_STATES: StateProfile[] = [
     mailNote:
       "Request or status tools for mail ballots are handled by county recorders, not this site.",
     idNote:
-      "Arizona may ask for identification at the polling place. Acceptable ID lists are published by the state, not by Map the Midterms.",
+      "The Arizona Secretary of State says voters must present identification before receiving a ballot at the polls or at in-person early voting. Acceptable ID lists are published by the state, not by Map the Midterms.",
     hasSenateClass2: false,
     hasGovernor2026: true,
     sampleBallotNotes: [
@@ -386,7 +386,7 @@ export const STARTER_STATES: StateProfile[] = [
     registrationNote:
       "Ohio voter registration is processed by county boards of elections. Confirm deadlines on the Secretary of State site.",
     earlyVotingNote:
-      "Early in-person voting is typically offered at county board offices, with hours set locally.",
+      "Early in-person voting is offered through each county board of elections. Confirm the location and daily hours with your county board.",
     mailNote:
       "Absentee applications are official county forms. This site cannot request a ballot for you.",
     idNote:

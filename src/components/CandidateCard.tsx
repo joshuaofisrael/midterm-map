@@ -62,11 +62,25 @@ export function CandidateCard({ candidate }: { candidate: Candidate }) {
         </ul>
       )}
       {candidate.image && (
-        <p className="mt-3 text-[11px] leading-4 text-ink-soft">
-          Photo: {candidate.image.attribution}. {candidate.image.license}.{" "}
-          <a className="underline" href={candidate.image.sourceUrl} rel="noopener noreferrer">
-            Source
+        <p className="mt-3 text-xs leading-5 text-ink-soft">
+          Photo: {candidate.image.attribution}, via{" "}
+          <a
+            className="underline"
+            href={candidate.image.sourceUrl}
+            rel="noopener noreferrer"
+            aria-label={`Wikimedia Commons file page for the ${candidate.name} photo`}
+          >
+            Wikimedia Commons
           </a>
+          . License:{" "}
+          {candidate.image.licenseUrl ? (
+            <a className="underline" href={candidate.image.licenseUrl} rel="noopener noreferrer license">
+              {candidate.image.license}
+            </a>
+          ) : (
+            candidate.image.license
+          )}
+          . {candidate.image.changes}
         </p>
       )}
     </article>

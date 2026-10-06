@@ -23,7 +23,7 @@ export default function TermsPage() {
       />
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "Terms" }]} />
       <PageHeader
-        eyebrow={`Last updated ${SITE.lastUpdated}`}
+        eyebrow={`Last updated ${SITE.legalLastUpdated}`}
         title="Terms of Use"
         lede={`By using ${SITE.name}, you agree to these terms.`}
       />
@@ -37,9 +37,11 @@ export default function TermsPage() {
 
         <h2>Informational site</h2>
         <p>
-          The site is a voter information utility. It is not an official
-          election website and does not process registration, ballot requests,
-          or contributions. Use is subject to the{" "}
+          The site is a voter information utility provided for general
+          informational purposes only. It is not an official election website,
+          is not affiliated with any government agency, election office,
+          candidate, party, or campaign, and does not process registration,
+          ballot requests, or contributions. Nothing on the site is legal advice. Use is subject to the{" "}
           <Link href="/disclaimer">disclaimer</Link> and{" "}
           <Link href="/privacy">privacy policy</Link>, which are part of these
           terms.
@@ -61,12 +63,44 @@ export default function TermsPage() {
           website.
         </p>
 
+        <h2>Accuracy and corrections</h2>
+        <p>
+          We try to cite an official or published source for every date,
+          candidate detail, poll, and rating, and to note when each was last
+          checked. Elections change quickly, and we cannot guarantee that any
+          item is complete or current. If you see an error, email{" "}
+          <a href={contactMailto()}>{SITE.email}</a> with the page address and
+          the correction, and we will review it promptly.
+        </p>
+
+        <h2>Third-party sites and content</h2>
+        <p>
+          The site links to official election offices, Vote.gov, news outlets,
+          pollsters, rating publishers, Ballotpedia, Wikipedia, and other
+          sites. We do not control those sites and are not responsible for
+          their content, availability, or privacy practices. Polls and race
+          ratings are the work of the organizations named next to them.
+        </p>
+
         <h2>Intellectual property</h2>
         <p>
           Site design and original text are owned by {SITE.legalName} unless
-          otherwise noted. Candidate, party, office, and geographic names appear
-          for identification only (nominative use). Official election materials
-          remain the responsibility of the offices that publish them.
+          otherwise noted. Candidate photos are used under the public-domain
+          status or Creative Commons license shown in each photo credit and in
+          the site’s{" "}
+          <a href="/ATTRIBUTION.md">image attribution list</a>; those photos
+          remain subject to their own licenses. Candidate, party, office,
+          outlet, pollster, and geographic names appear for identification
+          only (nominative use) and do not imply endorsement or affiliation.
+          Official election materials remain the responsibility of the offices
+          that publish them.
+        </p>
+        <p>
+          If you believe material on the site infringes your copyright or
+          other rights, email <a href={contactMailto()}>{SITE.email}</a> with
+          the page address, a description of the material, and your contact
+          information. We will review the request and remove or correct
+          material where appropriate.
         </p>
 
         <h2>Disclaimer of warranties</h2>
@@ -100,6 +134,12 @@ export default function TermsPage() {
           regard to conflict-of-law rules, unless a mandatory consumer-protection
           law in your place of residence says otherwise. Subject to that
           exception, courts located in Florida shall have jurisdiction.
+        </p>
+
+        <h2>Severability</h2>
+        <p>
+          If any part of these terms is found unenforceable, the rest remains
+          in effect.
         </p>
 
         <h2>Changes</h2>

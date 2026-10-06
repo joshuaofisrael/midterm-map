@@ -24,9 +24,9 @@ export default function DisclaimerPage() {
       />
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "Disclaimer" }]} />
       <PageHeader
-        eyebrow={`Last updated ${SITE.lastUpdated}`}
+        eyebrow={`Last updated ${SITE.legalLastUpdated}`}
         title="Disclaimer"
-        lede={`Read this before you rely on anything on ${SITE.name}. This page is informational product copy, not a lawyer’s sign-off.`}
+        lede={`Read this before you rely on anything on ${SITE.name}.`}
       />
       <OfficialNotice />
       <div className="prose-legal">
@@ -63,8 +63,11 @@ export default function DisclaimerPage() {
           <strong>You must verify</strong> your contests, districts, polling
           place, ID rules, and deadlines with your state or county election
           authority and with the sample ballot those offices publish. Election
-          dates on this site can change. The date next to a deadline is only as
-          current as the official page it cites.
+          dates on this site can change. Each date is only as current as the
+          official page or statute it cites and the “last checked” date shown
+          with it. “Passed,” “Deadline today,” and “Upcoming” markers are
+          calculated from your device’s date and do not account for cutoff
+          times or time zones.
         </p>
 
         <h2>Race ratings are quotations, not our forecast</h2>
@@ -91,6 +94,17 @@ export default function DisclaimerPage() {
           results.” Recounts, provisional ballots, and canvass timelines are
           official processes. Do not treat a meter or table here as a final
           outcome.
+        </p>
+
+        <h2>Candidate information and photos</h2>
+        <p>
+          Candidate bios are short, neutral summaries of public records and
+          cited reporting, with a source listed under each one. They are not
+          complete biographies and are not statements of our opinion. Photos
+          appear only when a public-domain or Creative Commons image is
+          available, with credit and license shown; a missing photo does not
+          reflect any judgment about a candidate. To report an error, email{" "}
+          <a href={contactMailto()}>{SITE.email}</a>.
         </p>
 
         <h2>No campaign fundraising</h2>
