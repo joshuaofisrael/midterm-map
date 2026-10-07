@@ -49,12 +49,12 @@ export function pollsHubFaqs(): PollsFaq[] {
 
   const generic =
     NATIONAL_GENERIC_BALLOT.length === 0
-      ? `This page does not currently list a national generic-ballot survey. A generic congressional ballot, when a public source publishes one, asks which party someone would support for the U.S. House nationally. It is not a prediction of House control. For live aggregations, use RealClearPolitics and FiveThirtyEight / ABC News.`
+      ? `This page does not currently list a national generic-ballot survey. A generic congressional ballot, when a public source publishes one, asks which party someone would support for the U.S. House nationally. It is not a prediction of House control. RealClearPolitics and FiveThirtyEight / ABC News publish live aggregations, and this page links to them.`
       : `The national generic ballot section shows ${countWord(NATIONAL_GENERIC_BALLOT.length)} recent public ${NATIONAL_GENERIC_BALLOT.length === 1 ? "survey" : "surveys"} compiled via PollingSource: ${joinList(
           NATIONAL_GENERIC_BALLOT.map(
             (row) => `${row.label} (Dem ${row.dem}, Rep ${row.rep}; ${row.dates}; ${row.sample})`,
           ),
-        )}. A generic congressional ballot asks which party someone would support for the U.S. House, nationally. These rows are not a ${SITE.name} average, not a prediction of which party will control the House, and not a result in any state or district. Check RealClearPolitics and FiveThirtyEight / ABC News for live aggregations.`;
+        )}. A generic congressional ballot asks which party someone would support for the U.S. House, nationally. These rows are not a ${SITE.name} average, not a prediction of which party will control the House, and not a result in any state or district. RealClearPolitics and FiveThirtyEight / ABC News publish live aggregations, and this page links to them.`;
 
   const accessedPhrase =
     accessed.length === 0
@@ -82,7 +82,7 @@ export function pollsHubFaqs(): PollsFaq[] {
   return [
     {
       question: "Is this page a polling average or a forecast of control?",
-      answer: `No. ${surveyCount} The rating board is separate. It quotes named outlets. It is not a prediction from this site. For live aggregations, use RealClearPolitics and FiveThirtyEight / ABC News, which this page already links.`,
+      answer: `No. ${surveyCount} The rating board is separate. It quotes named outlets. It is not a prediction from this site. RealClearPolitics and FiveThirtyEight / ABC News publish live aggregations, and this page links to them.`,
     },
     {
       question: "Whose race ratings appear here, and what do the dates mean?",
@@ -94,7 +94,7 @@ export function pollsHubFaqs(): PollsFaq[] {
     },
     {
       question: "How current are these polls, and where are live aggregations?",
-      answer: `This page is not a live feed, and ${SITE.name} does not refresh it on a fixed schedule. The surveys and generic-ballot rows cite public sources accessed ${accessedPhrase}. A newer poll can show up at the source link on a row, or at the live aggregators already linked here: RealClearPolitics, including its generic congressional ballot, and FiveThirtyEight / ABC News. Those sites are independent of this page. A figure you see there is not a ${SITE.name} average.`,
+      answer: `This page is not a live feed, and ${SITE.name} does not refresh it on a fixed schedule. The surveys and generic-ballot rows cite public sources accessed ${accessedPhrase}. A newer poll can show up at the source link on a row, or at the live aggregators already linked here: RealClearPolitics, including its generic congressional ballot, and FiveThirtyEight / ABC News. Those sites are independent of this page. A figure on those sites is not a ${SITE.name} average.`,
     },
     {
       question: "How do these polls relate to individual race guides?",
@@ -102,7 +102,7 @@ export function pollsHubFaqs(): PollsFaq[] {
     },
     {
       question: "Is Map the Midterms an official election website or a pollster?",
-      answer: `No. ${SITE.name} is an informational site operated by ${SITE.legalName}, a ${SITE.entityType}. It does not conduct polls. It is not a campaign, and it is not a government, secretary of state, or county election website. Verify registration, sample ballots, and voting rules with your state or county election office or with Vote.gov.`,
+      answer: `No. ${SITE.name} is an informational site operated by ${SITE.legalName}, a ${SITE.entityType}. It does not conduct polls. It is not a campaign, and it is not a government, secretary of state, or county election website. Registration, sample ballots, and voting rules are published by the state or county election office and by Vote.gov.`,
     },
   ];
 }

@@ -7,7 +7,6 @@ import { HOME_FAQS } from "@/data/homeFaqs";
 import { featuredRaces } from "@/data/races";
 import { SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
-import { VOTER_CHECKLIST } from "@/data/voterChecklist";
 import { faqJsonLd } from "@/lib/format";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -21,7 +20,7 @@ const CTAS = [
   {
     href: "/ballot",
     title: "Ballot lookup",
-    body: "Enter a ZIP or starter state for a structured sample-ballot sketch. The same page includes a 2026 voter checklist. Confirm the official version with your election office.",
+    body: "Enter a ZIP or starter state for a structured sample-ballot sketch, with links to each state’s official election office.",
   },
   {
     href: "/races",
@@ -154,8 +153,8 @@ export default function HomePage() {
       <section id="faq" className="rounded-xl border border-line bg-paper-card p-5">
         <h2 className="font-serif text-2xl font-semibold">Questions people ask</h2>
         <p className="mt-2 max-w-2xl text-sm text-ink-muted">
-          Short answers for first-time visitors. Confirm anything that affects how you
-          vote with your election office.
+          Short answers for first-time visitors. Registration and voting rules are
+          published by state and county election offices and by Vote.gov.
         </p>
         <dl className="mt-5 space-y-5">
           {HOME_FAQS.map((faq) => (
@@ -166,15 +165,12 @@ export default function HomePage() {
           ))}
         </dl>
         <p className="mt-5 text-sm">
-          <Link
-            className="font-medium text-navy hover:underline"
-            href={`/ballot#${VOTER_CHECKLIST.id}`}
-          >
-            2026 voter checklist before Election Day
+          <Link className="font-medium text-navy hover:underline" href="/voting-deadlines">
+            Key 2026 dates for 12 states
           </Link>
           {" · "}
           <Link className="font-medium text-navy hover:underline" href="/ballot">
-            Ballot lookup and official office links
+            Ballot lookup
           </Link>
           {" · "}
           <a className="font-medium text-navy hover:underline" href={SITE.voteGovUrl} rel="noopener noreferrer">

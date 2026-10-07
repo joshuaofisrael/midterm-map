@@ -57,8 +57,8 @@ export default function RacesPage() {
         <h2 className="font-serif text-xl font-semibold">Questions readers ask</h2>
         <p className="mt-2 max-w-2xl text-sm text-ink-muted">
           Short answers from the guides listed on this page. Party labels and ratings are not
-          endorsements. Confirm anything that affects how you vote with your state or county
-          election office.
+          endorsements. Registration and voting rules are published by state and county election
+          offices.
         </p>
         <dl className="mt-5 space-y-5">
           {RACES_HUB_FAQS.map((faq) => (

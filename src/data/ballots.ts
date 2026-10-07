@@ -14,7 +14,7 @@ export function ballotSectionsForState(code: StateCode): BallotSection[] {
       kind: "federal",
       title: "Federal contests",
       intro:
-        "Federal offices that appear depend on the 2026 cycle and your congressional district. This is a structured sketch of offices that are on the regular calendar — not your official ballot.",
+        "Federal offices that appear depend on the 2026 cycle and the congressional district. This is a structured sketch of offices that are on the regular calendar — not an official ballot.",
       contests: [
         senate
           ? {
@@ -25,7 +25,7 @@ export function ballotSectionsForState(code: StateCode): BallotSection[] {
               lines: [
                 "This state has a Class 2 U.S. Senate election on the regular 2026 cycle.",
                 `Major-party nominees reported as of mid-September 2026 are listed on the ${senate.shortTitle} race guide.`,
-                "Your official sample ballot lists only candidates qualified by election authorities.",
+                "The official sample ballot lists only candidates qualified by election authorities.",
               ],
             }
           : {
@@ -43,11 +43,11 @@ export function ballotSectionsForState(code: StateCode): BallotSection[] {
           kind: "federal",
           raceSlug: house?.slug,
           lines: [
-            "Your House district is assigned by official maps and your registered address.",
+            "A House district is assigned by official maps and the registered address.",
             house
-              ? `${house.shortTitle} is one district this site covers in depth. It is not a claim that it is your district.`
-              : "Open your county sample ballot for the district number.",
-            "Use House.gov’s official lookup or your election office to confirm the district printed for your address.",
+              ? `${house.shortTitle} is one district this site covers in depth. It is not a district lookup.`
+              : "The district number is on the county sample ballot.",
+            "House.gov and the election office publish the district for an address.",
           ],
         },
       ],
@@ -76,7 +76,7 @@ export function ballotSectionsForState(code: StateCode): BallotSection[] {
               kind: "statewide",
               lines: [
                 state?.hasGovernor2026
-                  ? "See official sources for this office."
+                  ? "Official sources list this office."
                   : "The governor’s office is not on the regular 2026 ballot in this state.",
               ],
             },
@@ -88,11 +88,11 @@ export function ballotSectionsForState(code: StateCode): BallotSection[] {
             ? [
                 `Offices commonly on this state’s 2026 statewide ballot include: ${state.statewideOffices2026.join("; ")}.`,
                 "Not every office appears in every precinct, and vacancy or special elections can change the list.",
-                "Check the official sample ballot for the qualified names in each office.",
+                "Qualified names for each office are on the official sample ballot.",
               ]
             : [
                 "Secretary of state, attorney general, and similar offices vary by state and cycle.",
-                "Check the official sample ballot for every row office.",
+                "Qualified names for each row office are on the official sample ballot.",
               ],
         },
       ],
@@ -108,7 +108,7 @@ export function ballotSectionsForState(code: StateCode): BallotSection[] {
           heading: "State Senate and State House / Assembly",
           kind: "legislature",
           lines: [
-            "District numbers and names appear on your official sample ballot.",
+            "District numbers and names appear on the official sample ballot.",
             "Some seats are not on the ballot every cycle (staggered Senate terms, for example).",
           ],
         },
@@ -126,7 +126,7 @@ export function ballotSectionsForState(code: StateCode): BallotSection[] {
           kind: "local",
           lines: [
             "County commission, mayor, school board, and judicial races depend on your jurisdiction.",
-            "Your county or municipal election office publishes the list that applies to you.",
+            "The county or municipal election office publishes the jurisdiction’s list.",
           ],
         },
       ],
@@ -135,7 +135,7 @@ export function ballotSectionsForState(code: StateCode): BallotSection[] {
       kind: "measures",
       title: "Ballot measures",
       intro:
-        "Initiatives, referenda, amendments, and local questions appear only if they are certified for your ballot. We do not reprint unofficial measure text as if it were certified.",
+        "Initiatives, referenda, amendments, and local questions appear only if they are certified for that ballot. This site does not reprint unofficial measure text as if it were certified.",
       contests: [
         {
           id: `${code}-measures`,
@@ -143,7 +143,7 @@ export function ballotSectionsForState(code: StateCode): BallotSection[] {
           kind: "measures",
           lines: [
             "If measures qualify, official ballot titles and summaries control.",
-            "Read the official pamphlet or sample ballot issued by your election office.",
+            "Official ballot titles and summaries are in the pamphlet or sample ballot issued by the election office.",
             ...(state?.sampleBallotNotes ?? []),
           ],
         },

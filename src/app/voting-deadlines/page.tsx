@@ -42,10 +42,10 @@ export default function VotingDeadlinesPage() {
       <OfficialNotice compact />
       <p className="max-w-3xl text-sm leading-6 text-ink-muted">
         Each date was last checked against the linked official page or statute on{" "}
-        {DATES_CHECKED_ON}. Dates can change. Confirm them with the official office before you
-        rely on them. County voting hours vary, so this table stays with statewide dates or
-        says when a figure comes from one county board. {MARKER_NOTE} A field this site could
-        not verify says to check with the official office instead of guessing.
+        {DATES_CHECKED_ON}. Dates can change. The linked official page is the current source.
+        County voting hours vary, so this table stays with statewide dates or says when a
+        figure comes from one county board. {MARKER_NOTE} A field this site could not verify
+        names the official office and does not guess a date.
       </p>
       <VotingDeadlinesTable rows={rows} />
       <p className="text-sm">

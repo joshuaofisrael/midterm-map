@@ -77,6 +77,7 @@ Do not use `https://joshuaofisrael.github.io/midterm-map/` as the public URL. Ca
 | `/` | Home, Election Day, CTAs, featured races |
 | `/ballot` | ZIP / state lookup |
 | `/ballot/[state]` | Structured sample ballot sections |
+| `/voting-deadlines` | Sourced registration, early-voting, and mail-ballot dates for 12 states |
 | `/races` | Race guide index |
 | `/races/[slug]` | Race guide template |
 | `/polls` | Attributed ratings + cited poll tables |

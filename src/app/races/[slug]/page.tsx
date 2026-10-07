@@ -175,8 +175,8 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
           <div className="mt-4 rounded-xl border border-line bg-paper-card p-5 text-sm leading-6">
             <p className="font-semibold">No public polls listed yet</p>
             <p className="mt-2 text-ink-muted">
-              We have not attached an individual, dated survey we can cite for this race.
-              Check aggregator pages rather than treating an empty table as a forecast.
+              This page does not list an individual, dated survey it can cite for this race.
+              An empty table is not a forecast. Aggregator pages linked below publish live surveys.
             </p>
             <ul className="mt-3 space-y-1">
               <li>

@@ -3,7 +3,6 @@ export * from "./types";
 export * from "./homeFaqs";
 export * from "./stateFaqs";
 export * from "./ballotFaqs";
-export * from "./voterChecklist";
 export * from "./racesFaqs";
 export * from "./pollsFaqs";
 export * from "./sources";

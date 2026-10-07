@@ -54,7 +54,7 @@ export const governorOfficeExplainer =
   "A governor is the state’s chief executive. Typical duties include proposing a budget, signing or vetoing bills, appointing some officials, and commanding the state National Guard under state and federal law. Term length and term limits are set by each state’s constitution. Lieutenant-governor pairing, if any, follows that state’s ballot design.";
 
 export const houseOfficeExplainer =
-  "Each U.S. House district elects one representative for a two-year term. Your district is assigned by official maps and your registered address — not by opening a page on this site. The House originates revenue bills, shares lawmaking with the Senate, and can impeach federal officers. All 435 voting seats are on the ballot in 2026.";
+  "Each U.S. House district elects one representative for a two-year term. A district is assigned by official maps and the registered address, not by opening a page on this site. The House originates revenue bills, shares lawmaking with the Senate, and can impeach federal officers. All 435 voting seats are on the ballot in 2026.";
 
 export function standardFaqs(office: string, officialLabel: string): { question: string; answer: string }[] {
   return [
@@ -65,7 +65,7 @@ export function standardFaqs(office: string, officialLabel: string): { question:
     },
     {
       question: `Is this the official candidate list for ${office}?`,
-      answer: `No. Map the Midterms is not an election office. Confirm qualified names with ${officialLabel} and the official sample ballot for your address.`,
+      answer: `No. Map the Midterms is not an election office. Qualified names are published by ${officialLabel} and on the official sample ballot for an address.`,
     },
     {
       question: "Are the poll numbers a forecast?",

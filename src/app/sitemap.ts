@@ -13,8 +13,17 @@ export const dynamic = "force-static";
  */
 const INCLUDE_PER_RACE_RESULTS_IN_SITEMAP = false;
 
+/** Date of the October 7, 2026 compliance edit. Unchanged pages keep SITE.lastUpdated. */
+const CONTENT_UPDATED = "2026-10-07";
+
+function pageChanged(path: string): boolean {
+  if (path === "" || path === "/ballot" || path === "/voting-deadlines" || path === "/races" || path === "/polls") {
+    return true;
+  }
+  return path.startsWith("/states/") || path.startsWith("/ballot/") || path.startsWith("/races/");
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date(SITE.lastUpdated);
 
   const staticPaths = [
     "",
@@ -45,7 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [...staticPaths, ...statePaths, ...racePaths].map((path) => ({
     url: absoluteUrl(path || "/"),
-    lastModified,
+    lastModified: new Date(pageChanged(path) ? CONTENT_UPDATED : SITE.lastUpdated),
     changeFrequency:
       path === "" || path === "/voting-deadlines" || path.startsWith("/states/")
         ? "weekly"

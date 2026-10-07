@@ -61,7 +61,7 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
 
       <section className="grid gap-4 md:grid-cols-2">
         <article className="rounded-xl border border-line bg-paper-card p-5">
-          <h2 className="font-serif text-xl font-semibold">How voting works here</h2>
+          <h2 className="font-serif text-xl font-semibold">Official election office</h2>
           <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6">
             <li>{state.timezoneNote}</li>
             <li>{state.registrationNote}</li>
@@ -131,8 +131,8 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
           <p className="mt-2 max-w-2xl text-sm leading-6 text-ink-muted">
             This site is not an official election website and is not affiliated with these
             offices. The links below go to official government websites (and Vote.gov) outside
-            this site. Use these {state.name} tools to check your registration, find your polling
-            place, and track a mail or absentee ballot.
+            this site. They are {state.name} pages for registration, polling places, and mail or
+            absentee ballots.
           </p>
           <ul className="mt-4 space-y-2 text-sm">
             {state.officialVoterLinks.map((link) => (
@@ -165,7 +165,7 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
         </h2>
         <p className="mt-2 max-w-2xl text-sm text-ink-muted">
           Short answers from the offices and race guides already linked on this page.
-          Confirm anything that affects how you vote with {state.officialElectionOffice.label}.
+          Registration and voting rules are published by {state.officialElectionOffice.label}.
         </p>
         <dl className="mt-5 space-y-5">
           {faqs.map((faq) => (
@@ -224,7 +224,7 @@ function stateHubHeading(name: string): string {
 }
 
 function stateHubDescription(state: StateProfile): string {
-  return `${stateCycleLead(state)} This page covers sample-ballot structure, race guides, key 2026 election dates, and how to confirm rules with ${state.officialElectionOffice.label}. Not an official election website.`;
+  return `${stateCycleLead(state)} This page covers sample-ballot structure, race guides, key 2026 election dates, and links to ${state.officialElectionOffice.label}. Not an official election website.`;
 }
 
 /**
