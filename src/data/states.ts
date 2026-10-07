@@ -9,12 +9,12 @@ export const STARTER_STATES: StateProfile[] = [
     capital: "Phoenix",
     timezoneNote: "Most of Arizona does not observe daylight saving time; the Navajo Nation does.",
     summary:
-      "Arizona voters in 2026 will see statewide executive offices, a U.S. House map, and local contests. Confirm your legislative and congressional districts on your county sample ballot.",
+      "Arizona’s 2026 cycle includes statewide executive offices, a U.S. House map, and local contests. Legislative and congressional districts are on the county sample ballot.",
     officialElectionOffice: {
       label: "Arizona Secretary of State — Elections",
       href: "https://azsos.gov/elections",
     },
-    voteGov: { label: "Vote.gov Arizona", href: "https://vote.gov/register/arizona" },
+    voteGov: { label: "Vote.gov: Arizona registration information", href: "https://vote.gov/register/arizona" },
     officialVoterLinks: [
       {
         label: "Arizona Secretary of State — Elections",
@@ -33,7 +33,7 @@ export const STARTER_STATES: StateProfile[] = [
         href: "https://my.arizona.vote/Early/ApplicationLogin.aspx",
       },
       {
-        label: "Vote.gov Arizona",
+        label: "Vote.gov: Arizona registration information",
         href: "https://vote.gov/register/arizona",
       },
     ],
@@ -49,13 +49,13 @@ export const STARTER_STATES: StateProfile[] = [
     ],
     sampleBallotOfficial: { label: "Arizona Secretary of State — Elections", href: "https://azsos.gov/elections" },
     registrationNote:
-      "Arizona registration deadlines and rules are set by state law. Check the Secretary of State and your county recorder.",
+      "Arizona registration deadlines for the November 3, 2026 general election are on the voting-deadlines page, with the Secretary of State calendar linked there.",
     earlyVotingNote:
-      "Arizona uses a mail-ballot system in many counties and offers early in-person options. Hours and drop-box rules are county-specific.",
+      "Early-voting dates for the November 3, 2026 general election are on the voting-deadlines page. Hours and drop-off rules are county-specific.",
     mailNote:
       "Request or status tools for mail ballots are handled by county recorders, not this site.",
     idNote:
-      "The Arizona Secretary of State says voters must present identification before receiving a ballot at the polls or at in-person early voting. Acceptable ID lists are published by the state, not by Map the Midterms.",
+      "Identification rules are published by the Arizona Secretary of State.",
     hasSenateClass2: false,
     hasGovernor2026: true,
     sampleBallotNotes: [
@@ -72,13 +72,13 @@ export const STARTER_STATES: StateProfile[] = [
     capital: "Atlanta",
     timezoneNote: "Most of Georgia is on Eastern Time.",
     summary:
-      "Georgia’s 2026 ballot is expected to include a U.S. Senate Class 2 seat, statewide executive offices, and U.S. House races. Use your official county sample ballot for the final list.",
+      "Georgia’s 2026 cycle includes a U.S. Senate Class 2 seat, statewide executive offices, and U.S. House races. The final contest list is the official county sample ballot.",
     officialElectionOffice: {
       label: "Georgia Secretary of State — Elections",
       href: "https://sos.ga.gov/elections-division-georgia-secretary-states-office",
     },
     voteGov: {
-      label: "Vote.gov Georgia",
+      label: "Vote.gov: Georgia registration information",
       href: "https://vote.gov/register/georgia",
     },
     officialVoterLinks: [
@@ -99,7 +99,7 @@ export const STARTER_STATES: StateProfile[] = [
         href: "https://securemyabsenteeballot.sos.ga.gov/s/",
       },
       {
-        label: "Vote.gov Georgia",
+        label: "Vote.gov: Georgia registration information",
         href: "https://vote.gov/register/georgia",
       },
     ],
@@ -118,13 +118,13 @@ export const STARTER_STATES: StateProfile[] = [
     ],
     sampleBallotOfficial: { label: "Georgia My Voter Page", href: "https://mvp.sos.ga.gov/s/" },
     registrationNote:
-      "Georgia voter registration is administered by the Secretary of State and county election offices. Deadlines are official-only.",
+      "Georgia voter registration is administered by the Secretary of State and county election offices. Dates for the November 3, 2026 general election are on the voting-deadlines page.",
     earlyVotingNote:
       "Advance voting locations and hours are published by county election superintendents.",
     mailNote:
-      "Absentee-by-mail eligibility and request windows are set by Georgia law. Apply through official channels.",
+      "Absentee-by-mail dates for the November 3, 2026 general election are on the voting-deadlines page, with the Georgia.gov election calendar linked there.",
     idNote:
-      "Georgia requires photo identification for in-person voting. See the Secretary of State’s published ID list.",
+      "Identification rules are published by the Georgia Secretary of State.",
     hasSenateClass2: true,
     hasGovernor2026: true,
     sampleBallotNotes: [
@@ -146,7 +146,7 @@ export const STARTER_STATES: StateProfile[] = [
       label: "Michigan Secretary of State — Elections",
       href: "https://www.michigan.gov/sos/elections",
     },
-    voteGov: { label: "Vote.gov Michigan", href: "https://vote.gov/register/michigan" },
+    voteGov: { label: "Vote.gov: Michigan registration information", href: "https://vote.gov/register/michigan" },
     officialVoterLinks: [
       {
         label: "Michigan Secretary of State — Elections",
@@ -169,7 +169,7 @@ export const STARTER_STATES: StateProfile[] = [
         href: "https://www.michigan.gov/sos/elections/voting/absentee-voting",
       },
       {
-        label: "Vote.gov Michigan",
+        label: "Vote.gov: Michigan registration information",
         href: "https://vote.gov/register/michigan",
       },
     ],
@@ -184,19 +184,19 @@ export const STARTER_STATES: StateProfile[] = [
     ],
     sampleBallotOfficial: { label: "Michigan Voter Information Center", href: "https://mvic.sos.state.mi.us/Voter/Index" },
     registrationNote:
-      "Michigan offers online, mail, and in-person registration, including same-day options in many cases. Confirm current rules with the state.",
+      "Michigan registration dates for the November 3, 2026 general election are on the voting-deadlines page, with Secretary of State pages linked there.",
     earlyVotingNote:
       "Early in-person voting is administered locally. County and city clerks publish sites and hours.",
     mailNote:
-      "Absent voter ballots can be requested through official Michigan tools. This site does not process requests.",
+      "Absent-voter ballot dates for the November 3, 2026 general election are on the voting-deadlines page. This site does not process ballot requests.",
     idNote:
-      "Michigan election ID rules are published by the Secretary of State. Bring the ID the state lists as acceptable.",
+      "Identification rules are published by the Michigan Secretary of State.",
     hasSenateClass2: true,
     hasGovernor2026: true,
     sampleBallotNotes: [
       "U.S. Senate (Class 2) is scheduled for the 2026 cycle.",
       "Governor and other statewide offices may appear.",
-      "Proposal language, if any, will appear on your official sample ballot — not as final text here.",
+      "Proposal language, if any, appears on the official sample ballot — not as final text here.",
     ],
   },
   {
@@ -213,7 +213,7 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://www.ncsbe.gov/",
     },
     voteGov: {
-      label: "Vote.gov North Carolina",
+      label: "Vote.gov: North Carolina registration information",
       href: "https://vote.gov/register/north-carolina",
     },
     officialVoterLinks: [
@@ -234,7 +234,7 @@ export const STARTER_STATES: StateProfile[] = [
         href: "https://votebymail.ncsbe.gov/app/home",
       },
       {
-        label: "Vote.gov North Carolina",
+        label: "Vote.gov: North Carolina registration information",
         href: "https://vote.gov/register/north-carolina",
       },
     ],
@@ -243,17 +243,17 @@ export const STARTER_STATES: StateProfile[] = [
       "U.S. Senate (Class 2)",
       "U.S. House (address-specific)",
       "State legislature seats on this cycle",
-      "Judicial and local contests as certified for your county",
+      "Judicial and local contests as certified for the county",
     ],
     sampleBallotOfficial: { label: "North Carolina Voter Search", href: "https://vt.ncsbe.gov/RegLkup/" },
     registrationNote:
-      "Registration is handled through the State Board of Elections and county boards. Check the official deadline calendar.",
+      "Registration is handled through the State Board of Elections and county boards. Dates for the November 3, 2026 general election are on the voting-deadlines page.",
     earlyVotingNote:
       "One-stop early voting sites are set by county boards. Hours can vary by county and by day.",
     mailNote:
-      "Absentee-by-mail request forms and witness rules are official North Carolina procedures.",
+      "Absentee-by-mail dates for the November 3, 2026 general election are on the voting-deadlines page, with the State Board of Elections calendar linked there.",
     idNote:
-      "Photo ID rules for voting are published by the State Board of Elections.",
+      "Identification rules are published by the North Carolina State Board of Elections.",
     hasSenateClass2: true,
     hasGovernor2026: false,
     sampleBallotNotes: [
@@ -270,12 +270,12 @@ export const STARTER_STATES: StateProfile[] = [
     capital: "Carson City",
     timezoneNote: "Most of Nevada is on Pacific Time; a few communities near Idaho use Mountain Time.",
     summary:
-      "Nevada’s 2026 cycle includes statewide executive offices and U.S. House races. Nevada generally mails ballots to active registered voters — confirm with your county clerk.",
+      "Nevada’s 2026 cycle includes statewide executive offices and U.S. House races. Mail-ballot dates for that election are on the voting-deadlines page.",
     officialElectionOffice: {
       label: "Nevada Secretary of State — Elections",
       href: "https://www.nvsos.gov/sos/elections",
     },
-    voteGov: { label: "Vote.gov Nevada", href: "https://vote.gov/register/nevada" },
+    voteGov: { label: "Vote.gov: Nevada registration information", href: "https://vote.gov/register/nevada" },
     officialVoterLinks: [
       {
         label: "Nevada Secretary of State — Elections",
@@ -294,7 +294,7 @@ export const STARTER_STATES: StateProfile[] = [
         href: "https://myballot.nv.gov/",
       },
       {
-        label: "Vote.gov Nevada",
+        label: "Vote.gov: Nevada registration information",
         href: "https://vote.gov/register/nevada",
       },
     ],
@@ -312,13 +312,13 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://www.nvsos.gov/votersearch/",
     },
     registrationNote:
-      "Nevada registration options include online and same-day in many circumstances. County clerks administer the rolls.",
+      "County clerks administer Nevada’s voter rolls. Dates for the November 3, 2026 general election are on the voting-deadlines page.",
     earlyVotingNote:
       "In-person early voting locations are published by county clerks.",
     mailNote:
-      "Nevada’s mail-ballot program is administered by counties. Track your ballot through official county or state tools.",
+      "Nevada’s mail-ballot program is administered by counties. Dates for the November 3, 2026 general election are on the voting-deadlines page.",
     idNote:
-      "Identification practices can differ for first-time and in-person voters. Use the Secretary of State’s published guidance.",
+      "Identification rules are published by the Nevada Secretary of State.",
     hasSenateClass2: false,
     hasGovernor2026: true,
     sampleBallotNotes: [
@@ -340,7 +340,7 @@ export const STARTER_STATES: StateProfile[] = [
       label: "Ohio Secretary of State — Elections",
       href: "https://www.ohiosos.gov/elections/",
     },
-    voteGov: { label: "Vote.gov Ohio", href: "https://vote.gov/register/ohio" },
+    voteGov: { label: "Vote.gov: Ohio registration information", href: "https://vote.gov/register/ohio" },
     officialVoterLinks: [
       {
         label: "Ohio Secretary of State — Elections",
@@ -367,7 +367,7 @@ export const STARTER_STATES: StateProfile[] = [
         href: "https://www.ohiosos.gov/directories/ballot-tracking",
       },
       {
-        label: "Vote.gov Ohio",
+        label: "Vote.gov: Ohio registration information",
         href: "https://vote.gov/register/ohio",
       },
     ],
@@ -384,19 +384,19 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://voterlookup.ohiosos.gov/voterlookup.aspx",
     },
     registrationNote:
-      "Ohio voter registration is processed by county boards of elections. Confirm deadlines on the Secretary of State site.",
+      "Ohio voter registration is processed by county boards of elections. Dates for the November 3, 2026 general election are on the voting-deadlines page.",
     earlyVotingNote:
-      "Early in-person voting is offered through each county board of elections. Confirm the location and daily hours with your county board.",
+      "Early in-person voting is offered through each county board of elections. Locations and daily hours are published by the county board.",
     mailNote:
-      "Absentee applications are official county forms. This site cannot request a ballot for you.",
+      "Absentee applications are official county forms. This site does not request ballots.",
     idNote:
-      "Ohio photo ID requirements for voting are published by the Secretary of State.",
+      "Identification rules are published by the Ohio Secretary of State.",
     hasSenateClass2: false,
     hasGovernor2026: true,
     sampleBallotNotes: [
       "Governor and other statewide offices may appear.",
       "U.S. Senate is not a Class 2 (2026) Ohio seat.",
-      "State Issue language, if any, must be read on the official ballot.",
+      "State Issue language, if any, is printed on the official ballot.",
     ],
   },
   {
@@ -413,7 +413,7 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://www.pa.gov/agencies/vote",
     },
     voteGov: {
-      label: "Vote.gov Pennsylvania",
+      label: "Vote.gov: Pennsylvania registration information",
       href: "https://vote.gov/register/pennsylvania",
     },
     officialVoterLinks: [
@@ -434,7 +434,7 @@ export const STARTER_STATES: StateProfile[] = [
         href: "https://www.pavoterservices.pa.gov/Pages/BallotTracking.aspx",
       },
       {
-        label: "Vote.gov Pennsylvania",
+        label: "Vote.gov: Pennsylvania registration information",
         href: "https://vote.gov/register/pennsylvania",
       },
     ],
@@ -447,19 +447,19 @@ export const STARTER_STATES: StateProfile[] = [
     ],
     sampleBallotOfficial: { label: "Pennsylvania Department of State — Voting", href: "https://www.pa.gov/agencies/vote" },
     registrationNote:
-      "Register or update through official Pennsylvania tools. County election offices maintain the lists.",
+      "County election offices maintain Pennsylvania registration lists. Dates for the November 3, 2026 general election are on the voting-deadlines page.",
     earlyVotingNote:
       "Pennsylvania’s in-person options and mail-ballot timelines are set by state law and county practice.",
     mailNote:
-      "Mail and civilian absentee ballots are requested through official county or state applications.",
+      "Mail and civilian absentee dates for the November 3, 2026 general election are on the voting-deadlines page.",
     idNote:
-      "Some voters may be asked for ID. See the Department of State’s current identification guidance.",
+      "Identification rules are published by the Pennsylvania Department of State.",
     hasSenateClass2: false,
     hasGovernor2026: true,
     sampleBallotNotes: [
       "Governor and other statewide offices may appear.",
       "U.S. Senate is not a Class 2 (2026) Pennsylvania seat.",
-      "Judicial retention or local referenda appear only if certified for your ballot.",
+      "Judicial retention or local referenda appear only if certified for that ballot.",
     ],
   },
   {
@@ -476,7 +476,7 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://elections.wi.gov/",
     },
     voteGov: {
-      label: "Vote.gov Wisconsin",
+      label: "Vote.gov: Wisconsin registration information",
       href: "https://vote.gov/register/wisconsin",
     },
     officialVoterLinks: [
@@ -497,7 +497,7 @@ export const STARTER_STATES: StateProfile[] = [
         href: "https://myvote.wi.gov/en-us/Request-An-Absentee-Ballot",
       },
       {
-        label: "Vote.gov Wisconsin",
+        label: "Vote.gov: Wisconsin registration information",
         href: "https://vote.gov/register/wisconsin",
       },
     ],
@@ -510,13 +510,13 @@ export const STARTER_STATES: StateProfile[] = [
     ],
     sampleBallotOfficial: { label: "MyVote Wisconsin", href: "https://myvote.wi.gov/" },
     registrationNote:
-      "Wisconsin allows several registration methods, including election-day registration in many cases. Confirm with your municipal clerk.",
+      "Wisconsin registration dates for the November 3, 2026 general election are on the voting-deadlines page, with the Elections Commission calendar linked there.",
     earlyVotingNote:
       "In-person absentee voting hours are set by municipal clerks and can differ by city or town.",
     mailNote:
-      "Absentee ballot requests go through your municipal clerk. Photo ID is often required for the request.",
+      "Absentee ballot requests are handled by the municipal clerk. Dates for the November 3, 2026 general election are on the voting-deadlines page.",
     idNote:
-      "Wisconsin generally requires an acceptable photo ID to vote. The Elections Commission publishes the list.",
+      "Identification rules are published by the Wisconsin Elections Commission.",
     hasSenateClass2: false,
     hasGovernor2026: true,
     sampleBallotNotes: [
@@ -538,7 +538,7 @@ export const STARTER_STATES: StateProfile[] = [
       label: "Texas Secretary of State — Elections",
       href: "https://www.sos.texas.gov/elections/index.shtml",
     },
-    voteGov: { label: "Vote.gov Texas", href: "https://vote.gov/register/texas" },
+    voteGov: { label: "Vote.gov: Texas registration information", href: "https://vote.gov/register/texas" },
     officialVoterLinks: [
       {
         label: "Texas Secretary of State — Elections",
@@ -557,7 +557,7 @@ export const STARTER_STATES: StateProfile[] = [
         href: "https://www.votetexas.gov/voting-by-mail/track-my-ballot.html",
       },
       {
-        label: "Vote.gov Texas",
+        label: "Vote.gov: Texas registration information",
         href: "https://vote.gov/register/texas",
       },
     ],
@@ -577,13 +577,13 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://goelect.txelections.civixapps.com/ivis-mvp-ui/#/login",
     },
     registrationNote:
-      "Texas registration is processed by county voter registrars. Check the official deadline before Election Day.",
+      "Texas registration is processed by county voter registrars. Dates for the November 3, 2026 general election are on the voting-deadlines page.",
     earlyVotingNote:
       "Early voting locations and weekend hours are set by each county.",
     mailNote:
-      "Texas mail-ballot eligibility is limited. Apply only through official county or state forms if you qualify.",
+      "Mail-ballot dates for the November 3, 2026 general election are on the voting-deadlines page, with the Texas Secretary of State calendar linked there.",
     idNote:
-      "Texas requires an acceptable form of photo ID, with listed exceptions. See the Secretary of State.",
+      "Identification rules are published by the Texas Secretary of State.",
     hasSenateClass2: true,
     hasGovernor2026: true,
     sampleBallotNotes: [
@@ -605,7 +605,7 @@ export const STARTER_STATES: StateProfile[] = [
       label: "Florida Division of Elections",
       href: "https://dos.fl.gov/elections/",
     },
-    voteGov: { label: "Vote.gov Florida", href: "https://vote.gov/register/florida" },
+    voteGov: { label: "Vote.gov: Florida registration information", href: "https://vote.gov/register/florida" },
     officialVoterLinks: [
       {
         label: "Florida Division of Elections",
@@ -628,7 +628,7 @@ export const STARTER_STATES: StateProfile[] = [
         href: "https://dos.fl.gov/elections/contacts/supervisor-of-elections/",
       },
       {
-        label: "Vote.gov Florida",
+        label: "Vote.gov: Florida registration information",
         href: "https://vote.gov/register/florida",
       },
     ],
@@ -644,13 +644,13 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://dos.fl.gov/elections/contacts/supervisor-of-elections/",
     },
     registrationNote:
-      "Florida registration is handled by county supervisors of elections. Book-closing deadlines are official.",
+      "Florida registration is handled by county supervisors of elections. Dates for the November 3, 2026 general election are on the voting-deadlines page.",
     earlyVotingNote:
       "Early voting sites and hours are set by each supervisor of elections within state windows.",
     mailNote:
-      "Vote-by-mail requests are made through your county supervisor. This site does not request ballots.",
+      "Vote-by-mail dates for the November 3, 2026 general election are on the voting-deadlines page. This site does not request ballots.",
     idNote:
-      "Florida photo ID and signature requirements are published by the Division of Elections and your supervisor.",
+      "Identification rules are published by the Florida Division of Elections and the county supervisor of elections.",
     hasSenateClass2: false,
     hasGovernor2026: true,
     sampleBallotNotes: [
@@ -672,7 +672,7 @@ export const STARTER_STATES: StateProfile[] = [
       label: "California Secretary of State — Elections",
       href: "https://www.sos.ca.gov/elections",
     },
-    voteGov: { label: "Vote.gov California", href: "https://vote.gov/register/california" },
+    voteGov: { label: "Vote.gov: California registration information", href: "https://vote.gov/register/california" },
     officialVoterLinks: [
       {
         label: "California Secretary of State — Elections",
@@ -695,7 +695,7 @@ export const STARTER_STATES: StateProfile[] = [
         href: "https://www.sos.ca.gov/elections/polling-place",
       },
       {
-        label: "Vote.gov California",
+        label: "Vote.gov: California registration information",
         href: "https://vote.gov/register/california",
       },
     ],
@@ -715,19 +715,19 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://voterstatus.sos.ca.gov/",
     },
     registrationNote:
-      "California offers online, same-day, and conditional registration in many cases. Confirm with your county elections office.",
+      "California registration dates for the November 3, 2026 general election are on the voting-deadlines page, with the Secretary of State key-dates page linked there.",
     earlyVotingNote:
       "In-person early voting and ballot drop-off locations are published by counties.",
     mailNote:
-      "Vote-by-mail ballots are generally mailed to active registered voters. Track them through official county tools.",
+      "Vote-by-mail mailing dates for the November 3, 2026 general election are on the voting-deadlines page.",
     idNote:
-      "Most California voters are not asked for ID at the polls; first-time rules and exceptions are official-only.",
+      "Identification rules are published by the California Secretary of State.",
     hasSenateClass2: false,
     hasGovernor2026: true,
     sampleBallotNotes: [
       "Governor and other statewide offices may appear.",
       "U.S. Senate is not a Class 2 (2026) California seat.",
-      "State propositions and local measures appear only if qualified for your ballot.",
+      "State propositions and local measures appear only if qualified for that ballot.",
     ],
   },
   {
@@ -743,7 +743,7 @@ export const STARTER_STATES: StateProfile[] = [
       label: "New York State Board of Elections",
       href: "https://elections.ny.gov/",
     },
-    voteGov: { label: "Vote.gov New York", href: "https://vote.gov/register/new-york" },
+    voteGov: { label: "Vote.gov: New York registration information", href: "https://vote.gov/register/new-york" },
     officialVoterLinks: [
       {
         label: "New York State Board of Elections",
@@ -762,7 +762,7 @@ export const STARTER_STATES: StateProfile[] = [
         href: "https://elections.ny.gov/request-ballot",
       },
       {
-        label: "Vote.gov New York",
+        label: "Vote.gov: New York registration information",
         href: "https://vote.gov/register/new-york",
       },
     ],
@@ -781,9 +781,9 @@ export const STARTER_STATES: StateProfile[] = [
     earlyVotingNote:
       "Early voting sites are designated by county boards. Hours are published before each election.",
     mailNote:
-      "Absentee and early-mail options are official applications. Use your county board or the state portal.",
+      "Absentee and early-mail dates for the November 3, 2026 general election are on the voting-deadlines page.",
     idNote:
-      "Some New York voters may be asked for ID. Follow the State Board of Elections guidance for your situation.",
+      "Identification rules are published by the New York State Board of Elections.",
     hasSenateClass2: false,
     hasGovernor2026: true,
     sampleBallotNotes: [

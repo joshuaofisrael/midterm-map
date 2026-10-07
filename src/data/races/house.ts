@@ -29,7 +29,7 @@ export const HOUSE_RACES: RaceGuide[] = [
     whyItMatters:
       "Ballotpedia News (July 29, 2026) reported that major forecasters rated the open seat Lean Democratic or a toss-up. The district voted for Schweikert and Trump in 2024 while also supporting Democrat Ruben Gallego for Senate. Your address — not this page — determines whether AZ-01 appears on your ballot.",
     howToRead:
-      "Confirm the district number with the Arizona Secretary of State or your county recorder before treating this page as your race.",
+      "The district number is assigned by the Arizona Secretary of State or the county recorder. This page is one district example.",
     candidates: [
       person({
         name: "Amish Shah",
@@ -79,7 +79,7 @@ export const HOUSE_RACES: RaceGuide[] = [
     aggregatorLinks: houseAggregators("https://ballotpedia.org/Arizona%27s_1st_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
-    faqs: standardFaqs("this House race", "your county recorder"),
+    faqs: standardFaqs("this House race", "the county recorder"),
   },
   {
     slug: "ga-07-house-2026",
@@ -94,9 +94,9 @@ export const HOUSE_RACES: RaceGuide[] = [
       "Georgia’s 7th District elects a U.S. representative on November 3, 2026. Republican incumbent Rich McCormick faces Democrat Tony Kozycki, according to Decision Desk HQ’s public race page.",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "Decision Desk HQ’s September 16, 2026 forecast treated the district as Safe Republican. That is a named-outlet forecast, not a Map the Midterms rating. Confirm your district on the official Georgia lookup tools.",
+      "Decision Desk HQ’s September 16, 2026 forecast treated the district as Safe Republican. That is a named-outlet forecast, not a Map the Midterms rating. District assignment is on the official Georgia lookup tools.",
     howToRead:
-      "Do not assume you live in GA-07 because you opened this page.",
+      "Opening this page does not assign a district. This page is the GA-07 example.",
     candidates: [
       person({
         name: "Rich McCormick",
@@ -164,9 +164,9 @@ export const HOUSE_RACES: RaceGuide[] = [
       "Michigan’s 7th District elects a U.S. representative on November 3, 2026. Republican incumbent Tom Barrett faces Democrat William Lawrence. Ballotpedia also lists a Green Party candidate.",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "Ballotpedia included MI-07 on its 2026 House battlegrounds list. The district covers part of mid-Michigan; your clerk’s sample ballot is the authority for district assignment.",
+      "Ballotpedia included MI-07 on its 2026 House battlegrounds list. The district covers part of mid-Michigan. The clerk’s sample ballot is the authority for district assignment.",
     howToRead:
-      "Lawrence won the August 4, 2026 Democratic primary. Confirm the November slate with the Michigan Secretary of State.",
+      "Lawrence won the August 4, 2026 Democratic primary. The November slate is published by the Michigan Secretary of State.",
     candidates: [
       person({
         name: "Tom Barrett",
@@ -189,7 +189,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         party: "DEM",
         partyLabel: "Democratic",
         statusNote: "Democratic nominee after the August 4, 2026 primary",
-        bio: "Lawrence won the 2026 Democratic primary with 42.4% against Bridget Brink and Matt Maasdam, according to Ballotpedia’s certified primary table. Confirm biography details on his Ballotpedia and campaign pages.",
+        bio: "Lawrence won the 2026 Democratic primary with 42.4% against Bridget Brink and Matt Maasdam, according to Ballotpedia’s certified primary table.",
         links: [ballotpedia("William Lawrence", "William_Lawrence_(Michigan)")],
         sources: [
           cite("Ballotpedia, Michigan's 7th Congressional District election, 2026", "https://ballotpedia.org/Michigan%27s_7th_Congressional_District_election,_2026"),
@@ -203,7 +203,7 @@ export const HOUSE_RACES: RaceGuide[] = [
     aggregatorLinks: houseAggregators("https://ballotpedia.org/Michigan%27s_7th_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
-    faqs: standardFaqs("this House race", "your city or county clerk"),
+    faqs: standardFaqs("this House race", "the city or county clerk"),
   },
   {
     slug: "nc-01-house-2026",
@@ -220,7 +220,7 @@ export const HOUSE_RACES: RaceGuide[] = [
     whyItMatters:
       "The General Assembly redrew the district after 2024. WRAL reported the new lines cover more of coastal eastern North Carolina and are more Republican-leaning than the map Davis won. Your county board of elections assigns the district on the official sample ballot.",
     howToRead:
-      "Buckhout won the March 3, 2026 Republican primary with 39.5% against four other candidates, per Ballotpedia’s certified table. Confirm every qualified November name with the North Carolina State Board of Elections.",
+      "Buckhout won the March 3, 2026 Republican primary with 39.5% against four other candidates, per Ballotpedia’s certified table. Qualified November names are published by the North Carolina State Board of Elections.",
     candidates: [
       person({
         name: "Don Davis",
@@ -286,7 +286,7 @@ export const HOUSE_RACES: RaceGuide[] = [
       "Nevada’s 3rd District (southern Clark County) elects a U.S. representative on November 3, 2026. Democratic incumbent Susie Lee faces Republican Marty O’Donnell. Ballotpedia also lists an Independent American Party candidate.",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "Cook’s Partisan Voter Index for the district is D+1, per Ballotpedia. The seat has been a recurring national target. Clark County’s sample ballot is the authority for your district number.",
+      "Cook’s Partisan Voter Index for the district is D+1, per Ballotpedia. The seat has been a recurring national target. Clark County’s sample ballot is the authority for the district number.",
     howToRead:
       "Lee won the June 9 Democratic primary; O’Donnell won the Republican primary the same day.",
     candidates: [
@@ -311,7 +311,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         party: "REP",
         partyLabel: "Republican",
         statusNote: "Republican nominee after the June 9, 2026 primary",
-        bio: "O’Donnell won the 2026 Republican primary with 42.3% against Tera Anderson, Jeff Gunter, and Aury Nagy, according to Ballotpedia. Confirm biography details on Ballotpedia and official filings.",
+        bio: "O’Donnell won the 2026 Republican primary with 42.3% against Tera Anderson, Jeff Gunter, and Aury Nagy, according to Ballotpedia.",
         links: [ballotpedia("Marty O'Donnell", "Marty_O%27Donnell")],
         sources: [
           cite("Ballotpedia, Nevada's 3rd Congressional District", "https://ballotpedia.org/Nevada%27s_3rd_Congressional_District"),
@@ -325,7 +325,7 @@ export const HOUSE_RACES: RaceGuide[] = [
     aggregatorLinks: houseAggregators("https://ballotpedia.org/Nevada%27s_3rd_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
-    faqs: standardFaqs("this House race", "your county clerk"),
+    faqs: standardFaqs("this House race", "the county clerk"),
   },
   {
     slug: "oh-09-house-2026",
@@ -342,7 +342,7 @@ export const HOUSE_RACES: RaceGuide[] = [
     whyItMatters:
       "Roll Call reported on May 6, 2026 that Kaptur, the longest-serving woman in congressional history, is among the House’s most vulnerable incumbents after winning 2024 by less than a point. Redistricting made the seat a shade more Republican. Your county board prints the district on your ballot.",
     howToRead:
-      "Merrin won a five-way May 2026 Republican primary. Confirm the November slate with the Ohio Secretary of State.",
+      "Merrin won a five-way May 2026 Republican primary. The November slate is published by the Ohio Secretary of State.",
     candidates: [
       person({
         name: "Marcy Kaptur",
@@ -394,7 +394,7 @@ export const HOUSE_RACES: RaceGuide[] = [
     aggregatorLinks: houseAggregators("https://ballotpedia.org/Ohio%27s_9th_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
-    faqs: standardFaqs("this House race", "your county board of elections"),
+    faqs: standardFaqs("this House race", "the county board of elections"),
   },
   {
     slug: "pa-07-house-2026",
@@ -409,7 +409,7 @@ export const HOUSE_RACES: RaceGuide[] = [
       "Pennsylvania’s 7th District (Lehigh Valley) elects a U.S. representative on November 3, 2026. Republican incumbent Ryan Mackenzie faces Democrat Bob Brooks.",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "Ballotpedia lists PA-07 among 2026 House battlegrounds. Mackenzie won the seat in 2024. Confirm district lines with official Pennsylvania or county tools before treating this page as your race.",
+      "Ballotpedia lists PA-07 among 2026 House battlegrounds. Mackenzie won the seat in 2024. District lines are on official Pennsylvania and county maps. This page is one district example.",
     howToRead:
       "Brooks won the May 19, 2026 Democratic primary with 41.0%. Mackenzie was unopposed in the Republican primary.",
     candidates: [
@@ -434,7 +434,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         party: "DEM",
         partyLabel: "Democratic",
         statusNote: "Democratic nominee after the May 19, 2026 primary",
-        bio: "Brooks won the 2026 Democratic primary with 41.0% against Ryan Crosswell, Lamont McClure, and Carol Obando-Derstine, according to Ballotpedia. Confirm biography details on Ballotpedia and official filings.",
+        bio: "Brooks won the 2026 Democratic primary with 41.0% against Ryan Crosswell, Lamont McClure, and Carol Obando-Derstine, according to Ballotpedia.",
         links: [ballotpedia("Bob Brooks", "Bob_Brooks_(Pennsylvania)")],
         sources: [
           cite("Ballotpedia, Pennsylvania's 7th Congressional District", "https://ballotpedia.org/Pennsylvania%27s_7th_Congressional_District"),
@@ -448,7 +448,7 @@ export const HOUSE_RACES: RaceGuide[] = [
     aggregatorLinks: houseAggregators("https://ballotpedia.org/Pennsylvania%27s_7th_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
-    faqs: standardFaqs("this House race", "your county election office"),
+    faqs: standardFaqs("this House race", "the county election office"),
   },
   {
     slug: "wi-03-house-2026",
@@ -465,7 +465,7 @@ export const HOUSE_RACES: RaceGuide[] = [
     whyItMatters:
       "Ballotpedia includes WI-03 among 2026 House battlegrounds. Van Orden flipped the seat in 2022. Your municipal clerk’s sample ballot is the authority for district and candidate names.",
     howToRead:
-      "Van Orden won the August 11, 2026 Republican primary. Confirm the full November field with the Wisconsin Elections Commission.",
+      "Van Orden won the August 11, 2026 Republican primary. The November field is published by the Wisconsin Elections Commission.",
     candidates: [
       person({
         name: "Derrick Van Orden",
@@ -487,7 +487,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         name: "Rebecca Cooke",
         party: "DEM",
         partyLabel: "Democratic",
-        bio: "Cooke is the Democratic nominee listed on Ballotpedia’s 2026 general-election table for Wisconsin’s 3rd District. Confirm biography details on Ballotpedia and official filings.",
+        bio: "Cooke is the Democratic nominee listed on Ballotpedia’s 2026 general-election table for Wisconsin’s 3rd District.",
         links: [ballotpedia("Rebecca Cooke", "Rebecca_Cooke")],
         sources: [
           cite("Ballotpedia, Derrick Van Orden", "https://ballotpedia.org/Derrick_Van_Orden"),
@@ -502,7 +502,7 @@ export const HOUSE_RACES: RaceGuide[] = [
     aggregatorLinks: houseAggregators("https://ballotpedia.org/Wisconsin%27s_3rd_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
-    faqs: standardFaqs("this House race", "your municipal clerk"),
+    faqs: standardFaqs("this House race", "the municipal clerk"),
   },
   {
     slug: "tx-15-house-2026",
@@ -519,7 +519,7 @@ export const HOUSE_RACES: RaceGuide[] = [
     whyItMatters:
       "Ballotpedia lists TX-15 among 2026 House battlegrounds and notes the August 2025 remap. Your county elections site is the authority for the district printed on your ballot.",
     howToRead:
-      "De La Cruz won the March 3, 2026 Republican primary. Confirm the Democratic nominee and any additional lines with the Texas Secretary of State.",
+      "De La Cruz won the March 3, 2026 Republican primary. The Democratic nominee and any additional lines are published by the Texas Secretary of State.",
     candidates: [
       person({
         name: "Monica De La Cruz",
@@ -544,7 +544,7 @@ export const HOUSE_RACES: RaceGuide[] = [
         name: "Bobby Pulido",
         party: "DEM",
         partyLabel: "Democratic",
-        bio: "Pulido is the Democratic nominee listed on Ballotpedia’s 2026 Texas House battlegrounds table for District 15. Confirm biography details on Ballotpedia and official filings.",
+        bio: "Pulido is the Democratic nominee listed on Ballotpedia’s 2026 Texas House battlegrounds table for District 15.",
         links: [ballotpedia("Bobby Pulido", "Bobby_Pulido")],
         sources: [
           cite("Ballotpedia, U.S. House battlegrounds, 2026", "https://ballotpedia.org/U.S._House_battlegrounds,_2026"),
@@ -575,7 +575,7 @@ export const HOUSE_RACES: RaceGuide[] = [
     whyItMatters:
       "The district is a Tampa Bay seat whose lines are set by official Florida maps. Supervisors of elections print the district that matches your registration.",
     howToRead:
-      "Gray won the August 18, 2026 Democratic primary. Confirm every qualified name with your supervisor of elections.",
+      "Gray won the August 18, 2026 Democratic primary. Qualified names are published by the county supervisor of elections.",
     candidates: [
       person({
         name: "Anna Paulina Luna",
@@ -614,7 +614,7 @@ export const HOUSE_RACES: RaceGuide[] = [
     aggregatorLinks: houseAggregators("https://ballotpedia.org/Florida%27s_13th_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
-    faqs: standardFaqs("this House race", "your supervisor of elections"),
+    faqs: standardFaqs("this House race", "the supervisor of elections"),
   },
   {
     slug: "ca-13-house-2026",
@@ -680,7 +680,7 @@ export const HOUSE_RACES: RaceGuide[] = [
     aggregatorLinks: houseAggregators("https://ballotpedia.org/California%27s_13th_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
-    faqs: standardFaqs("this House race", "your county elections office"),
+    faqs: standardFaqs("this House race", "the county elections office"),
   },
   {
     slug: "ny-22-house-2026",
@@ -697,7 +697,7 @@ export const HOUSE_RACES: RaceGuide[] = [
     whyItMatters:
       "The district has changed parties in recent cycles. Decision Desk HQ treated the June 23 Republican primary as uncontested. County boards of elections assign the district and print every qualified line.",
     howToRead:
-      "WKTV reported in May 2026 that Buller was the Republican nominee with no GOP primary opponent. Confirm Conservative or Working Families lines with your county board.",
+      "WKTV reported in May 2026 that Buller was the Republican nominee with no GOP primary opponent. Conservative and Working Families lines, if any, are on the county ballot.",
     candidates: [
       person({
         name: "John Mannion",
@@ -751,6 +751,6 @@ export const HOUSE_RACES: RaceGuide[] = [
     aggregatorLinks: houseAggregators("https://ballotpedia.org/New_York%27s_22nd_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
-    faqs: standardFaqs("this House race", "your county board of elections"),
+    faqs: standardFaqs("this House race", "the county board of elections"),
   },
 ];

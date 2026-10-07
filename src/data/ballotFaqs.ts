@@ -33,20 +33,20 @@ export function ballotStateFaqs(state: StateProfile, races: RaceGuide[]): Ballot
   });
 
   const sampleWhere = distinctSample
-    ? `For an official sample ballot, start with ${sample.label}. For registration and election rules, use ${office}.`
-    : `For an official sample ballot, registration, and election rules, start with ${office}.`;
+    ? `${sample.label} is the official sample-ballot page. ${office} publishes registration and election rules.`
+    : `${office} publishes the official sample ballot, registration, and election rules.`;
 
   const houseCaveat =
     houseGuides.length === 0
       ? ""
       : houseGuides.length === 1
         ? ` ${houseGuides[0].title} is one district example. It is not a claim that the district is yours.`
-        : " The U.S. House guides are district examples, not a lookup of your district.";
+        : " The U.S. House guides are district examples, not a district lookup.";
 
   const guides =
     races.length === 0
-      ? `Map the Midterms does not yet publish a ${state.name} race guide for this ballot sketch. Use your official sample ballot for every contest on your address, and confirm it with ${office}.`
-      : `The race guides that relate to this ${state.name} ballot sketch are ${guideTitles}.${houseCaveat} These pages cite public sources. They are not a certified candidate list, not a poll average, and not an endorsement. Other districts and local contests in ${state.name} are not covered in depth. Open the race guides on this page, then confirm names with ${office}.`;
+      ? `Map the Midterms does not yet publish a ${state.name} race guide for this ballot sketch. Contests for an address are on the official sample ballot published by ${office}.`
+      : `The race guides that relate to this ${state.name} ballot sketch are ${guideTitles}.${houseCaveat} These pages cite public sources. They are not a certified candidate list, not a poll average, and not an endorsement. Other districts and local contests in ${state.name} are not covered in depth. The race guides are linked on this page. Qualified names are published by ${office}.`;
 
   const sections =
     sectionTitles.length === 0
@@ -55,16 +55,16 @@ export function ballotStateFaqs(state: StateProfile, races: RaceGuide[]): Ballot
 
   return [
     {
-      question: `Is this my official ${state.name} sample ballot?`,
-      answer: `No. This ${state.name} page is a sectioned sketch of contests that often appear. It is incomplete, may be outdated, and is not a substitute for the sample ballot issued by your county or ${office}. It is not an official ballot and not a certified candidate list.`,
+      question: `Is this the official ${state.name} sample ballot?`,
+      answer: `No. This ${state.name} page is a sectioned sketch of contests that often appear. It is incomplete, may be outdated, and is not a substitute for the sample ballot issued by the county or ${office}. It is not an official ballot and not a certified candidate list.`,
     },
     {
-      question: `How do I get an official ${state.name} sample ballot or verify registration?`,
-      answer: `This sketch cannot issue your ballot or check your registration. ${sampleWhere} You can also start registration from ${state.voteGov.label}. ${state.registrationNote} ${state.mailNote} Map the Midterms does not look up voter records, issue sample ballots, or request mail ballots.`,
+      question: `Where are official ${state.name} sample-ballot and registration pages?`,
+      answer: `This sketch does not issue a ballot or check a registration record. ${sampleWhere} Vote.gov: ${state.name} registration information. Map the Midterms does not look up voter records, issue sample ballots, or request mail ballots.`,
     },
     {
       question: `What contests does this ${state.name} ballot sketch cover for 2026?`,
-      answer: `This structured sketch covers these sections: ${sections}. ${senate} ${governor} Statewide offices often on the ${state.name} ballot include ${offices}. ${extraNotes.length ? `${extraNotes.join(" ")} ` : ""}The sketch is not your official ballot and not a list of candidates. Confirm the final ballot with ${office}.`,
+      answer: `This structured sketch covers these sections: ${sections}. ${senate} ${governor} Statewide offices often on the ${state.name} ballot include ${offices}. ${extraNotes.length ? `${extraNotes.join(" ")} ` : ""}The sketch is not an official ballot and not a list of candidates. The final ballot is published by ${office}.`,
     },
     {
       question: `Which Map the Midterms race guides relate to this ${state.name} ballot sketch?`,
@@ -72,7 +72,7 @@ export function ballotStateFaqs(state: StateProfile, races: RaceGuide[]): Ballot
     },
     {
       question: "Is Map the Midterms an official election website?",
-      answer: `No. ${SITE.name} is an informational site operated by ${SITE.legalName}, a ${SITE.entityType}. It is not a government, secretary of state, or county election website, and this sample-ballot sketch is not issued by an election office. The official election office for ${state.name} is ${office}. Verify registration, sample ballots, and voting rules there or with ${state.voteGov.label}.`,
+      answer: `No. ${SITE.name} is an informational site operated by ${SITE.legalName}, a ${SITE.entityType}. It is not a government, secretary of state, or county election website, and this sample-ballot sketch is not issued by an election office. The official election office for ${state.name} is ${office}. Registration, sample ballots, and voting rules are published there and on Vote.gov: ${state.name} registration information.`,
     },
   ];
 }

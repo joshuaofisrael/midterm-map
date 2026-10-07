@@ -35,25 +35,25 @@ export function stateHubFaqs(state: StateProfile, races: RaceGuide[]): StateFaq[
       ? ""
       : houseGuides.length === 1
         ? ` ${houseGuides[0].title} is one district example. It is not a claim that the district is yours.`
-        : " The U.S. House guides are district examples, not a lookup of your district.";
+        : " The U.S. House guides are district examples, not a district lookup.";
 
   const sampleWhere = distinctSample
-    ? `For an official sample ballot, start with ${sample.label}. For registration and election rules, use ${office}.`
-    : `For an official sample ballot, registration, and election rules, start with ${office}.`;
+    ? `${sample.label} is the official sample-ballot page. ${office} publishes registration and election rules.`
+    : `${office} publishes the official sample ballot, registration, and election rules.`;
 
   const guides =
     races.length === 0
-      ? `Map the Midterms does not yet publish a ${state.name} race guide. Use your official sample ballot for every contest on your address.`
-      : `Map the Midterms publishes ${races.length} ${state.name} race ${races.length === 1 ? "guide" : "guides"}: ${guideTitles}.${houseCaveat} These pages cite public sources. They are not a certified candidate list, not a poll average, and not an endorsement. Other districts and local contests in ${state.name} are not covered in depth. Open the race guides on this page, then confirm names with ${office}.`;
+      ? `Map the Midterms does not yet publish a ${state.name} race guide. Contests for an address are on the official sample ballot.`
+      : `Map the Midterms publishes ${races.length} ${state.name} race ${races.length === 1 ? "guide" : "guides"}: ${guideTitles}.${houseCaveat} These pages cite public sources. They are not a certified candidate list, not a poll average, and not an endorsement. Other districts and local contests in ${state.name} are not covered in depth. The race guides are linked on this page. Qualified names are published by ${office}.`;
 
   return [
     {
       question: `What is on the ${state.name} ballot in the 2026 midterms?`,
-      answer: `${senate} ${governor} Statewide offices often on the ${state.name} ballot include ${offices}. ${extraNotes.length ? `${extraNotes.join(" ")} ` : ""}This is a sketch of offices, not your official ballot and not a list of candidates. Confirm the final ballot with ${office}.`,
+      answer: `${senate} ${governor} Statewide offices often on the ${state.name} ballot include ${offices}. ${extraNotes.length ? `${extraNotes.join(" ")} ` : ""}This is a sketch of offices, not an official ballot and not a list of candidates. The final ballot is published by ${office}.`,
     },
     {
-      question: `How do I get an official ${state.name} sample ballot or verify registration?`,
-      answer: `${sampleWhere} You can also start registration from ${state.voteGov.label}. ${state.registrationNote} ${state.mailNote} Map the Midterms does not look up voter records, issue sample ballots, or request mail ballots.`,
+      question: `Where are official ${state.name} sample-ballot and registration pages?`,
+      answer: `${sampleWhere} Vote.gov: ${state.name} registration information. Map the Midterms does not look up voter records, issue sample ballots, or request mail ballots.`,
     },
     {
       question: `Which Map the Midterms race guides cover ${state.name}?`,
@@ -65,7 +65,7 @@ export function stateHubFaqs(state: StateProfile, races: RaceGuide[]): StateFaq[
     },
     {
       question: `Is Map the Midterms an official ${state.name} election website?`,
-      answer: `No. ${SITE.name} is an informational site operated by ${SITE.legalName}, a ${SITE.entityType}. It is not a government, secretary of state, or county election website. The official election office for ${state.name} is ${office}. Verify registration, sample ballots, and voting rules there or with ${state.voteGov.label}.`,
+      answer: `No. ${SITE.name} is an informational site operated by ${SITE.legalName}, a ${SITE.entityType}. It is not a government, secretary of state, or county election website. The official election office for ${state.name} is ${office}. Registration, sample ballots, and voting rules are published there and on Vote.gov: ${state.name} registration information.`,
     },
   ];
 }

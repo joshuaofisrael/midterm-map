@@ -38,7 +38,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     whyItMatters:
       "Cook rated the race Lean Democratic as of late August 2026; Sabato’s Crystal Ball listed Lean D as of September 3, while Inside Elections had it as a toss-up the same week. The winner will share a ballot with other statewide offices and will appoint to some vacancies. Official pairing of running mates is printed by county recorders.",
     howToRead:
-      "Third-party lines are listed because contemporaneous local reporting placed them on the November field. Confirm every name on your county sample ballot.",
+      "Third-party lines are listed because contemporaneous local reporting placed them on the November field. Names on the November ballot are on the county sample ballot.",
     candidates: [
       person({
         name: "Katie Hobbs",
@@ -110,7 +110,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     whyItMatters:
       "Cook listed the open Georgia governorship as a toss-up on its August 2026 chart. The winner will sit over a Republican-held legislature entering the next redistricting decade and will share a ballot with Georgia’s U.S. Senate race. Primary vote totals are historical records on Ballotpedia; November certification is a state function.",
     howToRead:
-      "Use this page for the major-party November pairing. Other statewide constitutional offices appear on the same Georgia ballot.",
+      "This page lists the major-party November pairing. Other statewide constitutional offices appear on the same Georgia ballot.",
     candidates: [
       person({
         name: "Keisha Lance Bottoms",
@@ -168,7 +168,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     whyItMatters:
       "Cook rated the open Michigan governorship Lean Democratic as of August 2026. The office sets the state’s executive agenda and shares a ballot with Michigan’s open U.S. Senate race. Lieutenant-governor pairing follows Michigan law and the official ballot.",
     howToRead:
-      "Green, Libertarian, and U.S. Taxpayers Party candidates appear on Ballotpedia’s general-election table. Confirm the printed slate with your clerk.",
+      "Green, Libertarian, and U.S. Taxpayers Party candidates appear on Ballotpedia’s general-election table. The printed slate is on the county ballot.",
     candidates: [
       person({
         name: "Jocelyn Benson",
@@ -231,7 +231,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     whyItMatters:
       "Cook rated the race a toss-up as of August 2026. Nevada’s governor can veto bills from a Legislature that has often been Democratic-controlled. County clerks administer Nevada’s mail-ballot system; this site does not.",
     howToRead:
-      "Nevada ballots can include a “None of These Candidates” option. Read the official sample ballot for the printed choices.",
+      "Nevada ballots can include a “None of These Candidates” option. Printed choices are on the official sample ballot.",
     candidates: [
       person({
         name: "Joe Lombardo",
@@ -301,7 +301,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     whyItMatters:
       "Cook rated the open Ohio governorship a toss-up as of August 2026. The office directs a large state government and shares a ballot with other statewide executive races. Wikipedia lists Rob McColley (R) and David Pepper (D) as running mates; confirm pairing on the official ballot.",
     howToRead:
-      "Treat running-mate names as reported pairings until you see them on a county sample ballot.",
+      "Running-mate names here are reported pairings. The county sample ballot is the official ticket.",
     candidates: [
       person({
         name: "Vivek Ramaswamy",
@@ -362,7 +362,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     whyItMatters:
       "Cook rated the race Solid Democratic as of August 2026. Pennsylvania’s governor is a high-visibility executive in a state that often decides national narratives, even when a particular contest is not rated as a toss-up. County election offices print the precinct ballot.",
     howToRead:
-      "Other row offices (attorney general, auditor general, treasurer) typically share the midterm ballot. Confirm each office with your county.",
+      "Other row offices (attorney general, auditor general, treasurer) typically share the midterm ballot. Those offices are on the county ballot.",
     candidates: [
       person({
         name: "Josh Shapiro",
@@ -423,7 +423,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     whyItMatters:
       "Cook rated the open Wisconsin governorship a toss-up as of August 2026. The office is central to state budget fights and appointments in a closely divided state. Municipal clerks issue ward sample ballots.",
     howToRead:
-      "Wisconsin prints several constitutional offices on the same cycle. Use your clerk’s sample ballot for the full slate.",
+      "Wisconsin prints several constitutional offices on the same cycle. The full slate is on the municipal clerk’s sample ballot.",
     candidates: [
       person({
         name: "David Crowley",
@@ -482,7 +482,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     whyItMatters:
       "Cook published an August 27, 2026 analysis moving Florida’s open governorship from Solid to Likely Republican. Cabinet offices also appear statewide. Supervisors of elections print county sample ballots.",
     howToRead:
-      "This page highlights the two major-party nominees. Confirm every qualified line, including running mates, on your county sample ballot.",
+      "This page lists the two major-party nominees. Qualified lines, including running mates, are on the county sample ballot.",
     candidates: [
       person({
         name: "Byron Donalds",
@@ -606,7 +606,7 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     whyItMatters:
       "Cook rated the race Solid Democratic as of August 2026. New York’s governor proposes the state budget and appoints to many offices. County boards of elections (and the New York City Board of Elections) issue sample ballots.",
     howToRead:
-      "Lieutenant-governor pairing follows New York law. Confirm the printed ticket with your county board.",
+      "Lieutenant-governor pairing follows New York law. The printed ticket is published by the county board.",
     candidates: [
       person({
         name: "Kathy Hochul",

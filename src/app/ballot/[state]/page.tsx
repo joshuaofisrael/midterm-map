@@ -64,7 +64,7 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
       <PageHeader
         eyebrow={`${state.name} · Ballot`}
         title={`${state.name} sample ballot structure`}
-        lede="A sectioned sketch of contests that often appear. It is incomplete, may be outdated, and is not a substitute for the sample ballot issued by your county or state election office."
+        lede="A sectioned sketch of contests that often appear. It is incomplete, may be outdated, and is not a substitute for the sample ballot issued by the county or state election office."
       />
       <OfficialNotice />
       <BallotLookup initialState={state.code} />
@@ -90,10 +90,14 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
             </li>
           )}
           <li>
-            Registration starting point:{" "}
             <a className="text-navy underline" href={state.voteGov.href} rel="noopener noreferrer">
               {state.voteGov.label}
             </a>
+          </li>
+          <li>
+            <Link className="text-navy underline" href="/voting-deadlines">
+              Key 2026 dates for {state.name}
+            </Link>
           </li>
           <li>
             Independent encyclopedia:{" "}
@@ -167,7 +171,7 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
         <h2 className="font-serif text-xl font-semibold">Questions readers ask</h2>
         <p className="mt-2 max-w-2xl text-sm text-ink-muted">
           Short answers from the offices, sample-ballot notes, and race-guide titles already on this
-          page. Confirm your official sample ballot with {state.officialElectionOffice.label}.
+          page. The official sample ballot is published by {state.officialElectionOffice.label}.
         </p>
         <dl className="mt-5 space-y-5">
           {faqs.map((faq) => (

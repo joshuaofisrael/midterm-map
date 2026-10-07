@@ -196,7 +196,7 @@ export const SENATE_RACES: RaceGuide[] = [
     whyItMatters:
       "Cook’s August 20, 2026 print chart placed the open North Carolina seat in Lean Democratic. CBS News and Reuters have described it as Democrats’ clearest 2026 pickup opportunity among Republican-held seats. North Carolina last elected a Democratic U.S. senator in 2008. Official results will come from the State Board of Elections.",
     howToRead:
-      "Libertarian and Green candidates have appeared in some published polls. Confirm every qualified name on the official North Carolina ballot.",
+      "Libertarian and Green candidates have appeared in some published polls. Qualified names are on the official North Carolina ballot.",
     candidates: [
       person({
         name: "Roy Cooper",
@@ -259,7 +259,7 @@ export const SENATE_RACES: RaceGuide[] = [
     whyItMatters:
       "Cook moved Texas from Lean Republican to Toss Up on August 20, 2026, citing public and private polling in a state Trump won by a double-digit margin in 2024. Reuters and CBS have treated the race as a surprise battleground. Official canvass remains a Texas function.",
     howToRead:
-      "Primary outcomes are historical facts reported by news outlets and Ballotpedia. November names must still be confirmed on the official Texas ballot.",
+      "Primary outcomes are historical facts reported by news outlets and Ballotpedia. November names are on the official Texas ballot.",
     candidates: [
       person({
         name: "Ken Paxton",

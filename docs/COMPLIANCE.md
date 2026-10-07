@@ -45,6 +45,10 @@ This document is an **internal owner checklist**. It is **not legal advice** and
 - Voter checklist no longer says the site publishes no deadlines.
 - Privacy policy rewritten; legal pages use `SITE.legalLastUpdated`.
 
+## October 7, 2026 content rule
+
+The public site keeps plain, sourced facts (registration and other deadline dates, each with its official link). Step-by-step voter guidance, eligibility how-tos, and instructions to the reader are off the public pages. Anything beyond a bare sourced fact links to the state election office, Vote.gov, or `/voting-deadlines/`. Legal pages keep rights language and the disclaimer’s verify line. The October 6 voter-preparation section and its HowTo markup were removed.
+
 ## What counsel should still review
 
 These items are **intentionally not signed off** in this repo:

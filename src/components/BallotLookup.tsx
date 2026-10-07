@@ -28,14 +28,14 @@ export function BallotLookup({ initialState = "" }: { initialState?: string }) {
 
     if (digits.length === 5 && !fromZip) {
       setMessage(
-        "That ZIP prefix is outside the 12 states this site covers. Choose a listed state or verify with your election office and Vote.gov.",
+        "That ZIP prefix is outside the 12 states this site covers. Official pages for other states are the state election office and Vote.gov.",
       );
       return;
     }
 
     if (fromZip && state && state !== fromZip) {
       setMessage(
-        `ZIP prefix maps to ${fromZip} in this local table. Opening ${fromZip}. Confirm the official sample ballot for your address.`,
+        `ZIP prefix maps to ${fromZip} in this local table. Opening ${fromZip}. The official sample ballot for an address is issued by the election office.`,
       );
     } else {
       setMessage(null);

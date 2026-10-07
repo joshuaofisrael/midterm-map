@@ -80,7 +80,7 @@ export default function PollsPage() {
         <h2 className="font-serif text-xl font-semibold">Questions readers ask</h2>
         <p className="mt-2 max-w-2xl text-sm text-ink-muted">
           Short answers from the surveys, ratings, and aggregator links already on this page. A
-          number here is not a prediction. Confirm anything that affects how you vote with your
+          number here is not a prediction. Registration and voting rules are published by the
           election office.
         </p>
         <dl className="mt-5 space-y-5">

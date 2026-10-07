@@ -34,8 +34,8 @@ export function racesHubFaqs(): RacesFaq[] {
 
   const coverage =
     RACES.length === 0
-      ? "This hub does not yet publish a 2026 race guide. Use a state hub and the official sample ballot for every contest on your address."
-      : `This hub lists ${RACES.length} race guides for the 2026 midterms across ${STARTER_STATES.length} starter states: ${joinList(stateNames)}. The set is ${senate.length} Class 2 U.S. Senate ${senate.length === 1 ? "guide" : "guides"}${senate.length ? ` (${joinList(senate.map((race) => stateName(race.state)))})` : ""}, ${governor.length} governor ${governor.length === 1 ? "guide" : "guides"}${governor.length ? ` (${joinList(governor.map((race) => stateName(race.state)))})` : ""}, and ${house.length} U.S. House ${house.length === 1 ? "guide" : "guides"}${housePhrase}. It is not a national list of every Senate, governor, or House contest. A House guide is an example district, not a lookup of your district. Local contests and the other House districts in these states are not covered in depth. Open a guide here, then confirm your official ballot with that state’s election office or its sample-ballot sketch.`;
+      ? "This hub does not yet publish a 2026 race guide. State hubs and official sample ballots list contests for an address."
+      : `This hub lists ${RACES.length} race guides for the 2026 midterms across ${STARTER_STATES.length} starter states: ${joinList(stateNames)}. The set is ${senate.length} Class 2 U.S. Senate ${senate.length === 1 ? "guide" : "guides"}${senate.length ? ` (${joinList(senate.map((race) => stateName(race.state)))})` : ""}, ${governor.length} governor ${governor.length === 1 ? "guide" : "guides"}${governor.length ? ` (${joinList(governor.map((race) => stateName(race.state)))})` : ""}, and ${house.length} U.S. House ${house.length === 1 ? "guide" : "guides"}${housePhrase}. It is not a national list of every Senate, governor, or House contest. A House guide is an example district, not a district lookup. Local contests and the other House districts in these states are not covered in depth. The official ballot is published by that state’s election office. Sample-ballot sketches are linked from the state hubs.`;
 
   const ratings =
     outlets.length === 0
@@ -54,12 +54,12 @@ export function racesHubFaqs(): RacesFaq[] {
     {
       question: "Where do candidate names come from, and how current are they?",
       answer:
-        "Candidate names and short bios are compiled from cited public sources such as Ballotpedia, Wikipedia, and official pages. Each guide reports those names as declared or nominated figures as of mid-September 2026. They are not a certified candidate list from an election office. Other qualified names, including minor-party and write-in lines, may appear only on the official ballot. Confirm the final names with the state election office linked from the state hub or the sample-ballot page. Vote.gov is the federal starting point for registration and election-office links.",
+        "Candidate names and short bios are compiled from cited public sources such as Ballotpedia, Wikipedia, and official pages. Each guide reports those names as declared or nominated figures as of mid-September 2026. They are not a certified candidate list from an election office. Other qualified names, including minor-party and write-in lines, appear on the official ballot when the election office lists them. Final names are published by the state election office linked from the state hub or the sample-ballot page. Vote.gov publishes state registration information.",
     },
     {
-      question: "How do I get from a race guide to a sample ballot, state hub, or polls?",
+      question: "Where do race guides link?",
       answer:
-        "Open a guide from this index. Each guide connects to its state hub and to that state’s sample-ballot sketch. State hubs link to the official election office. The sample-ballot pages are sectioned sketches, not the ballot your county issues. When a guide has a published survey we can cite, that survey is also on the polls hub, tagged to the same race. The results tracker is a separate page and does not certify winners. Start with the ballot lookup if you need the sketch for your starter state.",
+        "Each guide links to its state hub and to that state’s sample-ballot sketch. State hubs link to the official election office. The sample-ballot pages are sectioned sketches, not the ballot a county issues. When a guide has a published survey this site can cite, that survey is also on the polls hub, tagged to the same race. The results tracker is a separate page and does not certify winners. The ballot lookup opens the sketch for a starter state.",
     },
     {
       question: "Does this site predict who will win?",
@@ -67,7 +67,7 @@ export function racesHubFaqs(): RacesFaq[] {
     },
     {
       question: "Is Map the Midterms an official election website?",
-      answer: `No. ${SITE.name} is an informational site operated by ${SITE.legalName}, a ${SITE.entityType}. It is not a government, secretary of state, or county election website. Verify registration, sample ballots, districts, and voting rules with your state or county election office or with Vote.gov.`,
+      answer: `No. ${SITE.name} is an informational site operated by ${SITE.legalName}, a ${SITE.entityType}. It is not a government, secretary of state, or county election website. Registration, sample ballots, districts, and voting rules are published by the state or county election office and by Vote.gov.`,
     },
   ];
 }

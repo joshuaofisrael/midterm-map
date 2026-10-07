@@ -37,7 +37,7 @@ function timingFor(fact: Pick<DeadlineFact, "startsOn" | "endsOn">, today: strin
 
 const TIMING_LABEL: Record<Timing, string> = {
   upcoming: "Upcoming",
-  today: "Deadline today — check the cutoff time",
+  today: "Deadline today",
   "in-progress": "In progress",
   passed: "Passed",
 };
@@ -113,8 +113,8 @@ export function KeyDatesSection({
       <h2 className="font-serif text-2xl font-semibold">Key 2026 general election dates</h2>
       <p className="mt-2 max-w-3xl text-sm leading-6 text-ink-muted">
         Dates below are paraphrased from the official pages linked on each line and were
-        last checked against those pages on {DATES_CHECKED_ON}. They can change. Confirm them
-        with {state.officialElectionOffice.label} before you rely on them. County voting hours
+        last checked against those pages on {DATES_CHECKED_ON}. They can change.{" "}
+        {state.officialElectionOffice.label} publishes the current calendar. County voting hours
         vary. {MARKER_NOTE}
       </p>
       <div className="mt-5 space-y-5">

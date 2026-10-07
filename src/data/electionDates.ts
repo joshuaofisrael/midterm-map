@@ -108,14 +108,14 @@ export const DATES_CHECKED_ON = "October 6, 2026";
 
 /** Plain-language caveat shown wherever the browser markers appear. */
 export const MARKER_NOTE =
-  "“Passed,” “Deadline today,” “In progress,” and “Upcoming” markers use only the date on your device. They ignore cutoff times and your state’s time zone, so a deadline marked for today may already have closed. Always check the official office.";
+  "“Passed,” “Deadline today,” “In progress,” and “Upcoming” markers use only the date on the device. They ignore cutoff times and the state’s time zone, so a deadline marked for today may already have closed. The marker is not an official cutoff.";
 
 
 export const ELECTION_DATES: StateElectionDates[] = [
   {
     code: "AZ",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Arizona Secretary of State lists 11:59 p.m. on October 5, 2026 as the last day to register for that election, October 7, 2026 as the day early voting begins and early ballots are mailed, and 7:00 p.m. on Election Day as the deadline to return a completed ballot-by-mail. A request to have a ballot mailed must reach the county by 5:00 p.m. on the 11th day before the election, which that office describes as two Fridays before Election Day. County hours vary, and dates can change. Confirm with the Arizona Secretary of State.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Arizona Secretary of State lists 11:59 p.m. on October 5, 2026 as the last day to register for that election, October 7, 2026 as the day early voting begins and early ballots are mailed, and 7:00 p.m. on Election Day as the deadline to return a completed ballot-by-mail. A request to have a ballot mailed must reach the county by 5:00 p.m. on the 11th day before the election, which that office describes as two Fridays before Election Day. County hours vary, and dates can change. The Arizona Secretary of State publishes the current calendar.",
     facts: [
       {
         id: "az-register",
@@ -153,14 +153,14 @@ export const ELECTION_DATES: StateElectionDates[] = [
       {
         category: "registration",
         label: "Same-day or Election Day registration",
-        text: "Check with the Arizona Secretary of State. The calendar and early-voting pages read for this update do not describe same-day registration.",
+        text: "Not listed on the calendar and early-voting pages read for this update. Those pages do not describe same-day registration. The Arizona Secretary of State is the official source.",
       },
     ],
   },
   {
     code: "GA",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. Georgia.gov lists October 5, 2026 as the voter registration deadline, October 13–30 as the early voting period, October 23, 2026 as the day a county must receive an absentee application, and 7 p.m. on Election Day as the deadline to receive a returned absentee ballot. County hours vary, and dates can change. Confirm with the Georgia Secretary of State.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. Georgia.gov lists October 5, 2026 as the voter registration deadline, October 13–30 as the early voting period, October 23, 2026 as the day a county must receive an absentee application, and 7 p.m. on Election Day as the deadline to receive a returned absentee ballot. County hours vary, and dates can change. The Georgia Secretary of State publishes the current calendar.",
     facts: [
       {
         id: "ga-register",
@@ -220,14 +220,14 @@ export const ELECTION_DATES: StateElectionDates[] = [
       {
         category: "registration",
         label: "Same-day or Election Day registration",
-        text: "Check with the Georgia Secretary of State. The Georgia.gov election guide read for this update does not describe same-day registration.",
+        text: "Not listed on the Georgia.gov election guide read for this update. That guide does not describe same-day registration. The Georgia Secretary of State is the official source.",
       },
     ],
   },
   {
     code: "MI",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Michigan Secretary of State lists October 19, 2026 as the last day to register by mail or online, in-person registration with proof of residency from October 20 through Election Day, a constitutionally required early-voting period of October 24–November 1, and 8 p.m. on Election Day as the deadline for a local clerk to receive an absentee ballot. Online and mailed absentee applications must arrive by 5 p.m. the Friday before Election Day. County hours vary, and dates can change. Confirm with the Michigan Secretary of State.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Michigan Secretary of State lists October 19, 2026 as the last day to register by mail or online, in-person registration at the local clerk’s office from October 20 through Election Day, a constitutionally required early-voting period of October 24–November 1, and 8 p.m. on Election Day as the deadline for a local clerk to receive an absentee ballot. Online and mailed absentee applications must arrive by 5 p.m. the Friday before Election Day. County hours vary, and dates can change. The Michigan Secretary of State publishes the current calendar.",
     facts: [
       {
         id: "mi-register-mail",
@@ -250,7 +250,7 @@ export const ELECTION_DATES: StateElectionDates[] = [
         id: "mi-register-person",
         category: "registration",
         label: "In-person registration near Election Day",
-        text: "From October 20 through November 3, 2026, new registrations for this election must be done in person. Within 14 days of an election, and on Election Day, voters register at their local clerk’s office with proof of residency. A person in line at the clerk’s office by 8 p.m. on Election Day may register and cast an absentee ballot there.",
+        text: "From October 20 through November 3, 2026, the Secretary of State lists in-person registration at the local clerk’s office for this election. The same pages list 8 p.m. on Election Day as the in-line cutoff at the clerk’s office.",
         startsOn: "2026-10-20",
         endsOn: "2026-11-03",
         sources: [
@@ -303,7 +303,7 @@ export const ELECTION_DATES: StateElectionDates[] = [
         id: "mi-request-person",
         category: "mail-request",
         label: "Absentee application in person",
-        text: "A voter already registered at their current address can apply in person at the clerk’s office until 4 p.m. the day before Election Day.",
+        text: "The absentee-voting page lists 4 p.m. the day before Election Day as the in-person application deadline.",
         endsOn: "2026-11-02",
         sources: [
           {
@@ -331,16 +331,14 @@ export const ELECTION_DATES: StateElectionDates[] = [
   {
     code: "NC",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The North Carolina State Board of Elections lists 5 p.m. on October 9, 2026 as the regular registration deadline, in-person early voting from October 15 through 3 p.m. on October 31 with same-day registration at those sites, a 5 p.m. October 20 absentee-request deadline, and a 7:30 p.m. November 3 absentee-return deadline. A paper registration must be received by the county board or postmarked by October 9. County hours vary, and dates can change. Confirm with the State Board of Elections.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The North Carolina State Board of Elections lists 5 p.m. on October 9, 2026 as the regular registration deadline, in-person early voting from October 15 through 3 p.m. on October 31 with same-day registration at those sites, a 5 p.m. October 20 absentee-request deadline, and a 7:30 p.m. November 3 absentee-return deadline. A paper registration must be received by the county board or postmarked by October 9. County hours vary, and dates can change. The North Carolina State Board of Elections publishes the current calendar.",
     facts: [
       {
         id: "nc-register",
         category: "registration",
         label: "Regular voter registration",
-        text: "The regular voter registration deadline is 5 p.m. on Friday, October 9, 2026. A paper application must be received by the county board of elections or postmarked by October 9. Voters with a North Carolina driver’s license or NCDMV ID can also submit an application online. Military and overseas deadlines differ.",
+        text: "The regular voter registration deadline is 5 p.m. on Friday, October 9, 2026. A paper application must be received by the county board of elections or postmarked by October 9. The State Board’s pages also list an online application. Military and overseas deadlines differ.",
         endsOn: "2026-10-09",
-        ifPassed:
-          "The State Board says people who miss this deadline may still register and vote during early voting at an early-voting site in their county. It also says residents generally may not register on Election Day, except in cases it describes for a new citizen or someone whose voting rights were restored after the deadline.",
         sources: [
           {
             label: "North Carolina State Board of Elections — upcoming election",
@@ -356,7 +354,7 @@ export const ELECTION_DATES: StateElectionDates[] = [
         id: "nc-sameday",
         category: "registration",
         label: "Same-day registration during early voting",
-        text: "Same-day registration is available when in-person early voting begins on October 15, 2026. The State Board says these voters attest to eligibility, provide proof of residence, and show an acceptable photo ID.",
+        text: "Same-day registration is available during early voting, beginning October 15, 2026, per the North Carolina State Board of Elections.",
         startsOn: "2026-10-15",
         endsOn: "2026-10-31",
         sources: [
@@ -416,7 +414,7 @@ export const ELECTION_DATES: StateElectionDates[] = [
   {
     code: "NV",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Nevada Secretary of State’s 2026 Elections Procedures Manual lists October 6, 2026 for registration by mail or in person at the clerk, October 12, 2026 at a voter-registration agency such as the DMV, and November 3, 2026 for online registration. Same-day registration is available at vote centers during early voting and on Election Day. The Secretary of State’s FAQ lists early voting as October 17–30, 2026. Active registered voters are mailed a ballot unless they opt out. A mailed ballot must be postmarked by Election Day and received by 5 p.m. on the fourth day after the election, or returned in person before the polls close. County hours vary, and dates can change. Confirm with the Nevada Secretary of State.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Nevada Secretary of State’s 2026 Elections Procedures Manual lists October 6, 2026 for registration by mail or in person at the clerk, October 12, 2026 at a voter-registration agency such as the DMV, and November 3, 2026 for online registration. Same-day registration is available at vote centers during early voting and on Election Day. The Secretary of State’s FAQ lists early voting as October 17–30, 2026. Active registered voters are mailed a ballot unless they opt out. A mailed ballot must be postmarked by Election Day and received by 5 p.m. on the fourth day after the election, or returned in person before the polls close. County hours vary, and dates can change. The Nevada Secretary of State publishes the current calendar.",
     facts: [
       {
         id: "nv-register-mail",
@@ -448,7 +446,7 @@ export const ELECTION_DATES: StateElectionDates[] = [
         id: "nv-register-online",
         category: "registration",
         label: "Online registration",
-        text: "The manual lists November 3, 2026 as the general-election date for registration in NOVA, the state’s online system. A note on that table says voters who register online within 14 days of the election are not sent a mail ballot and must show ID and vote in person at a vote center.",
+        text: "The manual lists November 3, 2026 as the general-election date for registration in NOVA, the state’s online system.",
         endsOn: "2026-11-03",
         sources: [
           {
@@ -461,7 +459,7 @@ export const ELECTION_DATES: StateElectionDates[] = [
         id: "nv-sameday",
         category: "registration",
         label: "Same-day registration",
-        text: "The Secretary of State’s elections FAQ says you can use same-day registration during early voting or on Election Day. It requires a Nevada driver’s license or Nevada ID card, or a tribal ID that meets the requirements on that page, and an in-person vote at a polling location. The procedures manual lists vote-center registration for the general election as October 17–30, 2026 and Election Day.",
+        text: "Same-day registration is available during early voting (October 17–30, 2026) and on Election Day, per the Nevada Secretary of State’s elections FAQ and the 2026 Elections Procedures Manual.",
         startsOn: "2026-10-17",
         endsOn: "2026-11-03",
         sources: [
@@ -520,7 +518,7 @@ export const ELECTION_DATES: StateElectionDates[] = [
   {
     code: "OH",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. Ohio law requires voters to register by the 30th day before the election, and the Cuyahoga County Board of Elections lists that deadline for this election as Monday, October 5, 2026. Under the Ohio Revised Code, early in-person (absentee) voting runs from the day after registration closes (October 6, per the Cuyahoga board) through 5 p.m. on Sunday, November 1; a vote-by-mail application must reach your county board of elections by the close of business on Tuesday, October 27; and a voted absentee ballot must reach the county board by the close of the polls (7:30 p.m.) on Election Day. Confirm daily early-voting hours and office closing times with your own county board. The Ohio Secretary of State website blocked automated reads for this update. Dates can change. Confirm with the Ohio Secretary of State and your county board of elections.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. Ohio law requires voters to register by the 30th day before the election, and the Cuyahoga County Board of Elections lists that deadline for this election as Monday, October 5, 2026. Under the Ohio Revised Code, early in-person (absentee) voting runs from the day after registration closes (October 6, per the Cuyahoga board) through 5 p.m. on Sunday, November 1; a vote-by-mail application must reach the county board of elections by the close of business on Tuesday, October 27; and a voted absentee ballot must reach the county board by the close of the polls (7:30 p.m.) on Election Day. Daily early-voting hours are set by each county board. The Ohio Secretary of State website blocked automated reads for this update. Dates can change. The Ohio Secretary of State and county boards of elections publish the current calendar.",
     facts: [
       {
         id: "oh-register",
@@ -534,7 +532,7 @@ export const ELECTION_DATES: StateElectionDates[] = [
         id: "oh-early",
         category: "early",
         label: "Early in-person (absentee) voting",
-        text: "Ohio Revised Code § 3509.051 allows in-person absentee voting from the first day after voter registration closes through 5 p.m. on the Sunday before the election, which is November 1, 2026. The Cuyahoga County Board of Elections lists Tuesday, October 6, 2026 as the first day. Daily hours are not set by that statute. The hour-by-hour calendar linked here is Cuyahoga County’s only, so check your own county board of elections for its hours.",
+        text: "Ohio Revised Code § 3509.051 allows in-person absentee voting from the first day after voter registration closes through 5 p.m. on the Sunday before the election, which is November 1, 2026. The Cuyahoga County Board of Elections lists Tuesday, October 6, 2026 as the first day. Daily hours are not set by that statute. The hour-by-hour calendar linked here is Cuyahoga County’s only. Other counties publish their own hours.",
         startsOn: "2026-10-06",
         endsOn: "2026-11-01",
         sources: [OH_ORC_3509_051, OH_CUYAHOGA_FAQ, OH_CUYAHOGA_EARLY],
@@ -543,7 +541,7 @@ export const ELECTION_DATES: StateElectionDates[] = [
         id: "oh-request",
         category: "mail-request",
         label: "Vote-by-mail application",
-        text: "Ohio Revised Code § 3509.03 requires an absentee (vote-by-mail) application to reach the county board of elections by the close of business on the seventh day before the election, which is Tuesday, October 27, 2026. The Cuyahoga County Board of Elections says it accepts applications until 8:30 p.m. that day. That closing time is Cuyahoga’s only, so check your own county board’s hours. The Cuyahoga board also says a mailed application from the Secretary of State still has to be completed and returned.",
+        text: "Ohio Revised Code § 3509.03 requires an absentee (vote-by-mail) application to reach the county board of elections by the close of business on the seventh day before the election, which is Tuesday, October 27, 2026. The Cuyahoga County Board of Elections says it accepts applications until 8:30 p.m. that day. That closing time is Cuyahoga County only. Other counties publish their own hours.",
         endsOn: "2026-10-27",
         sources: [OH_ORC_3509_03, OH_CUYAHOGA_FAQ],
       },
@@ -560,14 +558,14 @@ export const ELECTION_DATES: StateElectionDates[] = [
       {
         category: "registration",
         label: "Same-day or Election Day registration",
-        text: "Check with the Ohio Secretary of State. The Ohio Revised Code sections and county FAQ read for this update do not describe Election Day registration. The Secretary of State website blocked automated reads for this update.",
+        text: "Not listed in the Ohio Revised Code sections and county FAQ read for this update. Those sources do not describe Election Day registration. The Secretary of State website blocked automated reads for this update. The Ohio Secretary of State is the official source.",
       },
     ],
   },
   {
     code: "PA",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Pennsylvania Department of State lists October 19, 2026 as the last day to register before the November election, October 27, 2026 as the last day to apply for a mail-in or civilian absentee ballot, and 8:00 p.m. on November 3, 2026 as the deadline for a county election office to receive those completed ballots. That calendar does not list a statewide early-voting window. Dates can change. Confirm with the Pennsylvania Department of State and your county election office.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Pennsylvania Department of State lists October 19, 2026 as the last day to register before the November election, October 27, 2026 as the last day to apply for a mail-in or civilian absentee ballot, and 8:00 p.m. on November 3, 2026 as the deadline for a county election office to receive those completed ballots. That calendar does not list a statewide early-voting window. Dates can change. The Pennsylvania Department of State and county election offices publish the current calendar.",
     facts: [
       {
         id: "pa-register",
@@ -613,19 +611,19 @@ export const ELECTION_DATES: StateElectionDates[] = [
       {
         category: "early",
         label: "Early or in-person absentee voting",
-        text: "Check with the Pennsylvania Department of State and your county election office. The 2026 upcoming-elections page does not list a statewide early-voting window.",
+        text: "Not listed on the 2026 upcoming-elections page read for this update. That page does not list a statewide early-voting window. The Pennsylvania Department of State and county election offices are the official sources.",
       },
       {
         category: "registration",
         label: "Same-day or Election Day registration",
-        text: "Check with the Pennsylvania Department of State. The upcoming-elections calendar read for this update does not describe same-day registration.",
+        text: "Not listed on the upcoming-elections calendar read for this update. That calendar does not describe same-day registration. The Pennsylvania Department of State is the official source.",
       },
     ],
   },
   {
     code: "WI",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Wisconsin Elections Commission calendar lists October 14, 2026 as the deadline to register by mail or online (mail postmarked by then; online closes at 11:59 p.m.), in-person registration at the municipal clerk through 5 p.m. on October 30, and registration at the polling place after mail and online registration close. In-person absentee voting may begin October 20; municipalities set the hours and may end as late as November 1. Regular absentee requests by mail, online, email, or fax are due by 5 p.m. on October 29. Absentee ballots must be delivered by 8 p.m. on Election Day. Dates can change. Confirm with the Wisconsin Elections Commission and your municipal clerk.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Wisconsin Elections Commission calendar lists October 14, 2026 as the deadline to register by mail or online (mail postmarked by then; online closes at 11:59 p.m.), in-person registration at the municipal clerk through 5 p.m. on October 30, and registration at the polling place after mail and online registration close. In-person absentee voting may begin October 20; municipalities set the hours and may end as late as November 1. Regular absentee requests by mail, online, email, or fax are due by 5 p.m. on October 29. Absentee ballots must be delivered by 8 p.m. on Election Day. Dates can change. The Wisconsin Elections Commission and municipal clerks publish the current calendar.",
     facts: [
       {
         id: "wi-register-mail",
@@ -633,8 +631,6 @@ export const ELECTION_DATES: StateElectionDates[] = [
         label: "Registration by mail or online",
         text: "October 14, 2026 is the deadline to register by mail or online for the general election. A mail form must be postmarked no later than the third Wednesday before the election. Online registration closes at 11:59 p.m. After that date, voters register in person at the municipal clerk’s office or at the polling place.",
         endsOn: "2026-10-14",
-        ifPassed:
-          "The Elections Commission calendar says that after this deadline, electors register in person in the municipal clerk’s office or at the polling place.",
         sources: [
           {
             label: "Wisconsin Elections Commission — 2026–2027 election calendar",
@@ -714,7 +710,7 @@ export const ELECTION_DATES: StateElectionDates[] = [
   {
     code: "TX",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Texas Secretary of State lists Monday, October 5, 2026 as the last day to register, early voting by personal appearance from October 19 through October 30, Friday, October 23 as the last day for a ballot-by-mail application to be received (not merely postmarked), and a receipt rule of 7:00 p.m. on Election Day if the carrier envelope is not postmarked, or 5:00 p.m. on November 4 if it was postmarked by 7:00 p.m. on Election Day. County hours vary, and dates can change. Confirm with the Texas Secretary of State.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Texas Secretary of State lists Monday, October 5, 2026 as the last day to register, early voting by personal appearance from October 19 through October 30, Friday, October 23 as the last day for a ballot-by-mail application to be received (not merely postmarked), and a receipt rule of 7:00 p.m. on Election Day if the carrier envelope is not postmarked, or 5:00 p.m. on November 4 if it was postmarked by 7:00 p.m. on Election Day. County hours vary, and dates can change. The Texas Secretary of State publishes the current calendar.",
     facts: [
       {
         id: "tx-register",
@@ -774,14 +770,14 @@ export const ELECTION_DATES: StateElectionDates[] = [
       {
         category: "registration",
         label: "Same-day or Election Day registration",
-        text: "Check with the Texas Secretary of State. The important-dates page read for this update does not describe same-day registration.",
+        text: "Not listed on the important-dates page read for this update. That page does not describe same-day registration. The Texas Secretary of State is the official source.",
       },
     ],
   },
   {
     code: "FL",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Florida Division of Elections lists October 5, 2026 as the registration deadline, October 22, 2026 as the deadline to request that a ballot be mailed, a mandatory early-voting period of October 24–31, and 7:00 p.m. local time on Election Day as the deadline for a voted vote-by-mail ballot to be received, regardless of postmark. Overseas voters have a 10-day extension on this general election if the ballot is postmarked or dated by Election Day. County hours vary, and dates can change. Confirm with the Florida Division of Elections and your county supervisor of elections.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Florida Division of Elections lists October 5, 2026 as the registration deadline, October 22, 2026 as the deadline to request that a ballot be mailed, a mandatory early-voting period of October 24–31, and 7:00 p.m. local time on Election Day as the deadline for a voted vote-by-mail ballot to be received, regardless of postmark. Overseas voters have a 10-day extension on this general election if the ballot is postmarked or dated by Election Day. County hours vary, and dates can change. The Florida Division of Elections and county supervisors of elections publish the current calendar.",
     facts: [
       {
         id: "fl-register",
@@ -845,14 +841,14 @@ export const ELECTION_DATES: StateElectionDates[] = [
       {
         category: "registration",
         label: "Same-day or Election Day registration",
-        text: "Check with the Florida Division of Elections. The election-dates page read for this update does not describe same-day registration.",
+        text: "Not listed on the election-dates page read for this update. That page does not describe same-day registration. The Florida Division of Elections is the official source.",
       },
     ],
   },
   {
     code: "CA",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The California Secretary of State lists October 19, 2026 as the last day to register, conditional same-day registration from October 20 through November 3, early-voting sites opening October 5, and vote-by-mail ballots mailed to each registered voter no later than October 5. A vote-by-mail ballot returned by mail must be postmarked on or before Election Day and received by the county by November 10, 2026. That key-dates page does not list a separate application deadline. County hours vary, and dates can change. Confirm with the California Secretary of State.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The California Secretary of State lists October 19, 2026 as the last day to register, conditional same-day registration from October 20 through November 3, early-voting sites opening October 5, and vote-by-mail ballots mailed to each registered voter no later than October 5. A vote-by-mail ballot returned by mail must be postmarked on or before Election Day and received by the county by November 10, 2026. That key-dates page does not list a separate application deadline. County hours vary, and dates can change. The California Secretary of State publishes the current calendar.",
     facts: [
       {
         id: "ca-register",
@@ -871,7 +867,7 @@ export const ELECTION_DATES: StateElectionDates[] = [
         id: "ca-sameday",
         category: "registration",
         label: "Conditional same-day registration",
-        text: "Same-day registration is available October 20–November 3, 2026. The Secretary of State says voters can conditionally register and vote a provisional ballot during that period.",
+        text: "Same-day registration is available October 20–November 3, 2026, per the California Secretary of State key-dates page.",
         startsOn: "2026-10-20",
         endsOn: "2026-11-03",
         sources: [
@@ -925,7 +921,7 @@ export const ELECTION_DATES: StateElectionDates[] = [
   {
     code: "NY",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The New York State Board of Elections says a mail or in-person registration application must be received by October 24, 2026. Early voting is October 24–November 1, and county hours vary. An application for an early-mail or absentee ballot to be sent by mail must be received no later than ten days before the election; an in-person application must be received no later than the day before the election. A ballot mailed back must be postmarked by November 3 and received by the county board by November 10, or it can be returned in person by 9 p.m. on November 3. Dates can change. Confirm with the New York State Board of Elections.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The New York State Board of Elections says a mail or in-person registration application must be received by October 24, 2026. Early voting is October 24–November 1, and county hours vary. An application for an early-mail or absentee ballot to be sent by mail must be received no later than ten days before the election; an in-person application must be received no later than the day before the election. A ballot mailed back must be postmarked by November 3 and received by the county board by November 10, or it can be returned in person by 9 p.m. on November 3. Dates can change. The New York State Board of Elections publishes the current calendar.",
     facts: [
       {
         id: "ny-register",
@@ -984,12 +980,12 @@ export const ELECTION_DATES: StateElectionDates[] = [
       {
         category: "registration",
         label: "Online registration deadline",
-        text: "Check with the New York State Board of Elections. The registration-deadlines page read for this update states October 24, 2026 for mail and in-person applications and does not print a separate online-portal date.",
+        text: "The registration-deadlines page read for this update states October 24, 2026 for mail and in-person applications and does not print a separate online-portal date. The New York State Board of Elections is the official source.",
       },
       {
         category: "registration",
         label: "Same-day or Election Day registration",
-        text: "Check with the New York State Board of Elections. The pages read for this update do not describe same-day registration.",
+        text: "Not listed on the pages read for this update. Those pages do not describe same-day registration. The New York State Board of Elections is the official source.",
       },
     ],
   },
