@@ -63,7 +63,10 @@ export function SiteFooter() {
               </span>
             ))}
           </p>
-          <p className="mt-3 text-xs leading-5 text-white/70">
+          <p className="mt-3 text-sm font-medium text-white/90">
+            Operated by Joshua Israel Ventures LLC
+          </p>
+          <p className="mt-1 text-xs leading-5 text-white/70">
             © {new Date().getFullYear()} {SITE.legalName}. {SITE.location}. Contact{" "}
             <a className="underline" href={`mailto:${SITE.email}`}>
               {SITE.email}
