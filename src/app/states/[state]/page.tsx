@@ -8,7 +8,12 @@ import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { RaceCard } from "@/components/RaceCard";
 import { KeyDatesSection } from "@/components/ElectionDates";
-import { electionDatesFor } from "@/data/electionDates";
+import {
+  electionDatesFor,
+  hasSourcedDeadline,
+  hasSourcedMailDeadline,
+  type StateElectionDates,
+} from "@/data/electionDates";
 import { racesForState } from "@/data/races";
 import { stateHubFaqs } from "@/data/stateFaqs";
 import { getState, isStateCode, STARTER_STATES } from "@/data/states";
@@ -24,9 +29,10 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   const { state: code } = await params;
   const state = getState(code);
   if (!state) return {};
+  const dates = electionDatesFor(state.code);
   return pageMetadata({
-    title: stateHubTitle(state.name),
-    description: stateHubDescription(state),
+    title: stateHubTitle(state.name, dates),
+    description: stateHubDescription(state, dates),
     path: `/states/${state.code}`,
   });
 }
@@ -216,17 +222,47 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
   );
 }
 
-/** Search title. Site name is appended by pageMetadata; keep this under ~60 characters. */
-function stateHubTitle(name: string): string {
-  return `${name} 2026 midterms: ballot, races & voting`;
+/**
+ * Search title. Site name is appended by the root template.
+ * Prefer about 60 characters. North Carolina is 62 with the shared pattern;
+ * a shorter title would drop ballot or races.
+ * A date category is named only when that state stores a sourced fact for it.
+ */
+function stateHubTitle(name: string, dates: StateElectionDates): string {
+  const registration = hasSourcedDeadline(dates, "registration");
+  const early = hasSourcedDeadline(dates, "early");
+  const mail = hasSourcedMailDeadline(dates);
+
+  if (registration && early) {
+    return `${name} 2026 registration, early voting, ballot & races`;
+  }
+  if (registration && mail) {
+    return `${name} 2026 registration, mail ballot & races`;
+  }
+  if (registration) return `${name} 2026 voter registration, ballot & races`;
+  if (early) return `${name} 2026 early voting, ballot & races`;
+  if (mail) return `${name} 2026 mail ballot, ballot & races`;
+  return `${name} 2026 midterms: ballot, races, and key dates`;
 }
 
 function stateHubHeading(name: string): string {
-  return `${name} 2026 midterms: ballot, races, and voting rules`;
+  return `${name} 2026 midterms: ballot, races, and key dates`;
 }
 
-function stateHubDescription(state: StateProfile): string {
-  return `${stateCycleLead(state)} This page covers sample-ballot structure, race guides, key 2026 election dates, and links to ${state.officialElectionOffice.label}. Not an official election website.`;
+function stateHubDescription(state: StateProfile, dates: StateElectionDates): string {
+  return `${state.name} ${deadlineMetaClause(dates)} for the November 3, 2026 election, plus sample-ballot structure and race guides. ${stateCycleLead(state)} Dates link to ${state.officialElectionOffice.label}. Not an official election website.`;
+}
+
+/** Lowercase clause. Only categories with sourced facts are named. */
+function deadlineMetaClause(dates: StateElectionDates): string {
+  const parts: string[] = [];
+  if (hasSourcedDeadline(dates, "registration")) parts.push("voter registration");
+  if (hasSourcedDeadline(dates, "early")) parts.push("early voting");
+  if (hasSourcedMailDeadline(dates)) parts.push("mail-ballot");
+  if (parts.length === 0) return "key election dates";
+  if (parts.length === 1) return `${parts[0]} deadlines`;
+  if (parts.length === 2) return `${parts[0]} and ${parts[1]} deadlines`;
+  return `${parts[0]}, ${parts[1]}, and ${parts[2]} deadlines`;
 }
 
 /**

@@ -16,7 +16,11 @@ const INCLUDE_PER_RACE_RESULTS_IN_SITEMAP = false;
 /** Date of the October 7, 2026 compliance edit. Unchanged pages keep SITE.lastUpdated. */
 const CONTENT_UPDATED = "2026-10-07";
 
-/** Date of the October 8, 2026 edit (tip jar, funding note, privacy and terms updates). */
+/**
+ * October 8, 2026. Used for the monetization edit and, the same day, the
+ * voting-deadlines title, anchors, and cross-links. State hubs were already
+ * on this date. Other pages stay on CONTENT_UPDATED or SITE.lastUpdated.
+ */
 const MONETIZATION_UPDATED = "2026-10-08";
 
 function pageChanged(path: string): boolean {
@@ -34,7 +38,7 @@ function monetizationChanged(path: string): boolean {
 }
 
 function lastModifiedFor(path: string): string {
-  if (monetizationChanged(path)) return MONETIZATION_UPDATED;
+  if (path === "/voting-deadlines" || monetizationChanged(path)) return MONETIZATION_UPDATED;
   return pageChanged(path) ? CONTENT_UPDATED : SITE.lastUpdated;
 }
 

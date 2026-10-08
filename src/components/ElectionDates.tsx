@@ -6,7 +6,8 @@ import {
   DATES_CHECKED_ON,
   DEADLINE_CATEGORY_LABEL,
   MARKER_NOTE,
-  VOTING_DEADLINES_PATH,
+  stateKeyDatesHref,
+  votingDeadlinesStateHref,
   type DeadlineFact,
   type OmittedDeadline,
   type StateElectionDates,
@@ -109,7 +110,7 @@ export function KeyDatesSection({
   dates: StateElectionDates;
 }) {
   return (
-    <section id="key-dates" className="rounded-xl border border-line bg-paper-card p-5">
+    <section id="key-dates" className="scroll-mt-24 rounded-xl border border-line bg-paper-card p-5">
       <h2 className="font-serif text-2xl font-semibold">Key 2026 general election dates</h2>
       <p className="mt-2 max-w-3xl text-sm leading-6 text-ink-muted">
         Dates below are paraphrased from the official pages linked on each line and were
@@ -126,8 +127,8 @@ export function KeyDatesSection({
         ))}
       </div>
       <p className="mt-5 text-sm">
-        <Link className="font-medium text-navy hover:underline" href={VOTING_DEADLINES_PATH}>
-          Compare these dates across all 12 states
+        <Link className="font-medium text-navy hover:underline" href={votingDeadlinesStateHref(state.code)}>
+          Compare with other states
         </Link>
         {" · "}
         <a
@@ -200,9 +201,9 @@ export function VotingDeadlinesTable({
         </thead>
         <tbody>
           {rows.map(({ state, dates }) => (
-            <tr key={state.code} className="border-t border-line align-top">
+            <tr id={state.code} key={state.code} className="scroll-mt-24 border-t border-line align-top">
               <th scope="row" className="sticky left-0 bg-paper-card px-3 py-4 text-sm font-semibold">
-                <Link className="text-navy hover:underline" href={`/states/${state.code}#key-dates`}>
+                <Link className="text-navy hover:underline" href={stateKeyDatesHref(state.code)}>
                   {state.name}
                 </Link>
               </th>

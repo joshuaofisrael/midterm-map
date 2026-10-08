@@ -1009,3 +1009,26 @@ export const DEADLINE_CATEGORY_LABEL: Record<DeadlineCategory, string> = {
 };
 
 export const VOTING_DEADLINES_PATH = "/voting-deadlines";
+
+/** True when this state stores a sourced fact in the category. Omitted rows do not count. */
+export function hasSourcedDeadline(
+  dates: StateElectionDates,
+  category: DeadlineCategory,
+): boolean {
+  return dates.facts.some((fact) => fact.category === category);
+}
+
+/** Mail-ballot request or return facts. An omitted mail row is not sourced data. */
+export function hasSourcedMailDeadline(dates: StateElectionDates): boolean {
+  return hasSourcedDeadline(dates, "mail-request") || hasSourcedDeadline(dates, "mail-return");
+}
+
+/** Deep link to one state's row on the voting-deadlines page. Trailing slash matches GitHub Pages. */
+export function votingDeadlinesStateHref(code: StateCode): string {
+  return `${VOTING_DEADLINES_PATH}/#${code}`;
+}
+
+/** Deep link to the key-dates section on a state hub. */
+export function stateKeyDatesHref(code: StateCode): string {
+  return `/states/${code}/#key-dates`;
+}
