@@ -57,6 +57,45 @@ export default function PrivacyPage() {
             : " It takes no payments."}
         </p>
 
+        <h2>Who is responsible for your information</h2>
+        <p>
+          {SITE.brandNote} {SITE.legalName} is the data controller for personal information
+          collected through {SITE.name}, meaning it decides how and why that information is used.
+          Privacy questions and requests go to{" "}
+          <a href={contactMailto()}>{SITE.email}</a>.
+        </p>
+
+        <h2>What the site collects, at a glance</h2>
+        <ul>
+          {signup && (
+            <li>
+              Election night results alert: the email address you enter, stored with
+              {providerName ? ` ${providerName}` : " our email provider"}, added only after you
+              confirm through a double opt-in email.
+            </li>
+          )}
+          {tips && (
+            <li>
+              Tips: payment details are collected by Stripe on its own Payment Link page; we receive
+              the tip record described below.
+            </li>
+          )}
+          <li>
+            Analytics: aggregate, cookieless page statistics from Cloudflare Web Analytics.
+          </li>
+          <li>Hosting: security logs kept by GitHub Pages.</li>
+          <li>Email you choose to send us.</li>
+          <li>
+            {affiliates
+              ? "Affiliate links: if you click one, the retailer may set cookies on its own site."
+              : "Affiliate links: none are live today, so no affiliate cookies are involved."}
+          </li>
+        </ul>
+        <p>
+          The site has no contact form (we do not use FormSubmit or any other form service; you
+          contact us by email), and it does not run Google AdSense or any other advertising network.
+        </p>
+
         <h2>Summary</h2>
         <ul>
           <li>We do not ask you to create an account or submit personal information to use the site.</li>

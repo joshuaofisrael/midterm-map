@@ -36,6 +36,9 @@
 ## About and policies
 
 - [About](https://mapthemidterms.com/about/): Who runs the site (Joshua Israel Ventures LLC) and what it covers.
-- [Disclaimer](https://mapthemidterms.com/disclaimer/): States that the site is not an official election website and does not endorse candidates.
-- [Privacy](https://mapthemidterms.com/privacy/): What data the site collects.
-- [Terms](https://mapthemidterms.com/terms/): Terms of use.
+- [Disclaimer](https://mapthemidterms.com/disclaimer/): Accuracy and official sources, no professional relationship, not affiliated with any government or election office, nonpartisan, and tip and affiliate (FTC) disclosures.
+- [Privacy](https://mapthemidterms.com/privacy/): What data the site collects; Joshua Israel Ventures LLC is the data controller.
+- [Terms](https://mapthemidterms.com/terms/): Terms of use; users contract with Joshua Israel Ventures LLC.
+- [Contact](https://mapthemidterms.com/contact/): Email contact for Joshua Israel Ventures LLC.
+
+Map the Midterms is a brand of Joshua Israel Ventures LLC, not a separate company or DBA.

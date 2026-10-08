@@ -9,7 +9,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "Terms of Use",
   description:
-    `Terms for ${SITE.name}, operated by Joshua Israel Ventures LLC: informational use, Florida governing law, limitation of liability, voluntary tips, email alerts, affiliate links, and no campaign contribution solicitation.`,
+    `Terms for ${SITE.name}, operated by Joshua Israel Ventures LLC: informational use, Michigan governing law, limitation of liability, voluntary tips, email alerts, affiliate links, and no campaign contribution solicitation.`,
   path: "/terms",
 });
 
@@ -35,8 +35,16 @@ export default function TermsPage() {
         <p>
           These Terms of Use are a contract between you and{" "}
           <strong>{SITE.legalName}</strong> (“we,” “us”) for use of {SITE.name}{" "}
-          ({SITE.url}). {SITE.brandNote} If you do not agree, do not use the
-          site.
+          ({SITE.url}). {SITE.legalName} is a {SITE.entityType}. If you do
+          not agree, do not use the site.
+        </p>
+
+        <h2>Who you are dealing with</h2>
+        <p>
+          {SITE.brandNote} {SITE.name} is owned by {SITE.legalName}. Whenever
+          you use the site, sign up for an email alert, leave a tip, or contact
+          us, you are dealing with {SITE.legalName}, and {SITE.legalName} is the
+          only party to these terms on our side.
         </p>
 
         <h2>Informational site</h2>
@@ -45,7 +53,15 @@ export default function TermsPage() {
           informational purposes only. It is not an official election website,
           is not affiliated with any government agency, election office,
           candidate, party, or campaign, and does not process registration,
-          ballot requests, or political contributions. Nothing on the site is legal advice. Use is subject to the{" "}
+          ballot requests, or political contributions.
+        </p>
+        <p>
+          All content is general information only. It is not legal, voting,
+          election-administration, financial, tax, or other professional advice,
+          and using the site does not create a professional or advisory
+          relationship with {SITE.legalName}. Official state and county
+          election offices are the authority on ballots, registration,
+          deadlines, voting rules, and results. Use is subject to the{" "}
           <Link href="/disclaimer">disclaimer</Link> and{" "}
           <Link href="/privacy">privacy policy</Link>, which are part of these
           terms.
@@ -169,10 +185,12 @@ export default function TermsPage() {
 
         <h2>Governing law</h2>
         <p>
-          These terms are governed by the laws of the State of Florida, without
-          regard to conflict-of-law rules, unless a mandatory consumer-protection
-          law in your place of residence says otherwise. Subject to that
-          exception, courts located in Florida shall have jurisdiction.
+          These terms, and any dispute about the site or these terms, are
+          governed by the laws of the State of Michigan, without regard to
+          conflict-of-law rules, unless a mandatory consumer-protection law in
+          your place of residence says otherwise. Subject to that exception,
+          the state and federal courts located in the State of Michigan shall
+          have jurisdiction.
         </p>
 
         <h2>Severability</h2>

@@ -37,7 +37,12 @@ function monetizationChanged(path: string): boolean {
   return path.startsWith("/states/") || path.startsWith("/races/");
 }
 
+/** October 8, 2026 legal "brand of the LLC" pass: About, Disclaimer, Privacy, Terms, new Contact page. */
+const LEGAL_BRAND_UPDATED = "2026-10-08";
+const LEGAL_BRAND_PATHS = new Set(["/about", "/disclaimer", "/privacy", "/terms", "/contact"]);
+
 function lastModifiedFor(path: string): string {
+  if (LEGAL_BRAND_PATHS.has(path)) return LEGAL_BRAND_UPDATED;
   if (path === "/voting-deadlines" || monetizationChanged(path)) return MONETIZATION_UPDATED;
   return pageChanged(path) ? CONTENT_UPDATED : SITE.lastUpdated;
 }
@@ -55,6 +60,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/disclaimer",
     "/privacy",
     "/terms",
+    "/contact",
   ];
 
   const statePaths = STARTER_STATES.flatMap((state) => [
