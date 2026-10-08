@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CrossLinks } from "@/components/CrossLinks";
+import { TipJar } from "@/components/TipJar";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
@@ -210,6 +211,7 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
         </p>
       </section>
       <CrossLinks state={state.code} />
+      <TipJar />
     </div>
   );
 }

@@ -2,13 +2,14 @@ import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
+import { AFFILIATE, affiliateEnabled, EMAIL_SIGNUP, emailSignupEnabled, tipJarEnabled } from "@/data/monetization";
 import { contactMailto, SITE } from "@/data/site";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
   title: "Privacy Policy",
   description:
-    `Privacy practices for ${SITE.name} (Joshua Israel Ventures LLC): no accounts, browser-only ZIP lookup, cookieless Cloudflare Web Analytics, GitHub Pages hosting logs, no sale of personal information, and your privacy rights.`,
+    `Privacy practices for ${SITE.name} (Joshua Israel Ventures LLC): no accounts, browser-only ZIP lookup, cookieless Cloudflare Web Analytics, GitHub Pages hosting logs, optional tips through Stripe, email alert and affiliate link terms, no sale of personal information, and your privacy rights.`,
   path: "/privacy",
 });
 
@@ -17,9 +18,18 @@ const CLOUDFLARE_DATA_COLLECTION =
   "https://developers.cloudflare.com/web-analytics/data-metrics/data-origin-and-collection/";
 const CLOUDFLARE_PRIVACY = "https://www.cloudflare.com/privacypolicy/";
 const GITHUB_PAGES_DATA = "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection";
+const STRIPE_PRIVACY = "https://stripe.com/privacy";
 const GITHUB_PRIVACY = "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement";
 
 export default function PrivacyPage() {
+  const tips = tipJarEnabled();
+  const signup = emailSignupEnabled();
+  const affiliates = affiliateEnabled();
+  const affiliateRetailers = [
+    AFFILIATE.bookshopId.trim() ? "Bookshop.org" : "",
+    AFFILIATE.amazonTag.trim() ? "Amazon" : "",
+  ].filter(Boolean);
+  const providerName = EMAIL_SIGNUP.provider.trim();
   return (
     <div className="mx-auto max-w-3xl">
       <JsonLd
@@ -30,7 +40,7 @@ export default function PrivacyPage() {
       />
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "Privacy" }]} />
       <PageHeader
-        eyebrow={`Last updated ${SITE.legalLastUpdated}`}
+        eyebrow={`Last updated ${SITE.policyLastUpdated}`}
         title="Privacy Policy"
         lede={`How ${SITE.legalName} handles information on ${SITE.name}.`}
       />
@@ -39,8 +49,12 @@ export default function PrivacyPage() {
           This policy explains what information is involved when you visit {SITE.name} (
           {SITE.url}). The site is operated by {SITE.legalName}, a {SITE.entityType} based in{" "}
           {SITE.location} (“we,” “us”). {SITE.name} is a static informational website. It has no
-          user accounts, no sign-up forms, no comments, no advertising, no affiliate links, and no
-          payments.
+          user accounts, no comments, and no advertising.
+          {signup ? " It offers an optional election-night email alert." : " It has no email sign-up form."}
+          {affiliates ? " Some pages contain disclosed affiliate links." : " It has no affiliate links."}
+          {tips
+            ? " Readers can leave an optional tip, which is processed by Stripe on Stripe’s own payment page."
+            : " It takes no payments."}
         </p>
 
         <h2>Summary</h2>
@@ -54,6 +68,17 @@ export default function PrivacyPage() {
           <li>Our host, GitHub Pages, logs visitor IP addresses for security purposes.</li>
           <li>We do not sell or share personal information, and we do not use it for targeted advertising.</li>
           <li>We do not set cookies, and no third-party embeds on the site set cookies.</li>
+          {tips && (
+            <li>
+              If you leave a tip, Stripe processes the payment on its own page. We never see your
+              full card number.
+            </li>
+          )}
+          <li>
+            {signup
+              ? "If you sign up for the election-night alert, we use your email address only for that alert and occasional site updates. We never sell it."
+              : "We do not collect email addresses through the site unless you email us."}
+          </li>
         </ul>
 
         <h2>What we do not collect</h2>
@@ -109,6 +134,76 @@ export default function PrivacyPage() {
           privacy policies apply once you leave {SITE.name}.
         </p>
 
+        {tips && (
+          <>
+            <h2>Tips through Stripe</h2>
+            <p>
+              The “Keep this map free” button opens a payment page hosted by Stripe, Inc.
+              (buy.stripe.com), not by this website. Tips are voluntary and are paid to{" "}
+              {SITE.legalName}. They are not political contributions and are not tax-deductible.
+              Stripe collects the payment details needed to process the tip and prevent fraud, such
+              as your card or other payment method, email address, and billing country and postal
+              code. We do not see or store your full card number. Stripe gives us the tip amount and
+              date, the email address and any name you enter, your billing country and postal code,
+              and limited card details such as the card brand and last four digits. We use this only
+              to process and record the tip, issue refunds, answer your questions, prevent fraud, and
+              keep the business and tax records the law requires. Leaving a tip does not add you to
+              any mailing list. Stripe processes this information under its own{" "}
+              <a href={STRIPE_PRIVACY} rel="noopener noreferrer">privacy policy</a> and may use
+              cookies on its payment page.
+            </p>
+          </>
+        )}
+
+        <h2>Election night results alert (email sign-up)</h2>
+        {signup ? (
+          <p>
+            Some pages offer an optional “Election night results alert.” If you sign up, we collect
+            your email address. It is stored with our email service provider
+            {providerName ? `, ${providerName}` : ""}
+            {EMAIL_SIGNUP.providerPrivacyUrl.trim() ? (
+              <>
+                {" "}(see its{" "}
+                <a href={EMAIL_SIGNUP.providerPrivacyUrl} rel="noopener noreferrer">privacy policy</a>)
+              </>
+            ) : null}
+            , and used only to send one email with links to official results on election night
+            (November 3, 2026) and occasional updates about this site. Sign-up uses double opt-in:
+            you are not added until you confirm through the link in a confirmation email. Every email
+            includes an unsubscribe link, and you can unsubscribe at any time. We never sell or rent
+            the list. Email providers may record delivery information and whether messages are
+            opened or links clicked, as described in their privacy policies.
+          </p>
+        ) : (
+          <p>
+            We may offer an optional “Election night results alert.” No sign-up form is live on the
+            site today. If we add one and you choose to sign up, we will collect only your email
+            address, store it with a third-party email service provider named at signup, and use it
+            only for the election-night alert and occasional site updates. Sign-up will use double
+            opt-in (you confirm through a link in a confirmation email), every email will include an
+            unsubscribe link, and we will never sell or rent the list. We will update this policy to
+            name the provider before a form goes live.
+          </p>
+        )}
+
+        <h2>Affiliate links</h2>
+        {affiliates ? (
+          <p>
+            Some pages contain affiliate links to {affiliateRetailers.join(" and ")}. If you buy
+            through one of these links, {SITE.legalName} may earn a commission at no extra cost to
+            you. Each page with affiliate links shows a disclosure directly above them. When you
+            click an affiliate link, the retailer may use cookies or similar technology on its own
+            website to credit the purchase to us, under its own privacy policy. We receive commission
+            reports from the retailer, not your name, address, or payment details.
+          </p>
+        ) : (
+          <p>
+            The site does not currently contain affiliate links. If we add them (for example, links
+            to books), each page with affiliate links will show a disclosure directly above them, and
+            we will update this section before they go live.
+          </p>
+        )}
+
         <h2>Email you send us</h2>
         <p>
           If you email <a href={contactMailto()}>{SITE.email}</a>, we receive your email address and
@@ -123,6 +218,8 @@ export default function PrivacyPage() {
           <li>To operate, secure, and fix the website</li>
           <li>To understand aggregate use of pages through Cloudflare Web Analytics</li>
           <li>To respond to messages you send</li>
+          {tips && <li>To process, record, and if needed refund tips, and to keep required tax and accounting records</li>}
+          {signup && <li>To send the election-night alert and occasional site updates you signed up for</li>}
           <li>To comply with law or protect our rights where required</li>
         </ul>
         <p>
@@ -134,8 +231,11 @@ export default function PrivacyPage() {
         <h2>Retention</h2>
         <p>
           We keep emails for as long as needed to respond and for ordinary business records, and we
-          delete them when they are no longer needed. Cloudflare and GitHub keep analytics and
-          security logs under their own retention practices; we do not hold copies of those logs.
+          delete them when they are no longer needed.
+          {tips ? " We keep tip records for as long as tax and accounting rules require (generally up to seven years)." : ""}
+          {signup ? " We keep alert subscribers’ email addresses until they unsubscribe or ask us to delete them." : ""}{" "}
+          Cloudflare and GitHub keep analytics and security logs, and Stripe keeps payment records,
+          under their own retention practices; we do not hold copies of Cloudflare’s or GitHub’s logs.
         </p>
 
         <h2>Visitors in the European Economic Area and the United Kingdom</h2>
@@ -144,8 +244,12 @@ export default function PrivacyPage() {
           Data Protection Regulation applies to you, {SITE.legalName} is the controller for any
           personal information we process. Our legal basis is our legitimate interest in operating,
           securing, and improving a free public information website and in answering messages you
-          choose to send. Information is processed in the United States by us and by our service
-          providers (Cloudflare, GitHub, and our email provider). Subject to the conditions in
+          choose to send.
+          {tips ? " For tips, the legal basis is processing needed to take your payment and to meet tax and accounting obligations." : ""}
+          {signup ? " For the email alert, the legal basis is your consent, which you can withdraw at any time by unsubscribing." : ""}{" "}
+          Information is processed in the United States by us and by our service providers
+          (Cloudflare, GitHub, Google for email we receive{tips ? ", Stripe for tips" : ""}
+          {signup ? ", and our email alert provider" : ""}). Subject to the conditions in
           those laws, you may ask to access, correct, delete, or restrict our use of your personal
           information, object to our use of it, or receive a copy of it. You may also complain to
           your local data-protection authority, such as the UK Information Commissioner’s Office.
@@ -166,10 +270,12 @@ export default function PrivacyPage() {
         <p>
           Email <a href={contactMailto()}>{SITE.email}</a> with “Privacy request” in the subject line
           and tell us what you are asking for. Because we do not have accounts, we usually hold no
-          personal information about visitors other than emails they have sent us. We may need to
+          personal information about visitors other than emails they have sent us
+          {tips ? ", records of tips" : ""}
+          {signup ? ", and alert subscribers’ email addresses" : ""}. We may need to
           confirm that a request comes from the person the information is about, and we will
-          respond within the time the applicable law requires. Requests about Cloudflare’s or
-          GitHub’s own logs may need to go to those companies.
+          respond within the time the applicable law requires. Requests about Cloudflare’s,
+          GitHub’s, or Stripe’s own records may need to go to those companies.
         </p>
 
         <h2>Children</h2>

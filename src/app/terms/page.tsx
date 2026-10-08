@@ -2,17 +2,21 @@ import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
+import { affiliateEnabled, emailSignupEnabled, tipJarEnabled } from "@/data/monetization";
 import { contactMailto, SITE } from "@/data/site";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
   title: "Terms of Use",
   description:
-    `Terms for ${SITE.name}, operated by Joshua Israel Ventures LLC: informational use, Florida governing law, limitation of liability, and no campaign contribution solicitation.`,
+    `Terms for ${SITE.name}, operated by Joshua Israel Ventures LLC: informational use, Florida governing law, limitation of liability, voluntary tips, email alerts, affiliate links, and no campaign contribution solicitation.`,
   path: "/terms",
 });
 
 export default function TermsPage() {
+  const tips = tipJarEnabled();
+  const signup = emailSignupEnabled();
+  const affiliates = affiliateEnabled();
   return (
     <div className="mx-auto max-w-3xl">
       <JsonLd
@@ -23,7 +27,7 @@ export default function TermsPage() {
       />
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "Terms" }]} />
       <PageHeader
-        eyebrow={`Last updated ${SITE.legalLastUpdated}`}
+        eyebrow={`Last updated ${SITE.policyLastUpdated}`}
         title="Terms of Use"
         lede={`By using ${SITE.name}, you agree to these terms.`}
       />
@@ -41,7 +45,7 @@ export default function TermsPage() {
           informational purposes only. It is not an official election website,
           is not affiliated with any government agency, election office,
           candidate, party, or campaign, and does not process registration,
-          ballot requests, or contributions. Nothing on the site is legal advice. Use is subject to the{" "}
+          ballot requests, or political contributions. Nothing on the site is legal advice. Use is subject to the{" "}
           <Link href="/disclaimer">disclaimer</Link> and{" "}
           <Link href="/privacy">privacy policy</Link>, which are part of these
           terms.
@@ -60,7 +64,42 @@ export default function TermsPage() {
           {SITE.name} does not solicit campaign contributions for candidates,
           parties, or political committees. Do not treat any page as a
           fundraising appeal. We do not accept campaign donations through this
-          website.
+          website. We do not accept money or advertising from candidates,
+          campaigns, parties, or political action committees.
+          {tips ? " Optional tips go to " + SITE.legalName + " to support the site, not to any candidate, party, or committee." : ""}
+        </p>
+
+        {tips && (
+          <>
+            <h2>Tips</h2>
+            <p>
+              You may choose to leave a voluntary tip through the “Keep this map
+              free” link. A tip is a payment to {SITE.legalName} to help cover
+              the cost of running the site. It is not a political contribution,
+              not a charitable donation, and not tax-deductible. A tip does not
+              buy any product, service, account, or influence over what we
+              publish, and the site is the same whether or not you tip. Payments
+              are processed by Stripe, Inc. under Stripe’s own terms. If you tip
+              by mistake or in the wrong amount, email{" "}
+              <a href={contactMailto()}>{SITE.email}</a> within 30 days and we
+              will review the request and refund it where appropriate. Refunds
+              are otherwise not guaranteed, except where the law requires.
+            </p>
+          </>
+        )}
+
+        <h2>Email alerts</h2>
+        <p>
+          {signup
+            ? "If you sign up for the election night results alert, you agree to receive the emails described at sign-up: one email with links to official results on election night and occasional site updates. You can unsubscribe at any time using the link in every email. See the privacy policy for how your email address is handled."
+            : "The site does not currently offer an email sign-up. If we add an optional election night results alert and you sign up, you will receive only the emails described at sign-up and can unsubscribe at any time using the link in every email."}
+        </p>
+
+        <h2>Affiliate links</h2>
+        <p>
+          {affiliates
+            ? "Some pages contain affiliate links. If you buy through them, " + SITE.legalName + " may earn a commission at no extra cost to you. Each page with affiliate links shows a disclosure directly above them. Commissions do not affect which races, candidates, polls, or facts we cover, and reading lists are chosen for relevance and balance, not commission rates. Purchases are made from the retailer under its own terms."
+            : "The site does not currently contain affiliate links. If we add them, each page with affiliate links will show a disclosure directly above them, and commissions will not affect which races, candidates, polls, or facts we cover."}
         </p>
 
         <h2>Accuracy and corrections</h2>

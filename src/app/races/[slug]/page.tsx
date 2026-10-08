@@ -3,12 +3,15 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CandidateCard } from "@/components/CandidateCard";
 import { CrossLinks } from "@/components/CrossLinks";
+import { EmailSignup } from "@/components/EmailSignup";
+import { FurtherReading } from "@/components/FurtherReading";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { PollTable } from "@/components/PollTable";
 import { ShareLink } from "@/components/ShareLink";
 import { SourceList } from "@/components/SourceList";
+import { TipJar } from "@/components/TipJar";
 import { pollsForRace } from "@/data/polls";
 import { indexableRaceHref } from "@/data/results";
 import { AGGREGATORS } from "@/data/sources";
@@ -221,6 +224,9 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         </section>
       )}
       <CrossLinks state={race.state} raceSlug={race.slug} />
+      <EmailSignup />
+      <FurtherReading />
+      <TipJar />
     </div>
   );
 }

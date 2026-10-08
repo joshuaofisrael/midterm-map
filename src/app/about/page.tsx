@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
+import { tipJarEnabled } from "@/data/monetization";
 import { contactMailto, SITE } from "@/data/site";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
@@ -64,6 +65,19 @@ export default function AboutPage() {
           <li>Not a voter-file product and not a registration or ballot-request processor</li>
           <li>Not a live certified-results service</li>
         </ul>
+
+        <h2>How the site is funded</h2>
+        <p>
+          {SITE.name} is paid for by {SITE.legalName}.
+          {tipJarEnabled()
+            ? " Readers who find it useful can leave an optional tip through Stripe (“Keep this map free”). Tips are not political contributions and are not tax-deductible."
+            : ""}{" "}
+          In the future we may add affiliate links, for example to civics and
+          election books; any page with affiliate links will say so directly
+          above them. We take no money or advertising from candidates,
+          campaigns, parties, or PACs, and tips or commissions do not affect
+          what we cover or how we describe it.
+        </p>
 
         <h2>Editorial approach</h2>
         <p>
