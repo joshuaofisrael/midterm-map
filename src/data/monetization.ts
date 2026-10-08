@@ -29,9 +29,9 @@ export type EmailSignupConfig = {
 };
 
 export const EMAIL_SIGNUP: EmailSignupConfig = {
-  provider: "",
-  providerPrivacyUrl: "",
-  action: "",
+  provider: "Kit",
+  providerPrivacyUrl: "https://kit.com/privacy",
+  action: "https://app.kit.com/forms/10018291/subscriptions",
   emailField: "email_address",
   hiddenFields: {},
 };
