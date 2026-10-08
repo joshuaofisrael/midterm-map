@@ -1,8 +1,11 @@
 import Link from "next/link";
 import { BallotLookup } from "@/components/BallotLookup";
+import { EmailSignup } from "@/components/EmailSignup";
+import { FurtherReading } from "@/components/FurtherReading";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { RaceCard } from "@/components/RaceCard";
+import { TipJar } from "@/components/TipJar";
 import { HOME_FAQS } from "@/data/homeFaqs";
 import { featuredRaces } from "@/data/races";
 import { SITE } from "@/data/site";
@@ -61,7 +64,7 @@ export default function HomePage() {
           <p className="mt-4 max-w-2xl text-lg leading-8 text-ink-muted">
             {SITE.name} is a neutral voter information utility for the 2026 U.S.
             midterms. It is operated by {SITE.legalName}. It is not a government
-            site, not a campaign, and not a donation page.
+            site, not a campaign, and does not accept political contributions.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             {CTAS.map((cta) => (
@@ -178,6 +181,10 @@ export default function HomePage() {
           </a>
         </p>
       </section>
+
+      <EmailSignup />
+      <FurtherReading />
+      <TipJar />
     </div>
   );
 }

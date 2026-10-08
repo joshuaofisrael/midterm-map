@@ -16,11 +16,26 @@ const INCLUDE_PER_RACE_RESULTS_IN_SITEMAP = false;
 /** Date of the October 7, 2026 compliance edit. Unchanged pages keep SITE.lastUpdated. */
 const CONTENT_UPDATED = "2026-10-07";
 
+/** Date of the October 8, 2026 edit (tip jar, funding note, privacy and terms updates). */
+const MONETIZATION_UPDATED = "2026-10-08";
+
 function pageChanged(path: string): boolean {
   if (path === "" || path === "/ballot" || path === "/voting-deadlines" || path === "/races" || path === "/polls") {
     return true;
   }
   return path.startsWith("/states/") || path.startsWith("/ballot/") || path.startsWith("/races/");
+}
+
+function monetizationChanged(path: string): boolean {
+  if (path === "" || path === "/about" || path === "/privacy" || path === "/terms") {
+    return true;
+  }
+  return path.startsWith("/states/") || path.startsWith("/races/");
+}
+
+function lastModifiedFor(path: string): string {
+  if (monetizationChanged(path)) return MONETIZATION_UPDATED;
+  return pageChanged(path) ? CONTENT_UPDATED : SITE.lastUpdated;
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -54,7 +69,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [...staticPaths, ...statePaths, ...racePaths].map((path) => ({
     url: absoluteUrl(path || "/"),
-    lastModified: new Date(pageChanged(path) ? CONTENT_UPDATED : SITE.lastUpdated),
+    lastModified: new Date(lastModifiedFor(path)),
     changeFrequency:
       path === "" || path === "/voting-deadlines" || path.startsWith("/states/")
         ? "weekly"

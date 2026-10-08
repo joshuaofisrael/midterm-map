@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { LEGAL_NAV, PRIMARY_NAV, SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
+import { STRIPE_TIP_URL, tipJarEnabled } from "@/data/monetization";
 
 export function SiteFooter() {
   return (
@@ -66,6 +67,15 @@ export function SiteFooter() {
           <p className="mt-3 text-sm font-medium text-white/90">
             Operated by Joshua Israel Ventures LLC
           </p>
+          {tipJarEnabled() && (
+            <p className="mt-1 text-xs leading-5 text-white/70">
+              Keep this map free:{" "}
+              <a className="underline" href={STRIPE_TIP_URL} target="_blank" rel="noopener">
+                leave a tip
+              </a>{" "}
+              (paid to {SITE.legalName} via Stripe; not a political contribution, not tax-deductible).
+            </p>
+          )}
           <p className="mt-1 text-xs leading-5 text-white/70">
             © {new Date().getFullYear()} {SITE.legalName}. {SITE.location}. Contact{" "}
             <a className="underline" href={`mailto:${SITE.email}`}>

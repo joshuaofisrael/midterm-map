@@ -28,8 +28,10 @@ export const SITE = {
   verifyShort:
     "This is not an official government, secretary of state, or county election site. Confirm your sample ballot, districts, and voting rules with your state or county election office.",
   lastUpdated: "October 6, 2026",
-  /** Last substantive change to /privacy, /terms, and /disclaimer. Change only when those pages change. */
+  /** Last substantive change to /disclaimer. Change only when that page changes. */
   legalLastUpdated: "October 6, 2026",
+  /** Last substantive change to /privacy and /terms (tips, email alert, affiliate sections). */
+  policyLastUpdated: "October 8, 2026",
   voteGovUrl: "https://www.vote.gov/",
 } as const;
 
