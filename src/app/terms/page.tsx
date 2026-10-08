@@ -9,7 +9,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "Terms of Use",
   description:
-    `Terms for ${SITE.name}, operated by Joshua Israel Ventures LLC: informational use, Michigan governing law, limitation of liability, voluntary tips, email alerts, affiliate links, and no campaign contribution solicitation.`,
+    `Terms for ${SITE.name}, operated by Joshua Israel Ventures LLC: informational use, Florida governing law, limitation of liability, voluntary tips, email alerts, affiliate links, and no campaign contribution solicitation.`,
   path: "/terms",
 });
 
@@ -186,10 +186,10 @@ export default function TermsPage() {
         <h2>Governing law</h2>
         <p>
           These terms, and any dispute about the site or these terms, are
-          governed by the laws of the State of Michigan, without regard to
+          governed by the laws of the State of Florida, without regard to
           conflict-of-law rules, unless a mandatory consumer-protection law in
           your place of residence says otherwise. Subject to that exception,
-          the state and federal courts located in the State of Michigan shall
+          the state and federal courts located in the State of Florida shall
           have jurisdiction.
         </p>
 
