@@ -69,9 +69,12 @@ export const metadata: Metadata = {
   },
 };
 
+const ORG_ID = `${SITE.url}/#organization`;
+
 const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": ORG_ID,
   name: SITE.legalName,
   legalName: SITE.legalName,
   email: SITE.email,
@@ -87,8 +90,13 @@ const organizationJsonLd = {
     name: "Florida Sunbiz Document Number",
     value: SITE.sunbizDocumentNumber,
   },
+  brand: {
+    "@type": "Brand",
+    name: SITE.name,
+    url: SITE.url,
+  },
   description:
-    `Florida limited liability company that operates informational websites, including ${SITE.name} as an unfiled brand name.`,
+    `Florida limited liability company that owns and operates informational websites. ${SITE.name} is a brand of ${SITE.legalName}, not a separate company.`,
 };
 
 const websiteJsonLd = {
@@ -101,10 +109,13 @@ const websiteJsonLd = {
   inLanguage: "en-US",
   publisher: {
     "@type": "Organization",
+    "@id": ORG_ID,
     name: SITE.legalName,
     legalName: SITE.legalName,
     email: SITE.email,
   },
+  copyrightHolder: { "@id": ORG_ID },
+  copyrightYear: 2026,
   about: {
     "@type": "Thing",
     name: "United States 2026 midterm elections",

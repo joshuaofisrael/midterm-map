@@ -3,6 +3,16 @@ import { LEGAL_NAV, PRIMARY_NAV, SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
 import { STRIPE_TIP_URL, tipJarEnabled } from "@/data/monetization";
 
+/** Owner rule (Oct 8, 2026): exact copyright line. Keep as one string so it renders as one text node. */
+const COPYRIGHT_YEAR = 2026;
+
+const FOOTER_LEGAL_LINKS = [
+  { href: "/terms", label: "Terms of Use" },
+  { href: "/privacy", label: "Privacy Policy" },
+  { href: "/disclaimer", label: "Disclaimer" },
+  { href: "/contact", label: "Contact" },
+] as const;
+
 export function SiteFooter() {
   return (
     <footer className="mt-16 border-t border-line bg-navy-deep text-white">
@@ -10,9 +20,7 @@ export function SiteFooter() {
         <div className="md:col-span-2">
           <p className="font-serif text-2xl font-semibold">{SITE.name}</p>
           <p className="mt-3 max-w-lg text-sm leading-6 text-white/80">
-            A voter information utility for the {SITE.electionDayLong}. {SITE.name} is
-            an unfiled brand name of {SITE.legalName}, a {SITE.entityType}. It is not a
-            separate company and is not claimed as a filed DBA or trademark.
+            A voter information utility for the {SITE.electionDayLong}. {SITE.brandNote}
           </p>
           <p className="mt-4 text-sm leading-6 text-white/80">{SITE.officialNotUs}</p>
         </div>
@@ -64,9 +72,22 @@ export function SiteFooter() {
               </span>
             ))}
           </p>
-          <p className="mt-3 text-sm font-medium text-white/90">
+          <p className="mt-4 text-sm font-medium leading-6 text-white">
+            {`© ${COPYRIGHT_YEAR} ${SITE.legalName}. All rights reserved. ${SITE.name} is owned and operated by ${SITE.legalName}.`}
+          </p>
+          <p className="mt-1 text-sm font-medium leading-6 text-white/90">
             Operated by Joshua Israel Ventures LLC
           </p>
+          <nav aria-label="Legal" className="mt-2 text-sm leading-6 text-white/90">
+            {FOOTER_LEGAL_LINKS.map((item, index) => (
+              <span key={item.href}>
+                <Link className="underline hover:text-white" href={item.href}>
+                  {item.label}
+                </Link>
+                {index < FOOTER_LEGAL_LINKS.length - 1 ? " · " : ""}
+              </span>
+            ))}
+          </nav>
           {tipJarEnabled() && (
             <p className="mt-1 text-xs leading-5 text-white/70">
               Keep this map free:{" "}
@@ -76,8 +97,8 @@ export function SiteFooter() {
               (paid to {SITE.legalName} via Stripe; not a political contribution, not tax-deductible).
             </p>
           )}
-          <p className="mt-1 text-xs leading-5 text-white/70">
-            © {new Date().getFullYear()} {SITE.legalName}. {SITE.location}. Contact{" "}
+          <p className="mt-2 text-xs leading-5 text-white/80">
+            {SITE.legalName}, {SITE.location}. Contact{" "}
             <a className="underline" href={`mailto:${SITE.email}`}>
               {SITE.email}
             </a>

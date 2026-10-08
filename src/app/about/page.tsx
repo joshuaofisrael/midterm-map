@@ -30,10 +30,14 @@ export default function AboutPage() {
       <div className="prose-legal">
         <h2>Who we are</h2>
         <p>
+          <strong>{SITE.brandSentence}</strong>
+        </p>
+        <p>
           <strong>{SITE.name}</strong> is owned and operated by{" "}
           <strong>{SITE.legalName}</strong>, a {SITE.entityType} (Sunbiz document
           number {SITE.sunbizDocumentNumber}, {SITE.sunbizStatus}). The company
-          is associated with {SITE.location}. {SITE.brandNote}
+          is associated with {SITE.location}. {SITE.brandNote} See the{" "}
+          <Link href="/contact">contact page</Link> to reach us.
         </p>
         <p>
           Contact:{" "}
