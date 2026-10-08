@@ -1,0 +1,41 @@
+# Map the Midterms
+
+> Map the Midterms (mapthemidterms.com) is an independent, nonpartisan information site about the November 3, 2026 U.S. midterm elections. It has race guides for selected U.S. Senate, governor and U.S. House contests, published polls with links to their sources, sample-ballot outlines for 12 states, key 2026 voting deadline dates (each cited to an official election office, state law or Vote.gov), and a results tracker. It is not an official election website and does not endorse candidates. Confirm ballots, deadlines and voting rules with your state or county election office or Vote.gov. Operated by Joshua Israel Ventures LLC.
+
+## Main pages
+
+- [Home](https://mapthemidterms.com/): Overview of the 2026 midterms with links to every state, race and tool on the site.
+- [2026 voting deadlines by state](https://mapthemidterms.com/voting-deadlines/): Registration, early voting and mail-ballot dates for 12 states, each linked to its official source.
+- [Ballot lookup](https://mapthemidterms.com/ballot/): Sample-ballot outlines by ZIP code or state, with links to official election offices.
+- [Race guides](https://mapthemidterms.com/races/): Index of the Senate, governor and House races covered, with sourced candidate details.
+- [Polls](https://mapthemidterms.com/polls/): Published 2026 polls, each attributed to the pollster with a source link.
+- [Results](https://mapthemidterms.com/results/): Results tracker for the November 3, 2026 general election.
+
+## State hubs
+
+- [Arizona](https://mapthemidterms.com/states/AZ/): Arizona's 2026 races, key dates and official election links.
+- [California](https://mapthemidterms.com/states/CA/): California's 2026 races, key dates and official election links.
+- [Florida](https://mapthemidterms.com/states/FL/): Florida's 2026 races, key dates and official election links.
+- [Georgia](https://mapthemidterms.com/states/GA/): Georgia's 2026 races, key dates and official election links.
+- [Michigan](https://mapthemidterms.com/states/MI/): Michigan's 2026 races, key dates and official election links.
+- [Nevada](https://mapthemidterms.com/states/NV/): Nevada's 2026 races, key dates and official election links.
+- [New York](https://mapthemidterms.com/states/NY/): New York's 2026 races, key dates and official election links.
+- [North Carolina](https://mapthemidterms.com/states/NC/): North Carolina's 2026 races, key dates and official election links.
+- [Ohio](https://mapthemidterms.com/states/OH/): Ohio's 2026 races, key dates and official election links.
+- [Pennsylvania](https://mapthemidterms.com/states/PA/): Pennsylvania's 2026 races, key dates and official election links.
+- [Texas](https://mapthemidterms.com/states/TX/): Texas's 2026 races, key dates and official election links.
+- [Wisconsin](https://mapthemidterms.com/states/WI/): Wisconsin's 2026 races, key dates and official election links.
+
+## Featured races
+
+- [Georgia U.S. Senate 2026](https://mapthemidterms.com/races/ga-senate-2026/): Jon Ossoff (D, incumbent) vs. Mike Collins (R), with sourced candidate details.
+- [Michigan U.S. Senate 2026](https://mapthemidterms.com/races/mi-senate-2026/): Open seat; Abdul El-Sayed (D) vs. Mike Rogers (R), with sourced candidate details.
+- [North Carolina U.S. Senate 2026](https://mapthemidterms.com/races/nc-senate-2026/): Open seat; Roy Cooper (D) vs. Michael Whatley (R), with sourced candidate details.
+- [Texas U.S. Senate 2026](https://mapthemidterms.com/races/tx-senate-2026/): Ken Paxton (R) vs. James Talarico (D), with sourced candidate details.
+
+## About and policies
+
+- [About](https://mapthemidterms.com/about/): Who runs the site (Joshua Israel Ventures LLC) and what it covers.
+- [Disclaimer](https://mapthemidterms.com/disclaimer/): States that the site is not an official election website and does not endorse candidates.
+- [Privacy](https://mapthemidterms.com/privacy/): What data the site collects.
+- [Terms](https://mapthemidterms.com/terms/): Terms of use.
