@@ -23,6 +23,26 @@ const CONTENT_UPDATED = "2026-10-07";
  */
 const MONETIZATION_UPDATED = "2026-10-08";
 
+/**
+ * October 10, 2026 voting-deadlines recheck. Applies only to pages whose
+ * deadline copy changed. Arizona's dates were not re-read, so /states/AZ
+ * stays on the earlier date.
+ */
+const DEADLINES_UPDATED = "2026-10-10";
+const DEADLINE_RECHECK_STATE_HUBS = new Set([
+  "/states/GA",
+  "/states/MI",
+  "/states/NC",
+  "/states/NV",
+  "/states/OH",
+  "/states/PA",
+  "/states/WI",
+  "/states/TX",
+  "/states/FL",
+  "/states/CA",
+  "/states/NY",
+]);
+
 function pageChanged(path: string): boolean {
   if (path === "" || path === "/ballot" || path === "/voting-deadlines" || path === "/races" || path === "/polls") {
     return true;
@@ -42,8 +62,11 @@ const LEGAL_BRAND_UPDATED = "2026-10-08";
 const LEGAL_BRAND_PATHS = new Set(["/about", "/disclaimer", "/privacy", "/terms", "/contact"]);
 
 function lastModifiedFor(path: string): string {
+  if (path === "/voting-deadlines" || path === "" || path === "/ballot" || DEADLINE_RECHECK_STATE_HUBS.has(path)) {
+    return DEADLINES_UPDATED;
+  }
   if (LEGAL_BRAND_PATHS.has(path)) return LEGAL_BRAND_UPDATED;
-  if (path === "/voting-deadlines" || monetizationChanged(path)) return MONETIZATION_UPDATED;
+  if (monetizationChanged(path)) return MONETIZATION_UPDATED;
   return pageChanged(path) ? CONTENT_UPDATED : SITE.lastUpdated;
 }
 

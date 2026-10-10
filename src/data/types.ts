@@ -10,7 +10,8 @@ export type StateCode =
   | "TX"
   | "FL"
   | "CA"
-  | "NY";
+  | "NY"
+  | "MN";
 
 export type Chamber = "senate" | "house" | "governor" | "statewide";
 

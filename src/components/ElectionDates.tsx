@@ -3,10 +3,8 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import {
-  DATES_CHECKED_ON,
   DEADLINE_CATEGORY_LABEL,
   MARKER_NOTE,
-  stateKeyDatesHref,
   votingDeadlinesStateHref,
   type DeadlineFact,
   type OmittedDeadline,
@@ -94,6 +92,9 @@ function FactBlock({ fact }: { fact: DeadlineFact }) {
         <DateStatus fact={fact} />
       </div>
       <p className="mt-1 text-sm leading-6 text-ink-muted">{fact.text}</p>
+      {fact.checkedOn && (
+        <p className="mt-1 text-xs leading-5 text-ink-soft">Checked {fact.checkedOn}</p>
+      )}
       {passed && fact.ifPassed && (
         <p className="mt-1 text-sm leading-6 text-ink">{fact.ifPassed}</p>
       )}
@@ -114,7 +115,10 @@ export function KeyDatesSection({
       <h2 className="font-serif text-2xl font-semibold">Key 2026 general election dates</h2>
       <p className="mt-2 max-w-3xl text-sm leading-6 text-ink-muted">
         Dates below are paraphrased from the official pages linked on each line and were
-        last checked against those pages on {DATES_CHECKED_ON}. They can change.{" "}
+        last checked against those pages on {dates.checkedOn}. They can change.
+        {dates.facts.some((fact) => fact.checkedOn) ? (
+          <> A line that prints its own check date was not re-read on {dates.checkedOn}. </>
+        ) : null}{" "}
         {state.officialElectionOffice.label} publishes the current calendar. County voting hours
         vary. {MARKER_NOTE}
       </p>
@@ -177,7 +181,7 @@ function Cell({
 export function VotingDeadlinesTable({
   rows,
 }: {
-  rows: { state: StateProfile; dates: StateElectionDates }[];
+  rows: { code: string; name: string; hubHref?: string; dates: StateElectionDates }[];
 }) {
   const categories = ["registration", "early", "mail-request", "mail-return"] as const;
 
@@ -185,7 +189,8 @@ export function VotingDeadlinesTable({
     <div className="overflow-x-auto rounded-xl border border-line">
       <table className="min-w-[960px] w-full border-collapse text-left">
         <caption className="sr-only">
-          2026 general election registration, early voting, and mail-ballot dates for 12 states
+          2026 general election registration, early voting, and mail-ballot dates for {rows.length}{" "}
+          states
         </caption>
         <thead className="bg-paper-tint">
           <tr>
@@ -200,12 +205,17 @@ export function VotingDeadlinesTable({
           </tr>
         </thead>
         <tbody>
-          {rows.map(({ state, dates }) => (
-            <tr id={state.code} key={state.code} className="scroll-mt-24 border-t border-line align-top">
+          {rows.map(({ code, name, hubHref, dates }) => (
+            <tr id={code} key={code} className="scroll-mt-24 border-t border-line align-top">
               <th scope="row" className="sticky left-0 bg-paper-card px-3 py-4 text-sm font-semibold">
-                <Link className="text-navy hover:underline" href={stateKeyDatesHref(state.code)}>
-                  {state.name}
-                </Link>
+                {hubHref ? (
+                  <Link className="text-navy hover:underline" href={hubHref}>
+                    {name}
+                  </Link>
+                ) : (
+                  name
+                )}
+                <p className="mt-1 text-xs font-normal text-ink-soft">Checked {dates.checkedOn}</p>
               </th>
               {categories.map((category) => (
                 <td key={category} className="px-3 py-4">
