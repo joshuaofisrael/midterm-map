@@ -6,6 +6,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { RaceCard } from "@/components/RaceCard";
 import { TipJar } from "@/components/TipJar";
+import { ELECTION_DATES } from "@/data/electionDates";
 import { HOME_FAQS } from "@/data/homeFaqs";
 import { featuredRaces } from "@/data/races";
 import { SITE } from "@/data/site";
@@ -43,7 +44,7 @@ const CTAS = [
   {
     href: "/voting-deadlines",
     title: "Voting deadlines",
-    body: "Registration, early voting, and mail-ballot dates for 12 states, each tied to an official election-office page.",
+    body: `Registration, early voting, and mail-ballot dates for ${ELECTION_DATES.length} states, each tied to an official election-office page.`,
   },
 ];
 
@@ -169,7 +170,7 @@ export default function HomePage() {
         </dl>
         <p className="mt-5 text-sm">
           <Link className="font-medium text-navy hover:underline" href="/voting-deadlines">
-            Key 2026 dates for 12 states
+            Key 2026 dates for {ELECTION_DATES.length} states
           </Link>
           {" · "}
           <Link className="font-medium text-navy hover:underline" href="/ballot">

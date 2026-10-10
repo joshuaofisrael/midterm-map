@@ -1,3 +1,4 @@
+import { ELECTION_DATES } from "./electionDates";
 import { SITE } from "./site";
 
 export type HomeFaq = {
@@ -11,7 +12,7 @@ export type HomeFaq = {
 export const HOME_FAQS: HomeFaq[] = [
   {
     question: "When is Election Day 2026?",
-    answer: `The 2026 U.S. midterm general election is ${SITE.electionDayLabel}. Early in-person voting and mail-ballot request and return calendars vary by state. Dates for 12 states are on this site’s voting-deadlines page, each with an official source.`,
+    answer: `The 2026 U.S. midterm general election is ${SITE.electionDayLabel}. Early in-person voting and mail-ballot request and return calendars vary by state. Dates for ${ELECTION_DATES.length} states are on this site’s voting-deadlines page, each with an official source.`,
   },
   {
     question: "Is Map the Midterms an official election website?",

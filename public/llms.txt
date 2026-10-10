@@ -5,7 +5,7 @@
 ## Main pages
 
 - [Home](https://mapthemidterms.com/): Overview of the 2026 midterms with links to every state, race and tool on the site.
-- [2026 voting deadlines by state](https://mapthemidterms.com/voting-deadlines/): Registration, early voting and mail-ballot dates for 12 states, each linked to its official source.
+- [2026 voting deadlines by state](https://mapthemidterms.com/voting-deadlines/): Registration, early voting and mail-ballot dates for 13 states, each linked to its official source.
 - [Ballot lookup](https://mapthemidterms.com/ballot/): Sample-ballot outlines by ZIP code or state, with links to official election offices.
 - [Race guides](https://mapthemidterms.com/races/): Index of the Senate, governor and House races covered, with sourced candidate details.
 - [Polls](https://mapthemidterms.com/polls/): Published 2026 polls, each attributed to the pollster with a source link.

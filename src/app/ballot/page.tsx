@@ -5,6 +5,7 @@ import { CrossLinks } from "@/components/CrossLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
+import { ELECTION_DATES } from "@/data/electionDates";
 import { SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
@@ -64,7 +65,7 @@ export default function BallotIndexPage() {
         </p>
         <p className="mt-4 text-sm leading-6">
           <Link className="font-medium text-navy underline" href="/voting-deadlines">
-            Key 2026 registration, early-voting, and mail-ballot dates for 12 states
+            Key 2026 registration, early-voting, and mail-ballot dates for {ELECTION_DATES.length} states
           </Link>
           {" · "}
           <a className="font-medium text-navy underline" href={SITE.voteGovUrl} rel="noopener noreferrer">
