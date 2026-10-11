@@ -1,4 +1,4 @@
-import { RACES, racesByChamber } from "./races";
+import { RACES, racesByChamber, racesForState } from "./races";
 import { SITE } from "./site";
 import { STARTER_STATES } from "./states";
 import type { StateCode } from "./types";
@@ -17,17 +17,19 @@ export function racesHubFaqs(): RacesFaq[] {
   const senate = racesByChamber("senate");
   const governor = racesByChamber("governor");
   const house = racesByChamber("house");
-  const stateNames = STARTER_STATES.map((state) => state.name);
+  const guideStates = STARTER_STATES.filter((state) => racesForState(state.code).length > 0);
+  const stateNames = guideStates.map((state) => state.name);
   const outlets = uniqueInOrder(RACES.flatMap((race) => race.ratings.map((rating) => rating.outlet)));
   const oneHouseEach =
-    STARTER_STATES.length > 0 &&
-    STARTER_STATES.every((state) => house.filter((race) => race.state === state.code).length === 1);
+    guideStates.length > 0 &&
+    guideStates.every((state) => house.filter((race) => race.state === state.code).length === 1);
   const houseTitles = joinList(house.map((race) => race.shortTitle));
+  const houseScope = guideStates.length === STARTER_STATES.length ? "each starter state" : "each of these states";
   const housePhrase =
     house.length === 0
       ? ""
       : oneHouseEach
-        ? ` — one selected district in each starter state (${houseTitles})`
+        ? ` — one selected district in ${houseScope} (${houseTitles})`
         : house.length === 1
           ? ` — one selected district (${houseTitles})`
           : ` (${houseTitles})`;
@@ -35,7 +37,7 @@ export function racesHubFaqs(): RacesFaq[] {
   const coverage =
     RACES.length === 0
       ? "This hub does not yet publish a 2026 race guide. State hubs and official sample ballots list contests for an address."
-      : `This hub lists ${RACES.length} race guides for the 2026 midterms across ${STARTER_STATES.length} starter states: ${joinList(stateNames)}. The set is ${senate.length} Class 2 U.S. Senate ${senate.length === 1 ? "guide" : "guides"}${senate.length ? ` (${joinList(senate.map((race) => stateName(race.state)))})` : ""}, ${governor.length} governor ${governor.length === 1 ? "guide" : "guides"}${governor.length ? ` (${joinList(governor.map((race) => stateName(race.state)))})` : ""}, and ${house.length} U.S. House ${house.length === 1 ? "guide" : "guides"}${housePhrase}. It is not a national list of every Senate, governor, or House contest. A House guide is an example district, not a district lookup. Local contests and the other House districts in these states are not covered in depth. The official ballot is published by that state’s election office. Sample-ballot sketches are linked from the state hubs.`;
+      : `This hub lists ${RACES.length} race guides for the 2026 midterms across ${guideStates.length} starter states: ${joinList(stateNames)}. The set is ${senate.length} Class 2 U.S. Senate ${senate.length === 1 ? "guide" : "guides"}${senate.length ? ` (${joinList(senate.map((race) => stateName(race.state)))})` : ""}, ${governor.length} governor ${governor.length === 1 ? "guide" : "guides"}${governor.length ? ` (${joinList(governor.map((race) => stateName(race.state)))})` : ""}, and ${house.length} U.S. House ${house.length === 1 ? "guide" : "guides"}${housePhrase}. It is not a national list of every Senate, governor, or House contest. A House guide is an example district, not a district lookup. Local contests and the other House districts in these states are not covered in depth. The official ballot is published by that state’s election office. Sample-ballot sketches are linked from the state hubs.`;
 
   const ratings =
     outlets.length === 0

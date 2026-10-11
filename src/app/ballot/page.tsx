@@ -77,8 +77,8 @@ export default function BallotIndexPage() {
         <h2 className="font-serif text-2xl font-semibold">Starter states</h2>
         <p className="mt-2 max-w-2xl text-sm text-ink-muted">
           MVP coverage: Arizona, Georgia, Michigan, North Carolina, Nevada, Ohio,
-          Pennsylvania, Wisconsin, Texas, Florida, California, and New York. Each card
-          links to that state’s official election office.
+          Pennsylvania, Wisconsin, Texas, Florida, California, New York, and Minnesota.
+          Each card links to that state’s official election office.
         </p>
         <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {STARTER_STATES.map((state) => (

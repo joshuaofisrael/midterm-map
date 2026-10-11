@@ -9,6 +9,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { StatusChip } from "@/components/StatusChip";
 import { ballotStateFaqs } from "@/data/ballotFaqs";
 import { ballotSectionsForState } from "@/data/ballots";
+import { votingDeadlinesStateHref } from "@/data/electionDates";
 import { indexableRaceHref } from "@/data/results";
 import { racesForState } from "@/data/races";
 import { getState, isStateCode, STARTER_STATES } from "@/data/states";
@@ -95,7 +96,7 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
             </a>
           </li>
           <li>
-            <Link className="text-navy underline" href="/voting-deadlines">
+            <Link className="text-navy underline" href={votingDeadlinesStateHref(state.code)}>
               Key 2026 dates for {state.name}
             </Link>
           </li>
@@ -151,15 +152,22 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
 
       <section>
         <h2 className="font-serif text-xl font-semibold">Race guides for {state.name}</h2>
-        <ul className="mt-3 flex flex-wrap gap-3 text-sm">
-          {races.map((race) => (
-            <li key={race.slug}>
-              <Link className="text-navy hover:underline" href={`/races/${race.slug}`}>
-                {race.shortTitle}
-              </Link>
-            </li>
-          ))}
-        </ul>
+        {races.length > 0 ? (
+          <ul className="mt-3 flex flex-wrap gap-3 text-sm">
+            {races.map((race) => (
+              <li key={race.slug}>
+                <Link className="text-navy hover:underline" href={`/races/${race.slug}`}>
+                  {race.shortTitle}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="mt-3 text-sm leading-6 text-ink-muted">
+            Map the Midterms does not yet publish a {state.name} race guide. Offices on the
+            2026 cycle are sketched above. Qualified names are on the official sample ballot.
+          </p>
+        )}
         <p className="mt-3 text-sm">
           <Link className="font-medium text-navy hover:underline" href={`/states/${state.code}`}>
             Full {state.name} hub

@@ -45,6 +45,10 @@ This document is an **internal owner checklist**. It is **not legal advice** and
 - Voter checklist no longer says the site publishes no deadlines.
 - Privacy policy rewritten; legal pages use `SITE.legalLastUpdated`.
 
+## October 11, 2026 — Minnesota state hub
+
+Minnesota is a state hub at `/states/MN`, linked to and from `/voting-deadlines/#MN`. Deadline lines were re-read on October 11, 2026 from the Secretary of State 2026 elections calendar, Minnesota Statutes § 201.061, and the register-to-vote page. Offices on the general-election ballot are taken from the Secretary of State’s What’s on my ballot page. The Class 2 label cites the U.S. Senate Class II list (terms expire in 2027). One proposed constitutional amendment is noted and linked; the question text and voting instructions are not reprinted. Candidate names are not published: the SOS candidate file says it can change until election day, and this pass did not treat that file or the candidate-filings finder as a certified list. No how-to, eligibility, or checklist copy was added.
+
 ## October 7, 2026 content rule
 
 The public site keeps plain, sourced facts (registration and other deadline dates, each with its official link). Step-by-step voter guidance, eligibility how-tos, and instructions to the reader are off the public pages. Anything beyond a bare sourced fact links to the state election office, Vote.gov, or `/voting-deadlines/`. Legal pages keep rights language and the disclaimer’s verify line. The October 6 voter-preparation section and its HowTo markup were removed.

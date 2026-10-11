@@ -792,6 +792,93 @@ export const STARTER_STATES: StateProfile[] = [
       "Judicial, municipal, and ballot-proposal contests are county- and city-specific.",
     ],
   },
+  {
+    code: "MN",
+    name: "Minnesota",
+    slug: "MN",
+    fips: "27",
+    capital: "Saint Paul",
+    timezoneNote: "Minnesota is on Central Time.",
+    summary:
+      "Minnesota’s 2026 cycle includes a U.S. Senate seat, statewide executive offices, and U.S. House races. The Secretary of State publishes the offices on the general-election ballot.",
+    officialElectionOffice: {
+      label: "Minnesota Secretary of State — Elections",
+      href: "https://www.sos.mn.gov/elections-voting/",
+    },
+    voteGov: {
+      label: "Vote.gov: Minnesota registration information",
+      href: "https://vote.gov/register/minnesota",
+    },
+    officialVoterLinks: [
+      {
+        label: "Minnesota Secretary of State — Elections",
+        href: "https://www.sos.mn.gov/elections-voting/",
+      },
+      {
+        label: "Register to vote",
+        href: "https://www.sos.mn.gov/elections-voting/register-to-vote/",
+      },
+      {
+        label: "What’s on my ballot",
+        href: "https://www.sos.mn.gov/elections-voting/whats-on-my-ballot/",
+      },
+      {
+        label: "Minnesota Voting Information Portal — sample ballot and polling place",
+        href: "https://myballotmn.sos.mn.gov/",
+      },
+      {
+        label: "Vote by mail",
+        href: "https://www.sos.mn.gov/elections-voting/other-ways-to-vote/vote-by-mail-in-us/",
+      },
+      {
+        label: "Vote.gov: Minnesota registration information",
+        href: "https://vote.gov/register/minnesota",
+      },
+    ],
+    ballotpedia: {
+      label: "Ballotpedia — Minnesota elections 2026",
+      href: "https://ballotpedia.org/Minnesota_elections,_2026",
+    },
+    statewideOffices2026: [
+      "U.S. Senate (Class 2)",
+      "Governor and lieutenant governor",
+      "Secretary of state",
+      "State auditor",
+      "Attorney general",
+    ],
+    cycleCheckedOn: "October 11, 2026",
+    cycleSources: [
+      {
+        label: "Minnesota Secretary of State — What’s on my ballot",
+        href: "https://www.sos.mn.gov/elections-voting/whats-on-my-ballot/",
+      },
+      {
+        label: "Minnesota Secretary of State — Constitutional amendments",
+        href: "https://www.sos.mn.gov/elections-voting/whats-on-my-ballot/constitutional-amendments/",
+      },
+      {
+        label: "U.S. Senate — Class II, terms expire in 2027",
+        href: "https://www.senate.gov/senators/Class_II.htm",
+      },
+    ],
+    sampleBallotOfficial: {
+      label: "Minnesota Voting Information Portal — sample ballot and polling place",
+      href: "https://myballotmn.sos.mn.gov/",
+    },
+    registrationNote:
+      "Minnesota registration dates for the November 3, 2026 general election are on the voting-deadlines page, with the Secretary of State calendar linked there.",
+    earlyVotingNote:
+      "Absentee-voting dates for the November 3, 2026 general election, including the in-person hours on the Secretary of State calendar, are on the voting-deadlines page. Local hours vary.",
+    mailNote:
+      "Absentee-ballot application and return dates for the November 3, 2026 general election are on the voting-deadlines page.",
+    idNote: "Identification rules are published by the Minnesota Secretary of State.",
+    hasSenateClass2: true,
+    hasGovernor2026: true,
+    sampleBallotNotes: [
+      "The Secretary of State lists a U.S. Representative contest, a State Senator contest, a State Representative contest, and judicial seats on the 2026 general-election ballot. Districts depend on the address.",
+      "The Secretary of State says one proposed constitutional amendment is on the November 3, 2026 ballot. The question is on that office’s constitutional-amendments page.",
+    ],
+  },
 ];
 
 export const STATE_CODES = STARTER_STATES.map((s) => s.code);

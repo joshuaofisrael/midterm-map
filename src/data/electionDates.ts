@@ -3,7 +3,8 @@ import type { StateCode } from "./types";
 /**
  * Key dates for the November 3, 2026 general election.
  * Each state's `checkedOn` is the day its linked pages were read.
- * Lines re-read on October 10, 2026 use that date. Arizona's secretary of state
+ * Lines re-read on October 10, 2026 use that date. Minnesota was re-read on
+ * October 11, 2026 for the state hub. Arizona's secretary of state
  * pages and Vote.gov returned 403, and the Nevada elections FAQ returned an
  * Incapsula block, so those lines stay on October 6, 2026.
  * Ohio: ohiosos.gov blocks automated reads, so statewide rules cite the Ohio Revised Code
@@ -121,9 +122,7 @@ const OH_CUYAHOGA_EARLY: DeadlineSource = {
 export const DATES_CHECKED_ON = "October 6, 2026";
 
 /** States in the deadlines table that do not have a state hub page. */
-export const DEADLINE_ONLY_STATES: { code: StateCode; name: string }[] = [
-  { code: "MN", name: "Minnesota" },
-];
+export const DEADLINE_ONLY_STATES: { code: StateCode; name: string }[] = [];
 
 /** Plain-language caveat shown wherever the browser markers appear. */
 export const MARKER_NOTE =
@@ -1023,7 +1022,7 @@ export const ELECTION_DATES: StateElectionDates[] = [
   },
   {
     code: "MN",
-    checkedOn: "October 10, 2026",
+    checkedOn: "October 11, 2026",
     faqAnswer:
       "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Minnesota Secretary of State’s 2026 elections calendar lists Tuesday, October 13, 2026 as the last day to pre-register, with in-person drop-off closing at 5:00 p.m. and online registration closing at 11:59 p.m. Minnesota Statutes § 201.061 allows registration at the polling place on election day. The same calendar lists absentee voting from September 18, 2026 through November 2, 2026, a last day to apply for an absentee ballot of 5:00 p.m. on November 2, 2026, and a return rule of 5:00 p.m. in person or 8:00 p.m. by mail or package delivery on Election Day. The register-to-vote page refers to early voting locations and does not print a separate start date for them. County hours vary, and dates can change. The Minnesota Secretary of State publishes the current calendar.",
     facts: [
