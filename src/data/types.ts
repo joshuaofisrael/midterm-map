@@ -104,6 +104,12 @@ export interface StateProfile {
   hasSenateClass2: boolean;
   hasGovernor2026: boolean;
   statewideOffices2026: string[];
+  /**
+   * Day the office list was read. Rendered only when set, with `cycleSources`.
+   */
+  cycleCheckedOn?: string;
+  /** Official pages for the office list. Omitted on hubs that do not cite one. */
+  cycleSources?: OfficialSource[];
   sampleBallotNotes: string[];
   sampleBallotOfficial?: OfficialSource;
   /** State election-office and voter-tool links. Omit when a state has none curated. */

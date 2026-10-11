@@ -28,15 +28,26 @@ export function ballotSectionsForState(code: StateCode): BallotSection[] {
                 "The official sample ballot lists only candidates qualified by election authorities.",
               ],
             }
-          : {
-              id: `${code}-senate-none`,
-              heading: "U.S. Senate",
-              kind: "federal",
-              lines: [
-                "No Class 2 (2026) U.S. Senate seat is scheduled for this state.",
-                "A special election would appear only if official authorities call one.",
-              ],
-            },
+          : state?.hasSenateClass2
+            ? {
+                id: `${code}-senate`,
+                heading: "U.S. Senate (Class 2)",
+                kind: "federal",
+                lines: [
+                  "This state has a Class 2 U.S. Senate election on the regular 2026 cycle.",
+                  "Map the Midterms does not yet publish a candidate list for this office.",
+                  "Qualified names are on the official sample ballot.",
+                ],
+              }
+            : {
+                id: `${code}-senate-none`,
+                heading: "U.S. Senate",
+                kind: "federal",
+                lines: [
+                  "No Class 2 (2026) U.S. Senate seat is scheduled for this state.",
+                  "A special election would appear only if official authorities call one.",
+                ],
+              },
         {
           id: `${code}-house`,
           heading: house ? `U.S. House (see ${house.shortTitle} example)` : "U.S. House",
@@ -74,11 +85,13 @@ export function ballotSectionsForState(code: StateCode): BallotSection[] {
               id: `${code}-governor-none`,
               heading: "Governor",
               kind: "statewide",
-              lines: [
-                state?.hasGovernor2026
-                  ? "Official sources list this office."
-                  : "The governor’s office is not on the regular 2026 ballot in this state.",
-              ],
+              lines: state?.hasGovernor2026
+                ? [
+                    "This state has a 2026 gubernatorial election on the regular calendar.",
+                    "Map the Midterms does not yet publish a candidate list for this office.",
+                    "Qualified names are on the official sample ballot.",
+                  ]
+                : ["The governor’s office is not on the regular 2026 ballot in this state."],
             },
         {
           id: `${code}-other-statewide`,

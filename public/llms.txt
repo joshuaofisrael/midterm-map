@@ -1,6 +1,6 @@
 # Map the Midterms
 
-> Map the Midterms (mapthemidterms.com) is an independent, nonpartisan information site about the November 3, 2026 U.S. midterm elections. It has race guides for selected U.S. Senate, governor and U.S. House contests, published polls with links to their sources, sample-ballot outlines for 12 states, key 2026 voting deadline dates (each cited to an official election office, state law or Vote.gov), and a results tracker. It is not an official election website and does not endorse candidates. Confirm ballots, deadlines and voting rules with your state or county election office or Vote.gov. Operated by Joshua Israel Ventures LLC.
+> Map the Midterms (mapthemidterms.com) is an independent, nonpartisan information site about the November 3, 2026 U.S. midterm elections. It has race guides for selected U.S. Senate, governor and U.S. House contests, published polls with links to their sources, sample-ballot outlines for 13 states, key 2026 voting deadline dates (each cited to an official election office, state law or Vote.gov), and a results tracker. It is not an official election website and does not endorse candidates. Confirm ballots, deadlines and voting rules with your state or county election office or Vote.gov. Operated by Joshua Israel Ventures LLC.
 
 ## Main pages
 
@@ -18,6 +18,7 @@
 - [Florida](https://mapthemidterms.com/states/FL/): Florida's 2026 races, key dates and official election links.
 - [Georgia](https://mapthemidterms.com/states/GA/): Georgia's 2026 races, key dates and official election links.
 - [Michigan](https://mapthemidterms.com/states/MI/): Michigan's 2026 races, key dates and official election links.
+- [Minnesota](https://mapthemidterms.com/states/MN/): Minnesota's 2026 races, key dates and official election links.
 - [Nevada](https://mapthemidterms.com/states/NV/): Nevada's 2026 races, key dates and official election links.
 - [New York](https://mapthemidterms.com/states/NY/): New York's 2026 races, key dates and official election links.
 - [North Carolina](https://mapthemidterms.com/states/NC/): North Carolina's 2026 races, key dates and official election links.

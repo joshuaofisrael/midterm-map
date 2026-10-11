@@ -131,8 +131,8 @@ export default function HomePage() {
       <section>
         <h2 className="font-serif text-2xl font-semibold">State hubs</h2>
         <p className="mt-2 max-w-2xl text-sm text-ink-muted">
-          Twelve states: Arizona, Georgia, Michigan, North Carolina, Nevada, Ohio,
-          Pennsylvania, Wisconsin, Texas, Florida, California, and New York.
+          Thirteen states: Arizona, Georgia, Michigan, North Carolina, Nevada, Ohio,
+          Pennsylvania, Wisconsin, Texas, Florida, California, New York, and Minnesota.
         </p>
         <ul className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {STARTER_STATES.map((state) => (
