@@ -28,7 +28,7 @@ export function BallotLookup({ initialState = "" }: { initialState?: string }) {
 
     if (digits.length === 5 && !fromZip) {
       setMessage(
-        "That ZIP prefix is outside the 12 states this site covers. Official pages for other states are the state election office and Vote.gov.",
+        `That ZIP prefix is outside the ${STARTER_STATES.length} states this site covers. Official pages for other states are the state election office and Vote.gov.`,
       );
       return;
     }

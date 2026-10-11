@@ -123,6 +123,20 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
                   <li key={office}>{office}</li>
                 ))}
               </ul>
+              {state.cycleSources && state.cycleSources.length > 0 && (
+                <p className="mt-3 text-xs leading-5 text-ink-soft">
+                  {state.cycleCheckedOn ? <>Last checked {state.cycleCheckedOn}. </> : null}
+                  Source{state.cycleSources.length > 1 ? "s" : ""}:{" "}
+                  {state.cycleSources.map((source, index) => (
+                    <span key={source.href}>
+                      {index > 0 ? "; " : ""}
+                      <a className="text-navy underline" href={source.href} rel="noopener noreferrer">
+                        {source.label}
+                      </a>
+                    </span>
+                  ))}
+                </p>
+              )}
             </div>
           )}
         </article>
@@ -157,14 +171,16 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
         </section>
       )}
 
-      <section>
-        <h2 className="font-serif text-2xl font-semibold">Race guides</h2>
-        <div className="mt-4 grid gap-4 md:grid-cols-2">
-          {races.map((race) => (
-            <RaceCard key={race.slug} race={race} />
-          ))}
-        </div>
-      </section>
+      {races.length > 0 && (
+        <section>
+          <h2 className="font-serif text-2xl font-semibold">Race guides</h2>
+          <div className="mt-4 grid gap-4 md:grid-cols-2">
+            {races.map((race) => (
+              <RaceCard key={race.slug} race={race} />
+            ))}
+          </div>
+        </section>
+      )}
 
       <section id="faq" className="rounded-xl border border-line bg-paper-card p-5">
         <h2 className="font-serif text-2xl font-semibold">
