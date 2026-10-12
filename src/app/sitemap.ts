@@ -11,7 +11,7 @@ export const dynamic = "force-static";
  * are empty pre-election shells. Flip this (or rely on resultShellHasReturns)
  * near Election Day (2026-11-03) when unofficial returns have real data.
  */
-const INCLUDE_PER_RACE_RESULTS_IN_SITEMAP = false;
+const INCLUDE_PER_RACE_RESULTS_IN_SITEMAP = true; // owner rule 11 Oct 2026: every page indexable
 
 /** Date of the October 7, 2026 compliance edit. Unchanged pages keep SITE.lastUpdated. */
 const CONTENT_UPDATED = "2026-10-07";

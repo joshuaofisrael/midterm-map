@@ -21,13 +21,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const race = getRace(slug);
   if (!race) return {};
-  const shell = resultShellForRace(race.slug);
-  // Thin pre-return shells stay noindex,follow. Race guides remain indexable.
+  // Owner rule (11 Oct 2026): every page is indexable, including pre-return shells.
   return pageMetadata({
     title: `Unofficial returns — ${race.shortTitle}`,
     description: `Results page for ${race.title}. Returns are unofficial until certified by election authorities. ${SITE.name} does not certify results.`,
     path: `/results/${race.slug}`,
-    index: resultShellHasReturns(shell),
+    index: true,
   });
 }
 
