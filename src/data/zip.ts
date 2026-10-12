@@ -28,6 +28,7 @@ fill(320, 349, "FL");
 fill(900, 961, "CA");
 fill(100, 149, "NY");
 fill(550, 567, "MN");
+fill(39, 49, "ME");
 
 export function normalizeZip(input: string): string {
   return input.replace(/\D/g, "").slice(0, 5);

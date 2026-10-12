@@ -879,6 +879,93 @@ export const STARTER_STATES: StateProfile[] = [
       "The Secretary of State says one proposed constitutional amendment is on the November 3, 2026 ballot. The question is on that office’s constitutional-amendments page.",
     ],
   },
+  {
+    code: "ME",
+    name: "Maine",
+    slug: "ME",
+    fips: "23",
+    capital: "Augusta",
+    timezoneNote: "Maine is on Eastern Time.",
+    summary:
+      "Maine’s 2026 cycle includes a U.S. Senate seat, the governor’s office, and U.S. House races. The Secretary of State publishes the offices on the general-election ballot.",
+    officialElectionOffice: {
+      label: "Maine Secretary of State — Elections and voting",
+      href: "https://www.maine.gov/sos/elections-voting/",
+    },
+    voteGov: {
+      label: "Vote.gov: Maine registration information",
+      href: "https://vote.gov/register/maine",
+    },
+    officialVoterLinks: [
+      {
+        label: "Maine Secretary of State — Elections and voting",
+        href: "https://www.maine.gov/sos/elections-voting/",
+      },
+      {
+        label: "Registering to vote",
+        href: "https://www.maine.gov/sos/elections-voting/registering-to-vote",
+      },
+      {
+        label: "Online voter registration",
+        href: "https://registertovote.sos.maine.gov/",
+      },
+      {
+        label: "Voter Information Lookup — voting place and ballot",
+        href: "https://www.maine.gov/portal/government/edemocracy/voter_lookup.php",
+      },
+      {
+        label: "Absentee ballot request and tracking",
+        href: "https://absenteeballotrequest.sos.maine.gov/",
+      },
+      {
+        label: "Vote.gov: Maine registration information",
+        href: "https://vote.gov/register/maine",
+      },
+    ],
+    ballotpedia: {
+      label: "Ballotpedia — Maine elections 2026",
+      href: "https://ballotpedia.org/Maine_elections,_2026",
+    },
+    statewideOffices2026: ["U.S. Senate (Class 2)", "Governor"],
+    cycleCheckedOn: "October 12, 2026",
+    cycleSources: [
+      {
+        label: "Maine Secretary of State — upcoming elections",
+        href: "https://www.maine.gov/sos/elections-voting/upcoming-elections",
+      },
+      {
+        label: "Maine Secretary of State — 2026 office listing (PDF)",
+        href: "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/2026%20Candidate%20Office%20Order.pdf",
+      },
+      {
+        label: "Maine Secretary of State — 2026 county offices by election cycle (PDF)",
+        href: "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/2026%20County%20Offices%20Appearing%20on%20Ballot%20By%20Election%20Cycle%202%2012%2026.pdf",
+      },
+      {
+        label: "U.S. Senate — Class II, terms expire in 2027",
+        href: "https://www.senate.gov/senators/Class_II.htm",
+      },
+    ],
+    sampleBallotOfficial: {
+      label: "Maine Voter Information Lookup — voting place and ballot",
+      href: "https://www.maine.gov/portal/government/edemocracy/voter_lookup.php",
+    },
+    registrationNote:
+      "Maine registration dates for the November 3, 2026 general election are on the voting-deadlines page, with the Secretary of State voter guide and Title 21-A, §121-A linked there.",
+    earlyVotingNote:
+      "In-person absentee voting dates for the November 3, 2026 general election are on the voting-deadlines page. Municipal hours vary.",
+    mailNote:
+      "Absentee-ballot request and return dates for the November 3, 2026 general election are on the voting-deadlines page.",
+    idNote: "Identification rules are published by the Maine Secretary of State.",
+    hasSenateClass2: true,
+    hasGovernor2026: true,
+    sampleBallotNotes: [
+      "The Secretary of State’s 2026 office listing names Representative to Congress, State Senator, and State Representative. The general-election candidate list includes those offices. Districts depend on the address.",
+      "County offices on that candidate list vary by county. The Secretary of State publishes an office listing and a county-office chart.",
+      "The upcoming-elections page says ranked-choice voting is used in the general election for federal offices only.",
+      "The same page lists special county elections for Piscataquis County Commissioner District 3 and Sagadahoc County Register of Probate.",
+    ],
+  },
 ];
 
 export const STATE_CODES = STARTER_STATES.map((s) => s.code);
