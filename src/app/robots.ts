@@ -3,7 +3,7 @@ import { SITE } from "@/data/site";
 
 export const dynamic = "force-static";
 
-/** Search and AI crawlers explicitly allowed (owner rule, 8 Oct 2026). */
+/** Search, AI search and AI training crawlers explicitly allowed (owner rules, 8 and 11 Oct 2026). */
 const AI_AND_SEARCH_CRAWLERS = [
   "OAI-SearchBot",
   "ChatGPT-User",
@@ -19,6 +19,11 @@ const AI_AND_SEARCH_CRAWLERS = [
   "Bingbot",
   "DuckAssistBot",
   "Amazonbot",
+  "anthropic-ai",
+  "CCBot",
+  "Bytespider",
+  "Meta-ExternalAgent",
+  "cohere-ai",
 ];
 
 export default function robots(): MetadataRoute.Robots {
