@@ -4,7 +4,8 @@ import type { StateCode } from "./types";
  * Key dates for the November 3, 2026 general election.
  * Each state's `checkedOn` is the day its linked pages were read.
  * Lines re-read on October 10, 2026 use that date. Minnesota was re-read on
- * October 11, 2026 for the state hub. Arizona's secretary of state
+ * October 11, 2026 for the state hub. Maine was read on October 12, 2026 for
+ * the state hub. Arizona's secretary of state
  * pages and Vote.gov returned 403, and the Nevada elections FAQ returned an
  * Incapsula block, so those lines stay on October 6, 2026.
  * Ohio: ohiosos.gov blocks automated reads, so statewide rules cite the Ohio Revised Code
@@ -1110,6 +1111,192 @@ export const ELECTION_DATES: StateElectionDates[] = [
         category: "early",
         label: "Separate early-voting start date",
         text: "The register-to-vote page refers to early voting locations before Election Day and does not print a first day for them. The 2026 elections calendar lists absentee-voting dates and does not print a separate early-voting start date. The Minnesota Secretary of State is the official source.",
+      },
+    ],
+  },
+  {
+    code: "ME",
+    checkedOn: "October 12, 2026",
+    faqAnswer:
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The State of Maine Voter Guide lists October 13, 2026 as the day a mail or third-person registration for the November general election must be received, by close of business, and 5 p.m. that day for online registration. It lists October 27, 2026 for registration through the Bureau of Motor Vehicles, and in-person registration through the close of the polls on Election Day. Title 21-A, §626 states that polls close at 8 p.m. on election day, except in municipalities with a population of less than 100, which may close after all registered voters have voted, and that municipalities set the opening time inside a statutory range. The Secretary of State’s September 4, 2026 update lists in-person absentee voting from October 4, 2026 through close of business on October 29, 2026, and October 29 as the last day to request a no-excuse absentee ballot. Absentee ballots must be received by 8 p.m. on November 3, 2026. Municipal hours vary, and dates can change. The Maine Secretary of State publishes the current calendar.",
+    facts: [
+      {
+        id: "me-register-mail",
+        category: "registration",
+        label: "Mail or third-person registration",
+        text: "The State of Maine Voter Guide lists October 13, 2026 as the date a registration submitted by mail or by a third person for the November general election must be received by the voter’s town or city, by close of business. That guide calls October 13 the 21st day before Election Day. Title 21-A, §121-A states that a mail or third-person application is due at the close of business on the 21st day before election day. Vote.gov says a mail registration must be received 21 days before Election Day.",
+        endsOn: "2026-10-13",
+        sources: [
+          {
+            label: "Maine Secretary of State — State of Maine Voter Guide",
+            href: "https://www.maine.gov/sos/elections-voting/state-of-maine-voter-guide",
+          },
+          {
+            label: "Maine Title 21-A, §121-A — deadline for registration",
+            href: "https://www.mainelegislature.org/Legis/Statutes/21-A/title21-Asec121-A-3.html",
+          },
+          {
+            label: "Vote.gov — register in Maine",
+            href: "https://vote.gov/register/maine",
+          },
+        ],
+      },
+      {
+        id: "me-register-online",
+        category: "registration",
+        label: "Online registration",
+        text: "The voter guide lists 5 p.m. on October 13, 2026 as the online registration deadline for the November general election. Title 21-A, §121-A states that an online application is due at 5 p.m. on the 21st day before election day. Vote.gov says the online registration deadline is 21 days before Election Day.",
+        endsOn: "2026-10-13",
+        sources: [
+          {
+            label: "Maine Secretary of State — State of Maine Voter Guide",
+            href: "https://www.maine.gov/sos/elections-voting/state-of-maine-voter-guide",
+          },
+          {
+            label: "Maine Title 21-A, §121-A — deadline for registration",
+            href: "https://www.mainelegislature.org/Legis/Statutes/21-A/title21-Asec121-A-3.html",
+          },
+          {
+            label: "Vote.gov — register in Maine",
+            href: "https://vote.gov/register/maine",
+          },
+        ],
+      },
+      {
+        id: "me-register-bmv",
+        category: "registration",
+        label: "Bureau of Motor Vehicles registration",
+        text: "The voter guide lists October 27, 2026 for registration through the Bureau of Motor Vehicles, and calls that date the 7th day before the November general election. Title 21-A, §121-A states that an application transmitted by the Bureau of Motor Vehicles, or by a source agency other than the Bureau of Motor Vehicles under the automatic-registration sections, is due by midnight on the 7th day before election day.",
+        endsOn: "2026-10-27",
+        sources: [
+          {
+            label: "Maine Secretary of State — State of Maine Voter Guide",
+            href: "https://www.maine.gov/sos/elections-voting/state-of-maine-voter-guide",
+          },
+          {
+            label: "Maine Title 21-A, §121-A — deadline for registration",
+            href: "https://www.mainelegislature.org/Legis/Statutes/21-A/title21-Asec121-A-3.html",
+          },
+        ],
+      },
+      {
+        id: "me-register-in-person",
+        category: "registration",
+        label: "In-person registration and Election Day",
+        text: "The voter guide says in-person registration runs through the close of the polls on Election Day. The upcoming-elections page titles that election November 3, 2026. Title 21-A, §121-A states that an in-person application is due by the close of the polls on election day. Title 21-A, §626 states that the polls close at 8 p.m. on election day, except in municipalities with a population of less than 100, which may close the polls after all registered voters have voted. The same section states that the polls open no earlier than 6 a.m. and no later than 8 a.m., except that in a municipality with a population of less than 500 the polls open no later than 10:00 a.m. Municipal officers set the opening time inside those limits. The September 28, 2026 voting place report lists each municipality’s opening time.",
+        endsOn: "2026-11-03",
+        sources: [
+          {
+            label: "Maine Secretary of State — State of Maine Voter Guide",
+            href: "https://www.maine.gov/sos/elections-voting/state-of-maine-voter-guide",
+          },
+          {
+            label: "Maine Secretary of State — upcoming elections",
+            href: "https://www.maine.gov/sos/elections-voting/upcoming-elections",
+          },
+          {
+            label: "Maine Title 21-A, §121-A — deadline for registration",
+            href: "https://www.mainelegislature.org/Legis/Statutes/21-A/title21-Asec121-A-3.html",
+          },
+          {
+            label: "Maine Title 21-A, §626 — polling times",
+            href: "https://www.mainelegislature.org/legis/statutes/21-a/title21-Asec626.html",
+          },
+          {
+            label: "Maine Secretary of State — November 3, 2026 voting place report (PDF)",
+            href: "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/11.3.2026%20Voting%20Place%20Report%20Posting%20Version.pdf",
+          },
+        ],
+      },
+      {
+        id: "me-register-uocava",
+        category: "registration",
+        label: "UOCAVA registration",
+        text: "The voter guide lists noon on November 2, 2026 as the deadline, for the November general election, for UOCAVA voters under Title 21-A, section 777-A, by mail or electronically.",
+        endsOn: "2026-11-02",
+        sources: [
+          {
+            label: "Maine Secretary of State — State of Maine Voter Guide",
+            href: "https://www.maine.gov/sos/elections-voting/state-of-maine-voter-guide",
+          },
+        ],
+      },
+      {
+        id: "me-early",
+        category: "early",
+        label: "In-person absentee voting",
+        text: "The Secretary of State’s September 4, 2026 update lists October 4, 2026, 30 days before Election Day, as the day the in-person, no-excuse absentee voting period begins. It says that period goes through close of business in a voter’s town on Thursday, October 29. The voter guide says absentee ballots are available 30 days before the election at the municipal clerk’s office, and that the deadline for absentee voting in the presence of the clerk, unless special circumstances exist, is the Thursday before the election. Municipal hours vary.",
+        startsOn: "2026-10-04",
+        endsOn: "2026-10-29",
+        sources: [
+          {
+            label: "Maine Secretary of State — September 4, 2026 general-election update",
+            href: "https://www.maine.gov/sos/news/general-election-two-months-away-secretary-states-office-provides-update-maine-election-1",
+          },
+          {
+            label: "Maine Secretary of State — State of Maine Voter Guide",
+            href: "https://www.maine.gov/sos/elections-voting/state-of-maine-voter-guide",
+          },
+        ],
+      },
+      {
+        id: "me-request",
+        category: "mail-request",
+        label: "Absentee ballot request",
+        text: "The August 3, 2026 announcement says requests for the November 3, 2026 general election could be made starting that day, and that municipal clerks begin issuing ballots 30 days before Election Day. The September 4, 2026 update lists October 29, 2026 as the last day to request a no-excuse absentee ballot, and says a request must be received at least three business days before Election Day unless special circumstances exist. Title 21-A, §753-B states the rule for a request received after the 3rd business day before election day.",
+        startsOn: "2026-08-03",
+        endsOn: "2026-10-29",
+        sources: [
+          {
+            label: "Maine Secretary of State — August 3, 2026 absentee-ballot announcement",
+            href: "https://www.maine.gov/sos/news/maine-voters-can-request-absentee-ballots-nov-3-election-starting-today-ballots-will-be-mailed",
+          },
+          {
+            label: "Maine Secretary of State — September 4, 2026 general-election update",
+            href: "https://www.maine.gov/sos/news/general-election-two-months-away-secretary-states-office-provides-update-maine-election-1",
+          },
+          {
+            label: "Maine Title 21-A, §753-B — absentee ballot procedure",
+            href: "https://www.mainelegislature.org/legis/statutes/21-a/title21-Asec753-B.html",
+          },
+        ],
+      },
+      {
+        id: "me-return",
+        category: "mail-return",
+        label: "Absentee ballot return",
+        text: "The August 3, 2026 announcement says absentee ballots for the November 3, 2026 general election must be received by a voter’s municipality by 8 p.m. on November 3, 2026. The September 4 update says only ballots received by 8 p.m. on Election Day are counted, regardless of postmark. The absentee request and tracking service says ballots for that election must be received no later than 8:00 p.m. Eastern Time on Election Day. Title 21-A, §755 states that an absentee ballot must be delivered to the municipal clerk before the polls are closed.",
+        endsOn: "2026-11-03",
+        sources: [
+          {
+            label: "Maine Secretary of State — August 3, 2026 absentee-ballot announcement",
+            href: "https://www.maine.gov/sos/news/maine-voters-can-request-absentee-ballots-nov-3-election-starting-today-ballots-will-be-mailed",
+          },
+          {
+            label: "Maine Secretary of State — September 4, 2026 general-election update",
+            href: "https://www.maine.gov/sos/news/general-election-two-months-away-secretary-states-office-provides-update-maine-election-1",
+          },
+          {
+            label: "Maine Secretary of State — absentee ballot request and tracking",
+            href: "https://absenteeballotrequest.sos.maine.gov/",
+          },
+          {
+            label: "Maine Title 21-A, §755 — absentee ballot deadline",
+            href: "https://www.mainelegislature.org/legis/Statutes/21-A/title21-Asec755.html",
+          },
+        ],
+      },
+    ],
+    omitted: [
+      {
+        category: "early",
+        label: "Separate early-voting window",
+        text: "The voter guide and the September 4, 2026 update describe in-person absentee voting and do not print a separate early-voting period. The Maine Secretary of State is the official source.",
+      },
+      {
+        category: "mail-request",
+        label: "Special-circumstance absentee request reasons",
+        text: "The September 4, 2026 update refers to special circumstances for a request after the no-excuse deadline. Title 21-A, §753-B is the statute for that request. The Maine Secretary of State and that statute are the official sources.",
       },
     ],
   },

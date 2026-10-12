@@ -11,7 +11,8 @@ export type StateCode =
   | "FL"
   | "CA"
   | "NY"
-  | "MN";
+  | "MN"
+  | "ME";
 
 export type Chamber = "senate" | "house" | "governor" | "statewide";
 
