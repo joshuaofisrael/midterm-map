@@ -5,7 +5,8 @@ import type { StateCode } from "./types";
  * Each state's `checkedOn` is the day its linked pages were read.
  * Lines re-read on October 10, 2026 use that date. Minnesota was re-read on
  * October 11, 2026 for the state hub. Maine was read on October 12, 2026 for
- * the state hub. Arizona's secretary of state
+ * the state hub. Iowa was read on October 13, 2026 for the state hub.
+ * Arizona's secretary of state
  * pages and Vote.gov returned 403, and the Nevada elections FAQ returned an
  * Incapsula block, so those lines stay on October 6, 2026.
  * Ohio: ohiosos.gov blocks automated reads, so statewide rules cite the Ohio Revised Code
@@ -1297,6 +1298,223 @@ export const ELECTION_DATES: StateElectionDates[] = [
         category: "mail-request",
         label: "Special-circumstance absentee request reasons",
         text: "The September 4, 2026 update refers to special circumstances for a request after the no-excuse deadline. Title 21-A, §753-B is the statute for that request. The Maine Secretary of State and that statute are the official sources.",
+      },
+    ],
+  },
+  {
+    code: "IA",
+    checkedOn: "October 13, 2026",
+    faqAnswer:
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Iowa Secretary of State’s three-year election calendar lists Monday, October 19, 2026 as the voter pre-registration deadline for that election, and that page says the deadline is 5 p.m. The 2026 general-election candidate guide says the pre-registration deadline that day is 5:00 p.m., and that a mailed registration form postmarked on or before that day is on time. Iowa Code §48A.7A provides for registration on election day at the polling place. The Secretary of State’s voter-ready page lists Wednesday, October 14 as the first day of absentee voting and Monday, November 2 as the in-person absentee deadline. It lists Tuesday, August 25, 2026 as the first day to file an absentee ballot request, and Monday, October 19 as the deadline for a mailed absentee ballot to be received by the county auditor prior to 5:00 p.m. CT. Iowa Code §53.17 states that a return envelope must be received before the polls close in order for the ballot to be counted. Iowa Code §49.73 states that polling places close at 8:00 p.m. The voter-ready page says polls are open from 7:00 a.m. until 8:00 p.m. CT and that absentee ballots must be received in the county auditor’s office prior to 8:00 p.m. CT on Election Day. County hours vary, and dates can change. The Iowa Secretary of State publishes the current calendar.",
+    facts: [
+      {
+        id: "ia-preregister",
+        category: "registration",
+        label: "Pre-registration",
+        text: "The Secretary of State’s three-year election calendar, under 2026, lists Monday, October 19 as the voter pre-registration deadline for the November 3 general election. That page says the deadline to register to vote is 5 p.m. on the days it lists. The 2026 general-election candidate guide lists Monday, October 19 as the pre-registration deadline at 5:00 p.m., and says a mailed registration form postmarked on or before that day is on time even if it is received later. Iowa Code §48A.9 states that registration closes at 5:00 p.m. fifteen days before each election, that a mailed form is on time if it is postmarked no later than the fifteenth day before the election or received by 5:00 p.m. on the last day, and that a form submitted to a voter registration agency, a motor vehicle driver’s license station, or a participating county treasurer’s office is on time if it is received no later than 11:59 p.m. on the day registration closes. The Secretary of State’s voter-ready registration page says a mailed registration must be received by 5:00 p.m. CT or postmarked fifteen days prior to the election, and that an online registration must be completed at or before 11:59 p.m. CT fifteen days prior to the election. Vote.gov says the online registration deadline is 15 days before Election Day and that a mail registration must be postmarked 15 days before Election Day.",
+        endsOn: "2026-10-19",
+        sources: [
+          {
+            label: "Iowa Secretary of State — three-year election calendar",
+            href: "https://sos.iowa.gov/three-year-election-calendar",
+          },
+          {
+            label: "Iowa Secretary of State — 2026 general election candidate guide (PDF)",
+            href: "https://sos.iowa.gov/sites/default/files/2026-07/2026%20General%20Candidate%27s%20Guide.pdf",
+          },
+          {
+            label: "Iowa Code §48A.9 — voter registration deadlines",
+            href: "https://www.legis.iowa.gov/docs/code/2026/48A.9.pdf",
+          },
+          {
+            label: "Iowa Secretary of State — Voter Ready registration",
+            href: "https://voterready.iowa.gov/registertovote/",
+          },
+          {
+            label: "Vote.gov — register in Iowa",
+            href: "https://vote.gov/register/iowa",
+          },
+        ],
+      },
+      {
+        id: "ia-eday",
+        category: "registration",
+        label: "Election Day and in-person absentee registration",
+        text: "Iowa Code §48A.7A states that a person may register on election day by appearing in person at the polling place for the precinct where the person resides, and that after the §48A.9 deadline and before election day a person may register and vote an absentee ballot at the commissioner’s office or a satellite absentee voting station. The Secretary of State’s election-day page says a person may register and vote on election day. The voter-ready registration page calls registration after the pre-registration deadline Election Day Registration and says it applies during in-person absentee voting at the county auditor’s office and at the polling place on Election Day. Vote.gov says in-person registration is available up to and including on Election Day. The three-year calendar and the candidate guide list that election as Tuesday, November 3, 2026.",
+        endsOn: "2026-11-03",
+        sources: [
+          {
+            label: "Iowa Code §48A.7A — election day and in-person absentee registration",
+            href: "https://www.legis.iowa.gov/docs/code/2026/48A.7A.pdf",
+          },
+          {
+            label: "Iowa Secretary of State — Election Day",
+            href: "https://sos.iowa.gov/voters/election-day",
+          },
+          {
+            label: "Iowa Secretary of State — Voter Ready registration",
+            href: "https://voterready.iowa.gov/registertovote/",
+          },
+          {
+            label: "Vote.gov — register in Iowa",
+            href: "https://vote.gov/register/iowa",
+          },
+          {
+            label: "Iowa Secretary of State — three-year election calendar",
+            href: "https://sos.iowa.gov/three-year-election-calendar",
+          },
+          {
+            label: "Iowa Secretary of State — 2026 general election candidate guide (PDF)",
+            href: "https://sos.iowa.gov/sites/default/files/2026-07/2026%20General%20Candidate%27s%20Guide.pdf",
+          },
+        ],
+      },
+      {
+        id: "ia-absentee-in-person",
+        category: "early",
+        label: "Absentee voting in person",
+        text: "The voter-ready page’s November 2026 dates list Wednesday, October 14 as the first day of absentee voting and Monday, November 2 as the in-person absentee deadline. The candidate guide lists Wednesday, October 14, 2026 as the first day absentee ballots may be voted in the county auditor’s office, citing Iowa Code §53.10, and Monday, November 2, 2026 as the last day to request and vote an absentee ballot in person at that office. The same guide lists Saturday, October 31, 2026 as a day the county auditor’s office must be open for at least 8 hours. Iowa Code §53.10 states that in-person absentee voting at the commissioner’s office begins not more than twenty days before the general election. The absentee-voting page says absentee ballots for a primary or general election are available no earlier than 20 days at the county auditor’s office, and that in-person absentee voting is not available on election day at that office unless the polls open at noon. County hours otherwise vary.",
+        startsOn: "2026-10-14",
+        endsOn: "2026-11-02",
+        sources: [
+          {
+            label: "Iowa Secretary of State — Voter Ready",
+            href: "https://voterready.iowa.gov/",
+          },
+          {
+            label: "Iowa Secretary of State — 2026 general election candidate guide (PDF)",
+            href: "https://sos.iowa.gov/sites/default/files/2026-07/2026%20General%20Candidate%27s%20Guide.pdf",
+          },
+          {
+            label: "Iowa Code §53.10 — absentee voting at the commissioner’s office",
+            href: "https://www.legis.iowa.gov/docs/code/2026/53.10.pdf",
+          },
+          {
+            label: "Iowa Secretary of State — absentee voting",
+            href: "https://sos.iowa.gov/voters/absentee-voting",
+          },
+        ],
+      },
+      {
+        id: "ia-request",
+        category: "mail-request",
+        label: "Mailed absentee ballot request",
+        text: "The voter-ready page lists Tuesday, August 25, 2026 as the first day to file an absentee ballot request with the county auditor, and Monday, October 19 as the deadline for a request that the absentee ballot be mailed, received by the county auditor prior to 5:00 p.m. CT. The candidate guide lists Monday, October 19, 2026 as the last day to request that an absentee ballot be mailed, and says the deadline is 5:00 p.m. Iowa Code §53.2 states that a written application must be received no later than 5:00 p.m. on the same day as the voter registration deadline in §48A.9, except when the ballot is requested and voted at the commissioner’s office, that a written application received more than seventy days before the election is returned, and that an in-person application may be made not more than seventy days before the election. The absentee-voting page says a written application for a mailed absentee ballot must be received by the county auditor no later than 5:00 p.m. fifteen days before the election.",
+        startsOn: "2026-08-25",
+        endsOn: "2026-10-19",
+        sources: [
+          {
+            label: "Iowa Secretary of State — Voter Ready",
+            href: "https://voterready.iowa.gov/",
+          },
+          {
+            label: "Iowa Secretary of State — 2026 general election candidate guide (PDF)",
+            href: "https://sos.iowa.gov/sites/default/files/2026-07/2026%20General%20Candidate%27s%20Guide.pdf",
+          },
+          {
+            label: "Iowa Code §53.2 — application for ballot",
+            href: "https://www.legis.iowa.gov/docs/code/2026/53.2.pdf",
+          },
+          {
+            label: "Iowa Secretary of State — absentee voting",
+            href: "https://sos.iowa.gov/voters/absentee-voting",
+          },
+        ],
+      },
+      {
+        id: "ia-uocava-request",
+        category: "mail-request",
+        label: "Military and overseas ballot request",
+        text: "The Secretary of State’s military and overseas page says a request to receive a ballot by email or fax must be received in the county auditor’s office by the close of business on the Monday before the election, and that a UOCAVA voter may request a ballot by mail through the day before the election. That page does not print a calendar date for those request deadlines. The three-year calendar lists the 2026 general election as November 3.",
+        sources: [
+          {
+            label: "Iowa Secretary of State — military and overseas civilian voters",
+            href: "https://sos.iowa.gov/voters/military-and-overseas-civilian-voters",
+          },
+          {
+            label: "Iowa Secretary of State — three-year election calendar",
+            href: "https://sos.iowa.gov/three-year-election-calendar",
+          },
+        ],
+      },
+      {
+        id: "ia-return",
+        category: "mail-return",
+        label: "Absentee ballot return",
+        text: "Iowa Code §53.17 states that, in order for the ballot to be counted, the return envelope must be received in the commissioner’s office before the polls close on election day. Iowa Code §49.73 states that the polling places close at 8:00 p.m. The candidate guide lists Tuesday, November 3, 2026 as election day, says polls are open from 7:00 a.m. until 8:00 p.m., and says absentee ballots may be delivered to the county auditor until 8:00 p.m. The voter-ready page says polls are open from 7:00 a.m. until 8:00 p.m. CT and that absentee ballots must be received in the county auditor’s office prior to 8:00 p.m. CT on Election Day. The polling-place finder says that for all elections the polls are open from 7:00 a.m. until 8:00 p.m. Iowa Code §39.1 states that the general election is held on the first Tuesday after the first Monday in November of each even-numbered year. Iowa Code §53.8 states that an absentee ballot is mailed not more than twenty days before the election.",
+        endsOn: "2026-11-03",
+        sources: [
+          {
+            label: "Iowa Code §53.17 — mailing or delivering ballot",
+            href: "https://www.legis.iowa.gov/docs/code/2026/53.17.pdf",
+          },
+          {
+            label: "Iowa Code §49.73 — time of opening and closing polls",
+            href: "https://www.legis.iowa.gov/docs/code/2026/49.73.pdf",
+          },
+          {
+            label: "Iowa Code §39.1 — general election",
+            href: "https://www.legis.iowa.gov/docs/code/2026/39.1.pdf",
+          },
+          {
+            label: "Iowa Code §53.8 — ballot mailed",
+            href: "https://www.legis.iowa.gov/docs/code/2026/53.8.pdf",
+          },
+          {
+            label: "Iowa Secretary of State — 2026 general election candidate guide (PDF)",
+            href: "https://sos.iowa.gov/sites/default/files/2026-07/2026%20General%20Candidate%27s%20Guide.pdf",
+          },
+          {
+            label: "Iowa Secretary of State — Voter Ready",
+            href: "https://voterready.iowa.gov/",
+          },
+          {
+            label: "Iowa Secretary of State — find your polling place",
+            href: "https://apps.sos.iowa.gov/elections/voterreg/pollingplace/search.aspx",
+          },
+        ],
+      },
+      {
+        id: "ia-uocava-return",
+        category: "mail-return",
+        label: "Military and overseas ballot return",
+        text: "The candidate guide lists noon on Monday, November 9, 2026 for UOCAVA and Safe at Home absentee ballots confirmed sent on the day before the election or earlier by postmark or postal service barcode, and it cites Iowa Code §53.17(2). The Iowa Code 2026 text of §53.17(2) states that the return envelope must be received before the polls close and does not print November 9. The military and overseas page says a mailed ballot must be postmarked by the Monday before election day or earlier and received in the county auditor’s office no later than noon on the Monday following election day. Iowa Code §53.44 states that an armed-forces absentee ballot is counted if the return envelope is received before the polls close, or if it is postmarked or has a postal barcode for entry into the federal mail system not later than the day before the election and is received not later than noon on the Monday following the election. Section 53.44 does not print November 9.",
+        endsOn: "2026-11-09",
+        sources: [
+          {
+            label: "Iowa Secretary of State — 2026 general election candidate guide (PDF)",
+            href: "https://sos.iowa.gov/sites/default/files/2026-07/2026%20General%20Candidate%27s%20Guide.pdf",
+          },
+          {
+            label: "Iowa Code §53.17 — mailing or delivering ballot",
+            href: "https://www.legis.iowa.gov/docs/code/2026/53.17.pdf",
+          },
+          {
+            label: "Iowa Secretary of State — military and overseas civilian voters",
+            href: "https://sos.iowa.gov/voters/military-and-overseas-civilian-voters",
+          },
+          {
+            label: "Iowa Code §53.44 — armed forces absentee ballot affidavit",
+            href: "https://www.legis.iowa.gov/docs/code/2026/53.44.pdf",
+          },
+        ],
+      },
+    ],
+    omitted: [
+      {
+        category: "early",
+        label: "Separate early-voting window",
+        text: "The voter-ready page and the absentee-voting page describe absentee voting in person and do not print a separate early-voting period. Satellite absentee hours are set by the county auditor. The Iowa Secretary of State is the official source.",
+      },
+      {
+        category: "mail-return",
+        label: "Conflicting poll-close hour on one military-page sentence",
+        text: "The military and overseas page’s federal write-in email-or-fax sentence names a poll-close hour that differs from the 8:00 p.m. close stated on that page’s other return section, the voter-ready page, the candidate guide, and Iowa Code §49.73. This site lists the 8:00 p.m. close from those sources.",
+      },
+      {
+        category: "mail-return",
+        label: "Other ballots received after the polls close",
+        text: "Iowa Code §53.17A describes counting some absentee ballots received after the polls close and before the official canvass. That section does not print a calendar date. The Iowa Secretary of State and that section are the official sources.",
       },
     ],
   },

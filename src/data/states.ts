@@ -966,6 +966,113 @@ export const STARTER_STATES: StateProfile[] = [
       "The same page lists special county elections for Piscataquis County Commissioner District 3 and Sagadahoc County Register of Probate.",
     ],
   },
+  {
+    code: "IA",
+    name: "Iowa",
+    slug: "IA",
+    fips: "19",
+    capital: "Des Moines",
+    timezoneNote: "Iowa is on Central Time.",
+    summary:
+      "Iowa’s 2026 cycle includes a U.S. Senate seat, the governor and lieutenant governor, other statewide executive offices, and U.S. House races. The Secretary of State publishes the offices on the general-election ballot.",
+    officialElectionOffice: {
+      label: "Iowa Secretary of State — Elections and voting",
+      href: "https://sos.iowa.gov/elections-voting",
+    },
+    voteGov: {
+      label: "Vote.gov: Iowa registration information",
+      href: "https://vote.gov/register/iowa",
+    },
+    officialVoterLinks: [
+      {
+        label: "Iowa Secretary of State — Elections and voting",
+        href: "https://sos.iowa.gov/elections-voting",
+      },
+      {
+        label: "Voter registration",
+        href: "https://sos.iowa.gov/voters/voter-registration",
+      },
+      {
+        label: "Absentee voting",
+        href: "https://sos.iowa.gov/voters/absentee-voting",
+      },
+      {
+        label: "Three-year election calendar",
+        href: "https://sos.iowa.gov/three-year-election-calendar",
+      },
+      {
+        label: "Voter Ready — November 2026 general election dates",
+        href: "https://voterready.iowa.gov/",
+      },
+      {
+        label: "Find my precinct and polling place",
+        href: "https://apps.sos.iowa.gov/elections/voterreg/pollingplace/search.aspx",
+      },
+      {
+        label: "Election Day",
+        href: "https://sos.iowa.gov/voters/election-day",
+      },
+      {
+        label: "Track my absentee ballot",
+        href: "https://apps.sos.iowa.gov/elections/absenteeballotstatus/absentee/search",
+      },
+      {
+        label: "County auditor list",
+        href: "https://sos.iowa.gov/auditors",
+      },
+      {
+        label: "Military and overseas civilian voters",
+        href: "https://sos.iowa.gov/voters/military-and-overseas-civilian-voters",
+      },
+      {
+        label: "November 3, 2026 general election",
+        href: "https://sos.iowa.gov/general-election",
+      },
+      {
+        label: "Vote.gov: Iowa registration information",
+        href: "https://vote.gov/register/iowa",
+      },
+    ],
+    ballotpedia: {
+      label: "Ballotpedia — Iowa elections 2026",
+      href: "https://ballotpedia.org/Iowa_elections,_2026",
+    },
+    statewideOffices2026: [
+      "U.S. Senate (Class 2)",
+      "Governor and lieutenant governor",
+      "Secretary of state",
+      "Auditor of state",
+      "Treasurer of state",
+      "Secretary of agriculture",
+      "Attorney general",
+    ],
+    cycleCheckedOn: "October 13, 2026",
+    cycleSources: [
+      {
+        label: "Iowa Secretary of State — November 3, 2026 general election",
+        href: "https://sos.iowa.gov/general-election",
+      },
+      {
+        label: "U.S. Senate — Class II, terms expire in 2027",
+        href: "https://www.senate.gov/senators/Class_II.htm",
+      },
+    ],
+    registrationNote:
+      "Iowa registration dates for the November 3, 2026 general election are on the voting-deadlines page, with the Secretary of State calendar and Iowa Code §48A.9 linked there.",
+    earlyVotingNote:
+      "In-person absentee voting dates for the November 3, 2026 general election are on the voting-deadlines page. County hours vary.",
+    mailNote:
+      "Absentee-ballot request and return dates for the November 3, 2026 general election are on the voting-deadlines page.",
+    idNote: "Identification rules are published by the Iowa Secretary of State.",
+    hasSenateClass2: true,
+    hasGovernor2026: true,
+    sampleBallotNotes: [
+      "The Secretary of State’s general-election page lists U.S. Representative in all districts, State Senator in odd-numbered districts 1–49, and State Representative in districts 1–100. Districts depend on the address.",
+      "That page lists some county supervisor seats, county treasurer, county recorder, county attorney, and any vacant county offices, and says county candidate information is with the county auditor.",
+      "That page says judges may stand for retention at the general election before their terms expire.",
+      "The same page lists some township officers, county public hospital trustees, soil and water conservation district commissioners, and county agricultural extension council members. Which of those appear depends on the jurisdiction.",
+    ],
+  },
 ];
 
 export const STATE_CODES = STARTER_STATES.map((s) => s.code);
