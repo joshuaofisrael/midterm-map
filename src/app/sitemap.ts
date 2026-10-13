@@ -43,6 +43,13 @@ const MINNESOTA_HUB_PATHS = new Set(["", "/voting-deadlines", "/ballot", "/state
  */
 const MAINE_HUB_UPDATED = "2026-10-12";
 const MAINE_HUB_PATHS = new Set(["", "/voting-deadlines", "/ballot", "/states/ME", "/ballot/ME"]);
+
+/**
+ * October 13, 2026. Iowa state hub, its ballot sketch, and the pages that
+ * gained an Iowa link or an Iowa date.
+ */
+const IOWA_HUB_UPDATED = "2026-10-13";
+const IOWA_HUB_PATHS = new Set(["", "/voting-deadlines", "/ballot", "/states/IA", "/ballot/IA"]);
 const DEADLINE_RECHECK_STATE_HUBS = new Set([
   "/states/GA",
   "/states/MI",
@@ -76,6 +83,7 @@ const LEGAL_BRAND_UPDATED = "2026-10-08";
 const LEGAL_BRAND_PATHS = new Set(["/about", "/disclaimer", "/privacy", "/terms", "/contact"]);
 
 function lastModifiedFor(path: string): string {
+  if (IOWA_HUB_PATHS.has(path)) return IOWA_HUB_UPDATED;
   if (MAINE_HUB_PATHS.has(path)) return MAINE_HUB_UPDATED;
   if (MINNESOTA_HUB_PATHS.has(path)) return MINNESOTA_HUB_UPDATED;
   if (path === "/voting-deadlines" || path === "" || path === "/ballot" || DEADLINE_RECHECK_STATE_HUBS.has(path)) {
