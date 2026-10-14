@@ -6,6 +6,9 @@ import type { StateCode } from "./types";
  * Lines re-read on October 10, 2026 use that date. Minnesota was re-read on
  * October 11, 2026 for the state hub. Maine was read on October 12, 2026 for
  * the state hub. Iowa was read on October 13, 2026 for the state hub.
+ * Alaska was read on October 14, 2026 for the state hub. The Alaska Legislature
+ * statute pages did not return section text, so Alaska lines cite the Division
+ * of Elections pages that print the dates.
  * Arizona's secretary of state
  * pages and Vote.gov returned 403, and the Nevada elections FAQ returned an
  * Incapsula block, so those lines stay on October 6, 2026.
@@ -1515,6 +1518,169 @@ export const ELECTION_DATES: StateElectionDates[] = [
         category: "mail-return",
         label: "Other ballots received after the polls close",
         text: "Iowa Code §53.17A describes counting some absentee ballots received after the polls close and before the official canvass. That section does not print a calendar date. The Iowa Secretary of State and that section are the official sources.",
+      },
+    ],
+  },
+  {
+    code: "AK",
+    checkedOn: "October 14, 2026",
+    faqAnswer:
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Alaska Division of Elections’ 2026 general-election candidate page lists Sunday, October 4, 2026 as the voter registration deadline. The Division’s election calendar lists October 4, 2026 as the deadline to register or update a registration and describes it as the 30th day prior to the election. The absentee and early-voting page says a registration application must be postmarked or received 30 days before Election Day. Vote.gov says the online, by-mail, and in-person registration deadlines are 30 days before Election Day, and that a mail registration must be received by that day. Vote.gov does not print October 4. The election calendar lists October 19, 2026 as the day absentee in-person, early voting, electronic transmission, and special-needs voting begins. The absentee and early-voting page says absentee in-person and early voting locations are open starting 15 days prior and through Election Day, and that each location has different hours. The calendar lists November 3, 2026 as General Election Day and says polls are open from 7 a.m. to 8 p.m. The calendar lists January 1, 2026 as the first day absentee by-mail applications may be filed for elections in the calendar year, and October 24, 2026 as the deadline to receive those applications. The Division’s homepage states that October 24 deadline for the 2026 general election. The absentee page lists October 19, 2026 as the general-election day an online-delivery ballot may be requested, beginning 15 days prior to Election Day, and November 2, 2026 as the general-election deadline for an electronic-transmission application, no later than 5:00 p.m. Alaska Standard Time the day before Election Day. The calendar lists November 2, 2026 as the deadline to receive electronic-transmission applications and says they must be received by 5 p.m. Alaska Time. The absentee page says a mailed ballot must be postmarked on or before Election Day and that an in-person return to a voting location is by 8:00 p.m. on Election Day. The calendar lists November 13, 2026 as the deadline to receive by-mail ballots mailed from within the United States, Puerto Rico, Guam, the Virgin Islands, and American Samoa when postmarked by November 3, 2026, and November 18, 2026 as the deadline to receive by-mail ballots mailed from overseas addresses when postmarked by November 3, 2026. It lists November 3, 2026 as the deadline for a ballot returned by electronic transmission to be received, by 8:00 p.m. Alaska Time. Location hours vary, and dates can change. The Alaska Division of Elections publishes the current calendar.",
+    facts: [
+      {
+        id: "ak-register",
+        category: "registration",
+        label: "Voter registration",
+        text: "The Division of Elections’ 2026 general-election candidate page lists Sunday, October 4, 2026 as the voter registration deadline. The election calendar lists October 4, 2026 as the deadline for voters to register or update their registration. The calendar’s note says the deadline always falls on a Sunday and is the 30th day prior to the election. The calendar’s reference line reads AS 15.05.010 and AS 15.07.070 (c, d). The absentee and early-voting page says that, when registering or updating registration information, the application must be postmarked or received 30 days before Election Day. That page does not print October 4. Vote.gov says the online registration deadline is 30 days before Election Day, that a mail registration must be received 30 days before Election Day, and that the in-person registration deadline is 30 days before Election Day. Vote.gov does not print October 4.",
+        endsOn: "2026-10-04",
+        sources: [
+          {
+            label: "Alaska Division of Elections — 2026 general election candidate list",
+            href: "https://www.elections.alaska.gov/candidates/?election=26genr",
+          },
+          {
+            label: "Alaska Division of Elections — election calendar",
+            href: "https://www.elections.alaska.gov/calendar/",
+          },
+          {
+            label: "Alaska Division of Elections — absentee and early voting",
+            href: "https://www.elections.alaska.gov/voter-information/absentee-and-early-voting/",
+          },
+          {
+            label: "Vote.gov — register in Alaska",
+            href: "https://vote.gov/register/alaska",
+          },
+        ],
+      },
+      {
+        id: "ak-early",
+        category: "early",
+        label: "Absentee in-person and early voting",
+        text: "The election calendar lists October 19, 2026 as the day absentee in-person, early voting, electronic transmission, and special-needs voting begins. The calendar’s reference line reads AS 15.20.045, AS 15.20.061–.081, and 6 AAC 25.500. The absentee and early-voting page says absentee in-person and early voting locations are open starting 15 days prior and through Election Day, and that each location has different hours. The calendar lists November 3, 2026 as General Election Day and says polls are open from 7 a.m. to 8 p.m. The calendar’s reference line for that election day reads AS 15.15.020.",
+        startsOn: "2026-10-19",
+        endsOn: "2026-11-03",
+        sources: [
+          {
+            label: "Alaska Division of Elections — election calendar",
+            href: "https://www.elections.alaska.gov/calendar/",
+          },
+          {
+            label: "Alaska Division of Elections — absentee and early voting",
+            href: "https://www.elections.alaska.gov/voter-information/absentee-and-early-voting/",
+          },
+        ],
+      },
+      {
+        id: "ak-request",
+        category: "mail-request",
+        label: "Absentee by-mail application",
+        text: "The election calendar lists January 1, 2026 as the first day voters may submit absentee by-mail ballot applications for all elections in the calendar year. The calendar’s reference line for that day reads AS 15.20.081(b), AS 15.20.081(i), and 42 U.S.C. The calendar lists October 24, 2026 as the deadline to receive absentee by-mail applications, and its reference line reads AS 15.20.081(b). The absentee and early-voting page lists October 24, 2026 as the general-election absentee by-mail application deadline. The Division of Elections homepage says the absentee by-mail application deadline for the 2026 general election is October 24.",
+        startsOn: "2026-01-01",
+        endsOn: "2026-10-24",
+        sources: [
+          {
+            label: "Alaska Division of Elections — election calendar",
+            href: "https://www.elections.alaska.gov/calendar/",
+          },
+          {
+            label: "Alaska Division of Elections — absentee and early voting",
+            href: "https://www.elections.alaska.gov/voter-information/absentee-and-early-voting/",
+          },
+          {
+            label: "Alaska Division of Elections — homepage",
+            href: "https://www.elections.alaska.gov/",
+          },
+        ],
+      },
+      {
+        id: "ak-request-electronic",
+        category: "mail-request",
+        label: "Electronic transmission and online-delivery application",
+        text: "The absentee and early-voting page says an online-delivery ballot may be requested beginning 15 days prior to Election Day, and it lists October 19, 2026 for the general election. That page says a completed electronic-transmission application must be received no later than 5:00 p.m. Alaska Standard Time the day before Election Day, and it lists November 2, 2026 as that general-election deadline. The election calendar lists November 2, 2026 as the deadline to receive absentee by electronic transmission ballot applications and says applications must be received by 5 p.m. Alaska Time. The calendar’s reference line reads AS 15.20.081(b).",
+        startsOn: "2026-10-19",
+        endsOn: "2026-11-02",
+        sources: [
+          {
+            label: "Alaska Division of Elections — absentee and early voting",
+            href: "https://www.elections.alaska.gov/voter-information/absentee-and-early-voting/",
+          },
+          {
+            label: "Alaska Division of Elections — election calendar",
+            href: "https://www.elections.alaska.gov/calendar/",
+          },
+        ],
+      },
+      {
+        id: "ak-return",
+        category: "mail-return",
+        label: "Absentee ballot return",
+        text: "The absentee and early-voting page lists the general-election deadline to return a voted ballot as postmarked or received by November 3, 2026. That page says a mailed ballot must be postmarked on or before Election Day, and that a voted absentee ballot returned in person to a voting location must be returned by 8:00 p.m. on Election Day. The election calendar lists November 3, 2026 as the day absentee ballots returned by mail must be postmarked on or before Election Day. The calendar’s reference line reads AS 15.20.081(e). The calendar lists November 3, 2026 as General Election Day and says polls are open from 7 a.m. to 8 p.m.",
+        endsOn: "2026-11-03",
+        sources: [
+          {
+            label: "Alaska Division of Elections — absentee and early voting",
+            href: "https://www.elections.alaska.gov/voter-information/absentee-and-early-voting/",
+          },
+          {
+            label: "Alaska Division of Elections — election calendar",
+            href: "https://www.elections.alaska.gov/calendar/",
+          },
+        ],
+      },
+      {
+        id: "ak-return-domestic",
+        category: "mail-return",
+        label: "By-mail ballots from the United States and named territories",
+        text: "The election calendar lists November 13, 2026 as the deadline to receive absentee ballots mailed from within the United States and from Puerto Rico, Guam, the Virgin Islands, and American Samoa. The calendar says those ballots must be postmarked by November 3, 2026 to be eligible. The calendar’s reference line reads AS 15.20.081(e).",
+        endsOn: "2026-11-13",
+        sources: [
+          {
+            label: "Alaska Division of Elections — election calendar",
+            href: "https://www.elections.alaska.gov/calendar/",
+          },
+        ],
+      },
+      {
+        id: "ak-return-overseas",
+        category: "mail-return",
+        label: "By-mail ballots from overseas addresses",
+        text: "The election calendar lists November 18, 2026 as the deadline to receive by-mail ballots mailed from overseas addresses. The calendar says those ballots must be postmarked by November 3, 2026 to be eligible. The calendar’s reference line for that deadline reads AS 15.20.81(h).",
+        endsOn: "2026-11-18",
+        sources: [
+          {
+            label: "Alaska Division of Elections — election calendar",
+            href: "https://www.elections.alaska.gov/calendar/",
+          },
+        ],
+      },
+      {
+        id: "ak-return-electronic",
+        category: "mail-return",
+        label: "Electronic transmission ballot return",
+        text: "The election calendar lists November 3, 2026 as the deadline for ballots returned by electronic transmission to be received, and says a ballot returned that way must be received by 8:00 p.m. Alaska Time. The calendar’s reference line reads 6 AAC 25.680(g). The absentee and early-voting page says a ballot returned by fax must be received by fax on or before 8:00 p.m. Alaska Standard Time on Election Day.",
+        endsOn: "2026-11-03",
+        sources: [
+          {
+            label: "Alaska Division of Elections — election calendar",
+            href: "https://www.elections.alaska.gov/calendar/",
+          },
+          {
+            label: "Alaska Division of Elections — absentee and early voting",
+            href: "https://www.elections.alaska.gov/voter-information/absentee-and-early-voting/",
+          },
+        ],
+      },
+    ],
+    omitted: [
+      {
+        category: "registration",
+        label: "Same-day registration for the November 3, 2026 general election",
+        text: "The election-information page describes same-day registration for voting for President and Vice-President and cites AS 15.05.014. The 2026 general-election candidate page lists October 4, 2026 as the voter registration deadline. The pages read for this update do not describe same-day registration for the November 3, 2026 general election. The Alaska Division of Elections is the official source.",
+      },
+      {
+        category: "early",
+        label: "Statewide early-voting hours",
+        text: "The absentee and early-voting page says each location has different hours. The election calendar lists some regional-office hours and says those hours are a policy of the Division and are not required by law. This site does not treat those policy hours as a statewide schedule. The Alaska Division of Elections is the official source.",
       },
     ],
   },
