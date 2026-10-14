@@ -1073,6 +1073,122 @@ export const STARTER_STATES: StateProfile[] = [
       "The same page lists some township officers, county public hospital trustees, soil and water conservation district commissioners, and county agricultural extension council members. Which of those appear depends on the jurisdiction.",
     ],
   },
+  {
+    code: "AK",
+    name: "Alaska",
+    slug: "AK",
+    fips: "02",
+    capital: "Juneau",
+    timezoneNote:
+      "The Division of Elections calendar states some deadlines in Alaska Time. The absentee and early-voting page states some deadlines in Alaska Standard Time.",
+    summary:
+      "Alaska’s 2026 cycle includes a U.S. Senate seat, the governor and lieutenant governor, a U.S. House seat, and state legislative contests. The Division of Elections publishes the offices on the general-election candidate list.",
+    officialElectionOffice: {
+      label: "Alaska Division of Elections",
+      href: "https://www.elections.alaska.gov/",
+    },
+    voteGov: {
+      label: "Vote.gov: Alaska registration information",
+      href: "https://vote.gov/register/alaska",
+    },
+    officialVoterLinks: [
+      {
+        label: "Alaska Division of Elections",
+        href: "https://www.elections.alaska.gov/",
+      },
+      {
+        label: "Voter information",
+        href: "https://www.elections.alaska.gov/voter-information/",
+      },
+      {
+        label: "Register or update registration",
+        href: "https://voterregistration.alaska.gov/",
+      },
+      {
+        label: "Absentee and early voting",
+        href: "https://www.elections.alaska.gov/voter-information/absentee-and-early-voting/",
+      },
+      {
+        label: "Election calendar",
+        href: "https://www.elections.alaska.gov/calendar/",
+      },
+      {
+        label: "My Voter Portal — registration and absentee ballot status",
+        href: "https://myvoterportal.alaska.gov/",
+      },
+      {
+        label: "Polling place locations",
+        href: "https://www.elections.alaska.gov/election-polls/",
+      },
+      {
+        label: "Sample ballots",
+        href: "https://www.elections.alaska.gov/sample-ballots/",
+      },
+      {
+        label: "Military, overseas, and college voters",
+        href: "https://www.elections.alaska.gov/voter-information/military-overseas-and-college-voters/",
+      },
+      {
+        label: "2026 general election candidate list",
+        href: "https://www.elections.alaska.gov/candidates/?election=26genr",
+      },
+      {
+        label: "Petitions and ballot measures",
+        href: "https://www.elections.alaska.gov/petitions-and-ballot-measures/#ballotmeasures",
+      },
+      {
+        label: "Vote.gov: Alaska registration information",
+        href: "https://vote.gov/register/alaska",
+      },
+    ],
+    ballotpedia: {
+      label: "Ballotpedia — Alaska elections 2026",
+      href: "https://ballotpedia.org/Alaska_elections,_2026",
+    },
+    statewideOffices2026: [
+      "U.S. Senate (Class 2)",
+      "U.S. Representative",
+      "Governor and lieutenant governor",
+    ],
+    cycleCheckedOn: "October 14, 2026",
+    cycleSources: [
+      {
+        label: "Alaska Division of Elections — 2026 general election candidate list",
+        href: "https://www.elections.alaska.gov/candidates/?election=26genr",
+      },
+      {
+        label: "Alaska Division of Elections — election calendar",
+        href: "https://www.elections.alaska.gov/calendar/",
+      },
+      {
+        label: "Alaska Division of Elections — general election information",
+        href: "https://www.elections.alaska.gov/election-information/#GENR",
+      },
+      {
+        label: "U.S. Senate — Class II, terms expire in 2027",
+        href: "https://www.senate.gov/senators/Class_II.htm",
+      },
+    ],
+    sampleBallotOfficial: {
+      label: "Alaska Division of Elections — sample ballots",
+      href: "https://www.elections.alaska.gov/sample-ballots/",
+    },
+    registrationNote:
+      "Alaska registration dates for the November 3, 2026 general election are on the voting-deadlines page, with the Division of Elections calendar and candidate list linked there.",
+    earlyVotingNote:
+      "Absentee in-person and early-voting dates for the November 3, 2026 general election are on the voting-deadlines page. Location hours vary.",
+    mailNote:
+      "Absentee-ballot application and return dates for the November 3, 2026 general election are on the voting-deadlines page.",
+    idNote: "Identification rules are published by the Alaska Division of Elections.",
+    hasSenateClass2: true,
+    hasGovernor2026: true,
+    sampleBallotNotes: [
+      "The Division of Elections’ 2026 general-election candidate list includes a U.S. Representative contest, State Senate districts A, C, E, G, I, K, M, O, Q, and S, and State House districts 1 through 40. The district depends on the address.",
+      "That list includes Supreme Court retention and state superior court and state district court retention contests.",
+      "The general-election information page says general elections are conducted by ranked choice voting, and that judicial retentions and ballot measures are not.",
+      "That page links to the petitions page for ballot measures appearing on the general election ballot. The petitions page lists 25USCV, described there as an initiative to require that only United States citizens may be qualified voters in Alaska elections, and 24ESEG, described there as an initiative to repeal the open primary and ranked choice general elections, each with the status “Will appear on General Election ballot.”",
+    ],
+  },
 ];
 
 export const STATE_CODES = STARTER_STATES.map((s) => s.code);
