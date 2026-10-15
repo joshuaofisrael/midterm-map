@@ -99,8 +99,8 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
           <section>
             <h2 className="font-serif text-2xl font-semibold">Candidates</h2>
             <p className="mt-2 text-sm text-ink-muted">
-              Names below are declared or nominated figures reported as of mid-September 2026.
-              Party labels identify tickets only. This is not an endorsement and not a certified list.
+              {race.candidatesIntro ??
+                "Names below are declared or nominated figures reported as of mid-September 2026. Party labels identify tickets only. This is not an endorsement and not a certified list."}
             </p>
             <div className="mt-4 grid gap-4">
               {race.candidates.map((candidate) => (
@@ -153,7 +153,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
             </ul>
           </div>
           <div className="rounded-xl border border-line bg-paper-card p-5 text-sm leading-6">
-            <p className="font-semibold">Where to check live polls</p>
+            <p className="font-semibold">{race.linkBoxTitle ?? "Where to check live polls"}</p>
             <ul className="mt-2 space-y-2">
               {race.aggregatorLinks.map((link) => (
                 <li key={link.href}>

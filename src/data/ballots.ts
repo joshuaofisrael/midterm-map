@@ -24,7 +24,8 @@ export function ballotSectionsForState(code: StateCode): BallotSection[] {
               raceSlug: senate.slug,
               lines: [
                 "This state has a Class 2 U.S. Senate election on the regular 2026 cycle.",
-                `Major-party nominees reported as of mid-September 2026 are listed on the ${senate.shortTitle} race guide.`,
+                senate.ballotNomineeNote ??
+                  `Major-party nominees reported as of mid-September 2026 are listed on the ${senate.shortTitle} race guide.`,
                 "The official sample ballot lists only candidates qualified by election authorities.",
               ],
             }
@@ -78,7 +79,8 @@ export function ballotSectionsForState(code: StateCode): BallotSection[] {
               lines: [
                 "This state has a 2026 gubernatorial election on the regular calendar.",
                 "Lieutenant-governor pairing, if any, follows state law and the official ballot.",
-                `Declared major-party nominees as of mid-September 2026 are listed on the ${governor.shortTitle} race guide.`,
+                governor.ballotNomineeNote ??
+                  `Declared major-party nominees as of mid-September 2026 are listed on the ${governor.shortTitle} race guide.`,
               ],
             }
           : {

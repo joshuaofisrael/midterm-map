@@ -14,7 +14,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "2026 race guides",
   description:
-    "2026 U.S. midterm race guides for Senate, governor, and House contests in 12 states. Sourced candidate names, attributed ratings, and published polls. Not endorsements.",
+    "2026 U.S. midterm race guides for Senate, governor, and House contests. Sourced candidate names, attributed ratings, and published polls. Not endorsements.",
   path: "/races",
 });
 
@@ -40,7 +40,7 @@ export default function RacesPage() {
       <PageHeader
         eyebrow="Races"
         title="Race guides for the 2026 midterms"
-        lede={`${RACES.length} guides cover Senate, governor, and selected House districts in our starter states. Candidate names are reported as of mid-September 2026. Party labels identify tickets only. Nothing here is an endorsement.`}
+        lede={`${RACES.length} guides cover Senate, governor, and selected House districts in our starter states. Candidate names are cited on each guide. Party labels identify tickets only. Nothing here is an endorsement.`}
       />
       <OfficialNotice compact />
       {GROUPS.map((group) => (

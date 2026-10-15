@@ -5,6 +5,7 @@ import { CrossLinks } from "@/components/CrossLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
+import { SourceList } from "@/components/SourceList";
 import { StatusChip } from "@/components/StatusChip";
 import { getRace, RACES } from "@/data/races";
 import { isPreElection, resultShellForRace, resultShellHasReturns } from "@/data/results";
@@ -74,6 +75,29 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
             ? " This page is a pre-election stub until unofficial returns exist."
             : null}
         </p>
+        {race.officialResults && (
+          <p className="mt-3 text-sm leading-6">
+            Authoritative results:{" "}
+            <a
+              className="font-medium text-navy underline"
+              href={race.officialResults.href}
+              rel="noopener noreferrer"
+            >
+              {race.officialResults.label}
+            </a>
+            .
+          </p>
+        )}
+        {race.countingNote && (
+          <p className="mt-3 text-sm leading-6 text-ink-muted">
+            {race.countingNote}{" "}
+            {race.countingSource && (
+              <a className="text-navy underline" href={race.countingSource.href} rel="noopener noreferrer">
+                {race.countingSource.label}
+              </a>
+            )}
+          </p>
+        )}
         <table className="mt-4 min-w-full text-sm">
           <thead className="text-left text-xs uppercase tracking-wide text-ink-muted">
             <tr>
@@ -110,7 +134,16 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
         <Link className="font-medium text-navy hover:underline" href="/polls">
           Polls
         </Link>
+        {race.officialResults && state && (
+          <>
+            {" · "}
+            <Link className="font-medium text-navy hover:underline" href={`/states/${race.state}`}>
+              {state.name} hub
+            </Link>
+          </>
+        )}
       </p>
+      {race.officialResults && <SourceList sources={race.sources} title="Sources for this contest" />}
       <CrossLinks state={race.state} raceSlug={race.slug} />
     </div>
   );

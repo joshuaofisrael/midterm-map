@@ -56,7 +56,7 @@ export function racesHubFaqs(): RacesFaq[] {
     {
       question: "Where do candidate names come from, and how current are they?",
       answer:
-        "Candidate names and short bios are compiled from cited public sources such as Ballotpedia, Wikipedia, and official pages. Each guide reports those names as declared or nominated figures as of mid-September 2026. They are not a certified candidate list from an election office. Other qualified names, including minor-party and write-in lines, appear on the official ballot when the election office lists them. Final names are published by the state election office linked from the state hub or the sample-ballot page. Vote.gov publishes state registration information.",
+        "Candidate names and short bios are compiled from the sources cited on each guide. Guides in the original set report names as declared or nominated figures as of mid-September 2026, from sources such as Ballotpedia, Wikipedia, and official pages. Guides for Minnesota, Maine, Iowa, and Alaska name a candidate only when that state’s official general-election candidate list includes the name; those lists were checked October 15, 2026. A page on this site is not a certification and not a call of the race. Other lines, when an election office lists them, are on the official ballot. Final names are published by the state election office linked from the state hub or the sample-ballot page. Vote.gov publishes state registration information.",
     },
     {
       question: "Where do race guides link?",

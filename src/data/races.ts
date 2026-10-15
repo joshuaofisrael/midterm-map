@@ -1,9 +1,16 @@
 import type { RaceGuide, StateCode } from "./types";
+import { EXPANSION_GOVERNOR_RACES, EXPANSION_SENATE_RACES } from "./races/expansion";
 import { GOVERNOR_RACES } from "./races/governors";
 import { HOUSE_RACES } from "./races/house";
 import { SENATE_RACES } from "./races/senate";
 
-export const RACES: RaceGuide[] = [...SENATE_RACES, ...GOVERNOR_RACES, ...HOUSE_RACES];
+export const RACES: RaceGuide[] = [
+  ...SENATE_RACES,
+  ...EXPANSION_SENATE_RACES,
+  ...GOVERNOR_RACES,
+  ...EXPANSION_GOVERNOR_RACES,
+  ...HOUSE_RACES,
+];
 
 export function getRace(slug: string): RaceGuide | undefined {
   return RACES.find((race) => race.slug === slug);
