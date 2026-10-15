@@ -140,6 +140,29 @@ export interface RaceGuide {
   relatedPollSlugs: string[];
   ballotSections: string[];
   faqs: { question: string; answer: string }[];
+  /**
+   * Replaces the shared mid-September candidate intro on the race guide.
+   * Omit on guides that still use that sentence.
+   */
+  candidatesIntro?: string;
+  /**
+   * Replaces the shared mid-September line on the sample-ballot sketch.
+   * Omit on guides that still use that sentence.
+   */
+  ballotNomineeNote?: string;
+  /** Sidebar heading above aggregatorLinks. Omit to keep “Where to check live polls”. */
+  linkBoxTitle?: string;
+  /** Official returns portal for this contest. */
+  officialResults?: OfficialSource;
+  /**
+   * Sourced fact about how the state counts this contest (ranked-choice or plurality).
+   * Plain fact only. Not voting instructions.
+   */
+  countingNote?: string;
+  /** Official page for that counting rule or for tabulation reports. */
+  countingSource?: OfficialSource;
+  /** Link /results/{slug} from hubs even before vote totals exist. */
+  resultsShellLinked?: boolean;
 }
 
 export interface PollRow {

@@ -57,6 +57,37 @@ const IOWA_HUB_PATHS = new Set(["", "/voting-deadlines", "/ballot", "/states/IA"
  */
 const ALASKA_HUB_UPDATED = "2026-10-14";
 const ALASKA_HUB_PATHS = new Set(["", "/voting-deadlines", "/ballot", "/states/AK", "/ballot/AK"]);
+
+/**
+ * October 15, 2026. Results pages and race guides for the statewide Senate
+ * and governor contests in Minnesota, Maine, Iowa, and Alaska, plus the
+ * hubs and indexes that link them.
+ */
+const RESULTS_EXPANSION_UPDATED = "2026-10-15";
+const RESULTS_EXPANSION_SLUGS = [
+  "mn-senate-2026",
+  "mn-governor-2026",
+  "me-senate-2026",
+  "me-governor-2026",
+  "ia-senate-2026",
+  "ia-governor-2026",
+  "ak-senate-2026",
+  "ak-governor-2026",
+];
+const RESULTS_EXPANSION_PATHS = new Set([
+  "/results",
+  "/races",
+  "/polls",
+  "/states/MN",
+  "/ballot/MN",
+  "/states/ME",
+  "/ballot/ME",
+  "/states/IA",
+  "/ballot/IA",
+  "/states/AK",
+  "/ballot/AK",
+  ...RESULTS_EXPANSION_SLUGS.flatMap((slug) => [`/races/${slug}`, `/results/${slug}`]),
+]);
 const DEADLINE_RECHECK_STATE_HUBS = new Set([
   "/states/GA",
   "/states/MI",
@@ -90,6 +121,7 @@ const LEGAL_BRAND_UPDATED = "2026-10-08";
 const LEGAL_BRAND_PATHS = new Set(["/about", "/disclaimer", "/privacy", "/terms", "/contact"]);
 
 function lastModifiedFor(path: string): string {
+  if (RESULTS_EXPANSION_PATHS.has(path)) return RESULTS_EXPANSION_UPDATED;
   if (ALASKA_HUB_PATHS.has(path)) return ALASKA_HUB_UPDATED;
   if (IOWA_HUB_PATHS.has(path)) return IOWA_HUB_UPDATED;
   if (MAINE_HUB_PATHS.has(path)) return MAINE_HUB_UPDATED;

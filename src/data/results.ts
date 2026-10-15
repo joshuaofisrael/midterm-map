@@ -48,6 +48,21 @@ export const KEY_RESULT_SLUGS = [
   "nc-01-house-2026",
 ] as const;
 
+/**
+ * Statewide 2026 Senate and governor contests added for Minnesota, Maine,
+ * Iowa, and Alaska. Separate from KEY_RESULT_SLUGS so that list stays as it was.
+ */
+export const ADDITIONAL_RESULT_SLUGS = [
+  "mn-senate-2026",
+  "mn-governor-2026",
+  "me-senate-2026",
+  "me-governor-2026",
+  "ia-senate-2026",
+  "ia-governor-2026",
+  "ak-senate-2026",
+  "ak-governor-2026",
+] as const;
+
 export function resultShellForRace(slug: string): RaceResultShell {
   const race = RACES.find((item) => item.slug === slug);
   const lines = (race?.candidates ?? []).map((candidate) => ({
@@ -72,14 +87,17 @@ export function resultShellHasReturns(shell: RaceResultShell): boolean {
 
 /**
  * Where an indexable page should send someone for a race.
- * Empty /results/{slug} shells stay routable for Election Night and stay
- * noindex, but they are not the link target until unofficial returns exist.
+ * Empty /results/{slug} shells stay routable. They are the link target once
+ * unofficial returns exist, or when the guide sets resultsShellLinked.
  * Unknown slugs fall back to the results hub.
  */
 export function indexableRaceHref(raceSlug?: string): string {
-  if (!raceSlug || !RACES.some((race) => race.slug === raceSlug)) return "/results";
-  if (resultShellHasReturns(resultShellForRace(raceSlug))) return `/results/${raceSlug}`;
-  return `/races/${raceSlug}`;
+  const race = raceSlug ? RACES.find((item) => item.slug === raceSlug) : undefined;
+  if (!race) return "/results";
+  if (race.resultsShellLinked || resultShellHasReturns(resultShellForRace(race.slug))) {
+    return `/results/${race.slug}`;
+  }
+  return `/races/${race.slug}`;
 }
 
 export function allResultShells(): RaceResultShell[] {

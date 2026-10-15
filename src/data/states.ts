@@ -815,6 +815,10 @@ export const STARTER_STATES: StateProfile[] = [
         href: "https://www.sos.mn.gov/elections-voting/",
       },
       {
+        label: "Election results",
+        href: "https://electionresults.sos.mn.gov/",
+      },
+      {
         label: "Register to vote",
         href: "https://www.sos.mn.gov/elections-voting/register-to-vote/",
       },
@@ -902,6 +906,10 @@ export const STARTER_STATES: StateProfile[] = [
         href: "https://www.maine.gov/sos/elections-voting/",
       },
       {
+        label: "Election results and data",
+        href: "https://www.maine.gov/sos/elections-voting/election-results-data",
+      },
+      {
         label: "Registering to vote",
         href: "https://www.maine.gov/sos/elections-voting/registering-to-vote",
       },
@@ -987,6 +995,10 @@ export const STARTER_STATES: StateProfile[] = [
       {
         label: "Iowa Secretary of State — Elections and voting",
         href: "https://sos.iowa.gov/elections-voting",
+      },
+      {
+        label: "Election results",
+        href: "https://electionresults.iowa.gov/IA/",
       },
       {
         label: "Voter registration",
@@ -1095,6 +1107,10 @@ export const STARTER_STATES: StateProfile[] = [
       {
         label: "Alaska Division of Elections",
         href: "https://www.elections.alaska.gov/",
+      },
+      {
+        label: "Election results",
+        href: "https://www.elections.alaska.gov/election-results/",
       },
       {
         label: "Voter information",

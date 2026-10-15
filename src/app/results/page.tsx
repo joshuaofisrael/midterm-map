@@ -8,6 +8,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { StatusChip } from "@/components/StatusChip";
 import { getRace } from "@/data/races";
 import {
+  ADDITIONAL_RESULT_SLUGS,
   HOUSE_METER,
   indexableRaceHref,
   isPreElection,
@@ -17,6 +18,7 @@ import {
   resultShellHasReturns,
 } from "@/data/results";
 import { SITE } from "@/data/site";
+import { getState } from "@/data/states";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -94,6 +96,59 @@ export default function ResultsPage() {
                 <Link className="text-sm font-medium text-navy hover:underline" href={`/races/${race.slug}`}>
                   Race guide
                 </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="font-serif text-2xl font-semibold">
+          Minnesota, Maine, Iowa, and Alaska
+        </h2>
+        <p className="mt-2 text-sm text-ink-muted">
+          Statewide U.S. Senate and governor contests on the November 3, 2026 ballot in these
+          states. Each title opens the results page. Those pages are awaiting unofficial returns.
+          They do not invent vote totals and do not call races. Names, when shown, come from the
+          official candidate list cited on the page.
+        </p>
+        <ul className="mt-4 divide-y divide-line rounded-xl border border-line bg-paper-card">
+          {ADDITIONAL_RESULT_SLUGS.map((slug) => {
+            const race = getRace(slug);
+            if (!race) return null;
+            const state = getState(race.state);
+            const hasReturns = resultShellHasReturns(resultShellForRace(race.slug));
+            const names = race.candidates.map((candidate) => candidate.name).join(" · ");
+            return (
+              <li key={slug} className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
+                <div>
+                  <Link
+                    className="font-semibold hover:text-navy"
+                    href={indexableRaceHref(race.slug)}
+                  >
+                    {race.title}
+                  </Link>
+                  <p className="text-sm text-ink-muted">
+                    {hasReturns ? "Unofficial returns" : "Awaiting unofficial returns"}
+                    {names ? ` · ${names}` : ""}
+                  </p>
+                </div>
+                <p className="text-sm">
+                  <Link className="font-medium text-navy hover:underline" href={`/races/${race.slug}`}>
+                    Race guide
+                  </Link>
+                  {state ? (
+                    <>
+                      {" · "}
+                      <Link
+                        className="font-medium text-navy hover:underline"
+                        href={`/states/${state.code}`}
+                      >
+                        {state.name} hub
+                      </Link>
+                    </>
+                  ) : null}
+                </p>
               </li>
             );
           })}
