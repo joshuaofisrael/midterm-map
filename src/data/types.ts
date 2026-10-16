@@ -14,7 +14,8 @@ export type StateCode =
   | "MN"
   | "ME"
   | "IA"
-  | "AK";
+  | "AK"
+  | "KS";
 
 export type Chamber = "senate" | "house" | "governor" | "statewide";
 

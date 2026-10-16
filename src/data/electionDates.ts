@@ -9,6 +9,10 @@ import type { StateCode } from "./types";
  * Alaska was read on October 14, 2026 for the state hub. The Alaska Legislature
  * statute pages did not return section text, so Alaska lines cite the Division
  * of Elections pages that print the dates.
+ * Kansas was read on October 16, 2026 for the state hub. Kansas lines cite the
+ * Secretary of State pages, the linked general-election dates file, K.S.A.
+ * 25-106, 25-1122, 25-1132, and 25-2311, and Vote.gov. A relative statutory
+ * period is not converted into a calendar date the office did not print.
  * Arizona's secretary of state
  * pages and Vote.gov returned 403, and the Nevada elections FAQ returned an
  * Incapsula block, so those lines stay on October 6, 2026.
@@ -1681,6 +1685,159 @@ export const ELECTION_DATES: StateElectionDates[] = [
         category: "early",
         label: "Statewide early-voting hours",
         text: "The absentee and early-voting page says each location has different hours. The election calendar lists some regional-office hours and says those hours are a policy of the Division and are not required by law. This site does not treat those policy hours as a statewide schedule. The Alaska Division of Elections is the official source.",
+      },
+    ],
+  },
+  {
+    code: "KS",
+    checkedOn: "October 16, 2026",
+    faqAnswer:
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Kansas Secretary of State’s important-election-dates page lists October 13, 2026 as the deadline to register or to update a registration to change an address or a name for that election. An October 13, 2026 Secretary of State announcement says paper registration forms are due by the close of business at the county election office and that online registration is available until midnight that day. The voter-registration page says the registration books close 21 days before an election until the election is completed. K.S.A. 25-2311 states that registration is not provided on the 20 days preceding a general election or on election day, and that applications received by a voter registration agency or the division of motor vehicles not later than the 21st day preceding the election, or mailed applications postmarked not later than that day, are accepted and processed. A mailed application with a missing or illegible postmark is accepted if it is received by the ninth day preceding the election. Vote.gov says the online, mail, and in-person registration deadlines are 21 days before Election Day and that a mail registration must be postmarked by that day. Vote.gov does not print October 13, and that page says it was last updated November 18, 2024. The important-dates page lists October 14, 2026 as the first day of advance voting, with advance ballots by mail transmitted that day and in-person advance voting allowed to begin, and October 27, 2026 as the day in-person advance voting must begin in every county. K.S.A. 25-1122 states the mailed advance-ballot application period as 90 days before the general election through the Tuesday of the week preceding it, and states the default in-person application period as the Tuesday next preceding the election through 12:00 noon on the day before the election unless the county designates an earlier start. That statute does not print October 14 or October 27. K.S.A. 25-1132(b), effective January 1, 2026, states that the deadline for receipt by mail of an advance voting ballot is 7:00 p.m. on the date of the election. The advance-voting page says the statutory return deadline is the close of the polls on Election Day. That page also says a district court in Douglas County entered a statewide injunction requiring a ballot postmarked by election day to be counted if it arrives by the last postal delivery on the Friday after the election, and that a motion to stay that injunction for the general election was denied. K.S.A. 25-106 states poll hours separately for the central and mountain time zones. County hours vary, and dates can change. The Kansas Secretary of State publishes the current calendar.",
+    facts: [
+      {
+        id: "ks-register",
+        category: "registration",
+        label: "Voter registration",
+        text: "The Secretary of State’s important-election-dates page lists October 13, 2026 as the deadline to register to vote or to update a voter registration to change an address or a name for the 2026 general election. The general-election dates file linked from that page prints the same October 13 line. That page does not split the deadline into mail, online, and in-person cutoffs. The October 13, 2026 announcement says paper voter registration forms are due by the close of business at the county election office and that online voter registration is available until midnight that day. The voter-registration page says the registration books close 21 days before an election until the election is completed, and that registrations received in that period are processed after the election. K.S.A. 25-2311(a) states that county election officers provide for registration except on the 20 days preceding the day of a general election and on the day of the general election. Subsection (b) states that every day, including Sunday and legal holidays, is counted. Subsection (e)(1) states that county election officers accept and process applications received by voter registration agencies and the division of motor vehicles not later than the 21st day preceding the election, and mailed applications postmarked not later than the 21st day preceding the election. If the postmark is illegible or missing, that subsection states that a mailed application received in the mail not later than the ninth day preceding the election is accepted. The statute does not print October 13. Vote.gov says the online registration deadline is 21 days before Election Day, that a mail registration must be postmarked 21 days before Election Day, and that the in-person registration deadline is 21 days before Election Day. Vote.gov does not print October 13. The Vote.gov Kansas page says it was last updated November 18, 2024.",
+        endsOn: "2026-10-13",
+        sources: [
+          {
+            label: "Kansas Secretary of State — important election dates",
+            href: "https://sos.ks.gov/elections/important-election-dates.html",
+          },
+          {
+            label: "Kansas Secretary of State — 2026 general election dates (PDF)",
+            href: "https://sos.ks.gov/Pubs/Elections/2026-General-Election-Dates-2.pdf",
+          },
+          {
+            label: "Kansas Secretary of State — October 13, 2026 registration announcement",
+            href: "https://www.sos.ks.gov/media/press-releases/2026/10-13-26-secretary-schwab-announces-voter-registration-closes-today.html",
+          },
+          {
+            label: "Kansas Secretary of State — voter registration",
+            href: "https://sos.ks.gov/elections/voter-registration.html",
+          },
+          {
+            label: "K.S.A. 25-2311 — opening and closing of registration",
+            href: "https://ksrevisor.gov/statutes/chapters/ch25/025_023_0011.html",
+          },
+          {
+            label: "Vote.gov — register in Kansas",
+            href: "https://vote.gov/register/kansas",
+          },
+        ],
+      },
+      {
+        id: "ks-advance",
+        category: "early",
+        label: "Advance voting in person",
+        text: "The important-election-dates page lists October 14 as the first day of advance voting. It says advance ballots by mail are transmitted that day and that in-person advance voting may begin that day. It does not print statewide hours and says the county election office has the times and locations. It lists October 27 as the day in-person advance voting must begin for all counties. The linked general-election dates file prints the same October 14 and October 27 lines. The advance-voting page says advance voting in person, at a county election office or satellite location, and by mail is available up to 20 days before an election. K.S.A. 25-1122(g)(1) states that, unless the county election office designates an earlier date, an application for an advance voting ballot transmitted to the voter in person is filed on the Tuesday next preceding the election and on each later business day until no later than 12:00 noon on the day preceding the election. That subsection states that the county election officer may also allow that in-person application to be filed on the Saturday preceding the election. The statute does not print October 14 or October 27. The important-dates page lists November 3 as the general election and does not print statewide in-person hours.",
+        startsOn: "2026-10-14",
+        sources: [
+          {
+            label: "Kansas Secretary of State — important election dates",
+            href: "https://sos.ks.gov/elections/important-election-dates.html",
+          },
+          {
+            label: "Kansas Secretary of State — 2026 general election dates (PDF)",
+            href: "https://sos.ks.gov/Pubs/Elections/2026-General-Election-Dates-2.pdf",
+          },
+          {
+            label: "Kansas Secretary of State — advance voting information",
+            href: "https://sos.ks.gov/elections/advance-voting-information.html",
+          },
+          {
+            label: "K.S.A. 25-1122 — advance voting applications",
+            href: "https://ksrevisor.gov/statutes/chapters/ch25/025_011_0022.html",
+          },
+        ],
+      },
+      {
+        id: "ks-request",
+        category: "mail-request",
+        label: "Mailed advance-ballot application",
+        text: "K.S.A. 25-1122(f)(1)(B) states that an application for an advance voting ballot to be transmitted by mail, for the general election on the Tuesday following the first Monday in November, is filed between 90 days prior to the election and the Tuesday of the week preceding that general election. Subsection (f)(2) states that a county election officer may receive an application before that period, hold it until the period begins, and treat it as filed on that date. Subsection (g)(2) states that an application filed by a voter who has a temporary illness or disability or who is not proficient in reading the English language, or by a person rendering assistance to such a voter, may be filed during the regular advance-ballot application periods until the close of the polls on election day. The important-election-dates page lists the general election as November 3 and does not print a calendar date for the mailed-application deadline. The advance-voting page does not print that calendar date either.",
+        sources: [
+          {
+            label: "K.S.A. 25-1122 — advance voting applications",
+            href: "https://ksrevisor.gov/statutes/chapters/ch25/025_011_0022.html",
+          },
+          {
+            label: "Kansas Secretary of State — important election dates",
+            href: "https://sos.ks.gov/elections/important-election-dates.html",
+          },
+          {
+            label: "Kansas Secretary of State — advance voting information",
+            href: "https://sos.ks.gov/elections/advance-voting-information.html",
+          },
+        ],
+      },
+      {
+        id: "ks-uocava",
+        category: "mail-request",
+        label: "UOCAVA ballot transmission",
+        text: "The important-election-dates page lists September 19 as the deadline to transmit UOCAVA ballots. The linked general-election dates file prints the same September 19 line. The military and overseas citizens page says that, starting 45 days before an election, ballots are sent to voters with an active federal postcard application. That page says there is no statutory deadline for those applications and that an application is submitted with enough time to allow transmittal to and from the voter. That page cites K.S.A. 25-1216(a) for its statement that a voter who files the application before a primary election receives a ballot for the general election that year, and K.S.A. 25-1215 for its statement that it is not necessary for a qualifying individual to be registered in the county.",
+        endsOn: "2026-09-19",
+        sources: [
+          {
+            label: "Kansas Secretary of State — important election dates",
+            href: "https://sos.ks.gov/elections/important-election-dates.html",
+          },
+          {
+            label: "Kansas Secretary of State — 2026 general election dates (PDF)",
+            href: "https://sos.ks.gov/Pubs/Elections/2026-General-Election-Dates-2.pdf",
+          },
+          {
+            label: "Kansas Secretary of State — military and overseas citizens",
+            href: "https://sos.ks.gov/elections/military-overseas-citizens.html",
+          },
+        ],
+      },
+      {
+        id: "ks-return",
+        category: "mail-return",
+        label: "Advance ballot return",
+        text: "K.S.A. 25-1132(b), in the text effective January 1, 2026, states that the deadline for the receipt by mail of advance voting ballots by the county election officer is 7:00 p.m. on the date of the election. Subsection (a) states that advance voting ballots received in the office of the county election officer or at any polling place in the county not later than the hour for closing the polls on that election are delivered to the special election board. The important-election-dates page lists the general election as November 3. The advance-voting page says that under Kansas statute the deadline to return a ballot is the close of the polls on Election Day. That page also says a district court in Douglas County entered a statewide injunction requiring a ballot postmarked by election day to be counted if it arrives by the last postal delivery on the Friday after the election. It says the Kansas Court of Appeals denied a motion to stay that injunction for the primary election, and that a renewed motion to stay the injunction for the general election was denied. The important-dates page and the linked dates file do not print the Friday receipt rule. K.S.A. 25-106(a) states that in counties in the central time zone the polls open at 7:00 a.m. and close at 7:00 p.m. unless the county election officer sets and announces different hours. Different hours under that subsection are at least 12 continuous hours, start no earlier than 6:00 a.m., end no later than 8:00 p.m., and end no earlier than 7:00 p.m. Subsection (b) states that in counties in the mountain time zone the polls open at 6:00 a.m. and close at 6:00 p.m. unless different hours are set. Different hours under that subsection are at least 12 continuous hours, start no earlier than 5:00 a.m., end no later than 7:00 p.m., and end no earlier than 6:00 p.m. The voter-information page states the 7:00 a.m. to 7:00 p.m. hours, states that counties may open as early as 6:00 a.m. and close as late as 8:00 p.m., and cites K.S.A. 25-106. That page does not restate the mountain-time hours.",
+        endsOn: "2026-11-03",
+        sources: [
+          {
+            label: "K.S.A. 25-1132 — advance voting ballot receipt",
+            href: "https://ksrevisor.gov/statutes/chapters/ch25/025_011_0032.html",
+          },
+          {
+            label: "K.S.A. 25-106 — hours of voting",
+            href: "https://ksrevisor.gov/statutes/chapters/ch25/025_001_0006.html",
+          },
+          {
+            label: "Kansas Secretary of State — advance voting information",
+            href: "https://sos.ks.gov/elections/advance-voting-information.html",
+          },
+          {
+            label: "Kansas Secretary of State — important election dates",
+            href: "https://sos.ks.gov/elections/important-election-dates.html",
+          },
+          {
+            label: "Kansas Secretary of State — voter information",
+            href: "https://sos.ks.gov/elections/voter-information.html",
+          },
+        ],
+      },
+    ],
+    omitted: [
+      {
+        category: "registration",
+        label: "Registration at the polling place on Election Day",
+        text: "K.S.A. 25-2311 states that registration is not provided on the 20 days preceding a general election or on election day. The voter-registration page says registrations received while the books are closed are processed after the election. The pages read for this update do not describe registration at the polling place on November 3, 2026. The Kansas Secretary of State is the official source.",
+      },
+      {
+        category: "early",
+        label: "Statewide in-person advance-voting hours",
+        text: "The important-election-dates page does not print statewide hours. It says the county election office has the times and locations. The Kansas Secretary of State is the official source.",
+      },
+      {
+        category: "mail-request",
+        label: "Calendar date for a mailed advance-ballot application",
+        text: "K.S.A. 25-1122(f)(1)(B) states the mailed-application period as 90 days before the general election through the Tuesday of the week preceding it. The important-election-dates page and the advance-voting page do not print a calendar date for that deadline. The Kansas Secretary of State and that statute are the official sources.",
       },
     ],
   },

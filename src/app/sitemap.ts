@@ -52,6 +52,13 @@ const IOWA_HUB_UPDATED = "2026-10-13";
 const IOWA_HUB_PATHS = new Set(["", "/voting-deadlines", "/ballot", "/states/IA", "/ballot/IA"]);
 
 /**
+ * October 16, 2026. Kansas state hub, its ballot sketch, and the pages that
+ * gained a Kansas link or a Kansas date.
+ */
+const KANSAS_HUB_UPDATED = "2026-10-16";
+const KANSAS_HUB_PATHS = new Set(["", "/voting-deadlines", "/ballot", "/states/KS", "/ballot/KS"]);
+
+/**
  * October 14, 2026. Alaska state hub, its ballot sketch, and the pages that
  * gained an Alaska link or an Alaska date.
  */
@@ -121,6 +128,7 @@ const LEGAL_BRAND_UPDATED = "2026-10-08";
 const LEGAL_BRAND_PATHS = new Set(["/about", "/disclaimer", "/privacy", "/terms", "/contact"]);
 
 function lastModifiedFor(path: string): string {
+  if (KANSAS_HUB_PATHS.has(path)) return KANSAS_HUB_UPDATED;
   if (RESULTS_EXPANSION_PATHS.has(path)) return RESULTS_EXPANSION_UPDATED;
   if (ALASKA_HUB_PATHS.has(path)) return ALASKA_HUB_UPDATED;
   if (IOWA_HUB_PATHS.has(path)) return IOWA_HUB_UPDATED;

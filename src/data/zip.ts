@@ -31,6 +31,8 @@ fill(550, 567, "MN");
 fill(39, 49, "ME");
 fill(500, 528, "IA");
 fill(995, 999, "AK");
+fill(660, 662, "KS");
+fill(664, 679, "KS");
 
 export function normalizeZip(input: string): string {
   return input.replace(/\D/g, "").slice(0, 5);

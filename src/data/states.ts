@@ -1205,6 +1205,134 @@ export const STARTER_STATES: StateProfile[] = [
       "That page links to the petitions page for ballot measures appearing on the general election ballot. The petitions page lists 25USCV, described there as an initiative to require that only United States citizens may be qualified voters in Alaska elections, and 24ESEG, described there as an initiative to repeal the open primary and ranked choice general elections, each with the status “Will appear on General Election ballot.”",
     ],
   },
+  {
+    code: "KS",
+    name: "Kansas",
+    slug: "KS",
+    fips: "20",
+    capital: "Topeka",
+    timezoneNote:
+      "Kansas includes counties in the central time zone and counties in the mountain time zone. K.S.A. 25-106 states poll hours separately for each zone.",
+    summary:
+      "Kansas’s 2026 cycle includes a U.S. Senate seat, the governor and lieutenant governor, other statewide executive offices, and U.S. House races. The Secretary of State publishes the offices on the candidate-information page.",
+    officialElectionOffice: {
+      label: "Kansas Secretary of State — Elections",
+      href: "https://sos.ks.gov/elections/elections.html",
+    },
+    voteGov: {
+      label: "Vote.gov: Kansas registration information",
+      href: "https://vote.gov/register/kansas",
+    },
+    officialVoterLinks: [
+      {
+        label: "Kansas Secretary of State — Elections",
+        href: "https://sos.ks.gov/elections/elections.html",
+      },
+      {
+        label: "Election results",
+        href: "https://sos.ks.gov/elections/election-results.html",
+      },
+      {
+        label: "Voter registration",
+        href: "https://sos.ks.gov/elections/voter-registration.html",
+      },
+      {
+        label: "Voter information",
+        href: "https://sos.ks.gov/elections/voter-information.html",
+      },
+      {
+        label: "Important election dates",
+        href: "https://sos.ks.gov/elections/important-election-dates.html",
+      },
+      {
+        label: "2026 general election dates (PDF)",
+        href: "https://sos.ks.gov/Pubs/Elections/2026-General-Election-Dates-2.pdf",
+      },
+      {
+        label: "Advance voting information",
+        href: "https://sos.ks.gov/elections/advance-voting-information.html",
+      },
+      {
+        label: "Online voter registration (Kansas Department of Revenue)",
+        href: "https://www.kdor.ks.gov/Apps/VoterReg",
+      },
+      {
+        label: "Kansas VoterView — registration, sample ballot, and polling place",
+        href: "https://kansasvoterinfo.gov/",
+      },
+      {
+        label: "Candidate information",
+        href: "https://sos.ks.gov/elections/candidate-information.html",
+      },
+      {
+        label: "Candidate lists",
+        href: "https://sos.ks.gov/elections/elections_upcoming_candidate.aspx",
+      },
+      {
+        label: "Proposed constitutional amendments",
+        href: "https://www.sos.ks.gov/elections/proposed-constitutional-amendments.html",
+      },
+      {
+        label: "Military and overseas citizens",
+        href: "https://sos.ks.gov/elections/military-overseas-citizens.html",
+      },
+      {
+        label: "Vote.gov: Kansas registration information",
+        href: "https://vote.gov/register/kansas",
+      },
+    ],
+    ballotpedia: {
+      label: "Ballotpedia — Kansas elections 2026",
+      href: "https://ballotpedia.org/Kansas_elections,_2026",
+    },
+    statewideOffices2026: [
+      "U.S. Senate (Class 2)",
+      "Governor and lieutenant governor",
+      "Secretary of state",
+      "Attorney general",
+      "State treasurer",
+      "Commissioner of insurance",
+    ],
+    cycleCheckedOn: "October 16, 2026",
+    cycleSources: [
+      {
+        label: "Kansas Secretary of State — offices to be elected or retained in 2026",
+        href: "https://sos.ks.gov/elections/candidate-information.html",
+      },
+      {
+        label: "Kansas Secretary of State — candidate lists",
+        href: "https://sos.ks.gov/elections/elections_upcoming_candidate.aspx",
+      },
+      {
+        label: "Kansas Secretary of State — proposed constitutional amendments",
+        href: "https://www.sos.ks.gov/elections/proposed-constitutional-amendments.html",
+      },
+      {
+        label: "U.S. Senate — Class II, terms expire in 2027",
+        href: "https://www.senate.gov/senators/Class_II.htm",
+      },
+    ],
+    sampleBallotOfficial: {
+      label: "Kansas VoterView — registration, sample ballot, and polling place",
+      href: "https://kansasvoterinfo.gov/",
+    },
+    registrationNote:
+      "Kansas registration dates for the November 3, 2026 general election are on the voting-deadlines page, with the Secretary of State calendar and K.S.A. 25-2311 linked there.",
+    earlyVotingNote:
+      "Advance-voting dates for the November 3, 2026 general election are on the voting-deadlines page. County hours vary.",
+    mailNote:
+      "Advance-ballot application and return dates for the November 3, 2026 general election are on the voting-deadlines page.",
+    idNote: "Identification rules are published by the Kansas Secretary of State.",
+    hasSenateClass2: true,
+    hasGovernor2026: true,
+    sampleBallotNotes: [
+      "The Secretary of State’s candidate-information page lists all 4 U.S. Representative seats, State Senate District 24, and all 125 State Representative seats for 2026. The district depends on the address.",
+      "That page lists State Board of Education seats 1, 3, 5, 7, and 9.",
+      "That page lists 1 Kansas Supreme Court justice, 6 Kansas Court of Appeals judges, district court judges (45 retained, 29 elected), and district magistrate judges (15 retained, 5 elected). Each of those judicial lines is marked on the page as of July 1, 2025.",
+      "The proposed-constitutional-amendments page says one constitutional amendment will be voted on at the November 3, 2026 general election. That page’s explanatory statement says the amendment would clarify that only a citizen of the United States is eligible to vote in the state. The question text is on that page.",
+      "The candidate-list page says the table is updated automatically as each candidate files a valid petition or declaration of intention. This hub lists offices from the candidate-information page and does not list candidate names.",
+    ],
+  },
 ];
 
 export const STATE_CODES = STARTER_STATES.map((s) => s.code);
