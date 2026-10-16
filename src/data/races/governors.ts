@@ -2,16 +2,23 @@ import type { RaceGuide } from "../types";
 import { cite } from "../sources";
 import { photo } from "../candidateImages";
 import {
-  ballotpedia,
-  cook,
-  govAggregators,
-  governorOfficeExplainer,
-  officialSite,
-  person,
-  sabato,
-  standardFaqs,
-  wiki,
-} from "./helpers";
+  azBallot,
+  caCert,
+  clerkNominees,
+  flList,
+  gaRunoff,
+  gaWriteIn,
+  listCandidate,
+  miList,
+  nvClark,
+  nyCert,
+  ohFranklin,
+  ohHenry,
+  paMonroe,
+  txCert,
+  wiList,
+} from "../officialLists";
+import { cook, govAggregators, governorOfficeExplainer, sabato, standardFaqs } from "./helpers";
 
 const cookGovUrl = "https://www.cookpolitical.com/ratings/governor-race-ratings";
 const cookGovPrintAug20 = cite(
@@ -20,6 +27,9 @@ const cookGovPrintAug20 = cite(
   "September 17, 2026",
   "August 20, 2026",
 );
+
+const NAMES =
+  "Names below are taken from the election-office list cited on each card. Party labels follow that list. This page is not a certification.";
 
 export const GOVERNOR_RACES: RaceGuide[] = [
   {
@@ -30,69 +40,55 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     title: "Arizona Governor — 2026",
     shortTitle: "AZ Governor",
     featured: true,
-    incumbentNote:
-      "Democratic Gov. Katie Hobbs is seeking a second term. Arizona is pairing gubernatorial nominees with lieutenant-governor running mates for the first time.",
     overview:
-      "Arizona elects a governor on November 3, 2026. Incumbent Democrat Katie Hobbs faces Republican Rep. Andy Biggs. Green and No Labels candidates have also been reported on the general-election field.",
-    officeExplainer: `${governorOfficeExplainer} Arizona’s 2026 ballot is the first to list a lieutenant-governor running mate with each gubernatorial nominee.`,
+      "A Maricopa County official ballot for the November 3, 2026 general election prints governor and lieutenant governor as one contest. The printed tickets are Katie Hobbs (DEM) with John Giles (PND), Andy Biggs (REP) with Sine Kerr (REP), Risa Lombardo (GRN) with Lisa Castillo (GRN), and Teri Ann Hourihan (NOL) with Angela Harrolle Mohan (PND).",
+    officeExplainer: governorOfficeExplainer,
     whyItMatters:
-      "Cook rated the race Lean Democratic as of late August 2026; Sabato’s Crystal Ball listed Lean D as of September 3, while Inside Elections had it as a toss-up the same week. The winner will share a ballot with other statewide offices and will appoint to some vacancies. Official pairing of running mates is printed by county recorders.",
-    howToRead:
-      "Third-party lines are listed because contemporaneous local reporting placed them on the November field. Names on the November ballot are on the county sample ballot.",
+      "Cook rated the race Lean Democratic as of late August 2026; Sabato’s Crystal Ball listed Lean D as of September 3, while Inside Elections had it as a toss-up the same week. The winner will share a ballot with other statewide offices. The ticket pairing on this page is the one printed on the Maricopa County ballot that was read.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Katie Hobbs",
         party: "DEM",
-        partyLabel: "Democratic",
-        incumbent: true,
-        statusNote: "Running mate: John Giles (independent), former Mesa mayor",
-        bio: "Hobbs has been Arizona governor since 2023 after serving as secretary of state. She won the 2022 election and is seeking a second term. Before statewide office she served in the Arizona Legislature and as a social worker.",
+        partyLabel: "DEM",
+        bio: "The Maricopa County official ballot prints Hobbs, Katie (DEM) with Giles, John (PND) for governor and lieutenant governor.",
         image: photo("katie-hobbs"),
-        links: [
-          officialSite("Office of the Governor", "https://azgovernor.gov/"),
-          wiki("Katie Hobbs", "Katie_Hobbs"),
-          ballotpedia("Katie Hobbs", "Katie_Hobbs"),
-        ],
-        sources: [
-          cite("Office of the Governor of Arizona", "https://azgovernor.gov/governor/about"),
-          cite("Wikipedia, 2026 Arizona gubernatorial election", "https://en.wikipedia.org/wiki/2026_Arizona_gubernatorial_election"),
-        ],
+        sources: [azBallot],
       }),
-      person({
+      listCandidate({
         name: "Andy Biggs",
         party: "REP",
-        partyLabel: "Republican",
-        statusNote: "Running mate: Sine Kerr, former state senator",
-        bio: "Biggs has represented Arizona’s 5th Congressional District in the U.S. House since 2017. He won the July 2026 Republican primary over Rep. David Schweikert and other candidates. He previously served as president of the Arizona Senate.",
+        partyLabel: "REP",
+        bio: "The Maricopa County official ballot prints Biggs, Andy (REP) with Kerr, Sine (REP) for governor and lieutenant governor. The Clerk of the House nominee list states Andy Biggs was nominated for governor and was not a candidate for re-election to the House.",
         image: photo("andy-biggs"),
-        links: [
-          officialSite("House office", "https://biggs.house.gov/"),
-          wiki("Andy Biggs", "Andy_Biggs"),
-          ballotpedia("Andy Biggs", "Andy_Biggs"),
-        ],
-        sources: [
-          cite("Biographical Directory of the U.S. Congress, Andy Biggs", "https://bioguide.congress.gov/search/bio/B001302"),
-          cite(
-            "Arizona’s Family, The fight for Arizona governor is on",
-            "https://www.azfamily.com/2026/09/15/fight-arizona-governor-is-what-separates-hobbs-biggs/",
-            "September 17, 2026",
-            "September 15, 2026",
-          ),
-        ],
+        sources: [azBallot, clerkNominees],
+      }),
+      listCandidate({
+        name: "Risa Lombardo",
+        party: "GRN",
+        partyLabel: "GRN",
+        bio: "The Maricopa County official ballot prints Lombardo, Risa (GRN) with Castillo, Lisa (GRN) for governor and lieutenant governor.",
+        sources: [azBallot],
+      }),
+      listCandidate({
+        name: "Teri Ann Hourihan",
+        party: "OTH",
+        partyLabel: "NOL",
+        bio: "The Maricopa County official ballot prints Hourihan, Teri Ann (NOL) with Harrolle Mohan, Angela (PND) for governor and lieutenant governor.",
+        sources: [azBallot],
       }),
     ],
     ratings: [
       cook("Lean D", "August 27, 2026", cookGovUrl),
       sabato("Lean D", "September 3, 2026", "https://centerforpolitics.org/crystalball/"),
     ],
-    sources: [
-      cite("Wikipedia, 2026 Arizona gubernatorial election", "https://en.wikipedia.org/wiki/2026_Arizona_gubernatorial_election"),
-      cite("Ballotpedia, Arizona gubernatorial election, 2026", "https://ballotpedia.org/Arizona_gubernatorial_election,_2026"),
-      cookGovPrintAug20,
-    ],
+    sources: [azBallot, clerkNominees, cookGovPrintAug20],
     aggregatorLinks: govAggregators("https://ballotpedia.org/Arizona_gubernatorial_election,_2026"),
     relatedPollSlugs: ["az-gov-highground-2026-08"],
     ballotSections: ["statewide"],
+    ballotNomineeNote:
+      "Names on the AZ Governor race guide are the governor and lieutenant governor tickets printed on a Maricopa County official ballot for the November 3, 2026 general election.",
     faqs: standardFaqs("this governor’s race", "the Arizona Secretary of State"),
   },
   {
@@ -103,54 +99,78 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     title: "Georgia Governor — 2026",
     shortTitle: "GA Governor",
     featured: true,
-    incumbentNote: "Republican Gov. Brian Kemp is term-limited. The seat is open.",
     overview:
-      "Georgia elects a governor on November 3, 2026. Democrat Keisha Lance Bottoms, a former Atlanta mayor, faces Republican businessman Rick Jackson after party primaries and a Republican runoff.",
-    officeExplainer: `${governorOfficeExplainer} Georgia can require a majority in a statewide general election; if no candidate reaches that threshold, official runoff rules apply.`,
+      "Georgia elects a governor on November 3, 2026. The Secretary of State’s official results for the June 16, 2026 Republican primary runoff list Rick Jackson with 373,543 votes (52.64 percent). The other candidate’s name was not in the results text retrieved for that contest. The certified write-in list names David C. Byrne, Jacqueline Angela DaCosta, Deb Broughton Davis, Milton J. Lofton, David Leon Moreland, Leland Jake Olinger II, and Andrew Pacetti. A Democratic candidate for governor is not named on this page.",
+    officeExplainer: governorOfficeExplainer,
     whyItMatters:
-      "Cook listed the open Georgia governorship as a toss-up on its August 2026 chart. The winner will sit over a Republican-held legislature entering the next redistricting decade and will share a ballot with Georgia’s U.S. Senate race. Primary vote totals are historical records on Ballotpedia; November certification is a state function.",
-    howToRead:
-      "This page lists the major-party November pairing. Other statewide constitutional offices appear on the same Georgia ballot.",
+      "Cook listed the Georgia governorship as a toss-up on its August 2026 chart. November certification is a state function.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
-        name: "Keisha Lance Bottoms",
-        party: "DEM",
-        partyLabel: "Democratic",
-        statusNote: "Democratic nominee after the May 2026 primary",
-        bio: "Bottoms was mayor of Atlanta from 2018 to 2022 and later served in the Biden White House as a senior adviser. She won the 2026 Democratic nomination for governor. Public biographies emphasize city executive work and federal service.",
-        image: photo("keisha-lance-bottoms"),
-        links: [
-          wiki("Keisha Lance Bottoms", "Keisha_Lance_Bottoms"),
-          ballotpedia("Keisha Lance Bottoms", "Keisha_Lance_Bottoms"),
-        ],
-        sources: [
-          cite("Ballotpedia, Georgia gubernatorial election, 2026", "https://ballotpedia.org/Georgia_gubernatorial_election,_2026"),
-          cite("White House alumni biography materials via Wikimedia Commons", "https://commons.wikimedia.org/wiki/Category:Keisha_Lance_Bottoms"),
-        ],
-      }),
-      person({
+      listCandidate({
         name: "Rick Jackson",
         party: "REP",
         partyLabel: "Republican",
-        statusNote: "Republican nominee after the 2026 primary runoff",
-        bio: "Jackson is a Georgia health-care executive and founder of Jackson Healthcare. Ballotpedia records him as the Republican nominee after a runoff that included Lt. Gov. Burt Jones and Secretary of State Brad Raffensperger among the primary field.",
-        links: [
-          ballotpedia("Rick Jackson", "Rick_Jackson_(Georgia)"),
-        ],
-        sources: [
-          cite("Ballotpedia, Georgia gubernatorial election, 2026", "https://ballotpedia.org/Georgia_gubernatorial_election,_2026"),
-          cite("Ballotpedia, Georgia election preview, 2026", "https://ballotpedia.org/Georgia_election_preview,_2026"),
-        ],
+        bio: "The Georgia Secretary of State’s official results for the June 16, 2026 Republican primary runoff list Rick Jackson with 373,543 votes (52.64 percent).",
+        sources: [gaRunoff],
+      }),
+      listCandidate({
+        name: "David C. Byrne",
+        party: "OTH",
+        partyLabel: "Certified write-in",
+        bio: "The Secretary of State’s certified write-in list for the November 3, 2026 general election names David C. Byrne for governor.",
+        sources: [gaWriteIn],
+      }),
+      listCandidate({
+        name: "Jacqueline Angela DaCosta",
+        party: "OTH",
+        partyLabel: "Certified write-in",
+        bio: "The Secretary of State’s certified write-in list for the November 3, 2026 general election names Jacqueline Angela DaCosta for governor.",
+        sources: [gaWriteIn],
+      }),
+      listCandidate({
+        name: "Deb Broughton Davis",
+        party: "OTH",
+        partyLabel: "Certified write-in",
+        bio: "The Secretary of State’s certified write-in list for the November 3, 2026 general election names Deb Broughton Davis for governor.",
+        sources: [gaWriteIn],
+      }),
+      listCandidate({
+        name: "Milton J. Lofton",
+        party: "OTH",
+        partyLabel: "Certified write-in",
+        bio: "The Secretary of State’s certified write-in list for the November 3, 2026 general election names Milton J. Lofton for governor.",
+        sources: [gaWriteIn],
+      }),
+      listCandidate({
+        name: "David Leon Moreland",
+        party: "OTH",
+        partyLabel: "Certified write-in",
+        bio: "The Secretary of State’s certified write-in list for the November 3, 2026 general election names David Leon Moreland for governor.",
+        sources: [gaWriteIn],
+      }),
+      listCandidate({
+        name: "Leland Jake Olinger II",
+        party: "OTH",
+        partyLabel: "Certified write-in",
+        bio: "The Secretary of State’s certified write-in list for the November 3, 2026 general election names Leland Jake Olinger, II for governor.",
+        sources: [gaWriteIn],
+      }),
+      listCandidate({
+        name: "Andrew Pacetti",
+        party: "OTH",
+        partyLabel: "Certified write-in",
+        bio: "The Secretary of State’s certified write-in list for the November 3, 2026 general election names Andrew Pacetti for governor.",
+        sources: [gaWriteIn],
       }),
     ],
     ratings: [cook("Tossup", "August 20, 2026", cookGovUrl)],
-    sources: [
-      cite("Ballotpedia, Georgia gubernatorial election, 2026", "https://ballotpedia.org/Georgia_gubernatorial_election,_2026"),
-      cookGovPrintAug20,
-    ],
+    sources: [gaRunoff, gaWriteIn, cookGovPrintAug20],
     aggregatorLinks: govAggregators("https://ballotpedia.org/Georgia_gubernatorial_election,_2026"),
     relatedPollSlugs: ["ga-gov-aarp-2026-07"],
     ballotSections: ["statewide"],
+    ballotNomineeNote:
+      "Names on the GA Governor race guide are Rick Jackson from the Secretary of State’s official June 16, 2026 Republican runoff results and the certified write-in list. A Democratic candidate is not named.",
     faqs: standardFaqs("this governor’s race", "the Georgia Secretary of State"),
   },
   {
@@ -161,59 +181,61 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     title: "Michigan Governor — 2026",
     shortTitle: "MI Governor",
     featured: true,
-    incumbentNote: "Democratic Gov. Gretchen Whitmer is term-limited. The seat is open.",
+    incumbentNote:
+      "The Bureau of Elections candidate listing for governor and lieutenant governor does not include Gretchen Whitmer.",
     overview:
-      "Michigan elects a governor on November 3, 2026. Democrat Jocelyn Benson, the secretary of state, faces Republican John James, a former U.S. representative. Minor-party candidates are also listed on Ballotpedia.",
+      "Michigan elects a governor on November 3, 2026. The Bureau of Elections official candidate listing names Jocelyn Benson / Winnie Brinks (Democratic Party), John James / Jay DeBoyer (Republican Party), Anthony Hudson / Beau Parmenter (Libertarian Party), Donna Brandenburg / Robert Donald Cowper II (U.S. Taxpayers Party), and Douglas Campbell / Bobbie Clay (Green Party).",
     officeExplainer: governorOfficeExplainer,
     whyItMatters:
-      "Cook rated the open Michigan governorship Lean Democratic as of August 2026. The office sets the state’s executive agenda and shares a ballot with Michigan’s open U.S. Senate race. Lieutenant-governor pairing follows Michigan law and the official ballot.",
-    howToRead:
-      "Green, Libertarian, and U.S. Taxpayers Party candidates appear on Ballotpedia’s general-election table. The printed slate is on the county ballot.",
+      "Cook rated the Michigan governorship Lean Democratic as of August 2026. Names on this page are the Bureau of Elections listing.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Jocelyn Benson",
         party: "DEM",
-        partyLabel: "Democratic",
-        statusNote: "Democratic nominee; current secretary of state",
-        bio: "Benson has been Michigan secretary of state since 2019. She is a former law-school dean. She is the Democratic nominee for the open governorship in 2026.",
+        partyLabel: "Democratic Party",
+        bio: "The Bureau of Elections official candidate listing prints Democratic Party, Benson, Jocelyn / Brinks, Winnie, for governor and lieutenant governor.",
         image: photo("jocelyn-benson"),
-        links: [
-          officialSite("Michigan Secretary of State", "https://www.michigan.gov/sos"),
-          wiki("Jocelyn Benson", "Jocelyn_Benson"),
-          ballotpedia("Jocelyn Benson", "Jocelyn_Benson"),
-        ],
-        sources: [
-          cite("Ballotpedia, Michigan gubernatorial election, 2026", "https://ballotpedia.org/Michigan_gubernatorial_election,_2026"),
-          cite(
-            "Emerson College Polling, Michigan 2026 poll",
-            "https://emersoncollegepolling.com/michigan-2026-poll-el-sayed-and-rogers-locked-in-close-election/",
-          ),
-        ],
+        sources: [miList],
       }),
-      person({
+      listCandidate({
         name: "John James",
         party: "REP",
-        partyLabel: "Republican",
-        bio: "James represented Michigan’s 10th Congressional District from 2023 to 2025. He is an Army veteran and business executive who previously ran statewide Senate campaigns. He is the 2026 Republican nominee for governor.",
+        partyLabel: "Republican Party",
+        bio: "The Bureau of Elections official candidate listing prints Republican Party, James, John / DeBoyer, Jay, for governor and lieutenant governor.",
         image: photo("john-james"),
-        links: [
-          wiki("John James", "John_James_(Michigan_politician)"),
-          ballotpedia("John James", "John_James_(Michigan_politician)"),
-        ],
-        sources: [
-          cite("Biographical Directory of the U.S. Congress, John James", "https://bioguide.congress.gov/search/bio/J000307"),
-          cite("Ballotpedia, Michigan gubernatorial election, 2026", "https://ballotpedia.org/Michigan_gubernatorial_election,_2026"),
-        ],
+        sources: [miList],
+      }),
+      listCandidate({
+        name: "Anthony Hudson",
+        party: "LIB",
+        partyLabel: "Libertarian Party",
+        bio: "The Bureau of Elections official candidate listing prints Libertarian Party, Hudson, Anthony / Parmenter, Beau, for governor and lieutenant governor.",
+        sources: [miList],
+      }),
+      listCandidate({
+        name: "Donna Brandenburg",
+        party: "OTH",
+        partyLabel: "U.S. Taxpayers Party",
+        bio: "The Bureau of Elections official candidate listing prints U.S. Taxpayers Party, Brandenburg, Donna / Cowper II, Robert Donald, for governor and lieutenant governor.",
+        sources: [miList],
+      }),
+      listCandidate({
+        name: "Douglas Campbell",
+        party: "GRN",
+        partyLabel: "Green Party",
+        bio: "The Bureau of Elections official candidate listing prints Green Party, Campbell, Douglas / Clay, Bobbie, for governor and lieutenant governor.",
+        sources: [miList],
       }),
     ],
     ratings: [cook("Lean D", "August 20, 2026", cookGovUrl)],
-    sources: [
-      cite("Ballotpedia, Michigan gubernatorial election, 2026", "https://ballotpedia.org/Michigan_gubernatorial_election,_2026"),
-      cookGovPrintAug20,
-    ],
+    sources: [miList, cookGovPrintAug20],
     aggregatorLinks: govAggregators("https://ballotpedia.org/Michigan_gubernatorial_election,_2026"),
     relatedPollSlugs: ["mi-gov-emerson-2026-09"],
     ballotSections: ["statewide"],
+    ballotNomineeNote:
+      "Names on the MI Governor race guide are the governor and lieutenant governor rows on the Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election.",
     faqs: standardFaqs("this governor’s race", "the Michigan Secretary of State"),
   },
   {
@@ -224,66 +246,45 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     title: "Nevada Governor — 2026",
     shortTitle: "NV Governor",
     featured: true,
-    incumbentNote: "Republican Gov. Joe Lombardo is seeking a second term.",
     overview:
-      "Nevada elects a governor on November 3, 2026. Incumbent Republican Joe Lombardo faces Democratic Attorney General Aaron Ford after June primaries.",
+      "The Clark County Registrar of Voters list of candidates for the November 3, 2026 general election names Aaron D. Ford (DEM), Danielle Ford (NPP), and Joseph Lombardo (REP) for governor, and includes a “None of these candidates” line.",
     officeExplainer: governorOfficeExplainer,
     whyItMatters:
-      "Cook rated the race a toss-up as of August 2026. Nevada’s governor can veto bills from a Legislature that has often been Democratic-controlled. County clerks administer Nevada’s mail-ballot system; this site does not.",
+      "Cook rated the race a toss-up as of August 2026. County clerks administer Nevada’s mail-ballot system; this site does not.",
     howToRead:
-      "Nevada ballots can include a “None of These Candidates” option. Printed choices are on the official sample ballot.",
+      "The Clark County notice includes a “None of these candidates” line for governor. That line is a ballot choice, not a person named on this page.",
+    candidatesIntro: NAMES,
     candidates: [
-      person({
-        name: "Joe Lombardo",
+      listCandidate({
+        name: "Joseph Lombardo",
         party: "REP",
-        partyLabel: "Republican",
-        incumbent: true,
-        bio: "Lombardo has been Nevada governor since 2023 after serving as Clark County sheriff. He won the June 2026 Republican primary. His official biography emphasizes public-safety and executive experience in southern Nevada.",
+        partyLabel: "REP",
+        bio: "The Clark County Registrar of Voters list of candidates for the November 3, 2026 general election names Lombardo, Joseph, REP, for governor.",
         image: photo("joe-lombardo"),
-        links: [
-          officialSite("Office of the Governor", "https://gov.nv.gov/"),
-          wiki("Joe Lombardo", "Joe_Lombardo"),
-          ballotpedia("Joe Lombardo", "Joe_Lombardo"),
-        ],
-        sources: [
-          cite("Wikipedia, 2026 Nevada gubernatorial election", "https://en.wikipedia.org/wiki/2026_Nevada_gubernatorial_election"),
-          cite("Office of the Governor of Nevada", "https://gov.nv.gov/"),
-        ],
+        sources: [nvClark],
       }),
-      person({
-        name: "Aaron Ford",
+      listCandidate({
+        name: "Aaron D. Ford",
         party: "DEM",
-        partyLabel: "Democratic",
-        statusNote: "Democratic nominee; current attorney general",
-        bio: "Ford has been Nevada attorney general since 2019 and previously served in the state Senate. He won the June 2026 Democratic primary. Term limits prevent him from seeking another term as attorney general.",
-        links: [
-          officialSite("Nevada Attorney General", "https://ag.nv.gov/"),
-          wiki("Aaron Ford", "Aaron_Ford_(Nevada_politician)"),
-          ballotpedia("Aaron Ford", "Aaron_Ford"),
-        ],
-        sources: [
-          cite("Wikipedia, 2026 Nevada gubernatorial election", "https://en.wikipedia.org/wiki/2026_Nevada_gubernatorial_election"),
-          cite(
-            "The Nevada Independent, 2026 statewide voter guide",
-            "https://thenevadaindependent.com/elections/2026/general/statewide",
-          ),
-        ],
+        partyLabel: "DEM",
+        bio: "The Clark County Registrar of Voters list of candidates for the November 3, 2026 general election names Ford, Aaron D., DEM, for governor.",
+        sources: [nvClark],
+      }),
+      listCandidate({
+        name: "Danielle Ford",
+        party: "OTH",
+        partyLabel: "NPP",
+        bio: "The Clark County Registrar of Voters list of candidates for the November 3, 2026 general election names Ford, Danielle, NPP, for governor.",
+        sources: [nvClark],
       }),
     ],
     ratings: [cook("Tossup", "August 20, 2026", cookGovUrl)],
-    sources: [
-      cite("Wikipedia, 2026 Nevada gubernatorial election", "https://en.wikipedia.org/wiki/2026_Nevada_gubernatorial_election"),
-      cookGovPrintAug20,
-      cite(
-        "Emerson College Polling, Nevada 2026 poll",
-        "https://emersoncollegepolling.com/nevada-2026-poll-ford-and-lombardo/",
-        "September 17, 2026",
-        "September 2026",
-      ),
-    ],
+    sources: [nvClark, cookGovPrintAug20],
     aggregatorLinks: govAggregators("https://ballotpedia.org/Nevada_gubernatorial_election,_2026"),
     relatedPollSlugs: ["nv-gov-emerson-2026-09"],
     ballotSections: ["statewide"],
+    ballotNomineeNote:
+      "Names on the NV Governor race guide are the governor rows on the Clark County Registrar of Voters list of candidates for the November 3, 2026 general election.",
     faqs: standardFaqs("this governor’s race", "the Nevada Secretary of State"),
   },
   {
@@ -294,57 +295,70 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     title: "Ohio Governor — 2026",
     shortTitle: "OH Governor",
     featured: true,
-    incumbentNote: "Republican Gov. Mike DeWine is term-limited. The seat is open.",
+    incumbentNote:
+      "The Franklin County Board of Elections candidate list for governor and lieutenant governor does not include Mike DeWine.",
     overview:
-      "Ohio elects a governor on November 3, 2026. Republican entrepreneur Vivek Ramaswamy faces Democrat Amy Acton, a former state health director. Ohio lists governor and lieutenant governor as a joint ticket.",
-    officeExplainer: `${governorOfficeExplainer} Ohio prints the governor and lieutenant governor as one ticket.`,
+      "The Franklin County Board of Elections 2026 general-election candidate list, revised October 16, 2026, names Amy Acton and David Pepper (Democratic), Vivek Ramaswamy and Robert A. McColley (Republican), and Don Kissick and James L. Mills (Libertarian) for governor and lieutenant governor. The same list marks Timothy Grady and Andrea Neutzling, Heather Hill and Patrick Manley, and Renea Turner and Jalen Turner as write-in.",
+    officeExplainer: governorOfficeExplainer,
     whyItMatters:
-      "Cook rated the open Ohio governorship a toss-up as of August 2026. The office directs a large state government and shares a ballot with other statewide executive races. Wikipedia lists Rob McColley (R) and David Pepper (D) as running mates; confirm pairing on the official ballot.",
-    howToRead:
-      "Running-mate names here are reported pairings. The county sample ballot is the official ticket.",
+      "Cook rated the Ohio governorship a toss-up as of August 2026. Ticket names on this page are the Franklin County candidate list.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Vivek Ramaswamy",
         party: "REP",
         partyLabel: "Republican",
-        statusNote: "Republican nominee; running mate Rob McColley reported on Wikipedia",
-        bio: "Ramaswamy is a biotechnology entrepreneur and author who sought the 2024 Republican presidential nomination. He is the 2026 Republican nominee for Ohio governor. Public biographies emphasize his business career and national campaign.",
+        bio: "The Franklin County Board of Elections candidate list names Vivek Ramaswamy and Robert A. McColley, Republican, for governor and lieutenant governor.",
         image: photo("vivek-ramaswamy"),
-        links: [
-          wiki("Vivek Ramaswamy", "Vivek_Ramaswamy"),
-          ballotpedia("Vivek Ramaswamy", "Vivek_Ramaswamy"),
-        ],
-        sources: [
-          cite("Wikipedia, 2026 Ohio gubernatorial election", "https://en.wikipedia.org/wiki/2026_Ohio_gubernatorial_election"),
-          cite("Ballotpedia, Vivek Ramaswamy", "https://ballotpedia.org/Vivek_Ramaswamy"),
-        ],
+        sources: [ohFranklin, ohHenry],
       }),
-      person({
+      listCandidate({
         name: "Amy Acton",
         party: "DEM",
         partyLabel: "Democratic",
-        statusNote: "Democratic nominee; running mate David Pepper reported on Wikipedia",
-        bio: "Acton directed the Ohio Department of Health in 2019–2020. She is a physician. She is the 2026 Democratic nominee for the open governorship.",
-        links: [
-          wiki("Amy Acton", "Amy_Acton"),
-          ballotpedia("Amy Acton", "Amy_Acton"),
-        ],
-        sources: [
-          cite("Wikipedia, 2026 Ohio gubernatorial election", "https://en.wikipedia.org/wiki/2026_Ohio_gubernatorial_election"),
-        ],
+        bio: "The Franklin County Board of Elections candidate list names Amy Acton and David Pepper, Democratic, for governor and lieutenant governor.",
+        sources: [ohFranklin, ohHenry],
+      }),
+      listCandidate({
+        name: "Don Kissick",
+        party: "LIB",
+        partyLabel: "Libertarian",
+        bio: "The Franklin County Board of Elections candidate list names Don Kissick and James L. Mills, Libertarian, for governor and lieutenant governor.",
+        sources: [ohFranklin],
+      }),
+      listCandidate({
+        name: "Timothy Grady",
+        party: "OTH",
+        partyLabel: "Write-in",
+        bio: "The Franklin County Board of Elections candidate list marks Timothy Grady and Andrea Neutzling as a write-in for governor and lieutenant governor.",
+        sources: [ohFranklin],
+      }),
+      listCandidate({
+        name: "Heather Hill",
+        party: "OTH",
+        partyLabel: "Write-in",
+        bio: "The Franklin County Board of Elections candidate list marks Heather Hill and Patrick Manley as a write-in for governor and lieutenant governor.",
+        sources: [ohFranklin],
+      }),
+      listCandidate({
+        name: "Renea Turner",
+        party: "OTH",
+        partyLabel: "Write-in",
+        bio: "The Franklin County Board of Elections candidate list marks Renea Turner and Jalen Turner as a write-in for governor and lieutenant governor.",
+        sources: [ohFranklin],
       }),
     ],
     ratings: [cook("Tossup", "August 20, 2026", cookGovUrl)],
-    sources: [
-      cite("Wikipedia, 2026 Ohio gubernatorial election", "https://en.wikipedia.org/wiki/2026_Ohio_gubernatorial_election"),
-      cookGovPrintAug20,
-    ],
+    sources: [ohFranklin, ohHenry, cookGovPrintAug20],
     aggregatorLinks: govAggregators(
       "https://ballotpedia.org/Ohio_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
       "https://www.realclearpolitics.com/epolls/2026/governor/oh/2026_ohio_governor_ramaswamy_vs_acton-8720.html",
     ),
     relatedPollSlugs: ["oh-gov-bgsu-2026-09"],
     ballotSections: ["statewide"],
+    ballotNomineeNote:
+      "Names on the OH Governor race guide are the governor and lieutenant governor rows on the Franklin County Board of Elections 2026 general-election candidate list. A Henry County official ballot prints the same Democratic, Republican, and Libertarian tickets.",
     faqs: standardFaqs("this governor’s race", "the Ohio Secretary of State"),
   },
   {
@@ -355,57 +369,45 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     title: "Pennsylvania Governor — 2026",
     shortTitle: "PA Governor",
     featured: true,
-    incumbentNote: "Democratic Gov. Josh Shapiro is seeking a second term.",
     overview:
-      "Pennsylvania elects a governor on November 3, 2026. Incumbent Democrat Josh Shapiro faces Republican Treasurer Stacy Garrity. Ballotpedia also lists a Libertarian candidate.",
+      "The Monroe County candidate proclamation for the November 3, 2026 general election lists, county-wide, Josh Shapiro with lieutenant governor Austin Davis (Democratic), Stacy Garrity with lieutenant governor Jason Richey (Republican), and Ken Krawchuk with lieutenant governor John Thomas (Libertarian).",
     officeExplainer: governorOfficeExplainer,
     whyItMatters:
-      "Cook rated the race Solid Democratic as of August 2026. Pennsylvania’s governor is a high-visibility executive in a state that often decides national narratives, even when a particular contest is not rated as a toss-up. County election offices print the precinct ballot.",
-    howToRead:
-      "Other row offices (attorney general, auditor general, treasurer) typically share the midterm ballot. Those offices are on the county ballot.",
+      "Cook rated the race Solid Democratic as of August 2026. Names on this page are the Monroe County proclamation.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Josh Shapiro",
         party: "DEM",
         partyLabel: "Democratic",
-        incumbent: true,
-        bio: "Shapiro has been Pennsylvania governor since 2023 after serving as attorney general. He is seeking a second term. Official biographies emphasize statewide executive and law-enforcement work.",
+        bio: "The Monroe County candidate proclamation lists Josh Shapiro, Democratic, for governor, with lieutenant governor Austin Davis.",
         image: photo("josh-shapiro"),
-        links: [
-          officialSite("Office of the Governor", "https://www.governor.pa.gov/"),
-          wiki("Josh Shapiro", "Josh_Shapiro"),
-          ballotpedia("Josh Shapiro", "Josh_Shapiro"),
-        ],
-        sources: [
-          cite("Office of the Governor of Pennsylvania", "https://www.governor.pa.gov/about/"),
-          cite("Ballotpedia, Pennsylvania gubernatorial election, 2026", "https://ballotpedia.org/Pennsylvania_gubernatorial_election,_2026"),
-        ],
+        sources: [paMonroe],
       }),
-      person({
+      listCandidate({
         name: "Stacy Garrity",
         party: "REP",
         partyLabel: "Republican",
-        statusNote: "Republican nominee; current state treasurer",
-        bio: "Garrity has been Pennsylvania treasurer since 2021. She is an Army veteran. She is the 2026 Republican nominee for governor.",
+        bio: "The Monroe County candidate proclamation lists Stacy Garrity, Republican, for governor, with lieutenant governor Jason Richey.",
         image: photo("stacy-garrity"),
-        links: [
-          officialSite("Pennsylvania Treasury", "https://www.patreasury.gov/"),
-          wiki("Stacy Garrity", "Stacy_Garrity"),
-          ballotpedia("Stacy Garrity", "Stacy_Garrity"),
-        ],
-        sources: [
-          cite("Ballotpedia, State executive official elections, 2026", "https://ballotpedia.org/State_executive_official_elections,_2026"),
-        ],
+        sources: [paMonroe],
+      }),
+      listCandidate({
+        name: "Ken Krawchuk",
+        party: "LIB",
+        partyLabel: "Libertarian",
+        bio: "The Monroe County candidate proclamation lists Ken Krawchuk, Libertarian, for governor, with lieutenant governor John Thomas.",
+        sources: [paMonroe],
       }),
     ],
     ratings: [cook("Solid D", "August 20, 2026", cookGovUrl)],
-    sources: [
-      cite("Ballotpedia, State executive official elections, 2026", "https://ballotpedia.org/State_executive_official_elections,_2026"),
-      cookGovPrintAug20,
-    ],
+    sources: [paMonroe, cookGovPrintAug20],
     aggregatorLinks: govAggregators("https://ballotpedia.org/Pennsylvania_gubernatorial_election,_2026"),
     relatedPollSlugs: ["pa-gov-fandm-2026-08"],
     ballotSections: ["statewide"],
+    ballotNomineeNote:
+      "Names on the PA Governor race guide are the county-wide governor and lieutenant governor rows on the Monroe County candidate proclamation for the November 3, 2026 general election.",
     faqs: standardFaqs("this governor’s race", "the Pennsylvania Department of State"),
   },
   {
@@ -416,55 +418,39 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     title: "Wisconsin Governor — 2026",
     shortTitle: "WI Governor",
     featured: true,
-    incumbentNote: "Democratic Gov. Tony Evers is term-limited after two terms. The seat is open.",
+    incumbentNote:
+      "The Elections Commission candidate list records incumbent Tony Evers as having filed a notification of noncandidacy.",
     overview:
-      "Wisconsin elects a governor on November 3, 2026. Democrat David Crowley, the Milwaukee County executive, faces Republican Rep. Tom Tiffany.",
+      "The Wisconsin Elections Commission candidate list for the November 3, 2026 general election names Tom Tiffany / David Varnam (Republican) and David Crowley / Sarah Godlewski (Democratic) for governor.",
     officeExplainer: governorOfficeExplainer,
     whyItMatters:
-      "Cook rated the open Wisconsin governorship a toss-up as of August 2026. The office is central to state budget fights and appointments in a closely divided state. Municipal clerks issue ward sample ballots.",
-    howToRead:
-      "Wisconsin prints several constitutional offices on the same cycle. The full slate is on the municipal clerk’s sample ballot.",
+      "Cook rated the Wisconsin governorship a toss-up as of August 2026. Names on this page are the Elections Commission list.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "David Crowley",
         party: "DEM",
         partyLabel: "Democratic",
-        statusNote: "Democratic nominee; Milwaukee County executive",
-        bio: "Crowley has been Milwaukee County executive since 2020 after serving in the Wisconsin Legislature. He is the 2026 Democratic nominee for the open governorship.",
-        links: [
-          officialSite("Milwaukee County Executive", "https://county.milwaukee.gov/EN/County-Executive"),
-          wiki("David Crowley", "David_Crowley_(Wisconsin_politician)"),
-          ballotpedia("David Crowley", "David_Crowley"),
-        ],
-        sources: [
-          cite("Ballotpedia, Wisconsin gubernatorial election, 2026", "https://ballotpedia.org/Wisconsin_gubernatorial_election,_2026"),
-        ],
+        bio: "The Wisconsin Elections Commission candidate list names David Crowley / Sarah Godlewski, Democratic, for governor.",
+        sources: [wiList],
       }),
-      person({
+      listCandidate({
         name: "Tom Tiffany",
         party: "REP",
         partyLabel: "Republican",
-        statusNote: "Republican nominee; U.S. representative, WI-07",
-        bio: "Tiffany has represented Wisconsin’s 7th Congressional District since 2020. He previously served in the Wisconsin Legislature. He is the 2026 Republican nominee for governor.",
+        bio: "The Wisconsin Elections Commission candidate list names Tom Tiffany / David Varnam, Republican, for governor.",
         image: photo("tom-tiffany"),
-        links: [
-          officialSite("House office", "https://tiffany.house.gov/"),
-          wiki("Tom Tiffany", "Tom_Tiffany"),
-          ballotpedia("Tom Tiffany", "Tom_Tiffany"),
-        ],
-        sources: [
-          cite("Biographical Directory of the U.S. Congress, Tom Tiffany", "https://bioguide.congress.gov/search/bio/T000165"),
-        ],
+        sources: [wiList],
       }),
     ],
     ratings: [cook("Tossup", "August 20, 2026", cookGovUrl)],
-    sources: [
-      cite("Ballotpedia, Wisconsin gubernatorial election, 2026", "https://ballotpedia.org/Wisconsin_gubernatorial_election,_2026"),
-      cookGovPrintAug20,
-    ],
+    sources: [wiList, cookGovPrintAug20],
     aggregatorLinks: govAggregators("https://ballotpedia.org/Wisconsin_gubernatorial_election,_2026"),
     relatedPollSlugs: ["wi-gov-marquette-2026-08"],
     ballotSections: ["statewide"],
+    ballotNomineeNote:
+      "Names on the WI Governor race guide are the governor rows on the Wisconsin Elections Commission candidate list for the November 3, 2026 general election.",
     faqs: standardFaqs("this governor’s race", "the Wisconsin Elections Commission"),
   },
   {
@@ -475,52 +461,96 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     title: "Florida Governor — 2026",
     shortTitle: "FL Governor",
     featured: false,
-    incumbentNote: "Republican Gov. Ron DeSantis is term-limited. The seat is open.",
     overview:
-      "Florida elects a governor on November 3, 2026. Republican Rep. Byron Donalds faces Democrat David Jolly, a former Republican U.S. representative, after the August 18 primary. Ballotpedia lists additional no-party and Libertarian candidates.",
-    officeExplainer: `${governorOfficeExplainer} Florida’s gubernatorial nominee selects a lieutenant-governor running mate for the general-election ticket.`,
+      "The Florida Division of Elections candidate listing for the 2026 general election marks Byron Donalds / Bryan Avila (REP) Qualified, primary Won, and David Jolly / Gwen Graham (DEM) Qualified, primary Won. The same listing marks other governor tickets Qualified, including no-party, write-in, and LPF rows. Defeated and eliminated rows are not listed here.",
+    officeExplainer: governorOfficeExplainer,
     whyItMatters:
-      "Cook published an August 27, 2026 analysis moving Florida’s open governorship from Solid to Likely Republican. Cabinet offices also appear statewide. Supervisors of elections print county sample ballots.",
-    howToRead:
-      "This page lists the two major-party nominees. Qualified lines, including running mates, are on the county sample ballot.",
+      "Cook published an August 27, 2026 analysis moving Florida’s governorship from Solid to Likely Republican. Names on this page are the Division of Elections listing.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Byron Donalds",
         party: "REP",
-        partyLabel: "Republican",
-        statusNote: "Republican nominee; U.S. representative, FL-19",
-        bio: "Donalds has represented Florida’s 19th Congressional District since 2021. He won the August 2026 Republican primary for governor. House biographies list prior work in finance and the Florida House.",
+        partyLabel: "REP",
+        bio: "The Division of Elections candidate listing marks Donalds, Byron (REP) / Avila, Bryan as Qualified, with primary Won.",
         image: photo("byron-donalds"),
-        links: [
-          officialSite("House office", "https://donalds.house.gov/"),
-          wiki("Byron Donalds", "Byron_Donalds"),
-          ballotpedia("Byron Donalds", "Byron_Donalds"),
-        ],
-        sources: [
-          cite("Biographical Directory of the U.S. Congress, Byron Donalds", "https://bioguide.congress.gov/search/bio/D000032"),
-          cite("Ballotpedia, Florida gubernatorial election, 2026", "https://ballotpedia.org/Florida_gubernatorial_and_lieutenant_gubernatorial_election,_2026"),
-        ],
+        sources: [flList],
       }),
-      person({
+      listCandidate({
         name: "David Jolly",
         party: "DEM",
-        partyLabel: "Democratic",
-        statusNote: "Democratic nominee; former Republican U.S. representative",
-        bio: "Jolly represented Florida’s 13th Congressional District as a Republican from 2014 to 2017. He is the 2026 Democratic nominee for governor. Public biographies describe later work as a commentator and attorney.",
+        partyLabel: "DEM",
+        bio: "The Division of Elections candidate listing marks Jolly, David (DEM) / Graham, Gwen as Qualified, with primary Won.",
         image: photo("david-jolly"),
-        links: [
-          wiki("David Jolly", "David_Jolly"),
-          ballotpedia("David Jolly", "David_Jolly"),
-        ],
-        sources: [
-          cite("Biographical Directory of the U.S. Congress, David Jolly", "https://bioguide.congress.gov/search/bio/J000296"),
-          cite("Ballotpedia, Florida gubernatorial election, 2026", "https://ballotpedia.org/Florida_gubernatorial_and_lieutenant_gubernatorial_election,_2026"),
-        ],
+        sources: [flList],
+      }),
+      listCandidate({
+        name: "Scott Eckhard Jewett",
+        party: "OTH",
+        partyLabel: "LPF",
+        bio: "The Division of Elections candidate listing marks Jewett, Scott Eckhard (LPF) / Skelly, Nicole as Qualified, with primary Unopposed.",
+        sources: [flList],
+      }),
+      listCandidate({
+        name: "Dean Ocean Abrams",
+        party: "OTH",
+        partyLabel: "NPA",
+        bio: "The Division of Elections candidate listing marks Abrams, Dean Ocean (NPA) / Van Vactor, Joe as Qualified.",
+        sources: [flList],
+      }),
+      listCandidate({
+        name: "Charles Burkett",
+        party: "OTH",
+        partyLabel: "NPA",
+        bio: "The Division of Elections candidate listing marks Burkett, Charles (NPA) / Coto, Ruben A. as Qualified.",
+        sources: [flList],
+      }),
+      listCandidate({
+        name: "Jeffrey Peter Datto",
+        party: "OTH",
+        partyLabel: "NPA",
+        bio: "The Division of Elections candidate listing marks Datto, Jeffrey Peter (NPA) / Santana, Juan as Qualified.",
+        sources: [flList],
+      }),
+      listCandidate({
+        name: "Moliere Dimanche",
+        party: "OTH",
+        partyLabel: "NPA",
+        bio: "The Division of Elections candidate listing marks Dimanche, Moliere (NPA) / Rojas, Benjiman as Qualified.",
+        sources: [flList],
+      }),
+      listCandidate({
+        name: "Frank J. Russo",
+        party: "OTH",
+        partyLabel: "NPA",
+        bio: "The Division of Elections candidate listing marks Russo, Frank J. (NPA) / Rodriguez, Rachel as Qualified.",
+        sources: [flList],
+      }),
+      listCandidate({
+        name: "Kathy Anderson",
+        party: "OTH",
+        partyLabel: "WRI",
+        bio: "The Division of Elections candidate listing marks Anderson, Kathy (WRI) / Nokovich, Daniel as Qualified.",
+        sources: [flList],
+      }),
+      listCandidate({
+        name: "Erik Morris",
+        party: "OTH",
+        partyLabel: "WRI",
+        bio: "The Division of Elections candidate listing marks Morris, Erik (WRI) / Alaways, LeRoy as Qualified.",
+        sources: [flList],
       }),
     ],
-    ratings: [cook("Likely R", "August 27, 2026", "https://www.cookpolitical.com/analysis/national/florida-governor/florida-governor-moves-solid-likely-republican")],
+    ratings: [
+      cook(
+        "Likely R",
+        "August 27, 2026",
+        "https://www.cookpolitical.com/analysis/national/florida-governor/florida-governor-moves-solid-likely-republican",
+      ),
+    ],
     sources: [
-      cite("Ballotpedia, Florida gubernatorial election, 2026", "https://ballotpedia.org/Florida_gubernatorial_and_lieutenant_gubernatorial_election,_2026"),
+      flList,
       cite(
         "Cook Political Report, Florida Governor Moves From Solid to Likely Republican",
         "https://www.cookpolitical.com/analysis/national/florida-governor/florida-governor-moves-solid-likely-republican",
@@ -528,9 +558,13 @@ export const GOVERNOR_RACES: RaceGuide[] = [
         "August 27, 2026",
       ),
     ],
-    aggregatorLinks: govAggregators("https://ballotpedia.org/Florida_gubernatorial_and_lieutenant_gubernatorial_election,_2026"),
+    aggregatorLinks: govAggregators(
+      "https://ballotpedia.org/Florida_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+    ),
     relatedPollSlugs: ["fl-gov-changresearch-2026-09", "fl-gov-unf-2026-07"],
     ballotSections: ["statewide"],
+    ballotNomineeNote:
+      "Names on the FL Governor race guide are the Qualified governor rows on the Florida Division of Elections candidate listing for the 2026 general election. Rows marked Defeated or Eliminated are omitted.",
     faqs: standardFaqs("this governor’s race", "the Florida Division of Elections"),
   },
   {
@@ -541,54 +575,37 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     title: "California Governor — 2026",
     shortTitle: "CA Governor",
     featured: false,
-    incumbentNote: "Democratic Gov. Gavin Newsom is term-limited. The seat is open.",
     overview:
-      "California elects a governor on November 3, 2026. Democrat Xavier Becerra and Republican Steve Hilton advanced from the June 2 top-two primary.",
-    officeExplainer: `${governorOfficeExplainer} California uses a top-two primary: the two highest vote-getters advance regardless of party.`,
+      "The Secretary of State’s certified list for the November 3, 2026 general election, dated August 27, 2026, names Xavier Becerra (Democratic) and Steve Hilton (Republican) for governor. The certification says the list contains persons nominated at the June 2, 2026 primary.",
+    officeExplainer: governorOfficeExplainer,
     whyItMatters:
-      "Cook rated the open California governorship Solid Democratic as of August 2026. The office directs the largest U.S. state government and shares a ballot with other constitutional offices and qualified propositions. County elections officials mail vote-by-mail ballots to registered voters.",
-    howToRead:
-      "Primary percentages below are certified results reported by Ballotpedia. Proposition text, if any, is official state language — not rewritten here.",
+      "Cook rated the California governorship Solid Democratic as of August 2026. Names on this page are the certified list.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Xavier Becerra",
         party: "DEM",
         partyLabel: "Democratic",
-        statusNote: "Advanced from the June 2, 2026 top-two primary (28.0%)",
-        bio: "Becerra served as U.S. secretary of health and human services from 2021 to 2025 and as California attorney general before that. He also represented a Los Angeles-area House district. He is one of two candidates in the November governor’s race.",
+        bio: "The Secretary of State’s certified list for the November 3, 2026 general election names Xavier Becerra, Democratic, for governor.",
         image: photo("xavier-becerra"),
-        links: [
-          wiki("Xavier Becerra", "Xavier_Becerra"),
-          ballotpedia("Xavier Becerra", "Xavier_Becerra"),
-        ],
-        sources: [
-          cite("Ballotpedia, California gubernatorial election, 2026", "https://ballotpedia.org/California_gubernatorial_election,_2026"),
-          cite("HHS, Secretary Xavier Becerra biography (archived official)", "https://www.hhs.gov/about/leadership/xavier-becerra/index.html"),
-        ],
+        sources: [caCert],
       }),
-      person({
+      listCandidate({
         name: "Steve Hilton",
         party: "REP",
         partyLabel: "Republican",
-        statusNote: "Advanced from the June 2, 2026 top-two primary (24.6%)",
-        bio: "Hilton is a television commentator and former adviser to U.K. Prime Minister David Cameron. He advanced from California’s June 2026 top-two primary to the November gubernatorial election.",
-        links: [
-          wiki("Steve Hilton", "Steve_Hilton"),
-          ballotpedia("Steve Hilton", "Steve_Hilton"),
-        ],
-        sources: [
-          cite("Ballotpedia, California gubernatorial election, 2026", "https://ballotpedia.org/California_gubernatorial_election,_2026"),
-        ],
+        bio: "The Secretary of State’s certified list for the November 3, 2026 general election names Steve Hilton, Republican, for governor.",
+        sources: [caCert],
       }),
     ],
     ratings: [cook("Solid D", "August 20, 2026", cookGovUrl)],
-    sources: [
-      cite("Ballotpedia, California gubernatorial election, 2026", "https://ballotpedia.org/California_gubernatorial_election,_2026"),
-      cookGovPrintAug20,
-    ],
+    sources: [caCert, cookGovPrintAug20],
     aggregatorLinks: govAggregators("https://ballotpedia.org/California_gubernatorial_election,_2026"),
     relatedPollSlugs: ["ca-gov-ppic-2026-07"],
     ballotSections: ["statewide"],
+    ballotNomineeNote:
+      "Names on the CA Governor race guide are the governor rows on the Secretary of State’s certified list for the November 3, 2026 general election.",
     faqs: standardFaqs("this governor’s race", "the California Secretary of State"),
   },
   {
@@ -599,56 +616,37 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     title: "New York Governor — 2026",
     shortTitle: "NY Governor",
     featured: false,
-    incumbentNote: "Democratic Gov. Kathy Hochul is seeking another term.",
     overview:
-      "New York elects a governor on November 3, 2026. Incumbent Democrat Kathy Hochul faces Republican Bruce Blakeman, the Nassau County executive. Additional party lines, if any, appear on the official ballot.",
-    officeExplainer: `${governorOfficeExplainer} New York often prints fusion or additional party lines; those lines are official ballot design, not something this site invents.`,
+      "The State Board of Elections amended certification dated October 7, 2026 names Kathy C. Hochul with lieutenant governor Adrienne E. Adams on the Democratic and Working Families lines, and Bruce A. Blakeman with lieutenant governor Todd Hood on the Republican, Conservative, and Vote Affordable lines.",
+    officeExplainer: governorOfficeExplainer,
     whyItMatters:
-      "Cook rated the race Solid Democratic as of August 2026. New York’s governor proposes the state budget and appoints to many offices. County boards of elections (and the New York City Board of Elections) issue sample ballots.",
-    howToRead:
-      "Lieutenant-governor pairing follows New York law. The printed ticket is published by the county board.",
+      "Cook rated the race Solid Democratic as of August 2026. Names on this page are the Board of Elections certification.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
-        name: "Kathy Hochul",
+      listCandidate({
+        name: "Kathy C. Hochul",
         party: "DEM",
-        partyLabel: "Democratic",
-        incumbent: true,
-        bio: "Hochul became New York governor in 2021 and won a full term in 2022. She previously served as lieutenant governor and as a member of Congress. She is seeking another term in 2026.",
+        partyLabel: "Democratic; Working Families",
+        bio: "The State Board of Elections certification names Kathy C. Hochul for governor and Adrienne E. Adams for lieutenant governor on the Democratic line and on the Working Families line.",
         image: photo("kathy-hochul"),
-        links: [
-          officialSite("Office of the Governor", "https://www.governor.ny.gov/"),
-          wiki("Kathy Hochul", "Kathy_Hochul"),
-          ballotpedia("Kathy Hochul", "Kathy_Hochul"),
-        ],
-        sources: [
-          cite("Office of the Governor of New York", "https://www.governor.ny.gov/"),
-          cite("Ballotpedia, New York gubernatorial election, 2026", "https://ballotpedia.org/New_York_gubernatorial_election,_2026"),
-        ],
+        sources: [nyCert],
       }),
-      person({
-        name: "Bruce Blakeman",
+      listCandidate({
+        name: "Bruce A. Blakeman",
         party: "REP",
-        partyLabel: "Republican",
-        statusNote: "Republican nominee; Nassau County executive",
-        bio: "Blakeman has been Nassau County executive since 2022. He previously served on the county legislature and the MTA board. He is the 2026 Republican nominee for governor.",
-        links: [
-          officialSite("Nassau County Executive", "https://www.nassaucountyny.gov/3345/County-Executive"),
-          wiki("Bruce Blakeman", "Bruce_Blakeman"),
-          ballotpedia("Bruce Blakeman", "Bruce_Blakeman"),
-        ],
-        sources: [
-          cite("Ballotpedia, New York gubernatorial election, 2026", "https://ballotpedia.org/New_York_gubernatorial_election,_2026"),
-        ],
+        partyLabel: "Republican; Conservative; Vote Affordable",
+        bio: "The State Board of Elections certification names Bruce A. Blakeman for governor and Todd Hood for lieutenant governor on the Republican, Conservative, and Vote Affordable lines.",
+        sources: [nyCert],
       }),
     ],
     ratings: [cook("Solid D", "August 20, 2026", cookGovUrl)],
-    sources: [
-      cite("Ballotpedia, New York gubernatorial election, 2026", "https://ballotpedia.org/New_York_gubernatorial_election,_2026"),
-      cookGovPrintAug20,
-    ],
+    sources: [nyCert, cookGovPrintAug20],
     aggregatorLinks: govAggregators("https://ballotpedia.org/New_York_gubernatorial_election,_2026"),
     relatedPollSlugs: ["ny-gov-siena-2026-08"],
     ballotSections: ["statewide"],
+    ballotNomineeNote:
+      "Names on the NY Governor race guide are the governor and lieutenant governor rows on the State Board of Elections amended certification dated October 7, 2026.",
     faqs: standardFaqs("this governor’s race", "the New York State Board of Elections"),
   },
   {
@@ -659,71 +657,58 @@ export const GOVERNOR_RACES: RaceGuide[] = [
     title: "Texas Governor — 2026",
     shortTitle: "TX Governor",
     featured: false,
-    incumbentNote: "Republican Gov. Greg Abbott is seeking another term.",
     overview:
-      "Texas elects a governor on November 3, 2026. Incumbent Republican Greg Abbott faces Democratic state Rep. Gina Hinojosa. Recent Emerson surveys also report a Libertarian candidate.",
+      "The Secretary of State’s 2026 ballot certification names Greg Abbott (REP), Gina Hinojosa (DEM), and Pat Dixon (LIB) for governor.",
     officeExplainer: governorOfficeExplainer,
     whyItMatters:
-      "Cook moved Texas’s gubernatorial rating from Solid to Likely Republican on August 20, 2026, in the same analysis that moved the Senate race to a toss-up. The governor shares a ballot with Texas’s U.S. Senate race and other statewide offices. County administrators print precinct sample ballots.",
-    howToRead:
-      "Primary calendars in Texas are official party and state processes. This page lists the November major-party pairing reported in September 2026 coverage.",
+      "Cook moved Texas’s gubernatorial rating from Solid to Likely Republican on August 20, 2026. Names on this page are the ballot certification.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Greg Abbott",
         party: "REP",
-        partyLabel: "Republican",
-        incumbent: true,
-        bio: "Abbott has been Texas governor since 2015 after serving as attorney general and as a state supreme court justice. He is seeking another term. Official biographies emphasize statewide executive tenure.",
+        partyLabel: "REP",
+        bio: "The Texas Secretary of State’s 2026 ballot certification names Greg Abbott, REP, for governor.",
         image: photo("greg-abbott"),
-        links: [
-          officialSite("Office of the Governor", "https://gov.texas.gov/"),
-          wiki("Greg Abbott", "Greg_Abbott"),
-          ballotpedia("Greg Abbott", "Greg_Abbott"),
-        ],
-        sources: [
-          cite("Office of the Governor of Texas", "https://gov.texas.gov/governor-abbott"),
-          cite(
-            "Emerson College Polling, Texas 2026 poll (Sept. 12–14)",
-            "https://emersoncollegepolling.com/texas-2026-poll-talarico-and-paxton-in-dead-heat-abbott-maintains-edge/",
-          ),
-        ],
+        sources: [txCert],
       }),
-      person({
+      listCandidate({
         name: "Gina Hinojosa",
         party: "DEM",
-        partyLabel: "Democratic",
-        statusNote: "Democratic nominee; Texas state representative",
-        bio: "Hinojosa represents a Travis County district in the Texas House. She is the 2026 Democratic nominee for governor. Legislative biographies list education and local-government work before the House.",
-        links: [
-          officialSite("Texas House member page", "https://house.texas.gov/members/3080"),
-          wiki("Gina Hinojosa", "Gina_Hinojosa"),
-          ballotpedia("Gina Hinojosa", "Gina_Hinojosa"),
-        ],
-        sources: [
-          cite("Texas House of Representatives, Rep. Gina Hinojosa", "https://house.texas.gov/members/3080"),
-          cite(
-            "Emerson College Polling, Texas 2026 poll (Sept. 12–14)",
-            "https://emersoncollegepolling.com/texas-2026-poll-talarico-and-paxton-in-dead-heat-abbott-maintains-edge/",
-          ),
-        ],
+        partyLabel: "DEM",
+        bio: "The Texas Secretary of State’s 2026 ballot certification names Gina Hinojosa, DEM, for governor.",
+        sources: [txCert],
+      }),
+      listCandidate({
+        name: "Pat Dixon",
+        party: "LIB",
+        partyLabel: "LIB",
+        bio: "The Texas Secretary of State’s 2026 ballot certification names Pat Dixon, LIB, for governor.",
+        sources: [txCert],
       }),
     ],
-    ratings: [cook("Likely R", "August 20, 2026", "https://www.cookpolitical.com/analysis/senate/senate-overview/texas-and-iowa-senate-races-move-toss-races-governor-also-move")],
+    ratings: [
+      cook(
+        "Likely R",
+        "August 20, 2026",
+        "https://www.cookpolitical.com/analysis/senate/senate-overview/texas-and-iowa-senate-races-move-toss-races-governor-also-move",
+      ),
+    ],
     sources: [
+      txCert,
       cite(
         "Cook Political Report, Texas and Iowa Senate races move to Toss Up",
         "https://www.cookpolitical.com/analysis/senate/senate-overview/texas-and-iowa-senate-races-move-toss-races-governor-also-move",
         "September 17, 2026",
         "August 20, 2026",
       ),
-      cite(
-        "Emerson College Polling, Texas 2026 poll (Sept. 12–14)",
-        "https://emersoncollegepolling.com/texas-2026-poll-talarico-and-paxton-in-dead-heat-abbott-maintains-edge/",
-      ),
     ],
     aggregatorLinks: govAggregators("https://ballotpedia.org/Texas_gubernatorial_election,_2026"),
     relatedPollSlugs: ["tx-gov-emerson-2026-09"],
     ballotSections: ["statewide"],
+    ballotNomineeNote:
+      "Names on the TX Governor race guide are the governor rows in the Texas Secretary of State’s 2026 ballot certification.",
     faqs: standardFaqs("this governor’s race", "the Texas Secretary of State"),
   },
 ];

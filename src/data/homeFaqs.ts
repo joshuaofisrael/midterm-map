@@ -26,7 +26,7 @@ export const HOME_FAQS: HomeFaq[] = [
   {
     question: "Where do candidate names and ratings come from?",
     answer:
-      "Candidate names and short bios are compiled from cited public sources such as Ballotpedia, Wikipedia, and official pages. Race ratings appear only when a named outlet — for example Cook Political Report, Inside Elections, or Sabato’s Crystal Ball — has published a rating this site can link. Those placements are attributions, not Map the Midterms endorsements or forecasts.",
+      "A race guide names a 2026 candidate only when an election-office candidate list, certified ballot, certified results page, or the Clerk of the House nominee list includes that name. The short bio restates that listing. Race ratings appear only when a named outlet — for example Cook Political Report, Inside Elections, or Sabato’s Crystal Ball — has published a rating this site can link. Those placements are attributions, not Map the Midterms endorsements or forecasts.",
   },
   {
     question: "When do results appear on this site?",

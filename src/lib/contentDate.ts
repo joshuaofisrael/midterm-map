@@ -112,7 +112,9 @@ export function latestContentLabel(labels: Array<string | undefined>): string {
 function racePageLabels(race: RaceGuide): string[] {
   return [
     ...raceFactLabels(race),
-    ...pollsForRace(race.slug).flatMap((row) => (row.source.accessed ? [row.source.accessed] : [])),
+    ...pollsForRace(race.slug).flatMap((row) =>
+      [row.source.accessed, row.nameSource?.accessed].filter((value): value is string => Boolean(value)),
+    ),
   ];
 }
 

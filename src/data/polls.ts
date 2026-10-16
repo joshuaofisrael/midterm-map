@@ -1,9 +1,43 @@
-import type { NationalStripRow, PollRow, RatingTier } from "./types";
+import type { Citation, NationalStripRow, PollRow, RatingTier } from "./types";
 import { RACES } from "./races";
 import { cite } from "./sources";
+import {
+  azBallot,
+  caCert,
+  clerkNominees,
+  flList,
+  gaRunoff,
+  miList,
+  ncList,
+  nvClark,
+  nyCert,
+  ohFranklin,
+  paMonroe,
+  txCert,
+  wiList,
+} from "./officialLists";
+
+const NAME_LIST: Record<string, Citation> = {
+  "ga-senate-2026": clerkNominees,
+  "mi-senate-2026": miList,
+  "nc-senate-2026": ncList,
+  "tx-senate-2026": txCert,
+  "az-governor-2026": azBallot,
+  "ga-governor-2026": gaRunoff,
+  "mi-governor-2026": miList,
+  "nv-governor-2026": nvClark,
+  "tx-governor-2026": txCert,
+  "oh-governor-2026": ohFranklin,
+  "pa-governor-2026": paMonroe,
+  "wi-governor-2026": wiList,
+  "fl-governor-2026": flList,
+  "ca-governor-2026": caCert,
+  "ny-governor-2026": nyCert,
+};
 
 function poll(row: PollRow): PollRow {
-  return row;
+  const nameSource = NAME_LIST[row.raceSlug];
+  return nameSource ? { ...row, nameSource } : row;
 }
 
 export const POLLS: PollRow[] = [
@@ -274,11 +308,10 @@ export const POLLS: PollRow[] = [
     sample: "1,060 LV",
     moe: "±3.0",
     dem: 48,
-    demLabel: "Bottoms",
     rep: 46,
     repLabel: "Jackson",
     other: 5,
-    spread: "Bottoms +2",
+    spread: "D +2",
     source: cite(
       "Ballotpedia, Georgia gubernatorial election, 2026 (AARP-sponsored poll)",
       "https://ballotpedia.org/Georgia_gubernatorial_election,_2026",

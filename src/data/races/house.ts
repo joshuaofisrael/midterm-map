@@ -1,15 +1,25 @@
 import type { RaceGuide } from "../types";
-import { cite } from "../sources";
 import { photo } from "../candidateImages";
 import {
-  ballotpedia,
-  houseAggregators,
-  houseOfficeExplainer,
-  officialSite,
-  person,
-  standardFaqs,
-  wiki,
-} from "./helpers";
+  azBallot,
+  caCert,
+  clerkNominees,
+  flList,
+  gaRunoff,
+  listCandidate,
+  miList,
+  ncList,
+  nvClark,
+  nyCert,
+  ohHenry,
+  paMonroe,
+  txCert,
+  wiList,
+} from "../officialLists";
+import { houseAggregators, houseOfficeExplainer, standardFaqs } from "./helpers";
+
+const NAMES =
+  "Names below are taken from the election-office list cited on each card. Party labels follow that list. This page is not a certification.";
 
 export const HOUSE_RACES: RaceGuide[] = [
   {
@@ -22,60 +32,39 @@ export const HOUSE_RACES: RaceGuide[] = [
     shortTitle: "AZ-01",
     featured: true,
     incumbentNote:
-      "The seat is open. Rep. David Schweikert ran for governor instead of seeking another House term.",
+      "The Clerk of the House nominee list states David Schweikert was not a candidate for re-election and was an unsuccessful candidate for nomination for governor.",
     overview:
-      "Arizona’s 1st District (northeast Phoenix, Scottsdale, Fountain Hills, and nearby communities) elects a U.S. representative on November 3, 2026. Democrat Amish Shah faces Republican Jay Feely. Ballotpedia also lists a Libertarian candidate.",
+      "A Maricopa County official ballot for the November 3, 2026 general election prints, for U.S. representative in Congress district 1, Shah, Amish (DEM), Feely IV, Thomas \"Jay\" (REP), and Alponte, Monica (LBT).",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "Ballotpedia News (July 29, 2026) reported that major forecasters rated the open seat Lean Democratic or a toss-up. The district voted for Schweikert and Trump in 2024 while also supporting Democrat Ruben Gallego for Senate. Your address — not this page — determines whether AZ-01 appears on your ballot.",
-    howToRead:
       "The district number is assigned by the Arizona Secretary of State or the county recorder. This page is one district example.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Amish Shah",
         party: "DEM",
-        partyLabel: "Democratic",
-        statusNote: "Democratic nominee after the July 21, 2026 primary",
-        bio: "Shah is an emergency physician and former Arizona state representative. He was the 2024 Democratic nominee in this district. He won the 2026 Democratic primary over Marlene Galán-Woods and others.",
-        links: [
-          wiki("Amish Shah", "Amish_Shah"),
-          ballotpedia("Amish Shah", "Amish_Shah"),
-        ],
-        sources: [
-          cite(
-            "Ballotpedia News, Amish Shah, Jay Feely, and Monica Alponte are running",
-            "https://news.ballotpedia.org/2026/07/29/amish-shah-d-jay-feely-r-and-monica-alponte-l-are-running-for-the-open-seat-in-arizonas-1st-congressional-district/",
-            "September 17, 2026",
-            "July 29, 2026",
-          ),
-          cite(
-            "Arizona’s Family, Amish Shah wins Democratic primary for CD1",
-            "https://www.azfamily.com/2026/07/23/amish-shah-wins-democratic-primary-cd1-will-face-ex-cardinals-kicker-jay-feely/",
-          ),
-        ],
+        partyLabel: "DEM",
+        bio: "The Maricopa County official ballot prints Shah, Amish (DEM) for U.S. representative in Congress, district 1.",
+        sources: [azBallot],
       }),
-      person({
-        name: "Jay Feely",
+      listCandidate({
+        name: "Thomas \"Jay\" Feely IV",
         party: "REP",
-        partyLabel: "Republican",
-        statusNote: "Republican nominee; former NFL kicker",
-        bio: "Feely is a former NFL kicker who won the 2026 Republican primary with President Trump’s endorsement. Local reporting notes he and Shah once worked on the same New York Jets sideline — Feely as a player, Shah as a team physician.",
-        links: [ballotpedia("Jay Feely", "Jay_Feely")],
-        sources: [
-          cite(
-            "Arizona’s Family, Amish Shah wins Democratic primary for CD1",
-            "https://www.azfamily.com/2026/07/23/amish-shah-wins-democratic-primary-cd1-will-face-ex-cardinals-kicker-jay-feely/",
-          ),
-        ],
+        partyLabel: "REP",
+        bio: "The Maricopa County official ballot prints Feely IV, Thomas \"Jay\" (REP) for U.S. representative in Congress, district 1.",
+        sources: [azBallot],
+      }),
+      listCandidate({
+        name: "Monica Alponte",
+        party: "LIB",
+        partyLabel: "LBT",
+        bio: "The Maricopa County official ballot prints Alponte, Monica (LBT) for U.S. representative in Congress, district 1.",
+        sources: [azBallot],
       }),
     ],
     ratings: [],
-    sources: [
-      cite(
-        "Ballotpedia, United States House elections in Arizona, 2026",
-        "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Arizona,_2026",
-      ),
-    ],
+    sources: [azBallot, clerkNominees],
     aggregatorLinks: houseAggregators("https://ballotpedia.org/Arizona%27s_1st_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
@@ -90,62 +79,35 @@ export const HOUSE_RACES: RaceGuide[] = [
     title: "Georgia 7th Congressional District — 2026",
     shortTitle: "GA-07",
     featured: false,
+    incumbentNote:
+      "The Clerk’s nominee list marks Richard McCormick with an asterisk for an incumbent in the 119th Congress.",
     overview:
-      "Georgia’s 7th District elects a U.S. representative on November 3, 2026. Republican incumbent Rich McCormick faces Democrat Tony Kozycki, according to Decision Desk HQ’s public race page.",
+      "The Clerk of the House nominee list names Richard McCormick (Republican) and Tony Kozycki (Democrat) for Georgia’s 7th District. The Secretary of State’s official results for the June 16, 2026 Democratic primary runoff list Tony Kozycki with 11,667 votes (67.72 percent). The certified write-in list does not name a District 7 write-in.",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "Decision Desk HQ’s September 16, 2026 forecast treated the district as Safe Republican. That is a named-outlet forecast, not a Map the Midterms rating. District assignment is on the official Georgia lookup tools.",
-    howToRead:
-      "Opening this page does not assign a district. This page is the GA-07 example.",
+      "District assignment is on the official Georgia lookup tools. This page is the GA-07 example.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
-        name: "Rich McCormick",
+      listCandidate({
+        name: "Richard McCormick",
         party: "REP",
         partyLabel: "Republican",
         incumbent: true,
-        bio: "McCormick has represented Georgia’s 7th District since 2023. He is an emergency physician and Marine veteran. House records list him as seeking another term in 2026.",
+        bio: "The Clerk of the House nominee list names Richard McCormick, Republican, for U.S. representative from Georgia’s 7th District, and marks him as an incumbent in the 119th Congress.",
         image: photo("rich-mccormick"),
-        links: [
-          officialSite("House office", "https://mccormick.house.gov/"),
-          wiki("Rich McCormick", "Rich_McCormick"),
-          ballotpedia("Rich McCormick", "Rich_McCormick"),
-        ],
-        sources: [
-          cite("Biographical Directory of the U.S. Congress, Rich McCormick", "https://bioguide.congress.gov/search/bio/M000194"),
-          cite(
-            "Decision Desk HQ, 2026 Georgia US House 7",
-            "https://newsnation-votes.decisiondeskhq.com/races/2026-11-03/georgia-us-house-7-general-election/forecast",
-          ),
-        ],
+        sources: [clerkNominees],
       }),
-      person({
+      listCandidate({
         name: "Tony Kozycki",
         party: "DEM",
-        partyLabel: "Democratic",
-        statusNote: "Democratic nominee; Navy veteran and attorney",
-        bio: "Kozycki is a former Navy F/A-18 Super Hornet pilot who graduated from the U.S. Naval Academy and later earned a law degree from Georgia State. Ballotpedia lists Navy service from 2004 to 2017 and later work as an attorney. Decision Desk HQ lists him as the Democratic nominee in Georgia’s 7th District.",
-        links: [
-          officialSite("Campaign site", "https://kozyckiforcongress.com/index.html"),
-          ballotpedia("Tony Kozycki", "Tony_Kozycki"),
-        ],
-        sources: [
-          cite("Ballotpedia, Tony Kozycki", "https://ballotpedia.org/Tony_Kozycki"),
-          cite(
-            "Decision Desk HQ, 2026 Georgia US House 7",
-            "https://newsnation-votes.decisiondeskhq.com/races/2026-11-03/georgia-us-house-7-general-election/forecast",
-          ),
-        ],
+        partyLabel: "Democrat",
+        bio: "The Clerk of the House nominee list names Tony Kozycki, Democrat, for U.S. representative from Georgia’s 7th District. The Secretary of State’s official results for the June 16, 2026 Democratic primary runoff list him with 11,667 votes (67.72 percent).",
+        sources: [clerkNominees, gaRunoff],
       }),
     ],
     ratings: [],
-    sources: [
-      cite(
-        "Decision Desk HQ, 2026 Georgia US House 7",
-        "https://newsnation-votes.decisiondeskhq.com/races/2026-11-03/georgia-us-house-7-general-election/forecast",
-        "September 17, 2026",
-        "September 16, 2026",
-      ),
-    ],
+    sources: [clerkNominees, gaRunoff],
     aggregatorLinks: houseAggregators("https://ballotpedia.org/Georgia%27s_7th_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
@@ -161,45 +123,38 @@ export const HOUSE_RACES: RaceGuide[] = [
     shortTitle: "MI-07",
     featured: false,
     overview:
-      "Michigan’s 7th District elects a U.S. representative on November 3, 2026. Republican incumbent Tom Barrett faces Democrat William Lawrence. Ballotpedia also lists a Green Party candidate.",
+      "The Bureau of Elections official candidate listing for the 7th District representative in Congress names William Lawrence (Democratic Party), Tom Barrett (Republican Party), and Shane Dedrick (Green Party). One Working Class Party row on that listing is marked DISQ and is not listed here.",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "Ballotpedia included MI-07 on its 2026 House battlegrounds list. The district covers part of mid-Michigan. The clerk’s sample ballot is the authority for district assignment.",
-    howToRead:
-      "Lawrence won the August 4, 2026 Democratic primary. The November slate is published by the Michigan Secretary of State.",
+      "The district covers part of mid-Michigan. The clerk’s sample ballot is the authority for district assignment.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Tom Barrett",
         party: "REP",
-        partyLabel: "Republican",
-        incumbent: true,
-        bio: "Barrett has represented Michigan’s 7th District since 2025. He is an Army veteran and former state senator. He advanced from the 2026 Republican primary.",
+        partyLabel: "Republican Party",
+        bio: "The Bureau of Elections official candidate listing names Barrett, Tom, Republican Party, for 7th District representative in Congress.",
         image: photo("tom-barrett"),
-        links: [
-          officialSite("House office", "https://barrett.house.gov/"),
-          wiki("Tom Barrett", "Tom_Barrett_(Michigan_politician)"),
-          ballotpedia("Tom Barrett", "Tom_Barrett_(Michigan)"),
-        ],
-        sources: [
-          cite("Ballotpedia, Michigan's 7th Congressional District election, 2026", "https://ballotpedia.org/Michigan%27s_7th_Congressional_District_election,_2026"),
-        ],
+        sources: [miList],
       }),
-      person({
+      listCandidate({
         name: "William Lawrence",
         party: "DEM",
-        partyLabel: "Democratic",
-        statusNote: "Democratic nominee after the August 4, 2026 primary",
-        bio: "Lawrence won the 2026 Democratic primary with 42.4% against Bridget Brink and Matt Maasdam, according to Ballotpedia’s certified primary table.",
-        links: [ballotpedia("William Lawrence", "William_Lawrence_(Michigan)")],
-        sources: [
-          cite("Ballotpedia, Michigan's 7th Congressional District election, 2026", "https://ballotpedia.org/Michigan%27s_7th_Congressional_District_election,_2026"),
-        ],
+        partyLabel: "Democratic Party",
+        bio: "The Bureau of Elections official candidate listing names Lawrence, William, Democratic Party, for 7th District representative in Congress.",
+        sources: [miList],
+      }),
+      listCandidate({
+        name: "Shane Dedrick",
+        party: "GRN",
+        partyLabel: "Green Party",
+        bio: "The Bureau of Elections official candidate listing names Dedrick, Shane, Green Party, for 7th District representative in Congress.",
+        sources: [miList],
       }),
     ],
     ratings: [],
-    sources: [
-      cite("Ballotpedia, Michigan's 7th Congressional District election, 2026", "https://ballotpedia.org/Michigan%27s_7th_Congressional_District_election,_2026"),
-    ],
+    sources: [miList],
     aggregatorLinks: houseAggregators("https://ballotpedia.org/Michigan%27s_7th_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
@@ -215,59 +170,38 @@ export const HOUSE_RACES: RaceGuide[] = [
     shortTitle: "NC-01",
     featured: true,
     overview:
-      "North Carolina’s 1st District elects a U.S. representative on November 3, 2026. Democratic incumbent Don Davis faces Republican Laurie Buckhout in a rematch of 2024. Ballotpedia also lists Libertarian Tom Bailey.",
+      "The State Board of Elections 2026 general candidate list for U.S. House District 01 names Don Davis (DEM), Laurie Buckhout (REP), and Tom Bailey (LIB).",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "The General Assembly redrew the district after 2024. WRAL reported the new lines cover more of coastal eastern North Carolina and are more Republican-leaning than the map Davis won. Your county board of elections assigns the district on the official sample ballot.",
-    howToRead:
-      "Buckhout won the March 3, 2026 Republican primary with 39.5% against four other candidates, per Ballotpedia’s certified table. Qualified November names are published by the North Carolina State Board of Elections.",
+      "The county board of elections assigns the district on the official sample ballot.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Don Davis",
         party: "DEM",
-        partyLabel: "Democratic",
-        incumbent: true,
-        bio: "Davis has represented North Carolina’s 1st District since 2023. He is a former Air Force officer, mayor of Snow Hill, and state senator. He defeated Buckhout in 2024 and is seeking another term on the redrawn map.",
+        partyLabel: "DEM",
+        bio: "The State Board of Elections 2026 general candidate list names Don Davis for U.S. House District 01 with party code DEM.",
         image: photo("don-davis"),
-        links: [
-          officialSite("House office", "https://dondavis.house.gov/"),
-          wiki("Don Davis", "Don_Davis_(North_Carolina_politician)"),
-          ballotpedia("Don Davis", "Don_Davis_(North_Carolina_politician)"),
-        ],
-        sources: [
-          cite("U.S. House, Rep. Don Davis", "https://dondavis.house.gov/"),
-          cite("Ballotpedia, North Carolina's 1st Congressional District election, 2026", "https://ballotpedia.org/North_Carolina%27s_1st_Congressional_District_election,_2026"),
-        ],
+        sources: [ncList],
       }),
-      person({
+      listCandidate({
         name: "Laurie Buckhout",
         party: "REP",
-        partyLabel: "Republican",
-        statusNote: "Republican nominee after the March 3, 2026 primary",
-        bio: "Buckhout is a retired Army colonel and the 2024 Republican nominee in this district. She won the 2026 GOP primary with 39.5% of the vote. Ballotpedia describes later work as a consultant and 2025 service as assistant national cyber director for policy.",
-        links: [ballotpedia("Laurie Buckhout", "Laurie_Buckhout")],
-        sources: [
-          cite(
-            "Ballotpedia, North Carolina's 1st Congressional District election, 2026 (March 3 Republican primary)",
-            "https://ballotpedia.org/North_Carolina%27s_1st_Congressional_District_election,_2026_(March_3_Republican_primary)",
-          ),
-          cite(
-            "WRAL, Buckhout wins GOP primary to take on Davis in rematch of 2024 race",
-            "https://www.wral.com/news/nccapitol/republican-gop-primary-redrawn-nc-1st-district-challenge-don-davis-march-2026/",
-            "September 17, 2026",
-            "March 2026",
-          ),
-        ],
+        partyLabel: "REP",
+        bio: "The State Board of Elections 2026 general candidate list names Laurie Buckhout for U.S. House District 01 with party code REP.",
+        sources: [ncList],
+      }),
+      listCandidate({
+        name: "Tom Bailey",
+        party: "LIB",
+        partyLabel: "LIB",
+        bio: "The State Board of Elections 2026 general candidate list names Tom Bailey for U.S. House District 01 with party code LIB.",
+        sources: [ncList],
       }),
     ],
     ratings: [],
-    sources: [
-      cite("Ballotpedia, North Carolina's 1st Congressional District election, 2026", "https://ballotpedia.org/North_Carolina%27s_1st_Congressional_District_election,_2026"),
-      cite(
-        "WRAL, Buckhout wins GOP primary to take on Davis in rematch of 2024 race",
-        "https://www.wral.com/news/nccapitol/republican-gop-primary-redrawn-nc-1st-district-challenge-don-davis-march-2026/",
-      ),
-    ],
+    sources: [ncList],
     aggregatorLinks: houseAggregators("https://ballotpedia.org/North_Carolina%27s_1st_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
@@ -283,45 +217,38 @@ export const HOUSE_RACES: RaceGuide[] = [
     shortTitle: "NV-03",
     featured: true,
     overview:
-      "Nevada’s 3rd District (southern Clark County) elects a U.S. representative on November 3, 2026. Democratic incumbent Susie Lee faces Republican Marty O’Donnell. Ballotpedia also lists an Independent American Party candidate.",
+      "The Clark County Registrar of Voters list of candidates for the November 3, 2026 general election names, for representative in Congress district 3, Susie Lee (DEM), Marty O'Donnell (REP), and Jon Kamerath (IAP).",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "Cook’s Partisan Voter Index for the district is D+1, per Ballotpedia. The seat has been a recurring national target. Clark County’s sample ballot is the authority for the district number.",
-    howToRead:
-      "Lee won the June 9 Democratic primary; O’Donnell won the Republican primary the same day.",
+      "Clark County’s sample ballot is the authority for the district number.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Susie Lee",
         party: "DEM",
-        partyLabel: "Democratic",
-        incumbent: true,
-        bio: "Lee has represented Nevada’s 3rd District since 2019. She is a former education nonprofit executive. She won the 2026 Democratic primary with 69.2% of the vote, according to Ballotpedia.",
+        partyLabel: "DEM",
+        bio: "The Clark County Registrar of Voters candidate list names Lee, Susie, DEM, for representative in Congress, district 3.",
         image: photo("susie-lee"),
-        links: [
-          officialSite("House office", "https://susielee.house.gov/"),
-          wiki("Susie Lee", "Susie_Lee"),
-          ballotpedia("Susie Lee", "Susie_Lee"),
-        ],
-        sources: [
-          cite("Ballotpedia, Nevada's 3rd Congressional District", "https://ballotpedia.org/Nevada%27s_3rd_Congressional_District"),
-        ],
+        sources: [nvClark],
       }),
-      person({
+      listCandidate({
         name: "Marty O'Donnell",
         party: "REP",
-        partyLabel: "Republican",
-        statusNote: "Republican nominee after the June 9, 2026 primary",
-        bio: "O’Donnell won the 2026 Republican primary with 42.3% against Tera Anderson, Jeff Gunter, and Aury Nagy, according to Ballotpedia.",
-        links: [ballotpedia("Marty O'Donnell", "Marty_O%27Donnell")],
-        sources: [
-          cite("Ballotpedia, Nevada's 3rd Congressional District", "https://ballotpedia.org/Nevada%27s_3rd_Congressional_District"),
-        ],
+        partyLabel: "REP",
+        bio: "The Clark County Registrar of Voters candidate list names O'Donnell, Marty, REP, for representative in Congress, district 3.",
+        sources: [nvClark],
+      }),
+      listCandidate({
+        name: "Jon Kamerath",
+        party: "OTH",
+        partyLabel: "IAP",
+        bio: "The Clark County Registrar of Voters candidate list names Kamerath, Jon, IAP, for representative in Congress, district 3.",
+        sources: [nvClark],
       }),
     ],
     ratings: [],
-    sources: [
-      cite("Ballotpedia, Nevada's 3rd Congressional District", "https://ballotpedia.org/Nevada%27s_3rd_Congressional_District"),
-    ],
+    sources: [nvClark],
     aggregatorLinks: houseAggregators("https://ballotpedia.org/Nevada%27s_3rd_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
@@ -337,60 +264,31 @@ export const HOUSE_RACES: RaceGuide[] = [
     shortTitle: "OH-09",
     featured: false,
     overview:
-      "Ohio’s 9th District elects a U.S. representative on November 3, 2026. Democratic incumbent Marcy Kaptur faces Republican Derek Merrin in a rematch of 2024.",
+      "A Henry County official ballot for the November 3, 2026 general election prints, for representative to Congress, 9th district, Marcy Kaptur (Democratic) and Derek Merrin (Republican), plus a write-in line.",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "Roll Call reported on May 6, 2026 that Kaptur, the longest-serving woman in congressional history, is among the House’s most vulnerable incumbents after winning 2024 by less than a point. Redistricting made the seat a shade more Republican. Your county board prints the district on your ballot.",
-    howToRead:
-      "Merrin won a five-way May 2026 Republican primary. The November slate is published by the Ohio Secretary of State.",
+      "The county board prints the district on the ballot. This page uses the Henry County official ballot.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Marcy Kaptur",
         party: "DEM",
         partyLabel: "Democratic",
-        incumbent: true,
-        bio: "Kaptur has represented a northwest Ohio House district since 1983. She is seeking a 23rd term. Official biographies emphasize Great Lakes, manufacturing, and veterans’ work.",
+        bio: "The Henry County official ballot prints Marcy Kaptur, Democratic, for representative to Congress, 9th district.",
         image: photo("marcy-kaptur"),
-        links: [
-          officialSite("House office", "https://kaptur.house.gov/"),
-          wiki("Marcy Kaptur", "Marcy_Kaptur"),
-          ballotpedia("Marcy Kaptur", "Marcy_Kaptur"),
-        ],
-        sources: [
-          cite("Biographical Directory of the U.S. Congress, Marcy Kaptur", "https://bioguide.congress.gov/search/bio/K000009"),
-          cite(
-            "Roll Call, Ohio’s Kaptur set for rematch with Merrin",
-            "https://rollcall.com/2026/05/06/ohios-kaptur-set-for-rematch-with-merrin-in-bid-for-23rd-house-term/",
-            "September 17, 2026",
-            "May 6, 2026",
-          ),
-        ],
+        sources: [ohHenry],
       }),
-      person({
+      listCandidate({
         name: "Derek Merrin",
         party: "REP",
         partyLabel: "Republican",
-        statusNote: "Republican nominee after the May 2026 primary",
-        bio: "Merrin is a former Ohio state representative. He was the 2024 Republican nominee in this district and won the 2026 GOP primary with 43% of the vote, according to Roll Call.",
-        links: [
-          wiki("Derek Merrin", "Derek_Merrin"),
-          ballotpedia("Derek Merrin", "Derek_Merrin"),
-        ],
-        sources: [
-          cite(
-            "Roll Call, Ohio’s Kaptur set for rematch with Merrin",
-            "https://rollcall.com/2026/05/06/ohios-kaptur-set-for-rematch-with-merrin-in-bid-for-23rd-house-term/",
-          ),
-        ],
+        bio: "The Henry County official ballot prints Derek Merrin, Republican, for representative to Congress, 9th district.",
+        sources: [ohHenry],
       }),
     ],
     ratings: [],
-    sources: [
-      cite(
-        "Roll Call, Ohio’s Kaptur set for rematch with Merrin",
-        "https://rollcall.com/2026/05/06/ohios-kaptur-set-for-rematch-with-merrin-in-bid-for-23rd-house-term/",
-      ),
-    ],
+    sources: [ohHenry],
     aggregatorLinks: houseAggregators("https://ballotpedia.org/Ohio%27s_9th_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
@@ -406,45 +304,31 @@ export const HOUSE_RACES: RaceGuide[] = [
     shortTitle: "PA-07",
     featured: true,
     overview:
-      "Pennsylvania’s 7th District (Lehigh Valley) elects a U.S. representative on November 3, 2026. Republican incumbent Ryan Mackenzie faces Democrat Bob Brooks.",
+      "The Monroe County candidate proclamation for the November 3, 2026 general election lists Bob Brooks (Democratic) and Ryan Mackenzie (Republican) for representative in Congress, 7th district, in Eldred, Polk, and Ross One.",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "Ballotpedia lists PA-07 among 2026 House battlegrounds. Mackenzie won the seat in 2024. District lines are on official Pennsylvania and county maps. This page is one district example.",
-    howToRead:
-      "Brooks won the May 19, 2026 Democratic primary with 41.0%. Mackenzie was unopposed in the Republican primary.",
+      "District lines are on official Pennsylvania and county maps. This page is one district example.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Ryan Mackenzie",
         party: "REP",
         partyLabel: "Republican",
-        incumbent: true,
-        bio: "Mackenzie has represented Pennsylvania’s 7th District since 2025 after serving in the state House. He advanced from the 2026 Republican primary unopposed, according to Ballotpedia.",
+        bio: "The Monroe County candidate proclamation lists Ryan Mackenzie, Republican, for representative in Congress, 7th district.",
         image: photo("ryan-mackenzie"),
-        links: [
-          officialSite("House office", "https://mackenzie.house.gov/"),
-          wiki("Ryan Mackenzie", "Ryan_Mackenzie"),
-          ballotpedia("Ryan Mackenzie", "Ryan_Mackenzie"),
-        ],
-        sources: [
-          cite("Ballotpedia, Pennsylvania's 7th Congressional District", "https://ballotpedia.org/Pennsylvania%27s_7th_Congressional_District"),
-        ],
+        sources: [paMonroe],
       }),
-      person({
+      listCandidate({
         name: "Bob Brooks",
         party: "DEM",
         partyLabel: "Democratic",
-        statusNote: "Democratic nominee after the May 19, 2026 primary",
-        bio: "Brooks won the 2026 Democratic primary with 41.0% against Ryan Crosswell, Lamont McClure, and Carol Obando-Derstine, according to Ballotpedia.",
-        links: [ballotpedia("Bob Brooks", "Bob_Brooks_(Pennsylvania)")],
-        sources: [
-          cite("Ballotpedia, Pennsylvania's 7th Congressional District", "https://ballotpedia.org/Pennsylvania%27s_7th_Congressional_District"),
-        ],
+        bio: "The Monroe County candidate proclamation lists Bob Brooks, Democratic, for representative in Congress, 7th district.",
+        sources: [paMonroe],
       }),
     ],
     ratings: [],
-    sources: [
-      cite("Ballotpedia, Pennsylvania's 7th Congressional District", "https://ballotpedia.org/Pennsylvania%27s_7th_Congressional_District"),
-    ],
+    sources: [paMonroe],
     aggregatorLinks: houseAggregators("https://ballotpedia.org/Pennsylvania%27s_7th_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
@@ -459,46 +343,49 @@ export const HOUSE_RACES: RaceGuide[] = [
     title: "Wisconsin 3rd Congressional District — 2026",
     shortTitle: "WI-03",
     featured: false,
+    incumbentNote:
+      "The Elections Commission candidate list labels the district 3 office with incumbent Derrick Van Orden.",
     overview:
-      "Wisconsin’s 3rd District elects a U.S. representative on November 3, 2026. Republican incumbent Derrick Van Orden faces Democrat Rebecca Cooke. Ballotpedia also lists independent candidates.",
+      "The Wisconsin Elections Commission candidate list for the November 3, 2026 general election names Derrick Van Orden (Republican), Rebecca Cooke (Democratic), Alexander Valiensi Kent (Independent), and Rustin Provance (Independent) for representative in Congress, district 3.",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "Ballotpedia includes WI-03 among 2026 House battlegrounds. Van Orden flipped the seat in 2022. Your municipal clerk’s sample ballot is the authority for district and candidate names.",
-    howToRead:
-      "Van Orden won the August 11, 2026 Republican primary. The November field is published by the Wisconsin Elections Commission.",
+      "The municipal clerk’s sample ballot is the authority for district and candidate names.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Derrick Van Orden",
         party: "REP",
         partyLabel: "Republican",
         incumbent: true,
-        bio: "Van Orden has represented Wisconsin’s 3rd District since 2023. He is a retired Navy SEAL. He advanced from the 2026 Republican primary.",
+        bio: "The Wisconsin Elections Commission candidate list names Derrick Van Orden, Republican, for representative in Congress, district 3, and labels that office with him as incumbent.",
         image: photo("derrick-van-orden"),
-        links: [
-          officialSite("House office", "https://vanorden.house.gov/"),
-          wiki("Derrick Van Orden", "Derrick_Van_Orden"),
-          ballotpedia("Derrick Van Orden", "Derrick_Van_Orden"),
-        ],
-        sources: [
-          cite("Ballotpedia, Derrick Van Orden", "https://ballotpedia.org/Derrick_Van_Orden"),
-        ],
+        sources: [wiList],
       }),
-      person({
+      listCandidate({
         name: "Rebecca Cooke",
         party: "DEM",
         partyLabel: "Democratic",
-        bio: "Cooke is the Democratic nominee listed on Ballotpedia’s 2026 general-election table for Wisconsin’s 3rd District.",
-        links: [ballotpedia("Rebecca Cooke", "Rebecca_Cooke")],
-        sources: [
-          cite("Ballotpedia, Derrick Van Orden", "https://ballotpedia.org/Derrick_Van_Orden"),
-          cite("Ballotpedia, U.S. House battlegrounds, 2026", "https://ballotpedia.org/U.S._House_battlegrounds,_2026"),
-        ],
+        bio: "The Wisconsin Elections Commission candidate list names Rebecca Cooke, Democratic, for representative in Congress, district 3.",
+        sources: [wiList],
+      }),
+      listCandidate({
+        name: "Alexander Valiensi Kent",
+        party: "IND",
+        partyLabel: "Independent",
+        bio: "The Wisconsin Elections Commission candidate list names Alexander Valiensi Kent, Independent, for representative in Congress, district 3.",
+        sources: [wiList],
+      }),
+      listCandidate({
+        name: "Rustin Provance",
+        party: "IND",
+        partyLabel: "Independent",
+        bio: "The Wisconsin Elections Commission candidate list names Rustin Provance, Independent, for representative in Congress, district 3.",
+        sources: [wiList],
       }),
     ],
     ratings: [],
-    sources: [
-      cite("Ballotpedia, Derrick Van Orden", "https://ballotpedia.org/Derrick_Van_Orden"),
-    ],
+    sources: [wiList],
     aggregatorLinks: houseAggregators("https://ballotpedia.org/Wisconsin%27s_3rd_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
@@ -514,47 +401,31 @@ export const HOUSE_RACES: RaceGuide[] = [
     shortTitle: "TX-15",
     featured: false,
     overview:
-      "Texas’s 15th District elects a U.S. representative on November 3, 2026. Republican incumbent Monica De La Cruz faces Democrat Bobby Pulido. Texas redrew congressional lines in 2025; voters will use the map in force for 2026.",
+      "The Secretary of State’s 2026 ballot certification names Monica De La Cruz (REP) and Bobby Pulido (DEM) for U.S. representative, district 15.",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "Ballotpedia lists TX-15 among 2026 House battlegrounds and notes the August 2025 remap. Your county elections site is the authority for the district printed on your ballot.",
-    howToRead:
-      "De La Cruz won the March 3, 2026 Republican primary. The Democratic nominee and any additional lines are published by the Texas Secretary of State.",
+      "The county elections site is the authority for the district printed on a ballot. This page uses the Secretary of State’s ballot certification.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Monica De La Cruz",
         party: "REP",
-        partyLabel: "Republican",
-        incumbent: true,
-        bio: "De La Cruz has represented Texas’s 15th District since 2023. She advanced from the March 2026 Republican primary. Official biographies emphasize small-business and border-district work.",
+        partyLabel: "REP",
+        bio: "The Texas Secretary of State’s 2026 ballot certification names Monica De La Cruz, REP, for U.S. representative, district 15.",
         image: photo("monica-de-la-cruz"),
-        links: [
-          officialSite("House office", "https://delacruz.house.gov/"),
-          wiki("Monica De La Cruz", "Monica_De_La_Cruz"),
-          ballotpedia("Monica De La Cruz", "Monica_De_La_Cruz"),
-        ],
-        sources: [
-          cite(
-            "Ballotpedia, Texas' 15th Congressional District election, 2026 (March 3 Republican primary)",
-            "https://ballotpedia.org/Texas%27_15th_Congressional_District_election,_2026_(March_3_Republican_primary)",
-          ),
-        ],
+        sources: [txCert],
       }),
-      person({
+      listCandidate({
         name: "Bobby Pulido",
         party: "DEM",
-        partyLabel: "Democratic",
-        bio: "Pulido is the Democratic nominee listed on Ballotpedia’s 2026 Texas House battlegrounds table for District 15.",
-        links: [ballotpedia("Bobby Pulido", "Bobby_Pulido")],
-        sources: [
-          cite("Ballotpedia, U.S. House battlegrounds, 2026", "https://ballotpedia.org/U.S._House_battlegrounds,_2026"),
-        ],
+        partyLabel: "DEM",
+        bio: "The Texas Secretary of State’s 2026 ballot certification names Bobby Pulido, DEM, for U.S. representative, district 15.",
+        sources: [txCert],
       }),
     ],
     ratings: [],
-    sources: [
-      cite("Ballotpedia, U.S. House battlegrounds, 2026", "https://ballotpedia.org/U.S._House_battlegrounds,_2026"),
-    ],
+    sources: [txCert],
     aggregatorLinks: houseAggregators("https://ballotpedia.org/Texas%27_15th_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
@@ -569,48 +440,42 @@ export const HOUSE_RACES: RaceGuide[] = [
     title: "Florida 13th Congressional District — 2026",
     shortTitle: "FL-13",
     featured: false,
+    incumbentNote:
+      "The Division of Elections candidate listing marks Anna Paulina Luna as incumbent.",
     overview:
-      "Florida’s 13th District (Pinellas County) elects a U.S. representative on November 3, 2026. Republican incumbent Anna Paulina Luna faces Democrat Leela Gray. A no-party candidate has also been reported as qualified.",
+      "The Florida Division of Elections candidate listing for district 13 marks Anna Paulina Luna (REP) Qualified, primary Unopposed, and incumbent; Leela Gray (DEM) Qualified, primary Won; and Tony D'Arrigo (NPA) Qualified. Defeated and eliminated rows are not listed here.",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "The district is a Tampa Bay seat whose lines are set by official Florida maps. Supervisors of elections print the district that matches your registration.",
-    howToRead:
-      "Gray won the August 18, 2026 Democratic primary. Qualified names are published by the county supervisor of elections.",
+      "Supervisors of elections print the district that matches a registration. Names on this page are the Division of Elections listing.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Anna Paulina Luna",
         party: "REP",
-        partyLabel: "Republican",
+        partyLabel: "REP",
         incumbent: true,
-        bio: "Luna has represented Florida’s 13th District since 2023. She is an Air Force veteran. House records list her as seeking a third term in 2026.",
+        bio: "The Division of Elections candidate listing marks Luna, Anna Paulina (REP) as Qualified, primary Unopposed, and incumbent, for district 13.",
         image: photo("anna-paulina-luna"),
-        links: [
-          officialSite("House office", "https://luna.house.gov/"),
-          wiki("Anna Paulina Luna", "Anna_Paulina_Luna"),
-          ballotpedia("Anna Paulina Luna", "Anna_Paulina_Luna"),
-        ],
-        sources: [
-          cite("Biographical Directory of the U.S. Congress, Anna Paulina Luna", "https://bioguide.congress.gov/search/bio/L000598"),
-          cite("Ballotpedia, Florida's 13th Congressional District election, 2026", "https://ballotpedia.org/Florida%27s_13th_Congressional_District_election,_2026"),
-        ],
+        sources: [flList],
       }),
-      person({
+      listCandidate({
         name: "Leela Gray",
         party: "DEM",
-        partyLabel: "Democratic",
-        statusNote: "Democratic nominee after the August 18, 2026 primary",
-        bio: "Gray won the August 18, 2026 Democratic primary, according to Ballotpedia. In the biography she submitted to Ballotpedia, she says she served 30 years in the U.S. Army and rose to the rank of brigadier general.",
-        links: [ballotpedia("Leela Gray", "Leela_Gray")],
-        sources: [
-          cite("Ballotpedia, Florida's 13th Congressional District election, 2026", "https://ballotpedia.org/Florida%27s_13th_Congressional_District_election,_2026", "October 6, 2026"),
-          cite("Smarter.Vote, 2026 Florida's 13th Congressional District Election", "https://smarter.vote/races/fl-house-13-2026/"),
-        ],
+        partyLabel: "DEM",
+        bio: "The Division of Elections candidate listing marks Gray, Leela (DEM) as Qualified, with primary Won, for district 13.",
+        sources: [flList],
+      }),
+      listCandidate({
+        name: "Tony D'Arrigo",
+        party: "OTH",
+        partyLabel: "NPA",
+        bio: "The Division of Elections candidate listing marks D'Arrigo, Tony (NPA) as Qualified for district 13.",
+        sources: [flList],
       }),
     ],
     ratings: [],
-    sources: [
-      cite("Smarter.Vote, 2026 Florida's 13th Congressional District Election", "https://smarter.vote/races/fl-house-13-2026/"),
-    ],
+    sources: [flList],
     aggregatorLinks: houseAggregators("https://ballotpedia.org/Florida%27s_13th_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
@@ -626,57 +491,31 @@ export const HOUSE_RACES: RaceGuide[] = [
     shortTitle: "CA-13",
     featured: false,
     overview:
-      "California’s 13th District (San Joaquin Valley) elects a U.S. representative on November 3, 2026. Democratic incumbent Adam Gray and Republican Kevin Lincoln II advanced from the June 2 top-two primary.",
-    officeExplainer: `${houseOfficeExplainer} California’s top-two primary can send two candidates of the same party to November; in 2026 this district advanced one Democrat and one Republican.`,
+      "The Secretary of State’s certified list for the November 3, 2026 general election names Adam Gray (Democratic) and Kevin Lincoln (Republican) for United States representative, district 13.",
+    officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "Gray flipped the seat in 2024. Ballotpedia included CA-13 on its 2026 House battlegrounds list. County elections officials assign the district on your mail ballot.",
-    howToRead:
-      "Primary percentages: Gray 42.0%, Lincoln 27.7%, with two other candidates eliminated, per Ballotpedia’s certified table.",
+      "County elections officials assign the district on a mail ballot. Names on this page are the certified list.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Adam Gray",
         party: "DEM",
         partyLabel: "Democratic",
-        incumbent: true,
-        bio: "Gray has represented California’s 13th District since 2025 after serving in the state Assembly. He finished first in the June 2026 top-two primary.",
+        bio: "The Secretary of State’s certified list for the November 3, 2026 general election names Adam Gray, Democratic, for United States representative, district 13.",
         image: photo("adam-gray"),
-        links: [
-          officialSite("House office", "https://gray.house.gov/"),
-          wiki("Adam Gray", "Adam_Gray"),
-          ballotpedia("Adam Gray", "Adam_Gray"),
-        ],
-        sources: [
-          cite(
-            "Ballotpedia, California's 13th Congressional District election, 2026 (June 2 top-two primary)",
-            "https://ballotpedia.org/California%27s_13th_Congressional_District_election,_2026_(June_2_top-two_primary)",
-          ),
-        ],
+        sources: [caCert],
       }),
-      person({
-        name: "Kevin Lincoln II",
+      listCandidate({
+        name: "Kevin Lincoln",
         party: "REP",
         partyLabel: "Republican",
-        statusNote: "Advanced from the June 2, 2026 top-two primary",
-        bio: "Lincoln is a former mayor of Stockton. He finished second in the June 2026 top-two primary with 27.7% and advanced to November against Gray.",
-        links: [
-          wiki("Kevin Lincoln", "Kevin_Lincoln_(politician)"),
-          ballotpedia("Kevin Lincoln", "Kevin_Lincoln"),
-        ],
-        sources: [
-          cite(
-            "Ballotpedia, California's 13th Congressional District election, 2026 (June 2 top-two primary)",
-            "https://ballotpedia.org/California%27s_13th_Congressional_District_election,_2026_(June_2_top-two_primary)",
-          ),
-        ],
+        bio: "The Secretary of State’s certified list for the November 3, 2026 general election names Kevin Lincoln, Republican, for United States representative, district 13.",
+        sources: [caCert],
       }),
     ],
     ratings: [],
-    sources: [
-      cite(
-        "Ballotpedia, California's 13th Congressional District election, 2026 (June 2 top-two primary)",
-        "https://ballotpedia.org/California%27s_13th_Congressional_District_election,_2026_(June_2_top-two_primary)",
-      ),
-    ],
+    sources: [caCert],
     aggregatorLinks: houseAggregators("https://ballotpedia.org/California%27s_13th_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
@@ -692,62 +531,31 @@ export const HOUSE_RACES: RaceGuide[] = [
     shortTitle: "NY-22",
     featured: false,
     overview:
-      "New York’s 22nd District (central New York) elects a U.S. representative on November 3, 2026. Democratic incumbent John Mannion faces Republican Kailee Buller. Fusion or additional party lines, if any, appear on the official ballot.",
+      "The State Board of Elections amended certification dated October 7, 2026 names John W. Mannion on the Democratic and Working Families lines, and Kailee Buller on the Republican and Conservative lines, for representative in Congress, district 22.",
     officeExplainer: houseOfficeExplainer,
     whyItMatters:
-      "The district has changed parties in recent cycles. Decision Desk HQ treated the June 23 Republican primary as uncontested. County boards of elections assign the district and print every qualified line.",
-    howToRead:
-      "WKTV reported in May 2026 that Buller was the Republican nominee with no GOP primary opponent. Conservative and Working Families lines, if any, are on the county ballot.",
+      "County boards of elections assign the district and print every qualified line.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
-        name: "John Mannion",
+      listCandidate({
+        name: "John W. Mannion",
         party: "DEM",
-        partyLabel: "Democratic",
-        incumbent: true,
-        bio: "Mannion has represented New York’s 22nd District since 2025 after serving in the state Senate. He is a former science teacher. House records list him as the incumbent seeking re-election in 2026.",
+        partyLabel: "Democratic; Working Families",
+        bio: "The State Board of Elections certification names John W. Mannion for representative in Congress, district 22, on the Democratic line and on the Working Families line.",
         image: photo("john-mannion"),
-        links: [
-          officialSite("House office", "https://mannion.house.gov/"),
-          wiki("John Mannion", "John_Mannion_(New_York_politician)"),
-          ballotpedia("John Mannion", "John_W._Mannion"),
-        ],
-        sources: [
-          cite("Ballotpedia, New York's 22nd Congressional District election, 2026", "https://ballotpedia.org/New_York%27s_22nd_Congressional_District_election,_2026"),
-        ],
+        sources: [nyCert],
       }),
-      person({
+      listCandidate({
         name: "Kailee Buller",
         party: "REP",
-        partyLabel: "Republican",
-        statusNote: "Republican nominee after an uncontested June 23, 2026 primary",
-        bio: "Buller is an Auburn native who resigned as chief of staff to Agriculture Secretary Brooke Rollins to run for Congress. Local reporting describes prior food-industry and USDA work in both Trump administrations. Decision Desk HQ listed her as the Republican nominee in the uncontested June primary.",
-        links: [
-          officialSite("Campaign site", "https://kaileebuller.com/"),
-          ballotpedia("Kailee Buller", "Kailee_Buller"),
-        ],
-        sources: [
-          cite(
-            "WKTV, Republican candidate challenges Congressman John Mannion",
-            "https://www.wktv.com/news/republican-candidate-challenges-congressman-john-mannion-for-22nd-congressional-seat/article_d0365e32-fb87-4916-b95a-f3d8ab54f915.html",
-            "September 17, 2026",
-            "May 5, 2026",
-          ),
-          cite(
-            "Decision Desk HQ, 2026 New York US House 22 Republican primary",
-            "https://votes.decisiondeskhq.com/races/2026-06-23/new-york-us-house-22-republican-primary",
-          ),
-          cite("Ballotpedia, Kailee Buller", "https://ballotpedia.org/Kailee_Buller"),
-        ],
+        partyLabel: "Republican; Conservative",
+        bio: "The State Board of Elections certification names Kailee Buller for representative in Congress, district 22, on the Republican line and on the Conservative line.",
+        sources: [nyCert],
       }),
     ],
     ratings: [],
-    sources: [
-      cite("Ballotpedia, New York's 22nd Congressional District election, 2026", "https://ballotpedia.org/New_York%27s_22nd_Congressional_District_election,_2026"),
-      cite(
-        "Decision Desk HQ, 2026 New York US House 22 Republican primary",
-        "https://votes.decisiondeskhq.com/races/2026-06-23/new-york-us-house-22-republican-primary",
-      ),
-    ],
+    sources: [nyCert],
     aggregatorLinks: houseAggregators("https://ballotpedia.org/New_York%27s_22nd_Congressional_District_election,_2026"),
     relatedPollSlugs: [],
     ballotSections: ["federal"],
