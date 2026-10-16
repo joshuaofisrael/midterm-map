@@ -1,13 +1,15 @@
 import Link from "next/link";
+import { Suspense } from "react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
+import { ReportedPageNote } from "@/components/ReportedPageNote";
 import { contactMailto, SITE } from "@/data/site";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
   title: "Contact",
-  description: `Contact ${SITE.name}, a brand of ${SITE.legalName}, by email for corrections, privacy requests, and questions.`,
+  description: `Contact ${SITE.name}, a brand of ${SITE.legalName}, by email. Error reports are welcome, and corrections are made promptly.`,
   path: "/contact",
 });
 
@@ -32,9 +34,17 @@ export default function ContactPage() {
           {SITE.legalName}, the company that owns and operates {SITE.name}.
           There is no contact form; we reply by email.
         </p>
+        <h2>Error reports</h2>
+        <p>
+          Error reports are welcome. Email the page address and what should be
+          corrected, with a source if you have one. Corrections are made promptly.
+        </p>
+        <Suspense fallback={null}>
+          <ReportedPageNote />
+        </Suspense>
         <h2>What to include</h2>
         <ul>
-          <li>Corrections: the page address and the correction, with a source if you have one</li>
+          <li>Corrections and error reports: the page address and the correction, with a source if you have one</li>
           <li>Privacy requests: put “Privacy request” in the subject line</li>
           <li>Copyright or image concerns: the page address and a description of the material</li>
         </ul>

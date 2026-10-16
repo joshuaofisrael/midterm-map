@@ -1,16 +1,19 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { ContentTrust } from "@/components/ContentTrust";
 import { CrossLinks } from "@/components/CrossLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
+import { SourceLines } from "@/components/SourceLines";
 import { SourceList } from "@/components/SourceList";
 import { StatusChip } from "@/components/StatusChip";
 import { getRace, RACES } from "@/data/races";
 import { isPreElection, resultShellForRace, resultShellHasReturns } from "@/data/results";
 import { SITE } from "@/data/site";
 import { getState } from "@/data/states";
+import { contentUpdatedLabel } from "@/lib/contentDate";
 import { chamberLabel, partyTone } from "@/lib/format";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
@@ -60,6 +63,12 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
         title={race.title}
         lede="Per-race returns page. This page will never be labeled as certified results. Certification is a government function."
       />
+      <ContentTrust
+        updated={contentUpdatedLabel(`/results/${race.slug}`)}
+        pagePath={`/results/${race.slug}`}
+        officeHref={state?.officialElectionOffice.href}
+        officeLabel={state?.officialElectionOffice.label}
+      />
       <OfficialNotice />
 
       <section className="rounded-xl border border-line bg-paper-card p-5">
@@ -108,16 +117,20 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
             </tr>
           </thead>
           <tbody>
-            {shell.lines.map((line) => (
-              <tr key={line.candidateLabel} className="border-t border-line">
+            {shell.lines.map((line) => {
+              const candidate = race.candidates.find((item) => item.name === line.candidateLabel);
+              return (
+              <tr key={line.candidateLabel} className="border-t border-line align-top">
                 <td className={`py-2.5 pr-4 font-medium ${partyTone(line.party)}`}>
                   {line.candidateLabel}
+                  {candidate && <SourceLines sources={candidate.sources} />}
                 </td>
                 <td className="py-2.5 pr-4">{line.party}</td>
                 <td className="py-2.5 pr-4 tabular-nums">{line.votes ?? "—"}</td>
                 <td className="py-2.5 tabular-nums">{line.percent ?? "—"}</td>
               </tr>
-            ))}
+              );
+            })}
           </tbody>
         </table>
       </section>

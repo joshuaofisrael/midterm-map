@@ -2,10 +2,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BallotLookup } from "@/components/BallotLookup";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { ContentTrust } from "@/components/ContentTrust";
 import { CrossLinks } from "@/components/CrossLinks";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import { SourceLines, uniqueCitations } from "@/components/SourceLines";
 import { StatusChip } from "@/components/StatusChip";
 import { ballotStateFaqs } from "@/data/ballotFaqs";
 import { ballotSectionsForState } from "@/data/ballots";
@@ -13,6 +15,7 @@ import { votingDeadlinesStateHref } from "@/data/electionDates";
 import { indexableRaceHref } from "@/data/results";
 import { racesForState } from "@/data/races";
 import { getState, isStateCode, STARTER_STATES } from "@/data/states";
+import { contentUpdatedLabel } from "@/lib/contentDate";
 import { faqJsonLd } from "@/lib/format";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
@@ -66,6 +69,12 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
         eyebrow={`${state.name} · Ballot`}
         title={`${state.name} sample ballot structure`}
         lede="A sectioned sketch of contests that often appear. It is incomplete, may be outdated, and is not a substitute for the sample ballot issued by the county or state election office."
+      />
+      <ContentTrust
+        updated={contentUpdatedLabel(`/ballot/${state.code}`)}
+        pagePath={`/ballot/${state.code}`}
+        officeHref={state.officialElectionOffice.href}
+        officeLabel={state.officialElectionOffice.label}
       />
       <OfficialNotice />
       <BallotLookup initialState={state.code} />
@@ -125,6 +134,16 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
                       <li key={line}>{line}</li>
                     ))}
                   </ul>
+                  {contest.raceSlug &&
+                    contest.lines.some((line) => /nominee|Names on the/i.test(line)) && (
+                      <SourceLines
+                        sources={uniqueCitations(
+                          (races.find((race) => race.slug === contest.raceSlug)?.candidates ?? []).flatMap(
+                            (candidate) => candidate.sources,
+                          ),
+                        )}
+                      />
+                    )}
                   {contest.raceSlug && (
                     <p className="mt-2 text-sm">
                       <Link className="text-navy hover:underline" href={`/races/${contest.raceSlug}`}>

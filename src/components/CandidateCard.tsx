@@ -1,5 +1,6 @@
 import type { Candidate } from "@/data/types";
 import { initialsFor, partyTone } from "@/lib/format";
+import { SourceLines } from "@/components/SourceLines";
 
 export function CandidateCard({ candidate }: { candidate: Candidate }) {
   return (
@@ -48,19 +49,7 @@ export function CandidateCard({ candidate }: { candidate: Candidate }) {
           ))}
         </p>
       )}
-      {candidate.sources.length > 0 && (
-        <ul className="mt-3 space-y-1 text-xs leading-5 text-ink-muted">
-          {candidate.sources.map((source) => (
-            <li key={`${source.name}-${source.url}`}>
-              Source:{" "}
-              <a className="text-navy hover:underline" href={source.url} rel="noopener noreferrer">
-                {source.name}
-              </a>
-              {source.accessed ? ` · accessed ${source.accessed}` : ""}
-            </li>
-          ))}
-        </ul>
-      )}
+      <SourceLines sources={candidate.sources} className="mt-3" />
       {candidate.image && (
         <p className="mt-3 text-xs leading-5 text-ink-soft">
           Photo: {candidate.image.attribution}, via{" "}

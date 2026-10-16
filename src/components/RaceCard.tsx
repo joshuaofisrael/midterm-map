@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SourceLines } from "@/components/SourceLines";
 import type { RaceGuide } from "@/data/types";
 import { indexableRaceHref } from "@/data/results";
 import { getState } from "@/data/states";
@@ -27,7 +28,10 @@ export function RaceCard({ race, compact = false }: { race: RaceGuide; compact?:
         </Link>
       </h3>
       {!compact && (
-        <p className="mt-2 line-clamp-3 text-sm leading-6 text-ink-muted">{race.overview}</p>
+        <>
+          <p className="mt-2 line-clamp-3 text-sm leading-6 text-ink-muted">{race.overview}</p>
+          <SourceLines sources={race.sources} />
+        </>
       )}
       {primaryRating && (
         <div className="mt-4">
@@ -36,9 +40,18 @@ export function RaceCard({ race, compact = false }: { race: RaceGuide; compact?:
           </span>
         </div>
       )}
-      <p className="mt-3 text-sm text-ink-muted">
-        {race.candidates.map((candidate) => candidate.name).join(" · ") || "See official candidate list"}
-      </p>
+      {race.candidates.length > 0 ? (
+        <ul className="mt-3 space-y-2 text-sm text-ink-muted">
+          {race.candidates.map((candidate) => (
+            <li key={candidate.name}>
+              <span className="font-medium text-ink">{candidate.name}</span>
+              <SourceLines sources={candidate.sources} />
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p className="mt-3 text-sm text-ink-muted">See official candidate list</p>
+      )}
       <div className="mt-auto flex flex-wrap gap-x-4 gap-y-2 pt-4 text-sm">
         <Link className="font-medium text-navy hover:underline" href={`/races/${race.slug}`}>
           Race guide

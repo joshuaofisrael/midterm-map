@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { ContentTrust } from "@/components/ContentTrust";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
@@ -7,6 +8,7 @@ import { VotingDeadlinesTable } from "@/components/ElectionDates";
 import { DEADLINE_ONLY_STATES, ELECTION_DATES, MARKER_NOTE, stateKeyDatesHref } from "@/data/electionDates";
 import { SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
+import { contentUpdatedLabel } from "@/lib/contentDate";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -45,6 +47,7 @@ export default function VotingDeadlinesPage() {
         title="2026 voter registration, early voting and mail ballot deadlines by state"
         lede={`Registration, early voting, and mail-ballot dates for ${rows.length} states. Each date is paraphrased from a state election office page, a state statute, or Vote.gov, linked in the same cell. Items from a single county board are labeled as county-only.`}
       />
+      <ContentTrust updated={contentUpdatedLabel("/voting-deadlines")} pagePath="/voting-deadlines" />
       <OfficialNotice compact />
       <p className="max-w-3xl text-sm leading-6 text-ink-muted">
         The date under each state name is the day those lines were checked against the linked
