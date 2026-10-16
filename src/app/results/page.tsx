@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { ContentTrust } from "@/components/ContentTrust";
 import { ControlMeter } from "@/components/ControlMeter";
 import { CrossLinks } from "@/components/CrossLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
+import { SourceLines } from "@/components/SourceLines";
 import { StatusChip } from "@/components/StatusChip";
 import { getRace } from "@/data/races";
 import {
@@ -19,6 +21,7 @@ import {
 } from "@/data/results";
 import { SITE } from "@/data/site";
 import { getState } from "@/data/states";
+import { contentUpdatedLabel } from "@/lib/contentDate";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -45,6 +48,7 @@ export default function ResultsPage() {
         title="Results tracker"
         lede={`A dashboard for Election Night and the days after. ${SITE.name} does not certify outcomes. Any future vote totals shown here will be unofficial until a state or county completes certification.`}
       />
+      <ContentTrust updated={contentUpdatedLabel("/results")} pagePath="/results" />
       <OfficialNotice />
 
       <div className="rounded-xl border border-notice-line bg-notice-wash p-5">
@@ -78,7 +82,6 @@ export default function ResultsPage() {
             const race = getRace(slug);
             if (!race) return null;
             const hasReturns = resultShellHasReturns(resultShellForRace(race.slug));
-            const names = race.candidates.map((candidate) => candidate.name).join(" vs. ");
             return (
               <li key={slug} className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
                 <div>
@@ -90,8 +93,17 @@ export default function ResultsPage() {
                   </Link>
                   <p className="text-sm text-ink-muted">
                     {hasReturns ? "Unofficial returns" : "Awaiting unofficial returns"}
-                    {names ? ` · ${names}` : ""}
                   </p>
+                  {race.candidates.length > 0 && (
+                    <ul className="mt-2 space-y-2">
+                      {race.candidates.map((candidate) => (
+                        <li key={candidate.name} className="text-sm">
+                          <span className="font-medium text-ink">{candidate.name}</span>
+                          <SourceLines sources={candidate.sources} />
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
                 <Link className="text-sm font-medium text-navy hover:underline" href={`/races/${race.slug}`}>
                   Race guide
@@ -118,7 +130,6 @@ export default function ResultsPage() {
             if (!race) return null;
             const state = getState(race.state);
             const hasReturns = resultShellHasReturns(resultShellForRace(race.slug));
-            const names = race.candidates.map((candidate) => candidate.name).join(" · ");
             return (
               <li key={slug} className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
                 <div>
@@ -130,8 +141,17 @@ export default function ResultsPage() {
                   </Link>
                   <p className="text-sm text-ink-muted">
                     {hasReturns ? "Unofficial returns" : "Awaiting unofficial returns"}
-                    {names ? ` · ${names}` : ""}
                   </p>
+                  {race.candidates.length > 0 && (
+                    <ul className="mt-2 space-y-2">
+                      {race.candidates.map((candidate) => (
+                        <li key={candidate.name} className="text-sm">
+                          <span className="font-medium text-ink">{candidate.name}</span>
+                          <SourceLines sources={candidate.sources} />
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
                 <p className="text-sm">
                   <Link className="font-medium text-navy hover:underline" href={`/races/${race.slug}`}>

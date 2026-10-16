@@ -57,6 +57,13 @@ export function contactMailto(): string {
   return `mailto:${SITE.email}?subject=${encodeURIComponent(SITE.emailSubject)}`;
 }
 
+/** Report-an-error target. The page path is the `url` query on /contact/. */
+export function reportErrorHref(path: string): string {
+  const trimmed = path.trim();
+  const withSlash = trimmed === "/" ? "/" : `${trimmed.replace(/\/+$/, "")}/`;
+  return `/contact/?url=${encodeURIComponent(withSlash)}`;
+}
+
 /** Apex canonical URL. Directory routes use a trailing slash for GitHub Pages. */
 export function absoluteUrl(path: string = "/"): string {
   const base = SITE.url.replace(/\/+$/, "");

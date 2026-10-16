@@ -3,6 +3,7 @@ import { RACES } from "@/data/races";
 import { resultShellForRace, resultShellHasReturns } from "@/data/results";
 import { absoluteUrl, SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
+import { contentUpdatedIsoForPath } from "@/lib/contentDate";
 
 export const dynamic = "force-static";
 
@@ -128,6 +129,8 @@ const LEGAL_BRAND_UPDATED = "2026-10-08";
 const LEGAL_BRAND_PATHS = new Set(["/about", "/disclaimer", "/privacy", "/terms", "/contact"]);
 
 function lastModifiedFor(path: string): string {
+  const contentDate = contentUpdatedIsoForPath(path);
+  if (contentDate) return contentDate;
   if (KANSAS_HUB_PATHS.has(path)) return KANSAS_HUB_UPDATED;
   if (RESULTS_EXPANSION_PATHS.has(path)) return RESULTS_EXPANSION_UPDATED;
   if (ALASKA_HUB_PATHS.has(path)) return ALASKA_HUB_UPDATED;

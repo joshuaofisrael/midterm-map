@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CandidateCard } from "@/components/CandidateCard";
+import { ContentTrust } from "@/components/ContentTrust";
 import { CrossLinks } from "@/components/CrossLinks";
 import { EmailSignup } from "@/components/EmailSignup";
 import { FurtherReading } from "@/components/FurtherReading";
@@ -10,6 +11,7 @@ import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { PollTable } from "@/components/PollTable";
 import { ShareLink } from "@/components/ShareLink";
+import { SourceLines, uniqueCitations } from "@/components/SourceLines";
 import { SourceList } from "@/components/SourceList";
 import { TipJar } from "@/components/TipJar";
 import { pollsForRace } from "@/data/polls";
@@ -17,6 +19,7 @@ import { indexableRaceHref } from "@/data/results";
 import { AGGREGATORS } from "@/data/sources";
 import { getRace, RACES, racesForState } from "@/data/races";
 import { getState } from "@/data/states";
+import { contentUpdatedLabel } from "@/lib/contentDate";
 import { chamberLabel, faqJsonLd, ratingTone } from "@/lib/format";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
@@ -45,6 +48,8 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
   const siblings = racesForState(race.state).filter((item) => item.slug !== race.slug);
   const resultsHref = indexableRaceHref(race.slug);
   const resultsReady = resultsHref.startsWith("/results/");
+  const faqText = race.faqs.map((faq) => `${faq.question} ${faq.answer}`).join("\n");
+  const faqCandidates = race.candidates.filter((candidate) => faqText.includes(candidate.name));
 
   return (
     <div className="space-y-8">
@@ -66,6 +71,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         ]}
       />
       <PageHeader eyebrow={chamberLabel(race.chamber)} title={race.title} lede={race.overview}>
+        <SourceLines sources={race.sources} />
         <div className="mt-4 flex flex-wrap items-center gap-2">
           {race.ratings.map((rating) => (
             <a
@@ -80,6 +86,12 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
           <ShareLink title={race.title} />
         </div>
       </PageHeader>
+      <ContentTrust
+        updated={contentUpdatedLabel(`/races/${race.slug}`)}
+        pagePath={`/races/${race.slug}`}
+        officeHref={state?.officialElectionOffice.href}
+        officeLabel={state?.officialElectionOffice.label}
+      />
       <OfficialNotice compact />
 
       <div className="grid gap-6 lg:grid-cols-[1.25fr_0.75fr]">
@@ -95,6 +107,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
               <p className="mt-3 text-sm leading-6 text-ink-muted">{race.incumbentNote}</p>
             )}
             <p className="mt-3 text-sm leading-6 text-ink-muted">{race.howToRead}</p>
+            <SourceLines sources={race.sources} className="mt-3" />
           </section>
           <section>
             <h2 className="font-serif text-2xl font-semibold">Candidates</h2>
@@ -207,6 +220,15 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
             </div>
           ))}
         </dl>
+        {faqCandidates.length > 0 && (
+          <SourceLines
+            sources={uniqueCitations([
+              ...race.sources,
+              ...faqCandidates.flatMap((candidate) => candidate.sources),
+            ])}
+            className="mt-4"
+          />
+        )}
       </section>
 
       {siblings.length > 0 && (

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { ContentTrust } from "@/components/ContentTrust";
 import { CrossLinks } from "@/components/CrossLinks";
 import { TipJar } from "@/components/TipJar";
 import { JsonLd } from "@/components/JsonLd";
@@ -18,6 +19,7 @@ import { racesForState } from "@/data/races";
 import { stateHubFaqs } from "@/data/stateFaqs";
 import { getState, isStateCode, STARTER_STATES } from "@/data/states";
 import type { StateProfile } from "@/data/types";
+import { contentUpdatedLabel } from "@/lib/contentDate";
 import { faqJsonLd } from "@/lib/format";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
@@ -63,6 +65,12 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
         eyebrow={`${state.name} hub`}
         title={stateHubHeading(state.name)}
         lede={state.summary}
+      />
+      <ContentTrust
+        updated={contentUpdatedLabel(`/states/${state.code}`)}
+        pagePath={`/states/${state.code}`}
+        officeHref={state.officialElectionOffice.href}
+        officeLabel={state.officialElectionOffice.label}
       />
       <OfficialNotice compact />
 

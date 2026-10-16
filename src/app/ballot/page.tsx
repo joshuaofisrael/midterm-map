@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { BallotLookup } from "@/components/BallotLookup";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { ContentTrust } from "@/components/ContentTrust";
 import { CrossLinks } from "@/components/CrossLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
@@ -8,6 +9,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { ELECTION_DATES } from "@/data/electionDates";
 import { SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
+import { contentUpdatedLabel } from "@/lib/contentDate";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 /** Prints “General Election - November 3, 2026”. Checked October 7, 2026. */
@@ -44,6 +46,7 @@ export default function BallotIndexPage() {
         title="Look up a structured sample ballot"
         lede="Enter a ZIP or choose a starter state. Matching stays in your browser. This is a voter information sketch of offices on the 2026 cycle, not an official sample ballot and not a certified list of contests."
       />
+      <ContentTrust updated={contentUpdatedLabel("/ballot")} pagePath="/ballot" />
       <OfficialNotice />
       <div id="ballot-lookup">
         <BallotLookup />
