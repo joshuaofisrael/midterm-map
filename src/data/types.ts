@@ -180,6 +180,8 @@ export interface PollRow {
   other: number | null;
   spread: string;
   source: Citation;
+  /** Election-office list for the name labels. The survey source still covers the numbers. */
+  nameSource?: Citation;
 }
 
 export interface NationalStripRow {

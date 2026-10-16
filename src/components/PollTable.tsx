@@ -1,6 +1,19 @@
 import Link from "next/link";
-import type { PollRow } from "@/data/types";
+import type { Citation, PollRow } from "@/data/types";
 import { getRace } from "@/data/races";
+
+function NameListLink({ source }: { source?: Citation }) {
+  if (!source) return null;
+  return (
+    <a
+      className="mt-0.5 block text-[11px] font-normal normal-case tracking-normal text-navy hover:underline"
+      href={source.url}
+      rel="noopener noreferrer"
+    >
+      Official list
+    </a>
+  );
+}
 
 export function PollTable({
   rows,
@@ -65,11 +78,21 @@ export function PollTable({
                 </td>
                 <td className="px-4 py-2.5 tabular-nums">
                   {row.dem ?? "—"}
-                  {row.demLabel ? <span className="block text-xs text-ink-soft">{row.demLabel}</span> : null}
+                  {row.demLabel ? (
+                    <span className="block text-xs text-ink-soft">
+                      {row.demLabel}
+                      <NameListLink source={row.nameSource} />
+                    </span>
+                  ) : null}
                 </td>
                 <td className="px-4 py-2.5 tabular-nums">
                   {row.rep ?? "—"}
-                  {row.repLabel ? <span className="block text-xs text-ink-soft">{row.repLabel}</span> : null}
+                  {row.repLabel ? (
+                    <span className="block text-xs text-ink-soft">
+                      {row.repLabel}
+                      <NameListLink source={row.nameSource} />
+                    </span>
+                  ) : null}
                 </td>
                 <td className="px-4 py-2.5 font-medium">{row.spread}</td>
               </tr>

@@ -2,37 +2,33 @@ import type { RaceGuide } from "../types";
 import { cite } from "../sources";
 import { photo } from "../candidateImages";
 import {
+  clerkNominees,
+  gaRunoff,
+  gaWriteIn,
+  listCandidate,
+  miList,
+  ncList,
+  txCert,
+} from "../officialLists";
+import {
   BP_GA_SENATE,
   BP_MI_SENATE,
   BP_NC_SENATE,
   BP_TX_SENATE,
-  ballotpedia,
   cook,
   cookSenatePrint,
   decisionDesk,
   insideElections,
-  officialSite,
-  person,
   sabato,
   senateAggregators,
   senateOfficeExplainer,
   standardFaqs,
-  wiki,
 } from "./helpers";
 
 const cookSenateUrl = "https://www.cookpolitical.com/print/ratings/races/senate";
-const gaBpCite = cite("Ballotpedia, United States Senate election in Georgia, 2026", BP_GA_SENATE);
-const reutersCite = cite(
-  "Reuters, Factbox: The nine midterm races that will decide control of the U.S. Senate",
-  "https://www.reuters.com/world/us/nine-midterm-races-that-will-decide-control-us-senate-2026-09-07/",
-  "September 17, 2026",
-  "September 7, 2026",
-);
-const cbsCite = cite(
-  "CBS News, 12 key races that will determine who controls the Senate",
-  "https://www.cbsnews.com/news/key-senate-races-2026/",
-  "September 17, 2026",
-);
+
+const NAMES =
+  "Names below are taken from the election-office list cited on each card. Party labels follow that list. This page is not a certification.";
 
 export const SENATE_RACES: RaceGuide[] = [
   {
@@ -44,47 +40,52 @@ export const SENATE_RACES: RaceGuide[] = [
     shortTitle: "GA Senate",
     featured: true,
     incumbentNote:
-      "Democratic Sen. Jon Ossoff, first elected in the January 2021 runoff, is seeking a second term. Georgia’s Class 2 seat is on the regular 2026 cycle.",
+      "The Clerk’s nominee list marks Jon Ossoff with an asterisk for an incumbent in the 119th Congress.",
     overview:
-      "Georgia’s Class 2 Senate seat is on the November 3, 2026 ballot. Incumbent Democrat Jon Ossoff faces Republican Rep. Mike Collins. Other qualified candidates may appear on the official Georgia ballot.",
+      "Georgia’s Class 2 Senate seat is on the November 3, 2026 ballot. The Clerk of the House nominee list names Mike Collins (Republican) and Jon Ossoff (Democrat). The Secretary of State’s official June 16, 2026 Republican runoff results list Mike Collins with 390,174 votes (55.54 percent) and Derek Dooley with 312,339 votes (44.46 percent). The certified write-in list names Elbert Arthur Bartell, Christina Clement, and Cassandra Easton.",
     officeExplainer: senateOfficeExplainer,
     whyItMatters:
-      "Georgia is one of a small set of 2026 Senate contests that nonpartisan analysts treat as competitive. Democrats are defending the seat in a state Donald Trump carried in 2024. Control of the 100-seat Senate in 2027 depends on several such states, not this race alone. Official candidate lists and any runoff calendar are set by Georgia election law, not by this site.",
-    howToRead:
-      "Candidate names below are major-party general-election figures reported by Ballotpedia and contemporaneous news as of mid-September 2026. Party labels identify tickets only. Ratings are quotations of named outlets. Poll rows are individual published surveys — not a Map the Midterms average.",
+      "Georgia is one of a small set of 2026 Senate contests that nonpartisan analysts treat as competitive. Control of the 100-seat Senate in 2027 depends on several states, not this race alone. Official candidate lists and any runoff calendar are set by Georgia election law, not by this site.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Jon Ossoff",
         party: "DEM",
-        partyLabel: "Democratic",
+        partyLabel: "Democrat",
         incumbent: true,
-        bio: "Ossoff is Georgia’s junior U.S. senator. He won a January 2021 runoff and took office that month. Before the Senate he worked as a documentary producer and congressional aide. His public biography emphasizes oversight, economic development, and constituent casework.",
+        bio: "The Clerk of the House nominee list for the November 3, 2026 election names Jon Ossoff, Democrat, for U.S. senator from Georgia, and marks him as an incumbent in the 119th Congress.",
         image: photo("jon-ossoff"),
-        links: [
-          officialSite("Senate office", "https://www.ossoff.senate.gov/"),
-          wiki("Jon Ossoff", "Jon_Ossoff"),
-          ballotpedia("Jon Ossoff", "Jon_Ossoff"),
-        ],
-        sources: [
-          cite("Biographical Directory of the U.S. Congress, Jon Ossoff", "https://bioguide.congress.gov/search/bio/O000174"),
-          gaBpCite,
-        ],
+        sources: [clerkNominees],
       }),
-      person({
+      listCandidate({
         name: "Mike Collins",
         party: "REP",
         partyLabel: "Republican",
-        bio: "Collins represents Georgia’s 10th Congressional District in the U.S. House and is the Republican Senate nominee. He is a small-business owner from Jackson County. House records list him as serving since January 2023.",
+        bio: "The Clerk of the House nominee list names Mike Collins, Republican, for U.S. senator from Georgia. The Secretary of State’s official results for the June 16, 2026 Republican primary runoff list him with 390,174 votes (55.54 percent) and Derek Dooley with 312,339 votes (44.46 percent).",
         image: photo("mike-collins"),
-        links: [
-          officialSite("House office", "https://collins.house.gov/"),
-          wiki("Mike Collins", "Mike_Collins_(Georgia_politician)"),
-          ballotpedia("Mike Collins", "Mike_Collins"),
-        ],
-        sources: [
-          cite("Biographical Directory of the U.S. Congress, Mike Collins", "https://bioguide.congress.gov/search/bio/C001129"),
-          gaBpCite,
-        ],
+        sources: [clerkNominees, gaRunoff],
+      }),
+      listCandidate({
+        name: "Elbert Arthur Bartell",
+        party: "OTH",
+        partyLabel: "Certified write-in",
+        bio: "The Secretary of State’s certified write-in list for the November 3, 2026 general election names Elbert Arthur Bartell for U.S. Senate.",
+        sources: [gaWriteIn],
+      }),
+      listCandidate({
+        name: "Christina Clement",
+        party: "OTH",
+        partyLabel: "Certified write-in",
+        bio: "The Secretary of State’s certified write-in list for the November 3, 2026 general election names Christina Clement for U.S. Senate.",
+        sources: [gaWriteIn],
+      }),
+      listCandidate({
+        name: "Cassandra Easton",
+        party: "OTH",
+        partyLabel: "Certified write-in",
+        bio: "The Secretary of State’s certified write-in list for the November 3, 2026 general election names Cassandra Easton for U.S. Senate.",
+        sources: [gaWriteIn],
       }),
     ],
     ratings: [
@@ -93,12 +94,7 @@ export const SENATE_RACES: RaceGuide[] = [
       sabato("Likely D", "September 8, 2026", "https://centerforpolitics.org/crystalball/"),
       decisionDesk("Likely D", "September 8, 2026", "https://decisiondeskhq.com/"),
     ],
-    sources: [
-      gaBpCite,
-      cookSenatePrint,
-      reutersCite,
-      cbsCite,
-    ],
+    sources: [clerkNominees, gaRunoff, gaWriteIn, cookSenatePrint],
     aggregatorLinks: senateAggregators(
       BP_GA_SENATE,
       "https://www.realclearpolitics.com/epolls/2026/senate/ga/2026_georgia_senate_collins_vs_ossoff-8718.html",
@@ -112,6 +108,8 @@ export const SENATE_RACES: RaceGuide[] = [
       "ga-senate-trafalgar-2026-04",
     ],
     ballotSections: ["federal"],
+    ballotNomineeNote:
+      "Names on the GA Senate race guide are the Clerk of the House nominee list for November 3, 2026, the Secretary of State’s official June 16, 2026 Republican runoff results, and the certified write-in list. That is not a vote total for November.",
     faqs: standardFaqs("this Senate race", "the Georgia Secretary of State"),
   },
   {
@@ -123,61 +121,67 @@ export const SENATE_RACES: RaceGuide[] = [
     shortTitle: "MI Senate",
     featured: true,
     incumbentNote:
-      "Democratic Sen. Gary Peters is not seeking another term. The Class 2 seat is open on the regular 2026 cycle.",
+      "The Bureau of Elections candidate listing for U.S. Senate does not include Gary Peters.",
     overview:
-      "Michigan’s open Class 2 Senate seat is on the November 3, 2026 ballot. Democrat Abdul El-Sayed, who won the August Democratic primary, faces Republican Mike Rogers, a former U.S. representative.",
+      "Michigan’s Class 2 Senate seat is on the November 3, 2026 ballot. The Bureau of Elections official candidate listing names Abdul El-Sayed (Democratic Party), Mike Rogers (Republican Party), Lydia Christensen (Libertarian Party), Tim Long (U.S. Taxpayers Party), Douglas P. Marsh (Green Party), and Walter P. Kristy (Natural Law Party).",
     officeExplainer: senateOfficeExplainer,
     whyItMatters:
-      "Cook Political Report rated the open Michigan seat a toss-up as of its August 20, 2026 print chart. Democrats are defending a seat in a state that has swung between parties in recent statewide races. A change here would affect the 2027 Senate math. Official nominees are those certified by Michigan election authorities.",
-    howToRead:
-      "Names below are the major-party nominees reported after the August 4, 2026 Michigan primary. Additional party or write-in lines, if any, appear only on the official ballot.",
+      "Cook Political Report rated the Michigan seat a toss-up as of its August 20, 2026 print chart. A change here would affect the 2027 Senate math. Names on this page are the Bureau of Elections listing.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Abdul El-Sayed",
         party: "DEM",
-        partyLabel: "Democratic",
-        statusNote: "Democratic nominee after the August 4, 2026 primary",
-        bio: "El-Sayed is a physician and former Detroit health director. He previously ran for Michigan governor in 2018. After winning the 2026 Democratic Senate primary he became the party’s nominee for the open Peters seat.",
+        partyLabel: "Democratic Party",
+        bio: "The Bureau of Elections official candidate listing for the November 3, 2026 general election names El-Sayed, Abdul, for U.S. Senate, Democratic Party.",
         image: photo("abdul-el-sayed"),
-        links: [
-          wiki("Abdul El-Sayed", "Abdul_El-Sayed"),
-          ballotpedia("Abdul El-Sayed", "Abdul_El-Sayed"),
-        ],
-        sources: [
-          cite(
-            "CBS News, Senate Democrats meet with Abdul El-Sayed",
-            "https://www.cbsnews.com/news/abdul-el-sayed-senate-democrats-meeting/",
-          ),
-          cite("Ballotpedia, United States Senate election in Michigan, 2026", BP_MI_SENATE),
-        ],
+        sources: [miList],
       }),
-      person({
+      listCandidate({
         name: "Mike Rogers",
         party: "REP",
-        partyLabel: "Republican",
-        statusNote: "Republican nominee; former U.S. representative",
-        bio: "Rogers represented a mid-Michigan House district from 2001 to 2015 and later chaired the House Intelligence Committee. He was the 2024 Republican Senate nominee against Elissa Slotkin. He is the 2026 Republican nominee for this open seat.",
+        partyLabel: "Republican Party",
+        bio: "The Bureau of Elections official candidate listing for the November 3, 2026 general election names Rogers, Mike, for U.S. Senate, Republican Party.",
         image: photo("mike-rogers"),
-        links: [
-          wiki("Mike Rogers", "Mike_Rogers_(Michigan_politician)"),
-          ballotpedia("Mike Rogers", "Mike_Rogers_(Michigan)"),
-        ],
-        sources: [
-          cite("Biographical Directory of the U.S. Congress, Mike Rogers", "https://bioguide.congress.gov/search/bio/R000572"),
-          reutersCite,
-        ],
+        sources: [miList],
+      }),
+      listCandidate({
+        name: "Lydia Christensen",
+        party: "LIB",
+        partyLabel: "Libertarian Party",
+        bio: "The Bureau of Elections official candidate listing for the November 3, 2026 general election names Christensen, Lydia, for U.S. Senate, Libertarian Party.",
+        sources: [miList],
+      }),
+      listCandidate({
+        name: "Tim Long",
+        party: "OTH",
+        partyLabel: "U.S. Taxpayers Party",
+        bio: "The Bureau of Elections official candidate listing for the November 3, 2026 general election names Long, Tim, for U.S. Senate, U.S. Taxpayers Party.",
+        sources: [miList],
+      }),
+      listCandidate({
+        name: "Douglas P. Marsh",
+        party: "GRN",
+        partyLabel: "Green Party",
+        bio: "The Bureau of Elections official candidate listing for the November 3, 2026 general election names Marsh, Douglas P., for U.S. Senate, Green Party.",
+        sources: [miList],
+      }),
+      listCandidate({
+        name: "Walter P. Kristy",
+        party: "OTH",
+        partyLabel: "Natural Law Party",
+        bio: "The Bureau of Elections official candidate listing for the November 3, 2026 general election names Kristy, Walter P., for U.S. Senate, Natural Law Party.",
+        sources: [miList],
       }),
     ],
     ratings: [cook("Tossup", "August 20, 2026", cookSenateUrl)],
-    sources: [
-      cite("Ballotpedia, United States Senate election in Michigan, 2026", BP_MI_SENATE),
-      cookSenatePrint,
-      reutersCite,
-      cbsCite,
-    ],
+    sources: [miList, cookSenatePrint],
     aggregatorLinks: senateAggregators(BP_MI_SENATE),
     relatedPollSlugs: ["mi-senate-emerson-2026-09"],
     ballotSections: ["federal"],
+    ballotNomineeNote:
+      "Names on the MI Senate race guide are the U.S. Senate rows on the Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election.",
     faqs: standardFaqs("this Senate race", "the Michigan Secretary of State"),
   },
   {
@@ -189,58 +193,52 @@ export const SENATE_RACES: RaceGuide[] = [
     shortTitle: "NC Senate",
     featured: true,
     incumbentNote:
-      "Republican Sen. Thom Tillis is not seeking re-election. The Class 2 seat is open.",
+      "The State Board of Elections general candidate list for U.S. Senate does not include Thom Tillis.",
     overview:
-      "North Carolina’s open Class 2 Senate seat is on the November 3, 2026 ballot. Former Democratic Gov. Roy Cooper faces Republican Michael Whatley, a former Republican National Committee chair.",
+      "North Carolina’s Class 2 Senate seat is on the November 3, 2026 ballot. The State Board of Elections general candidate list names Roy Cooper (DEM), Michael Whatley (REP), Shannon W. Bray (LIB), and Michael Dublin (GRE).",
     officeExplainer: senateOfficeExplainer,
     whyItMatters:
-      "Cook’s August 20, 2026 print chart placed the open North Carolina seat in Lean Democratic. CBS News and Reuters have described it as Democrats’ clearest 2026 pickup opportunity among Republican-held seats. North Carolina last elected a Democratic U.S. senator in 2008. Official results will come from the State Board of Elections.",
-    howToRead:
-      "Libertarian and Green candidates have appeared in some published polls. Qualified names are on the official North Carolina ballot.",
+      "Cook’s August 20, 2026 print chart placed the North Carolina seat in Lean Democratic. Official results will come from the State Board of Elections.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Roy Cooper",
         party: "DEM",
-        partyLabel: "Democratic",
-        bio: "Cooper served two terms as North Carolina governor (2017–2025) after a long tenure as state attorney general. He is the Democratic nominee for the open Tillis seat. Public biographies emphasize his statewide executive record and prior work as a legislator.",
+        partyLabel: "DEM",
+        bio: "The State Board of Elections 2026 general candidate list names Roy Cooper for U.S. Senate with party code DEM.",
         image: photo("roy-cooper"),
-        links: [
-          wiki("Roy Cooper", "Roy_Cooper"),
-          ballotpedia("Roy Cooper", "Roy_Cooper"),
-        ],
-        sources: [
-          cite("National Governors Association, Roy Cooper", "https://www.nga.org/governor/roy-cooper/"),
-          cbsCite,
-        ],
+        sources: [ncList],
       }),
-      person({
+      listCandidate({
         name: "Michael Whatley",
         party: "REP",
-        partyLabel: "Republican",
-        bio: "Whatley is a North Carolina Republican operative who chaired the Republican National Committee and previously led the state party. He entered the Senate race with President Trump’s encouragement after Tillis retired. He is the Republican nominee for the open seat.",
-        links: [
-          wiki("Michael Whatley", "Michael_Whatley"),
-          ballotpedia("Michael Whatley", "Michael_Whatley"),
-        ],
-        sources: [cbsCite, reutersCite],
+        partyLabel: "REP",
+        bio: "The State Board of Elections 2026 general candidate list names Michael Whatley for U.S. Senate with party code REP.",
+        sources: [ncList],
+      }),
+      listCandidate({
+        name: "Shannon W. Bray",
+        party: "LIB",
+        partyLabel: "LIB",
+        bio: "The State Board of Elections 2026 general candidate list names Shannon W. Bray for U.S. Senate with party code LIB.",
+        sources: [ncList],
+      }),
+      listCandidate({
+        name: "Michael Dublin",
+        party: "GRN",
+        partyLabel: "GRE",
+        bio: "The State Board of Elections 2026 general candidate list names Michael Dublin for U.S. Senate with party code GRE.",
+        sources: [ncList],
       }),
     ],
     ratings: [cook("Lean D", "August 20, 2026", cookSenateUrl)],
-    sources: [
-      cite("Ballotpedia, United States Senate election in North Carolina, 2026", BP_NC_SENATE),
-      cookSenatePrint,
-      reutersCite,
-      cbsCite,
-      cite(
-        "Elon University Poll, Cooper maintains double-digit lead",
-        "https://www.elon.edu/u/news/2026/09/10/elon-university-poll-cooper-maintains-double-digit-lead-in-north-carolina-u-s-senate-race/",
-        "September 17, 2026",
-        "September 10, 2026",
-      ),
-    ],
+    sources: [ncList, cookSenatePrint],
     aggregatorLinks: senateAggregators(BP_NC_SENATE),
     relatedPollSlugs: ["nc-senate-elon-2026-08"],
     ballotSections: ["federal"],
+    ballotNomineeNote:
+      "Names on the NC Senate race guide are the U.S. Senate rows on the State Board of Elections 2026 general candidate list. Street addresses on that file are not reprinted here.",
     faqs: standardFaqs("this Senate race", "the North Carolina State Board of Elections"),
   },
   {
@@ -252,64 +250,46 @@ export const SENATE_RACES: RaceGuide[] = [
     shortTitle: "TX Senate",
     featured: true,
     incumbentNote:
-      "The Class 2 seat is open after Sen. John Cornyn lost the 2026 Republican primary to Attorney General Ken Paxton.",
+      "The Secretary of State’s 2026 ballot certification for U.S. Senator does not include John Cornyn.",
     overview:
-      "Texas’s Class 2 Senate seat is on the November 3, 2026 ballot. Republican Ken Paxton, the state attorney general, faces Democratic state Rep. James Talarico. A Libertarian candidate has also appeared in recent published surveys.",
+      "Texas’s Class 2 Senate seat is on the November 3, 2026 ballot. The Secretary of State’s ballot certification names Ken Paxton (REP), James Talarico (DEM), and Ted Brown (LIB).",
     officeExplainer: senateOfficeExplainer,
     whyItMatters:
-      "Cook moved Texas from Lean Republican to Toss Up on August 20, 2026, citing public and private polling in a state Trump won by a double-digit margin in 2024. Reuters and CBS have treated the race as a surprise battleground. Official canvass remains a Texas function.",
-    howToRead:
-      "Primary outcomes are historical facts reported by news outlets and Ballotpedia. November names are on the official Texas ballot.",
+      "Cook moved Texas from Lean Republican to Toss Up on August 20, 2026. Official canvass remains a Texas function.",
+    howToRead: NAMES,
+    candidatesIntro: NAMES,
     candidates: [
-      person({
+      listCandidate({
         name: "Ken Paxton",
         party: "REP",
-        partyLabel: "Republican",
-        statusNote: "Republican nominee; Texas attorney general",
-        bio: "Paxton has been Texas attorney general since 2015. He defeated incumbent Sen. John Cornyn in the 2026 Republican primary with President Trump’s endorsement. His official biography emphasizes law-enforcement and litigation work on behalf of the state.",
+        partyLabel: "REP",
+        bio: "The Texas Secretary of State’s 2026 ballot certification names Ken Paxton, REP, for U.S. Senator.",
         image: photo("ken-paxton"),
-        links: [
-          officialSite("Texas Attorney General", "https://www.texasattorneygeneral.gov/"),
-          wiki("Ken Paxton", "Ken_Paxton"),
-          ballotpedia("Ken Paxton", "Ken_Paxton"),
-        ],
-        sources: [
-          cite("Texas Attorney General, About the Attorney General", "https://www.texasattorneygeneral.gov/about"),
-          reutersCite,
-        ],
+        sources: [txCert],
       }),
-      person({
+      listCandidate({
         name: "James Talarico",
         party: "DEM",
-        partyLabel: "Democratic",
-        statusNote: "Democratic nominee; Texas state representative",
-        bio: "Talarico represents a central Texas district in the Texas House. He is a former teacher and seminary student. National coverage of the 2026 cycle has treated him as the Democratic Senate nominee against Paxton.",
-        links: [
-          officialSite("Texas House member page", "https://house.texas.gov/members/3075"),
-          wiki("James Talarico", "James_Talarico"),
-          ballotpedia("James Talarico", "James_Talarico"),
-        ],
-        sources: [
-          cite("Texas House of Representatives, Rep. James Talarico", "https://house.texas.gov/members/3075"),
-          cbsCite,
-        ],
+        partyLabel: "DEM",
+        bio: "The Texas Secretary of State’s 2026 ballot certification names James Talarico, DEM, for U.S. Senator.",
+        sources: [txCert],
+      }),
+      listCandidate({
+        name: "Ted Brown",
+        party: "LIB",
+        partyLabel: "LIB",
+        bio: "The Texas Secretary of State’s 2026 ballot certification names Ted Brown, LIB, for U.S. Senator.",
+        sources: [txCert],
       }),
     ],
     ratings: [cook("Tossup", "August 20, 2026", cookSenateUrl)],
     sources: [
-      cite("Ballotpedia, United States Senate election in Texas, 2026", BP_TX_SENATE),
+      txCert,
       cite(
         "Cook Political Report, Texas and Iowa Senate races move to Toss Up",
         "https://www.cookpolitical.com/analysis/senate/senate-overview/texas-and-iowa-senate-races-move-toss-races-governor-also-move",
         "September 17, 2026",
         "August 20, 2026",
-      ),
-      reutersCite,
-      cite(
-        "Emerson College Polling, Texas 2026 poll (Sept. 12–14)",
-        "https://emersoncollegepolling.com/texas-2026-poll-talarico-and-paxton-in-dead-heat-abbott-maintains-edge/",
-        "September 17, 2026",
-        "September 17, 2026",
       ),
     ],
     aggregatorLinks: senateAggregators(
@@ -324,6 +304,8 @@ export const SENATE_RACES: RaceGuide[] = [
       "tx-senate-tsuyougov-2026-05",
     ],
     ballotSections: ["federal"],
+    ballotNomineeNote:
+      "Names on the TX Senate race guide are the U.S. Senator rows in the Texas Secretary of State’s 2026 ballot certification.",
     faqs: standardFaqs("this Senate race", "the Texas Secretary of State"),
   },
 ];
