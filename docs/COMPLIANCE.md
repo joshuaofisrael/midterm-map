@@ -114,3 +114,7 @@ Update this file and the public legal pages together if you add analytics, accou
 ## City-page candidate names (October 17, 2026)
 
 Place pages list 2026 general-election candidate names and parties only when an official state election-office certified or candidate list was read on October 17, 2026. The page cites that list’s URL and the date it was read. Names and parties are copied in the list’s order. A state whose official list was not available says “Official candidate list not yet published” and links the state election office. Pages do not show ratings, rankings, or contact details. Mayor and council races are omitted; no official county or city list was matched to a place.
+
+## ZIP search (October 17, 2026)
+
+The homepage and Census place indexes include a ZIP search that runs in the browser. It loads static JSON split by the first three digits of the ZIP, built from Census ZCTA relationship files. The site does not store the entered ZIP, does not put it in the address bar, and does not send it to a third-party service. The request to this site is only for the three-digit prefix file.

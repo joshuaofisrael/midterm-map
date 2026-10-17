@@ -6,6 +6,7 @@ import { JurisdictionLinks } from "@/components/JurisdictionLinks";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { SourceLines } from "@/components/SourceLines";
+import { ZipPlaceSearchSection } from "@/components/ZipPlaceSearchSection";
 import {
   countyCitation,
   countyNameCitation,
@@ -78,6 +79,8 @@ export default async function StateCitiesPage({ params }: { params: Promise<{ st
       />
       <OfficialNotice compact />
       <JurisdictionLinks code={state.code} name={state.name} />
+
+      <ZipPlaceSearchSection scopeName={state.name} />
 
       <section>
         <h2 className="font-serif text-2xl font-semibold">Places</h2>

@@ -5,6 +5,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { SourceLines } from "@/components/SourceLines";
+import { ZipPlaceSearchSection } from "@/components/ZipPlaceSearchSection";
 import { gazetteerCitation, GAZETTEER_FILE, GAZETTEER_FILE_DATE } from "@/data/censusSources";
 import { placeManifest, placeStates } from "@/data/places/load";
 import { contentUpdatedLabel } from "@/lib/contentDate";
@@ -48,6 +49,8 @@ export default function CitiesIndexPage() {
         </p>
         <SourceLines sources={[gazetteerCitation]} />
       </section>
+
+      <ZipPlaceSearchSection />
 
       <section>
         <h2 className="font-serif text-2xl font-semibold">States and other jurisdictions</h2>

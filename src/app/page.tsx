@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BallotLookup } from "@/components/BallotLookup";
+import { ZipPlaceSearchSection } from "@/components/ZipPlaceSearchSection";
 import { EmailSignup } from "@/components/EmailSignup";
 import { FurtherReading } from "@/components/FurtherReading";
 import { JsonLd } from "@/components/JsonLd";
@@ -92,6 +93,8 @@ export default function HomePage() {
           <BallotLookup />
         </div>
       </section>
+
+      <ZipPlaceSearchSection />
 
       <section>
         <h2 className="font-serif text-2xl font-semibold">Four ways into the hub</h2>

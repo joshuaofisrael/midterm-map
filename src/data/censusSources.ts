@@ -53,3 +53,24 @@ export const cd120BefCitation: Citation = {
   url: "https://www.census.gov/geographies/mapping-files/2027/dec/rdo/120-congressional-district-bef.html",
   accessed: CENSUS_PLACES_UPDATED,
 };
+
+const RELATIONSHIP_FILES_URL =
+  "https://www.census.gov/geographies/reference-files/2020/geo/relationship-files.html";
+
+export const zctaPlaceCitation: Citation = {
+  name: "U.S. Census Bureau, 2020 ZIP Code Tabulation Area (ZCTA5) to 2020 Place Relationship File (tab20_zcta520_place20_natl.txt). Overlaps with no land area are omitted.",
+  url: RELATIONSHIP_FILES_URL,
+  accessed: CENSUS_PLACES_UPDATED,
+};
+
+export const zctaCd119Citation: Citation = {
+  name: "U.S. Census Bureau, 119th Congressional District to 2020 ZIP Code Tabulation Area Relationship File (tab20_cd11920_zcta520_natl.txt). Overlaps with no land area are omitted.",
+  url: RELATIONSHIP_FILES_URL,
+  accessed: CENSUS_PLACES_UPDATED,
+};
+
+export const zctaBlockCitation: Citation = {
+  name: "U.S. Census Bureau, 2020 ZIP Code Tabulation Area (ZCTA5) to 2020 Census Tabulation Block Relationship File (tab20_zcta520_tabblock20_natl.txt), joined to the 120th Congressional District Block Equivalency Files for Alabama, California, Florida, Louisiana, North Carolina, Ohio, Tennessee, Texas, and Utah. A 120th Congressional District to ZCTA relationship file is not published.",
+  url: RELATIONSHIP_FILES_URL,
+  accessed: CENSUS_PLACES_UPDATED,
+};

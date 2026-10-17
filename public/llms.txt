@@ -13,7 +13,7 @@
 
 ## Census places
 
-- [U.S. Census places](https://mapthemidterms.com/cities/): Index of incorporated places and census-designated places from the U.S. Census Bureau 2026 Gazetteer national places file (file date September 8, 2026). Each place page lists 2026 general-election candidate names and parties only from an official state election-office list read for that state, or says the official list is not yet published. State indexes are linked from that page. Individual place URLs are not listed in this file.
+- [U.S. Census places](https://mapthemidterms.com/cities/): Index of incorporated places and census-designated places from the U.S. Census Bureau 2026 Gazetteer national places file (file date September 8, 2026). Each place page lists 2026 general-election candidate names and parties only from an official state election-office list read for that state, or says the official list is not yet published. The homepage and city indexes include a browser-only ZIP search built from Census ZCTA relationship files. State indexes are linked from that page. Individual place URLs are not listed in this file.
 
 ## State hubs
 
