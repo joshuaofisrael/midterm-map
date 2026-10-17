@@ -61,6 +61,10 @@ export function CityBallot({ code, place }: { code: string; place: PlaceRecord }
   const uncheckedCounties = place.counties.filter(
     (county) => !extra?.countyRead?.[county] && !extra?.countyUnpublished?.[county],
   );
+  for (const county of readCounties) {
+    const listing = extra?.countyRead?.[county];
+    if (listing) sources.push({ name: listing.label, url: listing.href, accessed: READ });
+  }
   if (unpublishedCounties.length > 0) {
     for (const county of unpublishedCounties) {
       const listing = extra?.countyUnpublished?.[county];
@@ -232,6 +236,12 @@ function ContestBlock({
           {code === "NE" ? "The list's Term column prints" : "The list's Office Term column prints"} {term}.
         </p>
       ) : null}
+      {contest.termType ? (
+        <p className="mt-2 text-sm leading-6">The list&apos;s Term Type column prints {contest.termType}.</p>
+      ) : null}
+      {contest.termLength ? (
+        <p className="mt-2 text-sm leading-6">The list&apos;s Term Length column prints {contest.termLength}.</p>
+      ) : null}
       {contest.seats ? (
         <p className="mt-2 text-sm leading-6">The list&apos;s Number of Seats column prints {contest.seats}.</p>
       ) : null}
@@ -244,13 +254,15 @@ function ContestBlock({
           {marks.map((mark) => `${mark.name} ${mark.mark}`).join("; ")}.
         </p>
       ) : null}
-      <ol className="mt-2 list-decimal space-y-1 pl-5 text-sm leading-6">
-        {contest.candidates.map((candidate, index) => (
-          <li key={`${index}-${candidate.name}-${candidate.party}`}>
-            {candidate.party ? `${candidate.name} — ${candidate.party}` : candidate.name}
-          </li>
-        ))}
-      </ol>
+      {contest.candidates.length > 0 ? (
+        <ol className="mt-2 list-decimal space-y-1 pl-5 text-sm leading-6">
+          {contest.candidates.map((candidate, index) => (
+            <li key={`${index}-${candidate.name}-${candidate.party}`}>
+              {candidate.party ? `${candidate.name} — ${candidate.party}` : candidate.name}
+            </li>
+          ))}
+        </ol>
+      ) : null}
     </div>
   );
 }

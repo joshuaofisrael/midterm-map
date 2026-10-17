@@ -1,9 +1,9 @@
 {
   "placeCount": 32355,
   "sldPlaces": 31839,
-  "localPlaces": 3590,
-  "federalStateOnly": 28765,
-  "placesUnchecked": 28347,
+  "localPlaces": 5800,
+  "federalStateOnly": 26555,
+  "placesUnchecked": 25781,
   "accessed": "October 17, 2026",
   "localSources": [
     {
@@ -14,6 +14,11 @@
     {
       "name": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
       "url": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Florida Department of State, Division of Elections, 2026 notices of general election",
+      "url": "https://dos.fl.gov/elections/for-voters/notices-of-general-election",
       "accessed": "October 17, 2026"
     },
     {
@@ -29,6 +34,21 @@
     {
       "name": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
       "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "url": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "accessed": "October 17, 2026"
+    },
+    {
+      "name": "South Dakota Secretary of State, 2026 general election candidate list",
+      "url": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "url": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
       "accessed": "October 17, 2026"
     }
   ],
@@ -107,11 +127,11 @@
     },
     "FL": {
       "places": 958,
-      "placesWithLocal": 0,
+      "placesWithLocal": 958,
       "counties": 67,
-      "countiesRead": 0,
+      "countiesRead": 67,
       "countiesUnpublished": 0,
-      "countiesUnchecked": 67
+      "countiesUnchecked": 0
     },
     "GA": {
       "places": 674,
@@ -179,11 +199,11 @@
     },
     "LA": {
       "places": 484,
-      "placesWithLocal": 0,
+      "placesWithLocal": 152,
       "counties": 64,
-      "countiesRead": 0,
+      "countiesRead": 64,
       "countiesUnpublished": 0,
-      "countiesUnchecked": 64
+      "countiesUnchecked": 0
     },
     "MA": {
       "places": 248,
@@ -371,11 +391,11 @@
     },
     "SD": {
       "places": 485,
-      "placesWithLocal": 0,
+      "placesWithLocal": 461,
       "counties": 66,
-      "countiesRead": 0,
+      "countiesRead": 66,
       "countiesUnpublished": 0,
-      "countiesUnchecked": 66
+      "countiesUnchecked": 0
     },
     "TN": {
       "places": 503,
@@ -419,11 +439,11 @@
     },
     "WA": {
       "places": 639,
-      "placesWithLocal": 0,
+      "placesWithLocal": 639,
       "counties": 39,
-      "countiesRead": 0,
+      "countiesRead": 39,
       "countiesUnpublished": 0,
-      "countiesUnchecked": 39
+      "countiesUnchecked": 0
     },
     "WI": {
       "places": 807,

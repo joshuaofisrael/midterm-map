@@ -10453,531 +10453,10 @@
     ]
   },
   "countyRead": {
-    "Fauquier County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Fauquier County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Fauquier County."
-    },
-    "Lunenburg County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Lunenburg County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Lunenburg County."
-    },
-    "Spotsylvania County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Spotsylvania County."
-    },
-    "Russell County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Russell County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Russell County."
-    },
-    "Arlington County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Arlington County."
-    },
     "Covington city": {
       "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
       "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
       "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Covington city."
-    },
-    "Franklin city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Franklin city."
-    },
-    "Prince Edward County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Prince Edward County.",
-      "note": "The Virginia list also includes contests in Prince Edward County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Appomattox County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Appomattox County.",
-      "note": "The Virginia list also includes contests in Appomattox County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Charlottesville city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Charlottesville city.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Charlottesville city."
-    },
-    "Henry County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Henry County."
-    },
-    "Salem city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Salem city."
-    },
-    "Gloucester County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Gloucester County."
-    },
-    "Patrick County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Patrick County.",
-      "note": "The Virginia list also includes contests in Patrick County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Bath County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Bath County.",
-      "note": "The Virginia list also includes contests in Bath County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Rappahannock County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Rappahannock County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Rappahannock County."
-    },
-    "Scott County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Scott County.",
-      "note": "The Virginia list also includes contests in Scott County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Fredericksburg city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Fredericksburg city."
-    },
-    "Augusta County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Augusta County.",
-      "note": "The Virginia list also includes contests in Augusta County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Middlesex County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Middlesex County."
-    },
-    "Greene County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Greene County."
-    },
-    "Prince George County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Prince George County."
-    },
-    "Montgomery County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Montgomery County."
-    },
-    "Norfolk city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Norfolk city."
-    },
-    "Surry County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Surry County.",
-      "note": "The Virginia list also includes contests in Surry County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Accomack County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Accomack County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Accomack County."
-    },
-    "Goochland County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Goochland County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Goochland County."
-    },
-    "Hanover County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Hanover County."
-    },
-    "Madison County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Madison County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Madison County."
-    },
-    "Waynesboro city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Waynesboro city."
-    },
-    "Culpeper County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Culpeper County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Culpeper County."
-    },
-    "Washington County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Washington County.",
-      "note": "The Virginia list also includes contests in Washington County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Fairfax city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Fairfax city."
-    },
-    "Nelson County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Nelson County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Nelson County."
-    },
-    "Lynchburg city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Lynchburg city."
-    },
-    "Colonial Heights city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Colonial Heights city."
-    },
-    "Amelia County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Amelia County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Amelia County."
-    },
-    "Floyd County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Floyd County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Floyd County."
-    },
-    "Campbell County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Campbell County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Campbell County."
-    },
-    "Suffolk city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Suffolk city."
-    },
-    "Richmond city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Richmond city."
-    },
-    "Powhatan County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Powhatan County.",
-      "note": "The Virginia list also includes contests in Powhatan County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Mathews County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Mathews County."
-    },
-    "Fluvanna County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Fluvanna County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Fluvanna County."
-    },
-    "Highland County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Highland County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Highland County."
-    },
-    "Wythe County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Wythe County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Wythe County."
-    },
-    "Albemarle County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Albemarle County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Albemarle County."
-    },
-    "Isle of Wight County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Isle of Wight County.",
-      "note": "The Virginia list also includes contests in Isle of Wight County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Carroll County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Carroll County.",
-      "note": "The Virginia list also includes contests in Carroll County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Alexandria city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Alexandria city.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Alexandria city."
-    },
-    "Danville city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Danville city."
-    },
-    "Martinsville city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Martinsville city."
-    },
-    "Stafford County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Stafford County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Stafford County."
-    },
-    "Buena Vista city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Buena Vista city."
-    },
-    "Chesterfield County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Chesterfield County.",
-      "note": "The Virginia list also includes contests in Chesterfield County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Charles City County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Charles City County."
-    },
-    "King and Queen County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under King and Queen County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for King and Queen County."
-    },
-    "Dinwiddie County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Dinwiddie County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Dinwiddie County."
-    },
-    "Portsmouth city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Portsmouth city."
-    },
-    "Pulaski County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Pulaski County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Pulaski County."
-    },
-    "Galax city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Galax city."
-    },
-    "Emporia city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Emporia city."
-    },
-    "Williamsburg city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Williamsburg city."
-    },
-    "Chesapeake city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Chesapeake city."
-    },
-    "Harrisonburg city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Harrisonburg city."
-    },
-    "Dickenson County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Dickenson County.",
-      "note": "The Virginia list also includes contests in Dickenson County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Grayson County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Grayson County."
-    },
-    "Roanoke County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Roanoke County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Roanoke County."
-    },
-    "Greensville County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Greensville County."
-    },
-    "Northumberland County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Northumberland County.",
-      "note": "The Virginia list also includes contests in Northumberland County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Rockingham County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Rockingham County.",
-      "note": "The Virginia list also includes contests in Rockingham County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Orange County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Orange County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Orange County."
-    },
-    "King George County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under King George County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for King George County."
-    },
-    "Alleghany County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Alleghany County."
-    },
-    "Winchester city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Winchester city."
-    },
-    "Manassas Park city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Manassas Park city."
-    },
-    "Giles County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Giles County.",
-      "note": "The Virginia list also includes contests in Giles County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Radford city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Radford city."
-    },
-    "Brunswick County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Brunswick County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Brunswick County."
-    },
-    "Franklin County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Franklin County.",
-      "note": "The Virginia list also includes contests in Franklin County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Hampton city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Hampton city."
-    },
-    "Lancaster County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Lancaster County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Lancaster County."
-    },
-    "Westmoreland County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Westmoreland County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Westmoreland County."
-    },
-    "Frederick County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Frederick County.",
-      "note": "The Virginia list also includes contests in Frederick County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Staunton city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Staunton city."
-    },
-    "Norton city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Norton city."
-    },
-    "Amherst County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Amherst County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Amherst County."
-    },
-    "Newport News city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Newport News city."
-    },
-    "Manassas city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Manassas city."
-    },
-    "Prince William County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Prince William County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Prince William County."
-    },
-    "Tazewell County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Tazewell County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Tazewell County."
-    },
-    "Bristol city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Bristol city."
-    },
-    "Essex County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Essex County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Essex County."
-    },
-    "Northampton County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Northampton County."
-    },
-    "Loudoun County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Loudoun County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Loudoun County."
     },
     "Warren County": {
       "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
@@ -10985,114 +10464,11 @@
       "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Warren County.",
       "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Warren County."
     },
-    "Botetourt County": {
+    "Dinwiddie County": {
       "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
       "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Botetourt County."
-    },
-    "York County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under York County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for York County."
-    },
-    "Shenandoah County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Shenandoah County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Shenandoah County."
-    },
-    "Smyth County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Smyth County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Smyth County."
-    },
-    "Roanoke city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Roanoke city."
-    },
-    "Falls Church city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Falls Church city.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Falls Church city."
-    },
-    "Southampton County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Southampton County.",
-      "note": "The Virginia list also includes contests in Southampton County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Caroline County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Caroline County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Caroline County."
-    },
-    "Lee County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Lee County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Lee County."
-    },
-    "Rockbridge County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Rockbridge County.",
-      "note": "The Virginia list also includes contests in Rockbridge County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Clarke County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Clarke County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Clarke County."
-    },
-    "Virginia Beach city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Virginia Beach city."
-    },
-    "Bland County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Bland County."
-    },
-    "Cumberland County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Cumberland County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Cumberland County."
-    },
-    "King William County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under King William County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for King William County."
-    },
-    "Fairfax County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Fairfax County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Fairfax County."
-    },
-    "Buchanan County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Buchanan County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Buchanan County."
-    },
-    "Charlotte County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Charlotte County."
-    },
-    "Page County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Page County.",
-      "note": "The Virginia list also includes contests in Page County whose district cell does not name one Census place, so those contests are not copied here."
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Dinwiddie County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Dinwiddie County."
     },
     "Henrico County": {
       "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
@@ -11100,61 +10476,37 @@
       "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Henrico County.",
       "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Henrico County."
     },
-    "Buckingham County": {
+    "Hampton city": {
       "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
       "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Buckingham County.",
-      "note": "The Virginia list also includes contests in Buckingham County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Lexington city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Lexington city."
-    },
-    "New Kent County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under New Kent County.",
-      "note": "The Virginia list also includes contests in New Kent County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Petersburg city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Petersburg city."
-    },
-    "Hopewell city": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Hopewell city."
-    },
-    "Craig County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Craig County.",
-      "note": "The Virginia list also includes contests in Craig County whose district cell does not name one Census place, so those contests are not copied here."
-    },
-    "Pittsylvania County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Pittsylvania County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Pittsylvania County."
-    },
-    "Nottoway County": {
-      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Nottoway County.",
-      "note": "The Virginia list also includes contests in Nottoway County whose district cell does not name one Census place, so those contests are not copied here."
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Hampton city."
     },
     "Bedford County": {
       "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
       "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
       "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Bedford County."
     },
-    "Richmond County": {
+    "Franklin County": {
       "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
       "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Richmond County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Richmond County."
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Franklin County.",
+      "note": "The Virginia list also includes contests in Franklin County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Poquoson city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Poquoson city."
+    },
+    "Roanoke city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Roanoke city."
+    },
+    "Rockbridge County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Rockbridge County.",
+      "note": "The Virginia list also includes contests in Rockbridge County whose district cell does not name one Census place, so those contests are not copied here."
     },
     "Louisa County": {
       "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
@@ -11162,22 +10514,248 @@
       "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Louisa County.",
       "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Louisa County."
     },
-    "Mecklenburg County": {
+    "Amherst County": {
       "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
       "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Mecklenburg County.",
-      "note": "The Virginia list also includes contests in Mecklenburg County whose district cell does not name one Census place, so those contests are not copied here."
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Amherst County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Amherst County."
     },
-    "Wise County": {
+    "Fairfax County": {
       "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
       "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Wise County.",
-      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Wise County."
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Fairfax County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Fairfax County."
     },
-    "Poquoson city": {
+    "Essex County": {
       "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
       "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Poquoson city."
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Essex County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Essex County."
+    },
+    "Arlington County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Arlington County."
+    },
+    "Lancaster County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Lancaster County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Lancaster County."
+    },
+    "Portsmouth city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Portsmouth city."
+    },
+    "Clarke County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Clarke County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Clarke County."
+    },
+    "York County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under York County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for York County."
+    },
+    "Manassas Park city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Manassas Park city."
+    },
+    "Dickenson County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Dickenson County.",
+      "note": "The Virginia list also includes contests in Dickenson County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Patrick County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Patrick County.",
+      "note": "The Virginia list also includes contests in Patrick County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Norton city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Norton city."
+    },
+    "Radford city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Radford city."
+    },
+    "Alexandria city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Alexandria city.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Alexandria city."
+    },
+    "Carroll County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Carroll County.",
+      "note": "The Virginia list also includes contests in Carroll County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Montgomery County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Montgomery County."
+    },
+    "Campbell County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Campbell County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Campbell County."
+    },
+    "Nelson County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Nelson County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Nelson County."
+    },
+    "King William County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under King William County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for King William County."
+    },
+    "Lynchburg city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Lynchburg city."
+    },
+    "Williamsburg city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Williamsburg city."
+    },
+    "Fluvanna County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Fluvanna County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Fluvanna County."
+    },
+    "Prince William County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Prince William County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Prince William County."
+    },
+    "Halifax County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Halifax County."
+    },
+    "Albemarle County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Albemarle County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Albemarle County."
+    },
+    "Harrisonburg city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Harrisonburg city."
+    },
+    "Bath County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Bath County.",
+      "note": "The Virginia list also includes contests in Bath County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Bland County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Bland County."
+    },
+    "Petersburg city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Petersburg city."
+    },
+    "Loudoun County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Loudoun County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Loudoun County."
+    },
+    "Roanoke County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Roanoke County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Roanoke County."
+    },
+    "Colonial Heights city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Colonial Heights city."
+    },
+    "Pittsylvania County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Pittsylvania County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Pittsylvania County."
+    },
+    "Spotsylvania County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Spotsylvania County."
+    },
+    "Powhatan County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Powhatan County.",
+      "note": "The Virginia list also includes contests in Powhatan County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Alleghany County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Alleghany County."
+    },
+    "Goochland County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Goochland County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Goochland County."
+    },
+    "Russell County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Russell County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Russell County."
+    },
+    "Lunenburg County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Lunenburg County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Lunenburg County."
+    },
+    "Northumberland County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Northumberland County.",
+      "note": "The Virginia list also includes contests in Northumberland County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Lee County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Lee County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Lee County."
+    },
+    "Pulaski County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Pulaski County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Pulaski County."
+    },
+    "Culpeper County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Culpeper County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Culpeper County."
     },
     "Sussex County": {
       "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
@@ -11185,10 +10763,432 @@
       "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Sussex County.",
       "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Sussex County."
     },
-    "Halifax County": {
+    "Floyd County": {
       "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
       "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Halifax County."
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Floyd County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Floyd County."
+    },
+    "Appomattox County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Appomattox County.",
+      "note": "The Virginia list also includes contests in Appomattox County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Frederick County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Frederick County.",
+      "note": "The Virginia list also includes contests in Frederick County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Middlesex County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Middlesex County."
+    },
+    "Southampton County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Southampton County.",
+      "note": "The Virginia list also includes contests in Southampton County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Augusta County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Augusta County.",
+      "note": "The Virginia list also includes contests in Augusta County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Norfolk city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Norfolk city."
+    },
+    "King and Queen County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under King and Queen County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for King and Queen County."
+    },
+    "Rockingham County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Rockingham County.",
+      "note": "The Virginia list also includes contests in Rockingham County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Rappahannock County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Rappahannock County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Rappahannock County."
+    },
+    "Cumberland County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Cumberland County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Cumberland County."
+    },
+    "Wythe County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Wythe County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Wythe County."
+    },
+    "Buchanan County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Buchanan County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Buchanan County."
+    },
+    "Lexington city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Lexington city."
+    },
+    "Nottoway County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Nottoway County.",
+      "note": "The Virginia list also includes contests in Nottoway County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Fredericksburg city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Fredericksburg city."
+    },
+    "Mathews County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Mathews County."
+    },
+    "Surry County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Surry County.",
+      "note": "The Virginia list also includes contests in Surry County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Botetourt County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Botetourt County."
+    },
+    "Grayson County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Grayson County."
+    },
+    "Chesapeake city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Chesapeake city."
+    },
+    "Washington County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Washington County.",
+      "note": "The Virginia list also includes contests in Washington County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Chesterfield County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Chesterfield County.",
+      "note": "The Virginia list also includes contests in Chesterfield County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Franklin city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Franklin city."
+    },
+    "Amelia County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Amelia County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Amelia County."
+    },
+    "Orange County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Orange County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Orange County."
+    },
+    "Suffolk city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Suffolk city."
+    },
+    "Charlottesville city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Charlottesville city.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Charlottesville city."
+    },
+    "Accomack County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Accomack County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Accomack County."
+    },
+    "Fairfax city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Fairfax city."
+    },
+    "Hanover County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Hanover County."
+    },
+    "Martinsville city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Martinsville city."
+    },
+    "Charles City County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Charles City County."
+    },
+    "New Kent County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under New Kent County.",
+      "note": "The Virginia list also includes contests in New Kent County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Buena Vista city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Buena Vista city."
+    },
+    "Northampton County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Northampton County."
+    },
+    "Salem city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Salem city."
+    },
+    "Smyth County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Smyth County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Smyth County."
+    },
+    "Falls Church city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Falls Church city.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Falls Church city."
+    },
+    "Staunton city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Staunton city."
+    },
+    "Brunswick County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Brunswick County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Brunswick County."
+    },
+    "Giles County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Giles County.",
+      "note": "The Virginia list also includes contests in Giles County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Scott County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Scott County.",
+      "note": "The Virginia list also includes contests in Scott County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Shenandoah County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Shenandoah County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Shenandoah County."
+    },
+    "Emporia city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Emporia city."
+    },
+    "Tazewell County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Tazewell County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Tazewell County."
+    },
+    "Caroline County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Caroline County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Caroline County."
+    },
+    "Buckingham County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Buckingham County.",
+      "note": "The Virginia list also includes contests in Buckingham County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Wise County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Wise County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Wise County."
+    },
+    "Greensville County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Greensville County."
+    },
+    "King George County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under King George County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for King George County."
+    },
+    "Richmond County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Richmond County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Richmond County."
+    },
+    "Isle of Wight County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Isle of Wight County.",
+      "note": "The Virginia list also includes contests in Isle of Wight County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Henry County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Henry County."
+    },
+    "Manassas city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Manassas city."
+    },
+    "Page County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Page County.",
+      "note": "The Virginia list also includes contests in Page County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Hopewell city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Hopewell city."
+    },
+    "Mecklenburg County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Mecklenburg County.",
+      "note": "The Virginia list also includes contests in Mecklenburg County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Greene County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Greene County."
+    },
+    "Stafford County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Stafford County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Stafford County."
+    },
+    "Virginia Beach city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Virginia Beach city."
+    },
+    "Westmoreland County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Westmoreland County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Westmoreland County."
+    },
+    "Bristol city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Bristol city."
+    },
+    "Danville city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Danville city."
+    },
+    "Waynesboro city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Waynesboro city."
+    },
+    "Winchester city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Winchester city."
+    },
+    "Madison County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Madison County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Madison County."
+    },
+    "Newport News city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Newport News city."
+    },
+    "Galax city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Galax city."
+    },
+    "Highland County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Highland County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Highland County."
+    },
+    "Prince Edward County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Prince Edward County.",
+      "note": "The Virginia list also includes contests in Prince Edward County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Craig County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Craig County.",
+      "note": "The Virginia list also includes contests in Craig County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Gloucester County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Gloucester County."
+    },
+    "Charlotte County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Charlotte County."
+    },
+    "Prince George County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Prince George County."
+    },
+    "Fauquier County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Fauquier County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Fauquier County."
+    },
+    "Richmond city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Richmond city."
     }
   }
 }

@@ -591,6 +591,147 @@ def parse_mn(places: list[dict]) -> dict:
     }
 
 
+FL_NOTICE_DIR = CAND / "gaps" / "fl"
+FL_NOTICE_PAGE = CAND / "gaps" / "fl-notices.html"
+FL_COUNTYWIDE_PREFIXES = (
+    "County Judge",
+    "Clerk of the Circuit Court",
+    "Sheriff",
+    "Tax Collector",
+    "Property Appraiser",
+    "Supervisor of Elections",
+    "Superintendent",
+    "County Mayor",
+    "County Attorney",
+    "Circuit Judge",
+    "State Attorney",
+    "Public Defender",
+)
+
+
+def parse_fl_notices(places: list[dict]) -> dict:
+    """Offices named in the Secretary of State's November 2026 notices. Notices do not name candidates."""
+    if not FL_NOTICE_DIR.is_dir():
+        raise SystemExit("Florida notice text is not in /tmp/cand/gaps/fl")
+    census = census_county_index(places)
+    compact = {
+        re.sub(r"[^A-Z]", "", re.sub(r"\s+County$", "", name, flags=re.I).upper()): name
+        for name in census.values()
+    }
+    notice_url = {}
+    if FL_NOTICE_PAGE.exists():
+        html = FL_NOTICE_PAGE.read_text(encoding="utf-8", errors="replace")
+        for row in re.findall(r"<tr[^>]*>(.*?)</tr>", html, flags=re.I | re.S):
+            cells = re.findall(r"<td[^>]*>(.*?)</td>", row, flags=re.I | re.S)
+            if len(cells) < 2:
+                continue
+            county_cell = re.sub(r"<[^>]+>", " ", cells[0])
+            county_cell = re.sub(r"\s+", " ", county_cell).strip()
+            county_cell = re.sub(r"\s*\(Amended[^)]*\)", "", county_cell).strip()
+            href = re.search(r'href="([^"]*english\.pdf[^"]*)"', cells[1], re.I)
+            if not href or county_cell in ("County/Condado", ""):
+                continue
+            token = re.sub(r"[^A-Z]", "", county_cell.upper())
+            notice_url[token] = "https://dos.fl.gov" + href.group(1).split("?")[0]
+
+    local_by_county: dict[str, list[dict]] = {}
+    county_read: dict[str, dict] = {}
+    index_href = "https://dos.fl.gov/elections/for-voters/notices-of-general-election"
+    for path in sorted(FL_NOTICE_DIR.glob("*.txt")):
+        text = path.read_text(encoding="utf-8", errors="replace")
+        found = re.search(r"held in ([A-Z0-9][A-Z0-9 .'\-]+?) County", text)
+        if not found:
+            raise SystemExit(f"{path.name} has no county")
+        token = re.sub(r"[^A-Z]", "", found.group(1).upper())
+        county = compact.get(token)
+        if not county:
+            raise SystemExit(f"FL notice county {found.group(1)!r} is not a Census county")
+        grab = False
+        buf: list[str] = []
+        offices: list[str] = []
+
+        def flush() -> None:
+            if buf:
+                offices.append(re.sub(r"\s+", " ", " ".join(buf)).strip())
+                buf.clear()
+
+        for raw in text.splitlines():
+            line = raw.strip()
+            if "following offices" in line.lower():
+                grab = True
+                continue
+            if not grab:
+                continue
+            if line.startswith("GIVEN"):
+                flush()
+                break
+            if (
+                not line
+                or line.startswith("**")
+                or line.startswith("Page ")
+                or line.startswith("AMENDED NOTICE")
+                or line.startswith("NOTICE OF")
+                or line.startswith("I, Cord")
+                or line.startswith("ELECTION will")
+                or line.startswith("NOVEMBER")
+                or "Secretary of State" in line
+                or line.startswith("of Florida")
+            ):
+                continue
+            if re.match(r"^[\d,]", line) or line.lower().startswith("and "):
+                buf.append(line)
+                continue
+            flush()
+            buf.append(line)
+        flush()
+        local = []
+        omitted = False
+        for office in offices:
+            if office.startswith(("United States", "Representative in Congress", "Florida Cabinet", "State Senator", "State Representative")):
+                continue
+            if office.startswith(FL_COUNTYWIDE_PREFIXES):
+                local.append(contest(office, None, []))
+            else:
+                omitted = True
+        if local:
+            local_by_county[county] = local
+        href = notice_url.get(token, index_href)
+        record = {
+            "label": f"Florida Department of State, notice of the November 2026 general election for {county}",
+            "href": href,
+            "intro": (
+                f"The Florida Department of State notice of general election lists these local offices for {county}. "
+                "The notice does not name candidates."
+            ),
+        }
+        if omitted:
+            record["note"] = (
+                f"The notice also names district and special-district offices in {county} and does not identify "
+                "which places are in each district, so those offices are not copied here."
+            )
+        elif not local:
+            record["empty"] = (
+                f"The Florida notice of general election does not include a countywide local office for {county}."
+            )
+        county_read[county] = record
+    if set(county_read) != set(census.values()):
+        missing = sorted(set(census.values()) - set(county_read))
+        raise SystemExit(f"FL notices missing Census counties: {missing}")
+    return {
+        "statewide": [],
+        "upper": {},
+        "lower": {},
+        "localByCounty": local_by_county,
+        "countyRead": county_read,
+        "extraSources": [
+            {
+                "name": "Florida Department of State, Division of Elections, 2026 notices of general election",
+                "url": index_href,
+            }
+        ],
+    }
+
+
 def parse_ne() -> dict:
     text = (LISTS / "ne.md").read_text(encoding="utf-8", errors="replace")
     grouped: dict[str, list[dict]] = {}
@@ -1116,6 +1257,421 @@ def parse_va(places: list[dict]) -> dict:
     }
 
 
+def place_named(places: list[dict], label: str) -> dict | None:
+    """Match a city or town label to one Census place. Ward and district labels do not match."""
+    label = re.sub(r"^(city|town)\s+of\s+", "", label.strip(), flags=re.I)
+    key = norm_name(label)
+    if not key:
+        return None
+    hits = []
+    for place in places:
+        base = re.sub(r"\s+(city|town|village|cdp|borough|municipality)$", "", place["name"], flags=re.I)
+        if norm_name(base) == key:
+            hits.append(place)
+    incorporated = [place for place in hits if re.search(r"\s+(city|town)$", place["name"], re.I)]
+    if len(incorporated) == 1:
+        return incorporated[0]
+    if len(hits) == 1:
+        return hits[0]
+    return None
+
+
+def parse_wa(places: list[dict]) -> dict:
+    """County-filtered rows from the VoteWA November 2026 general candidate list.
+
+    Commissioner districts, electoral-district courts, and city council districts stay off
+    place pages. Countywide offices and citywide offices that name one Census place are copied.
+    """
+    census = census_county_index(places)
+    directory = CAND / "gaps" / "wa" / "counties"
+    files = sorted(directory.glob("*.html"))
+    if len(files) != 39:
+        raise SystemExit(f"WA county pages {len(files)}")
+    grouped: dict[tuple, list[dict]] = {}
+    omitted: set[str] = set()
+    seen_counties: set[str] = set()
+
+    def add_person(bucket: list[dict], name: str, party: str) -> None:
+        if not any(item["name"] == name and item["party"] == party for item in bucket):
+            bucket.append(person(name, party))
+
+    def consider(county_name: str, row: dict) -> None:
+        kind = row["type"].casefold()
+        district = row["district"].strip()
+        race = row["race"].strip()
+        status = row["status"].strip()
+        if status and status.casefold() != "active":
+            return
+        if kind in {"congressional", "legislative"}:
+            return
+        if "supreme court" in district.casefold() or "court of appeals" in district.casefold():
+            return
+        folded = f"{district} {race}".casefold()
+        district_court = "district court" in race.casefold() or kind == "district court"
+        electoral = "electoral district" in district.casefold()
+        subdivided = bool(
+            re.search(r"\b(precinct|ward)\b", folded)
+            or electoral
+            or (re.search(r"\bdistrict\b", race, re.I) and "district court" not in race.casefold())
+            or re.search(r"council district|commissioner district|councilor", folded)
+            or (re.search(r"commissioner", race, re.I) and re.search(r"\d", race))
+        )
+        countywide_type = kind in {"countywide", "county"}
+        district_is_county = district.casefold() in {"county", county_name.casefold(), county_name.removesuffix(" County").casefold()}
+        if district_court and not district_is_county:
+            omitted.add(county_name)
+            return
+        if subdivided or (countywide_type and not district_is_county):
+            omitted.add(county_name)
+            return
+        if countywide_type or (district_court and district_is_county):
+            bucket = grouped.setdefault(("county", county_name, race), [])
+            bucket.append(row)
+            return
+        if kind in {"city/town", "city council"}:
+            place = place_named(places, district)
+            if not place or county_name not in place["counties"]:
+                omitted.add(county_name)
+                return
+            grouped.setdefault(("place", place["geoid"], race), []).append(row)
+            return
+        if kind in {"public utility", "fire", "port", "council", "commissioner"}:
+            omitted.add(county_name)
+
+    for path in files:
+        match = re.match(r"\d+-(.+)\.html$", path.name)
+        if not match:
+            raise SystemExit(path.name)
+        county_name = census.get(county_key(match.group(1).replace("_", " ") + " County"))
+        if not county_name:
+            raise SystemExit(f"WA county file {path.name}")
+        seen_counties.add(county_name)
+        text = path.read_text(encoding="utf-8", errors="replace")
+        parts = text.split("<!DOCTYPE")
+        html = "<!DOCTYPE" + parts[1] if len(parts) > 1 else text
+        parser = Rows()
+        parser.feed(html)
+        for cells in parser.rows:
+            if len(cells) < 12 or cells[0] in {"District Type", "Command item"} or cells[0].startswith("Data pager"):
+                continue
+            consider(
+                county_name,
+                {
+                    "type": cells[0],
+                    "district": cells[1],
+                    "race": cells[2],
+                    "termType": cells[3],
+                    "termLength": cells[4],
+                    "name": cells[5],
+                    "party": cells[10],
+                    "status": cells[11],
+                },
+            )
+        if county_name == "King County":
+            extra = json.loads((CAND / "gaps" / "wa" / "king-page2.json").read_text(encoding="utf-8"))
+            if len(extra) != 53:
+                raise SystemExit(f"WA King page 2 has {len(extra)} rows")
+            for row in extra:
+                consider(county_name, row)
+    if seen_counties != set(census.values()):
+        raise SystemExit(f"WA counties read {len(seen_counties)} of {len(set(census.values()))}")
+
+    def finish(rows: list[dict]) -> dict:
+        people = []
+        for row in rows:
+            add_person(people, row["name"], row["party"])
+        term_types = {row["termType"] for row in rows if row.get("termType")}
+        term_lengths = {row["termLength"] for row in rows if row.get("termLength")}
+        return contest(
+            rows[0]["race"],
+            None,
+            people,
+            termType=next(iter(term_types)) if len(term_types) == 1 else None,
+            termLength=next(iter(term_lengths)) if len(term_lengths) == 1 else None,
+        )
+
+    local: dict[str, list[dict]] = defaultdict(list)
+    local_by_county: dict[str, list[dict]] = defaultdict(list)
+    for (scope, key, _race), rows in grouped.items():
+        item = finish(rows)
+        if not item["candidates"]:
+            continue
+        if scope == "county":
+            local_by_county[key].append(item)
+        else:
+            local[key].append(item)
+    for rows in local.values():
+        rows.sort(key=lambda item: item["office"])
+    for rows in local_by_county.values():
+        rows.sort(key=lambda item: item["office"])
+    label = "Washington Secretary of State, VoteWA GENERAL 2026 candidate list"
+    href = "https://voter.votewa.gov/CandidateList.aspx?e=899"
+    county_read = {}
+    for county_name in sorted(seen_counties):
+        record = {
+            "label": label,
+            "href": href,
+            "intro": f"The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for {county_name}.",
+        }
+        if county_name in omitted:
+            record["note"] = (
+                f"The VoteWA list also includes contests in {county_name} whose district does not name one Census place, "
+                "so those contests are not copied here."
+            )
+        elif county_name not in local_by_county:
+            record["empty"] = (
+                f"The VoteWA GENERAL 2026 candidate list does not include a countywide local contest for {county_name}."
+            )
+        county_read[county_name] = record
+    return {
+        "date": {
+            "quote": "11/03/2026",
+            "text": "The VoteWA candidate list selected here is GENERAL 2026 (11/03/2026).",
+        },
+        "statewide": [],
+        "upper": {},
+        "lower": {},
+        "local": local,
+        "localIntro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for this place.",
+        "localByCounty": local_by_county,
+        "countyRead": county_read,
+    }
+
+
+def parse_sd(places: list[dict]) -> dict:
+    """County and city offices from the South Dakota Secretary of State 2026 general candidate list.
+
+    Commissioner districts, wards, and water or conservation districts are not copied onto places.
+    """
+    import csv
+
+    census = census_county_index(places)
+    path = CAND / "gaps" / "sd" / "candidates.bin"
+    rows = list(csv.DictReader(path.read_text(encoding="utf-8-sig").splitlines()))
+    if len(rows) < 700:
+        raise SystemExit(f"SD candidate file has {len(rows)} rows")
+    countywide = {
+        "sheriff",
+        "county auditor",
+        "register of deeds",
+        "county finance officer",
+        "coroner",
+        "county treasurer",
+        "states attorney",
+        "county commissioner at large",
+    }
+    citywide = {"trustee", "city commissioner", "city council member"}
+    grouped: dict[tuple, list[tuple[int, dict]]] = defaultdict(list)
+    omitted: set[str] = set()
+
+    def county_of(value: str) -> str | None:
+        direct = census.get(county_key(f"{value} County")) or census.get(county_key(value))
+        if direct:
+            return direct
+        head = re.split(r"\s*-\s*|\s+district\b", value, maxsplit=1, flags=re.I)[0].strip()
+        if head and head != value:
+            return census.get(county_key(f"{head} County"))
+        return None
+
+    for row in rows:
+        name = row["Name"].strip()
+        if not name or "withdrawn" in name.casefold():
+            continue
+        contest_name = row["Contest"].strip()
+        district = row["District/County"].strip()
+        try:
+            order = int(row["Ballot Order"])
+        except ValueError:
+            order = 0
+        folded = contest_name.casefold()
+        if folded in countywide:
+            county_name = county_of(district)
+            if not county_name:
+                raise SystemExit(f"SD county {district!r} for {contest_name}")
+            grouped[("county", county_name, contest_name)].append((order, person(name, row["Party"])))
+            continue
+        if folded in citywide and "ward" not in district.casefold():
+            place = place_named(places, district)
+            if place:
+                grouped[("place", place["geoid"], contest_name)].append((order, person(name, row["Party"])))
+                continue
+        county_name = county_of(district)
+        if county_name and folded not in {"united states senator", "united states representative"}:
+            if folded.startswith("state ") or folded in {
+                "governor and lieutenant governor",
+                "secretary of state",
+                "attorney general",
+                "state auditor",
+                "state treasurer",
+                "commissioner of school and public lands",
+                "public utilities commissioner",
+            }:
+                continue
+            omitted.add(county_name)
+
+    local: dict[str, list[dict]] = defaultdict(list)
+    local_by_county: dict[str, list[dict]] = defaultdict(list)
+    for (scope, key, office), people in grouped.items():
+        people.sort(key=lambda item: item[0])
+        candidates = []
+        for _order, candidate in people:
+            if not any(item["name"] == candidate["name"] and item["party"] == candidate["party"] for item in candidates):
+                candidates.append(candidate)
+        item = contest(office, None, candidates)
+        if scope == "county":
+            local_by_county[key].append(item)
+        else:
+            local[key].append(item)
+    for bucket in local.values():
+        bucket.sort(key=lambda item: item["office"])
+    for bucket in local_by_county.values():
+        bucket.sort(key=lambda item: item["office"])
+    label = "South Dakota Secretary of State, 2026 general election candidate list"
+    href = "https://vip.sdsos.gov/candidatelist.aspx?eid=774"
+    county_read = {}
+    for county_name in sorted(set(census.values())):
+        record = {
+            "label": label,
+            "href": href,
+            "intro": f"The South Dakota Secretary of State 2026 general election candidate list names these local offices for {county_name}.",
+        }
+        if county_name in omitted:
+            record["note"] = (
+                f"The South Dakota list also includes contests in {county_name} whose district does not name one Census place, "
+                "so those contests are not copied here."
+            )
+        elif county_name not in local_by_county:
+            record["empty"] = (
+                f"The South Dakota 2026 general election candidate list does not include a countywide local contest for {county_name}."
+            )
+        county_read[county_name] = record
+    return {
+        "statewide": [],
+        "upper": {},
+        "lower": {},
+        "local": local,
+        "localIntro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for this place.",
+        "localByCounty": local_by_county,
+        "countyRead": county_read,
+    }
+
+
+def parse_la(places: list[dict]) -> dict:
+    """Parish and municipal offices from the Louisiana Secretary of State candidate inquiry for 11/03/2026.
+
+    Rows marked Unopposed, Withdrew, Other/Disq, or Deceased are not copied. District, ward, and
+    judicial-district contests are not copied onto a place. Address, phone, email, race, and gender
+    columns are not copied.
+    """
+    import csv
+
+    census = census_county_index(places)
+    directory = CAND / "gaps" / "la"
+    files = sorted(directory.glob("*.csv"))
+    if len(files) != 64:
+        raise SystemExit(f"LA parish files {len(files)}")
+    grouped: dict[tuple, list[dict]] = {}
+    omitted: set[str] = set()
+    skip_titles = {
+        "u. s. senator",
+        "u. s. representative",
+        "state representative",
+    }
+
+    def parish_name(value: str) -> str:
+        label = re.sub(r"\s*-\s*\d+$", "", value).strip()
+        found = census.get(county_key(f"{label} Parish"))
+        if not found:
+            raise SystemExit(f"LA parish {value!r}")
+        return found
+
+    def municipality(description: str) -> str | None:
+        match = re.search(r"(?:city|town|village)\s+of\s+(.+)$", description.strip(), flags=re.I)
+        return match.group(1).strip() if match else None
+
+    for path in files:
+        for row in csv.DictReader(path.read_text(encoding="utf-8-sig").splitlines()):
+            if row["Outcome"].strip():
+                continue
+            office = row["OfficeTitle"].strip()
+            description = row["OfficeTitleDescription"].strip()
+            if office.casefold() in skip_titles:
+                continue
+            parish = parish_name(row["Parish"])
+            name = " ".join(part.strip() for part in (row["BallotFirstName"], row["BallotLastName"], row["BallotSuffix"]) if part.strip())
+            candidate = person(name, row["Party"])
+            folded = f"{office} {description}".casefold()
+            geographic = bool(re.search(r"\b(district|dist\.|elec\.|election|division|ward|precinct)\b", description, re.I))
+            at_large = "at large" in office.casefold()
+            place_label = municipality(description)
+            if office in {"Sheriff", "Parish President"} and not description:
+                grouped.setdefault(("county", parish, office), []).append(candidate)
+                continue
+            if place_label and (not geographic or at_large):
+                place = place_named(places, place_label)
+                if not place or parish not in place["counties"]:
+                    omitted.add(parish)
+                    continue
+                seat = ""
+                if at_large and "," in description:
+                    seat = description.split(",", 1)[0].strip()
+                label = f"{office}, {seat}" if seat else office
+                grouped.setdefault(("place", place["geoid"], label), []).append(candidate)
+                continue
+            if re.search(r"\b(judge|justice|district attorney|magistrate)\b", office, re.I):
+                omitted.add(parish)
+                continue
+            omitted.add(parish)
+
+    local: dict[str, list[dict]] = defaultdict(list)
+    local_by_county: dict[str, list[dict]] = defaultdict(list)
+    for (scope, key, office), people in grouped.items():
+        candidates = []
+        for candidate in people:
+            if not any(item["name"] == candidate["name"] and item["party"] == candidate["party"] for item in candidates):
+                candidates.append(candidate)
+        item = contest(office, None, candidates)
+        if scope == "county":
+            local_by_county[key].append(item)
+        else:
+            local[key].append(item)
+    for bucket in (*local.values(), *local_by_county.values()):
+        bucket.sort(key=lambda item: item["office"])
+    label = "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election"
+    href = "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103"
+    county_read = {}
+    for parish in sorted(set(census.values())):
+        record = {
+            "label": label,
+            "href": href,
+            "intro": f"The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for {parish}.",
+        }
+        record["note"] = (
+            "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. "
+            f"The inquiry also includes contests in {parish} whose district does not name one Census place, so those contests are not copied here."
+            if parish in omitted
+            else "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied."
+        )
+        if parish not in local_by_county and parish not in omitted:
+            record["empty"] = (
+                f"The Louisiana candidate inquiry does not include a parishwide local contest for {parish}."
+            )
+        county_read[parish] = record
+    return {
+        "date": {
+            "quote": "11/03/2026",
+            "text": "The Louisiana Secretary of State candidate inquiry export prints Election 11/03/2026.",
+        },
+        "statewide": [],
+        "upper": {},
+        "lower": {},
+        "local": local,
+        "localIntro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for this place.",
+        "localByCounty": local_by_county,
+        "countyRead": county_read,
+    }
+
+
 def pack_state(parsed: dict) -> dict:
     record = {
         "statewide": parsed.get("statewide", []),
@@ -1143,11 +1699,15 @@ def main() -> None:
         "WI": parse_wi(),
         "MI": parse_mi(),
         "MN": parse_mn(places["MN"]),
+        "FL": parse_fl_notices(places["FL"]),
         "IL": parse_il(),
         "NM": parse_nm(places["NM"]),
         "NE": parse_ne(),
         "TX": parse_tx(places["TX"]),
         "VA": parse_va(places["VA"]),
+        "WA": parse_wa(places["WA"]),
+        "SD": parse_sd(places["SD"]),
+        "LA": parse_la(places["LA"]),
     }
     OUT.mkdir(parents=True, exist_ok=True)
     packed_by: dict[str, dict] = {}
@@ -1211,6 +1771,10 @@ def main() -> None:
                 continue
             seen_sources.add(key)
             local_sources.append({**source, "accessed": READ})
+        hrefs = {listing["href"] for listing in (packed.get("countyRead") or {}).values()}
+        # A state notice index is already in extraSources. Do not repeat one source line per county.
+        if len(hrefs) > 5:
+            continue
         for listing in (packed.get("countyRead") or {}).values():
             key = (listing["label"], listing["href"])
             if key in seen_sources:
@@ -1228,7 +1792,66 @@ def main() -> None:
         "byState": by_state,
     }
     (OUT / "coverage.json").write_text(json.dumps(coverage, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps(coverage, indent=2))
+    gaps_path = OUT / "gaps.json"
+    before = None
+    if gaps_path.exists():
+        before = json.loads(gaps_path.read_text(encoding="utf-8")).get("before")
+    if not before:
+        before = {
+            "localPlaces": coverage["localPlaces"],
+            "placesUnchecked": coverage["placesUnchecked"],
+            "federalStateOnly": coverage["federalStateOnly"],
+            "byState": coverage["byState"],
+        }
+    county_rows = []
+    for code in sorted(places):
+        packed = packed_by.get(code, {})
+        read = set(packed.get("countyRead") or {})
+        unpublished = set(packed.get("countyUnpublished") or {})
+        by_county = packed.get("localByCounty") or {}
+        local = packed.get("local") or {}
+        grouped: dict[str, dict] = {}
+        for place in places[code]:
+            for county in place["counties"]:
+                bucket = grouped.setdefault(county, {"places": 0, "placesWithLocal": 0})
+                bucket["places"] += 1
+                if local.get(place["geoid"]) or any(by_county.get(item) for item in place["counties"]):
+                    bucket["placesWithLocal"] += 1
+        for county, info in sorted(grouped.items()):
+            if county in unpublished:
+                status = "unpublished"
+            elif county in read:
+                status = "read"
+            else:
+                status = "unchecked"
+            county_rows.append(
+                {
+                    "state": code,
+                    "county": county,
+                    "places": info["places"],
+                    "placesWithLocal": info["placesWithLocal"],
+                    "status": status,
+                }
+            )
+    gaps_path.write_text(
+        json.dumps(
+            {
+                "note": "Gap tracker for local 2026 contests. status unchecked means no official county candidate list or notice has been read. status read means an official list or notice was read. status unpublished means the official election office was read and publishes no candidate list or sample ballot.",
+                "before": before,
+                "after": {
+                    "localPlaces": coverage["localPlaces"],
+                    "placesUnchecked": coverage["placesUnchecked"],
+                    "federalStateOnly": coverage["federalStateOnly"],
+                    "byState": coverage["byState"],
+                },
+                "counties": county_rows,
+            },
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    print(json.dumps({key: coverage[key] for key in ("localPlaces", "placesUnchecked", "federalStateOnly")}))
     # Spot checks that must not drift.
     va = json.loads((OUT / "VA.json").read_text(encoding="utf-8"))
     if "Mark R. Warner" not in json.dumps(va["annotations"].get("Member, United States Senate", {})):
@@ -1263,6 +1886,50 @@ def main() -> None:
         raise SystemExit("MN Hennepin sheriff missing")
     if any("District" in item["office"] for rows in mn["localByCounty"].values() for item in rows):
         raise SystemExit("MN district contest copied as countywide")
+    fl = json.loads((OUT / "FL.json").read_text(encoding="utf-8"))
+    alachua = fl["localByCounty"].get("Alachua County", [])
+    if not any(item["office"].startswith("County Judge") for item in alachua):
+        raise SystemExit("FL Alachua county judge missing")
+    if any(item["candidates"] for rows in fl["localByCounty"].values() for item in rows):
+        raise SystemExit("FL notice named a candidate")
+    if any("School Board" in item["office"] or "County Commissioner" in item["office"] for rows in fl["localByCounty"].values() for item in rows):
+        raise SystemExit("FL district office copied as countywide")
+    wa = json.loads((OUT / "WA.json").read_text(encoding="utf-8"))
+    stevens = wa["localByCounty"].get("Stevens County", [])
+    if not any(item["office"] == "Sheriff" and any(person["name"] == "Brad A. Manke" and person["party"] == "REPUBLICAN" for person in item["candidates"]) for item in stevens):
+        raise SystemExit("WA Stevens sheriff missing")
+    if any("Commissioner" in item["office"] for item in stevens):
+        raise SystemExit("WA commissioner district copied as countywide")
+    if "@" in json.dumps(wa.get("local", {})) or "@" in json.dumps(wa.get("localByCounty", {})):
+        raise SystemExit("WA local JSON contains an email")
+    seattle = next(place for place in places["WA"] if place["name"] == "Seattle city")
+    seattle_offices = {item["office"] for item in wa["local"].get(seattle["geoid"], [])}
+    if not any(office.startswith("Municipal Court Judge") for office in seattle_offices):
+        raise SystemExit("WA Seattle municipal court missing")
+    if any("Council District" in office for office in seattle_offices):
+        raise SystemExit("WA Seattle council district copied onto the city")
+    sd = json.loads((OUT / "SD.json").read_text(encoding="utf-8"))
+    brookings = sd["localByCounty"].get("Brookings County", [])
+    if not any(item["office"] == "Sheriff" and item["candidates"] for item in brookings):
+        raise SystemExit("SD Brookings sheriff missing")
+    if any(re.search(r"Ward|District", item["office"]) for rows in sd["localByCounty"].values() for item in rows):
+        raise SystemExit("SD district contest copied as countywide")
+    if "@" in json.dumps(sd.get("local", {})) or "@" in json.dumps(sd.get("localByCounty", {})):
+        raise SystemExit("SD local JSON contains an email")
+    la = json.loads((OUT / "LA.json").read_text(encoding="utf-8"))
+    tammany = la["localByCounty"].get("St. Tammany Parish", [])
+    if not any(item["office"] == "Sheriff" and any(person["name"] == "Robert Hodges" and person["party"] == "Republican" for person in item["candidates"]) for item in tammany):
+        raise SystemExit("LA St. Tammany sheriff missing")
+    if any("District" in item["office"] for rows in la["localByCounty"].values() for item in rows):
+        raise SystemExit("LA district contest copied as parishwide")
+    if "@" in json.dumps(la.get("local", {})) or "@" in json.dumps(la.get("localByCounty", {})):
+        raise SystemExit("LA local JSON contains an email")
+    thibodaux = next(place for place in places["LA"] if place["name"] == "Thibodaux city")
+    thibodaux_offices = la["local"].get(thibodaux["geoid"], [])
+    if not any(item["office"] == "Mayor" and any(person["name"] == "Kevin Clement" for person in item["candidates"]) for item in thibodaux_offices):
+        raise SystemExit("LA Thibodaux mayor missing")
+    if any("District" in item["office"] for item in thibodaux_offices):
+        raise SystemExit("LA council district copied onto Thibodaux")
 
 
 if __name__ == "__main__":

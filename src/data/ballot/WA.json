@@ -1,0 +1,4271 @@
+{
+  "statewide": [],
+  "upper": {},
+  "lower": {},
+  "local": {
+    "5358235": [
+      {
+        "office": "Council Pos. 4",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kyle Saltz",
+            "party": ""
+          },
+          {
+            "name": "Mary S. Lipton",
+            "party": ""
+          }
+        ],
+        "termType": "Unexpired",
+        "termLength": "3"
+      }
+    ],
+    "5363000": [
+      {
+        "office": "Municipal Court Judge Position No. 1",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Cat McDowall",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Municipal Court Judge Position No. 2",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Katharine Edwards",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Municipal Court Judge Position No. 3",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Pooja Vaddadi",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Municipal Court Judge Position No. 4",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Anita Crawford-Willis",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Municipal Court Judge Position No. 5",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gabe Rothstein",
+            "party": ""
+          },
+          {
+            "name": "Garmon Newsom",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Municipal Court Judge Position No. 6",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shantrice Anderson",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Municipal Court Judge Position No. 7",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Damon Shadid",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "5370000": [
+      {
+        "office": "Tacoma Municipal Court Pos. 1",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dee Sonntag",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Tacoma Municipal Court Pos. 2",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sergio C. Flores",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Tacoma Municipal Court Pos. 3",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Steven J. Krupa",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ]
+  },
+  "annotations": {},
+  "date": {
+    "quote": "11/03/2026",
+    "text": "The VoteWA candidate list selected here is GENERAL 2026 (11/03/2026)."
+  },
+  "localIntro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for this place.",
+  "localByCounty": {
+    "Adams County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Curtis Templin",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Veronica Rodriguez",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jacque Laird",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Courtney Fannin",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Catherine R. Sloan",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge Position 1",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Andrea K. Russell",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge Position 2",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Carolyn J. Benzel",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecutor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Randy J. Flyckt",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dale J. Wagner",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Matthew Carlson",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kayla Meise",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Asotin County": [
+      {
+        "office": "COUNTY ASSESSOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jenny L. Rynearson",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY AUDITOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Darla McKay",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY CLERK",
+        "key": null,
+        "candidates": [
+          {
+            "name": "McKenzie A. Campbell",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY PROSECUTOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Curt L. Liedkie",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY SHERIFF",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Blake Richards",
+            "party": "STATES NO PARTY PREFERENCE"
+          },
+          {
+            "name": "Monte Renzelman",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY TREASURER",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Holly Steiner",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "DISTRICT COURT JUDGE",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tina L. Kernan",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Benton County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bill Spencer",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brenda Chilton",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Josie Delvin",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "William \"Bill\" Leach",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge 1",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Talesha Sams",
+            "party": ""
+          },
+          {
+            "name": "Michael \"Mike\" Rio",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge 2",
+        "key": null,
+        "candidates": [
+          {
+            "name": "James \"Jim\" Bell",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge 3",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dan Kathren",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge 4",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jennifer Johnson",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge 5",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jennifer M. (Lampson) Azure",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Eric Eisinger",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Julie Long",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michael (Mike) Clark",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Brad Klippert",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kenneth Spencer Jr",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Chelan County": [
+      {
+        "office": "ASSESSOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Britini Port",
+            "party": "INDEPENDENT"
+          },
+          {
+            "name": "Wes Cornelius",
+            "party": "GOP"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "AUDITOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian Brett",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Brandt Cappell",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      },
+      {
+        "office": "CLERK",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sandra Arechiga",
+            "party": "INDEPENDENT"
+          },
+          {
+            "name": "Marty Young",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "CORONER",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Earl J. Crowe",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      },
+      {
+        "office": "DISTRICT COURT JUDGE POSITION 1",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jon Volyn",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "DISTRICT COURT JUDGE POSITION 2",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Allen F. Blackmon",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "PROSECUTING ATTORNEY",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Robert W. Sealby",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "SHERIFF",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mike Morrison",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Stan Langlow",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "TREASURER",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Richard (Rick) Viall",
+            "party": "GOP"
+          },
+          {
+            "name": "Doug Miller",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Clallam County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lee Hancock",
+            "party": ""
+          },
+          {
+            "name": "Antonio Price",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Virginia Shogren",
+            "party": ""
+          },
+          {
+            "name": "Shoona Riggs",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Director of Community Development",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bruce Emery",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mark Nichols",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian King",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jennifer L White",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Clark County": [
+      {
+        "office": "COUNTY ASSESSOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Peter Van Nortwick",
+            "party": ""
+          },
+          {
+            "name": "Tyler Thoune",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY AUDITOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Eileen Quiring O'Brien",
+            "party": ""
+          },
+          {
+            "name": "Mitchell Kelly",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY CLERK",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Scott G Weber",
+            "party": ""
+          },
+          {
+            "name": "Rachel Shapiro",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY PROSECUTING ATTORNEY",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Laurel Smith",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY SHERIFF",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John Horch",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY TREASURER",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Alishia Topper",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Columbia County": [
+      {
+        "office": "Columbia County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tammy Groom Ketterman",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Columbia County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Will Hutchens",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Columbia County Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kriston Chapman",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Columbia County Prosecutor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nickolas J. Ward",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      },
+      {
+        "office": "Columbia County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joe Helm",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Columbia County Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Carla Rowe",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Cowlitz County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Emily Wilcox",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Carolyn Fundingsland",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Staci Myklebust",
+            "party": "INDEPENDANT"
+          },
+          {
+            "name": "Ashley White",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dana M. Tucker",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ryan P. Jurvakainen",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Troy Brightbill",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Debra Gardner",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Douglas County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jim Ruud",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Thad Duvall",
+            "party": "NONPARTISAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk of Superior Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jenn Biggar",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Andrea Jester",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tanner Bateman",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Eric C. Biggar",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sean P. Lewis",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tyler I. Caille",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Adam Musgrove",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Felisha L. Rosales",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Ferry County": [
+      {
+        "office": "COUNTY ASSESSOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rachel D. Siracuse",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY AUDITOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dianna L. Galvan",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY CLERK",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Melanie Breezee",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Sheri L Mott",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY SHERIFF",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sam Olson",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Ray Maycumber",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY TREASURER",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shannon Jensen",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "DISTRICT COURT JUDGE",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sarah Cuellar",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "PROSECUTING ATTORNEY",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michael Golden",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Franklin County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chris Hollingsworth",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "John A Rosenau",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Matt Beaton",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ruby Ochoa",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Curtis McGary",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michael Nguyen",
+            "party": ""
+          },
+          {
+            "name": "Trinity Orosco",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shawn P. Sant",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Monty Huber",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Christopher (Chris) Lee",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Josie Koelzer",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Garfield County": [
+      {
+        "office": "COUNTY ASSESSOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian Bartels",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY AUDITOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "McKenzie Lueck",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY CLERK",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Marie Gormsen",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY PROSECUTOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Matt L. Newberg",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY SHERIFF",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kristopher Lee Taylor",
+            "party": "STATES NO PARTY PREFERENCE"
+          },
+          {
+            "name": "Calvin Dansereau",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY TREASURER",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tereasa Summers",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Katie Nagle",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "DISTRICT COURT JUDGE",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Thomas W. Cox",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Grant County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Clayton Johnson",
+            "party": "STATES NO PARTY PREFERENCE"
+          },
+          {
+            "name": "Anson Bartrand",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shannon Falstad",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Darci Homesley",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "County Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kimberly A. Allen",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "County Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Craig Morrison",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "County Prosecutor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brandon K. Guernsey",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Darrik Gregg",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Joey Kriete",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "County Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Carrie Heston",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge #1",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tom Middleton",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge #2",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nicholas L Wallace",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge #3",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian D. Gwinn",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Grays Harbor County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dan Lindgren",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Josh Nuxoll",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Charlee Paull",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Brielle S Joyce",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kym Foster",
+            "party": "PRACTICAL DEMOCRAT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "George J Kelley",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court #1",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Andrea Vingo",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court #2",
+        "key": null,
+        "candidates": [
+          {
+            "name": "David Mistachkin",
+            "party": ""
+          },
+          {
+            "name": "Megan Valentine",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecutor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jason F. Walker",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Daniel Crawford",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Darrin E. Wallace",
+            "party": "STATES NO PARTY PREFERENCE"
+          },
+          {
+            "name": "Edward Welter",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shawn D. Hill",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Wes Cormier",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Island County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Doug Stults",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Kelly Todd Mauck",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sheilah Crider",
+            "party": "INDEPENDENT"
+          },
+          {
+            "name": "Barbara Fuller",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "County Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dierdre Butler",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Maria Hazelo",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      },
+      {
+        "office": "County Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shantel Porter",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "County Prosecutor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Greg Banks",
+            "party": "STATES NO PARTY PREFERENCE"
+          },
+          {
+            "name": "Andrew F. Scott",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rick Felici",
+            "party": "INDEPENDENT"
+          },
+          {
+            "name": "Tavier Wasser",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "County Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tony Lam",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ronald A. Costeck",
+            "party": ""
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      }
+    ],
+    "Jefferson County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chuck Garland",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lauralee Kiesel",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amanda Hamilton",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecutor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "James Kennedy",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Andy Pernsteiner",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Stacie Prada",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "King County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rob Foxcurran",
+            "party": ""
+          },
+          {
+            "name": "Dominique M Scarimbolo",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Director of Elections",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Julie Wise",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Leesa Manion",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Kitsap County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michael Simonds",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Phil Cook",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Paul Andrews",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "David T Lewis III",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Brien Kennedy",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joe Lombardi",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Chad M. Enright",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brandon L. Myers",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Rick Kuss",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Pete Boissonneau",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Kittitas County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mike Hougardy",
+            "party": "GOP"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bryan Elliott",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Stephanie George",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Cori McKean",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Charlie Divine",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jodi Hammond",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Aaron Reiman",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ben Kokjer",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Darryl Chepoda JR",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amy Cziske",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Klickitat County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Billi Jean Bare",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Klickitat County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Heather Jobe",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Klickitat County Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Renea Campbell",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Klickitat County Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rebecca Cranston",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      },
+      {
+        "office": "Klickitat County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dwayne T. Matulovich",
+            "party": "INDEPENDENT"
+          },
+          {
+            "name": "Tony Warren",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Klickitat County Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Greg Gallagher",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Lewis County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ross W. Nielson",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mitchell L. Merrill",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Mitch Townsend",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Scott Tinney",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Warren McLeod",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Jessica Stickley",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jonathan L. Meyer",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gabriel J Frase",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Tracy Murphy",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Arny Davis",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Lincoln County": [
+      {
+        "office": "ASSESSOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "J Scott Liebing",
+            "party": "REPUBLICAN - GOP"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "AUDITOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chandra L Schumacher",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "CLERK",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Traci Gants",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "DISTRICT COURT JUDGE",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dan B. Johnson",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "PROSECUTING ATTORNEY",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ty Albertson",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "SHERIFF",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gabe Gants",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "TREASURER",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Emily Lybbert-Hansen",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Mason County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Patti McLean",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tamra 'Tam' Ingwaldson",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Steve Duenkel",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Charles G. Rhodes",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Tammy Clark",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jaime Taylor",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "George Alan Steele",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecutor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michael Dorcy",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ryan Spurling",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brittany A Pearson",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Randy Lewis",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      }
+    ],
+    "Okanogan County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Larry D Gilman",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Cari L Hall",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Susan Speiker",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gene Davis",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Cindy Jensen",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Albert Lin",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jodie Barcus",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Gisberth (Giz) Gonzalez",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Pam Johnson",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Pacific County": [
+      {
+        "office": "COUNTY ASSESSOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bruce Walker",
+            "party": "STATES NO PARTY PREFERENCE"
+          },
+          {
+            "name": "Jeffrey Phelan",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY AUDITOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dotsi Graves",
+            "party": "INDEPENDENT"
+          },
+          {
+            "name": "Nicole Deskins",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY CLERK",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Emma Rose",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY SHERIFF",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Daniel C. Garcia",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Rich Byrd",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY TREASURER",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sheila Didion",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "PROSECUTING ATTORNEY",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jennifer Zorn",
+            "party": "INDEPENDENT"
+          },
+          {
+            "name": "Michael S. Turner",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Pend Oreille County": [
+      {
+        "office": "COUNTY ASSESSOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nathan J Longly",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY AUDITOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Marianne Nichols",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY CLERK",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tammie Ownbey",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY PROSECUTOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dolly Hunt",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY SHERIFF",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Glenn Blakeslee",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "COUNTY TREASURER",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nicole Dice",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "DISTRICT COURT JUDGE",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Robin R. McCroskey",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Pierce County": [
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Linda Farmer",
+            "party": ""
+          },
+          {
+            "name": "Damon Townsend",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Coreen Schnepf",
+            "party": ""
+          },
+          {
+            "name": "Bryan Chushcoff",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "San Juan County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John Kulseth",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Heather Lee",
+            "party": ""
+          },
+          {
+            "name": "Natasha K Warmenhoven",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lisa Henderson",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Carolyn Jewett-Platts",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amy S. Vira",
+            "party": "DEMOCRAT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ronald J. Krebs",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rhonda Pederson",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Skagit County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Danny Hagen",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jeremy Harrison-Smith",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Mark Hulst",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Melissa Beaton",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Amanda Toscano",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Alex Lathum",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Derrill Fussell",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge Position 1",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Patrick Eason",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge Position 2",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Paul W Nielsen",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge Position 3",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jenifer Howson",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Erik Pedersen",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chris Baldwin",
+            "party": "INDEPENDENT"
+          },
+          {
+            "name": "Cody Hart",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jackie Brunson",
+            "party": "DEMOCRAT"
+          },
+          {
+            "name": "Timothy Garrison",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Skamania County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Cora Moser",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Gabriel P Spencer",
+            "party": "DEMOCRAT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Robert J Waymire",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Grace D. Cross",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Olivia D. Munsch",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Christopher Robert Lanz",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Adam N. Kick",
+            "party": "NON PARTISAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Summer Scheyer",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Emily Sabo",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      }
+    ],
+    "Thurston County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JJ Olson",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Lynda Nashed Zeman",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tillie Naputi-Pullar",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nicole Miller",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Garrett Cady",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gary Warnock",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge Pos. 1",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kalo Wilcox",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge Pos. 2",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sam Meyer",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge Pos. 3",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Paul Wohl",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Christy Peters",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Derek Sanders",
+            "party": "INDEPENDENT"
+          },
+          {
+            "name": "Kevin Burton-Crow",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jeff Gadman",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Spokane County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tom Konis",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Callie Gee",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "Michael Cathcart",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dave Lucas",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Elliot Robison",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge 1",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Patrick T Johnson",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge 2",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mike (Michael) Valerien",
+            "party": ""
+          },
+          {
+            "name": "Deanna Kathleen Crull",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge 3",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jenny Zappone",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge 4",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nicholas Ulrich",
+            "party": ""
+          },
+          {
+            "name": "Michael R Addams",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge 5",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jennifer L. Fassbender",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge 6",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Andrew Biviano",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge 7",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Aimee N. Maurer",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge 8",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Richard M. Leland",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Preston McCollam",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Danny Tarkenton",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John F. Nowels",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mike Volz",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Stevens County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rick Johnson",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lori Larsen",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Eric Simpson",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michelle Enright",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Johnathan Waldrop",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Roseanne Ennis Jezerinac",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "C. Olivia Irwin",
+            "party": ""
+          },
+          {
+            "name": "Gina A. Tveit",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Erika George",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brad A. Manke",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tonia \"Toni\" Graham",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Snohomish County": [
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jason Cummings",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Wahkiakum County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Drew Jenkins",
+            "party": "INDEPENDENT"
+          },
+          {
+            "name": "Justin Moriarty",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nicci Bergseng",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "County Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jess Reddon",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John Mason",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "County Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Marissa Longtain",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Heidi Heywood",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dan Bigelow",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Walla Walla County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Byron Burres",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sheryl R. Park",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Tim Reeves",
+            "party": "DEMOCRAT"
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Becky Renwick",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Richard Greenwood",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge - Full Time",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jared N. Hawkins",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge - Part Time",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nicholas Holce",
+            "party": ""
+          },
+          {
+            "name": "Janelle Carman-Wagner",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gabriel Acosta",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Richard Schram",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Ashley Daschofsky",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gordon R Heimbigner",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Whatcom County": [
+      {
+        "office": "District Court Judge Position 1",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Angela Anderson",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge Position 2",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jonathan Rands",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ryan Swinburnson",
+            "party": "STATES NO PARTY PREFERENCE"
+          },
+          {
+            "name": "Jesse Corkern",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Whitman County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Wraylee Flodin",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Crystn Guenthner",
+            "party": "STATES NO PARTY PREFERENCE"
+          },
+          {
+            "name": "Kenneth Millar",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jill Whelchel",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Cassie Richardson",
+            "party": "DEMOCRAT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "District Court Judge Postion 1",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John Hart",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dan LeBeau",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brett J. Myers",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chris Nelson",
+            "party": "STATES NO PARTY PREFERENCE"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ],
+    "Yakima County": [
+      {
+        "office": "Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jacob Tate",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Keith Effler",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Charles Ross",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Maria Cuevas",
+            "party": "DEMOCRATIC"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Billie A. Maggard",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Marshall Slight",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Prosecuting Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tyler Haueter",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Quinn Dalan",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jake Church",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Roman Kilinkaridis",
+            "party": "REPUBLICAN"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Stephanie Patterson",
+            "party": "REPUBLICAN"
+          },
+          {
+            "name": "Sam Johnson",
+            "party": "INDEPENDENT"
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Yakima County District Court Judge, Position 1",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gary Hintze",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Yakima County District Court Judge, Position 2",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian Sanderson",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      },
+      {
+        "office": "Yakima County District Court Judge, Position 3",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Julia A. Davis",
+            "party": ""
+          }
+        ],
+        "termType": "Short & Full",
+        "termLength": "4"
+      },
+      {
+        "office": "Yakima County District Court Judge, Position 4",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Alfred G. Schweppe",
+            "party": ""
+          }
+        ],
+        "termType": "Regular",
+        "termLength": "4"
+      }
+    ]
+  },
+  "countyRead": {
+    "Adams County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Adams County.",
+      "note": "The VoteWA list also includes contests in Adams County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Asotin County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Asotin County.",
+      "note": "The VoteWA list also includes contests in Asotin County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Benton County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Benton County.",
+      "note": "The VoteWA list also includes contests in Benton County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Chelan County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Chelan County.",
+      "note": "The VoteWA list also includes contests in Chelan County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Clallam County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Clallam County.",
+      "note": "The VoteWA list also includes contests in Clallam County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Clark County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Clark County.",
+      "note": "The VoteWA list also includes contests in Clark County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Columbia County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Columbia County.",
+      "note": "The VoteWA list also includes contests in Columbia County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Cowlitz County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Cowlitz County.",
+      "note": "The VoteWA list also includes contests in Cowlitz County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Douglas County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Douglas County.",
+      "note": "The VoteWA list also includes contests in Douglas County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Ferry County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Ferry County.",
+      "note": "The VoteWA list also includes contests in Ferry County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Franklin County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Franklin County.",
+      "note": "The VoteWA list also includes contests in Franklin County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Garfield County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Garfield County.",
+      "note": "The VoteWA list also includes contests in Garfield County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Grant County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Grant County.",
+      "note": "The VoteWA list also includes contests in Grant County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Grays Harbor County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Grays Harbor County.",
+      "note": "The VoteWA list also includes contests in Grays Harbor County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Island County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Island County.",
+      "note": "The VoteWA list also includes contests in Island County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Jefferson County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Jefferson County.",
+      "note": "The VoteWA list also includes contests in Jefferson County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "King County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for King County.",
+      "note": "The VoteWA list also includes contests in King County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Kitsap County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Kitsap County.",
+      "note": "The VoteWA list also includes contests in Kitsap County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Kittitas County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Kittitas County.",
+      "note": "The VoteWA list also includes contests in Kittitas County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Klickitat County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Klickitat County.",
+      "note": "The VoteWA list also includes contests in Klickitat County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Lewis County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Lewis County.",
+      "note": "The VoteWA list also includes contests in Lewis County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Lincoln County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Lincoln County.",
+      "note": "The VoteWA list also includes contests in Lincoln County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Mason County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Mason County.",
+      "note": "The VoteWA list also includes contests in Mason County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Okanogan County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Okanogan County.",
+      "note": "The VoteWA list also includes contests in Okanogan County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Pacific County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Pacific County.",
+      "note": "The VoteWA list also includes contests in Pacific County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Pend Oreille County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Pend Oreille County.",
+      "note": "The VoteWA list also includes contests in Pend Oreille County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Pierce County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Pierce County.",
+      "note": "The VoteWA list also includes contests in Pierce County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "San Juan County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for San Juan County.",
+      "note": "The VoteWA list also includes contests in San Juan County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Skagit County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Skagit County.",
+      "note": "The VoteWA list also includes contests in Skagit County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Skamania County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Skamania County.",
+      "note": "The VoteWA list also includes contests in Skamania County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Snohomish County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Snohomish County.",
+      "note": "The VoteWA list also includes contests in Snohomish County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Spokane County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Spokane County.",
+      "note": "The VoteWA list also includes contests in Spokane County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Stevens County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Stevens County.",
+      "note": "The VoteWA list also includes contests in Stevens County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Thurston County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Thurston County.",
+      "note": "The VoteWA list also includes contests in Thurston County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Wahkiakum County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Wahkiakum County.",
+      "note": "The VoteWA list also includes contests in Wahkiakum County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Walla Walla County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Walla Walla County.",
+      "note": "The VoteWA list also includes contests in Walla Walla County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Whatcom County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Whatcom County.",
+      "note": "The VoteWA list also includes contests in Whatcom County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Whitman County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Whitman County.",
+      "note": "The VoteWA list also includes contests in Whitman County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Yakima County": {
+      "label": "Washington Secretary of State, VoteWA GENERAL 2026 candidate list",
+      "href": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+      "intro": "The VoteWA GENERAL 2026 (11/03/2026) candidate list names these local offices for Yakima County.",
+      "note": "The VoteWA list also includes contests in Yakima County whose district does not name one Census place, so those contests are not copied here."
+    }
+  }
+}

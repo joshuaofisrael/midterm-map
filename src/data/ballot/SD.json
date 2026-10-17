@@ -1,0 +1,3016 @@
+{
+  "statewide": [],
+  "upper": {},
+  "lower": {},
+  "local": {
+    "4607580": [
+      {
+        "office": "City Council Member",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Al Austreim",
+            "party": "NON"
+          },
+          {
+            "name": "Lisa Hager",
+            "party": "NON"
+          },
+          {
+            "name": "Shawn Hostler",
+            "party": "NON"
+          },
+          {
+            "name": "Wade Wantoch",
+            "party": "NON"
+          },
+          {
+            "name": "Brianna Doran",
+            "party": "NON"
+          }
+        ]
+      }
+    ],
+    "4630900": [
+      {
+        "office": "Trustee",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tim Tooley",
+            "party": "NON"
+          },
+          {
+            "name": "Ritchy Griepp",
+            "party": "NON"
+          },
+          {
+            "name": "Julien Gambs",
+            "party": "NON"
+          },
+          {
+            "name": "Bradley Gibbens",
+            "party": "NON"
+          }
+        ]
+      }
+    ],
+    "4645180": [
+      {
+        "office": "Trustee",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Niki Nolan",
+            "party": "NON"
+          },
+          {
+            "name": "Tracy Seieroe",
+            "party": "NON"
+          },
+          {
+            "name": "Margaret June Gerig",
+            "party": "NON"
+          },
+          {
+            "name": "Ted Duffy",
+            "party": "NON"
+          },
+          {
+            "name": "Joshua Whitacre",
+            "party": "NON"
+          },
+          {
+            "name": "Marion Lewis Culberson",
+            "party": "NON"
+          }
+        ]
+      }
+    ],
+    "4652860": [
+      {
+        "office": "Trustee",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tony Fischer",
+            "party": "NON"
+          },
+          {
+            "name": "Douglas Riedel",
+            "party": "NON"
+          }
+        ]
+      }
+    ],
+    "4609500": [
+      {
+        "office": "City Commissioner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chad Skiles",
+            "party": "NON"
+          },
+          {
+            "name": "Paul Garbers",
+            "party": "NON"
+          }
+        ]
+      }
+    ],
+    "4673060": [
+      {
+        "office": "City Commissioner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ben  Brunick",
+            "party": "NON"
+          },
+          {
+            "name": "Brian J  Hunhoff",
+            "party": "NON"
+          },
+          {
+            "name": "Sam  Hummel",
+            "party": "NON"
+          },
+          {
+            "name": "Charlie Gross",
+            "party": "NON"
+          }
+        ]
+      }
+    ],
+    "4644860": [
+      {
+        "office": "City Commissioner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Debra Kopetsky",
+            "party": "NON"
+          },
+          {
+            "name": "Debra Krcelic",
+            "party": "NON"
+          }
+        ]
+      }
+    ]
+  },
+  "annotations": {},
+  "localIntro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for this place.",
+  "localByCounty": {
+    "Davison County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kathy Wingert",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tonya J Ford",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Danna Kolbeck",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Steven Harr",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Jones County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jason Seamans",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lori Waldron",
+            "party": "REP"
+          },
+          {
+            "name": "Marty M Roghair",
+            "party": "IND"
+          },
+          {
+            "name": "Jake Lolley",
+            "party": "IND"
+          },
+          {
+            "name": "Rodney Mann",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "County Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Matiah Weber",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Terri Volmer",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rich Sylva",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Miner County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rebecca (Becki) Mommaerts",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tim Neises",
+            "party": "REP"
+          },
+          {
+            "name": "Kent E Terwilliger",
+            "party": "IND"
+          },
+          {
+            "name": "Joe Bechen",
+            "party": "IND"
+          },
+          {
+            "name": "Mike Clary",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "County Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brittany Yanish",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gibi Page",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rob Eggert",
+            "party": "IND"
+          }
+        ]
+      }
+    ],
+    "Aurora County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Susan Urban",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Arlene Koch",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Roman Briggs",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Beadle County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jill Hanson",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Judy Rodacker",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Douglas J Solem",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Bennett County": [
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lindell Don Adair",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mary Goss",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bradley Hahn",
+            "party": "REP"
+          },
+          {
+            "name": "Cole Blu Donovan",
+            "party": "REP"
+          },
+          {
+            "name": "Robert A Fogg Jr",
+            "party": "DEM"
+          },
+          {
+            "name": "Preston Rosane",
+            "party": "DEM"
+          },
+          {
+            "name": "Keeley Clausen",
+            "party": "IND"
+          },
+          {
+            "name": "Paul Slattery",
+            "party": "IND"
+          },
+          {
+            "name": "Susan Williams",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jaci Clifford",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kevin Rascher",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Bon Homme County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Carla Kopp",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sandra Frasier-Shaffer",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mark L Maggs",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Brown County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lynn (Meyer) Heupel",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mike Wiese",
+            "party": "REP"
+          },
+          {
+            "name": "Mike Gage",
+            "party": "REP"
+          },
+          {
+            "name": "Drew Dennert",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mariann Malsom",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Robert L. Weinmeister",
+            "party": "REP"
+          },
+          {
+            "name": "Anthony \"Tony\" Sorensen",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Brule County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Pamela Petrak",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Glenda Andera",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Darrell Miller",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Butte County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Annie Capp",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Stephanie A Lippincott",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Fred A Lamphere",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Campbell County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lisa Perman",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mandy L Horner",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lacey Perman",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Charles Mix County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Colette Mesman",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Julie Slaba-Pavel",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Randy L Thaler",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Clark County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Christine Tarbox",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Andrea Helkenn",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nathan Nickeson",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Clay County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Carri R. Crum",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "David Thiesse",
+            "party": "REP"
+          },
+          {
+            "name": "Geoffrey Gray-Lobe",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lisa Terwilliger",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Andrew Howe",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Codington County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brenda Hanten",
+            "party": "REP"
+          },
+          {
+            "name": "Debbie Melville",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ann Rasmussen",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brad Howell",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Corson County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tammy Bertolotto",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Marcia Schell",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Alan Dale",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Day County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tonya Lehman",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jodi Berger",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jerred Schreur",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Deuel County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Courtney Dianne Parker",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Casey Lynn Severson",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Cory James Borg",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Dewey County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jamalia M. Franzen",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Deborah Swift Goldade",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ashley S. Arpan",
+            "party": "IND"
+          }
+        ]
+      }
+    ],
+    "Douglas County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Melissa Bowers",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kim Huebner",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Christine Reitsma Lau",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Edmunds County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dionne M Olson",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gwen Geditz",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jonathan J Waldner",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Fall River County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bobbie J Janis",
+            "party": "REP"
+          },
+          {
+            "name": "Lily Heidebrink",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Deborah Russell",
+            "party": "REP"
+          },
+          {
+            "name": "Vince J Logue",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Melody (Mel) Engebretson",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lyle A Norton",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Faulk County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Aimee Law",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kevin Horning",
+            "party": "IND"
+          },
+          {
+            "name": "Kasey W. Schraeder",
+            "party": "REP"
+          },
+          {
+            "name": "Steve Roseland",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Elizabeth Koens",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brent Koens",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Grant County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brittany Folk",
+            "party": "REP"
+          },
+          {
+            "name": "Kathy Folk",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Vickie Gulley",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jeremy Steffensen",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Gregory County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Julie Bartling",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kerri Grim",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ryan L. Cook",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Haakon County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Stacy Pinney",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Traci Radway",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tim Quinn",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Hamlin County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tiffany Joy Stormo",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amber Marie Raasch",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chad J Schlotterbeck",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Hand County": [
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jonathon Dunlap",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Douglas DeBoer",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Suzy Wernsmann",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shane R Croeni",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Hanson County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lesa Trabing",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Debra D Zens",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brandon Wingert",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Harding County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Clancy Adolph",
+            "party": "REP"
+          },
+          {
+            "name": "Kaeloni Latham",
+            "party": "IND"
+          },
+          {
+            "name": "Mary Blaha",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kacie Turbiville",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Wyatt Sabo",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Hutchinson County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Diane Hoffman",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Julie C Herrboldt",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Maurice Waltner",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Hyde County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Marilyn Ring",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Pamela Hamlin",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kylee Rinehart",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "States Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shantay Werdel",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Jackson County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kylie A Jones",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mitzi Mitchell",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tucker Amiotte",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Jerauld County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shannon Mae Fagerhaug",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mette J Ness",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jason L Weber",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Kingsbury County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Echo Steffensen",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Caryn J Hojer",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Steven Allen Strande",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Lake County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Paula Barrick",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Corey Johnke",
+            "party": "REP"
+          },
+          {
+            "name": "Timothy Walburg",
+            "party": "REP"
+          },
+          {
+            "name": "Charles J Johnson",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shirley E Ebsen",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sarina Talich",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Lawrence County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brenda McGruder",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Eric Jennings",
+            "party": "REP"
+          },
+          {
+            "name": "Robert D. Haiwick",
+            "party": "REP"
+          },
+          {
+            "name": "Mike Davies",
+            "party": "REP"
+          },
+          {
+            "name": "Michaela Madrid",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Davida Hansen",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian Dean",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Lincoln County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sheri Lund",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Becky Vander Broek",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Steven E. Swenson",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Lyman County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Misti Ramser",
+            "party": "REP"
+          },
+          {
+            "name": "Jessica Manger",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tracy Brakke",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Steve Manger",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Marshall County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Megan Biel",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kalissa Stelzer",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Samuel R Swanson",
+            "party": "IND"
+          }
+        ]
+      }
+    ],
+    "McCook County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Annette Van Emmerik",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Laurie A Schwans",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shane Johnson",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "McPherson County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lindley Howard",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Vickie Geffre",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "David Ackerman",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Meade County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dawn Christenson",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lana Speed Anderson",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Pat West",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Mellette County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jenny Galbraith",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Darci Cox",
+            "party": "REP"
+          },
+          {
+            "name": "Haley Gallant",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lonnie Schultz",
+            "party": "REP"
+          },
+          {
+            "name": "Thomas Keller",
+            "party": "IND"
+          },
+          {
+            "name": "Brandon Watson",
+            "party": "IND"
+          }
+        ]
+      }
+    ],
+    "Minnehaha County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Leah G Anderson",
+            "party": "REP"
+          },
+          {
+            "name": "Curt Deedrich",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brent R Hoffman",
+            "party": "REP"
+          },
+          {
+            "name": "Jen Bleyenberg",
+            "party": "REP"
+          },
+          {
+            "name": "Rick Bonander",
+            "party": "REP"
+          },
+          {
+            "name": "Kenny Anderson Jr",
+            "party": "DEM"
+          },
+          {
+            "name": "Curt Soehl",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Riley Karsky",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Josh Phillips",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Moody County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tawny Heinemann",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brittany Bennett",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Troy Wellman",
+            "party": "IND"
+          }
+        ]
+      }
+    ],
+    "Potter County": [
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mandy Spilde",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tye Kenneth Vander Vorst",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jamie Lee Hageman",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Curtis Dean Hamburger",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Roberts County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kristi Fritz",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jay Tasa",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tyler Jay Appel",
+            "party": "IND"
+          }
+        ]
+      }
+    ],
+    "Sanborn County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kami Moody",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lynn Brueske",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Josh Starzman",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Spink County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Theresa Hodges",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sonja Muellenberg",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jenna Appel",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Stanley County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Philena 'Phil' Burtch",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Patricia Duffy",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gary Nickerson",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Sully County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Susan B Lamb",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lynette Murphy",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bill Stahl",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Tripp County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Barb Desersa",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kristin Assman",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shawn Pettit",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Turner County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amanda Nielsen",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amanda Rand",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Daniel Glover",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Union County": [
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jim Christenson",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kathlene Winquist",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Laurie Buum",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "James Prouty",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Walworth County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kimberly Kay Dills",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brenda Marie DeToy",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joshua David Boll",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Yankton County": [
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Laura Kotalik",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dan Klimisch",
+            "party": "REP"
+          },
+          {
+            "name": "Julie Auch",
+            "party": "REP"
+          },
+          {
+            "name": "Ryan Heine",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Preston Crissey",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Buffalo County": [
+      {
+        "office": "County Finance Officer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Debra Morrison",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Wayne Willman",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Custer County": [
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Craig Hindle",
+            "party": "REP"
+          },
+          {
+            "name": "Jesse Sorenson",
+            "party": "REP"
+          },
+          {
+            "name": "Marty W Mechaley",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Finance Officer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dawn McLaughlin",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Teri L. Morgan",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Derrick L Reifenrath",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Hughes County": [
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bill M.  Abernathy",
+            "party": "REP"
+          },
+          {
+            "name": "Connie Hohn",
+            "party": "REP"
+          },
+          {
+            "name": "Rob Fines",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Finance Officer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Thomas J.  Oliva",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jeff Metzinger",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Perkins County": [
+      {
+        "office": "County Finance Officer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sara Stadler",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Heidi Stevens",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Matthew R Kindsvogel",
+            "party": "REP"
+          },
+          {
+            "name": "William Merchen",
+            "party": "IND"
+          }
+        ]
+      }
+    ],
+    "Brookings County": [
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "David Erickson",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michael Lambertus",
+            "party": "REP"
+          },
+          {
+            "name": "Alan Brutty",
+            "party": "REP"
+          },
+          {
+            "name": "Kelly VanderWal",
+            "party": "REP"
+          },
+          {
+            "name": "Martin \"Marty\" Stanwick",
+            "party": "IND"
+          },
+          {
+            "name": "Larry Jensen",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "County Finance Officer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jenna Baker",
+            "party": "REP"
+          },
+          {
+            "name": "Lacey Klingbile",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "Register of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kristi Kruse",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "David Biteler",
+            "party": "REP"
+          },
+          {
+            "name": "Manuel \"Manny\" Langstraat",
+            "party": "IND"
+          }
+        ]
+      }
+    ],
+    "Oglala Lakota County": [
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Derek Puckett",
+            "party": "IND"
+          },
+          {
+            "name": "Daylon Black Bull",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Ziebach County": [
+      {
+        "office": "Coroner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michael R Deneui",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Troy H Wall",
+            "party": "REP"
+          },
+          {
+            "name": "Rick K Farlee",
+            "party": "REP"
+          },
+          {
+            "name": "Tucker Reed Stocklin",
+            "party": "REP"
+          },
+          {
+            "name": "Shane Clinton Farlee",
+            "party": "DEM"
+          },
+          {
+            "name": "Lee James Brooks",
+            "party": "DEM"
+          },
+          {
+            "name": "Casey James Gage",
+            "party": "IND"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gary Allen Cudmore",
+            "party": "REP"
+          }
+        ]
+      }
+    ]
+  },
+  "countyRead": {
+    "Aurora County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Aurora County.",
+      "note": "The South Dakota list also includes contests in Aurora County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Beadle County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Beadle County.",
+      "note": "The South Dakota list also includes contests in Beadle County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Bennett County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Bennett County.",
+      "note": "The South Dakota list also includes contests in Bennett County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Bon Homme County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Bon Homme County.",
+      "note": "The South Dakota list also includes contests in Bon Homme County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Brookings County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Brookings County.",
+      "note": "The South Dakota list also includes contests in Brookings County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Brown County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Brown County."
+    },
+    "Brule County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Brule County.",
+      "note": "The South Dakota list also includes contests in Brule County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Buffalo County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Buffalo County.",
+      "note": "The South Dakota list also includes contests in Buffalo County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Butte County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Butte County.",
+      "note": "The South Dakota list also includes contests in Butte County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Campbell County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Campbell County.",
+      "note": "The South Dakota list also includes contests in Campbell County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Charles Mix County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Charles Mix County.",
+      "note": "The South Dakota list also includes contests in Charles Mix County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Clark County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Clark County.",
+      "note": "The South Dakota list also includes contests in Clark County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Clay County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Clay County."
+    },
+    "Codington County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Codington County.",
+      "note": "The South Dakota list also includes contests in Codington County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Corson County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Corson County.",
+      "note": "The South Dakota list also includes contests in Corson County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Custer County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Custer County.",
+      "note": "The South Dakota list also includes contests in Custer County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Davison County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Davison County.",
+      "note": "The South Dakota list also includes contests in Davison County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Day County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Day County.",
+      "note": "The South Dakota list also includes contests in Day County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Deuel County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Deuel County.",
+      "note": "The South Dakota list also includes contests in Deuel County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Dewey County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Dewey County.",
+      "note": "The South Dakota list also includes contests in Dewey County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Douglas County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Douglas County.",
+      "note": "The South Dakota list also includes contests in Douglas County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Edmunds County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Edmunds County.",
+      "note": "The South Dakota list also includes contests in Edmunds County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Fall River County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Fall River County."
+    },
+    "Faulk County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Faulk County.",
+      "note": "The South Dakota list also includes contests in Faulk County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Grant County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Grant County.",
+      "note": "The South Dakota list also includes contests in Grant County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Gregory County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Gregory County.",
+      "note": "The South Dakota list also includes contests in Gregory County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Haakon County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Haakon County.",
+      "note": "The South Dakota list also includes contests in Haakon County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Hamlin County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Hamlin County.",
+      "note": "The South Dakota list also includes contests in Hamlin County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Hand County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Hand County.",
+      "note": "The South Dakota list also includes contests in Hand County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Hanson County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Hanson County.",
+      "note": "The South Dakota list also includes contests in Hanson County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Harding County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Harding County.",
+      "note": "The South Dakota list also includes contests in Harding County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Hughes County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Hughes County.",
+      "note": "The South Dakota list also includes contests in Hughes County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Hutchinson County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Hutchinson County.",
+      "note": "The South Dakota list also includes contests in Hutchinson County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Hyde County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Hyde County.",
+      "note": "The South Dakota list also includes contests in Hyde County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Jackson County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Jackson County.",
+      "note": "The South Dakota list also includes contests in Jackson County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Jerauld County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Jerauld County.",
+      "note": "The South Dakota list also includes contests in Jerauld County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Jones County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Jones County.",
+      "note": "The South Dakota list also includes contests in Jones County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Kingsbury County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Kingsbury County.",
+      "note": "The South Dakota list also includes contests in Kingsbury County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Lake County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Lake County.",
+      "note": "The South Dakota list also includes contests in Lake County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Lawrence County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Lawrence County.",
+      "note": "The South Dakota list also includes contests in Lawrence County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Lincoln County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Lincoln County.",
+      "note": "The South Dakota list also includes contests in Lincoln County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Lyman County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Lyman County.",
+      "note": "The South Dakota list also includes contests in Lyman County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Marshall County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Marshall County.",
+      "note": "The South Dakota list also includes contests in Marshall County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "McCook County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for McCook County.",
+      "note": "The South Dakota list also includes contests in McCook County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "McPherson County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for McPherson County.",
+      "note": "The South Dakota list also includes contests in McPherson County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Meade County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Meade County.",
+      "note": "The South Dakota list also includes contests in Meade County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Mellette County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Mellette County.",
+      "note": "The South Dakota list also includes contests in Mellette County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Miner County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Miner County.",
+      "note": "The South Dakota list also includes contests in Miner County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Minnehaha County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Minnehaha County.",
+      "note": "The South Dakota list also includes contests in Minnehaha County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Moody County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Moody County.",
+      "note": "The South Dakota list also includes contests in Moody County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Oglala Lakota County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Oglala Lakota County.",
+      "note": "The South Dakota list also includes contests in Oglala Lakota County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Pennington County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Pennington County.",
+      "note": "The South Dakota list also includes contests in Pennington County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Perkins County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Perkins County.",
+      "note": "The South Dakota list also includes contests in Perkins County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Potter County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Potter County.",
+      "note": "The South Dakota list also includes contests in Potter County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Roberts County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Roberts County.",
+      "note": "The South Dakota list also includes contests in Roberts County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Sanborn County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Sanborn County.",
+      "note": "The South Dakota list also includes contests in Sanborn County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Spink County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Spink County.",
+      "note": "The South Dakota list also includes contests in Spink County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Stanley County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Stanley County.",
+      "note": "The South Dakota list also includes contests in Stanley County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Sully County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Sully County.",
+      "note": "The South Dakota list also includes contests in Sully County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Todd County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Todd County.",
+      "note": "The South Dakota list also includes contests in Todd County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Tripp County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Tripp County.",
+      "note": "The South Dakota list also includes contests in Tripp County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Turner County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Turner County.",
+      "note": "The South Dakota list also includes contests in Turner County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Union County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Union County.",
+      "note": "The South Dakota list also includes contests in Union County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Walworth County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Walworth County.",
+      "note": "The South Dakota list also includes contests in Walworth County whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Yankton County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Yankton County."
+    },
+    "Ziebach County": {
+      "label": "South Dakota Secretary of State, 2026 general election candidate list",
+      "href": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "intro": "The South Dakota Secretary of State 2026 general election candidate list names these local offices for Ziebach County."
+    }
+  }
+}

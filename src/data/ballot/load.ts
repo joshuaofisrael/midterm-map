@@ -12,6 +12,10 @@ export type BallotContest = {
   key: string | null;
   candidates: BallotCandidate[];
   term?: string;
+  /** Printed Term Type column, when the source has one. */
+  termType?: string;
+  /** Printed Term Length column, when the source has one. */
+  termLength?: string;
   seats?: string;
   incumbentLine?: string;
   district?: string;

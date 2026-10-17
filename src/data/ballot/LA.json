@@ -1,0 +1,5636 @@
+{
+  "statewide": [],
+  "upper": {},
+  "lower": {},
+  "local": {
+    "2270000": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Tom' Arceneaux",
+            "party": "Republican"
+          },
+          {
+            "name": "Siavash 'Sia' Fakhriravari",
+            "party": "No Party"
+          },
+          {
+            "name": "Chaunta Mero",
+            "party": "Democrat"
+          },
+          {
+            "name": "Tammy Phelps",
+            "party": "Democrat"
+          },
+          {
+            "name": "Stormy Gage Watts",
+            "party": "Democrat"
+          },
+          {
+            "name": "Michael D. Williams",
+            "party": "Democrat"
+          },
+          {
+            "name": "John-Paul Young",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2207730": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John R. Fuller",
+            "party": "Republican"
+          },
+          {
+            "name": "'Jeff' Guin",
+            "party": "Republican"
+          },
+          {
+            "name": "Gary Hart",
+            "party": "Republican"
+          },
+          {
+            "name": "Laura Neubert",
+            "party": "Republican"
+          },
+          {
+            "name": "Judy Presley",
+            "party": "Republican"
+          },
+          {
+            "name": "'Jim' Roberts",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gerald Allen",
+            "party": "Republican"
+          },
+          {
+            "name": "'Dave' Gardner",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Jim' Galambos",
+            "party": "Republican"
+          },
+          {
+            "name": "Steve Umling",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2278890": [
+      {
+        "office": "Alderman at Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sam Curry",
+            "party": "Republican"
+          },
+          {
+            "name": "Samuel Hodge",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ryan Nelson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Joey D. Paulette",
+            "party": "No Party"
+          },
+          {
+            "name": "James F. 'Jim' Slagle",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sibbie Comer",
+            "party": "Republican"
+          },
+          {
+            "name": "Robert T. Green Jr.",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2251830": [
+      {
+        "office": "Council Member(s)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ashley Anderson",
+            "party": "Republican"
+          },
+          {
+            "name": "Sebastian Cranford",
+            "party": "Republican"
+          },
+          {
+            "name": "Kelvin Dunn",
+            "party": "Democrat"
+          },
+          {
+            "name": "Krista Fuller",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tyler Gordon",
+            "party": "Republican"
+          },
+          {
+            "name": "Joni Lindsay",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2273640": [
+      {
+        "office": "City Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Stacy Saltzman",
+            "party": "Republican"
+          },
+          {
+            "name": "Carla Sigler",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2220575": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Vance Perkins",
+            "party": "No Party"
+          },
+          {
+            "name": "'Kim' Rainwater",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2237445": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Erik B. Johnson Sr.",
+            "party": "No Party"
+          },
+          {
+            "name": "Christopher Lafleur",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Paul 'Hounddog' Hesse",
+            "party": "No Party"
+          },
+          {
+            "name": "Jordan Manela",
+            "party": "Republican"
+          },
+          {
+            "name": "Brian 'Shakey' Schexnayder",
+            "party": "Democrat"
+          },
+          {
+            "name": "Neal Watkins Jr.",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2231250": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Donnie Lee Brooks Jr.",
+            "party": "Republican"
+          },
+          {
+            "name": "'Tim' Diel",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Erin Chapman",
+            "party": "No Party"
+          },
+          {
+            "name": "Hannah Masoner Sinclair",
+            "party": "No Party"
+          },
+          {
+            "name": "Wanda Stowe",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2238775": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Milton Ceasar",
+            "party": "Democrat"
+          },
+          {
+            "name": "Loria Hollins",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2233210": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Judy Cotten",
+            "party": "No Party"
+          },
+          {
+            "name": "Stephen 'Steve' Gibson",
+            "party": "Republican"
+          },
+          {
+            "name": "Emma S. Hatten",
+            "party": "Democrat"
+          },
+          {
+            "name": "Andrew Sones",
+            "party": "Republican"
+          },
+          {
+            "name": "Charles 'Greg' Terry",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lyndell 'Nell' Atkins",
+            "party": "Democrat"
+          },
+          {
+            "name": "Carmon Butts",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Laurie Stutson",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael 'Mike' Tubre",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2270245": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ramona Dunbar",
+            "party": "Democrat"
+          },
+          {
+            "name": "Mary Free",
+            "party": "No Party"
+          },
+          {
+            "name": "Emma 'Donna' Hilliard",
+            "party": "No Party"
+          },
+          {
+            "name": "Linda Kerry",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shirley Cooper",
+            "party": "Democrat"
+          },
+          {
+            "name": "Gwendolyn 'Gwen' James-Robinson",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2233525": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Roderick D. Hampton",
+            "party": "Democrat"
+          },
+          {
+            "name": "Sharon Lee Swearingen",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2235870": [
+      {
+        "office": "Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bennie W. Holyfield IV",
+            "party": "No Party"
+          },
+          {
+            "name": "'Van' McDaniel",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tommy Sanders",
+            "party": "No Party"
+          },
+          {
+            "name": "Amri Warren",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2203320": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bret Austin",
+            "party": "Republican"
+          },
+          {
+            "name": "Eric J. Caldwell",
+            "party": "Democrat"
+          },
+          {
+            "name": "Lori Ellis",
+            "party": "Republican"
+          },
+          {
+            "name": "Del Marie Lewis",
+            "party": "Democrat"
+          },
+          {
+            "name": "Bobbie S. Powell",
+            "party": "Republican"
+          },
+          {
+            "name": "Christopher Ryan Spigener",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Ann' Brown",
+            "party": "Republican"
+          },
+          {
+            "name": "'Cindy' Watkins",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2264765": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Charles Brown",
+            "party": "Libertarian"
+          },
+          {
+            "name": "Dorothy Evans",
+            "party": "No Party"
+          },
+          {
+            "name": "'Larry' Lawrence",
+            "party": "No Party"
+          },
+          {
+            "name": "Bobby R. Sheppard Sr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "'Donearl' Williams Sr.",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Connie' Adair",
+            "party": "No Party"
+          },
+          {
+            "name": "Veller R. Carroll",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2230690": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Donna G. Basco",
+            "party": "No Party"
+          },
+          {
+            "name": "Sammy Chism",
+            "party": "Republican"
+          },
+          {
+            "name": "Clayton Davis Jr.",
+            "party": "Republican"
+          },
+          {
+            "name": "Bailey Holder",
+            "party": "Republican"
+          },
+          {
+            "name": "Rhonda H. Meek",
+            "party": "Republican"
+          },
+          {
+            "name": "John G. Russell",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2203985": [
+      {
+        "office": "City Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shona Boxie",
+            "party": "Democrat"
+          },
+          {
+            "name": "Kirk A. Williams",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2213960": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Roger Corcoran",
+            "party": "Republican"
+          },
+          {
+            "name": "Paul Kimball",
+            "party": "Republican"
+          },
+          {
+            "name": "Larry 'Lew' Walters Jr.",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Geno Guercio",
+            "party": "Republican"
+          },
+          {
+            "name": "Aaron Moak",
+            "party": "Republican"
+          },
+          {
+            "name": "Lon Vicknair",
+            "party": "Republican"
+          },
+          {
+            "name": "Despo 'D'Ann' Wells",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2241400": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Charlene 'Dorsey' Bailey",
+            "party": "Democrat"
+          },
+          {
+            "name": "Sucletter Brown Crye",
+            "party": "Democrat"
+          },
+          {
+            "name": "Michael 'Smooth' Collins",
+            "party": "Democrat"
+          },
+          {
+            "name": "Arlean Hampton",
+            "party": "Democrat"
+          },
+          {
+            "name": "Kojerion 'Koda' Hawkins",
+            "party": "Democrat"
+          },
+          {
+            "name": "Patrick Shane Henderson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Karl Magee",
+            "party": "Democrat"
+          },
+          {
+            "name": "Lester Martin",
+            "party": "Democrat"
+          },
+          {
+            "name": "'Donnie' Meadows",
+            "party": "Democrat"
+          },
+          {
+            "name": "James 'Edward' Shaw",
+            "party": "Democrat"
+          },
+          {
+            "name": "James Oscar Thornton V",
+            "party": "Republican"
+          },
+          {
+            "name": "Tyler Webb",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Christopher Bradley",
+            "party": "Democrat"
+          },
+          {
+            "name": "Albert Dismuke",
+            "party": "Democrat"
+          },
+          {
+            "name": "Eugene Styron",
+            "party": "No Party"
+          },
+          {
+            "name": "Michael Threats",
+            "party": "Democrat"
+          },
+          {
+            "name": "Wytavaion Tibbs",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jason Condrey",
+            "party": "No Party"
+          },
+          {
+            "name": "Tony A. Hampton",
+            "party": "Democrat"
+          },
+          {
+            "name": "Catherine Middlebrook",
+            "party": "Democrat"
+          },
+          {
+            "name": "Stanley Pitts",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2224565": [
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Terry J. Darbonne",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael DeVillier",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Scott A. Fontenot",
+            "party": "No Party"
+          },
+          {
+            "name": "M. Guillory",
+            "party": "No Party"
+          },
+          {
+            "name": "Van Reed",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2218650": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jerry Braun",
+            "party": "No Party"
+          },
+          {
+            "name": "Troy Hebert",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Clint' Cradeur",
+            "party": "Republican"
+          },
+          {
+            "name": "Chad Monceaux",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2263645": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Eric Jolivette",
+            "party": "Democrat"
+          },
+          {
+            "name": "'Chuck' Robichaux",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2204580": [
+      {
+        "office": "Alderman at Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Otis Johnson",
+            "party": "Democrat"
+          },
+          {
+            "name": "'Tim' Lavergne",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Victor Fontenot",
+            "party": "Republican"
+          },
+          {
+            "name": "Nicholas Paul Richardson",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mark Denette",
+            "party": "Republican"
+          },
+          {
+            "name": "Latoya Ivory",
+            "party": "Democrat"
+          },
+          {
+            "name": "Herbert 'Ripp' Rippeon",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2224460": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Donna Bertrand",
+            "party": "Republican"
+          },
+          {
+            "name": "Robert James Simon Jr.",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2215465": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Terrance Garrick Jr.",
+            "party": "Republican"
+          },
+          {
+            "name": "Dale J. Thibodeaux",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2249870": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Charles Clinch",
+            "party": "Republican"
+          },
+          {
+            "name": "Amber Thibodeaux Hargrave",
+            "party": "Republican"
+          },
+          {
+            "name": "Darla L. Istre",
+            "party": "Republican"
+          },
+          {
+            "name": "Ray J. Richard Jr.",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nicholas Cooley",
+            "party": "Republican"
+          },
+          {
+            "name": "Lucas Smith",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2222255": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Glenn C. Cormier",
+            "party": "Republican"
+          },
+          {
+            "name": "Blake Credeur",
+            "party": "No Party"
+          },
+          {
+            "name": "Coby J. Duhon",
+            "party": "Republican"
+          },
+          {
+            "name": "'Steve' Hanks",
+            "party": "No Party"
+          },
+          {
+            "name": "John 'Johnny' Lagneaux II",
+            "party": "Republican"
+          },
+          {
+            "name": "Andrew 'Maxis' Malaxonis",
+            "party": "No Party"
+          },
+          {
+            "name": "Carolyn 'Pepe' Richard",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2237410": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "James Quillan Bertrand",
+            "party": "Republican"
+          },
+          {
+            "name": "Heather Faulk",
+            "party": "Republican"
+          },
+          {
+            "name": "Brandon Hebert",
+            "party": "Republican"
+          },
+          {
+            "name": "Shea A. Lantz",
+            "party": "Republican"
+          },
+          {
+            "name": "Morris 'Dukey' Ledet",
+            "party": "Republican"
+          },
+          {
+            "name": "Seth Manuel",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2237830": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dane Brown",
+            "party": "No Party"
+          },
+          {
+            "name": "Linda Fontenot-Karam",
+            "party": "Republican"
+          },
+          {
+            "name": "David Guillory",
+            "party": "No Party"
+          },
+          {
+            "name": "'Rafe' Stewart",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mem(s)., Bd. of Trustees",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Debra 'Debbie' Allen Norsworthy",
+            "party": "No Party"
+          },
+          {
+            "name": "James 'Bubba' McCrory",
+            "party": "No Party"
+          },
+          {
+            "name": "Kevin Rome",
+            "party": "Republican"
+          },
+          {
+            "name": "Whittington 'Whit' Vidrine",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2270770": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Jeff' Sloan",
+            "party": "Republican"
+          },
+          {
+            "name": "Galen Vaccaro",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2282215": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Yvonne Allen",
+            "party": "Democrat"
+          },
+          {
+            "name": "Pamela Armstead",
+            "party": "Democrat"
+          },
+          {
+            "name": "Karen Ross",
+            "party": "Democrat"
+          },
+          {
+            "name": "'Jim' Treloar",
+            "party": "Republican"
+          },
+          {
+            "name": "Gregory Williams",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2278715": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Devinskie 'Dee' Arvie",
+            "party": "Democrat"
+          },
+          {
+            "name": "Malcolm McKinney",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Darin Bordelon",
+            "party": "No Party"
+          },
+          {
+            "name": "Darrian Guillory",
+            "party": "Republican"
+          },
+          {
+            "name": "Neal Lartigue",
+            "party": "Democrat"
+          },
+          {
+            "name": "Kevin Veillon",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Hilda Clark Edwards",
+            "party": "Democrat"
+          },
+          {
+            "name": "Ryan LeDay Williams",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2248085": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Charles 'Pat' Hall",
+            "party": "No Party"
+          },
+          {
+            "name": "Javata Jason",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ricky Fontenot",
+            "party": "No Party"
+          },
+          {
+            "name": "Christian B. McGee",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2214450": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chalyne Arvie",
+            "party": "Democrat"
+          },
+          {
+            "name": "Marcus 'Tony' Calvin",
+            "party": "Democrat"
+          },
+          {
+            "name": "Blanche Monique Gallow",
+            "party": "No Party"
+          },
+          {
+            "name": "Wilfred Jack",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Justin Darbonne",
+            "party": "No Party"
+          },
+          {
+            "name": "Tom Frank",
+            "party": "Democrat"
+          },
+          {
+            "name": "J.C. Jack",
+            "party": "Democrat"
+          },
+          {
+            "name": "Daniel Matthews",
+            "party": "Republican"
+          },
+          {
+            "name": "Henry James Watson",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2276685": [
+      {
+        "office": "Council Members",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Eric' Chapelle",
+            "party": "Republican"
+          },
+          {
+            "name": "'Edwin' Deville",
+            "party": "Republican"
+          },
+          {
+            "name": "Jessie Johnson",
+            "party": "Republican"
+          },
+          {
+            "name": "Joey Johnson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Billy 'Neal' King Jr.",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2282565": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Danielle Lorings",
+            "party": "No Party"
+          },
+          {
+            "name": "'Marc' McCarty",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2228940": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Susan McManus Britt",
+            "party": "No Party"
+          },
+          {
+            "name": "'Randy' Lloyd",
+            "party": "No Party"
+          },
+          {
+            "name": "Gene Miller",
+            "party": "Republican"
+          },
+          {
+            "name": "DeWanda Major Owens",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Bill' Ezell",
+            "party": "No Party"
+          },
+          {
+            "name": "Danny R. Richardson",
+            "party": "Republican"
+          },
+          {
+            "name": "David Wallace",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2251620": [
+      {
+        "office": "Council Member(s)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joyce Dubois",
+            "party": "Republican"
+          },
+          {
+            "name": "Sabrina Fletcher",
+            "party": "Republican"
+          },
+          {
+            "name": "Jayme Freeman",
+            "party": "Republican"
+          },
+          {
+            "name": "Charles 'Chuck' Lacroix",
+            "party": "Republican"
+          },
+          {
+            "name": "Tonya Pennywell",
+            "party": "Democrat"
+          },
+          {
+            "name": "'Eleanor' Sheffield",
+            "party": "No Party"
+          },
+          {
+            "name": "Teresa 'Waters' Trichel",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2261580": [
+      {
+        "office": "Councilmen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mattison Brevelle",
+            "party": "No Party"
+          },
+          {
+            "name": "Richard 'Rick' Draper",
+            "party": "Republican"
+          },
+          {
+            "name": "'Daryl' Henry",
+            "party": "Republican"
+          },
+          {
+            "name": "Kassandra Hooter",
+            "party": "Republican"
+          },
+          {
+            "name": "Misty Kinn",
+            "party": "Republican"
+          },
+          {
+            "name": "Timothy Kinn",
+            "party": "No Party"
+          },
+          {
+            "name": "Sheldon Smith",
+            "party": "Republican"
+          },
+          {
+            "name": "Alan Williams",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2254035": [
+      {
+        "office": "City Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nicole Burke",
+            "party": "Republican"
+          },
+          {
+            "name": "Kay Pitman Clark",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2248610": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Justin Bessix",
+            "party": "Democrat"
+          },
+          {
+            "name": "John E. Carriere",
+            "party": "No Party"
+          },
+          {
+            "name": "Veronica 'Bonnie' Hill",
+            "party": "Democrat"
+          },
+          {
+            "name": "Edward James Jr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "Jerome 'Gillis' Martin Jr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "Edna 'Lil Bit' Mitchel",
+            "party": "Democrat"
+          },
+          {
+            "name": "Katrell Poole",
+            "party": "Democrat"
+          },
+          {
+            "name": "Garrick Deon Scott",
+            "party": "Democrat"
+          },
+          {
+            "name": "Sam W. Watson",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Maurice L. Harris",
+            "party": "Democrat"
+          },
+          {
+            "name": "Demi Vorise",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2281375": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mervin 'Merv' Allen Jr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "Erick 'Duck' Batiste",
+            "party": "No Party"
+          },
+          {
+            "name": "Marko Bellock",
+            "party": "Democrat"
+          },
+          {
+            "name": "Candice Depron",
+            "party": "Democrat"
+          },
+          {
+            "name": "Kipp V. Knight",
+            "party": "Democrat"
+          },
+          {
+            "name": "Chamarcus D. Lewis",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2238670": [
+      {
+        "office": "Alderman at Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Nita' Cooper Hayes",
+            "party": "Democrat"
+          },
+          {
+            "name": "Nia Evans Watkins",
+            "party": "Democrat"
+          },
+          {
+            "name": "David 'Poochie' Hammock",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "J. 'Spike' Harris",
+            "party": "No Party"
+          },
+          {
+            "name": "Leslie Thompson",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2235100": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Danielle Copeland",
+            "party": "Democrat"
+          },
+          {
+            "name": "Shavondolyn Dias",
+            "party": "Democrat"
+          },
+          {
+            "name": "'Steve' Fox",
+            "party": "No Party"
+          },
+          {
+            "name": "Linda Kirkendoff",
+            "party": "Democrat"
+          },
+          {
+            "name": "Sandra Plunkett",
+            "party": "Republican"
+          },
+          {
+            "name": "Jerry Walden",
+            "party": "Republican"
+          },
+          {
+            "name": "Willard Willis",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Martha Buchan",
+            "party": "Republican"
+          },
+          {
+            "name": "Micheal Mims",
+            "party": "No Party"
+          },
+          {
+            "name": "Gerald 'Thomas' Palmer",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2222465": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Keith Dill",
+            "party": "Democrat"
+          },
+          {
+            "name": "Terrence S. Leonard",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2255910": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Tony' Duffey",
+            "party": "No Party"
+          },
+          {
+            "name": "Sarah Heard",
+            "party": "Republican"
+          },
+          {
+            "name": "Chasity Pennington",
+            "party": "Republican"
+          },
+          {
+            "name": "Kimberly Reed",
+            "party": "Republican"
+          },
+          {
+            "name": "Ernest Roden",
+            "party": "Republican"
+          },
+          {
+            "name": "Andrea Woods",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2232930": [
+      {
+        "office": "Councilmen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Linda Domangue",
+            "party": "Republican"
+          },
+          {
+            "name": "Krisa Exsterstein",
+            "party": "Republican"
+          },
+          {
+            "name": "Maurizio 'Mo' Francescon",
+            "party": "Republican"
+          },
+          {
+            "name": "Lionel P. Hotard III",
+            "party": "Republican"
+          },
+          {
+            "name": "Thomas 'Tommy' Hughes",
+            "party": "No Party"
+          },
+          {
+            "name": "Craig Johnston",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael 'Mike' Ricks",
+            "party": "Republican"
+          },
+          {
+            "name": "Ian Roche",
+            "party": "Republican"
+          },
+          {
+            "name": "Carrie Wheeler",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Eric Chatelain",
+            "party": "Republican"
+          },
+          {
+            "name": "Carol Logreco",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2223620": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Casey Laughlin",
+            "party": "Republican"
+          },
+          {
+            "name": "Bruce A. Lemelle",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Cynthia 'Kay' Hebert",
+            "party": "No Party"
+          },
+          {
+            "name": "Marilynn Broussard Moore",
+            "party": "Republican"
+          },
+          {
+            "name": "'Mike' Pierrotti",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2225335": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Letha Keyes Gordon",
+            "party": "Democrat"
+          },
+          {
+            "name": "Elva J. Walker",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2241050": [
+      {
+        "office": "Council Member(s)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Debbie Abshire-Sonnier",
+            "party": "Republican"
+          },
+          {
+            "name": "Duke Broussard II",
+            "party": "Republican"
+          },
+          {
+            "name": "Lola Broussard",
+            "party": "Republican"
+          },
+          {
+            "name": "Tammy B. Broussard",
+            "party": "Republican"
+          },
+          {
+            "name": "Corey Conner",
+            "party": "Republican"
+          },
+          {
+            "name": "Mahlon J. LeBlanc",
+            "party": "Republican"
+          },
+          {
+            "name": "Samantha 'Sammy' LeJeune",
+            "party": "Republican"
+          },
+          {
+            "name": "'Dusty' Simon",
+            "party": "Republican"
+          },
+          {
+            "name": "Ronchella 'Ronnie' Turner",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2212665": [
+      {
+        "office": "Council Member(s)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Danielle Capritto",
+            "party": "Republican"
+          },
+          {
+            "name": "Damian Glover",
+            "party": "Republican"
+          },
+          {
+            "name": "Taylor James",
+            "party": "No Party"
+          },
+          {
+            "name": "Todd 'Todd-O' Olivier",
+            "party": "Republican"
+          },
+          {
+            "name": "Alex Savage",
+            "party": "Republican"
+          },
+          {
+            "name": "Alfred 'Al' Sinegal",
+            "party": "Democrat"
+          },
+          {
+            "name": "Terrance St. Julien",
+            "party": "No Party"
+          },
+          {
+            "name": "Carlos Stout",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Don' Chauvin",
+            "party": "Republican"
+          },
+          {
+            "name": "Charlotte Stemmans Clavier",
+            "party": "Republican"
+          },
+          {
+            "name": "Eric Knight",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2268475": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Caleb Lege'",
+            "party": "Republican"
+          },
+          {
+            "name": "Kert Thomas",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2283335": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jean Paul 'JP' Broussard",
+            "party": "Republican"
+          },
+          {
+            "name": "'Art' LeBreton Jr.",
+            "party": "Republican"
+          },
+          {
+            "name": "John Melvin Trahan Jr.",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2239755": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kevin P. Doise",
+            "party": "Republican"
+          },
+          {
+            "name": "Voorhies Leger",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Council Member at Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Susanne 'Sue' Sonnier",
+            "party": "Republican"
+          },
+          {
+            "name": "Angella South",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Eric Fontenot",
+            "party": "Republican"
+          },
+          {
+            "name": "Wayland Lafargue",
+            "party": "Republican"
+          },
+          {
+            "name": "'Angie' Weatherford Van Norman",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2264100": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Glenn Ducharme",
+            "party": "Republican"
+          },
+          {
+            "name": "Heyden Freeman",
+            "party": "Republican"
+          },
+          {
+            "name": "Scottie Jeffcoats",
+            "party": "Republican"
+          },
+          {
+            "name": "Patrick Joseph Kirsch",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Waylin Bertrand",
+            "party": "Republican"
+          },
+          {
+            "name": "Kade Conner",
+            "party": "Republican"
+          },
+          {
+            "name": "'Mick' Estay",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Chris' Guillory",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael Saxby",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2257450": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Wayne Courville",
+            "party": "No Party"
+          },
+          {
+            "name": "Darrell 'Fig' Pitre",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2275425": [
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Alfred 'Al' Carter",
+            "party": "Republican"
+          },
+          {
+            "name": "Calvin Cooks Sr.",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Councilman at Large, Seat D",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michael 'Mike' Naquin",
+            "party": "Republican"
+          },
+          {
+            "name": "John W. Toups",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Councilman at Large, Seat E",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chad J. Mire",
+            "party": "No Party"
+          },
+          {
+            "name": "Burnell Tolbert",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kevin Clement",
+            "party": "Republican"
+          },
+          {
+            "name": "Shawn Snow",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2238285": [
+      {
+        "office": "Council Member(s)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian Allison",
+            "party": "Republican"
+          },
+          {
+            "name": "Russell Dorton",
+            "party": "Republican"
+          },
+          {
+            "name": "Lester Francis",
+            "party": "Republican"
+          },
+          {
+            "name": "Clint Masters",
+            "party": "Republican"
+          },
+          {
+            "name": "Timmy Renz",
+            "party": "Republican"
+          },
+          {
+            "name": "'Donny' Richardson",
+            "party": "Republican"
+          },
+          {
+            "name": "Tommy D. Sandifer",
+            "party": "Republican"
+          },
+          {
+            "name": "'Cindy' White",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Wayne Chapman",
+            "party": "Republican"
+          },
+          {
+            "name": "Mandy Sandifer",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2277490": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Trish' Cook Taylor",
+            "party": "No Party"
+          },
+          {
+            "name": "Teresa Sanders Corley",
+            "party": "Republican"
+          },
+          {
+            "name": "Carl 'Tom' Douglas",
+            "party": "Republican"
+          },
+          {
+            "name": "'Clay' Hutto",
+            "party": "No Party"
+          },
+          {
+            "name": "'Mike' E. Russell",
+            "party": "Republican"
+          },
+          {
+            "name": "Stacie P. Strain",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lucas Ledbetter",
+            "party": "Republican"
+          },
+          {
+            "name": "Donna Lindsey",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2276615": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Billie Jo Bird",
+            "party": "Republican"
+          },
+          {
+            "name": "Shelby Loe",
+            "party": "No Party"
+          },
+          {
+            "name": "'Jim' Oliveaux",
+            "party": "No Party"
+          },
+          {
+            "name": "Sonya Oliveaux",
+            "party": "Republican"
+          },
+          {
+            "name": "Tracy Ponds",
+            "party": "Republican"
+          },
+          {
+            "name": "Samantha Sweeten",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Scott Cockerham",
+            "party": "Republican"
+          },
+          {
+            "name": "Gary W. McDaniel",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2257905": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michael Duke",
+            "party": "No Party"
+          },
+          {
+            "name": "Emily Emfinger",
+            "party": "Republican"
+          },
+          {
+            "name": "Brandon Slade Martin",
+            "party": "No Party"
+          },
+          {
+            "name": "Anita Masoner",
+            "party": "Republican"
+          },
+          {
+            "name": "'Mike' McDougald",
+            "party": "Republican"
+          },
+          {
+            "name": "Joel Sims",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2266655": [
+      {
+        "office": "City Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Addison 'Add' Goff",
+            "party": "Republican"
+          },
+          {
+            "name": "Gina Jones",
+            "party": "No Party"
+          },
+          {
+            "name": "'Mike' Smith",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "William Faulkner",
+            "party": "No Party"
+          },
+          {
+            "name": "'Ronny' Walker",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2230515": [
+      {
+        "office": "Council Members",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John F. Brown Jr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "David Ferguson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Mary Goree Gipson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Cathy Holmes",
+            "party": "Democrat"
+          },
+          {
+            "name": "Jerry Lewis",
+            "party": "Democrat"
+          },
+          {
+            "name": "DeVaria Hudson Ponton",
+            "party": "Democrat"
+          },
+          {
+            "name": "Delores Wilkerson Smith",
+            "party": "Democrat"
+          },
+          {
+            "name": "Garnet Wagner I",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Alvin Bradley",
+            "party": "Democrat"
+          },
+          {
+            "name": "Edward R. Jones",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2221800": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Don' Dufour",
+            "party": "No Party"
+          },
+          {
+            "name": "Heath Humble",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Corey Beckham",
+            "party": "Republican"
+          },
+          {
+            "name": "Kimberly Gill",
+            "party": "No Party"
+          },
+          {
+            "name": "Mona Durrett Wilson",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2215290": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'John' Croswell",
+            "party": "Republican"
+          },
+          {
+            "name": "Donald Guillotte",
+            "party": "No Party"
+          },
+          {
+            "name": "'Jake' Haddox",
+            "party": "Republican"
+          },
+          {
+            "name": "'Rick' Maier",
+            "party": "No Party"
+          },
+          {
+            "name": "Corey Martin",
+            "party": "Republican"
+          },
+          {
+            "name": "Bryce Rodgers",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John Clary",
+            "party": "Republican"
+          },
+          {
+            "name": "Willard Sullivan",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Kip' Franklin",
+            "party": "Republican"
+          },
+          {
+            "name": "Brandon J. Milner",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2220435": [
+      {
+        "office": "City Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jerry Denton Jr.",
+            "party": "Republican"
+          },
+          {
+            "name": "Steven James Farber",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Council Member(s)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Denver Ballard",
+            "party": "Republican"
+          },
+          {
+            "name": "Ann Green Harris",
+            "party": "Republican"
+          },
+          {
+            "name": "William J. 'Bill' Lawson",
+            "party": "Republican"
+          },
+          {
+            "name": "Robert Poole",
+            "party": "Republican"
+          },
+          {
+            "name": "Raphineas 'Ray' Riley",
+            "party": "No Party"
+          },
+          {
+            "name": "'Jeff' Wesley",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John Cavalier",
+            "party": "No Party"
+          },
+          {
+            "name": "Jim Gilbert",
+            "party": "Republican"
+          },
+          {
+            "name": "'Ben' Harris",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2200835": [
+      {
+        "office": "Councilmen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jared Lott",
+            "party": "Republican"
+          },
+          {
+            "name": "Lloyd 'Bee' Martin",
+            "party": "Republican"
+          },
+          {
+            "name": "Peter 'Don' Onofry",
+            "party": "Republican"
+          },
+          {
+            "name": "Joseph 'Joey' Rogers",
+            "party": "Republican"
+          },
+          {
+            "name": "Kimberly Stewart",
+            "party": "Republican"
+          },
+          {
+            "name": "S. Gerald Stilley",
+            "party": "Republican"
+          },
+          {
+            "name": "John Thomas",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2204685": [
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lisa Chafford",
+            "party": "Democrat"
+          },
+          {
+            "name": "Ronald Wilhite",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2216655": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dorothy Bradshaw",
+            "party": "Democrat"
+          },
+          {
+            "name": "Sharon Danette Daigle",
+            "party": "No Party"
+          },
+          {
+            "name": "Brenda Fenceroy",
+            "party": "Democrat"
+          },
+          {
+            "name": "Emma Jones",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lori Crymes Buckner",
+            "party": "No Party"
+          },
+          {
+            "name": "Steven 'Steve' Daigle",
+            "party": "Republican"
+          },
+          {
+            "name": "Rodney Fenceroy",
+            "party": "Democrat"
+          },
+          {
+            "name": "John Fontenot",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2253545": [
+      {
+        "office": "City Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Cloyd Benjamin Jr.",
+            "party": "No Party"
+          },
+          {
+            "name": "Robert Owsley",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Carl Sias",
+            "party": "No Party"
+          },
+          {
+            "name": "'Randy' Williams",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2212280": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rickey Armstead",
+            "party": "No Party"
+          },
+          {
+            "name": "Syreetta Evans",
+            "party": "No Party"
+          },
+          {
+            "name": "Christopher Houston Sr.",
+            "party": "Republican"
+          },
+          {
+            "name": "Quatashia 'Shae' Phillips",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Councilmen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Laquita 'Quita' Arnold",
+            "party": "No Party"
+          },
+          {
+            "name": "La-Tia Beavers",
+            "party": "No Party"
+          },
+          {
+            "name": "Mary Donaway Collins",
+            "party": "Democrat"
+          },
+          {
+            "name": "James Evans Jr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "Da'Netta Prudhomme",
+            "party": "Democrat"
+          },
+          {
+            "name": "Sarah Ann Reliford",
+            "party": "Democrat"
+          },
+          {
+            "name": "Robin Washington",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Katrina Evans",
+            "party": "Democrat"
+          },
+          {
+            "name": "Jasmine Lewis",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2265325": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Anthony Freeman",
+            "party": "Republican"
+          },
+          {
+            "name": "Wannetta French",
+            "party": "No Party"
+          },
+          {
+            "name": "Bubba Ivy",
+            "party": "Republican"
+          },
+          {
+            "name": "Pamela Jennings",
+            "party": "Republican"
+          },
+          {
+            "name": "Martha Solice",
+            "party": "Republican"
+          },
+          {
+            "name": "James Walker",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chase Collins",
+            "party": "No Party"
+          },
+          {
+            "name": "Rodney Lane French",
+            "party": "No Party"
+          },
+          {
+            "name": "Gordon Ocon",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2203145": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tom Ouzts Jr.",
+            "party": "Republican"
+          },
+          {
+            "name": "Shellie Pullig",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2262770": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Virginia Salter",
+            "party": "No Party"
+          },
+          {
+            "name": "Eric Upchurch",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2229745": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Reed Franklin",
+            "party": "Republican"
+          },
+          {
+            "name": "Norvel Garner",
+            "party": "No Party"
+          },
+          {
+            "name": "Timmy Harris",
+            "party": "Republican"
+          },
+          {
+            "name": "Larry McGee",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2280955": [
+      {
+        "office": "City Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brandi Cole",
+            "party": "Republican"
+          },
+          {
+            "name": "'Brian' Harkins",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joel Dyke",
+            "party": "Republican"
+          },
+          {
+            "name": "John Rutledge",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2251410": [
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Robert Cherry Jr.",
+            "party": "No Party"
+          },
+          {
+            "name": "'Chris' Lewis",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2273255": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Billy Clarkson",
+            "party": "Republican"
+          },
+          {
+            "name": "Ashton Brown Courson",
+            "party": "Republican"
+          },
+          {
+            "name": "Rose 'Marla' Green",
+            "party": "Republican"
+          },
+          {
+            "name": "Charles Hodnett Jr.",
+            "party": "No Party"
+          },
+          {
+            "name": "Zachary 'Zack' Howse",
+            "party": "No Party"
+          },
+          {
+            "name": "Erica Hughes",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2255105": [
+      {
+        "office": "Council Member at Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Anthony D. Hurst Sr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "Cleotha Johnigan Jr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "Shael Stringer",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kevin 'Cat' Bridgewater",
+            "party": "Democrat"
+          },
+          {
+            "name": "Kurt G. Kellerman",
+            "party": "No Party"
+          },
+          {
+            "name": "Theron Smith",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2226280": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lonnie Kimble",
+            "party": "Republican"
+          },
+          {
+            "name": "Beth LaCombe",
+            "party": "No Party"
+          },
+          {
+            "name": "Kirk LaCombe",
+            "party": "No Party"
+          },
+          {
+            "name": "Tori Robillard",
+            "party": "Republican"
+          },
+          {
+            "name": "Theresa Smith",
+            "party": "Republican"
+          },
+          {
+            "name": "Amie Smith Harris",
+            "party": "Democrat"
+          },
+          {
+            "name": "Joshua Sonnier",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2200975": [
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Cedric Green",
+            "party": "Democrat"
+          },
+          {
+            "name": "Jerome Hopewell",
+            "party": "Republican"
+          },
+          {
+            "name": "Raymond Eli Smith",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Councilman at Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gregory Scott",
+            "party": "Democrat"
+          },
+          {
+            "name": "'Jim' Villard",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lorenzo Davis Sr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "Malcolm Larvadain",
+            "party": "Democrat"
+          },
+          {
+            "name": "Jacques Roy",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2204055": [
+      {
+        "office": "Alderman",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bryan Adams",
+            "party": "Republican"
+          },
+          {
+            "name": "Glenda Bolen",
+            "party": "Republican"
+          },
+          {
+            "name": "Bradley Riccardi",
+            "party": "Republican"
+          },
+          {
+            "name": "Carroll Ward",
+            "party": "Republican"
+          },
+          {
+            "name": "Suzanne Duncan-Furby",
+            "party": "Republican"
+          },
+          {
+            "name": "Neil Sayer",
+            "party": "Republican"
+          },
+          {
+            "name": "Terry Baker",
+            "party": "Republican"
+          },
+          {
+            "name": "Ursula Dewalt",
+            "party": "Republican"
+          },
+          {
+            "name": "Richard Mitchell",
+            "party": "No Party"
+          },
+          {
+            "name": "Robin Moody",
+            "party": "No Party"
+          },
+          {
+            "name": "Tiffany Cardwell",
+            "party": "Republican"
+          },
+          {
+            "name": "Kimberley Krischke",
+            "party": "Republican"
+          },
+          {
+            "name": "Nathaniel Majors",
+            "party": "Republican"
+          },
+          {
+            "name": "'Danny' Winn",
+            "party": "No Party"
+          },
+          {
+            "name": "John Cearley",
+            "party": "No Party"
+          },
+          {
+            "name": "Charlotte Williams-Smith",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Marc Mercer",
+            "party": "Republican"
+          },
+          {
+            "name": "Gail Wilking",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2209165": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Leslie 'Bobe' Aaron",
+            "party": "Democrat"
+          },
+          {
+            "name": "Jennie Bobb",
+            "party": "Democrat"
+          },
+          {
+            "name": "Peggy Brew",
+            "party": "Democrat"
+          },
+          {
+            "name": "Pamela Bynog",
+            "party": "No Party"
+          },
+          {
+            "name": "Cathy Fisher",
+            "party": "Democrat"
+          },
+          {
+            "name": "Linda Bobb Fisher",
+            "party": "Democrat"
+          },
+          {
+            "name": "Mary Ann Fisher",
+            "party": "Democrat"
+          },
+          {
+            "name": "Fidelia Jackson-Sutherland",
+            "party": "Democrat"
+          },
+          {
+            "name": "Donna Lofton",
+            "party": "Democrat"
+          },
+          {
+            "name": "Lucretia 'Bonnie' McCoy",
+            "party": "Democrat"
+          },
+          {
+            "name": "Carolyn White-Pittman",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Austin Furlow",
+            "party": "No Party"
+          },
+          {
+            "name": "Ronald Lamont Goudeau",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kelvin V. McCoy",
+            "party": "Democrat"
+          },
+          {
+            "name": "Alma Scott Moore",
+            "party": "Democrat"
+          },
+          {
+            "name": "William Nichols",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2229220": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Diedre M. Guy",
+            "party": "No Party"
+          },
+          {
+            "name": "Jerry Melder",
+            "party": "Republican"
+          },
+          {
+            "name": "Willie Moore",
+            "party": "Democrat"
+          },
+          {
+            "name": "Clyde 'Red' Myers",
+            "party": "No Party"
+          },
+          {
+            "name": "Russell Norsworthy",
+            "party": "No Party"
+          },
+          {
+            "name": "Darine Plummer",
+            "party": "No Party"
+          },
+          {
+            "name": "Janine Rayburn",
+            "party": "Republican"
+          },
+          {
+            "name": "Howard Shaw Jr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "Nedra Simmons",
+            "party": "No Party"
+          },
+          {
+            "name": "Lisa Melder Willis",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael Woods",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Matt R. Cloud",
+            "party": "Republican"
+          },
+          {
+            "name": "Johnny Wade Fitt",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jeffrey Botson",
+            "party": "No Party"
+          },
+          {
+            "name": "Garry Goynes",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2242800": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michael Busch",
+            "party": "No Party"
+          },
+          {
+            "name": "Lavern Clark",
+            "party": "Democrat"
+          },
+          {
+            "name": "Eric Collins",
+            "party": "No Party"
+          },
+          {
+            "name": "James D. Dyess Sr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "Michael Henton",
+            "party": "Democrat"
+          },
+          {
+            "name": "Mykell Kirk Sr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "Pierre LaCaze",
+            "party": "No Party"
+          },
+          {
+            "name": "Dewayne Lair Sr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "Maxine Mix",
+            "party": "No Party"
+          },
+          {
+            "name": "Frank Spears",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Albert 'Butch' Butler",
+            "party": "Democrat"
+          },
+          {
+            "name": "Ashton Washington Jr.",
+            "party": "No Party"
+          },
+          {
+            "name": "Herman 'Greg' Williams",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2220190": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Johnny Ray Cleveland",
+            "party": "Democrat"
+          },
+          {
+            "name": "Nathaniel 'Roy' Williams",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "LaToria 'Twin' Ashley",
+            "party": "Democrat"
+          },
+          {
+            "name": "Vivian Jones",
+            "party": "No Party"
+          },
+          {
+            "name": "Perry Smith",
+            "party": "Democrat"
+          },
+          {
+            "name": "Jesse Washington",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2248260": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tracy Burgess",
+            "party": "Republican"
+          },
+          {
+            "name": "Kathryn 'Paula' Carter",
+            "party": "Republican"
+          },
+          {
+            "name": "Blake Marchbank",
+            "party": "Republican"
+          },
+          {
+            "name": "Mary Nichols",
+            "party": "Republican"
+          },
+          {
+            "name": "LeNette Romero",
+            "party": "Republican"
+          },
+          {
+            "name": "Pamela Vaughn",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2283685": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "David R. 'Roach' Remedies",
+            "party": "No Party"
+          },
+          {
+            "name": "Daniel Thomas",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Councilmen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Harry Babers",
+            "party": "Democrat"
+          },
+          {
+            "name": "Darlene Frazier",
+            "party": "Democrat"
+          },
+          {
+            "name": "James M. Hubbard",
+            "party": "Republican"
+          },
+          {
+            "name": "Charles W. Miller",
+            "party": "No Party"
+          },
+          {
+            "name": "Sandra 'Love' Newton",
+            "party": "Democrat"
+          },
+          {
+            "name": "Donald 'Hootie' Remedies",
+            "party": "Republican"
+          },
+          {
+            "name": "Allen Rivers",
+            "party": "Democrat"
+          },
+          {
+            "name": "Jane Rivers",
+            "party": "Republican"
+          },
+          {
+            "name": "Randel 'Randy' Sepulvado",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2230550": [
+      {
+        "office": "Aldermen at Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Craig B. Calcagno",
+            "party": "Democrat"
+          },
+          {
+            "name": "Christopher 'Tip' Hymel",
+            "party": "Republican"
+          },
+          {
+            "name": "Mikayla C. Kinler",
+            "party": "Republican"
+          },
+          {
+            "name": "Claude 'Clyde' Wiggins Sr.",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Devon M. Jackson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Dustin J. Jenkins",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Donald L. Arbuthnot",
+            "party": "Democrat"
+          },
+          {
+            "name": "Steven J. Bourgeois",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2246720": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nathaniel 'Nat' Jones",
+            "party": "Democrat"
+          },
+          {
+            "name": "Patrick P. St. Pierre",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2258045": [
+      {
+        "office": "Alderman at Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ron Jackson",
+            "party": "No Party"
+          },
+          {
+            "name": "Jacqueline Angelle Martin",
+            "party": "Democrat"
+          },
+          {
+            "name": "Marvin Tyrone Richard",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Graig 'Twin' LeBlanc",
+            "party": "Democrat"
+          },
+          {
+            "name": "Yolanda Lewis",
+            "party": "Democrat"
+          },
+          {
+            "name": "Ebony Martin",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bruce Alsandor",
+            "party": "Democrat"
+          },
+          {
+            "name": "Paul Mouton",
+            "party": "Democrat"
+          },
+          {
+            "name": "Easton Shelvin",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Julius Alsandor",
+            "party": "Democrat"
+          },
+          {
+            "name": "Sona Anderson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Donald Broussard",
+            "party": "Democrat"
+          },
+          {
+            "name": "Elbert Lee Guillory",
+            "party": "Republican"
+          },
+          {
+            "name": "Kenon Lamb",
+            "party": "Democrat"
+          },
+          {
+            "name": "Devin Manuel McKnight",
+            "party": "Democrat"
+          },
+          {
+            "name": "'Rod' Sias",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2203110": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dakota 'Brown' Arnaud",
+            "party": "No Party"
+          },
+          {
+            "name": "Chelsey Coody",
+            "party": "No Party"
+          },
+          {
+            "name": "Ryan Courville",
+            "party": "Republican"
+          },
+          {
+            "name": "Jamie Ulin Huval",
+            "party": "Republican"
+          },
+          {
+            "name": "'Debbie' Kidder",
+            "party": "Democrat"
+          },
+          {
+            "name": "Kathleen 'Kathy' Richard",
+            "party": "Democrat"
+          },
+          {
+            "name": "Cynthia Stelly",
+            "party": "Republican"
+          },
+          {
+            "name": "John Ray Taylor",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Ginger' LeCompte",
+            "party": "Republican"
+          },
+          {
+            "name": "Todd Meche",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2230760": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Annette Charles",
+            "party": "Democrat"
+          },
+          {
+            "name": "Gretchen Coco",
+            "party": "Democrat"
+          },
+          {
+            "name": "Shaterral 'Terra' Johnson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Ted Andrew Miller",
+            "party": "Democrat"
+          },
+          {
+            "name": "Sandra K. Smith",
+            "party": "Democrat"
+          },
+          {
+            "name": "Rebekah Taylor",
+            "party": "Democrat"
+          },
+          {
+            "name": "Devin Thomas",
+            "party": "Democrat"
+          },
+          {
+            "name": "Eli Wheeler",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Willie Troy Coco",
+            "party": "Democrat"
+          },
+          {
+            "name": "Wilton Guidry",
+            "party": "Democrat"
+          },
+          {
+            "name": "Brad Randell",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Milton Arceneaux",
+            "party": "Democrat"
+          },
+          {
+            "name": "Danielle Belson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Elyse Jean Randell",
+            "party": "Democrat"
+          },
+          {
+            "name": "Patrick Richard",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2249730": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Demetria Burks",
+            "party": "No Party"
+          },
+          {
+            "name": "Phillip Lucas Jr.",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Caretta Robertson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Natasha Faye Thomas Oliney",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2261825": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lisa Abshire",
+            "party": "Republican"
+          },
+          {
+            "name": "Russell J. Aymond",
+            "party": "Republican"
+          },
+          {
+            "name": "Latoya Bush",
+            "party": "No Party"
+          },
+          {
+            "name": "'Greg' Hardy",
+            "party": "Democrat"
+          },
+          {
+            "name": "Sammy Wayne Hardy II",
+            "party": "Republican"
+          },
+          {
+            "name": "Elizabeth 'Susie' Hebert",
+            "party": "Republican"
+          },
+          {
+            "name": "Ronald M. Kimble",
+            "party": "Democrat"
+          },
+          {
+            "name": "Richard M. Mobile",
+            "party": "Democrat"
+          },
+          {
+            "name": "Christopher 'Chris' Ortego",
+            "party": "Republican"
+          },
+          {
+            "name": "Donald J. Robin",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John 'Johnny' Ardoin",
+            "party": "Republican"
+          },
+          {
+            "name": "Kenneth J. Marks",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2274060": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Corey Fairchild",
+            "party": "No Party"
+          },
+          {
+            "name": "Aquieta 'Kiki' Hebert",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Todd Broussard",
+            "party": "No Party"
+          },
+          {
+            "name": "Charles 'Cha Cha' James",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2279870": [
+      {
+        "office": "Council Member at Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Erick G. Fontenot",
+            "party": "Democrat"
+          },
+          {
+            "name": "Juwan Stevens",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "William Dwight Landreneau",
+            "party": "Democrat"
+          },
+          {
+            "name": "Mona C. Wilson",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2258780": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Guyton Budden",
+            "party": "No Party"
+          },
+          {
+            "name": "Judy S. Dupre",
+            "party": "Republican"
+          },
+          {
+            "name": "Tisha Barker Kimble",
+            "party": "Republican"
+          },
+          {
+            "name": "L. J. Mouille",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2243395": [
+      {
+        "office": "Council Member(s)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amanda O. Herpin",
+            "party": "No Party"
+          },
+          {
+            "name": "Benita A. Kennerson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Patrick 'Ricky' Lafleur",
+            "party": "No Party"
+          },
+          {
+            "name": "William J. 'Billy' Lanclos",
+            "party": "No Party"
+          },
+          {
+            "name": "Felicia Mallet",
+            "party": "No Party"
+          },
+          {
+            "name": "Kirk Stelly",
+            "party": "Republican"
+          },
+          {
+            "name": "Kerry Willingham",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2209340": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Hubert Augustine",
+            "party": "No Party"
+          },
+          {
+            "name": "Albert 'Buz' LeBlanc",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "City Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lee C. Durio",
+            "party": "Republican"
+          },
+          {
+            "name": "Bart Hebert",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2259165": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kevin J. Kately",
+            "party": "Democrat"
+          },
+          {
+            "name": "Amanda Poirier",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2259340": [
+      {
+        "office": "Council Member(s)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bealizeia 'Billy' Badeaux",
+            "party": "No Party"
+          },
+          {
+            "name": "R. Demale Bowden Jr.",
+            "party": "No Party"
+          },
+          {
+            "name": "Lee A. Condolle",
+            "party": "Democrat"
+          },
+          {
+            "name": "Ray 'Mr. Ray' Dewey",
+            "party": "Democrat"
+          },
+          {
+            "name": "Keith Grimball",
+            "party": "Republican"
+          },
+          {
+            "name": "Allis Jennings",
+            "party": "Democrat"
+          },
+          {
+            "name": "Patricia Lynn Jennings",
+            "party": "Democrat"
+          },
+          {
+            "name": "Jeffery S. Lawrence",
+            "party": "Republican"
+          },
+          {
+            "name": "Mamie Soudelier Perry",
+            "party": "No Party"
+          },
+          {
+            "name": "Dawn Rentrop",
+            "party": "Democrat"
+          },
+          {
+            "name": "Miranda Weinbach",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rodney Grogan",
+            "party": "Democrat"
+          },
+          {
+            "name": "Slade Sanders",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2204020": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ajani Connor",
+            "party": "Democrat"
+          },
+          {
+            "name": "Clarence A. Vappie",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2207100": [
+      {
+        "office": "Councilmen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Earl Anslem Jr.",
+            "party": "Republican"
+          },
+          {
+            "name": "Colleen Nicklas Askew",
+            "party": "Republican"
+          },
+          {
+            "name": "Erica S. Brunson",
+            "party": "Republican"
+          },
+          {
+            "name": "Kevin P. Hebert",
+            "party": "Republican"
+          },
+          {
+            "name": "Brandon 'J.H.' Monceaux",
+            "party": "Republican"
+          },
+          {
+            "name": "Raymond Price",
+            "party": "Republican"
+          },
+          {
+            "name": "James Richard",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael 'Mike' Rodrigue",
+            "party": "Republican"
+          },
+          {
+            "name": "George R. Underwood III",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ludness 'Lud' Henry",
+            "party": "Republican"
+          },
+          {
+            "name": "Jason Romero",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2200240": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Carl A. Bayhi",
+            "party": "Republican"
+          },
+          {
+            "name": "E.J. Boudreaux",
+            "party": "Republican"
+          },
+          {
+            "name": "Earl T. Carr Jr.",
+            "party": "Republican"
+          },
+          {
+            "name": "John d'Hemecourt",
+            "party": "Republican"
+          },
+          {
+            "name": "Stewart 'ManyLightnings' Eastman",
+            "party": "Other"
+          },
+          {
+            "name": "Sheldon Kerr",
+            "party": "Republican"
+          },
+          {
+            "name": "Robert 'Bob' Krieger",
+            "party": "No Party"
+          },
+          {
+            "name": "John Preble",
+            "party": "Republican"
+          },
+          {
+            "name": "Angela Whitehead",
+            "party": "Republican"
+          },
+          {
+            "name": "John Zimek",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Stephen Duncan Saussy Jr.",
+            "party": "Republican"
+          },
+          {
+            "name": "Sandra Slifer",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2259445": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Tim' Bennett",
+            "party": "Republican"
+          },
+          {
+            "name": "Mathieu 'Matt' Daigle",
+            "party": "Republican"
+          },
+          {
+            "name": "Kristy Franatovich",
+            "party": "Republican"
+          },
+          {
+            "name": "Kory Kingston",
+            "party": "No Party"
+          },
+          {
+            "name": "Maria Lee",
+            "party": "Republican"
+          },
+          {
+            "name": "John Masson",
+            "party": "Republican"
+          },
+          {
+            "name": "'Tim' Moray",
+            "party": "Republican"
+          },
+          {
+            "name": "Dustin Shaffer",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Steven Ball",
+            "party": "Republican"
+          },
+          {
+            "name": "John Polk",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Virgil R. Phillips",
+            "party": "No Party"
+          },
+          {
+            "name": "Cheryl Schultheis",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2232755": [
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "David Bickford",
+            "party": "Republican"
+          },
+          {
+            "name": "'Pat' Farris",
+            "party": "Republican"
+          },
+          {
+            "name": "Becky Jackson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Arden Wells",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kiplyn 'Kip' Andrews",
+            "party": "Democrat"
+          },
+          {
+            "name": "Carlee White Gonzales",
+            "party": "Republican"
+          },
+          {
+            "name": "Lacy Landrum",
+            "party": "Republican"
+          },
+          {
+            "name": "Tracy Washington Wells",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2239545": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lemmie Chapman III",
+            "party": "Democrat"
+          },
+          {
+            "name": "Michael Kazerooni",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Council Member(s)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Deanna Burton",
+            "party": "Democrat"
+          },
+          {
+            "name": "Gary Callihan",
+            "party": "Democrat"
+          },
+          {
+            "name": "Desiree 'Nikki' Carrier",
+            "party": "Republican"
+          },
+          {
+            "name": "Terrell 'Teddy' Hookfin Sr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "Lotissa Hill Johnson",
+            "party": "Democrat"
+          },
+          {
+            "name": "William Lawson",
+            "party": "No Party"
+          },
+          {
+            "name": "Joi A. Smith",
+            "party": "Democrat"
+          },
+          {
+            "name": "Paul Stewart",
+            "party": "Democrat"
+          },
+          {
+            "name": "Jakoiya Wilkerson",
+            "party": "Democrat"
+          },
+          {
+            "name": "John Williams",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Xavier D. Diamond",
+            "party": "Democrat"
+          },
+          {
+            "name": "Irma Thompson Gordon",
+            "party": "Democrat"
+          },
+          {
+            "name": "Michael 'Mike' Hall",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2275670": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Anthony Lamonte",
+            "party": "Republican"
+          },
+          {
+            "name": "Wade Piediscalzo",
+            "party": "Republican"
+          },
+          {
+            "name": "Jimmy Sparacello",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2237025": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lionel Basso",
+            "party": "No Party"
+          },
+          {
+            "name": "Gaye Guzzardo",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2279940": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Robert Clark Jr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "Elisha Hillard",
+            "party": "Democrat"
+          },
+          {
+            "name": "Henry Jenkins",
+            "party": "Democrat"
+          },
+          {
+            "name": "Roderick 'Chap' Johnson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Joshua Smith",
+            "party": "Democrat"
+          },
+          {
+            "name": "Archie Turner Jr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "Joseph 'Mose' Ward",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jarrod Bottley",
+            "party": "Democrat"
+          },
+          {
+            "name": "Bobby Higginbotham",
+            "party": "Democrat"
+          },
+          {
+            "name": "Ruby 'Elaine' Scott",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2236255": [
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Herbert Fitch",
+            "party": "Republican"
+          },
+          {
+            "name": "Eugene 'Nunk' Lagarde Sr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "Lonnie Lusco",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2207030": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gloria Ates",
+            "party": "Republican"
+          },
+          {
+            "name": "Larry Jones",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2248645": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Addison Akers",
+            "party": "Republican"
+          },
+          {
+            "name": "Sydney Akers",
+            "party": "Republican"
+          },
+          {
+            "name": "Cassandra Crow",
+            "party": "Democrat"
+          },
+          {
+            "name": "Eugene 'Bubba' Hoggatt",
+            "party": "Republican"
+          },
+          {
+            "name": "Adam Kennedy",
+            "party": "No Party"
+          },
+          {
+            "name": "John McPherson",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Charles Brown",
+            "party": "Republican"
+          },
+          {
+            "name": "Montral Ferguson",
+            "party": "No Party"
+          },
+          {
+            "name": "Gus Thorpe Jr.",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2239055": [
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "William J. Seaux",
+            "party": "Republican"
+          },
+          {
+            "name": "Ruby Thibeaux",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2224180": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Anna Lapointe",
+            "party": "No Party"
+          },
+          {
+            "name": "Randall Toups",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Stephanie P. Broussard",
+            "party": "No Party"
+          },
+          {
+            "name": "Marlene Menard",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2232055": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jeffrey Lamson",
+            "party": "No Party"
+          },
+          {
+            "name": "Efrem 'Zim' Livingston",
+            "party": "Democrat"
+          },
+          {
+            "name": "Jason Suire",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2249240": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "'Troy' Catalon",
+            "party": "Republican"
+          },
+          {
+            "name": "Megan Landry-Lalande",
+            "party": "No Party"
+          },
+          {
+            "name": "Jonathan Schlicher",
+            "party": "No Party"
+          },
+          {
+            "name": "Wayne Theriot",
+            "party": "Republican"
+          },
+          {
+            "name": "Matthew Trahan",
+            "party": "Republican"
+          },
+          {
+            "name": "Scott Trahan",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John Dayries",
+            "party": "Republican"
+          },
+          {
+            "name": "Guy Nerren",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2266200": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dennis 'BJ' Bjornberg II",
+            "party": "Republican"
+          },
+          {
+            "name": "Bruce Ward",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2236045": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Hogan Bennett",
+            "party": "Republican"
+          },
+          {
+            "name": "Ida Bynum",
+            "party": "Republican"
+          },
+          {
+            "name": "John Fain",
+            "party": "Republican"
+          },
+          {
+            "name": "Jonathan 'Jon' Hyatt",
+            "party": "Republican"
+          },
+          {
+            "name": "Cullen L. Parker",
+            "party": "Republican"
+          },
+          {
+            "name": "'Tom' Reeks",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2210950": [
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Stephen Gremillion Sr.",
+            "party": "No Party"
+          },
+          {
+            "name": "Brandon Perry Sr.",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2248400": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kennie Augustine",
+            "party": "Democrat"
+          },
+          {
+            "name": "Vernon 'Bim' Augustine Jr.",
+            "party": "No Party"
+          },
+          {
+            "name": "Nicholas 'Nicky' Bordelon",
+            "party": "Republican"
+          },
+          {
+            "name": "Bruce Jackson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Glenn Paul Mckinley",
+            "party": "Democrat"
+          },
+          {
+            "name": "Authuratte Sampson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Darrell Sampson",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Steven Augustine",
+            "party": "Republican"
+          },
+          {
+            "name": "Judy Augustine Bazert",
+            "party": "Democrat"
+          },
+          {
+            "name": "Sterling Hayes Sr.",
+            "party": "Democrat"
+          },
+          {
+            "name": "Judy James",
+            "party": "Democrat"
+          },
+          {
+            "name": "Kenneth Pickett Sr.",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2251970": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Timothy Hill",
+            "party": "Democrat"
+          },
+          {
+            "name": "Hilda 'Lucy' Miller",
+            "party": "Republican"
+          },
+          {
+            "name": "Grant Rabalais",
+            "party": "No Party"
+          },
+          {
+            "name": "Shannon Sampson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Sheli Simon",
+            "party": "No Party"
+          },
+          {
+            "name": "Jermaine Williams",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Beryl Holmes",
+            "party": "Democrat"
+          },
+          {
+            "name": "Timmy Lemoine",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2208150": [
+      {
+        "office": "City Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "David Merlin Duke",
+            "party": "Republican"
+          },
+          {
+            "name": "Lillian 'Tina' Ratliff",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tremon Ratliff",
+            "party": "Democrat"
+          },
+          {
+            "name": "John Sumrall",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Councilmen at Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Melvin 'Chester' Abram",
+            "party": "Democrat"
+          },
+          {
+            "name": "Suzanne Belton",
+            "party": "Democrat"
+          },
+          {
+            "name": "Penny Douglas",
+            "party": "Democrat"
+          },
+          {
+            "name": "Judson 'Teddy' Drummond",
+            "party": "Republican"
+          },
+          {
+            "name": "Tobias Roberts",
+            "party": "No Party"
+          },
+          {
+            "name": "Tamira Moss Smith",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Wendy Williams Dupont",
+            "party": "Democrat"
+          },
+          {
+            "name": "Michael Corey O'Ree",
+            "party": "No Party"
+          },
+          {
+            "name": "Lori Simpson-Taylor",
+            "party": "Republican"
+          },
+          {
+            "name": "Tyrin Z. Truong",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2272485": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ronnie Coleman",
+            "party": "Democrat"
+          },
+          {
+            "name": "'Will' Lynd",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Charles Edgell",
+            "party": "No Party"
+          },
+          {
+            "name": "Heath Stephens",
+            "party": "No Party"
+          },
+          {
+            "name": "Lance Stockman",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Adam Harris",
+            "party": "Republican"
+          },
+          {
+            "name": "Derek Melancon",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2250885": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ryan Barnette",
+            "party": "No Party"
+          },
+          {
+            "name": "Jared McIver",
+            "party": "No Party"
+          },
+          {
+            "name": "Darrell Morris",
+            "party": "Republican"
+          },
+          {
+            "name": "'Tim' Morris",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2224145": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Raylie Cox",
+            "party": "No Party"
+          },
+          {
+            "name": "Cristal Gayle Francis",
+            "party": "Democrat"
+          },
+          {
+            "name": "Ashley Herrington",
+            "party": "Democrat"
+          },
+          {
+            "name": "Jayme Hogan",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2282460": [
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Herman Grantadams",
+            "party": "Republican"
+          },
+          {
+            "name": "Jamey Maxwell",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2221170": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Wanda Brown",
+            "party": "Republican"
+          },
+          {
+            "name": "Linda Hall-Whitaker",
+            "party": "No Party"
+          },
+          {
+            "name": "Karla Shively",
+            "party": "Republican"
+          },
+          {
+            "name": "Hunter Vines",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2202655": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Steven Haulcy",
+            "party": "No Party"
+          },
+          {
+            "name": "Ciera Murphy",
+            "party": "Democrat"
+          },
+          {
+            "name": "Charles Tibbs",
+            "party": "No Party"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "O'landis 'Bubba' Millican",
+            "party": "No Party"
+          },
+          {
+            "name": "Joseph Pruitt Jr.",
+            "party": "No Party"
+          },
+          {
+            "name": "LaShondra Russell",
+            "party": "No Party"
+          },
+          {
+            "name": "Bonnie Stephenson",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2228835": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Angela 'Nub' Adams",
+            "party": "No Party"
+          },
+          {
+            "name": "Timmy Cato",
+            "party": "Democrat"
+          },
+          {
+            "name": "Gary Durham",
+            "party": "No Party"
+          },
+          {
+            "name": "Grant Johnson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Dianna Pearson",
+            "party": "Democrat"
+          },
+          {
+            "name": "Julius Pearson",
+            "party": "Democrat"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ray Ivory Sr.",
+            "party": "No Party"
+          },
+          {
+            "name": "Jessie Faye Manuel",
+            "party": "No Party"
+          },
+          {
+            "name": "Jeannie Richardson",
+            "party": "Democrat"
+          }
+        ]
+      }
+    ],
+    "2264905": [
+      {
+        "office": "Chief of Police",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Anthony G. Hay",
+            "party": "No Party"
+          },
+          {
+            "name": "Freddie Peterson",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "2208920": [
+      {
+        "office": "City Marshal",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian Hammons",
+            "party": "Republican"
+          },
+          {
+            "name": "Jimmie 'Jim' Whitman",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "2233420": [
+      {
+        "office": "Aldermen",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tarrah Dobbins",
+            "party": "Republican"
+          },
+          {
+            "name": "Beth McAnn",
+            "party": "Republican"
+          }
+        ]
+      }
+    ]
+  },
+  "annotations": {},
+  "date": {
+    "quote": "11/03/2026",
+    "text": "The Louisiana Secretary of State candidate inquiry export prints Election 11/03/2026."
+  },
+  "localIntro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for this place.",
+  "localByCounty": {
+    "Plaquemines Parish": [
+      {
+        "office": "Parish President",
+        "key": null,
+        "candidates": [
+          {
+            "name": "W. Keith Hinkley",
+            "party": "Republican"
+          },
+          {
+            "name": "Sharon Branan Lincoln",
+            "party": "No Party"
+          },
+          {
+            "name": "Benedict 'Benny' Rousselle",
+            "party": "Republican"
+          },
+          {
+            "name": "Burghart H. Turner",
+            "party": "Democrat"
+          },
+          {
+            "name": "Kenneth 'Kenny' Woods",
+            "party": "No Party"
+          }
+        ]
+      }
+    ],
+    "St. Tammany Parish": [
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Robert Hodges",
+            "party": "Republican"
+          },
+          {
+            "name": "Scott Illing",
+            "party": "Republican"
+          },
+          {
+            "name": "David Maki",
+            "party": "No Party"
+          },
+          {
+            "name": "Daniel Seuzeneau",
+            "party": "Republican"
+          }
+        ]
+      }
+    ]
+  },
+  "countyRead": {
+    "Acadia Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Acadia Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Acadia Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Allen Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Allen Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Allen Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Ascension Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Ascension Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Ascension Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Assumption Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Assumption Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Assumption Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Avoyelles Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Avoyelles Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Avoyelles Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Beauregard Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Beauregard Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Beauregard Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Bienville Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Bienville Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Bienville Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Bossier Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Bossier Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Bossier Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Caddo Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Caddo Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Caddo Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Calcasieu Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Calcasieu Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Calcasieu Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Caldwell Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Caldwell Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Caldwell Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Cameron Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Cameron Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Cameron Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Catahoula Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Catahoula Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Catahoula Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Claiborne Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Claiborne Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Claiborne Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Concordia Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Concordia Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Concordia Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "De Soto Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for De Soto Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in De Soto Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "East Baton Rouge Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for East Baton Rouge Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in East Baton Rouge Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "East Carroll Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for East Carroll Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in East Carroll Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "East Feliciana Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for East Feliciana Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in East Feliciana Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Evangeline Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Evangeline Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Evangeline Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Franklin Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Franklin Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Franklin Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Grant Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Grant Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Grant Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Iberia Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Iberia Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Iberia Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Iberville Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Iberville Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Iberville Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Jackson Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Jackson Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Jackson Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Jefferson Davis Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Jefferson Davis Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Jefferson Davis Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Jefferson Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Jefferson Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Jefferson Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "LaSalle Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for LaSalle Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in LaSalle Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Lafayette Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Lafayette Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Lafayette Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Lafourche Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Lafourche Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Lafourche Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Lincoln Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Lincoln Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Lincoln Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Livingston Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Livingston Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Livingston Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Madison Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Madison Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Madison Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Morehouse Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Morehouse Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Morehouse Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Natchitoches Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Natchitoches Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Natchitoches Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Orleans Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Orleans Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Orleans Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Ouachita Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Ouachita Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Ouachita Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Plaquemines Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Plaquemines Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Plaquemines Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Pointe Coupee Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Pointe Coupee Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Pointe Coupee Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Rapides Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Rapides Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Rapides Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Red River Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Red River Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Red River Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Richland Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Richland Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Richland Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Sabine Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Sabine Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Sabine Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "St. Bernard Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for St. Bernard Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in St. Bernard Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "St. Charles Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for St. Charles Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in St. Charles Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "St. Helena Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for St. Helena Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in St. Helena Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "St. James Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for St. James Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in St. James Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "St. John the Baptist Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for St. John the Baptist Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in St. John the Baptist Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "St. Landry Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for St. Landry Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in St. Landry Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "St. Martin Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for St. Martin Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in St. Martin Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "St. Mary Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for St. Mary Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in St. Mary Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "St. Tammany Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for St. Tammany Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in St. Tammany Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Tangipahoa Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Tangipahoa Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Tangipahoa Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Tensas Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Tensas Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Tensas Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Terrebonne Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Terrebonne Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Terrebonne Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Union Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Union Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Union Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Vermilion Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Vermilion Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Vermilion Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Vernon Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Vernon Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Vernon Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Washington Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Washington Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Washington Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Webster Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Webster Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Webster Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "West Baton Rouge Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for West Baton Rouge Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied.",
+      "empty": "The Louisiana candidate inquiry does not include a parishwide local contest for West Baton Rouge Parish."
+    },
+    "West Carroll Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for West Carroll Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in West Carroll Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "West Feliciana Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for West Feliciana Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in West Feliciana Parish whose district does not name one Census place, so those contests are not copied here."
+    },
+    "Winn Parish": {
+      "label": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
+      "href": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "intro": "The Louisiana Secretary of State candidate inquiry for the 11/03/2026 election names these local offices for Winn Parish.",
+      "note": "Rows whose Outcome column prints Unopposed, Withdrew, Other/Disq, or Deceased are not copied. The inquiry also includes contests in Winn Parish whose district does not name one Census place, so those contests are not copied here."
+    }
+  }
+}
