@@ -1109,6 +1109,32 @@
             "mark": "Yes"
           }
         ]
+      },
+      {
+        "office": "Member Town Council - Lawrenceville",
+        "district": "District 1",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Alice B. Talbert",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Lawrenceville",
+        "district": "District 2",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Teya J. Whitehead",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
       }
     ],
     "5133648": [
@@ -1619,6 +1645,32 @@
     ],
     "5106968": [
       {
+        "office": "Member Town Council",
+        "district": "Berryville Ward 2",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Patrick M. Irish",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Berryville Ward 4",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Ryan Tibbens",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
         "office": "Vice Mayor",
         "district": "Town of Berryville",
         "term": "4 year",
@@ -1690,6 +1742,39 @@
         ]
       }
     ],
+    "5119728": [
+      {
+        "office": "Member City Council",
+        "district": "District 1",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "David B. Goff",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "District 2",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Milton E. Helton Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Michael L. Green",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
     "5155592": [
       {
         "office": "Mayor",
@@ -1729,6 +1814,68 @@
       }
     ],
     "5127440": [
+      {
+        "office": "Mayor",
+        "district": "Farmville",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Brian Richard Vincent",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "W. Christian Fox",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Farmville Ward A",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "John F. Hardy",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Farmville Ward B",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Adam B. Yoelin",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Farmville Ward C",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "A. D. \"Chuckie\" Reid",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Patrick B. Carwile",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
       {
         "office": "Member Town Council - At Large",
         "district": "Town of Farmville",
@@ -1949,6 +2096,65 @@
           },
           {
             "name": "Sarah A. Woodland",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5125808": [
+      {
+        "office": "Member City Council",
+        "district": "District 1",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Clifton Threat",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "District 4",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Mark S. Lilly",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "District 5",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Doris T. White",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "District 7",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Alvina B. Matthews",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Kenneth L. \"Kenny\" Speller",
             "party": "Independent",
             "mark": "No"
           }
@@ -2338,6 +2544,26 @@
         ]
       }
     ],
+    "5128544": [
+      {
+        "office": "Member Town Council - Special",
+        "district": "Floyd",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Lisa R. Thompson",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "David B. Whitaker",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
     "5129600": [
       {
         "office": "Mayor",
@@ -2354,6 +2580,47 @@
             "name": "Paul E. Kaplan",
             "party": "Independent",
             "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "District 3",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Gregory Mclemore",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Gregory McLemore",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Charlie L. Ashburn Jr.",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "District 5",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Wynndolyn H. Copeland",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Ricky L. Sykes",
+            "party": "Independent",
+            "mark": "No"
           }
         ]
       }
@@ -2838,6 +3105,58 @@
             "mark": "Yes"
           }
         ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Halifax Ward A",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Sylvia S. Bailey",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Halifax Ward B",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Gail W. Bosiger",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Halifax Ward C",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "S. Jackson \"Jack\" Dunavant, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Halifax Ward D",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Edward L. \"Ned\" Covington",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
       }
     ],
     "5181312": [
@@ -2914,6 +3233,46 @@
             "name": "Barbara C. Speece",
             "party": "Independent",
             "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5135000": [
+      {
+        "office": "Member City Council",
+        "district": "",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Martha M. Mugler",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Michelle Taylor Ferebee",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Steve L. Brown",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Chris L. Bowman",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Aaron T. Weaver",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Joseph M. \"Joe\" Griffith",
+            "party": "Independent",
+            "mark": "No"
           }
         ]
       }
@@ -3003,6 +3362,131 @@
           },
           {
             "name": "Maeve S. McCulloch",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5152680": [
+      {
+        "office": "Mayor",
+        "district": "Monterey",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Warren E. \"Jay\" Garber, Jr",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Monterey",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Robert A. \"Rob\" Weiss",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Denise S. Botkin",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5138424": [
+      {
+        "office": "Member City Council",
+        "district": "Ward 1",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Deborah B. \"Debbie\" Rand",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Rita Everett Joyner",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Ward 2",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Michael B. Harris",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Vannette T. \"Moonie\" Taylor",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Ward 3",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Jeffrey Maurice Torres",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Anthony N. Sylvester",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Ward 6",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Tavorise K. Marks",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Matthew R. Mellon",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Ward 7",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Colonel K.D. Pratt",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Lovena B. Rapole",
             "party": "Independent",
             "mark": "Yes"
           }
@@ -3336,6 +3820,54 @@
         "candidates": [
           {
             "name": "Terry K. Pope",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Pennington Gap",
+        "district": "Pennington Gap",
+        "term": "4 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Paul Doug Alsup",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Travis C. Mullins",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jimmy L. Warner",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Darrell W. Hayes",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Megan L.L. Kennedy",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Orville D. Overton",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Loretta L. See",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "E. Ty Harber Jr.",
             "party": "Independent",
             "mark": "No"
           }
@@ -4066,6 +4598,54 @@
         ]
       }
     ],
+    "5173904": [
+      {
+        "office": "Member Town Council",
+        "district": "South Hill Ward 1",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Lillie Feggins-Boone",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "South Hill Ward 2",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "G. Randy Crocker, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Ashley Cox Hardee",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5143176": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of Lacrosse",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "G. Bryant Thomas",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
     "5180272": [
       {
         "office": "Mayor",
@@ -4112,6 +4692,44 @@
             "mark": "No"
           }
         ]
+      },
+      {
+        "office": "Member Town Council - Special",
+        "district": "Urbanna",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "R. Bruce Murray",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "J. Dan Snead",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5107784": [
+      {
+        "office": "Member Town Council - Special",
+        "district": "Blacksburg",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Leslie C. Harwood",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Joel L. Goodhart",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
       }
     ],
     "5156000": [
@@ -4139,6 +4757,109 @@
         ]
       },
       {
+        "office": "Member City Council - Seat B",
+        "district": "Central District",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Cleon M. Long",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Andrea R. Diggs",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Michael A. Gale",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council - Seat B",
+        "district": "North District",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Curtis D. Bethany III",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council - Seat B",
+        "district": "South District",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "John R. Eley III",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Clifton J. Atkins",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Devon P. Hamilton",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Central District",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Lisa R. Surles-Law",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Adina R. Rivera",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "North District",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Douglas C. Brown",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "South District",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Terri L. Best",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
         "office": "Member School Board - At Large",
         "district": "Newport News City",
         "term": "4 year",
@@ -4153,6 +4874,178 @@
             "name": "Gary B. Hunter",
             "party": "Independent",
             "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5157000": [
+      {
+        "office": "Member City Council",
+        "district": "Ward 1",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Scott R. Guirlinger",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Ward 2",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Courtney R. Doyle",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Ward 3",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Sikaiadah Newton",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Mamie B. Johnson",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Ward 4",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "John E. \"J.P.\" Paige",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jacquetta D. Garris",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jazmine Emily Garcia",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Ward 5",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Tommy R. Smigiel, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Ward 1",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Adale M. Martin",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Joshua L. Howell",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Ward 2",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Veleka S. Gatling",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Michael C. Spencer",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Shawn D. Wilkerson, Jr.",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Ward 3",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Jodi M. Slaughter",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Ward 4",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Tiffany R. Moore-Buffaloe",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Candiase B. Driver",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Ward 5",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Ken D. Paulson",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jevon W. Baskerville",
+            "party": "Independent",
+            "mark": "No"
           }
         ]
       }
@@ -4444,6 +5337,129 @@
         ]
       }
     ],
+    "5107832": [
+      {
+        "office": "Mayor",
+        "district": "Blackstone",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Lafayette Dickens",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jesse Lee Bean II",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Blackstone Ward A",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Nathaniel L. Miller",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Blackstone Ward B",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Benjamin D. Eaheart III",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Wesley Gormus Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Blackstone Ward C",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "G. Allen Queen III",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jacob L. Allman",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Blackstone Ward D",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Carolyn A. Williams",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Blackstone Ward E",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Lloyette R. Wynn",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - At Large",
+        "district": "Blackstone",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Ronald L. Frisby",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Chris C. Page Sr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Durby A. Wilson",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Eric M. Nash",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
     "5111560": [
       {
         "office": "Mayor",
@@ -4551,6 +5567,19 @@
             "name": "Anthony M. Munir",
             "party": "Independent",
             "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Special",
+        "district": "Crewe",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Brenda H. Payne",
+            "party": "Independent",
+            "mark": "Yes"
           }
         ]
       }
@@ -4718,6 +5747,147 @@
         ]
       }
     ],
+    "5161832": [
+      {
+        "office": "Member City Council",
+        "district": "Fifth Ward",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "W. Howard Myers",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Joe D. Morrissey",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "First Ward",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Marlow A. Jones",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Seventh Ward",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Herbert V. Coulton Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Bobby Beverly",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Arnold A. Westbrook Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Third Ward",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Michael L. Moore-Storrs",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Samuel D. Parham",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Fifth Ward",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Lakeshia J. Tinsley",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Lois A. Long",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "First Ward",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Steven L. Pierce",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Seventh Ward",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Crystal Brown",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Adrian T. Dance",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Third Ward",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Kenneth L. Pritchett",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Freda L. Curtis",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
     "5115000": [
       {
         "office": "Mayor - Chatham",
@@ -4830,6 +6000,34 @@
             "name": "David A. Arthur",
             "party": "Independent",
             "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5163768": [
+      {
+        "office": "Member City Council",
+        "district": "Central",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Stephen K. Geissinger",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Western",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Debbie Diggs Bunting",
+            "party": "Independent",
+            "mark": "Yes"
           }
         ]
       }
@@ -5321,6 +6519,26 @@
         ]
       }
     ],
+    "5167000": [
+      {
+        "office": "Member School Board",
+        "district": "District 6",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Anne B. Holton",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jacqueline T. \"Jackie\" McDonnough",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
     "5183168": [
       {
         "office": "Member Town Council",
@@ -5654,6 +6872,44 @@
         ]
       }
     ],
+    "5153864": [
+      {
+        "office": "Mayor - Mt Crawford",
+        "district": "Town of Mt Crawford",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Tasha L. Hoover",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Mt Crawford",
+        "district": "Town of Mt Crawford",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Toni B. Ray",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Robert E. \"Bobby\" Taylor",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Dennis S. Driver",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
     "5178736": [
       {
         "office": "Mayor - Timberville",
@@ -5868,6 +7124,54 @@
         ]
       }
     ],
+    "5156304": [
+      {
+        "office": "Mayor - Nickelsville",
+        "district": "Nickelsville",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Rebecca Leigh Bryant",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Nickelsville",
+        "district": "Nickelsville",
+        "term": "4 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Danny L. Dixon",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Stephen L. Glovier",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Sharon Craft Castle",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Brenda Kaye Isaacs",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Rebecca J. Devine",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
     "5117536": [
       {
         "office": "Mayor - Clinchport",
@@ -5987,6 +7291,26 @@
         ]
       }
     ],
+    "5123680": [
+      {
+        "office": "Member Town Council - Duffield",
+        "district": "Duffield",
+        "term": "4 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Billy Travis Bowen",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Amber M. Shupe",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
     "5130496": [
       {
         "office": "Member Town Council - Gate City",
@@ -6054,6 +7378,59 @@
             "name": "Luis O. Krug",
             "party": "Independent",
             "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5153992": [
+      {
+        "office": "Mayor",
+        "district": "Town of Mt Jackson",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Donald I. \"Donnie\" Pifer",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Mt Jackson",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Robert A. Frye",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Devin M. Ross",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "W. Todd Holtzman",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Michael E. Cain",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "M. Kay Pool Whetzel",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Kyle B. Kennedy",
+            "party": "Independent",
+            "mark": "Yes"
           }
         ]
       }
@@ -6436,6 +7813,70 @@
             "mark": "No"
           }
         ]
+      },
+      {
+        "office": "Member Town Council - Courtland",
+        "district": "Courtland Ward A",
+        "term": "2 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Shameka M. Key",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Perry Allen Goodwyn",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Lydia S. Pittman",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Courtland",
+        "district": "Courtland Ward B",
+        "term": "2 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Jason C. Fowler",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "David C. Gibbs",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Courtland",
+        "district": "Courtland Ward C",
+        "term": "2 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Lou Anne Davis",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Madison Edwards Berryman",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jeffrey L. Dodson",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
       }
     ],
     "5140232": [
@@ -6555,6 +7996,147 @@
             "name": "Fontella L. Brown-Bundy",
             "party": "Independent",
             "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5176432": [
+      {
+        "office": "Member City Council",
+        "district": "Chuckatuck Borough",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Mary Ellen Hill",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Shelley S. Butler Barlow",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Cypress Borough",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Will J. Smith",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Leroy Bennett",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Holy Neck Borough",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Timothy J. Johnson",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Suffolk Borough",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "John T. Rector",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Tyron D. Riddick",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Dwight S. \"D.J.\" James",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Chuckatuck Borough",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Karima M. Lockwood",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Kim A. Slingluff",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Cypress Borough",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Karen L. Jenkins",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Holy Neck Borough",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "DawnMarie Brittingham",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Wendy M. VanHosen",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Suffolk Borough",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Jeffrey E. Ferrin",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Steven Cheeks",
+            "party": "Independent",
+            "mark": "No"
           }
         ]
       }
@@ -7051,6 +8633,229 @@
         ]
       }
     ],
+    "5182000": [
+      {
+        "office": "Member City Council",
+        "district": "District 10",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Jennifer Valentine Rouse",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "District 2",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "K. Elaine L. Fekete",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Barbara M. Henley",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jeff L. Bruzzesi",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "District 4",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Janet L. Byrnes",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Amelia N. Ross-Hammond",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "District 6",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Robert W. \"Worth\" Remick",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Richard W. \"RK\" Kowalewitch",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "District 8",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Stacy Cummings Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Chris Taylor",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "District 9",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Joashua F. \"Joash\" Schulman",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "John D. Moss",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "District 10",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Kathleen J. Brown",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Betty J. Spencer",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "District 2",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Zachery C. Taylor",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "James C. \"Chris\" Lewis",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "District 4",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Alveta J. Green",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Melisa D. Herum",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "District 6",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Antoinette D. Kahan",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Brigid A. Kahng",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Kendra G. Edwards",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "District 8",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Natalie L. Bray",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Andrew G. \"Andy\" Baan",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "District 9",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Suzanne F. Berman",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Carolyn D. Weems",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
     "5129968": [
       {
         "office": "Mayor",
@@ -7210,6 +9015,75 @@
         ]
       }
     ],
+    "5183680": [
+      {
+        "office": "Member City Council",
+        "district": "Ward C",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Kenneth B. \"Kenny\" Lee, Sr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Ward D",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "James F. \"Jim \" Wood",
+            "party": "Republican",
+            "mark": "Yes"
+          },
+          {
+            "name": "Samuel A. \"Sam\" Hostetter",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Ward C",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Kelvin J. Washington",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Debra M. Freeman",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Ward D",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Adam L. Seipel",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Catherine J. \" Cathe\" Myers",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
     "5118400": [
       {
         "office": "Member School Board - Colonial Beach",
@@ -7226,6 +9100,19 @@
             "name": "Patrice A. Lyburn",
             "party": "Independent",
             "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board - Special",
+        "district": "Colonial Beach",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Keisha M. Washington",
+            "party": "Independent",
+            "mark": "No"
           }
         ]
       },
@@ -7302,6 +9189,98 @@
           },
           {
             "name": "Eino I. Korpela",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5186720": [
+      {
+        "office": "Member City Council",
+        "district": "First Ward",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Miles K. Davis",
+            "party": "Democratic",
+            "mark": "No"
+          },
+          {
+            "name": "Nancy G. Campbell",
+            "party": "Republican",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Fourth Ward",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Nate J. Prezzy",
+            "party": "Republican",
+            "mark": "No"
+          },
+          {
+            "name": "Klio N. Stroubakis",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Second Ward",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Emily Rose Windle",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jennifer E. \"Jenny\" McDonald",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Third Ward",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Kim M. Herbstritt",
+            "party": "Democratic",
+            "mark": "Yes"
+          },
+          {
+            "name": "Brenda K. Crouse",
+            "party": "Republican",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Fourth Ward",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Max Wise",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Don M. Comer",
             "party": "Independent",
             "mark": "No"
           }
@@ -7791,5 +9770,1425 @@
   "date": {
     "quote": "November 3, 2026",
     "text": "The Virginia Department of Elections page is the November 3, 2026 general election candidate list."
+  },
+  "localIntro": "The Virginia Department of Elections November 3, 2026 list names these local offices for this place.",
+  "localByCounty": {
+    "Alleghany County": [
+      {
+        "office": "Member School Board",
+        "district": "",
+        "term": "3 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Randall \"Randy\" Tucker",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Arlington County": [
+      {
+        "office": "Member County Board",
+        "district": "Arlington County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Matthew D. \"Matt\" de Ferranti",
+            "party": "Democratic",
+            "mark": "Yes"
+          },
+          {
+            "name": "Audrey R. Clement",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "David P. Sisson",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Arlington County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "James Vell Rives IV",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Bethany Zecher Sutton",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Treasurer",
+        "district": "Arlington County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Kim M. Rucker",
+            "party": "Democratic",
+            "mark": "No"
+          },
+          {
+            "name": "Aasim S. Rawoot",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Bedford County": [
+      {
+        "office": "Commonwealth's Attorney",
+        "district": "Bedford County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Christopher M. Dolen",
+            "party": "Republican",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Bland County": [
+      {
+        "office": "Commissioner of Revenue",
+        "district": "Bland County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Carman N. Viar",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "Botetourt County": [
+      {
+        "office": "Clerk of Court",
+        "district": "Botetourt County",
+        "term": "8 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Charles W. \"Chad\" Simmons",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Charles City County": [
+      {
+        "office": "Member Board of Supervisors At Large",
+        "district": "",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Jacqueline S. Stewart",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Robert H. Tyler",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Charlotte County": [
+      {
+        "office": "Treasurer",
+        "district": "Charlotte County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Sara E. Crawford",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Colonial Heights city": [
+      {
+        "office": "Member School Board - Special",
+        "district": "",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Keith R. Kapinskis",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Covington city": [
+      {
+        "office": "Member School Board",
+        "district": "",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Jonathan M. Arritt",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "Dickenson County": [
+      {
+        "office": "Commonwealth's Attorney",
+        "district": "Dickenson County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Joshua R. Evans",
+            "party": "Republican",
+            "mark": "No"
+          },
+          {
+            "name": "Stephen W. Mullins",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Frederick County": [
+      {
+        "office": "Chairman Board of Supervisors",
+        "district": "Frederick County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "John F. Jewell",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Alexander M. Ritter",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Fredericksburg city": [
+      {
+        "office": "Member School Board - At Large - Special",
+        "district": "",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Justin Michael Carter",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Galax city": [
+      {
+        "office": "Sheriff",
+        "district": "Galax City, Grayson County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Gary C. Hash",
+            "party": "Republican",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "Grayson County": [
+      {
+        "office": "Member Board of Supervisors At Large",
+        "district": "Grayson County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Paul Grey Richardson",
+            "party": "Republican",
+            "mark": "Yes"
+          },
+          {
+            "name": "Robert J. Williams",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "district": "Galax City, Grayson County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Gary C. Hash",
+            "party": "Republican",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "Gloucester County": [
+      {
+        "office": "Clerk of Court",
+        "district": "Gloucester County",
+        "term": "8 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Michele L. Beck",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Cheryln D. Carter",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Greene County": [
+      {
+        "office": "Member Board of Supervisors At Large",
+        "district": "Greene County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Jennifer A. Ziros",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "John M. \"Jay\" Hunter",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Alex J. Salle",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Greensville County": [
+      {
+        "office": "Commissioner of Revenue",
+        "district": "Greensville County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Emily D. Ligon",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Halifax County": [
+      {
+        "office": "Treasurer",
+        "district": "Halifax County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Shana Lynn Hetzell",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Hampton city": [
+      {
+        "office": "Member School Board",
+        "district": "",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Natalie M. Kidd",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Richard M. Mason Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Joseph C. Kilgore",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jason S. Samuels",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "Hanover County": [
+      {
+        "office": "Sheriff",
+        "district": "Hanover County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Gregory W. Six",
+            "party": "Republican",
+            "mark": "No"
+          },
+          {
+            "name": "Rickey R. Dandridge",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Henry County": [
+      {
+        "office": "Clerk of Court",
+        "district": "Henry County",
+        "term": "8 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Katherine Minter \"Katie\" Salgado",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board At Large",
+        "district": "Henry County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Joseph H. M. Schenk Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jonathan P. Martin",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Treasurer",
+        "district": "Henry County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Tiffanie Seay Hairston",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Lexington city": [
+      {
+        "office": "Member School Board",
+        "district": "",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Justin G. Davis",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "LaTonya Ann Douglas",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Mathews County": [
+      {
+        "office": "Commonwealth's Attorney",
+        "district": "Mathews County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Christopher Paul Reagan",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "J. Grant Spears",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Middlesex County": [
+      {
+        "office": "Sheriff",
+        "district": "Middlesex County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "K. L. Schomburg",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Christopher J. Easter",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Bryan P. Longest",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Thomas G. Justis",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Montgomery County": [
+      {
+        "office": "Commonwealth's Attorney",
+        "district": "Montgomery County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Patrick R. Jensen",
+            "party": "Republican",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "district": "Montgomery County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Tim Andrew Brown",
+            "party": "Democratic",
+            "mark": "No"
+          },
+          {
+            "name": "Robert G. Page",
+            "party": "Republican",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Northampton County": [
+      {
+        "office": "Treasurer",
+        "district": "Northampton County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Nolan T. Rayfield",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Kristin N. Willis",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Nottoway County": [
+      {
+        "office": "Clerk Of Court",
+        "district": "Nottoway County",
+        "term": "8 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Kathryn L. \"Kate\" Spence",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Blake A. Jones",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Francis P. \"Fritz\" Lages",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Prince George County": [
+      {
+        "office": "Commissioner of Revenue",
+        "district": "Prince George County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Lindsay A. Lane",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Southampton County": [
+      {
+        "office": "Member School Board - At Large",
+        "district": "At-Large",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Orris G. Lane",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Spotsylvania County": [
+      {
+        "office": "Commissioner of Revenue",
+        "district": "Spotsylvania County",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Shellie Marcellous Bowman",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Chris J. \"Yak\" Yakabouski",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "Winchester city": [
+      {
+        "office": "Member School Board",
+        "district": "",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Kylie Gaynor Zoller",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Melissa A. Harris",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ]
+  },
+  "countyRead": {
+    "Fauquier County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Fauquier County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Fauquier County."
+    },
+    "Lunenburg County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Lunenburg County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Lunenburg County."
+    },
+    "Spotsylvania County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Spotsylvania County."
+    },
+    "Russell County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Russell County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Russell County."
+    },
+    "Arlington County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Arlington County."
+    },
+    "Covington city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Covington city."
+    },
+    "Franklin city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Franklin city."
+    },
+    "Prince Edward County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Prince Edward County.",
+      "note": "The Virginia list also includes contests in Prince Edward County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Appomattox County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Appomattox County.",
+      "note": "The Virginia list also includes contests in Appomattox County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Charlottesville city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Charlottesville city.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Charlottesville city."
+    },
+    "Henry County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Henry County."
+    },
+    "Salem city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Salem city."
+    },
+    "Gloucester County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Gloucester County."
+    },
+    "Patrick County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Patrick County.",
+      "note": "The Virginia list also includes contests in Patrick County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Bath County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Bath County.",
+      "note": "The Virginia list also includes contests in Bath County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Rappahannock County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Rappahannock County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Rappahannock County."
+    },
+    "Scott County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Scott County.",
+      "note": "The Virginia list also includes contests in Scott County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Fredericksburg city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Fredericksburg city."
+    },
+    "Augusta County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Augusta County.",
+      "note": "The Virginia list also includes contests in Augusta County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Middlesex County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Middlesex County."
+    },
+    "Greene County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Greene County."
+    },
+    "Prince George County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Prince George County."
+    },
+    "Montgomery County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Montgomery County."
+    },
+    "Norfolk city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Norfolk city."
+    },
+    "Surry County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Surry County.",
+      "note": "The Virginia list also includes contests in Surry County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Accomack County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Accomack County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Accomack County."
+    },
+    "Goochland County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Goochland County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Goochland County."
+    },
+    "Hanover County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Hanover County."
+    },
+    "Madison County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Madison County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Madison County."
+    },
+    "Waynesboro city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Waynesboro city."
+    },
+    "Culpeper County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Culpeper County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Culpeper County."
+    },
+    "Washington County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Washington County.",
+      "note": "The Virginia list also includes contests in Washington County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Fairfax city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Fairfax city."
+    },
+    "Nelson County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Nelson County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Nelson County."
+    },
+    "Lynchburg city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Lynchburg city."
+    },
+    "Colonial Heights city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Colonial Heights city."
+    },
+    "Amelia County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Amelia County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Amelia County."
+    },
+    "Floyd County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Floyd County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Floyd County."
+    },
+    "Campbell County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Campbell County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Campbell County."
+    },
+    "Suffolk city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Suffolk city."
+    },
+    "Richmond city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Richmond city."
+    },
+    "Powhatan County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Powhatan County.",
+      "note": "The Virginia list also includes contests in Powhatan County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Mathews County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Mathews County."
+    },
+    "Fluvanna County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Fluvanna County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Fluvanna County."
+    },
+    "Highland County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Highland County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Highland County."
+    },
+    "Wythe County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Wythe County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Wythe County."
+    },
+    "Albemarle County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Albemarle County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Albemarle County."
+    },
+    "Isle of Wight County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Isle of Wight County.",
+      "note": "The Virginia list also includes contests in Isle of Wight County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Carroll County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Carroll County.",
+      "note": "The Virginia list also includes contests in Carroll County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Alexandria city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Alexandria city.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Alexandria city."
+    },
+    "Danville city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Danville city."
+    },
+    "Martinsville city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Martinsville city."
+    },
+    "Stafford County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Stafford County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Stafford County."
+    },
+    "Buena Vista city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Buena Vista city."
+    },
+    "Chesterfield County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Chesterfield County.",
+      "note": "The Virginia list also includes contests in Chesterfield County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Charles City County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Charles City County."
+    },
+    "King and Queen County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under King and Queen County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for King and Queen County."
+    },
+    "Dinwiddie County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Dinwiddie County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Dinwiddie County."
+    },
+    "Portsmouth city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Portsmouth city."
+    },
+    "Pulaski County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Pulaski County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Pulaski County."
+    },
+    "Galax city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Galax city."
+    },
+    "Emporia city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Emporia city."
+    },
+    "Williamsburg city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Williamsburg city."
+    },
+    "Chesapeake city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Chesapeake city."
+    },
+    "Harrisonburg city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Harrisonburg city."
+    },
+    "Dickenson County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Dickenson County.",
+      "note": "The Virginia list also includes contests in Dickenson County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Grayson County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Grayson County."
+    },
+    "Roanoke County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Roanoke County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Roanoke County."
+    },
+    "Greensville County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Greensville County."
+    },
+    "Northumberland County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Northumberland County.",
+      "note": "The Virginia list also includes contests in Northumberland County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Rockingham County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Rockingham County.",
+      "note": "The Virginia list also includes contests in Rockingham County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Orange County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Orange County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Orange County."
+    },
+    "King George County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under King George County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for King George County."
+    },
+    "Alleghany County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Alleghany County."
+    },
+    "Winchester city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Winchester city."
+    },
+    "Manassas Park city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Manassas Park city."
+    },
+    "Giles County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Giles County.",
+      "note": "The Virginia list also includes contests in Giles County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Radford city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Radford city."
+    },
+    "Brunswick County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Brunswick County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Brunswick County."
+    },
+    "Franklin County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Franklin County.",
+      "note": "The Virginia list also includes contests in Franklin County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Hampton city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Hampton city."
+    },
+    "Lancaster County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Lancaster County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Lancaster County."
+    },
+    "Westmoreland County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Westmoreland County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Westmoreland County."
+    },
+    "Frederick County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Frederick County.",
+      "note": "The Virginia list also includes contests in Frederick County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Staunton city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Staunton city."
+    },
+    "Norton city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Norton city."
+    },
+    "Amherst County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Amherst County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Amherst County."
+    },
+    "Newport News city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Newport News city."
+    },
+    "Manassas city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Manassas city."
+    },
+    "Prince William County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Prince William County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Prince William County."
+    },
+    "Tazewell County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Tazewell County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Tazewell County."
+    },
+    "Bristol city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Bristol city."
+    },
+    "Essex County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Essex County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Essex County."
+    },
+    "Northampton County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Northampton County."
+    },
+    "Loudoun County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Loudoun County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Loudoun County."
+    },
+    "Warren County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Warren County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Warren County."
+    },
+    "Botetourt County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Botetourt County."
+    },
+    "York County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under York County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for York County."
+    },
+    "Shenandoah County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Shenandoah County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Shenandoah County."
+    },
+    "Smyth County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Smyth County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Smyth County."
+    },
+    "Roanoke city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Roanoke city."
+    },
+    "Falls Church city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Falls Church city.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Falls Church city."
+    },
+    "Southampton County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Southampton County.",
+      "note": "The Virginia list also includes contests in Southampton County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Caroline County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Caroline County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Caroline County."
+    },
+    "Lee County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Lee County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Lee County."
+    },
+    "Rockbridge County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Rockbridge County.",
+      "note": "The Virginia list also includes contests in Rockbridge County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Clarke County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Clarke County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Clarke County."
+    },
+    "Virginia Beach city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Virginia Beach city."
+    },
+    "Bland County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Bland County."
+    },
+    "Cumberland County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Cumberland County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Cumberland County."
+    },
+    "King William County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under King William County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for King William County."
+    },
+    "Fairfax County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Fairfax County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Fairfax County."
+    },
+    "Buchanan County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Buchanan County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Buchanan County."
+    },
+    "Charlotte County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Charlotte County."
+    },
+    "Page County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Page County.",
+      "note": "The Virginia list also includes contests in Page County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Henrico County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Henrico County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Henrico County."
+    },
+    "Buckingham County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Buckingham County.",
+      "note": "The Virginia list also includes contests in Buckingham County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Lexington city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Lexington city."
+    },
+    "New Kent County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under New Kent County.",
+      "note": "The Virginia list also includes contests in New Kent County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Petersburg city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Petersburg city."
+    },
+    "Hopewell city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Hopewell city."
+    },
+    "Craig County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Craig County.",
+      "note": "The Virginia list also includes contests in Craig County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Pittsylvania County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Pittsylvania County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Pittsylvania County."
+    },
+    "Nottoway County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Nottoway County.",
+      "note": "The Virginia list also includes contests in Nottoway County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Bedford County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Bedford County."
+    },
+    "Richmond County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Richmond County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Richmond County."
+    },
+    "Louisa County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Louisa County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Louisa County."
+    },
+    "Mecklenburg County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Mecklenburg County.",
+      "note": "The Virginia list also includes contests in Mecklenburg County whose district cell does not name one Census place, so those contests are not copied here."
+    },
+    "Wise County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Wise County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Wise County."
+    },
+    "Poquoson city": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Poquoson city."
+    },
+    "Sussex County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Sussex County.",
+      "empty": "The Virginia Department of Elections November 3, 2026 list does not include a countywide local contest for Sussex County."
+    },
+    "Halifax County": {
+      "label": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "href": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "intro": "The Virginia Department of Elections November 3, 2026 list names these local offices under Halifax County."
+    }
   }
 }

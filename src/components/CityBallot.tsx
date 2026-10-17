@@ -39,10 +39,13 @@ export function CityBallot({ code, place }: { code: string; place: PlaceRecord }
   const governor = contests.filter((contest) => contest.kind === "governor");
   const upper = contestsForDistricts(extra?.upper, sld?.u);
   const lower = contestsForDistricts(extra?.lower, sld?.l);
-  const local = extra?.local?.[place.geoid] ?? [];
+  const placeLocal = extra?.local?.[place.geoid] ?? [];
   const directory = COUNTY_DIRECTORIES[code];
   const office = electionOfficeFor(code);
   const sources: Citation[] = [...file.sources];
+  for (const source of extra?.extraSources ?? []) {
+    sources.push({ name: source.name, url: source.url, accessed: READ });
+  }
   if (house.length > 0 && houseBasis === "bef") sources.push(cd120BefCitation, countyCitation);
   if (house.length > 0 && houseBasis === "unchanged") sources.push(congressionalBoundariesCitation, districtCitation);
   if (house.length > 0 || file.status === "unpublished") sources.push(uscSection7Citation);
@@ -53,7 +56,17 @@ export function CityBallot({ code, place }: { code: string; place: PlaceRecord }
   if (sld?.u?.length) sources.push(sldUpperCitation);
   if (sld?.l?.length) sources.push(sldLowerCitation);
   if (!sld) sources.push(sldUpperCitation, sldLowerCitation);
-  if (local.length === 0) {
+  const readCounties = place.counties.filter((county) => extra?.countyRead?.[county]);
+  const unpublishedCounties = place.counties.filter((county) => extra?.countyUnpublished?.[county]);
+  const uncheckedCounties = place.counties.filter(
+    (county) => !extra?.countyRead?.[county] && !extra?.countyUnpublished?.[county],
+  );
+  if (unpublishedCounties.length > 0) {
+    for (const county of unpublishedCounties) {
+      const listing = extra?.countyUnpublished?.[county];
+      if (listing) sources.push({ name: listing.label, url: listing.href, accessed: READ });
+    }
+  } else if (readCounties.length === 0 && placeLocal.length === 0) {
     if (directory) {
       sources.push({ name: directory.label, url: directory.href, accessed: READ });
     } else {
@@ -128,16 +141,13 @@ export function CityBallot({ code, place }: { code: string; place: PlaceRecord }
         <ContestBlock key={contest.office} code={code} contest={contest} />
       ))}
 
-      {local.length > 0 ? (
-        <>
-          <h3 className="mt-6 text-base font-semibold">Local races</h3>
-          {local.map((contest) => (
-            <ContestBlock key={`${contest.office}-${contest.district ?? ""}`} code={code} contest={contest} local />
-          ))}
-        </>
-      ) : (
-        <LocalFallback code={code} counties={place.counties} />
-      )}
+      <LocalSection
+        code={code}
+        place={place}
+        extra={extra}
+        placeLocal={placeLocal}
+        uncheckedCounties={uncheckedCounties}
+      />
 
       <p className="mt-4 text-sm leading-6">
         The sources read do not state the page where official results will be posted.
@@ -279,32 +289,109 @@ function LegislativeNames({
   );
 }
 
-function LocalFallback({ code, counties }: { code: string; counties: string[] }) {
-  const directory = COUNTY_DIRECTORIES[code];
-  const office = electionOfficeFor(code);
-  const countyLabel = counties.length > 1 ? "Census counties" : "Census county";
+function LocalSection({
+  code,
+  place,
+  extra,
+  placeLocal,
+  uncheckedCounties,
+}: {
+  code: string;
+  place: PlaceRecord;
+  extra: ReturnType<typeof ballotExtra>;
+  placeLocal: BallotContest[];
+  uncheckedCounties: string[];
+}) {
+  const readCounties = place.counties.filter((county) => extra?.countyRead?.[county]);
+  const unpublishedCounties = place.counties.filter((county) => extra?.countyUnpublished?.[county]);
+  if (placeLocal.length === 0 && readCounties.length === 0 && unpublishedCounties.length === 0) {
+    return <UncheckedCounties code={code} counties={uncheckedCounties} />;
+  }
   return (
     <div className="mt-6">
       <h3 className="text-base font-semibold">Local races</h3>
-      <p className="mt-2 text-sm leading-6">Local races: no official listing found yet</p>
+      {placeLocal.length > 0 ? (
+        <>
+          {extra?.localIntro ? <p className="mt-2 text-sm leading-6">{extra.localIntro}</p> : null}
+          {placeLocal.map((contest) => (
+            <ContestBlock key={`${contest.office}-${contest.district ?? ""}`} code={code} contest={contest} local />
+          ))}
+        </>
+      ) : null}
+      {place.counties.map((county) => (
+        <CountyLocal key={county} code={code} county={county} extra={extra} />
+      ))}
+    </div>
+  );
+}
+
+function CountyLocal({
+  code,
+  county,
+  extra,
+}: {
+  code: string;
+  county: string;
+  extra: ReturnType<typeof ballotExtra>;
+}) {
+  const unpublished = extra?.countyUnpublished?.[county];
+  if (unpublished) {
+    return (
+      <div className="mt-4">
+        <p className="text-sm leading-6">Local races: no official listing found yet</p>
+        <p className="mt-2 text-sm leading-6">
+          Census county: {county}.{" "}
+          <a className="text-navy hover:underline" href={unpublished.href}>
+            {unpublished.label}
+          </a>
+          .
+        </p>
+      </div>
+    );
+  }
+  const read = extra?.countyRead?.[county];
+  if (!read) {
+    return <UncheckedCounties code={code} counties={[county]} heading={false} />;
+  }
+  const contests = extra?.localByCounty?.[county] ?? [];
+  if (contests.length === 0 && !read.note && !read.empty) return null;
+  return (
+    <div className="mt-4">
+      {contests.length > 0 && read.intro ? <p className="text-sm leading-6">{read.intro}</p> : null}
+      {contests.map((contest) => (
+        <ContestBlock key={`${county}-${contest.office}-${contest.district ?? ""}`} code={code} contest={contest} local />
+      ))}
+      {read.note ? <p className="mt-2 text-sm leading-6">{read.note}</p> : null}
+      {contests.length === 0 && !read.note && read.empty ? (
+        <p className="text-sm leading-6">{read.empty}</p>
+      ) : null}
+    </div>
+  );
+}
+
+function UncheckedCounties({
+  code,
+  counties,
+  heading = true,
+}: {
+  code: string;
+  counties: string[];
+  heading?: boolean;
+}) {
+  if (counties.length === 0) return null;
+  const office = electionOfficeFor(code);
+  const countyLabel = counties.length > 1 ? "Census counties" : "Census county";
+  return (
+    <div className="mt-4">
+      {heading ? <h3 className="text-base font-semibold">Local races</h3> : null}
       <p className="mt-2 text-sm leading-6">
-        {countyLabel}: {counties.join("; ")}.{" "}
-        {directory ? (
-          <>
-            <a className="text-navy hover:underline" href={directory.href}>
-              {directory.label}
-            </a>
-            .
-          </>
-        ) : (
-          <>
-            No county election-office page was read for {counties.length > 1 ? "these counties" : "this county"}.{" "}
-            <a className="text-navy hover:underline" href={office.office.href}>
-              {office.office.label}
-            </a>
-            .
-          </>
-        )}
+        No official county candidate list has been read for {counties.join("; ")} yet. {countyLabel}:{" "}
+        {counties.join("; ")}. No county election-office page was read for{" "}
+        {counties.length > 1 ? "these counties" : "this county"}.{" "}
+        <a className="text-navy hover:underline" href={office.office.href}>
+          {office.office.label}
+        </a>
+        .
       </p>
     </div>
   );

@@ -851,5 +851,1413 @@
     }
   },
   "local": {},
-  "annotations": {}
+  "annotations": {},
+  "localByCounty": {
+    "Bernalillo County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MICHAEL RAY MAINE",
+            "party": "REP"
+          },
+          {
+            "name": "LINDA STOVER",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JOHN D ALLEN",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "VERONICA HERNANDEZ",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Catron County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "SCOTT ASHTON JOHNSTON",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "KEITH SHANNON HUGHES",
+            "party": "REP"
+          },
+          {
+            "name": "ADRIAN SANDOVAL",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "LUCINDA MAE HOWELL",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Chaves County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "SANDRA P STEWART",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MICHAEL L TAYLOR",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ERIC J COLL",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Cibola County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JENNA M RODRIGUEZ",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "AARON HENRY BACA",
+            "party": "REP"
+          },
+          {
+            "name": "LARRY D DIAZ",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "CORRINE C PADILLA",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Colfax County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "LINDA L GALLEGOS",
+            "party": "DEM"
+          },
+          {
+            "name": "JOSEPH J MARTINEZ, JR",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "NOLBERTO DOMINGUEZ, JR",
+            "party": "DEM"
+          },
+          {
+            "name": "BILL CODY AYON",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ROY J MANFREDI",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Curry County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "CANDACE R LONDON",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MICHAEL DEAN BROCKETT",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "HOLLIE L BARNETT",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "De Baca County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "BRANDI FOSTER",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JOSHUA R JARAMILLO",
+            "party": "REP"
+          },
+          {
+            "name": "KAYDEN WAYNE CONES (write-in)",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "LUTRICA E DRAKE",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Doña Ana County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "EUGENIA MONTOYA ORTEGA",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "TODD J GARRISON",
+            "party": "REP"
+          },
+          {
+            "name": "VANESSA ORDOÑEZ",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JUDITH ANN BACA",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Eddy County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "RHONDA E HATCH",
+            "party": "REP"
+          },
+          {
+            "name": "GEMMA L FERGUSON",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "CARA A COOKE",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JOHN M CARAWAY",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Grant County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MISTY AUTUMN TRUJILLO",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "RAUL D VILLANUEVA",
+            "party": "DEM"
+          },
+          {
+            "name": "WAYNE R OLVER",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ALFRED L SEDILLO",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Guadalupe County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ROBERTA R CHAVEZ",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JONATHAN M GONZALES",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ALBERT J ELEVARIO",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Harding County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "GILBERT EDDIE DESCHAMPS",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MICHAEL E SHUMATE",
+            "party": "REP"
+          },
+          {
+            "name": "ROBERT ARAGON",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ELVIA VERONICA HAZEN",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Hidalgo County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "RAHAB MICHOLE DE LA GARZA",
+            "party": "DEM"
+          },
+          {
+            "name": "EDDIE G PARRA",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "WILLIAM EUGENE CHADBORN, JR",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "TRACY L CHAVEZ",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Lea County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "AVA BENGE",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MARK TIMOTHY RHOADS",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "SANDRA KAY GOAD",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Lincoln County": [
+      {
+        "office": "County Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "SHANNAN L HEMPHILL",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "SHERRIE L HUDDLESTON",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "PAMELA A BECKMAN",
+            "party": "DEM"
+          },
+          {
+            "name": "RHONDA B BURROWS",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Los Alamos County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JAMES CURTIS WERNICKE, JR",
+            "party": "LIB"
+          },
+          {
+            "name": "JEFF CASALINA",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Councilor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "STEVEN S LYNNE",
+            "party": "DEM"
+          },
+          {
+            "name": "CHRIS LUCHINI",
+            "party": "LIB"
+          },
+          {
+            "name": "JASON ALAN CHAPPEL",
+            "party": "REP"
+          },
+          {
+            "name": "THERESA ANN CULL",
+            "party": "DEM"
+          },
+          {
+            "name": "DAVID E HAMPTON",
+            "party": "DEM"
+          },
+          {
+            "name": "MELANEE M HAND",
+            "party": "DEM"
+          },
+          {
+            "name": "ERIC ROLAND STROMBERG",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ANTONIO L MAGGIORE",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "PERRY C KLARE",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Luna County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JAVIER J REYES",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MICHAEL KEITH BROWN",
+            "party": "DTS"
+          },
+          {
+            "name": "GLENN R CHADBORN",
+            "party": "REP"
+          },
+          {
+            "name": "JOSE LEOPOLDO MARTINEZ (write-in)",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ROBERT ALLEN MORAN",
+            "party": "DTS"
+          },
+          {
+            "name": "ROY SCOTT CHANDLER",
+            "party": "REP"
+          },
+          {
+            "name": "PILAR PACHECO SALCIDO",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "McKinley County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "EDWARD BECENTI, JR",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JAMES MAIORANO, III",
+            "party": "DEM"
+          },
+          {
+            "name": "JEREMY S SHIRLEY",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MONICA MARTINEZ",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Mora County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MARK A MONTOYA",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MICHAEL G BENJAMIN",
+            "party": "REP"
+          },
+          {
+            "name": "AMERICK PADILLA",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "KELLEY A FAHEY-ALCON",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Otero County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JAMES M BOWMAN",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "GERALDINE YAZZA MARTINEZ",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JESSICA LYNN SUGGS",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Quay County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JEFFERSON L BYRD",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "DENNIS VICTOR GARCIA",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "CHRISTINA LUCILLE MAYFIELD WILSON",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Rio Arriba County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JOAQUIN VALDEZ",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MONICA L SALAZAR",
+            "party": "DEM"
+          },
+          {
+            "name": "ROBERT R VIGIL",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ELIAS CORIZ",
+            "party": "DEM"
+          },
+          {
+            "name": "DARLENE G ARMIJO",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Roosevelt County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "GEORGE S BEGGS",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JAVIER SANCHEZ",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "KENDALL G TERRY",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "San Juan County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JOHN D KUHN",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "KENNETH W CHRISTESEN",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "GARY RISLEY",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "San Miguel County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "DORENE J GARCIA",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "DARIN J ROMERO",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "DWIGHT JAMES TORRES",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Sandoval County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "LAWRENCE D GRIEGO",
+            "party": "REP"
+          },
+          {
+            "name": "GERRED PRAIRIE",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "VICTOR J RODRIGUEZ",
+            "party": "REP"
+          },
+          {
+            "name": "JOHN PAUL TRUJILLO",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "DONNA IVEN TILLMAN",
+            "party": "DEM"
+          },
+          {
+            "name": "REBECCA A TORRES",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Santa Fe County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "IVAN BARRY",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "PAUL MICHAEL JOYE",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "AMI S JAEGER",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Sierra County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "VIRGINIA G WOMACK",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JOSHUA D BAKER",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "TARA LYNNE EDGMON",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Socorro County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ELAINE M BRIGGS",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "LEE POLO ARMIJO",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "GILBERT GEORGE PERALTA",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Taos County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "CHRISTINA L RAMIREZ",
+            "party": "DEM"
+          },
+          {
+            "name": "DOUGLAS JACKSON TRUE",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "STEVE MIERA, JR",
+            "party": "DEM"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "SUZANNE VALERIO",
+            "party": "DEM"
+          }
+        ]
+      }
+    ],
+    "Torrance County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "HUGH G JONES",
+            "party": "DEM"
+          },
+          {
+            "name": "CRYSTAL M GARCIA",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "THOMAS D CARTER",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MARY ANN ANAYA-HERNANDEZ",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Union County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "HOLLIE S SANDOVAL",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "CURTIS SKAGGS",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "SHARON M LOERA",
+            "party": "REP"
+          }
+        ]
+      }
+    ],
+    "Valencia County": [
+      {
+        "office": "County Assessor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "TORRES G LEYBA",
+            "party": "DEM"
+          },
+          {
+            "name": "BURGANDY BREE CASIAS",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ALAN FREDRICK MONTANO",
+            "party": "DEM"
+          },
+          {
+            "name": "JOSEPH EUGENE ROWLAND",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Probate Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "WENDY EMILY WALLACE",
+            "party": "REP"
+          },
+          {
+            "name": "PEDRO RAEL",
+            "party": "DEM"
+          }
+        ]
+      }
+    ]
+  },
+  "countyRead": {
+    "Bernalillo County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Bernalillo County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Bernalillo County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Catron County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Catron County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Catron County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Chaves County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Chaves County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Chaves County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Cibola County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Cibola County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Cibola County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Colfax County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Colfax County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Colfax County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Curry County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Curry County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Curry County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "De Baca County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in De Baca County.",
+      "note": "The New Mexico candidate list also includes district contests filed in De Baca County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Doña Ana County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Doña Ana County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Doña Ana County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Eddy County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Eddy County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Eddy County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Grant County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Grant County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Grant County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Guadalupe County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Guadalupe County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Guadalupe County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Harding County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Harding County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Harding County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Hidalgo County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Hidalgo County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Hidalgo County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Lea County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Lea County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Lea County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Lincoln County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Lincoln County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Lincoln County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Los Alamos County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Los Alamos County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Los Alamos County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Luna County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Luna County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Luna County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "McKinley County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in McKinley County.",
+      "note": "The New Mexico candidate list also includes district contests filed in McKinley County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Mora County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Mora County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Mora County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Otero County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Otero County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Otero County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Quay County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Quay County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Quay County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Rio Arriba County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Rio Arriba County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Rio Arriba County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Roosevelt County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Roosevelt County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Roosevelt County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "San Juan County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in San Juan County.",
+      "note": "The New Mexico candidate list also includes district contests filed in San Juan County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "San Miguel County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in San Miguel County.",
+      "note": "The New Mexico candidate list also includes district contests filed in San Miguel County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Sandoval County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Sandoval County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Sandoval County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Santa Fe County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Santa Fe County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Santa Fe County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Sierra County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Sierra County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Sierra County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Socorro County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Socorro County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Socorro County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Taos County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Taos County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Taos County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Torrance County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Torrance County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Torrance County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Union County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Union County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Union County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Valencia County": {
+      "label": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "href": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "intro": "The New Mexico Secretary of State candidate list names these qualified local offices filed in Valencia County.",
+      "note": "The New Mexico candidate list also includes district contests filed in Valencia County and does not identify which places are in each district, so those contests are not copied here."
+    }
+  }
 }

@@ -34,6 +34,17 @@ export type BallotDate = {
   text: string;
 };
 
+export type CountyListing = {
+  label: string;
+  href: string;
+  /** Shown when this county has local contests copied onto the place. */
+  intro?: string;
+  /** Precinct or district contests the source lists but does not locate inside the county. */
+  note?: string;
+  /** The source was read and did not include a countywide local contest for this county. */
+  empty?: string;
+};
+
 export type BallotExtra = {
   statewide: BallotContest[];
   upper: Record<string, BallotContest>;
@@ -41,6 +52,16 @@ export type BallotExtra = {
   local: Record<string, BallotContest[]>;
   annotations: Record<string, BallotAnnotation>;
   date?: BallotDate;
+  /** Place-specific local contests, already limited to one Census place. */
+  localIntro?: string;
+  /** Countywide local contests from a list organized by county. */
+  localByCounty?: Record<string, BallotContest[]>;
+  /** Counties whose official list was read. Keyed by the Census county name. */
+  countyRead?: Record<string, CountyListing>;
+  /** Counties whose election office was read and publishes no candidate list or sample ballot. */
+  countyUnpublished?: Record<string, CountyListing>;
+  /** Official files used to match local contests, in addition to the state candidate-list citation. */
+  extraSources?: { name: string; url: string }[];
 };
 
 export type SldAssignment = {

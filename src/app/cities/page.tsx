@@ -51,22 +51,50 @@ export default function CitiesIndexPage() {
         <p className="mt-4">
           Of these {coverage.placeCount.toLocaleString("en-US")} places,{" "}
           {coverage.localPlaces.toLocaleString("en-US")} pages include at least one local contest
-          copied from an official election list read on {coverage.accessed}. All of those local
-          contests are from the Virginia Department of Elections November 3, 2026 all-offices list,
-          matched to one Census place. The other {coverage.federalStateOnly.toLocaleString("en-US")}{" "}
-          pages say that no official local listing was found. That count is about lists read for
-          this site. It is not a statement that a place has no local election.
+          copied from an official election list read on {coverage.accessed}. The lists read for
+          local offices so far are{" "}
+          {states
+            .filter((state) => coverage.byState[state.code as keyof typeof coverage.byState].countiesRead > 0)
+            .map((state) => state.name)
+            .join(", ")}
+          . A precinct or district contest is copied only when the list names a Census place or
+          names the whole county with no precinct. {coverage.placesUnchecked.toLocaleString("en-US")}{" "}
+          places still include a county whose candidate list has not been read. The sentence “Local
+          races: no official listing found yet” is used only for a county whose election office was
+          read and publishes no candidate list or sample ballot. No county is in that group in the
+          lists read so far.
         </p>
-        <SourceLines
-          sources={[
-            gazetteerCitation,
-            {
-              name: "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
-              url: "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
-              accessed: "October 17, 2026",
-            },
-          ]}
-        />
+        <div className="mt-4 overflow-x-auto rounded-xl border border-line bg-paper-card">
+          <table className="min-w-full text-left text-sm">
+            <caption className="border-b border-line px-4 py-3 text-left text-sm text-ink">
+              Local contest coverage by state, from official lists read {coverage.accessed}
+            </caption>
+            <thead className="bg-paper-tint text-xs uppercase tracking-wide text-ink-muted">
+              <tr>
+                <th className="px-4 py-2 font-semibold" scope="col">State</th>
+                <th className="px-4 py-2 font-semibold" scope="col">Places with a local contest</th>
+                <th className="px-4 py-2 font-semibold" scope="col">Counties read</th>
+                <th className="px-4 py-2 font-semibold" scope="col">Counties with no online list</th>
+                <th className="px-4 py-2 font-semibold" scope="col">Counties not yet read</th>
+              </tr>
+            </thead>
+            <tbody>
+              {states.map((state) => {
+                const row = coverage.byState[state.code as keyof typeof coverage.byState];
+                return (
+                  <tr key={state.code} className="border-t border-line">
+                    <th className="px-4 py-2 font-medium" scope="row">{state.name}</th>
+                    <td className="px-4 py-2">{row.placesWithLocal.toLocaleString("en-US")} of {row.places.toLocaleString("en-US")}</td>
+                    <td className="px-4 py-2">{row.countiesRead.toLocaleString("en-US")} of {row.counties.toLocaleString("en-US")}</td>
+                    <td className="px-4 py-2">{row.countiesUnpublished.toLocaleString("en-US")}</td>
+                    <td className="px-4 py-2">{row.countiesUnchecked.toLocaleString("en-US")}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+        <SourceLines sources={[gazetteerCitation, ...coverage.localSources]} />
       </section>
 
       <ZipPlaceSearchSection />

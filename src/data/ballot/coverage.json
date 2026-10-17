@@ -1,7 +1,453 @@
 {
   "placeCount": 32355,
   "sldPlaces": 31839,
-  "localPlaces": 175,
-  "federalStateOnly": 32180,
-  "accessed": "October 17, 2026"
+  "localPlaces": 3590,
+  "federalStateOnly": 28765,
+  "placesUnchecked": 28347,
+  "accessed": "October 17, 2026",
+  "localSources": [
+    {
+      "name": "Minnesota Secretary of State, county table CntyTbl.txt for the November 3, 2026 election",
+      "url": "https://electionresultsfiles.sos.mn.gov/20261103/CntyTbl.txt",
+      "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "url": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "accessed": "October 17, 2026"
+    },
+    {
+      "name": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "url": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+      "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+      "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "accessed": "October 17, 2026"
+    }
+  ],
+  "byState": {
+    "AK": {
+      "places": 355,
+      "placesWithLocal": 0,
+      "counties": 30,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 30
+    },
+    "AL": {
+      "places": 595,
+      "placesWithLocal": 0,
+      "counties": 67,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 67
+    },
+    "AR": {
+      "places": 626,
+      "placesWithLocal": 0,
+      "counties": 75,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 75
+    },
+    "AZ": {
+      "places": 467,
+      "placesWithLocal": 0,
+      "counties": 15,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 15
+    },
+    "CA": {
+      "places": 1622,
+      "placesWithLocal": 0,
+      "counties": 58,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 58
+    },
+    "CO": {
+      "places": 485,
+      "placesWithLocal": 0,
+      "counties": 64,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 64
+    },
+    "CT": {
+      "places": 214,
+      "placesWithLocal": 0,
+      "counties": 9,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 9
+    },
+    "DC": {
+      "places": 1,
+      "placesWithLocal": 0,
+      "counties": 1,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 1
+    },
+    "DE": {
+      "places": 79,
+      "placesWithLocal": 0,
+      "counties": 3,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 3
+    },
+    "FL": {
+      "places": 958,
+      "placesWithLocal": 0,
+      "counties": 67,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 67
+    },
+    "GA": {
+      "places": 674,
+      "placesWithLocal": 0,
+      "counties": 159,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 159
+    },
+    "HI": {
+      "places": 163,
+      "placesWithLocal": 0,
+      "counties": 4,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 4
+    },
+    "IA": {
+      "places": 1026,
+      "placesWithLocal": 0,
+      "counties": 99,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 99
+    },
+    "ID": {
+      "places": 235,
+      "placesWithLocal": 0,
+      "counties": 44,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 44
+    },
+    "IL": {
+      "places": 1461,
+      "placesWithLocal": 0,
+      "counties": 102,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 102
+    },
+    "IN": {
+      "places": 973,
+      "placesWithLocal": 0,
+      "counties": 92,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 92
+    },
+    "KS": {
+      "places": 739,
+      "placesWithLocal": 0,
+      "counties": 105,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 105
+    },
+    "KY": {
+      "places": 552,
+      "placesWithLocal": 0,
+      "counties": 120,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 120
+    },
+    "LA": {
+      "places": 484,
+      "placesWithLocal": 0,
+      "counties": 64,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 64
+    },
+    "MA": {
+      "places": 248,
+      "placesWithLocal": 0,
+      "counties": 14,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 14
+    },
+    "MD": {
+      "places": 536,
+      "placesWithLocal": 0,
+      "counties": 24,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 24
+    },
+    "ME": {
+      "places": 155,
+      "placesWithLocal": 0,
+      "counties": 16,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 16
+    },
+    "MI": {
+      "places": 745,
+      "placesWithLocal": 0,
+      "counties": 83,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 83
+    },
+    "MN": {
+      "places": 916,
+      "placesWithLocal": 916,
+      "counties": 87,
+      "countiesRead": 87,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 0
+    },
+    "MO": {
+      "places": 1081,
+      "placesWithLocal": 0,
+      "counties": 115,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 115
+    },
+    "MS": {
+      "places": 427,
+      "placesWithLocal": 0,
+      "counties": 82,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 82
+    },
+    "MT": {
+      "places": 496,
+      "placesWithLocal": 0,
+      "counties": 56,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 56
+    },
+    "NC": {
+      "places": 785,
+      "placesWithLocal": 0,
+      "counties": 100,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 100
+    },
+    "ND": {
+      "places": 406,
+      "placesWithLocal": 0,
+      "counties": 53,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 53
+    },
+    "NE": {
+      "places": 593,
+      "placesWithLocal": 0,
+      "counties": 93,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 93
+    },
+    "NH": {
+      "places": 100,
+      "placesWithLocal": 0,
+      "counties": 10,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 10
+    },
+    "NJ": {
+      "places": 701,
+      "placesWithLocal": 0,
+      "counties": 21,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 21
+    },
+    "NM": {
+      "places": 528,
+      "placesWithLocal": 528,
+      "counties": 33,
+      "countiesRead": 33,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 0
+    },
+    "NV": {
+      "places": 138,
+      "placesWithLocal": 0,
+      "counties": 17,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 17
+    },
+    "NY": {
+      "places": 1293,
+      "placesWithLocal": 0,
+      "counties": 62,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 62
+    },
+    "OH": {
+      "places": 1265,
+      "placesWithLocal": 0,
+      "counties": 88,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 88
+    },
+    "OK": {
+      "places": 846,
+      "placesWithLocal": 0,
+      "counties": 77,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 77
+    },
+    "OR": {
+      "places": 426,
+      "placesWithLocal": 0,
+      "counties": 36,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 36
+    },
+    "PA": {
+      "places": 2002,
+      "placesWithLocal": 0,
+      "counties": 67,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 67
+    },
+    "PR": {
+      "places": 292,
+      "placesWithLocal": 0,
+      "counties": 78,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 78
+    },
+    "RI": {
+      "places": 36,
+      "placesWithLocal": 0,
+      "counties": 4,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 4
+    },
+    "SC": {
+      "places": 475,
+      "placesWithLocal": 0,
+      "counties": 46,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 46
+    },
+    "SD": {
+      "places": 485,
+      "placesWithLocal": 0,
+      "counties": 66,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 66
+    },
+    "TN": {
+      "places": 503,
+      "placesWithLocal": 0,
+      "counties": 95,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 95
+    },
+    "TX": {
+      "places": 1864,
+      "placesWithLocal": 1864,
+      "counties": 254,
+      "countiesRead": 254,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 0
+    },
+    "UT": {
+      "places": 334,
+      "placesWithLocal": 0,
+      "counties": 29,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 29
+    },
+    "VA": {
+      "places": 700,
+      "placesWithLocal": 282,
+      "counties": 132,
+      "countiesRead": 132,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 0
+    },
+    "VT": {
+      "places": 180,
+      "placesWithLocal": 0,
+      "counties": 14,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 14
+    },
+    "WA": {
+      "places": 639,
+      "placesWithLocal": 0,
+      "counties": 39,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 39
+    },
+    "WI": {
+      "places": 807,
+      "placesWithLocal": 0,
+      "counties": 72,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 72
+    },
+    "WV": {
+      "places": 439,
+      "placesWithLocal": 0,
+      "counties": 55,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 55
+    },
+    "WY": {
+      "places": 205,
+      "placesWithLocal": 0,
+      "counties": 23,
+      "countiesRead": 0,
+      "countiesUnpublished": 0,
+      "countiesUnchecked": 23
+    }
+  }
 }

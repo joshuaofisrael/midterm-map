@@ -1,0 +1,3149 @@
+{
+  "statewide": [],
+  "upper": {},
+  "lower": {},
+  "local": {},
+  "annotations": {},
+  "localByCounty": {
+    "Beltrami County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "David Louis Hanson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JoDee Treat",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jason Riggs",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Benton County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kathleen Reuter",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Christine Scherbing",
+            "party": "NP"
+          },
+          {
+            "name": "Mary Lewandowski",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joel M Schmidt",
+            "party": "NP"
+          },
+          {
+            "name": "James \"Jay\" Dingmann",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Clearwater County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Karin R. Hughes",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Niki Broten",
+            "party": "NP"
+          },
+          {
+            "name": "Taylor Engelstad",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rodney C. Knutson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Clarence LaCroix",
+            "party": "NP"
+          },
+          {
+            "name": "Adam Gunderson",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Cook County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jeanne Peterson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Braidy Powers",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ben Hallberg",
+            "party": "NP"
+          },
+          {
+            "name": "Ty Backlund",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Cottonwood County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nicholas Anderson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Carolyn Rempel",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Susan R. Horkey",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jason J. Purrington",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Douglas County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Stephen Knudsen",
+            "party": "NP"
+          },
+          {
+            "name": "Chad Larson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Vicki Doehling",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mary Skillings",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jason Peterson",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Houston County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Daniel Coogan",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amy Sylling",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michelle Werner",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian Swedberg",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Isanti County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jeffrey R. Edblad",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kara Eastlund",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Wayne Seiberlich",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Itasca County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Devin J. Gorski",
+            "party": "NP"
+          },
+          {
+            "name": "Cassidy Villeneuve",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Austin M. Rohling",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nicolle Zuehlke",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joe Dasovich",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Koochiching County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jeffrey S. Naglosky",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joan Nelson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lindsay K. Frank",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Perryn Hedlund",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Lincoln County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Glen A. Petersen",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Deborah Vierhuf",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michelle Facile",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Corey R. Sik",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Marshall County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Christopher Rokke",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Scott Peters",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Adam A. Gast",
+            "party": "NP"
+          },
+          {
+            "name": "Mark Ellerbusch",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Morrison County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian Middendorf",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shannon Coyle",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jennifer (Jenny) Sanders",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shawn Larsen",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Murray County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Travis J. Smith",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Heidi E. Winter",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Karen L. Brown",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Heath Landsman",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Pope County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Neil Nelson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Stephanie Rust",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sarah Green",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nathan Brecht",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Redwood County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shannon Ness",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jean Price",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amy Gewerth",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jason Jacobson",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "St. Louis County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kimberly J. Maki",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nancy Nilsen",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gordon Scott Ramsay",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Stearns County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Janelle Kendall",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Randy R Schreifels",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Steve Soyka",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Stevens County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joseph P. Glasrud",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Stephanie Buss",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nichole Olson Mahoney",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Andrew Messner",
+            "party": "NP"
+          },
+          {
+            "name": "Jason Dingman",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Todd County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John Eric Lindemann",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brittney Jordan",
+            "party": "NP"
+          },
+          {
+            "name": "Denise Gaida",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kimberly Bosl",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mike Allen",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Traverse County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Matthew Franzese",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kit Johnson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Andy Miller",
+            "party": "NP"
+          },
+          {
+            "name": "Greg Forcier",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Wadena County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kyra L. Ladd",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Heather Olson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tracy Renee Myers",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bryan Savaloja",
+            "party": "NP"
+          },
+          {
+            "name": "Milo Scott",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Watonwan County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Julie M. Kelley",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kelly Pauling",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Karla K Doll",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jared Bergeman",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Winona County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rebecca Church",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chelsi Wilbright",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Annette Deyo",
+            "party": "NP"
+          },
+          {
+            "name": "Bob Bambenek",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Charles Rolbiecki",
+            "party": "NP"
+          },
+          {
+            "name": "John Hazelton",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Becker County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian W. McDonald",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor/Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kim Frederick",
+            "party": "NP"
+          },
+          {
+            "name": "Amy Rosing",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Luke Sweere",
+            "party": "NP"
+          },
+          {
+            "name": "Shane Richard",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Grant County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Justin R. Anderson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chad Van Santen",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "HollyJo Wevley",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jennifer Vipond",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jamie Kruize",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Sherburne County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dawn Nyhus",
+            "party": "NP"
+          },
+          {
+            "name": "Hans Larson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Auditor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michael Tonsager",
+            "party": "NP"
+          },
+          {
+            "name": "Brenda Davis",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Holly Menke",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Benjamin Zawacki",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Aitkin County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "James (Jim) Ratz",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tara L. Snyder",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Daniel Guida",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lori A. Grams",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Red Lake County": [
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brad Johnson",
+            "party": "NP"
+          },
+          {
+            "name": "Kelly Brekke",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nick Knott",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Brown County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chuck Hanson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mary Schreiner",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jason S. Seidl",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Lake of the Woods County": [
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Susan J. Ney",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gary Fish",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Le Sueur County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brent Christian",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sharon J. Budin",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brett V.P. Mason",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Martin County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Taylor McGowan",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michelle Duncan",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Matt Owens",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Sibley County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Donald Everett Lannoye",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kathy Dietz",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Denley Kompelien",
+            "party": "NP"
+          },
+          {
+            "name": "Wayne Nagel",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Anoka County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brad Johnson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brad Wise",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Big Stone County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rebecca Trapp",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mark Brown",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Blue Earth County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Pat McDermott",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jeff Wersal",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Carlton County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jeffrey Boucher",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chad Walsh",
+            "party": "NP"
+          },
+          {
+            "name": "Dan Danielson",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Cass County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Benjamin T. Lindstrom",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Aaron Ammerman",
+            "party": "NP"
+          },
+          {
+            "name": "Bryan Welk",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Chippewa County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Matthew Haugen",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Derek Olson",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Chisago County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Janet Reiter",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brandon Thyen",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Clay County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian Melton",
+            "party": "NP"
+          },
+          {
+            "name": "Amber Gustafson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mark Empting",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Crow Wing County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kelsey Hopps",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Eric Klang",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Dakota County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kathy Keena",
+            "party": "NP"
+          },
+          {
+            "name": "Jeffrey Sheridan",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bobby Lambert",
+            "party": "NP"
+          },
+          {
+            "name": "Joe Leko",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Dodge County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kailee Thompson",
+            "party": "NP"
+          },
+          {
+            "name": "Crysta Parkin",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Scott Rose",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Faribault County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Cameron Davis",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Christopher Albers",
+            "party": "NP"
+          },
+          {
+            "name": "D.J. Bullerman",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Fillmore County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brett Corson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John DeGeorge",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Freeborn County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "David Walker",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ryan Shea",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Goodhue County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Stephen (Steve) O'Keefe",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Marty Kelly",
+            "party": "NP"
+          },
+          {
+            "name": "Joshua Stehr",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Hennepin County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Cedrick Frazier",
+            "party": "NP"
+          },
+          {
+            "name": "Anders Folk",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dawanna Witt",
+            "party": "NP"
+          },
+          {
+            "name": "Joseph Banks",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Hubbard County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John A. Olson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jimmy Hansen",
+            "party": "NP"
+          },
+          {
+            "name": "Anthony (Tony) Petrie",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Jackson County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kristi L. Meyeraan",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mike DeJong",
+            "party": "NP"
+          },
+          {
+            "name": "Adam Koch",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Kanabec County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Barbara McFadden (Kraemer)",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian R. Smith",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Kandiyohi County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shane Baker",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Eric Tollefson",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Kittson County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "George Hanson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Matt Vig",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Lac qui Parle County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Richard G. Stulz",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian Benck",
+            "party": "NP"
+          },
+          {
+            "name": "Cole Weick",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Lake County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lara R.M. Nygaard",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tim Luoma",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Lyon County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Abby Wikelius",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Eric Wallen",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "McLeod County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ryan Hansch",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tim Langenfeld",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Mahnomen County": [
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Josh Guenther",
+            "party": "NP"
+          },
+          {
+            "name": "Dustin Anderson",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Meeker County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brandi L. Schiefelbein",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian Cruze",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Mille Lacs County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Corey Haller",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kyle A. Burton",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Mower County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kristen Nelsen",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Steven Sandvik",
+            "party": "NP"
+          },
+          {
+            "name": "TJ Lynch",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Nicollet County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michelle Zehnder Fischer",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chad Honetschlager",
+            "party": "NP"
+          },
+          {
+            "name": "Aaron Petersen",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Nobles County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Braden Hoefert",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ryan Kruger",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Norman County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Elizabeth Brainard",
+            "party": "NP"
+          },
+          {
+            "name": "Sunny D. Resnick",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ben Fall",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Olmsted County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Karen MacLaughlin",
+            "party": "NP"
+          },
+          {
+            "name": "Michael Walters",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tim Parkin",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Otter Tail County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michelle Marie Eldien",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Reed Reinbold",
+            "party": "NP"
+          },
+          {
+            "name": "Terry Frost",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Pennington County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nathan Haase",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Seth Vettleson",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Pine County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Reese Frederickson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Scott Grice",
+            "party": "NP"
+          },
+          {
+            "name": "Aaron Borchardt",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Polk County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gregory Widseth",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mike Norland",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Ramsey County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John Choi",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bob Fletcher",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Renville County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kelsie Kingstrom",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Scott D. Hable",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Rice County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian Mortenson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nathan Budin",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Rock County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jeffrey L. Haubrich",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Matthew Sorenson",
+            "party": "NP"
+          },
+          {
+            "name": "Jeff Stratton",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Roseau County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kristy Kjos",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Steven J. Gust",
+            "party": "NP"
+          },
+          {
+            "name": "Adam Edward Kasprowicz",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Scott County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ron Hocevar",
+            "party": "NP"
+          },
+          {
+            "name": "Allen Andersen",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Luke W. Hennen",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Steele County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Robert Jarrett",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lon Thiele",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Swift County": [
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mike Hoffman",
+            "party": "NP"
+          },
+          {
+            "name": "John Reigstad",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Wabasha County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Matthew C. Stinson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jason Bade",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Waseca County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rachel V. Cornelius",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jay Dulas",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Washington County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kevin M. Magnuson",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian R. Mueller",
+            "party": "NP"
+          },
+          {
+            "name": "Jeremy Bolen",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Wilkin County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jason M. Hastings",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Anthony (Tony) Harris",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Wright County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian Lutes",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Matt Treichler",
+            "party": "NP"
+          },
+          {
+            "name": "Rob Mossman",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Yellow Medicine County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mark Gruenes",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Casey Namken",
+            "party": "NP"
+          },
+          {
+            "name": "Michael Jenson",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Carver County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mark Metz",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Patrick Barry",
+            "party": "NP"
+          },
+          {
+            "name": "Jessica Heger",
+            "party": "NP"
+          }
+        ]
+      }
+    ],
+    "Pipestone County": [
+      {
+        "office": "County Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Damain D. Sandy",
+            "party": "NP"
+          }
+        ]
+      },
+      {
+        "office": "County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Edison Dengler",
+            "party": "NP"
+          },
+          {
+            "name": "Dustin Seiler",
+            "party": "NP"
+          }
+        ]
+      }
+    ]
+  },
+  "countyRead": {
+    "Aitkin County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Aitkin County.",
+      "note": "The Minnesota candidate file also lists district contests for Aitkin County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Anoka County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Anoka County.",
+      "note": "The Minnesota candidate file also lists district contests for Anoka County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Becker County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Becker County.",
+      "note": "The Minnesota candidate file also lists district contests for Becker County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Beltrami County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Beltrami County.",
+      "note": "The Minnesota candidate file also lists district contests for Beltrami County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Benton County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Benton County.",
+      "note": "The Minnesota candidate file also lists district contests for Benton County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Big Stone County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Big Stone County.",
+      "note": "The Minnesota candidate file also lists district contests for Big Stone County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Blue Earth County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Blue Earth County.",
+      "note": "The Minnesota candidate file also lists district contests for Blue Earth County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Brown County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Brown County.",
+      "note": "The Minnesota candidate file also lists district contests for Brown County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Carlton County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Carlton County.",
+      "note": "The Minnesota candidate file also lists district contests for Carlton County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Carver County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Carver County.",
+      "note": "The Minnesota candidate file also lists district contests for Carver County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Cass County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Cass County.",
+      "note": "The Minnesota candidate file also lists district contests for Cass County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Chippewa County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Chippewa County.",
+      "note": "The Minnesota candidate file also lists district contests for Chippewa County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Chisago County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Chisago County.",
+      "note": "The Minnesota candidate file also lists district contests for Chisago County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Clay County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Clay County.",
+      "note": "The Minnesota candidate file also lists district contests for Clay County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Clearwater County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Clearwater County.",
+      "note": "The Minnesota candidate file also lists district contests for Clearwater County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Cook County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Cook County.",
+      "note": "The Minnesota candidate file also lists district contests for Cook County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Cottonwood County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Cottonwood County.",
+      "note": "The Minnesota candidate file also lists district contests for Cottonwood County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Crow Wing County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Crow Wing County.",
+      "note": "The Minnesota candidate file also lists district contests for Crow Wing County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Dakota County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Dakota County.",
+      "note": "The Minnesota candidate file also lists district contests for Dakota County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Dodge County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Dodge County.",
+      "note": "The Minnesota candidate file also lists district contests for Dodge County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Douglas County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Douglas County.",
+      "note": "The Minnesota candidate file also lists district contests for Douglas County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Faribault County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Faribault County.",
+      "note": "The Minnesota candidate file also lists district contests for Faribault County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Fillmore County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Fillmore County.",
+      "note": "The Minnesota candidate file also lists district contests for Fillmore County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Freeborn County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Freeborn County.",
+      "note": "The Minnesota candidate file also lists district contests for Freeborn County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Goodhue County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Goodhue County.",
+      "note": "The Minnesota candidate file also lists district contests for Goodhue County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Grant County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Grant County.",
+      "note": "The Minnesota candidate file also lists district contests for Grant County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Hennepin County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Hennepin County.",
+      "note": "The Minnesota candidate file also lists district contests for Hennepin County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Houston County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Houston County.",
+      "note": "The Minnesota candidate file also lists district contests for Houston County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Hubbard County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Hubbard County.",
+      "note": "The Minnesota candidate file also lists district contests for Hubbard County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Isanti County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Isanti County.",
+      "note": "The Minnesota candidate file also lists district contests for Isanti County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Itasca County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Itasca County.",
+      "note": "The Minnesota candidate file also lists district contests for Itasca County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Jackson County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Jackson County.",
+      "note": "The Minnesota candidate file also lists district contests for Jackson County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Kanabec County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Kanabec County.",
+      "note": "The Minnesota candidate file also lists district contests for Kanabec County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Kandiyohi County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Kandiyohi County.",
+      "note": "The Minnesota candidate file also lists district contests for Kandiyohi County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Kittson County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Kittson County.",
+      "note": "The Minnesota candidate file also lists district contests for Kittson County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Koochiching County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Koochiching County.",
+      "note": "The Minnesota candidate file also lists district contests for Koochiching County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Lac qui Parle County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Lac qui Parle County.",
+      "note": "The Minnesota candidate file also lists district contests for Lac qui Parle County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Lake County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Lake County.",
+      "note": "The Minnesota candidate file also lists district contests for Lake County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Lake of the Woods County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Lake of the Woods County.",
+      "note": "The Minnesota candidate file also lists district contests for Lake of the Woods County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Le Sueur County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Le Sueur County.",
+      "note": "The Minnesota candidate file also lists district contests for Le Sueur County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Lincoln County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Lincoln County.",
+      "note": "The Minnesota candidate file also lists district contests for Lincoln County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Lyon County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Lyon County.",
+      "note": "The Minnesota candidate file also lists district contests for Lyon County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Mahnomen County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Mahnomen County.",
+      "note": "The Minnesota candidate file also lists district contests for Mahnomen County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Marshall County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Marshall County.",
+      "note": "The Minnesota candidate file also lists district contests for Marshall County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Martin County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Martin County.",
+      "note": "The Minnesota candidate file also lists district contests for Martin County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "McLeod County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for McLeod County.",
+      "note": "The Minnesota candidate file also lists district contests for McLeod County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Meeker County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Meeker County.",
+      "note": "The Minnesota candidate file also lists district contests for Meeker County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Mille Lacs County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Mille Lacs County.",
+      "note": "The Minnesota candidate file also lists district contests for Mille Lacs County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Morrison County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Morrison County.",
+      "note": "The Minnesota candidate file also lists district contests for Morrison County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Mower County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Mower County.",
+      "note": "The Minnesota candidate file also lists district contests for Mower County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Murray County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Murray County.",
+      "note": "The Minnesota candidate file also lists district contests for Murray County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Nicollet County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Nicollet County.",
+      "note": "The Minnesota candidate file also lists district contests for Nicollet County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Nobles County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Nobles County.",
+      "note": "The Minnesota candidate file also lists district contests for Nobles County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Norman County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Norman County.",
+      "note": "The Minnesota candidate file also lists district contests for Norman County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Olmsted County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Olmsted County.",
+      "note": "The Minnesota candidate file also lists district contests for Olmsted County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Otter Tail County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Otter Tail County.",
+      "note": "The Minnesota candidate file also lists district contests for Otter Tail County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Pennington County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Pennington County.",
+      "note": "The Minnesota candidate file also lists district contests for Pennington County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Pine County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Pine County.",
+      "note": "The Minnesota candidate file also lists district contests for Pine County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Pipestone County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Pipestone County.",
+      "note": "The Minnesota candidate file also lists district contests for Pipestone County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Polk County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Polk County.",
+      "note": "The Minnesota candidate file also lists district contests for Polk County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Pope County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Pope County.",
+      "note": "The Minnesota candidate file also lists district contests for Pope County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Ramsey County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Ramsey County.",
+      "note": "The Minnesota candidate file also lists district contests for Ramsey County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Red Lake County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Red Lake County.",
+      "note": "The Minnesota candidate file also lists district contests for Red Lake County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Redwood County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Redwood County.",
+      "note": "The Minnesota candidate file also lists district contests for Redwood County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Renville County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Renville County.",
+      "note": "The Minnesota candidate file also lists district contests for Renville County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Rice County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Rice County.",
+      "note": "The Minnesota candidate file also lists district contests for Rice County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Rock County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Rock County.",
+      "note": "The Minnesota candidate file also lists district contests for Rock County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Roseau County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Roseau County.",
+      "note": "The Minnesota candidate file also lists district contests for Roseau County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Scott County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Scott County.",
+      "note": "The Minnesota candidate file also lists district contests for Scott County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Sherburne County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Sherburne County.",
+      "note": "The Minnesota candidate file also lists district contests for Sherburne County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Sibley County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Sibley County.",
+      "note": "The Minnesota candidate file also lists district contests for Sibley County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "St. Louis County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for St. Louis County.",
+      "note": "The Minnesota candidate file also lists district contests for St. Louis County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Stearns County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Stearns County.",
+      "note": "The Minnesota candidate file also lists district contests for Stearns County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Steele County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Steele County.",
+      "note": "The Minnesota candidate file also lists district contests for Steele County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Stevens County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Stevens County.",
+      "note": "The Minnesota candidate file also lists district contests for Stevens County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Swift County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Swift County.",
+      "note": "The Minnesota candidate file also lists district contests for Swift County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Todd County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Todd County.",
+      "note": "The Minnesota candidate file also lists district contests for Todd County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Traverse County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Traverse County.",
+      "note": "The Minnesota candidate file also lists district contests for Traverse County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Wabasha County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Wabasha County.",
+      "note": "The Minnesota candidate file also lists district contests for Wabasha County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Wadena County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Wadena County.",
+      "note": "The Minnesota candidate file also lists district contests for Wadena County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Waseca County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Waseca County.",
+      "note": "The Minnesota candidate file also lists district contests for Waseca County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Washington County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Washington County.",
+      "note": "The Minnesota candidate file also lists district contests for Washington County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Watonwan County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Watonwan County.",
+      "note": "The Minnesota candidate file also lists district contests for Watonwan County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Wilkin County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Wilkin County.",
+      "note": "The Minnesota candidate file also lists district contests for Wilkin County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Winona County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Winona County.",
+      "note": "The Minnesota candidate file also lists district contests for Winona County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Wright County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Wright County.",
+      "note": "The Minnesota candidate file also lists district contests for Wright County and does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Yellow Medicine County": {
+      "label": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "href": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "intro": "The Minnesota candidate file lists these local offices for Yellow Medicine County.",
+      "note": "The Minnesota candidate file also lists district contests for Yellow Medicine County and does not identify which places are in each district, so those contests are not copied here."
+    }
+  },
+  "extraSources": [
+    {
+      "name": "Minnesota Secretary of State, county table CntyTbl.txt for the November 3, 2026 election",
+      "url": "https://electionresultsfiles.sos.mn.gov/20261103/CntyTbl.txt"
+    }
+  ]
+}
