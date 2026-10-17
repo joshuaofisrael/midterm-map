@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CityCandidates } from "@/components/CityCandidates";
+import { CityLocal } from "@/components/CityLocal";
 import { ContentTrust } from "@/components/ContentTrust";
 import { JsonLd } from "@/components/JsonLd";
 import { JurisdictionLinks } from "@/components/JurisdictionLinks";
@@ -175,6 +176,7 @@ export default async function CityPage({
       </section>
 
       <CityCandidates code={state.code} place={place} />
+      <CityLocal code={state.code} place={place} />
 
       <JurisdictionLinks code={state.code} name={state.name} />
     </div>
