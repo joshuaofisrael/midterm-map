@@ -1,9 +1,13 @@
 import type { MetadataRoute } from "next";
+import { placeState, placeStates, placesForState } from "@/data/places/load";
 import { RACES } from "@/data/races";
 import { resultShellForRace, resultShellHasReturns } from "@/data/results";
 import { absoluteUrl, SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
 import { contentUpdatedIsoForPath } from "@/lib/contentDate";
+
+/** Sitemap protocol limit is 50,000 URLs per file. Stay under it. */
+const SITEMAP_URL_LIMIT = 50000;
 
 export const dynamic = "force-static";
 
@@ -163,10 +167,28 @@ function lastModifiedFor(path: string): string {
   return pageChanged(path) ? CONTENT_UPDATED : SITE.lastUpdated;
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
+function sitemapEntry(path: string, priority: number): MetadataRoute.Sitemap[number] {
+  return {
+    url: absoluteUrl(path || "/"),
+    lastModified: new Date(lastModifiedFor(path)),
+    changeFrequency:
+      path === "" || path === "/voting-deadlines" || path.startsWith("/states/") ? "weekly" : "monthly",
+    priority,
+  };
+}
 
+function priorityFor(path: string): number {
+  if (path === "") return 1;
+  if (path === "/cities") return 0.7;
+  if (path === "/voting-deadlines" || path.startsWith("/states/")) return 0.8;
+  if (path.startsWith("/races/")) return 0.8;
+  return 0.6;
+}
+
+function coreSitemap(): MetadataRoute.Sitemap {
   const staticPaths = [
     "",
+    "/cities",
     "/ballot",
     "/voting-deadlines",
     "/races",
@@ -193,14 +215,37 @@ export default function sitemap(): MetadataRoute.Sitemap {
     return paths;
   });
 
-  return [...staticPaths, ...statePaths, ...racePaths].map((path) => ({
-    url: absoluteUrl(path || "/"),
-    lastModified: new Date(lastModifiedFor(path)),
-    changeFrequency:
-      path === "" || path === "/voting-deadlines" || path.startsWith("/states/")
-        ? "weekly"
-        : "monthly",
-    priority:
-      path === "" ? 1 : path === "/voting-deadlines" || path.startsWith("/states/") ? 0.8 : path.startsWith("/races/") ? 0.8 : 0.6,
-  }));
+  return [...staticPaths, ...statePaths, ...racePaths].map((path) => sitemapEntry(path, priorityFor(path)));
+}
+
+function stateSitemap(code: string): MetadataRoute.Sitemap {
+  const places = placesForState(code);
+  const entries = [
+    sitemapEntry(`/cities/${code}`, 0.6),
+    ...places.map((place) => sitemapEntry(`/cities/${code}/${place.slug}`, 0.5)),
+  ];
+  if (entries.length >= SITEMAP_URL_LIMIT) {
+    throw new Error(`Sitemap ${code} has ${entries.length} URLs`);
+  }
+  return entries;
+}
+
+export async function generateSitemaps(): Promise<{ id: string }[]> {
+  const codes = placeStates()
+    .map((state) => state.code)
+    .sort();
+  return [{ id: "core" }, ...codes.map((id) => ({ id }))];
+}
+
+export default async function sitemap({
+  id,
+}: {
+  id: Promise<string> | string;
+}): Promise<MetadataRoute.Sitemap> {
+  const sitemapId = await id;
+  if (sitemapId === "core") return coreSitemap();
+  if (!placeState(sitemapId)) {
+    throw new Error(`Unknown sitemap id ${sitemapId}`);
+  }
+  return stateSitemap(sitemapId);
 }

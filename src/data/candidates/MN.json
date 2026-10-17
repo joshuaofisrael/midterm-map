@@ -1,0 +1,178 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+      "url": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+      "accessed": "October 17, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "U.S. Senator",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Marisa Simonetti",
+          "party": "IND"
+        },
+        {
+          "name": "Rebecca Whiting",
+          "party": "LIB"
+        },
+        {
+          "name": "Peggy Flanagan",
+          "party": "DFL"
+        },
+        {
+          "name": "Michele Tafoya",
+          "party": "R"
+        }
+      ]
+    },
+    {
+      "office": "U.S. Representative District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Jake Johnson",
+          "party": "DFL"
+        },
+        {
+          "name": "Brad Finstad",
+          "party": "R"
+        }
+      ]
+    },
+    {
+      "office": "U.S. Representative District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Matt Little",
+          "party": "DFL"
+        },
+        {
+          "name": "Eric Pratt",
+          "party": "R"
+        }
+      ]
+    },
+    {
+      "office": "U.S. Representative District 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Tyler Bass",
+          "party": "R"
+        },
+        {
+          "name": "Kelly Morrison",
+          "party": "DFL"
+        }
+      ]
+    },
+    {
+      "office": "U.S. Representative District 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Betty McCollum",
+          "party": "DFL"
+        },
+        {
+          "name": "Paul Wikstrom",
+          "party": "R"
+        }
+      ]
+    },
+    {
+      "office": "U.S. Representative District 5",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Ilhan Omar",
+          "party": "DFL"
+        },
+        {
+          "name": "John Nagel",
+          "party": "R"
+        },
+        {
+          "name": "DeVelle L. Jackson",
+          "party": "IND"
+        }
+      ]
+    },
+    {
+      "office": "U.S. Representative District 6",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Tom Emmer",
+          "party": "R"
+        },
+        {
+          "name": "Doug Chapin",
+          "party": "DFL"
+        }
+      ]
+    },
+    {
+      "office": "U.S. Representative District 7",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Michelle Fischbach",
+          "party": "R"
+        },
+        {
+          "name": "Erik Osberg",
+          "party": "DFL"
+        }
+      ]
+    },
+    {
+      "office": "U.S. Representative District 8",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "Pete Stauber",
+          "party": "R"
+        },
+        {
+          "name": "Trina Swanson",
+          "party": "DFL"
+        }
+      ]
+    },
+    {
+      "office": "Governor & Lt Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Steven Young and Jane Kirby",
+          "party": "GP"
+        },
+        {
+          "name": "Amy Klobuchar and Ben Schierer",
+          "party": "DFL"
+        },
+        {
+          "name": "Lisa Demuth and Ryan Wilson",
+          "party": "R"
+        }
+      ]
+    }
+  ]
+}

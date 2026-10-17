@@ -1,0 +1,409 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "Michigan Bureau of Elections, official candidate listing, November 3, 2026 general election",
+      "url": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "accessed": "October 17, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "Governor / Lt. Governor 4 Year Term (1) Position",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Benson, Jocelyn / Brinks, Winnie",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "James, John / DeBoyer, Jay",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Hudson, Anthony / Parmenter, Beau",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Brandenburg, Donna / Cowper II, Robert Donald",
+          "party": "U.S. Taxpayers Party"
+        },
+        {
+          "name": "Campbell, Douglas / Clay, Bobbie",
+          "party": "Green Party"
+        }
+      ]
+    },
+    {
+      "office": "U.S. Senate 6 Year Term (1) Position",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "El-Sayed, Abdul",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Rogers, Mike",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Christensen, Lydia",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Long, Tim",
+          "party": "U.S. Taxpayers Party"
+        },
+        {
+          "name": "Marsh, Douglas P.",
+          "party": "Green Party"
+        },
+        {
+          "name": "Kristy, Walter P.",
+          "party": "Natural Law Party"
+        }
+      ]
+    },
+    {
+      "office": "1st District Representative in Congress 2 Year Term (1) Position",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Barr, Callie",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Bergman, Jack",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Satterla, Arnett",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Kovaly, Doc",
+          "party": "U.S. Taxpayers Party"
+        },
+        {
+          "name": "Davenport, LaVeta",
+          "party": "Green Party"
+        },
+        {
+          "name": "Hakola, Liz",
+          "party": "Working Class Party"
+        }
+      ]
+    },
+    {
+      "office": "2nd District Representative in Congress 2 Year Term (1) Position",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Ambrose, Ben",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Moolenaar, John",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Magoon, Charlotte",
+          "party": "Green Party"
+        },
+        {
+          "name": "Sills, Richard",
+          "party": "Natural Law Party"
+        }
+      ]
+    },
+    {
+      "office": "3rd District Representative in Congress 2 Year Term (1) Position",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Scholten, Hillary",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "DeBoer, Terri",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Jock, Joe",
+          "party": "Green Party"
+        }
+      ]
+    },
+    {
+      "office": "4th District Representative in Congress 2 Year Term (1) Position",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "McCann, Sean",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Huizenga, Bill",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Barnett, Shafina Che",
+          "party": "Green Party"
+        }
+      ]
+    },
+    {
+      "office": "5th District Representative in Congress 2 Year Term (1) Position",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Vukasovich, Christian",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Walberg, Tim",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Muszynski, Ronald A",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Renier, Sharon Marie",
+          "party": "U.S. Taxpayers Party"
+        },
+        {
+          "name": "Bronke, Jim",
+          "party": "Green Party"
+        }
+      ]
+    },
+    {
+      "office": "6th District Representative in Congress 2 Year Term (1) Position",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Dingell, Debbie",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Smiley, Heather",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Teagan, Timothy A.",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Mickevicius, Mike",
+          "party": "U.S. Taxpayers Party"
+        },
+        {
+          "name": "Shabazz, Clyde",
+          "party": "Green Party"
+        },
+        {
+          "name": "Rayburn, Linda",
+          "party": "Working Class Party"
+        }
+      ]
+    },
+    {
+      "office": "7th District Representative in Congress 2 Year Term (1) Position",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Lawrence, William",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Barrett, Tom",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Dedrick, Shane",
+          "party": "Green Party"
+        },
+        {
+          "name": "Thibodeau, Felix",
+          "party": "Working Class Party"
+        }
+      ]
+    },
+    {
+      "office": "8th District Representative in Congress 2 Year Term (1) Position",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "McDonald Rivet, Kristen",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Smith, Thomas J.",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Pettus, C. Mia",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Casha, Jim",
+          "party": "Green Party"
+        },
+        {
+          "name": "Goodwin, Kathy",
+          "party": "Working Class Party"
+        }
+      ]
+    },
+    {
+      "office": "9th District Representative in Congress 2 Year Term (1) Position",
+      "kind": "house",
+      "district": "9",
+      "candidates": [
+        {
+          "name": "Pooley, Ray",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "McClain, Lisa",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Vayko, Kevin",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Vlahos, John",
+          "party": "U.S. Taxpayers Party"
+        },
+        {
+          "name": "Clayton, Destiny",
+          "party": "Green Party"
+        },
+        {
+          "name": "Walkowicz, Jim",
+          "party": "Working Class Party"
+        }
+      ]
+    },
+    {
+      "office": "10th District Representative in Congress 2 Year Term (1) Position",
+      "kind": "house",
+      "district": "10",
+      "candidates": [
+        {
+          "name": "Hines, Christina Bertrand",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Bouchard, Michael",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Saliba, Mike",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Nkromo, Kwabena",
+          "party": "Green Party"
+        },
+        {
+          "name": "Kirby, Andrea L.",
+          "party": "Working Class Party"
+        }
+      ]
+    },
+    {
+      "office": "11th District Representative in Congress 2 Year Term (1) Position Files In OAKLAND County",
+      "kind": "house",
+      "district": "11",
+      "candidates": [
+        {
+          "name": "Moss, Jeremy",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Baker, Ethan",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Ishac, Farid",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Teasdale, Ryan",
+          "party": "Green Party"
+        }
+      ]
+    },
+    {
+      "office": "12th District Representative in Congress 2 Year Term (1) Position",
+      "kind": "house",
+      "district": "12",
+      "candidates": [
+        {
+          "name": "Tlaib, Rashida",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Hooper, James D.",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Sosnowski, Marc Joseph",
+          "party": "U.S. Taxpayers Party"
+        },
+        {
+          "name": "Sanders, Brenda K.",
+          "party": "Green Party"
+        },
+        {
+          "name": "Walkowicz, Gary",
+          "party": "Working Class Party"
+        }
+      ]
+    },
+    {
+      "office": "13th District Representative in Congress 2 Year Term (1) Position Files In WAYNE County",
+      "kind": "house",
+      "district": "13",
+      "candidates": [
+        {
+          "name": "McKinney, Donavan",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Nykoriak, T.P.",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Dardzinski, Chris",
+          "party": "U.S. Taxpayers Party"
+        },
+        {
+          "name": "Light, Raelyn",
+          "party": "Green Party"
+        },
+        {
+          "name": "Wilcoxon, D. Etta",
+          "party": "Green Party"
+        },
+        {
+          "name": "Coleman, Simone R.",
+          "party": "Working Class Party"
+        }
+      ]
+    }
+  ]
+}

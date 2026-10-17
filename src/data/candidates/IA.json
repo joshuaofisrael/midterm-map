@@ -1,0 +1,118 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "Iowa Secretary of State, candidate list, November 3, 2026 general election",
+      "url": "https://sos.iowa.gov/sites/default/files/2026-08/2026%20General%20-%20Candidate%20List%20Database%20-%20All%20Elections_1.pdf",
+      "accessed": "October 17, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "United States Senator",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Ashley Hinson",
+          "party": "Republican"
+        },
+        {
+          "name": "Josh Turek",
+          "party": "Democratic"
+        },
+        {
+          "name": "Thomas Laehn",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Mariannette Miller-Meeks",
+          "party": "Republican"
+        },
+        {
+          "name": "Christina Bohannan",
+          "party": "Democratic"
+        },
+        {
+          "name": "Michael Bridgford",
+          "party": "No Party"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Joe Mitchell",
+          "party": "Republican"
+        },
+        {
+          "name": "Lindsay James",
+          "party": "Democratic"
+        },
+        {
+          "name": "Rick Stewart",
+          "party": "Libertarian"
+        },
+        {
+          "name": "Dave Bushaw",
+          "party": "No Party"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Zach Nunn",
+          "party": "Republican"
+        },
+        {
+          "name": "Sarah Trone Garriott",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Chris McGowan",
+          "party": "Republican"
+        },
+        {
+          "name": "Dave Dawson",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Zach Lahn",
+          "party": "Republican"
+        },
+        {
+          "name": "Rob Sand",
+          "party": "Democratic"
+        }
+      ]
+    }
+  ]
+}

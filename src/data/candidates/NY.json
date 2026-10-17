@@ -1,0 +1,602 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+      "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "accessed": "October 17, 2026",
+      "published": "October 7, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "Governor and Lt. Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Kathy C. Hochul / Adrienne E. Adams",
+          "party": "Democratic"
+        },
+        {
+          "name": "Bruce A. Blakeman / Todd Hood",
+          "party": "Republican"
+        },
+        {
+          "name": "Bruce A. Blakeman / Todd Hood",
+          "party": "Conservative"
+        },
+        {
+          "name": "Kathy C. Hochul / Adrienne E. Adams",
+          "party": "Working Families"
+        },
+        {
+          "name": "Bruce A. Blakeman / Todd Hood",
+          "party": "Vote Affordable"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Christopher J. Gallant",
+          "party": "Democratic"
+        },
+        {
+          "name": "Nicholas J. Lalota",
+          "party": "Republican"
+        },
+        {
+          "name": "Nicholas J. Lalota",
+          "party": "Conservative"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Patrick Halpin",
+          "party": "Democratic"
+        },
+        {
+          "name": "Andrew R. Garbarino",
+          "party": "Republican"
+        },
+        {
+          "name": "Andrew R. Garbarino",
+          "party": "Conservative"
+        },
+        {
+          "name": "Patrick Halpin",
+          "party": "Working Families"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Thomas R. Suozzi",
+          "party": "Democratic"
+        },
+        {
+          "name": "Michael J. LiPetri Jr",
+          "party": "Republican"
+        },
+        {
+          "name": "Michael J. LiPetri Jr",
+          "party": "Conservative"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Laura A. Gillen",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jeanine C. Driscoll",
+          "party": "Republican"
+        },
+        {
+          "name": "Jeanine C. Driscoll",
+          "party": "Conservative"
+        },
+        {
+          "name": "Blay Tarnoff",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 5",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Gregory W. Meeks",
+          "party": "Democratic"
+        },
+        {
+          "name": "George Marsh",
+          "party": "Republican"
+        },
+        {
+          "name": "George Marsh",
+          "party": "Queens United"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 6",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Grace Meng",
+          "party": "Democratic"
+        },
+        {
+          "name": "Joseph Chou",
+          "party": "Republican"
+        },
+        {
+          "name": "Joseph Chou",
+          "party": "Conservative"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 7",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Claire Valdez",
+          "party": "Democratic"
+        },
+        {
+          "name": "Melvin Rivera",
+          "party": "Republican"
+        },
+        {
+          "name": "Melvin Rivera",
+          "party": "Conservative"
+        },
+        {
+          "name": "Claire Valdez",
+          "party": "Working Families"
+        },
+        {
+          "name": "Priscilla Ghaznavi",
+          "party": "Our Future"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 8",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "Hakeem S. Jeffries",
+          "party": "Democratic"
+        },
+        {
+          "name": "Lewis Mizrahi",
+          "party": "Republican"
+        },
+        {
+          "name": "Lewis Mizrahi",
+          "party": "Conservative"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 9",
+      "kind": "house",
+      "district": "9",
+      "candidates": [
+        {
+          "name": "Yvette D. Clarke",
+          "party": "Democratic"
+        },
+        {
+          "name": "Joel Azumah",
+          "party": "Republican"
+        },
+        {
+          "name": "Joel Azumah",
+          "party": "Conservative"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 10",
+      "kind": "house",
+      "district": "10",
+      "candidates": [
+        {
+          "name": "Brad Lander",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jennifer E. Moore",
+          "party": "Republican"
+        },
+        {
+          "name": "Jennifer E. Moore",
+          "party": "Conservative"
+        },
+        {
+          "name": "Brad Lander",
+          "party": "Working Families"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 11",
+      "kind": "house",
+      "district": "11",
+      "candidates": [
+        {
+          "name": "Mike DeCillis",
+          "party": "Democratic"
+        },
+        {
+          "name": "Nicole Malliotakis",
+          "party": "Republican"
+        },
+        {
+          "name": "Nicole Malliotakis",
+          "party": "Conservative"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 12",
+      "kind": "house",
+      "district": "12",
+      "candidates": [
+        {
+          "name": "Micah C. Lasher",
+          "party": "Democratic"
+        },
+        {
+          "name": "Caroline Shinkle",
+          "party": "Republican"
+        },
+        {
+          "name": "Caroline Shinkle",
+          "party": "Conservative"
+        },
+        {
+          "name": "Wilneida Negron",
+          "party": "For All of Us"
+        },
+        {
+          "name": "Karen Ortiz",
+          "party": "Karen Ortiz"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 13",
+      "kind": "house",
+      "district": "13",
+      "candidates": [
+        {
+          "name": "Darializa Avila Chevalier",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jomo M. Williams",
+          "party": "Republican"
+        },
+        {
+          "name": "Darializa Avila Chevalier",
+          "party": "Working Families"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 14",
+      "kind": "house",
+      "district": "14",
+      "candidates": [
+        {
+          "name": "Alexandria Ocasio-Cortez",
+          "party": "Democratic"
+        },
+        {
+          "name": "Diamant Hysenaj",
+          "party": "Republican"
+        },
+        {
+          "name": "Diamant Hysenaj",
+          "party": "Conservative"
+        },
+        {
+          "name": "Alexandria Ocasio-Cortez",
+          "party": "Working Families"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 15",
+      "kind": "house",
+      "district": "15",
+      "candidates": [
+        {
+          "name": "Ritchie Torres",
+          "party": "Democratic"
+        },
+        {
+          "name": "Stylo Sapaskis",
+          "party": "Republican"
+        },
+        {
+          "name": "Gonzalo Duran",
+          "party": "Conservative"
+        },
+        {
+          "name": "Andre Easton",
+          "party": "Socialism PSL"
+        },
+        {
+          "name": "Jose Vega",
+          "party": "Speak The Truth"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 16",
+      "kind": "house",
+      "district": "16",
+      "candidates": [
+        {
+          "name": "George S. Latimer",
+          "party": "Democratic"
+        },
+        {
+          "name": "Joseph J. Cinquemani",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 17",
+      "kind": "house",
+      "district": "17",
+      "candidates": [
+        {
+          "name": "Cait Conley",
+          "party": "Democratic"
+        },
+        {
+          "name": "Mike Lawler",
+          "party": "Republican"
+        },
+        {
+          "name": "Mike Lawler",
+          "party": "Conservative"
+        },
+        {
+          "name": "Cait Conley",
+          "party": "Working Families"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 18",
+      "kind": "house",
+      "district": "18",
+      "candidates": [
+        {
+          "name": "Pat Ryan",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jackie Mary Auringer",
+          "party": "Republican"
+        },
+        {
+          "name": "Jackie Mary Auringer",
+          "party": "Conservative"
+        },
+        {
+          "name": "Pat Ryan",
+          "party": "Working Families"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 19",
+      "kind": "house",
+      "district": "19",
+      "candidates": [
+        {
+          "name": "Josh Riley",
+          "party": "Democratic"
+        },
+        {
+          "name": "Peter K. Oberacker",
+          "party": "Republican"
+        },
+        {
+          "name": "Peter K. Oberacker",
+          "party": "Conservative"
+        },
+        {
+          "name": "Josh Riley",
+          "party": "Working Families"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 20",
+      "kind": "house",
+      "district": "20",
+      "candidates": [
+        {
+          "name": "Paul D. Tonko",
+          "party": "Democratic"
+        },
+        {
+          "name": "Ralph F. Ambrosio",
+          "party": "Republican"
+        },
+        {
+          "name": "Ralph F. Ambrosio",
+          "party": "Conservative"
+        },
+        {
+          "name": "Paul D. Tonko",
+          "party": "Working Families"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 21",
+      "kind": "house",
+      "district": "21",
+      "candidates": [
+        {
+          "name": "Blake Gendebien",
+          "party": "Democratic"
+        },
+        {
+          "name": "Anthony Constantino",
+          "party": "Republican"
+        },
+        {
+          "name": "Anthony Constantino",
+          "party": "Taxpayer Rights"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 22",
+      "kind": "house",
+      "district": "22",
+      "candidates": [
+        {
+          "name": "John W. Mannion",
+          "party": "Democratic"
+        },
+        {
+          "name": "Kailee Buller",
+          "party": "Republican"
+        },
+        {
+          "name": "Kailee Buller",
+          "party": "Conservative"
+        },
+        {
+          "name": "John W. Mannion",
+          "party": "Working Families"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 23",
+      "kind": "house",
+      "district": "23",
+      "candidates": [
+        {
+          "name": "Aaron Gies",
+          "party": "Democratic"
+        },
+        {
+          "name": "Nicholas A. Langworthy",
+          "party": "Republican"
+        },
+        {
+          "name": "Nicholas A. Langworthy",
+          "party": "Conservative"
+        },
+        {
+          "name": "Aaron Gies",
+          "party": "Working Families"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 24",
+      "kind": "house",
+      "district": "24",
+      "candidates": [
+        {
+          "name": "Alissa J. Ellman",
+          "party": "Democratic"
+        },
+        {
+          "name": "Claudia Tenney",
+          "party": "Republican"
+        },
+        {
+          "name": "Claudia Tenney",
+          "party": "Conservative"
+        },
+        {
+          "name": "Alissa J. Ellman",
+          "party": "Working Families"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 25",
+      "kind": "house",
+      "district": "25",
+      "candidates": [
+        {
+          "name": "Joseph D. Morelle",
+          "party": "Democratic"
+        },
+        {
+          "name": "Virginia E. McIntyre",
+          "party": "Republican"
+        },
+        {
+          "name": "Virginia E. McIntyre",
+          "party": "Conservative"
+        },
+        {
+          "name": "Joseph D. Morelle",
+          "party": "Working Families"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress 26",
+      "kind": "house",
+      "district": "26",
+      "candidates": [
+        {
+          "name": "Timothy M. Kennedy",
+          "party": "Democratic"
+        },
+        {
+          "name": "Dennis E. Hannon",
+          "party": "Republican"
+        },
+        {
+          "name": "Dennis E. Hannon",
+          "party": "Conservative"
+        }
+      ]
+    }
+  ]
+}

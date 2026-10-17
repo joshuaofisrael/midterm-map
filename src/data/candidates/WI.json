@@ -1,0 +1,168 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "Wisconsin Elections Commission, candidates on the ballot, 2026 General Election, printed 8/25/2026 4:39:33 PM",
+      "url": "https://elections.wi.gov/sites/default/files/documents/Candidates%20on%20Ballot%20By%20Election_November%203%202026%20General%20Election.pdf",
+      "accessed": "October 17, 2026",
+      "published": "August 25, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "GOVERNOR",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Tom Tiffany / David Varnam",
+          "party": "Republican"
+        },
+        {
+          "name": "David Crowley / Sarah Godlewski",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS DISTRICT 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Bryan Steil",
+          "party": "Republican"
+        },
+        {
+          "name": "Mitchell Berman",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS DISTRICT 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Mark Pocan",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS DISTRICT 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Derrick Van Orden",
+          "party": "Republican"
+        },
+        {
+          "name": "Rebecca Cooke",
+          "party": "Democratic"
+        },
+        {
+          "name": "Alexander Valiensi Kent",
+          "party": "Independent"
+        },
+        {
+          "name": "Rustin Provance",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS DISTRICT 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Tim Rogers",
+          "party": "Republican"
+        },
+        {
+          "name": "Gwen Moore",
+          "party": "Democratic"
+        },
+        {
+          "name": "Arthur Burks",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS DISTRICT 5",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Scott Fitzgerald",
+          "party": "Republican"
+        },
+        {
+          "name": "Andrew Beck",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS DISTRICT 6",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Glenn Grothman",
+          "party": "Republican"
+        },
+        {
+          "name": "Brad Smith",
+          "party": "Democratic"
+        },
+        {
+          "name": "Matthew Arndt",
+          "party": "Wisconsin Green"
+        },
+        {
+          "name": "Elizabeth Anne Fitzgibbon",
+          "party": "Independent"
+        },
+        {
+          "name": "Mike Thurow",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS DISTRICT 7",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Michael Alfonso",
+          "party": "Republican"
+        },
+        {
+          "name": "Fred Clark",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS DISTRICT 8",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "Tony Wied",
+          "party": "Republican"
+        },
+        {
+          "name": "Rick Crosson",
+          "party": "Democratic"
+        }
+      ]
+    }
+  ]
+}

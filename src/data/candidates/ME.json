@@ -1,0 +1,76 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "Maine Secretary of State, 2026 general election candidate list (Excel)",
+      "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/2026%20General%20Candidate%20List%20-%20FINAL.xlsx",
+      "accessed": "October 17, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "US",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Collins, Susan M.",
+          "party": "R"
+        },
+        {
+          "name": "Jackson, Troy D.",
+          "party": "D"
+        }
+      ]
+    },
+    {
+      "office": "CG 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Pingree, Chellie",
+          "party": "D"
+        },
+        {
+          "name": "Russell, Ronald C.",
+          "party": "R"
+        }
+      ]
+    },
+    {
+      "office": "CG 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Dunlap, Matthew G.",
+          "party": "D"
+        },
+        {
+          "name": "LePage, Paul R.",
+          "party": "R"
+        }
+      ]
+    },
+    {
+      "office": "GOV",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Bennett, Rick",
+          "party": "Independent"
+        },
+        {
+          "name": "Charles, Robert B.",
+          "party": "R"
+        },
+        {
+          "name": "Pingree, Hannah M.",
+          "party": "D"
+        }
+      ]
+    }
+  ]
+}
