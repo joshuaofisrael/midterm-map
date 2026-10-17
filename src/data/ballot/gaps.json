@@ -424,9 +424,9 @@
     }
   },
   "after": {
-    "localPlaces": 5800,
-    "placesUnchecked": 25781,
-    "federalStateOnly": 26555,
+    "localPlaces": 7388,
+    "placesUnchecked": 24193,
+    "federalStateOnly": 24967,
     "byState": {
       "AK": {
         "places": 355,
@@ -494,11 +494,11 @@
       },
       "DE": {
         "places": 79,
-        "placesWithLocal": 0,
+        "placesWithLocal": 79,
         "counties": 3,
-        "countiesRead": 0,
+        "countiesRead": 3,
         "countiesUnpublished": 0,
-        "countiesUnchecked": 3
+        "countiesUnchecked": 0
       },
       "FL": {
         "places": 958,
@@ -550,11 +550,11 @@
       },
       "IN": {
         "places": 973,
-        "placesWithLocal": 0,
+        "placesWithLocal": 973,
         "counties": 92,
-        "countiesRead": 0,
+        "countiesRead": 92,
         "countiesUnpublished": 0,
-        "countiesUnchecked": 92
+        "countiesUnchecked": 0
       },
       "KS": {
         "places": 739,
@@ -590,11 +590,11 @@
       },
       "MD": {
         "places": 536,
-        "placesWithLocal": 0,
+        "placesWithLocal": 536,
         "counties": 24,
-        "countiesRead": 0,
+        "countiesRead": 24,
         "countiesUnpublished": 0,
-        "countiesUnchecked": 24
+        "countiesUnchecked": 0
       },
       "ME": {
         "places": 155,
@@ -3084,22 +3084,22 @@
       "state": "DE",
       "county": "Kent County",
       "places": 27,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 27,
+      "status": "read"
     },
     {
       "state": "DE",
       "county": "New Castle County",
       "places": 28,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 28,
+      "status": "read"
     },
     {
       "state": "DE",
       "county": "Sussex County",
       "places": 27,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 27,
+      "status": "read"
     },
     {
       "state": "FL",
@@ -6430,645 +6430,645 @@
       "state": "IN",
       "county": "Adams County",
       "places": 7,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 7,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Allen County",
       "places": 14,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 14,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Bartholomew County",
       "places": 20,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 20,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Benton County",
       "places": 8,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 8,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Blackford County",
       "places": 6,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 6,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Boone County",
       "places": 8,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 8,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Brown County",
       "places": 3,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 3,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Carroll County",
       "places": 11,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 11,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Cass County",
       "places": 12,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 12,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Clark County",
       "places": 11,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 11,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Clay County",
       "places": 15,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 15,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Clinton County",
       "places": 10,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 10,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Crawford County",
       "places": 8,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 8,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Daviess County",
       "places": 8,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 8,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "DeKalb County",
       "places": 10,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 10,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Dearborn County",
       "places": 10,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 10,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Decatur County",
       "places": 14,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 14,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Delaware County",
       "places": 12,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 12,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Dubois County",
       "places": 12,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 12,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Elkhart County",
       "places": 13,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 13,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Fayette County",
       "places": 3,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 3,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Floyd County",
       "places": 5,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 5,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Fountain County",
       "places": 12,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 12,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Franklin County",
       "places": 15,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 15,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Fulton County",
       "places": 8,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 8,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Gibson County",
       "places": 12,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 12,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Grant County",
       "places": 17,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 17,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Greene County",
       "places": 13,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 13,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Hamilton County",
       "places": 11,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 11,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Hancock County",
       "places": 15,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 15,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Harrison County",
       "places": 13,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 13,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Hendricks County",
       "places": 14,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 14,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Henry County",
       "places": 19,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 19,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Howard County",
       "places": 9,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 9,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Huntington County",
       "places": 7,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 7,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Jackson County",
       "places": 9,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 9,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Jasper County",
       "places": 5,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 5,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Jay County",
       "places": 6,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 6,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Jefferson County",
       "places": 7,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 7,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Jennings County",
       "places": 9,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 9,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Johnson County",
       "places": 11,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 11,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Knox County",
       "places": 13,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 13,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Kosciusko County",
       "places": 21,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 21,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "LaGrange County",
       "places": 13,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 13,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "LaPorte County",
       "places": 21,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 21,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Lake County",
       "places": 24,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 24,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Lawrence County",
       "places": 12,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 12,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Madison County",
       "places": 17,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 17,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Marion County",
       "places": 15,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 15,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Marshall County",
       "places": 12,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 12,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Martin County",
       "places": 5,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 5,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Miami County",
       "places": 12,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 12,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Monroe County",
       "places": 6,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 6,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Montgomery County",
       "places": 14,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 14,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Morgan County",
       "places": 13,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 13,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Newton County",
       "places": 9,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 9,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Noble County",
       "places": 16,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 16,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Ohio County",
       "places": 1,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 1,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Orange County",
       "places": 5,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 5,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Owen County",
       "places": 4,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 4,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Parke County",
       "places": 9,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 9,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Perry County",
       "places": 4,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 4,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Pike County",
       "places": 9,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 9,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Porter County",
       "places": 20,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 20,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Posey County",
       "places": 10,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 10,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Pulaski County",
       "places": 8,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 8,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Putnam County",
       "places": 10,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 10,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Randolph County",
       "places": 13,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 13,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Ripley County",
       "places": 14,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 14,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Rush County",
       "places": 8,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 8,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Scott County",
       "places": 3,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 3,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Shelby County",
       "places": 17,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 17,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Spencer County",
       "places": 12,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 12,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "St. Joseph County",
       "places": 15,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 15,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Starke County",
       "places": 9,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 9,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Steuben County",
       "places": 16,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 16,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Sullivan County",
       "places": 14,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 14,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Switzerland County",
       "places": 5,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 5,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Tippecanoe County",
       "places": 14,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 14,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Tipton County",
       "places": 7,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 7,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Union County",
       "places": 3,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 3,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Vanderburgh County",
       "places": 5,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 5,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Vermillion County",
       "places": 12,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 12,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Vigo County",
       "places": 18,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 18,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Wabash County",
       "places": 10,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 10,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Warren County",
       "places": 14,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 14,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Warrick County",
       "places": 7,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 7,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Washington County",
       "places": 10,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 10,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Wayne County",
       "places": 17,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 17,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Wells County",
       "places": 12,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 12,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "White County",
       "places": 10,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 10,
+      "status": "read"
     },
     {
       "state": "IN",
       "county": "Whitley County",
       "places": 7,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 7,
+      "status": "read"
     },
     {
       "state": "KS",
@@ -9195,169 +9195,169 @@
       "state": "MD",
       "county": "Allegany County",
       "places": 44,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 44,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Anne Arundel County",
       "places": 32,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 32,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Baltimore County",
       "places": 32,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 32,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Baltimore city",
       "places": 1,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 1,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Calvert County",
       "places": 14,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 14,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Caroline County",
       "places": 13,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 13,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Carroll County",
       "places": 9,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 9,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Cecil County",
       "places": 8,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 8,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Charles County",
       "places": 13,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 13,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Dorchester County",
       "places": 14,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 14,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Frederick County",
       "places": 28,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 28,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Garrett County",
       "places": 15,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 15,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Harford County",
       "places": 16,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 16,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Howard County",
       "places": 11,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 11,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Kent County",
       "places": 14,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 14,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Montgomery County",
       "places": 59,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 59,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Prince George's County",
       "places": 85,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 85,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Queen Anne's County",
       "places": 15,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 15,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Somerset County",
       "places": 11,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 11,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "St. Mary's County",
       "places": 11,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 11,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Talbot County",
       "places": 7,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 7,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Washington County",
       "places": 61,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 61,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Wicomico County",
       "places": 19,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 19,
+      "status": "read"
     },
     {
       "state": "MD",
       "county": "Worcester County",
       "places": 11,
-      "placesWithLocal": 0,
-      "status": "unchecked"
+      "placesWithLocal": 11,
+      "status": "read"
     },
     {
       "state": "ME",

@@ -1672,6 +1672,340 @@ def parse_la(places: list[dict]) -> dict:
     }
 
 
+def parse_md(places: list[dict]) -> dict:
+    """Countywide and citywide offices from the Maryland local candidate list.
+
+    The CSV is the download linked from the State Board's local candidate page.
+    Address, phone, email, gender, and social columns are not copied. A contest whose
+    district column names a district is not copied onto a place.
+    """
+    import csv
+
+    census = census_county_index(places)
+    path = CAND / "gaps" / "md" / "all.csv"
+    grouped: dict[tuple, list[dict]] = {}
+
+    def county_named(label: str) -> str | None:
+        key = county_key(label)
+        if key == "baltimore city":
+            return "Baltimore city"
+        if key == "saint marys":
+            return "St. Mary's County"
+        for candidate in (label, f"{label} County"):
+            found = census.get(county_key(candidate))
+            if found:
+                return found
+        return None
+
+    for row in csv.DictReader(path.read_text(encoding="utf-8-sig").splitlines()):
+        if row["Candidate Status"].strip() != "Active":
+            continue
+        office = row["Office Name"].strip()
+        district = row["Contest Run By District Name and Number"].strip()
+        first = row["Candidate First Name and Middle Name"].strip()
+        last = row["Candidate Ballot Last Name and Suffix"].strip()
+        name = " ".join(part for part in (first, last) if part)
+        if not name:
+            continue
+        candidate = person(name, row["Office Political Party"])
+        if "district" in district.casefold():
+            continue
+        if district.casefold().startswith("municipality") or "city of " in office.casefold():
+            match = re.search(r"city of (.+)$", office, flags=re.I)
+            place = place_named(places, match.group(1)) if match else None
+            if not place:
+                continue
+            grouped.setdefault(("place", place["geoid"], office), []).append(candidate)
+            continue
+        county = county_named(district)
+        if not county:
+            raise SystemExit(f"MD district label {district!r} for {office}")
+        grouped.setdefault(("county", county, office), []).append(candidate)
+
+    local: dict[str, list[dict]] = defaultdict(list)
+    local_by_county: dict[str, list[dict]] = defaultdict(list)
+    for (scope, key, office), people in grouped.items():
+        candidates = []
+        for candidate in people:
+            if not any(item["name"] == candidate["name"] and item["party"] == candidate["party"] for item in candidates):
+                candidates.append(candidate)
+        item = contest(office, None, candidates)
+        if scope == "county":
+            local_by_county[key].append(item)
+        else:
+            local[key].append(item)
+    for bucket in (*local.values(), *local_by_county.values()):
+        bucket.sort(key=lambda item: item["office"])
+    label = "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list"
+    href = "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html"
+    note = (
+        "Only rows whose Candidate Status column prints Active are copied. "
+        "Address, phone, email, and gender columns are not copied. "
+        "The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    )
+    county_read = {}
+    for county in sorted(set(census.values())):
+        county_read[county] = {
+            "label": label,
+            "href": href,
+            "intro": (
+                "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, "
+                f"last updated 10/16/2026, names these offices for {county}."
+            ),
+            "note": note,
+        }
+    return {
+        "statewide": [],
+        "upper": {},
+        "lower": {},
+        "local": local,
+        "localIntro": (
+            "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, "
+            "last updated 10/16/2026, names these offices for this place. "
+            "Only rows whose Candidate Status column prints Active are copied."
+        ),
+        "localByCounty": local_by_county,
+        "countyRead": county_read,
+        "extraSources": [{"name": label, "url": href}],
+    }
+
+
+def parse_in(places: list[dict]) -> dict:
+    """Countywide and matched municipal offices from the Indiana Election Division general list.
+
+    Commissioner districts, council districts, township offices, and school-board contests are
+    not copied. The abbreviated workbook has no address, phone, or email columns.
+    """
+    import zipfile
+    from xml.etree import ElementTree as ET
+
+    census = census_county_index(places)
+    path = CAND / "gaps" / "in" / "general.xlsx"
+    ns = {"m": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
+    root = ET.fromstring(zipfile.ZipFile(path).read("xl/worksheets/sheet1.xml"))
+
+    def cell_text(cell: ET.Element) -> str:
+        node = cell.find("m:is", ns)
+        return "".join(node.itertext()).strip() if node is not None else ""
+
+    def counties_in(phrase: str) -> list[str]:
+        phrase = phrase.replace("Counties", "County")
+        found = []
+        for part in re.split(r"\s*&\s*", phrase):
+            part = part.strip()
+            if not part.lower().endswith("county"):
+                part = f"{part} County"
+            name = census.get(county_key(part))
+            if not name:
+                return []
+            found.append(name)
+        return found
+
+    rows = []
+    for row in root.findall("m:sheetData/m:row", ns):
+        record = {}
+        for cell in row.findall("m:c", ns):
+            column = re.match(r"[A-Z]+", cell.get("r", "")).group(0)
+            record[column] = cell_text(cell)
+        rows.append(record)
+
+    grouped: dict[tuple, list[dict]] = {}
+    header = ""
+    for record in rows:
+        if record.get("A") == "2026 GENERAL ELECTION - 11/3/2026 11:59:00 PM":
+            header = record["A"]
+        if record.get("A") == "OFFICE CATEGORY:":
+            continue
+        name = record.get("A", "")
+        party = record.get("B", "")
+        title = record.get("C", "")
+        if not name or not title or name in {"BALLOT NAME", "Candidate List - Abbreviated", "ALL COUNTIES"}:
+            continue
+        candidate = person(name, party)
+        county_match = re.match(
+            r"^(.+) County (Sheriff|Auditor|Recorder|Treasurer|Coroner|Surveyor|Assessor)$",
+            title,
+        )
+        clerk_match = re.match(r"^(.+) Circuit Court Clerk$", title)
+        prosecutor_match = re.match(
+            r"^Prosecuting Attorney of (.+), \d+(?:st|nd|rd|th) Judicial Circuit$",
+            title,
+        )
+        judge_match = re.match(r"^Judge of the (.+?) (Circuit|Superior) Court\b", title)
+        if county_match or clerk_match:
+            label = (county_match or clerk_match).group(1)
+            counties = counties_in(label)
+            if len(counties) != 1:
+                raise SystemExit(f"IN county office {title!r}")
+            grouped.setdefault(("county", counties[0], title), []).append(candidate)
+            continue
+        if prosecutor_match or judge_match:
+            phrase = (prosecutor_match or judge_match).group(1)
+            counties = counties_in(phrase)
+            if not counties:
+                raise SystemExit(f"IN court office {title!r}")
+            for county in counties:
+                grouped.setdefault(("county", county, title), []).append(candidate)
+            continue
+        if re.search(r"\b(district|ward|precinct|township|twp)\b", title, re.I):
+            continue
+        place_label = None
+        county_hint = None
+        hinted = re.search(r",\s+([A-Za-z .'-]+ County)$", title)
+        bare = title[: hinted.start()].strip() if hinted else title
+        if hinted:
+            county_hint = census.get(county_key(hinted.group(1)))
+        bare = re.sub(r",?\s+At Large(?: \(\d+ seats\))?$", "", bare, flags=re.I).strip(" ,")
+        bare = re.sub(r"\s+at Large$", "", bare, flags=re.I).strip()
+        mayor = re.match(r"^Mayor of (.+)$", bare)
+        named = re.match(r"^(.+?)\s+(?:City|Town)\s+(?:Clerk|Common|Judge|Council)\b", bare)
+        if mayor:
+            place_label = mayor.group(1).strip()
+        elif named:
+            place_label = named.group(1).strip()
+        if not place_label:
+            continue
+        if county_hint:
+            hits = [
+                place
+                for place in places
+                if county_hint in place["counties"]
+                and norm_name(re.sub(r"\s+(city|town|village|cdp|borough|municipality)$", "", place["name"], flags=re.I))
+                == norm_name(place_label)
+            ]
+            place = hits[0] if len(hits) == 1 else None
+        else:
+            place = place_named(places, place_label)
+        if not place:
+            continue
+        grouped.setdefault(("place", place["geoid"], title), []).append(candidate)
+
+    if header != "2026 GENERAL ELECTION - 11/3/2026 11:59:00 PM":
+        raise SystemExit(f"IN header {header!r}")
+    local: dict[str, list[dict]] = defaultdict(list)
+    local_by_county: dict[str, list[dict]] = defaultdict(list)
+    for (scope, key, office), people in grouped.items():
+        candidates = []
+        for candidate in people:
+            if not any(item["name"] == candidate["name"] and item["party"] == candidate["party"] for item in candidates):
+                candidates.append(candidate)
+        item = contest(office, None, candidates)
+        if scope == "county":
+            local_by_county[key].append(item)
+        else:
+            local[key].append(item)
+    for bucket in (*local.values(), *local_by_county.values()):
+        bucket.sort(key=lambda item: item["office"])
+    label = "Indiana Election Division, 2026 General Election Candidate List"
+    href = "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx"
+    note = (
+        "The list also includes commissioner districts, council districts, township offices, and school-board contests. "
+        "Those contests are not copied because the list does not identify which Census places are in each district."
+    )
+    county_read = {}
+    for county in sorted(set(census.values())):
+        record = {
+            "label": label,
+            "href": href,
+            "note": note,
+        }
+        if county in local_by_county:
+            record["intro"] = (
+                "The Indiana Election Division 2026 General Election Candidate List, whose header prints "
+                f"2026 GENERAL ELECTION - 11/3/2026, names these offices for {county}."
+            )
+        else:
+            record["empty"] = f"The Indiana Election Division list does not include a countywide local contest for {county}."
+        county_read[county] = record
+    return {
+        "date": {
+            "quote": "11/3/2026",
+            "text": "The Indiana Election Division candidate list header prints 2026 GENERAL ELECTION - 11/3/2026 11:59:00 PM.",
+        },
+        "statewide": [],
+        "upper": {},
+        "lower": {},
+        "local": local,
+        "localIntro": (
+            "The Indiana Election Division 2026 General Election Candidate List names these municipal offices for this place."
+        ),
+        "localByCounty": local_by_county,
+        "countyRead": county_read,
+        "extraSources": [{"name": label, "url": href}],
+    }
+
+
+def parse_de(places: list[dict]) -> dict:
+    """Countywide offices from the Delaware Department of Elections general candidate list.
+
+    The host rejected the page, so the rows below are the Qualified countywide offices copied
+    from that table on October 17, 2026. Contact text that the page folds into a name cell is
+    not included. Council districts and levy-court districts are not copied.
+    """
+    import csv
+
+    census = census_county_index(places)
+    path = CAND / "gaps" / "de" / "local.tsv"
+    local_by_county: dict[str, list[dict]] = defaultdict(list)
+    for row in csv.DictReader(path.open(encoding="utf-8"), delimiter="\t"):
+        if row["status"].strip() != "Qualified":
+            continue
+        office = row["office"].strip()
+        if re.search(r"\bDistrict\b", office):
+            raise SystemExit(f"DE district office in county file {office}")
+        county = None
+        for name in census.values():
+            if office.startswith(name):
+                county = name
+                break
+        if not county:
+            raise SystemExit(f"DE office {office!r}")
+        candidate = person(row["name"], row["party"])
+        bucket = local_by_county[county]
+        current = next((item for item in bucket if item["office"] == office), None)
+        if current is None:
+            bucket.append(contest(office, None, [candidate]))
+        else:
+            current["candidates"].append(candidate)
+    label = "Delaware Department of Elections, filed candidates for the 11/03/2026 statewide general election"
+    href = "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html"
+    note = (
+        "Only rows whose Status column prints Qualified are copied. "
+        "The list also names county council districts and levy court districts, which are not copied. "
+        "The candidate-list index says filed candidates appear on the General Election list unless and until a Primary Election is created by a subsequent candidate from the same political party filing for the same office."
+    )
+    county_read = {}
+    for county in sorted(set(census.values())):
+        county_read[county] = {
+            "label": label,
+            "href": href,
+            "intro": (
+                "The Delaware Department of Elections filed-candidate list for the 11/03/2026 statewide general election, "
+                f"last updated 2026-10-15 07:56 PM, names these offices for {county}."
+            ),
+            "note": note,
+        }
+    return {
+        "date": {
+            "quote": "11/03/2026",
+            "text": "The Delaware Department of Elections candidate-list index prints 11/03/2026 Statewide General.",
+        },
+        "statewide": [],
+        "upper": {},
+        "lower": {},
+        "local": {},
+        "localByCounty": local_by_county,
+        "countyRead": county_read,
+        "extraSources": [
+            {"name": label, "url": href},
+            {
+                "name": "Delaware Department of Elections, candidate lists",
+                "url": "https://elections.delaware.gov/candidates/candidatelist/index.html",
+            },
+        ],
+    }
+
+
 def pack_state(parsed: dict) -> dict:
     record = {
         "statewide": parsed.get("statewide", []),
@@ -1708,6 +2042,9 @@ def main() -> None:
         "WA": parse_wa(places["WA"]),
         "SD": parse_sd(places["SD"]),
         "LA": parse_la(places["LA"]),
+        "MD": parse_md(places["MD"]),
+        "IN": parse_in(places["IN"]),
+        "DE": parse_de(places["DE"]),
     }
     OUT.mkdir(parents=True, exist_ok=True)
     packed_by: dict[str, dict] = {}
@@ -1930,6 +2267,59 @@ def main() -> None:
         raise SystemExit("LA Thibodaux mayor missing")
     if any("District" in item["office"] for item in thibodaux_offices):
         raise SystemExit("LA council district copied onto Thibodaux")
+    md = json.loads((OUT / "MD.json").read_text(encoding="utf-8"))
+    allegany = md["localByCounty"].get("Allegany County", [])
+    if not any(
+        item["office"] == "Sheriff"
+        and any(person["name"] == "David R. Morgan" and person["party"] == "Republican" for person in item["candidates"])
+        and any(person["name"] == "Juliana Marie Hong" and person["party"] == "Democratic" for person in item["candidates"])
+        for item in allegany
+    ):
+        raise SystemExit("MD Allegany sheriff missing")
+    if any(re.search(r"\bDistrict\b", item["office"]) for rows in md["localByCounty"].values() for item in rows):
+        raise SystemExit("MD district contest copied as countywide")
+    if "@" in json.dumps(md.get("local", {})) or "@" in json.dumps(md.get("localByCounty", {})):
+        raise SystemExit("MD local JSON contains an email")
+    cumberland = next(place for place in places["MD"] if place["name"] == "Cumberland city")
+    if not any(
+        item["office"] == "Mayor - City of Cumberland" and any(person["name"] == "Raymond Morriss" for person in item["candidates"])
+        for item in md["local"].get(cumberland["geoid"], [])
+    ):
+        raise SystemExit("MD Cumberland mayor missing")
+    indiana = json.loads((OUT / "IN.json").read_text(encoding="utf-8"))
+    adams = indiana["localByCounty"].get("Adams County", [])
+    if not any(
+        item["office"] == "Adams County Sheriff"
+        and any(person["name"] == "Eric Beer" and person["party"] == "Republican" for person in item["candidates"])
+        for item in adams
+    ):
+        raise SystemExit("IN Adams sheriff missing")
+    dearborn = indiana["localByCounty"].get("Dearborn County", [])
+    ohio = indiana["localByCounty"].get("Ohio County", [])
+    prosecutor = "Prosecuting Attorney of Dearborn & Ohio Counties, 7th Judicial Circuit"
+    if not any(item["office"] == prosecutor and any(person["name"] == "Lynn Deddens" for person in item["candidates"]) for item in dearborn):
+        raise SystemExit("IN Dearborn prosecutor missing")
+    if not any(item["office"] == prosecutor for item in ohio):
+        raise SystemExit("IN Ohio prosecutor missing")
+    if any(re.search(r"Township|School Board|Council, District|Commissioner,", item["office"]) for rows in indiana["localByCounty"].values() for item in rows):
+        raise SystemExit("IN district or township contest copied as countywide")
+    if "@" in json.dumps(indiana.get("local", {})) or "@" in json.dumps(indiana.get("localByCounty", {})):
+        raise SystemExit("IN local JSON contains an email")
+    attica = next(place for place in places["IN"] if place["name"] == "Attica city")
+    if not any(item["office"] == "Mayor of Attica" for item in indiana["local"].get(attica["geoid"], [])):
+        raise SystemExit("IN Attica mayor missing")
+    delaware = json.loads((OUT / "DE.json").read_text(encoding="utf-8"))
+    newcastle = delaware["localByCounty"].get("New Castle County", [])
+    if not any(
+        item["office"] == "New Castle County Sheriff"
+        and any(person["name"] == "Scott Phillips" and person["party"] == "Democratic" for person in item["candidates"])
+        for item in newcastle
+    ):
+        raise SystemExit("DE New Castle sheriff missing")
+    if any("District" in item["office"] for rows in delaware["localByCounty"].values() for item in rows):
+        raise SystemExit("DE district contest copied as countywide")
+    if "@" in json.dumps(delaware.get("localByCounty", {})):
+        raise SystemExit("DE local JSON contains an email")
 
 
 if __name__ == "__main__":

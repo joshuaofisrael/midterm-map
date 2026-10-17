@@ -1,9 +1,9 @@
 {
   "placeCount": 32355,
   "sldPlaces": 31839,
-  "localPlaces": 5800,
-  "federalStateOnly": 26555,
-  "placesUnchecked": 25781,
+  "localPlaces": 7388,
+  "federalStateOnly": 24967,
+  "placesUnchecked": 24193,
   "accessed": "October 17, 2026",
   "localSources": [
     {
@@ -49,6 +49,26 @@
     {
       "name": "Louisiana Secretary of State, candidate inquiry for the 11/03/2026 election",
       "url": "https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103",
+      "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "url": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Indiana Election Division, 2026 General Election Candidate List",
+      "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
+      "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Delaware Department of Elections, filed candidates for the 11/03/2026 statewide general election",
+      "url": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html",
+      "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Delaware Department of Elections, candidate lists",
+      "url": "https://elections.delaware.gov/candidates/candidatelist/index.html",
       "accessed": "October 17, 2026"
     }
   ],
@@ -119,11 +139,11 @@
     },
     "DE": {
       "places": 79,
-      "placesWithLocal": 0,
+      "placesWithLocal": 79,
       "counties": 3,
-      "countiesRead": 0,
+      "countiesRead": 3,
       "countiesUnpublished": 0,
-      "countiesUnchecked": 3
+      "countiesUnchecked": 0
     },
     "FL": {
       "places": 958,
@@ -175,11 +195,11 @@
     },
     "IN": {
       "places": 973,
-      "placesWithLocal": 0,
+      "placesWithLocal": 973,
       "counties": 92,
-      "countiesRead": 0,
+      "countiesRead": 92,
       "countiesUnpublished": 0,
-      "countiesUnchecked": 92
+      "countiesUnchecked": 0
     },
     "KS": {
       "places": 739,
@@ -215,11 +235,11 @@
     },
     "MD": {
       "places": 536,
-      "placesWithLocal": 0,
+      "placesWithLocal": 536,
       "counties": 24,
-      "countiesRead": 0,
+      "countiesRead": 24,
       "countiesUnpublished": 0,
-      "countiesUnchecked": 24
+      "countiesUnchecked": 0
     },
     "ME": {
       "places": 155,

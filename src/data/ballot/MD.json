@@ -1,0 +1,2465 @@
+{
+  "statewide": [],
+  "upper": {},
+  "lower": {},
+  "local": {
+    "2421325": [
+      {
+        "office": "Council - City of Cumberland",
+        "key": null,
+        "candidates": [
+          {
+            "name": "James Leo Furstenberg, III",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Joe George",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Brandon Timothy Scarlett",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Gregory Elias Triantafillides",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "William Valois",
+            "party": "Non-Partisan"
+          }
+        ]
+      },
+      {
+        "office": "Mayor - City of Cumberland",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Raymond Morriss",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Darrell Lee Powell",
+            "party": "Non-Partisan"
+          }
+        ]
+      }
+    ]
+  },
+  "annotations": {},
+  "localIntro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for this place. Only rows whose Candidate Status column prints Active are copied.",
+  "localByCounty": {
+    "Allegany County": [
+      {
+        "office": "Board of Education",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Linda Alderman Widmyer",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "David A. Bohn",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Lori D. Lepley",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Steven Jay Moon",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Caren Phillips Kurtz",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Gary Taylor",
+            "party": "Non-Partisan"
+          }
+        ]
+      },
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dawne Lindsey",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chelsea Boor",
+            "party": "Democratic"
+          },
+          {
+            "name": "Carol Taccino",
+            "party": "Democratic"
+          },
+          {
+            "name": "Bill Atkinson",
+            "party": "Republican"
+          },
+          {
+            "name": "Creade Brodie, Jr.",
+            "party": "Republican"
+          },
+          {
+            "name": "Dave Caporale",
+            "party": "Republican"
+          },
+          {
+            "name": "Kit Pepper Lescallette",
+            "party": "Unaffiliated"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Edward C. Crossland",
+            "party": "Republican"
+          },
+          {
+            "name": "Craig Robertson",
+            "party": "Republican"
+          },
+          {
+            "name": "Penny Lyn Walker",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mary Beth Pirolozzi",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "David R. Morgan",
+            "party": "Republican"
+          },
+          {
+            "name": "Juliana Marie Hong",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "James F. Elliott",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Anne Arundel County": [
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MK Fowler",
+            "party": "Democratic"
+          },
+          {
+            "name": "Douglas Finbar Graham",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "County Executive",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Allison M. Pickard",
+            "party": "Democratic"
+          },
+          {
+            "name": "Dave Crawford",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Loni Moyer",
+            "party": "Democratic"
+          },
+          {
+            "name": "Matt O'Connell",
+            "party": "Democratic"
+          },
+          {
+            "name": "Stacey Scott",
+            "party": "Democratic"
+          },
+          {
+            "name": "Maureen Carr-York",
+            "party": "Republican"
+          },
+          {
+            "name": "Tony McConkey",
+            "party": "Republican"
+          },
+          {
+            "name": "Alan Rzepkowski",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jasmine M. Jackson",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jason D. Lambert",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Everett Sesker",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jim Fredericks",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Anne Colt Leitess",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "Baltimore city": [
+      {
+        "office": "Board of Education At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jamar Day",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Ashley Ash Esposito",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Domonique A. Flowers",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Kwame Jamal Kenyatta-Bey",
+            "party": "Non-Partisan"
+          }
+        ]
+      },
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Xavier A. Conaway",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Charles \"Chuck\" Bernstein",
+            "party": "Democratic"
+          },
+          {
+            "name": "Lewyn Scott Garrett",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michele E. Loewenthal",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Belinda K. Conaway",
+            "party": "Democratic"
+          },
+          {
+            "name": "Andy Zipay",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sabrina Tapp-Harper",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ivan J. Bates",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "Baltimore County": [
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Julie Ensor",
+            "party": "Democratic"
+          },
+          {
+            "name": "Christina Mulligan",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "County Executive",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Julian Jones",
+            "party": "Democratic"
+          },
+          {
+            "name": "Patrick V. Dyer",
+            "party": "Republican"
+          },
+          {
+            "name": "Rob Daniels",
+            "party": "Unaffiliated"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michelle Arvin-Greer",
+            "party": "Democratic"
+          },
+          {
+            "name": "Andrew G. Bailey",
+            "party": "Democratic"
+          },
+          {
+            "name": "Juliet Fisher",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Alexis Burrell-Rohde",
+            "party": "Democratic"
+          },
+          {
+            "name": "Nicole Schroeder",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Clyde E. Boatwright",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michael F. Burke",
+            "party": "Republican"
+          },
+          {
+            "name": "Dana R. Robinson",
+            "party": "Unaffiliated"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sarah R. David",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "Calvert County": [
+      {
+        "office": "Board of Education At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dona Cox Ostenso",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Lisa Grenis",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Anne Jones",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Jana Post",
+            "party": "Non-Partisan"
+          }
+        ]
+      },
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jourdan Sturdivant",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Judy Pedersen",
+            "party": "Democratic"
+          },
+          {
+            "name": "Antoine S. White",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jason Scaggs",
+            "party": "Republican"
+          },
+          {
+            "name": "Patti Stueckler",
+            "party": "Republican"
+          },
+          {
+            "name": "Steve Jones",
+            "party": "Unaffiliated"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rick Piereck",
+            "party": "Democratic"
+          },
+          {
+            "name": "Leslie M. Downs",
+            "party": "Republican"
+          },
+          {
+            "name": "Ted LeBlanc",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Margaret H. Phipps",
+            "party": "Democratic"
+          },
+          {
+            "name": "Mark S. Lynch",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ricky Cox",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bob Harvey",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amanda N. Dolina",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Caroline County": [
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Peggy A. Gallagher",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Savannah Winston",
+            "party": "Democratic"
+          },
+          {
+            "name": "J. Travis Breeding",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael A. Mann",
+            "party": "Republican"
+          },
+          {
+            "name": "Larry C. Porter",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ellery Adams",
+            "party": "Republican"
+          },
+          {
+            "name": "Jeff Porter",
+            "party": "Republican"
+          },
+          {
+            "name": "Hugh Smith",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Linda Dunn",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Donnie Baker",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joel J. Todd",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Carroll County": [
+      {
+        "office": "Board of Education",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Cleveland Christopher Friday",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Marsha B. Herbert",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Shannon Hinkhaus",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Lisa Maisano",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Julie V. Walsh",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Sharon Wilhide",
+            "party": "Non-Partisan"
+          }
+        ]
+      },
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Heather S. DeWees",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Margaret Peggy Bair",
+            "party": "Republican"
+          },
+          {
+            "name": "LaRue G. Lennon",
+            "party": "Republican"
+          },
+          {
+            "name": "Tina Mawhinney",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Paul G. Zimmermann",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gail F. Wickless",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jim DeWees",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "George Psoras",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Cecil County": [
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jamie Marshall",
+            "party": "Democratic"
+          },
+          {
+            "name": "Charlene M. Notarcola",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Teresa M. DiFabbio-Crawley",
+            "party": "Democratic"
+          },
+          {
+            "name": "David M. Schaeffer, Sr.",
+            "party": "Democratic"
+          },
+          {
+            "name": "Donna Caudell",
+            "party": "Republican"
+          },
+          {
+            "name": "Carolyn L. Crouch",
+            "party": "Republican"
+          },
+          {
+            "name": "Jackie Gregory",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amanda J. Pierce",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Todd Creek",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "James A. Dellmyer",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Charles County": [
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lisa E. Yates",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner President",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amanda Stewart",
+            "party": "Democratic"
+          },
+          {
+            "name": "Joe Crawford",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Darlene M. Breck",
+            "party": "Democratic"
+          },
+          {
+            "name": "Tisha R. Tyler",
+            "party": "Democratic"
+          },
+          {
+            "name": "Russell Yates",
+            "party": "Democratic"
+          },
+          {
+            "name": "Angela Parker",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Loraine Davies Hennessy",
+            "party": "Democratic"
+          },
+          {
+            "name": "Latisha Shorter",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Troy Berry",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Anthony \"Tony\" Covington",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "Dorchester County": [
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amy J. Craig",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Terry Dayton Wheatley",
+            "party": "Democratic"
+          },
+          {
+            "name": "Walter \"Dan\" Kurth",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Christine LaMonica",
+            "party": "Democratic"
+          },
+          {
+            "name": "Mark K. Lewis",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kenneth E. Thalheimer",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Frederick County": [
+      {
+        "office": "Board of Education",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Casey Day",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Heather Fletcher",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Rae Gallagher",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Shelley L. Potter",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Dean Rose",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Geoffrey Seidel",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Tyler Walker",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Chad King Wilson, Sr.",
+            "party": "Non-Partisan"
+          }
+        ]
+      },
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Megan LeRoux",
+            "party": "Democratic"
+          },
+          {
+            "name": "Sandra K. Dalton",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "County Council At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tiffany Grant",
+            "party": "Democratic"
+          },
+          {
+            "name": "Renee Knapp",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jack Felton",
+            "party": "Republican"
+          },
+          {
+            "name": "Diane Fouche",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "County Executive",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jessica Fitzwater",
+            "party": "Democratic"
+          },
+          {
+            "name": "William J. Holtzinger",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shuan Butcher",
+            "party": "Democratic"
+          },
+          {
+            "name": "Lois Jarman",
+            "party": "Democratic"
+          },
+          {
+            "name": "Susan Reeder Jessee",
+            "party": "Democratic"
+          },
+          {
+            "name": "Rebecca Chmelik",
+            "party": "Republican"
+          },
+          {
+            "name": "Karen Dacey",
+            "party": "Republican"
+          },
+          {
+            "name": "Susan W. Wilson",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Chris Manners",
+            "party": "Democratic"
+          },
+          {
+            "name": "Mary C. Rolle",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Karl Bickel",
+            "party": "Democratic"
+          },
+          {
+            "name": "Chuck Jenkins",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Charlie Smith",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Garrett County": [
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bill Bittinger",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michael Beard",
+            "party": "Republican"
+          },
+          {
+            "name": "Jeffrey D. Murphy",
+            "party": "Republican"
+          },
+          {
+            "name": "John Ross Sines",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rita L. Watson",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bryson Meyers",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Christian Mash",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Harford County": [
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Matthew J. Brown",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michelle L. Karczeski",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "County Executive",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Barbara Osborn Kreamer",
+            "party": "Democratic"
+          },
+          {
+            "name": "Bob Cassilly",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "President of the County Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mike Ciufo",
+            "party": "Democratic"
+          },
+          {
+            "name": "Billy Boniface",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jo Wanda Strickland-Lucas",
+            "party": "Democratic"
+          },
+          {
+            "name": "Derek K. Hopkins",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Terrence Rogers",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jeffrey R. Gahler",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Alison M. Healey",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Howard County": [
+      {
+        "office": "Board of Education",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mark E. Covington",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Linda Frascarella",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Lanlan Xu",
+            "party": "Non-Partisan"
+          }
+        ]
+      },
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jen Terrasa",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "County Executive",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Vanessa Atterbeary",
+            "party": "Democratic"
+          },
+          {
+            "name": "Nater Kane",
+            "party": "Green"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Byron E. Macfarlane",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Marcus Harris",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rich Gibson",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "Kent County": [
+      {
+        "office": "Board of Education",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Cameron Brooks",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Zeke Falcon",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Trish McGee",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Frank B. Rhodes",
+            "party": "Non-Partisan"
+          }
+        ]
+      },
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sherise L. Kennard",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Thad L. Bench",
+            "party": "Democratic"
+          },
+          {
+            "name": "John T. Carroll",
+            "party": "Democratic"
+          },
+          {
+            "name": "Sam Shoge",
+            "party": "Democratic"
+          },
+          {
+            "name": "Ron Fithian",
+            "party": "Republican"
+          },
+          {
+            "name": "Albert Nickerson",
+            "party": "Republican"
+          },
+          {
+            "name": "John F. Price",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Elroy G. Boyer, Jr.",
+            "party": "Democratic"
+          },
+          {
+            "name": "Allan W. Schauber",
+            "party": "Democratic"
+          },
+          {
+            "name": "Joseph L. Holt",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kristi Osborn",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dennis W. Hickman, Jr.",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bryan DiGregory",
+            "party": "Democratic"
+          },
+          {
+            "name": "Matt Crouch",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Montgomery County": [
+      {
+        "office": "Board of Education At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brenda M. Diaz",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Omar Lazo",
+            "party": "Non-Partisan"
+          }
+        ]
+      },
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Karen Bushell",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "County Council At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Marc Elrich",
+            "party": "Democratic"
+          },
+          {
+            "name": "Scott Evan Goldberg",
+            "party": "Democratic"
+          },
+          {
+            "name": "Laurie-Anne Sayles",
+            "party": "Democratic"
+          },
+          {
+            "name": "Karla Silvestre",
+            "party": "Democratic"
+          },
+          {
+            "name": "Sherwin Wells",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "County Executive",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Will Jawando",
+            "party": "Democratic"
+          },
+          {
+            "name": "Esther Wells",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Barbara Ebel",
+            "party": "Democratic"
+          },
+          {
+            "name": "T. Dolores Reyes",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Will Milam",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John McCarthy",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "Prince George's County": [
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Qiana Johnson",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "County Council At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sydney Harrison",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jolene Ivey",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "County Executive",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Aisha Braveboy",
+            "party": "Democratic"
+          },
+          {
+            "name": "Moisette Tonya Sweat",
+            "party": "Unaffiliated"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Wendy Alise Cartwright",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jason A. DeLoach",
+            "party": "Democratic"
+          },
+          {
+            "name": "Athena Malloy Groves",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jocelyn Route",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John D. B. Carr",
+            "party": "Democratic"
+          },
+          {
+            "name": "Dave Grogan",
+            "party": "Unaffiliated"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tara Jackson",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "Queen Anne's County": [
+      {
+        "office": "Board of Education At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Linda Kohler",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Mark Wade, Jr.",
+            "party": "Non-Partisan"
+          }
+        ]
+      },
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Katherine Beane Hager",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner At Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Liz Filter",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jim Moran",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Don McKeough",
+            "party": "Democratic"
+          },
+          {
+            "name": "Barry A. Schwartz",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jeff H. Starling",
+            "party": "Democratic"
+          },
+          {
+            "name": "Kimberly Jean Cascia",
+            "party": "Republican"
+          },
+          {
+            "name": "John T. McQueeney, Jr.",
+            "party": "Republican"
+          },
+          {
+            "name": "Laurie J. Plemons",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Laura Nan Cook",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gary Hofmann",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lance G. Richardson",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "St. Mary's County": [
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Debbie Mills Burch",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner President",
+        "key": null,
+        "candidates": [
+          {
+            "name": "AnnMarie Abell",
+            "party": "Democratic"
+          },
+          {
+            "name": "Roy H. Alvey",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Curtis J. King",
+            "party": "Democratic"
+          },
+          {
+            "name": "Albert \"Allie\" Babcock",
+            "party": "Republican"
+          },
+          {
+            "name": "Bill Mattingly",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael R. White",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Phyllis A. Superior",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Carl Sturgis",
+            "party": "Democratic"
+          },
+          {
+            "name": "Steve A. Hall",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jaymi Sterling",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Christy Kelly",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Somerset County": [
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Charles T. Horner, Sr.",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kathleen L. Crossan",
+            "party": "Republican"
+          },
+          {
+            "name": "Libby Hall",
+            "party": "Republican"
+          },
+          {
+            "name": "Stephen Willing",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Keith B. Ward",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ronald Howard",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Wess Garner",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Talbot County": [
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kathi Dulin Duvall",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "County Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michael Bibb",
+            "party": "Democratic"
+          },
+          {
+            "name": "Susan E. Delean-Botkin",
+            "party": "Democratic"
+          },
+          {
+            "name": "Marvin Foster",
+            "party": "Democratic"
+          },
+          {
+            "name": "Pete Lesher",
+            "party": "Democratic"
+          },
+          {
+            "name": "Brian R. Naranjo",
+            "party": "Democratic"
+          },
+          {
+            "name": "Chuck F. Callahan, III",
+            "party": "Republican"
+          },
+          {
+            "name": "Frank Gunsallus",
+            "party": "Republican"
+          },
+          {
+            "name": "Christian MacKendrick",
+            "party": "Republican"
+          },
+          {
+            "name": "Dave Stepp",
+            "party": "Republican"
+          },
+          {
+            "name": "Wade Strickland",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Philip Carey Foster",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michelle Ewing",
+            "party": "Republican"
+          },
+          {
+            "name": "Elizabeth A. Ferguson",
+            "party": "Republican"
+          },
+          {
+            "name": "Carol van Erven",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Patricia \"Patti\" E. Campen",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joe Gamble",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joseph Coale",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Washington County": [
+      {
+        "office": "Board of Education",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Pieter Bickford",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Darrell E. Evans",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Mike Guessford",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Robin A. Merchant-Spickler",
+            "party": "Non-Partisan"
+          },
+          {
+            "name": "Linda Murray",
+            "party": "Non-Partisan"
+          }
+        ]
+      },
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kevin R. Tucker",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "County Commissioner",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jonathan Fish",
+            "party": "Democratic"
+          },
+          {
+            "name": "Les McIntosh, Sr.",
+            "party": "Democratic"
+          },
+          {
+            "name": "Teri Pailen",
+            "party": "Democratic"
+          },
+          {
+            "name": "Lara A. Shepherd",
+            "party": "Democratic"
+          },
+          {
+            "name": "Dave Williams",
+            "party": "Democratic"
+          },
+          {
+            "name": "John F. Barr",
+            "party": "Republican"
+          },
+          {
+            "name": "Charles Burkett",
+            "party": "Republican"
+          },
+          {
+            "name": "Jeffrey A. Cline",
+            "party": "Republican"
+          },
+          {
+            "name": "Randy Leatherman",
+            "party": "Republican"
+          },
+          {
+            "name": "Dan Young",
+            "party": "Republican"
+          },
+          {
+            "name": "Taj Smith",
+            "party": "Unaffiliated"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mark P. Brugh",
+            "party": "Democratic"
+          },
+          {
+            "name": "Melinda S. Malott",
+            "party": "Democratic"
+          },
+          {
+            "name": "Shawn Perry",
+            "party": "Democratic"
+          },
+          {
+            "name": "Paul D. Banister",
+            "party": "Republican"
+          },
+          {
+            "name": "Debra Breeding",
+            "party": "Republican"
+          },
+          {
+            "name": "Jim Nipps",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lacy M. Flook",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Junior P. McLeod",
+            "party": "Democratic"
+          },
+          {
+            "name": "Brian K. Albert",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gina M. Cirincion",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "John McElroy",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Wicomico County": [
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "James \"Bo\" McAllister",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "County Executive",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ernest Davis",
+            "party": "Democratic"
+          },
+          {
+            "name": "Julie M. Giordano",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Melissa Pollitt Bright",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michael A. Hammond, Sr.",
+            "party": "Democratic"
+          },
+          {
+            "name": "Demetria Marshall",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jim Jester",
+            "party": "Republican"
+          },
+          {
+            "name": "John Sharpe",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Karen A. Lemon",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lana Foley",
+            "party": "Democratic"
+          },
+          {
+            "name": "Mike Lewis",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jamie Dykes",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Worcester County": [
+      {
+        "office": "Clerk of the Circuit Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Susan Richardson Braniecki",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Judge of the Orphans' Court",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Martin A. Radinsky",
+            "party": "Democratic"
+          },
+          {
+            "name": "Mary F. Burgess",
+            "party": "Republican"
+          },
+          {
+            "name": "Cheryl K. Jacobs",
+            "party": "Republican"
+          },
+          {
+            "name": "John Simms, III",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Terri Delaney Westcott",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Matt Crisafulli",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "State's Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kris Heiser",
+            "party": "Republican"
+          }
+        ]
+      }
+    ]
+  },
+  "countyRead": {
+    "Allegany County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Allegany County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Anne Arundel County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Anne Arundel County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Baltimore County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Baltimore County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Baltimore city": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Baltimore city.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Calvert County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Calvert County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Caroline County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Caroline County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Carroll County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Carroll County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Cecil County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Cecil County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Charles County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Charles County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Dorchester County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Dorchester County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Frederick County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Frederick County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Garrett County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Garrett County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Harford County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Harford County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Howard County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Howard County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Kent County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Kent County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Montgomery County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Montgomery County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Prince George's County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Prince George's County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Queen Anne's County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Queen Anne's County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Somerset County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Somerset County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "St. Mary's County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for St. Mary's County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Talbot County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Talbot County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Washington County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Washington County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Wicomico County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Wicomico County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    },
+    "Worcester County": {
+      "label": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "href": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html",
+      "intro": "The Maryland State Board of Elections 2026 gubernatorial general election local candidate list, last updated 10/16/2026, names these offices for Worcester County.",
+      "note": "Only rows whose Candidate Status column prints Active are copied. Address, phone, email, and gender columns are not copied. The list's district column names other contests and does not identify which places are in each district, so those contests are not copied."
+    }
+  },
+  "extraSources": [
+    {
+      "name": "Maryland State Board of Elections, 2026 gubernatorial general election local candidate list",
+      "url": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_all_counties_candidatelist.html"
+    }
+  ]
+}

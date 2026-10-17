@@ -1,0 +1,147 @@
+{
+  "statewide": [],
+  "upper": {},
+  "lower": {},
+  "local": {},
+  "annotations": {},
+  "date": {
+    "quote": "11/03/2026",
+    "text": "The Delaware Department of Elections candidate-list index prints 11/03/2026 Statewide General."
+  },
+  "localByCounty": {
+    "New Castle County": [
+      {
+        "office": "New Castle County Recorder of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "David Tackett",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "New Castle County Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ciro Poppiti",
+            "party": "Democratic"
+          }
+        ]
+      },
+      {
+        "office": "New Castle County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Scott Phillips",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "Kent County": [
+      {
+        "office": "Kent County Recorder of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ramona Bracy",
+            "party": "Democratic"
+          },
+          {
+            "name": "Eugenia Thornton",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Kent County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Norman R. Barlow",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Kent County Levy Court At-Large",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Terry L. Pepper",
+            "party": "Democratic"
+          },
+          {
+            "name": "Frank E Coleman",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Sussex County": [
+      {
+        "office": "Sussex County Recorder of Deeds",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Alexandra Reed Baker",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sussex County Register of Wills",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Greg Fuller",
+            "party": "Republican"
+          }
+        ]
+      },
+      {
+        "office": "Sussex County Sheriff",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Robert T. Lee",
+            "party": "Republican"
+          }
+        ]
+      }
+    ]
+  },
+  "countyRead": {
+    "Kent County": {
+      "label": "Delaware Department of Elections, filed candidates for the 11/03/2026 statewide general election",
+      "href": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html",
+      "intro": "The Delaware Department of Elections filed-candidate list for the 11/03/2026 statewide general election, last updated 2026-10-15 07:56 PM, names these offices for Kent County.",
+      "note": "Only rows whose Status column prints Qualified are copied. The list also names county council districts and levy court districts, which are not copied. The candidate-list index says filed candidates appear on the General Election list unless and until a Primary Election is created by a subsequent candidate from the same political party filing for the same office."
+    },
+    "New Castle County": {
+      "label": "Delaware Department of Elections, filed candidates for the 11/03/2026 statewide general election",
+      "href": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html",
+      "intro": "The Delaware Department of Elections filed-candidate list for the 11/03/2026 statewide general election, last updated 2026-10-15 07:56 PM, names these offices for New Castle County.",
+      "note": "Only rows whose Status column prints Qualified are copied. The list also names county council districts and levy court districts, which are not copied. The candidate-list index says filed candidates appear on the General Election list unless and until a Primary Election is created by a subsequent candidate from the same political party filing for the same office."
+    },
+    "Sussex County": {
+      "label": "Delaware Department of Elections, filed candidates for the 11/03/2026 statewide general election",
+      "href": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html",
+      "intro": "The Delaware Department of Elections filed-candidate list for the 11/03/2026 statewide general election, last updated 2026-10-15 07:56 PM, names these offices for Sussex County.",
+      "note": "Only rows whose Status column prints Qualified are copied. The list also names county council districts and levy court districts, which are not copied. The candidate-list index says filed candidates appear on the General Election list unless and until a Primary Election is created by a subsequent candidate from the same political party filing for the same office."
+    }
+  },
+  "extraSources": [
+    {
+      "name": "Delaware Department of Elections, filed candidates for the 11/03/2026 statewide general election",
+      "url": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html"
+    },
+    {
+      "name": "Delaware Department of Elections, candidate lists",
+      "url": "https://elections.delaware.gov/candidates/candidatelist/index.html"
+    }
+  ]
+}
