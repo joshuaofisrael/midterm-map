@@ -1330,7 +1330,7 @@ export const STARTER_STATES: StateProfile[] = [
       "That page lists State Board of Education seats 1, 3, 5, 7, and 9.",
       "That page lists 1 Kansas Supreme Court justice, 6 Kansas Court of Appeals judges, district court judges (45 retained, 29 elected), and district magistrate judges (15 retained, 5 elected). Each of those judicial lines is marked on the page as of July 1, 2025.",
       "The proposed-constitutional-amendments page says one constitutional amendment will be voted on at the November 3, 2026 general election. That page’s explanatory statement says the amendment would clarify that only a citizen of the United States is eligible to vote in the state. The question text is on that page.",
-      "The candidate-list page says the table is updated automatically as each candidate files a valid petition or declaration of intention. This hub lists offices from the candidate-information page and does not list candidate names.",
+      "The candidate-list page says the table is updated automatically as each candidate files a valid petition or declaration of intention. The 2026 General selection of that list, read October 17, 2026, is the source for the U.S. Senate and governor names on the race guides. Other offices on that table are not named here.",
     ],
   },
 ];

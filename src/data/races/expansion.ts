@@ -40,6 +40,11 @@ const AK_LIST = "https://www.elections.alaska.gov/candidates/?election=26genr";
 const AK_RESULTS = "https://www.elections.alaska.gov/election-results/";
 const AK_INFO = "https://www.elections.alaska.gov/election-information/";
 
+const KS_ACCESSED = "October 17, 2026";
+const KS_LIST = "https://sos.ks.gov/elections/elections_upcoming_candidate.aspx";
+const KS_OFFICES = "https://sos.ks.gov/elections/candidate-information.html";
+const KS_RESULTS = "https://sos.ks.gov/elections/election-results.html";
+
 const mnFile = cite(
   "Minnesota Secretary of State, candidate file for the November 3, 2026 election (cand.txt)",
   MN_CANDIDATE_FILE,
@@ -108,6 +113,26 @@ const akInfo = cite(
   "Alaska Division of Elections, election information, including ranked-choice voting",
   AK_INFO,
   ACCESSED,
+);
+const ksList = cite(
+  "Kansas Secretary of State, candidate list, 2026 General selection (national and state offices)",
+  KS_LIST,
+  KS_ACCESSED,
+);
+const ksOffices = cite(
+  "Kansas Secretary of State, offices to be elected or retained in 2026",
+  KS_OFFICES,
+  KS_ACCESSED,
+);
+const ksResults = cite(
+  "Kansas Secretary of State, election results",
+  KS_RESULTS,
+  KS_ACCESSED,
+);
+const ksClassIi = cite(
+  "U.S. Senate, Class II — terms expiring in 2027",
+  CLASS_II,
+  KS_ACCESSED,
 );
 
 const candidatesIntro =
@@ -471,6 +496,71 @@ export const EXPANSION_SENATE_RACES: RaceGuide[] = [
       { label: "Alaska Division of Elections — election information", href: AK_INFO },
     ),
   },
+  {
+    slug: "ks-senate-2026",
+    state: "KS",
+    chamber: "senate",
+    office: "U.S. Senate",
+    title: "Kansas U.S. Senate — 2026 (Class 2)",
+    shortTitle: "KS Senate",
+    featured: false,
+    incumbentNote:
+      "The U.S. Senate Class II page lists Marshall, Roger (R-KS), as a senator whose term expires in 2027. The Secretary of State 2026 General candidate list names Roger Marshall for United States Senate.",
+    overview:
+      "Kansas’s Class 2 U.S. Senate seat is on the November 3, 2026 ballot. The Secretary of State candidate list, 2026 General selection, names Adam Hamilton, Roger Marshall, and David C Graham for United States Senate. This page does not show vote totals and does not call the race.",
+    officeExplainer: senateOfficeExplainer,
+    whyItMatters:
+      "The Secretary of State’s candidate-information page lists 1 U.S. Senator among the offices to be elected or retained in 2026. The Class II page places this seat among terms that expire in 2027. Kansas election authorities certify the contest. This site does not.",
+    howToRead:
+      "Names, parties, and order follow the 2026 General table on the Secretary of State candidate-list page. That page says the table is updated automatically as each candidate files a valid petition or declaration of intention. This page does not reprint addresses, phone numbers, email addresses, or cities from the table. The table order is not a ranking.",
+    candidates: [
+      listed({
+        name: "Adam Hamilton",
+        party: "DEM",
+        partyLabel: "Democratic",
+        bio: "The 2026 General candidate list names Adam Hamilton for United States Senate with the party Democratic.",
+        links: [{ label: "Candidate list, 2026 General", href: KS_LIST }],
+        sources: [ksList],
+      }),
+      listed({
+        name: "Roger Marshall",
+        party: "REP",
+        partyLabel: "Republican",
+        incumbent: true,
+        bio: "The 2026 General candidate list names Roger Marshall for United States Senate with the party Republican. The Class II page lists Marshall, Roger (R-KS).",
+        links: [{ label: "Candidate list, 2026 General", href: KS_LIST }],
+        sources: [ksList, ksClassIi],
+      }),
+      listed({
+        name: "David C Graham",
+        party: "LIB",
+        partyLabel: "Libertarian",
+        bio: "The 2026 General candidate list names David C Graham for United States Senate with the party Libertarian.",
+        links: [{ label: "Candidate list, 2026 General", href: KS_LIST }],
+        sources: [ksList],
+      }),
+    ],
+    ratings: [],
+    sources: [ksList, ksOffices, ksClassIi, ksResults],
+    aggregatorLinks: [
+      { label: "Candidate list, 2026 General", href: KS_LIST },
+      { label: "Offices to be elected or retained in 2026", href: KS_OFFICES },
+      { label: "Election results", href: KS_RESULTS },
+    ],
+    relatedPollSlugs: [],
+    ballotSections: ["federal"],
+    ballotNomineeNote:
+      "Names on the KS Senate race guide are the United States Senate rows on the Secretary of State candidate list, 2026 General selection, read October 17, 2026. That list is not a vote total.",
+    faqs: [
+      ...standardFaqs("this Senate race", "the Kansas Secretary of State"),
+      noCallFaq,
+    ],
+    ...shellFields(
+      { label: "Kansas Secretary of State — election results", href: KS_RESULTS },
+      "The Secretary of State election-results page is the official results page. This page does not call the race. Returns, when shown anywhere later, stay unofficial until Kansas election authorities certify the contest.",
+      { label: "Kansas Secretary of State — election results", href: KS_RESULTS },
+    ),
+  },
 ];
 
 export const EXPANSION_GOVERNOR_RACES: RaceGuide[] = [
@@ -765,6 +855,60 @@ export const EXPANSION_GOVERNOR_RACES: RaceGuide[] = [
       { label: "Alaska Division of Elections — election results", href: AK_RESULTS },
       "The Division of Elections says general elections for Governor/Lieutenant Governor are conducted by ranked-choice voting. It says results are unofficial until the State Review Board certifies the election. Ranked-choice tabulation reports are posted on the Division’s election-results page. This page does not call the race.",
       { label: "Alaska Division of Elections — election information", href: AK_INFO },
+    ),
+  },
+  {
+    slug: "ks-governor-2026",
+    state: "KS",
+    chamber: "governor",
+    office: "Governor",
+    title: "Kansas Governor — 2026",
+    shortTitle: "KS Governor",
+    featured: false,
+    overview:
+      "Kansas elects a governor and lieutenant governor on November 3, 2026. The Secretary of State candidate list, 2026 General selection, names two Governor / Lt. Governor rows. This page does not show vote totals and does not call the race.",
+    officeExplainer: `${governorOfficeExplainer} The candidate list prints each Governor / Lt. Governor row as one ticket.`,
+    whyItMatters:
+      "The Secretary of State’s candidate-information page lists Governor/Lt. Governor among the offices to be elected or retained in 2026. Kansas election authorities certify the contest. This site does not.",
+    howToRead:
+      "Each name is the Candidate column for a Governor / Lt. Governor row, in that table’s order. The list prints Cindy Holscher / KC Ohaebosim, Democratic, and Ty Masterson / Jeffrey Klemp, Republican. This page does not reprint addresses, phone numbers, email addresses, or cities from the table. The table order is not a ranking. The candidate-list page says the table is updated automatically as each candidate files a valid petition or declaration of intention.",
+    candidates: [
+      listed({
+        name: "Cindy Holscher / KC Ohaebosim",
+        party: "DEM",
+        partyLabel: "Democratic",
+        bio: "The 2026 General candidate list names Cindy Holscher / KC Ohaebosim for Governor / Lt. Governor with the party Democratic.",
+        links: [{ label: "Candidate list, 2026 General", href: KS_LIST }],
+        sources: [ksList],
+      }),
+      listed({
+        name: "Ty Masterson / Jeffrey Klemp",
+        party: "REP",
+        partyLabel: "Republican",
+        bio: "The 2026 General candidate list names Ty Masterson / Jeffrey Klemp for Governor / Lt. Governor with the party Republican.",
+        links: [{ label: "Candidate list, 2026 General", href: KS_LIST }],
+        sources: [ksList],
+      }),
+    ],
+    ratings: [],
+    sources: [ksList, ksOffices, ksResults],
+    aggregatorLinks: [
+      { label: "Candidate list, 2026 General", href: KS_LIST },
+      { label: "Offices to be elected or retained in 2026", href: KS_OFFICES },
+      { label: "Election results", href: KS_RESULTS },
+    ],
+    relatedPollSlugs: [],
+    ballotSections: ["statewide"],
+    ballotNomineeNote:
+      "Names on the KS Governor race guide are the Governor / Lt. Governor rows on the Secretary of State candidate list, 2026 General selection, read October 17, 2026. That list prints each ticket as one row. The list is not a vote total.",
+    faqs: [
+      ...standardFaqs("this governor’s race", "the Kansas Secretary of State"),
+      noCallFaq,
+    ],
+    ...shellFields(
+      { label: "Kansas Secretary of State — election results", href: KS_RESULTS },
+      "The Secretary of State election-results page is the official results page. This page does not call the race. Returns, when shown anywhere later, stay unofficial until Kansas election authorities certify the contest.",
+      { label: "Kansas Secretary of State — election results", href: KS_RESULTS },
     ),
   },
 ];

@@ -67,6 +67,23 @@ const ALASKA_HUB_UPDATED = "2026-10-14";
 const ALASKA_HUB_PATHS = new Set(["", "/voting-deadlines", "/ballot", "/states/AK", "/ballot/AK"]);
 
 /**
+ * October 17, 2026. Kansas statewide Senate and governor results pages,
+ * their race guides, and the indexes that list them.
+ */
+const KANSAS_RESULTS_UPDATED = "2026-10-17";
+const KANSAS_RESULTS_PATHS = new Set([
+  "/results",
+  "/races",
+  "/polls",
+  "/states/KS",
+  "/ballot/KS",
+  "/races/ks-senate-2026",
+  "/results/ks-senate-2026",
+  "/races/ks-governor-2026",
+  "/results/ks-governor-2026",
+]);
+
+/**
  * October 15, 2026. Results pages and race guides for the statewide Senate
  * and governor contests in Minnesota, Maine, Iowa, and Alaska, plus the
  * hubs and indexes that link them.
@@ -131,6 +148,7 @@ const LEGAL_BRAND_PATHS = new Set(["/about", "/disclaimer", "/privacy", "/terms"
 function lastModifiedFor(path: string): string {
   const contentDate = contentUpdatedIsoForPath(path);
   if (contentDate) return contentDate;
+  if (KANSAS_RESULTS_PATHS.has(path)) return KANSAS_RESULTS_UPDATED;
   if (KANSAS_HUB_PATHS.has(path)) return KANSAS_HUB_UPDATED;
   if (RESULTS_EXPANSION_PATHS.has(path)) return RESULTS_EXPANSION_UPDATED;
   if (ALASKA_HUB_PATHS.has(path)) return ALASKA_HUB_UPDATED;

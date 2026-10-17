@@ -38,7 +38,7 @@
 - [North Carolina U.S. Senate 2026](https://mapthemidterms.com/races/nc-senate-2026/): Open seat; Roy Cooper (D) vs. Michael Whatley (R), with sourced candidate details.
 - [Texas U.S. Senate 2026](https://mapthemidterms.com/races/tx-senate-2026/): Ken Paxton (R) vs. James Talarico (D), with sourced candidate details.
 
-## Statewide results pages (Minnesota, Maine, Iowa, Alaska)
+## Statewide results pages (Minnesota, Maine, Iowa, Alaska, Kansas)
 
 Awaiting unofficial returns until November 3, 2026. Candidate names are from each state's official general-election candidate list. These pages do not call races.
 
@@ -50,6 +50,8 @@ Awaiting unofficial returns until November 3, 2026. Candidate names are from eac
 - [Iowa Governor 2026 results](https://mapthemidterms.com/results/ia-governor-2026/): Governor and lieutenant governor names from the Secretary of State general-election candidate list. [Race guide](https://mapthemidterms.com/races/ia-governor-2026/).
 - [Alaska U.S. Senate 2026 results](https://mapthemidterms.com/results/ak-senate-2026/): Class 2 seat. Ranked-choice voting, per the Division of Elections. [Race guide](https://mapthemidterms.com/races/ak-senate-2026/).
 - [Alaska Governor 2026 results](https://mapthemidterms.com/results/ak-governor-2026/): Governor and lieutenant governor. Ranked-choice voting, per the Division of Elections. [Race guide](https://mapthemidterms.com/races/ak-governor-2026/).
+- [Kansas U.S. Senate 2026 results](https://mapthemidterms.com/results/ks-senate-2026/): Class 2 seat. Names from the Secretary of State candidate list, 2026 General selection. [Race guide](https://mapthemidterms.com/races/ks-senate-2026/).
+- [Kansas Governor 2026 results](https://mapthemidterms.com/results/ks-governor-2026/): Governor and lieutenant governor rows from the Secretary of State candidate list, 2026 General selection. [Race guide](https://mapthemidterms.com/races/ks-governor-2026/).
 
 ## About and policies
 

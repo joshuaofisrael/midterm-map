@@ -56,7 +56,7 @@ export function racesHubFaqs(): RacesFaq[] {
     {
       question: "Where do candidate names come from, and how current are they?",
       answer:
-        "Candidate names and short bios are compiled from the sources cited on each guide. Guides name a 2026 candidate only when an election-office candidate list, certified ballot, certified results page, or the Clerk of the House nominee list includes that name. Those pages were checked October 15 or October 16, 2026. A page on this site is not a certification and not a call of the race. Other lines, when an election office lists them, are on the official ballot. Final names are published by the state election office linked from the state hub or the sample-ballot page. Vote.gov publishes state registration information.",
+        "Candidate names and short bios are compiled from the sources cited on each guide. Guides name a 2026 candidate only when an election-office candidate list, certified ballot, certified results page, or the Clerk of the House nominee list includes that name. Those pages were checked October 15, October 16, or October 17, 2026. A page on this site is not a certification and not a call of the race. Other lines, when an election office lists them, are on the official ballot. Final names are published by the state election office linked from the state hub or the sample-ballot page. Vote.gov publishes state registration information.",
     },
     {
       question: "Where do race guides link?",
