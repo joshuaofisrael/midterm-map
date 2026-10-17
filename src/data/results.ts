@@ -50,7 +50,7 @@ export const KEY_RESULT_SLUGS = [
 
 /**
  * Statewide 2026 Senate and governor contests added for Minnesota, Maine,
- * Iowa, and Alaska. Separate from KEY_RESULT_SLUGS so that list stays as it was.
+ * Iowa, Alaska, and Kansas. Separate from KEY_RESULT_SLUGS so that list stays as it was.
  */
 export const ADDITIONAL_RESULT_SLUGS = [
   "mn-senate-2026",
@@ -61,6 +61,8 @@ export const ADDITIONAL_RESULT_SLUGS = [
   "ia-governor-2026",
   "ak-senate-2026",
   "ak-governor-2026",
+  "ks-senate-2026",
+  "ks-governor-2026",
 ] as const;
 
 export function resultShellForRace(slug: string): RaceResultShell {

@@ -116,7 +116,7 @@ export default function ResultsPage() {
 
       <section>
         <h2 className="font-serif text-2xl font-semibold">
-          Minnesota, Maine, Iowa, and Alaska
+          Minnesota, Maine, Iowa, Alaska, and Kansas
         </h2>
         <p className="mt-2 text-sm text-ink-muted">
           Statewide U.S. Senate and governor contests on the November 3, 2026 ballot in these
