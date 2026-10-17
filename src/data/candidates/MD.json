@@ -1,0 +1,180 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "Maryland State Board of Elections, 2026 gubernatorial general election candidate lists (statewide CSV last updated 10/16/2026 06:00 PM on the statewide page)",
+      "url": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_statewide_candidatelist.html",
+      "accessed": "October 17, 2026",
+      "published": "October 16, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "Governor / Lt. Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Wes Moore / Aruna Miller",
+          "party": "Democratic"
+        },
+        {
+          "name": "Dan Cox / Rob Krop",
+          "party": "Republican"
+        },
+        {
+          "name": "Andy Ellis / Owen Silverman Andrews",
+          "party": "Green"
+        },
+        {
+          "name": "Cathy White / Cathy Permut",
+          "party": "Working Class Party"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress Congressional District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Dan Schwartz",
+          "party": "Democratic"
+        },
+        {
+          "name": "Andy Harris",
+          "party": "Republican"
+        },
+        {
+          "name": "Edward Shlikas",
+          "party": "Unaffiliated"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress Congressional District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "John \"Johnny O\" Olszewski, Jr.",
+          "party": "Democratic"
+        },
+        {
+          "name": "Dave Wallace",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress Congressional District 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Sarah Elfreth",
+          "party": "Democratic"
+        },
+        {
+          "name": "Berney Flowers",
+          "party": "Republican"
+        },
+        {
+          "name": "Robert L. Coffman",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress Congressional District 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Glenn F. Ivey",
+          "party": "Democratic"
+        },
+        {
+          "name": "George E. McDermott",
+          "party": "Republican"
+        },
+        {
+          "name": "Sam Husseini",
+          "party": "Green"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress Congressional District 5",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Adrian Boafo",
+          "party": "Democratic"
+        },
+        {
+          "name": "Chris Chaffee",
+          "party": "Republican"
+        },
+        {
+          "name": "Mildred Marie Hall",
+          "party": "Other Candidates"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress Congressional District 6",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "April McClain Delaney",
+          "party": "Democratic"
+        },
+        {
+          "name": "Robin Ficker",
+          "party": "Republican"
+        },
+        {
+          "name": "Moshe Y. Landman",
+          "party": "Green"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress Congressional District 7",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Kweisi Mfume",
+          "party": "Democratic"
+        },
+        {
+          "name": "Scott M. Collier",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress Congressional District 8",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "Jamie Raskin",
+          "party": "Democratic"
+        },
+        {
+          "name": "Cheryl Riley",
+          "party": "Republican"
+        },
+        {
+          "name": "Nancy Wallace",
+          "party": "Green"
+        }
+      ]
+    }
+  ]
+}

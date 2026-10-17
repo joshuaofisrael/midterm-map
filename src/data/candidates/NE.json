@@ -1,0 +1,132 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "Nebraska Secretary of State, final statewide general candidate list, November 3, 2026 general election",
+      "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf",
+      "accessed": "October 17, 2026",
+      "published": "September 11, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "For United States Senator",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Pete Ricketts",
+          "party": "Republican"
+        },
+        {
+          "name": "Mike Marvin",
+          "party": "Legal Marijuana NOW"
+        },
+        {
+          "name": "Robin Richards",
+          "party": "Nebraska Working People"
+        },
+        {
+          "name": "Chuck Conboy",
+          "party": "America First"
+        },
+        {
+          "name": "Dan Osborn",
+          "party": "By Petition"
+        }
+      ]
+    },
+    {
+      "office": "For Representative in Congress District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Mike Flood",
+          "party": "Republican"
+        },
+        {
+          "name": "Chris Backemeyer",
+          "party": "Democratic"
+        },
+        {
+          "name": "Nik Sandman",
+          "party": "Libertarian"
+        },
+        {
+          "name": "Dan Hartong",
+          "party": "America First"
+        }
+      ]
+    },
+    {
+      "office": "For Representative in Congress District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Brinker Harding",
+          "party": "Republican"
+        },
+        {
+          "name": "Denise Powell",
+          "party": "Democratic"
+        },
+        {
+          "name": "Eric Michael Foreman",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "For Representative in Congress District 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Adrian Smith",
+          "party": "Republican"
+        },
+        {
+          "name": "Becky Kelly Stille",
+          "party": "Democratic"
+        },
+        {
+          "name": "David J. Else",
+          "party": "Legal Marijuana NOW"
+        },
+        {
+          "name": "Macey Budke",
+          "party": "Nebraska Working People"
+        },
+        {
+          "name": "Mark Cohen",
+          "party": "By Petition"
+        }
+      ]
+    },
+    {
+      "office": "For Governor and Lt. Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Jim Pillen and Joe Kelly",
+          "party": "Republican"
+        },
+        {
+          "name": "Lynne Walz and Ben Steffen",
+          "party": "Democratic"
+        },
+        {
+          "name": "Rick Beard and Keenya Barnes",
+          "party": "Legal Marijuana NOW"
+        },
+        {
+          "name": "Brett Lindstrom and Michael Picard",
+          "party": "America First"
+        }
+      ]
+    }
+  ]
+}

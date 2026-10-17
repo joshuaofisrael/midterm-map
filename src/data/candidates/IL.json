@@ -1,0 +1,313 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+      "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+      "accessed": "October 17, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "UNITED STATES SENATOR",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Juliana Stratton",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Don Tracy",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "Whitfield Harrington Jr",
+          "party": "AMERICAN CENTER PARTY"
+        }
+      ]
+    },
+    {
+      "office": "GOVERNOR AND LIEUTENANT GOVERNOR",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "JB Pritzker / Christian Mitchell",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Darren Bailey / Aaron B. Del Mar",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "Collin Corbett / Carolyn Schofield",
+          "party": "INDEPENDENT"
+        }
+      ]
+    },
+    {
+      "office": "1ST CONGRESS",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Jonathan L. Jackson",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Christian Maxwell",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "2ND CONGRESS",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Donna Miller",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Michael Scott Noack",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "3RD CONGRESS",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Delia Ramirez",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Angel Oakley",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "4TH CONGRESS",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Patty Garcia",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Lupe Castillo",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "Ed Hershey",
+          "party": "WORKING CLASS PARTY"
+        },
+        {
+          "name": "Chris Getty",
+          "party": "INDEPENDENT"
+        }
+      ]
+    },
+    {
+      "office": "5TH CONGRESS",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Mike Quigley",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Tommy Hanson",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "6TH CONGRESS",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Sean Casten",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Niki Conforti",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "7TH CONGRESS",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "La Shawn K. Ford",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Chad Koppie",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "8TH CONGRESS",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "Melissa L. Bean",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Jennifer Davis",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "9TH CONGRESS",
+      "kind": "house",
+      "district": "9",
+      "candidates": [
+        {
+          "name": "Daniel Biss",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "John Elleson",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "10TH CONGRESS",
+      "kind": "house",
+      "district": "10",
+      "candidates": [
+        {
+          "name": "Brad Schneider",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Carl Lambrecht",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "11TH CONGRESS",
+      "kind": "house",
+      "district": "11",
+      "candidates": [
+        {
+          "name": "Bill Foster",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Jeff Walter",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "12TH CONGRESS",
+      "kind": "house",
+      "district": "12",
+      "candidates": [
+        {
+          "name": "Julie Fortier",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Mike Bost",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "13TH CONGRESS",
+      "kind": "house",
+      "district": "13",
+      "candidates": [
+        {
+          "name": "Nikki Budzinski",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Jeff Wilson",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "14TH CONGRESS",
+      "kind": "house",
+      "district": "14",
+      "candidates": [
+        {
+          "name": "Lauren Underwood",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "James T. \"Jim\" Marter",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "15TH CONGRESS",
+      "kind": "house",
+      "district": "15",
+      "candidates": [
+        {
+          "name": "Jennifer Todd",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Mary E. Miller",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "16TH CONGRESS",
+      "kind": "house",
+      "district": "16",
+      "candidates": [
+        {
+          "name": "Paul Nolley",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Darin LaHood",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "17TH CONGRESS",
+      "kind": "house",
+      "district": "17",
+      "candidates": [
+        {
+          "name": "Eric Sorensen",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Dillan S. Vancil",
+          "party": "REPUBLICAN"
+        }
+      ]
+    }
+  ]
+}

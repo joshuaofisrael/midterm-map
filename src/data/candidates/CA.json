@@ -1,0 +1,808 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+      "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+      "accessed": "October 17, 2026",
+      "published": "August 27, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Xavier Becerra",
+          "party": "Democratic"
+        },
+        {
+          "name": "Steve Hilton",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Mike McGuire",
+          "party": "Democratic"
+        },
+        {
+          "name": "James Gallagher",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Jared Huffman",
+          "party": "Democratic"
+        },
+        {
+          "name": "Robin Littau",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Ami Bera",
+          "party": "Democratic"
+        },
+        {
+          "name": "Robb Tucker",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Eric Jones",
+          "party": "Democratic"
+        },
+        {
+          "name": "Mike Thompson",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 5",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Michael Masuda",
+          "party": "Democratic"
+        },
+        {
+          "name": "Tom McClintock",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 6",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Richard Pan",
+          "party": "Democratic"
+        },
+        {
+          "name": "Kevin Kiley",
+          "party": "No Party Preference"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 7",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Doris Matsui",
+          "party": "Democratic"
+        },
+        {
+          "name": "Mai Vang",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 8",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "John Garamendi",
+          "party": "Democratic"
+        },
+        {
+          "name": "Rudy Recile",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 9",
+      "kind": "house",
+      "district": "9",
+      "candidates": [
+        {
+          "name": "Josh Harder",
+          "party": "Democratic"
+        },
+        {
+          "name": "John McBride",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 10",
+      "kind": "house",
+      "district": "10",
+      "candidates": [
+        {
+          "name": "Mark DeSaulnier",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jeff Frese",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 11",
+      "kind": "house",
+      "district": "11",
+      "candidates": [
+        {
+          "name": "Connie Chan",
+          "party": "Democratic"
+        },
+        {
+          "name": "Scott Wiener",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 12",
+      "kind": "house",
+      "district": "12",
+      "candidates": [
+        {
+          "name": "Jamie Joyce",
+          "party": "Democratic"
+        },
+        {
+          "name": "Lateefah Simon",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 13",
+      "kind": "house",
+      "district": "13",
+      "candidates": [
+        {
+          "name": "Adam Gray",
+          "party": "Democratic"
+        },
+        {
+          "name": "Kevin Lincoln",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 14",
+      "kind": "house",
+      "district": "14",
+      "candidates": [
+        {
+          "name": "Melissa Hernandez",
+          "party": "Democratic"
+        },
+        {
+          "name": "Aisha Wahab",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 15",
+      "kind": "house",
+      "district": "15",
+      "candidates": [
+        {
+          "name": "Kevin Mullin",
+          "party": "Democratic"
+        },
+        {
+          "name": "Charles Hoelter",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 16",
+      "kind": "house",
+      "district": "16",
+      "candidates": [
+        {
+          "name": "Sam Liccardo",
+          "party": "Democratic"
+        },
+        {
+          "name": "Peter Sundin Soulé",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 17",
+      "kind": "house",
+      "district": "17",
+      "candidates": [
+        {
+          "name": "Ro Khanna",
+          "party": "Democratic"
+        },
+        {
+          "name": "Ritesh Tandon",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 18",
+      "kind": "house",
+      "district": "18",
+      "candidates": [
+        {
+          "name": "Zoe Lofgren",
+          "party": "Democratic"
+        },
+        {
+          "name": "Shane Lewis",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 19",
+      "kind": "house",
+      "district": "19",
+      "candidates": [
+        {
+          "name": "Jimmy Panetta",
+          "party": "Democratic"
+        },
+        {
+          "name": "Peter Coe Verbica",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 20",
+      "kind": "house",
+      "district": "20",
+      "candidates": [
+        {
+          "name": "Sandra Van Scotter",
+          "party": "Democratic"
+        },
+        {
+          "name": "Vince Fong",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 21",
+      "kind": "house",
+      "district": "21",
+      "candidates": [
+        {
+          "name": "Jim Costa",
+          "party": "Democratic"
+        },
+        {
+          "name": "Kyle Kirkland",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 22",
+      "kind": "house",
+      "district": "22",
+      "candidates": [
+        {
+          "name": "Randy Villegas",
+          "party": "Democratic"
+        },
+        {
+          "name": "David G. Valadao",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 23",
+      "kind": "house",
+      "district": "23",
+      "candidates": [
+        {
+          "name": "Tessa Lynn Hodge",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jay Obernolte",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 24",
+      "kind": "house",
+      "district": "24",
+      "candidates": [
+        {
+          "name": "Salud Carbajal",
+          "party": "Democratic"
+        },
+        {
+          "name": "Bob Smith",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 25",
+      "kind": "house",
+      "district": "25",
+      "candidates": [
+        {
+          "name": "Raul Ruiz",
+          "party": "Democratic"
+        },
+        {
+          "name": "Joe Males",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 26",
+      "kind": "house",
+      "district": "26",
+      "candidates": [
+        {
+          "name": "Jacqui Irwin",
+          "party": "Democratic"
+        },
+        {
+          "name": "Sam Gallucci",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 27",
+      "kind": "house",
+      "district": "27",
+      "candidates": [
+        {
+          "name": "George Whitesides",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jason Gibbs",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 28",
+      "kind": "house",
+      "district": "28",
+      "candidates": [
+        {
+          "name": "Judy Chu",
+          "party": "Democratic"
+        },
+        {
+          "name": "April A. Verlato",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 29",
+      "kind": "house",
+      "district": "29",
+      "candidates": [
+        {
+          "name": "Angélica María Dueñas",
+          "party": "Democratic"
+        },
+        {
+          "name": "Luz Maria Rivas",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 30",
+      "kind": "house",
+      "district": "30",
+      "candidates": [
+        {
+          "name": "Laura Friedman",
+          "party": "Democratic"
+        },
+        {
+          "name": "Scott Alan Meyers",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 31",
+      "kind": "house",
+      "district": "31",
+      "candidates": [
+        {
+          "name": "Gil Cisneros",
+          "party": "Democratic"
+        },
+        {
+          "name": "Eric Ching",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 32",
+      "kind": "house",
+      "district": "32",
+      "candidates": [
+        {
+          "name": "Brad Sherman",
+          "party": "Democratic"
+        },
+        {
+          "name": "Larry Thompson",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 33",
+      "kind": "house",
+      "district": "33",
+      "candidates": [
+        {
+          "name": "Pete Aguilar",
+          "party": "Democratic"
+        },
+        {
+          "name": "Stephanie M. Vargas",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 34",
+      "kind": "house",
+      "district": "34",
+      "candidates": [
+        {
+          "name": "Jimmy Gomez",
+          "party": "Democratic"
+        },
+        {
+          "name": "Angela Gonzales-Torres",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 35",
+      "kind": "house",
+      "district": "35",
+      "candidates": [
+        {
+          "name": "Norma J. Torres",
+          "party": "Democratic"
+        },
+        {
+          "name": "Mike Cargile",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 36",
+      "kind": "house",
+      "district": "36",
+      "candidates": [
+        {
+          "name": "Ted W. Lieu",
+          "party": "Democratic"
+        },
+        {
+          "name": "Houston Brignano",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 37",
+      "kind": "house",
+      "district": "37",
+      "candidates": [
+        {
+          "name": "Sydney Kamlager-Dove",
+          "party": "Democratic"
+        },
+        {
+          "name": "Samantha Mota",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 38",
+      "kind": "house",
+      "district": "38",
+      "candidates": [
+        {
+          "name": "Hilda Solis",
+          "party": "Democratic"
+        },
+        {
+          "name": "Pedro Antonio Casas",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 39",
+      "kind": "house",
+      "district": "39",
+      "candidates": [
+        {
+          "name": "Mark Takano",
+          "party": "Democratic"
+        },
+        {
+          "name": "Steve Manos",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 40",
+      "kind": "house",
+      "district": "40",
+      "candidates": [
+        {
+          "name": "Ken Calvert",
+          "party": "Republican"
+        },
+        {
+          "name": "Young Kim",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 41",
+      "kind": "house",
+      "district": "41",
+      "candidates": [
+        {
+          "name": "Linda Sánchez",
+          "party": "Democratic"
+        },
+        {
+          "name": "Mitch Clemmons",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 42",
+      "kind": "house",
+      "district": "42",
+      "candidates": [
+        {
+          "name": "Robert Garcia",
+          "party": "Democratic"
+        },
+        {
+          "name": "Brian Burley",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 43",
+      "kind": "house",
+      "district": "43",
+      "candidates": [
+        {
+          "name": "Maxine Waters",
+          "party": "Democratic"
+        },
+        {
+          "name": "Cristian Morales",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 44",
+      "kind": "house",
+      "district": "44",
+      "candidates": [
+        {
+          "name": "Nanette Diaz Barragan",
+          "party": "Democratic"
+        },
+        {
+          "name": "Genevieve Angel",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 45",
+      "kind": "house",
+      "district": "45",
+      "candidates": [
+        {
+          "name": "Derek Tran",
+          "party": "Democratic"
+        },
+        {
+          "name": "Chuong V. Vo",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 46",
+      "kind": "house",
+      "district": "46",
+      "candidates": [
+        {
+          "name": "Lou Correa",
+          "party": "Democratic"
+        },
+        {
+          "name": "David Pan",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 47",
+      "kind": "house",
+      "district": "47",
+      "candidates": [
+        {
+          "name": "Dave Min",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jenny Rae Le Roux",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 48",
+      "kind": "house",
+      "district": "48",
+      "candidates": [
+        {
+          "name": "Marni von Wilpert",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jim Desmond",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 49",
+      "kind": "house",
+      "district": "49",
+      "candidates": [
+        {
+          "name": "Mike Levin",
+          "party": "Democratic"
+        },
+        {
+          "name": "Armen Kurdian",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 50",
+      "kind": "house",
+      "district": "50",
+      "candidates": [
+        {
+          "name": "Scott Peters",
+          "party": "Democratic"
+        },
+        {
+          "name": "Steve Cohen",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 51",
+      "kind": "house",
+      "district": "51",
+      "candidates": [
+        {
+          "name": "Sara Jacobs",
+          "party": "Democratic"
+        },
+        {
+          "name": "Ricardo Cabrera",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 52",
+      "kind": "house",
+      "district": "52",
+      "candidates": [
+        {
+          "name": "Juan Vargas",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jeff Belle",
+          "party": "Republican"
+        }
+      ]
+    }
+  ]
+}

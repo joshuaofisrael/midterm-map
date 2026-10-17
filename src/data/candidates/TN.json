@@ -1,0 +1,373 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "Tennessee Secretary of State, candidate lists for the November 3, 2026 general election (Governor, United States Senate, and United States House PDFs)",
+      "url": "https://sos.tn.gov/elections/2026-candidate-lists",
+      "accessed": "October 17, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "United States Senate",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Bill Hagerty",
+          "party": "Republican"
+        },
+        {
+          "name": "Marquita Bradshaw",
+          "party": "Democratic"
+        },
+        {
+          "name": "Tharon Chandler",
+          "party": "Independent"
+        },
+        {
+          "name": "Andrew Gerena",
+          "party": "Independent"
+        },
+        {
+          "name": "Jeremy Dean Hearn",
+          "party": "Independent"
+        },
+        {
+          "name": "Robert Jones",
+          "party": "Independent"
+        },
+        {
+          "name": "James William Macon III",
+          "party": "Independent"
+        },
+        {
+          "name": "Yoshi D. Matthews",
+          "party": "Independent"
+        },
+        {
+          "name": "David Sutman, Jr.",
+          "party": "Independent"
+        },
+        {
+          "name": "Catherine Barcel \"Barcy\" Whitson",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Marsha Blackburn",
+          "party": "Republican"
+        },
+        {
+          "name": "Jerri Green",
+          "party": "Democratic"
+        },
+        {
+          "name": "Misam Abidi",
+          "party": "Independent"
+        },
+        {
+          "name": "Dean Brewer",
+          "party": "Independent"
+        },
+        {
+          "name": "Ray Brown",
+          "party": "Independent"
+        },
+        {
+          "name": "David Hatley",
+          "party": "Independent"
+        },
+        {
+          "name": "Wendell Jackson",
+          "party": "Independent"
+        },
+        {
+          "name": "Charles Van Morgan",
+          "party": "Independent"
+        },
+        {
+          "name": "Eddie Lee Murphy",
+          "party": "Independent"
+        },
+        {
+          "name": "Lauren Pinkston",
+          "party": "Independent"
+        },
+        {
+          "name": "Victor L. Scoggin",
+          "party": "Independent"
+        },
+        {
+          "name": "Dave Seeman",
+          "party": "Independent"
+        },
+        {
+          "name": "Karl Knox Smithson",
+          "party": "Independent"
+        },
+        {
+          "name": "L. Webb Taylor",
+          "party": "Independent"
+        },
+        {
+          "name": "Robert C. Vick",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "United States House of Representatives District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Diana Harshbarger",
+          "party": "Republican"
+        },
+        {
+          "name": "Kristi Burke",
+          "party": "Democratic"
+        },
+        {
+          "name": "Joshua Ray Ashburn",
+          "party": "Independent"
+        },
+        {
+          "name": "Richard G. Baker",
+          "party": "Independent"
+        },
+        {
+          "name": "Chris Campbell",
+          "party": "Independent"
+        },
+        {
+          "name": "Billy Cody",
+          "party": "Independent"
+        },
+        {
+          "name": "Tyler Brice Mitchell McClain",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "United States House of Representatives District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Tim Burchett",
+          "party": "Republican"
+        },
+        {
+          "name": "Michaela Barnett",
+          "party": "Democratic"
+        },
+        {
+          "name": "Bruce Fine",
+          "party": "Independent"
+        },
+        {
+          "name": "Adam Heimerman",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "United States House of Representatives District 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Chuck Fleischmann",
+          "party": "Republican"
+        },
+        {
+          "name": "Anna Golladay",
+          "party": "Democratic"
+        },
+        {
+          "name": "Dean Arnold",
+          "party": "Independent"
+        },
+        {
+          "name": "Jean Howard-Hill",
+          "party": "Independent"
+        },
+        {
+          "name": "Rodney Joe King",
+          "party": "Independent"
+        },
+        {
+          "name": "Donnie Lynn Ownby",
+          "party": "Independent"
+        },
+        {
+          "name": "Edward John Roland",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "United States House of Representatives District 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Scott DesJarlais",
+          "party": "Republican"
+        },
+        {
+          "name": "Victoria Broderick",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jacob Kristopher Anders",
+          "party": "Independent"
+        },
+        {
+          "name": "Clay Faircloth",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "United States House of Representatives District 5",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Charlie Hatcher",
+          "party": "Republican"
+        },
+        {
+          "name": "Chaz Molder",
+          "party": "Democratic"
+        },
+        {
+          "name": "James A. Johnson",
+          "party": "Independent"
+        },
+        {
+          "name": "Micheál (Me-Haul) O'Leary",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "United States House of Representatives District 6",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Johnny Garrett",
+          "party": "Republican"
+        },
+        {
+          "name": "Mike Croley",
+          "party": "Democratic"
+        },
+        {
+          "name": "Christopher B. Monday",
+          "party": "Independent"
+        },
+        {
+          "name": "Angus Purdy",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "United States House of Representatives District 7",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Matt Van Epps",
+          "party": "Republican"
+        },
+        {
+          "name": "Darden Copeland",
+          "party": "Democratic"
+        },
+        {
+          "name": "Andrew J. Koontz",
+          "party": "Independent"
+        },
+        {
+          "name": "Lowell Reynolds",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "United States House of Representatives District 8",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "David Kustoff",
+          "party": "Republican"
+        },
+        {
+          "name": "Heidi Kuhn",
+          "party": "Democratic"
+        },
+        {
+          "name": "Adam D. Austill",
+          "party": "Independent"
+        },
+        {
+          "name": "Wendell \"Wells\" Blankenship",
+          "party": "Independent"
+        },
+        {
+          "name": "Antonio Futch",
+          "party": "Independent"
+        },
+        {
+          "name": "Pamela Jeanine \"P.\" Moses",
+          "party": "Independent"
+        },
+        {
+          "name": "Horace Taylor",
+          "party": "Independent"
+        },
+        {
+          "name": "Henry J. Ward, III",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "United States House of Representatives District 9",
+      "kind": "house",
+      "district": "9",
+      "candidates": [
+        {
+          "name": "Brent Taylor",
+          "party": "Republican"
+        },
+        {
+          "name": "Justin J. Pearson",
+          "party": "Democratic"
+        },
+        {
+          "name": "Dennis Clark",
+          "party": "Independent"
+        },
+        {
+          "name": "Michelle Davis Head",
+          "party": "Independent"
+        }
+      ]
+    }
+  ]
+}

@@ -40,3 +40,16 @@ export const districtCitation: Citation = {
   url: "https://www.census.gov/geographies/reference-files/2020/geo/relationship-files.html",
   accessed: CENSUS_PLACES_UPDATED,
 };
+
+/** Nine states drew new 2026 boundaries. Every other jurisdiction kept the 2024 lines. */
+export const congressionalBoundariesCitation: Citation = {
+  name: "U.S. Census Bureau, 120th Congress congressional districts (Alabama, California, Florida, Louisiana, North Carolina, Ohio, Tennessee, Texas, and Utah delineated new boundaries for the 2026 election; all other states, the District of Columbia, and Puerto Rico had no changes from the 2024 cycle)",
+  url: "https://www.census.gov/programs-surveys/decennial-census/about/rdo/congressional-districts.120th_Congress.html",
+  accessed: CENSUS_PLACES_UPDATED,
+};
+
+export const cd120BefCitation: Citation = {
+  name: "U.S. Census Bureau, 120th Congressional District Block Equivalency Files (cd120.zip), joined to 2026 Geographic Reference File place codes on 2020 census blocks with land area greater than zero",
+  url: "https://www.census.gov/geographies/mapping-files/2027/dec/rdo/120-congressional-district-bef.html",
+  accessed: CENSUS_PLACES_UPDATED,
+};

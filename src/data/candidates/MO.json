@@ -1,0 +1,165 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+      "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+      "accessed": "October 17, 2026",
+      "published": "August 25, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "For U.S. Representative District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Paul Berry III",
+          "party": "Republican"
+        },
+        {
+          "name": "Wesley Bell",
+          "party": "Democratic"
+        },
+        {
+          "name": "Tom Schmitz",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "For U.S. Representative District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Ann Wagner",
+          "party": "Republican"
+        },
+        {
+          "name": "Fred Wellman",
+          "party": "Democratic"
+        },
+        {
+          "name": "Brandon Coulter Daugherty",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "For U.S. Representative District 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Bob Onder",
+          "party": "Republican"
+        },
+        {
+          "name": "Bethany E Mann",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jim Higgins",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "For U.S. Representative District 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Mark Alford",
+          "party": "Republican"
+        },
+        {
+          "name": "Jordan Herrera",
+          "party": "Democratic"
+        },
+        {
+          "name": "Thomas Holbrook",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "For U.S. Representative District 5",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Rick Brattin",
+          "party": "Republican"
+        },
+        {
+          "name": "Emanuel Cleaver, II",
+          "party": "Democratic"
+        },
+        {
+          "name": "Randall (Randy) Langkraehr",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "For U.S. Representative District 6",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Chris Stigall",
+          "party": "Republican"
+        },
+        {
+          "name": "Josh Smead",
+          "party": "Democratic"
+        },
+        {
+          "name": "Andy Maidment",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "For U.S. Representative District 7",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Eric W. Burlison",
+          "party": "Republican"
+        },
+        {
+          "name": "Missi Hesketh",
+          "party": "Democratic"
+        },
+        {
+          "name": "Kevin Craig",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "For U.S. Representative District 8",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "Jason T. Smith",
+          "party": "Republican"
+        },
+        {
+          "name": "Chris Reichard",
+          "party": "Democratic"
+        },
+        {
+          "name": "Rebecca Sharpe Lombard",
+          "party": "Libertarian"
+        }
+      ]
+    }
+  ]
+}
