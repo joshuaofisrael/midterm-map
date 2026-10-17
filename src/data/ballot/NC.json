@@ -1,0 +1,2354 @@
+{
+  "statewide": [
+    {
+      "office": "NC SUPREME COURT ASSOCIATE JUSTICE SEAT 01",
+      "key": null,
+      "candidates": [
+        {
+          "name": "Anita Earls",
+          "party": "DEM"
+        },
+        {
+          "name": "Sarah Stevens",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "NC COURT OF APPEALS JUDGE SEAT 01",
+      "key": null,
+      "candidates": [
+        {
+          "name": "Michael C. Byrne",
+          "party": "REP"
+        },
+        {
+          "name": "John S. Arrowood",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "NC COURT OF APPEALS JUDGE SEAT 02",
+      "key": null,
+      "candidates": [
+        {
+          "name": "George Cooper Bell",
+          "party": "REP"
+        },
+        {
+          "name": "Tobias (Toby) Hampson",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "NC COURT OF APPEALS JUDGE SEAT 03",
+      "key": null,
+      "candidates": [
+        {
+          "name": "Craig Collins",
+          "party": "REP"
+        },
+        {
+          "name": "Christine Marie Walczyk",
+          "party": "DEM"
+        }
+      ]
+    }
+  ],
+  "upper": {
+    "1": {
+      "office": "NC STATE SENATE DISTRICT 01",
+      "key": "1",
+      "candidates": [
+        {
+          "name": "Melissa Zehner",
+          "party": "DEM"
+        },
+        {
+          "name": "Jerry Tillett",
+          "party": "REP"
+        }
+      ]
+    },
+    "2": {
+      "office": "NC STATE SENATE DISTRICT 02",
+      "key": "2",
+      "candidates": [
+        {
+          "name": "Roy Surrett",
+          "party": "DEM"
+        },
+        {
+          "name": "Norman Sanderson",
+          "party": "REP"
+        }
+      ]
+    },
+    "3": {
+      "office": "NC STATE SENATE DISTRICT 03",
+      "key": "3",
+      "candidates": [
+        {
+          "name": "Charles Dudley",
+          "party": "DEM"
+        },
+        {
+          "name": "Bob Brinson",
+          "party": "REP"
+        }
+      ]
+    },
+    "4": {
+      "office": "NC STATE SENATE DISTRICT 04",
+      "key": "4",
+      "candidates": [
+        {
+          "name": "Jessica (Jess) Rivera",
+          "party": "DEM"
+        },
+        {
+          "name": "Buck Newton",
+          "party": "REP"
+        }
+      ]
+    },
+    "5": {
+      "office": "NC STATE SENATE DISTRICT 05",
+      "key": "5",
+      "candidates": [
+        {
+          "name": "Kandie D. Smith",
+          "party": "DEM"
+        },
+        {
+          "name": "Henry Hostetler",
+          "party": "REP"
+        }
+      ]
+    },
+    "6": {
+      "office": "NC STATE SENATE DISTRICT 06",
+      "key": "6",
+      "candidates": [
+        {
+          "name": "Andi Morrow",
+          "party": "DEM"
+        },
+        {
+          "name": "Michael Anthony Lazzara",
+          "party": "REP"
+        }
+      ]
+    },
+    "7": {
+      "office": "NC STATE SENATE DISTRICT 07",
+      "key": "7",
+      "candidates": [
+        {
+          "name": "Jessica Bichler",
+          "party": "DEM"
+        },
+        {
+          "name": "Michael Lee",
+          "party": "REP"
+        }
+      ]
+    },
+    "8": {
+      "office": "NC STATE SENATE DISTRICT 08",
+      "key": "8",
+      "candidates": [
+        {
+          "name": "Richard (Rick) Combes",
+          "party": "DEM"
+        },
+        {
+          "name": "Tim White",
+          "party": "LIB"
+        },
+        {
+          "name": "Bill Rabon",
+          "party": "REP"
+        }
+      ]
+    },
+    "9": {
+      "office": "NC STATE SENATE DISTRICT 09",
+      "key": "9",
+      "candidates": [
+        {
+          "name": "Brent Jackson",
+          "party": "REP"
+        }
+      ]
+    },
+    "10": {
+      "office": "NC STATE SENATE DISTRICT 10",
+      "key": "10",
+      "candidates": [
+        {
+          "name": "Kevin Terrett",
+          "party": "LIB"
+        },
+        {
+          "name": "Benton Sawrey",
+          "party": "REP"
+        },
+        {
+          "name": "Pat LeGrand",
+          "party": "DEM"
+        }
+      ]
+    },
+    "11": {
+      "office": "NC STATE SENATE DISTRICT 11",
+      "key": "11",
+      "candidates": [
+        {
+          "name": "Gavin Bell",
+          "party": "LIB"
+        },
+        {
+          "name": "Lisa Stone Barnes",
+          "party": "REP"
+        },
+        {
+          "name": "James D. Gailliard",
+          "party": "DEM"
+        }
+      ]
+    },
+    "12": {
+      "office": "NC STATE SENATE DISTRICT 12",
+      "key": "12",
+      "candidates": [
+        {
+          "name": "Jim Burgin",
+          "party": "REP"
+        },
+        {
+          "name": "Tanya White Anderson",
+          "party": "DEM"
+        }
+      ]
+    },
+    "13": {
+      "office": "NC STATE SENATE DISTRICT 13",
+      "key": "13",
+      "candidates": [
+        {
+          "name": "Robert van Brederode",
+          "party": "REP"
+        },
+        {
+          "name": "Lisa Grafstein",
+          "party": "DEM"
+        }
+      ]
+    },
+    "14": {
+      "office": "NC STATE SENATE DISTRICT 14",
+      "key": "14",
+      "candidates": [
+        {
+          "name": "Dan Blue",
+          "party": "DEM"
+        },
+        {
+          "name": "Angela B. McCarty",
+          "party": "REP"
+        }
+      ]
+    },
+    "15": {
+      "office": "NC STATE SENATE DISTRICT 15",
+      "key": "15",
+      "candidates": [
+        {
+          "name": "Jay J. Chaudhuri",
+          "party": "DEM"
+        },
+        {
+          "name": "David Bankert",
+          "party": "REP"
+        }
+      ]
+    },
+    "16": {
+      "office": "NC STATE SENATE DISTRICT 16",
+      "key": "16",
+      "candidates": [
+        {
+          "name": "Gale Adcock",
+          "party": "DEM"
+        },
+        {
+          "name": "Jonathan D. Miller",
+          "party": "LIB"
+        },
+        {
+          "name": "Philip Hensley",
+          "party": "REP"
+        }
+      ]
+    },
+    "17": {
+      "office": "NC STATE SENATE DISTRICT 17",
+      "key": "17",
+      "candidates": [
+        {
+          "name": "Patrick J. Bowersox",
+          "party": "LIB"
+        },
+        {
+          "name": "Mrs. Sydney Batch",
+          "party": "DEM"
+        },
+        {
+          "name": "Shirley Johnson",
+          "party": "REP"
+        }
+      ]
+    },
+    "18": {
+      "office": "NC STATE SENATE DISTRICT 18",
+      "key": "18",
+      "candidates": [
+        {
+          "name": "Haseeb Fatmi",
+          "party": "DEM"
+        },
+        {
+          "name": "Chris Stock",
+          "party": "REP"
+        },
+        {
+          "name": "Brad Hessel",
+          "party": "LIB"
+        }
+      ]
+    },
+    "19": {
+      "office": "NC STATE SENATE DISTRICT 19",
+      "key": "19",
+      "candidates": [
+        {
+          "name": "Venus de la Cruz",
+          "party": "REP"
+        },
+        {
+          "name": "Val Applewhite",
+          "party": "DEM"
+        }
+      ]
+    },
+    "20": {
+      "office": "NC STATE SENATE DISTRICT 20",
+      "key": "20",
+      "candidates": [
+        {
+          "name": "Natalie S. Murdock",
+          "party": "DEM"
+        }
+      ]
+    },
+    "21": {
+      "office": "NC STATE SENATE DISTRICT 21",
+      "key": "21",
+      "candidates": [
+        {
+          "name": "Paul Taylor",
+          "party": "DEM"
+        },
+        {
+          "name": "Tom McInnis",
+          "party": "REP"
+        }
+      ]
+    },
+    "22": {
+      "office": "NC STATE SENATE DISTRICT 22",
+      "key": "22",
+      "candidates": [
+        {
+          "name": "Sophia Chitlik",
+          "party": "DEM"
+        },
+        {
+          "name": "LaKeshia M. Alston",
+          "party": "REP"
+        }
+      ]
+    },
+    "23": {
+      "office": "NC STATE SENATE DISTRICT 23",
+      "key": "23",
+      "candidates": [
+        {
+          "name": "Laura Pichardo",
+          "party": "REP"
+        },
+        {
+          "name": "Jonah Garson",
+          "party": "DEM"
+        }
+      ]
+    },
+    "24": {
+      "office": "NC STATE SENATE DISTRICT 24",
+      "key": "24",
+      "candidates": [
+        {
+          "name": "Danny Earl Britt, Jr.",
+          "party": "REP"
+        },
+        {
+          "name": "Catina Hamm",
+          "party": "DEM"
+        }
+      ]
+    },
+    "25": {
+      "office": "NC STATE SENATE DISTRICT 25",
+      "key": "25",
+      "candidates": [
+        {
+          "name": "Southey Blanton",
+          "party": "DEM"
+        },
+        {
+          "name": "Amy Scott Galey",
+          "party": "REP"
+        }
+      ]
+    },
+    "26": {
+      "office": "NC STATE SENATE DISTRICT 26",
+      "key": "26",
+      "candidates": [
+        {
+          "name": "Sam Page",
+          "party": "REP"
+        },
+        {
+          "name": "Steve Luking",
+          "party": "DEM"
+        }
+      ]
+    },
+    "27": {
+      "office": "NC STATE SENATE DISTRICT 27",
+      "key": "27",
+      "candidates": [
+        {
+          "name": "Michael K. Garrett",
+          "party": "DEM"
+        }
+      ]
+    },
+    "28": {
+      "office": "NC STATE SENATE DISTRICT 28",
+      "key": "28",
+      "candidates": [
+        {
+          "name": "Gladys A. Robinson",
+          "party": "DEM"
+        }
+      ]
+    },
+    "29": {
+      "office": "NC STATE SENATE DISTRICT 29",
+      "key": "29",
+      "candidates": [
+        {
+          "name": "Dave Craven",
+          "party": "REP"
+        },
+        {
+          "name": "Judy Little",
+          "party": "DEM"
+        }
+      ]
+    },
+    "30": {
+      "office": "NC STATE SENATE DISTRICT 30",
+      "key": "30",
+      "candidates": [
+        {
+          "name": "Pamela D. McAfee",
+          "party": "DEM"
+        },
+        {
+          "name": "Steve Jarvis",
+          "party": "REP"
+        }
+      ]
+    },
+    "31": {
+      "office": "NC STATE SENATE DISTRICT 31",
+      "key": "31",
+      "candidates": [
+        {
+          "name": "Andy Bowline",
+          "party": "DEM"
+        },
+        {
+          "name": "Dana Caudill Jones",
+          "party": "REP"
+        }
+      ]
+    },
+    "32": {
+      "office": "NC STATE SENATE DISTRICT 32",
+      "key": "32",
+      "candidates": [
+        {
+          "name": "Peter Antinozzi",
+          "party": "REP"
+        },
+        {
+          "name": "Keenen Altic",
+          "party": "GRE"
+        },
+        {
+          "name": "Paul Lowe, Jr.",
+          "party": "DEM"
+        }
+      ]
+    },
+    "33": {
+      "office": "NC STATE SENATE DISTRICT 33",
+      "key": "33",
+      "candidates": [
+        {
+          "name": "Carl Ford",
+          "party": "REP"
+        },
+        {
+          "name": "Gary R. Weart",
+          "party": "DEM"
+        }
+      ]
+    },
+    "34": {
+      "office": "NC STATE SENATE DISTRICT 34",
+      "key": "34",
+      "candidates": [
+        {
+          "name": "Kevin Crutchfield",
+          "party": "REP"
+        },
+        {
+          "name": "April Cook",
+          "party": "DEM"
+        }
+      ]
+    },
+    "35": {
+      "office": "NC STATE SENATE DISTRICT 35",
+      "key": "35",
+      "candidates": [
+        {
+          "name": "Christine E. Winward",
+          "party": "DEM"
+        },
+        {
+          "name": "Todd Johnson",
+          "party": "REP"
+        }
+      ]
+    },
+    "36": {
+      "office": "NC STATE SENATE DISTRICT 36",
+      "key": "36",
+      "candidates": [
+        {
+          "name": "Eddie Settle",
+          "party": "REP"
+        },
+        {
+          "name": "Trevor Cole Hardwick",
+          "party": "DEM"
+        }
+      ]
+    },
+    "37": {
+      "office": "NC STATE SENATE DISTRICT 37",
+      "key": "37",
+      "candidates": [
+        {
+          "name": "Raygan J. Angel",
+          "party": "DEM"
+        },
+        {
+          "name": "Vickie Sawyer",
+          "party": "REP"
+        }
+      ]
+    },
+    "38": {
+      "office": "NC STATE SENATE DISTRICT 38",
+      "key": "38",
+      "candidates": [
+        {
+          "name": "Mujtaba A. Mohammed",
+          "party": "DEM"
+        }
+      ]
+    },
+    "39": {
+      "office": "NC STATE SENATE DISTRICT 39",
+      "key": "39",
+      "candidates": [
+        {
+          "name": "DeAndrea Salvador",
+          "party": "DEM"
+        }
+      ]
+    },
+    "40": {
+      "office": "NC STATE SENATE DISTRICT 40",
+      "key": "40",
+      "candidates": [
+        {
+          "name": "Joyce Waddell",
+          "party": "DEM"
+        },
+        {
+          "name": "Bobbie Shields",
+          "party": "REP"
+        }
+      ]
+    },
+    "41": {
+      "office": "NC STATE SENATE DISTRICT 41",
+      "key": "41",
+      "candidates": [
+        {
+          "name": "Caleb Theodros",
+          "party": "DEM"
+        },
+        {
+          "name": "Kevin Gray",
+          "party": "REP"
+        }
+      ]
+    },
+    "42": {
+      "office": "NC STATE SENATE DISTRICT 42",
+      "key": "42",
+      "candidates": [
+        {
+          "name": "Mrs. Woodson Bradley",
+          "party": "DEM"
+        },
+        {
+          "name": "Stacie McGinn",
+          "party": "REP"
+        }
+      ]
+    },
+    "43": {
+      "office": "NC STATE SENATE DISTRICT 43",
+      "key": "43",
+      "candidates": [
+        {
+          "name": "Steve Rutherford",
+          "party": "DEM"
+        },
+        {
+          "name": "Brad Overcash",
+          "party": "REP"
+        }
+      ]
+    },
+    "44": {
+      "office": "NC STATE SENATE DISTRICT 44",
+      "key": "44",
+      "candidates": [
+        {
+          "name": "Ted Alexander",
+          "party": "REP"
+        },
+        {
+          "name": "Rod Powell",
+          "party": "DEM"
+        }
+      ]
+    },
+    "45": {
+      "office": "NC STATE SENATE DISTRICT 45",
+      "key": "45",
+      "candidates": [
+        {
+          "name": "Greg Cranford",
+          "party": "DEM"
+        },
+        {
+          "name": "Mark Hollo",
+          "party": "REP"
+        }
+      ]
+    },
+    "46": {
+      "office": "NC STATE SENATE DISTRICT 46",
+      "key": "46",
+      "candidates": [
+        {
+          "name": "Warren Daniel",
+          "party": "REP"
+        },
+        {
+          "name": "Kyle Whisnant",
+          "party": "DEM"
+        }
+      ]
+    },
+    "47": {
+      "office": "NC STATE SENATE DISTRICT 47",
+      "key": "47",
+      "candidates": [
+        {
+          "name": "Frank Patton Hughes III",
+          "party": "DEM"
+        },
+        {
+          "name": "Ralph Hise",
+          "party": "REP"
+        }
+      ]
+    },
+    "48": {
+      "office": "NC STATE SENATE DISTRICT 48",
+      "key": "48",
+      "candidates": [
+        {
+          "name": "Doyle G. Brown, Jr.",
+          "party": "DEM"
+        },
+        {
+          "name": "Tim Moffitt",
+          "party": "REP"
+        }
+      ]
+    },
+    "49": {
+      "office": "NC STATE SENATE DISTRICT 49",
+      "key": "49",
+      "candidates": [
+        {
+          "name": "CJ Domingo",
+          "party": "REP"
+        },
+        {
+          "name": "Julie Mayfield",
+          "party": "DEM"
+        }
+      ]
+    },
+    "50": {
+      "office": "NC STATE SENATE DISTRICT 50",
+      "key": "50",
+      "candidates": [
+        {
+          "name": "Tom Downing",
+          "party": "DEM"
+        },
+        {
+          "name": "Kevin Corbin",
+          "party": "REP"
+        }
+      ]
+    }
+  },
+  "lower": {
+    "1": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 001",
+      "key": "1",
+      "candidates": [
+        {
+          "name": "Miriam Rollin",
+          "party": "DEM"
+        },
+        {
+          "name": "Edward C. Goodwin",
+          "party": "REP"
+        }
+      ]
+    },
+    "2": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 002",
+      "key": "2",
+      "candidates": [
+        {
+          "name": "Ray Jeffers",
+          "party": "DEM"
+        }
+      ]
+    },
+    "3": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 003",
+      "key": "3",
+      "candidates": [
+        {
+          "name": "Diannia Bright",
+          "party": "DEM"
+        },
+        {
+          "name": "Steve Tyson",
+          "party": "REP"
+        },
+        {
+          "name": "Angela Humphries",
+          "party": "LIB"
+        }
+      ]
+    },
+    "4": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 004",
+      "key": "4",
+      "candidates": [
+        {
+          "name": "Jimmy Dixon",
+          "party": "REP"
+        },
+        {
+          "name": "Vernon Moore",
+          "party": "DEM"
+        }
+      ]
+    },
+    "5": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 005",
+      "key": "5",
+      "candidates": [
+        {
+          "name": "Sam Davis III",
+          "party": "DEM"
+        },
+        {
+          "name": "Bill Ward",
+          "party": "REP"
+        }
+      ]
+    },
+    "6": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 006",
+      "key": "6",
+      "candidates": [
+        {
+          "name": "Tony Spears",
+          "party": "DEM"
+        },
+        {
+          "name": "Joe Pike",
+          "party": "REP"
+        }
+      ]
+    },
+    "7": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 007",
+      "key": "7",
+      "candidates": [
+        {
+          "name": "Cory Thornton",
+          "party": "REP"
+        },
+        {
+          "name": "Mark Speed",
+          "party": "DEM"
+        }
+      ]
+    },
+    "8": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 008",
+      "key": "8",
+      "candidates": [
+        {
+          "name": "Cathy Thorne Bynum",
+          "party": "REP"
+        },
+        {
+          "name": "Gloristine Brown",
+          "party": "DEM"
+        }
+      ]
+    },
+    "9": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 009",
+      "key": "9",
+      "candidates": [
+        {
+          "name": "Timothy Reeder",
+          "party": "REP"
+        },
+        {
+          "name": "Claire Kempner",
+          "party": "DEM"
+        }
+      ]
+    },
+    "10": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 010",
+      "key": "10",
+      "candidates": [
+        {
+          "name": "John Bell",
+          "party": "REP"
+        },
+        {
+          "name": "Zyaire Webb",
+          "party": "DEM"
+        }
+      ]
+    },
+    "11": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 011",
+      "key": "11",
+      "candidates": [
+        {
+          "name": "Allison A. Dahle",
+          "party": "DEM"
+        },
+        {
+          "name": "Matthew Kordon",
+          "party": "LIB"
+        }
+      ]
+    },
+    "12": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 012",
+      "key": "12",
+      "candidates": [
+        {
+          "name": "Chris Humphrey",
+          "party": "REP"
+        },
+        {
+          "name": "Don Hardy",
+          "party": "DEM"
+        }
+      ]
+    },
+    "13": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 013",
+      "key": "13",
+      "candidates": [
+        {
+          "name": "Celeste Cairns",
+          "party": "REP"
+        },
+        {
+          "name": "Jason Moore",
+          "party": "DEM"
+        }
+      ]
+    },
+    "14": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 014",
+      "key": "14",
+      "candidates": [
+        {
+          "name": "Wyatt Gable",
+          "party": "REP"
+        }
+      ]
+    },
+    "15": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 015",
+      "key": "15",
+      "candidates": [
+        {
+          "name": "Phillip Shepard",
+          "party": "REP"
+        },
+        {
+          "name": "Christopher Schulte",
+          "party": "DEM"
+        }
+      ]
+    },
+    "16": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 016",
+      "key": "16",
+      "candidates": [
+        {
+          "name": "Carson Smith",
+          "party": "REP"
+        },
+        {
+          "name": "Jim Harris",
+          "party": "DEM"
+        }
+      ]
+    },
+    "17": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 017",
+      "key": "17",
+      "candidates": [
+        {
+          "name": "Dennis A. Breen",
+          "party": "DEM"
+        },
+        {
+          "name": "Frank Iler",
+          "party": "REP"
+        }
+      ]
+    },
+    "18": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 018",
+      "key": "18",
+      "candidates": [
+        {
+          "name": "Deb Butler",
+          "party": "DEM"
+        },
+        {
+          "name": "Latisha Grady",
+          "party": "REP"
+        }
+      ]
+    },
+    "19": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 019",
+      "key": "19",
+      "candidates": [
+        {
+          "name": "Scott Nasiff",
+          "party": "DEM"
+        },
+        {
+          "name": "Charlie Miller",
+          "party": "REP"
+        }
+      ]
+    },
+    "20": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 020",
+      "key": "20",
+      "candidates": [
+        {
+          "name": "Dane Scalise",
+          "party": "REP"
+        },
+        {
+          "name": "Tim Merrick",
+          "party": "DEM"
+        }
+      ]
+    },
+    "21": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 021",
+      "key": "21",
+      "candidates": [
+        {
+          "name": "Ya Liu",
+          "party": "DEM"
+        },
+        {
+          "name": "Bryson Johnson",
+          "party": "REP"
+        }
+      ]
+    },
+    "22": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 022",
+      "key": "22",
+      "candidates": [
+        {
+          "name": "Wellie Jackson",
+          "party": "REP"
+        }
+      ]
+    },
+    "23": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 023",
+      "key": "23",
+      "candidates": [
+        {
+          "name": "Patricia Smith",
+          "party": "DEM"
+        },
+        {
+          "name": "Brent Roberson",
+          "party": "REP"
+        }
+      ]
+    },
+    "24": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 024",
+      "key": "24",
+      "candidates": [
+        {
+          "name": "Blake Boykin",
+          "party": "REP"
+        },
+        {
+          "name": "Dante Pittman",
+          "party": "DEM"
+        }
+      ]
+    },
+    "25": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 025",
+      "key": "25",
+      "candidates": [
+        {
+          "name": "Allen Chesser",
+          "party": "REP"
+        },
+        {
+          "name": "Lorenza M. Wilkins",
+          "party": "DEM"
+        },
+        {
+          "name": "Nick Taylor",
+          "party": "LIB"
+        }
+      ]
+    },
+    "26": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 026",
+      "key": "26",
+      "candidates": [
+        {
+          "name": "Donna McDowell White",
+          "party": "REP"
+        },
+        {
+          "name": "L'Bertrice Solomon",
+          "party": "DEM"
+        }
+      ]
+    },
+    "27": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 027",
+      "key": "27",
+      "candidates": [
+        {
+          "name": "David Woodson",
+          "party": "REP"
+        },
+        {
+          "name": "Rodney D. Pierce",
+          "party": "DEM"
+        }
+      ]
+    },
+    "28": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 028",
+      "key": "28",
+      "candidates": [
+        {
+          "name": "D. Matthew Bailey",
+          "party": "DEM"
+        },
+        {
+          "name": "Larry C. Strickland",
+          "party": "REP"
+        }
+      ]
+    },
+    "29": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 029",
+      "key": "29",
+      "candidates": [
+        {
+          "name": "Vernetta Alston",
+          "party": "DEM"
+        }
+      ]
+    },
+    "30": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 030",
+      "key": "30",
+      "candidates": [
+        {
+          "name": "Ray Ubinger",
+          "party": "LIB"
+        },
+        {
+          "name": "Marcia Morey",
+          "party": "DEM"
+        }
+      ]
+    },
+    "31": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 031",
+      "key": "31",
+      "candidates": [
+        {
+          "name": "Zack Hawkins",
+          "party": "DEM"
+        }
+      ]
+    },
+    "32": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 032",
+      "key": "32",
+      "candidates": [
+        {
+          "name": "Bryan K. Cohn",
+          "party": "DEM"
+        },
+        {
+          "name": "Frank Sossamon",
+          "party": "REP"
+        }
+      ]
+    },
+    "33": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 033",
+      "key": "33",
+      "candidates": [
+        {
+          "name": "Matthew Orr",
+          "party": "REP"
+        },
+        {
+          "name": "Monika Johnson-Hostler",
+          "party": "DEM"
+        }
+      ]
+    },
+    "34": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 034",
+      "key": "34",
+      "candidates": [
+        {
+          "name": "Tim Longest",
+          "party": "DEM"
+        },
+        {
+          "name": "Ed George",
+          "party": "LIB"
+        }
+      ]
+    },
+    "35": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 035",
+      "key": "35",
+      "candidates": [
+        {
+          "name": "Mike Schietzelt",
+          "party": "REP"
+        },
+        {
+          "name": "Evonne S. Hopkins",
+          "party": "DEM"
+        }
+      ]
+    },
+    "36": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 036",
+      "key": "36",
+      "candidates": [
+        {
+          "name": "Julie von Haefen",
+          "party": "DEM"
+        },
+        {
+          "name": "Mary Insprucker",
+          "party": "REP"
+        }
+      ]
+    },
+    "37": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 037",
+      "key": "37",
+      "candidates": [
+        {
+          "name": "Winn Decker",
+          "party": "DEM"
+        },
+        {
+          "name": "Erin Pare",
+          "party": "REP"
+        }
+      ]
+    },
+    "38": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 038",
+      "key": "38",
+      "candidates": [
+        {
+          "name": "Abe Jones",
+          "party": "DEM"
+        }
+      ]
+    },
+    "39": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 039",
+      "key": "39",
+      "candidates": [
+        {
+          "name": "Jorge Cordova",
+          "party": "REP"
+        },
+        {
+          "name": "Wayne Cockrell",
+          "party": "LIB"
+        },
+        {
+          "name": "James A. Roberson",
+          "party": "DEM"
+        }
+      ]
+    },
+    "40": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 040",
+      "key": "40",
+      "candidates": [
+        {
+          "name": "Phil Rubin",
+          "party": "DEM"
+        },
+        {
+          "name": "Lucas Everett Jones",
+          "party": "LIB"
+        }
+      ]
+    },
+    "41": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 041",
+      "key": "41",
+      "candidates": [
+        {
+          "name": "Bruce Forster",
+          "party": "REP"
+        },
+        {
+          "name": "Maria Cervania",
+          "party": "DEM"
+        }
+      ]
+    },
+    "42": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 042",
+      "key": "42",
+      "candidates": [
+        {
+          "name": "Mike Colvin",
+          "party": "DEM"
+        }
+      ]
+    },
+    "43": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 043",
+      "key": "43",
+      "candidates": [
+        {
+          "name": "Janene Ackles",
+          "party": "DEM"
+        },
+        {
+          "name": "Diane Wheatley",
+          "party": "REP"
+        }
+      ]
+    },
+    "44": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 044",
+      "key": "44",
+      "candidates": [
+        {
+          "name": "Charles Smith",
+          "party": "DEM"
+        }
+      ]
+    },
+    "45": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 045",
+      "key": "45",
+      "candidates": [
+        {
+          "name": "Frances Jackson",
+          "party": "DEM"
+        }
+      ]
+    },
+    "46": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 046",
+      "key": "46",
+      "candidates": [
+        {
+          "name": "Brittany Newton",
+          "party": "DEM"
+        },
+        {
+          "name": "Brenden H. Jones",
+          "party": "REP"
+        }
+      ]
+    },
+    "47": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 047",
+      "key": "47",
+      "candidates": [
+        {
+          "name": "John L. Lowery",
+          "party": "REP"
+        },
+        {
+          "name": "Eshonda Hooper",
+          "party": "DEM"
+        }
+      ]
+    },
+    "48": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 048",
+      "key": "48",
+      "candidates": [
+        {
+          "name": "Ralph Carter",
+          "party": "REP"
+        },
+        {
+          "name": "Garland E. Pierce",
+          "party": "DEM"
+        }
+      ]
+    },
+    "49": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 049",
+      "key": "49",
+      "candidates": [
+        {
+          "name": "Cynthia Ball",
+          "party": "DEM"
+        },
+        {
+          "name": "Daran Thomas",
+          "party": "REP"
+        }
+      ]
+    },
+    "50": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 050",
+      "key": "50",
+      "candidates": [
+        {
+          "name": "Renee A. Price",
+          "party": "DEM"
+        }
+      ]
+    },
+    "51": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 051",
+      "key": "51",
+      "candidates": [
+        {
+          "name": "Charles M. Taylor",
+          "party": "REP"
+        },
+        {
+          "name": "April Montgomery",
+          "party": "UNA"
+        }
+      ]
+    },
+    "52": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 052",
+      "key": "52",
+      "candidates": [
+        {
+          "name": "Joe Parfitt",
+          "party": "DEM"
+        },
+        {
+          "name": "Ben Moss",
+          "party": "REP"
+        }
+      ]
+    },
+    "53": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 053",
+      "key": "53",
+      "candidates": [
+        {
+          "name": "Kevin G. Thurman",
+          "party": "DEM"
+        },
+        {
+          "name": "Christopher Sessions",
+          "party": "LIB"
+        },
+        {
+          "name": "Howard L. Penny, Jr.",
+          "party": "REP"
+        }
+      ]
+    },
+    "54": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 054",
+      "key": "54",
+      "candidates": [
+        {
+          "name": "Robert T. Reives II",
+          "party": "DEM"
+        }
+      ]
+    },
+    "55": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 055",
+      "key": "55",
+      "candidates": [
+        {
+          "name": "Clancy Baucom",
+          "party": "REP"
+        },
+        {
+          "name": "John J. Kirkpatrick IV",
+          "party": "DEM"
+        }
+      ]
+    },
+    "56": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 056",
+      "key": "56",
+      "candidates": [
+        {
+          "name": "Matthew P. Clements",
+          "party": "LIB"
+        },
+        {
+          "name": "Allen Buansi",
+          "party": "DEM"
+        }
+      ]
+    },
+    "57": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 057",
+      "key": "57",
+      "candidates": [
+        {
+          "name": "Tracy Clark",
+          "party": "DEM"
+        }
+      ]
+    },
+    "58": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 058",
+      "key": "58",
+      "candidates": [
+        {
+          "name": "Amos Quick",
+          "party": "DEM"
+        }
+      ]
+    },
+    "59": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 059",
+      "key": "59",
+      "candidates": [
+        {
+          "name": "Alan Branson",
+          "party": "REP"
+        },
+        {
+          "name": "Elma Hairston",
+          "party": "DEM"
+        }
+      ]
+    },
+    "60": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 060",
+      "key": "60",
+      "candidates": [
+        {
+          "name": "Amanda Cook",
+          "party": "DEM"
+        },
+        {
+          "name": "Joseph Perrotta",
+          "party": "REP"
+        }
+      ]
+    },
+    "61": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 061",
+      "key": "61",
+      "candidates": [
+        {
+          "name": "Mary Price (Pricey) Harrison",
+          "party": "DEM"
+        }
+      ]
+    },
+    "62": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 062",
+      "key": "62",
+      "candidates": [
+        {
+          "name": "John M. Blust",
+          "party": "REP"
+        },
+        {
+          "name": "Shelly Headen",
+          "party": "DEM"
+        }
+      ]
+    },
+    "63": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 063",
+      "key": "63",
+      "candidates": [
+        {
+          "name": "Ian Baltutis",
+          "party": "DEM"
+        },
+        {
+          "name": "Ryan Moffitt",
+          "party": "REP"
+        }
+      ]
+    },
+    "64": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 064",
+      "key": "64",
+      "candidates": [
+        {
+          "name": "LeVon Barnes",
+          "party": "DEM"
+        },
+        {
+          "name": "Dennis Riddell",
+          "party": "REP"
+        }
+      ]
+    },
+    "65": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 065",
+      "key": "65",
+      "candidates": [
+        {
+          "name": "Seth Woodall",
+          "party": "REP"
+        },
+        {
+          "name": "Gavin McGaughey",
+          "party": "DEM"
+        }
+      ]
+    },
+    "66": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 066",
+      "key": "66",
+      "candidates": [
+        {
+          "name": "Sarah Crawford",
+          "party": "DEM"
+        }
+      ]
+    },
+    "67": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 067",
+      "key": "67",
+      "candidates": [
+        {
+          "name": "Jocelyn Torres",
+          "party": "DEM"
+        },
+        {
+          "name": "Cody Huneycutt",
+          "party": "REP"
+        }
+      ]
+    },
+    "68": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 068",
+      "key": "68",
+      "candidates": [
+        {
+          "name": "David Willis",
+          "party": "REP"
+        },
+        {
+          "name": "Derek Warriner",
+          "party": "DEM"
+        }
+      ]
+    },
+    "69": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 069",
+      "key": "69",
+      "candidates": [
+        {
+          "name": "Dean Arp",
+          "party": "REP"
+        },
+        {
+          "name": "Heidi Sinsley",
+          "party": "DEM"
+        }
+      ]
+    },
+    "70": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 070",
+      "key": "70",
+      "candidates": [
+        {
+          "name": "Brian Biggs",
+          "party": "REP"
+        },
+        {
+          "name": "William (Bill) McCaskill",
+          "party": "DEM"
+        }
+      ]
+    },
+    "71": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 071",
+      "key": "71",
+      "candidates": [
+        {
+          "name": "Kanika Brown",
+          "party": "DEM"
+        },
+        {
+          "name": "Mathew Mena",
+          "party": "GRE"
+        }
+      ]
+    },
+    "72": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 072",
+      "key": "72",
+      "candidates": [
+        {
+          "name": "Amber M. Baker",
+          "party": "DEM"
+        }
+      ]
+    },
+    "73": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 073",
+      "key": "73",
+      "candidates": [
+        {
+          "name": "Jonathan Almond",
+          "party": "REP"
+        },
+        {
+          "name": "Thomas J. Monks",
+          "party": "DEM"
+        }
+      ]
+    },
+    "74": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 074",
+      "key": "74",
+      "candidates": [
+        {
+          "name": "Jeff Zenger",
+          "party": "REP"
+        },
+        {
+          "name": "Amy Taylor North",
+          "party": "DEM"
+        }
+      ]
+    },
+    "75": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 075",
+      "key": "75",
+      "candidates": [
+        {
+          "name": "Jen Wiles",
+          "party": "DEM"
+        },
+        {
+          "name": "Donny C. Lambeth",
+          "party": "REP"
+        }
+      ]
+    },
+    "76": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 076",
+      "key": "76",
+      "candidates": [
+        {
+          "name": "Greg Edds",
+          "party": "REP"
+        },
+        {
+          "name": "Scott Huffman",
+          "party": "DEM"
+        }
+      ]
+    },
+    "77": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 077",
+      "key": "77",
+      "candidates": [
+        {
+          "name": "Julia Howard",
+          "party": "REP"
+        },
+        {
+          "name": "Sabrina Harris",
+          "party": "DEM"
+        }
+      ]
+    },
+    "78": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 078",
+      "key": "78",
+      "candidates": [
+        {
+          "name": "Neal Jackson",
+          "party": "REP"
+        },
+        {
+          "name": "Matt Holway",
+          "party": "DEM"
+        }
+      ]
+    },
+    "79": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 079",
+      "key": "79",
+      "candidates": [
+        {
+          "name": "Darren Armstrong",
+          "party": "REP"
+        }
+      ]
+    },
+    "80": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 080",
+      "key": "80",
+      "candidates": [
+        {
+          "name": "Sam Watford",
+          "party": "REP"
+        },
+        {
+          "name": "JacQuez Johnson",
+          "party": "DEM"
+        }
+      ]
+    },
+    "81": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 081",
+      "key": "81",
+      "candidates": [
+        {
+          "name": "Dylan R. Tucker",
+          "party": "DEM"
+        },
+        {
+          "name": "Larry W. Potts",
+          "party": "REP"
+        }
+      ]
+    },
+    "82": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 082",
+      "key": "82",
+      "candidates": [
+        {
+          "name": "Brian Echevarria",
+          "party": "REP"
+        },
+        {
+          "name": "Chris Bishopp",
+          "party": "DEM"
+        }
+      ]
+    },
+    "83": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 083",
+      "key": "83",
+      "candidates": [
+        {
+          "name": "Grant Campbell",
+          "party": "REP"
+        },
+        {
+          "name": "Johnnie Jones",
+          "party": "DEM"
+        }
+      ]
+    },
+    "84": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 084",
+      "key": "84",
+      "candidates": [
+        {
+          "name": "Jeffrey C. McNeely",
+          "party": "REP"
+        }
+      ]
+    },
+    "85": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 085",
+      "key": "85",
+      "candidates": [
+        {
+          "name": "Dudley Greene",
+          "party": "REP"
+        },
+        {
+          "name": "Suzanne Gavenus",
+          "party": "DEM"
+        }
+      ]
+    },
+    "86": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 086",
+      "key": "86",
+      "candidates": [
+        {
+          "name": "Hugh Blackwell",
+          "party": "REP"
+        },
+        {
+          "name": "Wesley E. Hendrix",
+          "party": "DEM"
+        }
+      ]
+    },
+    "87": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 087",
+      "key": "87",
+      "candidates": [
+        {
+          "name": "Iris Bender",
+          "party": "DEM"
+        },
+        {
+          "name": "Destin Hall",
+          "party": "REP"
+        }
+      ]
+    },
+    "88": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 088",
+      "key": "88",
+      "candidates": [
+        {
+          "name": "Ray Craig",
+          "party": "REP"
+        },
+        {
+          "name": "Mary Belk",
+          "party": "DEM"
+        }
+      ]
+    },
+    "89": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 089",
+      "key": "89",
+      "candidates": [
+        {
+          "name": "Robert (Spider) Thompson",
+          "party": "DEM"
+        },
+        {
+          "name": "Mitchell Smith Setzer",
+          "party": "REP"
+        }
+      ]
+    },
+    "90": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 090",
+      "key": "90",
+      "candidates": [
+        {
+          "name": "Ken Badgett",
+          "party": "DEM"
+        },
+        {
+          "name": "Dan Kiger",
+          "party": "REP"
+        }
+      ]
+    },
+    "91": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 091",
+      "key": "91",
+      "candidates": [
+        {
+          "name": "Lucille Puckett",
+          "party": "DEM"
+        },
+        {
+          "name": "Kyle Hall",
+          "party": "REP"
+        }
+      ]
+    },
+    "92": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 092",
+      "key": "92",
+      "candidates": [
+        {
+          "name": "Terry Brown",
+          "party": "DEM"
+        }
+      ]
+    },
+    "93": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 093",
+      "key": "93",
+      "candidates": [
+        {
+          "name": "Charlie Wallin",
+          "party": "DEM"
+        },
+        {
+          "name": "Ray Pickett",
+          "party": "REP"
+        }
+      ]
+    },
+    "94": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 094",
+      "key": "94",
+      "candidates": [
+        {
+          "name": "Blair Eddins",
+          "party": "REP"
+        },
+        {
+          "name": "Andy Warren",
+          "party": "DEM"
+        }
+      ]
+    },
+    "95": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 095",
+      "key": "95",
+      "candidates": [
+        {
+          "name": "Richard (Todd) Carver",
+          "party": "REP"
+        },
+        {
+          "name": "Michael Robinson",
+          "party": "DEM"
+        }
+      ]
+    },
+    "96": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 096",
+      "key": "96",
+      "candidates": [
+        {
+          "name": "Jay Adams",
+          "party": "REP"
+        },
+        {
+          "name": "Park Inglefield",
+          "party": "DEM"
+        }
+      ]
+    },
+    "97": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 097",
+      "key": "97",
+      "candidates": [
+        {
+          "name": "Heather Rhyne",
+          "party": "REP"
+        },
+        {
+          "name": "Greg McBryde",
+          "party": "DEM"
+        }
+      ]
+    },
+    "98": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 098",
+      "key": "98",
+      "candidates": [
+        {
+          "name": "John Rhodes",
+          "party": "REP"
+        },
+        {
+          "name": "Beth Helfrich",
+          "party": "DEM"
+        }
+      ]
+    },
+    "99": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 099",
+      "key": "99",
+      "candidates": [
+        {
+          "name": "Veleria M. Levy",
+          "party": "DEM"
+        }
+      ]
+    },
+    "100": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 100",
+      "key": "100",
+      "candidates": [
+        {
+          "name": "Julia Greenfield",
+          "party": "DEM"
+        }
+      ]
+    },
+    "101": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 101",
+      "key": "101",
+      "candidates": [
+        {
+          "name": "Carolyn G. Logan",
+          "party": "DEM"
+        }
+      ]
+    },
+    "102": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 102",
+      "key": "102",
+      "candidates": [
+        {
+          "name": "Becky Carney",
+          "party": "DEM"
+        }
+      ]
+    },
+    "103": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 103",
+      "key": "103",
+      "candidates": [
+        {
+          "name": "Laura Budd",
+          "party": "DEM"
+        }
+      ]
+    },
+    "104": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 104",
+      "key": "104",
+      "candidates": [
+        {
+          "name": "Trina Boyd",
+          "party": "REP"
+        },
+        {
+          "name": "Brandon Lofton",
+          "party": "DEM"
+        }
+      ]
+    },
+    "105": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 105",
+      "key": "105",
+      "candidates": [
+        {
+          "name": "Tricia Ann Cotham",
+          "party": "REP"
+        },
+        {
+          "name": "Ken McCool",
+          "party": "DEM"
+        }
+      ]
+    },
+    "106": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 106",
+      "key": "106",
+      "candidates": [
+        {
+          "name": "Rodney Sadler",
+          "party": "DEM"
+        }
+      ]
+    },
+    "107": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 107",
+      "key": "107",
+      "candidates": [
+        {
+          "name": "Aisha O. Dew",
+          "party": "DEM"
+        }
+      ]
+    },
+    "108": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 108",
+      "key": "108",
+      "candidates": [
+        {
+          "name": "John A. Torbett",
+          "party": "REP"
+        },
+        {
+          "name": "Sydnie Hutchinson",
+          "party": "DEM"
+        }
+      ]
+    },
+    "109": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 109",
+      "key": "109",
+      "candidates": [
+        {
+          "name": "Mark D. Carver",
+          "party": "DEM"
+        },
+        {
+          "name": "Donnie Loftis",
+          "party": "REP"
+        }
+      ]
+    },
+    "110": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 110",
+      "key": "110",
+      "candidates": [
+        {
+          "name": "Caroline Eason",
+          "party": "REP"
+        },
+        {
+          "name": "Mary Silver",
+          "party": "DEM"
+        }
+      ]
+    },
+    "111": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 111",
+      "key": "111",
+      "candidates": [
+        {
+          "name": "Jerry Blake",
+          "party": "DEM"
+        },
+        {
+          "name": "Paul Scott",
+          "party": "REP"
+        }
+      ]
+    },
+    "112": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 112",
+      "key": "112",
+      "candidates": [
+        {
+          "name": "Jordan Lopez",
+          "party": "DEM"
+        }
+      ]
+    },
+    "113": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 113",
+      "key": "113",
+      "candidates": [
+        {
+          "name": "John Morgan",
+          "party": "DEM"
+        },
+        {
+          "name": "Jake Johnson",
+          "party": "REP"
+        }
+      ]
+    },
+    "114": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 114",
+      "key": "114",
+      "candidates": [
+        {
+          "name": "Eric Ager",
+          "party": "DEM"
+        }
+      ]
+    },
+    "115": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 115",
+      "key": "115",
+      "candidates": [
+        {
+          "name": "Lindsey Prather",
+          "party": "DEM"
+        },
+        {
+          "name": "Anthony J. Penland",
+          "party": "REP"
+        }
+      ]
+    },
+    "116": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 116",
+      "key": "116",
+      "candidates": [
+        {
+          "name": "Brian Turner",
+          "party": "DEM"
+        }
+      ]
+    },
+    "117": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 117",
+      "key": "117",
+      "candidates": [
+        {
+          "name": "Chelsea Walsh",
+          "party": "REP"
+        },
+        {
+          "name": "Lynne Russo",
+          "party": "DEM"
+        }
+      ]
+    },
+    "118": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 118",
+      "key": "118",
+      "candidates": [
+        {
+          "name": "Danny E. Davis",
+          "party": "DEM"
+        },
+        {
+          "name": "James M. (Jimmy) Rogers",
+          "party": "REP"
+        }
+      ]
+    },
+    "119": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 119",
+      "key": "119",
+      "candidates": [
+        {
+          "name": "Anna Ferguson",
+          "party": "REP"
+        },
+        {
+          "name": "Mark Burrows",
+          "party": "DEM"
+        }
+      ]
+    },
+    "120": {
+      "office": "NC HOUSE OF REPRESENTATIVES DISTRICT 120",
+      "key": "120",
+      "candidates": [
+        {
+          "name": "Caleb Brown",
+          "party": "DEM"
+        },
+        {
+          "name": "Karl Gillespie",
+          "party": "REP"
+        }
+      ]
+    }
+  },
+  "local": {},
+  "annotations": {},
+  "date": {
+    "quote": "11/03/2026",
+    "text": "The North Carolina list's criteria line prints Election: 11/03/2026."
+  }
+}

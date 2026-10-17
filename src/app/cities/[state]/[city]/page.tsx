@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { CityCandidates } from "@/components/CityCandidates";
+import { CityBallot } from "@/components/CityBallot";
 import { ContentTrust } from "@/components/ContentTrust";
 import { JsonLd } from "@/components/JsonLd";
 import { JurisdictionLinks } from "@/components/JurisdictionLinks";
@@ -96,7 +96,8 @@ export default async function CityPage({
         </p>
         <h1 className="font-serif text-3xl font-semibold tracking-tight text-ink sm:text-4xl">{title}</h1>
         <p className="mt-3 text-lg leading-7 text-ink-muted">
-          Census place facts for {place.name} in {state.name}. Not an official election website.
+          Census place facts and a 2026 ballot summary for {place.name} in {state.name}. Not an
+          official election website.
         </p>
       </header>
       <ContentTrust
@@ -174,7 +175,7 @@ export default async function CityPage({
         <SourceLines sources={[gazetteerCitation]} />
       </section>
 
-      <CityCandidates code={state.code} place={place} />
+      <CityBallot code={state.code} place={place} />
 
       <JurisdictionLinks code={state.code} name={state.name} />
     </div>

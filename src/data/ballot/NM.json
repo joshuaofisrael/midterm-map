@@ -1,0 +1,855 @@
+{
+  "statewide": [],
+  "upper": {
+    "33": {
+      "office": "State Senator DISTRICT 33",
+      "key": "33",
+      "candidates": [
+        {
+          "name": "REX A WILSON",
+          "party": "REP"
+        },
+        {
+          "name": "WILLIAM NEIL GRIFFIN",
+          "party": "DEM"
+        }
+      ]
+    }
+  },
+  "lower": {
+    "1": {
+      "office": "State Representative DISTRICT 1",
+      "key": "1",
+      "candidates": [
+        {
+          "name": "ROD MONTOYA",
+          "party": "REP"
+        }
+      ]
+    },
+    "2": {
+      "office": "State Representative DISTRICT 2",
+      "key": "2",
+      "candidates": [
+        {
+          "name": "P MARK DUNCAN",
+          "party": "REP"
+        }
+      ]
+    },
+    "3": {
+      "office": "State Representative DISTRICT 3",
+      "key": "3",
+      "candidates": [
+        {
+          "name": "WILLIAM A HALL, II",
+          "party": "REP"
+        }
+      ]
+    },
+    "4": {
+      "office": "State Representative DISTRICT 4",
+      "key": "4",
+      "candidates": [
+        {
+          "name": "HEATHER SCOTT ELLISON",
+          "party": "REP"
+        }
+      ]
+    },
+    "5": {
+      "office": "State Representative DISTRICT 5",
+      "key": "5",
+      "candidates": [
+        {
+          "name": "DOREEN WONDA JOHNSON",
+          "party": "DEM"
+        }
+      ]
+    },
+    "6": {
+      "office": "State Representative DISTRICT 6",
+      "key": "6",
+      "candidates": [
+        {
+          "name": "MARTHA GARCIA",
+          "party": "DEM"
+        },
+        {
+          "name": "PAUL L SPENCER",
+          "party": "REP"
+        }
+      ]
+    },
+    "7": {
+      "office": "State Representative DISTRICT 7",
+      "key": "7",
+      "candidates": [
+        {
+          "name": "RICKIE ALLEN GONZALES, II",
+          "party": "DEM"
+        },
+        {
+          "name": "TANYA R MIRABAL MOYA",
+          "party": "REP"
+        }
+      ]
+    },
+    "8": {
+      "office": "State Representative DISTRICT 8",
+      "key": "8",
+      "candidates": [
+        {
+          "name": "BRIAN G BACA",
+          "party": "REP"
+        },
+        {
+          "name": "KATHERINE JOANNA GAUER",
+          "party": "DEM"
+        }
+      ]
+    },
+    "9": {
+      "office": "State Representative DISTRICT 9",
+      "key": "9",
+      "candidates": [
+        {
+          "name": "PATRICIA 'PATTY' A LUNDSTROM",
+          "party": "DEM"
+        }
+      ]
+    },
+    "10": {
+      "office": "State Representative DISTRICT 10",
+      "key": "10",
+      "candidates": [
+        {
+          "name": "G ANDRES ROMERO",
+          "party": "DEM"
+        },
+        {
+          "name": "CHRISTOPHER P CRANE",
+          "party": "REP"
+        }
+      ]
+    },
+    "11": {
+      "office": "State Representative DISTRICT 11",
+      "key": "11",
+      "candidates": [
+        {
+          "name": "JAVIER I MARTINEZ",
+          "party": "DEM"
+        }
+      ]
+    },
+    "12": {
+      "office": "State Representative DISTRICT 12",
+      "key": "12",
+      "candidates": [
+        {
+          "name": "ART DE LA CRUZ",
+          "party": "DEM"
+        },
+        {
+          "name": "STEVEN E TAFOYA",
+          "party": "REP"
+        }
+      ]
+    },
+    "13": {
+      "office": "State Representative DISTRICT 13",
+      "key": "13",
+      "candidates": [
+        {
+          "name": "PATRICIA A ROYBAL CABALLERO",
+          "party": "DEM"
+        }
+      ]
+    },
+    "14": {
+      "office": "State Representative DISTRICT 14",
+      "key": "14",
+      "candidates": [
+        {
+          "name": "MIGUEL P GARCIA",
+          "party": "DEM"
+        },
+        {
+          "name": "RICHARD VICTOR ZUBIA",
+          "party": "REP"
+        }
+      ]
+    },
+    "15": {
+      "office": "State Representative DISTRICT 15",
+      "key": "15",
+      "candidates": [
+        {
+          "name": "DAYAN \"DAY\" MERCEDES HOCHMAN-VIGIL",
+          "party": "DEM"
+        }
+      ]
+    },
+    "16": {
+      "office": "State Representative DISTRICT 16",
+      "key": "16",
+      "candidates": [
+        {
+          "name": "YANIRA GURROLA VALENZUELA",
+          "party": "DEM"
+        }
+      ]
+    },
+    "17": {
+      "office": "State Representative DISTRICT 17",
+      "key": "17",
+      "candidates": [
+        {
+          "name": "CYNTHIA D BORREGO",
+          "party": "DEM"
+        },
+        {
+          "name": "BRENDA DIANE BOATMAN",
+          "party": "REP"
+        }
+      ]
+    },
+    "18": {
+      "office": "State Representative DISTRICT 18",
+      "key": "18",
+      "candidates": [
+        {
+          "name": "MARIANNA A ANAYA",
+          "party": "DEM"
+        }
+      ]
+    },
+    "19": {
+      "office": "State Representative DISTRICT 19",
+      "key": "19",
+      "candidates": [
+        {
+          "name": "JANELLE I ANYANONU",
+          "party": "DEM"
+        }
+      ]
+    },
+    "20": {
+      "office": "State Representative DISTRICT 20",
+      "key": "20",
+      "candidates": [
+        {
+          "name": "MEREDITH A DIXON",
+          "party": "DEM"
+        }
+      ]
+    },
+    "21": {
+      "office": "State Representative DISTRICT 21",
+      "key": "21",
+      "candidates": [
+        {
+          "name": "ROBERT L MASON",
+          "party": "REP"
+        },
+        {
+          "name": "DEBRA MARIE SARINANA",
+          "party": "DEM"
+        }
+      ]
+    },
+    "22": {
+      "office": "State Representative DISTRICT 22",
+      "key": "22",
+      "candidates": [
+        {
+          "name": "STEFANI LORD",
+          "party": "REP"
+        },
+        {
+          "name": "ZACHARY P WITHERS",
+          "party": "DTS"
+        },
+        {
+          "name": "WILLIAM (BILL) SCOTT",
+          "party": "DEM"
+        }
+      ]
+    },
+    "23": {
+      "office": "State Representative DISTRICT 23",
+      "key": "23",
+      "candidates": [
+        {
+          "name": "ALAN T MARTINEZ",
+          "party": "REP"
+        }
+      ]
+    },
+    "24": {
+      "office": "State Representative DISTRICT 24",
+      "key": "24",
+      "candidates": [
+        {
+          "name": "ELIZABETH L THOMSON",
+          "party": "DEM"
+        }
+      ]
+    },
+    "25": {
+      "office": "State Representative DISTRICT 25",
+      "key": "25",
+      "candidates": [
+        {
+          "name": "DENIS LITVINENKO",
+          "party": "REP"
+        },
+        {
+          "name": "CRISTINA S PARAJON",
+          "party": "DEM"
+        }
+      ]
+    },
+    "26": {
+      "office": "State Representative DISTRICT 26",
+      "key": "26",
+      "candidates": [
+        {
+          "name": "ELEANOR CHAVEZ",
+          "party": "DEM"
+        },
+        {
+          "name": "COREY RUBIN ZIMMERMAN",
+          "party": "REP"
+        }
+      ]
+    },
+    "27": {
+      "office": "State Representative DISTRICT 27",
+      "key": "27",
+      "candidates": [
+        {
+          "name": "JAHNELLE LOUISE GARCIA",
+          "party": "REP"
+        },
+        {
+          "name": "ABBY CHRISTINE FOSTER",
+          "party": "DEM"
+        }
+      ]
+    },
+    "28": {
+      "office": "State Representative DISTRICT 28",
+      "key": "28",
+      "candidates": [
+        {
+          "name": "PAMELYA PAULETTE HERNDON",
+          "party": "DEM"
+        },
+        {
+          "name": "BRENDA J OLSON",
+          "party": "REP"
+        }
+      ]
+    },
+    "29": {
+      "office": "State Representative DISTRICT 29",
+      "key": "29",
+      "candidates": [
+        {
+          "name": "JOY I GARRATT",
+          "party": "DEM"
+        },
+        {
+          "name": "CAROLYN STITH",
+          "party": "REP"
+        }
+      ]
+    },
+    "30": {
+      "office": "State Representative DISTRICT 30",
+      "key": "30",
+      "candidates": [
+        {
+          "name": "JERRY L TRUJILLO",
+          "party": "REP"
+        },
+        {
+          "name": "ELIZABETH DIANE TORRES-VELASQUEZ",
+          "party": "DEM"
+        }
+      ]
+    },
+    "31": {
+      "office": "State Representative DISTRICT 31",
+      "key": "31",
+      "candidates": [
+        {
+          "name": "NICOLE CHAVEZ",
+          "party": "REP"
+        },
+        {
+          "name": "LISA K CURTIS",
+          "party": "DEM"
+        }
+      ]
+    },
+    "32": {
+      "office": "State Representative DISTRICT 32",
+      "key": "32",
+      "candidates": [
+        {
+          "name": "JENIFER MARIE JONES",
+          "party": "REP"
+        },
+        {
+          "name": "LAURA MAIREL PARRA",
+          "party": "DEM"
+        }
+      ]
+    },
+    "33": {
+      "office": "State Representative DISTRICT 33",
+      "key": "33",
+      "candidates": [
+        {
+          "name": "MICAELA LARA CADENA",
+          "party": "DEM"
+        },
+        {
+          "name": "ENRIQUE KIKI VIGIL",
+          "party": "REP"
+        }
+      ]
+    },
+    "34": {
+      "office": "State Representative DISTRICT 34",
+      "key": "34",
+      "candidates": [
+        {
+          "name": "RAYMUNDO LARA",
+          "party": "DEM"
+        }
+      ]
+    },
+    "35": {
+      "office": "State Representative DISTRICT 35",
+      "key": "35",
+      "candidates": [
+        {
+          "name": "ANGELICA RUBIO",
+          "party": "DEM"
+        }
+      ]
+    },
+    "36": {
+      "office": "State Representative DISTRICT 36",
+      "key": "36",
+      "candidates": [
+        {
+          "name": "JULIA E RUIZ",
+          "party": "REP"
+        },
+        {
+          "name": "NATHAN P SMALL",
+          "party": "DEM"
+        }
+      ]
+    },
+    "37": {
+      "office": "State Representative DISTRICT 37",
+      "key": "37",
+      "candidates": [
+        {
+          "name": "LORI A MARTINEZ",
+          "party": "DEM"
+        },
+        {
+          "name": "ISABELLA SOLIS",
+          "party": "REP"
+        }
+      ]
+    },
+    "38": {
+      "office": "State Representative DISTRICT 38",
+      "key": "38",
+      "candidates": [
+        {
+          "name": "DAVID L MOONEY",
+          "party": "DEM"
+        },
+        {
+          "name": "REBECCA DOW",
+          "party": "REP"
+        }
+      ]
+    },
+    "39": {
+      "office": "State Representative DISTRICT 39",
+      "key": "39",
+      "candidates": [
+        {
+          "name": "LUIS M TERRAZAS",
+          "party": "REP"
+        },
+        {
+          "name": "RAUL S TURRIETA",
+          "party": "DEM"
+        }
+      ]
+    },
+    "40": {
+      "office": "State Representative DISTRICT 40",
+      "key": "40",
+      "candidates": [
+        {
+          "name": "LANDON MCGUIRE DOOLEY",
+          "party": "REP"
+        },
+        {
+          "name": "JOSEPH L SANCHEZ",
+          "party": "DEM"
+        }
+      ]
+    },
+    "41": {
+      "office": "State Representative DISTRICT 41",
+      "key": "41",
+      "candidates": [
+        {
+          "name": "YOLANDA R JARAMILLO",
+          "party": "DEM"
+        }
+      ]
+    },
+    "42": {
+      "office": "State Representative DISTRICT 42",
+      "key": "42",
+      "candidates": [
+        {
+          "name": "KRISTINA ORTEZ",
+          "party": "DEM"
+        }
+      ]
+    },
+    "43": {
+      "office": "State Representative DISTRICT 43",
+      "key": "43",
+      "candidates": [
+        {
+          "name": "CHRISTINE CHANDLER",
+          "party": "DEM"
+        }
+      ]
+    },
+    "44": {
+      "office": "State Representative DISTRICT 44",
+      "key": "44",
+      "candidates": [
+        {
+          "name": "KATHLEEN M CATES",
+          "party": "DEM"
+        },
+        {
+          "name": "ADAM STANLEY PRIOR",
+          "party": "REP"
+        }
+      ]
+    },
+    "45": {
+      "office": "State Representative DISTRICT 45",
+      "key": "45",
+      "candidates": [
+        {
+          "name": "LINDA MICHELLE SERRATO",
+          "party": "DEM"
+        }
+      ]
+    },
+    "46": {
+      "office": "State Representative DISTRICT 46",
+      "key": "46",
+      "candidates": [
+        {
+          "name": "ANDREA D ROMERO",
+          "party": "DEM"
+        }
+      ]
+    },
+    "47": {
+      "office": "State Representative DISTRICT 47",
+      "key": "47",
+      "candidates": [
+        {
+          "name": "REENA C SZCZEPANSKI",
+          "party": "DEM"
+        }
+      ]
+    },
+    "48": {
+      "office": "State Representative DISTRICT 48",
+      "key": "48",
+      "candidates": [
+        {
+          "name": "TARA L LUJAN",
+          "party": "DEM"
+        },
+        {
+          "name": "VICTORIA MAY GARCIA",
+          "party": "REP"
+        }
+      ]
+    },
+    "49": {
+      "office": "State Representative DISTRICT 49",
+      "key": "49",
+      "candidates": [
+        {
+          "name": "GAIL \"MISSY\" ARMSTRONG",
+          "party": "REP"
+        }
+      ]
+    },
+    "50": {
+      "office": "State Representative DISTRICT 50",
+      "key": "50",
+      "candidates": [
+        {
+          "name": "KENNETH DONALD BRENNAN",
+          "party": "REP"
+        },
+        {
+          "name": "SARAH BOSES",
+          "party": "DEM"
+        }
+      ]
+    },
+    "51": {
+      "office": "State Representative DISTRICT 51",
+      "key": "51",
+      "candidates": [
+        {
+          "name": "JOHN BLOCK",
+          "party": "REP"
+        },
+        {
+          "name": "GRACE A NAGAMINE",
+          "party": "DTS"
+        }
+      ]
+    },
+    "52": {
+      "office": "State Representative DISTRICT 52",
+      "key": "52",
+      "candidates": [
+        {
+          "name": "DOREEN YVONNE GALLEGOS",
+          "party": "DEM"
+        }
+      ]
+    },
+    "53": {
+      "office": "State Representative DISTRICT 53",
+      "key": "53",
+      "candidates": [
+        {
+          "name": "BEN LUNA, JR",
+          "party": "REP"
+        },
+        {
+          "name": "SARAH ANGELINA SILVA",
+          "party": "DEM"
+        }
+      ]
+    },
+    "54": {
+      "office": "State Representative DISTRICT 54",
+      "key": "54",
+      "candidates": [
+        {
+          "name": "JONATHAN ALLEN HENRY",
+          "party": "REP"
+        }
+      ]
+    },
+    "55": {
+      "office": "State Representative DISTRICT 55",
+      "key": "55",
+      "candidates": [
+        {
+          "name": "CATHRYNN N BROWN",
+          "party": "REP"
+        }
+      ]
+    },
+    "56": {
+      "office": "State Representative DISTRICT 56",
+      "key": "56",
+      "candidates": [
+        {
+          "name": "HARLAN H VINCENT",
+          "party": "REP"
+        }
+      ]
+    },
+    "57": {
+      "office": "State Representative DISTRICT 57",
+      "key": "57",
+      "candidates": [
+        {
+          "name": "CHRISELLE VERENE MARTINEZ",
+          "party": "DEM"
+        },
+        {
+          "name": "CATHERINE JEANETTE CULLEN",
+          "party": "REP"
+        }
+      ]
+    },
+    "58": {
+      "office": "State Representative DISTRICT 58",
+      "key": "58",
+      "candidates": [
+        {
+          "name": "ANGELITA MEJIA",
+          "party": "REP"
+        }
+      ]
+    },
+    "59": {
+      "office": "State Representative DISTRICT 59",
+      "key": "59",
+      "candidates": [
+        {
+          "name": "STEPHEN RYAN DODSON",
+          "party": "REP"
+        }
+      ]
+    },
+    "60": {
+      "office": "State Representative DISTRICT 60",
+      "key": "60",
+      "candidates": [
+        {
+          "name": "LUKE NICHOLAS JUNGMANN",
+          "party": "DEM"
+        },
+        {
+          "name": "JOSHUA N HERNANDEZ",
+          "party": "REP"
+        }
+      ]
+    },
+    "61": {
+      "office": "State Representative DISTRICT 61",
+      "key": "61",
+      "candidates": [
+        {
+          "name": "RANDALL THOMAS PETTIGREW",
+          "party": "REP"
+        }
+      ]
+    },
+    "62": {
+      "office": "State Representative DISTRICT 62",
+      "key": "62",
+      "candidates": [
+        {
+          "name": "ELAINE SENA CORTEZ",
+          "party": "REP"
+        }
+      ]
+    },
+    "63": {
+      "office": "State Representative DISTRICT 63",
+      "key": "63",
+      "candidates": [
+        {
+          "name": "SETH H MARTIN",
+          "party": "REP"
+        }
+      ]
+    },
+    "64": {
+      "office": "State Representative DISTRICT 64",
+      "key": "64",
+      "candidates": [
+        {
+          "name": "ANDREA R REEB",
+          "party": "REP"
+        }
+      ]
+    },
+    "65": {
+      "office": "State Representative DISTRICT 65",
+      "key": "65",
+      "candidates": [
+        {
+          "name": "DERRICK J LENTE",
+          "party": "DEM"
+        }
+      ]
+    },
+    "66": {
+      "office": "State Representative DISTRICT 66",
+      "key": "66",
+      "candidates": [
+        {
+          "name": "LEANNE GANDY",
+          "party": "REP"
+        }
+      ]
+    },
+    "67": {
+      "office": "State Representative DISTRICT 67",
+      "key": "67",
+      "candidates": [
+        {
+          "name": "JACKEY O CHATFIELD",
+          "party": "REP"
+        },
+        {
+          "name": "VINCENT M SOULE",
+          "party": "DEM"
+        }
+      ]
+    },
+    "68": {
+      "office": "State Representative DISTRICT 68",
+      "key": "68",
+      "candidates": [
+        {
+          "name": "CHARLOTTE L LITTLE",
+          "party": "DEM"
+        },
+        {
+          "name": "DAVID E ADKINS",
+          "party": "REP"
+        }
+      ]
+    },
+    "69": {
+      "office": "State Representative DISTRICT 69",
+      "key": "69",
+      "candidates": [
+        {
+          "name": "MICHELLE PAULENE ABEYTA",
+          "party": "DEM"
+        }
+      ]
+    },
+    "70": {
+      "office": "State Representative DISTRICT 70",
+      "key": "70",
+      "candidates": [
+        {
+          "name": "ANITA AMALIA GONZALES",
+          "party": "DEM"
+        }
+      ]
+    }
+  },
+  "local": {},
+  "annotations": {}
+}

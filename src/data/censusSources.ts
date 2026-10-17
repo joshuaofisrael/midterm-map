@@ -69,6 +69,18 @@ export const zctaCd119Citation: Citation = {
   accessed: CENSUS_PLACES_UPDATED,
 };
 
+export const sldUpperCitation: Citation = {
+  name: "U.S. Census Bureau, 2024 State Legislative District (Upper Chamber) to 2020 Place Relationship File (tab20_sldu202420_place20_natl.txt). Overlaps with no land area are omitted. The file is the 2024 district vintage.",
+  url: RELATIONSHIP_FILES_URL,
+  accessed: CENSUS_PLACES_UPDATED,
+};
+
+export const sldLowerCitation: Citation = {
+  name: "U.S. Census Bureau, 2024 State Legislative District (Lower Chamber) to 2020 Place Relationship File (tab20_sldl202420_place20_natl.txt). Overlaps with no land area are omitted. The file is the 2024 district vintage.",
+  url: RELATIONSHIP_FILES_URL,
+  accessed: CENSUS_PLACES_UPDATED,
+};
+
 export const zctaBlockCitation: Citation = {
   name: "U.S. Census Bureau, 2020 ZIP Code Tabulation Area (ZCTA5) to 2020 Census Tabulation Block Relationship File (tab20_zcta520_tabblock20_natl.txt), joined to the 120th Congressional District Block Equivalency Files for Alabama, California, Florida, Louisiana, North Carolina, Ohio, Tennessee, Texas, and Utah. A 120th Congressional District to ZCTA relationship file is not published.",
   url: RELATIONSHIP_FILES_URL,

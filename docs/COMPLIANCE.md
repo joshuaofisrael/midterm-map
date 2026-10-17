@@ -113,7 +113,11 @@ Update this file and the public legal pages together if you add analytics, accou
 
 ## City-page candidate names (October 17, 2026)
 
-Place pages list 2026 general-election candidate names and parties only when an official state election-office certified or candidate list was read on October 17, 2026. The page cites that list’s URL and the date it was read. Names and parties are copied in the list’s order. A state whose official list was not available says “Official candidate list not yet published” and links the state election office. Pages do not show ratings, rankings, or contact details. Mayor and council races are omitted; no official county or city list was matched to a place.
+Place pages list 2026 general-election candidate names and parties only when an official state election-office certified or candidate list was read on October 17, 2026. The page cites that list’s URL and the date it was read. Names and parties are copied in the list’s order. A state whose official list was not available says “Official candidate list not yet published” and links the state election office. Pages do not show ratings, rankings, or contact details.
+
+## City-page 2026 ballot summaries (October 17, 2026)
+
+Each place page has a “2026 ballot” section. U.S. House and U.S. Senate descriptions use the National Archives Constitution transcript (Article I and Amendment XVII) and 2 U.S.C. §§ 1 and 7 on govinfo, read October 17, 2026. State legislative district names are the Census Bureau 2024 upper- and lower-chamber to 2020 place relationship files, land area greater than zero only, and are labeled as that vintage. Legislative candidates are added only when an official list already read for that state names the district number. Virginia local mayor and council contests are copied from the Department of Elections all-offices list when the district cell matches one Census place. Other places say “Local races: no official listing found yet” and link a state county-election directory read that day, or the state election office when no directory page was read. Pages do not call a seat open unless the official list says so, and they do not state a results URL the sources did not print. Of 32,355 places, 175 have at least one matched local contest and 32,180 are federal and state only.
 
 ## ZIP search (October 17, 2026)
 

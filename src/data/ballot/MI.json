@@ -1,0 +1,2266 @@
+{
+  "statewide": [
+    {
+      "office": "Secretary of State 4 Year Term (1) Position",
+      "key": null,
+      "candidates": [
+        {
+          "name": "Gilchrist II, Garlin",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Forlini, Anthony G.",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Sloan, Christine",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Aughney, Scott E.",
+          "party": "U.S. Taxpayers Party"
+        },
+        {
+          "name": "Borregard, Eric",
+          "party": "Green Party"
+        }
+      ]
+    },
+    {
+      "office": "Attorney General 4 Year Term (1) Position",
+      "key": null,
+      "candidates": [
+        {
+          "name": "Savit, Eli",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Lloyd, Doug",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Dye, Jason",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Ludtke Jr., John Perry",
+          "party": "U.S. Taxpayers Party"
+        },
+        {
+          "name": "Polonowski, Jeff",
+          "party": "Green Party"
+        },
+        {
+          "name": "Dern, Doug",
+          "party": "Natural Law Party"
+        }
+      ]
+    }
+  ],
+  "upper": {
+    "1": {
+      "office": "1st District State Senator 4 Year Term (1) Position Files In WAYNE County",
+      "key": "1",
+      "candidates": [
+        {
+          "name": "Onwenu, Justin",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "O'Connell, Patrick",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "2": {
+      "office": "2nd District State Senator 4 Year Term (1) Position Files In WAYNE County",
+      "key": "2",
+      "candidates": [
+        {
+          "name": "Alawieh, Abbas",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Sawicki, Harry",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Betts, Larry Darnell",
+          "party": "Working Class Party"
+        }
+      ]
+    },
+    "3": {
+      "office": "3rd District State Senator 4 Year Term (1) Position Files In WAYNE County",
+      "key": "3",
+      "candidates": [
+        {
+          "name": "Conyers III, John",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Price, Mark Ashley",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Roehrig, David",
+          "party": "Working Class Party"
+        }
+      ]
+    },
+    "4": {
+      "office": "4th District State Senator 4 Year Term (1) Position Files In WAYNE County",
+      "key": "4",
+      "candidates": [
+        {
+          "name": "Camilleri, Darrin",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Grzywacz, Marcie",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Socia, Beth Ann",
+          "party": "U.S. Taxpayers Party"
+        },
+        {
+          "name": "Willis, Walter",
+          "party": "Working Class Party"
+        }
+      ]
+    },
+    "5": {
+      "office": "5th District State Senator 4 Year Term (1) Position Files In WAYNE County",
+      "key": "5",
+      "candidates": [
+        {
+          "name": "Koleszar, Matt",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Oliansky, Estelle",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "6": {
+      "office": "6th District State Senator 4 Year Term (1) Position Files In WAYNE County",
+      "key": "6",
+      "candidates": [
+        {
+          "name": "Cavanagh, Mary",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Pokerwinski, Joi",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "7": {
+      "office": "7th District State Senator 4 Year Term (1) Position Files In OAKLAND County",
+      "key": "7",
+      "candidates": [
+        {
+          "name": "Hoskins, Jason",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Paesano, Anthony",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "8": {
+      "office": "8th District State Senator 4 Year Term (1) Position",
+      "key": "8",
+      "candidates": [
+        {
+          "name": "Polehanki, Dayna",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Massey, Kenneth D.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "9": {
+      "office": "9th District State Senator 4 Year Term (1) Position",
+      "key": "9",
+      "candidates": [
+        {
+          "name": "Brooks, Theresa",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Webber, Michael",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Schodowski, Jacob R.",
+          "party": "Working Class Party"
+        }
+      ]
+    },
+    "10": {
+      "office": "10th District State Senator 4 Year Term (1) Position",
+      "key": "10",
+      "candidates": [
+        {
+          "name": "Price, Natalie",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Nard, Michelle",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "11": {
+      "office": "11th District State Senator 4 Year Term (1) Position Files In MACOMB County",
+      "key": "11",
+      "candidates": [
+        {
+          "name": "Klinefelt, Veronica",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Townsend, Johnnie S.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "12": {
+      "office": "12th District State Senator 4 Year Term (1) Position",
+      "key": "12",
+      "candidates": [
+        {
+          "name": "Hertel, Kevin",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Goldwater, John",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "13": {
+      "office": "13th District State Senator 4 Year Term (1) Position Files In OAKLAND County",
+      "key": "13",
+      "candidates": [
+        {
+          "name": "Carlson, Sean",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Berman, Ryan",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "14": {
+      "office": "14th District State Senator 4 Year Term (1) Position",
+      "key": "14",
+      "candidates": [
+        {
+          "name": "Shink, Sue",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Beliger, Tawn Shawnelle",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "15": {
+      "office": "15th District State Senator 4 Year Term (1) Position",
+      "key": "15",
+      "candidates": [
+        {
+          "name": "Brabec, Felicia",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Rogers, Jason",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "16": {
+      "office": "16th District State Senator 4 Year Term (1) Position",
+      "key": "16",
+      "candidates": [
+        {
+          "name": "Barnes, Deandre",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Bellino Jr., Joseph",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "17": {
+      "office": "17th District State Senator 4 Year Term (1) Position",
+      "key": "17",
+      "candidates": [
+        {
+          "name": "Baker, Ashleigh",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Lindsey, Jonathan",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "18": {
+      "office": "18th District State Senator 4 Year Term (1) Position",
+      "key": "18",
+      "candidates": [
+        {
+          "name": "Pennock, Anthony",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Albert, Thomas A.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "19": {
+      "office": "19th District State Senator 4 Year Term (1) Position",
+      "key": "19",
+      "candidates": [
+        {
+          "name": "Rogers, Julie M.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Young, Shaun",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "20": {
+      "office": "20th District State Senator 4 Year Term (1) Position",
+      "key": "20",
+      "candidates": [
+        {
+          "name": "Murney, Dale",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Moraitis, Chris",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Clay, Shamara",
+          "party": "Green Party"
+        }
+      ]
+    },
+    "21": {
+      "office": "21st District State Senator 4 Year Term (1) Position",
+      "key": "21",
+      "candidates": [
+        {
+          "name": "Anthony, Sarah",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Burns, Josh",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "22": {
+      "office": "22nd District State Senator 4 Year Term (1) Position",
+      "key": "22",
+      "candidates": [
+        {
+          "name": "Hower, Robert",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Murphy, Mike",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "23": {
+      "office": "23rd District State Senator 4 Year Term (1) Position",
+      "key": "23",
+      "candidates": [
+        {
+          "name": "Hill, Greg",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Steele, Donni",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "24": {
+      "office": "24th District State Senator 4 Year Term (1) Position Files In MACOMB County",
+      "key": "24",
+      "candidates": [
+        {
+          "name": "Sako, Edlira",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Wozniak, Douglas Chester",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "25": {
+      "office": "25th District State Senator 4 Year Term (1) Position",
+      "key": "25",
+      "candidates": [
+        {
+          "name": "Osentoski, April L.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Beeler, Andrew",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "26": {
+      "office": "26th District State Senator 4 Year Term (1) Position",
+      "key": "26",
+      "candidates": [
+        {
+          "name": "Johnson, Brendan J.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Bierlein, Matthew",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "27": {
+      "office": "27th District State Senator 4 Year Term (1) Position Files In GENESEE County",
+      "key": "27",
+      "candidates": [
+        {
+          "name": "Cherry, John D.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Bain, Bill",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "28": {
+      "office": "28th District State Senator 4 Year Term (1) Position",
+      "key": "28",
+      "candidates": [
+        {
+          "name": "Harrison, Rashida",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "DeRose, Julie L.",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Crabill, Brandon",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Peterson, Wes",
+          "party": "Working Class Party"
+        }
+      ]
+    },
+    "29": {
+      "office": "29th District State Senator 4 Year Term (1) Position Files In KENT County",
+      "key": "29",
+      "candidates": [
+        {
+          "name": "Groff-Blaszak, Abbie",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Middleton, Brady A.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "30": {
+      "office": "30th District State Senator 4 Year Term (1) Position",
+      "key": "30",
+      "candidates": [
+        {
+          "name": "Glanville, Carol",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Huizenga, Mark E.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "31": {
+      "office": "31st District State Senator 4 Year Term (1) Position",
+      "key": "31",
+      "candidates": [
+        {
+          "name": "Kleinjans, Chris",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Wetzel, John",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "32": {
+      "office": "32nd District State Senator 4 Year Term (1) Position",
+      "key": "32",
+      "candidates": [
+        {
+          "name": "Amidon, Rebecca",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Cole, Kim",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "33": {
+      "office": "33rd District State Senator 4 Year Term (1) Position",
+      "key": "33",
+      "candidates": [
+        {
+          "name": "Opal, Stan",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Johnsen, Gina",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "34": {
+      "office": "34th District State Senator 4 Year Term (1) Position",
+      "key": "34",
+      "candidates": [
+        {
+          "name": "Landgraf, Tyler",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Hauck, Roger",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "35": {
+      "office": "35th District State Senator 4 Year Term (1) Position",
+      "key": "35",
+      "candidates": [
+        {
+          "name": "Greene, Chedrick",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Tunney, Jason",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Atwood, Laurie",
+          "party": "U.S. Taxpayers Party"
+        }
+      ]
+    },
+    "36": {
+      "office": "36th District State Senator 4 Year Term (1) Position",
+      "key": "36",
+      "candidates": [
+        {
+          "name": "Yonkman, Mark W.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Hoitenga, Michele",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "37": {
+      "office": "37th District State Senator 4 Year Term (1) Position",
+      "key": "37",
+      "candidates": [
+        {
+          "name": "Gallup, Kate",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Damoose, John",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "38": {
+      "office": "38th District State Senator 4 Year Term (1) Position",
+      "key": "38",
+      "candidates": [
+        {
+          "name": "Van Ginhoven, Kelli J.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Prestin, David",
+          "party": "Republican Party"
+        }
+      ]
+    }
+  },
+  "lower": {
+    "1": {
+      "office": "1st District Representative in State Legislature 2 Year Term (1) Position Files In WAYNE County",
+      "key": "1",
+      "candidates": [
+        {
+          "name": "Carter, Tyrone",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Whittaker, Valerie",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "2": {
+      "office": "2nd District Representative in State Legislature 2 Year Term (1) Position Files In WAYNE County",
+      "key": "2",
+      "candidates": [
+        {
+          "name": "Whaley, Joanna",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Kokinda, Ron",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "3": {
+      "office": "3rd District Representative in State Legislature 2 Year Term (1) Position Files In WAYNE County",
+      "key": "3",
+      "candidates": [
+        {
+          "name": "Farhat, Alabas",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Tarraf, Gus",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "4": {
+      "office": "4th District Representative in State Legislature 2 Year Term (1) Position Files In WAYNE County",
+      "key": "4",
+      "candidates": [
+        {
+          "name": "Ross, Regina",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Davis, Everett",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "5": {
+      "office": "5th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "5",
+      "candidates": [
+        {
+          "name": "Calloway, Candace",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Venable, Chris",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "6": {
+      "office": "6th District Representative in State Legislature 2 Year Term (1) Position Files In OAKLAND County",
+      "key": "6",
+      "candidates": [
+        {
+          "name": "Macey, Melanie",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Steger, Mike",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "7": {
+      "office": "7th District Representative in State Legislature 2 Year Term (1) Position Files In WAYNE County",
+      "key": "7",
+      "candidates": [
+        {
+          "name": "Phillips, Tonya Myers",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Moorer, Reginald",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "8": {
+      "office": "8th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "8",
+      "candidates": [
+        {
+          "name": "Gilmer-Hill, Chris",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Langran, Bruce P.",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Boyle, Stephen",
+          "party": "Green Party"
+        }
+      ]
+    },
+    "9": {
+      "office": "9th District Representative in State Legislature 2 Year Term (1) Position Files In WAYNE County",
+      "key": "9",
+      "candidates": [
+        {
+          "name": "Burton, Willie",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Lundgren, Michele",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Smith, Jahdante John Elijah",
+          "party": "Green Party"
+        },
+        {
+          "name": "Ausherman, Logan",
+          "party": "Working Class Party"
+        }
+      ]
+    },
+    "10": {
+      "office": "10th District Representative in State Legislature 2 Year Term (1) Position Files In WAYNE County",
+      "key": "10",
+      "candidates": [
+        {
+          "name": "Paiz, Veronica",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Ochs, Peter",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Smith, Piper Willow",
+          "party": "Working Class Party"
+        }
+      ]
+    },
+    "11": {
+      "office": "11th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "11",
+      "candidates": [
+        {
+          "name": "Fisher, Kimberly",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Stafford, Matthew",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "12": {
+      "office": "12th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "12",
+      "candidates": [
+        {
+          "name": "Edwards, Kimberly L.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Shafer, Randell J.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "13": {
+      "office": "13th District Representative in State Legislature 2 Year Term (1) Position Files In MACOMB County",
+      "key": "13",
+      "candidates": [
+        {
+          "name": "Xiong, Mai",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Foster, Mark Thomas",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "14": {
+      "office": "14th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "14",
+      "candidates": [
+        {
+          "name": "McFall, Mike",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Szyska, Larry",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Sparling, Jeff",
+          "party": "Green Party"
+        }
+      ]
+    },
+    "15": {
+      "office": "15th District Representative in State Legislature 2 Year Term (1) Position Files In WAYNE County",
+      "key": "15",
+      "candidates": [
+        {
+          "name": "Abdallah, Jalal",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Nehme, Hassan H",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "16": {
+      "office": "16th District Representative in State Legislature 2 Year Term (1) Position Files In WAYNE County",
+      "key": "16",
+      "candidates": [
+        {
+          "name": "Young, Stephanie A.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Duggan, Brian M.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "17": {
+      "office": "17th District Representative in State Legislature 2 Year Term (1) Position Files In WAYNE County",
+      "key": "17",
+      "candidates": [
+        {
+          "name": "Pohutsky, Laurie",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Crider, Ken",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "18": {
+      "office": "18th District Representative in State Legislature 2 Year Term (1) Position Files In OAKLAND County",
+      "key": "18",
+      "candidates": [
+        {
+          "name": "Garrett, Kelly",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Foster, Ryan",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "19": {
+      "office": "19th District Representative in State Legislature 2 Year Term (1) Position Files In OAKLAND County",
+      "key": "19",
+      "candidates": [
+        {
+          "name": "Steckloff, Samantha",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Hammer, Kevin J.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "20": {
+      "office": "20th District Representative in State Legislature 2 Year Term (1) Position Files In OAKLAND County",
+      "key": "20",
+      "candidates": [
+        {
+          "name": "Arbit, Noah",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Sullivan, S. David",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "21": {
+      "office": "21st District Representative in State Legislature 2 Year Term (1) Position Files In OAKLAND County",
+      "key": "21",
+      "candidates": [
+        {
+          "name": "Breen, Kelly",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Barranco, Ross",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "22": {
+      "office": "22nd District Representative in State Legislature 2 Year Term (1) Position Files In WAYNE County",
+      "key": "22",
+      "candidates": [
+        {
+          "name": "McIntyre, Lisa",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Noce, Casey J.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "23": {
+      "office": "23rd District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "23",
+      "candidates": [
+        {
+          "name": "Morgan, Jason",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Corvino, Miriam",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Marudas, Christina",
+          "party": "Green Party"
+        }
+      ]
+    },
+    "24": {
+      "office": "24th District Representative in State Legislature 2 Year Term (1) Position Files In WAYNE County",
+      "key": "24",
+      "candidates": [
+        {
+          "name": "Puri, Ranjeev",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Fuller, Allison Kay",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "25": {
+      "office": "25th District Representative in State Legislature 2 Year Term (1) Position Files In WAYNE County",
+      "key": "25",
+      "candidates": [
+        {
+          "name": "Herzberg, Peter",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Udell, Dawn",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "26": {
+      "office": "26th District Representative in State Legislature 2 Year Term (1) Position Files In WAYNE County",
+      "key": "26",
+      "candidates": [
+        {
+          "name": "Wegela, Dylan",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Dobis, Chris",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "27": {
+      "office": "27th District Representative in State Legislature 2 Year Term (1) Position Files In WAYNE County",
+      "key": "27",
+      "candidates": [
+        {
+          "name": "Churches, Jaime",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Linting, Rylee",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "28": {
+      "office": "28th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "28",
+      "candidates": [
+        {
+          "name": "Berecz, Sherry A.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Thompson, Jamie",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "29": {
+      "office": "29th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "29",
+      "candidates": [
+        {
+          "name": "Counts, Darian",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "DeSana, James",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "30": {
+      "office": "30th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "30",
+      "candidates": [
+        {
+          "name": "Ferdin, Omar G.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Bruck, William",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "31": {
+      "office": "31st District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "31",
+      "candidates": [
+        {
+          "name": "Wayne, Shannon Dare",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Perry, Laura M.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "32": {
+      "office": "32nd District Representative in State Legislature 2 Year Term (1) Position Files In WASHTENAW County",
+      "key": "32",
+      "candidates": [
+        {
+          "name": "Wilson Jr., Jimmie",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Eller, Mike",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Tatar, John R.",
+          "party": "U.S. Taxpayers Party"
+        },
+        {
+          "name": "Sample, Ryan",
+          "party": "Green Party"
+        }
+      ]
+    },
+    "33": {
+      "office": "33rd District Representative in State Legislature 2 Year Term (1) Position Files In WASHTENAW County",
+      "key": "33",
+      "candidates": [
+        {
+          "name": "Foreman, Morgan",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Rogers, Catherine",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "34": {
+      "office": "34th District Representative in State Legislature 2 Year Term (1) Position Files In LENAWEE County",
+      "key": "34",
+      "candidates": [
+        {
+          "name": "Dahlgren, John",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Jenkins-Arno, Nancy",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "35": {
+      "office": "35th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "35",
+      "candidates": [
+        {
+          "name": "Cooley, Jeff",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Wortz, Jennifer",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "36": {
+      "office": "36th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "36",
+      "candidates": [
+        {
+          "name": "Slaski, Cole",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Carra, Steve",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "37": {
+      "office": "37th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "37",
+      "candidates": [
+        {
+          "name": "Jones, Angela M.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Paquette, Brad",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "38": {
+      "office": "38th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "38",
+      "candidates": [
+        {
+          "name": "Andrews, Joey",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Krieger, Mark",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Newton, Jett",
+          "party": "Green Party"
+        }
+      ]
+    },
+    "39": {
+      "office": "39th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "39",
+      "candidates": [
+        {
+          "name": "Tapper, Kerry",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Wendzel, Pauline",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Polonowski, Jared",
+          "party": "Green Party"
+        }
+      ]
+    },
+    "40": {
+      "office": "40th District Representative in State Legislature 2 Year Term (1) Position Files In KALAMAZOO County",
+      "key": "40",
+      "candidates": [
+        {
+          "name": "Longjohn, Matt",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Sitarski, Robert M.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "41": {
+      "office": "41st District Representative in State Legislature 2 Year Term (1) Position Files In KALAMAZOO County",
+      "key": "41",
+      "candidates": [
+        {
+          "name": "Strebs, Jen",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Sabel, Nicole C.",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Wolf, Rafael",
+          "party": "Libertarian Party"
+        }
+      ]
+    },
+    "42": {
+      "office": "42nd District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "42",
+      "candidates": [
+        {
+          "name": "Rowe, Nick",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Hall, Matt",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "43": {
+      "office": "43rd District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "43",
+      "candidates": [
+        {
+          "name": "Swank, Alan",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Smit, Rachelle",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "44": {
+      "office": "44th District Representative in State Legislature 2 Year Term (1) Position Files In CALHOUN County",
+      "key": "44",
+      "candidates": [
+        {
+          "name": "Haadsma, Jim",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Frisbie, Steve",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "45": {
+      "office": "45th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "45",
+      "candidates": [
+        {
+          "name": "Davis, Randy",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Lightner, Sarah",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "46": {
+      "office": "46th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "46",
+      "candidates": [
+        {
+          "name": "Maino, Jan",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Schmaltz, Kathy",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "47": {
+      "office": "47th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "47",
+      "candidates": [
+        {
+          "name": "Rheingans, Carrie A.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Griffis, Justin",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "48": {
+      "office": "48th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "48",
+      "candidates": [
+        {
+          "name": "Conlin, Jennifer A.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Ignatowski, Brian",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "49": {
+      "office": "49th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "49",
+      "candidates": [
+        {
+          "name": "Pelchat, Dan",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Bollin, Ann M.",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Step, Trevor",
+          "party": "Libertarian Party"
+        }
+      ]
+    },
+    "50": {
+      "office": "50th District Representative in State Legislature 2 Year Term (1) Position Files In LIVINGSTON County",
+      "key": "50",
+      "candidates": [
+        {
+          "name": "Canedo, Cassie",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Woolford, Jason",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "51": {
+      "office": "51st District Representative in State Legislature 2 Year Term (1) Position Files In OAKLAND County",
+      "key": "51",
+      "candidates": [
+        {
+          "name": "McDuffie, Stacey",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Maddock, Matt",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "52": {
+      "office": "52nd District Representative in State Legislature 2 Year Term (1) Position Files In OAKLAND County",
+      "key": "52",
+      "candidates": [
+        {
+          "name": "Leddy, Brendan P.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Harris, Mike",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "53": {
+      "office": "53rd District Representative in State Legislature 2 Year Term (1) Position Files In OAKLAND County",
+      "key": "53",
+      "candidates": [
+        {
+          "name": "Carter, Brenda",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Schultz, Melissa",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "54": {
+      "office": "54th District Representative in State Legislature 2 Year Term (1) Position Files In OAKLAND County",
+      "key": "54",
+      "candidates": [
+        {
+          "name": "Pounds, Sarah",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Gaskey, Roman",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "55": {
+      "office": "55th District Representative in State Legislature 2 Year Term (1) Position Files In OAKLAND County",
+      "key": "55",
+      "candidates": [
+        {
+          "name": "Hawkins, Alex",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Tisdel, Mark",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "56": {
+      "office": "56th District Representative in State Legislature 2 Year Term (1) Position Files In OAKLAND County",
+      "key": "56",
+      "candidates": [
+        {
+          "name": "MacDonell, Sharon",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Baddi, Ashok",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "57": {
+      "office": "57th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "57",
+      "candidates": [
+        {
+          "name": "Turner, Tom",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Kuhn, Thomas E.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "58": {
+      "office": "58th District Representative in State Legislature 2 Year Term (1) Position Files In MACOMB County",
+      "key": "58",
+      "candidates": [
+        {
+          "name": "Manetta, Katrina",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Robinson, Ron",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "59": {
+      "office": "59th District Representative in State Legislature 2 Year Term (1) Position Files In MACOMB County",
+      "key": "59",
+      "candidates": [
+        {
+          "name": "Robbins, Jason",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Grot, Sylvia",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "60": {
+      "office": "60th District Representative in State Legislature 2 Year Term (1) Position Files In MACOMB County",
+      "key": "60",
+      "candidates": [
+        {
+          "name": "Gray, Amy",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Aragona, Joseph",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "61": {
+      "office": "61st District Representative in State Legislature 2 Year Term (1) Position Files In MACOMB County",
+      "key": "61",
+      "candidates": [
+        {
+          "name": "Mentzer, Denise",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Wojtowicz, Robert",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "62": {
+      "office": "62nd District Representative in State Legislature 2 Year Term (1) Position Files In MACOMB County",
+      "key": "62",
+      "candidates": [
+        {
+          "name": "Smith, Matthew",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "St. Germaine, Alicia",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "63": {
+      "office": "63rd District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "63",
+      "candidates": [
+        {
+          "name": "Sonneberger, Jamie",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "DeBoyer, Jay",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Hornberger, Pamela",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "64": {
+      "office": "64th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "64",
+      "candidates": [
+        {
+          "name": "Heuvelman, Ken",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Pavlov, Joseph G.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "65": {
+      "office": "65th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "65",
+      "candidates": [
+        {
+          "name": "O'Brien, James M.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Greene, Jaime",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "66": {
+      "office": "66th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "66",
+      "candidates": [
+        {
+          "name": "Zimmer, Ned",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Schriver, Josh",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "67": {
+      "office": "67th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "67",
+      "candidates": [
+        {
+          "name": "Getz, Leslie",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Green, Phil",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "68": {
+      "office": "68th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "68",
+      "candidates": [
+        {
+          "name": "Schlinker, Matt",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Martin, David W.",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Martin, Deanna L",
+          "party": "Libertarian Party"
+        }
+      ]
+    },
+    "69": {
+      "office": "69th District Representative in State Legislature 2 Year Term (1) Position Files In GENESEE County",
+      "key": "69",
+      "candidates": [
+        {
+          "name": "Martus, Jasper Ryan",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Duvendeck, Patrick",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Childress, Adam Blake",
+          "party": "Libertarian Party"
+        }
+      ]
+    },
+    "70": {
+      "office": "70th District Representative in State Legislature 2 Year Term (1) Position Files In GENESEE County",
+      "key": "70",
+      "candidates": [
+        {
+          "name": "Neeley, Cynthia R.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Hutchinson, Larry",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "71": {
+      "office": "71st District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "71",
+      "candidates": [
+        {
+          "name": "Schlaack, Stephen",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "BeGole, Brian",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "72": {
+      "office": "72nd District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "72",
+      "candidates": [
+        {
+          "name": "Ryan, Thomas",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Mueller, Mike",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "73": {
+      "office": "73rd District Representative in State Legislature 2 Year Term (1) Position Files In INGHAM County",
+      "key": "73",
+      "candidates": [
+        {
+          "name": "Brixie, Julie",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Rockey, Joshua Jon",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "74": {
+      "office": "74th District Representative in State Legislature 2 Year Term (1) Position Files In INGHAM County",
+      "key": "74",
+      "candidates": [
+        {
+          "name": "Pope, Harold A.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Tarver, Clinton",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "75": {
+      "office": "75th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "75",
+      "candidates": [
+        {
+          "name": "Tsernoglou, Penelope",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Lambert, Frank",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "76": {
+      "office": "76th District Representative in State Legislature 2 Year Term (1) Position Files In EATON County",
+      "key": "76",
+      "candidates": [
+        {
+          "name": "Witwer, Angela",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Kaiser, Bill",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "77": {
+      "office": "77th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "77",
+      "candidates": [
+        {
+          "name": "Dievendorf, Emily",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Nelton, Sally Jo",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Long, Jennifer",
+          "party": "Libertarian Party"
+        }
+      ]
+    },
+    "78": {
+      "office": "78th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "78",
+      "candidates": [
+        {
+          "name": "Gross, Rachel",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Strong, Brandon L.",
+          "party": "Republican Party"
+        },
+        {
+          "name": "DeJong, Ben",
+          "party": "Libertarian Party"
+        }
+      ]
+    },
+    "79": {
+      "office": "79th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "79",
+      "candidates": [
+        {
+          "name": "Abbott, Zach",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Rigas, Angela",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "80": {
+      "office": "80th District Representative in State Legislature 2 Year Term (1) Position Files In KENT County",
+      "key": "80",
+      "candidates": [
+        {
+          "name": "Cheng-Schulting, Lily",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Lee, Doug",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "81": {
+      "office": "81st District Representative in State Legislature 2 Year Term (1) Position Files In KENT County",
+      "key": "81",
+      "candidates": [
+        {
+          "name": "Wooden, Stephen",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "DeBoer, Holly",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "82": {
+      "office": "82nd District Representative in State Legislature 2 Year Term (1) Position Files In KENT County",
+      "key": "82",
+      "candidates": [
+        {
+          "name": "Grant, Kristian C.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Malinoski, Ryan",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "83": {
+      "office": "83rd District Representative in State Legislature 2 Year Term (1) Position Files In KENT County",
+      "key": "83",
+      "candidates": [
+        {
+          "name": "Fitzgerald, John",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Ramirez, Cindy",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "84": {
+      "office": "84th District Representative in State Legislature 2 Year Term (1) Position Files In KENT County",
+      "key": "84",
+      "candidates": [
+        {
+          "name": "Silvis, Khristian",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Robbins, Drew Jake",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "85": {
+      "office": "85th District Representative in State Legislature 2 Year Term (1) Position Files In OTTAWA County",
+      "key": "85",
+      "candidates": [
+        {
+          "name": "Abraham, Richard",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Slagh, Bradley",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "86": {
+      "office": "86th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "86",
+      "candidates": [
+        {
+          "name": "McClusky, Joseph",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "DeBoer, Nancy",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "87": {
+      "office": "87th District Representative in State Legislature 2 Year Term (1) Position Files In MUSKEGON County",
+      "key": "87",
+      "candidates": [
+        {
+          "name": "Snyder, Will",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Chipman, Cody A.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "88": {
+      "office": "88th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "88",
+      "candidates": [
+        {
+          "name": "Reid, Kiel",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "VanWoerkom, Greg",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "89": {
+      "office": "89th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "89",
+      "candidates": [
+        {
+          "name": "Zickus, Meegan",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Moss, Joe",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "90": {
+      "office": "90th District Representative in State Legislature 2 Year Term (1) Position Files In KENT County",
+      "key": "90",
+      "candidates": [
+        {
+          "name": "Crowther, Rachel",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Afendoulis, Lynn",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "91": {
+      "office": "91st District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "91",
+      "candidates": [
+        {
+          "name": "Lafata, Frank",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Outman, Pat",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "92": {
+      "office": "92nd District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "92",
+      "candidates": [
+        {
+          "name": "Del Castillo, Luke",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Neyer, Jerry",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "93": {
+      "office": "93rd District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "93",
+      "candidates": [
+        {
+          "name": "Salak, Serenity Hope",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Kelly, Tim",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "94": {
+      "office": "94th District Representative in State Legislature 2 Year Term (1) Position Files In SAGINAW County",
+      "key": "94",
+      "candidates": [
+        {
+          "name": "O'Neal, Amos",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Sugg, Don",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "95": {
+      "office": "95th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "95",
+      "candidates": [
+        {
+          "name": "Horseman, AnnMarie",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Schuette, Bill G.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "96": {
+      "office": "96th District Representative in State Legislature 2 Year Term (1) Position Files In BAY County",
+      "key": "96",
+      "candidates": [
+        {
+          "name": "Girard, Christopher R.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Beson, Timothy",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "97": {
+      "office": "97th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "97",
+      "candidates": [
+        {
+          "name": "Bader, Jack",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Bearss, Briar",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "98": {
+      "office": "98th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "98",
+      "candidates": [
+        {
+          "name": "Brusseau, Keith",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Alexander, Gregory L.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "99": {
+      "office": "99th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "99",
+      "candidates": [
+        {
+          "name": "Forgione, David",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Hoadley, Mike",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Lull, Steven Jacob",
+          "party": "Libertarian Party"
+        }
+      ]
+    },
+    "100": {
+      "office": "100th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "100",
+      "candidates": [
+        {
+          "name": "Ruell, Tracy",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Kunse, Tom",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "101": {
+      "office": "101st District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "101",
+      "candidates": [
+        {
+          "name": "Crain, Christopher R.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Deur, Jaxon",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "102": {
+      "office": "102nd District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "102",
+      "candidates": [
+        {
+          "name": "Coon, Angel",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Vanderwall, Curt",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Orton, Shawn",
+          "party": "Libertarian Party"
+        }
+      ]
+    },
+    "103": {
+      "office": "103rd District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "103",
+      "candidates": [
+        {
+          "name": "Coffia, Betsy",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Dean, Edwin B.",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Gorbe, Michael",
+          "party": "Libertarian Party"
+        }
+      ]
+    },
+    "104": {
+      "office": "104th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "104",
+      "candidates": [
+        {
+          "name": "Distin, Mitchell Ryan",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Roth, John R.",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Jarvis, Alexander",
+          "party": "Libertarian Party"
+        }
+      ]
+    },
+    "105": {
+      "office": "105th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "105",
+      "candidates": [
+        {
+          "name": "Longendyke Teeter, Rachel",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Borton, Ken",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Tillman, Frank",
+          "party": "Libertarian Party"
+        }
+      ]
+    },
+    "106": {
+      "office": "106th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "106",
+      "candidates": [
+        {
+          "name": "Hamilton, Mary Lucille",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Cavitt, Cam",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "107": {
+      "office": "107th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "107",
+      "candidates": [
+        {
+          "name": "Perron, Melissa",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Fairbairn, Parker",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "108": {
+      "office": "108th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "108",
+      "candidates": [
+        {
+          "name": "Keys, Rachel M.",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Johnson, Larry",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "109": {
+      "office": "109th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "109",
+      "candidates": [
+        {
+          "name": "Rink, Anna Aho",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Bohnak, Karl",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    "110": {
+      "office": "110th District Representative in State Legislature 2 Year Term (1) Position",
+      "key": "110",
+      "candidates": [
+        {
+          "name": "Irizarry, Brian",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Markkanen, Gregory",
+          "party": "Republican Party"
+        }
+      ]
+    }
+  },
+  "local": {},
+  "annotations": {},
+  "date": {
+    "quote": "Tuesday, November 3, 2026",
+    "text": "The Michigan candidate listing prints Tuesday, November 3, 2026."
+  }
+}

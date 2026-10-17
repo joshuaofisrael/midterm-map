@@ -1,0 +1,1923 @@
+{
+  "statewide": [],
+  "upper": {
+    "2": {
+      "office": "2ND SENATE",
+      "key": "2",
+      "candidates": [
+        {
+          "name": "Omar Aquino",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "3": {
+      "office": "3RD SENATE",
+      "key": "3",
+      "candidates": [
+        {
+          "name": "Mattie Hunter",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "5": {
+      "office": "5TH SENATE",
+      "key": "5",
+      "candidates": [
+        {
+          "name": "Lakesia Collins",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "6": {
+      "office": "6TH SENATE",
+      "key": "6",
+      "candidates": [
+        {
+          "name": "Sara Feigenholtz",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "8": {
+      "office": "8TH SENATE",
+      "key": "8",
+      "candidates": [
+        {
+          "name": "Ram Villivalam",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Vince Romano",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "9": {
+      "office": "9TH SENATE",
+      "key": "9",
+      "candidates": [
+        {
+          "name": "Patrick Hanley",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Tom Lally",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "11": {
+      "office": "11TH SENATE",
+      "key": "11",
+      "candidates": [
+        {
+          "name": "Mike Porfirio",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "12": {
+      "office": "12TH SENATE",
+      "key": "12",
+      "candidates": [
+        {
+          "name": "Celina Villanueva",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "14": {
+      "office": "14TH SENATE",
+      "key": "14",
+      "candidates": [
+        {
+          "name": "Emil Jones, III",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Brian Skala",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "15": {
+      "office": "15TH SENATE",
+      "key": "15",
+      "candidates": [
+        {
+          "name": "Napoleon B. Harris III",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "17": {
+      "office": "17TH SENATE",
+      "key": "17",
+      "candidates": [
+        {
+          "name": "Elgie R. Sims, Jr.",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Frederick L. Walls",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "18": {
+      "office": "18TH SENATE",
+      "key": "18",
+      "candidates": [
+        {
+          "name": "Frances Ann Hurley",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Christine McGovern",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "20": {
+      "office": "20TH SENATE",
+      "key": "20",
+      "candidates": [
+        {
+          "name": "Graciela Guzman",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "21": {
+      "office": "21ST SENATE",
+      "key": "21",
+      "candidates": [
+        {
+          "name": "Laura Ellman",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Julie Berkowicz",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "23": {
+      "office": "23RD SENATE",
+      "key": "23",
+      "candidates": [
+        {
+          "name": "Suzanne \"Suzy\" Glowiak Hilton",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Linda Z. Polacek",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "24": {
+      "office": "24TH SENATE",
+      "key": "24",
+      "candidates": [
+        {
+          "name": "Benjamin \"Ben\" McAdams",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Seth Lewis",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "26": {
+      "office": "26TH SENATE",
+      "key": "26",
+      "candidates": [
+        {
+          "name": "Nabeela Syed",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Darby Hills",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "27": {
+      "office": "27TH SENATE",
+      "key": "27",
+      "candidates": [
+        {
+          "name": "Carina Santa Maria",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "David Mathis",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "29": {
+      "office": "29TH SENATE",
+      "key": "29",
+      "candidates": [
+        {
+          "name": "Julie A. Morrison",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Kate McGrath",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "30": {
+      "office": "30TH SENATE",
+      "key": "30",
+      "candidates": [
+        {
+          "name": "Adriane L. Johnson",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "32": {
+      "office": "32ND SENATE",
+      "key": "32",
+      "candidates": [
+        {
+          "name": "Karen Battaglia",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Craig Wilcox",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "33": {
+      "office": "33RD SENATE",
+      "key": "33",
+      "candidates": [
+        {
+          "name": "Michele Clark",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Danielle Penman",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "35": {
+      "office": "35TH SENATE",
+      "key": "35",
+      "candidates": [
+        {
+          "name": "Sarah B. Mertens",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Dave Syverson",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "36": {
+      "office": "36TH SENATE",
+      "key": "36",
+      "candidates": [
+        {
+          "name": "Michael W. Halpin",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Brad Beekman",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "38": {
+      "office": "38TH SENATE",
+      "key": "38",
+      "candidates": [
+        {
+          "name": "Ernie R. Marcelain",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Sue Rezin",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "39": {
+      "office": "39TH SENATE",
+      "key": "39",
+      "candidates": [
+        {
+          "name": "Don Harmon",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "41": {
+      "office": "41ST SENATE",
+      "key": "41",
+      "candidates": [
+        {
+          "name": "John Curran",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "42": {
+      "office": "42ND SENATE",
+      "key": "42",
+      "candidates": [
+        {
+          "name": "Linda Holmes",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Jared Ploger",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Edgardo \"Eddie\" Perez",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "44": {
+      "office": "44TH SENATE",
+      "key": "44",
+      "candidates": [
+        {
+          "name": "Sally J. Turner",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "45": {
+      "office": "45TH SENATE",
+      "key": "45",
+      "candidates": [
+        {
+          "name": "Joseph H. \"Joe\" Berning",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Andrew S. Chesney",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "47": {
+      "office": "47TH SENATE",
+      "key": "47",
+      "candidates": [
+        {
+          "name": "Neil Anderson",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "48": {
+      "office": "48TH SENATE",
+      "key": "48",
+      "candidates": [
+        {
+          "name": "Doris Turner",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Frank Lesko",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "50": {
+      "office": "50TH SENATE",
+      "key": "50",
+      "candidates": [
+        {
+          "name": "Jil Tracy",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "51": {
+      "office": "51ST SENATE",
+      "key": "51",
+      "candidates": [
+        {
+          "name": "Chapin Rose",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "53": {
+      "office": "53RD SENATE",
+      "key": "53",
+      "candidates": [
+        {
+          "name": "Chris Balkema",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "54": {
+      "office": "54TH SENATE",
+      "key": "54",
+      "candidates": [
+        {
+          "name": "Steve McClure",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "56": {
+      "office": "56TH SENATE",
+      "key": "56",
+      "candidates": [
+        {
+          "name": "Marsia Geldert-Murphey",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Erica Harriss",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "57": {
+      "office": "57TH SENATE",
+      "key": "57",
+      "candidates": [
+        {
+          "name": "Christopher Belt",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Daniel Rhyne",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "59": {
+      "office": "59TH SENATE",
+      "key": "59",
+      "candidates": [
+        {
+          "name": "Tamiko \"T.C.\" Mueller",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Paul Jacobs",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "William Lo",
+          "party": "INDEPENDENT"
+        }
+      ]
+    }
+  },
+  "lower": {
+    "1": {
+      "office": "1ST REPRESENTATIVE",
+      "key": "1",
+      "candidates": [
+        {
+          "name": "Aaron M. Ortiz",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "2": {
+      "office": "2ND REPRESENTATIVE",
+      "key": "2",
+      "candidates": [
+        {
+          "name": "Elizabeth \"Lisa\" Hernandez",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Laura Hruska",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "3": {
+      "office": "3RD REPRESENTATIVE",
+      "key": "3",
+      "candidates": [
+        {
+          "name": "Eva-Dina Delgado",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "4": {
+      "office": "4TH REPRESENTATIVE",
+      "key": "4",
+      "candidates": [
+        {
+          "name": "Lilian Jimenez",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "5": {
+      "office": "5TH REPRESENTATIVE",
+      "key": "5",
+      "candidates": [
+        {
+          "name": "Kimberly Neely DuBuclet",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "6": {
+      "office": "6TH REPRESENTATIVE",
+      "key": "6",
+      "candidates": [
+        {
+          "name": "Sonya Marie Harper",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "7": {
+      "office": "7TH REPRESENTATIVE",
+      "key": "7",
+      "candidates": [
+        {
+          "name": "Emanuel \"Chris\" Welch",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "8": {
+      "office": "8TH REPRESENTATIVE",
+      "key": "8",
+      "candidates": [
+        {
+          "name": "Shantel Franklin",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "9": {
+      "office": "9TH REPRESENTATIVE",
+      "key": "9",
+      "candidates": [
+        {
+          "name": "Yolonda Morris",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "10": {
+      "office": "10TH REPRESENTATIVE",
+      "key": "10",
+      "candidates": [
+        {
+          "name": "Jawaharial \"Omar\" Williams",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "11": {
+      "office": "11TH REPRESENTATIVE",
+      "key": "11",
+      "candidates": [
+        {
+          "name": "Ann M. Williams",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "12": {
+      "office": "12TH REPRESENTATIVE",
+      "key": "12",
+      "candidates": [
+        {
+          "name": "Paul Kendrick",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Justin J. Kumar",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "13": {
+      "office": "13TH REPRESENTATIVE",
+      "key": "13",
+      "candidates": [
+        {
+          "name": "Demerike \"Demi\" Palecek",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Terry Nguyen Le",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "Abdallah J. Alkodah",
+          "party": "INDEPENDENT"
+        }
+      ]
+    },
+    "14": {
+      "office": "14TH REPRESENTATIVE",
+      "key": "14",
+      "candidates": [
+        {
+          "name": "Kelly M. Cassidy",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "15": {
+      "office": "15TH REPRESENTATIVE",
+      "key": "15",
+      "candidates": [
+        {
+          "name": "Michael J. Kelly",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "16": {
+      "office": "16TH REPRESENTATIVE",
+      "key": "16",
+      "candidates": [
+        {
+          "name": "Kevin John Olickal",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "17": {
+      "office": "17TH REPRESENTATIVE",
+      "key": "17",
+      "candidates": [
+        {
+          "name": "Jennifer Gong-Gershowitz",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "James \"Jim\" Geldermann",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "18": {
+      "office": "18TH REPRESENTATIVE",
+      "key": "18",
+      "candidates": [
+        {
+          "name": "Robyn Gabel",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Pete Donaghue",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "19": {
+      "office": "19TH REPRESENTATIVE",
+      "key": "19",
+      "candidates": [
+        {
+          "name": "Lindsey LaPointe",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "John \"JZ\" Zimmers",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "20": {
+      "office": "20TH REPRESENTATIVE",
+      "key": "20",
+      "candidates": [
+        {
+          "name": "Brad Stephens",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "21": {
+      "office": "21ST REPRESENTATIVE",
+      "key": "21",
+      "candidates": [
+        {
+          "name": "Abdelnasser Rashid",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Eric Su",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "22": {
+      "office": "22ND REPRESENTATIVE",
+      "key": "22",
+      "candidates": [
+        {
+          "name": "Angie Guerrero-Cuellar",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "23": {
+      "office": "23RD REPRESENTATIVE",
+      "key": "23",
+      "candidates": [
+        {
+          "name": "Edgar Gonzalez, Jr.",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "24": {
+      "office": "24TH REPRESENTATIVE",
+      "key": "24",
+      "candidates": [
+        {
+          "name": "Theresa Mah",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "25": {
+      "office": "25TH REPRESENTATIVE",
+      "key": "25",
+      "candidates": [
+        {
+          "name": "Curtis J. Tarver II",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Antoinette Jewel Simmons",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "26": {
+      "office": "26TH REPRESENTATIVE",
+      "key": "26",
+      "candidates": [
+        {
+          "name": "Kam Buckner",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "27": {
+      "office": "27TH REPRESENTATIVE",
+      "key": "27",
+      "candidates": [
+        {
+          "name": "Justin Q. Slaughter",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "28": {
+      "office": "28TH REPRESENTATIVE",
+      "key": "28",
+      "candidates": [
+        {
+          "name": "Robert \"Bob\" Rita",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "29": {
+      "office": "29TH REPRESENTATIVE",
+      "key": "29",
+      "candidates": [
+        {
+          "name": "Thaddeus Jones",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Monet S. Wilson",
+          "party": "INDEPENDENT"
+        }
+      ]
+    },
+    "30": {
+      "office": "30TH REPRESENTATIVE",
+      "key": "30",
+      "candidates": [
+        {
+          "name": "William \"Will\" Davis",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "31": {
+      "office": "31ST REPRESENTATIVE",
+      "key": "31",
+      "candidates": [
+        {
+          "name": "Michael \"Mike\" Crawford",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "32": {
+      "office": "32ND REPRESENTATIVE",
+      "key": "32",
+      "candidates": [
+        {
+          "name": "Lisa J. Davis",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "33": {
+      "office": "33RD REPRESENTATIVE",
+      "key": "33",
+      "candidates": [
+        {
+          "name": "Marcus C. Evans, Jr.",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "34": {
+      "office": "34TH REPRESENTATIVE",
+      "key": "34",
+      "candidates": [
+        {
+          "name": "Cleopatra \"Cleo\" Cowley",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "35": {
+      "office": "35TH REPRESENTATIVE",
+      "key": "35",
+      "candidates": [
+        {
+          "name": "Mary Gill",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "David A. Dewar",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "36": {
+      "office": "36TH REPRESENTATIVE",
+      "key": "36",
+      "candidates": [
+        {
+          "name": "Rick Ryan",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "David Sheppard",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "37": {
+      "office": "37TH REPRESENTATIVE",
+      "key": "37",
+      "candidates": [
+        {
+          "name": "Patrick Sheehan",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "38": {
+      "office": "38TH REPRESENTATIVE",
+      "key": "38",
+      "candidates": [
+        {
+          "name": "Debbie Meyers-Martin",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "39": {
+      "office": "39TH REPRESENTATIVE",
+      "key": "39",
+      "candidates": [
+        {
+          "name": "Will Guzzardi",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Cesar A. Guillen",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "40": {
+      "office": "40TH REPRESENTATIVE",
+      "key": "40",
+      "candidates": [
+        {
+          "name": "Miguel Alvelo-Rivera",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "41": {
+      "office": "41ST REPRESENTATIVE",
+      "key": "41",
+      "candidates": [
+        {
+          "name": "Janet Yang Rohr",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Ajay Gupta",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "42": {
+      "office": "42ND REPRESENTATIVE",
+      "key": "42",
+      "candidates": [
+        {
+          "name": "Margaret A. DeLarosa",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Stephanie W. Trussell",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "43": {
+      "office": "43RD REPRESENTATIVE",
+      "key": "43",
+      "candidates": [
+        {
+          "name": "Anna Moeller",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "44": {
+      "office": "44TH REPRESENTATIVE",
+      "key": "44",
+      "candidates": [
+        {
+          "name": "Fred Crespo",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Ralph Black",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "45": {
+      "office": "45TH REPRESENTATIVE",
+      "key": "45",
+      "candidates": [
+        {
+          "name": "Martha \"Marti\" Deuter",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Gina Parrilli",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "46": {
+      "office": "46TH REPRESENTATIVE",
+      "key": "46",
+      "candidates": [
+        {
+          "name": "Diane Blair-Sherlock",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Pedro Jovany Mendoza",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "47": {
+      "office": "47TH REPRESENTATIVE",
+      "key": "47",
+      "candidates": [
+        {
+          "name": "Erica Bray-Parker",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Robert A. Vrankovich",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "48": {
+      "office": "48TH REPRESENTATIVE",
+      "key": "48",
+      "candidates": [
+        {
+          "name": "Amanda Zahorak",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Jennifer Sanalitro",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "49": {
+      "office": "49TH REPRESENTATIVE",
+      "key": "49",
+      "candidates": [
+        {
+          "name": "Maura Hirschauer",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "John Paul Augustynowicz",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "50": {
+      "office": "50TH REPRESENTATIVE",
+      "key": "50",
+      "candidates": [
+        {
+          "name": "Barbara Hernandez",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "51": {
+      "office": "51ST REPRESENTATIVE",
+      "key": "51",
+      "candidates": [
+        {
+          "name": "Jenny Levin",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Lori Smith",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "52": {
+      "office": "52ND REPRESENTATIVE",
+      "key": "52",
+      "candidates": [
+        {
+          "name": "Maria Peterson",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Martin McLaughlin",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "53": {
+      "office": "53RD REPRESENTATIVE",
+      "key": "53",
+      "candidates": [
+        {
+          "name": "Nicolle Grasse",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Elizabeth Bauer",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "54": {
+      "office": "54TH REPRESENTATIVE",
+      "key": "54",
+      "candidates": [
+        {
+          "name": "Mary Beth Canty",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Wayne Keen",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "Joseph M. Tracy",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "55": {
+      "office": "55TH REPRESENTATIVE",
+      "key": "55",
+      "candidates": [
+        {
+          "name": "Justin Cochran",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Joseph Johnson",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "56": {
+      "office": "56TH REPRESENTATIVE",
+      "key": "56",
+      "candidates": [
+        {
+          "name": "Michelle Mussman",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Edward \"Ed\" Lapinski",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "Rhys Read",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "57": {
+      "office": "57TH REPRESENTATIVE",
+      "key": "57",
+      "candidates": [
+        {
+          "name": "Tracy Katz Muhl",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Daniel T. Behr",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "58": {
+      "office": "58TH REPRESENTATIVE",
+      "key": "58",
+      "candidates": [
+        {
+          "name": "Bob Morgan",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "59": {
+      "office": "59TH REPRESENTATIVE",
+      "key": "59",
+      "candidates": [
+        {
+          "name": "Daniel Didech",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "60": {
+      "office": "60TH REPRESENTATIVE",
+      "key": "60",
+      "candidates": [
+        {
+          "name": "Rita Mayfield",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "61": {
+      "office": "61ST REPRESENTATIVE",
+      "key": "61",
+      "candidates": [
+        {
+          "name": "Joyce Mason",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Tina Marie Durrant",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "62": {
+      "office": "62ND REPRESENTATIVE",
+      "key": "62",
+      "candidates": [
+        {
+          "name": "Laura Faver Dias",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "63": {
+      "office": "63RD REPRESENTATIVE",
+      "key": "63",
+      "candidates": [
+        {
+          "name": "Steven Reick",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "64": {
+      "office": "64TH REPRESENTATIVE",
+      "key": "64",
+      "candidates": [
+        {
+          "name": "AJ Johnson",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Tom Weber",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "65": {
+      "office": "65TH REPRESENTATIVE",
+      "key": "65",
+      "candidates": [
+        {
+          "name": "Ricky Rivard",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Dan Ugaste",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "66": {
+      "office": "66TH REPRESENTATIVE",
+      "key": "66",
+      "candidates": [
+        {
+          "name": "Suzanne Ness",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Laurie Parman",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "67": {
+      "office": "67TH REPRESENTATIVE",
+      "key": "67",
+      "candidates": [
+        {
+          "name": "Maurice A. West II",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "68": {
+      "office": "68TH REPRESENTATIVE",
+      "key": "68",
+      "candidates": [
+        {
+          "name": "Dave Vella",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Kathy Easton",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "69": {
+      "office": "69TH REPRESENTATIVE",
+      "key": "69",
+      "candidates": [
+        {
+          "name": "Peter Janko",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Joe C. Sosnowski",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "70": {
+      "office": "70TH REPRESENTATIVE",
+      "key": "70",
+      "candidates": [
+        {
+          "name": "Veronica Garcia-Martinez",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Jeff Keicher",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "71": {
+      "office": "71ST REPRESENTATIVE",
+      "key": "71",
+      "candidates": [
+        {
+          "name": "Kermit Thomas",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Dan Swanson",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "72": {
+      "office": "72ND REPRESENTATIVE",
+      "key": "72",
+      "candidates": [
+        {
+          "name": "Gregg Johnson",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "73": {
+      "office": "73RD REPRESENTATIVE",
+      "key": "73",
+      "candidates": [
+        {
+          "name": "Nicole Dopler",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Ryan Spain",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "74": {
+      "office": "74TH REPRESENTATIVE",
+      "key": "74",
+      "candidates": [
+        {
+          "name": "Nolan Kemp",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Bradley J. Fritts",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "75": {
+      "office": "75TH REPRESENTATIVE",
+      "key": "75",
+      "candidates": [
+        {
+          "name": "Caroline McCree",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Jed Davis",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "76": {
+      "office": "76TH REPRESENTATIVE",
+      "key": "76",
+      "candidates": [
+        {
+          "name": "Amy \"Murri\" Briel",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Liz Bishop",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "77": {
+      "office": "77TH REPRESENTATIVE",
+      "key": "77",
+      "candidates": [
+        {
+          "name": "Norma Hernandez",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Anthony Airdo",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "78": {
+      "office": "78TH REPRESENTATIVE",
+      "key": "78",
+      "candidates": [
+        {
+          "name": "Camille Lilly",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Julian-Jahleel Randolph Jemison",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "79": {
+      "office": "79TH REPRESENTATIVE",
+      "key": "79",
+      "candidates": [
+        {
+          "name": "Jackie Haas",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "80": {
+      "office": "80TH REPRESENTATIVE",
+      "key": "80",
+      "candidates": [
+        {
+          "name": "Anthony DeLuca",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Adam M. Beaty",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "81": {
+      "office": "81ST REPRESENTATIVE",
+      "key": "81",
+      "candidates": [
+        {
+          "name": "Anne Stava",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Laura Hois",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "82": {
+      "office": "82ND REPRESENTATIVE",
+      "key": "82",
+      "candidates": [
+        {
+          "name": "Nicole La Ha",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "83": {
+      "office": "83RD REPRESENTATIVE",
+      "key": "83",
+      "candidates": [
+        {
+          "name": "Matt Hanson",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Jesse Rodriguez",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "84": {
+      "office": "84TH REPRESENTATIVE",
+      "key": "84",
+      "candidates": [
+        {
+          "name": "Saba Haider",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Brian Scopa",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "85": {
+      "office": "85TH REPRESENTATIVE",
+      "key": "85",
+      "candidates": [
+        {
+          "name": "Dagmara \"Dee\" Avelar",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Chris Metcalfe",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "86": {
+      "office": "86TH REPRESENTATIVE",
+      "key": "86",
+      "candidates": [
+        {
+          "name": "Lawrence \"Larry\" M. Walsh, Jr.",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "87": {
+      "office": "87TH REPRESENTATIVE",
+      "key": "87",
+      "candidates": [
+        {
+          "name": "William E Hauter",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "88": {
+      "office": "88TH REPRESENTATIVE",
+      "key": "88",
+      "candidates": [
+        {
+          "name": "Regan Deering",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "89": {
+      "office": "89TH REPRESENTATIVE",
+      "key": "89",
+      "candidates": [
+        {
+          "name": "Tony M. McCombie",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "90": {
+      "office": "90TH REPRESENTATIVE",
+      "key": "90",
+      "candidates": [
+        {
+          "name": "John Ping",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "John M. Cabello",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "91": {
+      "office": "91ST REPRESENTATIVE",
+      "key": "91",
+      "candidates": [
+        {
+          "name": "Sharon Chung",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "92": {
+      "office": "92ND REPRESENTATIVE",
+      "key": "92",
+      "candidates": [
+        {
+          "name": "Jehan Gordon-Booth",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "93": {
+      "office": "93RD REPRESENTATIVE",
+      "key": "93",
+      "candidates": [
+        {
+          "name": "Travis Weaver",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "94": {
+      "office": "94TH REPRESENTATIVE",
+      "key": "94",
+      "candidates": [
+        {
+          "name": "Joshua S. Higgins",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "95": {
+      "office": "95TH REPRESENTATIVE",
+      "key": "95",
+      "candidates": [
+        {
+          "name": "Mike Coffey",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "96": {
+      "office": "96TH REPRESENTATIVE",
+      "key": "96",
+      "candidates": [
+        {
+          "name": "Sue Scherer",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "97": {
+      "office": "97TH REPRESENTATIVE",
+      "key": "97",
+      "candidates": [
+        {
+          "name": "Harry Benton",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Jessica Dixon Heitman",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Gabby Shanahan",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "98": {
+      "office": "98TH REPRESENTATIVE",
+      "key": "98",
+      "candidates": [
+        {
+          "name": "Natalie A. Manley",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Nona Parker",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "99": {
+      "office": "99TH REPRESENTATIVE",
+      "key": "99",
+      "candidates": [
+        {
+          "name": "Kyle A. Moore",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "100": {
+      "office": "100TH REPRESENTATIVE",
+      "key": "100",
+      "candidates": [
+        {
+          "name": "Christopher \"C.D.\" Davidsmeyer",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "101": {
+      "office": "101ST REPRESENTATIVE",
+      "key": "101",
+      "candidates": [
+        {
+          "name": "Douglas Fagan",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Chris G. Miller",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "102": {
+      "office": "102ND REPRESENTATIVE",
+      "key": "102",
+      "candidates": [
+        {
+          "name": "Adam M. Niemerg",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "103": {
+      "office": "103RD REPRESENTATIVE",
+      "key": "103",
+      "candidates": [
+        {
+          "name": "Carol Ammons",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "104": {
+      "office": "104TH REPRESENTATIVE",
+      "key": "104",
+      "candidates": [
+        {
+          "name": "Mary Catherine Roberson",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Brandun Schweizer",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "105": {
+      "office": "105TH REPRESENTATIVE",
+      "key": "105",
+      "candidates": [
+        {
+          "name": "Tim Ruestman",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "106": {
+      "office": "106TH REPRESENTATIVE",
+      "key": "106",
+      "candidates": [
+        {
+          "name": "Jason R. Bunting",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "107": {
+      "office": "107TH REPRESENTATIVE",
+      "key": "107",
+      "candidates": [
+        {
+          "name": "Brad Halbrook",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "108": {
+      "office": "108TH REPRESENTATIVE",
+      "key": "108",
+      "candidates": [
+        {
+          "name": "Wayne A. Rosenthal",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "109": {
+      "office": "109TH REPRESENTATIVE",
+      "key": "109",
+      "candidates": [
+        {
+          "name": "Charlie Meier",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "110": {
+      "office": "110TH REPRESENTATIVE",
+      "key": "110",
+      "candidates": [
+        {
+          "name": "Blaine Wilhour",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "111": {
+      "office": "111TH REPRESENTATIVE",
+      "key": "111",
+      "candidates": [
+        {
+          "name": "Rosetta \"Rosie\" Brown",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Amy Elik",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "112": {
+      "office": "112TH REPRESENTATIVE",
+      "key": "112",
+      "candidates": [
+        {
+          "name": "Katie Stuart",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Jimmy Ford",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "113": {
+      "office": "113TH REPRESENTATIVE",
+      "key": "113",
+      "candidates": [
+        {
+          "name": "Jay C. Hoffman",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    "114": {
+      "office": "114TH REPRESENTATIVE",
+      "key": "114",
+      "candidates": [
+        {
+          "name": "George McClellan, Jr.",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Kevin Schmidt",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "115": {
+      "office": "115TH REPRESENTATIVE",
+      "key": "115",
+      "candidates": [
+        {
+          "name": "David H. Friess",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "116": {
+      "office": "116TH REPRESENTATIVE",
+      "key": "116",
+      "candidates": [
+        {
+          "name": "Dave Severin",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "117": {
+      "office": "117TH REPRESENTATIVE",
+      "key": "117",
+      "candidates": [
+        {
+          "name": "Patrick Windhorst",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    "118": {
+      "office": "118TH REPRESENTATIVE",
+      "key": "118",
+      "candidates": [
+        {
+          "name": "Homer \"Chip\" Markel",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "Scott Doody",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "Matthew Hickam",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "Julie Wollerman",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    }
+  },
+  "local": {},
+  "annotations": {},
+  "date": {
+    "quote": "11/ 3/2026",
+    "text": "The Illinois list prints General Election - 11/ 3/2026."
+  }
+}

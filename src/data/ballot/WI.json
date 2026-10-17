@@ -1,0 +1,1823 @@
+{
+  "statewide": [
+    {
+      "office": "ATTORNEY GENERAL",
+      "key": null,
+      "candidates": [
+        {
+          "name": "Eric Toney",
+          "party": "Republican"
+        },
+        {
+          "name": "Josh Kaul",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Josh Kaul"
+    },
+    {
+      "office": "SECRETARY OF STATE",
+      "key": null,
+      "candidates": [
+        {
+          "name": "Jay Schroeder",
+          "party": "Republican"
+        },
+        {
+          "name": "JoCasta Zamarripa",
+          "party": "Democratic"
+        },
+        {
+          "name": "Pete Karas",
+          "party": "Wisconsin Green"
+        }
+      ],
+      "incumbentLine": "Sarah Godlewski (Filed Notification of Noncandidacy)"
+    },
+    {
+      "office": "STATE TREASURER",
+      "key": null,
+      "candidates": [
+        {
+          "name": "John S. Leiber",
+          "party": "Republican"
+        },
+        {
+          "name": "Yee Leng Xiong",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "John S. Leiber"
+    }
+  ],
+  "upper": {
+    "1": {
+      "office": "STATE SENATOR DISTRICT 1",
+      "key": "1",
+      "candidates": [
+        {
+          "name": "Nic Cravillion",
+          "party": "Republican"
+        },
+        {
+          "name": "Mark Becker",
+          "party": "Independent"
+        }
+      ],
+      "incumbentLine": "André Jacque (Filed Notification of Noncandidacy)"
+    },
+    "3": {
+      "office": "STATE SENATOR DISTRICT 3",
+      "key": "3",
+      "candidates": [
+        {
+          "name": "Tim Carpenter",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Tim Carpenter"
+    },
+    "5": {
+      "office": "STATE SENATOR DISTRICT 5",
+      "key": "5",
+      "candidates": [
+        {
+          "name": "Mike Roberts",
+          "party": "Republican"
+        },
+        {
+          "name": "Robyn Vining",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Rob Hutton (Filed Notification of Noncandidacy)"
+    },
+    "7": {
+      "office": "STATE SENATOR DISTRICT 7",
+      "key": "7",
+      "candidates": [
+        {
+          "name": "Mike Moeller",
+          "party": "Republican"
+        },
+        {
+          "name": "Chris J. Larson",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Chris J. Larson"
+    },
+    "9": {
+      "office": "STATE SENATOR DISTRICT 9",
+      "key": "9",
+      "candidates": [
+        {
+          "name": "Amy Binsfeld",
+          "party": "Republican"
+        },
+        {
+          "name": "Christian Ellis",
+          "party": "Independent"
+        }
+      ],
+      "incumbentLine": "Devin LeMahieu (Filed Notification of Noncandidacy)"
+    },
+    "11": {
+      "office": "STATE SENATOR DISTRICT 11",
+      "key": "11",
+      "candidates": [
+        {
+          "name": "Ellen Schutt",
+          "party": "Republican"
+        },
+        {
+          "name": "Adam Duda",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Steve Nass (Filed Notification of Noncandidacy)"
+    },
+    "13": {
+      "office": "STATE SENATOR DISTRICT 13",
+      "key": "13",
+      "candidates": [
+        {
+          "name": "John Jagler",
+          "party": "Republican"
+        },
+        {
+          "name": "Sasha Ripley",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "John Jagler"
+    },
+    "15": {
+      "office": "STATE SENATOR DISTRICT 15",
+      "key": "15",
+      "candidates": [
+        {
+          "name": "Scott Fleming",
+          "party": "Republican"
+        },
+        {
+          "name": "Mark Spreitzer",
+          "party": "Democratic"
+        },
+        {
+          "name": "Christopher Dean",
+          "party": "Serving People"
+        }
+      ],
+      "incumbentLine": "Mark Spreitzer"
+    },
+    "17": {
+      "office": "STATE SENATOR DISTRICT 17",
+      "key": "17",
+      "candidates": [
+        {
+          "name": "Howard Marklein",
+          "party": "Republican"
+        },
+        {
+          "name": "Jenna Jacobson",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Howard Marklein"
+    },
+    "19": {
+      "office": "STATE SENATOR DISTRICT 19",
+      "key": "19",
+      "candidates": [
+        {
+          "name": "Rachael Ann Cabral-Guevara",
+          "party": "Republican"
+        },
+        {
+          "name": "Emily Daniels Tseffos",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Rachael Cabral-Guevara"
+    },
+    "21": {
+      "office": "STATE SENATOR DISTRICT 21",
+      "key": "21",
+      "candidates": [
+        {
+          "name": "Jim Croft",
+          "party": "Republican"
+        },
+        {
+          "name": "Trevor Jung",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Van H. Wanggaard (Filed Notification of Noncandidacy)"
+    },
+    "23": {
+      "office": "STATE SENATOR DISTRICT 23",
+      "key": "23",
+      "candidates": [
+        {
+          "name": "Romaine Robert Quinn",
+          "party": "Republican"
+        },
+        {
+          "name": "Jeff Foster",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Jesse James (Filed Notification of Noncandidacy)"
+    },
+    "25": {
+      "office": "STATE SENATOR DISTRICT 25",
+      "key": "25",
+      "candidates": [
+        {
+          "name": "Erik Severson",
+          "party": "Republican"
+        },
+        {
+          "name": "Charly Ray",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Romaine Robert Quinn (Filed Notification of Noncandidacy)"
+    },
+    "27": {
+      "office": "STATE SENATOR DISTRICT 27",
+      "key": "27",
+      "candidates": [
+        {
+          "name": "Dianne Hesselbein",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Dianne H. Hesselbein"
+    },
+    "29": {
+      "office": "STATE SENATOR DISTRICT 29",
+      "key": "29",
+      "candidates": [
+        {
+          "name": "Cory Tomczyk",
+          "party": "Republican"
+        },
+        {
+          "name": "Gillian Battino",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Cory Tomczyk"
+    },
+    "31": {
+      "office": "STATE SENATOR DISTRICT 31",
+      "key": "31",
+      "candidates": [
+        {
+          "name": "Michele Magadance Skinner",
+          "party": "Republican"
+        },
+        {
+          "name": "Jeff Smith",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Jeff Smith"
+    },
+    "33": {
+      "office": "STATE SENATOR DISTRICT 33",
+      "key": "33",
+      "candidates": [
+        {
+          "name": "Chris Kapenga",
+          "party": "Republican"
+        },
+        {
+          "name": "Mike Van Someren",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Chris Kapenga"
+    }
+  },
+  "lower": {
+    "1": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 1",
+      "key": "1",
+      "candidates": [
+        {
+          "name": "Joel Kitchens",
+          "party": "Republican"
+        },
+        {
+          "name": "Renee A. Paplham",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Joel Kitchens"
+    },
+    "2": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 2",
+      "key": "2",
+      "candidates": [
+        {
+          "name": "Shae Sortwell",
+          "party": "Republican"
+        },
+        {
+          "name": "Alicia Saunders",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Shae Sortwell"
+    },
+    "3": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 3",
+      "key": "3",
+      "candidates": [
+        {
+          "name": "Ron Tusler",
+          "party": "Republican"
+        },
+        {
+          "name": "Michael J. Goodwin",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Ron Tusler"
+    },
+    "4": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 4",
+      "key": "4",
+      "candidates": [
+        {
+          "name": "David Steffen",
+          "party": "Republican"
+        },
+        {
+          "name": "Alexia Unertl",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "David Steffen"
+    },
+    "5": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 5",
+      "key": "5",
+      "candidates": [
+        {
+          "name": "Joy Goeben",
+          "party": "Republican"
+        },
+        {
+          "name": "Justin Schumacher",
+          "party": "Democratic"
+        },
+        {
+          "name": "David Schupbach",
+          "party": "Wisconsin Green"
+        }
+      ],
+      "incumbentLine": "Joy Goeben"
+    },
+    "6": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 6",
+      "key": "6",
+      "candidates": [
+        {
+          "name": "Elijah Behnke",
+          "party": "Republican"
+        },
+        {
+          "name": "Shirley Hinze",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Elijah Behnke"
+    },
+    "7": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 7",
+      "key": "7",
+      "candidates": [
+        {
+          "name": "Lee Whiting",
+          "party": "Republican"
+        },
+        {
+          "name": "Karen Kirsch",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Karen Kirsch"
+    },
+    "8": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 8",
+      "key": "8",
+      "candidates": [
+        {
+          "name": "Angel Sanchez",
+          "party": "Republican"
+        },
+        {
+          "name": "Ismael Luna",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Sylvia Ortiz-Velez"
+    },
+    "9": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 9",
+      "key": "9",
+      "candidates": [
+        {
+          "name": "Sam Guerrero",
+          "party": "Republican"
+        },
+        {
+          "name": "Priscilla A. Prado",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "PRISCILLA A. PRADO"
+    },
+    "10": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 10",
+      "key": "10",
+      "candidates": [
+        {
+          "name": "Darrin Madison",
+          "party": "Democratic"
+        },
+        {
+          "name": "Robert Longwell-Grice",
+          "party": "Wisconsin Green"
+        }
+      ],
+      "incumbentLine": "Darrin Madison"
+    },
+    "11": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 11",
+      "key": "11",
+      "candidates": [
+        {
+          "name": "Shandowlyon Reaves",
+          "party": "Republican"
+        },
+        {
+          "name": "Sequanna Taylor",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Sequanna Taylor"
+    },
+    "12": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 12",
+      "key": "12",
+      "candidates": [
+        {
+          "name": "Russell Antonio Goodwin, Sr.",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Russell Antonio Goodwin, Sr."
+    },
+    "13": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 13",
+      "key": "13",
+      "candidates": [
+        {
+          "name": "Mike Morgan",
+          "party": "Republican"
+        },
+        {
+          "name": "Amy Zimmerman",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Robyn Vining (Filed Notification of Noncandidacy)"
+    },
+    "14": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 14",
+      "key": "14",
+      "candidates": [
+        {
+          "name": "AmyRose Murphy",
+          "party": "Republican"
+        },
+        {
+          "name": "Angelito Tenorio",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Angelito Tenorio"
+    },
+    "15": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 15",
+      "key": "15",
+      "candidates": [
+        {
+          "name": "Adam Neylon",
+          "party": "Republican"
+        },
+        {
+          "name": "Stephen Tryon",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Adam Neylon"
+    },
+    "16": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 16",
+      "key": "16",
+      "candidates": [
+        {
+          "name": "Alciro Deacon",
+          "party": "Republican"
+        },
+        {
+          "name": "Kalan Haywood",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Kalan Haywood"
+    },
+    "17": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 17",
+      "key": "17",
+      "candidates": [
+        {
+          "name": "Charlene Abughrin",
+          "party": "Republican"
+        },
+        {
+          "name": "Supreme Moore Omokunde",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Supreme Moore Omokunde"
+    },
+    "18": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 18",
+      "key": "18",
+      "candidates": [
+        {
+          "name": "Joel Richmond",
+          "party": "Republican"
+        },
+        {
+          "name": "Margaret Arney",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Margaret Arney"
+    },
+    "19": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 19",
+      "key": "19",
+      "candidates": [
+        {
+          "name": "Yasmine B. Outlaw",
+          "party": "Republican"
+        },
+        {
+          "name": "Ryan Clancy",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Ryan Clancy"
+    },
+    "20": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 20",
+      "key": "20",
+      "candidates": [
+        {
+          "name": "Kyle Cleary",
+          "party": "Republican"
+        },
+        {
+          "name": "Christine M. Sinicki",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Christine M. Sinicki"
+    },
+    "21": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 21",
+      "key": "21",
+      "candidates": [
+        {
+          "name": "Dylan Pfaffenbach",
+          "party": "Republican"
+        },
+        {
+          "name": "Daniel J. Bukiewicz",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Jessie Rodriguez (Filed Notification of Noncandidacy)"
+    },
+    "22": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 22",
+      "key": "22",
+      "candidates": [
+        {
+          "name": "Paul Melotik",
+          "party": "Republican"
+        },
+        {
+          "name": "Dana Glasstein",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Paul Melotik"
+    },
+    "23": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 23",
+      "key": "23",
+      "candidates": [
+        {
+          "name": "Aleaner Pabonnie",
+          "party": "Republican"
+        },
+        {
+          "name": "Deb Andraca",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Deb Andraca"
+    },
+    "24": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 24",
+      "key": "24",
+      "candidates": [
+        {
+          "name": "Dan Knodl",
+          "party": "Republican"
+        },
+        {
+          "name": "Matt Brown",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Dan Knodl"
+    },
+    "25": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 25",
+      "key": "25",
+      "candidates": [
+        {
+          "name": "Paul Tittl",
+          "party": "Republican"
+        },
+        {
+          "name": "Christopher Able",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Paul Tittl"
+    },
+    "26": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 26",
+      "key": "26",
+      "candidates": [
+        {
+          "name": "John Belanger",
+          "party": "Republican"
+        },
+        {
+          "name": "Joe Sheehan",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Joe Sheehan"
+    },
+    "27": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 27",
+      "key": "27",
+      "candidates": [
+        {
+          "name": "Lindee Brill",
+          "party": "Republican"
+        }
+      ],
+      "incumbentLine": "Lindee Rae Brill"
+    },
+    "28": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 28",
+      "key": "28",
+      "candidates": [
+        {
+          "name": "Rob Kreibich",
+          "party": "Republican"
+        },
+        {
+          "name": "Robin Lillesve",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Rob Kreibich"
+    },
+    "29": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 29",
+      "key": "29",
+      "candidates": [
+        {
+          "name": "Treig Pronschinske",
+          "party": "Republican"
+        },
+        {
+          "name": "Chris Danou",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Treig E. Pronschinske"
+    },
+    "30": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 30",
+      "key": "30",
+      "candidates": [
+        {
+          "name": "Shannon Zimmerman",
+          "party": "Republican"
+        },
+        {
+          "name": "Kevin Knoke",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Shannon Zimmerman"
+    },
+    "31": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 31",
+      "key": "31",
+      "candidates": [
+        {
+          "name": "Tyler August",
+          "party": "Republican"
+        },
+        {
+          "name": "John Perryman",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Tyler August"
+    },
+    "32": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 32",
+      "key": "32",
+      "candidates": [
+        {
+          "name": "Amanda Nedweski",
+          "party": "Republican"
+        },
+        {
+          "name": "Greg Miller",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Amanda Nedweski"
+    },
+    "33": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 33",
+      "key": "33",
+      "candidates": [
+        {
+          "name": "Steve Wicklund",
+          "party": "Republican"
+        },
+        {
+          "name": "Maria Elena Bisabarros",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Robin J. Vos (Filed Notification of Noncandidacy)"
+    },
+    "34": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 34",
+      "key": "34",
+      "candidates": [
+        {
+          "name": "Rob Swearingen",
+          "party": "Republican"
+        },
+        {
+          "name": "Merlin Van Buren",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Rob Swearingen"
+    },
+    "35": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 35",
+      "key": "35",
+      "candidates": [
+        {
+          "name": "Calvin Callahan",
+          "party": "Republican"
+        },
+        {
+          "name": "Elizabeth McCrank",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Calvin Callahan"
+    },
+    "36": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 36",
+      "key": "36",
+      "candidates": [
+        {
+          "name": "Jeffrey L. Mursau",
+          "party": "Republican"
+        },
+        {
+          "name": "Shena Chapman",
+          "party": "Independent"
+        }
+      ],
+      "incumbentLine": "Jeffrey L. Mursau"
+    },
+    "37": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 37",
+      "key": "37",
+      "candidates": [
+        {
+          "name": "Mark Born",
+          "party": "Republican"
+        },
+        {
+          "name": "LaToya Bates",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Mark L. Born"
+    },
+    "38": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 38",
+      "key": "38",
+      "candidates": [
+        {
+          "name": "William Penterman",
+          "party": "Republican"
+        },
+        {
+          "name": "Terri Wenkman",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "William Penterman"
+    },
+    "39": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 39",
+      "key": "39",
+      "candidates": [
+        {
+          "name": "Alex Dallman",
+          "party": "Republican"
+        },
+        {
+          "name": "Michael Skivington",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Alex Dallman"
+    },
+    "40": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 40",
+      "key": "40",
+      "candidates": [
+        {
+          "name": "Julie Helmer",
+          "party": "Republican"
+        },
+        {
+          "name": "Karen DeSanto",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Karen DeSanto"
+    },
+    "41": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 41",
+      "key": "41",
+      "candidates": [
+        {
+          "name": "Tony Kurtz",
+          "party": "Republican"
+        },
+        {
+          "name": "Zach Commons",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Tony Kurtz"
+    },
+    "42": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 42",
+      "key": "42",
+      "candidates": [
+        {
+          "name": "Keith F. Miller",
+          "party": "Republican"
+        },
+        {
+          "name": "Maureen McCarville",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Maureen McCarville"
+    },
+    "43": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 43",
+      "key": "43",
+      "candidates": [
+        {
+          "name": "Paul McGraw",
+          "party": "Republican"
+        },
+        {
+          "name": "Brienne Brown",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Brienne Brown"
+    },
+    "44": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 44",
+      "key": "44",
+      "candidates": [
+        {
+          "name": "Ron Woodman",
+          "party": "Republican"
+        },
+        {
+          "name": "Ann Roe",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Ann Roe"
+    },
+    "45": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 45",
+      "key": "45",
+      "candidates": [
+        {
+          "name": "Jocelyn Jordan",
+          "party": "Republican"
+        },
+        {
+          "name": "Clinton Anderson",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Clinton Anderson"
+    },
+    "46": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 46",
+      "key": "46",
+      "candidates": [
+        {
+          "name": "John Donohue",
+          "party": "Republican"
+        },
+        {
+          "name": "Joan Fitzgerald",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Joan Fitzgerald"
+    },
+    "47": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 47",
+      "key": "47",
+      "candidates": [
+        {
+          "name": "Sandy Bakk",
+          "party": "Republican"
+        },
+        {
+          "name": "Randy Udell",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Randy Udell"
+    },
+    "48": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 48",
+      "key": "48",
+      "candidates": [
+        {
+          "name": "Mark Kjorlie",
+          "party": "Republican"
+        },
+        {
+          "name": "Andrew Hysell",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Andrew Hysell"
+    },
+    "49": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 49",
+      "key": "49",
+      "candidates": [
+        {
+          "name": "Travis Tranel",
+          "party": "Republican"
+        },
+        {
+          "name": "John Rindy",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Travis Tranel"
+    },
+    "50": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 50",
+      "key": "50",
+      "candidates": [
+        {
+          "name": "Jon Aleckson",
+          "party": "Republican"
+        },
+        {
+          "name": "Bill Oemichen",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Jenna Jacobson"
+    },
+    "51": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 51",
+      "key": "51",
+      "candidates": [
+        {
+          "name": "Todd Novak",
+          "party": "Republican"
+        },
+        {
+          "name": "Ben Gruber",
+          "party": "Democratic"
+        },
+        {
+          "name": "Nathan Tataje",
+          "party": "American"
+        }
+      ],
+      "incumbentLine": "Todd Novak"
+    },
+    "52": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 52",
+      "key": "52",
+      "candidates": [
+        {
+          "name": "Reive Pullen",
+          "party": "Republican"
+        },
+        {
+          "name": "Lee Snodgrass",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Lee Snodgrass"
+    },
+    "53": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 53",
+      "key": "53",
+      "candidates": [
+        {
+          "name": "David Daniels",
+          "party": "Republican"
+        },
+        {
+          "name": "Becky Nichols",
+          "party": "Democratic"
+        },
+        {
+          "name": "Rachael Dowling",
+          "party": "Independent"
+        }
+      ],
+      "incumbentLine": "Dean R. Kaufert (Filed Notification of Noncandidacy)"
+    },
+    "54": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 54",
+      "key": "54",
+      "candidates": [
+        {
+          "name": "Tim Paterson",
+          "party": "Republican"
+        },
+        {
+          "name": "Lori Palmeri",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Lori Palmeri"
+    },
+    "55": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 55",
+      "key": "55",
+      "candidates": [
+        {
+          "name": "Nate Gustafson",
+          "party": "Republican"
+        },
+        {
+          "name": "Alex Corrigan",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Nate Gustafson"
+    },
+    "56": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 56",
+      "key": "56",
+      "candidates": [
+        {
+          "name": "Anthony W. Phillips",
+          "party": "Republican"
+        },
+        {
+          "name": "Grace Abitz",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Dave Murphy"
+    },
+    "57": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 57",
+      "key": "57",
+      "candidates": [
+        {
+          "name": "Kevin Krentz",
+          "party": "Republican"
+        },
+        {
+          "name": "Joey Marschall",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Kevin Petersen (Filed Notification of Noncandidacy)"
+    },
+    "58": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 58",
+      "key": "58",
+      "candidates": [
+        {
+          "name": "Bernie Newman",
+          "party": "Republican"
+        },
+        {
+          "name": "Dennis D. Degenhardt",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Rick Gundrum (Filed Notification of Noncandidacy)"
+    },
+    "59": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 59",
+      "key": "59",
+      "candidates": [
+        {
+          "name": "Bradley Petersen",
+          "party": "Republican"
+        },
+        {
+          "name": "Jack Holzman",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Robert Brooks (Filed Notification of Noncandidacy)"
+    },
+    "60": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 60",
+      "key": "60",
+      "candidates": [
+        {
+          "name": "Marty Ryan",
+          "party": "Republican"
+        },
+        {
+          "name": "Tiffany Brault",
+          "party": "Independent"
+        }
+      ],
+      "incumbentLine": "Jerry O'Connor (Filed Notification of Noncandidacy)"
+    },
+    "61": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 61",
+      "key": "61",
+      "candidates": [
+        {
+          "name": "Bob Donovan",
+          "party": "Republican"
+        },
+        {
+          "name": "Ben Brist",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Bob Donovan"
+    },
+    "62": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 62",
+      "key": "62",
+      "candidates": [
+        {
+          "name": "Mike Bellagio",
+          "party": "Republican"
+        },
+        {
+          "name": "Angelina M. Cruz",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Angelina M. Cruz"
+    },
+    "63": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 63",
+      "key": "63",
+      "candidates": [
+        {
+          "name": "Robert Wittke",
+          "party": "Republican"
+        },
+        {
+          "name": "Eddie Phanichkul",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Robert Wittke"
+    },
+    "64": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 64",
+      "key": "64",
+      "candidates": [
+        {
+          "name": "Ed Hibsch",
+          "party": "Republican"
+        },
+        {
+          "name": "Tip McGuire",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Tip McGuire"
+    },
+    "65": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 65",
+      "key": "65",
+      "candidates": [
+        {
+          "name": "Valerie Kretchmer",
+          "party": "Republican"
+        },
+        {
+          "name": "Ben DeSmidt",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Ben DeSmidt"
+    },
+    "66": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 66",
+      "key": "66",
+      "candidates": [
+        {
+          "name": "Gina Cefalu Paulick",
+          "party": "Republican"
+        },
+        {
+          "name": "Greta Neubauer",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Greta Neubauer"
+    },
+    "67": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 67",
+      "key": "67",
+      "candidates": [
+        {
+          "name": "David Armstrong",
+          "party": "Republican"
+        },
+        {
+          "name": "Indiana Thompson",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "David Armstrong"
+    },
+    "68": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 68",
+      "key": "68",
+      "candidates": [
+        {
+          "name": "Rob Summerfield",
+          "party": "Republican"
+        },
+        {
+          "name": "Elisha King",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Rob Summerfield"
+    },
+    "69": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 69",
+      "key": "69",
+      "candidates": [
+        {
+          "name": "Karen Hurd",
+          "party": "Republican"
+        },
+        {
+          "name": "Roger Halls",
+          "party": "Democratic"
+        },
+        {
+          "name": "Josh Kelley",
+          "party": "Independent"
+        }
+      ],
+      "incumbentLine": "Karen Hurd"
+    },
+    "70": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 70",
+      "key": "70",
+      "candidates": [
+        {
+          "name": "Nancy VanderMeer",
+          "party": "Republican"
+        },
+        {
+          "name": "Stephanie Stuve Bodeen",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Nancy Lynn VanderMeer"
+    },
+    "71": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 71",
+      "key": "71",
+      "candidates": [
+        {
+          "name": "Jeff Disher",
+          "party": "Republican"
+        },
+        {
+          "name": "Vinnie Miresse",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Vinnie Miresse"
+    },
+    "72": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 72",
+      "key": "72",
+      "candidates": [
+        {
+          "name": "Scott Krug",
+          "party": "Republican"
+        },
+        {
+          "name": "Christine Maltese",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Scott Krug"
+    },
+    "73": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 73",
+      "key": "73",
+      "candidates": [
+        {
+          "name": "Frank Kostka",
+          "party": "Republican"
+        },
+        {
+          "name": "Angela Stroud",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Angela Stroud"
+    },
+    "74": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 74",
+      "key": "74",
+      "candidates": [
+        {
+          "name": "Chanz Green",
+          "party": "Republican"
+        },
+        {
+          "name": "Paul Johnson",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Chanz J Green"
+    },
+    "75": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 75",
+      "key": "75",
+      "candidates": [
+        {
+          "name": "Duke Tucker",
+          "party": "Republican"
+        },
+        {
+          "name": "Keith Mogel",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Duke Tucker"
+    },
+    "76": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 76",
+      "key": "76",
+      "candidates": [
+        {
+          "name": "Nina Chat",
+          "party": "Republican"
+        },
+        {
+          "name": "Dina Nina Martinez-Rutherford",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Francesca Hong (Filed Notification of Noncandidacy)"
+    },
+    "77": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 77",
+      "key": "77",
+      "candidates": [
+        {
+          "name": "Jane McCormick",
+          "party": "Republican"
+        },
+        {
+          "name": "Renuka Mayadev",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Renuka Mayadev"
+    },
+    "78": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 78",
+      "key": "78",
+      "candidates": [
+        {
+          "name": "Henry Johnson",
+          "party": "Republican"
+        },
+        {
+          "name": "Shelia Stubbs",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Shelia Stubbs"
+    },
+    "79": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 79",
+      "key": "79",
+      "candidates": [
+        {
+          "name": "John Fons",
+          "party": "Republican"
+        },
+        {
+          "name": "Lisa Subeck",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Lisa Subeck"
+    },
+    "80": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 80",
+      "key": "80",
+      "candidates": [
+        {
+          "name": "Simran Arora",
+          "party": "Republican"
+        },
+        {
+          "name": "Mike Bare",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Mike Bare"
+    },
+    "81": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 81",
+      "key": "81",
+      "candidates": [
+        {
+          "name": "Mark S. Maier",
+          "party": "Republican"
+        },
+        {
+          "name": "Alex Joers",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Alex Joers"
+    },
+    "82": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 82",
+      "key": "82",
+      "candidates": [
+        {
+          "name": "Bryson Reyes",
+          "party": "Republican"
+        },
+        {
+          "name": "Rico Camacho",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Scott Allen (Filed Notification of Noncandidacy)"
+    },
+    "83": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 83",
+      "key": "83",
+      "candidates": [
+        {
+          "name": "Dave Maxey",
+          "party": "Republican"
+        }
+      ],
+      "incumbentLine": "Dave Maxey"
+    },
+    "84": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 84",
+      "key": "84",
+      "candidates": [
+        {
+          "name": "Chuck Wichgers",
+          "party": "Republican"
+        }
+      ],
+      "incumbentLine": "Chuck Wichgers"
+    },
+    "85": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 85",
+      "key": "85",
+      "candidates": [
+        {
+          "name": "Patrick Snyder",
+          "party": "Republican"
+        },
+        {
+          "name": "John Kroll",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Patrick Snyder"
+    },
+    "86": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 86",
+      "key": "86",
+      "candidates": [
+        {
+          "name": "John Spiros",
+          "party": "Republican"
+        },
+        {
+          "name": "Andy Wuethrich",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "John Spiros"
+    },
+    "87": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 87",
+      "key": "87",
+      "candidates": [
+        {
+          "name": "Brent Jacobson",
+          "party": "Republican"
+        },
+        {
+          "name": "Bob Look",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Brent Jacobson"
+    },
+    "88": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 88",
+      "key": "88",
+      "candidates": [
+        {
+          "name": "Ben Franklin",
+          "party": "Republican"
+        },
+        {
+          "name": "Brandy Tollefson",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Benjamin Franklin"
+    },
+    "89": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 89",
+      "key": "89",
+      "candidates": [
+        {
+          "name": "Bobby R. Lindsey",
+          "party": "Republican"
+        },
+        {
+          "name": "Ryan Spaude",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Ryan Spaude"
+    },
+    "90": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 90",
+      "key": "90",
+      "candidates": [
+        {
+          "name": "Jessica Henderson",
+          "party": "Republican"
+        },
+        {
+          "name": "Amaad Rivera-Wagner",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Amaad Rivera Wagner"
+    },
+    "91": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 91",
+      "key": "91",
+      "candidates": [
+        {
+          "name": "Bruce Stabenow",
+          "party": "Republican"
+        },
+        {
+          "name": "Jodi Emerson",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Jodi Emerson"
+    },
+    "92": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 92",
+      "key": "92",
+      "candidates": [
+        {
+          "name": "Clint Moses",
+          "party": "Republican"
+        },
+        {
+          "name": "Jeremiah Fredrickson",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Clint Moses"
+    },
+    "93": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 93",
+      "key": "93",
+      "candidates": [
+        {
+          "name": "Michael Ayala",
+          "party": "Republican"
+        },
+        {
+          "name": "Christian Phelps",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Christian Phelps"
+    },
+    "94": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 94",
+      "key": "94",
+      "candidates": [
+        {
+          "name": "Keith Purnell",
+          "party": "Republican"
+        },
+        {
+          "name": "Steve Doyle",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Steve Doyle"
+    },
+    "95": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 95",
+      "key": "95",
+      "candidates": [
+        {
+          "name": "Cedric Schnitzler",
+          "party": "Republican"
+        },
+        {
+          "name": "Jill Billings",
+          "party": "Democratic"
+        },
+        {
+          "name": "Paul Michael Weber",
+          "party": "Independent"
+        }
+      ],
+      "incumbentLine": "Jill Billings"
+    },
+    "96": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 96",
+      "key": "96",
+      "candidates": [
+        {
+          "name": "Jim Green",
+          "party": "Republican"
+        },
+        {
+          "name": "Tara Johnson",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Tara Johnson"
+    },
+    "97": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 97",
+      "key": "97",
+      "candidates": [
+        {
+          "name": "Cindi Duchow",
+          "party": "Republican"
+        }
+      ],
+      "incumbentLine": "Cindi Duchow"
+    },
+    "98": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 98",
+      "key": "98",
+      "candidates": [
+        {
+          "name": "Jim Piwowarczyk",
+          "party": "Republican"
+        },
+        {
+          "name": "Matt Philibert",
+          "party": "Democratic"
+        }
+      ],
+      "incumbentLine": "Jim Piwowarczyk"
+    },
+    "99": {
+      "office": "REPRESENTATIVE TO THE ASSEMBLY DISTRICT 99",
+      "key": "99",
+      "candidates": [
+        {
+          "name": "Barbara Dittrich",
+          "party": "Republican"
+        }
+      ],
+      "incumbentLine": "Barbara Dittrich"
+    }
+  },
+  "local": {},
+  "annotations": {
+    "GOVERNOR": {
+      "incumbentLine": "Tony Evers (Filed Notification of Noncandidacy)"
+    },
+    "REPRESENTATIVE IN CONGRESS DISTRICT 1": {
+      "incumbentLine": "Bryan Steil"
+    },
+    "REPRESENTATIVE IN CONGRESS DISTRICT 2": {
+      "incumbentLine": "Mark Pocan"
+    },
+    "REPRESENTATIVE IN CONGRESS DISTRICT 3": {
+      "incumbentLine": "Derrick Van Orden"
+    },
+    "REPRESENTATIVE IN CONGRESS DISTRICT 4": {
+      "incumbentLine": "Gwen S. Moore"
+    },
+    "REPRESENTATIVE IN CONGRESS DISTRICT 5": {
+      "incumbentLine": "Scott Fitzgerald"
+    },
+    "REPRESENTATIVE IN CONGRESS DISTRICT 6": {
+      "incumbentLine": "Glenn Grothman"
+    },
+    "REPRESENTATIVE IN CONGRESS DISTRICT 7": {
+      "incumbentLine": "Tom Tiffany"
+    },
+    "REPRESENTATIVE IN CONGRESS DISTRICT 8": {
+      "incumbentLine": "Tony Wied"
+    }
+  },
+  "date": {
+    "quote": "11/3/2026",
+    "text": "The Wisconsin list header prints 2026 General Election - 11/3/2026."
+  }
+}

@@ -6,6 +6,7 @@ import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { SourceLines } from "@/components/SourceLines";
 import { ZipPlaceSearchSection } from "@/components/ZipPlaceSearchSection";
+import coverage from "@/data/ballot/coverage.json";
 import { gazetteerCitation, GAZETTEER_FILE, GAZETTEER_FILE_DATE } from "@/data/censusSources";
 import { placeManifest, placeStates } from "@/data/places/load";
 import { contentUpdatedLabel } from "@/lib/contentDate";
@@ -47,7 +48,25 @@ export default function CitiesIndexPage() {
           functional status F (fictitious entities) are not included. Each state page links the
           place pages for that jurisdiction.
         </p>
-        <SourceLines sources={[gazetteerCitation]} />
+        <p className="mt-4">
+          Of these {coverage.placeCount.toLocaleString("en-US")} places,{" "}
+          {coverage.localPlaces.toLocaleString("en-US")} pages include at least one local contest
+          copied from an official election list read on {coverage.accessed}. All of those local
+          contests are from the Virginia Department of Elections November 3, 2026 all-offices list,
+          matched to one Census place. The other {coverage.federalStateOnly.toLocaleString("en-US")}{" "}
+          pages say that no official local listing was found. That count is about lists read for
+          this site. It is not a statement that a place has no local election.
+        </p>
+        <SourceLines
+          sources={[
+            gazetteerCitation,
+            {
+              name: "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+              url: "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+              accessed: "October 17, 2026",
+            },
+          ]}
+        />
       </section>
 
       <ZipPlaceSearchSection />

@@ -1,0 +1,386 @@
+{
+  "statewide": [],
+  "upper": {
+    "2": {
+      "office": "For Member of the Legislature District 2",
+      "key": "2",
+      "candidates": [
+        {
+          "name": "Dean Helmick",
+          "party": "",
+          "mark": "Nonincumbent"
+        },
+        {
+          "name": "Caitlin Knutson",
+          "party": "",
+          "mark": "Nonincumbent"
+        }
+      ],
+      "term": "4"
+    },
+    "4": {
+      "office": "For Member of the Legislature District 4",
+      "key": "4",
+      "candidates": [
+        {
+          "name": "Cindy Maxwell-Ostdiek",
+          "party": "",
+          "mark": "Nonincumbent"
+        },
+        {
+          "name": "R. Brad von Gillern",
+          "party": "",
+          "mark": "Incumbent"
+        }
+      ],
+      "term": "4"
+    },
+    "6": {
+      "office": "For Member of the Legislature District 6",
+      "key": "6",
+      "candidates": [
+        {
+          "name": "Patrick Leahy",
+          "party": "",
+          "mark": "Nonincumbent"
+        },
+        {
+          "name": "Nate Ostdiek",
+          "party": "",
+          "mark": "Nonincumbent"
+        }
+      ],
+      "term": "4"
+    },
+    "8": {
+      "office": "For Member of the Legislature District 8",
+      "key": "8",
+      "candidates": [
+        {
+          "name": "Josh Livingston",
+          "party": "",
+          "mark": "Nonincumbent"
+        },
+        {
+          "name": "Erin Feichtinger",
+          "party": "",
+          "mark": "Nonincumbent"
+        }
+      ],
+      "term": "4"
+    },
+    "10": {
+      "office": "For Member of the Legislature District 10",
+      "key": "10",
+      "candidates": [
+        {
+          "name": "Cindy Johnson",
+          "party": "",
+          "mark": "Nonincumbent"
+        },
+        {
+          "name": "Rebecca Rens",
+          "party": "",
+          "mark": "Nonincumbent"
+        }
+      ],
+      "term": "4"
+    },
+    "12": {
+      "office": "For Member of the Legislature District 12",
+      "key": "12",
+      "candidates": [
+        {
+          "name": "Merv Riepe",
+          "party": "",
+          "mark": "Incumbent"
+        },
+        {
+          "name": "Omaha",
+          "party": "Christy Knorr",
+          "mark": "PO Box 540331 Omaha NE 68154"
+        }
+      ],
+      "term": "4"
+    },
+    "14": {
+      "office": "For Member of the Legislature District 14",
+      "key": "14",
+      "candidates": [
+        {
+          "name": "La Vista",
+          "party": "Bill Bowes"
+        },
+        {
+          "name": "Papillion",
+          "party": "SuAnn Witt",
+          "mark": "PO Box 460993 Papillion NE 68046"
+        }
+      ],
+      "term": "4"
+    },
+    "16": {
+      "office": "For Member of the Legislature District 16",
+      "key": "16",
+      "candidates": [
+        {
+          "name": "Blair",
+          "party": "Ted Japp"
+        },
+        {
+          "name": "Tekamah",
+          "party": "Cindy Chatt"
+        }
+      ],
+      "term": "4"
+    },
+    "18": {
+      "office": "For Member of the Legislature District 18",
+      "key": "18",
+      "candidates": [
+        {
+          "name": "Bennington",
+          "party": "Taylor Royal"
+        },
+        {
+          "name": "Omaha",
+          "party": "Jess Goldoni",
+          "mark": "PO Box 641501 Omaha NE 68164"
+        }
+      ],
+      "term": "4"
+    },
+    "20": {
+      "office": "For Member of the Legislature District 20",
+      "key": "20",
+      "candidates": [
+        {
+          "name": "Omaha",
+          "party": "John Fredrickson"
+        },
+        {
+          "name": "Omaha",
+          "party": "Chris Anderson"
+        }
+      ],
+      "term": "4"
+    },
+    "22": {
+      "office": "For Member of the Legislature District 22",
+      "key": "22",
+      "candidates": [
+        {
+          "name": "Columbus",
+          "party": "Dawson Brunswick"
+        }
+      ],
+      "term": "4"
+    },
+    "24": {
+      "office": "For Member of the Legislature District 24",
+      "key": "24",
+      "candidates": [
+        {
+          "name": "Seward",
+          "party": "Jana Hughes"
+        },
+        {
+          "name": "Bradshaw",
+          "party": "Dan Winter"
+        }
+      ],
+      "term": "4"
+    },
+    "26": {
+      "office": "For Member of the Legislature District 26",
+      "key": "26",
+      "candidates": [
+        {
+          "name": "Lincoln",
+          "party": "George Dungan",
+          "mark": "PO Box 4202 Lincoln NE 68504"
+        },
+        {
+          "name": "Lincoln",
+          "party": "Tobias Howard"
+        }
+      ],
+      "term": "4"
+    },
+    "28": {
+      "office": "For Member of the Legislature District 28",
+      "key": "28",
+      "candidates": [
+        {
+          "name": "Lincoln",
+          "party": "Patty Pansing Brooks"
+        },
+        {
+          "name": "Lincoln",
+          "party": "Colby L. Woodson"
+        }
+      ],
+      "term": "4"
+    },
+    "30": {
+      "office": "For Member of the Legislature District 30",
+      "key": "30",
+      "candidates": [
+        {
+          "name": "Filley",
+          "party": "Cally Ideus"
+        },
+        {
+          "name": "Beatrice",
+          "party": "Janet M. Bock"
+        }
+      ],
+      "term": "4"
+    },
+    "32": {
+      "office": "For Member of the Legislature District 32",
+      "key": "32",
+      "candidates": [
+        {
+          "name": "Diller",
+          "party": "Mark Schoenrock",
+          "mark": "PO Box 56 Diller NE 68342"
+        },
+        {
+          "name": "Crete",
+          "party": "Shay Smith",
+          "mark": "PO Box 35 Crete NE 68333"
+        }
+      ],
+      "term": "4"
+    },
+    "34": {
+      "office": "For Member of the Legislature District 34",
+      "key": "34",
+      "candidates": [
+        {
+          "name": "Central City",
+          "party": "Loren Lippincott"
+        },
+        {
+          "name": "Central City",
+          "party": "Ben Blodgett"
+        }
+      ],
+      "term": "4"
+    },
+    "36": {
+      "office": "For Member of the Legislature District 36",
+      "key": "36",
+      "candidates": [
+        {
+          "name": "Papillion",
+          "party": "Darin Tompkins"
+        },
+        {
+          "name": "Bellevue",
+          "party": "Rick Holdcroft"
+        }
+      ],
+      "term": "4"
+    },
+    "38": {
+      "office": "For Member of the Legislature District 38",
+      "key": "38",
+      "candidates": [
+        {
+          "name": "Sutton",
+          "party": "Tim Anderson",
+          "mark": "PO Box 15 Sutton NE 68979"
+        },
+        {
+          "name": "Orleans",
+          "party": "Janell Anderson Ehrke",
+          "mark": "PO Box 512 Orleans NE 68966"
+        }
+      ],
+      "term": "4"
+    },
+    "40": {
+      "office": "For Member of the Legislature District 40",
+      "key": "40",
+      "candidates": [
+        {
+          "name": "Niobrara",
+          "party": "Barry DeKay"
+        }
+      ],
+      "term": "4"
+    },
+    "41": {
+      "office": "For Member of the Legislature District 41",
+      "key": "41",
+      "candidates": [
+        {
+          "name": "Kearney",
+          "party": "Joe Johnson"
+        },
+        {
+          "name": "Cairo",
+          "party": "Jeremy Heneger"
+        }
+      ],
+      "term": "2"
+    },
+    "42": {
+      "office": "For Member of the Legislature District 42",
+      "key": "42",
+      "candidates": [
+        {
+          "name": "North Platte",
+          "party": "Mike Jacobson"
+        },
+        {
+          "name": "Thedford",
+          "party": "Shaylee S. Scranton"
+        }
+      ],
+      "term": "4"
+    },
+    "44": {
+      "office": "For Member of the Legislature District 44",
+      "key": "44",
+      "candidates": [
+        {
+          "name": "Sumner",
+          "party": "Teresa Ibach"
+        }
+      ],
+      "term": "4"
+    },
+    "46": {
+      "office": "For Member of the Legislature District 46",
+      "key": "46",
+      "candidates": [
+        {
+          "name": "Lincoln",
+          "party": "Danielle Conrad"
+        }
+      ],
+      "term": "4"
+    },
+    "48": {
+      "office": "For Member of the Legislature District 48",
+      "key": "48",
+      "candidates": [
+        {
+          "name": "Gering",
+          "party": "Brian Hardin"
+        },
+        {
+          "name": "Scottsbluff",
+          "party": "Jessica M. Landers"
+        }
+      ],
+      "term": "4"
+    }
+  },
+  "lower": {},
+  "local": {},
+  "annotations": {}
+}

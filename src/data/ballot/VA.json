@@ -1,0 +1,7795 @@
+{
+  "statewide": [],
+  "upper": {},
+  "lower": {
+    "20": {
+      "office": "Member, House of Delegates 20th District",
+      "key": "20",
+      "candidates": [
+        {
+          "name": "Sonia Ruth Vasquez Luna",
+          "party": "Democratic",
+          "mark": "No"
+        },
+        {
+          "name": "Nathaniel \"Nate\" Fritzen",
+          "party": "Republican",
+          "mark": "No"
+        }
+      ],
+      "term": "2 year",
+      "seats": "1"
+    }
+  },
+  "local": {
+    "5105912": [
+      {
+        "office": "Mayor - Belle Haven",
+        "district": "Town of Belle Haven",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "David A. McCaleb",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Lawrence Burr Willcox II",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Belle Haven",
+        "district": "Town of Belle Haven",
+        "term": "2 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Edwin R. Long",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Cecil Mears Ashby",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Douglas R. Wehner",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Larry S. Baxter",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Troy A. Brown",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5108120": [
+      {
+        "office": "Mayor - Bloxom",
+        "district": "Town of Bloxom",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Christopher F. Kreisl",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Bloxom",
+        "district": "Town of Bloxom",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Samuel H. Bloxom, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Charles Edward Roe, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Kasey G. Bagwell",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Rosemary G. Gibbons",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Thomas W. Beasley",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "James T. Bagwell II",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5134176": [
+      {
+        "office": "Mayor - Hallwood",
+        "district": "Town of Hallwood",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "John W. Poulson, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Hallwood",
+        "district": "Town of Hallwood",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "John W. Smith, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Dawn A. Thornton",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Pamela G. Riffey",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5141656": [
+      {
+        "office": "Mayor - Keller",
+        "district": "Town of Keller",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "S. Beth J. Hart",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Keller",
+        "district": "Town of Keller",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Rose Ann Moore",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Anna L. Hart",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Linda A. Guy",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Teresa E. Guy",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5159336": [
+      {
+        "office": "Mayor - Onancock",
+        "district": "Town of Onancock",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Fletcher D. Fosque",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Onancock",
+        "district": "Town of Onancock",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Ann M. Quigley",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Cynthia W. Holdren",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Ashley G. Pettit",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Special",
+        "district": "Town of Onancock",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "K. C. \"Kasey\" Grier",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5159384": [
+      {
+        "office": "Mayor - Onley",
+        "district": "Town of Onley",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Henry E. \"Ned\" Finney",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Onley",
+        "district": "Town of Onley",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Jason A. Campbell",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Brian A. Corbin",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "W. R. \"Bill\" Ferguson",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Daniel Keith Bloxom, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Woody W. Zember",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Rodney C. Lang",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5160296": [
+      {
+        "office": "Mayor - Painter",
+        "district": "Town of Painter",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Connie Widgeon Campbell",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Painter",
+        "district": "Town of Painter",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "F. C. Duer III",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "James N. Sturgis",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Josephine B. Hearne",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Thomas L. Willett",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Eric Talmadge Harris",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Samuel L. Lewis, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5170576": [
+      {
+        "office": "Mayor - Saxis",
+        "district": "Town of Saxis",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Bryan P. Shreaves, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Saxis",
+        "district": "Town of Saxis",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Bradley J. Taylor",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Denise E. Chance",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Beverly L. Hart",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Aubrey Lee Miles, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Raymond Paul Paoletti",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Darrell D. Marshall",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "K. N. \"Katie Morrison\" Stitely",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5177520": [
+      {
+        "office": "Mayor - Tangier",
+        "district": "Town of Tangier",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "James Wyatt Eskridge",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Tangier",
+        "district": "Town of Tangier",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Anna E. Pruitt-Parks",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Kelly Charnock Wheatley",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Tracy King Pruitt",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Elizabeth P. Thomas",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "William T. \"Tommy\" Eskridge III",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5182320": [
+      {
+        "office": "Mayor - Wachapreague",
+        "district": "Town of Wachapreague",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Arthur J. Mendez",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Wachapreague",
+        "district": "Town of Wachapreague",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Robert E. Hipple Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Glenn J. Schagelin",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Robert F. Bilicki",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Stephen B. Joseph",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "James E. Bell",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Aileen Z. Joeckel",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5100180": [
+      {
+        "office": "Member Town Council - Accomac",
+        "district": "Town of Accomac",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Christopher W. Newman",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jon J. Mindurski",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Thomas E. Hines",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Mary E. Dahlke",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5116512": [
+      {
+        "office": "Member Town Council - Chincoteague",
+        "district": "Town of Chincoteague",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Christopher Duer Bott",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "K. Jay Savage",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Ellen W. Richardson",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5150984": [
+      {
+        "office": "Member Town Council - Melfa",
+        "district": "Town of Melfa",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Ricky C. Marsh",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "James R. Wilson",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Robert Douglas Mears",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5160680": [
+      {
+        "office": "Member Town Council - Parksley",
+        "district": "Town of Parksley",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Mark S. Layne",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Kimberly C. Smith",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Rick W. Mattson",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5170800": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of Scottsville",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "R. Daniel Gritsko",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Edward A. Payne Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Molly Jordan Angevine",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Meredith C. Hynes",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5117440": [
+      {
+        "office": "Member Town Council - Clifton Forge",
+        "district": "Town of Clifton Forge",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Dale E. Burdette",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Pamela E. Lightfoot",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Michael L. Foster",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Deborah A. Laudermilk",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5101672": [
+      {
+        "office": "Mayor - Amherst",
+        "district": "Town of Amherst",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "D. Dwayne Tuggle",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Amherst",
+        "district": "Town of Amherst",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "S.S. \"Sonny\" Sundaramurthy",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Ventris C. Gibson",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Amherst - Special",
+        "district": "Town of Amherst",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Harold O. Thomas Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Kenneth G. Bunch",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5102072": [
+      {
+        "office": "Mayor - Appomattox",
+        "district": "Town of Appomattox",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Richard C. Conner",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Appomattox",
+        "district": "Town of Appomattox",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Danielle R. Ulmer",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Timothy Wayne Garrett",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Mary Lou Spiggle",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5160488": [
+      {
+        "office": "Mayor - Pamplin City",
+        "district": "Town of Pamplin City",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Sarah Hamlett Blackwell",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Pamplin City",
+        "district": "Town of Pamplin City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "John R. Marks",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Ken L. Swanson",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Shannon Franklin Reed",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5119904": [
+      {
+        "office": "Member Town Council - Craigsville",
+        "district": "Town of Craigsville",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Emmett B. Cole",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Richard L. Fox",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Veronica L. Moran",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5133488": [
+      {
+        "office": "Member Town Council - Grottoes",
+        "district": "Town of Grottoes",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "David L. Raynes",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Gleamer L. Sullivan",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jeffrey C. Ditmer, Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Kara M. H. Dodson",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Christopher W. Dodson",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5105544": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of Bedford",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Stacey L. Hailey",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Ann E. DeLong",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Timothy R. Brooke",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Danny L. Kirby",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5127824": [
+      {
+        "office": "Mayor, Town of Fincastle",
+        "district": "Town of Fincastle",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Mary Bess Smith",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council, Fincastle",
+        "district": "Town of Fincastle",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Paige Wright Ware",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Pamela D. Binns",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Edward D. Bordett",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5110744": [
+      {
+        "office": "Member Town Council, Buchanan",
+        "district": "Town of Buchanan",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Marlon E. \"Marty\" Rickman",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Shean C. Bowers",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5179472": [
+      {
+        "office": "Member Town Council, Troutville",
+        "district": "Town of Troutville",
+        "term": "2 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Granville E. Grant",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Henry John Cook Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5109816": [
+      {
+        "office": "Member City Council",
+        "district": "Bristol City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Jackie L. Nophlin",
+            "party": "Democratic",
+            "mark": "No"
+          },
+          {
+            "name": "Elijah D. Walker",
+            "party": "Democratic",
+            "mark": "No"
+          },
+          {
+            "name": "Melissa K. Brown",
+            "party": "Democratic",
+            "mark": "No"
+          },
+          {
+            "name": "Jake Preston Holmes",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "F. Neal Osborne",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Michael W. Pollard",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Bristol City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Rhoda A. Blackwell",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Shannon T. Love",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Bryan D. Kimberlin",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Vanessa B. Guffey",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Ric S. Watts",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5100724": [
+      {
+        "office": "Mayor - Alberta",
+        "district": "Town of Alberta",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Robert W. Hayes, Sr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Alberta",
+        "district": "Town of Alberta",
+        "term": "4 year",
+        "seats": "4",
+        "candidates": [
+          {
+            "name": "Frances Peterson Weddingt",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Rebecca L. Spengler",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Sarah K. Underdue",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5144520": [
+      {
+        "office": "Mayor - Lawrenceville",
+        "district": "Town of Lawrenceville",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Lawanda V. Tatum",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5133648": [
+      {
+        "office": "Mayor",
+        "district": "Town of Grundy",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Chris A. Mitchell",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Grundy",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Rebecca L. Shortridge-Elkins",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Patty Marie Street",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "M. Wade McGeorge",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5111032": [
+      {
+        "office": "Member City Council - Special",
+        "district": "Buena Vista City",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "William E. Kerr",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board - Special",
+        "district": "Buena Vista City",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Michael A. Cartolaro",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5110296": [
+      {
+        "office": "Mayor - Brookneal",
+        "district": "Town of Brookneal",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Barbara M. Laprade",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Brookneal",
+        "district": "Town of Brookneal",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Richard F. \"Tank\" Worley",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Cynthia B. \"Cindy\" Johnson",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Carlton R. Payne",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5101528": [
+      {
+        "office": "Member Town Council - Altavista",
+        "district": "Town of Altavista",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "J. Scott Lowman",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Tim H. George",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "John E. Roark III",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5108888": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of Bowling Green",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Randal S. Hageman",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Philip K. Edwards IV",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Daniel C. Webb",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5163928": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of Port Royal",
+        "term": "2 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Angela F. Golden",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Robert B. Giles Sr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Alexander Long IV",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Nathanael E. Ulfers",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Monica G. Chenault",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5137336": [
+      {
+        "office": "Mayor",
+        "district": "Town of Hillsville",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Gregory N. Crowder",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Andrew Kaufman",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Katie M. Horton",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5114952": [
+      {
+        "office": "Mayor",
+        "district": "Town of Charlotte Court House",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "David C. Watkins Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Charlotte Court House",
+        "term": "4 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Terrill W. Ramsey",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Brenda D. Haskins",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Debra P. Andrews",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Chad Crawford",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Brette A. Arbogast",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Kermit E. Jones",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Thomas E. Da Silva",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5123376": [
+      {
+        "office": "Mayor",
+        "district": "Town of Drakes Branch",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Deborah T. Kennedy",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Drakes Branch",
+        "term": "4 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Thomas W. Pettus",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Peery A. Wells, Sr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "James D. Gregory",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Elizabeth \"Liz\" Davis",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5142264": [
+      {
+        "office": "Mayor",
+        "district": "Town of Keysville",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Robert J. Schaefer",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Keysville",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Wendy B. Gallion",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Rachael B. Clark",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5116000": [
+      {
+        "office": "Member City Council",
+        "district": "Chesapeake City",
+        "term": "4 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Clayton L. Spruill",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Nichelle Buffalow",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Amanda L. Newins",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "E.R. \"Jeff\" Jefferies Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Daniel W. Whitaker",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Eric V. Wray II",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Janelle K.\"Dr. J\" St Louis",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Gayle M. Gilmore",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Santiera Brown-Yearling",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Todd A. Mayfield",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Daniel E. \"Lieutenant Dan\" Rosinski",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jennifer P. Naperala",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "George M. Yacus",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Brandy L.A. Deel",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Ozan M. \"Oz\" Duran",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Chesapeake City",
+        "term": "4 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Janika N.\"Dr. Jay\" Phillips",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Kim A. Scott",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "John Michael McCormick",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Mina A. Nolen",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Bruce E. Bossuot",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Mike J. Cassidy",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Amanda F. Quillin",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Antonia F. Fauntleroy",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Andrea G. Bolden",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jeremiah O. Harrell",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Alexiss M. McLain",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Olivia E. Duran",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Bradrick J. Fields",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5106968": [
+      {
+        "office": "Vice Mayor",
+        "district": "Town of Berryville",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Erecka L. Gibson",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5118448": [
+      {
+        "office": "Member City Council",
+        "district": "Colonial Heights City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "John E. Piotrowski",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Betsy Gentry Luck",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jennifer M. Frazier",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "John T. Wood",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Randolph F. Thomas, Jr.",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Colonial Heights City",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Steven R. Neece",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Lance L. LaLonde",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Lisa Hales Kochuba",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5155592": [
+      {
+        "office": "Mayor",
+        "district": "Town of New Castle",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "James \"Lenny\" Macdonald",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of New Castle",
+        "term": "4 year",
+        "seats": "4",
+        "candidates": [
+          {
+            "name": "Robert E. Lee",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Karen S. Crush",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Robyn Leigh Foster",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5127440": [
+      {
+        "office": "Member Town Council - At Large",
+        "district": "Town of Farmville",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "John D. Miller",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5121344": [
+      {
+        "office": "Member City Council",
+        "district": "Danville City",
+        "term": "4 year",
+        "seats": "4",
+        "candidates": [
+          {
+            "name": "Alonzo L. Jones",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "James B. Buckner",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Lonnie F. Jones",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Gary P. Miller",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Tony D. L. Howerton",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "A. Bryant Hood",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Shakeva Q. Frazier",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Shelby J. Irving",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Dustin C. Whittle",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council - Special",
+        "district": "Danville City",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "D. W. \"Danny\" Marshall III",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jasmine D. \"Wisdom\" Lipscomb",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Danville City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "TyQuan J. Graves",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Trina A. McLaughlin",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Keisha L. Averett",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "David A. Jones",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5117552": [
+      {
+        "office": "Mayor",
+        "district": "Town of Clintwood",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Danny W. Lambert",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Charles H. \"Charlie\" Wynn",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Clintwood",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "James R. \"Jim\" Childress",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "James Andrew \"Andy\" Rose",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Curtis A. Edwards",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5136008": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of Haysi",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Tracie A. Wallace",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Michael S. Harris",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Lilly Dalene Thacker",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Susan M. Smith Tiller",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5148344": [
+      {
+        "office": "Mayor",
+        "district": "Town of McKenney",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Meagan S. Haire Abbey",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of McKenney",
+        "term": "2 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Anna M. Modrall",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "M. E. \"Beth\" Anderson",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Sarah A. Woodland",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5177568": [
+      {
+        "office": "Mayor",
+        "district": "Town of Tappahannock",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Troy L. Balderson",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Carolyn S. Barrett",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Tappahannock",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "James M. Frazier Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Robert Tyler Lowery",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Kenneth A. \"Skip\" Gillis",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "J. Erin Kelley",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "M. Jeans Owens",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Dianna L. Carneal",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5126496": [
+      {
+        "office": "Mayor",
+        "district": "Fairfax City",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Kirsten Sides Lockhart",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Thomas D. \"Tom\" Peterson",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Fairfax City",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Stacy R. Hall",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Rachel M McQuillen",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Anthony T. Amos",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Sandi W. Slappey Brown",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Kelly M. O'Brien",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Russell A. Jones",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Stephen S. Kim",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Susan Hartley Kuiler",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "María José Padmore",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Steve S Chang",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jessica L. Lough",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Fairfax City",
+        "term": "2 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Carolyn S. Pitches",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Amit Sarah Hickman",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Kristina M. Cecere",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Sarah M. Kelsey",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Lauren A. Bartelme",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5136648": [
+      {
+        "office": "Mayor",
+        "district": "Town of Herndon",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Keven J LeBlanc, Jr",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Herndon",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Sabrina A. Bruce",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Josif N. Ezekilov",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Cesar A. Del Aguila",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Douglas Isaac \"Doug\" Mejia",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Kelvin Garcia",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Yasmin \"Soniya\" Shafiq",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Meron T. Yohannes",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Clark A. Hedrick",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Michael T. Lloyd",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Justin K. Britt",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Alexis \"Alex\" Reyes",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Stevan Michael Porter",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5166512": [
+      {
+        "office": "Mayor",
+        "district": "Town of Remington",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Devada R. Allison Jr.",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Remington",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Zechariah J. Tiemens",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Richard L. Heflin Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Susan L. Tiffany",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Van M. Loving",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Lisa M. Schulz",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Richard Kent Moxley",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5183136": [
+      {
+        "office": "Mayor",
+        "district": "Town of Warrenton",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Renard J. Carlos",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "David A. McGuire",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Darine P. Barbour",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council At Large",
+        "district": "Town of Warrenton",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "R. Christian Malott",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Patty D. Pratt",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Tammy L. Lake",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5178192": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of The Plains",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Joyce W. Heflin",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Heidi H. Van Voorhis",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Noah J. Portugal",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5129600": [
+      {
+        "office": "Mayor",
+        "district": "Franklin City",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Linwood W. Johnson",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Paul E. Kaplan",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5168496": [
+      {
+        "office": "Mayor - Rocky Mount",
+        "district": "Town of Rocky Mount",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Clyde Holland Perdue, III",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Rocky Mount",
+        "district": "Town of Rocky Mount",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "David K. Clements",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Ben K. Mullins",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "A. Ralph Casey",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5108584": [
+      {
+        "office": "Member Town Council - Boones Mill",
+        "district": "Town of Boones Mill",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Rhonda J. McFalls",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Peggy B. Steele",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5175344": [
+      {
+        "office": "Mayor",
+        "district": "Town of Stephens City",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Mariah C. Smith",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Bill M. Ewing",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Stephens City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Andrew R. Guyer",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Martha W. Dilg",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Linden A. \"Pete\" Fravel III",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "James \"Jim\" Vogt",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Regina Swygert-Smith",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5151512": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of Middletown",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Diane H. Newman Shannon",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jacob D. Skeith",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jeffrey H. Pennington",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5154904": [
+      {
+        "office": "Mayor",
+        "district": "Town of Narrows",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Calvin D. \"Tom\" Spangler, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Narrows",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Richard W. Duncan",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "John K. Hale, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Alicia D. Lane",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5166896": [
+      {
+        "office": "Member Town Council - Rich Creek - Special",
+        "district": "Town of Rich Creek",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Christopher S. Thornton",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5139528": [
+      {
+        "office": "Mayor",
+        "district": "Town of Independence",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Mark D. Miller",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Independence",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Michael S. Johnson",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Gregory P. Moore",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "M. V. \"Ginger\" Meier",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "William F. \"Buddy\" Halsey",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Special",
+        "district": "Town of Independence",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Amanda J. Davis",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5179456": [
+      {
+        "office": "Mayor",
+        "district": "Town of Troutdale",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Amy Lynn Taylor",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Ira K. \"Kenny\" McGrady Jr",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Troutdale",
+        "term": "4 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Dwight A. Taylor",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Samuel J. \"Sam\" Pennington",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Dawn G. Leake",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "H. M. \"Mike\" Leake",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Tina Michelle Delp",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Scott L. Cornett",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Recorder",
+        "district": "Town of Troutdale",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Savanna S. Cornett",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5129920": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of Fries",
+        "term": "2 year",
+        "seats": "7",
+        "candidates": [
+          {
+            "name": "Brenden L. Lyman",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Travis W. Jones",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Albert W. Griffin Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Cynthia S. Grant",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Mary Ann Cubbage",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Sarah Yvonne Burr",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Karen L. Snyder",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Melissa J. Carpenter",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jennifer M. Durham",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Sara M. Farnsworth",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5175008": [
+      {
+        "office": "Mayor",
+        "district": "Town of Stanardsville",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Michael A. Payne",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Stanardsville",
+        "term": "4 year",
+        "seats": "4",
+        "candidates": [
+          {
+            "name": "Doris Rorrer Swenson",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Matthew A. \"Matt\" Kime",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Richard N. Early Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Kevin A. Kelley",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5140536": [
+      {
+        "office": "Mayor",
+        "district": "Town of Jarratt",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Brandon M. Rawlings",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Jarratt",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Anne F. Brown",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Gregory Adam Byers",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Eric B. Schmack",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Dana Y. Kinsley",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Y. Omar Smith",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5134064": [
+      {
+        "office": "Mayor",
+        "district": "Town of Halifax",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Dabney T.P. \"Dexter\" Gilliam, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5181312": [
+      {
+        "office": "Mayor - Virgilina",
+        "district": "Town of Virgilina",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Ralph O. Murray Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Virgilina",
+        "district": "Town of Virgilina",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Jason H. Johnson",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Mary M. Jordan",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Catherine A. Ellixson",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Patricia E. Honeycutt",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Susan A. Bagbey",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Tommie S. Glasscock",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5173712": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of South Boston",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "J. Brian Burton",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Sharon M. Harris",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Barbara C. Speece",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5135624": [
+      {
+        "office": "Member City Council",
+        "district": "Harrisonburg City",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Dany R. Fleming",
+            "party": "Democratic",
+            "mark": "Yes"
+          },
+          {
+            "name": "Monica L. Robinson",
+            "party": "Democratic",
+            "mark": "Yes"
+          },
+          {
+            "name": "Sal T. Romero Jr.",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Harrisonburg City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Rachel G. Smallwood",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Debra Stevens Fitzgerald",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Emma Phillips",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5167208": [
+      {
+        "office": "Mayor",
+        "district": "Town of Ridgeway",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Craig A. G. Oder, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Ridgeway",
+        "term": "4 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "William W. Westberg Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Michael R. Bass",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "James B. Hairston",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Maeve S. McCulloch",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5173200": [
+      {
+        "office": "Member Town Council - Smithfield",
+        "district": "Town of Smithfield",
+        "term": "4 year",
+        "seats": "4",
+        "candidates": [
+          {
+            "name": "A. Russ MacConnell",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jeff D. Brooks",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Valerie Cofer Butler",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Gene S. Monroe Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Nicholas F. Hess",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5186784": [
+      {
+        "office": "Member Town Council - Windsor",
+        "district": "Town of Windsor",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Edward G. \"Gibbie\" Dowdy II",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "David E. Carraway",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Amanda M. Baig",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Braden L. Overman",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5184960": [
+      {
+        "office": "Mayor",
+        "district": "Town of West Point",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "C. Joe Sanders, Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "J.T. \"Jack\" Lawson",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Town of West Point",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Chase Turner Evans",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Elliot G. Jenkins",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Leslie-Ann A. Sturtz",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of West Point",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "John R. Nein, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "James M. \"Jamie\" Pruett",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Taylor Nash Bloom",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5142424": [
+      {
+        "office": "Mayor - Kilmarnock",
+        "district": "Town of Kilmarnock",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Shawn E. Donahue",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Kilmarnock",
+        "district": "Town of Kilmarnock",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "M. Cameron \"Cammie\" Smith",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Sean T. Bowles",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Cynthia L. Scott",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Matthew A. Cunningham",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Paul J. \"PJ\" Jones",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5185600": [
+      {
+        "office": "Mayor - White Stone",
+        "district": "Town of White Stone",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Irving T. Brittingham",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - White Stone",
+        "district": "Town of White Stone",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Thomas Woodrow Wilson III",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Randy S. Reeves Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Kara G. Everett",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5140088": [
+      {
+        "office": "Member Town Council - Irvington",
+        "district": "Town of Irvington",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Philip A. Robinson",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Sam C. Van Saun",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Vivian S. \"Viv\" Ralls",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "R. Wayne Nunnally",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Special",
+        "district": "Town of Irvington",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Mary Windsor Cline",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Judith M. Penniman",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "George H. Kuper",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5141272": [
+      {
+        "office": "Mayor - Jonesville",
+        "district": "Town of Jonesville",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Jerry L. Harris",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Jonesville",
+        "district": "Town of Jonesville",
+        "term": "4 year",
+        "seats": "7",
+        "candidates": [
+          {
+            "name": "Michael J. Litton",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "B. Kenny Hounshell",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Danielle R. Stapleton",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Summer M. Wynn",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Rebecca Riggs Hines",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5161560": [
+      {
+        "office": "Mayor - Pennington Gap",
+        "district": "Town of Pennington Gap",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Terry K. Pope",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5145512": [
+      {
+        "office": "Mayor",
+        "district": "Lexington City",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "David G. Sigler",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Nicholas A. Betts",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Lexington City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "David G. Sigler",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Meghan N.S. Ferguson",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Amber Ansted",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5144984": [
+      {
+        "office": "Mayor - Leesburg",
+        "district": "Town of Leesburg",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "C. B. \"Kelly\" Burk",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Leesburg",
+        "district": "Town of Leesburg",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Brendan W. Murphy",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Neil R. Steinberg",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Todd A. Cimino-Johnson",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5147208": [
+      {
+        "office": "Mayor - Lovettsville",
+        "district": "Town of Lovettsville",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Christopher M. Hornbaker",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Christina M. Grace",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Lovettsville",
+        "district": "Town of Lovettsville",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Paul Richard Pico",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jared T. McCrory",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Megan E. Cox",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Robert R. \"Rob\" Hill, Jr.",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5165008": [
+      {
+        "office": "Mayor - Purcellville",
+        "district": "Town of Purcellville",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Erin K. Rayner",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Christopher M. Bertaut",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Purcellville",
+        "district": "Town of Purcellville",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Mitch S. Seipt",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Paul E. McCray",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Kevin B. Wright",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Greg F. Paris",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "H. Sam Brown, Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Hank J. Speckhardt",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5134240": [
+      {
+        "office": "Member Town Council - Hamilton",
+        "district": "Town of Hamilton",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Rebecca A. Jones",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Craig M. Green",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Cathy E. Salter",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5147144": [
+      {
+        "office": "Mayor",
+        "district": "Town of Louisa",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Ashley B. Michael",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Louisa",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Graven W. Craig",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "David M. Purcell",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Special",
+        "district": "Town of Louisa",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Vicky Ann Harte",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Durvin B. Corker",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5152120": [
+      {
+        "office": "Mayor",
+        "district": "Town of Mineral",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Robert B. \"Bob\" Spedden",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Mineral",
+        "term": "4 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "C. Blair Nipper",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Christopher D. Dillard",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Maggie M. Larson",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Michelle V. Covert",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Cean Nicole G. Washington",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Cara J. Lundgren-Stowe",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Rebecca T. \"Becky\" McGehee",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Afton K. Von Tye",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5141832": [
+      {
+        "office": "Mayor - Kenbridge",
+        "district": "Town of Kenbridge",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Wanda G. Morrison",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Kenbridge",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "David L. Haywood Sr.",
+            "party": "Democratic",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jodi Lynn Powers-Bernhardt",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Michael R. Bender",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5181024": [
+      {
+        "office": "Mayor - Victoria",
+        "district": "Town of Victoria",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Allen D. Smith",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Victoria",
+        "district": "Town of Victoria",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Johnnie W. Brame",
+            "party": "Republican",
+            "mark": "Yes"
+          },
+          {
+            "name": "James G. \"Greg\" Elam Jr.",
+            "party": "Republican",
+            "mark": "Yes"
+          },
+          {
+            "name": "Christopher T. Garrett",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5147672": [
+      {
+        "office": "Member City Council - At Large",
+        "district": "Lynchburg City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Christina Anne Delzingaro",
+            "party": "Democratic",
+            "mark": "No"
+          },
+          {
+            "name": "Nathaniel X. \"Nat\" Marshall",
+            "party": "Democratic",
+            "mark": "No"
+          },
+          {
+            "name": "R. Dave Henderson Jr",
+            "party": "Democratic",
+            "mark": "No"
+          },
+          {
+            "name": "Eli \"Shawn Hunter\" Rybinni",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Stephanie T. Reed",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Chris M. Boswell",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Larry L. Taylor",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Martin J. Misjuns",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Veronica T. Bratton",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5148952": [
+      {
+        "office": "Member City Council",
+        "district": "Manassas City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Dianne Lane",
+            "party": "Democratic",
+            "mark": "No"
+          },
+          {
+            "name": "Jill M. Spall",
+            "party": "Democratic",
+            "mark": "No"
+          },
+          {
+            "name": "Helen Anne Zurita",
+            "party": "Democratic",
+            "mark": "No"
+          },
+          {
+            "name": "Theresa Coates Ellis",
+            "party": "Republican",
+            "mark": "Yes"
+          },
+          {
+            "name": "Eugene E. \"Doc\" Brown",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Lynn Forkell Greene",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Colin J. Turner",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Manassas City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Sara J. Brescia",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Murina V. Dove",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Marcus S. Still",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Lisa Anne Stevens",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Raul O. Campoverde Lindao",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Javanese M. Hailey",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5148968": [
+      {
+        "office": "Member City Council",
+        "district": "Manassas Park City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Kevin J. Moreau",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Roberto Maldonado Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Maya I. Miernik",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5149784": [
+      {
+        "office": "Member City Council",
+        "district": "Martinsville City",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Michael E. Greene",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Verna L. \"Tina\" Jenkins",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Chad L. Hall",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Charles J. Niederstadt Jr",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "L C Jones",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5109016": [
+      {
+        "office": "Mayor",
+        "district": "Town of Boydton",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Ronald R. Sciamacco",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Boydton",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Ronald C. Worley",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Paul Ray Cherry",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "William H. \"Bill\" Coleman",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5114984": [
+      {
+        "office": "Mayor",
+        "district": "Town of Chase City",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Alden D. Fahringer",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Chase City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "James E. Bohannon",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Dora W. Garner",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Brenda A. Hatcher",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "LaTrisha M. McCargo",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5116992": [
+      {
+        "office": "Mayor",
+        "district": "Town of Clarksville",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Bruce F. Woerner",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Clarksville",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Richard B. \"Rick\" Buchanan",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Garland D. Pittard",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Michelle D. Hektor",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Scott A. Heath",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5180272": [
+      {
+        "office": "Mayor",
+        "district": "Town of Urbanna",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Robert E. \"Robbie\" Wilson, III",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Urbanna",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Jim B. Thrift",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Lisa M. Powers",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "John William Ryland III",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Anthony C. Pearce",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Martha J. Lowe",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5156000": [
+      {
+        "office": "Mayor",
+        "district": "Newport News City",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Sharon P. Scott",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Phillip D. Jones",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Phillip A. Hamilton",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board - At Large",
+        "district": "Newport News City",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Francis C. Jacobson",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Gary B. Hunter",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5112808": [
+      {
+        "office": "Mayor - Cape Charles",
+        "district": "Town of Cape Charles",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Adam M. Charney",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Cape Charles",
+        "district": "Town of Cape Charles",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Craig C. Felker",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Kenneth R. Butta",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Ian Alan McDonald",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Mark L. Usry",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5115112": [
+      {
+        "office": "Mayor - Cheriton",
+        "district": "Town of Cheriton",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Charles Kolakowski",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Cheriton",
+        "district": "Town of Cheriton",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Sheila M. Traina",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Matthew Yancy III",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Robert K. \"Bo\" Lewis, Sr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "B. B. \"Barry\" Downing Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Norma P. Spencer",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Terri L. Tatem",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5124752": [
+      {
+        "office": "Mayor - Eastville",
+        "district": "Town of Eastville",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Eleanor C. Gordon",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Diane Leigh Crockett",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Eastville",
+        "district": "Town of Eastville",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Bonny W. Lewis",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "John D. Crockett",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Annette Marie Brown",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "D. Allen Philpot III",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Anne G. Sayers",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Logan C. Small",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5126416": [
+      {
+        "office": "Member Town Council - Exmore",
+        "district": "Town of Exmore",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Stephanie L. Lilliston",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Claudia C. Andrews",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Bryon P. Heaster",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Brad W. Lowery",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5154984": [
+      {
+        "office": "Member Town Council - Nassawadox",
+        "district": "Town of Nassawadox",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "John W. Hallett, Sr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Edward Dirk Lynch",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Lisa Lindberg",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Thomas W. Rippon, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Georgette J. Press",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Andrea D. Fox",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jerome W. Nottingham IV",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5157688": [
+      {
+        "office": "Member City Council",
+        "district": "Norton City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Nina Sue Honaker",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "George E. \"Skipper\" Dorton, Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Joseph E. Fawbush",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Stacy L. Salyers",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member, School Board",
+        "district": "Norton City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Jonathan E. Broskey",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Gordon D. Scott",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Abbi R. Rutherford",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "William B. Bott",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5111560": [
+      {
+        "office": "Mayor",
+        "district": "Town of Burkeville",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Gerald E. Smith",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Burkeville",
+        "term": "2 year",
+        "seats": "7",
+        "candidates": [
+          {
+            "name": "Tahra J. Daniels",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "James G. \"Jay\" Horn Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Brandon S. Cummings",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Kevin E. Jones Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5120160": [
+      {
+        "office": "Mayor",
+        "district": "Town of Crewe",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Ela Engmann",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Crewe",
+        "term": "4 year",
+        "seats": "4",
+        "candidates": [
+          {
+            "name": "Ralph C. Vick Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Anne O. Stinson",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Marvin E. \"Marv\" Farmer",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Robin P. Sapp",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "T. Sean Davis",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Melissa H. \"Lisa\" Estes",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Ralph C. Vick V",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "William J. Williams",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Anthony M. Munir",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5131936": [
+      {
+        "office": "Member Town Council - Gordonsville",
+        "district": "Town of Gordonsville",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Mary C. \"Cyd\" Black",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Nick L. Paxton",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5159496": [
+      {
+        "office": "Member Town Council - Orange",
+        "district": "Town of Orange",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Jeffrey L. Crane",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Zachary M. Ashworth",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5171776": [
+      {
+        "office": "Mayor - Shenandoah",
+        "district": "Town of Shenandoah",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Clinton O. Lucas Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Shenandoah",
+        "district": "Town of Shenandoah",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Nathan T. Comer",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Gary A. \"Red\" Taylor",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Lynn E. Fox",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5147528": [
+      {
+        "office": "Member Town Council - Luray",
+        "district": "Town of Luray",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Ronald C. \"Ron\" Vickers",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jerry R. Dofflemyer",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Ryan B. \"Beaver\" Dean",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5175024": [
+      {
+        "office": "Member Town Council - Stanley",
+        "district": "Town of Stanley",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Robyn C. Good",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Douglas L. Purdham",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Bruce W. Stoneberger",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Donald E. \"JR\" Good Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jason L. Campbell",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5176256": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of Stuart",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Rebecca J. Adcock",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jeffery D. Houchins",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Robert D. Pittis",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5115000": [
+      {
+        "office": "Mayor - Chatham",
+        "district": "Town of Chatham",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Alisa B. Davis",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Chatham",
+        "district": "Town of Chatham",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Janet Royster Bishop",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jason L. Mays",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "William P. Black",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Teresa D. Easley",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Benjamin A. Paris",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5133232": [
+      {
+        "office": "Mayor - Gretna",
+        "district": "Town of Gretna",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Barbara P. Hubbard",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "R. Keith Motley",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Gretna",
+        "district": "Town of Gretna",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Michael L. Bond",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Deborah P. Moran",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "H. Wayne Wood",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5139224": [
+      {
+        "office": "Member, Town Council - Hurt",
+        "district": "Town of Hurt",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Robert W. \"Bob\" Majure",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jeremiah M. Knowles",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "David A. Arthur",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5164000": [
+      {
+        "office": "Member City Council",
+        "district": "Portsmouth City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Vernon Lamont Tillage, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Mark A. Hugel",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Lisa L. Lucas-Burke",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Mark M. Whitaker",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "William E. \"Bill\" Moody, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Portsmouth City",
+        "term": "4 year",
+        "seats": "4",
+        "candidates": [
+          {
+            "name": "Quniana D. \"Q\" Futrell",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Tamara L. Shewmake",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Luis F. Padilla",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Ingrid P. Whitaker",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Denzel E. Glover",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Cardell C. Patillo, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Melvin Cotton Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Justin V. Randall-Jenkins",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5123760": [
+      {
+        "office": "Mayor - Dumfries",
+        "district": "Town of Dumfries",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Brian K. Fields",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Derrick R. Wood",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Dumfries",
+        "district": "Town of Dumfries",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Caetrina A. Peterson",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Monae' S. Nickerson",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Selonia Bernice Miles",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Ebony Evonne Lofton",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Tyrone Brown",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5135976": [
+      {
+        "office": "Mayor - Haymarket",
+        "district": "Town of Haymarket",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Tracy Lynn Pater",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Haymarket",
+        "district": "Town of Haymarket",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Joseph R. \"Joe\" Pasanello",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "David L. Capossela",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Kenneth M. \"Ken\" Luersen",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Matthew J. Gallagher",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jen Armstrong Schenck",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5158696": [
+      {
+        "office": "Mayor - Occoquan",
+        "district": "Town of Occoquan",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Earnie W. Porta, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Occoquan",
+        "district": "Town of Occoquan",
+        "term": "4 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Jenn M. Loges",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Robert E. \"Bob\" Love",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Eliot R. Perkins",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5165120": [
+      {
+        "office": "Mayor - Quantico",
+        "district": "Town of Quantico",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Kevin P. Brown",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jennifer L. Stoltz",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Quantico",
+        "district": "Town of Quantico",
+        "term": "2 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Sammoto Yomosa Dabney",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Shanon \"Red\" Sullivan",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Robert Teron Freeman",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jason R. \"Jae\" Stoltz",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "S. \"Steve\" Kang",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Brandi M. Maly",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Nadia Madjid",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Samuel Cachola, Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Todd D. Zirkle",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Ingrid S. \"Suzi\" Nedrow",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5123648": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of Dublin",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Jared M. Smith",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "P. Douglas Poe",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Debbie P. Hager",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5164880": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of Pulaski",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Brooks R. Dawson",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Michael W. Williams",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jeremy L. Clark",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5165392": [
+      {
+        "office": "Mayor",
+        "district": "Radford City",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Seth J. Gillespie",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member City Council",
+        "district": "Radford City",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Jonathan E. Stewart",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "P. Doug Kanipe",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "C. Charlie Meeks",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Bill J. Kovarik",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Chad L. McClanahan",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Radford City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Gloria W. Boyd",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "R. Jane Swing",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Fallon H. Kreye",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Ed J. Dickenson",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5183248": [
+      {
+        "office": "Mayor",
+        "district": "Town of Washington",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Joseph J. Whited",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Washington",
+        "term": "4 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Bradley C. Schneider",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "J. Drew Beard",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Patrick J. O'Connell",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "John Fox Sullivan",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Thomas W. Bruce",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Treasurer",
+        "district": "Town of Washington",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Deborah L. Harris",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5183168": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of Warsaw",
+        "term": "4 year",
+        "seats": "4",
+        "candidates": [
+          {
+            "name": "Jonathan B. English",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Randall L. Phelps",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Michael P. Stone",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Paul G. Yackel",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5168000": [
+      {
+        "office": "Member City Council",
+        "district": "Roanoke City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Vivian Y. Sanchez-Jones",
+            "party": "Democratic",
+            "mark": "Yes"
+          },
+          {
+            "name": "S. M. \"Danny\" Clawson",
+            "party": "Democratic",
+            "mark": "No"
+          },
+          {
+            "name": "Raekwon M. Moore",
+            "party": "Democratic",
+            "mark": "No"
+          },
+          {
+            "name": "Amanda F. Marko",
+            "party": "Republican",
+            "mark": "No"
+          },
+          {
+            "name": "Kathy S. Cohen",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Stephanie M. Moon",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "David A. Bowers",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5181280": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of Vinton",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Sabrina M. McCarty",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Michael W. \"Mike\" Stovall",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5131968": [
+      {
+        "office": "Mayor - Goshen",
+        "district": "Town of Goshen",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Thomas O. McCraw",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Goshen",
+        "district": "Town of Goshen",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Jeff H. Shaffer",
+            "party": "Republican",
+            "mark": "No"
+          },
+          {
+            "name": "David \"Chris\" Robertson",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Michael E. Hicks",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Derrick G. Ogden",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5131136": [
+      {
+        "office": "Member Town Council - Glasgow",
+        "district": "Town of Glasgow",
+        "term": "2 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Brandall B. Branch",
+            "party": "Democratic",
+            "mark": "Yes"
+          },
+          {
+            "name": "Natalie H. Harris",
+            "party": "Democratic",
+            "mark": "Yes"
+          },
+          {
+            "name": "Kris K. Springer",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Marcie Knick Hill",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5109656": [
+      {
+        "office": "Mayor - Bridgewater",
+        "district": "Town of Bridgewater",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Theodore W. \"Ted\" Flory",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Bridgewater",
+        "district": "Town of Bridgewater",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "James M. \"Jim\" Tongue",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "A. Fontaine Canada",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Stephanie L. Curtis",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Vincenzo G. Coppola",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Bridgewater - Special",
+        "district": "Town of Bridgewater",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Billy B. Kyger Jr.",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5121648": [
+      {
+        "office": "Mayor - Dayton",
+        "district": "Town of Dayton",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Samuel S. Lee",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Dayton",
+        "district": "Town of Dayton",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Deborah L. \"Deb\" Peggans Crank",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Chad W. Moore",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Dayton - Special",
+        "district": "Town of Dayton",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "L. Joey Henry",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Trevor A. Cockburn",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Travis L. McDaniel",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5125408": [
+      {
+        "office": "Mayor - Elkton",
+        "district": "Town of Elkton",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Joshua J. Gooden",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Virginia H. Fulginiti",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Wayne E. Printz",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Elkton",
+        "district": "Town of Elkton",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Joe M. Dawson-Testa",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Phillip \"Rick\" Workman II",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "D. E. \"Gene\" Kite",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "W. Josh Davidson",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5178736": [
+      {
+        "office": "Mayor - Timberville",
+        "district": "Town of Timberville",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Clarence L. Fox",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Isaac G. Kelley",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Timberville",
+        "district": "Town of Timberville",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Carsen M. Frey",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jennifer G. Coffman",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Sarah C. Berry",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5117296": [
+      {
+        "office": "Mayor",
+        "district": "Town of Cleveland",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Linda I. Couch",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Cleveland",
+        "term": "2 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Ty Logan Harris",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jeremiah W. \"Tiny\" Neal",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Thomas A. Vance",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Megan Guinn Chumbley",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5138280": [
+      {
+        "office": "Mayor",
+        "district": "Town of Honaker",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Tommy W. Testerman",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jodi L. Eaton",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Earnest M. \"Bubby\" Short",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Honaker",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Jennifer Ann Short",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Nancy C. Taylor",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Cathy L. Ray",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Dewey Benton Chafin",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Scott D. McGlothlin",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5144696": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of Lebanon",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Carri Lynn Bradshaw",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Nina J. Fields",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "David W. Boyd",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "J. Leonard Kegley",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Andrew D. Mays",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5170000": [
+      {
+        "office": "Member City Council",
+        "district": "Salem City",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Jonathan D. \"J.D.\" Taylor",
+            "party": "Republican",
+            "mark": "No"
+          },
+          {
+            "name": "H. Hunter Holliday III",
+            "party": "Republican",
+            "mark": "Yes"
+          },
+          {
+            "name": "Jeffrey K. Hoeflich-Nickels",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Mark W. Henrickson",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "A.J. Harpold",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5117536": [
+      {
+        "office": "Mayor - Clinchport",
+        "district": "Town of Clinchport",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Tammy R. Meade",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Clinchport",
+        "district": "Town of Clinchport",
+        "term": "2 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Richard P. Merrill",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Mary Jane Carter",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Andy Meade",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Austin T. Potts",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Curtis E. Page",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jonathan David Phillips",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Recorder - Clinchport",
+        "district": "Town of Clinchport",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Alisha Ann Phillips",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5123952": [
+      {
+        "office": "Mayor - Dungannon",
+        "district": "Town of Dungannon",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Melissa Hensley Gillenwater",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Dungannon",
+        "district": "Town of Dungannon",
+        "term": "2 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Mary \"Beth\" Hensley",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Terrina M. Ward",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Katherine S. Lane",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Nina Osborne Begley",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Brittany LePaige Darnell",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Tiffany Lynn Ausman",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5130496": [
+      {
+        "office": "Member Town Council - Gate City",
+        "district": "Town of Gate City",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Dexter L. Harmon",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Howard Pat Elliott",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5125008": [
+      {
+        "office": "Mayor",
+        "district": "Town of Edinburg",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Daniel J. Harshman",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Edinburg",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Bradley M. Dellinger",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Steve D. Wood",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Fay M. Wymer-Hollar",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Special - Edinburg",
+        "district": "Town of Edinburg",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Luis O. Krug",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5187712": [
+      {
+        "office": "Mayor",
+        "district": "Town of Woodstock",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Jeremy D. McCleary",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Woodstock",
+        "district": "Town of Woodstock",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Stephen D. Heishman",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "A. Paje Cross",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Frank H. Haun",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5155848": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of New Market",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Bert A. P. \"Buz\" Menhardt",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Harry E. Wine, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Thomas E. Welch, IV",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5176000": [
+      {
+        "office": "Member Town Council - Strasburg",
+        "district": "Town of Strasburg",
+        "term": "4 year",
+        "seats": "4",
+        "candidates": [
+          {
+            "name": "A. D. Carter, IV",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Elton Van Welton, Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Andrew C. Lowder",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "H. Brad Stover",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Kaylee Lynn Tanner",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Gabrielle M. Pywtorak",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Seth J. Newman",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5116480": [
+      {
+        "office": "Mayor - Chilhowie",
+        "district": "Town of Chilhowie",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "J. Paige Wright",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Gary L. Heninger",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Chilhowie",
+        "district": "Town of Chilhowie",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "W. Jeff Jones",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "J. Brent Foster",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Robert L. Jeter",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Lewis W. Shortt Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "L. Becca Wilkinson-Smith",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "J. David Gary",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5170096": [
+      {
+        "office": "Mayor - Saltville",
+        "district": "Town of Saltville",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "R. Eugene Call, Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Suzanne Carter Abramson",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Saltville",
+        "district": "Town of Saltville",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Cary D. Sauls",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Stephen A. Hennegar",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Ryan Jeffrey Comer",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Tracy Stephenson Prater",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5149464": [
+      {
+        "office": "Member Town Council - Marion",
+        "district": "Town of Marion",
+        "term": "4 year",
+        "seats": "4",
+        "candidates": [
+          {
+            "name": "Suzanne B. Jennings",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Mavis S. Williams",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Tricia L. Spencer",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Gregory Allen Taylor",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Larry W. Carter",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "James R. \"Jim\" Barker",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Debra A. Hayes",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5109032": [
+      {
+        "office": "Mayor - Boykins",
+        "district": "Town of Boykins",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Cletis Wilton Lassiter",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Boykins",
+        "district": "Town of Boykins",
+        "term": "2 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "F. W. \"Freddy\" Felts",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Linda E. Beatty",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Ella Dee Clary",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Robert Chet Poland",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Janice B. Boone",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5112904": [
+      {
+        "office": "Mayor - Capron",
+        "district": "Town of Capron",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "William Nick Kitchen IV",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Capron",
+        "district": "Town of Capron",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Allene S. Edwards",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Timothy M. Futrell",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Ronald E. Carr Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Reginald T. Vaughan Sr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Dean M. Burgess",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Phillip C. McGee",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5119600": [
+      {
+        "office": "Mayor - Courtland",
+        "district": "Town of Courtland",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Danny R. Williams",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Latane W. \"Chip\" Talley Jr.",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5140232": [
+      {
+        "office": "Mayor - Ivor",
+        "district": "Town of Ivor",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Tara Burgess Kea",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Ivor",
+        "district": "Town of Ivor",
+        "term": "2 year",
+        "seats": "4",
+        "candidates": [
+          {
+            "name": "Megan B. Demsko",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Roland N. Britt",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "B. Frank Cook, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Brett T. Menne",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5156096": [
+      {
+        "office": "Member Town Council - Newsoms",
+        "district": "Town of Newsoms",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Diane L. Dovell",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "John B. Carter",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5175216": [
+      {
+        "office": "Member City Council",
+        "district": "Staunton City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Brad D. Arrowood",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "William L. \"Billy\" Vaughn",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Alice L. Woods",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member School Board",
+        "district": "Staunton City",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Kristin M. Siegel",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Barbara A. White",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Cecilia H. Carpenter",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jordan K. Zipser",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Fontella L. Brown-Bundy",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5116880": [
+      {
+        "office": "Mayor",
+        "district": "Town of Claremont",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Daryl W. Graham",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Claremont",
+        "term": "2 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Thomas G. Kent",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Louise A. Hansch",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Sue W. Gilbert",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Quinton T. Jones",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Rodney Dale Perkinson Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5122160": [
+      {
+        "office": "Mayor",
+        "district": "Town of Dendron",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Wallace E. Faison Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Dendron",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Hunter E. Lackey",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "James W. Brown Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "W.E. \"Bill\" Richardson Jr",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Thomas L. Byrd",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Adam E. Chubb Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Edward Eugene Joyner",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5176880": [
+      {
+        "office": "Mayor",
+        "district": "Town of Surry",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Bennie J. Savedge",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Surry",
+        "term": "2 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Jason N. Wiedel",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Brian L. Agor",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Joe A. Garcia",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Milton E. Berryman",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Robert T. Berryman",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5175840": [
+      {
+        "office": "Mayor",
+        "district": "Town of Stony Creek",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Melinda G. Baicy",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Stony Creek",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Anne Johnson Petts",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Kimberly Ross Taylor",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "John F. Kollmann",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "C.M. \"Chet\" Bulls, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "James M. \"Jimmy\" Matthews",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Geral A. Lacerte",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5182384": [
+      {
+        "office": "Mayor",
+        "district": "Town of Wakefield",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Brian Magee Laine",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Wakefield",
+        "term": "2 year",
+        "seats": "6",
+        "candidates": [
+          {
+            "name": "Michael W. Kessinger",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Dennis P. Mason",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Oscar E. \"Chip\" Parker III",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Brian K. Wills",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "R. Frances J. Chambers",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jesse A. Wills",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5183600": [
+      {
+        "office": "Member Town Council",
+        "district": "Town of Waverly",
+        "term": "2 year",
+        "seats": "5",
+        "candidates": [
+          {
+            "name": "Kevin D. Jones",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Tara Leigh Norris",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Thomas H. Jones, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Nick M. Kinsley",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Ollie L. Riddick Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Amanda Sheffield Korsah",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5163288": [
+      {
+        "office": "Mayor - Pocahontas",
+        "district": "Town of Pocahontas",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Benjamin A. Gibson",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Pocahontas",
+        "district": "Town of Pocahontas",
+        "term": "2 year",
+        "seats": "4",
+        "candidates": [
+          {
+            "name": "Karen M. LaFon",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Ted Michael Sluss",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Nadja Ann Brodesser",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "A. Brad Belcher",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5166928": [
+      {
+        "office": "Mayor - Richlands",
+        "district": "Town of Richlands",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Rod David Cury",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Richlands",
+        "district": "Town of Richlands",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Laura A. Mollo",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Rick L. Wood II",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Lynna M. Mitchell",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Frances D. Meadows",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Daniel L. \"DJ\" Lankford",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5177792": [
+      {
+        "office": "Mayor - Tazewell",
+        "district": "Town of Tazewell",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Joe R. Beasley",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Special",
+        "district": "Town of Tazewell",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Beth Davidson Takach",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Tazewell",
+        "district": "Town of Tazewell",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Renee Dawn Adair",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Glen A. Keen Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Carolyn S. \"Carrie\" Moore",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Billy Ray Jeffers",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5108152": [
+      {
+        "office": "Member Town Council - Bluefield",
+        "district": "Town of Bluefield",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Cathy C. Payne",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Karen L. Rich",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Anglis Trigg, Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5113784": [
+      {
+        "office": "Member Town Council - Cedar Bluff",
+        "district": "Town of Cedar Bluff",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Kenneth M. Shepard",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Joe Blair McGlothlin",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Travis M. Bender",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5129968": [
+      {
+        "office": "Mayor",
+        "district": "Town of Front Royal",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Lori Athey Cockrell",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council",
+        "district": "Town of Front Royal",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Donald R. E. Stallings",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "L. Allen R. Neel",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "H. Bruce Rappaport",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Joshua L. Ingram",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Amber Faith Veitenthal",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5121184": [
+      {
+        "office": "Mayor - Damascus",
+        "district": "Town of Damascus",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Katie M. Lamb",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Damascus",
+        "district": "Town of Damascus",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Ward S. \"Buddy\" Albro IV",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Charles E. Fields",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Bryan Blanton Bryant",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5131056": [
+      {
+        "office": "Mayor - Glade Spring",
+        "district": "Town of Glade Spring",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Ricky R. Call",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "William Cody Thomas",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Glade Spring",
+        "district": "Town of Glade Spring",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Steven R. White",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Kimberly M. Sweat",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5100148": [
+      {
+        "office": "Member Town Council - Abingdon",
+        "district": "Town of Abingdon",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "R. Wayne Austin",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "J. Greg Lilly",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Olivia C. Bailey",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "William P. \"Bill\" Anderson",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Frank Goodpasture IV",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5118400": [
+      {
+        "office": "Member School Board - Colonial Beach",
+        "district": "Town of Colonial Beach",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Laura Tabler Allison",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Patrice A. Lyburn",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Colonial Beach",
+        "district": "Town of Colonial Beach",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "William Henry \"Will\" Nuckols III",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Robert C. \"Bobby\" Duke, Jr",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jeff L. Eisensmith",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Rebecca J. \"Becky\" Stuart",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5152952": [
+      {
+        "office": "Member Town Council - Montross",
+        "district": "Town of Montross",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Stacy P. Messenger",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Christopher L. Garrett",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Clinton A. Watson Jr.",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5186160": [
+      {
+        "office": "Member City Council",
+        "district": "Williamsburg City",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Stacy E. Kern-Scheerer",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Carolyn A. Murphy",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Eino I. Korpela",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5164272": [
+      {
+        "office": "Mayor - Pound",
+        "district": "Town of Pound",
+        "term": "2 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Elijah R. Cauthorne",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Melissa Renee Bell",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Pound",
+        "district": "Town of Pound",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Ronnie A. Brock",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Billy R. Large",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Leabern D. Kennedy",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Doris J. Mullins",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5102040": [
+      {
+        "office": "Member Town Council - Appalachia",
+        "district": "Town of Appalachia",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Jackie L. Johnson",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Renee Jo Trosper",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5117952": [
+      {
+        "office": "Member Town Council - Coeburn",
+        "district": "Town of Coeburn",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Sharon P. Still",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Deventae T. Mooney",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Coeburn - Special",
+        "district": "Town of Coeburn",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Jimmy F. Williams, Jr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Jeffrey R. Proulex",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ],
+    "5187072": [
+      {
+        "office": "Member Town Council - Wise",
+        "district": "Town of Wise",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Teresa Ann Adkins",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Virginia L. Roberts",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Robin D. Dotson",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5169456": [
+      {
+        "office": "Mayor",
+        "district": "Town of Rural Retreat",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "James Patrick \"Sean\" Viars",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Timothy G. Litz",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Rural Retreat",
+        "district": "Town of Rural Retreat",
+        "term": "4 year",
+        "seats": "3",
+        "candidates": [
+          {
+            "name": "Jeffrey C. Butz",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Michael K. Duncan",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Dale T. Yontz",
+            "party": "Independent",
+            "mark": "Yes"
+          }
+        ]
+      }
+    ],
+    "5188000": [
+      {
+        "office": "Mayor",
+        "district": "Town of Wytheville",
+        "term": "4 year",
+        "seats": "1",
+        "candidates": [
+          {
+            "name": "Michael C. \"Doc\" Scheneman",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Joel Lee Hash Jr.",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      },
+      {
+        "office": "Member Town Council - Wytheville",
+        "district": "Town of Wytheville",
+        "term": "4 year",
+        "seats": "2",
+        "candidates": [
+          {
+            "name": "Cathy Dunkley Pattison",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Candice N. \"Candi\" Johnson",
+            "party": "Independent",
+            "mark": "Yes"
+          },
+          {
+            "name": "Aubrey L. Whitlow Sr.",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Kerry A. Eans",
+            "party": "Independent",
+            "mark": "No"
+          },
+          {
+            "name": "Randy W. Hamm Jr.",
+            "party": "Independent",
+            "mark": "No"
+          }
+        ]
+      }
+    ]
+  },
+  "annotations": {
+    "Member, United States Senate": {
+      "term": "6 year",
+      "marks": [
+        {
+          "name": "Mark R. Warner",
+          "party": "Democratic",
+          "mark": "Yes"
+        },
+        {
+          "name": "Bert Mizusawa",
+          "party": "Republican",
+          "mark": "No"
+        }
+      ]
+    },
+    "Member, House of Representatives 2": {
+      "term": "2 year",
+      "marks": [
+        {
+          "name": "Elaine G. Luria",
+          "party": "Democratic",
+          "mark": "No"
+        },
+        {
+          "name": "Jen A. Kiggans",
+          "party": "Republican",
+          "mark": "Yes"
+        },
+        {
+          "name": "Geral D. \"Bishop\" Staten",
+          "party": "Independent",
+          "mark": "No"
+        },
+        {
+          "name": "J. Matt Baker",
+          "party": "Independent",
+          "mark": "No"
+        }
+      ]
+    },
+    "Member, House of Representatives 5": {
+      "term": "2 year",
+      "marks": [
+        {
+          "name": "Tom S. P. Perriello",
+          "party": "Democratic",
+          "mark": "No"
+        },
+        {
+          "name": "John J. McGuire III",
+          "party": "Republican",
+          "mark": "Yes"
+        },
+        {
+          "name": "Cooke C. Harvey",
+          "party": "Independent",
+          "mark": "No"
+        }
+      ]
+    },
+    "Member, House of Representatives 7": {
+      "term": "2 year",
+      "marks": [
+        {
+          "name": "Eugene S. Vindman",
+          "party": "Democratic",
+          "mark": "Yes"
+        },
+        {
+          "name": "Doug A. Ollivant",
+          "party": "Republican",
+          "mark": "No"
+        },
+        {
+          "name": "Taner E. Demirci Lopez",
+          "party": "Libertarian",
+          "mark": "No"
+        },
+        {
+          "name": "Alaha Ahrar",
+          "party": "Independent",
+          "mark": "No"
+        },
+        {
+          "name": "Joshua E. Ertle",
+          "party": "Independent",
+          "mark": "No"
+        },
+        {
+          "name": "Randall A. Terry",
+          "party": "Independent",
+          "mark": "No"
+        }
+      ]
+    },
+    "Member, House of Representatives 8": {
+      "term": "2 year",
+      "marks": [
+        {
+          "name": "Donald S. Beyer, Jr.",
+          "party": "Democratic",
+          "mark": "Yes"
+        },
+        {
+          "name": "Tony A. Sabio",
+          "party": "Republican",
+          "mark": "No"
+        },
+        {
+          "name": "Shelly M. Arnoldi",
+          "party": "Libertarian",
+          "mark": "No"
+        },
+        {
+          "name": "Tim S. Sharman",
+          "party": "Independent",
+          "mark": "No"
+        }
+      ]
+    },
+    "Member, House of Representatives 6": {
+      "term": "2 year",
+      "marks": [
+        {
+          "name": "Beth A. Macy",
+          "party": "Democratic",
+          "mark": "No"
+        },
+        {
+          "name": "Ben L. Cline",
+          "party": "Republican",
+          "mark": "Yes"
+        }
+      ]
+    },
+    "Member, House of Representatives 9": {
+      "term": "2 year",
+      "marks": [
+        {
+          "name": "Joy A. Powers",
+          "party": "Democratic",
+          "mark": "No"
+        },
+        {
+          "name": "H. Morgan Griffith",
+          "party": "Republican",
+          "mark": "Yes"
+        }
+      ]
+    },
+    "Member, House of Representatives 4": {
+      "term": "2 year",
+      "marks": [
+        {
+          "name": "Jennifer L. McClellan",
+          "party": "Democratic",
+          "mark": "Yes"
+        },
+        {
+          "name": "Robert P. \"Family Man\" Murray, Jr.",
+          "party": "Republican",
+          "mark": "No"
+        },
+        {
+          "name": "Joan E. \"Andrews\" Bell",
+          "party": "Independent",
+          "mark": "No"
+        }
+      ]
+    },
+    "Member, House of Representatives 3": {
+      "term": "2 year",
+      "marks": [
+        {
+          "name": "Robert C. \"Bobby\" Scott",
+          "party": "Democratic",
+          "mark": "Yes"
+        },
+        {
+          "name": "Edwin Rivera, Jr.",
+          "party": "Republican",
+          "mark": "No"
+        },
+        {
+          "name": "Makiba A. Gaines",
+          "party": "Independent",
+          "mark": "No"
+        },
+        {
+          "name": "Stephen C. Woll",
+          "party": "Independent",
+          "mark": "No"
+        }
+      ]
+    },
+    "Member, House of Representatives 1": {
+      "term": "2 year",
+      "marks": [
+        {
+          "name": "Shannon L. Taylor",
+          "party": "Democratic",
+          "mark": "No"
+        },
+        {
+          "name": "Robert J. \"Rob\" Wittman",
+          "party": "Republican",
+          "mark": "Yes"
+        }
+      ]
+    },
+    "Member, House of Representatives 11": {
+      "term": "2 year",
+      "marks": [
+        {
+          "name": "James R. Walkinshaw",
+          "party": "Democratic",
+          "mark": "Yes"
+        },
+        {
+          "name": "Arthur G. Purves",
+          "party": "Republican",
+          "mark": "No"
+        },
+        {
+          "name": "Dianne L. Blais",
+          "party": "Green",
+          "mark": "No"
+        }
+      ]
+    },
+    "Member, House of Representatives 10": {
+      "term": "2 year",
+      "marks": [
+        {
+          "name": "Suhas Subramanyam",
+          "party": "Democratic",
+          "mark": "Yes"
+        },
+        {
+          "name": "Dave T. Beckwith",
+          "party": "Republican",
+          "mark": "No"
+        },
+        {
+          "name": "Ahsen Mujeeb Malik",
+          "party": "Independent",
+          "mark": "No"
+        }
+      ]
+    }
+  },
+  "date": {
+    "quote": "November 3, 2026",
+    "text": "The Virginia Department of Elections page is the November 3, 2026 general election candidate list."
+  }
+}
