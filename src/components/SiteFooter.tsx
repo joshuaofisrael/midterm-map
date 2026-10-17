@@ -39,6 +39,11 @@ export function SiteFooter() {
                 All race guides
               </Link>
             </li>
+            <li>
+              <Link className="hover:underline" href="/cities">
+                Census places
+              </Link>
+            </li>
           </ul>
         </div>
         <div>

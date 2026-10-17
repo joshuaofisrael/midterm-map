@@ -1,3 +1,4 @@
+import { CENSUS_PLACES_UPDATED } from "@/data/censusSources";
 import { ELECTION_DATES, electionDatesFor } from "@/data/electionDates";
 import { pollsForRace } from "@/data/polls";
 import { getRace, RACES, racesForState } from "@/data/races";
@@ -122,6 +123,7 @@ function racePageLabels(race: RaceGuide): string[] {
 export function contentUpdatedLabelForPath(path: string): string | null {
   const clean = path.replace(/\/+$/, "") || "/";
 
+  if (clean === "/cities" || clean.startsWith("/cities/")) return CENSUS_PLACES_UPDATED;
   if (clean === "/voting-deadlines") return latestContentLabel(votingDeadlineLabels());
   if (clean === "/ballot") {
     return latestContentLabel(STARTER_STATES.flatMap((state) => ballotStateLabels(state.code)));

@@ -152,6 +152,16 @@ export default function HomePage() {
             </li>
           ))}
         </ul>
+        <p className="mt-5 text-sm">
+          <Link className="font-medium text-navy hover:underline" href="/cities">
+            Census places
+          </Link>
+          <span className="text-ink-muted">
+            {" "}
+            — incorporated places and census-designated places from the U.S. Census Bureau 2026
+            Gazetteer Files, with a page for each place.
+          </span>
+        </p>
       </section>
 
       <section id="faq" className="rounded-xl border border-line bg-paper-card p-5">
