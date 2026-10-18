@@ -17,6 +17,7 @@ import path from "node:path";
 import { gunzipSync } from "node:zlib";
 import { fileURLToPath } from "node:url";
 import {
+  calendarDate,
   isGeneralElectionName,
   parseClarityCsv,
   parseFloridaTsv,
@@ -31,11 +32,41 @@ import {
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const sources = JSON.parse(readFileSync(path.join(root, "src/data/live-sources.json"), "utf8"));
-const outPath = path.join(root, "public/live-data/results.json");
+const outPath = process.env.LIVE_OUT ? path.resolve(process.env.LIVE_OUT) : path.join(root, "public/live-data/results.json");
+const dryRun = process.argv.includes("--dry-run") || process.env.LIVE_DRY_RUN === "true";
+const ELECTION_DAY = "2026-11-03";
+const REPO = process.env.GITHUB_REPOSITORY || "joshuaofisrael/midterm-map";
+const REMOTE_URL = `https://raw.githubusercontent.com/${REPO}/live-results/results.json`;
+
+/**
+ * Poll-close instants come from src/data/pollClose.ts, the same table the
+ * pages use. A state missing from the table is treated as still voting.
+ */
+function readPollClose() {
+  const text = readFileSync(path.join(root, "src/data/pollClose.ts"), "utf8");
+  const map = new Map();
+  for (const match of text.matchAll(/code:\s*"([A-Z]{2})"[\s\S]*?allPollsClosedAt:\s*"([^"]+)"/g)) {
+    const instant = Date.parse(match[2]);
+    if (!Number.isNaN(instant)) map.set(match[1], instant);
+  }
+  if (map.size < 51) throw new Error(`pollClose.ts parsed ${map.size} states; expected 51. Refusing to publish.`);
+  return map;
+}
+const POLL_CLOSE = readPollClose();
+
+// LIVE_NOW (dry runs only) rehearses a later instant, e.g. 2026-11-04T05:00:00Z.
+const NOW = dryRun && process.env.LIVE_NOW ? Date.parse(process.env.LIVE_NOW) : null;
+function nowMs() {
+  return NOW != null && !Number.isNaN(NOW) ? NOW : Date.now();
+}
+
+function pollsClosed(code, now = nowMs()) {
+  const instant = POLL_CLOSE.get(code);
+  return instant != null && now >= instant;
+}
 // Texas returns 403 for a short bot token and 200 for a browser-style agent.
 // The token still names this site. The files are the public results JSON.
 const USER_AGENT = "Mozilla/5.0 (compatible; MapTheMidterms/1.0; +https://mapthemidterms.com/live/)";
-const dryRun = process.argv.includes("--dry-run") || process.env.LIVE_DRY_RUN === "true";
 const COUNT_END = "2026-12-15";
 const ALWAYS_THROUGH = "2026-11-20";
 
@@ -110,9 +141,14 @@ function linkOnly(source) {
   });
 }
 
+/**
+ * The previous run is read from the live-results branch, never from the copy
+ * committed on main (that copy holds no returns).
+ */
 async function loadPrevious() {
   try {
-    return JSON.parse(readFileSync(outPath, "utf8"));
+    const previous = JSON.parse((await fetchBuffer(`${REMOTE_URL}?t=${Date.now()}`)).text);
+    return previous?.electionDay === ELECTION_DAY ? previous : null;
   } catch {
     return null;
   }
@@ -120,7 +156,10 @@ async function loadPrevious() {
 
 function keepPrevious(source, previous, error) {
   const prior = previous?.states?.[source.code];
-  if (prior && (prior.races?.length || prior.feedStatus === "ok")) {
+  const closeAt = POLL_CLOSE.get(source.code);
+  const priorFetched = Date.parse(prior?.fetchedAt || "");
+  const priorAfterClose = closeAt != null && !Number.isNaN(priorFetched) && priorFetched >= closeAt;
+  if (prior && priorAfterClose && (prior.races?.length || prior.feedStatus === "ok")) {
     return {
       ...prior,
       feedStatus: "stale",
@@ -272,7 +311,7 @@ async function fetchTexas(source) {
 async function fetchWashington(source) {
   const page = await fetchBuffer(source.feed.exportPage);
   const hrefs = [...page.text.matchAll(/href="([^"]+\.csv)"/gi)].map((match) => new URL(match[1], page.url).href);
-  const wanted = hrefs.filter((href) => /AllState|Congressional|StateExecutive/i.test(href));
+  const wanted = hrefs.filter((href) => /20261103/.test(href) && /AllState|Congressional|StateExecutive/i.test(href));
   if (!wanted.length) {
     return stateRecord(source, {
       feedStatus: "not-published",
@@ -330,6 +369,14 @@ function californiaWanted(url) {
 
 async function fetchCalifornia(source) {
   const index = await fetchBuffer(source.feed.indexUrl);
+  const heading = index.text.split(/\r?\n/).find((line) => line.trim()) || "";
+  if (!/November 3, 2026/i.test(heading) || !/General Election/i.test(heading)) {
+    return stateRecord(source, {
+      feedStatus: "not-published",
+      feedNote: "The California Secretary of State media index does not name the November 3, 2026 general election.",
+      fetchedAt: new Date().toISOString(),
+    });
+  }
   const urls = [...index.text.matchAll(/https?:\/\/[^\s",]+\.json/g)]
     .map((match) => match[0])
     .filter(californiaWanted);
@@ -344,8 +391,10 @@ async function fetchCalifornia(source) {
   let updated = null;
   for (const url of urls) {
     const file = await fetchBuffer(url);
-    updated = file.lastModified || updated;
-    races.push(...parseCaliforniaJson(JSON.parse(file.text), source.code));
+    const json = JSON.parse(file.text);
+    const reportingTime = Array.isArray(json) ? json.find((race) => race?.ReportingTime)?.ReportingTime : null;
+    updated = reportingTime || file.lastModified || updated;
+    races.push(...parseCaliforniaJson(json, source.code));
   }
   return stateRecord(source, {
     feedStatus: "ok",
@@ -356,6 +405,15 @@ async function fetchCalifornia(source) {
 }
 
 async function fetchStateResultsCsv(source) {
+  const home = await fetchBuffer(new URL("/", source.feed.mediaPage || source.feed.csvUrls[0]).href);
+  const electionDate = home.text.match(/id="hidElectionDate"\s+value="([^"]+)"/i)?.[1] || "";
+  if (calendarDate(electionDate) !== ELECTION_DAY) {
+    return stateRecord(source, {
+      feedStatus: "not-published",
+      feedNote: `The results site is set to an election other than November 3, 2026 (${electionDate || "no date found"}).`,
+      fetchedAt: new Date().toISOString(),
+    });
+  }
   const races = [];
   let updated = null;
   for (const url of source.feed.csvUrls) {
@@ -412,6 +470,37 @@ async function fetchSource(source, previous) {
   }
 }
 
+/**
+ * Last line of defence before anything is written:
+ * - before the state's last polls close, no returns leave this script;
+ * - a file whose own timestamp is before November 3, 2026 is test or earlier
+ *   data and is dropped.
+ */
+function guard(record, now = nowMs()) {
+  if (!pollsClosed(record.code, now)) {
+    const linkOnly = record.feedStatus === "link-only";
+    return {
+      ...record,
+      feedStatus: linkOnly ? "link-only" : "polls-open",
+      feedNote: linkOnly
+        ? record.feedNote
+        : "Polls have not closed in this state. No returns are published before every polling place closes.",
+      sourceUpdatedAt: null,
+      races: [],
+    };
+  }
+  const sourceDay = calendarDate(record.sourceUpdatedAt);
+  if (record.races.length && sourceDay && sourceDay < ELECTION_DAY) {
+    return {
+      ...record,
+      feedStatus: "not-published",
+      feedNote: `The official file is dated ${sourceDay}, before November 3, 2026. It is test or earlier data and is not shown.`,
+      races: [],
+    };
+  }
+  return record;
+}
+
 function countsContinue(states, day) {
   if (process.env.LIVE_STOP === "true") return false;
   if (day < "2026-11-03" || day > COUNT_END) return false;
@@ -460,7 +549,7 @@ async function main() {
   }
   const states = [];
   for (const source of sources.states) {
-    const record = await fetchSource(source, previous);
+    const record = guard(await fetchSource(source, previous));
     states.push(record);
     console.log(
       `${record.code} ${record.feedStatus} races=${record.races.length}${record.feedNote ? ` — ${record.feedNote}` : ""}`,
@@ -468,9 +557,9 @@ async function main() {
   }
   const payload = {
     generatedAt: new Date().toISOString(),
-    electionDay: "2026-11-03",
+    electionDay: ELECTION_DAY,
     countsContinue: countsContinue(states, day),
-    remoteUrl: "https://raw.githubusercontent.com/joshuaofisrael/midterm-map/live-results/results.json",
+    remoteUrl: REMOTE_URL,
     states: Object.fromEntries(states.map((state) => [state.code, state])),
   };
   mkdirSync(path.dirname(outPath), { recursive: true });

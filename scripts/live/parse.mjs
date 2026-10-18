@@ -467,8 +467,32 @@ export function parseStateResultsCsv(text, stateCode) {
 }
 
 export function isGeneralElectionName(name, dateText) {
-  const blob = `${name || ""} ${dateText || ""}`.toUpperCase();
+  const label = String(name || "").toUpperCase();
+  const date = String(dateText || "").toUpperCase();
+  const blob = `${label} ${date}`;
   if (!/2026/.test(blob)) return false;
   if (/PRIMARY|RUNOFF|RECOUNT|SPECIAL/.test(blob)) return false;
-  return /GENERAL/.test(blob) || /11\/0?3\/2026/.test(blob) || /2026-11-03/.test(blob) || /NOVEMBER 3/.test(blob);
+  const novemberThird = (text) =>
+    /(^|\D)11\/0?3\/2026/.test(text) || /2026-11-03/.test(text) || /NOVEMBER 0?3(RD)?,? 2026/.test(text) || /2026 NOVEMBER 0?3/.test(text);
+  // A file that carries a date must carry November 3, 2026.
+  if (date.trim()) return novemberThird(date);
+  return novemberThird(label) || (/GENERAL/.test(label) && /NOVEMBER/.test(label));
+}
+
+/**
+ * Calendar date (YYYY-MM-DD) found in an official timestamp, or null.
+ * Reads ISO dates, M/D/YYYY, "Month D, YYYY", and HTTP dates.
+ */
+export function calendarDate(value) {
+  const text = String(value || "");
+  let match = text.match(/(\d{4})-(\d{2})-(\d{2})/);
+  if (match) return `${match[1]}-${match[2]}-${match[3]}`;
+  match = text.match(/(?:^|\D)(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+  if (match) return `${match[3]}-${match[1].padStart(2, "0")}-${match[2].padStart(2, "0")}`;
+  const months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+  match = text.toUpperCase().match(/(?:^|[^A-Z])(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[A-Z]*\.? (\d{1,2}),? (\d{4})/);
+  if (match) return `${match[3]}-${String(months.indexOf(match[1]) + 1).padStart(2, "0")}-${match[2].padStart(2, "0")}`;
+  match = text.toUpperCase().match(/(\d{1,2}) (JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[A-Z]* (\d{4})/);
+  if (match) return `${match[3]}-${String(months.indexOf(match[2]) + 1).padStart(2, "0")}-${match[1].padStart(2, "0")}`;
+  return null;
 }

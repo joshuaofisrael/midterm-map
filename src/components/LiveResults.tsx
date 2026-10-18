@@ -42,6 +42,7 @@ interface LiveStateFile {
 
 interface LivePayload {
   generatedAt: string;
+  electionDay?: string;
   states: Record<string, LiveStateFile>;
 }
 
@@ -110,7 +111,7 @@ function RaceFigures({ race, office }: { race: LiveRace; office: string }) {
 
 function StateBlock({
   source,
-  file,
+  file: raw,
   now,
   raceSlugs,
   stale,
@@ -121,7 +122,12 @@ function StateBlock({
   raceSlugs?: string[];
   stale: boolean;
 }) {
-  const closed = now != null && source.allPollsClosedAt !== "" && Date.parse(source.allPollsClosedAt) <= now;
+  const closeAt = source.allPollsClosedAt === "" ? NaN : Date.parse(source.allPollsClosedAt);
+  const closed = now != null && !Number.isNaN(closeAt) && closeAt <= now;
+  // Returns count only when the file itself was fetched after polls closed,
+  // so a wrong device clock or an old copy cannot show earlier numbers.
+  const fetched = Date.parse(raw?.fetchedAt || "");
+  const file = raw && !Number.isNaN(fetched) && fetched >= closeAt ? raw : undefined;
   const races = (file?.races || []).filter((race) => !raceSlugs || (race.siteSlug && raceSlugs.includes(race.siteSlug)));
   const updated = formatWhen(file?.sourceUpdatedAt || file?.fetchedAt || null);
 
@@ -150,7 +156,12 @@ function StateBlock({
         </p>
       ) : null}
       {closed && source.machineReadable && !file ? (
-        <p className="mt-3 text-sm leading-6">Loading the latest file…</p>
+        <p className="mt-3 text-sm leading-6">
+          {stale ? "The latest results file did not load." : "Loading the latest file…"}{" "}
+          <a className="font-medium text-navy underline" href={source.resultsUrl} rel="noopener noreferrer">
+            {source.resultsLabel}
+          </a>
+        </p>
       ) : null}
       {closed && file && file.feedStatus !== "ok" && file.feedStatus !== "stale" ? (
         <p className="mt-3 text-sm leading-6">
@@ -216,6 +227,7 @@ export function LiveResults({
           const response = await fetch(url, { cache: "no-store" });
           if (!response.ok) continue;
           const json = (await response.json()) as LivePayload;
+          if (json?.electionDay !== "2026-11-03") continue;
           if (stop) return;
           setPayload(json);
           setStale(false);
@@ -233,7 +245,8 @@ export function LiveResults({
       setStale(true);
       try {
         const saved = localStorage.getItem(STORAGE_KEY);
-        if (saved) setPayload(JSON.parse(saved) as LivePayload);
+        const parsed = saved ? (JSON.parse(saved) as LivePayload) : null;
+        if (parsed?.electionDay === "2026-11-03") setPayload(parsed);
       } catch {
         /* keep the last in-memory copy */
       }

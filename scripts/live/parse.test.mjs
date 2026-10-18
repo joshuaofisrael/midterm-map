@@ -1,7 +1,9 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import {
+  calendarDate,
   classifyContest,
+  isGeneralElectionName,
   ncsbeProportionToPercent,
   parseClarityCsv,
   parseFloridaTsv,
@@ -241,4 +243,22 @@ test("state results CSV keeps the published percent and drops county rows", () =
   assert.equal(races[0].precinctsTotal, 10);
   assert.equal(races[1].siteSlug, "ne-01-house-2026");
   assert.equal(races[2].siteSlug, "ne-al-house-2026");
+});
+
+test("only the November 3, 2026 general election is accepted", () => {
+  assert.equal(isGeneralElectionName("2026 General Primary", "5/19/2026"), false);
+  assert.equal(isGeneralElectionName("2026 Primary Election", "6/2/2026 12:00:00 AM"), false);
+  assert.equal(isGeneralElectionName("2026 General Election", "6/2/2026 12:00:00 AM"), false);
+  assert.equal(isGeneralElectionName("2026 General Election", "11/3/2026 12:00:00 AM"), true);
+  assert.equal(isGeneralElectionName("November General Election", "2026-11-03"), true);
+  assert.equal(isGeneralElectionName("2024 General Election", "11/5/2024"), false);
+  assert.equal(isGeneralElectionName("2026 General Election", ""), false);
+});
+
+test("calendarDate reads official timestamps", () => {
+  assert.equal(calendarDate("October 16, 2026, 4:08 p.m."), "2026-10-16");
+  assert.equal(calendarDate("Wed, 04 Nov 2026 03:10:00 GMT"), "2026-11-04");
+  assert.equal(calendarDate("11/3/2026 9:40:27 PM"), "2026-11-03");
+  assert.equal(calendarDate("2026-11-04T02:00:00Z"), "2026-11-04");
+  assert.equal(calendarDate(null), null);
 });

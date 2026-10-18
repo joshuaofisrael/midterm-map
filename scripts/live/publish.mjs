@@ -20,15 +20,21 @@ if (!repo || !token) {
 
 const work = path.join(tmpdir(), "live-results-publish");
 rmSync(work, { recursive: true, force: true });
-const remote = `https://x-access-token:${token}@github.com/${repo}.git`;
+// The token goes in a per-command header, not in the remote URL or .git/config.
+const remote = `https://github.com/${repo}.git`;
+const auth = [
+  "-c",
+  `http.https://github.com/.extraheader=AUTHORIZATION: basic ${Buffer.from(`x-access-token:${token}`).toString("base64")}`,
+];
 
 function git(args, cwd = work) {
-  execFileSync("git", args, { cwd, stdio: "inherit" });
+  const needsAuth = ["clone", "push", "ls-remote", "fetch"].includes(args[0]);
+  execFileSync("git", needsAuth ? [...auth, ...args] : args, { cwd, stdio: "inherit" });
 }
 
 let exists = true;
 try {
-  execFileSync("git", ["ls-remote", "--exit-code", "--heads", remote, "live-results"], { stdio: "ignore" });
+  execFileSync("git", [...auth, "ls-remote", "--exit-code", "--heads", remote, "live-results"], { stdio: "ignore" });
 } catch {
   exists = false;
 }
