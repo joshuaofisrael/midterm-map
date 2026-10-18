@@ -11,7 +11,13 @@ import { SourceLines } from "@/components/SourceLines";
 import { SourceList } from "@/components/SourceList";
 import { StatusChip } from "@/components/StatusChip";
 import { getRace, RACES } from "@/data/races";
-import { isPreElection, resultShellForRace, resultShellHasReturns } from "@/data/results";
+import {
+  isPreElection,
+  neighbouringResultRaces,
+  resultShellForRace,
+  resultShellHasReturns,
+  stateResultsPath,
+} from "@/data/results";
 import { SITE } from "@/data/site";
 import { getState } from "@/data/states";
 import { contentUpdatedLabel } from "@/lib/contentDate";
@@ -42,6 +48,7 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
   const state = getState(race.state);
   const shell = resultShellForRace(race.slug);
   const preElection = isPreElection();
+  const neighbours = neighbouringResultRaces(race.slug);
 
   return (
     <div className="space-y-8">
@@ -137,19 +144,27 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
         </table>
       </section>
 
-      <p className="text-sm">
+      <p className="text-sm leading-6">
+        <Link className="font-medium text-navy hover:underline" href={`/ballot/${race.state}`}>
+          {state?.name ?? race.state} ballot
+        </Link>
+        {" · "}
         <Link className="font-medium text-navy hover:underline" href={`/races/${race.slug}`}>
           Race guide
         </Link>
         {" · "}
-        <Link className="font-medium text-navy hover:underline" href={`/ballot/${race.state}`}>
-          {state?.name} sample ballot
+        <Link className="font-medium text-navy hover:underline" href="/live">
+          Live results
         </Link>
         {" · "}
-        <Link className="font-medium text-navy hover:underline" href="/polls">
-          Polls
+        <Link className="font-medium text-navy hover:underline" href={stateResultsPath(race.state)}>
+          {state?.name ?? race.state} results
         </Link>
-        {race.officialResults && state && (
+        {" · "}
+        <Link className="font-medium text-navy hover:underline" href="/results">
+          Results tracker
+        </Link>
+        {state && (
           <>
             {" · "}
             <Link className="font-medium text-navy hover:underline" href={`/states/${race.state}`}>
@@ -158,6 +173,20 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
           </>
         )}
       </p>
+      {neighbours.length > 0 && (
+        <section>
+          <h2 className="font-serif text-xl font-semibold">Neighbouring results pages</h2>
+          <ul className="mt-3 space-y-2 text-sm">
+            {neighbours.map((item) => (
+              <li key={item.slug}>
+                <Link className="text-navy underline" href={`/results/${item.slug}`}>
+                  {item.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
       {race.officialResults && <SourceList sources={race.sources} title="Sources for this contest" />}
       <CrossLinks state={race.state} raceSlug={race.slug} />
     </div>

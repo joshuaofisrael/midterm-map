@@ -10,15 +10,17 @@ import { JsonLd } from "@/components/JsonLd";
 import { LivePanel } from "@/components/LivePanel";
 import { SourceLines, uniqueCitations } from "@/components/SourceLines";
 import { StatusChip } from "@/components/StatusChip";
+import { ballotCycleFor } from "@/data/ballotCycle";
 import { ballotStateFaqs } from "@/data/ballotFaqs";
 import { ballotSectionsForState } from "@/data/ballots";
-import { votingDeadlinesStateHref } from "@/data/electionDates";
-import { indexableRaceHref } from "@/data/results";
+import { electionDatesFor, votingDeadlinesStateHref, type StateElectionDates } from "@/data/electionDates";
 import { racesForState } from "@/data/races";
+import { stateResultsPath } from "@/data/results";
 import { getState, isStateCode, STARTER_STATES } from "@/data/states";
 import { contentUpdatedLabel } from "@/lib/contentDate";
 import { faqJsonLd } from "@/lib/format";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
+import type { RaceGuide, StateProfile } from "@/data/types";
 
 export function generateStaticParams() {
   return STARTER_STATES.map((state) => ({ state: state.code }));
@@ -28,9 +30,12 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   const { state: code } = await params;
   const state = getState(code);
   if (!state) return {};
+  const cycle = ballotCycleFor(state.code);
   return pageMetadata({
-    title: `${state.name} 2026 sample ballot structure`,
-    description: `Structured 2026 sample-ballot sections for ${state.name}, with official ${state.officialElectionOffice.label} and Vote.gov links. Not an official ballot.`,
+    title: cycle ? `${state.name} ballot, November 3, 2026` : `${state.name} 2026 sample ballot structure`,
+    description: cycle
+      ? `${cycle.shortLead} Dates and measure titles cite official sources. Not an official ballot.`
+      : `Structured 2026 sample-ballot sections for ${state.name}, with official ${state.officialElectionOffice.label} and Vote.gov links. Not an official ballot.`,
     path: `/ballot/${state.code}`,
   });
 }
@@ -41,24 +46,18 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
   const state = getState(code);
   if (!state) notFound();
 
-  const sections = ballotSectionsForState(state.code);
+  const cycle = ballotCycleFor(state.code);
   const races = racesForState(state.code);
   const faqs = ballotStateFaqs(state, races);
-  const sampleBallot = state.sampleBallotOfficial;
-  const distinctSample = sampleBallot && sampleBallot.href !== state.officialElectionOffice.href;
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "Ballot", path: "/ballot" },
+    { name: state.name, path: `/ballot/${state.code}` },
+  ];
 
   return (
     <div className="space-y-8">
-      <JsonLd
-        data={[
-          breadcrumbJsonLd([
-            { name: "Home", path: "/" },
-            { name: "Ballot", path: "/ballot" },
-            { name: state.name, path: `/ballot/${state.code}` },
-          ]),
-          faqJsonLd(faqs),
-        ]}
-      />
+      <JsonLd data={[breadcrumbJsonLd(crumbs), faqJsonLd(faqs)]} />
       <Breadcrumbs
         items={[
           { href: "/", label: "Home" },
@@ -68,8 +67,12 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
       />
       <PageHeader
         eyebrow={`${state.name} · Ballot`}
-        title={`${state.name} sample ballot structure`}
-        lede="A sectioned sketch of contests that often appear. It is incomplete, may be outdated, and is not a substitute for the sample ballot issued by the county or state election office."
+        title={cycle ? `${state.name} ballot, November 3, 2026` : `${state.name} sample ballot structure`}
+        lede={
+          cycle
+            ? cycle.intro
+            : "A sectioned sketch of contests that often appear. It is incomplete, may be outdated, and is not a substitute for the sample ballot issued by the county or state election office."
+        }
       />
       <ContentTrust
         updated={contentUpdatedLabel(`/ballot/${state.code}`)}
@@ -80,7 +83,168 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
       <OfficialNotice />
       <LivePanel stateCode={state.code} />
       <BallotLookup initialState={state.code} />
+      {cycle ? (
+        <CycleBallot state={state} races={races} />
+      ) : (
+        <SketchBallot state={state} races={races} />
+      )}
+      <ResultsLinks state={state} races={races} />
+      <section id="faq" className="rounded-xl border border-line bg-paper-card p-5">
+        <h2 className="font-serif text-xl font-semibold">Questions readers ask</h2>
+        <dl className="mt-5 space-y-5">
+          {faqs.map((faq) => (
+            <div key={faq.question}>
+              <dt className="font-semibold">{faq.question}</dt>
+              <dd className="mt-1 text-sm leading-6 text-ink-muted">{faq.answer}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+      <CrossLinks state={state.code} />
+    </div>
+  );
+}
 
+function CycleBallot({ state, races }: { state: StateProfile; races: RaceGuide[] }) {
+  const cycle = ballotCycleFor(state.code);
+  if (!cycle) return null;
+  const dates = electionDatesFor(state.code);
+  const dateGroups = [
+    { id: "registration", title: "Voter registration" },
+    { id: "early", title: "Early voting" },
+    { id: "mail-request", title: "Mail-ballot request" },
+    { id: "mail-return", title: "Mail-ballot return" },
+  ] as const;
+
+  return (
+    <>
+      <p className="text-sm leading-6">
+        Last checked {cycle.checkedOn}.{" "}
+        {cycle.sources.map((source, index) => (
+          <span key={source.href}>
+            {index > 0 ? " " : null}
+            <a className="text-navy underline" href={source.href} rel="noopener noreferrer">
+              {source.label}
+            </a>
+            {index < cycle.sources.length - 1 ? ";" : "."}
+          </span>
+        ))}
+      </p>
+
+      {cycle.federal.length > 0 && (
+        <section className="rounded-xl border border-line bg-paper-card p-5">
+          <h2 className="font-serif text-2xl font-semibold">Federal offices</h2>
+          <ul className="mt-3 list-disc space-y-1 pl-5 text-sm leading-6">
+            {cycle.federal.map((office) => (
+              <li key={office}>{office}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <section className="rounded-xl border border-line bg-paper-card p-5">
+        <h2 className="font-serif text-2xl font-semibold">Statewide offices</h2>
+        {cycle.statewide.length > 0 ? (
+          <ul className="mt-3 list-disc space-y-1 pl-5 text-sm leading-6">
+            {cycle.statewide.map((office) => (
+              <li key={office}>{office}</li>
+            ))}
+          </ul>
+        ) : null}
+        <p className="mt-3 text-sm leading-6 text-ink-muted">{cycle.districtNote}</p>
+      </section>
+
+      <section className="rounded-xl border border-line bg-paper-card p-5">
+        <h2 className="font-serif text-2xl font-semibold">Statewide ballot measures</h2>
+        {cycle.measures.length > 0 ? (
+          <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6">
+            {cycle.measures.map((measure) => (
+              <li key={measure}>{measure}</li>
+            ))}
+          </ul>
+        ) : null}
+        <p className="mt-3 text-sm leading-6 text-ink-muted">{cycle.measureNote}</p>
+      </section>
+
+      <section className="rounded-xl border border-line bg-paper-card p-5">
+        <h2 className="font-serif text-2xl font-semibold">Key dates</h2>
+        <p className="mt-2 text-sm leading-6 text-ink-muted">
+          Dates below are the sentences stored from the official calendar. Checked {dates.checkedOn}.
+        </p>
+        <div className="mt-4 space-y-5">
+          {dateGroups.map((group) => (
+            <DateGroup key={group.id} title={group.title} dates={dates} category={group.id} />
+          ))}
+        </div>
+        <p className="mt-4 text-sm">
+          <Link className="text-navy underline" href={votingDeadlinesStateHref(state.code)}>
+            All stored {state.name} dates
+          </Link>
+        </p>
+      </section>
+
+      {races.length > 0 && (
+        <section>
+          <h2 className="font-serif text-xl font-semibold">Race guides for {state.name}</h2>
+          <ul className="mt-3 space-y-2 text-sm">
+            {races.map((race) => (
+              <li key={race.slug}>
+                <Link className="text-navy hover:underline" href={`/races/${race.slug}`}>
+                  {race.shortTitle}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </>
+  );
+}
+
+function DateGroup({
+  title,
+  dates,
+  category,
+}: {
+  title: string;
+  dates: StateElectionDates;
+  category: StateElectionDates["facts"][number]["category"];
+}) {
+  const facts = dates.facts.filter((fact) => fact.category === category);
+  const omitted = dates.omitted.filter((row) => row.category === category);
+  if (facts.length === 0 && omitted.length === 0) return null;
+  return (
+    <div>
+      <h3 className="font-semibold">{title}</h3>
+      <ul className="mt-2 space-y-3 text-sm leading-6">
+        {facts.map((fact) => (
+          <li key={fact.id}>
+            <p>{fact.text}</p>
+            <p className="mt-1 text-xs text-ink-soft">
+              {fact.sources.map((source, index) => (
+                <span key={source.href}>
+                  {index > 0 ? "; " : ""}
+                  <a className="text-navy underline" href={source.href} rel="noopener noreferrer">
+                    {source.label}
+                  </a>
+                </span>
+              ))}
+            </p>
+          </li>
+        ))}
+        {omitted.map((row) => (
+          <li key={row.label}>{row.text}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function SketchBallot({ state, races }: { state: StateProfile; races: RaceGuide[] }) {
+  const sections = ballotSectionsForState(state.code);
+
+  return (
+    <>
       <aside className="rounded-xl border border-line bg-paper-card p-5">
         <div className="flex flex-wrap items-center gap-2">
           <h2 className="font-serif text-xl font-semibold">Verify with officials</h2>
@@ -121,7 +285,6 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
           <li>{state.idNote}</li>
         </ul>
       </aside>
-
       <div className="space-y-6">
         {sections.map((section) => (
           <section key={section.kind} className="rounded-xl border border-line bg-paper-card p-5">
@@ -151,17 +314,6 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
                       <Link className="text-navy hover:underline" href={`/races/${contest.raceSlug}`}>
                         Open the race guide
                       </Link>
-                      {indexableRaceHref(contest.raceSlug).startsWith("/results/") && (
-                        <>
-                          {" · "}
-                          <Link
-                            className="text-navy hover:underline"
-                            href={indexableRaceHref(contest.raceSlug)}
-                          >
-                            Results page
-                          </Link>
-                        </>
-                      )}
                     </p>
                   )}
                 </div>
@@ -170,7 +322,6 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
           </section>
         ))}
       </div>
-
       <section>
         <h2 className="font-serif text-xl font-semibold">Race guides for {state.name}</h2>
         {races.length > 0 ? (
@@ -189,62 +340,48 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
             2026 cycle are sketched above. Qualified names are on the official sample ballot.
           </p>
         )}
-        <p className="mt-3 text-sm">
-          <Link className="font-medium text-navy hover:underline" href={`/states/${state.code}`}>
-            Full {state.name} hub
-          </Link>
-        </p>
       </section>
+    </>
+  );
+}
 
-      <section id="faq" className="rounded-xl border border-line bg-paper-card p-5">
-        <h2 className="font-serif text-xl font-semibold">Questions readers ask</h2>
-        <p className="mt-2 max-w-2xl text-sm text-ink-muted">
-          Short answers from the offices, sample-ballot notes, and race-guide titles already on this
-          page. The official sample ballot is published by {state.officialElectionOffice.label}.
-        </p>
-        <dl className="mt-5 space-y-5">
-          {faqs.map((faq) => (
-            <div key={faq.question}>
-              <dt className="font-semibold">{faq.question}</dt>
-              <dd className="mt-1 text-sm leading-6 text-ink-muted">{faq.answer}</dd>
-            </div>
-          ))}
-        </dl>
-        <p className="mt-5 text-sm">
-          <a
-            className="font-medium text-navy hover:underline"
-            href={state.officialElectionOffice.href}
-            rel="noopener noreferrer"
-          >
-            {state.officialElectionOffice.label}
-          </a>
-          {distinctSample && sampleBallot && (
-            <>
-              {" · "}
-              <a
-                className="font-medium text-navy hover:underline"
-                href={sampleBallot.href}
-                rel="noopener noreferrer"
-              >
-                {sampleBallot.label}
-              </a>
-            </>
-          )}
-          {" · "}
-          <a
-            className="font-medium text-navy hover:underline"
-            href={state.voteGov.href}
-            rel="noopener noreferrer"
-          >
-            {state.voteGov.label}
-          </a>
-          {" · "}
-          <Link className="font-medium text-navy hover:underline" href={`/states/${state.code}`}>
+function ResultsLinks({ state, races }: { state: StateProfile; races: RaceGuide[] }) {
+  return (
+    <section className="rounded-xl border border-line bg-paper-card p-5">
+      <h2 className="font-serif text-xl font-semibold">{state.name} results on this site</h2>
+      <ul className="mt-3 space-y-2 text-sm leading-6">
+        <li>
+          <Link className="text-navy underline" href={stateResultsPath(state.code)}>
+            {state.name} results
+          </Link>
+        </li>
+        <li>
+          <Link className="text-navy underline" href="/live">
+            Live results
+          </Link>
+        </li>
+        <li>
+          <Link className="text-navy underline" href="/results">
+            Results tracker
+          </Link>
+        </li>
+        <li>
+          <Link className="text-navy underline" href={`/states/${state.code}`}>
             {state.name} hub
           </Link>
-        </p>
-      </section>
-      <CrossLinks state={state.code} />
-    </div>
+        </li>
+        {races.map((race) => (
+          <li key={race.slug}>
+            <Link className="text-navy underline" href={`/results/${race.slug}`}>
+              {race.title} results
+            </Link>
+            {" · "}
+            <Link className="text-navy underline" href={`/races/${race.slug}`}>
+              Race guide
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }

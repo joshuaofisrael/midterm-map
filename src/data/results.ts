@@ -1,4 +1,4 @@
-import type { ChamberMeter, RaceResultShell } from "./types";
+import type { ChamberMeter, RaceGuide, RaceResultShell, StateCode } from "./types";
 import { RACES } from "./races";
 import { SITE } from "./site";
 
@@ -104,4 +104,23 @@ export function indexableRaceHref(raceSlug?: string): string {
 
 export function allResultShells(): RaceResultShell[] {
   return RACES.map((race) => resultShellForRace(race.slug));
+}
+
+export function stateResultsPath(code: StateCode): string {
+  return `/results/state/${code}`;
+}
+
+/** Other results pages for the same state, or the previous and next race in site order. */
+export function neighbouringResultRaces(slug: string): RaceGuide[] {
+  const index = RACES.findIndex((race) => race.slug === slug);
+  if (index < 0) return [];
+  const race = RACES[index];
+  const sameState = RACES.filter((item) => item.state === race.state && item.slug !== slug);
+  if (sameState.length > 0) return sameState;
+  const previous = RACES[(index - 1 + RACES.length) % RACES.length];
+  const next = RACES[(index + 1) % RACES.length];
+  return [previous, next].filter(
+    (item, itemIndex, list) =>
+      item.slug !== slug && list.findIndex((other) => other.slug === item.slug) === itemIndex,
+  );
 }

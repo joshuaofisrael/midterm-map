@@ -173,7 +173,15 @@ function lastModifiedFor(path: string): string {
 
 function changeFrequencyFor(path: string): "hourly" | "weekly" | "monthly" {
   if (path === "/live") return "hourly";
-  if (path === "" || path === "/voting-deadlines" || path.startsWith("/states/")) return "weekly";
+  if (
+    path === "" ||
+    path === "/voting-deadlines" ||
+    path === "/results" ||
+    path.startsWith("/states/") ||
+    path.startsWith("/results/state/")
+  ) {
+    return "weekly";
+  }
   return "monthly";
 }
 
@@ -188,7 +196,7 @@ function sitemapEntry(path: string, priority: number): MetadataRoute.Sitemap[num
 
 function priorityFor(path: string): number {
   if (path === "") return 1;
-  if (path === "/live") return 0.8;
+  if (path === "/live" || path.startsWith("/results/state/")) return 0.8;
   if (path === "/cities") return 0.7;
   if (path === "/voting-deadlines" || path.startsWith("/states/")) return 0.8;
   if (path.startsWith("/races/")) return 0.8;
@@ -216,6 +224,7 @@ function coreSitemap(): MetadataRoute.Sitemap {
   const statePaths = STARTER_STATES.flatMap((state) => [
     `/states/${state.code}`,
     `/ballot/${state.code}`,
+    `/results/state/${state.code}`,
   ]);
 
   const racePaths = RACES.flatMap((race) => {

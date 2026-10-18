@@ -33,6 +33,18 @@ fill(500, 528, "IA");
 fill(995, 999, "AK");
 fill(660, 662, "KS");
 fill(664, 679, "KS");
+fill(30, 38, "NH");
+ZIP3_TO_STATE["201"] = "VA";
+fill(220, 246, "VA");
+fill(70, 89, "NJ");
+fill(10, 27, "MA");
+fill(980, 994, "WA");
+fill(800, 816, "CO");
+fill(370, 385, "TN");
+fill(460, 479, "IN");
+fill(630, 658, "MO");
+fill(206, 219, "MD");
+fill(290, 299, "SC");
 
 export function normalizeZip(input: string): string {
   return input.replace(/\D/g, "").slice(0, 5);

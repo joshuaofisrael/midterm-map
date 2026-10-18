@@ -1841,6 +1841,315 @@ export const ELECTION_DATES: StateElectionDates[] = [
       },
     ],
   },
+  {
+    code: "NH",
+    checkedOn: "October 18, 2026",
+    faqAnswer:
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Federal Voting Assistance Program’s New Hampshire federal-election deadlines table lists registration received by November 3, 2026, a ballot request received by 12 p.m. on November 2, 2026, and a ballot return received by 5 p.m. on November 3, 2026. That table does not list an early-voting period.",
+    facts: [
+      {
+        id: "nh-register",
+        category: "registration",
+        label: "Voter registration",
+        text: "The Federal Voting Assistance Program’s New Hampshire federal-election deadlines table lists registration received by November 3, 2026 for the general election.",
+        endsOn: "2026-11-03",
+        sources: [
+          {
+            label: "Federal Voting Assistance Program — New Hampshire",
+            href: "https://www.fvap.gov/uploads/FVAP/States/new-hampshire.pdf",
+          },
+        ],
+      },
+      {
+        id: "nh-request",
+        category: "mail-request",
+        label: "Ballot request",
+        text: "That table lists a general-election ballot request received by 12 p.m. on November 2, 2026.",
+        endsOn: "2026-11-02",
+        sources: [
+          {
+            label: "Federal Voting Assistance Program — New Hampshire",
+            href: "https://www.fvap.gov/uploads/FVAP/States/new-hampshire.pdf",
+          },
+        ],
+      },
+      {
+        id: "nh-return",
+        category: "mail-return",
+        label: "Ballot return",
+        text: "That table lists a general-election ballot return received by 5 p.m. on November 3, 2026.",
+        endsOn: "2026-11-03",
+        sources: [
+          {
+            label: "Federal Voting Assistance Program — New Hampshire",
+            href: "https://www.fvap.gov/uploads/FVAP/States/new-hampshire.pdf",
+          },
+        ],
+      },
+    ],
+    omitted: [
+      {
+        category: "early",
+        label: "Early voting",
+        text: "The FVAP New Hampshire federal-election deadlines table does not list an early-voting period. The New Hampshire Secretary of State election-dates page was not retrieved on October 18, 2026.",
+      },
+    ],
+  },
+  {
+    code: "VA",
+    checkedOn: "October 18, 2026",
+    faqAnswer:
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Virginia Department of Elections lists registration through Friday, October 23, 2026, early in-person voting from Friday, September 18, 2026 through 5:00 p.m. on Saturday, October 31, 2026, and a mailed-ballot application received by 5:00 p.m. on Friday, October 23, 2026. That page does not list a return deadline.",
+    facts: [
+      {
+        id: "va-register",
+        category: "registration",
+        label: "Voter registration",
+        text: "The upcoming-elections page lists register to vote or update registration through Friday, October 23, 2026. It also says voters may register and vote using a provisional ballot in person after October 23, 2026, through Election Day.",
+        endsOn: "2026-10-23",
+        sources: [
+          {
+            label: "Virginia Department of Elections — upcoming elections",
+            href: "https://www.elections.virginia.gov/casting-a-ballot/calendars-schedules/upcoming-elections.html",
+          },
+        ],
+      },
+      {
+        id: "va-early",
+        category: "early",
+        label: "Early voting",
+        text: "The early in-person voting period is Friday, September 18, 2026 through 5:00 p.m., Saturday, October 31, 2026.",
+        startsOn: "2026-09-18",
+        endsOn: "2026-10-31",
+        sources: [
+          {
+            label: "Virginia Department of Elections — upcoming elections",
+            href: "https://www.elections.virginia.gov/casting-a-ballot/calendars-schedules/upcoming-elections.html",
+          },
+        ],
+      },
+      {
+        id: "va-request",
+        category: "mail-request",
+        label: "Ballot mailed to the voter",
+        text: "A request for a ballot to be mailed must be received by the local registrar’s office by 5:00 p.m., Friday, October 23, 2026.",
+        endsOn: "2026-10-23",
+        sources: [
+          {
+            label: "Virginia Department of Elections — upcoming elections",
+            href: "https://www.elections.virginia.gov/casting-a-ballot/calendars-schedules/upcoming-elections.html",
+          },
+        ],
+      },
+    ],
+    omitted: [
+      {
+        category: "mail-return",
+        label: "Mail-ballot return",
+        text: "The upcoming-elections page read on October 18, 2026 lists a mailed-ballot application deadline and does not list a return deadline.",
+      },
+    ],
+  },
+  {
+    code: "NJ",
+    checkedOn: "October 18, 2026",
+    faqAnswer:
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The New Jersey voter information portal lists October 13 as the voter registration deadline for the general election, in-person early voting October 24 through November 1, 2026, an October 27 deadline to apply for a mail-in ballot by mail, and November 3 and November 9 receipt deadlines for returned mail-in ballots.",
+    facts: [
+      {
+        id: "nj-register",
+        category: "registration",
+        label: "Voter registration",
+        text: "The portal’s important-dates list names October 13 as the voter registration deadline for the general election, on the same list as November 3 General Election Day. The page states in-person early voting will be open October 24 through November 1, 2026.",
+        endsOn: "2026-10-13",
+        sources: [
+          {
+            label: "New Jersey Division of Elections — voter information portal",
+            href: "https://nj.gov/state/elections/vote.shtml",
+          },
+        ],
+      },
+      {
+        id: "nj-early",
+        category: "early",
+        label: "Early voting",
+        text: "In-person early voting will be open October 24 through November 1, 2026. The portal says polls will be open Monday–Saturday, 10:00 a.m.–8:00 p.m., and Sunday, 10:00 a.m.–6:00 p.m.",
+        startsOn: "2026-10-24",
+        endsOn: "2026-11-01",
+        sources: [
+          {
+            label: "New Jersey Division of Elections — voter information portal",
+            href: "https://nj.gov/state/elections/vote.shtml",
+          },
+        ],
+      },
+      {
+        id: "nj-request",
+        category: "mail-request",
+        label: "Mail-in ballot application",
+        text: "The important-dates list names October 27 as the deadline to apply for a mail-in ballot by mail for the general election, and November 2 by 3:00 p.m. as the deadline for in-person mail-in ballot applications.",
+        endsOn: "2026-11-02",
+        sources: [
+          {
+            label: "New Jersey Division of Elections — voter information portal",
+            href: "https://nj.gov/state/elections/vote.shtml",
+          },
+        ],
+      },
+      {
+        id: "nj-return",
+        category: "mail-return",
+        label: "Mail-in ballot return",
+        text: "The same list names November 3 as the deadline for post office receipt of mail-in ballots, November 3 by 8:00 p.m. as the deadline for in-person submission to county boards of election and authorized ballot drop boxes, and November 9 as the deadline for receipt of timely mailed postmarked mail-in ballots.",
+        endsOn: "2026-11-09",
+        sources: [
+          {
+            label: "New Jersey Division of Elections — voter information portal",
+            href: "https://nj.gov/state/elections/vote.shtml",
+          },
+        ],
+      },
+    ],
+    omitted: [],
+  },
+  {
+    code: "SC",
+    checkedOn: "October 18, 2026",
+    faqAnswer:
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The South Carolina Election Commission’s statewide general election go-to guide lists online registration received by Sunday, October 4, 2026 at 11:59 p.m., and early voting from Monday, October 19 through Saturday, October 31, 2026. That guide does not print an absentee request or return deadline.",
+    facts: [
+      {
+        id: "sc-register",
+        category: "registration",
+        label: "Voter registration",
+        text: "The go-to guide says online applications must be received by Sunday, October 4 at 11:59 p.m.; a fax or email attachment before midnight on Sunday, October 4; mailed applications postmarked by Monday, October 5; and in-person registration at the county voter registration office by Friday, October 2. It says most offices will close at 5:00 p.m.",
+        endsOn: "2026-10-05",
+        sources: [
+          {
+            label: "South Carolina Election Commission — 2026 statewide general election go-to guide",
+            href: "https://scvotes.gov/wp-content/uploads/2026/09/Statewide-General-Election-Go-To-Guide.pdf",
+          },
+        ],
+      },
+      {
+        id: "sc-early",
+        category: "early",
+        label: "Early voting",
+        text: "The guide says early voting starts Monday, October 19 and ends Saturday, October 31, and is closed Sunday, October 25. It says early voting centers are open 8:30 a.m.–6:00 p.m. during that period.",
+        startsOn: "2026-10-19",
+        endsOn: "2026-10-31",
+        sources: [
+          {
+            label: "South Carolina Election Commission — 2026 statewide general election go-to guide",
+            href: "https://scvotes.gov/wp-content/uploads/2026/09/Statewide-General-Election-Go-To-Guide.pdf",
+          },
+        ],
+      },
+    ],
+    omitted: [
+      {
+        category: "mail-request",
+        label: "Absentee request",
+        text: "The go-to guide says qualified voters can vote absentee by mail and does not print an application deadline. It points to the Election Commission’s absentee voting guide.",
+      },
+      {
+        category: "mail-return",
+        label: "Absentee return",
+        text: "The go-to guide read on October 18, 2026 does not print an absentee-ballot return deadline.",
+      },
+    ],
+  },
+  {
+    code: "MA",
+    checkedOn: "October 18, 2026",
+    faqAnswer:
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The 2026 state-election candidates page read on October 18, 2026 does not print registration, early-voting, or mail-ballot deadlines. The Massachusetts Elections Division publishes the current calendar.",
+    facts: [],
+    omitted: [
+      { category: "registration", label: "Voter registration", text: "The 2026 state-election candidates page read on October 18, 2026 does not print this deadline. The Massachusetts Elections Division publishes the calendar." },
+      { category: "early", label: "Early voting", text: "The 2026 state-election candidates page read on October 18, 2026 does not print this deadline. The Massachusetts Elections Division publishes the calendar." },
+      { category: "mail-request", label: "Mail-ballot request", text: "The 2026 state-election candidates page read on October 18, 2026 does not print this deadline. The Massachusetts Elections Division publishes the calendar." },
+      { category: "mail-return", label: "Mail-ballot return", text: "The 2026 state-election candidates page read on October 18, 2026 does not print this deadline. The Massachusetts Elections Division publishes the calendar." },
+    ],
+  },
+  {
+    code: "WA",
+    checkedOn: "October 18, 2026",
+    faqAnswer:
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The August 21, 2026 certification of candidates read on October 18, 2026 does not print registration, early-voting, or mail-ballot deadlines. The Washington Secretary of State publishes the current calendar.",
+    facts: [],
+    omitted: [
+      { category: "registration", label: "Voter registration", text: "The August 21, 2026 certification of candidates read on October 18, 2026 does not print this deadline. The Washington Secretary of State publishes the calendar." },
+      { category: "early", label: "Early voting", text: "The August 21, 2026 certification of candidates read on October 18, 2026 does not print this deadline. The Washington Secretary of State publishes the calendar." },
+      { category: "mail-request", label: "Mail-ballot request", text: "The August 21, 2026 certification of candidates read on October 18, 2026 does not print this deadline. The Washington Secretary of State publishes the calendar." },
+      { category: "mail-return", label: "Mail-ballot return", text: "The August 21, 2026 certification of candidates read on October 18, 2026 does not print this deadline. The Washington Secretary of State publishes the calendar." },
+    ],
+  },
+  {
+    code: "CO",
+    checkedOn: "October 18, 2026",
+    faqAnswer:
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The September 4, 2026 candidate list and the certified-measures page, read on October 18, 2026, do not print registration, early-voting, or mail-ballot deadlines. The Colorado Secretary of State publishes the current calendar.",
+    facts: [],
+    omitted: [
+      { category: "registration", label: "Voter registration", text: "The September 4, 2026 candidate list and the certified-measures page, read on October 18, 2026, do not print this deadline. The Colorado Secretary of State publishes the calendar." },
+      { category: "early", label: "Early voting", text: "The September 4, 2026 candidate list and the certified-measures page, read on October 18, 2026, do not print this deadline. The Colorado Secretary of State publishes the calendar." },
+      { category: "mail-request", label: "Mail-ballot request", text: "The September 4, 2026 candidate list and the certified-measures page, read on October 18, 2026, do not print this deadline. The Colorado Secretary of State publishes the calendar." },
+      { category: "mail-return", label: "Mail-ballot return", text: "The September 4, 2026 candidate list and the certified-measures page, read on October 18, 2026, do not print this deadline. The Colorado Secretary of State publishes the calendar." },
+    ],
+  },
+  {
+    code: "TN",
+    checkedOn: "October 18, 2026",
+    faqAnswer:
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The 2026 candidate-lists page read on October 18, 2026 does not print registration, early-voting, or mail-ballot deadlines. The Tennessee Secretary of State publishes the current calendar.",
+    facts: [],
+    omitted: [
+      { category: "registration", label: "Voter registration", text: "The 2026 candidate-lists page read on October 18, 2026 does not print this deadline. The Tennessee Secretary of State publishes the calendar." },
+      { category: "early", label: "Early voting", text: "The 2026 candidate-lists page read on October 18, 2026 does not print this deadline. The Tennessee Secretary of State publishes the calendar." },
+      { category: "mail-request", label: "Mail-ballot request", text: "The 2026 candidate-lists page read on October 18, 2026 does not print this deadline. The Tennessee Secretary of State publishes the calendar." },
+      { category: "mail-return", label: "Mail-ballot return", text: "The 2026 candidate-lists page read on October 18, 2026 does not print this deadline. The Tennessee Secretary of State publishes the calendar." },
+    ],
+  },
+  {
+    code: "IN",
+    checkedOn: "October 18, 2026",
+    faqAnswer:
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The abbreviated candidate list for the November 3, 2026 general election read on October 18, 2026 does not print registration, early-voting, or mail-ballot deadlines. The Indiana Election Division publishes the current calendar.",
+    facts: [],
+    omitted: [
+      { category: "registration", label: "Voter registration", text: "The abbreviated candidate list for the November 3, 2026 general election read on October 18, 2026 does not print this deadline. The Indiana Election Division publishes the calendar." },
+      { category: "early", label: "Early voting", text: "The abbreviated candidate list for the November 3, 2026 general election read on October 18, 2026 does not print this deadline. The Indiana Election Division publishes the calendar." },
+      { category: "mail-request", label: "Mail-ballot request", text: "The abbreviated candidate list for the November 3, 2026 general election read on October 18, 2026 does not print this deadline. The Indiana Election Division publishes the calendar." },
+      { category: "mail-return", label: "Mail-ballot return", text: "The abbreviated candidate list for the November 3, 2026 general election read on October 18, 2026 does not print this deadline. The Indiana Election Division publishes the calendar." },
+    ],
+  },
+  {
+    code: "MO",
+    checkedOn: "October 18, 2026",
+    faqAnswer:
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The August 25, 2026 certification of candidates read on October 18, 2026 does not print registration, early-voting, or mail-ballot deadlines. The Missouri Secretary of State publishes the current calendar.",
+    facts: [],
+    omitted: [
+      { category: "registration", label: "Voter registration", text: "The August 25, 2026 certification of candidates read on October 18, 2026 does not print this deadline. The Missouri Secretary of State publishes the calendar." },
+      { category: "early", label: "Early voting", text: "The August 25, 2026 certification of candidates read on October 18, 2026 does not print this deadline. The Missouri Secretary of State publishes the calendar." },
+      { category: "mail-request", label: "Mail-ballot request", text: "The August 25, 2026 certification of candidates read on October 18, 2026 does not print this deadline. The Missouri Secretary of State publishes the calendar." },
+      { category: "mail-return", label: "Mail-ballot return", text: "The August 25, 2026 certification of candidates read on October 18, 2026 does not print this deadline. The Missouri Secretary of State publishes the calendar." },
+    ],
+  },
+  {
+    code: "MD",
+    checkedOn: "October 18, 2026",
+    faqAnswer:
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The 2026 statewide candidate page read on October 18, 2026 does not print registration, early-voting, or mail-ballot deadlines. The Maryland State Board of Elections publishes the current calendar.",
+    facts: [],
+    omitted: [
+      { category: "registration", label: "Voter registration", text: "The 2026 statewide candidate page read on October 18, 2026 does not print this deadline. The Maryland State Board of Elections publishes the calendar." },
+      { category: "early", label: "Early voting", text: "The 2026 statewide candidate page read on October 18, 2026 does not print this deadline. The Maryland State Board of Elections publishes the calendar." },
+      { category: "mail-request", label: "Mail-ballot request", text: "The 2026 statewide candidate page read on October 18, 2026 does not print this deadline. The Maryland State Board of Elections publishes the calendar." },
+      { category: "mail-return", label: "Mail-ballot return", text: "The 2026 statewide candidate page read on October 18, 2026 does not print this deadline. The Maryland State Board of Elections publishes the calendar." },
+    ],
+  }
 ];
 
 const BY_CODE = new Map(ELECTION_DATES.map((entry) => [entry.code, entry]));
