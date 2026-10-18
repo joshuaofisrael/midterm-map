@@ -11,13 +11,7 @@ import { SourceLines } from "@/components/SourceLines";
 import { SourceList } from "@/components/SourceList";
 import { StatusChip } from "@/components/StatusChip";
 import { getRace, RACES } from "@/data/races";
-import {
-  isPreElection,
-  neighbouringResultRaces,
-  resultShellForRace,
-  resultShellHasReturns,
-  stateResultsPath,
-} from "@/data/results";
+import { isPreElection, neighbouringResultRaces, resultShellForRace, resultShellHasReturns, stateResultsPath } from "@/data/results";
 import { SITE } from "@/data/site";
 import { getState } from "@/data/states";
 import { contentUpdatedLabel } from "@/lib/contentDate";
@@ -175,7 +169,7 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
       </p>
       {neighbours.length > 0 && (
         <section>
-          <h2 className="font-serif text-xl font-semibold">Neighbouring results pages</h2>
+          <h2 className="font-serif text-xl font-semibold">More results pages</h2>
           <ul className="mt-3 space-y-2 text-sm">
             {neighbours.map((item) => (
               <li key={item.slug}>

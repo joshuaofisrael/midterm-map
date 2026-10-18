@@ -211,7 +211,10 @@ export default function ResultsPage() {
                   {state ? (
                     <>
                       {" · "}
-                      <Link className="font-medium text-navy hover:underline" href={stateResultsPath(state.code)}>
+                      <Link
+                        className="font-medium text-navy hover:underline"
+                        href={stateResultsPath(state.code)}
+                      >
                         {state.name} results
                       </Link>
                     </>

@@ -33,6 +33,7 @@ fill(500, 528, "IA");
 fill(995, 999, "AK");
 fill(660, 662, "KS");
 fill(664, 679, "KS");
+fill(600, 629, "IL");
 fill(30, 38, "NH");
 ZIP3_TO_STATE["201"] = "VA";
 fill(220, 246, "VA");

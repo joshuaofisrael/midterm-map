@@ -16,6 +16,7 @@ export type StateCode =
   | "IA"
   | "AK"
   | "KS"
+  | "IL"
   | "NH"
   | "VA"
   | "NJ"
