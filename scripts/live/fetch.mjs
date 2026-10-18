@@ -22,6 +22,9 @@ import {
   parseFloridaTsv,
   parseNcsbe,
   parseScytlBallotItems,
+  parseCaliforniaJson,
+  parseMinnesotaMedia,
+  parseStateResultsCsv,
   parseTexasRaces,
   parseWashingtonCsv,
 } from "./parse.mjs";
@@ -292,6 +295,88 @@ async function fetchWashington(source) {
   });
 }
 
+async function fetchMinnesota(source) {
+  const races = [];
+  let updated = null;
+  let found = false;
+  for (const name of source.feed.files) {
+    try {
+      const file = await fetchBuffer(`${source.feed.fileBase}/${name}`);
+      found = true;
+      updated = file.lastModified || updated;
+      races.push(...parseMinnesotaMedia(file.text, source.code));
+    } catch (error) {
+      if (error.status !== 404) throw error;
+    }
+  }
+  if (!found) {
+    return stateRecord(source, {
+      feedStatus: "not-published",
+      feedNote: "The Minnesota Secretary of State has not posted the November 3, 2026 media files yet.",
+      fetchedAt: new Date().toISOString(),
+    });
+  }
+  return stateRecord(source, {
+    feedStatus: "ok",
+    sourceUpdatedAt: updated,
+    fetchedAt: new Date().toISOString(),
+    races,
+  });
+}
+
+function californiaWanted(url) {
+  return /\/(?:governor|us-rep|us-senate|united-states-senate)\.json$/i.test(url);
+}
+
+async function fetchCalifornia(source) {
+  const index = await fetchBuffer(source.feed.indexUrl);
+  const urls = [...index.text.matchAll(/https?:\/\/[^\s",]+\.json/g)]
+    .map((match) => match[0])
+    .filter(californiaWanted);
+  if (!urls.length) {
+    return stateRecord(source, {
+      feedStatus: "not-published",
+      feedNote: "The California Secretary of State media index does not list a November 3, 2026 statewide or congressional JSON file yet.",
+      fetchedAt: new Date().toISOString(),
+    });
+  }
+  const races = [];
+  let updated = null;
+  for (const url of urls) {
+    const file = await fetchBuffer(url);
+    updated = file.lastModified || updated;
+    races.push(...parseCaliforniaJson(JSON.parse(file.text), source.code));
+  }
+  return stateRecord(source, {
+    feedStatus: "ok",
+    sourceUpdatedAt: updated,
+    fetchedAt: new Date().toISOString(),
+    races,
+  });
+}
+
+async function fetchStateResultsCsv(source) {
+  const races = [];
+  let updated = null;
+  for (const url of source.feed.csvUrls) {
+    const file = await fetchBuffer(url);
+    const parsed = parseStateResultsCsv(file.text, source.code);
+    races.push(...parsed);
+    const table = file.text.split(/\r?\n/).find((line) => /,(\d{1,2}\/\d{1,2}\/\d{4}[^,]*)/.test(line));
+    if (!updated && table) {
+      const match = table.match(/(\d{1,2}\/\d{1,2}\/\d{4}[^,"]*)/);
+      updated = match ? match[1].trim() : file.lastModified;
+    }
+    updated = updated || file.lastModified;
+  }
+  return stateRecord(source, {
+    feedStatus: "ok",
+    sourceUpdatedAt: updated,
+    fetchedAt: new Date().toISOString(),
+    races,
+  });
+}
+
 async function fetchNcsbe(source) {
   const file = await fetchBuffer(source.feed.url);
   return stateRecord(source, {
@@ -311,6 +396,9 @@ async function fetchSource(source, previous) {
     if (source.feed.kind === "florida-tsv") return await fetchFlorida(source);
     if (source.feed.kind === "texas-enr") return await fetchTexas(source);
     if (source.feed.kind === "washington-csv") return await fetchWashington(source);
+    if (source.feed.kind === "minnesota-media") return await fetchMinnesota(source);
+    if (source.feed.kind === "california-json") return await fetchCalifornia(source);
+    if (source.feed.kind === "state-results-csv") return await fetchStateResultsCsv(source);
     return linkOnly(source);
   } catch (error) {
     if (error.status === 404) {

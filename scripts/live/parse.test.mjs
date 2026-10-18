@@ -5,8 +5,11 @@ import {
   ncsbeProportionToPercent,
   parseClarityCsv,
   parseFloridaTsv,
+  parseCaliforniaJson,
+  parseMinnesotaMedia,
   parseNcsbe,
   parseScytlBallotItems,
+  parseStateResultsCsv,
   parseTexasRaces,
   parseWashingtonCsv,
 } from "./parse.mjs";
@@ -159,5 +162,83 @@ test("Texas and Washington parsers copy reported percents and never mark a winne
 test("party primary contests are not treated as the general election", () => {
   assert.equal(classifyContest("United States Senator - Rep.").partyPrimary, true);
   assert.equal(classifyContest("Governor").office, "governor");
+  assert.equal(classifyContest("Lieutenant Governor").office, null);
+  assert.equal(classifyContest("Governor & Lt Governor").office, "governor");
+  assert.equal(classifyContest("For Governor and Lt. Governor").office, "governor");
   assert.equal(classifyContest("US HOUSE OF REPRESENTATIVES DISTRICT 01 (VOTE FOR 1)").district, "01");
+});
+
+test("Minnesota media file copies the published percent and skips county rows", () => {
+  const races = parseMinnesotaMedia(
+    [
+      "MN;;;0102;U.S. Senator;;1001;Ada Example;;;DFL;10;100;40;40.00;100",
+      "MN;;;0102;U.S. Senator;;0302;Ben Example;;;R;10;100;60;60.00;100",
+      "MN;01;;0102;U.S. Senator;;1001;Ada Example;;;DFL;1;2;9;50.00;18",
+      "MN;;;0331;Governor & Lt Governor;;0402;Ada Example and Cam Example;;;DFL;10;100;55;55.00;100",
+      "MN;;;0104;U.S. Representative District 1;1;0401;Ada Example;;;DFL;4;20;8;40.00;20",
+    ].join("\n"),
+  );
+  assert.equal(races.length, 3);
+  assert.equal(races[0].siteSlug, "mn-senate-2026");
+  assert.equal(races[0].candidates.length, 2);
+  assert.equal(races[0].candidates[1].percentText, "60.00");
+  assert.equal(races[0].candidates[1].winner, false);
+  assert.equal(races[0].precinctsReporting, 10);
+  assert.equal(races[1].siteSlug, "mn-governor-2026");
+  assert.equal(races[2].siteSlug, "mn-01-house-2026");
+});
+
+test("California JSON uses the statewide row and the published percent", () => {
+  const races = parseCaliforniaJson([
+    {
+      raceTitle: "Governor - Statewide Results",
+      Reporting: "3.7% (887 of 23,860) precincts reporting",
+      candidates: [
+        { Name: "Ada Example", Party: "Dem", Votes: "10", Percent: "62.6", incumbent: false },
+        { Name: "Ben Example", Party: "Rep", Votes: "6", Percent: "37.4", incumbent: true },
+      ],
+    },
+    {
+      raceTitle: "Governor - Alameda County Results",
+      Reporting: "0% (0 of 627) precincts reporting",
+      candidates: [{ Name: "Ada Example", Party: "Dem", Votes: "1", Percent: "100.0", incumbent: false }],
+    },
+    {
+      raceTitle: "United States Representative District 1 - Districtwide Results",
+      Reporting: "0% (0 of 788) precincts reporting",
+      candidates: [{ Name: "Cam Example", Party: "Dem", Votes: "0", Percent: "0.0", incumbent: false }],
+    },
+  ]);
+  assert.equal(races.length, 2);
+  assert.equal(races[0].siteSlug, "ca-governor-2026");
+  assert.equal(races[0].candidates[0].percentText, "62.6");
+  assert.equal(races[0].candidates[1].winner, false);
+  assert.equal(races[0].precinctsReporting, 887);
+  assert.equal(races[0].precinctsTotal, 23860);
+  assert.equal(races[1].siteSlug, "ca-01-house-2026");
+});
+
+test("state results CSV keeps the published percent and drops county rows", () => {
+  const header = "RaceID,RaceName,PartyCode,AreaType,AreaNum,OfficeSeqNo,BallotOrder,CandidateID,CandidateName,CurrentDateTime,VoteFor,CandidateVotes,CandidatePercentage,PrecinctsReporting";
+  const races = parseStateResultsCsv(
+    [
+      header,
+      '1,"United States Senator","REP","SW","",110,,1,"Ada  Example ",10/18/2026 9:33:43 AM,1,4,40,="1/10"',
+      '1,"United States Senator","DEM","SW","",110,,2,"Ben Example",10/18/2026 9:33:43 AM,1,6,60,="1/10"',
+      '1,"United States Senator","DEM","CTY","Adams",110,,2,"Ben Example",10/18/2026 9:33:43 AM,1,99,99,="1/1"',
+      '2,"For Representative in Congress - 2  Year Term","REP","CG","District 01",120,,3,"Cam Example",10/18/2026 9:33:43 AM,1,0,0,="0/8"',
+      '3,"United States Representative","DEM","","",120,,4,"Dee Example",10/18/2026 9:33:43 AM,1,3,100,="2/2"',
+    ].join("\n"),
+    "NE",
+  );
+  assert.equal(races.length, 3);
+  assert.equal(races[0].siteSlug, "ne-senate-2026");
+  assert.equal(races[0].candidates[0].name, "Ada Example");
+  assert.equal(races[0].candidates[0].votes, 4);
+  assert.equal(races[0].candidates[1].percentText, "60");
+  assert.equal(races[0].candidates[1].winner, false);
+  assert.equal(races[0].precinctsReporting, 1);
+  assert.equal(races[0].precinctsTotal, 10);
+  assert.equal(races[1].siteSlug, "ne-01-house-2026");
+  assert.equal(races[2].siteSlug, "ne-al-house-2026");
 });

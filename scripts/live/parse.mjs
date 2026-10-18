@@ -14,7 +14,7 @@ export function classifyContest(name) {
 
   if (/U\.?\s*S\.?\s*SENAT(?:E|OR)|UNITED STATES SENAT(?:E|OR)|US SENATE/.test(upper)) {
     office = "senate";
-  } else if (/GOVERNOR/.test(upper) && !/LIEUTENANT|LT\.?\s*GOVERNOR/.test(upper)) {
+  } else if (isGovernorContest(upper)) {
     office = "governor";
   } else if (
     /U\.?\s*S\.?\s*HOUSE|U\.?\s*S\.?\s*REPRESENTATIVE|UNITED STATES REPRESENTATIVE|REPRESENTATIVE IN CONGRESS|CONGRESSIONAL DISTRICT|US HOUSE/.test(
@@ -29,6 +29,14 @@ export function classifyContest(name) {
   }
 
   return { office, district, partyPrimary, title: cleaned };
+}
+
+/** A joint governor and lieutenant-governor ticket is the governor contest. */
+function isGovernorContest(upper) {
+  if (!/\bGOVERNOR\b/.test(upper)) return false;
+  if (/GOVERNOR\s*(?:&|AND)\s*(?:LT\.?|LIEUTENANT)(?:\s+GOVERNOR)?/.test(upper)) return true;
+  if (/\bLIEUTENANT\b|\bLT\.?\s*GOVERNOR\b/.test(upper)) return false;
+  return true;
 }
 
 export function siteSlug(stateCode, office, district) {
@@ -325,6 +333,136 @@ export function parseWashingtonCsv(text, stateCode = "WA") {
   }
   return [...groups.values()].map((group) =>
     raceShell(stateCode, group.classified, { candidates: group.candidates }),
+  );
+}
+
+/** Minnesota media files. Columns are the Secretary of State's published layout. */
+export function parseMinnesotaMedia(text, stateCode = "MN") {
+  const groups = new Map();
+  for (const line of text.replace(/^\uFEFF/, "").split(/\r?\n/)) {
+    if (!line.trim()) continue;
+    const cells = line.split(";");
+    if (cells.length < 16) continue;
+    if (cells[1].trim() || cells[2].trim()) continue;
+    const title = cells[4].trim();
+    const classified = classifyContest(title);
+    if (!keepGeneral(classified)) continue;
+    const districtField = cells[5].trim();
+    if (classified.office === "house" && /^\d+$/.test(districtField)) {
+      classified.district = districtField.padStart(2, "0");
+    }
+    const key = `${classified.office}|${classified.district || ""}|${title}`;
+    if (!groups.has(key)) {
+      groups.set(key, {
+        classified,
+        precinctsReporting: Number(cells[11]),
+        precinctsTotal: Number(cells[12]),
+        candidates: [],
+      });
+    }
+    groups.get(key).candidates.push({
+      name: cells[7].trim(),
+      partyLabel: cells[10].trim(),
+      votes: Number(cells[13]),
+      percentText: cells[14].trim() === "" ? null : cells[14].trim(),
+      winner: false,
+    });
+  }
+  return [...groups.values()].map((group) =>
+    raceShell(stateCode, group.classified, {
+      precinctsReporting: group.precinctsReporting,
+      precinctsTotal: group.precinctsTotal,
+      reportingLabel: "precincts",
+      candidates: group.candidates,
+    }),
+  );
+}
+
+/** California media JSON. Only the statewide or districtwide object is used. */
+export function parseCaliforniaJson(races, stateCode = "CA") {
+  const list = Array.isArray(races) ? races : [];
+  const kept = [];
+  for (const race of list) {
+    const title = String(race.raceTitle || "");
+    if (!/statewide results|districtwide results/i.test(title)) continue;
+    const classified = classifyContest(title);
+    if (!keepGeneral(classified)) continue;
+    const reporting = String(race.Reporting || "");
+    const match = reporting.match(/\(([0-9,]+) of ([0-9,]+)\)/);
+    kept.push(
+      raceShell(stateCode, classified, {
+        precinctsReporting: match ? Number(match[1].replace(/,/g, "")) : null,
+        precinctsTotal: match ? Number(match[2].replace(/,/g, "")) : null,
+        reportingLabel: match ? "precincts" : null,
+        candidates: (race.candidates || []).map((candidate) => ({
+          name: String(candidate.Name || "").trim(),
+          partyLabel: String(candidate.Party || "").trim(),
+          votes: Number(String(candidate.Votes ?? "").replace(/,/g, "")),
+          percentText: candidate.Percent == null || candidate.Percent === "" ? null : String(candidate.Percent),
+          winner: false,
+        })),
+      }),
+    );
+  }
+  return kept;
+}
+
+function precinctPair(value) {
+  const text = String(value || "").replace(/^=/, "").replace(/"/g, "");
+  const match = text.match(/(\d+)\s*\/\s*(\d+)/);
+  if (!match) return { reporting: null, total: null };
+  return { reporting: Number(match[1]), total: Number(match[2]) };
+}
+
+/**
+ * Statewide CSV published by the South Dakota and Nebraska results sites.
+ * County rows are skipped. A congressional district comes from the area column.
+ */
+export function parseStateResultsCsv(text, stateCode) {
+  const table = csvRows(text);
+  if (!table.length) return [];
+  const header = table[0].map((cell) => cell.trim());
+  const index = Object.fromEntries(header.map((name, i) => [name, i]));
+  const groups = new Map();
+  for (const cells of table.slice(1)) {
+    const areaType = String(cells[index.AreaType] || "").trim().toUpperCase();
+    const areaNum = String(cells[index.AreaNum] || "").trim();
+    const statewide = areaType === "" || areaType === "SW" || areaType === "SWR";
+    const congress = areaType === "CG";
+    if (!statewide && !congress) continue;
+    const title = String(cells[index.RaceName] || "").trim();
+    const classified = classifyContest(title);
+    if (!keepGeneral(classified)) continue;
+    if (classified.office === "house") {
+      const fromArea = areaNum.match(/(\d+)/);
+      if (fromArea) classified.district = fromArea[1].padStart(2, "0");
+    }
+    const key = `${cells[index.RaceID] || title}|${classified.district || ""}`;
+    const precincts = precinctPair(cells[index.PrecinctsReporting]);
+    if (!groups.has(key)) {
+      groups.set(key, {
+        classified,
+        precinctsReporting: precincts.reporting,
+        precinctsTotal: precincts.total,
+        candidates: [],
+      });
+    }
+    const percent = String(cells[index.CandidatePercentage] ?? "").trim();
+    groups.get(key).candidates.push({
+      name: String(cells[index.CandidateName] || "").replace(/\s+/g, " ").trim(),
+      partyLabel: String(cells[index.PartyCode] || "").trim(),
+      votes: Number(String(cells[index.CandidateVotes] ?? "").replace(/,/g, "")),
+      percentText: percent === "" ? null : percent,
+      winner: false,
+    });
+  }
+  return [...groups.values()].map((group) =>
+    raceShell(stateCode, group.classified, {
+      precinctsReporting: group.precinctsReporting,
+      precinctsTotal: group.precinctsTotal,
+      reportingLabel: group.precinctsTotal == null ? null : "precincts",
+      candidates: group.candidates,
+    }),
   );
 }
 

@@ -59,6 +59,8 @@ export interface LiveSource {
 
 function formatWhen(value: string | null): string | null {
   if (!value) return null;
+  const dated = /^\d{4}-\d{2}-\d{2}T/.test(value) || /^[A-Za-z]{3}, \d{1,2} /.test(value);
+  if (!dated) return value;
   const parsed = Date.parse(value);
   if (Number.isNaN(parsed)) return value;
   return `${new Intl.DateTimeFormat("en-US", {

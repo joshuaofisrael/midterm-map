@@ -65,13 +65,16 @@
       "office": "California Secretary of State",
       "resultsUrl": "https://electionresults.sos.ca.gov/",
       "resultsLabel": "California Secretary of State — election results",
-      "format": "html",
-      "machineReadable": false,
-      "cors": "Not applicable. The results site returned a bot check, and a November 3, 2026 bulk-file URL was not confirmed.",
-      "terms": "The Secretary of State publishes unofficial results at electionresults.sos.ca.gov and a media-file index at https://media.sos.ca.gov/. The November 3, 2026 bulk file was not confirmed on October 18, 2026, so this site links to the official page instead of guessing a file name.",
-      "termsUrl": "https://www.sos.ca.gov/elections",
-      "updateCadence": "The Secretary of State updates the results site through the canvass. No confirmed file interval.",
-      "feed": null
+      "format": "json",
+      "machineReadable": true,
+      "cors": "The media JSON files do not send Access-Control-Allow-Origin. The browser reads this site's copy. api.sos.ca.gov sends Access-Control-Allow-Origin: * for the same figures.",
+      "terms": "The Secretary of State publishes a media index at https://media.sos.ca.gov/media/json-endpoints.csv that lists the JSON files for the November 3, 2026 statewide general election. Each file includes a statewide or districtwide total and county rows. This project copies the statewide or districtwide votes, the percent, and the precincts-reporting line. The candidate records do not include a winner flag, so no winner is shown. County rows are not added together.",
+      "termsUrl": "https://media.sos.ca.gov/",
+      "updateCadence": "The media JSON files are replaced as counties report. This project checks every 10 minutes while counting continues.",
+      "feed": {
+        "kind": "california-json",
+        "indexUrl": "https://media.sos.ca.gov/media/json-endpoints.csv"
+      }
     },
     {
       "code": "CO",
@@ -348,13 +351,18 @@
       "office": "Minnesota Secretary of State",
       "resultsUrl": "https://electionresults.sos.mn.gov/",
       "resultsLabel": "Minnesota Secretary of State — election results",
-      "format": "html",
-      "machineReadable": false,
-      "cors": "Not applicable. The results host presented a bot check, and no public data file was confirmed.",
-      "terms": "Results are published by the Secretary of State at electionresults.sos.mn.gov. A stable public data file for November 3, 2026 was not confirmed on October 18, 2026.",
-      "termsUrl": "https://www.sos.mn.gov/elections-voting/election-results/",
-      "updateCadence": "The Secretary of State updates the results site through the count. No file interval was confirmed.",
-      "feed": null
+      "format": "text",
+      "machineReadable": true,
+      "cors": "The media text files do not send Access-Control-Allow-Origin. The browser reads this site's copy.",
+      "terms": "The Secretary of State publishes semicolon-separated media files at https://electionresultsfiles.sos.mn.gov/20261103/ and says they are for downloading into applications. The office's file layout lists precincts reporting, votes, and the percentage of votes for the candidate. There is no winner column, so no winner is shown. Statewide rows are used. County rows in the same layout are not added together. The results site at electionresults.sos.mn.gov returned a bot check; these files did not.",
+      "termsUrl": "https://electionresults.sos.mn.gov/Results/MediaFileLayout/Index?erselectionId=20",
+      "updateCadence": "The Secretary of State says the downloadable text files are updated every 15 minutes or less on election night. This project checks every 10 minutes while counting continues.",
+      "feed": {
+        "kind": "minnesota-media",
+        "fileBase": "https://electionresultsfiles.sos.mn.gov/20261103",
+        "files": ["ussenate.txt", "governor.txt", "ushouse.txt"],
+        "layoutUrl": "https://electionresults.sos.mn.gov/Results/MediaFileLayout/Index?erselectionId=20"
+      }
     },
     {
       "code": "MS",
@@ -404,13 +412,20 @@
       "office": "Nebraska Secretary of State",
       "resultsUrl": "https://electionresults.nebraska.gov/",
       "resultsLabel": "Nebraska Secretary of State — election results",
-      "format": "html",
-      "machineReadable": false,
-      "cors": "Not applicable. No public results file was confirmed.",
-      "terms": "Results are published by the Secretary of State. A stable public data file for November 3, 2026 was not confirmed on October 18, 2026.",
-      "termsUrl": "https://electionresults.nebraska.gov/",
-      "updateCadence": "The Secretary of State posts results on election night. No file interval was confirmed.",
-      "feed": null
+      "format": "csv",
+      "machineReadable": true,
+      "cors": "The CSV export does not send Access-Control-Allow-Origin. The browser reads this site's copy.",
+      "terms": "The Secretary of State publishes CSV links on the media page for the November 3, 2026 general election. The statewide file and the congressional-district file include votes, a percent, and precincts reporting. They do not include a winner column, so no winner is shown. County export links are not added together.",
+      "termsUrl": "https://electionresults.nebraska.gov/ResultsMedia.aspx",
+      "updateCadence": "The results site labels the figures unofficial and stamps each row with the time of the export. This project checks every 10 minutes while counting continues.",
+      "feed": {
+        "kind": "state-results-csv",
+        "csvUrls": [
+          "https://electionresults.nebraska.gov/resultsCSV.aspx?text=All&type=SW&map=CTY",
+          "https://electionresults.nebraska.gov/resultsCSV.aspx?text=All&type=CG&map=DIST"
+        ],
+        "mediaPage": "https://electionresults.nebraska.gov/ResultsMedia.aspx"
+      }
     },
     {
       "code": "NV",
@@ -564,7 +579,7 @@
       "format": "html",
       "machineReadable": false,
       "cors": "Not applicable. The returns site did not present a confirmed public data file.",
-      "terms": "Unofficial returns are published by the Department of State at electionreturns.pa.gov. A stable public data file for November 3, 2026 was not confirmed on October 18, 2026. This site links there and does not copy numbers from the page.",
+      "terms": "The Department of State publishes unofficial returns at electionreturns.pa.gov. Its public report API can export a county CSV for the 2026 general election. That file has one row per county and no statewide total row, so this site does not add the counties together. It links to the department's returns page.",
       "termsUrl": "https://www.pa.gov/agencies/vote",
       "updateCadence": "The department updates election returns as counties report. No file interval was confirmed.",
       "feed": null
@@ -603,13 +618,17 @@
       "office": "South Dakota Secretary of State",
       "resultsUrl": "https://electionresults.sd.gov/",
       "resultsLabel": "South Dakota Secretary of State — election results",
-      "format": "html",
-      "machineReadable": false,
-      "cors": "Not applicable. No public results file was confirmed.",
-      "terms": "Results are published by the Secretary of State. A stable public data file for November 3, 2026 was not confirmed on October 18, 2026.",
-      "termsUrl": "https://electionresults.sd.gov/",
-      "updateCadence": "The Secretary of State posts results on election night. No file interval was confirmed.",
-      "feed": null
+      "format": "csv",
+      "machineReadable": true,
+      "cors": "The CSV export does not send Access-Control-Allow-Origin. The browser reads this site's copy.",
+      "terms": "The Secretary of State publishes a statewide-races CSV on the media page for the November 3, 2026 general election. The file includes votes, a percent, and precincts reporting. It does not include a winner column, so no winner is shown. County, legislative, and municipal exports are not added together.",
+      "termsUrl": "https://electionresults.sd.gov/ResultsMedia.aspx",
+      "updateCadence": "The results site labels the figures unofficial and stamps each row with the time of the export. This project checks every 10 minutes while counting continues.",
+      "feed": {
+        "kind": "state-results-csv",
+        "csvUrls": ["https://electionresults.sd.gov/resultsCSV.aspx?text=All&type=SWR&map=CTY"],
+        "mediaPage": "https://electionresults.sd.gov/ResultsMedia.aspx"
+      }
     },
     {
       "code": "TN",
