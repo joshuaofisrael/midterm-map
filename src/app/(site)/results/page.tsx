@@ -13,15 +13,15 @@ import { getRace, RACES } from "@/data/races";
 import {
   ADDITIONAL_RESULT_SLUGS,
   HOUSE_METER,
-  indexableRaceHref,
   isPreElection,
   KEY_RESULT_SLUGS,
   SENATE_METER,
   resultShellForRace,
   resultShellHasReturns,
+  stateResultsPath,
 } from "@/data/results";
 import { SITE } from "@/data/site";
-import { getState } from "@/data/states";
+import { getState, STARTER_STATES } from "@/data/states";
 import { contentUpdatedLabel } from "@/lib/contentDate";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
@@ -76,9 +76,9 @@ export default function ResultsPage() {
       <section>
         <h2 className="font-serif text-2xl font-semibold">Key races</h2>
         <p className="mt-2 text-sm text-ink-muted">
-          Selected Senate, governor, and House contests. Unofficial returns appear here on
-          Election Night ({SITE.electionDayLabel}). Until a race has returns, the title opens
-          the race guide. This page does not invent vote totals.
+          Selected Senate, governor, and House contests. Each title opens that race’s results
+          page. Those pages are awaiting unofficial returns for {SITE.electionDayLabel}. This
+          page does not invent vote totals.
         </p>
         <ul className="mt-4 divide-y divide-line rounded-xl border border-line bg-paper-card">
           {KEY_RESULT_SLUGS.map((slug) => {
@@ -88,10 +88,7 @@ export default function ResultsPage() {
             return (
               <li key={slug} className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
                 <div>
-                  <Link
-                    className="font-semibold hover:text-navy"
-                    href={indexableRaceHref(race.slug)}
-                  >
+                  <Link className="font-semibold hover:text-navy" href={`/results/${race.slug}`}>
                     {race.title}
                   </Link>
                   <p className="text-sm text-ink-muted">
@@ -136,10 +133,7 @@ export default function ResultsPage() {
             return (
               <li key={slug} className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
                 <div>
-                  <Link
-                    className="font-semibold hover:text-navy"
-                    href={indexableRaceHref(race.slug)}
-                  >
+                  <Link className="font-semibold hover:text-navy" href={`/results/${race.slug}`}>
                     {race.title}
                   </Link>
                   <p className="text-sm text-ink-muted">
@@ -168,6 +162,60 @@ export default function ResultsPage() {
                         href={`/states/${state.code}`}
                       >
                         {state.name} hub
+                      </Link>
+                    </>
+                  ) : null}
+                </p>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="font-serif text-2xl font-semibold">Results by state</h2>
+        <p className="mt-2 text-sm text-ink-muted">
+          One results page for each state on this site, plus the live results page. Each page
+          is awaiting unofficial returns and links the official results site for that state.
+        </p>
+        <ul className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm">
+          <li>
+            <Link className="font-medium text-navy hover:underline" href="/live">
+              Live results
+            </Link>
+          </li>
+          {STARTER_STATES.map((state) => (
+            <li key={state.code}>
+              <Link className="font-medium text-navy hover:underline" href={stateResultsPath(state.code)}>
+                {state.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="font-serif text-2xl font-semibold">Every race results page</h2>
+        <ul className="mt-4 divide-y divide-line rounded-xl border border-line bg-paper-card">
+          {RACES.map((race) => {
+            const state = getState(race.state);
+            return (
+              <li key={race.slug} className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
+                <Link className="font-semibold hover:text-navy" href={`/results/${race.slug}`}>
+                  {race.title}
+                </Link>
+                <p className="text-sm">
+                  <Link className="font-medium text-navy hover:underline" href={`/races/${race.slug}`}>
+                    Race guide
+                  </Link>
+                  {state ? (
+                    <>
+                      {" · "}
+                      <Link
+                        className="font-medium text-navy hover:underline"
+                        href={stateResultsPath(state.code)}
+                      >
+                        {state.name} results
                       </Link>
                     </>
                   ) : null}

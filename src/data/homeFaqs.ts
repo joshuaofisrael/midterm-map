@@ -30,7 +30,7 @@ export const HOME_FAQS: HomeFaq[] = [
   },
   {
     question: "When do results appear on this site?",
-    answer: `The results tracker stays in awaiting-returns mode until Election Day, ${SITE.electionDayLabel}. Unofficial returns, if shown, appear around Election Night and the days after. ${SITE.name} does not certify outcomes. Until a race has returns, key-race titles open the race guide. Later totals remain unofficial until a state or county certifies the contest.`,
+    answer: `The results tracker stays in awaiting-returns mode until Election Day, ${SITE.electionDayLabel}. It links a results page for each starter state and for each race guide, plus the live results page. Unofficial returns, if shown, appear around Election Night and the days after. ${SITE.name} does not certify outcomes. Later totals remain unofficial until a state or county certifies the contest.`,
   },
   {
     question: "Where are official election offices listed?",

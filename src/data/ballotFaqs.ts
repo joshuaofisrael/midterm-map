@@ -1,3 +1,4 @@
+import { ballotCycleFaqs, ballotCycleFor } from "./ballotCycle";
 import { ballotSectionsForState } from "./ballots";
 import { SITE } from "./site";
 import type { RaceGuide, StateProfile } from "./types";
@@ -13,6 +14,7 @@ export type BallotFaq = {
  * the sketch section titles already rendered on the page, and race-guide titles.
  */
 export function ballotStateFaqs(state: StateProfile, races: RaceGuide[]): BallotFaq[] {
+  if (ballotCycleFor(state.code)) return ballotCycleFaqs(state, races);
   const office = state.officialElectionOffice.label;
   const sample = state.sampleBallotOfficial;
   const distinctSample = sample && sample.href !== state.officialElectionOffice.href;
