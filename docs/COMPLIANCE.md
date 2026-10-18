@@ -122,3 +122,12 @@ Texas Census place pages list countywide offices from the Texas Secretary of Sta
 ## ZIP search (October 17, 2026)
 
 The homepage and Census place indexes include a ZIP search that runs in the browser. It loads static JSON split by the first three digits of the ZIP, built from Census ZCTA relationship files. The site does not store the entered ZIP, does not put it in the address bar, and does not send it to a third-party service. The request to this site is only for the three-digit prefix file.
+
+## October 18, 2026 — election-law pass (not legal advice)
+
+Joshua's rule: every site must follow the election laws of each country it covers. Full matrix: `/workspace/legal/election-law-matrix-2026-10-18.md` on the operator box.
+
+- **FEC disclaimers (11 CFR 110.11):** apply to public communications by political committees, communications that expressly advocate or solicit, and paid internet ads (11 CFR 100.26). The site is unpaid, neutral and not a committee, so no "paid for by" line is required. It keeps the LLC name in the footer.
+- **Exit polls and early results:** no federal or state law bars publishing them (state limits only cover conduct near polling places, e.g. *Daily Herald Co. v. Munro*, 838 F.2d 380 (9th Cir. 1988)). Site rule regardless: no exit polls, no projections, no returns for a state before its last polls close.
+- **Build guard:** `scripts/check-election-law.mjs` runs first in `npm run build`. It fails the build if `pollClose.ts` does not list 51 election-night close times, if the committed `public/live-data/results.json` has returns for a state before its polls close, or if `polls.ts` contains an exit poll.
+- **Live tracker:** `scripts/live/fetch.mjs` and `LiveResults.tsx` already hold every state's returns until `allPollsClosedAt`.
