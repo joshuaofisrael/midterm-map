@@ -131,22 +131,26 @@ function CycleBallot({ state, races }: { state: StateProfile; races: RaceGuide[]
         ))}
       </p>
 
-      <section className="rounded-xl border border-line bg-paper-card p-5">
-        <h2 className="font-serif text-2xl font-semibold">Federal offices</h2>
-        <ul className="mt-3 list-disc space-y-1 pl-5 text-sm leading-6">
-          {cycle.federal.map((office) => (
-            <li key={office}>{office}</li>
-          ))}
-        </ul>
-      </section>
+      {cycle.federal.length > 0 && (
+        <section className="rounded-xl border border-line bg-paper-card p-5">
+          <h2 className="font-serif text-2xl font-semibold">Federal offices</h2>
+          <ul className="mt-3 list-disc space-y-1 pl-5 text-sm leading-6">
+            {cycle.federal.map((office) => (
+              <li key={office}>{office}</li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section className="rounded-xl border border-line bg-paper-card p-5">
         <h2 className="font-serif text-2xl font-semibold">Statewide offices</h2>
-        <ul className="mt-3 list-disc space-y-1 pl-5 text-sm leading-6">
-          {cycle.statewide.map((office) => (
-            <li key={office}>{office}</li>
-          ))}
-        </ul>
+        {cycle.statewide.length > 0 ? (
+          <ul className="mt-3 list-disc space-y-1 pl-5 text-sm leading-6">
+            {cycle.statewide.map((office) => (
+              <li key={office}>{office}</li>
+            ))}
+          </ul>
+        ) : null}
         <p className="mt-3 text-sm leading-6 text-ink-muted">{cycle.districtNote}</p>
       </section>
 

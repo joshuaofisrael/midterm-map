@@ -16,7 +16,18 @@ export type StateCode =
   | "IA"
   | "AK"
   | "KS"
-  | "IL";
+  | "IL"
+  | "NH"
+  | "VA"
+  | "NJ"
+  | "MA"
+  | "WA"
+  | "CO"
+  | "TN"
+  | "IN"
+  | "MO"
+  | "MD"
+  | "SC";
 
 export type Chamber = "senate" | "house" | "governor" | "statewide";
 

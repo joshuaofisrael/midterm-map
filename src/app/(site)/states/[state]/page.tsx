@@ -136,22 +136,28 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
               </a>
             </li>
           </ul>
-          <p className="mt-4 text-sm text-ink-muted">
-            Senate Class 2 on this cycle: {state.hasSenateClass2 ? "Yes" : "No"}. Governor on this
-            cycle: {state.hasGovernor2026 ? "Yes" : "No"}.
-          </p>
-          {state.statewideOffices2026.length > 0 && (
+          {!ballotCycleFor(state.code) && (
+            <p className="mt-4 text-sm text-ink-muted">
+              Senate Class 2 on this cycle: {state.hasSenateClass2 ? "Yes" : "No"}. Governor on this
+              cycle: {state.hasGovernor2026 ? "Yes" : "No"}.
+            </p>
+          )}
+          {(state.statewideOffices2026.length > 0 || (state.cycleSources && state.cycleSources.length > 0)) && (
             <div className="mt-4">
-              <p className="text-sm font-semibold">
-                {state.cycleSources && state.cycleSources.length > 0
-                  ? "Statewide offices on the November 3, 2026 ballot"
-                  : "Statewide offices often on the 2026 ballot"}
-              </p>
-              <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-6 text-ink-muted">
-                {state.statewideOffices2026.map((office) => (
-                  <li key={office}>{office}</li>
-                ))}
-              </ul>
+              {state.statewideOffices2026.length > 0 && (
+                <>
+                  <p className="text-sm font-semibold">
+                    {state.cycleSources && state.cycleSources.length > 0
+                      ? "Statewide offices on the November 3, 2026 ballot"
+                      : "Statewide offices often on the 2026 ballot"}
+                  </p>
+                  <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-6 text-ink-muted">
+                    {state.statewideOffices2026.map((office) => (
+                      <li key={office}>{office}</li>
+                    ))}
+                  </ul>
+                </>
+              )}
               {state.cycleSources && state.cycleSources.length > 0 && (
                 <p className="mt-3 text-xs leading-5 text-ink-soft">
                   {state.cycleCheckedOn ? <>Last checked {state.cycleCheckedOn}. </> : null}
