@@ -5,7 +5,7 @@
   "description": "Map the Midterms — 2026 US midterms voter information hub operated by Joshua Israel Ventures LLC.",
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/write-sitemap-index.mjs && next build && node scripts/slim-city-pages.mjs",
+    "build": "node scripts/check-election-law.mjs && node scripts/write-sitemap-index.mjs && next build && node scripts/slim-city-pages.mjs",
     "start": "python3 -m http.server 3000 --directory out",
     "lint": "next lint",
     "live:dry-run": "node scripts/live/fetch.mjs --dry-run",
