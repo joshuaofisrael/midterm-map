@@ -1,11 +1,92 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Delaware Department of Elections",
-      "url": "https://elections.delaware.gov/",
-      "accessed": "October 17, 2026"
+      "name": "Delaware Department of Elections, Filed Candidates for the November 3, 2026 Statewide General Election",
+      "url": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html",
+      "accessed": "October 18, 2026",
+      "published": "October 15, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "U.S. Senator",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Chris Coons",
+          "party": "Democratic"
+        },
+        {
+          "name": "Michael \"Dr. Mike\" Katz",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress",
+      "kind": "house",
+      "district": "0",
+      "candidates": [
+        {
+          "name": "Sarah McBride",
+          "party": "Democratic"
+        },
+        {
+          "name": "Joseph \"Dr. Joe\" Arminio",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Kathy Jennings",
+          "party": "Democratic"
+        },
+        {
+          "name": "David C. \"Dave\" Graham",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Auditor of Accounts",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Lydia York",
+          "party": "Democratic"
+        },
+        {
+          "name": "April Callaway",
+          "party": "Republican"
+        },
+        {
+          "name": "Austin Cassidy",
+          "party": "Ind Pty of DE"
+        }
+      ]
+    },
+    {
+      "office": "State Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Ted Lauzen",
+          "party": "Democratic"
+        },
+        {
+          "name": "Michael Ramone",
+          "party": "Republican"
+        }
+      ]
+    }
+  ]
 }

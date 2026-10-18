@@ -4,7 +4,7 @@ import type { PlaceRecord } from "@/data/places/load";
 
 export type CandidatePerson = { name: string; party: string };
 
-export type ContestKind = "senate" | "governor" | "house";
+export type ContestKind = "senate" | "governor" | "house" | "statewide";
 
 export type CandidateContest = {
   office: string;
@@ -94,7 +94,7 @@ export function contestsForPlace(
   let showedHouse = false;
   for (const contest of file.contests) {
     if (contest.candidates.length === 0) continue;
-    if (contest.kind === "senate" || contest.kind === "governor") {
+    if (contest.kind === "senate" || contest.kind === "governor" || contest.kind === "statewide") {
       contests.push(contest);
       continue;
     }

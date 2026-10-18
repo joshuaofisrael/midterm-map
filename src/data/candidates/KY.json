@@ -1,11 +1,171 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Kentucky State Board of Elections",
-      "url": "https://elect.ky.gov/",
-      "accessed": "October 17, 2026"
+      "name": "Kentucky Secretary of State, Candidate Filings for the 2026 General Election",
+      "url": "https://web.sos.ky.gov/candidatefilings/",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Kentucky Secretary of State, 2026 General Election candidate filings for US Senator",
+      "url": "https://web.sos.ky.gov/CandidateFilings/default.aspx?id=3",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Kentucky Secretary of State, 2026 General Election candidate filings for US Representative",
+      "url": "https://web.sos.ky.gov/CandidateFilings/Default.aspx?id=4",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "US Senator",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Andy Barr",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Charles Booker",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Thomas Michael Murphy",
+          "party": "Write-In"
+        },
+        {
+          "name": "Christopher Campbell",
+          "party": "Kentucky Party"
+        }
+      ]
+    },
+    {
+      "office": "US Representative",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "John \"Drew\" Williams",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "James R. Comer",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    {
+      "office": "US Representative",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Megan Wingfield",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "S. Brett Guthrie",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Thomas A. Loecken",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "US Representative",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Morgan McGarvey",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Maria Teresa Rodriguez",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    {
+      "office": "US Representative",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Melissa Claire Strange",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Ed Gallrein",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Jeremy Todd",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Peter Harmon Williams",
+          "party": "Write-In"
+        }
+      ]
+    },
+    {
+      "office": "US Representative",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Hal Rogers",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Ned Pillersdorf",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Billy Ray Wilson",
+          "party": "Write-In"
+        },
+        {
+          "name": "Gerardo Serrano",
+          "party": "Independent"
+        },
+        {
+          "name": "Mikel Wein",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "US Representative",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Ralph Alvarado",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Zach Dembo",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Jay J Bowman",
+          "party": "Independent"
+        },
+        {
+          "name": "Pete Lynch",
+          "party": "Kentucky Party"
+        },
+        {
+          "name": "Robert Quigley",
+          "party": "Write-In"
+        }
+      ]
+    }
+  ]
 }

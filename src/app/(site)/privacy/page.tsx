@@ -5,11 +5,12 @@ import { PageHeader } from "@/components/PageHeader";
 import { AFFILIATE, affiliateEnabled, EMAIL_SIGNUP, emailSignupEnabled, tipJarEnabled } from "@/data/monetization";
 import { contactMailto, SITE } from "@/data/site";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
+import { CookieChoicesButton, GA_MEASUREMENT_ID } from "@/components/GoogleAnalytics";
 
 export const metadata = pageMetadata({
   title: "Privacy Policy",
   description:
-    `Privacy practices for ${SITE.name} (Joshua Israel Ventures LLC): no accounts, browser-only ZIP lookup, cookieless Cloudflare Web Analytics, GitHub Pages hosting logs, optional tips through Stripe, email alert and affiliate link terms, no sale of personal information, and your privacy rights.`,
+    `Privacy practices for ${SITE.name} (Joshua Israel Ventures LLC): no accounts, browser-only ZIP lookup, cookieless Cloudflare Web Analytics, Google Analytics only with your consent, GitHub Pages hosting logs, optional tips through Stripe, email alert and affiliate link terms, no sale of personal information, and your privacy rights.`,
   path: "/privacy",
 });
 
@@ -18,6 +19,13 @@ const CLOUDFLARE_DATA_COLLECTION =
   "https://developers.cloudflare.com/web-analytics/data-metrics/data-origin-and-collection/";
 const CLOUDFLARE_PRIVACY = "https://www.cloudflare.com/privacypolicy/";
 const GITHUB_PAGES_DATA = "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection";
+const GOOGLE_ANALYTICS_COOKIES =
+  "https://support.google.com/analytics/answer/11397207";
+const GOOGLE_DATA_PRIVACY = "https://support.google.com/analytics/answer/6004245";
+const GOOGLE_PARTNER_SITES = "https://policies.google.com/technologies/partner-sites";
+const GOOGLE_PRIVACY = "https://policies.google.com/privacy";
+const GOOGLE_OPTOUT = "https://tools.google.com/dlpage/gaoptout";
+const GOOGLE_ADS_DPT = "https://business.safety.google/adsprocessorterms/";
 const STRIPE_PRIVACY = "https://stripe.com/privacy";
 const GITHUB_PRIVACY = "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement";
 
@@ -40,7 +48,7 @@ export default function PrivacyPage() {
       />
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "Privacy" }]} />
       <PageHeader
-        eyebrow={`Last updated ${SITE.policyLastUpdated}`}
+        eyebrow={`Last updated ${SITE.privacyLastUpdated}`}
         title="Privacy Policy"
         lede={`How ${SITE.legalName} handles information on ${SITE.name}.`}
       />
@@ -83,6 +91,10 @@ export default function PrivacyPage() {
           <li>
             Analytics: aggregate, cookieless page statistics from Cloudflare Web Analytics.
           </li>
+          <li>
+            Analytics, only if you click Accept: Google Analytics cookies and usage data, as
+            described below.
+          </li>
           <li>Hosting: security logs kept by GitHub Pages.</li>
           <li>Email you choose to send us.</li>
           <li>
@@ -106,7 +118,11 @@ export default function PrivacyPage() {
           </li>
           <li>Our host, GitHub Pages, logs visitor IP addresses for security purposes.</li>
           <li>We do not sell or share personal information, and we do not use it for targeted advertising.</li>
-          <li>We do not set cookies, and no third-party embeds on the site set cookies.</li>
+          <li>
+            We also use Google Analytics, but its cookies are set only if you click Accept in the
+            cookie banner. If you click Reject or make no choice, Google Analytics cookies are not
+            set. No third-party embeds on the site set cookies.
+          </li>
           {tips && (
             <li>
               If you leave a tip, Stripe processes the payment on its own page. We never see your
@@ -150,6 +166,71 @@ export default function PrivacyPage() {
           processes this data under its own{" "}
           <a href={CLOUDFLARE_PRIVACY} rel="noopener noreferrer">privacy policy</a>. If you block the
           script in your browser, the site still works.
+        </p>
+
+        <h2 id="google-analytics">Analytics: Google Analytics (only with your consent)</h2>
+        <p>
+          The site also uses Google Analytics 4 (measurement ID {GA_MEASUREMENT_ID}), a service of
+          Google LLC, to count visits and understand which pages are useful. It runs with Google
+          Consent Mode, and every storage and advertising setting is off by default. When you
+          first visit, a banner asks whether you accept analytics cookies.
+        </p>
+        <ul>
+          <li>
+            If you click <strong>Accept</strong>, Google Analytics may set first-party cookies
+            named <code>_ga</code> and <code>_ga_*</code> (Google says these last up to two years)
+            to recognize your browser across visits to this site. See{" "}
+            <a href={GOOGLE_ANALYTICS_COOKIES} rel="noopener noreferrer">
+              Google’s description of these cookies
+            </a>
+            .
+          </li>
+          <li>
+            If you click <strong>Reject</strong>, or make no choice, Google Analytics cookies are
+            not set. Google may still receive limited cookieless signals (such as the page
+            visited, the time, and browser and device type) as described in Google’s Consent Mode
+            documentation; these are not used to identify you.
+          </li>
+          <li>
+            When enabled, Google Analytics collects information such as the pages you view, how
+            you arrived (for example, the referring site or search), approximate location (city
+            or region derived from your IP address), device, browser, operating system, screen
+            size, language, and interactions such as clicks and scrolling. Google says Google
+            Analytics 4 does not log or store IP addresses (see{" "}
+            <a href={GOOGLE_DATA_PRIVACY} rel="noopener noreferrer">
+              Google Analytics data privacy
+            </a>
+            ).
+          </li>
+          <li>
+            We have turned off Google signals and ad personalization, all advertising consent
+            signals stay denied, and we do not use Google Analytics data for advertising or share
+            it for targeted advertising.
+          </li>
+        </ul>
+        <p>
+          Google processes this data on our behalf as a service provider and data processor under
+          its{" "}
+          <a href={GOOGLE_ADS_DPT} rel="noopener noreferrer">data processing terms</a>. Google’s
+          own handling is described in{" "}
+          <a href={GOOGLE_PARTNER_SITES} rel="noopener noreferrer">
+            How Google uses information from sites that use its services
+          </a>{" "}
+          and the{" "}
+          <a href={GOOGLE_PRIVACY} rel="noopener noreferrer">Google Privacy Policy</a>. Data may be
+          processed in the United States and other countries where Google operates.
+        </p>
+        <p>
+          <strong>How to opt out.</strong> You can change your choice at any time with the{" "}
+          <CookieChoicesButton /> link in the footer of every page; choosing Reject stops Google
+          Analytics cookies and removes any <code>_ga</code> cookies set on this site. Your choice
+          is remembered in your browser’s local storage (key <code>mtm-analytics-consent</code>),
+          not in a cookie. You can also install the{" "}
+          <a href={GOOGLE_OPTOUT} rel="noopener noreferrer">
+            Google Analytics Opt-out Browser Add-on
+          </a>
+          , or block or delete cookies in your browser settings. The site works the same either
+          way.
         </p>
 
         <h2>Hosting: GitHub Pages</h2>
@@ -256,6 +337,7 @@ export default function PrivacyPage() {
         <ul>
           <li>To operate, secure, and fix the website</li>
           <li>To understand aggregate use of pages through Cloudflare Web Analytics</li>
+          <li>To measure visits and page use through Google Analytics, if you accept analytics cookies</li>
           <li>To respond to messages you send</li>
           {tips && <li>To process, record, and if needed refund tips, and to keep required tax and accounting records</li>}
           {signup && <li>To send the election-night alert and occasional site updates you signed up for</li>}
@@ -273,7 +355,8 @@ export default function PrivacyPage() {
           delete them when they are no longer needed.
           {tips ? " We keep tip records for as long as tax and accounting rules require (generally up to seven years)." : ""}
           {signup ? " We keep alert subscribers’ email addresses until they unsubscribe or ask us to delete them." : ""}{" "}
-          Cloudflare and GitHub keep analytics and security logs, and Stripe keeps payment records,
+          Google keeps Google Analytics data under the retention setting in our Google Analytics
+          account (no longer than 14 months for user-level data). Cloudflare and GitHub keep analytics and security logs, and Stripe keeps payment records,
           under their own retention practices; we do not hold copies of Cloudflare’s or GitHub’s logs.
         </p>
 
@@ -283,11 +366,12 @@ export default function PrivacyPage() {
           Data Protection Regulation applies to you, {SITE.legalName} is the controller for any
           personal information we process. Our legal basis is our legitimate interest in operating,
           securing, and improving a free public information website and in answering messages you
-          choose to send.
+          choose to send. For Google Analytics, the legal basis is your consent, which you give by
+          clicking Accept and can withdraw at any time through the Cookie choices link.
           {tips ? " For tips, the legal basis is processing needed to take your payment and to meet tax and accounting obligations." : ""}
           {signup ? " For the email alert, the legal basis is your consent, which you can withdraw at any time by unsubscribing." : ""}{" "}
           Information is processed in the United States by us and by our service providers
-          (Cloudflare, GitHub, Google for email we receive{tips ? ", Stripe for tips" : ""}
+          (Cloudflare, GitHub, Google for analytics and for email we receive{tips ? ", Stripe for tips" : ""}
           {signup ? ", and our email alert provider" : ""}). Subject to the conditions in
           those laws, you may ask to access, correct, delete, or restrict our use of your personal
           information, object to our use of it, or receive a copy of it. You may also complain to
@@ -314,7 +398,7 @@ export default function PrivacyPage() {
           {signup ? ", and alert subscribers’ email addresses" : ""}. We may need to
           confirm that a request comes from the person the information is about, and we will
           respond within the time the applicable law requires. Requests about Cloudflare’s,
-          GitHub’s, or Stripe’s own records may need to go to those companies.
+          GitHub’s, Google’s, or Stripe’s own records may need to go to those companies.
         </p>
 
         <h2>Children</h2>
@@ -333,7 +417,7 @@ export default function PrivacyPage() {
 
         <h2>Contact</h2>
         <p>
-          {SITE.legalName}, {SITE.location}.{" "}
+          {SITE.legalName}, {SITE.location}. Mailing address: {SITE.mailingAddress}.{" "}
           <a href={contactMailto()}>{SITE.email}</a>. See also the{" "}
           <Link href="/disclaimer">disclaimer</Link> and <Link href="/terms">terms of use</Link>.
         </p>

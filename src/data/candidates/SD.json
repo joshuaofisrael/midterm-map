@@ -1,11 +1,147 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "South Dakota Secretary of State — Elections and Voting",
-      "url": "https://sdsos.gov/elections-voting/default.aspx",
-      "accessed": "October 17, 2026"
+      "name": "South Dakota Secretary of State, 2026 General Election Candidate List (election 774)",
+      "url": "https://vip.sdsos.gov/candidatelist.aspx?eid=774",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "United States Senator",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Brian L Bengs",
+          "party": "IND"
+        },
+        {
+          "name": "Mike Rounds",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative",
+      "kind": "house",
+      "district": "0",
+      "candidates": [
+        {
+          "name": "Nicole \"Nikki\" Gronli",
+          "party": "DEM"
+        },
+        {
+          "name": "Marty Jackley",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "Governor and Lieutenant Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Dan Ahlers & Steven  McCleerey",
+          "party": "DEM"
+        },
+        {
+          "name": "Larry Rhoden & Tony Venhuizen",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Terrence Davis",
+          "party": "DEM"
+        },
+        {
+          "name": "Tamara J. Lesnar",
+          "party": "LIB"
+        },
+        {
+          "name": "Heather Baxter",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Lance Russell",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "State Auditor",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Tom Cool",
+          "party": "DEM"
+        },
+        {
+          "name": "Catherine Barranco",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "State Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Margaret Kuipers",
+          "party": "DEM"
+        },
+        {
+          "name": "Melissa Hull",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "Commissioner of School and Public Lands",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Raeann Mettler",
+          "party": "DEM"
+        },
+        {
+          "name": "Brock Greenfield",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "Public Utilities Commissioner",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Frank Kloucek",
+          "party": "DEM"
+        },
+        {
+          "name": "Don Haggar",
+          "party": "REP"
+        }
+      ]
+    }
+  ]
 }

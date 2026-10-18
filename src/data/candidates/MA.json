@@ -1,11 +1,245 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Massachusetts Secretary of the Commonwealth — Elections Division",
-      "url": "https://www.sec.state.ma.us/divisions/elections/",
-      "accessed": "October 17, 2026"
+      "name": "Massachusetts Secretary of the Commonwealth, Elections Division, 2026 State Election Candidates",
+      "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "Senator in Congress",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Edward J. Markey",
+          "party": "Democratic"
+        },
+        {
+          "name": "John Deaton",
+          "party": "Republican"
+        },
+        {
+          "name": "Shiva Ayyadurai",
+          "party": "Independent"
+        },
+        {
+          "name": "Joe Tache",
+          "party": "Socialism and Liberation"
+        }
+      ]
+    },
+    {
+      "office": "Governor & Lieutenant Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Healey and Driscoll",
+          "party": "Democratic"
+        },
+        {
+          "name": "Minogue and Oliver",
+          "party": "Republican"
+        },
+        {
+          "name": "James and Kittredge",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Andrea Joy Campbell",
+          "party": "Democratic"
+        },
+        {
+          "name": "Michael C. Walsh",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "William Francis Galvin",
+          "party": "Democratic"
+        },
+        {
+          "name": "Anne R. Brensley",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Deborah B. Goldberg",
+          "party": "Democratic"
+        },
+        {
+          "name": "Elizabeth Dionne",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Auditor",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Diana DiZoglio",
+          "party": "Democratic"
+        },
+        {
+          "name": "Al Ozonoff",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress, First District",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Richard E. Neal",
+          "party": ""
+        },
+        {
+          "name": "Nadia Donya Milleron",
+          "party": "Independent/Unenrolled"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress, Second District",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "James P. McGovern",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress, Third District",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Lori Loureiro Trahan",
+          "party": "Democratic"
+        },
+        {
+          "name": "Gary J. Grossi",
+          "party": "Republican"
+        },
+        {
+          "name": "Dennis R. Conlon",
+          "party": "Unenrolled"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress, Fourth District",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Jake Auchincloss",
+          "party": "Democratic"
+        },
+        {
+          "name": "Thomas Stalcup",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress, Fifth District",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Katherine M. Clark",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress, Sixth District",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Micah Quinney Jones",
+          "party": "Republican"
+        },
+        {
+          "name": "Dan Koh",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress, Seventh District",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Ayanna S. Pressley",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress, Eighth District",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "Stephen F. Lynch",
+          "party": "Democratic"
+        },
+        {
+          "name": "Robert G. Burke",
+          "party": "Republican"
+        },
+        {
+          "name": "Rasheed Nicholas Walters",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress, Ninth District",
+      "kind": "house",
+      "district": "9",
+      "candidates": [
+        {
+          "name": "Bill Keating",
+          "party": "Democratic"
+        },
+        {
+          "name": "R. Tyler Macallister",
+          "party": "Republican"
+        }
+      ]
+    }
+  ]
 }

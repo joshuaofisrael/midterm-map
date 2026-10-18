@@ -17,8 +17,8 @@ const citiesDir = path.join(outDir, "cities");
 function slimHtml(html) {
   const withoutFlight = html
     .replace(/<link rel="preload" as="script"[^>]*>/g, "")
-    .replace(/<script\b[^>]*\bsrc=[^>]*>\s*<\/script>/g, "")
-    .replace(/<script\b(?![^>]*type="application\/ld\+json")[^>]*>[\s\S]*?<\/script>/g, "")
+    .replace(/<script\b(?![^>]*\bdata-keep=)[^>]*\bsrc=[^>]*>\s*<\/script>/g, "")
+    .replace(/<script\b(?![^>]*type="application\/ld\+json")(?![^>]*\bdata-keep=)[^>]*>[\s\S]*?<\/script>/g, "")
     .replace(/<div hidden=""><!--\$--><!--\/\$--><\/div>/g, "");
   return withoutFlight;
 }
@@ -41,8 +41,14 @@ for (const state of fs.readdirSync(citiesDir)) {
     if (!slim.includes('rel="canonical"') || !slim.includes("Unofficial information")) {
       throw new Error(`Required city markup missing in ${htmlPath}`);
     }
-    if (!slim.includes("2026_Gaz_place_national.zip") || !slim.includes("September 8, 2026")) {
-      throw new Error(`Gazetteer citation missing in ${htmlPath}`);
+    if (!slim.includes("G-Q9FB3RS751") || !slim.includes("/consent.js")) {
+      throw new Error(`Analytics consent tags missing in ${htmlPath}`);
+    }
+    if (!slim.includes("/sources/#gazetteer")) {
+      throw new Error(`Sources link missing in ${htmlPath}`);
+    }
+    if (slim.includes("Starter state hubs") || slim.includes('"@type":"Organization"')) {
+      throw new Error(`Long site chrome remained in ${htmlPath}`);
     }
     fs.writeFileSync(htmlPath, slim);
     const txtPath = path.join(cityDir, "index.txt");

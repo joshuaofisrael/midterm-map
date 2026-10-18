@@ -1,11 +1,27 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Louisiana Secretary of State — Elections and Voting",
-      "url": "https://www.sos.la.gov/elections-voting",
-      "accessed": "October 17, 2026"
+      "name": "Louisiana Secretary of State candidate inquiry for the November 3, 2026 election (election id 344), U.S. Senator. The Secretary of State elections page titles that election “U.S. Senate General / Open U.S. Representative Primary / Open Primary Election.” U.S. House candidates on the same date are the open primary, not the general election, and are not included.",
+      "url": "https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/CandidateList?electionId=344&officeIds=67997",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "U. S. Senator",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "\"Jamie\" Davis",
+          "party": "Democrat"
+        },
+        {
+          "name": "Julia Letlow",
+          "party": "Republican"
+        }
+      ]
+    }
+  ]
 }

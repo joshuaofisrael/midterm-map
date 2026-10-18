@@ -1,11 +1,167 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Oregon Secretary of State — Voting & Elections",
-      "url": "https://sos.oregon.gov/elections/pages/default.aspx",
-      "accessed": "October 17, 2026"
+      "name": "Oregon Secretary of State, Official 2026 General Election Voters’ Pamphlet, Book 13 (Multnomah): complete listing of federal and state candidates for U.S. Senator, Governor, and U.S. House Districts 1, 3, and 5",
+      "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book13_web.pdf",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Oregon Secretary of State, Official 2026 General Election Voters’ Pamphlet, Book 18 (Klamath): U.S. House District 2",
+      "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book18_web.pdf",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Oregon Secretary of State, Official 2026 General Election Voters’ Pamphlet, Book 6 (Benton): U.S. House District 4",
+      "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book6_web.pdf",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Oregon Secretary of State, Official 2026 General Election Voters’ Pamphlet, Book 12 (Washington): U.S. House District 6",
+      "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book12_web.pdf",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "US Senator",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "David Brock Smith",
+          "party": "Republican"
+        },
+        {
+          "name": "Jeff Merkley",
+          "party": "Democrat, Working Families"
+        },
+        {
+          "name": "Gary Lyndon Dye",
+          "party": "Libertarian"
+        },
+        {
+          "name": "Chris Henry",
+          "party": "Progressive, Pacific Green"
+        }
+      ]
+    },
+    {
+      "office": "US Representative, 1st District",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Barbara J Kahl",
+          "party": "Republican"
+        },
+        {
+          "name": "Suzanne Bonamici",
+          "party": "Democrat, Working Families"
+        }
+      ]
+    },
+    {
+      "office": "US Representative, 2nd District",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Chris Beck",
+          "party": "Democrat, Independent"
+        },
+        {
+          "name": "Cliff Bentz",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "US Representative, 3rd District",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Maxine E Dexter",
+          "party": "Democrat"
+        },
+        {
+          "name": "Loran Ayles",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "US Representative, 4th District",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Monique DeSpain",
+          "party": "Republican, Libertarian"
+        },
+        {
+          "name": "Val Hoyle",
+          "party": "Democrat, Working Families"
+        },
+        {
+          "name": "Justin Filip",
+          "party": "Pacific Green, Progressive"
+        }
+      ]
+    },
+    {
+      "office": "US Representative, 5th District",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Janelle S Bynum",
+          "party": "Democrat"
+        },
+        {
+          "name": "Andrea Townsend",
+          "party": "Pacific Green"
+        },
+        {
+          "name": "Patti Adair",
+          "party": "Republican, Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "US Representative, 6th District",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Andrea Salinas",
+          "party": "Democrat, Independent"
+        },
+        {
+          "name": "David Russ",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Brett Smith",
+          "party": "Pacific Green"
+        },
+        {
+          "name": "Tina Kotek",
+          "party": "Democrat, Working Families"
+        },
+        {
+          "name": "Christine Drazan",
+          "party": "Republican, Libertarian"
+        }
+      ]
+    }
+  ]
 }

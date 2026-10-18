@@ -1,11 +1,107 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Mississippi Secretary of State — Elections & Voting",
-      "url": "https://www.sos.ms.gov/elections-voting",
-      "accessed": "October 17, 2026"
+      "name": "Mississippi Secretary of State, SAMPLE Official Election Ballot, Federal and Judicial Election, Tuesday, November 3, 2026",
+      "url": "https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "For United States Senate",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Scott Colom",
+          "party": "Democrat"
+        },
+        {
+          "name": "Cindy Hyde-Smith",
+          "party": "Republican"
+        },
+        {
+          "name": "Ty Pinkins",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "For US House of Representatives, 4th Congressional District",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Mike Ezell",
+          "party": "Republican"
+        },
+        {
+          "name": "Jeffrey Hulum III",
+          "party": "Democrat"
+        },
+        {
+          "name": "Carl Boyanton",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "For US House of Representatives, 1st Congressional District",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Johnny Baucom",
+          "party": "Libertarian"
+        },
+        {
+          "name": "Cliff Johnson",
+          "party": "Democrat"
+        },
+        {
+          "name": "Trent Kelly",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "For US House of Representatives, 2nd Congressional District",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Ron Eller",
+          "party": "Republican"
+        },
+        {
+          "name": "Bennie G. Thompson",
+          "party": "Democrat"
+        },
+        {
+          "name": "Bennie Foster",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "For US House of Representatives, 3rd Congressional District",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Michael A. Chiaradio",
+          "party": "Democrat"
+        },
+        {
+          "name": "Michael Guest",
+          "party": "Republican"
+        },
+        {
+          "name": "Erik Kiehle",
+          "party": "Libertarian"
+        }
+      ]
+    }
+  ]
 }

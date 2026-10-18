@@ -2,6 +2,7 @@ import Link from "next/link";
 import { LEGAL_NAV, PRIMARY_NAV, SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
 import { STRIPE_TIP_URL, tipJarEnabled } from "@/data/monetization";
+import { CookieChoicesButton } from "@/components/GoogleAnalytics";
 
 /** Owner rule (Oct 8, 2026): exact copyright line. Keep as one string so it renders as one text node. */
 const COPYRIGHT_YEAR = 2026;
@@ -42,6 +43,11 @@ export function SiteFooter() {
             <li>
               <Link className="hover:underline" href="/cities">
                 Census places
+              </Link>
+            </li>
+            <li>
+              <Link className="hover:underline" href="/sources">
+                Sources
               </Link>
             </li>
           </ul>
@@ -89,9 +95,10 @@ export function SiteFooter() {
                 <Link className="underline hover:text-white" href={item.href}>
                   {item.label}
                 </Link>
-                {index < FOOTER_LEGAL_LINKS.length - 1 ? " · " : ""}
+                {" · "}
               </span>
             ))}
+            <CookieChoicesButton className="consent-link underline hover:text-white" />
           </nav>
           {tipJarEnabled() && (
             <p className="mt-1 text-xs leading-5 text-white/70">

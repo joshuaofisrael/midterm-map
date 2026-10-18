@@ -1,11 +1,127 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Utah Vote",
-      "url": "https://vote.utah.gov/",
-      "accessed": "October 17, 2026"
+      "name": "Utah Lieutenant Governor Deidre M. Henderson, 2026 General Election Certification",
+      "url": "https://vote.utah.gov/wp-content/uploads/2026/09/2026-General-Election-Certification.pdf",
+      "accessed": "October 18, 2026",
+      "published": "August 28, 2026"
+    },
+    {
+      "name": "Utah Lieutenant Governor Deidre M. Henderson, 2026 Write-In Candidate Certification",
+      "url": "https://vote.utah.gov/wp-content/uploads/2026/09/2026-Write-In-Certification.pdf",
+      "accessed": "October 18, 2026",
+      "published": "September 10, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "U.S. House of Representatives District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "JESSE WEST",
+          "party": "Libertarian"
+        },
+        {
+          "name": "BEN MCADAMS",
+          "party": "Democratic"
+        },
+        {
+          "name": "ELIAS HENRY MONTGOMERY",
+          "party": "Unaffiliated"
+        },
+        {
+          "name": "RILEY OWEN",
+          "party": "Republican"
+        },
+        {
+          "name": "BABAK \"BOBBY\" DARVISH",
+          "party": "Write-in"
+        }
+      ]
+    },
+    {
+      "office": "U.S. House of Representatives District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "PETER CROSBY",
+          "party": "Democratic"
+        },
+        {
+          "name": "DANIEL COTTAM",
+          "party": "Libertarian"
+        },
+        {
+          "name": "ROBERT M. MOESINGER",
+          "party": "Unaffiliated"
+        },
+        {
+          "name": "BLAKE D. MOORE",
+          "party": "Republican"
+        },
+        {
+          "name": "CARLTON E. BOWEN",
+          "party": "Independent American"
+        }
+      ]
+    },
+    {
+      "office": "U.S. House of Representatives District 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "KENT S. UDELL",
+          "party": "Democratic"
+        },
+        {
+          "name": "CASSIE EASLEY",
+          "party": "Constitution"
+        },
+        {
+          "name": "CELESTE MALOY",
+          "party": "Republican"
+        },
+        {
+          "name": "AYDEN SCOTT",
+          "party": "Unaffiliated"
+        },
+        {
+          "name": "MICHAEL R. STODDARD",
+          "party": "Libertarian"
+        },
+        {
+          "name": "ADONIS HOOSLYN",
+          "party": "Unaffiliated"
+        }
+      ]
+    },
+    {
+      "office": "U.S. House of Representatives District 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "TAYLOR WRIGHT",
+          "party": "Libertarian"
+        },
+        {
+          "name": "JONNY LARSEN",
+          "party": "Democratic"
+        },
+        {
+          "name": "STEVEN BURT",
+          "party": "Unaffiliated"
+        },
+        {
+          "name": "MIKE KENNEDY",
+          "party": "Republican"
+        }
+      ]
+    }
+  ]
 }

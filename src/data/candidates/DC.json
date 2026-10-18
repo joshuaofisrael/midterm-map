@@ -1,11 +1,199 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "District of Columbia Board of Elections",
-      "url": "https://www.dcboe.org/",
-      "accessed": "October 17, 2026"
+      "name": "District of Columbia Board of Elections, General Election Candidates in Ballot Order, November 3, 2026 General Election",
+      "url": "https://dcboe.org/getContentAsset/1029b813-fb27-4055-9218-fbe40360aacb/5ebbd046-860b-4ee1-81c8-43d0e3bc446e/2026-General-CANDIDATES-07152026.pdf?language=en",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "District of Columbia Board of Elections, List of General Election Write-in Candidates, November 3, 2026 General Election",
+      "url": "https://www.dcboe.org/getContentAsset/baa7b20c-9cbd-45fe-9842-986da48d2123/5ebbd046-860b-4ee1-81c8-43d0e3bc446e/2026-General-Election-WRITE-IN-CANDIDATES-07222026.pdf?language=en",
+      "accessed": "October 18, 2026",
+      "published": "October 14, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "Delegate to the House of Representatives",
+      "kind": "house",
+      "district": "0",
+      "candidates": [
+        {
+          "name": "Denise Rosado",
+          "party": "Republican"
+        },
+        {
+          "name": "Robert White",
+          "party": "Democrat"
+        },
+        {
+          "name": "Kymone Freeman",
+          "party": "Statehood Green"
+        },
+        {
+          "name": "Rebekkah Green",
+          "party": "Write-in (Libertarian)"
+        },
+        {
+          "name": "David Solana",
+          "party": "Write-in (Independent)"
+        }
+      ]
+    },
+    {
+      "office": "Mayor of the District of Columbia",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Rhonda Hamilton",
+          "party": "Independent"
+        },
+        {
+          "name": "Janeese Lewis George",
+          "party": "Democrat"
+        },
+        {
+          "name": "Robert L. Gross",
+          "party": "Statehood Green"
+        },
+        {
+          "name": "Charles Breedlove",
+          "party": "Write-in (Independent)"
+        },
+        {
+          "name": "Patrick Christian",
+          "party": "Write-in (Independent)"
+        },
+        {
+          "name": "Myrtle Patricia Alexander",
+          "party": "Write-in (Independent)"
+        },
+        {
+          "name": "George Jackson",
+          "party": "Write-in (Independent)"
+        },
+        {
+          "name": "Treasure Jacqueline Chapman",
+          "party": "Write-in (Independent)"
+        },
+        {
+          "name": "Kenneth Dale Bristow",
+          "party": "Write-in (Independent)"
+        },
+        {
+          "name": "Michael Arega",
+          "party": "Write-in (One Home Party)"
+        },
+        {
+          "name": "Anthony Isaiah Brown",
+          "party": "Write-in (Independent)"
+        },
+        {
+          "name": "Kathy Henderson",
+          "party": "Write-in (Democrat)"
+        },
+        {
+          "name": "Marquis Cotton",
+          "party": "Write-in (Independent)"
+        },
+        {
+          "name": "Nadeem A. Khan",
+          "party": "Write-in (Independent)"
+        }
+      ]
+    },
+    {
+      "office": "Chairman of the Council of the District of Columbia",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Phil Mendelson",
+          "party": "Democrat"
+        },
+        {
+          "name": "Abi-Ananiah Prudent",
+          "party": "Republican"
+        },
+        {
+          "name": "John Cheeks",
+          "party": "Write-in (Independent)"
+        }
+      ]
+    },
+    {
+      "office": "At-Large Member of the Council",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Oye Owolewa",
+          "party": "Democrat"
+        },
+        {
+          "name": "Darryl Moch",
+          "party": "Statehood Green"
+        },
+        {
+          "name": "Darrell Green",
+          "party": "Republican"
+        },
+        {
+          "name": "Elissa Silverman",
+          "party": "Independent"
+        },
+        {
+          "name": "Joe Jackson",
+          "party": "Write-in (Independent)"
+        }
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Manuel Rivera",
+          "party": "Republican"
+        },
+        {
+          "name": "Brian L. Schwalb",
+          "party": "Democrat"
+        }
+      ]
+    },
+    {
+      "office": "United States Senator",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Robert Simmons",
+          "party": "Republican"
+        },
+        {
+          "name": "Paul Strauss",
+          "party": "Democrat"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Ciprian Ivanof",
+          "party": "Republican"
+        },
+        {
+          "name": "Franklin Garcia",
+          "party": "Democrat"
+        }
+      ]
+    }
+  ]
 }
