@@ -1,0 +1,606 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+      "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+      "accessed": "October 17, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "United States Senator",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Gillespie, Neil J.",
+          "party": "NPA"
+        },
+        {
+          "name": "Moody, Ashley",
+          "party": "REP"
+        },
+        {
+          "name": "Nixon, Angie",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Davis, Tyler L.",
+          "party": "NPA"
+        },
+        {
+          "name": "Patronis, Jimmy",
+          "party": "REP"
+        },
+        {
+          "name": "Valimont, Gay",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Green, Amanda Marie",
+          "party": "DEM"
+        },
+        {
+          "name": "Rogers, Austin",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Cammack, Kat",
+          "party": "REP"
+        },
+        {
+          "name": "Harp, Seth",
+          "party": "DEM"
+        },
+        {
+          "name": "Klein, Mike",
+          "party": "NPA"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Bean, Aaron",
+          "party": "REP"
+        },
+        {
+          "name": "Holloway, LaShonda \"L.J.\"",
+          "party": "DEM"
+        },
+        {
+          "name": "Schaefer, Todd",
+          "party": "NPA"
+        },
+        {
+          "name": "Sell, Mike",
+          "party": "FFP"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 5",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Grage, Rachel",
+          "party": "DEM"
+        },
+        {
+          "name": "Rutherford, John H.",
+          "party": "REP"
+        },
+        {
+          "name": "Upham, William Lintag",
+          "party": "WRI"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 6",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Fine, Randy",
+          "party": "REP"
+        },
+        {
+          "name": "Parrott, Andrew",
+          "party": "LPF"
+        },
+        {
+          "name": "Pavlik, Alec",
+          "party": "WRI"
+        },
+        {
+          "name": "Yonce, Eric",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 7",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Dalton, Bale",
+          "party": "DEM"
+        },
+        {
+          "name": "Dennison, Christopher",
+          "party": "LPF"
+        },
+        {
+          "name": "Elijah, Ryan",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 8",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "Haridopolos, Mike",
+          "party": "REP"
+        },
+        {
+          "name": "Jenkins, Jennifer",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 9",
+      "kind": "house",
+      "district": "9",
+      "candidates": [
+        {
+          "name": "Green, Dan",
+          "party": "REP"
+        },
+        {
+          "name": "Soto, Darren",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 10",
+      "kind": "house",
+      "district": "10",
+      "candidates": [
+        {
+          "name": "Frost, Maxwell Alejandro (listed as Unopposed on the official list)",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 11",
+      "kind": "house",
+      "district": "11",
+      "candidates": [
+        {
+          "name": "Groves, Ralph",
+          "party": "LPF"
+        },
+        {
+          "name": "Pericola, James",
+          "party": "DEM"
+        },
+        {
+          "name": "Strada, Joe",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 12",
+      "kind": "house",
+      "district": "12",
+      "candidates": [
+        {
+          "name": "Bilirakis, Gus Michael",
+          "party": "REP"
+        },
+        {
+          "name": "Overman, Kimberly",
+          "party": "DEM"
+        },
+        {
+          "name": "Scrivener, Branden",
+          "party": "NPA"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 13",
+      "kind": "house",
+      "district": "13",
+      "candidates": [
+        {
+          "name": "D'Arrigo, Tony",
+          "party": "NPA"
+        },
+        {
+          "name": "Gray, Leela",
+          "party": "DEM"
+        },
+        {
+          "name": "Luna, Anna Paulina",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 14",
+      "kind": "house",
+      "district": "14",
+      "candidates": [
+        {
+          "name": "Beltran, Mike",
+          "party": "REP"
+        },
+        {
+          "name": "Castor, Kathy",
+          "party": "DEM"
+        },
+        {
+          "name": "Hernandez Sr., Salomon",
+          "party": "WRI"
+        },
+        {
+          "name": "Lambert, Brian",
+          "party": "LPF"
+        },
+        {
+          "name": "Varian, Keith",
+          "party": "WRI"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 15",
+      "kind": "house",
+      "district": "15",
+      "candidates": [
+        {
+          "name": "Boone, Angie",
+          "party": "WRI"
+        },
+        {
+          "name": "Lee, Laurel",
+          "party": "REP"
+        },
+        {
+          "name": "People, Robert",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 16",
+      "kind": "house",
+      "district": "16",
+      "candidates": [
+        {
+          "name": "Davis, Mark",
+          "party": "NPA"
+        },
+        {
+          "name": "Gruters, Sydney",
+          "party": "REP"
+        },
+        {
+          "name": "Kirschner, Kelly",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 17",
+      "kind": "house",
+      "district": "17",
+      "candidates": [
+        {
+          "name": "Montavon, Matthew",
+          "party": "DEM"
+        },
+        {
+          "name": "Quirk, Michael J.",
+          "party": "NPA"
+        },
+        {
+          "name": "Steube, Greg",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 18",
+      "kind": "house",
+      "district": "18",
+      "candidates": [
+        {
+          "name": "Franklin, Scott",
+          "party": "REP"
+        },
+        {
+          "name": "Gibson, Curtis",
+          "party": "DEM"
+        },
+        {
+          "name": "Simmons, Deva",
+          "party": "NPA"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 19",
+      "kind": "house",
+      "district": "19",
+      "candidates": [
+        {
+          "name": "Arias, Victor",
+          "party": "DEM"
+        },
+        {
+          "name": "Haskin, Seth",
+          "party": "NPA"
+        },
+        {
+          "name": "Schwartzel, Jim",
+          "party": "REP"
+        },
+        {
+          "name": "Zakhvatayev, Alexandra",
+          "party": "WRI"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 20",
+      "kind": "house",
+      "district": "20",
+      "candidates": [
+        {
+          "name": "Andersen, Brent",
+          "party": "REP"
+        },
+        {
+          "name": "Maxime, Kedner",
+          "party": "IND"
+        },
+        {
+          "name": "Wasserman Schultz, Debbie",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 21",
+      "kind": "house",
+      "district": "21",
+      "candidates": [
+        {
+          "name": "Cooke, Alexander",
+          "party": "NPA"
+        },
+        {
+          "name": "Fabrikant, David",
+          "party": "WRI"
+        },
+        {
+          "name": "Martin, James T.",
+          "party": "DEM"
+        },
+        {
+          "name": "Mast, Brian",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 22",
+      "kind": "house",
+      "district": "22",
+      "candidates": [
+        {
+          "name": "Askar, Casey",
+          "party": "REP"
+        },
+        {
+          "name": "Dandiya, Pia",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 23",
+      "kind": "house",
+      "district": "23",
+      "candidates": [
+        {
+          "name": "Adeimy, Deborah",
+          "party": "REP"
+        },
+        {
+          "name": "Frankel, Lois",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 24",
+      "kind": "house",
+      "district": "24",
+      "candidates": [
+        {
+          "name": "Brown, Te Mayonna",
+          "party": "REP"
+        },
+        {
+          "name": "Gilbert III, Oliver G.",
+          "party": "DEM"
+        },
+        {
+          "name": "Gonzalez, Patricia",
+          "party": "WRI"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 25",
+      "kind": "house",
+      "district": "25",
+      "candidates": [
+        {
+          "name": "Hamilton, Michaelangelo",
+          "party": "WRI"
+        },
+        {
+          "name": "Jassenoff, Peter",
+          "party": "LPF"
+        },
+        {
+          "name": "Moskowitz, Jared",
+          "party": "DEM"
+        },
+        {
+          "name": "Singer, Scott",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 26",
+      "kind": "house",
+      "district": "26",
+      "candidates": [
+        {
+          "name": "Diaz-Balart, Mario",
+          "party": "REP"
+        },
+        {
+          "name": "Locklin, Nicole",
+          "party": "DEM"
+        },
+        {
+          "name": "Meidinger Hosey, Deborah Ann",
+          "party": "NPA"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 27",
+      "kind": "house",
+      "district": "27",
+      "candidates": [
+        {
+          "name": "Rodriguez, Eliott",
+          "party": "DEM"
+        },
+        {
+          "name": "Salazar, Maria Elvira",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative District 28",
+      "kind": "house",
+      "district": "28",
+      "candidates": [
+        {
+          "name": "Ehr, Phil \"Felipe\"",
+          "party": "DEM"
+        },
+        {
+          "name": "Gimenez, Carlos A.",
+          "party": "REP"
+        },
+        {
+          "name": "Rojas, Eddy",
+          "party": "NPA"
+        }
+      ]
+    },
+    {
+      "office": "Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Abrams, Dean Ocean / Van Vactor, Joe",
+          "party": "NPA"
+        },
+        {
+          "name": "Anderson, Kathy / Nokovich, Daniel",
+          "party": "WRI"
+        },
+        {
+          "name": "Burkett, Charles / Coto, Ruben A.",
+          "party": "NPA"
+        },
+        {
+          "name": "Datto, Jeffrey Peter \"Dr. Jeff\" / Santana, Juan",
+          "party": "NPA"
+        },
+        {
+          "name": "Dimanche, Moliere \"Moe\" / Rojas, Benjiman",
+          "party": "NPA"
+        },
+        {
+          "name": "Donalds, Byron / Avila, Bryan",
+          "party": "REP"
+        },
+        {
+          "name": "Jewett, Scott Eckhard / Skelly, Nicole",
+          "party": "LPF"
+        },
+        {
+          "name": "Jolly, David / Graham, Gwen",
+          "party": "DEM"
+        },
+        {
+          "name": "Morris, Erik / Alaways, LeRoy",
+          "party": "WRI"
+        },
+        {
+          "name": "Russo, Frank J. / Rodriguez, Rachel",
+          "party": "NPA"
+        }
+      ]
+    }
+  ]
+}

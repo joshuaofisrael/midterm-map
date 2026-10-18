@@ -1,0 +1,637 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+      "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+      "accessed": "October 17, 2026",
+      "published": "August 28, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "U. S. SENATOR",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "KEN PAXTON",
+          "party": "REP"
+        },
+        {
+          "name": "JAMES TALARICO",
+          "party": "DEM"
+        },
+        {
+          "name": "TED BROWN",
+          "party": "LIB"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 5",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "LANCE GOODEN",
+          "party": "REP"
+        },
+        {
+          "name": "CHELSEY HOCKETT",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "GOVERNOR",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "GREG ABBOTT",
+          "party": "REP"
+        },
+        {
+          "name": "GINA HINOJOSA",
+          "party": "DEM"
+        },
+        {
+          "name": "PAT DIXON",
+          "party": "LIB"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 19",
+      "kind": "house",
+      "district": "19",
+      "candidates": [
+        {
+          "name": "TOM SELL",
+          "party": "REP"
+        },
+        {
+          "name": "KYLE RABLE",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 36",
+      "kind": "house",
+      "district": "36",
+      "candidates": [
+        {
+          "name": "BRIAN BABIN",
+          "party": "REP"
+        },
+        {
+          "name": "RHONDA HART",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 15",
+      "kind": "house",
+      "district": "15",
+      "candidates": [
+        {
+          "name": "MONICA DE LA CRUZ",
+          "party": "REP"
+        },
+        {
+          "name": "BOBBY PULIDO",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 27",
+      "kind": "house",
+      "district": "27",
+      "candidates": [
+        {
+          "name": "MICHAEL CLOUD",
+          "party": "REP"
+        },
+        {
+          "name": "TANYA LLOYD",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 13",
+      "kind": "house",
+      "district": "13",
+      "candidates": [
+        {
+          "name": "RONNY JACKSON",
+          "party": "REP"
+        },
+        {
+          "name": "MARK NAIR",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 28",
+      "kind": "house",
+      "district": "28",
+      "candidates": [
+        {
+          "name": "TANO E. TIJERINA",
+          "party": "REP"
+        },
+        {
+          "name": "HENRY CUELLAR",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 21",
+      "kind": "house",
+      "district": "21",
+      "candidates": [
+        {
+          "name": "MARK TEIXEIRA",
+          "party": "REP"
+        },
+        {
+          "name": "KRISTIN HOOK",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 10",
+      "kind": "house",
+      "district": "10",
+      "candidates": [
+        {
+          "name": "CHRIS GOBER",
+          "party": "REP"
+        },
+        {
+          "name": "CAITLIN ROURK",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 17",
+      "kind": "house",
+      "district": "17",
+      "candidates": [
+        {
+          "name": "PETE SESSIONS",
+          "party": "REP"
+        },
+        {
+          "name": "CASEY SHEPARD",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 31",
+      "kind": "house",
+      "district": "31",
+      "candidates": [
+        {
+          "name": "JOHN CARTER",
+          "party": "REP"
+        },
+        {
+          "name": "JUSTIN EARLY",
+          "party": "DEM"
+        },
+        {
+          "name": "GREG STOKER",
+          "party": "GRE"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 20",
+      "kind": "house",
+      "district": "20",
+      "candidates": [
+        {
+          "name": "EDGARDO RAFAEL BAEZ",
+          "party": "REP"
+        },
+        {
+          "name": "JOAQUIN CASTRO",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 23",
+      "kind": "house",
+      "district": "23",
+      "candidates": [
+        {
+          "name": "BRANDON HERRERA",
+          "party": "REP"
+        },
+        {
+          "name": "KATY PADILLA STOUT",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 35",
+      "kind": "house",
+      "district": "35",
+      "candidates": [
+        {
+          "name": "CARLOS DE LA CRUZ",
+          "party": "REP"
+        },
+        {
+          "name": "JOHNNY C. GARCIA",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "NATHANIEL MORAN",
+          "party": "REP"
+        },
+        {
+          "name": "YOLANDA R. PRINCE",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "PAT FALLON",
+          "party": "REP"
+        },
+        {
+          "name": "JASON PEARCE",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 14",
+      "kind": "house",
+      "district": "14",
+      "candidates": [
+        {
+          "name": "RANDY WEBER",
+          "party": "REP"
+        },
+        {
+          "name": "THURMAN BILL BARTIE",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 22",
+      "kind": "house",
+      "district": "22",
+      "candidates": [
+        {
+          "name": "TREVER NEHLS",
+          "party": "REP"
+        },
+        {
+          "name": "MARQUETTE GREENE-SCOTT",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 11",
+      "kind": "house",
+      "district": "11",
+      "candidates": [
+        {
+          "name": "AUGUST PFLUGER",
+          "party": "REP"
+        },
+        {
+          "name": "CLAIRE REYNOLDS",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 25",
+      "kind": "house",
+      "district": "25",
+      "candidates": [
+        {
+          "name": "ROGER WILLIAMS",
+          "party": "REP"
+        },
+        {
+          "name": "DIONE SIMS",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 34",
+      "kind": "house",
+      "district": "34",
+      "candidates": [
+        {
+          "name": "ERIC FLORES",
+          "party": "REP"
+        },
+        {
+          "name": "VICENTE GONZALEZ",
+          "party": "DEM"
+        },
+        {
+          "name": "CHRIS ROYAL",
+          "party": "LIB"
+        },
+        {
+          "name": "EDDIE ESPINOZA",
+          "party": "GRE"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 32",
+      "kind": "house",
+      "district": "32",
+      "candidates": [
+        {
+          "name": "JACE YARBROUGH",
+          "party": "REP"
+        },
+        {
+          "name": "DAN BARRIOS",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "KEITH SELF",
+          "party": "REP"
+        },
+        {
+          "name": "EVAN HUNT",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 26",
+      "kind": "house",
+      "district": "26",
+      "candidates": [
+        {
+          "name": "BRANDON GILL",
+          "party": "REP"
+        },
+        {
+          "name": "STEVEN SHOOK",
+          "party": "DEM"
+        },
+        {
+          "name": "PHIL GRAY",
+          "party": "LIB"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 6",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "JAKE ELLZEY",
+          "party": "REP"
+        },
+        {
+          "name": "DANNY MINTON",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 24",
+      "kind": "house",
+      "district": "24",
+      "candidates": [
+        {
+          "name": "BETH VAN DUYNE",
+          "party": "REP"
+        },
+        {
+          "name": "KEVIN BURGE",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 30",
+      "kind": "house",
+      "district": "30",
+      "candidates": [
+        {
+          "name": "EVERETT JACKSON",
+          "party": "REP"
+        },
+        {
+          "name": "FREDERICK D. HAYNES III",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 33",
+      "kind": "house",
+      "district": "33",
+      "candidates": [
+        {
+          "name": "PATRICK DAVID GILLESPIE",
+          "party": "REP"
+        },
+        {
+          "name": "COLIN ALLRED",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 16",
+      "kind": "house",
+      "district": "16",
+      "candidates": [
+        {
+          "name": "ADAM BAUMAN",
+          "party": "REP"
+        },
+        {
+          "name": "VERONICA ESCOBAR",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 7",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "ALEXANDER HALE",
+          "party": "REP"
+        },
+        {
+          "name": "LIZZIE PANNILL FLETCHER",
+          "party": "DEM"
+        },
+        {
+          "name": "ESPOIR NGABO",
+          "party": "GRE"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "STEVE TOTH",
+          "party": "REP"
+        },
+        {
+          "name": "SHAUN FINNIE",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 8",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "JESSICA HART STEINMANN",
+          "party": "REP"
+        },
+        {
+          "name": "LAURA JONES",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 9",
+      "kind": "house",
+      "district": "9",
+      "candidates": [
+        {
+          "name": "ALEX MEALER",
+          "party": "REP"
+        },
+        {
+          "name": "LETICIA GUTIERREZ",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 18",
+      "kind": "house",
+      "district": "18",
+      "candidates": [
+        {
+          "name": "RONALD DWAYNE WHITFIELD",
+          "party": "REP"
+        },
+        {
+          "name": "CHRISTIAN DASHAUN MENEFEE",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 29",
+      "kind": "house",
+      "district": "29",
+      "candidates": [
+        {
+          "name": "MARTHA FIERRO",
+          "party": "REP"
+        },
+        {
+          "name": "SYLVIA GARCIA",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 38",
+      "kind": "house",
+      "district": "38",
+      "candidates": [
+        {
+          "name": "JON BONCK",
+          "party": "REP"
+        },
+        {
+          "name": "MELISSA MCDONOUGH",
+          "party": "DEM"
+        },
+        {
+          "name": "ALEX MCMENEMY",
+          "party": "GRE"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 12",
+      "kind": "house",
+      "district": "12",
+      "candidates": [
+        {
+          "name": "CRAIG GOLDMAN",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "U. S. REPRESENTATIVE DISTRICT 37",
+      "kind": "house",
+      "district": "37",
+      "candidates": [
+        {
+          "name": "GREG CASAR",
+          "party": "DEM"
+        }
+      ]
+    }
+  ]
+}

@@ -99,6 +99,11 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
               </Link>
             </li>
             <li>
+              <Link className="font-medium text-navy hover:underline" href={`/cities/${state.code}`}>
+                Census places in {state.name}
+              </Link>
+            </li>
+            <li>
               <Link className="font-medium text-navy hover:underline" href="/polls">
                 Polls and ratings hub
               </Link>

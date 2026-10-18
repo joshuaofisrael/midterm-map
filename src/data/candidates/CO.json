@@ -1,0 +1,267 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "Colorado Secretary of State, 2026 general election official candidate list (certified to the counties on September 4; names stricken through or marked write-in are not copied)",
+      "url": "https://coloradosos.gov/pubs/elections/vote/generalCandidates.html",
+      "accessed": "October 17, 2026",
+      "published": "September 4, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "US Senate",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Mark Baisley",
+          "party": "Republican Party"
+        },
+        {
+          "name": "John Hickenlooper",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Bob Chew",
+          "party": "Forward Party"
+        },
+        {
+          "name": "Christopher Baum",
+          "party": "Approval Voting Party"
+        },
+        {
+          "name": "Blake Huber",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Adam Withrow",
+          "party": "Unity Party"
+        }
+      ]
+    },
+    {
+      "office": "US House of Representatives 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Melat Kiros",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Christy Peterson",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Critter Milton",
+          "party": "Unity Party"
+        },
+        {
+          "name": "Chad Humphrey",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Shimon Blau",
+          "party": "Unaffiliated"
+        }
+      ]
+    },
+    {
+      "office": "US House of Representatives 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Joe Neguse",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Kelley Anne Dennison",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Gaylon Kent",
+          "party": "Libertarian Party"
+        }
+      ]
+    },
+    {
+      "office": "US House of Representatives 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Dwayne L. Romero",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Jeff Hurd",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Cory Robertson",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Clifton Brown",
+          "party": "Unaffiliated"
+        }
+      ]
+    },
+    {
+      "office": "US House of Representatives 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Lauren Boebert",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Eileen Laubacher",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Douglas Mangeris",
+          "party": "Libertarian Party"
+        }
+      ]
+    },
+    {
+      "office": "US House of Representatives 5",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Jeff Crank",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Jessica Killin",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Christopher Mitchell",
+          "party": "American Constitution Party"
+        },
+        {
+          "name": "Mark \"Marky Jr\" Elworth",
+          "party": "Libertarian Party"
+        }
+      ]
+    },
+    {
+      "office": "US House of Representatives 6",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Jason Crow",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Jason Clark",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Patty McMahon",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Meredith Ryan",
+          "party": "Unity Party"
+        },
+        {
+          "name": "Samir Ezzeldin Witta",
+          "party": "Unaffiliated"
+        }
+      ]
+    },
+    {
+      "office": "US House of Representatives 7",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Tim Bennett",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Brittany Pettersen",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Susan Hall",
+          "party": "Unity Party"
+        },
+        {
+          "name": "Lawrence Kyle Clark",
+          "party": "American Constitution Party"
+        },
+        {
+          "name": "Dan \"Kilo\" Sallis",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Joe Krzeczkowski",
+          "party": "Unaffiliated"
+        }
+      ]
+    },
+    {
+      "office": "US House of Representatives 8",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "Gabe Evans",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Manny Rutinel",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Dave Wood",
+          "party": "Libertarian Party"
+        }
+      ]
+    },
+    {
+      "office": "Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Victor Marx",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Phil Weiser",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Stephen T. Hamilton",
+          "party": "American Constitution Party"
+        },
+        {
+          "name": "Eric Mulder",
+          "party": "Libertarian Party"
+        },
+        {
+          "name": "Jeff Peckman",
+          "party": "Unity Party"
+        },
+        {
+          "name": "Erik Underwood",
+          "party": "Approval Voting Party"
+        },
+        {
+          "name": "Greg Lopez",
+          "party": "Unaffiliated"
+        }
+      ]
+    }
+  ]
+}

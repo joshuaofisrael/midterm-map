@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BallotLookup } from "@/components/BallotLookup";
+import { ZipPlaceSearchSection } from "@/components/ZipPlaceSearchSection";
 import { EmailSignup } from "@/components/EmailSignup";
 import { FurtherReading } from "@/components/FurtherReading";
 import { JsonLd } from "@/components/JsonLd";
@@ -93,6 +94,8 @@ export default function HomePage() {
         </div>
       </section>
 
+      <ZipPlaceSearchSection />
+
       <section>
         <h2 className="font-serif text-2xl font-semibold">Four ways into the hub</h2>
         <div className="mt-5 grid gap-4 md:grid-cols-2">
@@ -152,6 +155,16 @@ export default function HomePage() {
             </li>
           ))}
         </ul>
+        <p className="mt-5 text-sm">
+          <Link className="font-medium text-navy hover:underline" href="/cities">
+            Census places
+          </Link>
+          <span className="text-ink-muted">
+            {" "}
+            — incorporated places and census-designated places from the U.S. Census Bureau 2026
+            Gazetteer Files, with a page for each place.
+          </span>
+        </p>
       </section>
 
       <section id="faq" className="rounded-xl border border-line bg-paper-card p-5">

@@ -1,0 +1,102 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "Alaska Division of Elections, 2026 general election candidate list (page last updated September 25, 2026)",
+      "url": "https://www.elections.alaska.gov/candidates/?election=26genr",
+      "accessed": "October 17, 2026",
+      "published": "September 25, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "GOVERNOR / LIEUTENANT GOVERNOR",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Bronson, Dave / Church, Josh",
+          "party": "Registered Republican"
+        },
+        {
+          "name": "DeWitt, Meda / Steere, Christopher “Chris” (certified write-in)",
+          "party": "Nonpartisan"
+        },
+        {
+          "name": "Kreiss-Tomkins, Jonathan S. “JKT” / Johnson, Zac",
+          "party": "Registered Democrat / Nonpartisan"
+        },
+        {
+          "name": "Parkin, James W. “JP4” / Greer, Ramadhani “Ram” (certified write-in)",
+          "party": "Registered Republican / Registered Democrat"
+        },
+        {
+          "name": "Taylor, Treg/ English, Candi",
+          "party": "Registered Republican"
+        },
+        {
+          "name": "Wilson, Bernadette M. / Shower, Michael K.",
+          "party": "Registered Republican"
+        }
+      ]
+    },
+    {
+      "office": "UNITED STATES SENATOR",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Heikes, Gerald L.",
+          "party": "Registered Republican"
+        },
+        {
+          "name": "Hill, Sidney “Sid” (certified write-in)",
+          "party": "Undeclared"
+        },
+        {
+          "name": "McElwain, Heather (certified write-in)",
+          "party": "Registered Libertarian"
+        },
+        {
+          "name": "Peltola, Mary",
+          "party": "Registered Democrat"
+        },
+        {
+          "name": "Sullivan, Dan S.",
+          "party": "Registered Republican"
+        },
+        {
+          "name": "Sullivan, Daniel J. Jr.",
+          "party": "Registered Republican"
+        }
+      ]
+    },
+    {
+      "office": "UNITED STATES REPRESENTATIVE",
+      "kind": "house",
+      "district": "0",
+      "candidates": [
+        {
+          "name": "Begich, Nick",
+          "party": "Registered Republican"
+        },
+        {
+          "name": "Dutchess, Lady Donna (certified write-in)",
+          "party": "Nonpartisan"
+        },
+        {
+          "name": "Hafner, Eric",
+          "party": "Registered Democrat"
+        },
+        {
+          "name": "Hill, Bill",
+          "party": "Nonpartisan"
+        },
+        {
+          "name": "McDermott, James C. “Jim”",
+          "party": "Registered Libertarian"
+        }
+      ]
+    }
+  ]
+}

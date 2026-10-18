@@ -1,0 +1,270 @@
+{
+  "accessed": "October 17, 2026",
+  "placeCount": 32355,
+  "withPopulation": 31839,
+  "withoutPopulation": 516,
+  "countiesFromGrf2026": 32355,
+  "countiesFromPlace2020": 0,
+  "states": [
+    {
+      "code": "AL",
+      "name": "Alabama",
+      "count": 595
+    },
+    {
+      "code": "AK",
+      "name": "Alaska",
+      "count": 355
+    },
+    {
+      "code": "AZ",
+      "name": "Arizona",
+      "count": 467
+    },
+    {
+      "code": "AR",
+      "name": "Arkansas",
+      "count": 626
+    },
+    {
+      "code": "CA",
+      "name": "California",
+      "count": 1622
+    },
+    {
+      "code": "CO",
+      "name": "Colorado",
+      "count": 485
+    },
+    {
+      "code": "CT",
+      "name": "Connecticut",
+      "count": 214
+    },
+    {
+      "code": "DE",
+      "name": "Delaware",
+      "count": 79
+    },
+    {
+      "code": "DC",
+      "name": "District of Columbia",
+      "count": 1
+    },
+    {
+      "code": "FL",
+      "name": "Florida",
+      "count": 958
+    },
+    {
+      "code": "GA",
+      "name": "Georgia",
+      "count": 674
+    },
+    {
+      "code": "HI",
+      "name": "Hawaii",
+      "count": 163
+    },
+    {
+      "code": "ID",
+      "name": "Idaho",
+      "count": 235
+    },
+    {
+      "code": "IL",
+      "name": "Illinois",
+      "count": 1461
+    },
+    {
+      "code": "IN",
+      "name": "Indiana",
+      "count": 973
+    },
+    {
+      "code": "IA",
+      "name": "Iowa",
+      "count": 1026
+    },
+    {
+      "code": "KS",
+      "name": "Kansas",
+      "count": 739
+    },
+    {
+      "code": "KY",
+      "name": "Kentucky",
+      "count": 552
+    },
+    {
+      "code": "LA",
+      "name": "Louisiana",
+      "count": 484
+    },
+    {
+      "code": "ME",
+      "name": "Maine",
+      "count": 155
+    },
+    {
+      "code": "MD",
+      "name": "Maryland",
+      "count": 536
+    },
+    {
+      "code": "MA",
+      "name": "Massachusetts",
+      "count": 248
+    },
+    {
+      "code": "MI",
+      "name": "Michigan",
+      "count": 745
+    },
+    {
+      "code": "MN",
+      "name": "Minnesota",
+      "count": 916
+    },
+    {
+      "code": "MS",
+      "name": "Mississippi",
+      "count": 427
+    },
+    {
+      "code": "MO",
+      "name": "Missouri",
+      "count": 1081
+    },
+    {
+      "code": "MT",
+      "name": "Montana",
+      "count": 496
+    },
+    {
+      "code": "NE",
+      "name": "Nebraska",
+      "count": 593
+    },
+    {
+      "code": "NV",
+      "name": "Nevada",
+      "count": 138
+    },
+    {
+      "code": "NH",
+      "name": "New Hampshire",
+      "count": 100
+    },
+    {
+      "code": "NJ",
+      "name": "New Jersey",
+      "count": 701
+    },
+    {
+      "code": "NM",
+      "name": "New Mexico",
+      "count": 528
+    },
+    {
+      "code": "NY",
+      "name": "New York",
+      "count": 1293
+    },
+    {
+      "code": "NC",
+      "name": "North Carolina",
+      "count": 785
+    },
+    {
+      "code": "ND",
+      "name": "North Dakota",
+      "count": 406
+    },
+    {
+      "code": "OH",
+      "name": "Ohio",
+      "count": 1265
+    },
+    {
+      "code": "OK",
+      "name": "Oklahoma",
+      "count": 846
+    },
+    {
+      "code": "OR",
+      "name": "Oregon",
+      "count": 426
+    },
+    {
+      "code": "PA",
+      "name": "Pennsylvania",
+      "count": 2002
+    },
+    {
+      "code": "RI",
+      "name": "Rhode Island",
+      "count": 36
+    },
+    {
+      "code": "SC",
+      "name": "South Carolina",
+      "count": 475
+    },
+    {
+      "code": "SD",
+      "name": "South Dakota",
+      "count": 485
+    },
+    {
+      "code": "TN",
+      "name": "Tennessee",
+      "count": 503
+    },
+    {
+      "code": "TX",
+      "name": "Texas",
+      "count": 1864
+    },
+    {
+      "code": "UT",
+      "name": "Utah",
+      "count": 334
+    },
+    {
+      "code": "VT",
+      "name": "Vermont",
+      "count": 180
+    },
+    {
+      "code": "VA",
+      "name": "Virginia",
+      "count": 700
+    },
+    {
+      "code": "WA",
+      "name": "Washington",
+      "count": 639
+    },
+    {
+      "code": "WV",
+      "name": "West Virginia",
+      "count": 439
+    },
+    {
+      "code": "WI",
+      "name": "Wisconsin",
+      "count": 807
+    },
+    {
+      "code": "WY",
+      "name": "Wyoming",
+      "count": 205
+    },
+    {
+      "code": "PR",
+      "name": "Puerto Rico",
+      "count": 292
+    }
+  ]
+}

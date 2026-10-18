@@ -1,0 +1,286 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "North Carolina State Board of Elections, 2026 general candidate list by contest (federal and state), printed Oct 13, 2026 12:25 pm",
+      "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+      "accessed": "October 17, 2026",
+      "published": "October 13, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "US SENATE",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "GRE"
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "DEM"
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "LIB"
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "US HOUSE OF REPRESENTATIVES DISTRICT 01",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Don Davis",
+          "party": "DEM"
+        },
+        {
+          "name": "Laurie Buckhout",
+          "party": "REP"
+        },
+        {
+          "name": "Tom Bailey",
+          "party": "LIB"
+        }
+      ]
+    },
+    {
+      "office": "US HOUSE OF REPRESENTATIVES DISTRICT 02",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Eugene F. Douglass",
+          "party": "REP"
+        },
+        {
+          "name": "Deborah K. Ross",
+          "party": "DEM"
+        },
+        {
+          "name": "Matthew Laszacs",
+          "party": "LIB"
+        }
+      ]
+    },
+    {
+      "office": "US HOUSE OF REPRESENTATIVES DISTRICT 03",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Daniel Cavender",
+          "party": "LIB"
+        },
+        {
+          "name": "Raymond Smith",
+          "party": "DEM"
+        },
+        {
+          "name": "Greg Murphy",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "US HOUSE OF REPRESENTATIVES DISTRICT 04",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Valerie P. Foushee",
+          "party": "DEM"
+        },
+        {
+          "name": "Guy Meilleur",
+          "party": "LIB"
+        },
+        {
+          "name": "Mahesh (Max) Ganorkar",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "US HOUSE OF REPRESENTATIVES DISTRICT 05",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Virginia Foxx",
+          "party": "REP"
+        },
+        {
+          "name": "Robert B. Luffman",
+          "party": "LIB"
+        },
+        {
+          "name": "Chuck Hubbard",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "US HOUSE OF REPRESENTATIVES DISTRICT 06",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Addison McDowell",
+          "party": "REP"
+        },
+        {
+          "name": "Cyril Jefferson",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "US HOUSE OF REPRESENTATIVES DISTRICT 07",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Maad Abu-Ghazalah",
+          "party": "LIB"
+        },
+        {
+          "name": "David Rouzer",
+          "party": "REP"
+        },
+        {
+          "name": "Kimberly Hardy",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "US HOUSE OF REPRESENTATIVES DISTRICT 08",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "Bo Whitehead",
+          "party": "GRE"
+        },
+        {
+          "name": "Colby Watson",
+          "party": "DEM"
+        },
+        {
+          "name": "Mark Harris",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "US HOUSE OF REPRESENTATIVES DISTRICT 09",
+      "kind": "house",
+      "district": "9",
+      "candidates": [
+        {
+          "name": "Richard N. Ojeda II",
+          "party": "DEM"
+        },
+        {
+          "name": "Richard Hudson",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "US HOUSE OF REPRESENTATIVES DISTRICT 10",
+      "kind": "house",
+      "district": "10",
+      "candidates": [
+        {
+          "name": "Steven Feldman",
+          "party": "LIB"
+        },
+        {
+          "name": "Ashley Bell",
+          "party": "DEM"
+        },
+        {
+          "name": "Pat Harrigan",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "US HOUSE OF REPRESENTATIVES DISTRICT 11",
+      "kind": "house",
+      "district": "11",
+      "candidates": [
+        {
+          "name": "Jennifer Capps Balkcom",
+          "party": "REP"
+        },
+        {
+          "name": "Jamie Ager",
+          "party": "DEM"
+        },
+        {
+          "name": "Travis Groo",
+          "party": "LIB"
+        }
+      ]
+    },
+    {
+      "office": "US HOUSE OF REPRESENTATIVES DISTRICT 12",
+      "kind": "house",
+      "district": "12",
+      "candidates": [
+        {
+          "name": "Jack Codiga",
+          "party": "REP"
+        },
+        {
+          "name": "Alma S. Adams",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "US HOUSE OF REPRESENTATIVES DISTRICT 13",
+      "kind": "house",
+      "district": "13",
+      "candidates": [
+        {
+          "name": "Paul Barringer",
+          "party": "DEM"
+        },
+        {
+          "name": "Steven Swinton",
+          "party": "LIB"
+        },
+        {
+          "name": "Brad Knott",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "US HOUSE OF REPRESENTATIVES DISTRICT 14",
+      "kind": "house",
+      "district": "14",
+      "candidates": [
+        {
+          "name": "Lakesha Womack",
+          "party": "DEM"
+        },
+        {
+          "name": "Tim Moore",
+          "party": "REP"
+        }
+      ]
+    }
+  ]
+}

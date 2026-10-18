@@ -1,0 +1,248 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+      "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+      "accessed": "October 17, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "Member, United States Senate",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Mark R. Warner",
+          "party": "Democratic"
+        },
+        {
+          "name": "Bert Mizusawa",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Member, House of Representatives 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Elaine G. Luria",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jen A. Kiggans",
+          "party": "Republican"
+        },
+        {
+          "name": "Geral D. \"Bishop\" Staten",
+          "party": "Independent"
+        },
+        {
+          "name": "J. Matt Baker",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "Member, House of Representatives 5",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Tom S. P. Perriello",
+          "party": "Democratic"
+        },
+        {
+          "name": "John J. McGuire III",
+          "party": "Republican"
+        },
+        {
+          "name": "Cooke C. Harvey",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "Member, House of Representatives 7",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Eugene S. Vindman",
+          "party": "Democratic"
+        },
+        {
+          "name": "Doug A. Ollivant",
+          "party": "Republican"
+        },
+        {
+          "name": "Taner E. Demirci Lopez",
+          "party": "Libertarian"
+        },
+        {
+          "name": "Alaha Ahrar",
+          "party": "Independent"
+        },
+        {
+          "name": "Joshua E. Ertle",
+          "party": "Independent"
+        },
+        {
+          "name": "Randall A. Terry",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "Member, House of Representatives 8",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "Donald S. Beyer, Jr.",
+          "party": "Democratic"
+        },
+        {
+          "name": "Tony A. Sabio",
+          "party": "Republican"
+        },
+        {
+          "name": "Shelly M. Arnoldi",
+          "party": "Libertarian"
+        },
+        {
+          "name": "Tim S. Sharman",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "Member, House of Representatives 6",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Beth A. Macy",
+          "party": "Democratic"
+        },
+        {
+          "name": "Ben L. Cline",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Member, House of Representatives 9",
+      "kind": "house",
+      "district": "9",
+      "candidates": [
+        {
+          "name": "Joy A. Powers",
+          "party": "Democratic"
+        },
+        {
+          "name": "H. Morgan Griffith",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Member, House of Representatives 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Jennifer L. McClellan",
+          "party": "Democratic"
+        },
+        {
+          "name": "Robert P. \"Family Man\" Murray, Jr.",
+          "party": "Republican"
+        },
+        {
+          "name": "Joan E. \"Andrews\" Bell",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "Member, House of Representatives 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Robert C. \"Bobby\" Scott",
+          "party": "Democratic"
+        },
+        {
+          "name": "Edwin Rivera, Jr.",
+          "party": "Republican"
+        },
+        {
+          "name": "Makiba A. Gaines",
+          "party": "Independent"
+        },
+        {
+          "name": "Stephen C. Woll",
+          "party": "Independent"
+        }
+      ]
+    },
+    {
+      "office": "Member, House of Representatives 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Shannon L. Taylor",
+          "party": "Democratic"
+        },
+        {
+          "name": "Robert J. \"Rob\" Wittman",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Member, House of Representatives 11",
+      "kind": "house",
+      "district": "11",
+      "candidates": [
+        {
+          "name": "James R. Walkinshaw",
+          "party": "Democratic"
+        },
+        {
+          "name": "Arthur G. Purves",
+          "party": "Republican"
+        },
+        {
+          "name": "Dianne L. Blais",
+          "party": "Green"
+        }
+      ]
+    },
+    {
+      "office": "Member, House of Representatives 10",
+      "kind": "house",
+      "district": "10",
+      "candidates": [
+        {
+          "name": "Suhas Subramanyam",
+          "party": "Democratic"
+        },
+        {
+          "name": "Dave T. Beckwith",
+          "party": "Republican"
+        },
+        {
+          "name": "Ahsen Mujeeb Malik",
+          "party": "Independent"
+        }
+      ]
+    }
+  ]
+}

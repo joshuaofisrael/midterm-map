@@ -1,0 +1,247 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "New Jersey Division of Elections, official general election candidates for U.S. Senate (July 27, 2026) and U.S. House of Representatives (September 4, 2026)",
+      "url": "https://nj.gov/state/elections/election-information-2026.shtml",
+      "accessed": "October 17, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "US Senate",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "CORY BOOKER",
+          "party": "Democratic"
+        },
+        {
+          "name": "JUSTIN MURPHY",
+          "party": "Republican"
+        },
+        {
+          "name": "JOANNE KUNIANSKY",
+          "party": "SOCIALIST WORKERS PARTY"
+        }
+      ]
+    },
+    {
+      "office": "First Congressional District",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "DONALD NORCROSS",
+          "party": "Democratic"
+        },
+        {
+          "name": "DAMON GALDO",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Second Congressional District",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "JEFF VAN DREW",
+          "party": "Republican"
+        },
+        {
+          "name": "ZACK MULLOCK",
+          "party": "Democratic"
+        },
+        {
+          "name": "RAMON MORA JR.",
+          "party": "INDEPENDENT"
+        }
+      ]
+    },
+    {
+      "office": "Third Congressional District",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "HERB CONAWAY",
+          "party": "Democratic"
+        },
+        {
+          "name": "MICHAEL P. MCGUIRE",
+          "party": "Republican"
+        },
+        {
+          "name": "STEVEN WELZER",
+          "party": "Green Party"
+        }
+      ]
+    },
+    {
+      "office": "Fourth Congressional District",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "CHRISTOPHER H. SMITH",
+          "party": "Republican"
+        },
+        {
+          "name": "RACHEL PEACE",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "Fifth Congressional District",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "JOSH GOTTHEIMER",
+          "party": "Democratic"
+        },
+        {
+          "name": "SEAN KIRRANE",
+          "party": "Republican"
+        },
+        {
+          "name": "ADAM RUEDA",
+          "party": "HUMANE SUSTAINABLE FUTURE"
+        }
+      ]
+    },
+    {
+      "office": "Sixth Congressional District",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "FRANK PALLONE JR.",
+          "party": "Democratic"
+        },
+        {
+          "name": "HILLARY HERZIG",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Seventh Congressional District",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "THOMAS H. KEAN JR.",
+          "party": "Republican"
+        },
+        {
+          "name": "REBECCA BENNETT",
+          "party": "Democratic"
+        },
+        {
+          "name": "SEAMUS PATRICK O'TOOLE",
+          "party": "STOP ISRAEL'S GENOCIDE"
+        }
+      ]
+    },
+    {
+      "office": "Eighth Congressional District",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "ROB MENENDEZ",
+          "party": "Democratic"
+        },
+        {
+          "name": "ARISTOTLE ELIOPOULOS",
+          "party": "INDEPENDENT"
+        },
+        {
+          "name": "CRAIG HONTS",
+          "party": "SOCIALIST WORKERS PARTY"
+        },
+        {
+          "name": "DA'SHONE HUGHEY",
+          "party": "WE THE PEOPLE"
+        }
+      ]
+    },
+    {
+      "office": "Ninth Congressional District",
+      "kind": "house",
+      "district": "9",
+      "candidates": [
+        {
+          "name": "NELIDA POU",
+          "party": "Democratic"
+        },
+        {
+          "name": "ROSIE PINO",
+          "party": "Republican"
+        },
+        {
+          "name": "TERRISA BUKOVINAC",
+          "party": "SAVE OUR BABIES"
+        }
+      ]
+    },
+    {
+      "office": "Tenth Congressional District",
+      "kind": "house",
+      "district": "10",
+      "candidates": [
+        {
+          "name": "LAMONICA R. MCIVER",
+          "party": "Democratic"
+        },
+        {
+          "name": "CARMEN BUCCO",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Eleventh Congressional District",
+      "kind": "house",
+      "district": "11",
+      "candidates": [
+        {
+          "name": "ANALILIA MEJIA",
+          "party": "Democratic"
+        },
+        {
+          "name": "JOE HATHAWAY",
+          "party": "Republican"
+        },
+        {
+          "name": "ALAN B. BOND",
+          "party": "HOPE FOR TOMORROW"
+        }
+      ]
+    },
+    {
+      "office": "Twelfth Congressional District",
+      "kind": "house",
+      "district": "12",
+      "candidates": [
+        {
+          "name": "ADAM HAMAWY",
+          "party": "Democratic"
+        },
+        {
+          "name": "ANDRES JINETE",
+          "party": "Green Party"
+        },
+        {
+          "name": "WINSTON JORDAN",
+          "party": "GET MONEY OUT"
+        }
+      ]
+    }
+  ]
+}

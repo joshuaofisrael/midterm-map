@@ -1,0 +1,87 @@
+{
+  "status": "published",
+  "sources": [
+    {
+      "name": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+      "url": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+      "accessed": "October 17, 2026"
+    }
+  ],
+  "contests": [
+    {
+      "office": "United States Senator",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "BEN R LUJAN",
+          "party": "DEM"
+        },
+        {
+          "name": "LARRY E MARKER",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative DISTRICT 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "MELANIE ANN STANSBURY",
+          "party": "DEM"
+        },
+        {
+          "name": "NDIDIAMAKA EKWUA CHARLENE OKPAREKE",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative DISTRICT 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "GREGORY G CUNNINGHAM",
+          "party": "REP"
+        },
+        {
+          "name": "GABRIEL VASQUEZ",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative DISTRICT 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "TERESA LEGER FERNANDEZ",
+          "party": "DEM"
+        },
+        {
+          "name": "MARTIN ZAMORA",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "Governor and Lieutenant Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "GREGGORY D HULL AND DAVID M GALLEGOS",
+          "party": "REP"
+        },
+        {
+          "name": "DEB HAALAND AND STEPHANIE GARCIA RICHARD",
+          "party": "DEM"
+        }
+      ]
+    }
+  ]
+}

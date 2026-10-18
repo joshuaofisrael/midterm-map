@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { AdSlot } from "@/components/AdSlot";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CandidateCard } from "@/components/CandidateCard";
 import { ContentTrust } from "@/components/ContentTrust";
@@ -20,8 +21,9 @@ import { AGGREGATORS } from "@/data/sources";
 import { getRace, RACES, racesForState } from "@/data/races";
 import { getState } from "@/data/states";
 import { contentUpdatedLabel } from "@/lib/contentDate";
-import { chamberLabel, faqJsonLd, ratingTone } from "@/lib/format";
-import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
+import { raceSeoDescription, raceSeoTitle, raceStructuredData } from "@/lib/citySeo";
+import { chamberLabel, ratingTone } from "@/lib/format";
+import { pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
   return RACES.map((race) => ({ slug: race.slug }));
@@ -31,10 +33,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const race = getRace(slug);
   if (!race) return {};
-  const names = race.candidates.map((candidate) => candidate.name).join(" vs. ");
   return pageMetadata({
-    title: race.title,
-    description: `${race.overview} ${names ? `Candidates include ${names}.` : ""} Informational only. Not an endorsement.`,
+    title: raceSeoTitle(race.shortTitle),
+    description: raceSeoDescription(race.title, race.overview),
     path: `/races/${race.slug}`,
   });
 }
@@ -50,18 +51,24 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
   const resultsReady = resultsHref.startsWith("/results/");
   const faqText = race.faqs.map((faq) => `${faq.question} ${faq.answer}`).join("\n");
   const faqCandidates = race.candidates.filter((candidate) => faqText.includes(candidate.name));
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "Races", path: "/races" },
+    { name: race.shortTitle, path: `/races/${race.slug}` },
+  ];
 
   return (
     <div className="space-y-8">
       <JsonLd
-        data={[
-          breadcrumbJsonLd([
-            { name: "Home", path: "/" },
-            { name: "Races", path: "/races" },
-            { name: race.shortTitle, path: `/races/${race.slug}` },
-          ]),
-          faqJsonLd(race.faqs),
-        ]}
+        data={raceStructuredData({
+          title: race.title,
+          shortTitle: race.shortTitle,
+          path: `/races/${race.slug}`,
+          stateCode: race.state,
+          stateName: state?.name ?? race.state,
+          faqs: race.faqs,
+          crumbs,
+        })}
       />
       <Breadcrumbs
         items={[
@@ -93,6 +100,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         officeLabel={state?.officialElectionOffice.label}
       />
       <OfficialNotice compact />
+      <AdSlot id="race-top" height={90} />
 
       <div className="grid gap-6 lg:grid-cols-[1.25fr_0.75fr]">
         <article className="space-y-8">
@@ -129,6 +137,11 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
               <li>
                 <Link className="text-navy hover:underline" href={`/states/${race.state}`}>
                   {state?.name} hub
+                </Link>
+              </li>
+              <li>
+                <Link className="text-navy hover:underline" href={`/cities/${race.state}`}>
+                  Census places in {state?.name ?? race.state}
                 </Link>
               </li>
               <li>
@@ -245,6 +258,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
           </ul>
         </section>
       )}
+      <AdSlot id="race-bottom" height={250} />
       <CrossLinks state={race.state} raceSlug={race.slug} />
       <EmailSignup />
       <FurtherReading />
