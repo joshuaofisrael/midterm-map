@@ -576,7 +576,7 @@ def parse_mi() -> dict:
             "Governor / Lt. Governor" in text or "U.S. Senate" in text or "Representative in Congress" in text
         ):
             flush()
-            office = text
+            office = re.sub(r"\s+Files In [A-Z][A-Za-z .'-]* County$", "", text)
             continue
         if "Position" in text or "Judge" in text or "Justice" in text:
             flush()

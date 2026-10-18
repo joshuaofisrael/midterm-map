@@ -41,8 +41,11 @@ for (const state of fs.readdirSync(citiesDir)) {
     if (!slim.includes('rel="canonical"') || !slim.includes("Unofficial information")) {
       throw new Error(`Required city markup missing in ${htmlPath}`);
     }
-    if (!slim.includes("2026_Gaz_place_national.zip") || !slim.includes("September 8, 2026")) {
-      throw new Error(`Gazetteer citation missing in ${htmlPath}`);
+    if (!slim.includes("/sources/#gazetteer")) {
+      throw new Error(`Sources link missing in ${htmlPath}`);
+    }
+    if (slim.includes("Starter state hubs") || slim.includes('"@type":"Organization"')) {
+      throw new Error(`Long site chrome remained in ${htmlPath}`);
     }
     fs.writeFileSync(htmlPath, slim);
     const txtPath = path.join(cityDir, "index.txt");

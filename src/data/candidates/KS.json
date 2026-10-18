@@ -1,11 +1,236 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Kansas Secretary of State — Elections",
-      "url": "https://sos.ks.gov/elections/elections.html",
-      "accessed": "October 17, 2026"
+      "name": "Kansas Secretary of State, Candidate Lists, 2026 General (national and state offices)",
+      "url": "https://sos.ks.gov/elections/elections_upcoming_candidate.aspx",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "United States Senate",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Adam Hamilton",
+          "party": "Democratic"
+        },
+        {
+          "name": "Roger Marshall",
+          "party": "Republican"
+        },
+        {
+          "name": "David C Graham",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "United States House of Representatives",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Lauren Reinhold",
+          "party": "Democratic"
+        },
+        {
+          "name": "Tracey Mann",
+          "party": "Republican"
+        },
+        {
+          "name": "Steven Jacob",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "United States House of Representatives",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Don Coover",
+          "party": "Democratic"
+        },
+        {
+          "name": "Derek Schmidt",
+          "party": "Republican"
+        },
+        {
+          "name": "John Hauer",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "United States House of Representatives",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Sharice L. Davids",
+          "party": "Democratic"
+        },
+        {
+          "name": "Eric Jenkins",
+          "party": "Republican"
+        },
+        {
+          "name": "Steven A Hohe",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "United States House of Representatives",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Katy Tyndell",
+          "party": "Democratic"
+        },
+        {
+          "name": "Ron Estes",
+          "party": "Republican"
+        },
+        {
+          "name": "Drew Cranmer",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "Governor / Lt. Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Cindy Holscher / KC Ohaebosim",
+          "party": "Democratic"
+        },
+        {
+          "name": "Ty Masterson / Jeffrey Klemp",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Jennifer Day",
+          "party": "Democratic"
+        },
+        {
+          "name": "Pat Proctor",
+          "party": "Republican"
+        },
+        {
+          "name": "Scott E. Morgan",
+          "party": "United Kansas"
+        }
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Chris Mann",
+          "party": "Democratic"
+        },
+        {
+          "name": "Kris Kobach",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "State Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Juan C. Luengo",
+          "party": "Democratic"
+        },
+        {
+          "name": "Steven Johnson",
+          "party": "Republican"
+        },
+        {
+          "name": "Eric Lund",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "Commissioner of Insurance",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Dinah Sykes",
+          "party": "Democratic"
+        },
+        {
+          "name": "Daniel Hawkins",
+          "party": "Republican"
+        },
+        {
+          "name": "Ric Koehn",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "Supreme Court Justice",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Eric S. Rosen",
+          "party": ""
+        },
+        {
+          "name": "Larkin E. Walsh",
+          "party": ""
+        }
+      ]
+    },
+    {
+      "office": "Court of Appeals Judge",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Lesley Ann Isherwood",
+          "party": ""
+        },
+        {
+          "name": "Amy Fellows Cline",
+          "party": ""
+        },
+        {
+          "name": "Kim R. Schroeder",
+          "party": ""
+        },
+        {
+          "name": "Lori Ann Bolton Fleming",
+          "party": ""
+        },
+        {
+          "name": "Jacy Hurst",
+          "party": ""
+        }
+      ]
+    }
+  ]
 }

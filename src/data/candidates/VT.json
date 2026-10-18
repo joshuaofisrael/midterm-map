@@ -1,11 +1,154 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Vermont Secretary of State — Elections Division",
-      "url": "https://sos.vermont.gov/elections",
-      "accessed": "October 17, 2026"
+      "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet “Last Updated: 9/23/2026”)",
+      "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
+      "accessed": "October 18, 2026",
+      "published": "September 23, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "REPRESENTATIVE TO CONGRESS",
+      "kind": "house",
+      "district": "0",
+      "candidates": [
+        {
+          "name": "PHOENIX K. ALTAIR",
+          "party": "INDEPENDENT"
+        },
+        {
+          "name": "BECCA BALINT",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "GERALD MALLOY",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "ADAM ORTIZ",
+          "party": "INDEPENDENT"
+        },
+        {
+          "name": "SUZANNE \"SUZ\" SEYMOUR",
+          "party": "INDEPENDENT"
+        },
+        {
+          "name": "RYAN P. WALTON",
+          "party": "INDEPENDENT"
+        }
+      ]
+    },
+    {
+      "office": "GOVERNOR",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "JUNE GOODBAND",
+          "party": "PEACE AND JUSTICE"
+        },
+        {
+          "name": "AMANDA JANOO",
+          "party": "DEM/PROG"
+        },
+        {
+          "name": "BRIAN JUDD",
+          "party": "INDEPENDENT"
+        },
+        {
+          "name": "DEAN ROY",
+          "party": "FREEDOM AND UNITY"
+        },
+        {
+          "name": "PHIL SCOTT",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "LIEUTENANT GOVERNOR",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "MOLLY GRAY",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "JOHN S. RODGERS",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "STATE TREASURER",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "ZACHARY HAMPL",
+          "party": "PROGRESSIVE"
+        },
+        {
+          "name": "LYNN LAFLEUR",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "MIKE PIECIAK",
+          "party": "DEMOCRATIC"
+        }
+      ]
+    },
+    {
+      "office": "SECRETARY OF STATE",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "SARAH COPELAND HANZAS",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "H. BROOKE PAIGE",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "RACHEL SHAW",
+          "party": "PROGRESSIVE"
+        }
+      ]
+    },
+    {
+      "office": "AUDITOR OF ACCOUNTS",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "TIM ASHE",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "IVAR KRONICK",
+          "party": "REPUBLICAN"
+        }
+      ]
+    },
+    {
+      "office": "ATTORNEY GENERAL",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "CHARITY R. CLARK",
+          "party": "DEMOCRATIC"
+        },
+        {
+          "name": "EDWIN HOWELL KEMON",
+          "party": "REPUBLICAN"
+        }
+      ]
+    }
+  ]
 }

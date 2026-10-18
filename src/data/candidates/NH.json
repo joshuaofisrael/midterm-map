@@ -1,11 +1,84 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "New Hampshire Secretary of State — Elections",
-      "url": "https://www.sos.nh.gov/elections",
-      "accessed": "October 17, 2026"
+      "name": "New Hampshire Secretary of State, 2026 General Election Candidates (Election Candidate List with Address), linked from the 2026 Election Details page",
+      "url": "https://mm.nh.gov/files/uploads/sos/docs/2026-ge-candidate-list.pdf",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Cinde Warmington",
+          "party": "DEM"
+        },
+        {
+          "name": "Kelly Ayotte",
+          "party": "REP"
+        },
+        {
+          "name": "Stephen Villee",
+          "party": "LIB"
+        }
+      ]
+    },
+    {
+      "office": "United States Senator",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Chris Pappas",
+          "party": "DEM"
+        },
+        {
+          "name": "John E. Sununu",
+          "party": "REP"
+        },
+        {
+          "name": "Edmond Laplante",
+          "party": "CON"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress, District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Stefany Shaheen",
+          "party": "DEM"
+        },
+        {
+          "name": "Anthony DiLorenzo",
+          "party": "REP"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress, District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Maggie Goodlander",
+          "party": "DEM"
+        },
+        {
+          "name": "Lily Tang Williams",
+          "party": "REP"
+        },
+        {
+          "name": "Robbie Mahrou",
+          "party": "IND"
+        }
+      ]
+    }
+  ]
 }

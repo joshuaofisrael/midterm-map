@@ -44,6 +44,11 @@ export function SiteFooter() {
                 Census places
               </Link>
             </li>
+            <li>
+              <Link className="hover:underline" href="/sources">
+                Sources
+              </Link>
+            </li>
           </ul>
         </div>
         <div>

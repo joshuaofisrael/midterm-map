@@ -1,11 +1,281 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "SC Votes — South Carolina Election Commission",
-      "url": "https://www.scvotes.gov/",
-      "accessed": "October 17, 2026"
+      "name": "South Carolina State Election Commission, Candidate Tracking, 11/3/2026 Statewide General Election (election 22596); Active candidates, Name on Ballot column",
+      "url": "https://vrems.scvotes.sc.gov/Candidate/CandidateSearch?electionId=22596",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "Governor and Lieutenant Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Michael Addison and Candace Brewer",
+          "party": "United Citizens"
+        },
+        {
+          "name": "Walid Hakim and Arnold E Karr",
+          "party": "Green"
+        },
+        {
+          "name": "Jermaine Johnson and Sam Skardon",
+          "party": "Democratic"
+        },
+        {
+          "name": "Alan Wilson and Mike Reichenbach",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Jason Belton",
+          "party": "Democratic"
+        },
+        {
+          "name": "Mark Hammond",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "State Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Vincent Coe",
+          "party": "Democratic"
+        },
+        {
+          "name": "Curtis Loftis",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Richard Hricik",
+          "party": "Democratic"
+        },
+        {
+          "name": "David Stumbo",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Comptroller General",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Tiffany Boozer",
+          "party": "Democratic"
+        },
+        {
+          "name": "Mike Burkhold",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "State Superintendent of Education",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Baba Amin Ojuok",
+          "party": "United Citizens"
+        },
+        {
+          "name": "Ellen Weaver",
+          "party": "Republican"
+        },
+        {
+          "name": "Sylvia Wright",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "Commissioner of Agriculture",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "DeShawn Blanding",
+          "party": "Democratic"
+        },
+        {
+          "name": "Chris Nelums",
+          "party": "United Citizens"
+        },
+        {
+          "name": "Cody Simpson",
+          "party": "Republican"
+        },
+        {
+          "name": "Michael Sullens",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "U.S. Senate",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Annie Andrews",
+          "party": "Democratic"
+        },
+        {
+          "name": "Darline Graham",
+          "party": "Republican"
+        },
+        {
+          "name": "Mark Hackett",
+          "party": "Constitution"
+        },
+        {
+          "name": "Kasie Whitener",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "U.S. House of Representatives, District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Jenny Costa Honeycutt",
+          "party": "Republican"
+        },
+        {
+          "name": "Nancy Lacore",
+          "party": "Democratic"
+        },
+        {
+          "name": "Bill Reeside",
+          "party": "Libertarian"
+        }
+      ]
+    },
+    {
+      "office": "U.S. House of Representatives, District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Zyon Khalifa",
+          "party": "Democratic"
+        },
+        {
+          "name": "Dayna Alane Smith",
+          "party": "Workers"
+        },
+        {
+          "name": "Joe Wilson",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "U.S. House of Representatives, District 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Sheri Biggs",
+          "party": "Republican"
+        },
+        {
+          "name": "Brian Corriea",
+          "party": "Libertarian"
+        },
+        {
+          "name": "Eunice Lehmacher",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "U.S. House of Representatives, District 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Jessica Ethridge",
+          "party": "Libertarian"
+        },
+        {
+          "name": "Courtney McClain",
+          "party": "Democratic"
+        },
+        {
+          "name": "William Timmons",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "U.S. House of Representatives, District 5",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Wes Climer",
+          "party": "Republican"
+        },
+        {
+          "name": "Mallory Dittmer",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "U.S. House of Representatives, District 6",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "James E Jim Clyburn",
+          "party": "Democratic"
+        },
+        {
+          "name": "John Peterson",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "U.S. House of Representatives, District 7",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Russell Fry",
+          "party": "Republican"
+        },
+        {
+          "name": "John Gregory Vincent",
+          "party": "Democratic"
+        }
+      ]
+    }
+  ]
 }

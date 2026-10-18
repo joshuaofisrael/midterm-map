@@ -1,11 +1,266 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Oklahoma State Election Board",
-      "url": "https://oklahoma.gov/elections.html",
-      "accessed": "October 17, 2026"
+      "name": "Oklahoma State Election Board, November 2026 List of Elections",
+      "url": "https://hosting.okelections.gov/electionlist.html",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "GOVERNOR",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "MIKE MAZZEI",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "CYNDI MUNSON",
+          "party": "DEMOCRAT"
+        },
+        {
+          "name": "ORLANDO LYNN BUSH",
+          "party": "INDEPENDENT"
+        },
+        {
+          "name": "ROBERT E BROOKS SR",
+          "party": "INDEPENDENT"
+        },
+        {
+          "name": "JERRY GRIFFIN",
+          "party": "INDEPENDENT"
+        }
+      ]
+    },
+    {
+      "office": "LIEUTENANT GOVERNOR",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "T. W. SHANNON",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "KELLY FORBES",
+          "party": "DEMOCRAT"
+        }
+      ]
+    },
+    {
+      "office": "ATTORNEY GENERAL",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "JON ECHOLS",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "NICK COFFEY",
+          "party": "DEMOCRAT"
+        }
+      ]
+    },
+    {
+      "office": "STATE TREASURER",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "CINDY BYRD",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "KIEFER PERRY",
+          "party": "LIBERTARIAN"
+        }
+      ]
+    },
+    {
+      "office": "SUPERINTENDENT OF PUBLIC INSTRUCTION",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "ROBERT FRANKLIN",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "JENNETTIE MARSHALL",
+          "party": "DEMOCRAT"
+        }
+      ]
+    },
+    {
+      "office": "COMMISSIONER OF LABOR",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "KEVIN WEST",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "KEVIN DAWSON",
+          "party": "DEMOCRAT"
+        },
+        {
+          "name": "MIKE HALL",
+          "party": "LIBERTARIAN"
+        }
+      ]
+    },
+    {
+      "office": "INSURANCE COMMISSIONER",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "BOB SULLIVAN",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "CRAIG MacINTYRE",
+          "party": "DEMOCRAT"
+        }
+      ]
+    },
+    {
+      "office": "CORPORATION COMMISSIONER",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "BRAD BOLES",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "RHONDA EASTMAN",
+          "party": "DEMOCRAT"
+        }
+      ]
+    },
+    {
+      "office": "UNITED STATES SENATOR",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "KEVIN HERN",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "N'KIYLA JASMINE THOMAS",
+          "party": "DEMOCRAT"
+        },
+        {
+          "name": "SEVIER WHITE",
+          "party": "LIBERTARIAN"
+        },
+        {
+          "name": "RON MEINHARDT",
+          "party": "INDEPENDENT"
+        },
+        {
+          "name": "CURTIS STINNETT",
+          "party": "INDEPENDENT"
+        }
+      ]
+    },
+    {
+      "office": "UNITED STATES REPRESENTATIVE - DISTRICT 01",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "MARK TEDFORD",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "JOHN CROISANT",
+          "party": "DEMOCRAT"
+        }
+      ]
+    },
+    {
+      "office": "UNITED STATES REPRESENTATIVE - DISTRICT 02",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "JOSH BRECHEEN",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "BRANDON WADE",
+          "party": "DEMOCRAT"
+        },
+        {
+          "name": "RONNIE HOPKINS",
+          "party": "INDEPENDENT"
+        }
+      ]
+    },
+    {
+      "office": "UNITED STATES REPRESENTATIVE - DISTRICT 03",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "FRANK D. LUCAS",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "SUZIE BYRD",
+          "party": "DEMOCRAT"
+        }
+      ]
+    },
+    {
+      "office": "UNITED STATES REPRESENTATIVE - DISTRICT 04",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "TOM COLE",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "MITCHELL JACOB",
+          "party": "DEMOCRAT"
+        },
+        {
+          "name": "ROCCO BONACCI",
+          "party": "INDEPENDENT"
+        }
+      ]
+    },
+    {
+      "office": "UNITED STATES REPRESENTATIVE - DISTRICT 05",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "STEPHANIE BICE",
+          "party": "REPUBLICAN"
+        },
+        {
+          "name": "JENA NELSON",
+          "party": "DEMOCRAT"
+        },
+        {
+          "name": "ROBERT P. HENRI",
+          "party": "INDEPENDENT"
+        },
+        {
+          "name": "AUSTIN NIEVES",
+          "party": "INDEPENDENT"
+        }
+      ]
+    }
+  ]
 }

@@ -1,11 +1,305 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Pennsylvania Department of State — Voting",
-      "url": "https://www.pa.gov/agencies/vote",
-      "accessed": "October 17, 2026"
+      "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+      "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "GOVERNOR",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "KRAWCHUK, KENNETH V",
+          "party": "Libertarian"
+        },
+        {
+          "name": "GARRITY, STACY LORRAINE",
+          "party": "Republican"
+        },
+        {
+          "name": "SHAPIRO, JOSHUA D",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "LIEUTENANT GOVERNOR",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "THOMAS, JOHN C",
+          "party": "Libertarian"
+        },
+        {
+          "name": "RICHEY, JASON L",
+          "party": "Republican"
+        },
+        {
+          "name": "DAVIS, AUSTIN",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "FITZPATRICK, BRIAN",
+          "party": "Republican"
+        },
+        {
+          "name": "HARVIE JR, ROBERT J",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "ARRIAGA, JESSICA",
+          "party": "Republican"
+        },
+        {
+          "name": "BOYLE, BRENDAN F",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "MAHONEY, DENNIS JOSEPH",
+          "party": "The Independent Party"
+        },
+        {
+          "name": "RABB, CHRISTOPHER M",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "STUSKI, AURORA",
+          "party": "Republican"
+        },
+        {
+          "name": "DEAN CUNNANE, MADELEINE",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "MANGANARO, NICHOLAS W",
+          "party": "Republican"
+        },
+        {
+          "name": "SCANLON, MARY GAY",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "YOUNG, MARTIN",
+          "party": "Republican"
+        },
+        {
+          "name": "HOULAHAN, CHRISSY JAMPOLER",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "BROOKS, ROBERT R",
+          "party": "Democratic"
+        },
+        {
+          "name": "MACKENZIE, RYAN E",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "BRESNAHAN JR, ROBERT PAUL",
+          "party": "Republican"
+        },
+        {
+          "name": "COGNETTI, PAIGE",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "9",
+      "candidates": [
+        {
+          "name": "WALLACE, RACHEL LILLIAN",
+          "party": "Democratic"
+        },
+        {
+          "name": "MEUSER, DANIEL PHILIP",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "10",
+      "candidates": [
+        {
+          "name": "STELSON, JANELLE",
+          "party": "Democratic"
+        },
+        {
+          "name": "PERRY, SCOTT",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "11",
+      "candidates": [
+        {
+          "name": "MANNION, NANCY ELLEN",
+          "party": "Democratic"
+        },
+        {
+          "name": "SMUCKER, LLOYD K",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "12",
+      "candidates": [
+        {
+          "name": "HAYES, JAMES KEVIN",
+          "party": "Republican"
+        },
+        {
+          "name": "LEE, SUMMER LYNN",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "13",
+      "candidates": [
+        {
+          "name": "FARNHAM, ELIZABETH RHOADS",
+          "party": "Democratic"
+        },
+        {
+          "name": "JOYCE, JOHN",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "14",
+      "candidates": [
+        {
+          "name": "BRADSTOCK, DAVID ALAN",
+          "party": "Democratic"
+        },
+        {
+          "name": "RESCHENTHALER, GUY LORIN",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "15",
+      "candidates": [
+        {
+          "name": "BILGER, RAY",
+          "party": "Democratic"
+        },
+        {
+          "name": "THOMPSON JR, GLENN WILLIAM",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "16",
+      "candidates": [
+        {
+          "name": "KELLY JR., GEORGE JOSEPH",
+          "party": "Republican"
+        },
+        {
+          "name": "WAGNER, JUSTIN REED",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "REPRESENTATIVE IN CONGRESS",
+      "kind": "house",
+      "district": "17",
+      "candidates": [
+        {
+          "name": "GUY, ANTHONY G",
+          "party": "Republican"
+        },
+        {
+          "name": "DELUZIO, CHRISTOPHER RAPHAEL",
+          "party": "Democratic"
+        }
+      ]
+    }
+  ]
 }
