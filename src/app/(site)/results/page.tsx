@@ -4,11 +4,12 @@ import { ContentTrust } from "@/components/ContentTrust";
 import { ControlMeter } from "@/components/ControlMeter";
 import { CrossLinks } from "@/components/CrossLinks";
 import { JsonLd } from "@/components/JsonLd";
+import { LivePanel } from "@/components/LivePanel";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { SourceLines } from "@/components/SourceLines";
 import { StatusChip } from "@/components/StatusChip";
-import { getRace } from "@/data/races";
+import { getRace, RACES } from "@/data/races";
 import {
   ADDITIONAL_RESULT_SLUGS,
   HOUSE_METER,
@@ -60,10 +61,12 @@ export default function ResultsPage() {
         </div>
         <p className="mt-2 text-sm leading-6">
           {preElection
-            ? `Election Day is ${SITE.electionDayLabel}. This page stays in awaiting-returns mode until that date. No live government or paid AP feed is connected.`
+            ? `Election Day is ${SITE.electionDayLabel}. The tables on this page stay in awaiting-returns mode. The live panel copies figures from official state election-office files after polls close.`
             : "If numbers appear after Election Day, treat them as unofficial until the relevant election authority certifies the contest."}
         </p>
       </div>
+
+      <LivePanel raceSlugs={RACES.map((race) => race.slug)} />
 
       <div className="grid gap-4 lg:grid-cols-2">
         <ControlMeter meter={HOUSE_METER} />

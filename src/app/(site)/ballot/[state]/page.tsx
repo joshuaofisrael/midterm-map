@@ -7,6 +7,7 @@ import { CrossLinks } from "@/components/CrossLinks";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import { LivePanel } from "@/components/LivePanel";
 import { SourceLines, uniqueCitations } from "@/components/SourceLines";
 import { StatusChip } from "@/components/StatusChip";
 import { ballotStateFaqs } from "@/data/ballotFaqs";
@@ -77,6 +78,7 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
         officeLabel={state.officialElectionOffice.label}
       />
       <OfficialNotice />
+      <LivePanel stateCode={state.code} />
       <BallotLookup initialState={state.code} />
 
       <aside className="rounded-xl border border-line bg-paper-card p-5">

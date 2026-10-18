@@ -171,18 +171,24 @@ function lastModifiedFor(path: string): string {
   return pageChanged(path) ? CONTENT_UPDATED : SITE.lastUpdated;
 }
 
+function changeFrequencyFor(path: string): "hourly" | "weekly" | "monthly" {
+  if (path === "/live") return "hourly";
+  if (path === "" || path === "/voting-deadlines" || path.startsWith("/states/")) return "weekly";
+  return "monthly";
+}
+
 function sitemapEntry(path: string, priority: number): MetadataRoute.Sitemap[number] {
   return {
     url: absoluteUrl(path || "/"),
     lastModified: new Date(lastModifiedFor(path)),
-    changeFrequency:
-      path === "" || path === "/voting-deadlines" || path.startsWith("/states/") ? "weekly" : "monthly",
+    changeFrequency: changeFrequencyFor(path),
     priority,
   };
 }
 
 function priorityFor(path: string): number {
   if (path === "") return 1;
+  if (path === "/live") return 0.8;
   if (path === "/cities") return 0.7;
   if (path === "/voting-deadlines" || path.startsWith("/states/")) return 0.8;
   if (path.startsWith("/races/")) return 0.8;
@@ -199,6 +205,7 @@ function coreSitemap(): MetadataRoute.Sitemap {
     "/races",
     "/polls",
     "/results",
+    "/live",
     "/about",
     "/disclaimer",
     "/privacy",

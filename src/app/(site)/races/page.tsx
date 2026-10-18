@@ -3,6 +3,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentTrust } from "@/components/ContentTrust";
 import { CrossLinks } from "@/components/CrossLinks";
 import { JsonLd } from "@/components/JsonLd";
+import { LivePanel } from "@/components/LivePanel";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { RaceCard } from "@/components/RaceCard";
@@ -46,6 +47,7 @@ export default function RacesPage() {
       />
       <ContentTrust updated={contentUpdatedLabel("/races")} pagePath="/races" />
       <OfficialNotice compact />
+      <LivePanel raceSlugs={RACES.map((race) => race.slug)} />
       {GROUPS.map((group) => (
         <section key={group.key}>
           <h2 className="font-serif text-2xl font-semibold">{group.title}</h2>
