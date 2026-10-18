@@ -7,7 +7,9 @@
     "dev": "next dev",
     "build": "node scripts/write-sitemap-index.mjs && next build && node scripts/slim-city-pages.mjs",
     "start": "python3 -m http.server 3000 --directory out",
-    "lint": "next lint"
+    "lint": "next lint",
+    "live:dry-run": "node scripts/live/fetch.mjs --dry-run",
+    "test:live": "node --test scripts/live/parse.test.mjs"
   },
   "dependencies": {
     "next": "^15.5.4",

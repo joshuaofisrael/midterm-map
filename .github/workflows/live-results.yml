@@ -1,0 +1,53 @@
+name: Live election results
+
+# The static site is too large to rebuild every few minutes.
+# This job writes one small JSON file to the live-results branch.
+# Pages poll that file. The schedule is every 10 minutes all year;
+# the script exits immediately except on November 3 and 4, 2026,
+# and on later days through December 15 while countsContinue is true.
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Fetch and write the JSON without publishing the branch
+        type: boolean
+        default: false
+      stop_counting:
+        description: Stop later-day checks after this run
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-results
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch official results
+        id: fetch
+        run: node scripts/live/fetch.mjs
+        env:
+          LIVE_DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && (inputs.dry_run == true || inputs.dry_run == 'true') && 'true' || '' }}
+          LIVE_STOP: ${{ github.event_name == 'workflow_dispatch' && (inputs.stop_counting == true || inputs.stop_counting == 'true') && 'true' || '' }}
+
+      - name: Publish results JSON
+        if: steps.fetch.outputs.publish == 'true'
+        run: node scripts/live/publish.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

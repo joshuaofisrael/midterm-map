@@ -1,4 +1,5 @@
 import { CENSUS_PLACES_UPDATED } from "@/data/censusSources";
+import liveSources from "@/data/live-sources.json";
 import { ELECTION_DATES, electionDatesFor } from "@/data/electionDates";
 import { pollsForRace } from "@/data/polls";
 import { getRace, RACES, racesForState } from "@/data/races";
@@ -119,10 +120,37 @@ function racePageLabels(race: RaceGuide): string[] {
   ];
 }
 
+const MONTH_NAMES = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+
+/** Long date stored on the live-sources catalog (`checkedOn`). */
+function liveSourcesCheckedLabel(): string {
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(liveSources.checkedOn);
+  if (!match) {
+    throw new Error("live-sources.json checkedOn is not YYYY-MM-DD");
+  }
+  const month = MONTH_NAMES[Number(match[2]) - 1];
+  if (!month) throw new Error("live-sources.json checkedOn has a bad month");
+  return `${month} ${Number(match[3])}, ${match[1]}`;
+}
+
 /** Long date for a site path, or null when this path has no trust-line date. */
 export function contentUpdatedLabelForPath(path: string): string | null {
   const clean = path.replace(/\/+$/, "") || "/";
 
+  if (clean === "/live") return liveSourcesCheckedLabel();
   if (clean === "/cities" || clean.startsWith("/cities/")) return CENSUS_PLACES_UPDATED;
   if (clean === "/voting-deadlines") return latestContentLabel(votingDeadlineLabels());
   if (clean === "/ballot") {

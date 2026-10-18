@@ -4,6 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentTrust } from "@/components/ContentTrust";
 import { CrossLinks } from "@/components/CrossLinks";
 import { JsonLd } from "@/components/JsonLd";
+import { LivePanel } from "@/components/LivePanel";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { SourceLines } from "@/components/SourceLines";
@@ -70,6 +71,7 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
         officeLabel={state?.officialElectionOffice.label}
       />
       <OfficialNotice />
+      <LivePanel stateCode={race.state} raceSlugs={[race.slug]} />
 
       <section className="rounded-xl border border-line bg-paper-card p-5">
         <div className="flex flex-wrap items-center gap-2">

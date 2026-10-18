@@ -8,6 +8,7 @@ import { CrossLinks } from "@/components/CrossLinks";
 import { EmailSignup } from "@/components/EmailSignup";
 import { FurtherReading } from "@/components/FurtherReading";
 import { JsonLd } from "@/components/JsonLd";
+import { LivePanel } from "@/components/LivePanel";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { PollTable } from "@/components/PollTable";
@@ -100,6 +101,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         officeLabel={state?.officialElectionOffice.label}
       />
       <OfficialNotice compact />
+      <LivePanel stateCode={race.state} raceSlugs={[race.slug]} />
       <AdSlot id="race-top" height={90} />
 
       <div className="grid gap-6 lg:grid-cols-[1.25fr_0.75fr]">

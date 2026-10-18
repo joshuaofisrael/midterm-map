@@ -53,6 +53,7 @@ export const PRIMARY_NAV = [
   { href: "/races", label: "Races" },
   { href: "/polls", label: "Polls" },
   { href: "/results", label: "Results" },
+  { href: "/live", label: "Live" },
 ] as const;
 
 export function contactMailto(): string {
