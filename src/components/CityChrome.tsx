@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { SITE } from "@/data/site";
+import { CookieChoicesButton } from "@/components/GoogleAnalytics";
 
 /** Short header and footer for Census place pages. */
 export function CityChrome({ children }: { children: ReactNode }) {
@@ -33,6 +34,8 @@ export function CityChrome({ children }: { children: ReactNode }) {
           <Link href="/disclaimer">Disclaimer</Link>
           {" · "}
           <Link href="/contact">Contact</Link>
+          {" · "}
+          <CookieChoicesButton />
         </p>
       </footer>
     </div>
