@@ -5,12 +5,13 @@ import { PageHeader } from "@/components/PageHeader";
 import { AFFILIATE, affiliateEnabled, EMAIL_SIGNUP, emailSignupEnabled, tipJarEnabled } from "@/data/monetization";
 import { contactMailto, SITE } from "@/data/site";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
+import { FORMSUBMIT_PRIVACY, FORMSUBMIT_URL } from "@/components/ContactForm";
 import { CookieChoicesButton, GA_MEASUREMENT_ID } from "@/components/GoogleAnalytics";
 
 export const metadata = pageMetadata({
   title: "Privacy Policy",
   description:
-    `Privacy practices for ${SITE.name} (Joshua Israel Ventures LLC): no accounts, browser-only ZIP lookup, cookieless Cloudflare Web Analytics, Google Analytics only with your consent, GitHub Pages hosting logs, optional tips through Stripe, email alert and affiliate link terms, no sale of personal information, and your privacy rights.`,
+    `Privacy practices for ${SITE.name} (Joshua Israel Ventures LLC): no accounts, browser-only ZIP lookup, a FormSubmit contact form, cookieless Cloudflare Web Analytics, Google Analytics only with your consent, GitHub Pages hosting logs, optional tips through Stripe, email alert and affiliate link terms, no sale of personal information, and your privacy rights.`,
   path: "/privacy",
 });
 
@@ -96,7 +97,7 @@ export default function PrivacyPage() {
             described below.
           </li>
           <li>Hosting: security logs kept by GitHub Pages.</li>
-          <li>Email you choose to send us.</li>
+          <li>Messages you choose to send us by email or through the contact form (delivered by FormSubmit).</li>
           <li>
             {affiliates
               ? "Affiliate links: if you click one, the retailer may set cookies on its own site."
@@ -104,8 +105,8 @@ export default function PrivacyPage() {
           </li>
         </ul>
         <p>
-          The site has no contact form (we do not use FormSubmit or any other form service; you
-          contact us by email), and it does not run Google AdSense or any other advertising network.
+          The contact form is processed by FormSubmit, which emails your message to us. The site
+          does not run Google AdSense or any other advertising network.
         </p>
 
         <h2>Summary</h2>
@@ -132,7 +133,7 @@ export default function PrivacyPage() {
           <li>
             {signup
               ? "If you sign up for the election-night alert, we use your email address only for that alert and occasional site updates. We never sell it."
-              : "We do not collect email addresses through the site unless you email us."}
+              : "We do not collect email addresses through the site unless you email us or use the contact form."}
           </li>
         </ul>
 
@@ -333,6 +334,20 @@ export default function PrivacyPage() {
           email provider (Google), which processes messages under its own terms.
         </p>
 
+        <h2 id="contact-form">Contact form (FormSubmit)</h2>
+        <p>
+          The contact form on the <Link href="/contact">contact page</Link> is processed by{" "}
+          <a href={FORMSUBMIT_URL} rel="noopener noreferrer">FormSubmit</a> (formsubmit.co), a
+          third-party form service. When you submit it, your name, email address, message, and the
+          page you were reporting (if any) are sent to FormSubmit, which emails them to{" "}
+          {SITE.email} so {SITE.legalName} can read and reply. FormSubmit may show a spam check
+          (captcha) and processes submissions under its own{" "}
+          <a href={FORMSUBMIT_PRIVACY} rel="noopener noreferrer">privacy policy</a>. We use what you
+          send only to reply, handle a correction or privacy request, or keep an ordinary business
+          record, and we never add you to a mailing list. The form is optional; you can email us
+          directly instead.
+        </p>
+
         <h2>How we use information</h2>
         <ul>
           <li>To operate, secure, and fix the website</li>
@@ -371,7 +386,7 @@ export default function PrivacyPage() {
           {tips ? " For tips, the legal basis is processing needed to take your payment and to meet tax and accounting obligations." : ""}
           {signup ? " For the email alert, the legal basis is your consent, which you can withdraw at any time by unsubscribing." : ""}{" "}
           Information is processed in the United States by us and by our service providers
-          (Cloudflare, GitHub, Google for analytics and for email we receive{tips ? ", Stripe for tips" : ""}
+          (Cloudflare, GitHub, FormSubmit for contact form messages, Google for analytics and for email we receive{tips ? ", Stripe for tips" : ""}
           {signup ? ", and our email alert provider" : ""}). Subject to the conditions in
           those laws, you may ask to access, correct, delete, or restrict our use of your personal
           information, object to our use of it, or receive a copy of it. You may also complain to
@@ -393,7 +408,7 @@ export default function PrivacyPage() {
         <p>
           Email <a href={contactMailto()}>{SITE.email}</a> with “Privacy request” in the subject line
           and tell us what you are asking for. Because we do not have accounts, we usually hold no
-          personal information about visitors other than emails they have sent us
+          personal information about visitors other than emails and contact form messages they have sent us
           {tips ? ", records of tips" : ""}
           {signup ? ", and alert subscribers’ email addresses" : ""}. We may need to
           confirm that a request comes from the person the information is about, and we will
