@@ -1,11 +1,148 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Wyoming Secretary of State — Elections",
-      "url": "https://sos.wyo.gov/Elections/Default.aspx",
-      "accessed": "October 17, 2026"
+      "name": "Wyoming Secretary of State, 2026 General Election Candidate Roster",
+      "url": "https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.pdf",
+      "accessed": "October 18, 2026",
+      "published": "September 9, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "UNITED STATES SENATOR",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Harriet Hageman",
+          "party": "Republican"
+        },
+        {
+          "name": "James Byrd",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "UNITED STATES REPRESENTATIVE",
+      "kind": "house",
+      "district": "0",
+      "candidates": [
+        {
+          "name": "Chuck Gray",
+          "party": "Republican"
+        },
+        {
+          "name": "Lisa Kinney",
+          "party": "Democratic"
+        },
+        {
+          "name": "Shawn Johnson",
+          "party": "Libertarian"
+        },
+        {
+          "name": "Jeffrey Haggit",
+          "party": "Constitution"
+        }
+      ]
+    },
+    {
+      "office": "GOVERNOR",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Eric Barlow",
+          "party": "Republican"
+        },
+        {
+          "name": "Kenneth R. Casner",
+          "party": "Democratic"
+        },
+        {
+          "name": "Rebecca Bextel",
+          "party": "Constitution"
+        }
+      ]
+    },
+    {
+      "office": "SECRETARY OF STATE",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Robert Short",
+          "party": "Republican"
+        },
+        {
+          "name": "Bryan McCarty",
+          "party": "Democratic"
+        },
+        {
+          "name": "Tamara Trujillo",
+          "party": "Constitution"
+        }
+      ]
+    },
+    {
+      "office": "STATE AUDITOR",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Kristi Racines",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "STATE TREASURER",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Curt Meier",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "SUPERINTENDENT OF PUBLIC INSTRUCTION",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Steve Harshman",
+          "party": "Republican"
+        },
+        {
+          "name": "Ana Cordova",
+          "party": "Democratic"
+        }
+      ]
+    },
+    {
+      "office": "JUSTICE OF THE SUPREME COURT",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Bridget Hill",
+          "party": ""
+        }
+      ]
+    },
+    {
+      "office": "JUSTICE OF THE SUPREME COURT",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Robert C. Jarosh",
+          "party": ""
+        }
+      ]
+    }
+  ]
 }

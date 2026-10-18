@@ -1,11 +1,166 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "North Dakota Secretary of State — Elections",
-      "url": "https://www.sos.nd.gov/elections",
-      "accessed": "October 17, 2026"
+      "name": "North Dakota Secretary of State, 2026 General Election Contest/Candidate List, statewide jurisdiction",
+      "url": "https://vip.sos.nd.gov/candidatelist.aspx?eid=348",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "Representative in Congress",
+      "kind": "house",
+      "district": "0",
+      "candidates": [
+        {
+          "name": "Julie Fedorchak",
+          "party": "Republican"
+        },
+        {
+          "name": "Trygve Hammer",
+          "party": "Democratic-NPL"
+        },
+        {
+          "name": "Helene Neville",
+          "party": "independent nomination"
+        },
+        {
+          "name": "Charles Tuttle",
+          "party": "independent nomination"
+        }
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Ryan Braunberger",
+          "party": "Democratic-NPL"
+        },
+        {
+          "name": "Michael Howe",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Tim Lamb",
+          "party": "Democratic-NPL"
+        },
+        {
+          "name": "Drew Wrigley",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Agriculture Commissioner",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Doug Goehring",
+          "party": "Republican"
+        },
+        {
+          "name": "Vern Thompson",
+          "party": "Democratic-NPL"
+        }
+      ]
+    },
+    {
+      "office": "Public Service Commissioner",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Sheri Haugen-Hoffart",
+          "party": "Republican"
+        },
+        {
+          "name": "John M Pederson",
+          "party": "Democratic-NPL"
+        }
+      ]
+    },
+    {
+      "office": "Public Service Commissioner Unexpired 2-Year Term",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Scot Kelsh",
+          "party": "Democratic-NPL"
+        },
+        {
+          "name": "Jill Kringstad",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Tax Commissioner",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Brian Kroshus",
+          "party": "Republican"
+        },
+        {
+          "name": "Mark Nelson",
+          "party": "Democratic-NPL"
+        }
+      ]
+    },
+    {
+      "office": "Superintendent of Public Instruction Unexpired 2-Year Term",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Levi Bachmeier",
+          "party": "Nonpartisan"
+        },
+        {
+          "name": "Tracy Layne Foss",
+          "party": "Nonpartisan"
+        }
+      ]
+    },
+    {
+      "office": "Justice of the Supreme Court Unexpired 8-Year Term",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Douglas A Bahr",
+          "party": "Nonpartisan"
+        }
+      ]
+    },
+    {
+      "office": "Justice of the Supreme Court",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Ariston E Johnson",
+          "party": "Nonpartisan"
+        },
+        {
+          "name": "Jerod Tufte",
+          "party": "Nonpartisan"
+        }
+      ]
+    }
+  ]
 }

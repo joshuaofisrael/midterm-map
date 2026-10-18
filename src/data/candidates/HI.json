@@ -1,11 +1,102 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Hawaii Office of Elections",
-      "url": "https://elections.hawaii.gov/",
-      "accessed": "October 17, 2026"
+      "name": "Hawaii Office of Elections, 2026 General Election facsimile ballot proofs",
+      "url": "https://elections.hawaii.gov/wp-content/uploads/2026-General-Ballot-Proofs.pdf",
+      "accessed": "October 18, 2026",
+      "published": "September 4, 2026"
+    },
+    {
+      "name": "Hawaii Office of Elections, 2026 General Election Voter Guide, political party legend",
+      "url": "https://elections.hawaii.gov/wp-content/uploads/VoterGuide_2026_General_English.pdf",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "U.S. Representative, Dist I",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "BERNING, Nathan M.",
+          "party": "Nonpartisan"
+        },
+        {
+          "name": "CASE, Ed",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "CONLEY, Jordan S.",
+          "party": "Green Party"
+        },
+        {
+          "name": "LAM, Adriel C.",
+          "party": "Republican Party"
+        }
+      ]
+    },
+    {
+      "office": "U.S. Representative, Dist II",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "AWA, Brenton",
+          "party": "Republican Party"
+        },
+        {
+          "name": "TOKUDA, Jill N.",
+          "party": "Democratic Party"
+        }
+      ]
+    },
+    {
+      "office": "Governor and Lieutenant Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "CORDERY, Gary / ANTHONY, Daniel",
+          "party": "Republican Party"
+        },
+        {
+          "name": "GREEN, Josh / KAWAKAMI, Derek S.K.",
+          "party": "Democratic Party"
+        }
+      ]
+    },
+    {
+      "office": "Office of Hawaiian Affairs At-Large Trustee",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "AKINA, Adrian (Kealii)",
+          "party": ""
+        },
+        {
+          "name": "ANDERSON, Ikaika",
+          "party": ""
+        },
+        {
+          "name": "CRABBE, Kanekoa (Koa)",
+          "party": ""
+        },
+        {
+          "name": "GALUTERIA, Brickwood M.",
+          "party": ""
+        },
+        {
+          "name": "SOUZA, Keoni",
+          "party": ""
+        },
+        {
+          "name": "WAIHEE, John, IV",
+          "party": ""
+        }
+      ]
+    }
+  ]
 }

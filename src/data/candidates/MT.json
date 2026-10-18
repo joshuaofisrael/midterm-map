@@ -1,11 +1,96 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Montana Secretary of State — Elections",
-      "url": "https://sosmt.gov/elections/",
-      "accessed": "October 17, 2026"
+      "name": "Montana Secretary of State, FEDERAL GENERAL 2026 Candidate List (November 3, 2026). Party Preference codes are printed as DEM, REP, LIB, IND, and NON; the page legend reads DEM = Democratic, REP = Republican, LIB = Libertarian, IND = Independent, MP = Minor Party, NON = Non Partisan. A leading asterisk is the page’s incumbent marker and is not part of the name. Jami Dee Woodman’s Email/Web field reads WRITE-IN; Party Preference remains NON.",
+      "url": "https://candidatefiling.mt.gov/candidatefiling/CandidateList.aspx?e=450002987",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "UNITED STATES SENATOR",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "KURT ALME",
+          "party": "REP"
+        },
+        {
+          "name": "KYLE AUSTIN",
+          "party": "LIB"
+        },
+        {
+          "name": "ALANI BANKHEAD",
+          "party": "DEM"
+        },
+        {
+          "name": "SETH BODNAR",
+          "party": "IND"
+        },
+        {
+          "name": "JAMI DEE WOODMAN (WRITE-IN)",
+          "party": "NON"
+        }
+      ]
+    },
+    {
+      "office": "UNITED STATES REPRESENTATIVE",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "AARON FLINT",
+          "party": "REP"
+        },
+        {
+          "name": "SAM FORSTAG",
+          "party": "DEM"
+        },
+        {
+          "name": "NICK SHEEDY",
+          "party": "LIB"
+        }
+      ]
+    },
+    {
+      "office": "UNITED STATES REPRESENTATIVE",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "TROY DOWNING",
+          "party": "REP"
+        },
+        {
+          "name": "PATRICK MCCRACKEN",
+          "party": "LIB"
+        },
+        {
+          "name": "BRIAN J MILLER",
+          "party": "DEM"
+        },
+        {
+          "name": "MICHAEL D EISENHAUER",
+          "party": "IND"
+        }
+      ]
+    },
+    {
+      "office": "SUPREME COURT JUSTICE #4",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "AMY EDDY",
+          "party": "NON"
+        },
+        {
+          "name": "DAN WILSON",
+          "party": "NON"
+        }
+      ]
+    }
+  ]
 }

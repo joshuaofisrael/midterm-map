@@ -1,11 +1,328 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Alabama Secretary of State — Alabama Votes",
-      "url": "https://www.sos.alabama.gov/alabama-votes",
-      "accessed": "October 17, 2026"
+      "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+      "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Alabama Secretary of State, Cherokee County sample ballot, General and Constitutional Amendment Election, November 3, 2026",
+      "url": "https://www.sos.alabama.gov/sites/default/files/sample-ballots/2026/gen/Cherokee-Sample.pdf",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Alabama Secretary of State, Mobile County sample ballot, General and Constitutional Amendment Election, November 3, 2026 (1st Congressional District)",
+      "url": "https://www.sos.alabama.gov/sites/default/files/sample-ballots/2026/gen/Mobile-Sample.pdf",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Alabama Secretary of State, Coffee County sample ballot, General and Constitutional Amendment Election, November 3, 2026 (2nd Congressional District)",
+      "url": "https://www.sos.alabama.gov/sites/default/files/sample-ballots/2026/gen/Coffee-Sample.pdf",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Alabama Secretary of State, Colbert County sample ballot, General and Constitutional Amendment Election, November 3, 2026 (4th Congressional District)",
+      "url": "https://www.sos.alabama.gov/sites/default/files/sample-ballots/2026/gen/Colbert-Sample.pdf",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Alabama Secretary of State, Madison County sample ballot, General and Constitutional Amendment Election, November 3, 2026 (5th Congressional District)",
+      "url": "https://www.sos.alabama.gov/sites/default/files/sample-ballots/2026/gen/Madison-Sample.pdf",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Alabama Secretary of State, Shelby County sample ballot, General and Constitutional Amendment Election, November 3, 2026 (6th Congressional District)",
+      "url": "https://www.sos.alabama.gov/sites/default/files/sample-ballots/2026/gen/Shelby-Sample.pdf",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Alabama Secretary of State, Dallas County sample ballot, General and Constitutional Amendment Election, November 3, 2026 (7th Congressional District)",
+      "url": "https://www.sos.alabama.gov/sites/default/files/sample-ballots/2026/gen/Dallas-Sample.pdf",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "FOR GOVERNOR",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "DOUG JONES",
+          "party": "Democrat"
+        },
+        {
+          "name": "TOMMY TUBERVILLE",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR LIEUTENANT GOVERNOR",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "PHILLIP ENSLER",
+          "party": "Democrat"
+        },
+        {
+          "name": "JOHN WAHL",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR UNITED STATES SENATOR",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "EVERETT WESS",
+          "party": "Democrat"
+        },
+        {
+          "name": "BARRY MOORE",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR UNITED STATES REPRESENTATIVE, 1ST CONGRESSIONAL DISTRICT",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "CLYDE JONES",
+          "party": "Democrat"
+        },
+        {
+          "name": "JERRY CARL",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR UNITED STATES REPRESENTATIVE, 2ND CONGRESSIONAL DISTRICT",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "SHOMARI C. FIGURES",
+          "party": "Democrat"
+        },
+        {
+          "name": "RHETT MARQUES",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR UNITED STATES REPRESENTATIVE, 3RD CONGRESSIONAL DISTRICT",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "LEE McINNIS",
+          "party": "Democrat"
+        },
+        {
+          "name": "MIKE ROGERS",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR UNITED STATES REPRESENTATIVE, 4TH CONGRESSIONAL DISTRICT",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "AMANDA N. PUSCZEK",
+          "party": "Democrat"
+        },
+        {
+          "name": "ROBERT B. ADERHOLT",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR UNITED STATES REPRESENTATIVE, 5TH CONGRESSIONAL DISTRICT",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "ANDREW SNEED",
+          "party": "Democrat"
+        },
+        {
+          "name": "DALE W. STRONG",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR UNITED STATES REPRESENTATIVE, 6TH CONGRESSIONAL DISTRICT",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "MAURICE MERCER",
+          "party": "Democrat"
+        },
+        {
+          "name": "GARY PALMER",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR UNITED STATES REPRESENTATIVE, 7TH CONGRESSIONAL DISTRICT",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "TERRI SEWELL",
+          "party": "Democrat"
+        },
+        {
+          "name": "AMMIE AKIN",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR ATTORNEY GENERAL",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "JEFF McLAUGHLIN",
+          "party": "Democrat"
+        },
+        {
+          "name": "KATHERINE ROBERTSON",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR ASSOCIATE JUSTICE OF THE SUPREME COURT, PLACE 7",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "BRAD MENDHEIM",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR ASSOCIATE JUSTICE OF THE SUPREME COURT, PLACE 8",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "ASHLEIGH MEYER DUNHAM",
+          "party": "Democrat"
+        },
+        {
+          "name": "GREG SHAW",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR SECRETARY OF STATE",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "WAYNE ROGERS",
+          "party": "Democrat"
+        },
+        {
+          "name": "CAROLEENE DOBSON",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR STATE TREASURER",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "ROSILYN HOUSTON",
+          "party": "Democrat"
+        },
+        {
+          "name": "YOUNG BOOZER",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR STATE AUDITOR",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "VIOLET EDWARDS",
+          "party": "Democrat"
+        },
+        {
+          "name": "ANDREW SORRELL",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR COMMISSIONER OF AGRICULTURE AND INDUSTRIES",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "RON SPARKS",
+          "party": "Democrat"
+        },
+        {
+          "name": "COREY HILL",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR PUBLIC SERVICE COMMISSION, PLACE NO. 1",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "JAMES O. GORDON",
+          "party": "Democrat"
+        },
+        {
+          "name": "MATT GENTRY",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "FOR PUBLIC SERVICE COMMISSION, PLACE NO. 2",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "SHEILA D. McNEIL",
+          "party": "Democrat"
+        },
+        {
+          "name": "JIM ZIG ZEIGLER",
+          "party": "Republican"
+        }
+      ]
+    }
+  ]
 }

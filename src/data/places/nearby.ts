@@ -51,7 +51,7 @@ function countiesFor(code: string): Map<string, PlaceRecord[]> {
 }
 
 /** Other places that share a Census county, largest population first. */
-export function countyNeighbors(code: string, place: PlaceRecord, limit = 8): PlaceRecord[] {
+export function countyNeighbors(code: string, place: PlaceRecord, limit = 5): PlaceRecord[] {
   const seen = new Set<string>();
   const pool: PlaceRecord[] = [];
   const index = countiesFor(code);

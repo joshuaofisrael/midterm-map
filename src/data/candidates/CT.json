@@ -1,11 +1,243 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Connecticut Secretary of the State — Election Services",
-      "url": "https://portal.ct.gov/sots/election-services",
-      "accessed": "October 17, 2026"
+      "name": "Connecticut Secretary of the State, State Election Sample Town Ballots, November 3, 2026",
+      "url": "https://portal.ct.gov/sots/election-services/town-ballots/2026-november-town-election-ballots",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Connecticut Secretary of the State, Canterbury sample ballot, State Election, November 3, 2026 (Congressional District 2)",
+      "url": "https://portal.ct.gov/-/media/sots/electionservices/town_ballots/2026/nov-ada-2026/canterbury_sample_ada.pdf",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Connecticut Secretary of the State, Bloomfield sample ballot, State Election, November 3, 2026 (Congressional District 1)",
+      "url": "https://portal.ct.gov/-/media/sots/electionservices/town_ballots/2026/nov-ada-2026/bloomfield_sample_ada.pdf",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Connecticut Secretary of the State, New Haven sample ballot, State Election, November 3, 2026 (Congressional District 3)",
+      "url": "https://portal.ct.gov/-/media/sots/electionservices/town_ballots/2026/nov-ada-2026/new_haven_sample_ada.pdf",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Connecticut Secretary of the State, Stamford sample ballot, State Election, November 3, 2026 (Congressional District 4)",
+      "url": "https://portal.ct.gov/-/media/sots/electionservices/town_ballots/2026/nov-ada-2026/stamford_sample_updated_ada.pdf",
+      "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Connecticut Secretary of the State, Thomaston sample ballot, State Election, November 3, 2026 (Congressional District 5)",
+      "url": "https://portal.ct.gov/-/media/sots/electionservices/town_ballots/2026/nov-ada-2026/thomaston_sample_ada.pdf",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "Governor and Lieutenant Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Ned Lamont and Susan Bysiewicz",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Ryan Fazio and Matt Corey",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Ned Lamont and Susan Bysiewicz",
+          "party": "Working Families Party"
+        },
+        {
+          "name": "Ryan Fazio and Matt Corey",
+          "party": "Independent Party"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Luke Bronin",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Amy Chai",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Mary L. Sanders",
+          "party": "Green Party"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Joe Courtney",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "George Patrick Austin",
+          "party": "Republican Party"
+        },
+        {
+          "name": "George Patrick Austin",
+          "party": "Independent Party"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Rosa L. DeLauro",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Christopher Lancia",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Thomas Egan",
+          "party": "Independent Party"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Jim Himes",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Michael Ted Goldstein",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Benjamin Wesley",
+          "party": "Independent Party"
+        }
+      ]
+    },
+    {
+      "office": "Representative in Congress",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Jahana Hayes",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Chris Shea",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Jahana Hayes",
+          "party": "Working Families Party"
+        }
+      ]
+    },
+    {
+      "office": "Secretary of the State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Stephanie Thomas",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Peter Lumaj",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Stephanie Thomas",
+          "party": "Working Families Party"
+        },
+        {
+          "name": "Stephanie Thomas",
+          "party": "Independent Party"
+        }
+      ]
+    },
+    {
+      "office": "Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Erick Russell",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Fred Wilms",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Erick Russell",
+          "party": "Working Families Party"
+        },
+        {
+          "name": "Fred Wilms",
+          "party": "Independent Party"
+        }
+      ]
+    },
+    {
+      "office": "Comptroller",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Sean Scanlon",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "Jennifer S. Tooker",
+          "party": "Republican Party"
+        },
+        {
+          "name": "Sean Scanlon",
+          "party": "Working Families Party"
+        },
+        {
+          "name": "Sean Scanlon",
+          "party": "Independent Party"
+        }
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "William Tong",
+          "party": "Democratic Party"
+        },
+        {
+          "name": "John Bolton",
+          "party": "Republican Party"
+        },
+        {
+          "name": "William Tong",
+          "party": "Working Families Party"
+        }
+      ]
+    }
+  ]
 }

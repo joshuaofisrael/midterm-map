@@ -1,10 +1,15 @@
 import Link from "next/link";
 import { PageHeader } from "@/components/PageHeader";
+import { SiteJsonLd } from "@/components/SiteJsonLd";
+import { SiteShell } from "@/components/SiteShell";
 import { SITE } from "@/data/site";
 
 export default function NotFound() {
   return (
-    <div>
+    <>
+      <SiteJsonLd />
+      <SiteShell>
+        <div>
       <PageHeader
         eyebrow="404"
         title="This page is not on the map"
@@ -41,7 +46,9 @@ export default function NotFound() {
             About and operator
           </Link>
         </li>
-      </ul>
-    </div>
+        </ul>
+        </div>
+      </SiteShell>
+    </>
   );
 }

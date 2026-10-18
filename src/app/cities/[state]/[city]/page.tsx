@@ -1,24 +1,13 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import { AdSlot } from "@/components/AdSlot";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CityCandidates } from "@/components/CityCandidates";
 import { CityLocal } from "@/components/CityLocal";
 import { CityRelated } from "@/components/CityRelated";
-import { ContentTrust } from "@/components/ContentTrust";
 import { JsonLd } from "@/components/JsonLd";
 import { JurisdictionLinks } from "@/components/JurisdictionLinks";
-import { OfficialNotice } from "@/components/OfficialNotice";
-import { SourceLines } from "@/components/SourceLines";
-import {
-  countyCitation,
-  countyNameCitation,
-  districtCitation,
-  gazetteerCitation,
-  GAZETTEER_FILE,
-  GAZETTEER_FILE_DATE,
-  populationCitation,
-} from "@/data/censusSources";
 import { electionOfficeFor } from "@/data/electionOffices";
+import { reportErrorHref } from "@/data/site";
 import {
   placeBySlug,
   placeState,
@@ -82,7 +71,7 @@ export default async function CityPage({
   ];
 
   return (
-    <div className="space-y-8">
+    <div>
       <JsonLd
         data={cityStructuredData({
           stateCode: state.code,
@@ -92,97 +81,59 @@ export default async function CityPage({
           crumbs,
         })}
       />
-      <Breadcrumbs
-        items={[
-          { href: "/", label: "Home" },
-          { href: "/cities", label: "Census places" },
-          { href: `/cities/${state.code}`, label: state.name },
-          { label: place.name },
-        ]}
-      />
-      <header className="max-w-3xl">
-        <p className="mb-2 text-xs font-semibold uppercase tracking-[0.14em] text-navy">
-          Census place
-        </p>
-        <h1 className="font-serif text-3xl font-semibold tracking-tight text-ink sm:text-4xl">{title}</h1>
-        <p className="mt-3 text-lg leading-7 text-ink-muted">
-          Census place facts for {place.name} in {state.name}. Not an official election website.
-        </p>
-      </header>
-      <ContentTrust
-        updated={contentUpdatedLabel(path)}
-        pagePath={path}
-        officeHref={office.office.href}
-        officeLabel={office.office.label}
-      />
-      <OfficialNotice compact />
+      <nav aria-label="Breadcrumb">
+        <Link href="/">Home</Link>
+        {" / "}
+        <Link href="/cities">Census places</Link>
+        {" / "}
+        <Link href={`/cities/${state.code}`}>{state.name}</Link>
+        {" / "}
+        <span>{place.name}</span>
+      </nav>
+      <h1>{title}</h1>
+      <p className="note">
+        Last updated: {contentUpdatedLabel(path)}. Unofficial information. Confirm with your{" "}
+        <a href={office.office.href} rel="noopener noreferrer">
+          official election office ({office.office.label})
+        </a>
+        . <Link href={reportErrorHref(path)}>Report an error</Link>. Census sources are on the{" "}
+        <a href="/sources/#gazetteer">sources page</a>.
+      </p>
       <AdSlot id="city-top" height={90} />
 
-      <section className="max-w-3xl">
-        <h2 className="font-serif text-2xl font-semibold">Census facts</h2>
-        <dl className="mt-4 space-y-4 text-sm leading-6">
-          <div>
-            <dt className="font-semibold">Place name</dt>
-            <dd>{place.name}</dd>
-          </div>
-          <div>
-            <dt className="font-semibold">State</dt>
-            <dd>{state.name}</dd>
-          </div>
-          <div>
-            <dt className="font-semibold">Census GEOID</dt>
-            <dd>{place.geoid}</dd>
-          </div>
-          <div>
-            <dt className="font-semibold">{place.counties.length > 1 ? "Counties" : "County"}</dt>
-            <dd>{joinFacts(place.counties)}</dd>
-            <dd>
-              <SourceLines sources={[countyCitation, countyNameCitation]} />
-            </dd>
-          </div>
-          <div>
-            <dt className="font-semibold">2020 Census population</dt>
-            <dd>
-              {place.pop == null
-                ? `The 2020 Census Redistricting Data (Public Law 94-171) place file has no population for GEOID ${place.geoid}.`
-                : formatPopulation(place.pop)}
-            </dd>
-            <dd>
-              <SourceLines sources={[populationCitation]} />
-            </dd>
-          </div>
-          <div>
-            <dt className="font-semibold">119th Congress district names</dt>
-            <dd>
-              {place.districts && place.districts.length > 0 ? (
-                <>
-                  <ul className="list-disc pl-5">
-                    {place.districts.map((district) => (
-                      <li key={district}>{district}</li>
-                    ))}
-                  </ul>
-                  <p className="mt-2 text-ink-muted">
-                    These names are the 119th Congress district names in the relationship file for
-                    this 2020 place code. That file is not a 2026 ballot district.
-                  </p>
-                </>
-              ) : (
-                <p>
-                  The national 119th Congressional District to 2020 place relationship file does not
-                  include place code {place.geoid}.
-                </p>
-              )}
-            </dd>
-            <dd>
-              <SourceLines sources={[districtCitation]} />
-            </dd>
-          </div>
+      <section>
+        <h2>Census facts</h2>
+        <dl>
+          <dt>Place name</dt>
+          <dd>{place.name}</dd>
+          <dt>State</dt>
+          <dd>{state.name}</dd>
+          <dt>Census GEOID</dt>
+          <dd>{place.geoid}</dd>
+          <dt>{place.counties.length > 1 ? "Counties" : "County"}</dt>
+          <dd>
+            {joinFacts(place.counties)}{" "}
+            <a href="/sources/#counties">County source</a>
+          </dd>
+          <dt>2020 Census population</dt>
+          <dd>
+            {place.pop == null ? `No population for GEOID ${place.geoid}.` : formatPopulation(place.pop)}{" "}
+            <a href="/sources/#population">Population source</a>
+          </dd>
+          <dt>119th Congress district names</dt>
+          <dd>
+            {place.districts && place.districts.length > 0 ? (
+              <ul>
+                {place.districts.map((district) => (
+                  <li key={district}>{district}</li>
+                ))}
+              </ul>
+            ) : (
+              <p>No 119th district row for place code {place.geoid}.</p>
+            )}
+            <a href="/sources/#districts">What these district names mean</a>
+          </dd>
         </dl>
-        <p className="mt-4 text-sm leading-6 text-ink-muted">
-          Place name, state, and GEOID are from the U.S. Census Bureau 2026 Gazetteer Files,
-          national places file {GAZETTEER_FILE}, file date {GAZETTEER_FILE_DATE}.
-        </p>
-        <SourceLines sources={[gazetteerCitation]} />
       </section>
 
       <CityCandidates code={state.code} place={place} />

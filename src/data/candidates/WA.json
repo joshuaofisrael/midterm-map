@@ -1,11 +1,163 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Washington Secretary of State — Elections",
-      "url": "https://www.sos.wa.gov/elections",
-      "accessed": "October 17, 2026"
+      "name": "Washington Secretary of State, Certification of Candidates to the General Election, August 21, 2026 (Steve R. Hobbs; RCW 29A.52.321; November 3, 2026)",
+      "url": "https://www.sos.wa.gov/sites/default/files/2026-08/2026%20Certification%20of%20Candidates%20to%20General%20Election.pdf",
+      "accessed": "October 18, 2026",
+      "published": "August 21, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "Congressional District 1 - U.S. Representative (2-year term)",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Suzan DelBene",
+          "party": "Prefers Democratic Party"
+        },
+        {
+          "name": "Mary Silva",
+          "party": "Prefers Republican Party"
+        }
+      ]
+    },
+    {
+      "office": "Congressional District 2 - U.S. Representative (2-year term)",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Rick Larsen",
+          "party": "Prefers Democratic Party"
+        },
+        {
+          "name": "Edwin H. Feller",
+          "party": "Prefers Republican Party"
+        }
+      ]
+    },
+    {
+      "office": "Congressional District 3 - U.S. Representative (2-year term)",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "John Braun",
+          "party": "Prefers Republican Party"
+        },
+        {
+          "name": "Marie Gluesenkamp Perez",
+          "party": "Prefers Democratic Party"
+        }
+      ]
+    },
+    {
+      "office": "Congressional District 4 - U.S. Representative (2-year term)",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Amanda McKinney",
+          "party": "Prefers Republican Party"
+        },
+        {
+          "name": "John Duresky",
+          "party": "Prefers Democratic Party"
+        }
+      ]
+    },
+    {
+      "office": "Congressional District 5 - U.S. Representative (2-year term)",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Michael Baumgartner",
+          "party": "Prefers Republican Party"
+        },
+        {
+          "name": "Carmela Conroy",
+          "party": "Prefers Democratic Party"
+        }
+      ]
+    },
+    {
+      "office": "Congressional District 6 - U.S. Representative (2-year term)",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Emily Randall",
+          "party": "Prefers Democratic Party"
+        },
+        {
+          "name": "Teresa Fox",
+          "party": "Prefers Republican Party"
+        }
+      ]
+    },
+    {
+      "office": "Congressional District 7 - U.S. Representative (2-year term)",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Pramila Jayapal",
+          "party": "Prefers Democratic Party"
+        },
+        {
+          "name": "Nirav Sheth",
+          "party": "Prefers Republican Party"
+        }
+      ]
+    },
+    {
+      "office": "Congressional District 8 - U.S. Representative (2-year term)",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "Kim Schrier",
+          "party": "Prefers Democratic Party"
+        },
+        {
+          "name": "Spencer Meline",
+          "party": "Prefers Republican Party"
+        }
+      ]
+    },
+    {
+      "office": "Congressional District 9 - U.S. Representative (2-year term)",
+      "kind": "house",
+      "district": "9",
+      "candidates": [
+        {
+          "name": "Adam Smith",
+          "party": "Prefers Democratic Party"
+        },
+        {
+          "name": "Doug Basler",
+          "party": "Prefers Republican Party"
+        }
+      ]
+    },
+    {
+      "office": "Congressional District 10 - U.S. Representative (2-year term)",
+      "kind": "house",
+      "district": "10",
+      "candidates": [
+        {
+          "name": "Marilyn Strickland",
+          "party": "Prefers Democratic Party"
+        },
+        {
+          "name": "Chris D. Chung",
+          "party": "Prefers Republican Party"
+        }
+      ]
+    }
+  ]
 }

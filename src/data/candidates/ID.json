@@ -1,11 +1,210 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
-      "name": "Idaho Secretary of State — Vote Idaho",
-      "url": "https://voteidaho.gov/",
-      "accessed": "October 17, 2026"
+      "name": "Idaho Secretary of State, candidate list for the November 3, 2026 general election (2026 GENERAL, final list) linked from the Idaho General Election page",
+      "url": "https://run.voteidaho.gov/search",
+      "accessed": "October 18, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "United States Senator",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Natalie M Fleming",
+          "party": "Independent"
+        },
+        {
+          "name": "Todd Achilles",
+          "party": "Independent"
+        },
+        {
+          "name": "Matt Loesby",
+          "party": "Libertarian"
+        },
+        {
+          "name": "Jim Risch",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Brendan J. Gomez",
+          "party": "Constitution"
+        },
+        {
+          "name": "Kaylee Peterson",
+          "party": "Democratic"
+        },
+        {
+          "name": "Sarah Zabel",
+          "party": "Independent"
+        },
+        {
+          "name": "Russ Fulcher",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Ellie Gilbreath",
+          "party": "Democratic"
+        },
+        {
+          "name": "Emre Houser",
+          "party": "Independent"
+        },
+        {
+          "name": "Tripp Charles Hutchinson",
+          "party": "Independent"
+        },
+        {
+          "name": "Will Johanson",
+          "party": "Libertarian"
+        },
+        {
+          "name": "Mike Simpson",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Governor",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Pro-Life",
+          "party": "Constitution"
+        },
+        {
+          "name": "Terri Pickens",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jacob Burnett (WRITE-IN)",
+          "party": "Independent"
+        },
+        {
+          "name": "John R. Stegner",
+          "party": "Independent"
+        },
+        {
+          "name": "Paul Sand",
+          "party": "Libertarian"
+        },
+        {
+          "name": "Brad Little",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Lieutenant Governor",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Eric Myricks",
+          "party": "Democratic"
+        },
+        {
+          "name": "Scott Bedke",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Shawn Keenan",
+          "party": "Democratic"
+        },
+        {
+          "name": "Phil McGrane",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "State Controller",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Rakesh Mohan",
+          "party": "Democratic"
+        },
+        {
+          "name": "Brandon D Woolf",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "State Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Kevin A Jones",
+          "party": "Democratic"
+        },
+        {
+          "name": "Julie A. Ellsworth",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Lori Hickman",
+          "party": "Democratic"
+        },
+        {
+          "name": "Raul R. Labrador",
+          "party": "Republican"
+        }
+      ]
+    },
+    {
+      "office": "Superintendent of Public Instruction",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Teresa Roundy",
+          "party": "Constitution"
+        },
+        {
+          "name": "Becky Sundin Mitchell",
+          "party": "Democratic"
+        },
+        {
+          "name": "Debbie Critchfield",
+          "party": "Republican"
+        }
+      ]
+    }
+  ]
 }
