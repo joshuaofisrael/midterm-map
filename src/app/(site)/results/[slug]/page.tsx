@@ -169,7 +169,7 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
       </p>
       {neighbours.length > 0 && (
         <section>
-          <h2 className="font-serif text-xl font-semibold">Neighbouring results pages</h2>
+          <h2 className="font-serif text-xl font-semibold">More results pages</h2>
           <ul className="mt-3 space-y-2 text-sm">
             {neighbours.map((item) => (
               <li key={item.slug}>

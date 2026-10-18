@@ -136,7 +136,7 @@ export const BALLOT_CYCLES: BallotCycle[] = [
       "Supreme Court Justice",
     ],
     measures: [
-      "Amendment 1, BUDGET STABILIZATION FUND (HJR 5019; Active 06/17/2025 on the initiatives table)",
+      "Amendment 1, BUDGET STABILIZATION FUND (HJR 5019; 06/17/2025 on the initiatives table)",
       "Amendment 2, EXEMPTION OF TANGIBLE PERSONAL PROPERTY ON AGRICULTURAL LAND FROM TAXATION (HJR 1215; 06/18/2025 on the initiatives table)",
       "Amendment 3, INCREASED HOMESTEAD EXEMPTION; LOWER CAP ON INCREASES IN NON-HOMESTEAD PROPERTY ASSESSMENTS (HJR 1F; 06/16/2026 on the initiatives table)",
     ],
