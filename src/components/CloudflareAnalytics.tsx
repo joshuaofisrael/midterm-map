@@ -9,6 +9,7 @@ export const CLOUDFLARE_WEB_ANALYTICS_TOKEN = "acf65aa20fc5402db5459b56440920fe"
 export function CloudflareAnalytics() {
   return (
     <script
+      data-keep="1"
       type="module"
       defer
       src="https://static.cloudflareinsights.com/beacon.min.js"

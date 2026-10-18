@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
 import { SITE } from "@/data/site";
 import { CloudflareAnalytics } from "@/components/CloudflareAnalytics";
+import { GoogleAnalyticsHead } from "@/components/GoogleAnalytics";
 import "./globals.css";
 
 const sourceSans = Source_Sans_3({
@@ -70,6 +71,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <GoogleAnalyticsHead />
+      </head>
       <body className={`${sourceSans.variable} ${sourceSerif.variable} font-sans`}>
         {children}
         <CloudflareAnalytics />
