@@ -9,6 +9,10 @@ import type { StateCode } from "./types";
  * Alaska was read on October 14, 2026 for the state hub. The Alaska Legislature
  * statute pages did not return section text, so Alaska lines cite the Division
  * of Elections pages that print the dates.
+ * Illinois was read on October 18, 2026. Illinois lines cite the State Board of
+ * Elections ballot-entitlement chart, election calendar, voters-guide FAQs,
+ * voting-by-mail page, and the online registration-closed notice. The return
+ * deadline for a voted vote-by-mail ballot was not on those pages.
  * Kansas was read on October 16, 2026 for the state hub. Kansas lines cite the
  * Secretary of State pages, the linked general-election dates file, K.S.A.
  * 25-106, 25-1122, 25-1132, and 25-2311, and Vote.gov. A relative statutory
@@ -1838,6 +1842,118 @@ export const ELECTION_DATES: StateElectionDates[] = [
         category: "mail-request",
         label: "Calendar date for a mailed advance-ballot application",
         text: "K.S.A. 25-1122(f)(1)(B) states the mailed-application period as 90 days before the general election through the Tuesday of the week preceding it. The important-election-dates page and the advance-voting page do not print a calendar date for that deadline. The Kansas Secretary of State and that statute are the official sources.",
+      },
+    ],
+  },
+  {
+    code: "IL",
+    checkedOn: "October 18, 2026",
+    faqAnswer:
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Illinois State Board of Elections ballot-entitlement chart lists October 6, 2026 as the close of regular registration, October 18, 2026 as the close of paperless online registration, and grace-period registration and voting from October 7 through November 3, 2026. The voters guide lists early voting beginning September 24, 2026 in the local election authority’s office, and the election calendar lists October 19, 2026 as the first day of early voting at permanent polling places other than that office. The voting-by-mail page lists August 5, 2026 as the first day to file an application and October 29, 2026 as the day a mailed request must be received, and it lists in-person early voting through November 2, 2026. Those pages do not print a return deadline for a voted vote-by-mail ballot. Dates can change. The Illinois State Board of Elections publishes the current calendar.",
+    facts: [
+      {
+        id: "il-register",
+        category: "registration",
+        label: "Close of regular registration",
+        text: "The 2026 general-election ballot-entitlement chart lists October 6, 2026 as the close of regular registration.",
+        endsOn: "2026-10-06",
+        sources: [
+          {
+            label: "Illinois State Board of Elections — 2026 general election ballot entitlement chart",
+            href: "https://elections.il.gov/agencyforms/1%20BALLOT%20ENTITLEMENT%20CHART/2026%20General%20Election%20Ballot%20Entitlement%20Chart.pdf",
+          },
+        ],
+      },
+      {
+        id: "il-register-online",
+        category: "registration",
+        label: "Paperless online registration",
+        text: "The ballot-entitlement chart lists October 18, 2026 as the close of paperless online registration. The online registration notice lists 11:59 p.m. on October 18, 2026 as the close, with the system reopening on November 5, 2026. The election calendar lists October 18, 2026 as the last day to register through the State Board of Elections website under 10 ILCS 5/1A-16.5(l).",
+        endsOn: "2026-10-18",
+        sources: [
+          {
+            label: "Illinois State Board of Elections — 2026 general election ballot entitlement chart",
+            href: "https://elections.il.gov/agencyforms/1%20BALLOT%20ENTITLEMENT%20CHART/2026%20General%20Election%20Ballot%20Entitlement%20Chart.pdf",
+          },
+          {
+            label: "Illinois Online Voter Application — registration closed notice",
+            href: "https://ova.elections.il.gov/RegistrationClosed.aspx",
+          },
+          {
+            label: "Illinois State Board of Elections — election calendar",
+            href: "https://elections.il.gov/Main/CalendarEventsAll.aspx",
+          },
+        ],
+      },
+      {
+        id: "il-grace",
+        category: "registration",
+        label: "Grace-period registration and voting",
+        text: "The ballot-entitlement chart lists grace-period registration and voting from October 7, 2026 through November 3, 2026.",
+        startsOn: "2026-10-07",
+        endsOn: "2026-11-03",
+        sources: [
+          {
+            label: "Illinois State Board of Elections — 2026 general election ballot entitlement chart",
+            href: "https://elections.il.gov/agencyforms/1%20BALLOT%20ENTITLEMENT%20CHART/2026%20General%20Election%20Ballot%20Entitlement%20Chart.pdf",
+          },
+        ],
+      },
+      {
+        id: "il-early-office",
+        category: "early",
+        label: "Early voting at the election authority",
+        text: "The voters guide lists Election Day as November 3, 2026, with polls open from 6:00 a.m. to 7:00 p.m., and lists early voting beginning September 24, 2026 in the local election authority’s office.",
+        startsOn: "2026-09-24",
+        sources: [
+          {
+            label: "Illinois voters guide — FAQs",
+            href: "https://votersguide.elections.il.gov/FAQs",
+          },
+        ],
+      },
+      {
+        id: "il-early-sites",
+        category: "early",
+        label: "Early voting at permanent polling places",
+        text: "The election calendar lists October 19, 2026 as the first day of early voting at permanent polling places other than the election authority’s office. The voting-by-mail page lists in-person early voting through November 2, 2026.",
+        startsOn: "2026-10-19",
+        endsOn: "2026-11-02",
+        sources: [
+          {
+            label: "Illinois State Board of Elections — election calendar",
+            href: "https://elections.il.gov/Main/CalendarEventsAll.aspx",
+          },
+          {
+            label: "Illinois State Board of Elections — voting by mail",
+            href: "https://www.elections.il.gov/electionoperations/votingbymail.aspx",
+          },
+        ],
+      },
+      {
+        id: "il-request",
+        category: "mail-request",
+        label: "Vote-by-mail application",
+        text: "The voters guide lists vote-by-mail applications beginning August 5, 2026. The voting-by-mail page lists August 5, 2026 as the first day to file an application and October 29, 2026 as the day a mailed request must be received.",
+        startsOn: "2026-08-05",
+        endsOn: "2026-10-29",
+        sources: [
+          {
+            label: "Illinois voters guide — FAQs",
+            href: "https://votersguide.elections.il.gov/FAQs",
+          },
+          {
+            label: "Illinois State Board of Elections — voting by mail",
+            href: "https://www.elections.il.gov/electionoperations/votingbymail.aspx",
+          },
+        ],
+      },
+    ],
+    omitted: [
+      {
+        category: "mail-return",
+        label: "Voted vote-by-mail ballot return",
+        text: "The ballot-entitlement chart, election calendar, voters-guide FAQs, and voting-by-mail page read on October 18, 2026 do not print a calendar date for the return of a voted vote-by-mail ballot. The Illinois State Board of Elections is the official source.",
       },
     ],
   },

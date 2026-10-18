@@ -1,3 +1,4 @@
+import { ballotCycleFor } from "./ballotCycle";
 import { electionDatesFor } from "./electionDates";
 import { SITE } from "./site";
 import type { RaceGuide, StateProfile } from "./types";
@@ -19,6 +20,7 @@ export function stateHubFaqs(state: StateProfile, races: RaceGuide[]): StateFaq[
   const sample = state.sampleBallotOfficial;
   const distinctSample = sample && sample.href !== state.officialElectionOffice.href;
 
+  const cycle = ballotCycleFor(state.code);
   const senate = state.hasSenateClass2
     ? `${state.name} has a Class 2 U.S. Senate seat on the regular 2026 cycle.`
     : `No Class 2 U.S. Senate seat is scheduled for ${state.name} in 2026. A special election would appear only if official authorities call one.`;
@@ -49,7 +51,9 @@ export function stateHubFaqs(state: StateProfile, races: RaceGuide[]): StateFaq[
   return [
     {
       question: `What is on the ${state.name} ballot in the 2026 midterms?`,
-      answer: `${senate} ${governor} Statewide offices often on the ${state.name} ballot include ${offices}. ${extraNotes.length ? `${extraNotes.join(" ")} ` : ""}This is a sketch of offices, not an official ballot and not a list of candidates. The final ballot is published by ${office}.`,
+      answer: cycle
+        ? `${cycle.intro} ${cycle.measureNote}`
+        : `${senate} ${governor} Statewide offices often on the ${state.name} ballot include ${offices}. ${extraNotes.length ? `${extraNotes.join(" ")} ` : ""}This is a sketch of offices, not an official ballot and not a list of candidates. The final ballot is published by ${office}.`,
     },
     {
       question: `Where are official ${state.name} sample-ballot and registration pages?`,

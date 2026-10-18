@@ -1,3 +1,4 @@
+import { ballotCycleFor } from "@/data/ballotCycle";
 import { CENSUS_PLACES_UPDATED } from "@/data/censusSources";
 import liveSources from "@/data/live-sources.json";
 import { ELECTION_DATES, electionDatesFor } from "@/data/electionDates";
@@ -79,6 +80,10 @@ function stateHubLabels(code: StateCode): string[] {
 function ballotStateLabels(code: StateCode): string[] {
   const state = getState(code);
   const labels = state?.cycleCheckedOn ? [state.cycleCheckedOn] : [];
+  if (ballotCycleFor(code)) {
+    const dates = electionDatesFor(code);
+    labels.push(dates.checkedOn, ...dates.facts.flatMap((fact) => (fact.checkedOn ? [fact.checkedOn] : [])));
+  }
   for (const race of racesForState(code)) {
     if (race.chamber !== "senate" && race.chamber !== "governor") continue;
     labels.push(...race.candidates.flatMap((candidate) => accessed(candidate.sources)));
@@ -150,6 +155,7 @@ function liveSourcesCheckedLabel(): string {
 export function contentUpdatedLabelForPath(path: string): string | null {
   const clean = path.replace(/\/+$/, "") || "/";
 
+  if (clean === "/") return latestContentLabel(votingDeadlineLabels());
   if (clean === "/live") return liveSourcesCheckedLabel();
   if (clean === "/cities" || clean.startsWith("/cities/")) return CENSUS_PLACES_UPDATED;
   if (clean === "/voting-deadlines") return latestContentLabel(votingDeadlineLabels());
@@ -158,12 +164,19 @@ export function contentUpdatedLabelForPath(path: string): string | null {
   }
   if (clean === "/races") return latestContentLabel(RACES.flatMap(raceFactLabels));
   if (clean === "/results") {
-    return latestContentLabel(
-      [...KEY_RESULT_SLUGS, ...ADDITIONAL_RESULT_SLUGS].flatMap((slug) => {
+    return latestContentLabel([
+      liveSourcesCheckedLabel(),
+      ...[...KEY_RESULT_SLUGS, ...ADDITIONAL_RESULT_SLUGS].flatMap((slug) => {
         const race = getRace(slug);
         return race ? resultFactLabels(race) : [];
       }),
-    );
+    ]);
+  }
+
+  const stateResults = /^\/results\/state\/([A-Za-z]{2})$/.exec(clean);
+  if (stateResults && isStateCode(stateResults[1].toUpperCase())) {
+    const code = stateResults[1].toUpperCase() as StateCode;
+    return latestContentLabel([liveSourcesCheckedLabel(), getState(code)?.cycleCheckedOn]);
   }
 
   const stateHub = /^\/states\/([A-Za-z]{2})$/.exec(clean);

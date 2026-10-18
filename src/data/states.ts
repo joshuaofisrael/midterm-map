@@ -72,7 +72,7 @@ export const STARTER_STATES: StateProfile[] = [
     capital: "Atlanta",
     timezoneNote: "Most of Georgia is on Eastern Time.",
     summary:
-      "Georgia’s 2026 cycle includes a U.S. Senate Class 2 seat, statewide executive offices, and U.S. House races. The final contest list is the official county sample ballot.",
+      "Georgia’s November 2026 federal and state candidate file lists a U.S. Senate seat, statewide executive offices, and U.S. House contests by district. The file does not list a statewide ballot question.",
     officialElectionOffice: {
       label: "Georgia Secretary of State — Elections",
       href: "https://sos.ga.gov/elections-division-georgia-secretary-states-office",
@@ -105,16 +105,26 @@ export const STARTER_STATES: StateProfile[] = [
     ],
     ballotpedia: { label: "Ballotpedia — Georgia elections 2026", href: "https://ballotpedia.org/Georgia_elections,_2026" },
     statewideOffices2026: [
-      "U.S. Senate (Class 2)",
+      "U.S. Senate",
       "Governor",
-      "Lieutenant governor",
-      "Secretary of state",
-      "Attorney general",
-      "Commissioner of agriculture",
-      "Commissioner of insurance",
-      "Commissioner of labor",
-      "State school superintendent",
-      "Public Service Commission seats on this cycle",
+      "Lieutenant Governor",
+      "Secretary of State",
+      "Attorney General",
+      "Agriculture Commissioner",
+      "Insurance and Fire Safety Commissioner",
+      "State School Superintendent",
+      "Labor Commissioner",
+    ],
+    cycleCheckedOn: "October 18, 2026",
+    cycleSources: [
+      {
+        label: "Georgia Secretary of State — November 2026 federal and state candidates",
+        href: "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+      },
+      {
+        label: "Georgia.gov — election guide",
+        href: "https://georgia.gov/georgia-election-guide",
+      },
     ],
     sampleBallotOfficial: { label: "Georgia My Voter Page", href: "https://mvp.sos.ga.gov/s/" },
     registrationNote:
@@ -128,9 +138,9 @@ export const STARTER_STATES: StateProfile[] = [
     hasSenateClass2: true,
     hasGovernor2026: true,
     sampleBallotNotes: [
-      "U.S. Senate (Class 2) is scheduled for the 2026 cycle.",
-      "Governor and other statewide constitutional offices may appear.",
-      "State House, State Senate, and local offices depend on your precinct.",
+      "The November 2026 candidate file lists U.S. Senate and the statewide executive offices named above.",
+      "U.S. House contests in that file are by district.",
+      "That file does not list a statewide ballot question.",
     ],
   },
   {
@@ -141,7 +151,7 @@ export const STARTER_STATES: StateProfile[] = [
     capital: "Lansing",
     timezoneNote: "Most of Michigan is on Eastern Time; four western Upper Peninsula counties use Central Time.",
     summary:
-      "Michigan’s 2026 cycle includes a U.S. Senate Class 2 seat, statewide offices, and congressional districts drawn under the state’s independent process. Precinct ballots differ.",
+      "Michigan’s 2026 general-election candidate report lists U.S. Senate, governor and lieutenant governor, other statewide offices, education and university boards, and two Supreme Court seats. The Secretary of State’s ballot-questions document lists Proposals 2026-1 and 2026-2.",
     officialElectionOffice: {
       label: "Michigan Secretary of State — Elections",
       href: "https://www.michigan.gov/sos/elections",
@@ -175,12 +185,26 @@ export const STARTER_STATES: StateProfile[] = [
     ],
     ballotpedia: { label: "Ballotpedia — Michigan elections 2026", href: "https://ballotpedia.org/Michigan_elections,_2026" },
     statewideOffices2026: [
-      "U.S. Senate (Class 2)",
-      "Governor and lieutenant governor",
-      "Attorney general",
-      "Secretary of state",
-      "State Board of Education seats on this cycle",
-      "University governing-board seats on this cycle",
+      "Governor / Lt. Governor 4 Year Term (1) Position",
+      "Secretary of State 4 Year Term (1) Position",
+      "Attorney General 4 Year Term (1) Position",
+      "U.S. Senate 6 Year Term (1) Position",
+      "Member of the State Board of Education 8 Year Terms (2) Positions",
+      "Regent of the University of Michigan 8 Year Terms (2) Positions",
+      "Trustee of Michigan State University 8 Year Terms (2) Positions",
+      "Governor of Wayne State University 8 Year Terms (2) Positions",
+      "Justice of Supreme Court 8 Year Terms (2) Positions",
+    ],
+    cycleCheckedOn: "October 18, 2026",
+    cycleSources: [
+      {
+        label: "Michigan Bureau of Elections — 2026 general candidate report",
+        href: "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      },
+      {
+        label: "Michigan Secretary of State — November 2026 ballot questions",
+        href: "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Elections/Home/Documents/2026-November-ballot-questions.pdf",
+      },
     ],
     sampleBallotOfficial: { label: "Michigan Voter Information Center", href: "https://mvic.sos.state.mi.us/Voter/Index" },
     registrationNote:
@@ -194,9 +218,9 @@ export const STARTER_STATES: StateProfile[] = [
     hasSenateClass2: true,
     hasGovernor2026: true,
     sampleBallotNotes: [
-      "U.S. Senate (Class 2) is scheduled for the 2026 cycle.",
-      "Governor and other statewide offices may appear.",
-      "Proposal language, if any, appears on the official sample ballot — not as final text here.",
+      "The 2026 general candidate report lists the statewide offices named above.",
+      "The Secretary of State’s November 2026 ballot-questions document lists Proposal 2026-1 and Proposal 2026-2.",
+      "U.S. House, legislative, and trial-court contests on that report are not statewide.",
     ],
   },
   {
@@ -207,7 +231,7 @@ export const STARTER_STATES: StateProfile[] = [
     capital: "Raleigh",
     timezoneNote: "North Carolina is on Eastern Time.",
     summary:
-      "North Carolina’s 2026 ballot includes a U.S. Senate Class 2 seat and U.S. House races. The governor’s office is not on the 2026 cycle. County boards of elections publish sample ballots.",
+      "North Carolina’s November 3, 2026 candidate list includes U.S. Senate, one Supreme Court associate-justice seat, and three Court of Appeals seats. Governor is not on that list. The state referendum file lists three constitutional amendments.",
     officialElectionOffice: {
       label: "North Carolina State Board of Elections",
       href: "https://www.ncsbe.gov/",
@@ -240,10 +264,22 @@ export const STARTER_STATES: StateProfile[] = [
     ],
     ballotpedia: { label: "Ballotpedia — North Carolina elections 2026", href: "https://ballotpedia.org/North_Carolina_elections,_2026" },
     statewideOffices2026: [
-      "U.S. Senate (Class 2)",
-      "U.S. House (address-specific)",
-      "State legislature seats on this cycle",
-      "Judicial and local contests as certified for the county",
+      "U.S. Senate",
+      "North Carolina Supreme Court Associate Justice Seat 01",
+      "North Carolina Court of Appeals Judge Seat 01",
+      "North Carolina Court of Appeals Judge Seat 02",
+      "North Carolina Court of Appeals Judge Seat 03",
+    ],
+    cycleCheckedOn: "October 18, 2026",
+    cycleSources: [
+      {
+        label: "North Carolina State Board of Elections — 2026 general candidate list, federal and state",
+        href: "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+      },
+      {
+        label: "North Carolina State Board of Elections — statewide referendums, November 3, 2026",
+        href: "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/statewide_referendums_20261103.pdf",
+      },
     ],
     sampleBallotOfficial: { label: "North Carolina Voter Search", href: "https://vt.ncsbe.gov/RegLkup/" },
     registrationNote:
@@ -257,9 +293,9 @@ export const STARTER_STATES: StateProfile[] = [
     hasSenateClass2: true,
     hasGovernor2026: false,
     sampleBallotNotes: [
-      "U.S. Senate (Class 2) is scheduled for the 2026 cycle.",
-      "Governor is not on the 2026 North Carolina ballot.",
-      "County, municipal, and judicial contests vary widely.",
+      "The federal and state candidate list includes U.S. Senate, Supreme Court Associate Justice Seat 01, and Court of Appeals Judge Seats 01, 02, and 03.",
+      "Governor is not an office on that list.",
+      "The statewide referendum file dated September 2, 2026 lists three constitutional amendments.",
     ],
   },
   {
@@ -335,7 +371,7 @@ export const STARTER_STATES: StateProfile[] = [
     capital: "Columbus",
     timezoneNote: "Most of Ohio is on Eastern Time.",
     summary:
-      "Ohio’s 2026 cycle includes statewide executive offices and U.S. House races. County boards of elections issue sample ballots for each precinct.",
+      "The Henry County official ballot for November 3, 2026 prints Ohio’s statewide executive offices, two Supreme Court terms, and a U.S. Senate contest for an unexpired term ending January 3, 2029. The Secretary of State certified Issue 3 for that election.",
     officialElectionOffice: {
       label: "Ohio Secretary of State — Elections",
       href: "https://www.ohiosos.gov/elections/",
@@ -373,11 +409,25 @@ export const STARTER_STATES: StateProfile[] = [
     ],
     ballotpedia: { label: "Ballotpedia — Ohio elections 2026", href: "https://ballotpedia.org/Ohio_elections,_2026" },
     statewideOffices2026: [
-      "Governor and lieutenant governor (joint ticket)",
-      "Attorney general",
-      "Secretary of state",
-      "Treasurer of state",
-      "Auditor of state",
+      "Governor and Lieutenant Governor",
+      "Attorney General",
+      "Auditor of State",
+      "Secretary of State",
+      "Treasurer of State",
+      "Justice of the Supreme Court (full term commencing 1-1-2027)",
+      "Justice of the Supreme Court (full term commencing 1-2-2027)",
+      "U.S. Senator (unexpired term ending 1-3-2029)",
+    ],
+    cycleCheckedOn: "October 18, 2026",
+    cycleSources: [
+      {
+        label: "Ohio Secretary of State — Issue 3 certification report, August 3, 2026",
+        href: "https://www.ohiosos.gov/assets/2026-11-statewide-issue-3-report.pdf",
+      },
+      {
+        label: "Henry County, Ohio — official general election ballot, November 3, 2026 (county source)",
+        href: "https://henrycountyohio.gov/DocumentCenter/View/4380/November-3-2026-General",
+      },
     ],
     sampleBallotOfficial: {
       label: "Ohio voter lookup",
@@ -394,9 +444,9 @@ export const STARTER_STATES: StateProfile[] = [
     hasSenateClass2: false,
     hasGovernor2026: true,
     sampleBallotNotes: [
-      "Governor and other statewide offices may appear.",
-      "U.S. Senate is not a Class 2 (2026) Ohio seat.",
-      "State Issue language, if any, is printed on the official ballot.",
+      "The Henry County official ballot prints the statewide offices named above, including U.S. Senator for an unexpired term ending 1-3-2029.",
+      "That contest is the office printed on the county ballot. This page does not label it a Class 2 seat.",
+      "The Secretary of State’s August 3, 2026 certification places Issue 3 on the statewide ballot.",
     ],
   },
   {
@@ -407,7 +457,7 @@ export const STARTER_STATES: StateProfile[] = [
     capital: "Harrisburg",
     timezoneNote: "Most of Pennsylvania is on Eastern Time.",
     summary:
-      "Pennsylvania’s 2026 cycle includes the governor’s office, other statewide row offices, and U.S. House races. County election offices print precinct-specific ballots.",
+      "Pennsylvania’s November 3, 2026 voter-services candidate list includes governor and lieutenant governor as the statewide offices. U.S. House contests on that list are by district.",
     officialElectionOffice: {
       label: "Pennsylvania Department of State — Voting",
       href: "https://www.pa.gov/agencies/vote",
@@ -439,11 +489,17 @@ export const STARTER_STATES: StateProfile[] = [
       },
     ],
     ballotpedia: { label: "Ballotpedia — Pennsylvania elections 2026", href: "https://ballotpedia.org/Pennsylvania_elections,_2026" },
-    statewideOffices2026: [
-      "Governor and lieutenant governor",
-      "Attorney general",
-      "Auditor general",
-      "State treasurer",
+    statewideOffices2026: ["Governor", "Lieutenant Governor"],
+    cycleCheckedOn: "October 18, 2026",
+    cycleSources: [
+      {
+        label: "Pennsylvania Department of State — PA Voter Services candidate list, 2026 general election",
+        href: "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+      },
+      {
+        label: "Pennsylvania Department of State — voting and elections",
+        href: "https://www.pa.gov/agencies/dos/programs/voting-and-elections",
+      },
     ],
     sampleBallotOfficial: { label: "Pennsylvania Department of State — Voting", href: "https://www.pa.gov/agencies/vote" },
     registrationNote:
@@ -457,9 +513,9 @@ export const STARTER_STATES: StateProfile[] = [
     hasSenateClass2: false,
     hasGovernor2026: true,
     sampleBallotNotes: [
-      "Governor and other statewide offices may appear.",
-      "U.S. Senate is not a Class 2 (2026) Pennsylvania seat.",
-      "Judicial retention or local referenda appear only if certified for that ballot.",
+      "The voter-services candidate list read October 18, 2026 includes Governor and Lieutenant Governor as the statewide offices.",
+      "The same file lists U.S. House, General Assembly, and state-committee contests. Those are not statewide offices.",
+      "The Department of State voting-and-elections page read the same day does not print a statewide ballot question.",
     ],
   },
   {
@@ -533,7 +589,7 @@ export const STARTER_STATES: StateProfile[] = [
     capital: "Austin",
     timezoneNote: "Most of Texas is on Central Time; El Paso and a few western counties use Mountain Time.",
     summary:
-      "Texas’s 2026 cycle includes a U.S. Senate Class 2 seat, statewide executive offices, and a large U.S. House map. County election administrators publish sample ballots.",
+      "The Texas Secretary of State’s August 28, 2026 ballot certification places a U.S. Senate seat, statewide executive offices, and statewide judicial offices on the ballot in all 254 counties. The current-elections page does not list a statewide constitutional-amendment proclamation.",
     officialElectionOffice: {
       label: "Texas Secretary of State — Elections",
       href: "https://www.sos.texas.gov/elections/index.shtml",
@@ -563,14 +619,35 @@ export const STARTER_STATES: StateProfile[] = [
     ],
     ballotpedia: { label: "Ballotpedia — Texas elections 2026", href: "https://ballotpedia.org/Texas_elections,_2026" },
     statewideOffices2026: [
-      "U.S. Senate (Class 2)",
+      "U.S. Senator",
       "Governor",
-      "Lieutenant governor",
-      "Attorney general",
-      "Comptroller of public accounts",
+      "Lieutenant Governor",
+      "Attorney General",
+      "Comptroller of Public Accounts",
       "Commissioner of the General Land Office",
-      "Commissioner of agriculture",
-      "Railroad Commission seats on this cycle",
+      "Commissioner of Agriculture",
+      "Railroad Commissioner",
+      "Chief Justice, Supreme Court",
+      "Justice, Supreme Court, Place 2 (unexpired term)",
+      "Justice, Supreme Court, Place 7",
+      "Justice, Supreme Court, Place 8",
+      "Judge, Court of Criminal Appeals, Place 3",
+      "Judge, Court of Criminal Appeals, Place 4",
+      "Judge, Court of Criminal Appeals, Place 9",
+      "Chief Justice, 15th Court of Appeals District",
+      "Justice, 15th Court of Appeals District, Place 2",
+      "Justice, 15th Court of Appeals District, Place 3",
+    ],
+    cycleCheckedOn: "October 18, 2026",
+    cycleSources: [
+      {
+        label: "Texas Secretary of State — 2026 general election ballot certification",
+        href: "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+      },
+      {
+        label: "Texas Secretary of State — November 3, 2026 general election",
+        href: "https://www.sos.texas.gov/elections/laws/2026-november-general-election.shtml",
+      },
     ],
     sampleBallotOfficial: {
       label: "Am I Registered? / Where's my polling place",
@@ -587,9 +664,9 @@ export const STARTER_STATES: StateProfile[] = [
     hasSenateClass2: true,
     hasGovernor2026: true,
     sampleBallotNotes: [
-      "U.S. Senate (Class 2) is scheduled for the 2026 cycle.",
-      "Governor and other statewide offices may appear.",
-      "State Board of Education, legislature, and local races vary by address.",
+      "The August 28, 2026 ballot certification lists the offices above in all 254 counties, including the 15th Court of Appeals contests.",
+      "U.S. House, the Legislature, other courts of appeals, and the State Board of Education are certified by district. County offices in that certification, including county judge, are not statewide.",
+      "The current-elections page does not list a statewide constitutional-amendment proclamation.",
     ],
   },
   {
@@ -600,7 +677,7 @@ export const STARTER_STATES: StateProfile[] = [
     capital: "Tallahassee",
     timezoneNote: "Most of Florida is on Eastern Time; the Panhandle west of the Apalachicola River is on Central Time.",
     summary:
-      "Florida’s 2026 cycle includes statewide executive offices and U.S. House races. Supervisors of elections in each county issue sample ballots.",
+      "Florida’s November 3, 2026 candidate listing includes United States Senator, Governor, Attorney General, Chief Financial Officer, Commissioner of Agriculture, and Supreme Court Justice. The constitutional-initiatives table lists three 2026 general-election amendments.",
     officialElectionOffice: {
       label: "Florida Division of Elections",
       href: "https://dos.fl.gov/elections/",
@@ -634,10 +711,23 @@ export const STARTER_STATES: StateProfile[] = [
     ],
     ballotpedia: { label: "Ballotpedia — Florida elections 2026", href: "https://ballotpedia.org/Florida_elections,_2026" },
     statewideOffices2026: [
-      "Governor and lieutenant governor",
-      "Attorney general",
-      "Chief financial officer",
-      "Commissioner of agriculture",
+      "United States Senator",
+      "Governor",
+      "Attorney General",
+      "Chief Financial Officer",
+      "Commissioner of Agriculture",
+      "Supreme Court Justice",
+    ],
+    cycleCheckedOn: "October 18, 2026",
+    cycleSources: [
+      {
+        label: "Florida Division of Elections — candidate listing, 2026 general election",
+        href: "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+      },
+      {
+        label: "Florida Division of Elections — constitutional initiatives",
+        href: "https://constitutionalinitiatives.dos.fl.gov/",
+      },
     ],
     sampleBallotOfficial: {
       label: "Find your county Supervisor of Elections",
@@ -654,9 +744,9 @@ export const STARTER_STATES: StateProfile[] = [
     hasSenateClass2: false,
     hasGovernor2026: true,
     sampleBallotNotes: [
-      "Governor and other statewide offices, including Cabinet races, may appear.",
-      "U.S. Senate is not a Class 2 (2026) Florida seat.",
-      "Constitutional amendments, if certified, appear with official ballot summaries.",
+      "The candidate listing names United States Senator among the statewide contests.",
+      "This page does not label that contest a Class 2 seat.",
+      "The constitutional-initiatives table lists Amendments 1, 2, and 3 for the 2026 general election.",
     ],
   },
   {
@@ -667,7 +757,7 @@ export const STARTER_STATES: StateProfile[] = [
     capital: "Sacramento",
     timezoneNote: "Most of California is on Pacific Time.",
     summary:
-      "California’s 2026 cycle includes statewide constitutional offices and U.S. House races. County elections officials mail vote-by-mail ballots to registered voters.",
+      "California’s certified candidate list for November 3, 2026 has no U.S. Senate contest. It lists eight statewide executive offices and two Supreme Court retention contests. The qualified-ballot-measures page lists Propositions 1–5 and 37–45.",
     officialElectionOffice: {
       label: "California Secretary of State — Elections",
       href: "https://www.sos.ca.gov/elections",
@@ -702,13 +792,25 @@ export const STARTER_STATES: StateProfile[] = [
     ballotpedia: { label: "Ballotpedia — California elections 2026", href: "https://ballotpedia.org/California_elections,_2026" },
     statewideOffices2026: [
       "Governor",
-      "Lieutenant governor",
-      "Attorney general",
-      "Secretary of state",
+      "Lieutenant Governor",
+      "Secretary of State",
       "Controller",
       "Treasurer",
-      "Insurance commissioner",
-      "Superintendent of public instruction",
+      "Attorney General",
+      "Insurance Commissioner",
+      "Superintendent of Public Instruction",
+      "Associate Justice of the Supreme Court (two contests, all 58 counties)",
+    ],
+    cycleCheckedOn: "October 18, 2026",
+    cycleSources: [
+      {
+        label: "California Secretary of State — certified list of candidates, November 3, 2026 general election",
+        href: "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+      },
+      {
+        label: "California Secretary of State — qualified ballot measures",
+        href: "https://www.sos.ca.gov/elections/ballot-measures/qualified-ballot-measures",
+      },
     ],
     sampleBallotOfficial: {
       label: "Check registration status",
@@ -725,9 +827,9 @@ export const STARTER_STATES: StateProfile[] = [
     hasSenateClass2: false,
     hasGovernor2026: true,
     sampleBallotNotes: [
-      "Governor and other statewide offices may appear.",
-      "U.S. Senate is not a Class 2 (2026) California seat.",
-      "State propositions and local measures appear only if qualified for that ballot.",
+      "The certified candidate list dated August 27, 2026 does not include a U.S. Senate contest.",
+      "That list places the statewide offices named above before all 58 counties.",
+      "The qualified-ballot-measures page lists Propositions 1 through 5 and 37 through 45, and states that ACA 13 was removed from this ballot on June 25, 2026.",
     ],
   },
   {
@@ -738,7 +840,7 @@ export const STARTER_STATES: StateProfile[] = [
     capital: "Albany",
     timezoneNote: "Most of New York is on Eastern Time.",
     summary:
-      "New York’s 2026 cycle includes statewide executive offices and U.S. House races. County boards of elections (and the New York City Board of Elections) publish sample ballots.",
+      "New York’s October 7, 2026 amended ballot certification lists governor and lieutenant governor, comptroller, and attorney general as statewide offices. Representative in Congress is listed by district.",
     officialElectionOffice: {
       label: "New York State Board of Elections",
       href: "https://elections.ny.gov/",
@@ -767,10 +869,13 @@ export const STARTER_STATES: StateProfile[] = [
       },
     ],
     ballotpedia: { label: "Ballotpedia — New York elections 2026", href: "https://ballotpedia.org/New_York_elections,_2026" },
-    statewideOffices2026: [
-      "Governor and lieutenant governor",
-      "Attorney general",
-      "Comptroller",
+    statewideOffices2026: ["Governor and Lieutenant Governor", "Comptroller", "Attorney General"],
+    cycleCheckedOn: "October 18, 2026",
+    cycleSources: [
+      {
+        label: "New York State Board of Elections — amended 2026 general election ballot certification, October 7, 2026",
+        href: "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      },
     ],
     sampleBallotOfficial: {
       label: "Voter registration lookup",
@@ -787,9 +892,9 @@ export const STARTER_STATES: StateProfile[] = [
     hasSenateClass2: false,
     hasGovernor2026: true,
     sampleBallotNotes: [
-      "Governor and other statewide offices may appear.",
-      "U.S. Senate is not a Class 2 (2026) New York seat.",
-      "Judicial, municipal, and ballot-proposal contests are county- and city-specific.",
+      "The October 7, 2026 certification marks Governor and Lieutenant Governor, Comptroller, and Attorney General as District: Statewide.",
+      "Representative in Congress and State Senator are listed by district in the certification text read October 18, 2026.",
+      "That certification text does not certify a statewide ballot proposal.",
     ],
   },
   {
@@ -1331,6 +1436,91 @@ export const STARTER_STATES: StateProfile[] = [
       "That page lists 1 Kansas Supreme Court justice, 6 Kansas Court of Appeals judges, district court judges (45 retained, 29 elected), and district magistrate judges (15 retained, 5 elected). Each of those judicial lines is marked on the page as of July 1, 2025.",
       "The proposed-constitutional-amendments page says one constitutional amendment will be voted on at the November 3, 2026 general election. That page’s explanatory statement says the amendment would clarify that only a citizen of the United States is eligible to vote in the state. The question text is on that page.",
       "The candidate-list page says the table is updated automatically as each candidate files a valid petition or declaration of intention. The 2026 General selection of that list, read October 17, 2026, is the source for the U.S. Senate and governor names on the race guides. Other offices on that table are not named here.",
+    ],
+  },
+  {
+    code: "IL",
+    name: "Illinois",
+    slug: "IL",
+    fips: "17",
+    capital: "Springfield",
+    timezoneNote: "Illinois is on Central Time.",
+    summary:
+      "The Illinois State Board of Elections candidate list for November 3, 2026 includes United States Senator, governor and lieutenant governor, attorney general, secretary of state, comptroller, and treasurer. The U.S. Senate lists Illinois in Class II.",
+    officialElectionOffice: {
+      label: "Illinois State Board of Elections",
+      href: "https://www.elections.il.gov/",
+    },
+    voteGov: {
+      label: "Vote.gov: Illinois registration information",
+      href: "https://vote.gov/register/illinois",
+    },
+    officialVoterLinks: [
+      {
+        label: "Illinois State Board of Elections",
+        href: "https://www.elections.il.gov/",
+      },
+      {
+        label: "Candidate list, 2026 general election",
+        href: "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+      },
+      {
+        label: "Illinois voters guide",
+        href: "https://votersguide.elections.il.gov/",
+      },
+      {
+        label: "Voting by mail",
+        href: "https://www.elections.il.gov/electionoperations/votingbymail.aspx",
+      },
+      {
+        label: "Polling place lookup",
+        href: "https://ova.elections.il.gov/PollingPlaceLookup.aspx",
+      },
+      {
+        label: "Vote.gov: Illinois registration information",
+        href: "https://vote.gov/register/illinois",
+      },
+    ],
+    ballotpedia: {
+      label: "Ballotpedia — Illinois elections 2026",
+      href: "https://ballotpedia.org/Illinois_elections,_2026",
+    },
+    statewideOffices2026: [
+      "United States Senator",
+      "Governor and Lieutenant Governor",
+      "Attorney General",
+      "Secretary of State",
+      "Comptroller",
+      "Treasurer",
+    ],
+    cycleCheckedOn: "October 18, 2026",
+    cycleSources: [
+      {
+        label: "Illinois State Board of Elections — candidate list, 2026 general election",
+        href: "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+      },
+      {
+        label: "U.S. Senate — Class II, terms expire in 2027",
+        href: "https://www.senate.gov/senators/Class_II.htm",
+      },
+    ],
+    sampleBallotOfficial: {
+      label: "Illinois voters guide",
+      href: "https://votersguide.elections.il.gov/",
+    },
+    registrationNote:
+      "Illinois registration dates for the November 3, 2026 general election are on the voting-deadlines page, with the State Board of Elections chart and calendar linked there.",
+    earlyVotingNote:
+      "Early-voting dates for the November 3, 2026 general election are on the voting-deadlines page. Election-authority hours vary.",
+    mailNote:
+      "Vote-by-mail application dates for the November 3, 2026 general election are on the voting-deadlines page. The pages read for that update do not print a return deadline.",
+    idNote: "Identification rules are published by the Illinois State Board of Elections.",
+    hasSenateClass2: true,
+    hasGovernor2026: true,
+    sampleBallotNotes: [
+      "The candidate list includes United States Senator, Governor and Lieutenant Governor, Attorney General, Secretary of State, Comptroller, and Treasurer as statewide offices.",
+      "The U.S. Senate Class II roster lists Richard J. Durbin of Illinois among senators whose terms expire in 2027.",
+      "That candidate list does not list a referendum.",
     ],
   },
 ];

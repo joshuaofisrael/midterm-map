@@ -9,6 +9,7 @@ import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { RaceCard } from "@/components/RaceCard";
 import { KeyDatesSection } from "@/components/ElectionDates";
+import { ballotCycleFor } from "@/data/ballotCycle";
 import {
   electionDatesFor,
   hasSourcedDeadline,
@@ -16,6 +17,7 @@ import {
   type StateElectionDates,
 } from "@/data/electionDates";
 import { racesForState } from "@/data/races";
+import { stateResultsPath } from "@/data/results";
 import { stateHubFaqs } from "@/data/stateFaqs";
 import { getState, isStateCode, STARTER_STATES } from "@/data/states";
 import type { StateProfile } from "@/data/types";
@@ -95,7 +97,7 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
           <ul className="mt-3 space-y-2 text-sm">
             <li>
               <Link className="font-medium text-navy hover:underline" href={`/ballot/${state.code}`}>
-                {state.name} sample ballot structure
+                {ballotCycleFor(state.code) ? `${state.name} ballot, November 3, 2026` : `${state.name} sample ballot structure`}
               </Link>
             </li>
             <li>
@@ -106,6 +108,16 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
             <li>
               <Link className="font-medium text-navy hover:underline" href="/polls">
                 Polls and ratings hub
+              </Link>
+            </li>
+            <li>
+              <Link className="font-medium text-navy hover:underline" href={stateResultsPath(state.code)}>
+                {state.name} results
+              </Link>
+            </li>
+            <li>
+              <Link className="font-medium text-navy hover:underline" href="/live">
+                Live results
               </Link>
             </li>
             <li>
@@ -130,7 +142,11 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
           </p>
           {state.statewideOffices2026.length > 0 && (
             <div className="mt-4">
-              <p className="text-sm font-semibold">Statewide offices often on the 2026 ballot</p>
+              <p className="text-sm font-semibold">
+                {state.cycleSources && state.cycleSources.length > 0
+                  ? "Statewide offices on the November 3, 2026 ballot"
+                  : "Statewide offices often on the 2026 ballot"}
+              </p>
               <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-6 text-ink-muted">
                 {state.statewideOffices2026.map((office) => (
                   <li key={office}>{office}</li>
@@ -299,6 +315,8 @@ function deadlineMetaClause(dates: StateElectionDates): string {
  * Does not invent offices that are not on the state profile.
  */
 function stateCycleLead(state: StateProfile): string {
+  const cycle = ballotCycleFor(state.code);
+  if (cycle) return cycle.shortLead;
   const listed = joinOffices(notableOffices(state));
 
   if (state.hasSenateClass2 && state.hasGovernor2026) {
