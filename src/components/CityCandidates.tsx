@@ -17,7 +17,10 @@ export function CityCandidates({ code, place }: { code: string; place: PlaceReco
     return (
       <section className="max-w-3xl">
         <h2 className="font-serif text-2xl font-semibold">2026 general election candidates</h2>
-        <p className="mt-4 text-sm leading-6">Official candidate list not yet published</p>
+        <p className="mt-4 text-sm leading-6">
+          Candidates for this state are not yet listed on this site. Check the official state
+          election office below.
+        </p>
         <SourceLines sources={file.sources} />
       </section>
     );

@@ -195,6 +195,17 @@
       ]
     },
     {
+      "office": "United States Representative District 10",
+      "kind": "house",
+      "district": "10",
+      "candidates": [
+        {
+          "name": "Frost, Maxwell Alejandro (listed as Unopposed on the official list)",
+          "party": "DEM"
+        }
+      ]
+    },
+    {
       "office": "United States Representative District 11",
       "kind": "house",
       "district": "11",

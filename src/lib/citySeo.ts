@@ -24,7 +24,7 @@ export function citySeoDescription(
   const published = file?.status === "published";
   const list = published
     ? `Candidate names are copied from the official ${stateName} list.`
-    : "Official candidate list not yet published.";
+    : "Candidates not yet listed on this site; check the official state election office.";
   const population =
     place.pop == null
       ? `The 2020 Census place file has no population for GEOID ${place.geoid}.`
