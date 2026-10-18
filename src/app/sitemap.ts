@@ -149,7 +149,11 @@ function monetizationChanged(path: string): boolean {
 const LEGAL_BRAND_UPDATED = "2026-10-08";
 const LEGAL_BRAND_PATHS = new Set(["/about", "/disclaimer", "/privacy", "/terms", "/contact"]);
 
+/** October 17, 2026. Census place pages, their indexes, and the sitemap index. */
+const CITY_PAGES_UPDATED = "2026-10-17";
+
 function lastModifiedFor(path: string): string {
+  if (path === "/cities" || path.startsWith("/cities/")) return CITY_PAGES_UPDATED;
   const contentDate = contentUpdatedIsoForPath(path);
   if (contentDate) return contentDate;
   if (KANSAS_RESULTS_PATHS.has(path)) return KANSAS_RESULTS_UPDATED;

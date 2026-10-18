@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
+import { AdSlot } from "@/components/AdSlot";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CityCandidates } from "@/components/CityCandidates";
 import { CityLocal } from "@/components/CityLocal";
+import { CityRelated } from "@/components/CityRelated";
 import { ContentTrust } from "@/components/ContentTrust";
 import { JsonLd } from "@/components/JsonLd";
 import { JurisdictionLinks } from "@/components/JurisdictionLinks";
@@ -23,10 +25,10 @@ import {
   placeStates,
   placesForState,
   sharedPlaceNames,
-  type PlaceRecord,
 } from "@/data/places/load";
 import { contentUpdatedLabel } from "@/lib/contentDate";
-import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
+import { citySeoDescription, citySeoTitle, cityStructuredData } from "@/lib/citySeo";
+import { pageMetadata } from "@/lib/metadata";
 import { formatPopulation, joinFacts } from "@/lib/placeText";
 
 export const dynamicParams = false;
@@ -52,8 +54,8 @@ export async function generateMetadata({
   if (!state || !place) return {};
   const shared = sharedPlaceNames(state.code).has(place.name);
   return pageMetadata({
-    title: cityTitle(state.name, place, shared),
-    description: cityDescription(state.name, place),
+    title: citySeoTitle(state.code, place, shared),
+    description: citySeoDescription(state.code, state.name, place),
     path: `/cities/${state.code}/${place.slug}`,
   });
 }
@@ -71,17 +73,24 @@ export default async function CityPage({
   const office = electionOfficeFor(state.code);
   const shared = sharedPlaceNames(state.code).has(place.name);
   const path = `/cities/${state.code}/${place.slug}`;
-  const title = cityTitle(state.name, place, shared);
+  const title = citySeoTitle(state.code, place, shared);
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "Census places", path: "/cities" },
+    { name: state.name, path: `/cities/${state.code}` },
+    { name: place.name, path },
+  ];
 
   return (
     <div className="space-y-8">
       <JsonLd
-        data={breadcrumbJsonLd([
-          { name: "Home", path: "/" },
-          { name: "Census places", path: "/cities" },
-          { name: state.name, path: `/cities/${state.code}` },
-          { name: place.name, path },
-        ])}
+        data={cityStructuredData({
+          stateCode: state.code,
+          stateName: state.name,
+          place,
+          path,
+          crumbs,
+        })}
       />
       <Breadcrumbs
         items={[
@@ -107,6 +116,7 @@ export default async function CityPage({
         officeLabel={office.office.label}
       />
       <OfficialNotice compact />
+      <AdSlot id="city-top" height={90} />
 
       <section className="max-w-3xl">
         <h2 className="font-serif text-2xl font-semibold">Census facts</h2>
@@ -177,25 +187,11 @@ export default async function CityPage({
 
       <CityCandidates code={state.code} place={place} />
       <CityLocal code={state.code} place={place} />
+      <AdSlot id="city-bottom" height={250} />
+      <CityRelated code={state.code} stateName={state.name} place={place} />
 
       <JurisdictionLinks code={state.code} name={state.name} />
     </div>
   );
 }
 
-function cityTitle(stateName: string, place: PlaceRecord, shared: boolean): string {
-  const base = `${place.name}, ${stateName}`;
-  return shared ? `${base} (GEOID ${place.geoid})` : base;
-}
-
-function cityDescription(stateName: string, place: PlaceRecord): string {
-  const where =
-    place.counties.length === 1
-      ? `is in ${place.counties[0]}`
-      : `is in ${joinFacts(place.counties)}`;
-  const population =
-    place.pop == null
-      ? `The 2020 Census place file has no population for GEOID ${place.geoid}.`
-      : `2020 Census population: ${formatPopulation(place.pop)}.`;
-  return `${place.name}, ${stateName} (Census GEOID ${place.geoid}) ${where}. ${population} Place record from the U.S. Census Bureau 2026 Gazetteer Files (file date ${GAZETTEER_FILE_DATE}). Not an official election website.`;
-}

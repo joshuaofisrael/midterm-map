@@ -113,7 +113,7 @@ Update this file and the public legal pages together if you add analytics, accou
 
 ## City-page candidate names (October 17, 2026)
 
-Place pages list 2026 general-election candidate names and parties only when an official state election-office certified or candidate list was read on October 17, 2026. The page cites that list’s URL and the date it was read. Names and parties are copied in the list’s order. A state whose official list was not available says “Official candidate list not yet published” and links the state election office. Pages do not show ratings, rankings, or contact details. Mayor and council races are omitted; no official county or city list was matched to a place.
+Place pages list 2026 general-election candidate names and parties only when an official state election-office certified or candidate list was read on October 17, 2026. The page cites that list’s URL and the date it was read. Names and parties are copied in the list’s order. A state whose official list was not available says “Official candidate list not yet published” and links the state election office. Pages do not show ratings, rankings, or contact details. Mayor and council races are omitted; no official county or city list was matched to a place. Each place page title is “[Place], [ST] 2026 Elections: Candidates & Races”, with the county added when the Census name is repeated in that state. The description names the GEOID. Schema is Place, one Event per contest printed on the page, and BreadcrumbList. Race guides use the same title pattern from the guide’s short title, and FAQPage only when that guide already prints questions. Fixed-height boxes on those pages reserve space for ads and contain no ad code.
 
 ## ZIP search (October 17, 2026)
 

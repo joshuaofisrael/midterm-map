@@ -61,6 +61,11 @@ function districtNumber(value: string): string {
   return String(parseInt(match[1], 10));
 }
 
+/** 2026 U.S. House district numbers for this place. Changed-map states use the 120th file. */
+export function houseDistrictNumbers(code: string, place: PlaceRecord): string[] {
+  return [...houseKeys(code, place)].sort((a, b) => Number(a) - Number(b) || a.localeCompare(b));
+}
+
 function houseKeys(code: string, place: PlaceRecord): Set<string> {
   if (CHANGED_HOUSE_MAPS.has(code)) {
     const assigned = cd120Places()[code]?.[place.geoid] ?? [];
