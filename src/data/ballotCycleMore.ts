@@ -606,7 +606,7 @@ export const MORE_BALLOT_CYCLES: BallotCycle[] = [
       "State Question 847, Legislative Referendum 381. The final ballot title begins: “This measure amends article 10, sections 8B and 8C of the Oklahoma Constitution.” The file’s subject line is “Real property valuation.”",
     ],
     measureNote:
-      "The State Questions page says both have qualified for the November 3, 2026 election. The July 24 notice also says State Question 845 and State Question 847 will appear on the June 16 election ballot. The sentences quoted above are the openings of the final ballot titles, not a shortened title written for this page.",
+      "The State Questions page says both have qualified for the November 3, 2026 election. The sentences quoted above are the openings of the final ballot titles, not a shortened title written for this page.",
     districtNote:
       "The same notice lists district attorney offices in Districts 14, 18, 20, and 23, State Senator, State Representative, a State Senate District 17 special election, district and associate district judges, and county treasurer, assessor, and commissioner offices in most counties. It does not print U.S. House district numbers.",
     sources: [
