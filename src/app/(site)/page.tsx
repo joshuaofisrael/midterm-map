@@ -134,8 +134,7 @@ export default function HomePage() {
       <section>
         <h2 className="font-serif text-2xl font-semibold">State hubs</h2>
         <p className="mt-2 max-w-2xl text-sm text-ink-muted">
-          Seventeen states: Arizona, Georgia, Michigan, North Carolina, Nevada, Ohio,
-          Pennsylvania, Wisconsin, Texas, Florida, California, New York, Minnesota, Maine, Iowa, Alaska, and Kansas.
+          All 50 states and the District of Columbia. Each card links to that state’s election office and November 3, 2026 ballot facts.
         </p>
         <ul className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {STARTER_STATES.map((state) => (

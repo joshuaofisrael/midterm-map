@@ -6,7 +6,6 @@ import { CrossLinks } from "@/components/CrossLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
-import { ELECTION_DATES } from "@/data/electionDates";
 import { SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
 import { contentUpdatedLabel } from "@/lib/contentDate";
@@ -68,7 +67,7 @@ export default function BallotIndexPage() {
         </p>
         <p className="mt-4 text-sm leading-6">
           <Link className="font-medium text-navy underline" href="/voting-deadlines">
-            Key 2026 registration, early-voting, and mail-ballot dates for {ELECTION_DATES.length} states
+            Key 2026 registration, early-voting, and mail-ballot dates for the 50 states and the District of Columbia
           </Link>
           {" · "}
           <a className="font-medium text-navy underline" href={SITE.voteGovUrl} rel="noopener noreferrer">
@@ -77,17 +76,15 @@ export default function BallotIndexPage() {
         </p>
       </section>
       <section id="starter-states">
-        <h2 className="font-serif text-2xl font-semibold">Starter states</h2>
+        <h2 className="font-serif text-2xl font-semibold">States and the District of Columbia</h2>
         <p className="mt-2 max-w-2xl text-sm text-ink-muted">
-          MVP coverage: Arizona, Georgia, Michigan, North Carolina, Nevada, Ohio,
-          Pennsylvania, Wisconsin, Texas, Florida, California, New York, Minnesota, Maine, Iowa, Alaska, and Kansas.
-          Each card links to that state’s official election office.
+          All 50 states and the District of Columbia. Each card links to that jurisdiction’s November 3, 2026 ballot facts and official election office.
         </p>
         <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {STARTER_STATES.map((state) => (
             <li key={state.code} className="rounded-xl border border-line bg-paper-card p-4">
               <Link className="font-serif text-lg font-semibold hover:text-navy" href={`/ballot/${state.code}`}>
-                {state.name} sample ballot
+                {state.name} ballot, November 3, 2026
               </Link>
               <p className="mt-1 text-sm text-ink-muted">
                 Official office:{" "}

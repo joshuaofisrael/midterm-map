@@ -1,3 +1,4 @@
+import { MORE_STATE_PROFILES } from "./statesMore";
 import type { StateCode, StateProfile } from "./types";
 
 export const STARTER_STATES: StateProfile[] = [
@@ -1347,7 +1348,7 @@ export const STARTER_STATES: StateProfile[] = [
     timezoneNote:
       "Kansas includes counties in the central time zone and counties in the mountain time zone. K.S.A. 25-106 states poll hours separately for each zone.",
     summary:
-      "Kansas’s 2026 cycle includes a U.S. Senate seat, the governor and lieutenant governor, other statewide executive offices, and U.S. House races. The Secretary of State publishes the offices on the candidate-information page.",
+      "Kansas’s candidate-information page lists a U.S. Senate seat, governor and lieutenant governor, four other statewide executive offices, and statewide judicial retentions, plus one constitutional amendment.",
     officialElectionOffice: {
       label: "Kansas Secretary of State — Elections",
       href: "https://sos.ks.gov/elections/elections.html",
@@ -1419,14 +1420,16 @@ export const STARTER_STATES: StateProfile[] = [
       href: "https://ballotpedia.org/Kansas_elections,_2026",
     },
     statewideOffices2026: [
-      "U.S. Senate (Class 2)",
-      "Governor and lieutenant governor",
-      "Secretary of state",
-      "Attorney general",
-      "State treasurer",
-      "Commissioner of insurance",
+      "1 U.S. Senator (Class II, term expires in 2027)",
+      "Governor/Lt. Governor",
+      "Secretary of State",
+      "Attorney General",
+      "State Treasurer",
+      "Commissioner of Insurance",
+      "1 Kansas Supreme Court Justice (as of July 1, 2025)",
+      "6 Kansas Court of Appeals Judges (as of July 1, 2025)",
     ],
-    cycleCheckedOn: "October 16, 2026",
+    cycleCheckedOn: "October 19, 2026",
     cycleSources: [
       {
         label: "Kansas Secretary of State — offices to be elected or retained in 2026",
@@ -1997,6 +2000,7 @@ export const STARTER_STATES: StateProfile[] = [
       "That search does not list a ballot question.",
     ],
   },
+  ...MORE_STATE_PROFILES,
 ];
 
 export const STATE_CODES = STARTER_STATES.map((s) => s.code);

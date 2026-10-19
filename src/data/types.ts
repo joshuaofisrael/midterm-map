@@ -27,7 +27,29 @@ export type StateCode =
   | "IN"
   | "MO"
   | "MD"
-  | "SC";
+  | "SC"
+  | "AL"
+  | "AR"
+  | "CT"
+  | "DE"
+  | "DC"
+  | "HI"
+  | "ID"
+  | "KY"
+  | "LA"
+  | "MS"
+  | "MT"
+  | "NE"
+  | "NM"
+  | "ND"
+  | "OK"
+  | "OR"
+  | "RI"
+  | "SD"
+  | "UT"
+  | "VT"
+  | "WV"
+  | "WY";
 
 export type Chamber = "senate" | "house" | "governor" | "statewide";
 

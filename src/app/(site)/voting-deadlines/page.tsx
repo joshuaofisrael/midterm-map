@@ -13,7 +13,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
   title: "2026 voter registration, early voting and mail ballot deadlines by state",
-  description: `Voter registration, early voting, and mail-ballot deadlines for the November 3, 2026 general election in ${ELECTION_DATES.length} states. Each date is tied to an official election-office page, state statute, or Vote.gov. Not an official election website.`,
+  description: `Voter registration, early voting, and mail-ballot deadlines for the November 3, 2026 general election in the 50 states and the District of Columbia. Each date is tied to an official election-office page, state statute, or Vote.gov. Not an official election website.`,
   path: "/voting-deadlines",
 });
 
@@ -45,7 +45,7 @@ export default function VotingDeadlinesPage() {
       <PageHeader
         eyebrow={SITE.electionDayLong}
         title="2026 voter registration, early voting and mail ballot deadlines by state"
-        lede={`Registration, early voting, and mail-ballot dates for ${rows.length} states. Each date is paraphrased from a state election office page, a state statute, or Vote.gov, linked in the same cell. Items from a single county board are labeled as county-only.`}
+        lede="Registration, early voting, and mail-ballot dates for the 50 states and the District of Columbia. Each date is paraphrased from a state election office page, a state statute, or Vote.gov, linked in the same cell. Items from a single county board are labeled as county-only."
       />
       <ContentTrust updated={contentUpdatedLabel("/voting-deadlines")} pagePath="/voting-deadlines" />
       <OfficialNotice compact />
