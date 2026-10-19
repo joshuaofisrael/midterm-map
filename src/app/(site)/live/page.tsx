@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentTrust } from "@/components/ContentTrust";
+import { EmailSignup } from "@/components/EmailSignup";
 import { JsonLd } from "@/components/JsonLd";
 import { liveSourceRows } from "@/components/LivePanel";
 import { LiveResults } from "@/components/LiveResults";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
+import { TipJar } from "@/components/TipJar";
 import liveSources from "@/data/live-sources.json";
 import { POLL_CLOSE } from "@/data/pollClose";
 import { SITE, absoluteUrl } from "@/data/site";
@@ -86,6 +88,8 @@ export default function LivePage() {
         </p>
       </section>
 
+      <EmailSignup prominent />
+
       <LiveResults sources={liveSourceRows()} />
 
       <section className="rounded-xl border border-line bg-paper-card p-5">
@@ -124,6 +128,8 @@ export default function LivePage() {
           </table>
         </div>
       </section>
+
+      <TipJar />
     </div>
   );
 }

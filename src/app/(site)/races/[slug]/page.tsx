@@ -102,6 +102,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
       />
       <OfficialNotice compact />
       <LivePanel stateCode={race.state} raceSlugs={[race.slug]} />
+      <EmailSignup prominent />
       <AdSlot id="race-top" height={90} />
 
       <div className="grid gap-6 lg:grid-cols-[1.25fr_0.75fr]">
@@ -262,7 +263,6 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
       )}
       <AdSlot id="race-bottom" height={250} />
       <CrossLinks state={race.state} raceSlug={race.slug} />
-      <EmailSignup />
       <FurtherReading />
       <TipJar />
     </div>

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentTrust } from "@/components/ContentTrust";
 import { CrossLinks } from "@/components/CrossLinks";
+import { EmailSignup } from "@/components/EmailSignup";
 import { JsonLd } from "@/components/JsonLd";
 import { LivePanel } from "@/components/LivePanel";
 import { OfficialNotice } from "@/components/OfficialNotice";
@@ -73,6 +74,7 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
       />
       <OfficialNotice />
       <LivePanel stateCode={race.state} raceSlugs={[race.slug]} />
+      <EmailSignup prominent />
 
       <section className="rounded-xl border border-line bg-paper-card p-5">
         <div className="flex flex-wrap items-center gap-2">
