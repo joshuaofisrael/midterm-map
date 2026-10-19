@@ -34,8 +34,7 @@ export const SITE = {
   legalLastUpdated: "October 8, 2026",
   /** Last substantive change to /privacy and /terms (tips, email alert, affiliate sections). */
   policyLastUpdated: "October 8, 2026",
-  privacyLastUpdated: "October 18, 2026",
-  mailingAddress: "5640 W Maple Rd, Ste 101, West Bloomfield, MI 48322",
+  privacyLastUpdated: "October 19, 2026",
   voteGovUrl: "https://www.vote.gov/",
 } as const;
 

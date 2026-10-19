@@ -1,3 +1,4 @@
+import { MORE_BALLOT_CYCLES } from "./ballotCycleMore";
 import { electionDatesFor, type StateElectionDates } from "./electionDates";
 import type { OfficialSource, RaceGuide, StateCode, StateProfile } from "./types";
 
@@ -909,6 +910,7 @@ export const BALLOT_CYCLES: BallotCycle[] = [
       CLASS_II,
     ],
   },
+  ...MORE_BALLOT_CYCLES,
 ];
 
 const BY_CODE = new Map(BALLOT_CYCLES.map((cycle) => [cycle.code, cycle]));

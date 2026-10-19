@@ -432,7 +432,7 @@ export default function PrivacyPage() {
 
         <h2>Contact</h2>
         <p>
-          {SITE.legalName}, {SITE.location}. Mailing address: {SITE.mailingAddress}.{" "}
+          {SITE.legalName}, {SITE.location}.{" "}
           <a href={contactMailto()}>{SITE.email}</a>. See also the{" "}
           <Link href="/disclaimer">disclaimer</Link> and <Link href="/terms">terms of use</Link>.
         </p>

@@ -1,3 +1,4 @@
+import { MORE_ELECTION_DATES } from "./electionDatesMore";
 import type { StateCode } from "./types";
 
 /**
@@ -13,7 +14,9 @@ import type { StateCode } from "./types";
  * Elections ballot-entitlement chart, election calendar, voters-guide FAQs,
  * voting-by-mail page, and the online registration-closed notice. The return
  * deadline for a voted vote-by-mail ballot was not on those pages.
- * Kansas was read on October 16, 2026 for the state hub. Kansas lines cite the
+ * Kansas was read on October 16, 2026 for the state hub and re-read on
+ * October 19, 2026. The printed registration and advance-ballot dates had not
+ * changed. Kansas lines cite the
  * Secretary of State pages, the linked general-election dates file, K.S.A.
  * 25-106, 25-1122, 25-1132, and 25-2311, and Vote.gov. A relative statutory
  * period is not converted into a calendar date the office did not print.
@@ -1694,7 +1697,7 @@ export const ELECTION_DATES: StateElectionDates[] = [
   },
   {
     code: "KS",
-    checkedOn: "October 16, 2026",
+    checkedOn: "October 19, 2026",
     faqAnswer:
       "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Kansas Secretary of State’s important-election-dates page lists October 13, 2026 as the deadline to register or to update a registration to change an address or a name for that election. An October 13, 2026 Secretary of State announcement says paper registration forms are due by the close of business at the county election office and that online registration is available until midnight that day. The voter-registration page says the registration books close 21 days before an election until the election is completed. K.S.A. 25-2311 states that registration is not provided on the 20 days preceding a general election or on election day, and that applications received by a voter registration agency or the division of motor vehicles not later than the 21st day preceding the election, or mailed applications postmarked not later than that day, are accepted and processed. A mailed application with a missing or illegible postmark is accepted if it is received by the ninth day preceding the election. Vote.gov says the online, mail, and in-person registration deadlines are 21 days before Election Day and that a mail registration must be postmarked by that day. Vote.gov does not print October 13, and that page says it was last updated November 18, 2024. The important-dates page lists October 14, 2026 as the first day of advance voting, with advance ballots by mail transmitted that day and in-person advance voting allowed to begin, and October 27, 2026 as the day in-person advance voting must begin in every county. K.S.A. 25-1122 states the mailed advance-ballot application period as 90 days before the general election through the Tuesday of the week preceding it, and states the default in-person application period as the Tuesday next preceding the election through 12:00 noon on the day before the election unless the county designates an earlier start. That statute does not print October 14 or October 27. K.S.A. 25-1132(b), effective January 1, 2026, states that the deadline for receipt by mail of an advance voting ballot is 7:00 p.m. on the date of the election. The advance-voting page says the statutory return deadline is the close of the polls on Election Day. That page also says a district court in Douglas County entered a statewide injunction requiring a ballot postmarked by election day to be counted if it arrives by the last postal delivery on the Friday after the election, and that a motion to stay that injunction for the general election was denied. K.S.A. 25-106 states poll hours separately for the central and mountain time zones. County hours vary, and dates can change. The Kansas Secretary of State publishes the current calendar.",
     facts: [
@@ -2272,7 +2275,8 @@ export const ELECTION_DATES: StateElectionDates[] = [
       { category: "mail-request", label: "Mail-ballot request", text: "The 2026 statewide candidate page read on October 18, 2026 does not print this deadline. The Maryland State Board of Elections publishes the calendar." },
       { category: "mail-return", label: "Mail-ballot return", text: "The 2026 statewide candidate page read on October 18, 2026 does not print this deadline. The Maryland State Board of Elections publishes the calendar." },
     ],
-  }
+  },
+  ...MORE_ELECTION_DATES,
 ];
 
 const BY_CODE = new Map(ELECTION_DATES.map((entry) => [entry.code, entry]));

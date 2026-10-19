@@ -123,6 +123,10 @@ Texas Census place pages list countywide offices from the Texas Secretary of Sta
 
 The homepage and Census place indexes include a ZIP search that runs in the browser. It loads static JSON split by the first three digits of the ZIP, built from Census ZCTA relationship files. The site does not store the entered ZIP, does not put it in the address bar, and does not send it to a third-party service. The request to this site is only for the three-digit prefix file.
 
+## October 19, 2026 — remaining November 3, 2026 ballot facts
+
+Ballot-cycle records now cover the 50 states and the District of Columbia. The new records are Alabama, Arkansas, Connecticut, Delaware, the District of Columbia, Hawaii, Idaho, Kentucky, Louisiana, Mississippi, Montana, Nebraska, New Mexico, North Dakota, Oklahoma, Oregon, Rhode Island, South Dakota, Utah, Vermont, West Virginia, and Wyoming, plus a Kansas block for the hub that already existed. Each office and measure line cites the state election office, or the D.C. Board of Elections, read October 19, 2026. A figure that page did not print is omitted. GoVoteWV prints early voting in person for October 21 through October 31, 2026; that range is stored. Connecticut’s certificate-of-endorsement index and the Kanawha County sample ballot are cited. Kansas registration and advance-ballot dates were re-read the same day from the Secretary of State pages and K.S.A. 25-1122 and 25-1132; the printed dates had not changed. The privacy contact line no longer prints a street address. No robots.txt change. No how-to or voting-advice copy was added.
+
 ## October 18, 2026 — election-law pass (not legal advice)
 
 Joshua's rule: every site must follow the election laws of each country it covers. Full matrix: `/workspace/legal/election-law-matrix-2026-10-18.md` on the operator box.
