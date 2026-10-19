@@ -567,7 +567,6 @@ export const MORE_STATE_PROFILES: StateProfile[] = [
     hasGovernor2026: true,
     sampleBallotNotes: [
       "The State Questions page says State Questions 845 and 847 have qualified for the November 3, 2026 election.",
-      "The July 24 notice also says those questions will appear on the June 16 election ballot.",
     ],
   },
   {
