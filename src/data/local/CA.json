@@ -1,0 +1,3850 @@
+{
+  "accessed": "October 19, 2026",
+  "date": {
+    "quote": "November 3, 2026",
+    "text": "These local contests are for the November 3, 2026 general election."
+  },
+  "localIntro": "Citywide offices and city measure titles below are copied from the official list linked for this county. Candidate names are copied in the order printed on that list.",
+  "local": {
+    "0602896": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "DAN ROCHA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "ALI TAJ",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "RENE J. TREVINO",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "MELISSA RAMOSO",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "CRAIG FRANCIS",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0603666": [
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "CHRISTOPHER SAENZ",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "City Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JOANNA VALENZUELA",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ALEJANDRA AVILA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JEAN M. AYALA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JEANETTE CARDOZA",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure CR: Good Government Cannabis Reform Measure To fund general city services in Baldwin Park, such as cleaning trash/graffiti, fixing streets/potholes, crime prevention, 911 emergency response, and providing afterschool/youth employment programs,",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0604996": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MARCO BARCENA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "MIGUEL DE LA ROSA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "SAMUEL PEREZ",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "FRANCIS DE LEON SANCHEZ",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JORGE O. VERDIN",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure W: Shall the measure permitting the City of Bell Gardens to sell the Bell Gardens Municipal Water System to the Golden State Water Company be adopted?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0608954": [
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "KIMBERLEY CLARK",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "City Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "KRYSTLE PALMER",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JACKIE WALTMAN",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "SAMANTHA WICK",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "EDDY POLON",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JT PARR",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "NIKKI PEREZ",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JONATHAN ONTIVEROS",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "DAVID PHILLIP DONAHUE",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure C: CITY OF BURBANK CITY SERVICES MEASURE: MEASURE C: To maintain services including fire, paramedic, police, 911 response; prepare for/respond to wildfires/other disasters; prevent property crimes; keep public areas/neighborhoods clean/safe; address homelessness; support youth programs, senior services, other general city services;",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure CC: CHARTER AMENDMENT MEASURE CC",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure CD: BY-DISTRICT COUNCIL ELECTIONS MEASURE CD",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0611530": [
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "KHALEAH K. BRADSHAW",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "City Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MONICA COOPER",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure CU: Carson City Government Accountability, Charter Reform, No Tax Increase Measure",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0614974": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "NICK PADILLA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JAIME VALENCIA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "MIREYA GARCIA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "LEONARD MENDOZA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "KEVIN LAINEZ",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "VANESSA HARO",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0615044": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ANDRE SPICER",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "EMMA SHARIF",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0617498": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "CYNTHIA GONZALEZ",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "MARTIN U. FUENTES",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "RICHARD CORVERA HERNANDEZ",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "CYNTHIA ROMO",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JOSE R. GONZALEZ",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure OK: Keep Cudahy Sales Tax Revenues Local Measure To preserve and continue the City's existing local funding stream, which may be used to support general City services, including, but not limited to, street, sidewalk and City building repair; park maintenance and enhancements; and youth and recreational programs,",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure H: Cudahy Rent Stabilization Protection Measure To safeguard tenant protections codified under Cudahy Municipal Code Chapter 5.13, including provisions that prevent excessive rent increases and stabilize rents over time while affording landlords reasonable returns,",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0617568": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JEANNINE WISNOSKY STEHLIN",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "FRANKLIN CARVAJAL",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "FREDDY PUZA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "THOMAS AUJERO SMALL",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "KIMBERLEY \"KIM\" GRIFFIN",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure AA: Shall the measure, to strengthen academic excellence, attract and retain teachers, support music/ arts/ athletics/ STEM programs, instructional aides, and for other designated purposes, by imposing a special tax on all real estate parcels, including commercial use, of $0.48/ building square foot, with senior exemptions, independent citizen/ auditor oversight, subject to a tax cap, for 10 years, generating approximately $18,000,000 annually in local funds for Culver City public schools that the state cannot take be adopted?",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure T: Shall an ordinance to maintain Culver City emergency response/ firefighter/ paramedic/ police staffing; affordable housing/ mental health/ homeless reduction programs; improve streets, sidewalks, public transportation, infrastructure, parks and other general fund services by raising Culver City's transient occupancy tax paid by hotel/ motel guests from 14% to 15% until March 1, 2028, and then to 16%, generating up to approximately $2,000,000 annually until ended by voters, requiring annual audits, public spending disclosures, with all funds used locally, be adopted?",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure YV: Shall the measure amending the City of Culver City Charter to allow Culver City residents aged 16 and 17, who are otherwise eligible to vote under state and local law, to vote on City and School District candidates and ballot measures, provided that each legislative body has approved budgetary funds and determined logistical systems are in place, and that inclusion would not prevent consolidation of City or School District elections with county elections, be adopted?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0622230": [
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "GABRIEL RAMIREZ",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JERRY VELASCO",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "City Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MARIA SANTAY",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "MARYANN G. BARRIOS",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "XIAOHU \"JEFF\" MENG",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JESSICA ANCONA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "VIVIANA LONGORIA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "CHRISTINE SARMIENTO",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0622412": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "CHRIS PIMENTEL",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "RYAN W. BALDINO",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JOHN PICKHAVER",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure CT: Shall an Ordinance amending the City's Business License Tax Ordinance to restore and impose a business license tax on nonprofit organizations that do not serve a charitable purpose, and also to exempt charitable organizations from having to pay a business license tax, thereby indefinitely restoring approximately $700,000 general funds annually, be adopted?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0632506": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "LUIS ROA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "DANDY DE PAULA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "LUIS GONZALEZ",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JESUS MENDOZA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "MARIA TERESA DEL RIO",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure BL: “Shall the measure to help fund general City services, such as public safety, street operations and maintenance, and parks and recreation services, by updating and simplifying the City’s business license tax to levy a maximum annual $50 flat rate plus $0.95 per $1,000 of gross receipts above $30,000 for all businesses other than contractors, and a $175 flat rate for contractors, generating approximately $563,810 until ended by voters, all funds being local, be adopted?”",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0632548": [
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "DAYNA S. WILLIAMS-HUNTER",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "City Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "L. DAVID PATTERSON",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "RAYMOND VERGARA",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "KATRINA MANNING",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "ALEXANDRE \"ALEX\" MONTEIRO",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "SERGIO ROBERTO MORTARA",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure O: Shall the measure increasing the City of Hawthorne's transient occupancy (hotel) tax from 12% to 17%, to maintain City services such as police and fire protection, street repairs, park/recreation programs, and other general City services, generating approximately $3.1 million annually, paid only by hotel/lodging guests until ended by voters, with all funds staying local, be adopted?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0633364": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "RAYMOND \"RAY\" JACKSON",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "DEAN FRANCOIS",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "ELKA WORNER",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "MAGGIE BOVE-LAMONICA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "ERIC HORNE",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "ROB SAEMANN",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure HB: Shall the measure to adopt a one-half percent (0.5%) local transactions and use (sales) tax providing approximately two million dollars ($2,000,000) annually until ended by voters (with citizens' oversight, independent audits, public reporting, and all funds remaining under local control) to maintain public safety services; repair and maintain streets, sidewalks, storm drains, parks, public facilities, and other infrastructure; address long-term fiscal sustainability; and support other general governmental purposes be adopted?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0636546": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "FRE'DRISHA \"SHA\" DIXION",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JAMES T. BUTTS JR.",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "ARTURO MARTINEZ",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "GLORIA D. GRAY",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "RAINA CARRILLO",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JOE SOTO",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure AT: Ordinance To Amend the Admissions Tax for Large Venues",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure BB: Ordinance To Eliminate Advertising on Public Right-Of- Way",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0636826": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "HECTOR \"MANUEL\" ORTIZ",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "MARGUERITE S. LOPEZ-SAPIEN",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "MARICELA ROMERO FRYMARK",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0640886": [
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ERICA HARBISON",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "BERNADETTE LOURDES SUAREZ",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "PAT KEARNEY",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ROBERT PULLEN-MILES",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "FRANCISCO M. TALAVERA",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0644000": [
+      {
+        "office": "City Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JOHN MCKINNEY",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "MARISSA ROY",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "NITHYA RAMAN",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "KAREN RUTH BASS",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure TE: PROPERTY TRANSFER TAX EXEMPTION FOR VICTIMS OF JANUARY 2025 FIRE DISASTER. PROPOSITION TE",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure LA: CITY INFRASTRUCTURE, BUDGET, FINANCE, AND CONTRACTING. CHARTER AMENDMENT LA",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure PL: CITY PLANNING DEPARTMENT. CHARTER AMENDMENT PL",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure EE: CITY ETHICS, ELECTIONS, AND GOVERNANCE. CHARTER AMENDMENT EE",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure PRK: CITY DEPARTMENT OF RECREATION AND PARKS BUDGET. CHARTER AMENDMENT PRK",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure PRT: CITY AIRPORTS, HARBOR, AND WATER AND POWER DEPARTMENTS. CHARTER AMENDMENT PRT",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure FD: FUNDING FOR THE LOS ANGELES FIRE DEPARTMENT THROUGH A ONE-HALF PERCENT SALES TAX. INITIATIVE ORDINANCE FD",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure SC: CAMPAIGN FINANCE RULES RELATED TO BOARD OF EDUCATION ELECTIONS. CHARTER AMENDMENT SC",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0644574": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MISHAUN WATKINS",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "GABRIELA CAMACHO",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JUAN MUNOZ-GUEVARA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "EMILIANO ARELLANO",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "LUIS GERARDO CUELLAR",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "ALFONSO MORALES",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure L: Lynwood Public Safety/Community Protection/City Services Measure To maintain 911 emergency response; prevent crime, including gang/juvenile crime and human trafficking; address homelessness; keep parks/public areas safe/clean; address speeding/unsafe driving; repair streets/potholes; support youth/senior programs, other general city services,",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0645246": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "A. SAM DIBAEI",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "DANNY SMITH",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "DOUG STEWART",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "MARIANNE RIGGINS",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0645400": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "RICHARD P. MONTGOMERY",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "AMY HOWORTH",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "MARK BURTON",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JOSEPH UNGOCO",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0646492": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "EDUARDO \"EDDIE\" DE LA RIVA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "THOMAS RAMON MARTIN",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0648648": [
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ALICE D. ATKINS",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "City Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JANET WALL",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "TAMALA P. KELLY",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "LARRY J. SPICER",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JESUS ROJAS",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "BECKY A. SHEVLIN",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0648816": [
+      {
+        "office": "City Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "DAVID MATANGA",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0648914": [
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "DORA LEUNG",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "City Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "AMY LEE",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure HOM: Proposition to Create HOME Housing Overlays in Monterey Park",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure AAA: Shall the ordinance maintaining City of Monterey Park’s services like fire, police, 911 response; keeping public areas safe/clean; helping prevent property crimes/human trafficking in Monterey Park; repairing streets/ potholes; for other city services; by increasing the transient occupancy tax paid only by hotel/motel guests from 13% to 14%, and short-term rental guests, from 13% to 16%, providing approximately $600,000 annually until ended by voters; requiring audits, spending disclosure, local control over all funds, be adopted?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0652526": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "TONY AYALA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "RICHARD LEGASPI",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "DANIEL MORENO",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "LEONARD SHRYOCK",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "NIKOLAS WOODS",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "RACHELL JAIMES",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0655380": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MARK SAROJAN",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "MICHAEL KEMPS",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "VICTORIA A. LOZZI",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure PVE: Palos Verdes Estates Law Enforcement Services and Pension Liability Payment Measure",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0656924": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JOHNNY GARCIA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "GUSTAVO V. CAMACHO",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "GENARO MORENO",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0659514": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MATTHEW BRACH",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "MICHELE PATRICK CARBONE",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "DAVID CHURA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "TINA FUNICIELLO",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JESSICA PATTON VLACO",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JOHN CRUIKSHANK",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure RS: Rancho Palos Verdes Public Safety/City Services Measure: To help prepare for and respond to wildfires/natural disasters; maintain roads/storm drains; prevent sinkholes; address landslides/land movement; and support general city services,",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0662602": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "PAT WILSON",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "LEAH MIRSCH",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JEANEVRA CALHOUN",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JAMES BLACK",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0662896": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "DIANA LAM",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JOHN TRAN",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "SANDRA ARMENTA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "STEVEN LY",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure RC: Shall the City of Rosemead Charter be adopted to establish Rosemead as a charter city to have more authority over municipal affairs, imposing term limits on City Councilmembers, establishing the position of City prosecutor, permitting use of City funds or economic development, continuing following California law for limiting compensation for Councilmembers, and giving the City Council authority to adopt an ordinance giving veterans and disabled veterans preference in awarding contracts?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0667042": [
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "THU \"JULIE\" NGUYEN",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "City Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "KEVIN SAWKINS",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "WENDY WANG",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JOHN WU",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "DENISE MENCHACA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "ERIC L. CHAN",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JORDAN GUZMAN",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure PS: SAN GABRIEL PUBLIC SAFETY/ LOCAL CONTROL To protect San Gabriel's financial stability; maintain medical 911/police response, fire services; prevent crime; protect drinking water sources; repair streets/potholes; keep public areas safe/ clean; maintain safe schools; prepare for/ respond to earthquakes, fire/ other disasters; retain/ attract qualified firefighters; for other general services;",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0668224": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "SHELLEY BOYLE",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JOHN DUSTIN",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "TONY CHOU",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "CALVIN LO",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure U: SAN MARINO SERVICE PRESERVATION MEASURE. To maintain existing funding which supports essential San Marino services including: police, fire, paramedic, emergency preparedness, repairing streets and sidewalks and other City infrastructure, providing youth and senior programs, and general government use;",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0670000": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "WADE KELLEY",
+            "party": ""
+          },
+          {
+            "name": "ASHLEY OELSEN",
+            "party": ""
+          },
+          {
+            "name": "ERICKA LESLEY",
+            "party": ""
+          },
+          {
+            "name": "LANA NEGRETE",
+            "party": ""
+          },
+          {
+            "name": "PHIL BROCK",
+            "party": ""
+          },
+          {
+            "name": "DANIEL IVANOV",
+            "party": ""
+          },
+          {
+            "name": "ELI GILL",
+            "party": ""
+          },
+          {
+            "name": "BRETT MORROW",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "Measure ES: Shall a measure imposing a City of Santa Monica collected parcel tax of $495 per taxable parcel, adjusted annually for inflation, exempting qualifying seniors, affordable housing, non-profits, religious organizations, and schools, providing continual funding for Santa Monica’s public schools, including retaining teachers, assisting disadvantaged students, supporting art, music, science, math, and early childhood education, keeping school facilities clean and safe for student and community use, generating an estimated $12,000,000 annually until repealed by voters, with oversight requirements, be adopted?",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure GG: Shall the City Charter be amended to: affirm the City of Santa Monica’s just cause eviction laws; allow Rent Control Board Commissioners to serve up to three terms, including appointed service; annually increase the cap on rent controlled unit registration fees; clarify Rent Control Board authority to regulate timelines for deciding rent adjustment petitions; and permit eviction from affordable housing units for tenants who are not eligible or do not establish eligibility?",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure RR: Shall the City Charter be amended to prohibit evictions based on non- payment of rent when a tenant owes less than one month of the average of fair market rents, set annually by the U.S. Department of Housing and Urban Development, for ZIP codes in Santa Monica?",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure VV: Shall Article XXIII of the City Charter related to housing policies be amended to extend existing eviction protections to tenants renting single-unit dwellings and condominiums and require that for owner occupancy evictions from non-rent controlled units, the owner must intend in good faith to occupy the unit within 60 days after the tenant vacates and for at least 2 years thereafter?",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure TT: Shall the measure, which maintains the existing transient occupancy tax rates; authorizes the City Council to establish Major Event Periods, as defined, when the tax applies to lodging paid for or obtained by corporate entities for stays over 30 days, and to adjust the hotel and motel tax rate for such stays; clarifies that refunds require a natural person to complete at least thirty-one consecutive days of occupancy, and authorizes administrative regulations, be adopted?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0672996": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "RUDY BOJORQUEZ",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "MANUEL \"MANNY\" ACOSTA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "KIMBERLY \"KIM\" VALENCIA",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure CL: Term Limits Reform Measure",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure RM: City Council Reform Measure",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0673080": [
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "YODIT GLAZE",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JOSHUA BARRON",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "AL RIOS",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "EDGAR PELAYO",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JIMMY OZAETA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "ALAN GARCIA",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "City Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JOSE DE LA PAZ",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure SG: SOUTH GATE FISCAL EMERGENCY STREET MAINTENANCE, YOUTH PROGRAMS, PARKS FUNDING PROTECTION MEASURE",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0683332": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ALLEN WU",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "RICHARD \"RITCHIE\" CAJULIS",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "HONG \"DIANA\" ZHAO",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "STEFANIE N. LEILUA",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0684200": [
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "NICKOLAS LEWIS",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "City Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "COLLEEN B. ROZATTI",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0684410": [
+      {
+        "office": "Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "HELEN KRIEGER",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "KODY CHRISTIANSEN",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JONATHAN COTTRELL",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "STEPHEN J. POST",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "KEVIN L. LIGON",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "TOM DEMILLE",
+            "party": "NON PARTISAN"
+          }
+        ]
+      }
+    ],
+    "0600884": [
+      {
+        "office": "Measure HT: Modernization/No Tax Rate Increase Measure. To maintain city services, such as: Fire protection, paramedic, 911 emergency response, crime prevention and keeping streets, infrastructure, and parks safe and well-maintained",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure DB: Data Centers Prohibited. Shall an ordinance be adopted affirming the Council adopted ban on \"Data Centers\" by amending the Alhambra Municipal Code to again define \"Data Centers\" and prohibit them in all zones of the City?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0619192": [
+      {
+        "office": "Measure Q: To maintain local funding for emergency response/Sheriff protection; keep Diamond Bar's neighborhoods/public areas safe/clean; prevent property crimes/burglaries; minimize the risk of wildfires; prepare for/respond to wildfires/other natural disasters; maintain roads/prevent potholes; for other general city services;",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0636056": [
+      {
+        "office": "Measure HP: Shall an ordinance be adopted to establish a lifetime limit of two (2) terms for members of the City Council, where a partial term of more than two (2) years counts as a full term, and a partial term of two (2) years or less does not count against the limit?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0655156": [
+      {
+        "office": "Measure DE: Shall the ordinance establishing the office of Mayor as an at-large, elected position beginning with the November 2028 general municipal election be adopted?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0655618": [
+      {
+        "office": "Measure P: City of Paramount Public Safety, Environment, Streets and Business Improvement Measure Without taxing residential property owners or renters,",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0656000": [
+      {
+        "office": "Measure PFD: City of Pasadena 911 Firefighter/Paramedic Emergency Medical/Wildfire Preparedness/Response Measure. To help maintain fire, paramedic, 911 response; prepare for/respond to wildfires/earthquakes/medical emergencies; recruit/retain well- trained firefighters; maintain lifesaving equipment/fire alert communication;",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0660018": [
+      {
+        "office": "Measure ART: Shall the measure be adopted to amend the Redondo Beach General Plan and Zoning Ordinance to support increased commercial activity in key areas of the City, including expanded property development potential (i.e. new floor area ratio caps, height limits, and rooftop dining) along Artesia and Aviation Boulevards, industrial properties north of Manhattan Beach Boulevard, and certain commercial properties along Pacific Coast Highway; and to reduce the allowed housing density for some residential and mixed-use properties in the City?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0673220": [
+      {
+        "office": "Measure SOS: SOUTH PASADENA STREET/ROAD/POTHOLE REPAIR, 9-1-1 SAFETY MEASURE. To fix damaged local streets/roads/sidewalks, repair potholes, address speeding/unsafe driving; improve emergency evacuation routes; upgrade/repair storm drains to prevent flooding, prevent cuts to City services;",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0685292": [
+      {
+        "office": "Measure EL: Shall the measure amending the City's charter to prohibit candidates from running for mayor or member of the city council if their election would result in that candidate serving more than 12 total years in elective office in the City (aside from terms of office that were elected or appointed at or prior to November 3, 2026) be adopted?",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure EV: Shall the measure amending the City's charter so that the City's general municipal elections (currently held in April of each even-numbered year) are held in each even- numbered year on the same day as the November statewide general elections, be adopted?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "0611194": [
+      {
+        "office": "MAYOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ARSENAULT, BILL",
+            "party": ""
+          },
+          {
+            "name": "BANISTER, STEPHEN",
+            "party": ""
+          },
+          {
+            "name": "BLACKBURN, KEITH",
+            "party": ""
+          },
+          {
+            "name": "NIXON, ERIC",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "CITY CLERK",
+        "key": null,
+        "candidates": [
+          {
+            "name": "FREISINGER, SHERRY A.",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "TREASURER",
+        "key": null,
+        "candidates": [
+          {
+            "name": "KROUSE, THOMAS E.",
+            "party": ""
+          },
+          {
+            "name": "PEACOX, CHRISTIAN",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0613392": [
+      {
+        "office": "CITY ATTORNEY",
+        "key": null,
+        "candidates": [
+          {
+            "name": "VERDUGO, MARCO",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "MAYOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MCCANN, JOHN",
+            "party": ""
+          },
+          {
+            "name": "TAMAYO, FRANCISCO",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0616378": [
+      {
+        "office": "CITY COUNCIL",
+        "key": null,
+        "candidates": [
+          {
+            "name": "GADE, ANDREW",
+            "party": ""
+          },
+          {
+            "name": "HOYT, RICKY",
+            "party": ""
+          },
+          {
+            "name": "KING, REBECCA",
+            "party": ""
+          },
+          {
+            "name": "PURVIS, KELLY",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0618506": [
+      {
+        "office": "CITY COUNCIL",
+        "key": null,
+        "candidates": [
+          {
+            "name": "GAASTERLAND, TERRY",
+            "party": ""
+          },
+          {
+            "name": "GREWAL, JAS",
+            "party": ""
+          },
+          {
+            "name": "SPIEKER, MEGHAN O.",
+            "party": ""
+          },
+          {
+            "name": "STURGIS, JEFF",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0621712": [
+      {
+        "office": "MAYOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "KRAFT, ALEXANDER",
+            "party": ""
+          },
+          {
+            "name": "WELLS, BILL",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0622804": [
+      {
+        "office": "MAYOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "VELAZQUEZ, ELIAS",
+            "party": ""
+          },
+          {
+            "name": "WHITE, DANE M.",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0636294": [
+      {
+        "office": "MAYOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "BRADLEY, KARL",
+            "party": ""
+          },
+          {
+            "name": "LEYBA-GONZALEZ, MATTHEW",
+            "party": ""
+          },
+          {
+            "name": "MCKAY, MITCHELL \"MITCH\"",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0640004": [
+      {
+        "office": "CITY COUNCIL",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ALO, MOANA",
+            "party": ""
+          },
+          {
+            "name": "NATALIA, AMANDA-DAWN",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "MAYOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "LOTHIAN, LAURA",
+            "party": ""
+          },
+          {
+            "name": "NORMANDY-DILLARD, PATRICIA",
+            "party": ""
+          },
+          {
+            "name": "REESE, QUINN M.",
+            "party": ""
+          },
+          {
+            "name": "STIERINGER, JIM",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "TREASURER",
+        "key": null,
+        "candidates": [
+          {
+            "name": "EXETER, BILL",
+            "party": ""
+          },
+          {
+            "name": "STEWART, EMMETT",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0641124": [
+      {
+        "office": "CITY COUNCIL",
+        "key": null,
+        "candidates": [
+          {
+            "name": "CLARK MANSON, MINOLA",
+            "party": ""
+          },
+          {
+            "name": "JOHNSON, KRYSTLE",
+            "party": ""
+          },
+          {
+            "name": "SMITH, JOE",
+            "party": ""
+          },
+          {
+            "name": "SMITH, SETH",
+            "party": ""
+          },
+          {
+            "name": "MENDOZA, JENNIFER",
+            "party": ""
+          },
+          {
+            "name": "MENDOZA, YASMIN",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0650398": [
+      {
+        "office": "MAYOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "BEAUCHAMP, RUBLE MITCHEL",
+            "party": ""
+          },
+          {
+            "name": "BUSH, MARCUS",
+            "party": ""
+          },
+          {
+            "name": "CASTREJON, JACOBB",
+            "party": ""
+          },
+          {
+            "name": "RODRIGUEZ, JOSE",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0658520": [
+      {
+        "office": "MAYOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MAEDA, JENNY",
+            "party": ""
+          },
+          {
+            "name": "OLPS, DELLENA",
+            "party": ""
+          },
+          {
+            "name": "VAUS, STEVE",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0668196": [
+      {
+        "office": "MAYOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JENKINS, SHARON",
+            "party": ""
+          },
+          {
+            "name": "SANNELLA, MIKE",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0682996": [
+      {
+        "office": "MAYOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "GREEN, JOE",
+            "party": ""
+          },
+          {
+            "name": "ZUNIGA, KENNETH",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0667000": [
+      {
+        "office": "Assessor-Recorder",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joaquin Torres",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "Public Defender",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Manohar Raju",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "Board of Education (3 seats)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Autumn Brown Garibay",
+            "party": ""
+          },
+          {
+            "name": "Virginia Cheung",
+            "party": ""
+          },
+          {
+            "name": "Alida Fisher",
+            "party": ""
+          },
+          {
+            "name": "Ryan Hazelton",
+            "party": ""
+          },
+          {
+            "name": "Phil Kim",
+            "party": ""
+          },
+          {
+            "name": "Laurance Lee",
+            "party": ""
+          },
+          {
+            "name": "Reina Tello",
+            "party": ""
+          },
+          {
+            "name": "Tim Tung",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "Community College Board (3 seats)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Elijah Ball",
+            "party": ""
+          },
+          {
+            "name": "Rome Moses Jones",
+            "party": ""
+          },
+          {
+            "name": "Monroe Lace",
+            "party": ""
+          },
+          {
+            "name": "Leah LaCroix",
+            "party": ""
+          },
+          {
+            "name": "Jeremy Lee",
+            "party": ""
+          },
+          {
+            "name": "Bunny McFadden",
+            "party": ""
+          },
+          {
+            "name": "Erwin Tam",
+            "party": ""
+          },
+          {
+            "name": "Lisa Wynn",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "Community College Board Partial Term",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ruth Ferguson",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0600562": [
+      {
+        "office": "For Mayor, Alameda",
+        "key": null,
+        "candidates": [
+          {
+            "name": "TONY DAYSOG",
+            "party": ""
+          },
+          {
+            "name": "TRACY JENSEN",
+            "party": ""
+          },
+          {
+            "name": "MALIA VELLA",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "For Members of City Council, Alameda",
+        "key": null,
+        "candidates": [
+          {
+            "name": "THUSHAN AMARASIRIWARDENA",
+            "party": ""
+          },
+          {
+            "name": "MARIA L. BONDONNO",
+            "party": ""
+          },
+          {
+            "name": "MARCIE JOHNSON",
+            "party": ""
+          },
+          {
+            "name": "TYLER SAVAGE",
+            "party": ""
+          },
+          {
+            "name": "STEVE SLAUSON",
+            "party": ""
+          },
+          {
+            "name": "AMOS WHITE",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0620018": [
+      {
+        "office": "For Mayor, Dublin",
+        "key": null,
+        "candidates": [
+          {
+            "name": "SHERRY HU",
+            "party": ""
+          },
+          {
+            "name": "MICHAEL MCCORRISTON",
+            "party": ""
+          },
+          {
+            "name": "KIRAN MOHAMMAD",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0622594": [
+      {
+        "office": "For Members of City Council, Emeryville",
+        "key": null,
+        "candidates": [
+          {
+            "name": "CORRY FRYDLEWICZ",
+            "party": ""
+          },
+          {
+            "name": "DAVID MOURRA",
+            "party": ""
+          },
+          {
+            "name": "KALIMAH ATREYU PRIFORCE",
+            "party": ""
+          },
+          {
+            "name": "BRANDON SOUBLET",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0633000": [
+      {
+        "office": "For Mayor, Hayward",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MARK SALINAS",
+            "party": ""
+          },
+          {
+            "name": "TOM WONG",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0650916": [
+      {
+        "office": "For Mayor, Newark",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MICHAEL K. HANNON",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "For Members Of City Council, Newark",
+        "key": null,
+        "candidates": [
+          {
+            "name": "TONYA CONNOLLY",
+            "party": ""
+          },
+          {
+            "name": "NOAH PATRICK GRUSHKIN",
+            "party": ""
+          },
+          {
+            "name": "MATTHEW JORGENS",
+            "party": ""
+          },
+          {
+            "name": "EVE MARIE LITTLE",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0656938": [
+      {
+        "office": "For Members of City Council, Piedmont",
+        "key": null,
+        "candidates": [
+          {
+            "name": "NANCY BENINATI",
+            "party": ""
+          },
+          {
+            "name": "SUNNY BOSTROM-FLEMING",
+            "party": ""
+          },
+          {
+            "name": "ADAM HUNDT",
+            "party": ""
+          },
+          {
+            "name": "TOM RAMSEY",
+            "party": ""
+          },
+          {
+            "name": "BILL REICHLE",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0657792": [
+      {
+        "office": "For Mayor, Pleasanton",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JACK BALCH",
+            "party": ""
+          },
+          {
+            "name": "JULIE TESTA",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0668084": [
+      {
+        "office": "For Mayor, San Leandro",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JUAN GONZÁLEZ III",
+            "party": ""
+          },
+          {
+            "name": "JAMES MAES",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0600674": [
+      {
+        "office": "For Members Of City Council, Albany",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JON DESTIN",
+            "party": ""
+          },
+          {
+            "name": "KATHERINE ENOS",
+            "party": ""
+          },
+          {
+            "name": "ROBIN D. LÓPEZ",
+            "party": ""
+          },
+          {
+            "name": "CHRIS MCDANIELS",
+            "party": ""
+          },
+          {
+            "name": "AARON TIEDEMANN",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0606000": [
+      {
+        "office": "For Auditor, Berkeley",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JENNY WONG",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0653000": [
+      {
+        "office": "For Mayor, Oakland",
+        "key": null,
+        "candidates": [
+          {
+            "name": "BRENDA F. GRISHAM",
+            "party": ""
+          },
+          {
+            "name": "BARBARA LEE",
+            "party": ""
+          },
+          {
+            "name": "MINDY RUTH PECHENUK",
+            "party": ""
+          },
+          {
+            "name": "JULIUS ROBINSON",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "For Auditor, Oakland",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MICHAEL C. HOUSTON",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0604758": [
+      {
+        "office": "City Council Member",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lloyd White",
+            "party": ""
+          },
+          {
+            "name": "Carlos Cueva",
+            "party": ""
+          },
+          {
+            "name": "Mike Lara",
+            "party": ""
+          },
+          {
+            "name": "Jessica Voigt",
+            "party": ""
+          },
+          {
+            "name": "Joe Mathews",
+            "party": ""
+          },
+          {
+            "name": "Jim Mercado",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kathleen \"Missy\" Aguilar-Billinger",
+            "party": ""
+          },
+          {
+            "name": "Elaine Morgan",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0607218": [
+      {
+        "office": "City Council Member",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joseph Halby III",
+            "party": ""
+          },
+          {
+            "name": "Alfonso Sonny Hernandez",
+            "party": ""
+          },
+          {
+            "name": "Jayson D. Lusk",
+            "party": ""
+          },
+          {
+            "name": "Joseph \"Joey\" DeConinck",
+            "party": ""
+          },
+          {
+            "name": "Johnny Z. Rodriguez",
+            "party": ""
+          },
+          {
+            "name": "Trevor Farrage",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mallory Crecelius",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Christa Elms",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0610928": [
+      {
+        "office": "City Council Member",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Paul Kakis",
+            "party": ""
+          },
+          {
+            "name": "Monica Lyons",
+            "party": ""
+          },
+          {
+            "name": "Jeremy Smith",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0612048": [
+      {
+        "office": "Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shelley Kaplan",
+            "party": ""
+          },
+          {
+            "name": "Gregory Jackson",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0614260": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Denise Delgado",
+            "party": ""
+          },
+          {
+            "name": "Jesus \"Kino\" Gonzalez",
+            "party": ""
+          },
+          {
+            "name": "Frank Figueroa",
+            "party": ""
+          },
+          {
+            "name": "Francisco \"Frankie\" Molina",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "City Council Member",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Yavonne Zapata",
+            "party": ""
+          },
+          {
+            "name": "Vicente Zamora",
+            "party": ""
+          },
+          {
+            "name": "Ambar De La Herran",
+            "party": ""
+          },
+          {
+            "name": "Andrew Gallegos",
+            "party": ""
+          },
+          {
+            "name": "Juan M. Martinez",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0636434": [
+      {
+        "office": "City Council Member",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michael Hazelton",
+            "party": ""
+          },
+          {
+            "name": "Rob Zwemmer",
+            "party": ""
+          },
+          {
+            "name": "Karlyn Neel",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0640354": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lynne Langdon",
+            "party": ""
+          },
+          {
+            "name": "Suzanne Espinoza-Jimenez",
+            "party": ""
+          },
+          {
+            "name": "Linda Evans",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "City Council Member",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Carene Hensley",
+            "party": ""
+          },
+          {
+            "name": "Julian Herrera",
+            "party": ""
+          },
+          {
+            "name": "John Pena",
+            "party": ""
+          },
+          {
+            "name": "Deborah McGarrey",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0649270": [
+      {
+        "office": "City Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jaime Hurtado",
+            "party": ""
+          },
+          {
+            "name": "Ulises Cabrera",
+            "party": ""
+          },
+          {
+            "name": "Rylee Joseph Peak",
+            "party": ""
+          },
+          {
+            "name": "Christopher Baca",
+            "party": ""
+          },
+          {
+            "name": "Patsy D. Brown",
+            "party": ""
+          },
+          {
+            "name": "Vanessa Renee Moore",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0656700": [
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Nancy Salazar",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0659500": [
+      {
+        "office": "City Council Member",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Steve Downs",
+            "party": ""
+          },
+          {
+            "name": "Eve Fromberg Edelstein",
+            "party": ""
+          },
+          {
+            "name": "Lynn Mallotto",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0667112": [
+      {
+        "office": "City Council Member",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian E. Hawkins",
+            "party": ""
+          },
+          {
+            "name": "Susan Acevedo",
+            "party": ""
+          },
+          {
+            "name": "Alonso L Ledezma",
+            "party": ""
+          },
+          {
+            "name": "Valerie Vandever",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0602000": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ASHLEIGH AITKEN",
+            "party": ""
+          },
+          {
+            "name": "IMRAN SHARIEF",
+            "party": ""
+          },
+          {
+            "name": "ALFREDO RODRIGUEZ",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0608100": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ANDREW HERRERA",
+            "party": ""
+          },
+          {
+            "name": "CECILIA HUPP",
+            "party": ""
+          },
+          {
+            "name": "BLAKE PEREZ",
+            "party": ""
+          },
+          {
+            "name": "BLAIR STEWART",
+            "party": ""
+          },
+          {
+            "name": "STEVEN C. VARGAS",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0616532": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MIKE BULEY",
+            "party": ""
+          },
+          {
+            "name": "LOREN GAMEROS",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0625380": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "DAN HAY",
+            "party": ""
+          },
+          {
+            "name": "KATY WRIGHT",
+            "party": ""
+          },
+          {
+            "name": "KIM CONSTANTINE",
+            "party": ""
+          },
+          {
+            "name": "JIM CUNNEEN",
+            "party": ""
+          },
+          {
+            "name": "ELIZABETH ANDRADE",
+            "party": ""
+          },
+          {
+            "name": "MARK LEONARD",
+            "party": ""
+          },
+          {
+            "name": "HARRISON F DIBBLEE",
+            "party": ""
+          },
+          {
+            "name": "JOHN NGUYEN",
+            "party": ""
+          },
+          {
+            "name": "PATRICIA ODETTE NEAL",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0629000": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "STEPHANIE KLOPFENSTEIN",
+            "party": ""
+          },
+          {
+            "name": "THU-HA NGUYEN",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0636000": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "AMORY HANSON",
+            "party": ""
+          },
+          {
+            "name": "TARYN TADDEO PALUMBO",
+            "party": ""
+          },
+          {
+            "name": "ROSALIND \"ROZ\" PRICE",
+            "party": ""
+          },
+          {
+            "name": "BEN DAVIS",
+            "party": ""
+          },
+          {
+            "name": "ERIN SPIVEY",
+            "party": ""
+          },
+          {
+            "name": "BRIAN BURLEY",
+            "party": ""
+          },
+          {
+            "name": "PAT BURNS",
+            "party": ""
+          },
+          {
+            "name": "BRENDA GLIM",
+            "party": ""
+          },
+          {
+            "name": "ANDREW GRUEL",
+            "party": ""
+          },
+          {
+            "name": "CASEY MCKEON",
+            "party": ""
+          },
+          {
+            "name": "BRIAN THIENES",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "City Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MIKE VIGLIOTTA",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0636770": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "LARRY AGRAN",
+            "party": ""
+          },
+          {
+            "name": "MAKSIM V EGOROV",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0639178": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "SUE KEMPF",
+            "party": ""
+          },
+          {
+            "name": "ASHLEY CINTAS",
+            "party": ""
+          },
+          {
+            "name": "LAURA PARISI",
+            "party": ""
+          },
+          {
+            "name": "MARK ORGILL",
+            "party": ""
+          },
+          {
+            "name": "NICK ARONOFF",
+            "party": ""
+          },
+          {
+            "name": "EDWARD BAYUK",
+            "party": ""
+          },
+          {
+            "name": "JOY BERRY",
+            "party": ""
+          },
+          {
+            "name": "ALEX ROUNAGHI",
+            "party": ""
+          },
+          {
+            "name": "KAREN MARTIN",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0639259": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "SUE QUAM",
+            "party": ""
+          },
+          {
+            "name": "ANNIE MCCARY",
+            "party": ""
+          },
+          {
+            "name": "CAROL MOORE",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0639290": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "SUSAN PRITCHARD",
+            "party": ""
+          },
+          {
+            "name": "JAMES \"JIM\" GOMEZ",
+            "party": ""
+          },
+          {
+            "name": "MILES C. MATIAS",
+            "party": ""
+          },
+          {
+            "name": "JOSE MEDRANO",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0653980": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "DAN SLATER",
+            "party": ""
+          },
+          {
+            "name": "ARIANNA BARRIOS",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0657526": [
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ROBERT S. \"BOB\" MCKINNELL",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0665084": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "SHANE HIRSCHMAN",
+            "party": ""
+          },
+          {
+            "name": "KATHY WARD",
+            "party": ""
+          },
+          {
+            "name": "VICTOR CABRAL",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0669000": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "VALERIE AMEZCUA",
+            "party": ""
+          },
+          {
+            "name": "DWAYNE SHIPP",
+            "party": ""
+          },
+          {
+            "name": "DAN SHIMELL",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0680854": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "LETITIA CLARK",
+            "party": ""
+          },
+          {
+            "name": "AUSTIN LUMBARD",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0684550": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "KIMBERLY HO",
+            "party": ""
+          },
+          {
+            "name": "NGUYEN PHUONG HUNG",
+            "party": ""
+          },
+          {
+            "name": "CHI CHARLIE NGUYEN",
+            "party": ""
+          },
+          {
+            "name": "CHARLES S. SHIPP",
+            "party": ""
+          },
+          {
+            "name": "CARLOS MANZO",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0686832": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "SEAN PHAYAKAPONG",
+            "party": ""
+          },
+          {
+            "name": "RAYMOND POTTER",
+            "party": ""
+          },
+          {
+            "name": "ROBERT R. PEASE II",
+            "party": ""
+          },
+          {
+            "name": "JANICE LIM",
+            "party": ""
+          },
+          {
+            "name": "CARLOS RODRIGUEZ",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0624134": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "FELIPE PEREZ",
+            "party": ""
+          },
+          {
+            "name": "SILVIA RENTERIA",
+            "party": ""
+          },
+          {
+            "name": "JAMES \"BIG JIM\" FRASER",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0625436": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ERIC HADDEN",
+            "party": ""
+          },
+          {
+            "name": "GURJANT S. KHOSA",
+            "party": ""
+          },
+          {
+            "name": "PATRIC JONES",
+            "party": ""
+          },
+          {
+            "name": "AMARJEET GILL",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0636084": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ROBERTO C PIMENTEL",
+            "party": ""
+          },
+          {
+            "name": "JOEL MORA",
+            "party": ""
+          },
+          {
+            "name": "MIKE A. MORALES",
+            "party": ""
+          },
+          {
+            "name": "DAVID MERCADO",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0638226": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "GARY K. YEP",
+            "party": ""
+          },
+          {
+            "name": "YAZMINE ENRIQUEZ",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0646828": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "LIBERTAD \"LIBERTY\" LOPEZ",
+            "party": ""
+          },
+          {
+            "name": "OSCAR H. ROSALES",
+            "party": ""
+          },
+          {
+            "name": "JOSEPH R. RIOFRIO",
+            "party": ""
+          },
+          {
+            "name": "VICTOR M. MARTINEZ",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0654008": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "GILBERT GARCIA",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JAIME CASILLAS",
+            "party": ""
+          },
+          {
+            "name": "ISAIAH LOPEZ",
+            "party": ""
+          },
+          {
+            "name": "ALEX GARCIA",
+            "party": ""
+          },
+          {
+            "name": "DEREK GREENWOOD",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0655856": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "LIONEL LOPEZ, JR.",
+            "party": ""
+          },
+          {
+            "name": "FERNANDO BAÑUELOS",
+            "party": ""
+          },
+          {
+            "name": "ALMA M. BELTRÁN",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0667056": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "GAVINO BARRERA",
+            "party": ""
+          },
+          {
+            "name": "VICTOR RUIZ",
+            "party": ""
+          },
+          {
+            "name": "FRANK GONZALEZ",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0670882": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "NARIPJEET \"NARIP\" JOSAN",
+            "party": ""
+          },
+          {
+            "name": "ROSEMARY ALANIS",
+            "party": ""
+          },
+          {
+            "name": "SCOTT ROBERTSON",
+            "party": ""
+          },
+          {
+            "name": "THERESA H. GUZMAN SALAS",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0613882": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MARIA SHULMAN",
+            "party": ""
+          },
+          {
+            "name": "AMY CALLAGHAN",
+            "party": ""
+          },
+          {
+            "name": "CHARLES J. SCHMIDT",
+            "party": ""
+          },
+          {
+            "name": "KIM TRUPIANO",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0616000": [
+      {
+        "office": "City Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "PATTI BARSOTTI",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0617988": [
+      {
+        "office": "Member, Town Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "DENTON CARLSON",
+            "party": ""
+          },
+          {
+            "name": "PRATIMA SONAVNE",
+            "party": ""
+          },
+          {
+            "name": "ROBERT STORER",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0621796": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "KIMBERLY WHITE",
+            "party": ""
+          },
+          {
+            "name": "CAROLYN WYSINGER",
+            "party": ""
+          },
+          {
+            "name": "MARY ANN \"MJ\" JAWILI",
+            "party": ""
+          },
+          {
+            "name": "FORREST M. LANNING",
+            "party": ""
+          },
+          {
+            "name": "WALLY NOWINSKI",
+            "party": ""
+          },
+          {
+            "name": "GABE QUINTO",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0633308": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JOHN DELGADO",
+            "party": ""
+          },
+          {
+            "name": "PREET SIDHU",
+            "party": ""
+          },
+          {
+            "name": "DION BAILEY",
+            "party": ""
+          },
+          {
+            "name": "ADRENA BRECKENRIDGE",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0649187": [
+      {
+        "office": "Member, Town Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "KERRY HILLIS",
+            "party": ""
+          },
+          {
+            "name": "STEVEN WOEHLEKE",
+            "party": ""
+          },
+          {
+            "name": "BILL CARMAN",
+            "party": ""
+          },
+          {
+            "name": "ALEXIS I. MAPEL",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0654232": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "BRANDYN IVERSON",
+            "party": ""
+          },
+          {
+            "name": "JANET RILEY",
+            "party": ""
+          },
+          {
+            "name": "JUANA RUDATI",
+            "party": ""
+          },
+          {
+            "name": "LATIKA MALKANI",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0657288": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MATTHEW \"MATT\" AVERY",
+            "party": ""
+          },
+          {
+            "name": "TRUC \"CHRISTY\" LAM-JULIAN",
+            "party": ""
+          },
+          {
+            "name": "LIBBY DUARTE",
+            "party": ""
+          },
+          {
+            "name": "GABRIEL SANDOVAL",
+            "party": ""
+          },
+          {
+            "name": "TINA BROWN",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0657456": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ARLENE KOBATA (SIU LING)",
+            "party": ""
+          },
+          {
+            "name": "C.C. CARDINALLI-MACALUSO",
+            "party": ""
+          },
+          {
+            "name": "WOLF CROSKEY",
+            "party": ""
+          },
+          {
+            "name": "AMHARI PERKINS",
+            "party": ""
+          },
+          {
+            "name": "PAULINE JOHNSON",
+            "party": ""
+          },
+          {
+            "name": "DIONNE ADAMS",
+            "party": ""
+          },
+          {
+            "name": "MARK LINDE",
+            "party": ""
+          },
+          {
+            "name": "ALVIN NELSON",
+            "party": ""
+          },
+          {
+            "name": "SONJA SHEPHARD",
+            "party": ""
+          },
+          {
+            "name": "CAROLYNNE BORN",
+            "party": ""
+          },
+          {
+            "name": "IZTACCUAUHTLI HECTOR GONZALEZ",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "LATOYYA P. ELLA BORDELON",
+            "party": ""
+          },
+          {
+            "name": "ANGEL RODRIGUEZ",
+            "party": ""
+          },
+          {
+            "name": "MELAINE APPLE VENENCIANO",
+            "party": ""
+          },
+          {
+            "name": "ALICE E. EVENSON",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "City Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "NANCY PARENT",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0660620": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "CLAUDIA JIMÉNEZ",
+            "party": ""
+          },
+          {
+            "name": "AHMAD ANDERSON",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0668294": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "RITA XAVIER",
+            "party": ""
+          },
+          {
+            "name": "CADEN COTTON-BLAKE",
+            "party": ""
+          },
+          {
+            "name": "ELIZABETH PABON ALVARADO",
+            "party": ""
+          },
+          {
+            "name": "ANNA VILLALOBOS",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "City Clerk",
+        "key": null,
+        "candidates": [
+          {
+            "name": "DOROTHY GANTT",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "City Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "VIVIANA TOLEDO",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0668378": [
+      {
+        "office": "Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "EMMA CHIGBU",
+            "party": ""
+          },
+          {
+            "name": "MARK H. ARMSTRONG",
+            "party": ""
+          },
+          {
+            "name": "PASCHALIS NTATSOS",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0683346": [
+      {
+        "office": "Member, City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "CHERISE MARIE KHAUND",
+            "party": ""
+          },
+          {
+            "name": "BRENDAN MORAN",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "City Treasurer",
+        "key": null,
+        "candidates": [
+          {
+            "name": "RONALD CASSANO",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0649138": [
+      {
+        "office": "For Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "CHRIS R. ENEGREN",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0653476": [
+      {
+        "office": "For Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ANDY GILMAN",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0658296": [
+      {
+        "office": "For Member of the City Council",
+        "key": null,
+        "candidates": [
+          {
+            "name": "LAURA HERNANDEZ",
+            "party": ""
+          },
+          {
+            "name": "JULIO KOLLERBOHM",
+            "party": ""
+          },
+          {
+            "name": "JAMES IMPORTANTE",
+            "party": ""
+          },
+          {
+            "name": "STEVEN A. GAMA",
+            "party": ""
+          },
+          {
+            "name": "MARTHA R. MCQUEEN-LEGOHN",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "0672016": [
+      {
+        "office": "For Mayor",
+        "key": null,
+        "candidates": [
+          {
+            "name": "WAYNE HAMPTON HOLLAND, III",
+            "party": ""
+          },
+          {
+            "name": "DEE DEE CAVANAUGH",
+            "party": ""
+          },
+          {
+            "name": "ROBERT CLARIZIO",
+            "party": ""
+          },
+          {
+            "name": "MIKE JUDGE",
+            "party": ""
+          },
+          {
+            "name": "KAREEM JUBRAN",
+            "party": ""
+          }
+        ]
+      }
+    ]
+  },
+  "localByCounty": {
+    "Los Angeles County": [
+      {
+        "office": "JUDGE OF THE SUPERIOR COURT Office No. 064",
+        "key": null,
+        "candidates": [
+          {
+            "name": "RHONDA A. HAYMON",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "MARIA GHOBADI",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "JUDGE OF THE SUPERIOR COURT Office No. 065",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ANNA SLOTKY REITANO",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "JUSTIN ALLEN CLAYTON",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "JUDGE OF THE SUPERIOR COURT Office No. 087",
+        "key": null,
+        "candidates": [
+          {
+            "name": "DAVID DEJUTE",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "ANTHONY (A.J.) BAYNE",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "JUDGE OF THE SUPERIOR COURT Office No. 131",
+        "key": null,
+        "candidates": [
+          {
+            "name": "DONNA TRYFMAN",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "DAVID ROSS",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "SHERIFF",
+        "key": null,
+        "candidates": [
+          {
+            "name": "*ROBERT G. LUNA",
+            "party": "NON PARTISAN"
+          },
+          {
+            "name": "ALEX VILLANUEVA",
+            "party": "NON PARTISAN"
+          }
+        ]
+      },
+      {
+        "office": "Measure A: LOS ANGELES COUNTY CHARTER AMENDMENT REITERATING GOOD FAITH NEGOTIATION OBLIGATIONS AND ESTABLISHING IMPARTIAL BINDING ARBITRATION FOR CERTIFIED PUBLIC SAFETY EMPLOYEE DISPUTES",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Measure E: PROPOSED COUNTY CHARTER AMENDMENT. COUNTY OF LOS ANGELES ETHICS COMMISSION AND COMMUNITY INVESTMENT BUDGET ALLOCATION CHARTER AMENDMENT",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "San Diego County": [
+      {
+        "office": "ASSESSOR/RECORDER/COUNTY CLERK",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MARKS, JORDAN Z.",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "TREASURER/TAX COLLECTOR",
+        "key": null,
+        "candidates": [
+          {
+            "name": "COHEN, LARRY",
+            "party": ""
+          },
+          {
+            "name": "NAKAWATASE, SHIRLEY",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "San Francisco County": [],
+    "Alameda County": [],
+    "Riverside County": [
+      {
+        "office": "Judge of the Superior Court, Office #10",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michelle Paradise",
+            "party": ""
+          },
+          {
+            "name": "Andrea Garcia",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Orange County": [],
+    "Fresno County": [
+      {
+        "office": "Sup Ct Judge No 6",
+        "key": null,
+        "candidates": [
+          {
+            "name": "ASHLEY S. PAULSON",
+            "party": ""
+          },
+          {
+            "name": "STEVEN R. UELTZEN",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "Sup Ct Judge No 7",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JEFF HAMMERSCHMIDT",
+            "party": ""
+          },
+          {
+            "name": "JOSE L. SALAZAR",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "Co Supt Of Schools",
+        "key": null,
+        "candidates": [
+          {
+            "name": "MICHELE CANTWELL-COPHER",
+            "party": ""
+          },
+          {
+            "name": "EIMEAR O'BRIEN",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Contra Costa County": [],
+    "Ventura County": [
+      {
+        "office": "County Superintendent of Schools",
+        "key": null,
+        "candidates": [
+          {
+            "name": "KAREN SHER",
+            "party": ""
+          },
+          {
+            "name": "MAGGIE MARSCHNER",
+            "party": ""
+          }
+        ]
+      }
+    ]
+  },
+  "countyRead": {
+    "Los Angeles County": {
+      "label": "Los Angeles County Registrar-Recorder/County Clerk, final list of qualified candidates to appear on the November 3, 2026 ballot, printed September 2, 2026",
+      "href": "https://content.lavote.gov/docs/rrcc/documents/final-list-of-qualified-candidates-to-appear-on-the-ballot9fcf3b64-1a33-4882-9e17-8cbc3b3c8d76.pdf",
+      "note": "The candidate list also includes district, school, and special-district contests. It does not identify which places are in each of those districts, so those contests are not copied here.",
+      "intro": "The Los Angeles County Registrar-Recorder/County Clerk final list of qualified candidates for the November 3, 2026 general election lists these countywide offices. Names are copied in the order printed on that list. County measure titles are copied from the county measures list, in the order printed there.",
+      "sources": [
+        {
+          "name": "Los Angeles County Registrar-Recorder/County Clerk, measures appearing on the November 3, 2026 ballot, revised August 20, 2026",
+          "url": "https://content.lavote.gov/docs/rrcc/documents/final-measures-appearing-on-the-ballot-8-20-2026-v-12.pdf"
+        }
+      ]
+    },
+    "San Diego County": {
+      "label": "San Diego County Registrar of Voters, candidate list for the November 3, 2026 general election, printed August 28, 2026",
+      "href": "https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-gubernatorial-general-election/candidate-list.pdf",
+      "note": "The list also includes district, school, and special-district contests. It does not identify which places are in each of those districts, so those contests are not copied here.",
+      "intro": "The San Diego County Registrar of Voters candidate list for the November 3, 2026 general election lists these countywide offices. Names are copied in the order printed on that list."
+    },
+    "San Francisco County": {
+      "label": "San Francisco Department of Elections, candidates for the November 3, 2026 general election",
+      "href": "https://www.sf.gov/candidates-november-3-2026-general-election",
+      "note": "The page also lists district contests, including Board of Supervisors districts and BART Board District 8. It does not identify which places are in each district, so those contests are not copied here."
+    },
+    "Alameda County": {
+      "label": "Alameda County Registrar of Voters, candidate list for the General Election of November 3, 2026, marked Official, filtered to On Ballot and Filing Completed",
+      "href": "https://alamedacountyca.gov/rov_app/candidatelist",
+      "note": "The on-ballot, filing-completed list does not include a countywide candidate contest. The on-ballot list also includes district, school, and special-district contests. It does not identify which places are in each of those districts, so those contests are not copied here."
+    },
+    "Riverside County": {
+      "label": "Riverside County Registrar of Voters, contest and candidate proof list of qualified candidates for the November 3, 2026 general election, printed September 11, 2026",
+      "href": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-09/Final%20candidate%20list%20nov%202026%20eng.pdf",
+      "note": "The list says candidates are in random alpha order. The list also includes district, school, and special-district contests. It does not identify which places are in each of those districts, so those contests are not copied here.",
+      "intro": "The official qualified-candidate list for the November 3, 2026 general election says candidates are in random alpha order. These countywide offices are copied in that order."
+    },
+    "Orange County": {
+      "label": "Orange County Registrar of Voters, contest and candidate proof list of qualified candidates for the November 3, 2026 general election",
+      "href": "https://ocvote.gov/fileadmin/user_upload/data/candlog/GEN2026/candlog.pdf",
+      "note": "The list says candidates are in random alpha order. The qualified-candidate list does not include a countywide candidate contest. The list also includes district, school, and special-district contests. It does not identify which places are in each of those districts, so those contests are not copied here."
+    },
+    "Fresno County": {
+      "label": "Fresno County Clerk/Registrar of Voters, contests on the ballot with qualified candidates for the November 3, 2026 consolidated statewide general election",
+      "href": "https://www2.fresnocountyca.gov/2850/post/2026NOV/Contests%20on%20Ballot%20with%20Qualified%20Candidates.pdf",
+      "note": "The list says candidates are in random alpha order. The list also includes district, school, and special-district contests. It does not identify which places are in each of those districts, so those contests are not copied here.",
+      "intro": "The official qualified-candidate list for the November 3, 2026 general election says candidates are in random alpha order. These countywide offices are copied in that order."
+    },
+    "Contra Costa County": {
+      "label": "Contra Costa County Clerk-Recorder, contest and candidate proof list of qualified candidates for the November 3, 2026 general election, printed August 27, 2026",
+      "href": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf",
+      "note": "The list says candidates are in random alpha order. The qualified-candidate list does not include a countywide candidate contest. The list also includes district, school, and special-district contests. It does not identify which places are in each of those districts, so those contests are not copied here."
+    },
+    "Ventura County": {
+      "label": "Ventura County Clerk-Recorder and Registrar of Voters, contest and candidate proof list of qualified candidates for the November 3, 2026 general election, random alpha order applied August 14, 2026",
+      "href": "https://clerkrecorder.venturacounty.gov/wp-content/uploads/2026/08/cfmcfmr001_contcanddataproof_08-14-2026-alpha-order-applied.pdf",
+      "note": "The list says candidates are in random alpha order. The list also includes district, school, and special-district contests. It does not identify which places are in each of those districts, so those contests are not copied here.",
+      "intro": "The official qualified-candidate list for the November 3, 2026 general election says candidates are in random alpha order. These countywide offices are copied in that order."
+    }
+  }
+}

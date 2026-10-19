@@ -3,6 +3,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentTrust } from "@/components/ContentTrust";
 import { ControlMeter } from "@/components/ControlMeter";
 import { CrossLinks } from "@/components/CrossLinks";
+import { EmailSignup } from "@/components/EmailSignup";
 import { JsonLd } from "@/components/JsonLd";
 import { LivePanel } from "@/components/LivePanel";
 import { OfficialNotice } from "@/components/OfficialNotice";
@@ -67,6 +68,7 @@ export default function ResultsPage() {
       </div>
 
       <LivePanel raceSlugs={RACES.map((race) => race.slug)} />
+      <EmailSignup prominent />
 
       <div className="grid gap-4 lg:grid-cols-2">
         <ControlMeter meter={HOUSE_METER} />

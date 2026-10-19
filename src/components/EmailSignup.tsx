@@ -6,17 +6,30 @@ import { EMAIL_SIGNUP, emailSignupEnabled } from "@/data/monetization";
  * provider (Kit, Buttondown, MailerLite...). No scripts, no tracking.
  * Renders nothing until EMAIL_SIGNUP.action is set.
  */
-export function EmailSignup() {
+export function EmailSignup({ prominent = false }: { prominent?: boolean } = {}) {
   if (!emailSignupEnabled()) return null;
   return (
     <section
       id="results-alert"
       aria-labelledby="results-alert-heading"
-      className="rounded-xl border border-line bg-paper-card p-5 text-sm leading-6"
+      className={
+        prominent
+          ? "rounded-xl border-2 border-navy bg-paper-card p-5 text-sm leading-6 shadow-sm"
+          : "rounded-xl border border-line bg-paper-card p-5 text-sm leading-6"
+      }
     >
-      <h2 id="results-alert-heading" className="font-serif text-lg font-semibold">
-        Election night results alert
+      <h2
+        id="results-alert-heading"
+        className={prominent ? "font-serif text-xl font-semibold" : "font-serif text-lg font-semibold"}
+      >
+        {prominent ? "Get official results in your inbox on election night" : "Election night results alert"}
       </h2>
+      {prominent && (
+        <p className="mt-1 text-ink-muted">
+          One free email on November 3, 2026 with links to each state&rsquo;s official results page. No
+          predictions, no endorsements.
+        </p>
+      )}
       <form action={EMAIL_SIGNUP.action} method="post" className="mt-3 space-y-3">
         {Object.entries(EMAIL_SIGNUP.hiddenFields).map(([name, value]) => (
           <input key={name} type="hidden" name={name} value={value} />

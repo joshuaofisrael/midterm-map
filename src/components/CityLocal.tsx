@@ -23,13 +23,18 @@ export function CityLocal({ code, place }: { code: string; place: PlaceRecord })
     });
   if (!hasBody) return null;
 
+  const accessed = data.accessed ?? READ;
   const sources: Citation[] = [];
   for (const source of data.extraSources ?? []) {
-    sources.push({ name: source.name, url: source.url, accessed: READ });
+    sources.push({ name: source.name, url: source.url, accessed });
   }
   for (const county of [...readCounties, ...unpublishedCounties]) {
     const listing = data.countyRead?.[county] ?? data.countyUnpublished?.[county];
-    if (listing) sources.push({ name: listing.label, url: listing.href, accessed: READ });
+    if (!listing) continue;
+    sources.push({ name: listing.label, url: listing.href, accessed });
+    for (const source of listing.sources ?? []) {
+      sources.push({ name: source.name, url: source.url, accessed });
+    }
   }
 
   return (
