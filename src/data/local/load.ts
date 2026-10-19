@@ -19,23 +19,29 @@ export type LocalContest = {
   district?: string;
 };
 
+export type LocalSource = { name: string; url: string };
+
 export type LocalCounty = {
   label: string;
   href: string;
   intro?: string;
   note?: string;
   empty?: string;
+  /** Other official lists for this county only, such as a measures PDF. */
+  sources?: LocalSource[];
 };
 
 /** One state's official local contests. Absent files mean the place page stays silent. */
 export type LocalFile = {
+  /** Citation date for this file. Omitted files keep the October 17, 2026 local-contest read date. */
+  accessed?: string;
   date?: { quote: string; text: string };
   localIntro?: string;
   local?: Record<string, LocalContest[]>;
   localByCounty?: Record<string, LocalContest[]>;
   countyRead?: Record<string, LocalCounty>;
   countyUnpublished?: Record<string, LocalCounty>;
-  extraSources?: { name: string; url: string }[];
+  extraSources?: LocalSource[];
 };
 
 const cache = new Map<string, LocalFile | null>();
