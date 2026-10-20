@@ -19,7 +19,15 @@ export type LocalContest = {
   district?: string;
 };
 
-export type LocalSource = { name: string; url: string };
+export type LocalSource = { name: string; url: string; accessed?: string };
+
+/** City-only citation and note. County blocks stay on countyRead. */
+export type LocalPlace = {
+  sources?: LocalSource[];
+  note?: string;
+  /** Printed when this place has no city contest. */
+  empty?: string;
+};
 
 export type LocalCounty = {
   label: string;
@@ -38,6 +46,8 @@ export type LocalFile = {
   date?: { quote: string; text: string };
   localIntro?: string;
   local?: Record<string, LocalContest[]>;
+  /** Per-place source, district-omission note, or a no-contest sentence. */
+  localPlace?: Record<string, LocalPlace>;
   localByCounty?: Record<string, LocalContest[]>;
   countyRead?: Record<string, LocalCounty>;
   countyUnpublished?: Record<string, LocalCounty>;

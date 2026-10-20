@@ -10,11 +10,13 @@ export function CityLocal({ code, place }: { code: string; place: PlaceRecord })
   if (!data) return null;
 
   const placeLocal = data.local?.[place.geoid] ?? [];
+  const placeMeta = data.localPlace?.[place.geoid];
   const readCounties = place.counties.filter((county) => data.countyRead?.[county]);
   const unpublishedCounties = place.counties.filter((county) => data.countyUnpublished?.[county]);
   const countyContests = readCounties.flatMap((county) => data.localByCounty?.[county] ?? []);
   const hasBody =
     placeLocal.length > 0 ||
+    Boolean(placeMeta?.empty || placeMeta?.note) ||
     countyContests.length > 0 ||
     unpublishedCounties.length > 0 ||
     readCounties.some((county) => {
@@ -25,16 +27,16 @@ export function CityLocal({ code, place }: { code: string; place: PlaceRecord })
 
   const accessed = data.accessed ?? READ;
   const sources: Citation[] = [];
-  for (const source of data.extraSources ?? []) {
-    sources.push({ name: source.name, url: source.url, accessed });
-  }
+  const cite = (source: { name: string; url: string; accessed?: string }) => {
+    sources.push({ name: source.name, url: source.url, accessed: source.accessed ?? accessed });
+  };
+  for (const source of data.extraSources ?? []) cite(source);
+  for (const source of placeMeta?.sources ?? []) cite(source);
   for (const county of [...readCounties, ...unpublishedCounties]) {
     const listing = data.countyRead?.[county] ?? data.countyUnpublished?.[county];
     if (!listing) continue;
     sources.push({ name: listing.label, url: listing.href, accessed });
-    for (const source of listing.sources ?? []) {
-      sources.push({ name: source.name, url: source.url, accessed });
-    }
+    for (const source of listing.sources ?? []) cite(source);
   }
 
   return (
@@ -48,6 +50,21 @@ export function CityLocal({ code, place }: { code: string; place: PlaceRecord })
             <Contest key={`${contest.office}-${contest.district ?? ""}`} contest={contest} />
           ))}
         </>
+      ) : null}
+      {placeMeta?.note ? <p className="mt-4 text-sm leading-6">{placeMeta.note}</p> : null}
+      {placeLocal.length === 0 && placeMeta?.empty ? (
+        <p className="mt-4 text-sm leading-6">
+          {placeMeta.empty}
+          {placeMeta.sources?.[0] ? (
+            <>
+              {" "}
+              <a className="text-navy hover:underline" href={placeMeta.sources[0].url}>
+                {placeMeta.sources[0].name}
+              </a>
+              .
+            </>
+          ) : null}
+        </p>
       ) : null}
       {place.counties.map((county) => (
         <CountyBlock key={county} county={county} data={data} />
