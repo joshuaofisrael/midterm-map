@@ -58,7 +58,7 @@ export default function PrivacyPage() {
           This policy explains what information is involved when you visit {SITE.name} (
           {SITE.url}). The site is operated by {SITE.legalName}, a {SITE.entityType} based in{" "}
           {SITE.location} (“we,” “us”). {SITE.name} is a static informational website. It has no
-          user accounts, no comments, and no advertising.
+          user accounts and no comments. It may display advertising (see “Advertising” below).
           {signup ? " It offers an optional election-night email alert." : " It has no email sign-up form."}
           {affiliates ? " Some pages contain disclosed affiliate links." : " It has no affiliate links."}
           {tips
@@ -105,8 +105,8 @@ export default function PrivacyPage() {
           </li>
         </ul>
         <p>
-          The contact form is processed by FormSubmit, which emails your message to us. The site
-          does not run Google AdSense or any other advertising network.
+          The contact form is processed by FormSubmit, which emails your message to us. The site may
+          display ads from advertising partners; see “Advertising” below.
         </p>
 
         <h2>Summary</h2>
@@ -306,6 +306,26 @@ export default function PrivacyPage() {
             name the provider before a form goes live.
           </p>
         )}
+
+        <h2 id="advertising">Advertising</h2>
+        <p>
+          We may show ads on this site. Our ad partners may include Google AdSense and other
+          advertising networks. Third-party vendors, including Google, use cookies to serve ads based
+          on a user&apos;s prior visits to this website or other websites. Google&apos;s use of
+          advertising cookies enables it and its partners to serve ads to our users based on their
+          visit to this site and/or other sites on the Internet.
+        </p>
+        <p>
+          You may opt out of personalized advertising by visiting{" "}
+          <a href="https://www.google.com/settings/ads">Google Ads Settings</a>. You can also opt out
+          of some third-party vendors&apos; use of cookies for personalized advertising at{" "}
+          <a href="https://www.aboutads.info">www.aboutads.info</a>.
+        </p>
+        <p>
+          Visitors in the European Economic Area and the United Kingdom will be asked for consent
+          through a Google-certified consent management message before any personalized ads are
+          shown.
+        </p>
 
         <h2>Affiliate links</h2>
         {affiliates ? (
