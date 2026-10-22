@@ -33,6 +33,9 @@ export function SiteHeader() {
               {item.label}
             </Link>
           ))}
+          <Link href="/cities" className={navClass(pathname, "/cities")}>
+            Places
+          </Link>
           <Link href="/about" className={navClass(pathname, "/about")}>
             About
           </Link>
@@ -57,6 +60,11 @@ export function SiteHeader() {
                 </Link>
               </li>
             ))}
+            <li>
+              <Link href="/cities" className={navClass(pathname, "/cities")} onClick={() => setOpen(false)}>
+                Places
+              </Link>
+            </li>
             <li>
               <Link href="/about" className={navClass(pathname, "/about")} onClick={() => setOpen(false)}>
                 About

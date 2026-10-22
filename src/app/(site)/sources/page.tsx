@@ -52,6 +52,22 @@ export default function SourcesPage() {
         lede="Census place pages link here instead of repeating the same source notes. Candidate names stay on each place page, with that state's election-office citation."
       />
       <div className="prose-legal">
+        <h2 id="names">Place-name spellings</h2>
+        <p>
+          Each city page uses the Census place name. The title drops the class word (city, town,
+          village, borough, township, CDP, and the longer government suffixes) when that leaves a
+          unique name in the state. Search and the short redirect URLs also try Saint, St., and St;
+          Mount, Mt., and Mt; Fort, Ft., and Ft; Centre and Center; Harbour and Harbor; hyphens and
+          spaces; apostrophes; and City, Town, Township, Village, and Borough after the place name.
+          A fixed list of common misspellings is matched for a few large cities. Those spellings are
+          not extra Census places. A redirect page points at the Census URL and uses that URL as its
+          canonical link. If two places in one state would share a spelling, no redirect is created.
+        </p>
+        <p>
+          A place with no 2020 population and no congressional-district row is not given its own
+          page. Its name, GEOID, and that absence are listed on the county page.
+        </p>
+
         <h2 id="gazetteer">Place names, states, and GEOIDs</h2>
         <p>
           Place name, state, and GEOID on each Census place page are from the U.S. Census Bureau

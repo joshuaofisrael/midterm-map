@@ -5,6 +5,7 @@ import type { PlaceRecord } from "@/data/places/load";
 import { racesForState } from "@/data/races";
 import { isStateCode } from "@/data/states";
 import type { StateCode } from "@/data/types";
+import { countyPath, placeIsStandalone, placeTargetPath } from "@/lib/placeNames";
 
 export function CityRelated({
   code,
@@ -27,6 +28,11 @@ export function CityRelated({
         <li>
           <Link href={`/cities/${code}`}>Census places in {stateName}</Link>
         </li>
+        {place.counties.map((county) => (
+          <li key={county}>
+            <Link href={countyPath(code, county)}>Places in {county}</Link>
+          </li>
+        ))}
         {districtLinks.map((link) => (
           <li key={link.href}>
             <Link href={link.href}>{link.label}</Link>
@@ -39,7 +45,9 @@ export function CityRelated({
           <ul>
             {neighbors.map((other) => (
               <li key={other.geoid}>
-                <Link href={`/cities/${code}/${other.slug}`}>{other.name}</Link>
+                <Link href={placeIsStandalone(other) ? `/cities/${code}/${other.slug}` : placeTargetPath(code, other)}>
+                  {other.name}
+                </Link>
               </li>
             ))}
           </ul>
@@ -54,7 +62,9 @@ export function CityRelated({
           <ul>
             {nearest.map((other) => (
               <li key={other.geoid}>
-                <Link href={`/cities/${code}/${other.slug}`}>{other.name}</Link>
+                <Link href={placeIsStandalone(other) ? `/cities/${code}/${other.slug}` : placeTargetPath(code, other)}>
+                  {other.name}
+                </Link>
               </li>
             ))}
           </ul>

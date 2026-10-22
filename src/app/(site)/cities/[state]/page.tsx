@@ -6,6 +6,8 @@ import { JurisdictionLinks } from "@/components/JurisdictionLinks";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { SourceLines } from "@/components/SourceLines";
+import { PlaceIndex } from "@/components/PlaceIndex";
+import { PlaceNameSearch } from "@/components/PlaceNameSearch";
 import { ZipPlaceSearchSection } from "@/components/ZipPlaceSearchSection";
 import {
   countyCitation,
@@ -16,10 +18,10 @@ import {
   populationCitation,
 } from "@/data/censusSources";
 import { electionOfficeFor } from "@/data/electionOffices";
-import { placeState, placeStates, placesForState, sharedPlaceNames } from "@/data/places/load";
+import { countiesForState, placeState, placeStates, placesForState } from "@/data/places/load";
 import { contentUpdatedLabel } from "@/lib/contentDate";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
-import { formatPopulation, joinFacts } from "@/lib/placeText";
+import { placeIndexLetter } from "@/lib/placeNames";
 
 export const dynamicParams = false;
 
@@ -32,8 +34,8 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   const state = placeState(code);
   if (!state) return {};
   return pageMetadata({
-    title: `Census places in ${state.name}`,
-    description: `${state.count.toLocaleString("en-US")} Census incorporated places and census-designated places in ${state.name}, from the U.S. Census Bureau 2026 Gazetteer Files (${GAZETTEER_FILE}, file date ${GAZETTEER_FILE_DATE}). Not an official election website.`,
+    title: `${state.name} cities and towns — 2026 midterm election info`,
+    description: `A–Z index of Census places in ${state.name}, grouped by county, from the U.S. Census Bureau 2026 Gazetteer Files (${GAZETTEER_FILE}, file date ${GAZETTEER_FILE_DATE}). Each city page lists sourced 2026 ballot and voting links. Not an official election website.`,
     path: `/cities/${state.code}`,
   });
 }
@@ -47,8 +49,15 @@ export default async function StateCitiesPage({ params }: { params: Promise<{ st
     const byName = a.name.localeCompare(b.name, "en");
     return byName === 0 ? a.geoid.localeCompare(b.geoid) : byName;
   });
-  const shared = sharedPlaceNames(state.code);
+  const counties = countiesForState(state.code);
   const path = `/cities/${state.code}`;
+  const countyLetters = new Map<string, typeof counties>();
+  for (const county of counties) {
+    const letter = placeIndexLetter(county.name);
+    const list = countyLetters.get(letter);
+    if (list) list.push(county);
+    else countyLetters.set(letter, [county]);
+  }
 
   return (
     <div className="space-y-8">
@@ -68,8 +77,8 @@ export default async function StateCitiesPage({ params }: { params: Promise<{ st
       />
       <PageHeader
         eyebrow={state.name}
-        title={`Census places in ${state.name}`}
-        lede={`${state.count.toLocaleString("en-US")} places from the U.S. Census Bureau 2026 Gazetteer national places file (${GAZETTEER_FILE}, file date ${GAZETTEER_FILE_DATE}).`}
+        title={`2026 midterm election info for cities in ${state.name}`}
+        lede={`${state.count.toLocaleString("en-US")} Census places in ${counties.length.toLocaleString("en-US")} counties or equivalent areas, from the U.S. Census Bureau 2026 Gazetteer national places file (${GAZETTEER_FILE}, file date ${GAZETTEER_FILE_DATE}).`}
       />
       <ContentTrust
         updated={contentUpdatedLabel(path)}
@@ -80,36 +89,55 @@ export default async function StateCitiesPage({ params }: { params: Promise<{ st
       <OfficialNotice compact />
       <JurisdictionLinks code={state.code} name={state.name} />
 
+      <section className="max-w-3xl">
+        <h2 className="font-serif text-2xl font-semibold">Search places in {state.name}</h2>
+        <PlaceNameSearch stateCode={state.code} scopeName={state.name} />
+      </section>
+
       <ZipPlaceSearchSection scopeName={state.name} />
 
       <section>
-        <h2 className="font-serif text-2xl font-semibold">Places</h2>
+        <h2 className="font-serif text-2xl font-semibold">Counties and equivalent areas</h2>
         <p className="mt-2 max-w-3xl text-sm leading-6 text-ink-muted">
-          Population is the 2020 Census Redistricting Data (Public Law 94-171) state-place total
-          when that file includes the place code. County names are from the 2026 Geographic
-          Reference File — Codes and the 2026 Gazetteer counties file. A place with the same Census
-          name as another place in {state.name} is listed with its GEOID.
+          County names are from the 2026 Geographic Reference File and the 2026 Gazetteer counties
+          file. A place in more than one county is listed under each county.
         </p>
-        <SourceLines
-          sources={[gazetteerCitation, populationCitation, countyCitation, countyNameCitation]}
-        />
-        <ul className="mt-4 divide-y divide-line border-y border-line text-sm">
-          {places.map((place) => (
-            <li key={place.geoid} className="flex flex-wrap gap-x-3 py-1.5">
-              <a
-                className="font-medium text-navy hover:underline"
-                href={`/cities/${state.code}/${place.slug}/`}
-              >
-                {shared.has(place.name) ? `${place.name} (GEOID ${place.geoid})` : place.name}
+        <SourceLines sources={[countyCitation, countyNameCitation]} />
+        <nav aria-label="Counties A to Z" className="mt-3 flex flex-wrap gap-x-3 gap-y-1 text-sm">
+          {"ABCDEFGHIJKLMNOPQRSTUVWXYZ#".split("").map((letter) =>
+            countyLetters.has(letter) ? (
+              <a key={letter} className="font-medium text-navy hover:underline" href={`#county-${letter}`}>
+                {letter}
               </a>
-              <span className="text-ink-muted">{joinFacts(place.counties)}</span>
-              <span className="text-ink-muted">
-                {place.pop == null ? "Not in the 2020 place file" : formatPopulation(place.pop)}
+            ) : (
+              <span key={letter} className="text-ink-muted">
+                {letter}
               </span>
-            </li>
-          ))}
-        </ul>
+            ),
+          )}
+        </nav>
+        {[...countyLetters.entries()].map(([letter, rows]) => (
+          <div key={letter} id={`county-${letter}`} className="mt-4">
+            <h3 className="font-semibold">{letter}</h3>
+            <ul className="mt-2 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+              {rows.map((county) => (
+                <li key={county.slug}>
+                  <a className="font-medium text-navy hover:underline" href={`/cities/${state.code}/county/${county.slug}/`}>
+                    {county.name}
+                  </a>
+                  <span className="text-ink-muted">
+                    {" "}
+                    · {county.places.length.toLocaleString("en-US")}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </section>
+
+      <PlaceIndex stateCode={state.code} places={places} heading="Places A to Z" />
+      <SourceLines sources={[gazetteerCitation, populationCitation]} />
     </div>
   );
 }

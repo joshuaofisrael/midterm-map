@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { electionOfficeFor } from "@/data/electionOffices";
 import { publishedStateLinks } from "@/data/placeLinks";
+import { getState } from "@/data/states";
 
 export function JurisdictionLinks({ code, name }: { code: string; name: string }) {
   const office = electionOfficeFor(code);
   const siteLinks = publishedStateLinks(code);
+  const registration = getState(code)?.voteGov;
 
   return (
     <div className="links">
@@ -39,6 +41,14 @@ export function JurisdictionLinks({ code, name }: { code: string; name: string }
               {office.lookup.label}
             </a>
           </li>
+          {registration ? (
+            <li>
+              Registration:{" "}
+              <a href={registration.href} rel="noopener noreferrer">
+                {registration.label}
+              </a>
+            </li>
+          ) : null}
         </ul>
       </section>
     </div>

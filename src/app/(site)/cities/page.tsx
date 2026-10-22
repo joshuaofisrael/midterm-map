@@ -5,6 +5,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { SourceLines } from "@/components/SourceLines";
+import { PlaceNameSearch } from "@/components/PlaceNameSearch";
 import { ZipPlaceSearchSection } from "@/components/ZipPlaceSearchSection";
 import { gazetteerCitation, GAZETTEER_FILE, GAZETTEER_FILE_DATE } from "@/data/censusSources";
 import { placeManifest, placeStates } from "@/data/places/load";
@@ -14,8 +15,8 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 const PATH = "/cities";
 
 export const metadata = pageMetadata({
-  title: "U.S. Census places",
-  description: `Index of incorporated places and census-designated places from the U.S. Census Bureau 2026 Gazetteer Files (${GAZETTEER_FILE}, file date ${GAZETTEER_FILE_DATE}), with a page for each state, the District of Columbia, and Puerto Rico. Not an official election website.`,
+  title: "2026 midterm election info by city",
+  description: `Search Census places in the 50 states, the District of Columbia, and Puerto Rico, then open a state, county, or city page. Names are the U.S. Census Bureau 2026 Gazetteer Files (${GAZETTEER_FILE}, file date ${GAZETTEER_FILE_DATE}). Not an official election website.`,
   path: PATH,
 });
 
@@ -34,8 +35,8 @@ export default function CitiesIndexPage() {
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "Census places" }]} />
       <PageHeader
         eyebrow="Census places"
-        title="U.S. Census places"
-        lede={`${manifest.placeCount.toLocaleString("en-US")} incorporated places and census-designated places from the U.S. Census Bureau 2026 Gazetteer national places file.`}
+        title="2026 midterm election info by city"
+        lede={`${manifest.placeCount.toLocaleString("en-US")} Census places, organized by state and county. Search matches Saint/St., Mount/Mt., Fort/Ft., hyphens, and common misspellings.`}
       />
       <ContentTrust updated={contentUpdatedLabel(PATH)} pagePath={PATH} />
       <OfficialNotice compact />
@@ -48,6 +49,11 @@ export default function CitiesIndexPage() {
           place pages for that jurisdiction.
         </p>
         <SourceLines sources={[gazetteerCitation]} />
+      </section>
+
+      <section className="max-w-3xl">
+        <h2 className="font-serif text-2xl font-semibold">Search by place name</h2>
+        <PlaceNameSearch />
       </section>
 
       <ZipPlaceSearchSection />

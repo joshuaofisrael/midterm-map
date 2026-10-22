@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
-import { placeState, placeStates, placesForState } from "@/data/places/load";
+import { countiesForState, placeState, placeStates, placesForState } from "@/data/places/load";
+import { placeIsStandalone } from "@/lib/placeNames";
 import { RACES } from "@/data/races";
 import { resultShellForRace, resultShellHasReturns } from "@/data/results";
 import { absoluteUrl, SITE } from "@/data/site";
@@ -149,13 +150,14 @@ function monetizationChanged(path: string): boolean {
 const LEGAL_BRAND_UPDATED = "2026-10-08";
 const LEGAL_BRAND_PATHS = new Set(["/about", "/disclaimer", "/privacy", "/terms", "/contact"]);
 
-/** October 18, 2026. Place pages slimmed, sources page added, more candidate lists. */
-const CITY_PAGES_UPDATED = "2026-10-18";
+/** October 22, 2026. County hubs, place-name search, and spelling redirects. */
+const CITY_PAGES_UPDATED = "2026-10-22";
 
 function lastModifiedFor(path: string): string {
-  if (path === "/sources" || path === "/cities" || path.startsWith("/cities/")) return CITY_PAGES_UPDATED;
+  if (path === "/sources") return CITY_PAGES_UPDATED;
   const contentDate = contentUpdatedIsoForPath(path);
   if (contentDate) return contentDate;
+  if (path === "/cities" || path.startsWith("/cities/")) return CITY_PAGES_UPDATED;
   if (KANSAS_RESULTS_PATHS.has(path)) return KANSAS_RESULTS_UPDATED;
   if (KANSAS_HUB_PATHS.has(path)) return KANSAS_HUB_UPDATED;
   if (RESULTS_EXPANSION_PATHS.has(path)) return RESULTS_EXPANSION_UPDATED;
@@ -240,9 +242,11 @@ function coreSitemap(): MetadataRoute.Sitemap {
 }
 
 function stateSitemap(code: string): MetadataRoute.Sitemap {
-  const places = placesForState(code);
+  const places = placesForState(code).filter(placeIsStandalone);
+  const counties = countiesForState(code);
   const entries = [
     sitemapEntry(`/cities/${code}`, 0.6),
+    ...counties.map((county) => sitemapEntry(`/cities/${code}/county/${county.slug}`, 0.55)),
     ...places.map((place) => sitemapEntry(`/cities/${code}/${place.slug}`, 0.5)),
   ];
   if (entries.length >= SITEMAP_URL_LIMIT) {

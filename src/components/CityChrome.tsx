@@ -14,6 +14,7 @@ export function CityChrome({ children }: { children: ReactNode }) {
       <header className="city-hdr">
         <Link href="/">{SITE.name}</Link>
         <nav className="city-nav" aria-label="Primary">
+          <Link href="/cities/#place-search">Search</Link>
           <Link href="/cities">Places</Link>
           <Link href="/races">Races</Link>
           <Link href="/sources">Sources</Link>
