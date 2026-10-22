@@ -1,5 +1,7 @@
 import { ballotCycleFor } from "@/data/ballotCycle";
+import { candidateFile } from "@/data/candidates/load";
 import { CENSUS_PLACES_UPDATED } from "@/data/censusSources";
+import { localFile } from "@/data/local/load";
 import liveSources from "@/data/live-sources.json";
 import { ELECTION_DATES, electionDatesFor } from "@/data/electionDates";
 import { pollsForRace } from "@/data/polls";
@@ -91,6 +93,23 @@ function ballotStateLabels(code: StateCode): string[] {
   return labels;
 }
 
+function cityFactLabels(code: string): string[] {
+  const labels = [CENSUS_PLACES_UPDATED];
+  if (isStateCode(code)) {
+    const dates = electionDatesFor(code);
+    labels.push(dates.checkedOn, ...dates.facts.flatMap((fact) => (fact.checkedOn ? [fact.checkedOn] : [])));
+  }
+  const candidates = candidateFile(code);
+  if (candidates) {
+    for (const source of candidates.sources) {
+      if (source.accessed) labels.push(source.accessed);
+    }
+  }
+  const local = localFile(code);
+  if (local?.accessed) labels.push(local.accessed);
+  return labels;
+}
+
 function votingDeadlineLabels(): string[] {
   return ELECTION_DATES.flatMap((dates) => [
     dates.checkedOn,
@@ -157,7 +176,9 @@ export function contentUpdatedLabelForPath(path: string): string | null {
 
   if (clean === "/") return latestContentLabel(votingDeadlineLabels());
   if (clean === "/live") return liveSourcesCheckedLabel();
-  if (clean === "/cities" || clean.startsWith("/cities/")) return CENSUS_PLACES_UPDATED;
+  if (clean === "/cities") return CENSUS_PLACES_UPDATED;
+  const cityState = /^\/cities\/([A-Za-z]{2})(?:\/|$)/.exec(clean);
+  if (cityState) return latestContentLabel(cityFactLabels(cityState[1].toUpperCase()));
   if (clean === "/voting-deadlines") return latestContentLabel(votingDeadlineLabels());
   if (clean === "/ballot") {
     return latestContentLabel(STARTER_STATES.flatMap((state) => ballotStateLabels(state.code)));

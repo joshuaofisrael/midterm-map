@@ -3,16 +3,13 @@ import { localFile } from "@/data/local/load";
 import type { PlaceRecord } from "@/data/places/load";
 import { nearbyFor } from "@/data/places/nearby";
 import { absoluteUrl, SITE } from "@/data/site";
+import { citySeoHeading, placeDisplayName, readableAliases, type TitleKind } from "@/lib/placeNames";
 import { formatPopulation, joinFacts } from "@/lib/placeText";
 
 const TITLE_TAIL = "2026 Elections: Candidates & Races";
 
-export function citySeoTitle(stateCode: string, place: PlaceRecord, shared: boolean): string {
-  const where =
-    shared && place.counties.length > 0
-      ? `${place.name}, ${place.counties[0]}, ${stateCode}`
-      : `${place.name}, ${stateCode}`;
-  return `${where} ${TITLE_TAIL}`;
+export function citySeoTitle(stateCode: string, place: PlaceRecord, kind: TitleKind): string {
+  return citySeoHeading(stateCode, place, kind);
 }
 
 export function citySeoDescription(
@@ -20,17 +17,24 @@ export function citySeoDescription(
   stateName: string,
   place: PlaceRecord,
 ): string {
+  const display = placeDisplayName(place.name);
   const file = candidateFile(stateCode);
   const published = file?.status === "published";
   const list = published
     ? `Candidate names are copied from the official ${stateName} list.`
-    : "Candidates not yet listed on this site; check the official state election office.";
+    : "Candidates are not listed on this page yet; use the official state election office.";
   const population =
     place.pop == null
       ? `The 2020 Census place file has no population for GEOID ${place.geoid}.`
       : `2020 Census population ${formatPopulation(place.pop)}.`;
   const counties = place.counties.length > 0 ? joinFacts(place.counties) : "no county on the place file";
-  return `${place.name}, ${stateCode} 2026 elections. ${list} Census place in ${counties}. GEOID ${place.geoid}. ${population} Not an official election website.`;
+  const districts =
+    place.districts && place.districts.length > 0 ? place.districts.join("; ") : "no congressional district row";
+  const aliases = readableAliases(place.name)
+    .filter((name) => name.toLowerCase() !== display.toLowerCase() && name.toLowerCase() !== place.name.toLowerCase())
+    .slice(0, 3);
+  const also = aliases.length > 0 ? ` Also matches ${aliases.join(", ")}.` : "";
+  return `2026 midterm election info for ${display}, ${stateCode}. ${list} ${counties}. ${districts}. GEOID ${place.geoid}. ${population}${also} Not an official election website.`;
 }
 
 export function raceSeoTitle(shortTitle: string): string {
@@ -73,8 +77,9 @@ export function cityStructuredData(input: {
 }) {
   const url = absoluteUrl(input.path);
   const placeId = `${url}#place`;
+  const display = placeDisplayName(input.place.name);
   const near = nearbyFor(input.stateCode, input.place.geoid);
-  const about = `Contest listed for ${input.place.name}, ${input.stateCode}. Not an official election website.`;
+  const about = `Contest listed for ${display}, ${input.stateCode}. Not an official election website and not a forecast.`;
   const { contests } = contestsForPlace(input.stateCode, input.place);
   const local = localFile(input.stateCode);
   const localContests: { office: string }[] = [
@@ -84,12 +89,15 @@ export function cityStructuredData(input: {
   const placeNode: Record<string, unknown> = {
     "@type": "Place",
     "@id": placeId,
-    name: input.place.name,
+    name: display,
+    alternateName: readableAliases(input.place.name)
+      .filter((name) => name.toLowerCase() !== display.toLowerCase())
+      .slice(0, 12),
     url,
     identifier: input.place.geoid,
     address: {
       "@type": "PostalAddress",
-      addressLocality: input.place.name,
+      addressLocality: display,
       addressRegion: input.stateCode,
       addressCountry: input.stateCode === "PR" ? "PR" : "US",
     },
@@ -109,6 +117,11 @@ export function cityStructuredData(input: {
     "@context": "https://schema.org",
     "@graph": [
       placeNode,
+      eventNode(
+        `2026 Midterm Election in ${display}, ${input.stateCode}`,
+        placeId,
+        `Informational page for the November 3, 2026 general election in ${display}, ${input.stateCode}. Not a forecast and not an official election website.`,
+      ),
       ...contestEvents(contests, placeId, about),
       ...contestEvents(localContests, placeId, about),
       {
