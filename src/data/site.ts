@@ -34,10 +34,18 @@ export const SITE = {
   legalLastUpdated: "October 8, 2026",
   /** Last substantive change to /privacy and /terms (tips, email alert, affiliate sections). */
   policyLastUpdated: "October 8, 2026",
-  privacyLastUpdated: "October 18, 2026",
+  privacyLastUpdated: "October 23, 2026",
   mailingAddress: "5640 W Maple Rd, Ste 101, West Bloomfield, MI 48322",
   voteGovUrl: "https://www.vote.gov/",
 } as const;
+
+/** Footer legal links shared by the main site shell and Census place pages. */
+export const FOOTER_LEGAL_LINKS = [
+  { href: "/terms", label: "Terms of Use" },
+  { href: "/privacy", label: "Privacy Policy" },
+  { href: "/disclaimer", label: "Disclaimer" },
+  { href: "/contact", label: "Contact" },
+] as const;
 
 export const LEGAL_NAV = [
   { href: "/disclaimer", label: "Disclaimer" },

@@ -1,18 +1,11 @@
 import Link from "next/link";
-import { LEGAL_NAV, PRIMARY_NAV, SITE } from "@/data/site";
+import { FOOTER_LEGAL_LINKS, LEGAL_NAV, PRIMARY_NAV, SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
 import { STRIPE_TIP_URL, tipJarEnabled } from "@/data/monetization";
 import { CookieChoicesButton } from "@/components/GoogleAnalytics";
 
 /** Owner rule (Oct 8, 2026): exact copyright line. Keep as one string so it renders as one text node. */
 const COPYRIGHT_YEAR = 2026;
-
-const FOOTER_LEGAL_LINKS = [
-  { href: "/terms", label: "Terms of Use" },
-  { href: "/privacy", label: "Privacy Policy" },
-  { href: "/disclaimer", label: "Disclaimer" },
-  { href: "/contact", label: "Contact" },
-] as const;
 
 export function SiteFooter() {
   return (

@@ -12,6 +12,7 @@ import { RACES, racesByChamber } from "@/data/races";
 import { SITE } from "@/data/site";
 import { contentUpdatedLabel } from "@/lib/contentDate";
 import { faqJsonLd } from "@/lib/format";
+import { VISUALS } from "@/data/visuals";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -44,6 +45,7 @@ export default function RacesPage() {
         eyebrow="Races"
         title="Race guides for the 2026 midterms"
         lede={`${RACES.length} guides cover Senate, governor, and selected House districts in our starter states. Candidate names are cited on each guide. Party labels identify tickets only. Nothing here is an endorsement.`}
+        visual={VISUALS.pollingSign}
       />
       <ContentTrust updated={contentUpdatedLabel("/races")} pagePath="/races" />
       <OfficialNotice compact />

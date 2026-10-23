@@ -24,6 +24,7 @@ import { getState } from "@/data/states";
 import { contentUpdatedLabel } from "@/lib/contentDate";
 import { raceSeoDescription, raceSeoTitle, raceStructuredData } from "@/lib/citySeo";
 import { chamberLabel, ratingTone } from "@/lib/format";
+import { VISUALS } from "@/data/visuals";
 import { pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
@@ -78,7 +79,12 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
           { label: race.shortTitle },
         ]}
       />
-      <PageHeader eyebrow={chamberLabel(race.chamber)} title={race.title} lede={race.overview}>
+      <PageHeader
+        eyebrow={chamberLabel(race.chamber)}
+        title={race.title}
+        lede={race.overview}
+        visual={VISUALS.pollingSign}
+      >
         <SourceLines sources={race.sources} />
         <div className="mt-4 flex flex-wrap items-center gap-2">
           {race.ratings.map((rating) => (

@@ -12,7 +12,7 @@ export function RaceCard({ race, compact = false }: { race: RaceGuide; compact?:
   const resultsReady = resultsHref.startsWith("/results/");
 
   return (
-    <article className="flex h-full flex-col rounded-xl border border-line bg-paper-card p-5 shadow-card">
+    <article className="flex h-full flex-col rounded-xl border border-line border-t-4 border-t-navy bg-paper-card p-5 shadow-card">
       <div className="flex flex-wrap items-center gap-2">
         <span className="text-xs font-semibold uppercase tracking-wide text-navy">
           {chamberLabel(race.chamber)}

@@ -26,7 +26,7 @@ export default function ContactThanksPage() {
       />
       <PageHeader eyebrow="Contact" title="Thank you" lede="Your message was sent." />
       <div className="prose-legal">
-        <p>
+        <p className="rounded-xl border border-line border-t-4 border-t-navy bg-paper-card p-5 shadow-card">
           Thank you for contacting {SITE.name}. Your message was delivered to {SITE.legalName} by
           email, and we reply by email. If you need to add anything, email{" "}
           <a href={contactMailto()}>{SITE.email}</a>.

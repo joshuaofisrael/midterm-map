@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { absoluteUrl, SITE } from "@/data/site";
 
 const OG_IMAGE = {
-  url: "/og.png",
+  url: "/og.jpg",
   width: 1200,
   height: 630,
   alt: "Map the Midterms — 2026 U.S. midterms voter information",

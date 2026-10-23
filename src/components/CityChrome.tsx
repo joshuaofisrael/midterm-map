@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
+import { Fragment } from "react";
 import Link from "next/link";
-import { SITE } from "@/data/site";
+import { FOOTER_LEGAL_LINKS, SITE } from "@/data/site";
 import { CookieChoicesButton } from "@/components/GoogleAnalytics";
 
 /** Short header and footer for Census place pages. */
@@ -27,14 +28,12 @@ export function CityChrome({ children }: { children: ReactNode }) {
         <p>{`© 2026 ${SITE.legalName}. All rights reserved. ${SITE.name} is owned and operated by ${SITE.legalName}.`}</p>
         <p>
           <Link href="/sources">Sources</Link>
-          {" · "}
-          <Link href="/terms">Terms of Use</Link>
-          {" · "}
-          <Link href="/privacy">Privacy Policy</Link>
-          {" · "}
-          <Link href="/disclaimer">Disclaimer</Link>
-          {" · "}
-          <Link href="/contact">Contact</Link>
+          {FOOTER_LEGAL_LINKS.map((item) => (
+            <Fragment key={item.href}>
+              {" · "}
+              <Link href={item.href}>{item.label}</Link>
+            </Fragment>
+          ))}
           {" · "}
           <CookieChoicesButton />
         </p>

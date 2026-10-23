@@ -5,7 +5,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { AFFILIATE, affiliateEnabled, EMAIL_SIGNUP, emailSignupEnabled, tipJarEnabled } from "@/data/monetization";
 import { contactMailto, SITE } from "@/data/site";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
-import { FORMSUBMIT_PRIVACY, FORMSUBMIT_URL } from "@/components/ContactForm";
+import { FORMSUBMIT_PRIVACY, FORMSUBMIT_URL } from "@/data/contact";
 import { CookieChoicesButton, GA_MEASUREMENT_ID } from "@/components/GoogleAnalytics";
 
 export const metadata = pageMetadata({
@@ -365,7 +365,8 @@ export default function PrivacyPage() {
           <a href={FORMSUBMIT_PRIVACY} rel="noopener noreferrer">privacy policy</a>. We use what you
           send only to reply, handle a correction or privacy request, or keep an ordinary business
           record, and we never add you to a mailing list. The form is optional; you can email us
-          directly instead.
+          directly instead. The form posts to a FormSubmit alias, so the inbox address is not part
+          of the form’s web address, and we use the message only to respond to you.
         </p>
 
         <h2>How we use information</h2>
