@@ -11,12 +11,11 @@ This document is an **internal owner checklist**. It is **not legal advice** and
 ## What this MVP ships
 
 ### Ownership and identity
-- [x] LLC legal name in the sitewide footer, About, Terms, Privacy, Disclaimer
-- [x] Organization JSON-LD names Joshua Israel Ventures LLC as the organization / publisher
-- [x] WebSite JSON-LD names Map the Midterms as the site name and the LLC as publisher/operator
-- [x] Brand described as an unfiled name of the LLC (About, footer, Terms)
-- [x] Sunbiz document number listed as public corporate identification (About, footer)
-- [x] Contact email only; no invented street address
+- [x] LLC legal name and mailing address stay on the legal pages (terms, disclaimer, privacy, copyright, advertising, contact), not in the header, banner, hero, trust line, or footer
+- [x] Organization and WebSite JSON-LD use “Map the Midterms” as the publisher name
+- [x] Brand relationship to the LLC is stated on the legal pages, not in the public footer
+- [x] Sunbiz document number stays on the legal pages and as the Organization identifier; it is not repeated in the sitewide footer
+- [x] Mailing address stays on the legal pages that already published it; it is not added to the public footer or JSON-LD street field
 
 ### Required legal pages
 - [x] `/about` — operator, what the site is, what it is not

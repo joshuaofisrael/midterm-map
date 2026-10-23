@@ -8,7 +8,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
   title: "About",
-  description: `About ${SITE.name}, a 2026 midterms voter information utility operated by ${SITE.legalName}.`,
+  description: `About ${SITE.name}, an unofficial 2026 midterms voter information utility. Not affiliated with any government or election authority.`,
   path: "/about",
 });
 
@@ -24,25 +24,10 @@ export default function AboutPage() {
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "About" }]} />
       <PageHeader
         eyebrow="About"
-        title={`Who operates ${SITE.name}`}
-        lede="A voter information utility for the 2026 U.S. midterms, published by Joshua Israel Ventures LLC."
+        title={`About ${SITE.name}`}
+        lede="A voter information utility for the 2026 U.S. midterms."
       />
       <div className="prose-legal">
-        <h2>Who we are</h2>
-        <p>
-          <strong>{SITE.brandSentence}</strong>
-        </p>
-        <p>
-          <strong>{SITE.name}</strong> is owned and operated by{" "}
-          <strong>{SITE.legalName}</strong>, a {SITE.entityType} (Sunbiz document
-          number {SITE.sunbizDocumentNumber}, {SITE.sunbizStatus}). The company
-          is associated with {SITE.location}. {SITE.brandNote} See the{" "}
-          <Link href="/contact">contact page</Link> to reach us.
-        </p>
-        <p>
-          <Link href="/contact">Contact</Link> {SITE.legalName} through the contact form.
-        </p>
-
         <h2>What this site is</h2>
         <p>
           {SITE.name} is a public-facing informational hub. It gathers three
@@ -70,10 +55,9 @@ export default function AboutPage() {
 
         <h2>How the site is funded</h2>
         <p>
-          {SITE.name} is paid for by {SITE.legalName}.
           {tipJarEnabled()
-            ? " Readers who find it useful can leave an optional tip through Stripe (“Keep this map free”). Tips are not political contributions and are not tax-deductible."
-            : ""}{" "}
+            ? "Readers who find this site useful can leave an optional tip through Stripe (“Keep this map free”). Tips are not political contributions and are not tax-deductible. "
+            : ""}
           In the future we may add affiliate links, for example to civics and
           election books; any page with affiliate links will say so directly
           above them. We take no money or advertising from candidates,

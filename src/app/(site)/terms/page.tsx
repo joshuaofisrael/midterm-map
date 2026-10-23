@@ -4,6 +4,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { affiliateEnabled, emailSignupEnabled, tipJarEnabled } from "@/data/monetization";
 import { SITE } from "@/data/site";
+import { LEGAL } from "@/data/legalEntity";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -34,16 +35,16 @@ export default function TermsPage() {
       <div className="prose-legal">
         <p>
           These Terms of Use are a contract between you and{" "}
-          <strong>{SITE.legalName}</strong> (“we,” “us”) for use of {SITE.name}{" "}
-          ({SITE.url}). {SITE.legalName} is a {SITE.entityType}. If you do
+          <strong>{LEGAL.legalName}</strong> (“we,” “us”) for use of {SITE.name}{" "}
+          ({SITE.url}). {LEGAL.legalName} is a {LEGAL.entityType}. If you do
           not agree, do not use the site.
         </p>
 
         <h2>Who you are dealing with</h2>
         <p>
-          {SITE.brandNote} {SITE.name} is owned by {SITE.legalName}. Whenever
+          {LEGAL.brandNote} {SITE.name} is owned by {LEGAL.legalName}. Whenever
           you use the site, sign up for an email alert, leave a tip, or contact
-          us, you are dealing with {SITE.legalName}, and {SITE.legalName} is the
+          us, you are dealing with {LEGAL.legalName}, and {LEGAL.legalName} is the
           only party to these terms on our side.
         </p>
 
@@ -59,7 +60,7 @@ export default function TermsPage() {
           All content is general information only. It is not legal, political,
           voting, election-administration, financial, tax, or other professional
           advice, and using the site does not create an attorney-client,
-          adviser, or other professional relationship with {SITE.legalName}.
+          adviser, or other professional relationship with {LEGAL.legalName}.
           Election information changes. Official state and county election
           offices are the authority on ballots, registration, deadlines, voting
           rules, and results. Check those official sources before you rely on a
@@ -85,7 +86,7 @@ export default function TermsPage() {
           fundraising appeal. We do not accept campaign donations through this
           website. We do not accept money or advertising from candidates,
           campaigns, parties, or political action committees.
-          {tips ? " Optional tips go to " + SITE.legalName + " to support the site, not to any candidate, party, or committee." : ""}
+          {tips ? " Optional tips go to " + LEGAL.legalName + " to support the site, not to any candidate, party, or committee." : ""}
         </p>
 
         {tips && (
@@ -93,7 +94,7 @@ export default function TermsPage() {
             <h2>Tips</h2>
             <p>
               You may choose to leave a voluntary tip through the “Keep this map
-              free” link. A tip is a payment to {SITE.legalName} to help cover
+              free” link. A tip is a payment to {LEGAL.legalName} to help cover
               the cost of running the site. It is not a political contribution,
               not a charitable donation, and not tax-deductible. A tip does not
               buy any product, service, account, or influence over what we
@@ -117,7 +118,7 @@ export default function TermsPage() {
         <h2>Affiliate links and advertising</h2>
         <p>
           {affiliates
-            ? "Some pages contain affiliate links. If you buy through them, " + SITE.legalName + " may earn a commission at no extra cost to you. Each page with affiliate links shows a disclosure directly above them. Commissions do not affect which races, candidates, polls, or facts we cover, and reading lists are chosen for relevance and balance, not commission rates. Purchases are made from the retailer under its own terms."
+            ? "Some pages contain affiliate links. If you buy through them, " + LEGAL.legalName + " may earn a commission at no extra cost to you. Each page with affiliate links shows a disclosure directly above them. Commissions do not affect which races, candidates, polls, or facts we cover, and reading lists are chosen for relevance and balance, not commission rates. Purchases are made from the retailer under its own terms."
             : "The site does not currently contain affiliate links. If we add them, each page with affiliate links will show a disclosure directly above them, and commissions will not affect which races, candidates, polls, or facts we cover."}{" "}
           Advertising practices are described on the{" "}
           <Link href="/advertising">advertising and affiliate disclosure</Link> page.
@@ -149,7 +150,7 @@ export default function TermsPage() {
         <h2>Opinions and analysis</h2>
         <p>
           Where a page states an analysis or an opinion, that analysis is{" "}
-          {SITE.legalName}’s own. It is not a statement by a candidate, party,
+          {LEGAL.legalName}’s own. It is not a statement by a candidate, party,
           campaign, or election office, and it is not advice. Ratings, poll
           numbers, and other figures that name another outlet are quotations of
           that outlet, not our opinion and not our forecast.
@@ -162,13 +163,13 @@ export default function TermsPage() {
           are third-party market data for information only. They are not a
           prediction of election results, not the chance that a candidate will
           win, not betting or wagering advice, and not a solicitation to gamble.{" "}
-          {SITE.legalName} does not accept wagers and is not a sportsbook or a
+          {LEGAL.legalName} does not accept wagers and is not a sportsbook or a
           prediction market.
         </p>
 
         <h2>Intellectual property</h2>
         <p>
-          Site design and original text are owned by {SITE.legalName} unless
+          Site design and original text are owned by {LEGAL.legalName} unless
           otherwise noted. Candidate photos are used under the public-domain
           status or Creative Commons license shown in each photo credit and in
           the site’s{" "}
@@ -207,7 +208,7 @@ export default function TermsPage() {
 
         <h2>Limitation of liability</h2>
         <p>
-          To the fullest extent permitted by law, {SITE.legalName} and its
+          To the fullest extent permitted by law, {LEGAL.legalName} and its
           owners, officers, employees, contractors, and writers shall not be
           liable for any damages arising from your use of the site or from
           reliance on its content — including missed elections, incorrect
@@ -223,7 +224,7 @@ export default function TermsPage() {
 
         <h2>Indemnification</h2>
         <p>
-          You agree to indemnify, defend, and hold harmless {SITE.legalName} and
+          You agree to indemnify, defend, and hold harmless {LEGAL.legalName} and
           its members, managers, officers, employees, contractors, and writers
           from and against claims, damages, losses, liabilities, and expenses,
           including reasonable attorneys’ fees, arising out of your use of the
@@ -259,7 +260,7 @@ export default function TermsPage() {
 
         <h2>Contact</h2>
         <p>
-          {SITE.legalName}, a {SITE.entityType}. Mailing address: {SITE.mailingAddress}.
+          {LEGAL.legalName}, a {LEGAL.entityType}. Mailing address: {LEGAL.mailingAddress}.
           Questions about these terms go through the <Link href="/contact">contact page</Link>.
           See also the <Link href="/disclaimer">disclaimer</Link>, the{" "}
           <Link href="/privacy">privacy policy</Link>, the{" "}

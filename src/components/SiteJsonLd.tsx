@@ -1,14 +1,16 @@
 import { JsonLd } from "@/components/JsonLd";
 import { absoluteUrl, SITE } from "@/data/site";
 
+/** Same public Sunbiz document number as LEGAL.sunbizDocumentNumber. Kept here so this graph does not import the company name. */
+const SUNBIZ_DOCUMENT_NUMBER = "L26000261819";
+
 const ORG_ID = `${SITE.url}/#organization`;
 
 const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": ORG_ID,
-  name: SITE.legalName,
-  legalName: SITE.legalName,
+  name: SITE.name,
   url: SITE.url,
   contactPoint: {
     "@type": "ContactPoint",
@@ -24,29 +26,27 @@ const organizationJsonLd = {
   identifier: {
     "@type": "PropertyValue",
     name: "Florida Sunbiz Document Number",
-    value: SITE.sunbizDocumentNumber,
+    value: SUNBIZ_DOCUMENT_NUMBER,
   },
   brand: {
     "@type": "Brand",
     name: SITE.name,
     url: SITE.url,
   },
-  description: `Florida limited liability company that owns and operates informational websites. ${SITE.name} is a brand of ${SITE.legalName}, not a separate company.`,
+  description: SITE.description,
 };
 
 const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: SITE.name,
-  alternateName: `${SITE.name} by ${SITE.legalName}`,
   url: SITE.url,
   description: SITE.description,
   inLanguage: "en-US",
   publisher: {
     "@type": "Organization",
     "@id": ORG_ID,
-    name: SITE.legalName,
-    legalName: SITE.legalName,
+    name: SITE.name,
   },
   copyrightHolder: { "@id": ORG_ID },
   copyrightYear: 2026,

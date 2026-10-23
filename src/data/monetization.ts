@@ -6,7 +6,7 @@
  * Rules: strictly nonpartisan, no campaign or PAC money, free tools only.
  */
 
-/** Stripe Payment Link (Joshua Israel Ventures LLC live account), one-time pay-what-you-want tip. */
+/** Stripe Payment Link, one-time pay-what-you-want tip. */
 export const STRIPE_TIP_URL: string = "https://buy.stripe.com/6oUbJ29Us0RP3tt2rSb3q37";
 
 export type EmailSignupConfig = {

@@ -3,11 +3,12 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { SITE } from "@/data/site";
+import { LEGAL } from "@/data/legalEntity";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
   title: "Message sent",
-  description: `Thank you for contacting ${SITE.name}. Your message was sent to ${SITE.legalName}.`,
+  description: `Thank you for contacting ${SITE.name}. Your message was sent to ${LEGAL.legalName}.`,
   path: "/contact/thanks",
 });
 
@@ -27,7 +28,7 @@ export default function ContactThanksPage() {
       <PageHeader eyebrow="Contact" title="Thank you" lede="Your message was sent." />
       <div className="prose-legal">
         <p className="rounded-xl border border-line border-t-4 border-t-navy bg-paper-card p-5 shadow-card">
-          Thank you for contacting {SITE.name}. Your message was delivered to {SITE.legalName} by
+          Thank you for contacting {SITE.name}. Your message was delivered to {LEGAL.legalName} by
           email, and we reply by email. If you need to add anything, use the{" "}
           <Link href="/contact">contact form</Link> again.
         </p>

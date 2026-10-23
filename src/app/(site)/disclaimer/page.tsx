@@ -5,6 +5,7 @@ import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { affiliateEnabled, tipJarEnabled } from "@/data/monetization";
 import { SITE } from "@/data/site";
+import { LEGAL } from "@/data/legalEntity";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -35,13 +36,13 @@ export default function DisclaimerPage() {
       <div className="prose-legal">
         <h2>Who operates this site</h2>
         <p>
-          {SITE.brandNote} Any reference to “{SITE.name},” “we,” or “us” means{" "}
-          {SITE.legalName}.
+          {LEGAL.brandNote} Any reference to “{SITE.name},” “we,” or “us” means{" "}
+          {LEGAL.legalName}.
         </p>
 
         <h2>Informational only, no professional relationship</h2>
         <p>
-          {SITE.name} is operated by {SITE.legalName}. Content is for general
+          {SITE.name} is operated by {LEGAL.legalName}. Content is for general
           voter information and civic orientation. It is{" "}
           <strong>not legal advice</strong>, not political advice, not voting
           or election-administration advice, and not financial, tax, or
@@ -67,7 +68,7 @@ export default function DisclaimerPage() {
         <p>
           This site is <strong>not</strong> a government website. It is not a
           secretary of state site, not a county election office, not a board of
-          elections, and not Vote.gov. {SITE.legalName} is not affiliated
+          elections, and not Vote.gov. {LEGAL.legalName} is not affiliated
           with, endorsed by, or acting for any government agency or election
           office. We do not issue ballots, process
           registration, accept ballot requests, or certify results. Seals,
@@ -116,7 +117,7 @@ export default function DisclaimerPage() {
         <h2>Opinions and analysis are ours</h2>
         <p>
           Where a page states an analysis or an opinion, that analysis is{" "}
-          {SITE.legalName}’s own. It is not a statement by a candidate, party,
+          {LEGAL.legalName}’s own. It is not a statement by a candidate, party,
           or election office, and it is not advice. A rating or poll number
           that names another outlet is a quotation of that outlet, not our
           opinion and not our forecast.
@@ -128,7 +129,7 @@ export default function DisclaimerPage() {
           odds, or implied probabilities. If a page shows them, they are
           third-party market data for information only. They are not a
           prediction of election results, not the chance that a candidate will
-          win, and not betting or wagering advice. {SITE.legalName} does not
+          win, and not betting or wagering advice. {LEGAL.legalName} does not
           accept wagers.
         </p>
 
@@ -168,11 +169,11 @@ export default function DisclaimerPage() {
         <h2>Tips and affiliate links (FTC disclosure)</h2>
         <p>
           {tips
-            ? `Readers can leave an optional tip through a Stripe Payment Link. Tips are paid to ${SITE.legalName}, not to any candidate, party, or committee; they are not political contributions, are not tax-deductible, and do not affect what we publish.`
+            ? `Readers can leave an optional tip through a Stripe Payment Link. Tips are paid to ${LEGAL.legalName}, not to any candidate, party, or committee; they are not political contributions, are not tax-deductible, and do not affect what we publish.`
             : "The site does not currently accept tips."}{" "}
           {affiliates
-            ? `Some pages contain affiliate links. When a page shows them, ${SITE.legalName} may earn a commission if you buy through them, at no extra cost to you, and a disclosure appears directly above the links.`
-            : `The site does not currently show affiliate links. If it does in the future, ${SITE.legalName} may earn a commission when you buy through them, at no extra cost to you, and a disclosure will appear directly above the links.`}{" "}
+            ? `Some pages contain affiliate links. When a page shows them, ${LEGAL.legalName} may earn a commission if you buy through them, at no extra cost to you, and a disclosure appears directly above the links.`
+            : `The site does not currently show affiliate links. If it does in the future, ${LEGAL.legalName} may earn a commission when you buy through them, at no extra cost to you, and a disclosure will appear directly above the links.`}{" "}
           Tips and commissions never affect which races, candidates, polls, or
           facts we cover. We accept no money or advertising from candidates,
           campaigns, parties, or PACs.
@@ -180,7 +181,7 @@ export default function DisclaimerPage() {
 
         <h2>Limitation of liability</h2>
         <p>
-          To the fullest extent permitted by law, {SITE.legalName} and its
+          To the fullest extent permitted by law, {LEGAL.legalName} and its
           owners, operators, and writers are not liable for decisions, missed
           deadlines, incorrect precinct assumptions, or other losses arising
           from use of this site. You use the site at your own risk. Limitation
@@ -190,7 +191,7 @@ export default function DisclaimerPage() {
 
         <h2>Contact</h2>
         <p>
-          {SITE.legalName}. Mailing address: {SITE.mailingAddress}. Questions:{" "}
+          {LEGAL.legalName}. Mailing address: {LEGAL.mailingAddress}. Questions:{" "}
           <Link href="/contact">Contact</Link>. See also the{" "}
           <Link href="/copyright">copyright and corrections</Link> page and the{" "}
           <Link href="/advertising">advertising disclosure</Link>. If you do

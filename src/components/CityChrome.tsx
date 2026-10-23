@@ -27,7 +27,7 @@ export function CityChrome({ children }: { children: ReactNode }) {
       </main>
       <footer className="city-ftr">
         <p>{SITE.officialNotUs}</p>
-        <p>{`© 2026 ${SITE.legalName}. All rights reserved. ${SITE.name} is owned and operated by ${SITE.legalName}.`}</p>
+        <p>{`© 2026 ${SITE.name}. All rights reserved.`}</p>
         <p>
           <Link href="/sources">Sources</Link>
           {FOOTER_LEGAL_LINKS.map((item) => (

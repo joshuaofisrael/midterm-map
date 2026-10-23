@@ -74,7 +74,7 @@ export function ballotStateFaqs(state: StateProfile, races: RaceGuide[]): Ballot
     },
     {
       question: "Is Map the Midterms an official election website?",
-      answer: `No. ${SITE.name} is an informational site operated by ${SITE.legalName}, a ${SITE.entityType}. It is not a government, secretary of state, or county election website, and this sample-ballot sketch is not issued by an election office. The official election office for ${state.name} is ${office}. Registration, sample ballots, and voting rules are published there and on Vote.gov: ${state.name} registration information.`,
+      answer: `No. ${SITE.name} is an informational site. It is not a government, secretary of state, or county election website, and this sample-ballot sketch is not issued by an election office. The official election office for ${state.name} is ${office}. Registration, sample ballots, and voting rules are published there and on Vote.gov: ${state.name} registration information.`,
     },
   ];
 }

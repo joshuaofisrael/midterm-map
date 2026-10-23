@@ -11,15 +11,6 @@ export const SITE = {
   description:
     "Sourced 2026 U.S. midterm voter information: sample-ballot sketches, Senate and governor race guides, published polls, key general-election dates, and a results tracker. Informational only. Not an official election website.",
   url: publicSiteUrl(),
-  brandNote:
-    "Map the Midterms is a brand of Joshua Israel Ventures LLC. It is only a brand name: it is not a separate company and not a DBA or fictitious name. All business on and through this site is done by Joshua Israel Ventures LLC.",
-  /** Exact brand sentence required by the owner (About page). */
-  brandSentence: "Map the Midterms is a brand of Joshua Israel Ventures LLC.",
-  legalName: "Joshua Israel Ventures LLC",
-  entityType: "Florida limited liability company",
-  sunbizDocumentNumber: "L26000261819",
-  sunbizStatus: "ACTIVE",
-  location: "Miami Beach, FL",
   electionDayLabel: "Tuesday, November 3, 2026",
   electionDayIso: "2026-11-03",
   electionDayLong: "Election Day is Tuesday, November 3, 2026",
@@ -35,7 +26,6 @@ export const SITE = {
   /** Last substantive change to /terms. Change only when that page changes. */
   policyLastUpdated: "October 23, 2026",
   privacyLastUpdated: "October 23, 2026",
-  mailingAddress: "5640 W Maple Rd, Ste 101, West Bloomfield, MI 48322",
   voteGovUrl: "https://www.vote.gov/",
 } as const;
 
