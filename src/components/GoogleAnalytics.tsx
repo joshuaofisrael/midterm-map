@@ -5,25 +5,18 @@ export const GA_MEASUREMENT_ID = "G-Q9FB3RS751";
 export const CONSENT_STORAGE_KEY = "mtm-analytics-consent";
 
 /**
- * Google Consent Mode v2 defaults, set before gtag.js loads. Analytics storage and every ad
- * signal start denied; analytics storage is granted only after the visitor clicks Accept in
- * the cookie banner (public/consent.js). Google signals and ad personalization stay off.
- */
-const consentDefaults = `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',wait_for_update:500});gtag('set','ads_data_redaction',true);gtag('set','url_passthrough',false);try{if(localStorage.getItem('${CONSENT_STORAGE_KEY}')==='granted')gtag('consent','update',{analytics_storage:'granted'})}catch(e){}gtag('js',new Date());gtag('config','${GA_MEASUREMENT_ID}',{allow_google_signals:false,allow_ad_personalization_signals:false});`;
-
-/**
- * Sitewide head tags: Consent Mode defaults, gtag.js, and the small cookie-banner script.
- * Native script tags so the static export keeps them in every HTML file. data-keep tells
- * scripts/slim-city-pages.mjs to leave these tags on Census place pages.
+ * Sitewide head tags for the cookie banner. gtag.js is not in the page.
+ * public/consent.js loads it only after the visitor clicks Accept, so a normal
+ * pageview does not call Google. data-keep tells scripts/slim-city-pages.mjs to
+ * leave these tags on Census place pages. The measurement id string has to stay
+ * in the HTML for that check.
  */
 export function GoogleAnalyticsHead() {
   return (
     <>
-      <script data-keep="1" dangerouslySetInnerHTML={{ __html: consentDefaults }} />
       <script
         data-keep="1"
-        async
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        dangerouslySetInnerHTML={{ __html: `window.__mtmGaId=${JSON.stringify(GA_MEASUREMENT_ID)};` }}
       />
       <script data-keep="1" defer src="/consent.js" />
     </>

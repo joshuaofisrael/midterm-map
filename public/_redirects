@@ -1,0 +1,5 @@
+# Netlify fallback only. The "!" forces this proxy even though
+# public/live/results.json also exists. The browser stays on this site.
+# GitHub Pages ignores this file. Cloudflare in front of GitHub Pages
+# uses the origin rule in docs/election-night-scale-plan.md.
+/live/results.json  https://raw.githubusercontent.com/joshuaofisrael/midterm-map/live-results/results.json  200!

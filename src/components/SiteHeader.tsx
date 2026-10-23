@@ -27,7 +27,7 @@ export function SiteHeader() {
             2026 midterms information · not official
           </span>
         </Link>
-        <nav className="hidden items-center gap-6 text-sm md:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-5 text-sm lg:flex" aria-label="Primary">
           {PRIMARY_NAV.map((item) => (
             <Link key={item.href} href={item.href} className={navClass(pathname, item.href)}>
               {item.label}
@@ -42,7 +42,7 @@ export function SiteHeader() {
         </nav>
         <button
           type="button"
-          className="rounded-md border border-line px-3 py-1.5 text-sm md:hidden"
+          className="rounded-md border border-line px-3 py-1.5 text-sm lg:hidden"
           aria-expanded={open}
           aria-controls="mobile-nav"
           onClick={() => setOpen((value) => !value)}
@@ -51,7 +51,7 @@ export function SiteHeader() {
         </button>
       </div>
       {open && (
-        <nav id="mobile-nav" className="border-t border-line px-4 py-3 md:hidden" aria-label="Mobile">
+        <nav id="mobile-nav" className="border-t border-line px-4 py-3 lg:hidden" aria-label="Mobile">
           <ul className="space-y-2 text-sm">
             {PRIMARY_NAV.map((item) => (
               <li key={item.href}>

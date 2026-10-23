@@ -58,7 +58,7 @@ export default function PrivacyPage() {
           This policy explains what information is involved when you visit {SITE.name} (
           {SITE.url}). The site is operated by {SITE.legalName}, a {SITE.entityType} based in{" "}
           {SITE.location} (“we,” “us”). {SITE.name} is a static informational website. It has no
-          user accounts and no comments. It may display advertising (see “Advertising” below).
+          user accounts and no comments. It does not currently load an advertising script (see “Advertising” below).
           {signup ? " It offers an optional election-night email alert." : " It has no email sign-up form."}
           {affiliates ? " Some pages contain disclosed affiliate links." : " It has no affiliate links."}
           {tips
@@ -105,8 +105,8 @@ export default function PrivacyPage() {
           </li>
         </ul>
         <p>
-          The contact form is processed by FormSubmit, which emails your message to us. The site may
-          display ads from advertising partners; see “Advertising” below.
+          The contact form is processed by FormSubmit, which emails your message to us. No Google AdSense,
+          Ezoic, or Adsterra script is loaded today; see “Advertising” below.
         </p>
 
         <h2>Summary</h2>
@@ -120,9 +120,9 @@ export default function PrivacyPage() {
           <li>Our host, GitHub Pages, logs visitor IP addresses for security purposes.</li>
           <li>We do not sell or share personal information, and we do not use it for targeted advertising.</li>
           <li>
-            We also use Google Analytics, but its cookies are set only if you click Accept in the
-            cookie banner. If you click Reject or make no choice, Google Analytics cookies are not
-            set. No third-party embeds on the site set cookies.
+            We also use Google Analytics, but only if you click Accept. The Google script is not
+            loaded, and its cookies are not set, if you click Reject or make no choice. No
+            third-party embeds on the site set cookies.
           </li>
           {tips && (
             <li>
@@ -172,25 +172,24 @@ export default function PrivacyPage() {
         <h2 id="google-analytics">Analytics: Google Analytics (only with your consent)</h2>
         <p>
           The site also uses Google Analytics 4 (measurement ID {GA_MEASUREMENT_ID}), a service of
-          Google LLC, to count visits and understand which pages are useful. It runs with Google
-          Consent Mode, and every storage and advertising setting is off by default. When you
-          first visit, a banner asks whether you accept analytics cookies.
+          Google LLC, to count visits and understand which pages are useful. The Google script is
+          not on the page until you click Accept. Advertising and analytics storage start denied.
+          When you first visit, a banner asks whether you accept analytics cookies.
         </p>
         <ul>
           <li>
-            If you click <strong>Accept</strong>, Google Analytics may set first-party cookies
-            named <code>_ga</code> and <code>_ga_*</code> (Google says these last up to two years)
-            to recognize your browser across visits to this site. See{" "}
+            If you click <strong>Accept</strong>, the site loads the Google tag and Google Analytics
+            may set first-party cookies named <code>_ga</code> and <code>_ga_*</code> (Google says
+            these last up to two years) to recognize your browser across visits to this site. See{" "}
             <a href={GOOGLE_ANALYTICS_COOKIES} rel="noopener noreferrer">
               Google’s description of these cookies
             </a>
             .
           </li>
           <li>
-            If you click <strong>Reject</strong>, or make no choice, Google Analytics cookies are
-            not set. Google may still receive limited cookieless signals (such as the page
-            visited, the time, and browser and device type) as described in Google’s Consent Mode
-            documentation; these are not used to identify you.
+            If you click <strong>Reject</strong>, or make no choice, the Google script is not
+            loaded and Google Analytics cookies are not set. We do not send Google a cookieless
+            pageview in that case.
           </li>
           <li>
             When enabled, Google Analytics collects information such as the pages you view, how
@@ -309,22 +308,19 @@ export default function PrivacyPage() {
 
         <h2 id="advertising">Advertising</h2>
         <p>
-          We may show ads on this site. Our ad partners may include Google AdSense and other
-          advertising networks. Third-party vendors, including Google, use cookies to serve ads based
-          on a user&apos;s prior visits to this website or other websites. Google&apos;s use of
-          advertising cookies enables it and its partners to serve ads to our users based on their
-          visit to this site and/or other sites on the Internet.
+          No advertising script is loaded on this site today. Google AdSense, Ezoic, and Adsterra
+          are not running. The file <a href="/ads.txt">ads.txt</a> lists one Google AdSense
+          publisher ID (<code>pub-5681559774142917</code>) so Google can verify the site if AdSense
+          is turned on later. Ezoic and Adsterra are not listed in that file.
         </p>
         <p>
-          You may opt out of personalized advertising by visiting{" "}
-          <a href="https://www.google.com/settings/ads">Google Ads Settings</a>. You can also opt out
-          of some third-party vendors&apos; use of cookies for personalized advertising at{" "}
-          <a href="https://www.aboutads.info">www.aboutads.info</a>.
-        </p>
-        <p>
-          Visitors in the European Economic Area and the United Kingdom will be asked for consent
-          through a Google-certified consent management message before any personalized ads are
-          shown.
+          If AdSense, Ezoic, or Adsterra is enabled later, this policy and <a href="/ads.txt">ads.txt</a>{" "}
+          will be updated first. Those networks can use cookies to measure and personalize ads.
+          You can opt out of Google’s personalized ads at{" "}
+          <a href="https://www.google.com/settings/ads">Google Ads Settings</a>, and of some other
+          vendors’ advertising cookies at <a href="https://www.aboutads.info">www.aboutads.info</a>.
+          Visitors in the European Economic Area and the United Kingdom would be asked for consent
+          before any personalized ads.
         </p>
 
         <h2>Affiliate links</h2>

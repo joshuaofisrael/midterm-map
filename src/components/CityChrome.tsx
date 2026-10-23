@@ -18,6 +18,7 @@ export function CityChrome({ children }: { children: ReactNode }) {
           <Link href="/cities/#place-search">Search</Link>
           <Link href="/cities">Places</Link>
           <Link href="/races">Races</Link>
+          <Link href="/results">Results</Link>
           <Link href="/sources">Sources</Link>
         </nav>
       </header>

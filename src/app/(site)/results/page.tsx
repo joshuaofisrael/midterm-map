@@ -27,9 +27,9 @@ import { contentUpdatedLabel } from "@/lib/contentDate";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
-  title: "2026 results tracker",
+  title: "Election night and key races",
   description:
-    "2026 midterm results dashboard with House and Senate control meters and key races. Awaiting unofficial returns before November 3, 2026. Returns are unofficial until certified.",
+    "November 3, 2026 key races and unofficial returns copied from state election-office files after polls close. No projections. Returns are unofficial until certified.",
   path: "/results",
 });
 
@@ -47,11 +47,34 @@ export default function ResultsPage() {
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "Results" }]} />
       <PageHeader
         eyebrow="Results"
-        title="Results tracker"
-        lede={`A dashboard for Election Night and the days after. ${SITE.name} does not certify outcomes. Any future vote totals shown here will be unofficial until a state or county completes certification.`}
+        title="Election night and key races"
+        lede={`Key contests for ${SITE.electionDayLabel}, and unofficial figures after polls close. ${SITE.name} does not project winners and does not certify outcomes. A winner label appears only when the official file marks that candidate.`}
       />
       <ContentTrust updated={contentUpdatedLabel("/results")} pagePath="/results" />
       <OfficialNotice />
+
+      <section id="election-night" className="rounded-xl border border-line bg-paper-card p-5 text-sm leading-6">
+        <h2 className="font-serif text-xl font-semibold">How election night works on this page</h2>
+        <ul className="mt-3 list-disc space-y-2 pl-5">
+          <li>Nothing is shown for a state until its polls have closed.</li>
+          <li>
+            Vote totals are copied from that state’s election-office file. The office is named on
+            each row and listed on the{" "}
+            <Link className="font-medium text-navy underline" href="/live">
+              election night page
+            </Link>
+            .
+          </li>
+          <li>This site does not project a winner and does not call a race.</li>
+          <li>Certification is done by the state or county election office, not by this site.</li>
+        </ul>
+        <p className="mt-3">
+          <a className="font-medium text-navy underline" href={SITE.voteGovUrl} rel="noopener noreferrer">
+            Vote.gov
+          </a>{" "}
+          is the federal voting portal. It is not a results feed.
+        </p>
+      </section>
 
       <div className="rounded-xl border border-notice-line bg-notice-wash p-5">
         <div className="flex flex-wrap items-center gap-2">

@@ -74,7 +74,7 @@ export default function LivePage() {
           <li>The page says “Unofficial results” until the file itself says the results are official.</li>
           <li>If a check fails, the last file that loaded stays on the page with its time and a link to the official site.</li>
           <li>
-            A job checks the official files every 10 minutes on November 3 and 4, 2026, and on later days through December 15 while counting continues. This page checks that copy about once a minute.
+            A scheduled job reads the official files every 5 minutes on November 3 and 4, 2026, and on later days through December 15 while counting continues. This page reads /live/results.json on this website about once a minute. It does not call the state sites or GitHub from your browser.
           </li>
         </ul>
         <p className="mt-3">

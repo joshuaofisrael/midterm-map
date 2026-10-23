@@ -2,9 +2,11 @@
 
 import { useEffect, useState } from "react";
 
-const REMOTE_URL = "https://raw.githubusercontent.com/joshuaofisrael/midterm-map/live-results/results.json";
-const LOCAL_URL = "/live-data/results.json";
+/** Same-origin file. The browser must not call GitHub or a state election API. */
+const RESULTS_URL = "/live/results.json";
 const STORAGE_KEY = "mtm-live-results-v1";
+/** Poll at most once a minute. The query bucket is that same minute so a CDN can cache it. */
+const POLL_MS = 60_000;
 
 interface LiveCandidate {
   name: string;
@@ -218,30 +220,32 @@ export function LiveResults({
 
   useEffect(() => {
     let stop = false;
+    let generation = 0;
     async function load() {
+      if (document.hidden) return;
+      const id = ++generation;
       setNow(Date.now());
-      const bust = Math.floor(Date.now() / 60000);
-      const urls = [`${REMOTE_URL}?t=${bust}`, `${LOCAL_URL}?t=${bust}`];
-      for (const url of urls) {
+      // One URL per minute. Visitors share that URL, so the edge can cache it.
+      // Default cache mode honors Cache-Control. Do not send Cache-Control: no-store.
+      const bucket = Math.floor(Date.now() / POLL_MS);
+      try {
+        const response = await fetch(`${RESULTS_URL}?t=${bucket}`);
+        if (!response.ok) throw new Error(String(response.status));
+        const json = (await response.json()) as LivePayload;
+        if (json?.electionDay !== "2026-11-03") throw new Error("election day");
+        if (stop || id !== generation) return;
+        setPayload(json);
+        setStale(false);
         try {
-          const response = await fetch(url, { cache: "no-store" });
-          if (!response.ok) continue;
-          const json = (await response.json()) as LivePayload;
-          if (json?.electionDay !== "2026-11-03") continue;
-          if (stop) return;
-          setPayload(json);
-          setStale(false);
-          try {
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(json));
-          } catch {
-            /* private mode */
-          }
-          return;
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(json));
         } catch {
-          /* try the next copy */
+          /* private mode */
         }
+        return;
+      } catch {
+        /* the same-origin file did not load */
       }
-      if (stop) return;
+      if (stop || id !== generation) return;
       setStale(true);
       try {
         const saved = localStorage.getItem(STORAGE_KEY);
@@ -252,10 +256,15 @@ export function LiveResults({
       }
     }
     void load();
-    const timer = window.setInterval(() => void load(), 60000);
+    const timer = window.setInterval(() => void load(), POLL_MS);
+    function onVisible() {
+      if (!document.hidden) void load();
+    }
+    document.addEventListener("visibilitychange", onVisible);
     return () => {
       stop = true;
       window.clearInterval(timer);
+      document.removeEventListener("visibilitychange", onVisible);
     };
   }, []);
 

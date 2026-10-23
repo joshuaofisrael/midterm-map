@@ -1,5 +1,5 @@
 /**
- * Copy public/live-data/results.json onto the live-results branch.
+ * Copy public/live/results.json onto the live-results branch.
  * The main site is a full static export. Publishing here avoids rebuilding it.
  */
 
@@ -47,7 +47,7 @@ if (exists) {
   git(["checkout", "-b", "live-results"], work);
 }
 
-cpSync(path.join(root, "public/live-data/results.json"), path.join(work, "results.json"));
+cpSync(path.join(root, "public/live/results.json"), path.join(work, "results.json"));
 git(["add", "results.json"], work);
 const status = execFileSync("git", ["status", "--porcelain"], { cwd: work, encoding: "utf8" });
 if (!status.trim()) {

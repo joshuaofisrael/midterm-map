@@ -1,5 +1,5 @@
 /**
- * Read official state results files and write public/live-data/results.json.
+ * Read official state results files and write public/live/results.json.
  *
  *   node scripts/live/fetch.mjs --dry-run
  *     Fetch the November 3, 2026 files when they exist, parse saved-format
@@ -7,7 +7,7 @@
  *
  *   node scripts/live/fetch.mjs
  *     Used by GitHub Actions. Exits immediately outside the counting window.
- *     Set LIVE_PUBLISH=1 to push public/live-data/results.json to live-results.
+ *     Set LIVE_PUBLISH=1 to push public/live/results.json to live-results.
  */
 
 import { execFileSync } from "node:child_process";
@@ -32,7 +32,7 @@ import {
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const sources = JSON.parse(readFileSync(path.join(root, "src/data/live-sources.json"), "utf8"));
-const outPath = process.env.LIVE_OUT ? path.resolve(process.env.LIVE_OUT) : path.join(root, "public/live-data/results.json");
+const outPath = process.env.LIVE_OUT ? path.resolve(process.env.LIVE_OUT) : path.join(root, "public/live/results.json");
 const dryRun = process.argv.includes("--dry-run") || process.env.LIVE_DRY_RUN === "true";
 const ELECTION_DAY = "2026-11-03";
 const REPO = process.env.GITHUB_REPOSITORY || "joshuaofisrael/midterm-map";
@@ -559,7 +559,6 @@ async function main() {
     generatedAt: new Date().toISOString(),
     electionDay: ELECTION_DAY,
     countsContinue: countsContinue(states, day),
-    remoteUrl: REMOTE_URL,
     states: Object.fromEntries(states.map((state) => [state.code, state])),
   };
   mkdirSync(path.dirname(outPath), { recursive: true });

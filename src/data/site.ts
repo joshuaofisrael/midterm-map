@@ -59,7 +59,7 @@ export const PRIMARY_NAV = [
   { href: "/races", label: "Races" },
   { href: "/polls", label: "Polls" },
   { href: "/results", label: "Results" },
-  { href: "/live", label: "Live" },
+  { href: "/live", label: "Election night" },
 ] as const;
 
 /** Report-an-error target. The page path is the `url` query on /contact/. */

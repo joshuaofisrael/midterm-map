@@ -14,6 +14,8 @@ export function CandidateCard({ candidate }: { candidate: Candidate }) {
               alt={candidate.image.alt}
               width={96}
               height={96}
+              loading="lazy"
+              decoding="async"
               className="h-24 w-24 rounded-lg object-cover ring-1 ring-line"
             />
           </figure>

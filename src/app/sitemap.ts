@@ -186,11 +186,10 @@ function lastModifiedFor(path: string): string {
 }
 
 function changeFrequencyFor(path: string): "hourly" | "weekly" | "monthly" {
-  if (path === "/live") return "hourly";
+  if (path === "/live" || path === "/results") return "hourly";
   if (
     path === "" ||
     path === "/voting-deadlines" ||
-    path === "/results" ||
     path.startsWith("/states/") ||
     path.startsWith("/results/state/")
   ) {
