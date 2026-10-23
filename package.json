@@ -5,7 +5,7 @@
   "description": "Map the Midterms — 2026 US midterms voter information hub operated by Joshua Israel Ventures LLC.",
   "scripts": {
     "dev": "next dev",
-    "build": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types --test src/lib/placeNames.test.ts src/lib/contactEndpoint.test.ts && node scripts/check-election-law.mjs && node scripts/write-sitemap-index.mjs && node --experimental-strip-types scripts/write-place-search.ts && next build && node scripts/slim-city-pages.mjs && node --experimental-strip-types scripts/write-place-redirects.ts && node scripts/check-no-inbox.mjs",
+    "build": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types --test src/lib/placeNames.test.ts src/lib/contactEndpoint.test.ts && node scripts/check-election-law.mjs && node scripts/check-scale-ready.mjs && node scripts/write-sitemap-index.mjs && node --experimental-strip-types scripts/write-place-search.ts && next build && node scripts/slim-city-pages.mjs && node --experimental-strip-types scripts/write-place-redirects.ts && node scripts/check-no-inbox.mjs",
     "start": "python3 -m http.server 3000 --directory out",
     "lint": "next lint",
     "test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types --test src/lib/placeNames.test.ts src/lib/contactEndpoint.test.ts scripts/live/parse.test.mjs",

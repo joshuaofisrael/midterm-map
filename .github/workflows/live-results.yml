@@ -1,11 +1,15 @@
 name: Live election results
 
-# The static site is too large to rebuild every few minutes.
-# This job writes one small JSON file to the live-results branch.
-# Pages poll that file.
+# The static site is too large to rebuild every few minutes (~32,000 pages).
+# This job does not run next build and does not deploy GitHub Pages.
+# It writes one small JSON file to the live-results branch.
+# Browsers read /live/results.json on this site. They do not call this branch.
+# Cloudflare (see docs/election-night-scale-plan.md) serves that path from
+# the branch file. A full Pages deploy every 5 minutes would re-upload the
+# whole site and can trip the 10-minute deploy timeout.
 #
 # GitHub cron is UTC and has no year field. These two schedules cover
-# 3 November through 16 December, at minutes 3, 13, 23, 33, 43, and 53.
+# 3 November through 16 December, every 5 minutes at minutes 2, 7, 12, ...
 # The job then continues only when the UTC date is inside
 # 2026-11-03 .. 2026-12-16. A manual run can still use dry_run.
 # Checkout does not keep credentials. publish.mjs authenticates with
@@ -13,8 +17,8 @@ name: Live election results
 
 on:
   schedule:
-    - cron: "3,13,23,33,43,53 * 3-30 11 *"
-    - cron: "3,13,23,33,43,53 * 1-16 12 *"
+    - cron: "2-57/5 * 3-30 11 *"
+    - cron: "2-57/5 * 1-16 12 *"
   workflow_dispatch:
     inputs:
       dry_run:

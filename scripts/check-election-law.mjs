@@ -5,7 +5,7 @@
  * enforced here are the site's own election-night rules (docs/COMPLIANCE.md):
  *  1. src/data/pollClose.ts lists all 51 jurisdictions, each closing on the
  *     night of 3 November 2026 (between 23:00 UTC on 3 Nov and 07:00 UTC on 4 Nov).
- *  2. The committed fallback public/live-data/results.json carries no returns
+ *  2. The committed fallback public/live/results.json carries no returns
  *     for a state whose last polls have not closed at build time.
  *  3. No poll row is an exit poll.
  */
@@ -27,7 +27,7 @@ for (const [code, iso] of closes) {
   if (Number.isNaN(t) || t < lo || t > hi) errors.push(`${code}: allPollsClosedAt ${iso} is outside election night`);
 }
 
-const results = JSON.parse(readFileSync(path.join(root, "public/live-data/results.json"), "utf8"));
+const results = JSON.parse(readFileSync(path.join(root, "public/live/results.json"), "utf8"));
 for (const [code, state] of Object.entries(results.states ?? {})) {
   const close = Date.parse(closes.get(code) ?? "");
   const races = Array.isArray(state.races) ? state.races : [];

@@ -1,6 +1,7 @@
 /* Map the Midterms cookie banner for Google Analytics (Consent Mode v2).
-   Analytics storage is granted only after "Accept". The choice is kept in localStorage.
-   Any element with data-consent-open reopens the banner. */
+   The Google tag is downloaded only after "Accept". Reject and no choice
+   do not load gtag.js and do not send a cookieless hit. The choice is kept
+   in localStorage. Any element with data-consent-open reopens the banner. */
 (function () {
   var KEY = "mtm-analytics-consent";
   function read() {
@@ -11,6 +12,36 @@
   }
   function gtagSafe() {
     if (typeof window.gtag === "function") window.gtag.apply(null, arguments);
+  }
+  function loadGa() {
+    if (window.__mtmGaLoaded) return;
+    var id = window.__mtmGaId;
+    if (!id) return;
+    window.__mtmGaLoaded = true;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    window.gtag("consent", "default", {
+      ad_storage: "denied",
+      ad_user_data: "denied",
+      ad_personalization: "denied",
+      analytics_storage: "denied",
+      functionality_storage: "denied",
+      personalization_storage: "denied",
+      security_storage: "granted",
+      wait_for_update: 500
+    });
+    window.gtag("set", "ads_data_redaction", true);
+    window.gtag("set", "url_passthrough", false);
+    window.gtag("consent", "update", { analytics_storage: "granted" });
+    window.gtag("js", new Date());
+    window.gtag("config", id, {
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false
+    });
+    var s = document.createElement("script");
+    s.async = true;
+    s.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(id);
+    document.head.appendChild(s);
   }
   function clearGaCookies() {
     var host = location.hostname.replace(/^www\./, "");
@@ -44,9 +75,8 @@
   }
   function choose(v) {
     save(v);
-    if (v === "granted") {
-      gtagSafe("consent", "update", { analytics_storage: "granted" });
-    } else {
+    if (v === "granted") loadGa();
+    else {
       gtagSafe("consent", "update", { analytics_storage: "denied" });
       clearGaCookies();
     }
@@ -61,7 +91,7 @@
     box.setAttribute("aria-label", "Cookie choices");
     box.innerHTML =
       '<div class="in"><p>We use Google Analytics cookies to count visits, only if you accept. ' +
-      'Cloudflare Web Analytics (cookieless) runs either way. ' +
+      'The Google script loads only after Accept. Cloudflare Web Analytics (cookieless) runs either way. ' +
       '<a href="/privacy/#google-analytics">Privacy Policy</a></p>' +
       '<div class="b"><button type="button" class="acc">Accept</button>' +
       '<button type="button" class="rej">Reject</button></div></div>';
@@ -77,7 +107,8 @@
   function init() {
     ensureStyle();
     var v = read();
-    if (v !== "granted" && v !== "denied") show(false);
+    if (v === "granted") loadGa();
+    else if (v !== "denied") show(false);
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
   else init();

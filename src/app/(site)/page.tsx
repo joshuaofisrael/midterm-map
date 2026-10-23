@@ -40,9 +40,14 @@ const CTAS = [
     body: "Published surveys with pollster, dates, sample, and source links. Ratings appear only when a named outlet is cited.",
   },
   {
+    href: "/live",
+    title: "Election night",
+    body: "Unofficial figures from each state’s election-office file after polls close. No projections and no winner calls.",
+  },
+  {
     href: "/results",
-    title: "Results tracker",
-    body: "House and Senate control meters and key-race pages. Awaiting unofficial returns until November 3, 2026.",
+    title: "Key races",
+    body: "Senate, governor, and House contests for November 3, 2026, with the official source named on each page. Awaiting unofficial returns.",
   },
   {
     href: "/voting-deadlines",
@@ -102,7 +107,7 @@ export default function HomePage() {
       <ZipPlaceSearchSection />
 
       <section>
-        <h2 className="font-serif text-2xl font-semibold">Four ways into the hub</h2>
+        <h2 className="font-serif text-2xl font-semibold">Where to start</h2>
         <div className="mt-5 grid gap-4 md:grid-cols-2">
           {CTAS.map((cta) => (
             <article key={cta.href} className="rounded-xl border border-line border-t-4 border-t-navy bg-paper-card p-5 shadow-card">
