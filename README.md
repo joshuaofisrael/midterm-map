@@ -106,7 +106,7 @@ Do **not** invent a street address or publish an EIN. If a location is required,
 
 1. Change `name`, `tagline`, `description`, `url`, and `brandNote` in `src/data/site.ts`.
 2. Update `NEXT_PUBLIC_SITE_URL`, `public/CNAME`, root `CNAME`, and the workflow `NEXT_PUBLIC_SITE_URL`.
-3. Search the repo for `Map the Midterms` / `mapthemidterms.com` (README, COMPLIANCE, `public/og.png`).
+3. Search the repo for `Map the Midterms` / `mapthemidterms.com` (README, COMPLIANCE, `public/og.jpg`).
 4. Keep `legalName` as `Joshua Israel Ventures LLC` unless the operating entity actually changes.
 5. Repeat that the public name is an unfiled brand of the LLC unless counsel says a DBA/trademark has been filed.
 
@@ -135,7 +135,7 @@ When updating:
 
 ## Design and SEO
 
-Calm civic news palette (navy / neutrals). Source Serif + Source Sans. No meme politics, party propaganda, or government-seal cosplay. Open Graph image is the static file `public/og.png`. Internal links cross ballot, races, polls, results, and state hubs.
+Calm civic news palette (navy / neutrals). Source Serif + Source Sans. No meme politics, party propaganda, or government-seal cosplay. Open Graph image is the static file `public/og.jpg`. Internal links cross ballot, races, polls, results, and state hubs.
 
 ## Out of scope (intentionally)
 

@@ -153,7 +153,12 @@ const LEGAL_BRAND_PATHS = new Set(["/about", "/disclaimer", "/privacy", "/terms"
 /** October 22, 2026. County hubs, place-name search, and spelling redirects. */
 const CITY_PAGES_UPDATED = "2026-10-22";
 
+/** October 23, 2026. Contact form alias and the privacy sentence that describes it. */
+const CONTACT_FORM_UPDATED = "2026-10-23";
+const CONTACT_FORM_PATHS = new Set(["/contact", "/contact/thanks", "/privacy"]);
+
 function lastModifiedFor(path: string): string {
+  if (CONTACT_FORM_PATHS.has(path)) return CONTACT_FORM_UPDATED;
   if (path === "/sources") return CITY_PAGES_UPDATED;
   const contentDate = contentUpdatedIsoForPath(path);
   if (contentDate) return contentDate;
@@ -202,6 +207,7 @@ function priorityFor(path: string): number {
   if (path === "/cities") return 0.7;
   if (path === "/voting-deadlines" || path.startsWith("/states/")) return 0.8;
   if (path.startsWith("/races/")) return 0.8;
+  if (path === "/contact/thanks") return 0.3;
   return 0.6;
 }
 
@@ -221,6 +227,7 @@ function coreSitemap(): MetadataRoute.Sitemap {
     "/privacy",
     "/terms",
     "/contact",
+    "/contact/thanks",
   ];
 
   const statePaths = STARTER_STATES.flatMap((state) => [

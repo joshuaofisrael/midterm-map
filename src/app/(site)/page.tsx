@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BallotLookup } from "@/components/BallotLookup";
+import { CivicImage } from "@/components/CivicImage";
 import { ZipPlaceSearchSection } from "@/components/ZipPlaceSearchSection";
 import { EmailSignup } from "@/components/EmailSignup";
 import { FurtherReading } from "@/components/FurtherReading";
@@ -12,6 +13,7 @@ import { HOME_FAQS } from "@/data/homeFaqs";
 import { featuredRaces } from "@/data/races";
 import { SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
+import { VISUALS } from "@/data/visuals";
 import { faqJsonLd } from "@/lib/format";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -55,33 +57,36 @@ export default function HomePage() {
   return (
     <div className="space-y-14">
       <JsonLd data={faqJsonLd(HOME_FAQS)} />
-      <section className="grid items-start gap-8 lg:grid-cols-[1.2fr_0.8fr]">
-        <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-navy">
-            {SITE.electionDayLong}
-          </p>
-          <h1 className="mt-3 font-serif text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
-            One calm map for ballots, races, polls, and returns.
-          </h1>
-          <p className="mt-4 max-w-2xl text-lg leading-8 text-ink-muted">
-            {SITE.name} is a neutral voter information utility for the 2026 U.S.
-            midterms. It is operated by {SITE.legalName}. It is not a government
-            site, not a campaign, and does not accept political contributions.
-          </p>
-          <div className="mt-6 flex flex-wrap gap-3">
-            {CTAS.map((cta) => (
-              <Link
-                key={cta.href}
-                href={cta.href}
-                className="rounded-md bg-navy px-4 py-2 text-sm font-semibold text-white hover:bg-navy-deep"
-              >
-                {cta.title}
-              </Link>
-            ))}
+      <section className="overflow-hidden rounded-2xl border border-navy-deep bg-navy-deep text-white shadow-card">
+        <div className="grid lg:grid-cols-[1.15fr_0.85fr]">
+          <div className="order-2 px-5 py-8 sm:px-8 sm:py-10 lg:order-1 lg:py-12">
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-navy-soft">
+              {SITE.electionDayLong}
+            </p>
+            <h1 className="mt-3 max-w-xl font-serif text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
+              One calm map for ballots, races, polls, and returns.
+            </h1>
+            <p className="mt-4 max-w-xl text-lg leading-8 text-white/85">
+              {SITE.name} is a neutral voter information utility for the 2026 U.S.
+              midterms. It is operated by {SITE.legalName}. It is not a government
+              site, not a campaign, and does not accept political contributions.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              {CTAS.map((cta) => (
+                <Link
+                  key={cta.href}
+                  href={cta.href}
+                  className="rounded-md bg-white px-4 py-2 text-sm font-semibold text-navy hover:bg-navy-soft"
+                >
+                  {cta.title}
+                </Link>
+              ))}
+            </div>
           </div>
+          <CivicImage asset={VISUALS.pollingPlace} priority className="order-1 lg:order-2" />
         </div>
-        <OfficialNotice />
       </section>
+      <OfficialNotice />
 
       <section>
         <h2 className="font-serif text-2xl font-semibold">Find a starter sample ballot</h2>
@@ -100,7 +105,7 @@ export default function HomePage() {
         <h2 className="font-serif text-2xl font-semibold">Four ways into the hub</h2>
         <div className="mt-5 grid gap-4 md:grid-cols-2">
           {CTAS.map((cta) => (
-            <article key={cta.href} className="rounded-xl border border-line bg-paper-card p-5 shadow-card">
+            <article key={cta.href} className="rounded-xl border border-line border-t-4 border-t-navy bg-paper-card p-5 shadow-card">
               <h3 className="font-serif text-xl font-semibold">
                 <Link className="hover:text-navy" href={cta.href}>
                   {cta.title}
@@ -138,8 +143,9 @@ export default function HomePage() {
         </p>
         <ul className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {STARTER_STATES.map((state) => (
-            <li key={state.code} className="rounded-xl border border-line bg-paper-card p-4">
-              <Link className="font-serif text-lg font-semibold hover:text-navy" href={`/states/${state.code}`}>
+            <li key={state.code} className="rounded-xl border border-line border-t-4 border-t-navy bg-paper-card p-4 shadow-card">
+              <p className="text-xs font-semibold uppercase tracking-wide text-navy">{state.code}</p>
+              <Link className="mt-1 block font-serif text-lg font-semibold hover:text-navy" href={`/states/${state.code}`}>
                 {state.name}
               </Link>
               <p className="mt-1 text-sm text-ink-muted">{state.summary}</p>
@@ -166,7 +172,24 @@ export default function HomePage() {
         </p>
       </section>
 
-      <section id="faq" className="rounded-xl border border-line bg-paper-card p-5">
+      <section className="grid items-center gap-0 overflow-hidden rounded-2xl border border-line bg-paper-card shadow-card md:grid-cols-2">
+        <CivicImage asset={VISUALS.pollingSign} />
+        <div className="p-5 sm:p-8">
+          <h2 className="font-serif text-2xl font-semibold">A polling place, not a campaign</h2>
+          <p className="mt-3 text-sm leading-6 text-ink-muted">
+            Photographs on this site are generic scenes of voting places and civic buildings.
+            They are not pictures of a particular precinct, a rally, or a result. Your polling
+            place is assigned by your state or county election office.
+          </p>
+          <p className="mt-4 text-sm">
+            <Link className="font-medium text-navy hover:underline" href="/ballot">
+              Find a sample-ballot sketch
+            </Link>
+          </p>
+        </div>
+      </section>
+
+      <section id="faq" className="rounded-xl border border-line bg-paper-card p-5 shadow-card">
         <h2 className="font-serif text-2xl font-semibold">Questions people ask</h2>
         <p className="mt-2 max-w-2xl text-sm text-ink-muted">
           Short answers for first-time visitors. Registration and voting rules are

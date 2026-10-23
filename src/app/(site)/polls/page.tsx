@@ -11,6 +11,7 @@ import { NATIONAL_GENERIC_BALLOT, POLLS } from "@/data/polls";
 import { SITE } from "@/data/site";
 import { AGGREGATORS } from "@/data/sources";
 import { faqJsonLd } from "@/lib/format";
+import { VISUALS } from "@/data/visuals";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -37,6 +38,7 @@ export default function PollsPage() {
         eyebrow="Polls"
         title="Polls and race ratings"
         lede="Individual published surveys for key 2026 Senate and governor races, plus ratings that a named outlet has actually published. This page is not a polling average and not a prediction of control."
+        visual={VISUALS.civicBuilding}
       />
       <OfficialNotice compact />
 

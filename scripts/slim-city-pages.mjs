@@ -51,6 +51,9 @@ for (const state of fs.readdirSync(citiesDir)) {
     if (!slim.includes("/sources/#gazetteer")) {
       throw new Error(`Sources link missing in ${htmlPath}`);
     }
+    if (!slim.includes('href="/contact"') && !slim.includes('href="/contact/"')) {
+      throw new Error(`Contact link missing in ${htmlPath}`);
+    }
     if (slim.includes("Starter state hubs") || slim.includes('"@type":"Organization"')) {
       throw new Error(`Long site chrome remained in ${htmlPath}`);
     }
@@ -74,6 +77,9 @@ for (const state of fs.readdirSync(citiesDir)) {
     }
     if (!slim.includes('rel="canonical"') || !slim.includes("Unofficial information")) {
       throw new Error(`Required county markup missing in ${htmlPath}`);
+    }
+    if (!slim.includes('href="/contact"') && !slim.includes('href="/contact/"')) {
+      throw new Error(`Contact link missing in ${htmlPath}`);
     }
     fs.writeFileSync(htmlPath, slim);
     const txtPath = path.join(pageDir, "index.txt");

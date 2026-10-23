@@ -23,6 +23,7 @@ import { getState, isStateCode, STARTER_STATES } from "@/data/states";
 import type { StateProfile } from "@/data/types";
 import { contentUpdatedLabel } from "@/lib/contentDate";
 import { faqJsonLd } from "@/lib/format";
+import { VISUALS } from "@/data/visuals";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
@@ -67,6 +68,7 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
         eyebrow={`${state.name} hub`}
         title={stateHubHeading(state.name)}
         lede={state.summary}
+        visual={VISUALS.civicBuilding}
       />
       <ContentTrust
         updated={contentUpdatedLabel(`/states/${state.code}`)}
@@ -77,7 +79,7 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
       <OfficialNotice compact />
 
       <section className="grid gap-4 md:grid-cols-2">
-        <article className="rounded-xl border border-line bg-paper-card p-5">
+        <article className="rounded-xl border border-line border-t-4 border-t-navy bg-paper-card p-5 shadow-card">
           <h2 className="font-serif text-xl font-semibold">Official election office</h2>
           <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6">
             <li>{state.timezoneNote}</li>
@@ -92,7 +94,7 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
             </a>
           </p>
         </article>
-        <article className="rounded-xl border border-line bg-paper-card p-5">
+        <article className="rounded-xl border border-line border-t-4 border-t-navy bg-paper-card p-5 shadow-card">
           <h2 className="font-serif text-xl font-semibold">Jump to tools</h2>
           <ul className="mt-3 space-y-2 text-sm">
             <li>

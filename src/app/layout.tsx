@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     url: `${SITE.url}/`,
     images: [
       {
-        url: "/og.png",
+        url: "/og.jpg",
         width: 1200,
         height: 630,
         alt: "Map the Midterms — 2026 U.S. midterms voter information",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${SITE.name} · 2026 U.S. midterms`,
     description: SITE.description,
-    images: ["/og.png"],
+    images: ["/og.jpg"],
   },
   robots: {
     index: true,
