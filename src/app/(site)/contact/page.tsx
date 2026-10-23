@@ -5,12 +5,12 @@ import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { ReportedPageNote } from "@/components/ReportedPageNote";
 import { ContactForm } from "@/components/ContactForm";
-import { contactMailto, SITE } from "@/data/site";
+import { SITE } from "@/data/site";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
   title: "Contact",
-  description: `Contact ${SITE.name}, a brand of ${SITE.legalName}, with the contact form or by email. Error reports are welcome, and corrections are made promptly.`,
+  description: `Contact ${SITE.name}, a brand of ${SITE.legalName}, with the contact form. Error reports are welcome, and corrections are made promptly.`,
   path: "/contact",
 });
 
@@ -31,16 +31,15 @@ export default function ContactPage() {
       />
       <div className="prose-legal">
         <p>
-          Use the form below, or email <a href={contactMailto()}>{SITE.email}</a>.
-          Both reach {SITE.legalName}, the company that owns and operates{" "}
-          {SITE.name}. We reply by email.
+          Use the form below. It reaches {SITE.legalName}, the company that owns and
+          operates {SITE.name}. We reply by email.
         </p>
         <h2>Contact form</h2>
         <ContactForm />
         <h2>Error reports</h2>
         <p>
-          Error reports are welcome. Use the form or email the page address and what should be
-          corrected, with a source if you have one. Corrections are made promptly.
+          Error reports are welcome. Use the form, include the page address and what should be
+          corrected, and add a source if you have one. Corrections are made promptly.
         </p>
         <Suspense fallback={null}>
           <ReportedPageNote />

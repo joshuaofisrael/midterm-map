@@ -4,7 +4,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { affiliateEnabled, tipJarEnabled } from "@/data/monetization";
-import { contactMailto, SITE } from "@/data/site";
+import { SITE } from "@/data/site";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -126,8 +126,8 @@ export default function DisclaimerPage() {
           complete biographies and are not statements of our opinion. Photos
           appear only when a public-domain or Creative Commons image is
           available, with credit and license shown; a missing photo does not
-          reflect any judgment about a candidate. To report an error, email{" "}
-          <a href={contactMailto()}>{SITE.email}</a>.
+          reflect any judgment about a candidate. To report an error, use the{" "}
+          <Link href="/contact">contact form</Link>.
         </p>
 
         <h2>No campaign fundraising</h2>
@@ -159,7 +159,7 @@ export default function DisclaimerPage() {
 
         <h2>Contact</h2>
         <p>
-          Questions: <a href={contactMailto()}>{SITE.email}</a>. If you do not
+          Questions: <Link href="/contact">Contact</Link>. If you do not
           agree, do not use this website.
         </p>
       </div>

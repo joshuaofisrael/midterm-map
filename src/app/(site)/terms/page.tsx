@@ -3,7 +3,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { affiliateEnabled, emailSignupEnabled, tipJarEnabled } from "@/data/monetization";
-import { contactMailto, SITE } from "@/data/site";
+import { SITE } from "@/data/site";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -96,8 +96,8 @@ export default function TermsPage() {
               buy any product, service, account, or influence over what we
               publish, and the site is the same whether or not you tip. Payments
               are processed by Stripe, Inc. under Stripe’s own terms. If you tip
-              by mistake or in the wrong amount, email{" "}
-              <a href={contactMailto()}>{SITE.email}</a> within 30 days and we
+              by mistake or in the wrong amount, use the{" "}
+              <Link href="/contact">contact form</Link> within 30 days and we
               will review the request and refund it where appropriate. Refunds
               are otherwise not guaranteed, except where the law requires.
             </p>
@@ -123,8 +123,8 @@ export default function TermsPage() {
           We try to cite an official or published source for every date,
           candidate detail, poll, and rating, and to note when each was last
           checked. Elections change quickly, and we cannot guarantee that any
-          item is complete or current. If you see an error, email{" "}
-          <a href={contactMailto()}>{SITE.email}</a> with the page address and
+          item is complete or current. If you see an error, use the{" "}
+          <Link href="/contact">contact form</Link> with the page address and
           the correction, and we will review it promptly.
         </p>
 
@@ -152,7 +152,7 @@ export default function TermsPage() {
         </p>
         <p>
           If you believe material on the site infringes your copyright or
-          other rights, email <a href={contactMailto()}>{SITE.email}</a> with
+          other rights, use the <Link href="/contact">contact form</Link> with
           the page address, a description of the material, and your contact
           information. We will review the request and remove or correct
           material where appropriate.
@@ -212,7 +212,7 @@ export default function TermsPage() {
           <br />
           {SITE.location}
           <br />
-          <a href={contactMailto()}>{SITE.email}</a>
+          <Link href="/contact">Contact</Link>
         </p>
       </div>
     </div>

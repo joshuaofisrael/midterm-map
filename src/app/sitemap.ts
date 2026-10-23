@@ -153,9 +153,16 @@ const LEGAL_BRAND_PATHS = new Set(["/about", "/disclaimer", "/privacy", "/terms"
 /** October 22, 2026. County hubs, place-name search, and spelling redirects. */
 const CITY_PAGES_UPDATED = "2026-10-22";
 
-/** October 23, 2026. Contact form alias and the privacy sentence that describes it. */
+/** October 23, 2026. Contact form, and the pages that now point to it instead of an inbox. */
 const CONTACT_FORM_UPDATED = "2026-10-23";
-const CONTACT_FORM_PATHS = new Set(["/contact", "/contact/thanks", "/privacy"]);
+const CONTACT_FORM_PATHS = new Set([
+  "/contact",
+  "/contact/thanks",
+  "/privacy",
+  "/about",
+  "/disclaimer",
+  "/terms",
+]);
 
 function lastModifiedFor(path: string): string {
   if (CONTACT_FORM_PATHS.has(path)) return CONTACT_FORM_UPDATED;

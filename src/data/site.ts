@@ -19,8 +19,6 @@ export const SITE = {
   entityType: "Florida limited liability company",
   sunbizDocumentNumber: "L26000261819",
   sunbizStatus: "ACTIVE",
-  email: "joshuaofisrael@gmail.com",
-  emailSubject: "[Contact: Map the Midterms]",
   location: "Miami Beach, FL",
   electionDayLabel: "Tuesday, November 3, 2026",
   electionDayIso: "2026-11-03",
@@ -31,9 +29,9 @@ export const SITE = {
     "This is not an official government, secretary of state, or county election site. Confirm your sample ballot, districts, and voting rules with your state or county election office.",
   lastUpdated: "October 6, 2026",
   /** Last substantive change to /disclaimer. Change only when that page changes. */
-  legalLastUpdated: "October 8, 2026",
-  /** Last substantive change to /privacy and /terms (tips, email alert, affiliate sections). */
-  policyLastUpdated: "October 8, 2026",
+  legalLastUpdated: "October 23, 2026",
+  /** Last substantive change to /terms. Change only when that page changes. */
+  policyLastUpdated: "October 23, 2026",
   privacyLastUpdated: "October 23, 2026",
   mailingAddress: "5640 W Maple Rd, Ste 101, West Bloomfield, MI 48322",
   voteGovUrl: "https://www.vote.gov/",
@@ -63,10 +61,6 @@ export const PRIMARY_NAV = [
   { href: "/results", label: "Results" },
   { href: "/live", label: "Live" },
 ] as const;
-
-export function contactMailto(): string {
-  return `mailto:${SITE.email}?subject=${encodeURIComponent(SITE.emailSubject)}`;
-}
 
 /** Report-an-error target. The page path is the `url` query on /contact/. */
 export function reportErrorHref(path: string): string {
