@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { InfoNote } from "@/components/InfoNote";
 import { ContentTrust } from "@/components/ContentTrust";
 import { CrossLinks } from "@/components/CrossLinks";
 import { JsonLd } from "@/components/JsonLd";
@@ -46,7 +47,9 @@ export default function RacesPage() {
         title="Race guides for the 2026 midterms"
         lede={`${RACES.length} guides cover Senate, governor, and selected House districts in our starter states. Candidate names are cited on each guide. Party labels identify tickets only. Nothing here is an endorsement.`}
         visual={VISUALS.pollingSign}
-      />
+      >
+        <InfoNote />
+      </PageHeader>
       <ContentTrust updated={contentUpdatedLabel("/races")} pagePath="/races" />
       <OfficialNotice compact />
       <LivePanel raceSlugs={RACES.map((race) => race.slug)} />

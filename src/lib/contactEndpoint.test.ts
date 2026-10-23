@@ -48,3 +48,9 @@ function walk(dir: string, hits: string[]) {
 test("shared footer legal links include Contact", () => {
   assert.ok(FOOTER_LEGAL_LINKS.some((item) => item.href === "/contact" && item.label === "Contact"));
 });
+
+test("shared footer links the legal pages on every shell", () => {
+  for (const href of ["/terms", "/privacy", "/disclaimer", "/copyright", "/advertising", "/contact"]) {
+    assert.ok(FOOTER_LEGAL_LINKS.some((item) => item.href === href), href);
+  }
+});

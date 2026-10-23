@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { InfoNote } from "@/components/InfoNote";
 import { ContentTrust } from "@/components/ContentTrust";
 import { JsonLd } from "@/components/JsonLd";
 import { JurisdictionLinks } from "@/components/JurisdictionLinks";
@@ -95,7 +96,9 @@ export default async function CountyPlacesPage({
         eyebrow={`${state.name} · ${county.name}`}
         title={`2026 Midterm Election Info for ${county.name}, ${state.code}`}
         lede={`${county.places.length.toLocaleString("en-US")} Census places. The sum of stored 2020 Census populations is ${formatPopulation(population)} across ${known.length.toLocaleString("en-US")} places that have a population. ${listed.length.toLocaleString("en-US")} places have no 2020 population and no congressional-district row, so they are listed on this page instead of a separate page.`}
-      />
+      >
+        <InfoNote />
+      </PageHeader>
       <ContentTrust
         updated={contentUpdatedLabel(path)}
         pagePath={path}

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { InfoNote } from "@/components/InfoNote";
 import { ContentTrust } from "@/components/ContentTrust";
 import { EmailSignup } from "@/components/EmailSignup";
 import { JsonLd } from "@/components/JsonLd";
@@ -9,7 +10,7 @@ import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { TipJar } from "@/components/TipJar";
 import liveSources from "@/data/live-sources.json";
-import { POLL_CLOSE } from "@/data/pollClose";
+import { latestPollCloseIso, POLL_CLOSE } from "@/data/pollClose";
 import { SITE, absoluteUrl } from "@/data/site";
 import { contentUpdatedLabel } from "@/lib/contentDate";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
@@ -26,20 +27,17 @@ const eventJsonLd = {
   "@type": "Event",
   name: "2026 United States general election",
   startDate: "2026-11-03",
+  endDate: latestPollCloseIso(),
   eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
   eventStatus: "https://schema.org/EventScheduled",
   location: {
     "@type": "Country",
     name: "United States",
   },
+  image: `${SITE.url}/og.jpg`,
   description:
-    "General election for federal and state offices on November 3, 2026. Map the Midterms displays figures only after polls close, and only from state election-office files. It does not call winners.",
+    "General election for federal and state offices on November 3, 2026. Voting is administered by state election offices, not by this website. Map the Midterms displays figures only after polls close, and only from state election-office files. It does not call winners.",
   url: absoluteUrl("/live"),
-  organizer: {
-    "@type": "Organization",
-    name: SITE.legalName,
-    url: absoluteUrl("/"),
-  },
 };
 
 export default function LivePage() {
@@ -62,7 +60,9 @@ export default function LivePage() {
         eyebrow="Live results"
         title="Election night results"
         lede={`Unofficial figures for the November 3, 2026 general election, copied from state election-office files after polls close. ${SITE.name} does not call a winner. A winner is labeled only when the official file marks that candidate.`}
-      />
+      >
+        <InfoNote />
+      </PageHeader>
       <ContentTrust updated={contentUpdatedLabel("/live")} pagePath="/live" />
       <OfficialNotice />
 

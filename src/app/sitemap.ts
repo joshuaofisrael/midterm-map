@@ -162,6 +162,8 @@ const CONTACT_FORM_PATHS = new Set([
   "/about",
   "/disclaimer",
   "/terms",
+  "/copyright",
+  "/advertising",
 ]);
 
 function lastModifiedFor(path: string): string {
@@ -232,6 +234,8 @@ function coreSitemap(): MetadataRoute.Sitemap {
     "/disclaimer",
     "/privacy",
     "/terms",
+    "/copyright",
+    "/advertising",
     "/contact",
     "/contact/thanks",
   ];

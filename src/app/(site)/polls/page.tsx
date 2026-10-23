@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { InfoNote } from "@/components/InfoNote";
 import { CrossLinks } from "@/components/CrossLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
@@ -39,7 +40,9 @@ export default function PollsPage() {
         title="Polls and race ratings"
         lede="Individual published surveys for key 2026 Senate and governor races, plus ratings that a named outlet has actually published. This page is not a polling average and not a prediction of control."
         visual={VISUALS.civicBuilding}
-      />
+      >
+        <InfoNote />
+      </PageHeader>
       <OfficialNotice compact />
 
       <section className="rounded-xl border border-line bg-paper-card p-5">

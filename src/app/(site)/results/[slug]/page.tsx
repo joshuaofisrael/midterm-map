@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { InfoNote } from "@/components/InfoNote";
 import { ContentTrust } from "@/components/ContentTrust";
 import { CrossLinks } from "@/components/CrossLinks";
 import { EmailSignup } from "@/components/EmailSignup";
@@ -65,7 +66,9 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
         eyebrow={`${chamberLabel(race.chamber)} · Results`}
         title={race.title}
         lede="Per-race returns page. This page will never be labeled as certified results. Certification is a government function."
-      />
+      >
+        <InfoNote />
+      </PageHeader>
       <ContentTrust
         updated={contentUpdatedLabel(`/results/${race.slug}`)}
         pagePath={`/results/${race.slug}`}

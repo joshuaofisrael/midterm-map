@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { InfoNote } from "@/components/InfoNote";
 import { ContentTrust } from "@/components/ContentTrust";
 import { CrossLinks } from "@/components/CrossLinks";
 import { EmailSignup } from "@/components/EmailSignup";
@@ -60,7 +61,9 @@ export default async function StateResultsPage({ params }: { params: Promise<{ s
         eyebrow={`${state.name} · Results`}
         title={`${state.name} results`}
         lede={`${state.name} returns on this page are awaiting unofficial figures for the ${SITE.electionDayLabel} general election. Certification is done by election officials.`}
-      />
+      >
+        <InfoNote />
+      </PageHeader>
       <ContentTrust
         updated={contentUpdatedLabel(stateResultsPath(state.code))}
         pagePath={stateResultsPath(state.code)}

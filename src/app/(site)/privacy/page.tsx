@@ -314,13 +314,15 @@ export default function PrivacyPage() {
           is turned on later. Ezoic and Adsterra are not listed in that file.
         </p>
         <p>
-          If AdSense, Ezoic, or Adsterra is enabled later, this policy and <a href="/ads.txt">ads.txt</a>{" "}
+          If AdSense, Ezoic, or Adsterra is enabled later, this policy, the{" "}
+          <Link href="/advertising">advertising disclosure</Link>, and <a href="/ads.txt">ads.txt</a>{" "}
           will be updated first. Those networks can use cookies to measure and personalize ads.
-          You can opt out of Google’s personalized ads at{" "}
+          Google’s EU/UK/CH consent message — the consent message Google provides for people in the
+          European Economic Area, the United Kingdom, and Switzerland — is not shown today, because
+          no advertising script loads. If AdSense is turned on, visitors in those places would see
+          that message before personalized ads. You can opt out of Google’s personalized ads at{" "}
           <a href="https://www.google.com/settings/ads">Google Ads Settings</a>, and of some other
           vendors’ advertising cookies at <a href="https://www.aboutads.info">www.aboutads.info</a>.
-          Visitors in the European Economic Area and the United Kingdom would be asked for consent
-          before any personalized ads.
         </p>
 
         <h2>Affiliate links</h2>
@@ -423,8 +425,10 @@ export default function PrivacyPage() {
 
         <h2>How to make a privacy request</h2>
         <p>
-          Use the <Link href="/contact">contact form</Link> with “Privacy request” in the message
-          and tell us what you are asking for. Because we do not have accounts, we usually hold no
+          To ask us to delete personal information you sent us, use the{" "}
+          <Link href="/contact">contact form</Link> and put “Privacy request” and “deletion” in the
+          message, with enough detail for us to find the message or record. Use the same form for
+          any other privacy request and tell us what you are asking for. Because we do not have accounts, we usually hold no
           personal information about visitors other than emails and contact form messages they have sent us
           {tips ? ", records of tips" : ""}
           {signup ? ", and alert subscribers’ email addresses" : ""}. We may need to
@@ -436,8 +440,9 @@ export default function PrivacyPage() {
         <h2>Children</h2>
         <p>
           The site is a general-audience civic information resource. It is not directed to children
-          under 13, and we do not knowingly collect personal information from children. If you
-          believe a child has emailed us personal information, contact us and we will delete it.
+          under 13, and it is not targeted at children. We do not knowingly collect personal
+          information from children under 13. If you believe a child under 13 has sent us personal
+          information, use the <Link href="/contact">contact form</Link> and we will delete it.
         </p>
 
         <h2>Changes to this policy</h2>
@@ -451,7 +456,8 @@ export default function PrivacyPage() {
         <p>
           {SITE.legalName}, {SITE.location}. Mailing address: {SITE.mailingAddress}.{" "}
           <Link href="/contact">Contact</Link>. See also the{" "}
-          <Link href="/disclaimer">disclaimer</Link> and <Link href="/terms">terms of use</Link>.
+          <Link href="/disclaimer">disclaimer</Link>, <Link href="/terms">terms of use</Link>, and{" "}
+          <Link href="/advertising">advertising disclosure</Link>.
         </p>
       </div>
     </div>

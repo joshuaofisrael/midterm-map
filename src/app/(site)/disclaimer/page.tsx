@@ -10,7 +10,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "Disclaimer",
   description:
-    `Election-information disclaimer for ${SITE.name}: not an official government site, not legal advice, not an endorsement, nonpartisan, with tip and affiliate disclosures. Map the Midterms is a brand of Joshua Israel Ventures LLC. Verify ballots and results with official authorities.`,
+    `Election-information disclaimer for ${SITE.name}: information only, not legal, political, voting, or financial advice, not an official government site, not an endorsement. Market odds, if shown, are not predictions or betting advice. Verify with official sources.`,
   path: "/disclaimer",
 });
 
@@ -43,21 +43,24 @@ export default function DisclaimerPage() {
         <p>
           {SITE.name} is operated by {SITE.legalName}. Content is for general
           voter information and civic orientation. It is{" "}
-          <strong>not legal advice</strong>, not voting or
-          election-administration advice, and not financial, tax, or
+          <strong>not legal advice</strong>, not political advice, not voting
+          or election-administration advice, and not financial, tax, or
           professional advice of any other kind. Using the site, emailing us,
           or signing up for an alert does not create an attorney-client,
-          adviser, or other professional relationship.
+          adviser, or other professional relationship. You use the site at your
+          own risk.
         </p>
 
         <h2>Accuracy and official sources</h2>
         <p>
           We cite an official or published source for dates, candidate details,
-          polls, and ratings, and we show when items were last checked. We do
-          not guarantee that anything on the site is complete, accurate, or
-          current. Official state and county election offices, and the
-          statutes and notices they publish, are the authority. If this site
-          and an official source differ, the official source controls.
+          polls, and ratings, and we show when items were last checked. Election
+          information changes. We do not guarantee that anything on the site is
+          complete, accurate, current, or timely. Official state and county
+          election offices, and the statutes and notices they publish, are the
+          authority. If this site and an official source differ, the official
+          source controls. Check the official source before you rely on a date,
+          a name, or a return.
         </p>
 
         <h2>Not an official election website</h2>
@@ -110,6 +113,32 @@ export default function DisclaimerPage() {
           individual published surveys, not our average.
         </p>
 
+        <h2>Opinions and analysis are ours</h2>
+        <p>
+          Where a page states an analysis or an opinion, that analysis is{" "}
+          {SITE.legalName}’s own. It is not a statement by a candidate, party,
+          or election office, and it is not advice. A rating or poll number
+          that names another outlet is a quotation of that outlet, not our
+          opinion and not our forecast.
+        </p>
+
+        <h2>Market odds are not predictions or betting advice</h2>
+        <p>
+          The site does not currently show prediction-market prices, betting
+          odds, or implied probabilities. If a page shows them, they are
+          third-party market data for information only. They are not a
+          prediction of election results, not the chance that a candidate will
+          win, and not betting or wagering advice. {SITE.legalName} does not
+          accept wagers.
+        </p>
+
+        <h2>Third-party links are not endorsements</h2>
+        <p>
+          A link to another website is not an endorsement of that site, its
+          operator, a candidate, a party, or anything it publishes. We do not
+          control those sites.
+        </p>
+
         <h2>Results before certification are unofficial</h2>
         <p>
           Any returns displayed before a state or county certifies a contest are{" "}
@@ -154,13 +183,18 @@ export default function DisclaimerPage() {
           To the fullest extent permitted by law, {SITE.legalName} and its
           owners, operators, and writers are not liable for decisions, missed
           deadlines, incorrect precinct assumptions, or other losses arising
-          from use of this site. See also the <Link href="/terms">terms of use</Link>.
+          from use of this site. You use the site at your own risk. Limitation
+          of liability, indemnification, and governing law (Florida, USA) are
+          in the <Link href="/terms">terms of use</Link>.
         </p>
 
         <h2>Contact</h2>
         <p>
-          Questions: <Link href="/contact">Contact</Link>. If you do not
-          agree, do not use this website.
+          {SITE.legalName}. Mailing address: {SITE.mailingAddress}. Questions:{" "}
+          <Link href="/contact">Contact</Link>. See also the{" "}
+          <Link href="/copyright">copyright and corrections</Link> page and the{" "}
+          <Link href="/advertising">advertising disclosure</Link>. If you do
+          not agree, do not use this website.
         </p>
       </div>
     </div>
