@@ -19,6 +19,18 @@ export interface PollClose {
   note: string;
 }
 
+export function pollCloseIso(code: string): string | undefined {
+  return POLL_CLOSE.find((row) => row.code === code)?.allPollsClosedAt;
+}
+
+/** Latest poll-close instant on election night. Derived from POLL_CLOSE, not a separate fact. */
+export function latestPollCloseIso(): string {
+  return POLL_CLOSE.reduce(
+    (latest, row) => (row.allPollsClosedAt > latest ? row.allPollsClosedAt : latest),
+    POLL_CLOSE[0].allPollsClosedAt,
+  );
+}
+
 export const POLL_CLOSE: PollClose[] = [
   {
     code: "AL",

@@ -9,7 +9,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "Terms of Use",
   description:
-    `Terms for ${SITE.name}, operated by Joshua Israel Ventures LLC: informational use, Florida governing law, limitation of liability, voluntary tips, email alerts, affiliate links, and no campaign contribution solicitation.`,
+    `Terms for ${SITE.name}, operated by Joshua Israel Ventures LLC: information only, not legal, political, voting, or financial advice, no warranty, use at your own risk, limitation of liability, indemnification, and Florida, USA governing law.`,
   path: "/terms",
 });
 
@@ -56,12 +56,15 @@ export default function TermsPage() {
           ballot requests, or political contributions.
         </p>
         <p>
-          All content is general information only. It is not legal, voting,
-          election-administration, financial, tax, or other professional advice,
-          and using the site does not create a professional or advisory
-          relationship with {SITE.legalName}. Official state and county
-          election offices are the authority on ballots, registration,
-          deadlines, voting rules, and results. Use is subject to the{" "}
+          All content is general information only. It is not legal, political,
+          voting, election-administration, financial, tax, or other professional
+          advice, and using the site does not create an attorney-client,
+          adviser, or other professional relationship with {SITE.legalName}.
+          Election information changes. Official state and county election
+          offices are the authority on ballots, registration, deadlines, voting
+          rules, and results. Check those official sources before you rely on a
+          date, a candidate list, a poll, or a return. Accuracy and timeliness
+          are not guaranteed. Use is subject to the{" "}
           <Link href="/disclaimer">disclaimer</Link> and{" "}
           <Link href="/privacy">privacy policy</Link>, which are part of these
           terms.
@@ -111,30 +114,56 @@ export default function TermsPage() {
             : "The site does not currently offer an email sign-up. If we add an optional election night results alert and you sign up, you will receive only the emails described at sign-up and can unsubscribe at any time using the link in every email."}
         </p>
 
-        <h2>Affiliate links</h2>
+        <h2>Affiliate links and advertising</h2>
         <p>
           {affiliates
             ? "Some pages contain affiliate links. If you buy through them, " + SITE.legalName + " may earn a commission at no extra cost to you. Each page with affiliate links shows a disclosure directly above them. Commissions do not affect which races, candidates, polls, or facts we cover, and reading lists are chosen for relevance and balance, not commission rates. Purchases are made from the retailer under its own terms."
-            : "The site does not currently contain affiliate links. If we add them, each page with affiliate links will show a disclosure directly above them, and commissions will not affect which races, candidates, polls, or facts we cover."}
+            : "The site does not currently contain affiliate links. If we add them, each page with affiliate links will show a disclosure directly above them, and commissions will not affect which races, candidates, polls, or facts we cover."}{" "}
+          Advertising practices are described on the{" "}
+          <Link href="/advertising">advertising and affiliate disclosure</Link> page.
         </p>
 
         <h2>Accuracy and corrections</h2>
         <p>
           We try to cite an official or published source for every date,
           candidate detail, poll, and rating, and to note when each was last
-          checked. Elections change quickly, and we cannot guarantee that any
-          item is complete or current. If you see an error, use the{" "}
-          <Link href="/contact">contact form</Link> with the page address and
-          the correction, and we will review it promptly.
+          checked. Election information changes, and we cannot guarantee that
+          any item is complete, accurate, or current. If you see an error, use
+          the <Link href="/contact">contact form</Link> with the page address
+          and the correction. How we review a report, and how a correction is
+          logged, is described on the{" "}
+          <Link href="/copyright">copyright and corrections</Link> page.
         </p>
 
         <h2>Third-party sites and content</h2>
         <p>
           The site links to official election offices, Vote.gov, news outlets,
           pollsters, rating publishers, Ballotpedia, Wikipedia, and other
-          sites. We do not control those sites and are not responsible for
-          their content, availability, or privacy practices. Polls and race
-          ratings are the work of the organizations named next to them.
+          sites. A link is not an endorsement of that site, its operator, its
+          authors, a candidate, a party, or anything that other site publishes. We do
+          not control those sites and are not responsible for their content,
+          availability, privacy practices, or products. Polls and race ratings
+          are the work of the organizations named next to them.
+        </p>
+
+        <h2>Opinions and analysis</h2>
+        <p>
+          Where a page states an analysis or an opinion, that analysis is{" "}
+          {SITE.legalName}’s own. It is not a statement by a candidate, party,
+          campaign, or election office, and it is not advice. Ratings, poll
+          numbers, and other figures that name another outlet are quotations of
+          that outlet, not our opinion and not our forecast.
+        </p>
+
+        <h2>Market odds</h2>
+        <p>
+          The site does not currently show prediction-market prices, betting
+          odds, or implied probabilities. If a page shows them, those figures
+          are third-party market data for information only. They are not a
+          prediction of election results, not the chance that a candidate will
+          win, not betting or wagering advice, and not a solicitation to gamble.{" "}
+          {SITE.legalName} does not accept wagers and is not a sportsbook or a
+          prediction market.
         </p>
 
         <h2>Intellectual property</h2>
@@ -152,10 +181,19 @@ export default function TermsPage() {
         </p>
         <p>
           If you believe material on the site infringes your copyright or
-          other rights, use the <Link href="/contact">contact form</Link> with
-          the page address, a description of the material, and your contact
-          information. We will review the request and remove or correct
-          material where appropriate.
+          other rights, use the <Link href="/contact">contact form</Link>. The
+          notice process is on the{" "}
+          <Link href="/copyright">copyright and corrections</Link> page. We
+          will review the request and remove or correct material where
+          appropriate.
+        </p>
+
+        <h2>Use at your own risk</h2>
+        <p>
+          You use {SITE.name} and everything on it entirely at your own risk.
+          You are responsible for any decision you make after reading the site,
+          including a voting decision. We do not guarantee that the site will
+          be available, uninterrupted, or error-free.
         </p>
 
         <h2>Disclaimer of warranties</h2>
@@ -183,14 +221,27 @@ export default function TermsPage() {
           limited under applicable law.
         </p>
 
+        <h2>Indemnification</h2>
+        <p>
+          You agree to indemnify, defend, and hold harmless {SITE.legalName} and
+          its members, managers, officers, employees, contractors, and writers
+          from and against claims, damages, losses, liabilities, and expenses,
+          including reasonable attorneys’ fees, arising out of your use of the
+          site, your reliance on its content, your violation of these terms, or
+          your violation of any law or third-party right, to the fullest extent
+          permitted by law. We may assume the exclusive defense of any matter
+          subject to this indemnity, and you agree to cooperate with that
+          defense.
+        </p>
+
         <h2>Governing law</h2>
         <p>
           These terms, and any dispute about the site or these terms, are
-          governed by the laws of the State of Florida, without regard to
-          conflict-of-law rules, unless a mandatory consumer-protection law in
-          your place of residence says otherwise. Subject to that exception,
-          the state and federal courts located in the State of Florida shall
-          have jurisdiction.
+          governed by the laws of the State of Florida and the applicable laws
+          of the United States, without regard to conflict-of-law rules, unless
+          a mandatory consumer-protection law in your place of residence says
+          otherwise. Subject to that exception, the state and federal courts
+          located in the State of Florida, USA, have jurisdiction.
         </p>
 
         <h2>Severability</h2>
@@ -208,11 +259,12 @@ export default function TermsPage() {
 
         <h2>Contact</h2>
         <p>
-          {SITE.legalName}
-          <br />
-          {SITE.location}
-          <br />
-          <Link href="/contact">Contact</Link>
+          {SITE.legalName}, a {SITE.entityType}. Mailing address: {SITE.mailingAddress}.
+          Questions about these terms go through the <Link href="/contact">contact page</Link>.
+          See also the <Link href="/disclaimer">disclaimer</Link>, the{" "}
+          <Link href="/privacy">privacy policy</Link>, the{" "}
+          <Link href="/advertising">advertising disclosure</Link>, and the{" "}
+          <Link href="/copyright">copyright and corrections</Link> page.
         </p>
       </div>
     </div>

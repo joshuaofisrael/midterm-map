@@ -84,7 +84,7 @@ Do not use `https://joshuaofisrael.github.io/midterm-map/` as the public URL. Ca
 | `/results` | House/Senate meters, key races, pre-election mode |
 | `/results/[slug]` | Per-race unofficial-returns shell |
 | `/states/[state]` | State hub |
-| `/about` `/disclaimer` `/privacy` `/terms` | Legal |
+| `/about` `/disclaimer` `/privacy` `/terms` `/copyright` `/advertising` | Legal |
 | `/sitemap.xml` `/robots.txt` | Crawlers |
 
 Starter states: AZ, GA, MI, NC, NV, OH, PA, WI, TX, FL, CA, NY, MN, ME, IA, AK, KS.
@@ -97,7 +97,7 @@ Starter states: AZ, GA, MI, NC, NV, OH, PA, WI, TX, FL, CA, NY, MN, ME, IA, AK, 
 | Organization + WebSite JSON-LD | `src/app/layout.tsx` |
 | Footer + sitewide banner | `src/components/SiteFooter.tsx`, `src/components/SiteShell.tsx` |
 | Ballot / results verify notices | `src/components/OfficialNotice.tsx` plus Ballot and Results pages |
-| Full legal prose | `src/app/about/page.tsx`, `disclaimer/page.tsx`, `privacy/page.tsx`, `terms/page.tsx` |
+| Full legal prose | `src/app/(site)/about/page.tsx`, `disclaimer/page.tsx`, `privacy/page.tsx`, `terms/page.tsx`, `copyright/page.tsx`, `advertising/page.tsx` |
 | Owner checklist (not a lawyer sign-off) | `docs/COMPLIANCE.md` |
 
 Do **not** invent a street address or publish an EIN. If a location is required, keep **Miami Beach, FL**.

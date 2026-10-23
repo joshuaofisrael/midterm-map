@@ -23,7 +23,7 @@ This document is an **internal owner checklist**. It is **not legal advice** and
 - [x] `/disclaimer` — election-specific cautions (not official; not legal advice; not an endorsement; ballots may be incomplete; ratings attributed to named outlets; polls cited or honestly empty; unofficial returns)
 - [x] `/privacy` — no accounts; browser-only ZIP; cookieless Cloudflare Web Analytics (aggregate); GitHub Pages IP logging; no sale/sharing; email handling; retention; EU/UK GDPR and U.S. state-law rights; children; contact
 - [x] `/terms` — informational-only, no warranties, limitation of liability, Florida governing law, LLC operator, corrections, third-party links, image licenses, copyright/takedown contact, severability, no campaign contribution solicitation
-- [x] Footer links: Disclaimer / Privacy / Terms / About
+- [x] Footer links: Disclaimer / Privacy / Terms / Copyright & Corrections / Advertising / About / Contact
 - [x] Footer line: “Not an official election website. Verify ballot and voting details with your state or county election office.”
 - [x] Persistent official-not-us banner sitewide, plus stronger notices on Ballot and Results
 - [x] No affiliate-disclosure page (no monetization / affiliate links shipped)
@@ -84,6 +84,19 @@ Minnesota is a state hub at `/states/MN`, linked to and from `/voting-deadlines/
 ## October 7, 2026 content rule
 
 The public site keeps plain, sourced facts (registration and other deadline dates, each with its official link). Step-by-step voter guidance, eligibility how-tos, and instructions to the reader are off the public pages. Anything beyond a bare sourced fact links to the state election office, Vote.gov, or `/voting-deadlines/`. Legal pages keep rights language and the disclaimer’s verify line. The October 6 voter-preparation section and its HowTo markup were removed.
+
+## October 23, 2026 — legal disclaimers
+
+Public pages already had `/terms`, `/disclaimer`, `/privacy`, `/about`, and `/contact`. This pass extended those pages and added two:
+
+- `/copyright/` — copyright, content use, DMCA notices through the contact form (no inbox address), and the corrections policy. There is no separate public corrections log. A correction replaces the page text and the page’s stored “Last updated” date changes. The report stays with contact-form records.
+- `/advertising/` — no ad script today, Google AdSense publisher line in ads.txt only, no paid political advertising, no candidate endorsements, affiliate links disclosed if added.
+
+Terms now include use at your own risk, indemnification, opinions as the site’s own, market odds (none are shown), third-party links not endorsed, and Florida, USA governing law. Privacy still states that AdSense is not loaded. It names Google’s EU/UK/CH consent message as something visitors would see only if AdSense is turned on. High-risk templates carry one static line: informational, not advice, compiled from public sources and AI-assisted, verify with official sources. That line is not injected into the live-results JSON.
+
+Candidate and certified write-in names on race guides and city pages are copied from official election-office lists for identification. This pass did not find an accusation against a private individual and did not delete those names.
+
+City and race Event JSON-LD is one election-day event per page. Per-contest Event nodes were removed. `endDate` is the state’s poll-close instant from `pollClose.ts`. The organizer is the state election office (`GovernmentOrganization`). The image is the existing `/og.jpg` card. Performer and offers are omitted. The national event on `/live/` does not name the LLC as organizer of the election.
 
 ## What counsel should still review
 

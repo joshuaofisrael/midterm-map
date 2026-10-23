@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { AdSlot } from "@/components/AdSlot";
+import { InfoNote } from "@/components/InfoNote";
 import { CityCandidates } from "@/components/CityCandidates";
 import { CityLocal } from "@/components/CityLocal";
 import { CityRelated } from "@/components/CityRelated";
@@ -116,6 +117,7 @@ export default async function CityPage({
         . <Link href={reportErrorHref(path)}>Report an error</Link>. Census sources are on the{" "}
         <a href="/sources/#gazetteer">sources page</a>.
       </p>
+      <InfoNote city />
       <AdSlot id="city-top" height={90} />
 
       {aliases.length > 0 || misspellings.length > 0 ? (

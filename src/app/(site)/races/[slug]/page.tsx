@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AdSlot } from "@/components/AdSlot";
+import { InfoNote } from "@/components/InfoNote";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CandidateCard } from "@/components/CandidateCard";
 import { ContentTrust } from "@/components/ContentTrust";
@@ -85,6 +86,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         lede={race.overview}
         visual={VISUALS.pollingSign}
       >
+        <InfoNote />
         <SourceLines sources={race.sources} />
         <div className="mt-4 flex flex-wrap items-center gap-2">
           {race.ratings.map((rating) => (

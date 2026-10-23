@@ -42,6 +42,8 @@ export const FOOTER_LEGAL_LINKS = [
   { href: "/terms", label: "Terms of Use" },
   { href: "/privacy", label: "Privacy Policy" },
   { href: "/disclaimer", label: "Disclaimer" },
+  { href: "/copyright", label: "Copyright & Corrections" },
+  { href: "/advertising", label: "Advertising" },
   { href: "/contact", label: "Contact" },
 ] as const;
 
@@ -49,6 +51,8 @@ export const LEGAL_NAV = [
   { href: "/disclaimer", label: "Disclaimer" },
   { href: "/privacy", label: "Privacy" },
   { href: "/terms", label: "Terms" },
+  { href: "/copyright", label: "Copyright & Corrections" },
+  { href: "/advertising", label: "Advertising" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ] as const;

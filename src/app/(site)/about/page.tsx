@@ -91,8 +91,10 @@ export default function AboutPage() {
         </p>
         <p>
           Read the <Link href="/disclaimer">disclaimer</Link>,{" "}
-          <Link href="/privacy">privacy policy</Link>, and{" "}
-          <Link href="/terms">terms of use</Link>. Corrections: use the{" "}
+          <Link href="/privacy">privacy policy</Link>,{" "}
+          <Link href="/terms">terms of use</Link>,{" "}
+          <Link href="/copyright">copyright and corrections</Link> page, and{" "}
+          <Link href="/advertising">advertising disclosure</Link>. Corrections: use the{" "}
           <Link href="/contact">contact form</Link>.
         </p>
       </div>

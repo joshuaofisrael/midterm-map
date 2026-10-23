@@ -48,7 +48,10 @@ export default function ContactPage() {
         <ul>
           <li>Corrections and error reports: the page address and the correction, with a source if you have one</li>
           <li>Privacy requests: put “Privacy request” in the subject line</li>
-          <li>Copyright or image concerns: the page address and a description of the material</li>
+          <li>
+            Copyright notices and image concerns: the page address and a description of the material.
+            The notice elements are on the <Link href="/copyright">copyright and corrections</Link> page.
+          </li>
         </ul>
         <p>
           Please do not send Social Security numbers, voter ID numbers, photos
@@ -63,8 +66,10 @@ export default function ContactPage() {
         </p>
         <p>
           See also the <Link href="/terms">terms of use</Link>,{" "}
-          <Link href="/privacy">privacy policy</Link>, and{" "}
-          <Link href="/disclaimer">disclaimer</Link>.
+          <Link href="/privacy">privacy policy</Link>, the{" "}
+          <Link href="/disclaimer">disclaimer</Link>, the{" "}
+          <Link href="/copyright">copyright and corrections</Link> page, and the{" "}
+          <Link href="/advertising">advertising disclosure</Link>.
         </p>
       </div>
     </div>

@@ -1,5 +1,6 @@
-import { candidateFile, contestsForPlace } from "@/data/candidates/load";
-import { localFile } from "@/data/local/load";
+import { candidateFile } from "@/data/candidates/load";
+import { electionOfficeFor } from "@/data/electionOffices";
+import { pollCloseIso } from "@/data/pollClose";
 import type { PlaceRecord } from "@/data/places/load";
 import { nearbyFor } from "@/data/places/nearby";
 import { absoluteUrl, SITE } from "@/data/site";
@@ -45,27 +46,33 @@ export function raceSeoDescription(title: string, overview: string): string {
   return `${title}. ${overview} Informational only. Not an endorsement.`;
 }
 
-function eventNode(name: string, placeId: string, about: string) {
-  return {
+/**
+ * One election-day Event. Office rows are not separate Events: they are not
+ * ticketed, and a performer or an offer would not be a fact we have.
+ * endDate is that state's poll-close instant. The organizer is the state
+ * election office, which administers the election. Image is this site's
+ * existing Open Graph card, not a photograph of the polling place.
+ */
+function eventNode(input: { name: string; placeId: string; about: string; stateCode: string }) {
+  const office = electionOfficeFor(input.stateCode);
+  const endDate = pollCloseIso(input.stateCode);
+  const node: Record<string, unknown> = {
     "@type": "Event",
-    name,
+    name: input.name,
     startDate: SITE.electionDayIso,
     eventStatus: "https://schema.org/EventScheduled",
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-    location: { "@id": placeId },
-    description: about,
+    location: { "@id": input.placeId },
+    description: input.about,
+    image: `${SITE.url}/og.jpg`,
+    organizer: {
+      "@type": "GovernmentOrganization",
+      name: office.office.label,
+      url: office.office.href,
+    },
   };
-}
-
-function contestEvents(contests: { office: string }[], placeId: string, about: string) {
-  const seen = new Set<string>();
-  const events = [];
-  for (const contest of contests) {
-    if (seen.has(contest.office)) continue;
-    seen.add(contest.office);
-    events.push(eventNode(contest.office, placeId, about));
-  }
-  return events;
+  if (endDate) node.endDate = endDate;
+  return node;
 }
 
 export function cityStructuredData(input: {
@@ -79,13 +86,6 @@ export function cityStructuredData(input: {
   const placeId = `${url}#place`;
   const display = placeDisplayName(input.place.name);
   const near = nearbyFor(input.stateCode, input.place.geoid);
-  const about = `Contest listed for ${display}, ${input.stateCode}. Not an official election website and not a forecast.`;
-  const { contests } = contestsForPlace(input.stateCode, input.place);
-  const local = localFile(input.stateCode);
-  const localContests: { office: string }[] = [
-    ...(local?.local?.[input.place.geoid] ?? []),
-    ...input.place.counties.flatMap((county) => local?.localByCounty?.[county] ?? []),
-  ];
   const placeNode: Record<string, unknown> = {
     "@type": "Place",
     "@id": placeId,
@@ -117,13 +117,12 @@ export function cityStructuredData(input: {
     "@context": "https://schema.org",
     "@graph": [
       placeNode,
-      eventNode(
-        `2026 Midterm Election in ${display}, ${input.stateCode}`,
+      eventNode({
+        name: `2026 Midterm Election in ${display}, ${input.stateCode}`,
         placeId,
-        `Informational page for the November 3, 2026 general election in ${display}, ${input.stateCode}. Not a forecast and not an official election website.`,
-      ),
-      ...contestEvents(contests, placeId, about),
-      ...contestEvents(localContests, placeId, about),
+        about: `Informational page for the November 3, 2026 general election in ${display}, ${input.stateCode}. Not a forecast and not an official election website.`,
+        stateCode: input.stateCode,
+      }),
       {
         "@type": "BreadcrumbList",
         itemListElement: input.crumbs.map((crumb, index) => ({
@@ -159,7 +158,12 @@ export function raceStructuredData(input: {
         addressCountry: "US",
       },
     },
-    eventNode(input.title, placeId, `${input.shortTitle}. Informational only. Not an endorsement.`),
+    eventNode({
+      name: input.title,
+      placeId,
+      about: `${input.shortTitle}. Informational only. Not an endorsement.`,
+      stateCode: input.stateCode,
+    }),
     {
       "@type": "BreadcrumbList",
       itemListElement: input.crumbs.map((crumb, index) => ({

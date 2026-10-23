@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { InfoNote } from "@/components/InfoNote";
 import { ContentTrust } from "@/components/ContentTrust";
 import { ControlMeter } from "@/components/ControlMeter";
 import { CrossLinks } from "@/components/CrossLinks";
@@ -49,7 +50,9 @@ export default function ResultsPage() {
         eyebrow="Results"
         title="Election night and key races"
         lede={`Key contests for ${SITE.electionDayLabel}, and unofficial figures after polls close. ${SITE.name} does not project winners and does not certify outcomes. A winner label appears only when the official file marks that candidate.`}
-      />
+      >
+        <InfoNote />
+      </PageHeader>
       <ContentTrust updated={contentUpdatedLabel("/results")} pagePath="/results" />
       <OfficialNotice />
 
