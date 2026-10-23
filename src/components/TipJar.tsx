@@ -1,7 +1,7 @@
 import { STRIPE_TIP_URL, tipJarEnabled } from "@/data/monetization";
 
 export const TIP_SMALL_PRINT =
-  "Tips are paid to Joshua Israel Ventures LLC through Stripe. They are not political contributions and are not tax-deductible. Map the Midterms is not affiliated with any campaign, party or PAC.";
+  "Tips are paid through Stripe to support this site. They are not political contributions and are not tax-deductible. Map the Midterms is not affiliated with any campaign, party or PAC.";
 
 /** "Keep this map free" tip jar. Renders nothing until STRIPE_TIP_URL is set. */
 export function TipJar() {

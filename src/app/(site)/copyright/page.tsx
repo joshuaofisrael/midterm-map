@@ -3,6 +3,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { SITE } from "@/data/site";
+import { LEGAL } from "@/data/legalEntity";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -29,13 +30,13 @@ export default function CopyrightPage() {
       />
       <div className="prose-legal">
         <p>
-          {SITE.name} is owned and operated by <strong>{SITE.legalName}</strong>, a {SITE.entityType}.{" "}
-          {SITE.brandNote} These rules sit alongside the <Link href="/terms">terms of use</Link>.
+          {SITE.name} is owned and operated by <strong>{LEGAL.legalName}</strong>, a {LEGAL.entityType}.{" "}
+          {LEGAL.brandNote} These rules sit alongside the <Link href="/terms">terms of use</Link>.
         </p>
 
         <h2>Copyright</h2>
         <p>
-          Site design and original text are owned by {SITE.legalName} unless a page says otherwise.
+          Site design and original text are owned by {LEGAL.legalName} unless a page says otherwise.
           That includes the selection and arrangement of material on a page, and the wording we write.
           Candidate names, party labels, and dates copied from a public election-office list are facts
           from that list. Our decision to include them, and the sentences around them, are ours.
@@ -57,7 +58,7 @@ export default function CopyrightPage() {
           </li>
           <li>
             You may not copy pages, the design, or the compilation to build a competing site, republish
-            them as your own, or suggest that {SITE.legalName} endorses you, a candidate, or a party.
+            them as your own, or suggest that {LEGAL.legalName} endorses you, a candidate, or a party.
           </li>
           <li>
             Candidate, party, office, and geographic names appear for identification only. Using them
@@ -70,7 +71,7 @@ export default function CopyrightPage() {
           If you believe material on this site infringes a copyright you own or are authorized to act
           for, send a notice through the <Link href="/contact">contact form</Link>. Put “Copyright
           notice” in the message. The form is the notice process. This page does not publish an email
-          address. A paper notice can be mailed to {SITE.legalName}, {SITE.mailingAddress}.
+          address. A paper notice can be mailed to {LEGAL.legalName}, {LEGAL.mailingAddress}.
         </p>
         <p>A notice we can act on should include all of the following:</p>
         <ul>
@@ -94,7 +95,7 @@ export default function CopyrightPage() {
           we will not restore it for a person who repeatedly infringes.
         </p>
         <p>
-          This page does not say that {SITE.legalName} has registered a designated agent with the U.S.
+          This page does not say that {LEGAL.legalName} has registered a designated agent with the U.S.
           Copyright Office. Send the notice through the contact form anyway, and we will review it.
         </p>
 
@@ -106,7 +107,7 @@ export default function CopyrightPage() {
           address on the form, a statement under penalty of perjury that you have a good-faith belief
           the material was removed by mistake or misidentification, and your consent to the jurisdiction
           of the federal court in the judicial district where your address is located (or, if you are
-          outside the United States, any judicial district in which {SITE.legalName} may be found) and
+          outside the United States, any judicial district in which {LEGAL.legalName} may be found) and
           to accept service of process from the person who sent the original notice. We will review it
           and restore material where the law requires.
         </p>
@@ -143,7 +144,7 @@ export default function CopyrightPage() {
 
         <h2>Contact</h2>
         <p>
-          {SITE.legalName}. Mailing address: {SITE.mailingAddress}.{" "}
+          {LEGAL.legalName}. Mailing address: {LEGAL.mailingAddress}.{" "}
           <Link href="/contact">Contact</Link>. See also the <Link href="/terms">terms of use</Link> and
           the <Link href="/disclaimer">disclaimer</Link>.
         </p>

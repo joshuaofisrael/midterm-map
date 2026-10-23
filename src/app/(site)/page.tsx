@@ -73,8 +73,8 @@ export default function HomePage() {
             </h1>
             <p className="mt-4 max-w-xl text-lg leading-8 text-white/85">
               {SITE.name} is a neutral voter information utility for the 2026 U.S.
-              midterms. It is operated by {SITE.legalName}. It is not a government
-              site, not a campaign, and does not accept political contributions.
+              midterms. It is not a government site, not a campaign, and does not
+              accept political contributions.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               {CTAS.map((cta) => (

@@ -24,6 +24,7 @@ function redirectHtml(targetPath: string, label: string, canonicalUrl: string): 
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escapeHtml(label)}</title>
 <link rel="canonical" href="${escapeHtml(canonicalUrl)}">
 <meta name="robots" content="noindex, follow">

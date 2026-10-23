@@ -1,6 +1,6 @@
 # Map the Midterms
 
-> Map the Midterms (mapthemidterms.com) is an independent, nonpartisan information site about the November 3, 2026 U.S. midterm elections. It has race guides for selected U.S. Senate, governor and U.S. House contests, published polls with links to their sources, sample-ballot outlines for 17 states, key 2026 voting deadline dates (each cited to an official election office, state law or Vote.gov), and a results tracker. It is not an official election website and does not endorse candidates. Confirm ballots, deadlines and voting rules with your state or county election office or Vote.gov. Operated by Joshua Israel Ventures LLC.
+> Map the Midterms (mapthemidterms.com) is an independent, nonpartisan information site about the November 3, 2026 U.S. midterm elections. It has race guides for selected U.S. Senate, governor and U.S. House contests, published polls with links to their sources, sample-ballot outlines for 17 states, key 2026 voting deadline dates (each cited to an official election office, state law or Vote.gov), and a results tracker. It is not an official election website and does not endorse candidates. Confirm ballots, deadlines and voting rules with your state or county election office or Vote.gov.
 
 ## Main pages
 
@@ -59,10 +59,8 @@ Awaiting unofficial returns until November 3, 2026. Candidate names are from eac
 
 ## About and policies
 
-- [About](https://mapthemidterms.com/about/): Who runs the site (Joshua Israel Ventures LLC) and what it covers.
+- [About](https://mapthemidterms.com/about/): What this site covers and what it is not.
 - [Disclaimer](https://mapthemidterms.com/disclaimer/): Accuracy and official sources, no professional relationship, not affiliated with any government or election office, nonpartisan, and tip and affiliate (FTC) disclosures.
-- [Privacy](https://mapthemidterms.com/privacy/): What data the site collects; Joshua Israel Ventures LLC is the data controller.
-- [Terms](https://mapthemidterms.com/terms/): Terms of use; users contract with Joshua Israel Ventures LLC.
-- [Contact](https://mapthemidterms.com/contact/): Email contact for Joshua Israel Ventures LLC.
-
-Map the Midterms is a brand of Joshua Israel Ventures LLC, not a separate company or DBA.
+- [Privacy](https://mapthemidterms.com/privacy/): What data the site collects. The data controller is named on that page.
+- [Terms](https://mapthemidterms.com/terms/): Terms of use. The operator is named on that page.
+- [Contact](https://mapthemidterms.com/contact/): Contact form. The operator is named on that page.

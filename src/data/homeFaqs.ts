@@ -16,7 +16,7 @@ export const HOME_FAQS: HomeFaq[] = [
   },
   {
     question: "Is Map the Midterms an official election website?",
-    answer: `No. ${SITE.name} is an informational site operated by ${SITE.legalName}, a ${SITE.entityType}. It is not a government, secretary of state, or county election website. Ballots, registration, and voting rules are published by the state or county election office and by Vote.gov.`,
+    answer: `No. ${SITE.name} is an informational site. It is not a government, secretary of state, or county election website. Ballots, registration, and voting rules are published by the state or county election office and by Vote.gov.`,
   },
   {
     question: "How does the ballot ZIP lookup work?",

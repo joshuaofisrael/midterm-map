@@ -6,11 +6,12 @@ import { PageHeader } from "@/components/PageHeader";
 import { ReportedPageNote } from "@/components/ReportedPageNote";
 import { ContactForm } from "@/components/ContactForm";
 import { SITE } from "@/data/site";
+import { LEGAL } from "@/data/legalEntity";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
   title: "Contact",
-  description: `Contact ${SITE.name}, a brand of ${SITE.legalName}, with the contact form. Error reports are welcome, and corrections are made promptly.`,
+  description: `Contact ${SITE.name}, a brand of ${LEGAL.legalName}, with the contact form. Error reports are welcome, and corrections are made promptly.`,
   path: "/contact",
 });
 
@@ -27,11 +28,11 @@ export default function ContactPage() {
       <PageHeader
         eyebrow="Contact"
         title={`Contact ${SITE.name}`}
-        lede={`${SITE.name} is owned and operated by ${SITE.legalName}.`}
+        lede={`${SITE.name} is owned and operated by ${LEGAL.legalName}.`}
       />
       <div className="prose-legal">
         <p>
-          Use the form below. It reaches {SITE.legalName}, the company that owns and
+          Use the form below. It reaches {LEGAL.legalName}, the company that owns and
           operates {SITE.name}. We reply by email.
         </p>
         <h2>Contact form</h2>

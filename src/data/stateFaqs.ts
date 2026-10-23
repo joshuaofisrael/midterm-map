@@ -69,7 +69,7 @@ export function stateHubFaqs(state: StateProfile, races: RaceGuide[]): StateFaq[
     },
     {
       question: `Is Map the Midterms an official ${state.name} election website?`,
-      answer: `No. ${SITE.name} is an informational site operated by ${SITE.legalName}, a ${SITE.entityType}. It is not a government, secretary of state, or county election website. The official election office for ${state.name} is ${office}. Registration, sample ballots, and voting rules are published there and on Vote.gov: ${state.name} registration information.`,
+      answer: `No. ${SITE.name} is an informational site. It is not a government, secretary of state, or county election website. The official election office for ${state.name} is ${office}. Registration, sample ballots, and voting rules are published there and on Vote.gov: ${state.name} registration information.`,
     },
   ];
 }

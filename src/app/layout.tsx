@@ -25,9 +25,9 @@ export const metadata: Metadata = {
   },
   description: SITE.description,
   applicationName: SITE.name,
-  authors: [{ name: SITE.legalName }],
-  creator: SITE.legalName,
-  publisher: SITE.legalName,
+  authors: [{ name: SITE.name }],
+  creator: SITE.name,
+  publisher: SITE.name,
   keywords: [
     "Map the Midterms",
     "2026 midterms",

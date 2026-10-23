@@ -147,11 +147,17 @@ export function citySeoHeading(
   kind: TitleKind,
 ): string {
   const display = placeDisplayName(place.name);
-  if (kind === "class") {
-    const suffix = placeClassSuffix(place.name);
+  const suffix = placeClassSuffix(place.name);
+  const county = place.counties[0];
+  // A consolidated city-county whose display name is the county name would
+  // otherwise use the same title as that county's place index.
+  const sameNameAsCounty = Boolean(
+    suffix && county && display.toLowerCase() === county.toLowerCase(),
+  );
+  if (kind === "class" || sameNameAsCounty) {
     const label = suffix ? `${display} ${suffix}` : place.name;
-    return place.counties[0]
-      ? `2026 Midterm Election Info for ${label}, ${place.counties[0]}, ${stateCode}`
+    return county
+      ? `2026 Midterm Election Info for ${label}, ${county}, ${stateCode}`
       : `2026 Midterm Election Info for ${label}, ${stateCode}`;
   }
   if (kind === "county" && place.counties[0]) {

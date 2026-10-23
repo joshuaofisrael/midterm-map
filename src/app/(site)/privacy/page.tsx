@@ -4,6 +4,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { AFFILIATE, affiliateEnabled, EMAIL_SIGNUP, emailSignupEnabled, tipJarEnabled } from "@/data/monetization";
 import { SITE } from "@/data/site";
+import { LEGAL } from "@/data/legalEntity";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 import { FORMSUBMIT_PRIVACY, FORMSUBMIT_URL } from "@/data/contact";
 import { CookieChoicesButton, GA_MEASUREMENT_ID } from "@/components/GoogleAnalytics";
@@ -51,13 +52,13 @@ export default function PrivacyPage() {
       <PageHeader
         eyebrow={`Last updated ${SITE.privacyLastUpdated}`}
         title="Privacy Policy"
-        lede={`How ${SITE.legalName} handles information on ${SITE.name}.`}
+        lede={`How ${LEGAL.legalName} handles information on ${SITE.name}.`}
       />
       <div className="prose-legal">
         <p>
           This policy explains what information is involved when you visit {SITE.name} (
-          {SITE.url}). The site is operated by {SITE.legalName}, a {SITE.entityType} based in{" "}
-          {SITE.location} (“we,” “us”). {SITE.name} is a static informational website. It has no
+          {SITE.url}). The site is operated by {LEGAL.legalName}, a {LEGAL.entityType} based in{" "}
+          {LEGAL.location} (“we,” “us”). {SITE.name} is a static informational website. It has no
           user accounts and no comments. It does not currently load an advertising script (see “Advertising” below).
           {signup ? " It offers an optional election-night email alert." : " It has no email sign-up form."}
           {affiliates ? " Some pages contain disclosed affiliate links." : " It has no affiliate links."}
@@ -68,7 +69,7 @@ export default function PrivacyPage() {
 
         <h2>Who is responsible for your information</h2>
         <p>
-          {SITE.brandNote} {SITE.legalName} is the data controller for personal information
+          {LEGAL.brandNote} {LEGAL.legalName} is the data controller for personal information
           collected through {SITE.name}, meaning it decides how and why that information is used.
           Privacy questions and requests go through the{" "}
           <Link href="/contact">contact form</Link>.
@@ -260,7 +261,7 @@ export default function PrivacyPage() {
             <p>
               The “Keep this map free” button opens a payment page hosted by Stripe, Inc.
               (buy.stripe.com), not by this website. Tips are voluntary and are paid to{" "}
-              {SITE.legalName}. They are not political contributions and are not tax-deductible.
+              {LEGAL.legalName}. They are not political contributions and are not tax-deductible.
               Stripe collects the payment details needed to process the tip and prevent fraud, such
               as your card or other payment method, email address, and billing country and postal
               code. We do not see or store your full card number. Stripe gives us the tip amount and
@@ -329,7 +330,7 @@ export default function PrivacyPage() {
         {affiliates ? (
           <p>
             Some pages contain affiliate links to {affiliateRetailers.join(" and ")}. If you buy
-            through one of these links, {SITE.legalName} may earn a commission at no extra cost to
+            through one of these links, {LEGAL.legalName} may earn a commission at no extra cost to
             you. Each page with affiliate links shows a disclosure directly above them. When you
             click an affiliate link, the retailer may use cookies or similar technology on its own
             website to credit the purchase to us, under its own privacy policy. We receive commission
@@ -358,7 +359,7 @@ export default function PrivacyPage() {
           <a href={FORMSUBMIT_URL} rel="noopener noreferrer">FormSubmit</a> (formsubmit.co), a
           third-party form service. When you submit it, your name, email address, message, and the
           page you were reporting (if any) are sent to FormSubmit, which emails them to{" "}
-          {SITE.legalName} so we can read and reply. FormSubmit may show a spam check
+          {LEGAL.legalName} so we can read and reply. FormSubmit may show a spam check
           (captcha) and processes submissions under its own{" "}
           <a href={FORMSUBMIT_PRIVACY} rel="noopener noreferrer">privacy policy</a>. We use what you
           send only to reply, handle a correction or privacy request, or keep an ordinary business
@@ -397,7 +398,7 @@ export default function PrivacyPage() {
         <h2>Visitors in the European Economic Area and the United Kingdom</h2>
         <p>
           The site is published in the United States for a U.S. audience. If the EU or UK General
-          Data Protection Regulation applies to you, {SITE.legalName} is the controller for any
+          Data Protection Regulation applies to you, {LEGAL.legalName} is the controller for any
           personal information we process. Our legal basis is our legitimate interest in operating,
           securing, and improving a free public information website and in answering messages you
           choose to send. For Google Analytics, the legal basis is your consent, which you give by
@@ -454,7 +455,7 @@ export default function PrivacyPage() {
 
         <h2>Contact</h2>
         <p>
-          {SITE.legalName}, {SITE.location}. Mailing address: {SITE.mailingAddress}.{" "}
+          {LEGAL.legalName}, {LEGAL.location}. Mailing address: {LEGAL.mailingAddress}.{" "}
           <Link href="/contact">Contact</Link>. See also the{" "}
           <Link href="/disclaimer">disclaimer</Link>, <Link href="/terms">terms of use</Link>, and{" "}
           <Link href="/advertising">advertising disclosure</Link>.

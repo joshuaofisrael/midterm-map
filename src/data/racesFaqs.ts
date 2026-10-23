@@ -42,7 +42,7 @@ export function racesHubFaqs(): RacesFaq[] {
   const ratings =
     outlets.length === 0
       ? `No named-outlet rating is stored on these guides. Party labels still only identify a ticket. They are not a ${SITE.name} endorsement.`
-      : `No. Party labels identify which ticket a candidate is reported on. They are not a recommendation. A rating appears on a guide only when a named outlet has published a placement we can link. Outlets cited in this set are ${joinList(outlets)}. Each placement is a quotation of that outlet, with the date stored on the guide. It is not a ${SITE.name} endorsement and not a forecast. ${SITE.name} is operated by ${SITE.legalName}. It is not a campaign.`;
+      : `No. Party labels identify which ticket a candidate is reported on. They are not a recommendation. A rating appears on a guide only when a named outlet has published a placement we can link. Outlets cited in this set are ${joinList(outlets)}. Each placement is a quotation of that outlet, with the date stored on the guide. It is not a ${SITE.name} endorsement and not a forecast. ${SITE.name} is an informational site. It is not a campaign.`;
 
   return [
     {
@@ -69,7 +69,7 @@ export function racesHubFaqs(): RacesFaq[] {
     },
     {
       question: "Is Map the Midterms an official election website?",
-      answer: `No. ${SITE.name} is an informational site operated by ${SITE.legalName}, a ${SITE.entityType}. It is not a government, secretary of state, or county election website. Registration, sample ballots, districts, and voting rules are published by the state or county election office and by Vote.gov.`,
+      answer: `No. ${SITE.name} is an informational site. It is not a government, secretary of state, or county election website. Registration, sample ballots, districts, and voting rules are published by the state or county election office and by Vote.gov.`,
     },
   ];
 }

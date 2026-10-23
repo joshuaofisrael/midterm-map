@@ -4,6 +4,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { affiliateEnabled, tipJarEnabled } from "@/data/monetization";
 import { SITE } from "@/data/site";
+import { LEGAL } from "@/data/legalEntity";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -32,7 +33,7 @@ export default function AdvertisingPage() {
       />
       <div className="prose-legal">
         <p>
-          {SITE.name} is operated by {SITE.legalName}, a {SITE.entityType}. This page is the
+          {SITE.name} is operated by {LEGAL.legalName}, a {LEGAL.entityType}. This page is the
           advertising and affiliate disclosure. It is part of the <Link href="/terms">terms of use</Link>.
           The <Link href="/privacy/#advertising">privacy policy</Link> describes cookies and advertising
           technology.
@@ -48,7 +49,7 @@ export default function AdvertisingPage() {
         <p>
           If we turn on Google AdSense or another advertising network, we will update this page, the
           privacy policy, and <a href="/ads.txt">ads.txt</a> first. Ads would come from that network.
-          We do not write a candidate’s ad, and an ad is not an endorsement by {SITE.legalName} of the
+          We do not write a candidate’s ad, and an ad is not an endorsement by {LEGAL.legalName} of the
           advertiser, a candidate, a party, or a ballot measure.
         </p>
 
@@ -58,7 +59,7 @@ export default function AdvertisingPage() {
           candidates, campaigns, parties, or political action committees. {SITE.name} does not solicit
           campaign contributions.
           {tips
-            ? ` Optional tips, if you choose to leave one, are paid to ${SITE.legalName} through Stripe. A tip is not a political contribution and not an advertisement.`
+            ? ` Optional tips, if you choose to leave one, are paid to ${LEGAL.legalName} through Stripe. A tip is not a political contribution and not an advertisement.`
             : ""}
         </p>
 
@@ -82,7 +83,7 @@ export default function AdvertisingPage() {
         <h2>Affiliate links</h2>
         {affiliates ? (
           <p>
-            Some pages contain affiliate links. If you buy through one, {SITE.legalName} may earn a
+            Some pages contain affiliate links. If you buy through one, {LEGAL.legalName} may earn a
             commission at no extra cost to you. Each page with affiliate links shows that disclosure
             directly above the links. Commissions do not affect which races, candidates, polls, or
             facts we cover. The purchase is with the retailer, under its terms, not with us.
@@ -91,7 +92,7 @@ export default function AdvertisingPage() {
           <p>
             The site does not currently contain affiliate links. If we add them, for example links to
             books, each of those pages will show a disclosure directly above the links, and{" "}
-            {SITE.legalName} may earn a commission if you buy through them, at no extra cost to you.
+            {LEGAL.legalName} may earn a commission if you buy through them, at no extra cost to you.
             Commissions will not affect which races, candidates, polls, or facts we cover. The purchase
             would be with the retailer, under its terms, not with us.
           </p>
@@ -99,7 +100,7 @@ export default function AdvertisingPage() {
 
         <h2>Contact</h2>
         <p>
-          {SITE.legalName}. Mailing address: {SITE.mailingAddress}.{" "}
+          {LEGAL.legalName}. Mailing address: {LEGAL.mailingAddress}.{" "}
           <Link href="/contact">Contact</Link>.
         </p>
       </div>
