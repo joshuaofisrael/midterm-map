@@ -24,7 +24,7 @@ export function SiteHeader() {
             {SITE.name}
           </span>
           <span className="block truncate text-xs text-ink-muted">
-            2026 midterms information · not official
+            2026 midterms information · not official · not affiliated
           </span>
         </Link>
         <nav className="hidden items-center gap-5 text-sm lg:flex" aria-label="Primary">

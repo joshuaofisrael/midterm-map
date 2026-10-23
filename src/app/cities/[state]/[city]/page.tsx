@@ -9,7 +9,7 @@ import { CityVoting } from "@/components/CityVoting";
 import { JsonLd } from "@/components/JsonLd";
 import { JurisdictionLinks } from "@/components/JurisdictionLinks";
 import { electionOfficeFor } from "@/data/electionOffices";
-import { reportErrorHref } from "@/data/site";
+import { reportErrorHref, SITE } from "@/data/site";
 import { placeBySlug, placeState, placeStates, placeTitleKind, placesForState } from "@/data/places/load";
 import { contentUpdatedLabel } from "@/lib/contentDate";
 import { citySeoDescription, citySeoTitle, cityStructuredData } from "@/lib/citySeo";
@@ -110,7 +110,8 @@ export default async function CityPage({
       </nav>
       <h1>{title}</h1>
       <p className="note">
-        Last updated: {contentUpdatedLabel(path)}. Unofficial information. Confirm with your{" "}
+        Last updated: {contentUpdatedLabel(path)}. Unofficial information. {SITE.notAffiliated} Confirm
+        with your{" "}
         <a href={office.office.href} rel="noopener noreferrer">
           official election office ({office.office.label})
         </a>

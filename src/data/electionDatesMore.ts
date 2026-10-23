@@ -25,7 +25,7 @@ function src(label: string, href: string): DeadlineSource {
 }
 
 const AR_CAL: DeadlineSource = src(
-  "Arkansas Secretary of State — 2026 election calendar",
+  "Arkansas Secretary of State — 2026 election dates (Rev. July 2026)",
   "https://www.sos.arkansas.gov/uploads/elections/2026_Election_Calendar_Rev._7-2026_.pdf",
 );
 const CT_GUIDE: DeadlineSource = src(
@@ -141,16 +141,25 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
   ),
   {
     code: "AR",
-    checkedOn: CHECKED,
+    checkedOn: "October 23, 2026",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Arkansas Secretary of State’s 2026 election calendar lists October 4, 2026 as the deadline to apply to register to vote in the general election and says a Sunday deadline moves to the next business day. It lists October 27, 2026 as the deadline for the county clerk to receive an absentee ballot application. That calendar does not print an absentee-ballot return deadline.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Arkansas Secretary of State’s 2026 election calendar (Rev. July 2026) prints October 4, 2026 as a Sunday registration deadline and states the actual deadline is Monday, October 5, 2026. It prints early voting from October 19 through 5:00 p.m. on November 2, an October 27 absentee-application deadline, and a 7:30 p.m. Election Day deadline for the county clerk to receive absentee ballots by mail, excluding military and overseas ballots. Dates can change. The Arkansas Secretary of State publishes the calendar.",
     facts: [
       {
         id: "ar-register",
         category: "registration",
         label: "Voter registration",
-        text: "The calendar prints “October 4, 2026 – Sunday” as “30 DAYS PRIOR TO THE GENERAL ELECTION” and “Deadline to apply to register to vote in the General Election.” A note on the calendar says a Sunday deadline moves to the next business day. This page does not convert October 4 into another calendar date.",
-        endsOn: "2026-10-04",
+        text: "The calendar prints “October 4, 2026 – Sunday” as “30 DAYS PRIOR TO THE GENERAL ELECTION” and “Deadline to apply to register to vote in the General Election.” The same calendar states the actual deadline is Monday, October 5, 2026, because a deadline that falls on a Saturday, Sunday, or legal holiday advances to the next business day under Ark. Code § 7-1-108.",
+        endsOn: "2026-10-05",
+        sources: [AR_CAL],
+      },
+      {
+        id: "ar-early",
+        category: "early",
+        label: "Early voting",
+        text: "The calendar prints October 19, 2026 as the day early voting begins for the general election, between 8:00 a.m. and 6:00 p.m. Monday through Friday and 10:00 a.m. to 4:00 p.m. on Saturday. It prints that early voting ends at 5:00 p.m. on the Monday prior to the election. November 2, 2026 is printed as the last day to participate in early voting, and it says early voting closes at 5:00 p.m. that Monday.",
+        startsOn: "2026-10-19",
+        endsOn: "2026-11-02",
         sources: [AR_CAL],
       },
       {
@@ -161,19 +170,16 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
         endsOn: "2026-10-27",
         sources: [AR_CAL],
       },
-    ],
-    omitted: [
       {
-        category: "early",
-        label: "Early voting",
-        text: "The 2026 election calendar read on October 19, 2026 does not print an early-voting period for the general election. The Arkansas Secretary of State publishes the calendar.",
-      },
-      {
+        id: "ar-return",
         category: "mail-return",
         label: "Absentee return",
-        text: "The 2026 election calendar read on October 19, 2026 does not print an absentee-ballot return deadline. The Arkansas Secretary of State publishes the calendar.",
+        text: "The calendar prints 7:30 p.m. on November 3, 2026 as the deadline for the county clerk to receive absentee ballots by mail, excluding military and overseas ballots, or by physical delivery of the authorized agent of a voter who is medically unable to vote at the regular polling site. It prints a separate receipt rule for qualified electors outside the United States and active-duty uniformed personnel.",
+        endsOn: "2026-11-03",
+        sources: [AR_CAL],
       },
     ],
+    omitted: [],
   },
   {
     code: "CT",

@@ -30,6 +30,8 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       ...AI_AND_SEARCH_CRAWLERS.map((userAgent) => ({ userAgent, allow: "/" })),
+      // AdSense review crawler. The wildcard below already allows it; name it so the file says so.
+      { userAgent: "Mediapartners-Google", allow: "/" },
       { userAgent: "*", allow: "/" },
     ],
     sitemap: `${SITE.url}/sitemap.xml`,

@@ -1,8 +1,16 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHeader } from "@/components/PageHeader";
 import { SiteJsonLd } from "@/components/SiteJsonLd";
 import { SiteShell } from "@/components/SiteShell";
 import { SITE } from "@/data/site";
+
+export const metadata: Metadata = {
+  title: "Page not found",
+  description:
+    "That address is not a page on Map the Midterms. This site is an unofficial voter information utility and is not affiliated with any government or election authority.",
+  robots: { index: false, follow: true },
+};
 
 export default function NotFound() {
   return (

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { reportErrorHref } from "@/data/site";
+import { reportErrorHref, SITE } from "@/data/site";
 
 /** Used when a page is not about one state. */
 const MULTI_STATE_OFFICE = "https://vote.gov";
@@ -26,8 +26,8 @@ export function ContentTrust({
   return (
     <div className="rounded-lg border border-line bg-paper-card px-4 py-3 text-sm leading-6 text-ink">
       <p>
-        <span className="font-semibold">Last updated: {updated}.</span> Unofficial information.
-        Confirm with your{" "}
+        <span className="font-semibold">Last updated: {updated}.</span> Unofficial information.{" "}
+        {SITE.notAffiliated} Confirm with your{" "}
         <a
           className="font-medium text-navy underline underline-offset-2"
           href={href}

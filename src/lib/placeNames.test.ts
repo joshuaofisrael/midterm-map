@@ -26,6 +26,14 @@ const farmington = {
 test("Farmington Hills display name and heading", () => {
   assert.equal(placeDisplayName(farmington.name), "Farmington Hills");
   assert.equal(citySeoHeading("MI", farmington, "unique"), "2026 Midterm Election Info for Farmington Hills, MI");
+  assert.equal(
+    citySeoHeading(
+      "GA",
+      { name: "Webster County unified government", counties: ["Webster County"] },
+      "unique",
+    ),
+    "2026 Midterm Election Info for Webster County unified government, Webster County, GA",
+  );
 });
 
 test("Farmington Hills search keys and redirect slugs", () => {

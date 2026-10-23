@@ -11,7 +11,7 @@ export function CityChrome({ children }: { children: ReactNode }) {
       <a className="skip-link" href="#main">
         Skip to content
       </a>
-      <p className="city-banner">Not an official election website.</p>
+      <p className="city-banner">{SITE.officialNotUs}</p>
       <header className="city-hdr">
         <Link href="/">{SITE.name}</Link>
         <nav className="city-nav" aria-label="Primary">
@@ -26,6 +26,7 @@ export function CityChrome({ children }: { children: ReactNode }) {
         {children}
       </main>
       <footer className="city-ftr">
+        <p>{SITE.officialNotUs}</p>
         <p>{`© 2026 ${SITE.legalName}. All rights reserved. ${SITE.name} is owned and operated by ${SITE.legalName}.`}</p>
         <p>
           <Link href="/sources">Sources</Link>

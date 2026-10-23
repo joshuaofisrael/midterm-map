@@ -23,10 +23,12 @@ export const SITE = {
   electionDayLabel: "Tuesday, November 3, 2026",
   electionDayIso: "2026-11-03",
   electionDayLong: "Election Day is Tuesday, November 3, 2026",
+  /** Shared with the banner, footer, and trust line. Matches the disclaimer. */
+  notAffiliated: "Not affiliated with any government or election authority.",
   officialNotUs:
-    "Not an official election website. Verify ballot and voting details with your state or county election office.",
+    "Not an official election website. Not affiliated with any government or election authority. Verify ballot and voting details with your state or county election office.",
   verifyShort:
-    "This is not an official government, secretary of state, or county election site. Confirm your sample ballot, districts, and voting rules with your state or county election office.",
+    "This is not an official government, secretary of state, or county election site, and it is not affiliated with any government or election authority. Confirm your sample ballot, districts, and voting rules with your state or county election office.",
   lastUpdated: "October 6, 2026",
   /** Last substantive change to /disclaimer. Change only when that page changes. */
   legalLastUpdated: "October 23, 2026",
