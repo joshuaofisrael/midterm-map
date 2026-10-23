@@ -3,7 +3,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { tipJarEnabled } from "@/data/monetization";
-import { contactMailto, SITE } from "@/data/site";
+import { SITE } from "@/data/site";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -40,9 +40,7 @@ export default function AboutPage() {
           <Link href="/contact">contact page</Link> to reach us.
         </p>
         <p>
-          Contact:{" "}
-          <a href={contactMailto()}>{SITE.email}</a> with the subject line{" "}
-          {SITE.emailSubject}.
+          <Link href="/contact">Contact</Link> {SITE.legalName} through the contact form.
         </p>
 
         <h2>What this site is</h2>
@@ -94,8 +92,8 @@ export default function AboutPage() {
         <p>
           Read the <Link href="/disclaimer">disclaimer</Link>,{" "}
           <Link href="/privacy">privacy policy</Link>, and{" "}
-          <Link href="/terms">terms of use</Link>. Corrections: email{" "}
-          <a href={contactMailto()}>{SITE.email}</a>.
+          <Link href="/terms">terms of use</Link>. Corrections: use the{" "}
+          <Link href="/contact">contact form</Link>.
         </p>
       </div>
     </div>

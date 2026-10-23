@@ -3,7 +3,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { AFFILIATE, affiliateEnabled, EMAIL_SIGNUP, emailSignupEnabled, tipJarEnabled } from "@/data/monetization";
-import { contactMailto, SITE } from "@/data/site";
+import { SITE } from "@/data/site";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 import { FORMSUBMIT_PRIVACY, FORMSUBMIT_URL } from "@/data/contact";
 import { CookieChoicesButton, GA_MEASUREMENT_ID } from "@/components/GoogleAnalytics";
@@ -70,8 +70,8 @@ export default function PrivacyPage() {
         <p>
           {SITE.brandNote} {SITE.legalName} is the data controller for personal information
           collected through {SITE.name}, meaning it decides how and why that information is used.
-          Privacy questions and requests go to{" "}
-          <a href={contactMailto()}>{SITE.email}</a>.
+          Privacy questions and requests go through the{" "}
+          <Link href="/contact">contact form</Link>.
         </p>
 
         <h2>What the site collects, at a glance</h2>
@@ -347,10 +347,10 @@ export default function PrivacyPage() {
 
         <h2>Email you send us</h2>
         <p>
-          If you email <a href={contactMailto()}>{SITE.email}</a>, we receive your email address and
+          If you use the <Link href="/contact">contact form</Link>, we receive your email address and
           whatever you include so we can reply, process a correction or privacy request, or keep an
           ordinary business record. Please do not send Social Security numbers, voter ID numbers,
-          photos of ballots, or other sensitive identity documents. Email is delivered through our
+          photos of ballots, or other sensitive identity documents. Messages are delivered through our
           email provider (Google), which processes messages under its own terms.
         </p>
 
@@ -360,13 +360,13 @@ export default function PrivacyPage() {
           <a href={FORMSUBMIT_URL} rel="noopener noreferrer">FormSubmit</a> (formsubmit.co), a
           third-party form service. When you submit it, your name, email address, message, and the
           page you were reporting (if any) are sent to FormSubmit, which emails them to{" "}
-          {SITE.email} so {SITE.legalName} can read and reply. FormSubmit may show a spam check
+          {SITE.legalName} so we can read and reply. FormSubmit may show a spam check
           (captcha) and processes submissions under its own{" "}
           <a href={FORMSUBMIT_PRIVACY} rel="noopener noreferrer">privacy policy</a>. We use what you
           send only to reply, handle a correction or privacy request, or keep an ordinary business
-          record, and we never add you to a mailing list. The form is optional; you can email us
-          directly instead. The form posts to a FormSubmit alias, so the inbox address is not part
-          of the form’s web address, and we use the message only to respond to you.
+          record, and we never add you to a mailing list. The form posts to a FormSubmit alias, so
+          the inbox address is not part of the form’s web address, and we use the message only to
+          respond to you.
         </p>
 
         <h2>How we use information</h2>
@@ -427,7 +427,7 @@ export default function PrivacyPage() {
 
         <h2>How to make a privacy request</h2>
         <p>
-          Email <a href={contactMailto()}>{SITE.email}</a> with “Privacy request” in the subject line
+          Use the <Link href="/contact">contact form</Link> with “Privacy request” in the message
           and tell us what you are asking for. Because we do not have accounts, we usually hold no
           personal information about visitors other than emails and contact form messages they have sent us
           {tips ? ", records of tips" : ""}
@@ -454,7 +454,7 @@ export default function PrivacyPage() {
         <h2>Contact</h2>
         <p>
           {SITE.legalName}, {SITE.location}. Mailing address: {SITE.mailingAddress}.{" "}
-          <a href={contactMailto()}>{SITE.email}</a>. See also the{" "}
+          <Link href="/contact">Contact</Link>. See also the{" "}
           <Link href="/disclaimer">disclaimer</Link> and <Link href="/terms">terms of use</Link>.
         </p>
       </div>

@@ -1,5 +1,5 @@
 import { JsonLd } from "@/components/JsonLd";
-import { SITE } from "@/data/site";
+import { absoluteUrl, SITE } from "@/data/site";
 
 const ORG_ID = `${SITE.url}/#organization`;
 
@@ -9,8 +9,12 @@ const organizationJsonLd = {
   "@id": ORG_ID,
   name: SITE.legalName,
   legalName: SITE.legalName,
-  email: SITE.email,
   url: SITE.url,
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "customer support",
+    url: absoluteUrl("/contact"),
+  },
   address: {
     "@type": "PostalAddress",
     addressLocality: "Miami Beach",
@@ -43,7 +47,6 @@ const websiteJsonLd = {
     "@id": ORG_ID,
     name: SITE.legalName,
     legalName: SITE.legalName,
-    email: SITE.email,
   },
   copyrightHolder: { "@id": ORG_ID },
   copyrightYear: 2026,
