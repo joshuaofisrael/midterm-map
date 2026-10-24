@@ -42,7 +42,7 @@
       "accessed": "October 18, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 Alabama elections, 2026",
+      "name": "Ballotpedia — Alabama elections, 2026",
       "url": "https://ballotpedia.org/Alabama_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -55,11 +55,13 @@
       "candidates": [
         {
           "name": "DOUG JONES",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Doug_Jones_(Alabama)"
         },
         {
           "name": "TOMMY TUBERVILLE",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Tommy_Tuberville"
         }
       ],
       "source": {
@@ -75,11 +77,13 @@
       "candidates": [
         {
           "name": "PHILLIP ENSLER",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Phillip_Ensler"
         },
         {
           "name": "JOHN WAHL",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/John_Wahl"
         }
       ],
       "source": {
@@ -95,11 +99,13 @@
       "candidates": [
         {
           "name": "EVERETT WESS",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Everett_Wess"
         },
         {
           "name": "BARRY MOORE",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Barry_Moore_(Alabama_U.S._representative)"
         }
       ],
       "source": {
@@ -115,11 +121,13 @@
       "candidates": [
         {
           "name": "CLYDE JONES",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Clyde_W._Jones_Jr._(Alabama_congressional_candidate)"
         },
         {
           "name": "JERRY CARL",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jerry_Carl"
         }
       ],
       "source": {
@@ -135,11 +143,13 @@
       "candidates": [
         {
           "name": "SHOMARI C. FIGURES",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Shomari_Figures"
         },
         {
           "name": "RHETT MARQUES",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Rhett_Marques"
         }
       ],
       "source": {
@@ -155,11 +165,13 @@
       "candidates": [
         {
           "name": "LEE McINNIS",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Lee_McInnis"
         },
         {
           "name": "MIKE ROGERS",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Rogers_(Alabama)"
         }
       ],
       "source": {
@@ -175,11 +187,13 @@
       "candidates": [
         {
           "name": "AMANDA N. PUSCZEK",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Amanda_Pusczek"
         },
         {
           "name": "ROBERT B. ADERHOLT",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Robert_Aderholt"
         }
       ],
       "source": {
@@ -195,11 +209,13 @@
       "candidates": [
         {
           "name": "ANDREW SNEED",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Andrew_Sneed"
         },
         {
           "name": "DALE W. STRONG",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Dale_Strong"
         }
       ],
       "source": {
@@ -215,11 +231,13 @@
       "candidates": [
         {
           "name": "MAURICE MERCER",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Maurice_Mercer"
         },
         {
           "name": "GARY PALMER",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Gary_Palmer"
         }
       ],
       "source": {
@@ -235,11 +253,13 @@
       "candidates": [
         {
           "name": "TERRI SEWELL",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Terri_Sewell"
         },
         {
           "name": "AMMIE AKIN",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ammie_Akin"
         }
       ],
       "source": {
@@ -259,7 +279,8 @@
         },
         {
           "name": "KATHERINE ROBERTSON",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Katherine_Robertson"
         }
       ],
       "source": {
@@ -311,11 +332,13 @@
       "candidates": [
         {
           "name": "WAYNE ROGERS",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Wayne_Rogers_(Alabama)"
         },
         {
           "name": "CAROLEENE DOBSON",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Caroleene_Dobson"
         }
       ],
       "source": {
@@ -371,11 +394,13 @@
       "candidates": [
         {
           "name": "RON SPARKS",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Ron_Sparks"
         },
         {
           "name": "COREY HILL",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Corey_Hill"
         }
       ],
       "source": {
@@ -391,11 +416,13 @@
       "candidates": [
         {
           "name": "JAMES O. GORDON",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/James_Gordon_(Alabama)"
         },
         {
           "name": "MATT GENTRY",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Matt_Gentry"
         }
       ],
       "source": {
@@ -411,7 +438,8 @@
       "candidates": [
         {
           "name": "SHEILA D. McNEIL",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Sheila_McNeil"
         },
         {
           "name": "JIM ZIG ZEIGLER",
@@ -435,7 +463,8 @@
         },
         {
           "name": "Riggs Walker",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Riggs_Walker"
         }
       ],
       "source": {

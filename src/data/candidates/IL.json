@@ -7,7 +7,7 @@
       "accessed": "October 17, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 Illinois elections, 2026",
+      "name": "Ballotpedia — Illinois elections, 2026",
       "url": "https://ballotpedia.org/Illinois_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -20,15 +20,18 @@
       "candidates": [
         {
           "name": "Juliana Stratton",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Juliana_Stratton"
         },
         {
           "name": "Don Tracy",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Don_Tracy"
         },
         {
           "name": "Whitfield Harrington Jr",
-          "party": "AMERICAN CENTER PARTY"
+          "party": "AMERICAN CENTER PARTY",
+          "ballotpedia": "https://ballotpedia.org/Whitfield_Harrington_Jr._(Illinois)"
         }
       ],
       "source": {
@@ -68,11 +71,13 @@
       "candidates": [
         {
           "name": "Jonathan L. Jackson",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Jonathan_Jackson_(Illinois)"
         },
         {
           "name": "Christian Maxwell",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Christian_Maxwell"
         }
       ],
       "source": {
@@ -88,7 +93,8 @@
       "candidates": [
         {
           "name": "Donna Miller",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Donna_Miller_(Illinois)"
         },
         {
           "name": "Michael Scott Noack",
@@ -108,11 +114,13 @@
       "candidates": [
         {
           "name": "Delia Ramirez",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Delia_Ramirez"
         },
         {
           "name": "Angel Oakley",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Angel_Oakley"
         }
       ],
       "source": {
@@ -128,19 +136,23 @@
       "candidates": [
         {
           "name": "Patty Garcia",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Patty_Garcia"
         },
         {
           "name": "Lupe Castillo",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Lupe_Castillo"
         },
         {
           "name": "Ed Hershey",
-          "party": "WORKING CLASS PARTY"
+          "party": "WORKING CLASS PARTY",
+          "ballotpedia": "https://ballotpedia.org/Ed_Hershey"
         },
         {
           "name": "Chris Getty",
-          "party": "INDEPENDENT"
+          "party": "INDEPENDENT",
+          "ballotpedia": "https://ballotpedia.org/Chris_Getty"
         }
       ],
       "source": {
@@ -156,7 +168,8 @@
       "candidates": [
         {
           "name": "Mike Quigley",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Mike_Quigley"
         },
         {
           "name": "Tommy Hanson",
@@ -176,11 +189,13 @@
       "candidates": [
         {
           "name": "Sean Casten",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Sean_Casten"
         },
         {
           "name": "Niki Conforti",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Niki_Conforti"
         }
       ],
       "source": {
@@ -196,11 +211,13 @@
       "candidates": [
         {
           "name": "La Shawn K. Ford",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/La_Shawn_K._Ford"
         },
         {
           "name": "Chad Koppie",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Chad_Koppie"
         }
       ],
       "source": {
@@ -216,11 +233,13 @@
       "candidates": [
         {
           "name": "Melissa L. Bean",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Melissa_Bean"
         },
         {
           "name": "Jennifer Davis",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Jennifer_Davis_(Illinois)"
         }
       ],
       "source": {
@@ -236,11 +255,13 @@
       "candidates": [
         {
           "name": "Daniel Biss",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Daniel_K._Biss"
         },
         {
           "name": "John Elleson",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/John_Elleson"
         }
       ],
       "source": {
@@ -256,11 +277,13 @@
       "candidates": [
         {
           "name": "Brad Schneider",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Brad_Schneider"
         },
         {
           "name": "Carl Lambrecht",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Carl_Lambrecht"
         }
       ],
       "source": {
@@ -276,7 +299,8 @@
       "candidates": [
         {
           "name": "Bill Foster",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Bill_Foster_(Illinois)"
         },
         {
           "name": "Jeff Walter",
@@ -296,11 +320,13 @@
       "candidates": [
         {
           "name": "Julie Fortier",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Julie_Fortier"
         },
         {
           "name": "Mike Bost",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Mike_Bost"
         }
       ],
       "source": {
@@ -316,11 +342,13 @@
       "candidates": [
         {
           "name": "Nikki Budzinski",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Nikki_Budzinski"
         },
         {
           "name": "Jeff Wilson",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Jeff_Wilson_(Illinois's_13th_Congressional_District)"
         }
       ],
       "source": {
@@ -336,7 +364,8 @@
       "candidates": [
         {
           "name": "Lauren Underwood",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Lauren_Underwood"
         },
         {
           "name": "James T. \"Jim\" Marter",
@@ -356,11 +385,13 @@
       "candidates": [
         {
           "name": "Jennifer Todd",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Jennifer_Todd"
         },
         {
           "name": "Mary E. Miller",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Mary_Miller_(Illinois)"
         }
       ],
       "source": {
@@ -376,11 +407,13 @@
       "candidates": [
         {
           "name": "Paul Nolley",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Paul_Nolley"
         },
         {
           "name": "Darin LaHood",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Darin_LaHood"
         }
       ],
       "source": {
@@ -396,11 +429,13 @@
       "candidates": [
         {
           "name": "Eric Sorensen",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Eric_Sorensen"
         },
         {
           "name": "Dillan S. Vancil",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Dillan_Vancil_(Illinois)"
         }
       ],
       "source": {
@@ -416,11 +451,13 @@
       "candidates": [
         {
           "name": "Kwame Raoul",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kwame_Raoul"
         },
         {
           "name": "Bob Fioretti",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bob_Fioretti"
         }
       ],
       "source": {
@@ -436,11 +473,13 @@
       "candidates": [
         {
           "name": "Alexi Giannoulias",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Alexi_Giannoulias"
         },
         {
           "name": "Diane Harris",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Diane_Harris"
         }
       ],
       "source": {
@@ -456,15 +495,18 @@
       "candidates": [
         {
           "name": "Bryan Drew",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bryan_Drew"
         },
         {
           "name": "Margaret Croke",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Margaret_Croke"
         },
         {
           "name": "Anna Schiefelbein",
-          "party": "Independent, Green"
+          "party": "Independent, Green",
+          "ballotpedia": "https://ballotpedia.org/Anna_Schiefelbein"
         }
       ],
       "source": {
@@ -480,15 +522,18 @@
       "candidates": [
         {
           "name": "Mike Frerichs",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mike_Frerichs"
         },
         {
           "name": "Max Solomon",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Max_Solomon"
         },
         {
           "name": "Timothea Papas",
-          "party": "Independent, Green"
+          "party": "Independent, Green",
+          "ballotpedia": "https://ballotpedia.org/Timothea_Papas"
         }
       ],
       "source": {

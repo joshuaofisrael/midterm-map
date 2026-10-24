@@ -7,7 +7,7 @@
       "accessed": "October 17, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 Minnesota elections, 2026",
+      "name": "Ballotpedia — Minnesota elections, 2026",
       "url": "https://ballotpedia.org/Minnesota_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -20,19 +20,23 @@
       "candidates": [
         {
           "name": "Marisa Simonetti",
-          "party": "IND"
+          "party": "IND",
+          "ballotpedia": "https://ballotpedia.org/Marisa_Simonetti"
         },
         {
           "name": "Rebecca Whiting",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Rebecca_Whiting"
         },
         {
           "name": "Peggy Flanagan",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Peggy_Flanagan"
         },
         {
           "name": "Michele Tafoya",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Michele_Tafoya"
         }
       ],
       "source": {
@@ -48,11 +52,13 @@
       "candidates": [
         {
           "name": "Jake Johnson",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Jake_Johnson_(Minnesota)"
         },
         {
           "name": "Brad Finstad",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Brad_Finstad"
         }
       ],
       "source": {
@@ -68,11 +74,13 @@
       "candidates": [
         {
           "name": "Matt Little",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Matt_Little"
         },
         {
           "name": "Eric Pratt",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Eric_Pratt_(Minnesota)"
         }
       ],
       "source": {
@@ -88,11 +96,13 @@
       "candidates": [
         {
           "name": "Tyler Bass",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Tyler_Bass"
         },
         {
           "name": "Kelly Morrison",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Kelly_Morrison"
         }
       ],
       "source": {
@@ -108,11 +118,13 @@
       "candidates": [
         {
           "name": "Betty McCollum",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Betty_McCollum"
         },
         {
           "name": "Paul Wikstrom",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Paul_Wikstrom"
         }
       ],
       "source": {
@@ -128,15 +140,18 @@
       "candidates": [
         {
           "name": "Ilhan Omar",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Ilhan_Omar"
         },
         {
           "name": "John Nagel",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/John_Nagel"
         },
         {
           "name": "DeVelle L. Jackson",
-          "party": "IND"
+          "party": "IND",
+          "ballotpedia": "https://ballotpedia.org/DeVelle_Jackson"
         }
       ],
       "source": {
@@ -152,11 +167,13 @@
       "candidates": [
         {
           "name": "Tom Emmer",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Tom_Emmer"
         },
         {
           "name": "Doug Chapin",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Doug_Chapin"
         }
       ],
       "source": {
@@ -172,11 +189,13 @@
       "candidates": [
         {
           "name": "Michelle Fischbach",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Michelle_Fischbach"
         },
         {
           "name": "Erik Osberg",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Erik_Osberg"
         }
       ],
       "source": {
@@ -192,11 +211,13 @@
       "candidates": [
         {
           "name": "Pete Stauber",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Pete_Stauber"
         },
         {
           "name": "Trina Swanson",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Trina_Swanson"
         }
       ],
       "source": {
@@ -236,11 +257,13 @@
       "candidates": [
         {
           "name": "Keith Ellison",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Keith_Ellison_(Minnesota)"
         },
         {
           "name": "Ron Schutz",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ron_Schutz"
         }
       ],
       "source": {
@@ -256,19 +279,23 @@
       "candidates": [
         {
           "name": "Steve Simon",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Steve_Simon_(Minnesota)"
         },
         {
           "name": "Tad Jude",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Tad_Jude"
         },
         {
           "name": "Seth Kuhl-Stennes",
-          "party": "Green"
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Seth_Kuhl-Stennes"
         },
         {
           "name": "Chip Tangen",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Chip_Tangen"
         }
       ],
       "source": {
@@ -284,15 +311,18 @@
       "candidates": [
         {
           "name": "Scott Jensen",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Scott_Jensen_(Minnesota)"
         },
         {
           "name": "Zack Filipovich",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Zack_Filipovich"
         },
         {
           "name": "Jay Reeves",
-          "party": "Forward Independence Party"
+          "party": "Forward Independence Party",
+          "ballotpedia": "https://ballotpedia.org/Jay_Reeves_(Minnesota)"
         }
       ],
       "source": {
@@ -308,7 +338,8 @@
       "candidates": [
         {
           "name": "Sarah E. Hennesy",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Sarah_E._Hennesy"
         }
       ],
       "source": {
@@ -324,7 +355,8 @@
       "candidates": [
         {
           "name": "Paul Thissen",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Paul_Thissen"
         }
       ],
       "source": {

@@ -8,7 +8,7 @@
       "published": "August 27, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 California elections, 2026",
+      "name": "Ballotpedia — California elections, 2026",
       "url": "https://ballotpedia.org/California_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -21,11 +21,13 @@
       "candidates": [
         {
           "name": "Xavier Becerra",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Xavier_Becerra"
         },
         {
           "name": "Steve Hilton",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Steve_Hilton"
         }
       ],
       "source": {
@@ -41,11 +43,13 @@
       "candidates": [
         {
           "name": "Mike McGuire",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mike_McGuire"
         },
         {
           "name": "James Gallagher",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/James_Gallagher_(California)"
         }
       ],
       "source": {
@@ -61,11 +65,13 @@
       "candidates": [
         {
           "name": "Jared Huffman",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jared_Huffman"
         },
         {
           "name": "Robin Littau",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Robin_Littau"
         }
       ],
       "source": {
@@ -81,11 +87,13 @@
       "candidates": [
         {
           "name": "Ami Bera",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ami_Bera"
         },
         {
           "name": "Robb Tucker",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Robb_Tucker"
         }
       ],
       "source": {
@@ -101,11 +109,13 @@
       "candidates": [
         {
           "name": "Eric Jones",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Eric_Jones_(California)"
         },
         {
           "name": "Mike Thompson",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mike_Thompson_(California)"
         }
       ],
       "source": {
@@ -121,11 +131,13 @@
       "candidates": [
         {
           "name": "Michael Masuda",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Michael_Masuda"
         },
         {
           "name": "Tom McClintock",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Tom_McClintock"
         }
       ],
       "source": {
@@ -141,11 +153,13 @@
       "candidates": [
         {
           "name": "Richard Pan",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Richard_Pan"
         },
         {
           "name": "Kevin Kiley",
-          "party": "No Party Preference"
+          "party": "No Party Preference",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Kiley"
         }
       ],
       "source": {
@@ -161,11 +175,13 @@
       "candidates": [
         {
           "name": "Doris Matsui",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Doris_Matsui"
         },
         {
           "name": "Mai Vang",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mai_Vang_(California)"
         }
       ],
       "source": {
@@ -181,11 +197,13 @@
       "candidates": [
         {
           "name": "John Garamendi",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/John_Garamendi"
         },
         {
           "name": "Rudy Recile",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Rudy_Recile"
         }
       ],
       "source": {
@@ -201,11 +219,13 @@
       "candidates": [
         {
           "name": "Josh Harder",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Josh_Harder"
         },
         {
           "name": "John McBride",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/John_McBride_(California)"
         }
       ],
       "source": {
@@ -221,11 +241,13 @@
       "candidates": [
         {
           "name": "Mark DeSaulnier",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mark_DeSaulnier"
         },
         {
           "name": "Jeff Frese",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jeff_Frese"
         }
       ],
       "source": {
@@ -241,11 +263,13 @@
       "candidates": [
         {
           "name": "Connie Chan",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Connie_Chan"
         },
         {
           "name": "Scott Wiener",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Scott_Wiener"
         }
       ],
       "source": {
@@ -261,11 +285,13 @@
       "candidates": [
         {
           "name": "Jamie Joyce",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jamie_Joyce"
         },
         {
           "name": "Lateefah Simon",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Lateefah_Simon"
         }
       ],
       "source": {
@@ -281,11 +307,13 @@
       "candidates": [
         {
           "name": "Adam Gray",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Adam_Gray"
         },
         {
           "name": "Kevin Lincoln",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Lincoln_II"
         }
       ],
       "source": {
@@ -301,11 +329,13 @@
       "candidates": [
         {
           "name": "Melissa Hernandez",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Melissa_Hernandez"
         },
         {
           "name": "Aisha Wahab",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Aisha_Wahab"
         }
       ],
       "source": {
@@ -321,11 +351,13 @@
       "candidates": [
         {
           "name": "Kevin Mullin",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Mullin_(California)"
         },
         {
           "name": "Charles Hoelter",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Charles_Hoelter"
         }
       ],
       "source": {
@@ -341,10 +373,11 @@
       "candidates": [
         {
           "name": "Sam Liccardo",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sam_Liccardo"
         },
         {
-          "name": "Peter Sundin Soul\u00e9",
+          "name": "Peter Sundin Soulé",
           "party": "Republican"
         }
       ],
@@ -361,11 +394,13 @@
       "candidates": [
         {
           "name": "Ro Khanna",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ro_Khanna"
         },
         {
           "name": "Ritesh Tandon",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ritesh_Tandon"
         }
       ],
       "source": {
@@ -381,11 +416,13 @@
       "candidates": [
         {
           "name": "Zoe Lofgren",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Zoe_Lofgren"
         },
         {
           "name": "Shane Lewis",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Shane_Lewis"
         }
       ],
       "source": {
@@ -401,7 +438,8 @@
       "candidates": [
         {
           "name": "Jimmy Panetta",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jimmy_Panetta"
         },
         {
           "name": "Peter Coe Verbica",
@@ -421,11 +459,13 @@
       "candidates": [
         {
           "name": "Sandra Van Scotter",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sandra_Van_Scotter"
         },
         {
           "name": "Vince Fong",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Vince_Fong"
         }
       ],
       "source": {
@@ -441,11 +481,13 @@
       "candidates": [
         {
           "name": "Jim Costa",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jim_Costa"
         },
         {
           "name": "Kyle Kirkland",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kyle_Kirkland"
         }
       ],
       "source": {
@@ -461,11 +503,13 @@
       "candidates": [
         {
           "name": "Randy Villegas",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Randy_Villegas_(California)"
         },
         {
           "name": "David G. Valadao",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/David_Valadao"
         }
       ],
       "source": {
@@ -481,11 +525,13 @@
       "candidates": [
         {
           "name": "Tessa Lynn Hodge",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Tessa_Lynn_Hodge"
         },
         {
           "name": "Jay Obernolte",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jay_Obernolte"
         }
       ],
       "source": {
@@ -501,11 +547,13 @@
       "candidates": [
         {
           "name": "Salud Carbajal",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Salud_Carbajal"
         },
         {
           "name": "Bob Smith",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bob_Smith_(California's_24th_Congressional_District)"
         }
       ],
       "source": {
@@ -521,11 +569,13 @@
       "candidates": [
         {
           "name": "Raul Ruiz",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Raul_Ruiz"
         },
         {
           "name": "Joe Males",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Joe_Males_(California)"
         }
       ],
       "source": {
@@ -541,7 +591,8 @@
       "candidates": [
         {
           "name": "Jacqui Irwin",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jacqui_Irwin"
         },
         {
           "name": "Sam Gallucci",
@@ -561,11 +612,13 @@
       "candidates": [
         {
           "name": "George Whitesides",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/George_Whitesides"
         },
         {
           "name": "Jason Gibbs",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jason_Gibbs_(California)"
         }
       ],
       "source": {
@@ -581,11 +634,13 @@
       "candidates": [
         {
           "name": "Judy Chu",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Judy_Chu"
         },
         {
           "name": "April A. Verlato",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/April_Verlato"
         }
       ],
       "source": {
@@ -600,12 +655,14 @@
       "district": "29",
       "candidates": [
         {
-          "name": "Ang\u00e9lica Mar\u00eda Due\u00f1as",
-          "party": "Democratic"
+          "name": "Angélica María Dueñas",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ang%C3%A9lica_Mar%C3%ADa_Due%C3%B1as"
         },
         {
           "name": "Luz Maria Rivas",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Luz_Maria_Rivas"
         }
       ],
       "source": {
@@ -621,7 +678,8 @@
       "candidates": [
         {
           "name": "Laura Friedman",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Laura_Friedman"
         },
         {
           "name": "Scott Alan Meyers",
@@ -641,11 +699,13 @@
       "candidates": [
         {
           "name": "Gil Cisneros",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Gil_Cisneros"
         },
         {
           "name": "Eric Ching",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Eric_Ching"
         }
       ],
       "source": {
@@ -661,11 +721,13 @@
       "candidates": [
         {
           "name": "Brad Sherman",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Brad_Sherman_(California)"
         },
         {
           "name": "Larry Thompson",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Larry_Thompson_(California)"
         }
       ],
       "source": {
@@ -681,11 +743,13 @@
       "candidates": [
         {
           "name": "Pete Aguilar",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Pete_Aguilar"
         },
         {
           "name": "Stephanie M. Vargas",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Stephanie_Vargas"
         }
       ],
       "source": {
@@ -701,11 +765,13 @@
       "candidates": [
         {
           "name": "Jimmy Gomez",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jimmy_Gomez"
         },
         {
           "name": "Angela Gonzales-Torres",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Angela_Gonzales-Torres"
         }
       ],
       "source": {
@@ -721,11 +787,13 @@
       "candidates": [
         {
           "name": "Norma J. Torres",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Norma_Torres"
         },
         {
           "name": "Mike Cargile",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Cargile"
         }
       ],
       "source": {
@@ -741,11 +809,13 @@
       "candidates": [
         {
           "name": "Ted W. Lieu",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ted_Lieu"
         },
         {
           "name": "Houston Brignano",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Houston_Brignano"
         }
       ],
       "source": {
@@ -761,11 +831,13 @@
       "candidates": [
         {
           "name": "Sydney Kamlager-Dove",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sydney_Kamlager-Dove"
         },
         {
           "name": "Samantha Mota",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Samantha_Mota"
         }
       ],
       "source": {
@@ -781,7 +853,8 @@
       "candidates": [
         {
           "name": "Hilda Solis",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Hilda_Solis"
         },
         {
           "name": "Pedro Antonio Casas",
@@ -801,11 +874,13 @@
       "candidates": [
         {
           "name": "Mark Takano",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mark_Takano"
         },
         {
           "name": "Steve Manos",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Steve_Manos"
         }
       ],
       "source": {
@@ -821,11 +896,13 @@
       "candidates": [
         {
           "name": "Ken Calvert",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ken_Calvert"
         },
         {
           "name": "Young Kim",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Young_Kim_(California)"
         }
       ],
       "source": {
@@ -840,12 +917,14 @@
       "district": "41",
       "candidates": [
         {
-          "name": "Linda S\u00e1nchez",
-          "party": "Democratic"
+          "name": "Linda Sánchez",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Linda_S%C3%A1nchez"
         },
         {
           "name": "Mitch Clemmons",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mitch_Clemmons"
         }
       ],
       "source": {
@@ -861,11 +940,13 @@
       "candidates": [
         {
           "name": "Robert Garcia",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Robert_Garcia_(California)"
         },
         {
           "name": "Brian Burley",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Brian_Burley"
         }
       ],
       "source": {
@@ -881,11 +962,13 @@
       "candidates": [
         {
           "name": "Maxine Waters",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Maxine_Waters"
         },
         {
           "name": "Cristian Morales",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Cristian_Morales"
         }
       ],
       "source": {
@@ -905,7 +988,8 @@
         },
         {
           "name": "Genevieve Angel",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Genevieve_Angel"
         }
       ],
       "source": {
@@ -921,11 +1005,13 @@
       "candidates": [
         {
           "name": "Derek Tran",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Derek_Tran"
         },
         {
           "name": "Chuong V. Vo",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Chuong_Vo"
         }
       ],
       "source": {
@@ -941,11 +1027,13 @@
       "candidates": [
         {
           "name": "Lou Correa",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Lou_Correa"
         },
         {
           "name": "David Pan",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/David_Pan"
         }
       ],
       "source": {
@@ -961,11 +1049,13 @@
       "candidates": [
         {
           "name": "Dave Min",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Dave_Min"
         },
         {
           "name": "Jenny Rae Le Roux",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jenny_Rae_Le_Roux"
         }
       ],
       "source": {
@@ -981,11 +1071,13 @@
       "candidates": [
         {
           "name": "Marni von Wilpert",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Marni_von_Wilpert"
         },
         {
           "name": "Jim Desmond",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jim_Desmond"
         }
       ],
       "source": {
@@ -1001,11 +1093,13 @@
       "candidates": [
         {
           "name": "Mike Levin",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mike_Levin"
         },
         {
           "name": "Armen Kurdian",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Armen_Kurdian"
         }
       ],
       "source": {
@@ -1021,11 +1115,13 @@
       "candidates": [
         {
           "name": "Scott Peters",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Scott_Peters"
         },
         {
           "name": "Steve Cohen",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Steve_Cohen_(California)"
         }
       ],
       "source": {
@@ -1041,11 +1137,13 @@
       "candidates": [
         {
           "name": "Sara Jacobs",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sara_Jacobs"
         },
         {
           "name": "Ricardo Cabrera",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ricardo_Cabrera"
         }
       ],
       "source": {
@@ -1061,11 +1159,13 @@
       "candidates": [
         {
           "name": "Juan Vargas",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Juan_Vargas"
         },
         {
           "name": "Jeff Belle",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jeff_Belle"
         }
       ],
       "source": {
@@ -1081,11 +1181,13 @@
       "candidates": [
         {
           "name": "Gloria J. Romero",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Gloria_J._Romero"
         },
         {
           "name": "Fiona Ma",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Fiona_Ma"
         }
       ],
       "source": {
@@ -1101,11 +1203,13 @@
       "candidates": [
         {
           "name": "Rob Bonta",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Rob_Bonta"
         },
         {
           "name": "Michael Gates",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Michael_Gates_(California)"
         }
       ],
       "source": {
@@ -1121,11 +1225,13 @@
       "candidates": [
         {
           "name": "Shirley Weber",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Shirley_Weber"
         },
         {
           "name": "Donald P. Wagner",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Donald_P._Wagner"
         }
       ],
       "source": {
@@ -1141,11 +1247,13 @@
       "candidates": [
         {
           "name": "Ben Allen",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ben_Allen"
         },
         {
           "name": "Jane Kim",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jane_Kim"
         }
       ],
       "source": {
@@ -1161,11 +1269,13 @@
       "candidates": [
         {
           "name": "Malia Cohen",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Malia_Cohen"
         },
         {
           "name": "Herb Morgan",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Herb_Morgan"
         }
       ],
       "source": {
@@ -1181,11 +1291,13 @@
       "candidates": [
         {
           "name": "Richard Barrera",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Richard_Barrera"
         },
         {
           "name": "Sonja Shaw",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Sonja_Shaw_(California)"
         }
       ],
       "source": {
@@ -1201,11 +1313,13 @@
       "candidates": [
         {
           "name": "Jennifer Hawks",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jennifer_Hawks"
         },
         {
           "name": "Eleni Kounalakis",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Eleni_Kounalakis"
         }
       ],
       "source": {
@@ -1221,11 +1335,13 @@
       "candidates": [
         {
           "name": "Kelli M. Evans",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Kelli_M._Evans"
         },
         {
           "name": "Joshua Groban",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Joshua_Groban"
         }
       ],
       "source": {

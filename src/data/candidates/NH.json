@@ -15,15 +15,18 @@
       "candidates": [
         {
           "name": "Cinde Warmington",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Cinde_Warmington"
         },
         {
           "name": "Kelly Ayotte",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Kelly_Ayotte"
         },
         {
           "name": "Stephen Villee",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Stephen_Villee"
         }
       ],
       "source": {
@@ -39,15 +42,18 @@
       "candidates": [
         {
           "name": "Chris Pappas",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Chris_Pappas"
         },
         {
           "name": "John E. Sununu",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/John_E._Sununu"
         },
         {
           "name": "Edmond Laplante",
-          "party": "CON"
+          "party": "CON",
+          "ballotpedia": "https://ballotpedia.org/Edmond_Laplante"
         }
       ],
       "source": {
@@ -63,11 +69,13 @@
       "candidates": [
         {
           "name": "Stefany Shaheen",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Stefany_Shaheen"
         },
         {
           "name": "Anthony DiLorenzo",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Anthony_DiLorenzo"
         }
       ],
       "source": {
@@ -83,7 +91,8 @@
       "candidates": [
         {
           "name": "Maggie Goodlander",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Maggie_Goodlander"
         },
         {
           "name": "Lily Tang Williams",
@@ -91,7 +100,8 @@
         },
         {
           "name": "Robbie Mahrou",
-          "party": "IND"
+          "party": "IND",
+          "ballotpedia": "https://ballotpedia.org/Robbie_Mahrou"
         }
       ],
       "source": {

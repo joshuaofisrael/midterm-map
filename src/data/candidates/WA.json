@@ -8,7 +8,7 @@
       "published": "August 21, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 Washington elections, 2026",
+      "name": "Ballotpedia — Washington elections, 2026",
       "url": "https://ballotpedia.org/Washington_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -21,11 +21,13 @@
       "candidates": [
         {
           "name": "Suzan DelBene",
-          "party": "Prefers Democratic Party"
+          "party": "Prefers Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Suzan_DelBene"
         },
         {
           "name": "Mary Silva",
-          "party": "Prefers Republican Party"
+          "party": "Prefers Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Mary_Silva_(Washington)"
         }
       ],
       "source": {
@@ -41,11 +43,13 @@
       "candidates": [
         {
           "name": "Rick Larsen",
-          "party": "Prefers Democratic Party"
+          "party": "Prefers Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Rick_Larsen_(Washington)"
         },
         {
           "name": "Edwin H. Feller",
-          "party": "Prefers Republican Party"
+          "party": "Prefers Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Edwin_Feller"
         }
       ],
       "source": {
@@ -61,11 +65,13 @@
       "candidates": [
         {
           "name": "John Braun",
-          "party": "Prefers Republican Party"
+          "party": "Prefers Republican Party",
+          "ballotpedia": "https://ballotpedia.org/John_Braun"
         },
         {
           "name": "Marie Gluesenkamp Perez",
-          "party": "Prefers Democratic Party"
+          "party": "Prefers Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Marie_Gluesenkamp_Perez"
         }
       ],
       "source": {
@@ -81,11 +87,13 @@
       "candidates": [
         {
           "name": "Amanda McKinney",
-          "party": "Prefers Republican Party"
+          "party": "Prefers Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Amanda_McKinney_(Washington)"
         },
         {
           "name": "John Duresky",
-          "party": "Prefers Democratic Party"
+          "party": "Prefers Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/John_Duresky"
         }
       ],
       "source": {
@@ -101,11 +109,13 @@
       "candidates": [
         {
           "name": "Michael Baumgartner",
-          "party": "Prefers Republican Party"
+          "party": "Prefers Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Michael_Baumgartner_(Washington)"
         },
         {
           "name": "Carmela Conroy",
-          "party": "Prefers Democratic Party"
+          "party": "Prefers Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Carmela_Conroy"
         }
       ],
       "source": {
@@ -121,11 +131,13 @@
       "candidates": [
         {
           "name": "Emily Randall",
-          "party": "Prefers Democratic Party"
+          "party": "Prefers Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Emily_Randall"
         },
         {
           "name": "Teresa Fox",
-          "party": "Prefers Republican Party"
+          "party": "Prefers Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Teresa_Fox"
         }
       ],
       "source": {
@@ -141,11 +153,13 @@
       "candidates": [
         {
           "name": "Pramila Jayapal",
-          "party": "Prefers Democratic Party"
+          "party": "Prefers Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Pramila_Jayapal"
         },
         {
           "name": "Nirav Sheth",
-          "party": "Prefers Republican Party"
+          "party": "Prefers Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Nirav_Sheth"
         }
       ],
       "source": {
@@ -161,11 +175,13 @@
       "candidates": [
         {
           "name": "Kim Schrier",
-          "party": "Prefers Democratic Party"
+          "party": "Prefers Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Kim_Schrier"
         },
         {
           "name": "Spencer Meline",
-          "party": "Prefers Republican Party"
+          "party": "Prefers Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Spencer_Meline"
         }
       ],
       "source": {
@@ -181,7 +197,8 @@
       "candidates": [
         {
           "name": "Adam Smith",
-          "party": "Prefers Democratic Party"
+          "party": "Prefers Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Adam_Smith_(Washington)"
         },
         {
           "name": "Doug Basler",
@@ -201,11 +218,13 @@
       "candidates": [
         {
           "name": "Marilyn Strickland",
-          "party": "Prefers Democratic Party"
+          "party": "Prefers Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Marilyn_Strickland"
         },
         {
           "name": "Chris D. Chung",
-          "party": "Prefers Republican Party"
+          "party": "Prefers Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Chris_Chung"
         }
       ],
       "source": {
@@ -221,11 +240,13 @@
       "candidates": [
         {
           "name": "Colleen Melody",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Colleen_Melody"
         },
         {
           "name": "Scott Edwards",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Scott_Edwards_(Washington)"
         }
       ],
       "source": {
@@ -241,11 +262,13 @@
       "candidates": [
         {
           "name": "Jaime Hawk",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Jaime_Hawk"
         },
         {
           "name": "David Stevens",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/David_Stevens_(Washington)"
         }
       ],
       "source": {
@@ -261,11 +284,13 @@
       "candidates": [
         {
           "name": "Ian Birk",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Ian_Birk"
         },
         {
           "name": "Sean O'Donnell",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Sean_O'Donnell"
         }
       ],
       "source": {
@@ -281,11 +306,13 @@
       "candidates": [
         {
           "name": "Theo Angelis",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Theo_Angelis"
         },
         {
           "name": "Dave Larson",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Dave_Larson_(Federal_Way_Municipal_Court,_Washington)"
         }
       ],
       "source": {
@@ -301,11 +328,13 @@
       "candidates": [
         {
           "name": "Debra Stephens",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Debra_Stephens"
         },
         {
           "name": "Todd Bloom",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Todd_Bloom"
         }
       ],
       "source": {

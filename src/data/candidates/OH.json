@@ -20,31 +20,38 @@
       "candidates": [
         {
           "name": "Jon Husted",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jon_Husted"
         },
         {
           "name": "Sherrod Brown",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sherrod_Brown"
         },
         {
           "name": "Stephen Faris",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Stephen_Faris"
         },
         {
           "name": "Anthony Holliman",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Anthony_Holliman"
         },
         {
           "name": "Gregory Levy",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Gregory_Levy"
         },
         {
           "name": "Timothy Telymonde",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Timothy_Telymonde"
         },
         {
           "name": "Bill Redpath",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Bill_Redpath"
         }
       ],
       "source": {
@@ -60,15 +67,18 @@
       "candidates": [
         {
           "name": "Greg Landsman",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Greg_Landsman"
         },
         {
           "name": "Eric Conroy",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Eric_Conroy"
         },
         {
           "name": "Nathan Weise",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Nathan_Weise"
         }
       ],
       "source": {
@@ -84,11 +94,13 @@
       "candidates": [
         {
           "name": "David Taylor",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/David_Taylor_(Ohio)"
         },
         {
           "name": "Jen Mazzuckelli",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jen_Mazzuckelli"
         }
       ],
       "source": {
@@ -104,11 +116,13 @@
       "candidates": [
         {
           "name": "Joyce Beatty",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Joyce_Beatty"
         },
         {
           "name": "Cleophus Dulaney",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Cleophus_Dulaney"
         }
       ],
       "source": {
@@ -124,15 +138,18 @@
       "candidates": [
         {
           "name": "Jim Jordan",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jim_Jordan_(Ohio)"
         },
         {
           "name": "Joshua Kolasinski",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Joshua_Kolasinski"
         },
         {
           "name": "Tracey Tackett",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Tracey_Tackett"
         }
       ],
       "source": {
@@ -148,15 +165,18 @@
       "candidates": [
         {
           "name": "Bob Latta",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bob_Latta"
         },
         {
           "name": "Brian Shaver",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Brian_Shaver"
         },
         {
           "name": "Michael Veloff",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Michael_Veloff"
         }
       ],
       "source": {
@@ -172,11 +192,13 @@
       "candidates": [
         {
           "name": "Michael Rulli",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Michael_Rulli"
         },
         {
           "name": "Elizabeth Kirtley",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Elizabeth_Kirtley"
         }
       ],
       "source": {
@@ -192,19 +214,23 @@
       "candidates": [
         {
           "name": "Max Miller",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Max_Miller"
         },
         {
           "name": "Brian Poindexter",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Brian_Poindexter"
         },
         {
           "name": "Thahbia Asad",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Thahbia_Asad"
         },
         {
           "name": "Andrey Martinichin",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Andrey_Martinichin"
         }
       ],
       "source": {
@@ -220,11 +246,13 @@
       "candidates": [
         {
           "name": "Warren Davidson",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Warren_Davidson"
         },
         {
           "name": "Vanessa Enoch",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Vanessa_Enoch"
         }
       ],
       "source": {
@@ -240,15 +268,18 @@
       "candidates": [
         {
           "name": "Marcy Kaptur",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Marcy_Kaptur"
         },
         {
           "name": "Derek Merrin",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Derek_Merrin"
         },
         {
           "name": "Kathy McKinstry",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Kathy_McKinstry"
         }
       ],
       "source": {
@@ -264,15 +295,18 @@
       "candidates": [
         {
           "name": "Michael Turner",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Michael_Turner_(Ohio)"
         },
         {
           "name": "Kristina Knickerbocker",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kristina_Knickerbocker"
         },
         {
           "name": "Thomas McMasters",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Thomas_McMasters_(Ohio_U.S._House)"
         }
       ],
       "source": {
@@ -288,11 +322,13 @@
       "candidates": [
         {
           "name": "Shontel Brown",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Shontel_Brown"
         },
         {
           "name": "Mike Kirchner",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Kirchner"
         }
       ],
       "source": {
@@ -308,11 +344,13 @@
       "candidates": [
         {
           "name": "Troy Balderson",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Troy_Balderson"
         },
         {
           "name": "Jerrad Christian",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jerrad_Christian"
         }
       ],
       "source": {
@@ -328,15 +366,18 @@
       "candidates": [
         {
           "name": "Emilia Sykes",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Emilia_Sykes"
         },
         {
           "name": "Carey Coleman",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Carey_Coleman"
         },
         {
           "name": "Sandeep Dixit",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Sandeep_Dixit"
         }
       ],
       "source": {
@@ -352,11 +393,13 @@
       "candidates": [
         {
           "name": "David Joyce",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/David_Joyce"
         },
         {
           "name": "Maria Jukic",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Maria_Jukic"
         }
       ],
       "source": {
@@ -372,23 +415,28 @@
       "candidates": [
         {
           "name": "Mike Carey",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Carey_(Ohio)"
         },
         {
           "name": "Don Leonard",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Don_Leonard"
         },
         {
           "name": "Gary Josephson",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Gary_Josephson"
         },
         {
           "name": "Samuel Ronan",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Samuel_Ronan"
         },
         {
           "name": "Brennan Barrington",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Brennan_Barrington"
         }
       ],
       "source": {
@@ -404,31 +452,38 @@
       "candidates": [
         {
           "name": "Vivek Ramaswamy",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Vivek_Ramaswamy"
         },
         {
           "name": "Amy Acton",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Amy_Acton"
         },
         {
           "name": "Tim Grady",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Tim_Grady"
         },
         {
           "name": "Heather Hill",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Heather_Hill_(Ohio)"
         },
         {
           "name": "Renea Turner",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Renea_Turner"
         },
         {
           "name": "Ron Ula",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Ron_Ula"
         },
         {
           "name": "Don Kissick",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Don_Kissick"
         }
       ],
       "source": {
@@ -444,31 +499,38 @@
       "candidates": [
         {
           "name": "Robert McColley",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Robert_McColley"
         },
         {
           "name": "David Pepper",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/David_Pepper"
         },
         {
           "name": "Michael Lehnerd",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Michael_Lehnerd"
         },
         {
           "name": "Pat Manley",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Pat_Manley"
         },
         {
           "name": "Andrea Neutzling",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Andrea_Neutzling"
         },
         {
           "name": "Jalen Turner",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Jalen_Turner"
         },
         {
           "name": "James Mills",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/James_Mills_(Ohio)"
         }
       ],
       "source": {
@@ -484,11 +546,13 @@
       "candidates": [
         {
           "name": "Keith Faber",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Keith_Faber"
         },
         {
           "name": "John Kulewicz",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/John_Kulewicz"
         }
       ],
       "source": {
@@ -504,15 +568,18 @@
       "candidates": [
         {
           "name": "Robert Sprague",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Robert_Sprague"
         },
         {
           "name": "Allison Russo",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Allison_Russo"
         },
         {
           "name": "Tom Pruss",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Tom_Pruss"
         }
       ],
       "source": {
@@ -528,11 +595,13 @@
       "candidates": [
         {
           "name": "Frank LaRose",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Frank_LaRose"
         },
         {
           "name": "Annette Blackwell",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Annette_Blackwell"
         }
       ],
       "source": {
@@ -548,11 +617,13 @@
       "candidates": [
         {
           "name": "Jay Edwards",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jay_Edwards"
         },
         {
           "name": "Seth Walsh",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Seth_Walsh"
         }
       ],
       "source": {
@@ -568,19 +639,23 @@
       "candidates": [
         {
           "name": "Dan Hawkins",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Dan_Hawkins_(Ohio)"
         },
         {
           "name": "Marilyn Zayas",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Marilyn_Zayas"
         },
         {
           "name": "Jennifer L. Brunner",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jennifer_L._Brunner"
         },
         {
           "name": "Colleen O'Donnell",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Colleen_O'Donnell"
         }
       ],
       "source": {

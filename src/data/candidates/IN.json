@@ -2,12 +2,12 @@
   "status": "published",
   "sources": [
     {
-      "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+      "name": "Indiana Election Division, Candidate List — Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header “2026 GENERAL ELECTION - 11/3/2026”",
       "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
       "accessed": "October 18, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 Indiana elections, 2026",
+      "name": "Ballotpedia — Indiana elections, 2026",
       "url": "https://ballotpedia.org/Indiana_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -20,27 +20,32 @@
       "candidates": [
         {
           "name": "Beau Bayh",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Beau_Bayh"
         },
         {
           "name": "Lauri A. Shillings",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Lauri_Shillings"
         },
         {
           "name": "Greg Ballard",
-          "party": "Lincoln Party"
+          "party": "Lincoln Party",
+          "ballotpedia": "https://ballotpedia.org/Greg_Ballard"
         },
         {
           "name": "Max Engling",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Max_Engling"
         },
         {
           "name": "Andrew Delano",
-          "party": "Write-In (National Socialist American Workers')"
+          "party": "Write-In (National Socialist American Workers')",
+          "ballotpedia": "https://ballotpedia.org/Andrew_Delano"
         }
       ],
       "source": {
-        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "name": "Indiana Election Division, Candidate List — Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header “2026 GENERAL ELECTION - 11/3/2026”",
         "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
         "accessed": "October 18, 2026"
       }
@@ -64,7 +69,7 @@
         }
       ],
       "source": {
-        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "name": "Indiana Election Division, Candidate List — Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header “2026 GENERAL ELECTION - 11/3/2026”",
         "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
         "accessed": "October 18, 2026"
       }
@@ -84,7 +89,7 @@
         }
       ],
       "source": {
-        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "name": "Indiana Election Division, Candidate List — Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header “2026 GENERAL ELECTION - 11/3/2026”",
         "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
         "accessed": "October 18, 2026"
       }
@@ -96,15 +101,17 @@
       "candidates": [
         {
           "name": "Mary Allen",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mary_Allen_(Indiana)"
         },
         {
           "name": "Mark Messmer",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mark_Messmer"
         }
       ],
       "source": {
-        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "name": "Indiana Election Division, Candidate List — Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header “2026 GENERAL ELECTION - 11/3/2026”",
         "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
         "accessed": "October 18, 2026"
       }
@@ -120,11 +127,12 @@
         },
         {
           "name": "Victoria Spartz",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Victoria_Spartz"
         }
       ],
       "source": {
-        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "name": "Indiana Election Division, Candidate List — Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header “2026 GENERAL ELECTION - 11/3/2026”",
         "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
         "accessed": "October 18, 2026"
       }
@@ -136,15 +144,18 @@
       "candidates": [
         {
           "name": "Frank J. Mrvan",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Frank_Mrvan_(Indiana_congressional_member)"
         },
         {
           "name": "Barb Regnitz",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Barb_Regnitz"
         },
         {
           "name": "Alexander R (Alex) Degman",
-          "party": "Write-In (Independent)"
+          "party": "Write-In (Independent)",
+          "ballotpedia": "https://ballotpedia.org/Alexander_Degman"
         },
         {
           "name": "Prescription Dope Deaths Johnson, Jr",
@@ -152,7 +163,7 @@
         }
       ],
       "source": {
-        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "name": "Indiana Election Division, Candidate List — Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header “2026 GENERAL ELECTION - 11/3/2026”",
         "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
         "accessed": "October 18, 2026"
       }
@@ -164,7 +175,8 @@
       "candidates": [
         {
           "name": "Drew Cox",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Drew_Cox"
         },
         {
           "name": "Jim Baird",
@@ -172,11 +184,12 @@
         },
         {
           "name": "David E. Bokash",
-          "party": "Write-In (Independent)"
+          "party": "Write-In (Independent)",
+          "ballotpedia": "https://ballotpedia.org/David_Bokash"
         }
       ],
       "source": {
-        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "name": "Indiana Election Division, Candidate List — Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header “2026 GENERAL ELECTION - 11/3/2026”",
         "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
         "accessed": "October 18, 2026"
       }
@@ -188,15 +201,18 @@
       "candidates": [
         {
           "name": "Brad A. Meyer",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Brad_Meyer"
         },
         {
           "name": "Tonya L. Hudson",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Tonya_Hudson"
         },
         {
           "name": "Erin Houchin",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Erin_Houchin"
         },
         {
           "name": "Floyd Michael Taylor",
@@ -204,7 +220,7 @@
         }
       ],
       "source": {
-        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "name": "Indiana Election Division, Candidate List — Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header “2026 GENERAL ELECTION - 11/3/2026”",
         "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
         "accessed": "October 18, 2026"
       }
@@ -216,7 +232,8 @@
       "candidates": [
         {
           "name": "Jamee Decio",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jamee_Decio"
         },
         {
           "name": "William Eric Henry",
@@ -224,11 +241,12 @@
         },
         {
           "name": "Rudy Yakym",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Rudy_Yakym"
         }
       ],
       "source": {
-        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "name": "Indiana Election Division, Candidate List — Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header “2026 GENERAL ELECTION - 11/3/2026”",
         "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
         "accessed": "October 18, 2026"
       }
@@ -239,20 +257,23 @@
       "district": "7",
       "candidates": [
         {
-          "name": "Andr\u00e9 Carson",
-          "party": "Democratic"
+          "name": "André Carson",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Andr%C3%A9_Carson"
         },
         {
           "name": "James M Sceniak",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/James_Sceniak"
         },
         {
           "name": "Patrick McAuley",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Patrick_McAuley"
         }
       ],
       "source": {
-        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "name": "Indiana Election Division, Candidate List — Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header “2026 GENERAL ELECTION - 11/3/2026”",
         "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
         "accessed": "October 18, 2026"
       }
@@ -264,15 +285,17 @@
       "candidates": [
         {
           "name": "Cynthia (Cinde) Wirth",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Cynthia_Wirth"
         },
         {
           "name": "Jefferson Shreve",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jefferson_Shreve"
         }
       ],
       "source": {
-        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "name": "Indiana Election Division, Candidate List — Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header “2026 GENERAL ELECTION - 11/3/2026”",
         "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
         "accessed": "October 18, 2026"
       }
@@ -284,19 +307,22 @@
       "candidates": [
         {
           "name": "Kelly Thompson",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kelly_Thompson_(Indiana)"
         },
         {
           "name": "Marlin A. Stutzman",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Marlin_Stutzman"
         },
         {
           "name": "Phillip D. Beachy (Phil)",
-          "party": "Write-In (Independent)"
+          "party": "Write-In (Independent)",
+          "ballotpedia": "https://ballotpedia.org/Phillip_Beachy"
         }
       ],
       "source": {
-        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "name": "Indiana Election Division, Candidate List — Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header “2026 GENERAL ELECTION - 11/3/2026”",
         "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
         "accessed": "October 18, 2026"
       }
@@ -308,15 +334,18 @@
       "candidates": [
         {
           "name": "Elise Nieshalla",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Elise_Nieshalla"
         },
         {
           "name": "Jessica Bailey",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jessica_Bailey"
         },
         {
           "name": "John Schick",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/John_Schick"
         }
       ],
       "source": {

@@ -8,7 +8,7 @@
       "published": "September 4, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 Colorado elections, 2026",
+      "name": "Ballotpedia — Colorado elections, 2026",
       "url": "https://ballotpedia.org/Colorado_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -21,15 +21,18 @@
       "candidates": [
         {
           "name": "Mark Baisley",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Mark_Baisley"
         },
         {
           "name": "John Hickenlooper",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/John_Hickenlooper"
         },
         {
           "name": "Bob Chew",
-          "party": "Forward Party"
+          "party": "Forward Party",
+          "ballotpedia": "https://ballotpedia.org/Bob_Chew"
         },
         {
           "name": "Christopher Baum",
@@ -37,11 +40,13 @@
         },
         {
           "name": "Blake Huber",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/Blake_Huber"
         },
         {
           "name": "Adam Withrow",
-          "party": "Unity Party"
+          "party": "Unity Party",
+          "ballotpedia": "https://ballotpedia.org/Adam_Withrow"
         }
       ],
       "source": {
@@ -57,23 +62,28 @@
       "candidates": [
         {
           "name": "Melat Kiros",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Melat_Kiros"
         },
         {
           "name": "Christy Peterson",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Christy_Peterson"
         },
         {
           "name": "Critter Milton",
-          "party": "Unity Party"
+          "party": "Unity Party",
+          "ballotpedia": "https://ballotpedia.org/Critter_Milton"
         },
         {
           "name": "Chad Humphrey",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/Chad_Humphrey_(Colorado)"
         },
         {
           "name": "Shimon Blau",
-          "party": "Unaffiliated"
+          "party": "Unaffiliated",
+          "ballotpedia": "https://ballotpedia.org/Shimon_Blau"
         }
       ],
       "source": {
@@ -89,7 +99,8 @@
       "candidates": [
         {
           "name": "Joe Neguse",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Joe_Neguse"
         },
         {
           "name": "Kelley Anne Dennison",
@@ -97,7 +108,8 @@
         },
         {
           "name": "Gaylon Kent",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/Gaylon_Kent"
         }
       ],
       "source": {
@@ -113,19 +125,23 @@
       "candidates": [
         {
           "name": "Dwayne L. Romero",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Dwayne_Romero"
         },
         {
           "name": "Jeff Hurd",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Jeff_Hurd"
         },
         {
           "name": "Cory Robertson",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/Cory_Robertson"
         },
         {
           "name": "Clifton Brown",
-          "party": "Unaffiliated"
+          "party": "Unaffiliated",
+          "ballotpedia": "https://ballotpedia.org/Clifton_Brown"
         }
       ],
       "source": {
@@ -141,15 +157,18 @@
       "candidates": [
         {
           "name": "Lauren Boebert",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Lauren_Boebert"
         },
         {
           "name": "Eileen Laubacher",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Eileen_Laubacher"
         },
         {
           "name": "Douglas Mangeris",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/Douglas_Mangeris"
         }
       ],
       "source": {
@@ -165,19 +184,23 @@
       "candidates": [
         {
           "name": "Jeff Crank",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Jeff_Crank"
         },
         {
           "name": "Jessica Killin",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Jessica_Killin"
         },
         {
           "name": "Christopher Mitchell",
-          "party": "American Constitution Party"
+          "party": "American Constitution Party",
+          "ballotpedia": "https://ballotpedia.org/Christopher_Mitchell"
         },
         {
           "name": "Mark \"Marky Jr\" Elworth",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/Mark_Elworth_Jr."
         }
       ],
       "source": {
@@ -193,7 +216,8 @@
       "candidates": [
         {
           "name": "Jason Crow",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Jason_Crow"
         },
         {
           "name": "Jason Clark",
@@ -201,11 +225,13 @@
         },
         {
           "name": "Patty McMahon",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/Patty_McMahon"
         },
         {
           "name": "Meredith Ryan",
-          "party": "Unity Party"
+          "party": "Unity Party",
+          "ballotpedia": "https://ballotpedia.org/Meredith_Ryan"
         },
         {
           "name": "Samir Ezzeldin Witta",
@@ -229,11 +255,13 @@
         },
         {
           "name": "Brittany Pettersen",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Brittany_Pettersen"
         },
         {
           "name": "Susan Hall",
-          "party": "Unity Party"
+          "party": "Unity Party",
+          "ballotpedia": "https://ballotpedia.org/Susan_Hall"
         },
         {
           "name": "Lawrence Kyle Clark",
@@ -241,11 +269,13 @@
         },
         {
           "name": "Dan \"Kilo\" Sallis",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/Dan_Sallis"
         },
         {
           "name": "Joe Krzeczkowski",
-          "party": "Unaffiliated"
+          "party": "Unaffiliated",
+          "ballotpedia": "https://ballotpedia.org/Joe_Krzeczkowski"
         }
       ],
       "source": {
@@ -261,11 +291,13 @@
       "candidates": [
         {
           "name": "Gabe Evans",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Gabe_Evans"
         },
         {
           "name": "Manny Rutinel",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Manny_Rutinel"
         },
         {
           "name": "Dave Wood",
@@ -285,31 +317,38 @@
       "candidates": [
         {
           "name": "Victor Marx",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Victor_Marx"
         },
         {
           "name": "Phil Weiser",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Phil_Weiser"
         },
         {
           "name": "Stephen T. Hamilton",
-          "party": "American Constitution Party"
+          "party": "American Constitution Party",
+          "ballotpedia": "https://ballotpedia.org/Stephen_Hamilton"
         },
         {
           "name": "Eric Mulder",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/Eric_Mulder"
         },
         {
           "name": "Jeff Peckman",
-          "party": "Unity Party"
+          "party": "Unity Party",
+          "ballotpedia": "https://ballotpedia.org/Jeff_Peckman"
         },
         {
           "name": "Erik Underwood",
-          "party": "Approval Voting Party"
+          "party": "Approval Voting Party",
+          "ballotpedia": "https://ballotpedia.org/Erik_Underwood"
         },
         {
           "name": "Greg Lopez",
-          "party": "Unaffiliated"
+          "party": "Unaffiliated",
+          "ballotpedia": "https://ballotpedia.org/Greg_Lopez"
         }
       ],
       "source": {
@@ -325,27 +364,33 @@
       "candidates": [
         {
           "name": "George Washington Markert",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/George_Washington_Markert"
         },
         {
           "name": "Frank Atwood",
-          "party": "Approval Voting Party"
+          "party": "Approval Voting Party",
+          "ballotpedia": "https://ballotpedia.org/Frank_Atwood"
         },
         {
           "name": "James Treibert",
-          "party": "Constitution Party"
+          "party": "Constitution Party",
+          "ballotpedia": "https://ballotpedia.org/James_Treibert"
         },
         {
           "name": "Lesley Dahlkemper",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Lesley_Dahlkemper"
         },
         {
           "name": "Wayne Harlos",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Wayne_Harlos"
         },
         {
           "name": "Taralyn Romero",
-          "party": "Unaffiliated"
+          "party": "Unaffiliated",
+          "ballotpedia": "https://ballotpedia.org/Taralyn_Romero"
         },
         {
           "name": "T.J. Cole",
@@ -365,11 +410,13 @@
       "candidates": [
         {
           "name": "Michael Allen",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Michael_Allen_(Colorado)"
         },
         {
           "name": "Jena Griswold",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jena_Griswold"
         }
       ],
       "source": {
@@ -385,23 +432,28 @@
       "candidates": [
         {
           "name": "James Wiley",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/James_Wiley"
         },
         {
           "name": "Amanda Campbell",
-          "party": "American Constitution Party"
+          "party": "American Constitution Party",
+          "ballotpedia": "https://ballotpedia.org/Amanda_Campbell_(Colorado)"
         },
         {
           "name": "Celeste Landry",
-          "party": "Colorado Forward Party"
+          "party": "Colorado Forward Party",
+          "ballotpedia": "https://ballotpedia.org/Celeste_Landry"
         },
         {
           "name": "Amanda Gonzalez",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Amanda_Gonzalez_(Colorado)"
         },
         {
           "name": "Sean Vadney",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Sean_Vadney"
         }
       ],
       "source": {
@@ -417,19 +469,23 @@
       "candidates": [
         {
           "name": "Kevin J. Grantham",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kevin_J._Grantham"
         },
         {
           "name": "Marilee Langner Sturgis",
-          "party": "Approval Voting Party"
+          "party": "Approval Voting Party",
+          "ballotpedia": "https://ballotpedia.org/Marilee_Langner_Sturgis"
         },
         {
           "name": "Jeff Bridges",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jeff_Bridges_(Colorado)"
         },
         {
           "name": "Jodie Barr",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Jodie_Barr"
         }
       ],
       "source": {
@@ -445,7 +501,8 @@
       "candidates": [
         {
           "name": "William W. Hood",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/William_W._Hood"
         }
       ],
       "source": {

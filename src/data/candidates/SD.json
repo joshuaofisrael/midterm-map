@@ -15,11 +15,13 @@
       "candidates": [
         {
           "name": "Brian L Bengs",
-          "party": "IND"
+          "party": "IND",
+          "ballotpedia": "https://ballotpedia.org/Brian_Bengs"
         },
         {
           "name": "Mike Rounds",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Mike_Rounds"
         }
       ],
       "source": {
@@ -35,11 +37,13 @@
       "candidates": [
         {
           "name": "Nicole \"Nikki\" Gronli",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Nicole_Gronli"
         },
         {
           "name": "Marty Jackley",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Marty_J._Jackley"
         }
       ],
       "source": {
@@ -75,15 +79,18 @@
       "candidates": [
         {
           "name": "Terrence Davis",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Terrence_Davis"
         },
         {
           "name": "Tamara J. Lesnar",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Tamara_Lesnar"
         },
         {
           "name": "Heather Baxter",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Heather_Baxter"
         }
       ],
       "source": {
@@ -99,7 +106,8 @@
       "candidates": [
         {
           "name": "Lance Russell",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Lance_Russell"
         }
       ],
       "source": {
@@ -115,11 +123,13 @@
       "candidates": [
         {
           "name": "Tom Cool",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Tom_Cool"
         },
         {
           "name": "Catherine Barranco",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Catherine_Barranco"
         }
       ],
       "source": {
@@ -155,11 +165,13 @@
       "candidates": [
         {
           "name": "Raeann Mettler",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Raeann_Mettler"
         },
         {
           "name": "Brock Greenfield",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Brock_Greenfield"
         }
       ],
       "source": {

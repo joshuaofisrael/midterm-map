@@ -7,7 +7,7 @@
       "accessed": "October 17, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 New Mexico elections, 2026",
+      "name": "Ballotpedia — New Mexico elections, 2026",
       "url": "https://ballotpedia.org/New_Mexico_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -24,7 +24,8 @@
         },
         {
           "name": "LARRY E MARKER",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Larry_Marker"
         }
       ],
       "source": {
@@ -40,7 +41,8 @@
       "candidates": [
         {
           "name": "MELANIE ANN STANSBURY",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Melanie_Ann_Stansbury"
         },
         {
           "name": "NDIDIAMAKA EKWUA CHARLENE OKPAREKE",
@@ -64,7 +66,8 @@
         },
         {
           "name": "GABRIEL VASQUEZ",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Gabriel_Vasquez"
         }
       ],
       "source": {
@@ -80,7 +83,8 @@
       "candidates": [
         {
           "name": "TERESA LEGER FERNANDEZ",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Teresa_Leger_Fernandez"
         },
         {
           "name": "MARTIN ZAMORA",
@@ -120,11 +124,13 @@
       "candidates": [
         {
           "name": "Raul Torrez",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Raul_Torrez"
         },
         {
           "name": "Samuel Kane",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Samuel_Kane"
         }
       ],
       "source": {
@@ -140,11 +146,13 @@
       "candidates": [
         {
           "name": "Ramona Goolsby",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ramona_Goolsby"
         },
         {
           "name": "Amanda Lopez Askin",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Amanda_Lopez_Askin"
         }
       ],
       "source": {
@@ -160,11 +168,13 @@
       "candidates": [
         {
           "name": "Joseph Maestas",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Joseph_Maestas"
         },
         {
           "name": "Joshua Lawrence",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Joshua_Lawrence"
         }
       ],
       "source": {
@@ -180,11 +190,13 @@
       "candidates": [
         {
           "name": "Laura Montoya",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Laura_Montoya"
         },
         {
           "name": "James Ellison",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/James_Ellison_(New_Mexico)"
         }
       ],
       "source": {
@@ -200,11 +212,13 @@
       "candidates": [
         {
           "name": "David K. Thomson",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/David_Thomson"
         },
         {
           "name": "Shannon Bacon",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Shannon_Bacon"
         }
       ],
       "source": {

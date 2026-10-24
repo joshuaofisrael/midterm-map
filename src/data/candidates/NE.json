@@ -8,7 +8,7 @@
       "published": "September 11, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 Nebraska elections, 2026",
+      "name": "Ballotpedia — Nebraska elections, 2026",
       "url": "https://ballotpedia.org/Nebraska_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -21,23 +21,28 @@
       "candidates": [
         {
           "name": "Pete Ricketts",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Pete_Ricketts"
         },
         {
           "name": "Mike Marvin",
-          "party": "Legal Marijuana NOW"
+          "party": "Legal Marijuana NOW",
+          "ballotpedia": "https://ballotpedia.org/Mike_Marvin"
         },
         {
           "name": "Robin Richards",
-          "party": "Nebraska Working People"
+          "party": "Nebraska Working People",
+          "ballotpedia": "https://ballotpedia.org/Robin_Richards"
         },
         {
           "name": "Chuck Conboy",
-          "party": "America First"
+          "party": "America First",
+          "ballotpedia": "https://ballotpedia.org/Chuck_Conboy"
         },
         {
           "name": "Dan Osborn",
-          "party": "By Petition"
+          "party": "By Petition",
+          "ballotpedia": "https://ballotpedia.org/Dan_Osborn"
         }
       ],
       "source": {
@@ -53,7 +58,8 @@
       "candidates": [
         {
           "name": "Mike Flood",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Flood"
         },
         {
           "name": "Chris Backemeyer",
@@ -61,11 +67,13 @@
         },
         {
           "name": "Nik Sandman",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Nik_Sandman"
         },
         {
           "name": "Dan Hartong",
-          "party": "America First"
+          "party": "America First",
+          "ballotpedia": "https://ballotpedia.org/Dan_Hartong"
         }
       ],
       "source": {
@@ -81,15 +89,18 @@
       "candidates": [
         {
           "name": "Brinker Harding",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Brinker_Harding"
         },
         {
           "name": "Denise Powell",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Denise_Powell"
         },
         {
           "name": "Eric Michael Foreman",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Eric_Michael_Foreman"
         }
       ],
       "source": {
@@ -105,7 +116,8 @@
       "candidates": [
         {
           "name": "Adrian Smith",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Adrian_Smith_(Nebraska)"
         },
         {
           "name": "Becky Kelly Stille",
@@ -113,15 +125,18 @@
         },
         {
           "name": "David J. Else",
-          "party": "Legal Marijuana NOW"
+          "party": "Legal Marijuana NOW",
+          "ballotpedia": "https://ballotpedia.org/David_Else_(Nebraska)"
         },
         {
           "name": "Macey Budke",
-          "party": "Nebraska Working People"
+          "party": "Nebraska Working People",
+          "ballotpedia": "https://ballotpedia.org/Macey_Budke"
         },
         {
           "name": "Mark Cohen",
-          "party": "By Petition"
+          "party": "By Petition",
+          "ballotpedia": "https://ballotpedia.org/Mark_Cohen_(Nebraska)"
         }
       ],
       "source": {
@@ -165,11 +180,13 @@
       "candidates": [
         {
           "name": "Mike Hilgers",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Hilgers"
         },
         {
           "name": "Jocelyn Brasher",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jocelyn_Brasher"
         }
       ],
       "source": {
@@ -185,19 +202,23 @@
       "candidates": [
         {
           "name": "Scott Petersen",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Scott_Petersen_(Nebraska)"
         },
         {
           "name": "Bob Krist",
-          "party": "America First Party Nebraska"
+          "party": "America First Party Nebraska",
+          "ballotpedia": "https://ballotpedia.org/Bob_Krist"
         },
         {
           "name": "Sarah Slattery",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sarah_Slattery"
         },
         {
           "name": "Paul Rumbaugh",
-          "party": "Nebraska Working People Party"
+          "party": "Nebraska Working People Party",
+          "ballotpedia": "https://ballotpedia.org/Paul_Rumbaugh"
         }
       ],
       "source": {
@@ -213,11 +234,13 @@
       "candidates": [
         {
           "name": "Mike Foley",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Foley"
         },
         {
           "name": "John Knight",
-          "party": "America First Party Nebraska"
+          "party": "America First Party Nebraska",
+          "ballotpedia": "https://ballotpedia.org/John_Knight_(Nebraska)"
         }
       ],
       "source": {
@@ -233,11 +256,13 @@
       "candidates": [
         {
           "name": "Joey Spellerberg",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Joey_Spellerberg"
         },
         {
           "name": "Daniel Ebers",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Daniel_Ebers"
         }
       ],
       "source": {

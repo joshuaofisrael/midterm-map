@@ -16,11 +16,13 @@
       "candidates": [
         {
           "name": "Harriet Hageman",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Harriet_Hageman"
         },
         {
           "name": "James Byrd",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/James_Byrd"
         }
       ],
       "source": {
@@ -36,15 +38,18 @@
       "candidates": [
         {
           "name": "Chuck Gray",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Chuck_Gray_(Wyoming)"
         },
         {
           "name": "Lisa Kinney",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Lisa_Kinney"
         },
         {
           "name": "Shawn Johnson",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Shawn_Johnson"
         },
         {
           "name": "Jeffrey Haggit",
@@ -64,7 +69,8 @@
       "candidates": [
         {
           "name": "Eric Barlow",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Eric_Barlow"
         },
         {
           "name": "Kenneth R. Casner",
@@ -72,7 +78,8 @@
         },
         {
           "name": "Rebecca Bextel",
-          "party": "Constitution"
+          "party": "Constitution",
+          "ballotpedia": "https://ballotpedia.org/Rebecca_Bextel"
         }
       ],
       "source": {
@@ -88,15 +95,18 @@
       "candidates": [
         {
           "name": "Robert Short",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Robert_Short_(Wyoming)"
         },
         {
           "name": "Bryan McCarty",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Bryan_McCarty"
         },
         {
           "name": "Tamara Trujillo",
-          "party": "Constitution"
+          "party": "Constitution",
+          "ballotpedia": "https://ballotpedia.org/Tamara_Trujillo"
         }
       ],
       "source": {
@@ -112,7 +122,8 @@
       "candidates": [
         {
           "name": "Kristi Racines",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kristi_Racines"
         }
       ],
       "source": {
@@ -144,11 +155,13 @@
       "candidates": [
         {
           "name": "Steve Harshman",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Steve_Harshman"
         },
         {
           "name": "Ana Cordova",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ana_Cordova"
         }
       ],
       "source": {

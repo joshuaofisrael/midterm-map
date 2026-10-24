@@ -8,7 +8,7 @@
       "published": "August 25, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 Missouri elections, 2026",
+      "name": "Ballotpedia — Missouri elections, 2026",
       "url": "https://ballotpedia.org/Missouri_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -21,15 +21,18 @@
       "candidates": [
         {
           "name": "Paul Berry III",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Paul_Berry_(Missouri)"
         },
         {
           "name": "Wesley Bell",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Wesley_Bell"
         },
         {
           "name": "Tom Schmitz",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Tom_Schmitz"
         }
       ],
       "source": {
@@ -45,7 +48,8 @@
       "candidates": [
         {
           "name": "Ann Wagner",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ann_Wagner"
         },
         {
           "name": "Fred Wellman",
@@ -69,15 +73,18 @@
       "candidates": [
         {
           "name": "Bob Onder",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bob_Onder"
         },
         {
           "name": "Bethany E Mann",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Bethany_Mann"
         },
         {
           "name": "Jim Higgins",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Jim_Higgins"
         }
       ],
       "source": {
@@ -93,15 +100,18 @@
       "candidates": [
         {
           "name": "Mark Alford",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mark_Alford"
         },
         {
           "name": "Jordan Herrera",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jordan_Herrera"
         },
         {
           "name": "Thomas Holbrook",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Thomas_Holbrook_(Missouri)"
         }
       ],
       "source": {
@@ -117,11 +127,13 @@
       "candidates": [
         {
           "name": "Rick Brattin",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Rick_Brattin"
         },
         {
           "name": "Emanuel Cleaver, II",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Emanuel_Cleaver"
         },
         {
           "name": "Randall (Randy) Langkraehr",
@@ -141,15 +153,18 @@
       "candidates": [
         {
           "name": "Chris Stigall",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Chris_Stigall"
         },
         {
           "name": "Josh Smead",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Josh_Smead"
         },
         {
           "name": "Andy Maidment",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Andy_Maidment"
         }
       ],
       "source": {
@@ -165,15 +180,18 @@
       "candidates": [
         {
           "name": "Eric W. Burlison",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Eric_Burlison"
         },
         {
           "name": "Missi Hesketh",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Missi_Hesketh"
         },
         {
           "name": "Kevin Craig",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Craig_(Missouri)"
         }
       ],
       "source": {
@@ -189,7 +207,8 @@
       "candidates": [
         {
           "name": "Jason T. Smith",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jason_Smith_(Missouri_congressional_representative)"
         },
         {
           "name": "Chris Reichard",
@@ -197,7 +216,8 @@
         },
         {
           "name": "Rebecca Sharpe Lombard",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Rebecca_Sharpe_Lombard"
         }
       ],
       "source": {
@@ -213,15 +233,18 @@
       "candidates": [
         {
           "name": "Scott Fitzpatrick",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Scott_Fitzpatrick"
         },
         {
           "name": "Quentin Wilson",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Quentin_Wilson"
         },
         {
           "name": "Dustin Coffell",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Dustin_Coffell"
         }
       ],
       "source": {
@@ -237,7 +260,8 @@
       "candidates": [
         {
           "name": "Paul C. Wilson",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Paul_C._Wilson_(Missouri)"
         }
       ],
       "source": {

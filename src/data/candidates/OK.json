@@ -7,7 +7,7 @@
       "accessed": "October 18, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 Oklahoma elections, 2026",
+      "name": "Ballotpedia — Oklahoma elections, 2026",
       "url": "https://ballotpedia.org/Oklahoma_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -56,7 +56,8 @@
         },
         {
           "name": "KELLY FORBES",
-          "party": "DEMOCRAT"
+          "party": "DEMOCRAT",
+          "ballotpedia": "https://ballotpedia.org/Kelly_Forbes"
         }
       ],
       "source": {
@@ -72,11 +73,13 @@
       "candidates": [
         {
           "name": "JON ECHOLS",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Jon_Echols"
         },
         {
           "name": "NICK COFFEY",
-          "party": "DEMOCRAT"
+          "party": "DEMOCRAT",
+          "ballotpedia": "https://ballotpedia.org/Nick_Coffey"
         }
       ],
       "source": {
@@ -112,11 +115,13 @@
       "candidates": [
         {
           "name": "ROBERT FRANKLIN",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Robert_Franklin_(Oklahoma)"
         },
         {
           "name": "JENNETTIE MARSHALL",
-          "party": "DEMOCRAT"
+          "party": "DEMOCRAT",
+          "ballotpedia": "https://ballotpedia.org/Jennettie_Marshall"
         }
       ],
       "source": {
@@ -132,15 +137,18 @@
       "candidates": [
         {
           "name": "KEVIN WEST",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Kevin_West_(Oklahoma)"
         },
         {
           "name": "KEVIN DAWSON",
-          "party": "DEMOCRAT"
+          "party": "DEMOCRAT",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Dawson_(Oklahoma)"
         },
         {
           "name": "MIKE HALL",
-          "party": "LIBERTARIAN"
+          "party": "LIBERTARIAN",
+          "ballotpedia": "https://ballotpedia.org/Mike_Hall_(Oklahoma)"
         }
       ],
       "source": {
@@ -156,11 +164,13 @@
       "candidates": [
         {
           "name": "BOB SULLIVAN",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Bob_Sullivan_(Oklahoma)"
         },
         {
           "name": "CRAIG MacINTYRE",
-          "party": "DEMOCRAT"
+          "party": "DEMOCRAT",
+          "ballotpedia": "https://ballotpedia.org/Craig_MacIntyre"
         }
       ],
       "source": {
@@ -176,11 +186,13 @@
       "candidates": [
         {
           "name": "BRAD BOLES",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Brad_Boles"
         },
         {
           "name": "RHONDA EASTMAN",
-          "party": "DEMOCRAT"
+          "party": "DEMOCRAT",
+          "ballotpedia": "https://ballotpedia.org/Rhonda_Eastman"
         }
       ],
       "source": {
@@ -196,7 +208,8 @@
       "candidates": [
         {
           "name": "KEVIN HERN",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Hern"
         },
         {
           "name": "N'KIYLA JASMINE THOMAS",
@@ -204,15 +217,18 @@
         },
         {
           "name": "SEVIER WHITE",
-          "party": "LIBERTARIAN"
+          "party": "LIBERTARIAN",
+          "ballotpedia": "https://ballotpedia.org/Sevier_White"
         },
         {
           "name": "RON MEINHARDT",
-          "party": "INDEPENDENT"
+          "party": "INDEPENDENT",
+          "ballotpedia": "https://ballotpedia.org/Ron_Meinhardt"
         },
         {
           "name": "CURTIS STINNETT",
-          "party": "INDEPENDENT"
+          "party": "INDEPENDENT",
+          "ballotpedia": "https://ballotpedia.org/Curtis_Stinnett"
         }
       ],
       "source": {
@@ -228,11 +244,13 @@
       "candidates": [
         {
           "name": "MARK TEDFORD",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Mark_Tedford"
         },
         {
           "name": "JOHN CROISANT",
-          "party": "DEMOCRAT"
+          "party": "DEMOCRAT",
+          "ballotpedia": "https://ballotpedia.org/John_Croisant"
         }
       ],
       "source": {
@@ -248,15 +266,18 @@
       "candidates": [
         {
           "name": "JOSH BRECHEEN",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Josh_Brecheen"
         },
         {
           "name": "BRANDON WADE",
-          "party": "DEMOCRAT"
+          "party": "DEMOCRAT",
+          "ballotpedia": "https://ballotpedia.org/Brandon_Wade"
         },
         {
           "name": "RONNIE HOPKINS",
-          "party": "INDEPENDENT"
+          "party": "INDEPENDENT",
+          "ballotpedia": "https://ballotpedia.org/Ronnie_Hopkins"
         }
       ],
       "source": {
@@ -272,11 +293,13 @@
       "candidates": [
         {
           "name": "FRANK D. LUCAS",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Frank_Lucas"
         },
         {
           "name": "SUZIE BYRD",
-          "party": "DEMOCRAT"
+          "party": "DEMOCRAT",
+          "ballotpedia": "https://ballotpedia.org/Suzie_Byrd"
         }
       ],
       "source": {
@@ -292,15 +315,18 @@
       "candidates": [
         {
           "name": "TOM COLE",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Tom_Cole_(Oklahoma)"
         },
         {
           "name": "MITCHELL JACOB",
-          "party": "DEMOCRAT"
+          "party": "DEMOCRAT",
+          "ballotpedia": "https://ballotpedia.org/Mitchell_Jacob"
         },
         {
           "name": "ROCCO BONACCI",
-          "party": "INDEPENDENT"
+          "party": "INDEPENDENT",
+          "ballotpedia": "https://ballotpedia.org/Rocco_Bonacci"
         }
       ],
       "source": {
@@ -316,19 +342,23 @@
       "candidates": [
         {
           "name": "STEPHANIE BICE",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Stephanie_Bice"
         },
         {
           "name": "JENA NELSON",
-          "party": "DEMOCRAT"
+          "party": "DEMOCRAT",
+          "ballotpedia": "https://ballotpedia.org/Jena_Nelson"
         },
         {
           "name": "ROBERT P. HENRI",
-          "party": "INDEPENDENT"
+          "party": "INDEPENDENT",
+          "ballotpedia": "https://ballotpedia.org/Robert_Henri"
         },
         {
           "name": "AUSTIN NIEVES",
-          "party": "INDEPENDENT"
+          "party": "INDEPENDENT",
+          "ballotpedia": "https://ballotpedia.org/Austin_Nieves"
         }
       ],
       "source": {
@@ -344,7 +374,8 @@
       "candidates": [
         {
           "name": "Rob Hudson",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Rob_Hudson"
         }
       ],
       "source": {
@@ -360,7 +391,8 @@
       "candidates": [
         {
           "name": "M. John Kane IV",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/M._John_Kane_IV"
         }
       ],
       "source": {
@@ -376,7 +408,8 @@
       "candidates": [
         {
           "name": "Travis Jett",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Travis_Jett"
         }
       ],
       "source": {
@@ -392,7 +425,8 @@
       "candidates": [
         {
           "name": "Dana Kuehn",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Dana_Kuehn"
         }
       ],
       "source": {
@@ -408,7 +442,8 @@
       "candidates": [
         {
           "name": "Richard Darby",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Richard_Darby"
         }
       ],
       "source": {

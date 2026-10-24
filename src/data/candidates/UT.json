@@ -14,7 +14,7 @@
       "published": "September 10, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 Utah elections, 2026",
+      "name": "Ballotpedia — Utah elections, 2026",
       "url": "https://ballotpedia.org/Utah_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -27,11 +27,13 @@
       "candidates": [
         {
           "name": "JESSE WEST",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Jesse_West"
         },
         {
           "name": "BEN MCADAMS",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ben_McAdams_(Utah)"
         },
         {
           "name": "ELIAS HENRY MONTGOMERY",
@@ -39,7 +41,8 @@
         },
         {
           "name": "RILEY OWEN",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Riley_Owen"
         },
         {
           "name": "BABAK \"BOBBY\" DARVISH",
@@ -59,23 +62,28 @@
       "candidates": [
         {
           "name": "PETER CROSBY",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Peter_Crosby"
         },
         {
           "name": "DANIEL COTTAM",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Daniel_Cottam"
         },
         {
           "name": "ROBERT M. MOESINGER",
-          "party": "Unaffiliated"
+          "party": "Unaffiliated",
+          "ballotpedia": "https://ballotpedia.org/Robert_Moesinger"
         },
         {
           "name": "BLAKE D. MOORE",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Blake_Moore"
         },
         {
           "name": "CARLTON E. BOWEN",
-          "party": "Independent American"
+          "party": "Independent American",
+          "ballotpedia": "https://ballotpedia.org/Carlton_Bowen"
         }
       ],
       "source": {
@@ -91,27 +99,33 @@
       "candidates": [
         {
           "name": "KENT S. UDELL",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kent_Udell"
         },
         {
           "name": "CASSIE EASLEY",
-          "party": "Constitution"
+          "party": "Constitution",
+          "ballotpedia": "https://ballotpedia.org/Cassie_Easley"
         },
         {
           "name": "CELESTE MALOY",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Celeste_Maloy"
         },
         {
           "name": "AYDEN SCOTT",
-          "party": "Unaffiliated"
+          "party": "Unaffiliated",
+          "ballotpedia": "https://ballotpedia.org/Ayden_Scott"
         },
         {
           "name": "MICHAEL R. STODDARD",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Michael_Stoddard"
         },
         {
           "name": "ADONIS HOOSLYN",
-          "party": "Unaffiliated"
+          "party": "Unaffiliated",
+          "ballotpedia": "https://ballotpedia.org/Adonis_Hooslyn"
         }
       ],
       "source": {
@@ -127,19 +141,23 @@
       "candidates": [
         {
           "name": "TAYLOR WRIGHT",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Taylor_Wright"
         },
         {
           "name": "JONNY LARSEN",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jonny_Larsen"
         },
         {
           "name": "STEVEN BURT",
-          "party": "Unaffiliated"
+          "party": "Unaffiliated",
+          "ballotpedia": "https://ballotpedia.org/Steven_Burt"
         },
         {
           "name": "MIKE KENNEDY",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Kennedy_(Utah)"
         }
       ],
       "source": {
@@ -155,7 +173,8 @@
       "candidates": [
         {
           "name": "Jill Pohlman",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Jill_Pohlman"
         }
       ],
       "source": {

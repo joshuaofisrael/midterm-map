@@ -8,7 +8,7 @@
       "published": "August 25, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 Wisconsin elections, 2026",
+      "name": "Ballotpedia — Wisconsin elections, 2026",
       "url": "https://ballotpedia.org/Wisconsin_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -41,11 +41,13 @@
       "candidates": [
         {
           "name": "Bryan Steil",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bryan_Steil"
         },
         {
           "name": "Mitchell Berman",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mitchell_Berman"
         }
       ],
       "source": {
@@ -61,7 +63,8 @@
       "candidates": [
         {
           "name": "Mark Pocan",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mark_Pocan"
         }
       ],
       "source": {
@@ -77,19 +80,23 @@
       "candidates": [
         {
           "name": "Derrick Van Orden",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Derrick_Van_Orden"
         },
         {
           "name": "Rebecca Cooke",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Rebecca_Cooke"
         },
         {
           "name": "Alexander Valiensi Kent",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Alexander_Valiensi_Kent"
         },
         {
           "name": "Rustin Provance",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Rustin_Provance"
         }
       ],
       "source": {
@@ -105,15 +112,18 @@
       "candidates": [
         {
           "name": "Tim Rogers",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Tim_Rogers_(Wisconsin)"
         },
         {
           "name": "Gwen Moore",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Gwen_Moore"
         },
         {
           "name": "Arthur Burks",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Arthur_Burks"
         }
       ],
       "source": {
@@ -129,11 +139,13 @@
       "candidates": [
         {
           "name": "Scott Fitzgerald",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Scott_Fitzgerald"
         },
         {
           "name": "Andrew Beck",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Andrew_Beck"
         }
       ],
       "source": {
@@ -149,7 +161,8 @@
       "candidates": [
         {
           "name": "Glenn Grothman",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Glenn_Grothman"
         },
         {
           "name": "Brad Smith",
@@ -157,7 +170,8 @@
         },
         {
           "name": "Matthew Arndt",
-          "party": "Wisconsin Green"
+          "party": "Wisconsin Green",
+          "ballotpedia": "https://ballotpedia.org/Matthew_Arndt"
         },
         {
           "name": "Elizabeth Anne Fitzgibbon",
@@ -165,7 +179,8 @@
         },
         {
           "name": "Mike Thurow",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Mike_Thurow"
         }
       ],
       "source": {
@@ -181,11 +196,13 @@
       "candidates": [
         {
           "name": "Michael Alfonso",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Michael_Alfonso"
         },
         {
           "name": "Fred Clark",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Fred_Clark"
         }
       ],
       "source": {
@@ -201,11 +218,13 @@
       "candidates": [
         {
           "name": "Tony Wied",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Tony_Wied"
         },
         {
           "name": "Rick Crosson",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Rick_Crosson"
         }
       ],
       "source": {
@@ -221,11 +240,13 @@
       "candidates": [
         {
           "name": "David Varnam",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/David_Varnam"
         },
         {
           "name": "Sarah Godlewski",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sarah_Godlewski"
         }
       ],
       "source": {
@@ -241,11 +262,13 @@
       "candidates": [
         {
           "name": "Josh Kaul",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Josh_Kaul"
         },
         {
           "name": "Eric Toney",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Eric_Toney"
         }
       ],
       "source": {
@@ -261,15 +284,18 @@
       "candidates": [
         {
           "name": "Jay Schroeder",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jay_Schroeder"
         },
         {
           "name": "JoCasta Zamarripa",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/JoCasta_Zamarripa"
         },
         {
           "name": "Pete Karas",
-          "party": "Green"
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Pete_Karas"
         }
       ],
       "source": {
@@ -285,11 +311,13 @@
       "candidates": [
         {
           "name": "John Leiber",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/John_Leiber"
         },
         {
           "name": "Yee Leng Xiong",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Yee_Leng_Xiong"
         }
       ],
       "source": {

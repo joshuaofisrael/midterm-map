@@ -39,15 +39,18 @@
       "candidates": [
         {
           "name": "THOMAS, JOHN C",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/John_Thomas_(Pennsylvania_lieutenant_governor_candidate)"
         },
         {
           "name": "RICHEY, JASON L",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jason_Richey_(Pennsylvania)"
         },
         {
           "name": "DAVIS, AUSTIN",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Austin_Davis_(Pennsylvania)"
         }
       ],
       "source": {
@@ -63,7 +66,8 @@
       "candidates": [
         {
           "name": "FITZPATRICK, BRIAN",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Brian_Fitzpatrick"
         },
         {
           "name": "HARVIE JR, ROBERT J",
@@ -83,11 +87,13 @@
       "candidates": [
         {
           "name": "ARRIAGA, JESSICA",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jessica_Arriaga"
         },
         {
           "name": "BOYLE, BRENDAN F",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Brendan_Boyle"
         }
       ],
       "source": {
@@ -107,7 +113,8 @@
         },
         {
           "name": "RABB, CHRISTOPHER M",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Christopher_Rabb"
         }
       ],
       "source": {
@@ -123,7 +130,8 @@
       "candidates": [
         {
           "name": "STUSKI, AURORA",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Aurora_Stuski"
         },
         {
           "name": "DEAN CUNNANE, MADELEINE",
@@ -147,7 +155,8 @@
         },
         {
           "name": "SCANLON, MARY GAY",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mary_Gay_Scanlon"
         }
       ],
       "source": {
@@ -187,7 +196,8 @@
         },
         {
           "name": "MACKENZIE, RYAN E",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ryan_Mackenzie"
         }
       ],
       "source": {
@@ -207,7 +217,8 @@
         },
         {
           "name": "COGNETTI, PAIGE",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Paige_Cognetti"
         }
       ],
       "source": {
@@ -243,11 +254,13 @@
       "candidates": [
         {
           "name": "STELSON, JANELLE",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Janelle_Stelson"
         },
         {
           "name": "PERRY, SCOTT",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Scott_Perry"
         }
       ],
       "source": {
@@ -267,7 +280,8 @@
         },
         {
           "name": "SMUCKER, LLOYD K",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Lloyd_Smucker"
         }
       ],
       "source": {
@@ -307,7 +321,8 @@
         },
         {
           "name": "JOYCE, JOHN",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/John_Joyce_(Pennsylvania)"
         }
       ],
       "source": {
@@ -343,7 +358,8 @@
       "candidates": [
         {
           "name": "BILGER, RAY",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ray_Bilger"
         },
         {
           "name": "THOMPSON JR, GLENN WILLIAM",

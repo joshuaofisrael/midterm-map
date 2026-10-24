@@ -7,7 +7,7 @@
       "accessed": "October 17, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 Michigan elections, 2026",
+      "name": "Ballotpedia — Michigan elections, 2026",
       "url": "https://ballotpedia.org/Michigan_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -52,15 +52,18 @@
       "candidates": [
         {
           "name": "El-Sayed, Abdul",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Abdul_El-Sayed"
         },
         {
           "name": "Rogers, Mike",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Mike_Rogers_(Michigan)"
         },
         {
           "name": "Christensen, Lydia",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/Lydia_Christensen"
         },
         {
           "name": "Long, Tim",
@@ -68,11 +71,13 @@
         },
         {
           "name": "Marsh, Douglas P.",
-          "party": "Green Party"
+          "party": "Green Party",
+          "ballotpedia": "https://ballotpedia.org/Douglas_P._Marsh"
         },
         {
           "name": "Kristy, Walter P.",
-          "party": "Natural Law Party"
+          "party": "Natural Law Party",
+          "ballotpedia": "https://ballotpedia.org/Walter_Kristy"
         }
       ],
       "source": {
@@ -88,27 +93,33 @@
       "candidates": [
         {
           "name": "Barr, Callie",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Callie_Barr"
         },
         {
           "name": "Bergman, Jack",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Jack_Bergman"
         },
         {
           "name": "Satterla, Arnett",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/Arnett_Satterla"
         },
         {
           "name": "Kovaly, Doc",
-          "party": "U.S. Taxpayers Party"
+          "party": "U.S. Taxpayers Party",
+          "ballotpedia": "https://ballotpedia.org/Doc_Kovaly"
         },
         {
           "name": "Davenport, LaVeta",
-          "party": "Green Party"
+          "party": "Green Party",
+          "ballotpedia": "https://ballotpedia.org/LaVeta_Davenport"
         },
         {
           "name": "Hakola, Liz",
-          "party": "Working Class Party"
+          "party": "Working Class Party",
+          "ballotpedia": "https://ballotpedia.org/Liz_Hakola"
         }
       ],
       "source": {
@@ -124,19 +135,23 @@
       "candidates": [
         {
           "name": "Ambrose, Ben",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Ben_Ambrose"
         },
         {
           "name": "Moolenaar, John",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/John_Moolenaar"
         },
         {
           "name": "Magoon, Charlotte",
-          "party": "Green Party"
+          "party": "Green Party",
+          "ballotpedia": "https://ballotpedia.org/Charlotte_Magoon"
         },
         {
           "name": "Sills, Richard",
-          "party": "Natural Law Party"
+          "party": "Natural Law Party",
+          "ballotpedia": "https://ballotpedia.org/Richard_Sills"
         }
       ],
       "source": {
@@ -152,15 +167,18 @@
       "candidates": [
         {
           "name": "Scholten, Hillary",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Hillary_Scholten"
         },
         {
           "name": "DeBoer, Terri",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Terri_DeBoer"
         },
         {
           "name": "Jock, Joe",
-          "party": "Green Party"
+          "party": "Green Party",
+          "ballotpedia": "https://ballotpedia.org/Joe_Jock"
         }
       ],
       "source": {
@@ -176,11 +194,13 @@
       "candidates": [
         {
           "name": "McCann, Sean",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Sean_McCann"
         },
         {
           "name": "Huizenga, Bill",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Bill_Huizenga"
         },
         {
           "name": "Barnett, Shafina Che",
@@ -200,15 +220,18 @@
       "candidates": [
         {
           "name": "Vukasovich, Christian",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Christian_Vukasovich"
         },
         {
           "name": "Walberg, Tim",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Tim_Walberg"
         },
         {
           "name": "Muszynski, Ronald A",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/Ronald_Muszynski"
         },
         {
           "name": "Renier, Sharon Marie",
@@ -232,11 +255,13 @@
       "candidates": [
         {
           "name": "Dingell, Debbie",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Debbie_Dingell"
         },
         {
           "name": "Smiley, Heather",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Heather_Smiley"
         },
         {
           "name": "Teagan, Timothy A.",
@@ -248,11 +273,13 @@
         },
         {
           "name": "Shabazz, Clyde",
-          "party": "Green Party"
+          "party": "Green Party",
+          "ballotpedia": "https://ballotpedia.org/Clyde_Shabazz"
         },
         {
           "name": "Rayburn, Linda",
-          "party": "Working Class Party"
+          "party": "Working Class Party",
+          "ballotpedia": "https://ballotpedia.org/Linda_Rayburn"
         }
       ],
       "source": {
@@ -268,19 +295,18 @@
       "candidates": [
         {
           "name": "Lawrence, William",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/William_Lawrence_(Michigan)"
         },
         {
           "name": "Barrett, Tom",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Tom_Barrett_(Michigan)"
         },
         {
           "name": "Dedrick, Shane",
-          "party": "Green Party"
-        },
-        {
-          "name": "Thibodeau, Felix",
-          "party": "Working Class Party"
+          "party": "Green Party",
+          "ballotpedia": "https://ballotpedia.org/Shane_Dedrick"
         }
       ],
       "source": {
@@ -296,23 +322,28 @@
       "candidates": [
         {
           "name": "McDonald Rivet, Kristen",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Kristen_McDonald_Rivet"
         },
         {
           "name": "Smith, Thomas J.",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Thomas_J._Smith_(Michigan)"
         },
         {
           "name": "Pettus, C. Mia",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/C._Mia_Pettus"
         },
         {
           "name": "Casha, Jim",
-          "party": "Green Party"
+          "party": "Green Party",
+          "ballotpedia": "https://ballotpedia.org/Jim_Casha"
         },
         {
           "name": "Goodwin, Kathy",
-          "party": "Working Class Party"
+          "party": "Working Class Party",
+          "ballotpedia": "https://ballotpedia.org/Kathy_Goodwin"
         }
       ],
       "source": {
@@ -328,27 +359,33 @@
       "candidates": [
         {
           "name": "Pooley, Ray",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Ray_Pooley"
         },
         {
           "name": "McClain, Lisa",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Lisa_McClain"
         },
         {
           "name": "Vayko, Kevin",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Vayko"
         },
         {
           "name": "Vlahos, John",
-          "party": "U.S. Taxpayers Party"
+          "party": "U.S. Taxpayers Party",
+          "ballotpedia": "https://ballotpedia.org/John_Vlahos"
         },
         {
           "name": "Clayton, Destiny",
-          "party": "Green Party"
+          "party": "Green Party",
+          "ballotpedia": "https://ballotpedia.org/Destiny_Clayton"
         },
         {
           "name": "Walkowicz, Jim",
-          "party": "Working Class Party"
+          "party": "Working Class Party",
+          "ballotpedia": "https://ballotpedia.org/Jim_Walkowicz"
         }
       ],
       "source": {
@@ -368,19 +405,23 @@
         },
         {
           "name": "Bouchard, Michael",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Michael_Bouchard_(Michigan_congressional_candidate)"
         },
         {
           "name": "Saliba, Mike",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/Mike_Saliba"
         },
         {
           "name": "Nkromo, Kwabena",
-          "party": "Green Party"
+          "party": "Green Party",
+          "ballotpedia": "https://ballotpedia.org/Kwabena_Nkromo"
         },
         {
           "name": "Kirby, Andrea L.",
-          "party": "Working Class Party"
+          "party": "Working Class Party",
+          "ballotpedia": "https://ballotpedia.org/Andrea_Kirby"
         }
       ],
       "source": {
@@ -396,19 +437,23 @@
       "candidates": [
         {
           "name": "Moss, Jeremy",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Jeremy_Moss"
         },
         {
           "name": "Baker, Ethan",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Ethan_Baker"
         },
         {
           "name": "Ishac, Farid",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/Farid_Ishac"
         },
         {
           "name": "Teasdale, Ryan",
-          "party": "Green Party"
+          "party": "Green Party",
+          "ballotpedia": "https://ballotpedia.org/Ryan_Teasdale"
         }
       ],
       "source": {
@@ -424,23 +469,28 @@
       "candidates": [
         {
           "name": "Tlaib, Rashida",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Rashida_Tlaib"
         },
         {
           "name": "Hooper, James D.",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/James_Hooper"
         },
         {
           "name": "Sosnowski, Marc Joseph",
-          "party": "U.S. Taxpayers Party"
+          "party": "U.S. Taxpayers Party",
+          "ballotpedia": "https://ballotpedia.org/Marc_Joseph_Sosnowski"
         },
         {
           "name": "Sanders, Brenda K.",
-          "party": "Green Party"
+          "party": "Green Party",
+          "ballotpedia": "https://ballotpedia.org/Brenda_Sanders"
         },
         {
           "name": "Walkowicz, Gary",
-          "party": "Working Class Party"
+          "party": "Working Class Party",
+          "ballotpedia": "https://ballotpedia.org/Gary_Walkowicz"
         }
       ],
       "source": {
@@ -456,7 +506,8 @@
       "candidates": [
         {
           "name": "McKinney, Donavan",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Donavan_McKinney"
         },
         {
           "name": "Nykoriak, T.P.",
@@ -468,15 +519,13 @@
         },
         {
           "name": "Light, Raelyn",
-          "party": "Green Party"
-        },
-        {
-          "name": "Wilcoxon, D. Etta",
-          "party": "Green Party"
+          "party": "Green Party",
+          "ballotpedia": "https://ballotpedia.org/Raelyn_Light"
         },
         {
           "name": "Coleman, Simone R.",
-          "party": "Working Class Party"
+          "party": "Working Class Party",
+          "ballotpedia": "https://ballotpedia.org/Simone_Coleman"
         }
       ],
       "source": {
@@ -492,27 +541,33 @@
       "candidates": [
         {
           "name": "Doug Lloyd",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Doug_Lloyd"
         },
         {
           "name": "Eli Savit",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Eli_Savit"
         },
         {
           "name": "Jeff Polonowski",
-          "party": "Green"
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Jeff_Polonowski"
         },
         {
           "name": "Jason Dye",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Jason_Dye"
         },
         {
           "name": "Doug Dern",
-          "party": "Natural Law Party in Michigan"
+          "party": "Natural Law Party in Michigan",
+          "ballotpedia": "https://ballotpedia.org/Doug_Dern"
         },
         {
           "name": "John Ludtke",
-          "party": "U.S. Taxpayers Party"
+          "party": "U.S. Taxpayers Party",
+          "ballotpedia": "https://ballotpedia.org/John_Ludtke"
         }
       ],
       "source": {
@@ -528,23 +583,28 @@
       "candidates": [
         {
           "name": "Anthony Forlini",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Anthony_Forlini"
         },
         {
           "name": "Garlin Gilchrist II",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Garlin_Gilchrist_II"
         },
         {
           "name": "Eric Borregard",
-          "party": "Green"
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Eric_Borregard"
         },
         {
           "name": "Christine Sloan",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Christine_Sloan"
         },
         {
           "name": "Scott Aughney",
-          "party": "U.S. Taxpayers Party"
+          "party": "U.S. Taxpayers Party",
+          "ballotpedia": "https://ballotpedia.org/Scott_Aughney"
         }
       ],
       "source": {
@@ -560,27 +620,33 @@
       "candidates": [
         {
           "name": "Megan Cavanagh",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Megan_Cavanagh"
         },
         {
           "name": "Noah Hood",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Noah_Hood"
         },
         {
           "name": "Thomas Howe",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Thomas_Howe"
         },
         {
           "name": "Casandra Morse-Bills",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Casandra_Morse-Bills"
         },
         {
           "name": "Michael D. Warren Jr.",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Michael_D._Warren_Jr._(Michigan)"
         },
         {
           "name": "Jody White",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Jody_White"
         }
       ],
       "source": {

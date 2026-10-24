@@ -43,11 +43,13 @@
       "candidates": [
         {
           "name": "Jason Belton",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jason_Belton"
         },
         {
           "name": "Mark Hammond",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mark_Hammond_(South_Carolina)"
         }
       ],
       "source": {
@@ -83,11 +85,13 @@
       "candidates": [
         {
           "name": "Richard Hricik",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Richard_Hricik"
         },
         {
           "name": "David Stumbo",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/David_Stumbo"
         }
       ],
       "source": {
@@ -103,11 +107,13 @@
       "candidates": [
         {
           "name": "Tiffany Boozer",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Tiffany_Boozer"
         },
         {
           "name": "Mike Burkhold",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Burkhold"
         }
       ],
       "source": {
@@ -147,19 +153,23 @@
       "candidates": [
         {
           "name": "DeShawn Blanding",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/DeShawn_Blanding"
         },
         {
           "name": "Chris Nelums",
-          "party": "United Citizens"
+          "party": "United Citizens",
+          "ballotpedia": "https://ballotpedia.org/Chris_Nelums"
         },
         {
           "name": "Cody Simpson",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Cody_Simpson"
         },
         {
           "name": "Michael Sullens",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Michael_Sullens"
         }
       ],
       "source": {
@@ -175,19 +185,23 @@
       "candidates": [
         {
           "name": "Annie Andrews",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Annie_Andrews"
         },
         {
           "name": "Darline Graham",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Darline_Graham"
         },
         {
           "name": "Mark Hackett",
-          "party": "Constitution"
+          "party": "Constitution",
+          "ballotpedia": "https://ballotpedia.org/Mark_Hackett"
         },
         {
           "name": "Kasie Whitener",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Kasie_Whitener"
         }
       ],
       "source": {
@@ -207,11 +221,13 @@
         },
         {
           "name": "Nancy Lacore",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Nancy_Lacore"
         },
         {
           "name": "Bill Reeside",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Bill_Reeside"
         }
       ],
       "source": {
@@ -227,15 +243,18 @@
       "candidates": [
         {
           "name": "Zyon Khalifa",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Zyon_Khalifa"
         },
         {
           "name": "Dayna Alane Smith",
-          "party": "Workers"
+          "party": "Workers",
+          "ballotpedia": "https://ballotpedia.org/Dayna_Alane_Smith"
         },
         {
           "name": "Joe Wilson",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Joe_Wilson_(South_Carolina)"
         }
       ],
       "source": {
@@ -251,15 +270,18 @@
       "candidates": [
         {
           "name": "Sheri Biggs",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Sheri_Biggs"
         },
         {
           "name": "Brian Corriea",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Brian_Corriea"
         },
         {
           "name": "Eunice Lehmacher",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Eunice_Lehmacher"
         }
       ],
       "source": {
@@ -275,15 +297,18 @@
       "candidates": [
         {
           "name": "Jessica Ethridge",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Jessica_Ethridge"
         },
         {
           "name": "Courtney McClain",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Courtney_McClain"
         },
         {
           "name": "William Timmons",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/William_Timmons"
         }
       ],
       "source": {
@@ -299,11 +324,13 @@
       "candidates": [
         {
           "name": "Wes Climer",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Wes_Climer"
         },
         {
           "name": "Mallory Dittmer",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mallory_Dittmer"
         }
       ],
       "source": {
@@ -323,7 +350,8 @@
         },
         {
           "name": "John Peterson",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/John_Peterson_(South_Carolina)"
         }
       ],
       "source": {
@@ -339,7 +367,8 @@
       "candidates": [
         {
           "name": "Russell Fry",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Russell_Fry"
         },
         {
           "name": "John Gregory Vincent",

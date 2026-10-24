@@ -6,31 +6,20 @@
   },
   "localIntro": "Citywide offices and city measure titles below are copied from the official list linked for this place. Candidate names are copied in the order printed on that list. Party is copied only when that list prints it.",
   "local": {
-    "3651000": [
+    "3601000": [
       {
-        "office": "Question 1. Proposed Charter Amendment: Speed Up Process for Granting a Revocable Consent to Use Public Space. Simplify process to use public space for uses such as ramps, planters and cafes, by removing mandatory hearings and Council disapproval of sidewalk cafes, while maintaining community and Council input. “Yes” speeds up process to use public space while maintaining community input. “No” maintains longer process with mandatory public hearing to use public space and Council review of sidewalk cafes.",
+        "office": "CITY COURT JUDGE",
         "key": null,
-        "candidates": []
-      },
-      {
-        "office": "Question 2. Proposed Charter Amendment: Reduce City Contractor Paperwork; Require Regular Meetings of Procurement Policy Board. Reduce paperwork for City contractors by authorizing Procurement Policy Board to simplify contractor questionnaire. Require quarterly meetings of the Procurement Policy Board. Remove mandatory hearing for required client services report. “Yes” amends Procurement Policy Board authority, including to simplify contractor questionnaire; authorizes Mayor to delegate certain contract approvals. “No” leaves laws unchanged, with Mayor and Comptroller maintaining longer questionnaire.",
-        "key": null,
-        "candidates": []
-      },
-      {
-        "office": "Question 3. Proposed Charter Amendment: Speed Up Street Safety Projects, Disposition of Unused City Property, Office Leasing. Simplify review of street safety projects to reduce construction timelines. Fast track disposition of unused City property with approval from City Planning Commission. Expedite leasing offices used for City workforce. \"Yes\" simplifies street project approval, City property disposition and office leasing. \"No\" maintains intra-agency consultation for road projects, Council approval for City property dispositions and Council disapproval of office leases.",
-        "key": null,
-        "candidates": []
-      },
-      {
-        "office": "Question 4. Proposed Charter Amendment: Simplify Building Permitting and Move Waterfront Permitting to Department of Buildings. Create centralized construction permits hub to simplify permitting. Move waterfront permitting from Department of Small Business Services to Department of Buildings. Allow construction approval by additional Department of Buildings officials. “Yes” simplifies permitting by authorizing a centralized permitting hub, moving waterfront permitting to Department of Buildings, and allowing additional Department of Buildings officials to issue approvals. “No” leaves laws unchanged.",
-        "key": null,
-        "candidates": []
-      },
-      {
-        "office": "Question 5. Proposed Charter Amendment: Set Contribution Targets for Rainy Day Fund to Promote Sufficient Budgetary Reserves. Set target amount of money to hold in reserve funds, including rainy day fund, to address unexpected financial hardships in future years, and require development of methodology to calculate contributions. “Yes” requires Mayor to develop methodology for calculating deposits to rainy day fund, with deposits subject to approval in the City budget. “No” leaves laws unchanged, with no reserves target.",
-        "key": null,
-        "candidates": []
+        "candidates": [
+          {
+            "name": "JOSHUA L. FARRELL",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "KURT W. HAAS",
+            "party": "DEMOCRATIC"
+          }
+        ]
       }
     ],
     "3611000": [
@@ -101,20 +90,31 @@
         "candidates": []
       }
     ],
-    "3601000": [
+    "3651000": [
       {
-        "office": "CITY COURT JUDGE",
+        "office": "Question 1. Proposed Charter Amendment: Speed Up Process for Granting a Revocable Consent to Use Public Space. Simplify process to use public space for uses such as ramps, planters and cafes, by removing mandatory hearings and Council disapproval of sidewalk cafes, while maintaining community and Council input. “Yes” speeds up process to use public space while maintaining community input. “No” maintains longer process with mandatory public hearing to use public space and Council review of sidewalk cafes.",
         "key": null,
-        "candidates": [
-          {
-            "name": "JOSHUA L. FARRELL",
-            "party": "DEMOCRATIC"
-          },
-          {
-            "name": "KURT W. HAAS",
-            "party": "DEMOCRATIC"
-          }
-        ]
+        "candidates": []
+      },
+      {
+        "office": "Question 2. Proposed Charter Amendment: Reduce City Contractor Paperwork; Require Regular Meetings of Procurement Policy Board. Reduce paperwork for City contractors by authorizing Procurement Policy Board to simplify contractor questionnaire. Require quarterly meetings of the Procurement Policy Board. Remove mandatory hearing for required client services report. “Yes” amends Procurement Policy Board authority, including to simplify contractor questionnaire; authorizes Mayor to delegate certain contract approvals. “No” leaves laws unchanged, with Mayor and Comptroller maintaining longer questionnaire.",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Question 3. Proposed Charter Amendment: Speed Up Street Safety Projects, Disposition of Unused City Property, Office Leasing. Simplify review of street safety projects to reduce construction timelines. Fast track disposition of unused City property with approval from City Planning Commission. Expedite leasing offices used for City workforce. \"Yes\" simplifies street project approval, City property disposition and office leasing. \"No\" maintains intra-agency consultation for road projects, Council approval for City property dispositions and Council disapproval of office leases.",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Question 4. Proposed Charter Amendment: Simplify Building Permitting and Move Waterfront Permitting to Department of Buildings. Create centralized construction permits hub to simplify permitting. Move waterfront permitting from Department of Small Business Services to Department of Buildings. Allow construction approval by additional Department of Buildings officials. “Yes” simplifies permitting by authorizing a centralized permitting hub, moving waterfront permitting to Department of Buildings, and allowing additional Department of Buildings officials to issue approvals. “No” leaves laws unchanged.",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Question 5. Proposed Charter Amendment: Set Contribution Targets for Rainy Day Fund to Promote Sufficient Budgetary Reserves. Set target amount of money to hold in reserve funds, including rainy day fund, to address unexpected financial hardships in future years, and require development of methodology to calculate contributions. “Yes” requires Mayor to develop methodology for calculating deposits to rainy day fund, with deposits subject to approval in the City budget. “No” leaves laws unchanged, with no reserves target.",
+        "key": null,
+        "candidates": []
       }
     ],
     "3663000": [
@@ -157,6 +157,31 @@
     ]
   },
   "localPlace": {
+    "3601000": {
+      "sources": [
+        {
+          "name": "Albany County Board of Elections, notice of candidates nominated for the November 3, 2026 general election",
+          "url": "https://content.civicplus.com/api/assets/cd5f13cf-73f6-4151-bf22-82fa793f04e1",
+          "accessed": "October 24, 2026"
+        }
+      ],
+      "note": "The notice prints two City Court Judge rows for Albany. It does not print a vote-for number or a term. It does not name a mayor or common council contest for Albany."
+    },
+    "3611000": {
+      "sources": [
+        {
+          "name": "Erie County Board of Elections, 2026 general election candidate list",
+          "url": "https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf",
+          "accessed": "October 24, 2026"
+        },
+        {
+          "name": "Erie County Board of Elections, City of Buffalo ballot propositions 2026",
+          "url": "https://elections.erie.gov/pdfs/City%20of%20Buffalo%20Proposals.pdf",
+          "accessed": "October 24, 2026"
+        }
+      ],
+      "note": "The Erie County candidate list prints City Court Judge and Proposal No. 1 through Proposal No. 11 with district BFLO. Proposal wording is copied from the Board's City of Buffalo ballot propositions file. The candidate list does not name a mayor or common council contest for BFLO."
+    },
     "3651000": {
       "sources": [
         {
@@ -181,31 +206,6 @@
         }
       ],
       "note": "The New York City Board of Elections contest list, printed September 11, 2026, is marked Tentative and Subject to Change. That list names Surrogate contests for New York and the Bronx, Judge of the Civil Court county contests for New York, Kings, Queens, and Richmond, Judge of the Civil Court by municipal court district, and Member of the City Council for the 3rd Council District. It does not name a mayor contest. Candidate names from that tentative list are not copied here. The Board posts election results summaries on its election results summary page."
-    },
-    "3611000": {
-      "sources": [
-        {
-          "name": "Erie County Board of Elections, 2026 general election candidate list",
-          "url": "https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf",
-          "accessed": "October 24, 2026"
-        },
-        {
-          "name": "Erie County Board of Elections, City of Buffalo ballot propositions 2026",
-          "url": "https://elections.erie.gov/pdfs/City%20of%20Buffalo%20Proposals.pdf",
-          "accessed": "October 24, 2026"
-        }
-      ],
-      "note": "The Erie County candidate list prints City Court Judge and Proposal No. 1 through Proposal No. 11 with district BFLO. Proposal wording is copied from the Board's City of Buffalo ballot propositions file. The candidate list does not name a mayor or common council contest for BFLO."
-    },
-    "3601000": {
-      "sources": [
-        {
-          "name": "Albany County Board of Elections, notice of candidates nominated for the November 3, 2026 general election",
-          "url": "https://content.civicplus.com/api/assets/cd5f13cf-73f6-4151-bf22-82fa793f04e1",
-          "accessed": "October 24, 2026"
-        }
-      ],
-      "note": "The notice prints two City Court Judge rows for Albany. It does not print a vote-for number or a term. It does not name a mayor or common council contest for Albany."
     },
     "3663000": {
       "sources": [

@@ -20,15 +20,18 @@
       "candidates": [
         {
           "name": "Tom Cotton",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Tom_Cotton"
         },
         {
           "name": "Hallie Shoffner",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Hallie_Shoffner"
         },
         {
           "name": "Jeff Wadlin",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Jeff_Wadlin"
         }
       ],
       "source": {
@@ -44,15 +47,18 @@
       "candidates": [
         {
           "name": "Rick Crawford",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Rick_Crawford_(Arkansas)"
         },
         {
           "name": "Terri Yarbrough Green",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Terri_Yarbrough_Green"
         },
         {
           "name": "Steve Parsons",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Steve_Parsons"
         }
       ],
       "source": {
@@ -68,11 +74,13 @@
       "candidates": [
         {
           "name": "French Hill",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/French_Hill"
         },
         {
           "name": "Chris Jones",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Chris_Jones_(Arkansas_congressional_candidate)"
         }
       ],
       "source": {
@@ -88,15 +96,18 @@
       "candidates": [
         {
           "name": "Steve Womack",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Steve_Womack"
         },
         {
           "name": "Robb Ryerse",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Robb_Ryerse"
         },
         {
           "name": "Bobby Wilson",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Bobby_Wilson_(Arkansas)"
         }
       ],
       "source": {
@@ -112,11 +123,13 @@
       "candidates": [
         {
           "name": "Bruce Westerman",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bruce_Westerman"
         },
         {
           "name": "James Russell",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/James_Russell_(Arkansas)"
         }
       ],
       "source": {
@@ -132,15 +145,18 @@
       "candidates": [
         {
           "name": "Sarah Huckabee Sanders",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Sarah_Huckabee_Sanders"
         },
         {
           "name": "Fredrick Love",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Fredrick_Love"
         },
         {
           "name": "Colt Shelby",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Colt_Shelby"
         }
       ],
       "source": {
@@ -156,11 +172,13 @@
       "candidates": [
         {
           "name": "Leslie Rutledge",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Leslie_Rutledge"
         },
         {
           "name": "Michael Kalagias",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Michael_Kalagias"
         }
       ],
       "source": {
@@ -176,7 +194,8 @@
       "candidates": [
         {
           "name": "Tim Griffin",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Tim_Griffin_(Arkansas)"
         }
       ],
       "source": {
@@ -192,15 +211,18 @@
       "candidates": [
         {
           "name": "Kim Hammer",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kim_Hammer"
         },
         {
           "name": "Kelly Grappe",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kelly_Grappe"
         },
         {
           "name": "Michael Pakko",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Michael_Pakko"
         }
       ],
       "source": {
@@ -216,7 +238,8 @@
       "candidates": [
         {
           "name": "Dennis Milligan",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Dennis_Milligan"
         }
       ],
       "source": {
@@ -232,7 +255,8 @@
       "candidates": [
         {
           "name": "John Thurston",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/John_Thurston"
         }
       ],
       "source": {

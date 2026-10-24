@@ -20,19 +20,23 @@
       "candidates": [
         {
           "name": "Dina Titus",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Dina_Titus"
         },
         {
           "name": "Carrie Buck",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Carrie_Buck_(Nevada)"
         },
         {
           "name": "Steven St John",
-          "party": "No Political Party"
+          "party": "No Political Party",
+          "ballotpedia": "https://ballotpedia.org/Steven_St_John"
         },
         {
           "name": "Bobby Khan",
-          "party": "No Political Party"
+          "party": "No Political Party",
+          "ballotpedia": "https://ballotpedia.org/Bobby_Khan"
         }
       ],
       "source": {
@@ -48,15 +52,18 @@
       "candidates": [
         {
           "name": "David Flippo",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/David_Flippo"
         },
         {
           "name": "Teresa Benitez-Thompson",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Teresa_Benitez-Thompson"
         },
         {
           "name": "Lynn Chapman",
-          "party": "Independent American Party"
+          "party": "Independent American Party",
+          "ballotpedia": "https://ballotpedia.org/Lynn_Chapman"
         }
       ],
       "source": {
@@ -72,15 +79,18 @@
       "candidates": [
         {
           "name": "Susie Lee",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Susie_Lee"
         },
         {
           "name": "Marty O'Donnell",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Marty_O'Donnell_(Nevada)"
         },
         {
           "name": "Jon Kamerath",
-          "party": "Independent American Party"
+          "party": "Independent American Party",
+          "ballotpedia": "https://ballotpedia.org/Jon_Kamerath"
         }
       ],
       "source": {
@@ -96,19 +106,23 @@
       "candidates": [
         {
           "name": "Steven Horsford",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Steven_Horsford"
         },
         {
           "name": "Cody Whipple",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Cody_Whipple"
         },
         {
           "name": "Russell Best",
-          "party": "Independent American Party"
+          "party": "Independent American Party",
+          "ballotpedia": "https://ballotpedia.org/Russell_Best"
         },
         {
           "name": "William Johnson",
-          "party": "No Political Party"
+          "party": "No Political Party",
+          "ballotpedia": "https://ballotpedia.org/William_Johnson_(Nevada)"
         }
       ],
       "source": {
@@ -124,15 +138,18 @@
       "candidates": [
         {
           "name": "Joe Lombardo",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Joe_Lombardo"
         },
         {
           "name": "Aaron Ford",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Aaron_Ford_(Nevada)"
         },
         {
           "name": "Danielle Ford",
-          "party": "No Political Party"
+          "party": "No Political Party",
+          "ballotpedia": "https://ballotpedia.org/Danielle_Ford"
         }
       ],
       "source": {
@@ -148,15 +165,18 @@
       "candidates": [
         {
           "name": "Stavros Anthony",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Stavros_S._Anthony"
         },
         {
           "name": "Sandra Jauregui",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sandra_Jauregui"
         },
         {
           "name": "Janine Hansen",
-          "party": "Independent American Party"
+          "party": "Independent American Party",
+          "ballotpedia": "https://ballotpedia.org/Janine_Hansen"
         }
       ],
       "source": {
@@ -172,11 +192,13 @@
       "candidates": [
         {
           "name": "Adriana Guzmán Fralick",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Adriana_Guzm%C3%A1n_Fralick"
         },
         {
           "name": "Nicole Cannizzaro",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Nicole_Cannizzaro"
         }
       ],
       "source": {
@@ -192,19 +214,23 @@
       "candidates": [
         {
           "name": "Cisco Aguilar",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Cisco_Aguilar"
         },
         {
           "name": "Jim Marchant",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jim_Marchant"
         },
         {
           "name": "Brad Barnhill",
-          "party": "Independent American Party"
+          "party": "Independent American Party",
+          "ballotpedia": "https://ballotpedia.org/Brad_Barnhill"
         },
         {
           "name": "John T. Kennedy",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/John_Kennedy_(Nevada)"
         }
       ],
       "source": {
@@ -220,11 +246,13 @@
       "candidates": [
         {
           "name": "Andy Matthews",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Andy_Matthews"
         },
         {
           "name": "Michael MacDougall",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Michael_MacDougall"
         }
       ],
       "source": {
@@ -240,11 +268,13 @@
       "candidates": [
         {
           "name": "Drew Johnson",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Drew_Johnson"
         },
         {
           "name": "Tya Mathis-Coleman",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Tya_Mathis-Coleman"
         }
       ],
       "source": {
@@ -260,7 +290,8 @@
       "candidates": [
         {
           "name": "Kris Pickering",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Kris_Pickering"
         }
       ],
       "source": {
@@ -276,7 +307,8 @@
       "candidates": [
         {
           "name": "Douglas Herndon",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Douglas_Herndon"
         }
       ],
       "source": {

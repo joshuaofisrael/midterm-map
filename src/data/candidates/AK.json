@@ -8,7 +8,7 @@
       "published": "September 25, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 Alaska elections, 2026",
+      "name": "Ballotpedia — Alaska elections, 2026",
       "url": "https://ballotpedia.org/Alaska_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -24,15 +24,15 @@
           "party": "Registered Republican"
         },
         {
-          "name": "DeWitt, Meda / Steere, Christopher \u201cChris\u201d (certified write-in)",
+          "name": "DeWitt, Meda / Steere, Christopher “Chris” (certified write-in)",
           "party": "Nonpartisan"
         },
         {
-          "name": "Kreiss-Tomkins, Jonathan S. \u201cJKT\u201d / Johnson, Zac",
+          "name": "Kreiss-Tomkins, Jonathan S. “JKT” / Johnson, Zac",
           "party": "Registered Democrat / Nonpartisan"
         },
         {
-          "name": "Parkin, James W. \u201cJP4\u201d / Greer, Ramadhani \u201cRam\u201d (certified write-in)",
+          "name": "Parkin, James W. “JP4” / Greer, Ramadhani “Ram” (certified write-in)",
           "party": "Registered Republican / Registered Democrat"
         },
         {
@@ -60,7 +60,7 @@
           "party": "Registered Republican"
         },
         {
-          "name": "Hill, Sidney \u201cSid\u201d (certified write-in)",
+          "name": "Hill, Sidney “Sid” (certified write-in)",
           "party": "Undeclared"
         },
         {
@@ -108,7 +108,7 @@
           "party": "Nonpartisan"
         },
         {
-          "name": "McDermott, James C. \u201cJim\u201d",
+          "name": "McDermott, James C. “Jim”",
           "party": "Registered Libertarian"
         }
       ],
@@ -125,7 +125,8 @@
       "candidates": [
         {
           "name": "Jude Pate",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Jude_Pate"
         }
       ],
       "source": {

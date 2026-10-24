@@ -15,15 +15,18 @@
       "candidates": [
         {
           "name": "Scott Colom",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Scott_Colom"
         },
         {
           "name": "Cindy Hyde-Smith",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Cindy_Hyde-Smith"
         },
         {
           "name": "Ty Pinkins",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Ty_Pinkins"
         }
       ],
       "source": {
@@ -39,15 +42,18 @@
       "candidates": [
         {
           "name": "Mike Ezell",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Ezell"
         },
         {
           "name": "Jeffrey Hulum III",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Jeffrey_Hulum_III"
         },
         {
           "name": "Carl Boyanton",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Carl_Boyanton"
         }
       ],
       "source": {
@@ -63,15 +69,18 @@
       "candidates": [
         {
           "name": "Johnny Baucom",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Johnny_Baucom_(Mississippi)"
         },
         {
           "name": "Cliff Johnson",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Cliff_Johnson_(Mississippi)"
         },
         {
           "name": "Trent Kelly",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Trent_Kelly"
         }
       ],
       "source": {
@@ -87,15 +96,18 @@
       "candidates": [
         {
           "name": "Ron Eller",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ron_Eller"
         },
         {
           "name": "Bennie G. Thompson",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Bennie_Thompson"
         },
         {
           "name": "Bennie Foster",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Bennie_Foster"
         }
       ],
       "source": {
@@ -111,15 +123,18 @@
       "candidates": [
         {
           "name": "Michael A. Chiaradio",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Michael_Chiaradio"
         },
         {
           "name": "Michael Guest",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Michael_Guest"
         },
         {
           "name": "Erik Kiehle",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Erik_Kiehle"
         }
       ],
       "source": {

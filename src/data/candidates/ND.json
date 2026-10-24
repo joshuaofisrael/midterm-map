@@ -15,19 +15,23 @@
       "candidates": [
         {
           "name": "Julie Fedorchak",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Julie_Fedorchak"
         },
         {
           "name": "Trygve Hammer",
-          "party": "Democratic-NPL"
+          "party": "Democratic-NPL",
+          "ballotpedia": "https://ballotpedia.org/Trygve_Hammer"
         },
         {
           "name": "Helene Neville",
-          "party": "independent nomination"
+          "party": "independent nomination",
+          "ballotpedia": "https://ballotpedia.org/Helene_Neville"
         },
         {
           "name": "Charles Tuttle",
-          "party": "independent nomination"
+          "party": "independent nomination",
+          "ballotpedia": "https://ballotpedia.org/Charles_Tuttle"
         }
       ],
       "source": {
@@ -43,11 +47,13 @@
       "candidates": [
         {
           "name": "Ryan Braunberger",
-          "party": "Democratic-NPL"
+          "party": "Democratic-NPL",
+          "ballotpedia": "https://ballotpedia.org/Ryan_Braunberger"
         },
         {
           "name": "Michael Howe",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Michael_Howe"
         }
       ],
       "source": {
@@ -67,7 +73,8 @@
         },
         {
           "name": "Drew Wrigley",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Drew_Wrigley"
         }
       ],
       "source": {
@@ -83,11 +90,13 @@
       "candidates": [
         {
           "name": "Doug Goehring",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Doug_Goehring"
         },
         {
           "name": "Vern Thompson",
-          "party": "Democratic-NPL"
+          "party": "Democratic-NPL",
+          "ballotpedia": "https://ballotpedia.org/Vern_Thompson"
         }
       ],
       "source": {
@@ -143,11 +152,13 @@
       "candidates": [
         {
           "name": "Brian Kroshus",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Brian_Kroshus"
         },
         {
           "name": "Mark Nelson",
-          "party": "Democratic-NPL"
+          "party": "Democratic-NPL",
+          "ballotpedia": "https://ballotpedia.org/Mark_Nelson_(North_Dakota)"
         }
       ],
       "source": {

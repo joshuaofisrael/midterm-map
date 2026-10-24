@@ -20,15 +20,18 @@
       "candidates": [
         {
           "name": "Jack Reed",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jack_Reed"
         },
         {
           "name": "Raymond McKay",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Raymond_McKay"
         },
         {
           "name": "Michael Bahry",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Michael_Bahry"
         }
       ],
       "source": {
@@ -44,15 +47,18 @@
       "candidates": [
         {
           "name": "Gabe Amo",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Gabe_Amo"
         },
         {
           "name": "Kellie Keenan",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kellie_Keenan"
         },
         {
           "name": "Pedro Soares de Souza",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Pedro_Soares_de_Souza"
         }
       ],
       "source": {
@@ -68,11 +74,13 @@
       "candidates": [
         {
           "name": "Seth Magaziner",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Seth_Magaziner"
         },
         {
           "name": "Victor Mellor",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Victor_Mellor"
         }
       ],
       "source": {
@@ -88,23 +96,28 @@
       "candidates": [
         {
           "name": "Aaron Guckian",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Aaron_Guckian"
         },
         {
           "name": "Helena Foulkes",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Helena_Foulkes"
         },
         {
           "name": "Ken Block",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Ken_Block"
         },
         {
           "name": "Jasjit Gotra",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Jasjit_Gotra"
         },
         {
           "name": "Christopher Reynolds",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Christopher_Reynolds_(Rhode_Island)"
         }
       ],
       "source": {
@@ -120,11 +133,13 @@
       "candidates": [
         {
           "name": "Sabina Matos",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sabina_Matos"
         },
         {
           "name": "John Loughlin",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/John_Loughlin"
         }
       ],
       "source": {
@@ -140,11 +155,13 @@
       "candidates": [
         {
           "name": "Alan Gordon",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Alan_Gordon"
         },
         {
           "name": "Kim Ahern",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kim_Ahern"
         }
       ],
       "source": {
@@ -160,7 +177,8 @@
       "candidates": [
         {
           "name": "Gregg Amore",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Gregg_Amore"
         }
       ],
       "source": {
@@ -176,11 +194,13 @@
       "candidates": [
         {
           "name": "James Diossa",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/James_Diossa"
         },
         {
           "name": "Micholas Credle",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Micholas_Credle"
         }
       ],
       "source": {

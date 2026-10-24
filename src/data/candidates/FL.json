@@ -7,7 +7,7 @@
       "accessed": "October 17, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 Florida elections, 2026",
+      "name": "Ballotpedia — Florida elections, 2026",
       "url": "https://ballotpedia.org/Florida_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -20,15 +20,18 @@
       "candidates": [
         {
           "name": "Gillespie, Neil J.",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Neil_Gillespie"
         },
         {
           "name": "Moody, Ashley",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Ashley_B._Moody"
         },
         {
           "name": "Nixon, Angie",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Angie_Nixon"
         }
       ],
       "source": {
@@ -44,15 +47,18 @@
       "candidates": [
         {
           "name": "Davis, Tyler L.",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Tyler_Davis_(Florida)"
         },
         {
           "name": "Patronis, Jimmy",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Jimmy_Patronis"
         },
         {
           "name": "Valimont, Gay",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Gay_Valimont"
         }
       ],
       "source": {
@@ -72,7 +78,8 @@
         },
         {
           "name": "Rogers, Austin",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Austin_Rogers"
         }
       ],
       "source": {
@@ -88,15 +95,18 @@
       "candidates": [
         {
           "name": "Cammack, Kat",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Kat_Cammack"
         },
         {
           "name": "Harp, Seth",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Seth_Harp_(Florida)"
         },
         {
           "name": "Klein, Mike",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Mike_Klein_(Florida)"
         }
       ],
       "source": {
@@ -112,7 +122,8 @@
       "candidates": [
         {
           "name": "Bean, Aaron",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Aaron_Bean"
         },
         {
           "name": "Holloway, LaShonda \"L.J.\"",
@@ -120,11 +131,13 @@
         },
         {
           "name": "Schaefer, Todd",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Todd_Schaefer"
         },
         {
           "name": "Sell, Mike",
-          "party": "FFP"
+          "party": "FFP",
+          "ballotpedia": "https://ballotpedia.org/Mike_Sell"
         }
       ],
       "source": {
@@ -140,11 +153,13 @@
       "candidates": [
         {
           "name": "Grage, Rachel",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Rachel_Grage"
         },
         {
           "name": "Rutherford, John H.",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/John_Rutherford_(Florida)"
         },
         {
           "name": "Upham, William Lintag",
@@ -164,19 +179,23 @@
       "candidates": [
         {
           "name": "Fine, Randy",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Randy_Fine"
         },
         {
           "name": "Parrott, Andrew",
-          "party": "LPF"
+          "party": "LPF",
+          "ballotpedia": "https://ballotpedia.org/Andrew_Parrott"
         },
         {
           "name": "Pavlik, Alec",
-          "party": "WRI"
+          "party": "WRI",
+          "ballotpedia": "https://ballotpedia.org/Alec_Pavlik"
         },
         {
           "name": "Yonce, Eric",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Eric_Yonce"
         }
       ],
       "source": {
@@ -192,15 +211,18 @@
       "candidates": [
         {
           "name": "Dalton, Bale",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Bale_Dalton"
         },
         {
           "name": "Dennison, Christopher",
-          "party": "LPF"
+          "party": "LPF",
+          "ballotpedia": "https://ballotpedia.org/Christopher_Dennison"
         },
         {
           "name": "Elijah, Ryan",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Ryan_Elijah"
         }
       ],
       "source": {
@@ -216,11 +238,13 @@
       "candidates": [
         {
           "name": "Haridopolos, Mike",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Mike_Haridopolos"
         },
         {
           "name": "Jenkins, Jennifer",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Jennifer_Jenkins"
         }
       ],
       "source": {
@@ -236,11 +260,13 @@
       "candidates": [
         {
           "name": "Green, Dan",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Dan_Green_(Florida_congressional_candidate)"
         },
         {
           "name": "Soto, Darren",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Darren_Soto"
         }
       ],
       "source": {
@@ -272,15 +298,18 @@
       "candidates": [
         {
           "name": "Groves, Ralph",
-          "party": "LPF"
+          "party": "LPF",
+          "ballotpedia": "https://ballotpedia.org/Ralph_Groves"
         },
         {
           "name": "Pericola, James",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/James_Pericola"
         },
         {
           "name": "Strada, Joe",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Joe_Strada"
         }
       ],
       "source": {
@@ -300,11 +329,13 @@
         },
         {
           "name": "Overman, Kimberly",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Kimberly_Overman"
         },
         {
           "name": "Scrivener, Branden",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Branden_Scrivener"
         }
       ],
       "source": {
@@ -320,15 +351,18 @@
       "candidates": [
         {
           "name": "D'Arrigo, Tony",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Tony_D'Arrigo"
         },
         {
           "name": "Gray, Leela",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Leela_Gray"
         },
         {
           "name": "Luna, Anna Paulina",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Anna_Paulina_Luna"
         }
       ],
       "source": {
@@ -344,23 +378,28 @@
       "candidates": [
         {
           "name": "Beltran, Mike",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Mike_Beltran"
         },
         {
           "name": "Castor, Kathy",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Kathy_Castor"
         },
         {
           "name": "Hernandez Sr., Salomon",
-          "party": "WRI"
+          "party": "WRI",
+          "ballotpedia": "https://ballotpedia.org/Salomon_Hernandez"
         },
         {
           "name": "Lambert, Brian",
-          "party": "LPF"
+          "party": "LPF",
+          "ballotpedia": "https://ballotpedia.org/Brian_Lambert"
         },
         {
           "name": "Varian, Keith",
-          "party": "WRI"
+          "party": "WRI",
+          "ballotpedia": "https://ballotpedia.org/Keith_Varian"
         }
       ],
       "source": {
@@ -376,15 +415,18 @@
       "candidates": [
         {
           "name": "Boone, Angie",
-          "party": "WRI"
+          "party": "WRI",
+          "ballotpedia": "https://ballotpedia.org/Angie_Boone"
         },
         {
           "name": "Lee, Laurel",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Laurel_Lee"
         },
         {
           "name": "People, Robert",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Robert_People_(Florida)"
         }
       ],
       "source": {
@@ -400,15 +442,18 @@
       "candidates": [
         {
           "name": "Davis, Mark",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Mark_Davis_(Florida)"
         },
         {
           "name": "Gruters, Sydney",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Sydney_Gruters"
         },
         {
           "name": "Kirschner, Kelly",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Kelly_Kirschner"
         }
       ],
       "source": {
@@ -424,15 +469,18 @@
       "candidates": [
         {
           "name": "Montavon, Matthew",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Matthew_Montavon"
         },
         {
           "name": "Quirk, Michael J.",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Michael_Quirk"
         },
         {
           "name": "Steube, Greg",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Greg_Steube"
         }
       ],
       "source": {
@@ -448,15 +496,18 @@
       "candidates": [
         {
           "name": "Franklin, Scott",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Scott_Franklin"
         },
         {
           "name": "Gibson, Curtis",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Curtis_Gibson"
         },
         {
           "name": "Simmons, Deva",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Deva_Simmons"
         }
       ],
       "source": {
@@ -472,19 +523,23 @@
       "candidates": [
         {
           "name": "Arias, Victor",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Victor_Arias"
         },
         {
           "name": "Haskin, Seth",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Seth_Haskin"
         },
         {
           "name": "Schwartzel, Jim",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Jim_Schwartzel"
         },
         {
           "name": "Zakhvatayev, Alexandra",
-          "party": "WRI"
+          "party": "WRI",
+          "ballotpedia": "https://ballotpedia.org/Alexandra_Zakhvatayev"
         }
       ],
       "source": {
@@ -500,15 +555,18 @@
       "candidates": [
         {
           "name": "Andersen, Brent",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Brent_Andersen"
         },
         {
           "name": "Maxime, Kedner",
-          "party": "IND"
+          "party": "IND",
+          "ballotpedia": "https://ballotpedia.org/Kedner_Maxime"
         },
         {
           "name": "Wasserman Schultz, Debbie",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Debbie_Wasserman_Schultz"
         }
       ],
       "source": {
@@ -524,19 +582,23 @@
       "candidates": [
         {
           "name": "Cooke, Alexander",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Alexander_Cooke"
         },
         {
           "name": "Fabrikant, David",
-          "party": "WRI"
+          "party": "WRI",
+          "ballotpedia": "https://ballotpedia.org/David_Fabrikant"
         },
         {
           "name": "Martin, James T.",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/James_Martin_(Florida)"
         },
         {
           "name": "Mast, Brian",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Brian_Mast"
         }
       ],
       "source": {
@@ -552,11 +614,13 @@
       "candidates": [
         {
           "name": "Askar, Casey",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Casey_Askar"
         },
         {
           "name": "Dandiya, Pia",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Pia_Dandiya"
         }
       ],
       "source": {
@@ -572,11 +636,13 @@
       "candidates": [
         {
           "name": "Adeimy, Deborah",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Deborah_Adeimy"
         },
         {
           "name": "Frankel, Lois",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Lois_Frankel"
         }
       ],
       "source": {
@@ -596,7 +662,8 @@
         },
         {
           "name": "Gilbert III, Oliver G.",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Oliver_Gilbert"
         },
         {
           "name": "Gonzalez, Patricia",
@@ -616,11 +683,13 @@
       "candidates": [
         {
           "name": "Hamilton, Michaelangelo",
-          "party": "WRI"
+          "party": "WRI",
+          "ballotpedia": "https://ballotpedia.org/Michaelangelo_Hamilton"
         },
         {
           "name": "Jassenoff, Peter",
-          "party": "LPF"
+          "party": "LPF",
+          "ballotpedia": "https://ballotpedia.org/Peter_Jassenoff"
         },
         {
           "name": "Moskowitz, Jared",
@@ -628,7 +697,8 @@
         },
         {
           "name": "Singer, Scott",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Scott_Singer"
         }
       ],
       "source": {
@@ -644,11 +714,13 @@
       "candidates": [
         {
           "name": "Diaz-Balart, Mario",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Mario_Diaz-Balart"
         },
         {
           "name": "Locklin, Nicole",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Nicole_Locklin"
         },
         {
           "name": "Meidinger Hosey, Deborah Ann",
@@ -668,11 +740,13 @@
       "candidates": [
         {
           "name": "Rodriguez, Eliott",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Eliott_Rodriguez"
         },
         {
           "name": "Salazar, Maria Elvira",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Maria_Elvira_Salazar"
         }
       ],
       "source": {
@@ -688,15 +762,18 @@
       "candidates": [
         {
           "name": "Ehr, Phil \"Felipe\"",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Phil_Ehr"
         },
         {
           "name": "Gimenez, Carlos A.",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Carlos_Gimenez"
         },
         {
           "name": "Rojas, Eddy",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Eddy_Rojas"
         }
       ],
       "source": {
@@ -764,43 +841,53 @@
       "candidates": [
         {
           "name": "Bryan Avila",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bryan_Avila"
         },
         {
           "name": "Ruben Coto",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ruben_Coto"
         },
         {
           "name": "Rachel Rodriguez",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Rachel_Rodriguez"
         },
         {
           "name": "Juan Santana",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Juan_Santana"
         },
         {
           "name": "Gwen Graham",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Gwen_Graham"
         },
         {
           "name": "Nicole Skelly",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Nicole_Skelly"
         },
         {
           "name": "LeRoy Alaways",
-          "party": "No Party Affiliation"
+          "party": "No Party Affiliation",
+          "ballotpedia": "https://ballotpedia.org/LeRoy_Alaways"
         },
         {
           "name": "Daniel Nokovich",
-          "party": "No Party Affiliation"
+          "party": "No Party Affiliation",
+          "ballotpedia": "https://ballotpedia.org/Daniel_Nokovich"
         },
         {
           "name": "Benjiman Rojas",
-          "party": "No Party Affiliation"
+          "party": "No Party Affiliation",
+          "ballotpedia": "https://ballotpedia.org/Benjiman_Rojas"
         },
         {
           "name": "Joseph Van Vactor",
-          "party": "No Party Affiliation"
+          "party": "No Party Affiliation",
+          "ballotpedia": "https://ballotpedia.org/Joseph_Van_Vactor"
         }
       ],
       "source": {
@@ -816,11 +903,13 @@
       "candidates": [
         {
           "name": "James Uthmeier",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/James_Uthmeier"
         },
         {
           "name": "Jose Javier Rodriguez",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jose_Javier_Rodriguez_(Florida_state_senator)"
         }
       ],
       "source": {
@@ -836,15 +925,18 @@
       "candidates": [
         {
           "name": "Wilton Simpson",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Wilton_Simpson"
         },
         {
           "name": "Joey Atkins",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Joey_Atkins"
         },
         {
           "name": "Kyle Gibson",
-          "party": "No Party Affiliation"
+          "party": "No Party Affiliation",
+          "ballotpedia": "https://ballotpedia.org/Kyle_Gibson"
         }
       ],
       "source": {
@@ -859,8 +951,9 @@
       "district": null,
       "candidates": [
         {
-          "name": "Carlos Mu\u00f1iz",
-          "party": "Nonpartisan"
+          "name": "Carlos Muñiz",
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Carlos_Mu%C3%B1iz"
         }
       ],
       "source": {

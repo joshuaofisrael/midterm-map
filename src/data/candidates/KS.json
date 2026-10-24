@@ -15,15 +15,18 @@
       "candidates": [
         {
           "name": "Adam Hamilton",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Adam_Hamilton_(Kansas)"
         },
         {
           "name": "Roger Marshall",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Roger_Marshall"
         },
         {
           "name": "David C Graham",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/David_Graham_(Kansas)"
         }
       ],
       "source": {
@@ -39,15 +42,18 @@
       "candidates": [
         {
           "name": "Lauren Reinhold",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Lauren_Reinhold"
         },
         {
           "name": "Tracey Mann",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Tracey_Mann"
         },
         {
           "name": "Steven Jacob",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Steven_Jacob_(Kansas)"
         }
       ],
       "source": {
@@ -63,15 +69,18 @@
       "candidates": [
         {
           "name": "Don Coover",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Don_Coover"
         },
         {
           "name": "Derek Schmidt",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Derek_Schmidt"
         },
         {
           "name": "John Hauer",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/John_Hauer"
         }
       ],
       "source": {
@@ -87,11 +96,13 @@
       "candidates": [
         {
           "name": "Sharice L. Davids",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sharice_Davids"
         },
         {
           "name": "Eric Jenkins",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Eric_Jenkins"
         },
         {
           "name": "Steven A Hohe",
@@ -111,15 +122,18 @@
       "candidates": [
         {
           "name": "Katy Tyndell",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Katy_Tyndell"
         },
         {
           "name": "Ron Estes",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ron_Estes_(U.S._Representative_from_Kansas)"
         },
         {
           "name": "Drew Cranmer",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Drew_Cranmer"
         }
       ],
       "source": {
@@ -155,15 +169,18 @@
       "candidates": [
         {
           "name": "Jennifer Day",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jennifer_Day_(Kansas)"
         },
         {
           "name": "Pat Proctor",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Pat_Proctor"
         },
         {
           "name": "Scott E. Morgan",
-          "party": "United Kansas"
+          "party": "United Kansas",
+          "ballotpedia": "https://ballotpedia.org/Scott_Morgan_(Kansas)"
         }
       ],
       "source": {
@@ -179,11 +196,13 @@
       "candidates": [
         {
           "name": "Chris Mann",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Chris_Mann_(Kansas)"
         },
         {
           "name": "Kris Kobach",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kris_Kobach"
         }
       ],
       "source": {
@@ -223,15 +242,18 @@
       "candidates": [
         {
           "name": "Dinah Sykes",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Dinah_Sykes"
         },
         {
           "name": "Daniel Hawkins",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Daniel_Hawkins_(Kansas)"
         },
         {
           "name": "Ric Koehn",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Ric_Koehn_(Kansas)"
         }
       ],
       "source": {

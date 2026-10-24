@@ -68,15 +68,18 @@
       "candidates": [
         {
           "name": "Luke Bronin",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Luke_Bronin"
         },
         {
           "name": "Amy Chai",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Amy_Chai"
         },
         {
           "name": "Mary L. Sanders",
-          "party": "Green Party"
+          "party": "Green Party",
+          "ballotpedia": "https://ballotpedia.org/Mary_Sanders"
         }
       ],
       "source": {
@@ -92,7 +95,8 @@
       "candidates": [
         {
           "name": "Joe Courtney",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Joe_Courtney"
         },
         {
           "name": "George Patrick Austin",
@@ -116,15 +120,18 @@
       "candidates": [
         {
           "name": "Rosa L. DeLauro",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Rosa_DeLauro"
         },
         {
           "name": "Christopher Lancia",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Christopher_Lancia"
         },
         {
           "name": "Thomas Egan",
-          "party": "Independent Party"
+          "party": "Independent Party",
+          "ballotpedia": "https://ballotpedia.org/Thomas_Egan_(Connecticut)"
         }
       ],
       "source": {
@@ -140,7 +147,8 @@
       "candidates": [
         {
           "name": "Jim Himes",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Jim_Himes"
         },
         {
           "name": "Michael Ted Goldstein",
@@ -148,7 +156,8 @@
         },
         {
           "name": "Benjamin Wesley",
-          "party": "Independent Party"
+          "party": "Independent Party",
+          "ballotpedia": "https://ballotpedia.org/Benjamin_Wesley"
         }
       ],
       "source": {
@@ -164,15 +173,18 @@
       "candidates": [
         {
           "name": "Jahana Hayes",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Jahana_Hayes"
         },
         {
           "name": "Chris Shea",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Chris_Shea"
         },
         {
           "name": "Jahana Hayes",
-          "party": "Working Families Party"
+          "party": "Working Families Party",
+          "ballotpedia": "https://ballotpedia.org/Jahana_Hayes"
         }
       ],
       "source": {
@@ -188,19 +200,23 @@
       "candidates": [
         {
           "name": "Stephanie Thomas",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Stephanie_Thomas_(Connecticut)"
         },
         {
           "name": "Peter Lumaj",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Peter_Lumaj"
         },
         {
           "name": "Stephanie Thomas",
-          "party": "Working Families Party"
+          "party": "Working Families Party",
+          "ballotpedia": "https://ballotpedia.org/Stephanie_Thomas_(Connecticut)"
         },
         {
           "name": "Stephanie Thomas",
-          "party": "Independent Party"
+          "party": "Independent Party",
+          "ballotpedia": "https://ballotpedia.org/Stephanie_Thomas_(Connecticut)"
         }
       ],
       "source": {
@@ -216,19 +232,23 @@
       "candidates": [
         {
           "name": "Erick Russell",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Erick_Russell"
         },
         {
           "name": "Fred Wilms",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Fred_Wilms"
         },
         {
           "name": "Erick Russell",
-          "party": "Working Families Party"
+          "party": "Working Families Party",
+          "ballotpedia": "https://ballotpedia.org/Erick_Russell"
         },
         {
           "name": "Fred Wilms",
-          "party": "Independent Party"
+          "party": "Independent Party",
+          "ballotpedia": "https://ballotpedia.org/Fred_Wilms"
         }
       ],
       "source": {
@@ -244,19 +264,23 @@
       "candidates": [
         {
           "name": "Sean Scanlon",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Sean_Scanlon"
         },
         {
           "name": "Jennifer S. Tooker",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Jennifer_Tooker"
         },
         {
           "name": "Sean Scanlon",
-          "party": "Working Families Party"
+          "party": "Working Families Party",
+          "ballotpedia": "https://ballotpedia.org/Sean_Scanlon"
         },
         {
           "name": "Sean Scanlon",
-          "party": "Independent Party"
+          "party": "Independent Party",
+          "ballotpedia": "https://ballotpedia.org/Sean_Scanlon"
         }
       ],
       "source": {
@@ -272,15 +296,18 @@
       "candidates": [
         {
           "name": "William Tong",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/William_Tong"
         },
         {
           "name": "John Bolton",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/John_Bolton_(Connecticut)"
         },
         {
           "name": "William Tong",
-          "party": "Working Families Party"
+          "party": "Working Families Party",
+          "ballotpedia": "https://ballotpedia.org/William_Tong"
         }
       ],
       "source": {

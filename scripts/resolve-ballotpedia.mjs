@@ -446,6 +446,7 @@ async function main() {
             checkOffice: match.office || contest.office,
             localKey: where.localKey,
             contestKey: where.contestKey,
+            contestIndex: where.contestIndex,
             candidateIndex: where.candidateIndex,
             match,
           });

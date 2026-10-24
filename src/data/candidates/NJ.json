@@ -15,15 +15,18 @@
       "candidates": [
         {
           "name": "CORY BOOKER",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Cory_Booker"
         },
         {
           "name": "JUSTIN MURPHY",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Justin_Murphy"
         },
         {
           "name": "JOANNE KUNIANSKY",
-          "party": "SOCIALIST WORKERS PARTY"
+          "party": "SOCIALIST WORKERS PARTY",
+          "ballotpedia": "https://ballotpedia.org/Joanne_Kuniansky"
         }
       ],
       "source": {
@@ -39,11 +42,13 @@
       "candidates": [
         {
           "name": "DONALD NORCROSS",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Donald_Norcross"
         },
         {
           "name": "DAMON GALDO",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Damon_Galdo"
         }
       ],
       "source": {
@@ -59,15 +64,18 @@
       "candidates": [
         {
           "name": "JEFF VAN DREW",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jeff_Van_Drew"
         },
         {
           "name": "ZACK MULLOCK",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Zack_Mullock"
         },
         {
           "name": "RAMON MORA JR.",
-          "party": "INDEPENDENT"
+          "party": "INDEPENDENT",
+          "ballotpedia": "https://ballotpedia.org/Ramon_Mora_Jr."
         }
       ],
       "source": {
@@ -87,11 +95,13 @@
         },
         {
           "name": "MICHAEL P. MCGUIRE",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Michael_McGuire_(New_Jersey)"
         },
         {
           "name": "STEVEN WELZER",
-          "party": "Green Party"
+          "party": "Green Party",
+          "ballotpedia": "https://ballotpedia.org/Steven_Welzer"
         }
       ],
       "source": {
@@ -111,7 +121,8 @@
         },
         {
           "name": "RACHEL PEACE",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Rachel_Peace"
         }
       ],
       "source": {
@@ -127,15 +138,18 @@
       "candidates": [
         {
           "name": "JOSH GOTTHEIMER",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Josh_Gottheimer"
         },
         {
           "name": "SEAN KIRRANE",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Sean_Kirrane"
         },
         {
           "name": "ADAM RUEDA",
-          "party": "HUMANE SUSTAINABLE FUTURE"
+          "party": "HUMANE SUSTAINABLE FUTURE",
+          "ballotpedia": "https://ballotpedia.org/Adam_Rueda"
         }
       ],
       "source": {
@@ -151,11 +165,13 @@
       "candidates": [
         {
           "name": "FRANK PALLONE JR.",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Frank_Pallone_Jr."
         },
         {
           "name": "HILLARY HERZIG",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Hillary_Herzig"
         }
       ],
       "source": {
@@ -171,11 +187,13 @@
       "candidates": [
         {
           "name": "THOMAS H. KEAN JR.",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Thomas_Kean_Jr."
         },
         {
           "name": "REBECCA BENNETT",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Rebecca_Bennett_(New_Jersey)"
         },
         {
           "name": "SEAMUS PATRICK O'TOOLE",
@@ -199,15 +217,18 @@
         },
         {
           "name": "ARISTOTLE ELIOPOULOS",
-          "party": "INDEPENDENT"
+          "party": "INDEPENDENT",
+          "ballotpedia": "https://ballotpedia.org/Aristotle_Eliopoulos"
         },
         {
           "name": "CRAIG HONTS",
-          "party": "SOCIALIST WORKERS PARTY"
+          "party": "SOCIALIST WORKERS PARTY",
+          "ballotpedia": "https://ballotpedia.org/Craig_Honts"
         },
         {
           "name": "DA'SHONE HUGHEY",
-          "party": "WE THE PEOPLE"
+          "party": "WE THE PEOPLE",
+          "ballotpedia": "https://ballotpedia.org/Da'Shone_Hughey"
         }
       ],
       "source": {
@@ -231,7 +252,8 @@
         },
         {
           "name": "TERRISA BUKOVINAC",
-          "party": "SAVE OUR BABIES"
+          "party": "SAVE OUR BABIES",
+          "ballotpedia": "https://ballotpedia.org/Terrisa_Bukovinac"
         }
       ],
       "source": {
@@ -247,11 +269,13 @@
       "candidates": [
         {
           "name": "LAMONICA R. MCIVER",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/LaMonica_McIver"
         },
         {
           "name": "CARMEN BUCCO",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Carmen_Bucco"
         }
       ],
       "source": {
@@ -267,15 +291,18 @@
       "candidates": [
         {
           "name": "ANALILIA MEJIA",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Analilia_Mejia"
         },
         {
           "name": "JOE HATHAWAY",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Joe_Hathaway"
         },
         {
           "name": "ALAN B. BOND",
-          "party": "HOPE FOR TOMORROW"
+          "party": "HOPE FOR TOMORROW",
+          "ballotpedia": "https://ballotpedia.org/Alan_Bond"
         }
       ],
       "source": {
@@ -291,15 +318,18 @@
       "candidates": [
         {
           "name": "ADAM HAMAWY",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Adam_Hamawy"
         },
         {
           "name": "ANDRES JINETE",
-          "party": "Green Party"
+          "party": "Green Party",
+          "ballotpedia": "https://ballotpedia.org/Andres_Jinete"
         },
         {
           "name": "WINSTON JORDAN",
-          "party": "GET MONEY OUT"
+          "party": "GET MONEY OUT",
+          "ballotpedia": "https://ballotpedia.org/Winston_Jordan"
         }
       ],
       "source": {

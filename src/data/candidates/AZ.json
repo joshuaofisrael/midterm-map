@@ -20,23 +20,28 @@
       "candidates": [
         {
           "name": "Jay Feely",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jay_Feely"
         },
         {
           "name": "Amish Shah",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Amish_Shah"
         },
         {
           "name": "Dev Gupta",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Dev_Gupta"
         },
         {
           "name": "Monica Alponte",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Monica_Alponte"
         },
         {
           "name": "Gage Thunder",
-          "party": "No party preference"
+          "party": "No party preference",
+          "ballotpedia": "https://ballotpedia.org/Gage_Thunder"
         }
       ],
       "source": {
@@ -52,15 +57,18 @@
       "candidates": [
         {
           "name": "Eli Crane",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Eli_Crane"
         },
         {
           "name": "Jonathan Nez",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jonathan_Nez"
         },
         {
           "name": "Curtis Goodwin",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Curtis_Goodwin"
         }
       ],
       "source": {
@@ -76,19 +84,23 @@
       "candidates": [
         {
           "name": "Yassamin Ansari",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Yassamin_Ansari"
         },
         {
           "name": "Jacob Parkman",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jacob_Parkman"
         },
         {
           "name": "David Redkey",
-          "party": "Green"
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/David_Redkey"
         },
         {
           "name": "Alan Aversa",
-          "party": "No Labels Party"
+          "party": "No Labels Party",
+          "ballotpedia": "https://ballotpedia.org/Alan_Aversa"
         }
       ],
       "source": {
@@ -104,19 +116,23 @@
       "candidates": [
         {
           "name": "Greg Stanton",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Greg_Stanton"
         },
         {
           "name": "Zuhdi Jasser",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Zuhdi_Jasser"
         },
         {
           "name": "Tisha Benoit",
-          "party": "No Labels Party"
+          "party": "No Labels Party",
+          "ballotpedia": "https://ballotpedia.org/Tisha_Benoit"
         },
         {
           "name": "Steven Sanders",
-          "party": "No Labels Party"
+          "party": "No Labels Party",
+          "ballotpedia": "https://ballotpedia.org/Steven_Sanders_(Arizona)"
         }
       ],
       "source": {
@@ -132,11 +148,13 @@
       "candidates": [
         {
           "name": "Mark Lamb",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mark_Lamb"
         },
         {
           "name": "Elizabeth Lee",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Elizabeth_Lee_(Arizona)"
         }
       ],
       "source": {
@@ -152,23 +170,28 @@
       "candidates": [
         {
           "name": "Juan Ciscomani",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Juan_Ciscomani"
         },
         {
           "name": "JoAnna Mendoza",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/JoAnna_Mendoza"
         },
         {
           "name": "Gary Swing",
-          "party": "Green"
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Gary_Swing"
         },
         {
           "name": "Michael Dorland",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Michael_Dorland"
         },
         {
           "name": "Jereme Peters",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Jereme_Peters"
         }
       ],
       "source": {
@@ -184,11 +207,13 @@
       "candidates": [
         {
           "name": "Adelita Grijalva",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Adelita_Grijalva"
         },
         {
           "name": "Daniel Butierez Sr.",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Daniel_Butierez_Sr."
         }
       ],
       "source": {
@@ -204,11 +229,13 @@
       "candidates": [
         {
           "name": "Abraham Hamadeh",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Abraham_Hamadeh"
         },
         {
           "name": "Bernadette Greene Placentia",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Bernadette_Greene_Placentia"
         }
       ],
       "source": {
@@ -224,19 +251,23 @@
       "candidates": [
         {
           "name": "Paul Gosar",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Paul_Gosar"
         },
         {
           "name": "Danielle Sterbinsky",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Danielle_Sterbinsky"
         },
         {
           "name": "G. Seville Hatch",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/G._Seville_Hatch"
         },
         {
           "name": "William Perry",
-          "party": "Independent Party"
+          "party": "Independent Party",
+          "ballotpedia": "https://ballotpedia.org/William_Perry_(Arizona)"
         }
       ],
       "source": {
@@ -252,27 +283,33 @@
       "candidates": [
         {
           "name": "Katie Hobbs",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Katie_Hobbs"
         },
         {
           "name": "Andy Biggs",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Andy_Biggs"
         },
         {
           "name": "Gertritrude Gonzalez",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Gertritrude_Gonzalez"
         },
         {
           "name": "Alice Novoa",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Alice_Novoa"
         },
         {
           "name": "Risa Lombardo",
-          "party": "Green"
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Risa_Lombardo"
         },
         {
           "name": "Teri Hourihan",
-          "party": "No Labels Party"
+          "party": "No Labels Party",
+          "ballotpedia": "https://ballotpedia.org/Teri_Hourihan"
         }
       ],
       "source": {
@@ -288,19 +325,23 @@
       "candidates": [
         {
           "name": "Sine Kerr",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Sine_Kerr"
         },
         {
           "name": "Lisa Castillo",
-          "party": "Green"
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Lisa_Castillo"
         },
         {
           "name": "John Giles",
-          "party": "No party preference"
+          "party": "No party preference",
+          "ballotpedia": "https://ballotpedia.org/John_Giles"
         },
         {
           "name": "Angela Harrolle Mohan",
-          "party": "No party preference"
+          "party": "No party preference",
+          "ballotpedia": "https://ballotpedia.org/Angela_Harrolle_Mohan"
         }
       ],
       "source": {
@@ -316,11 +357,13 @@
       "candidates": [
         {
           "name": "Kris Mayes",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kris_Mayes"
         },
         {
           "name": "Warren Petersen",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Warren_Petersen"
         }
       ],
       "source": {
@@ -336,15 +379,18 @@
       "candidates": [
         {
           "name": "Adrian Fontes",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Adrian_Fontes"
         },
         {
           "name": "Alexander Kolodin",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Alexander_Kolodin"
         },
         {
           "name": "Duwayne Collier",
-          "party": "Green"
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Duwayne_Collier"
         }
       ],
       "source": {
@@ -360,11 +406,13 @@
       "candidates": [
         {
           "name": "Les Presmyk",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Les_Presmyk"
         },
         {
           "name": "Brian Matlock",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Brian_Matlock_(Arizona)"
         }
       ],
       "source": {
@@ -380,19 +428,23 @@
       "candidates": [
         {
           "name": "Kimberly Yee",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kimberly_Yee"
         },
         {
           "name": "Teresa Leyba Ruiz",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Teresa_Leyba_Ruiz_(Arizona)"
         },
         {
           "name": "Gerard Davis",
-          "party": "Green"
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Gerard_Davis"
         },
         {
           "name": "Stephen Neal Jr.",
-          "party": "No Labels Party"
+          "party": "No Labels Party",
+          "ballotpedia": "https://ballotpedia.org/Stephen_Neal_Jr."
         }
       ],
       "source": {
@@ -408,11 +460,13 @@
       "candidates": [
         {
           "name": "Elijah Norton",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Elijah_Norton"
         },
         {
           "name": "Nick Mansour",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Nick_Mansour"
         }
       ],
       "source": {
@@ -428,23 +482,28 @@
       "candidates": [
         {
           "name": "Kevin Thompson",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Thompson_(Arizona)"
         },
         {
           "name": "Ralph Heap",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ralph_Heap"
         },
         {
           "name": "Jonathon Hill",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jonathon_Hill_(Arizona)"
         },
         {
           "name": "Clara Pratte",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Clara_Pratte"
         },
         {
           "name": "Mike Cease",
-          "party": "Green"
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Mike_Cease"
         }
       ],
       "source": {
@@ -460,7 +519,8 @@
       "candidates": [
         {
           "name": "John Lopez IV",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/John_Lopez_IV"
         }
       ],
       "source": {

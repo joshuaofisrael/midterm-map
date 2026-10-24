@@ -7,7 +7,7 @@
       "accessed": "October 17, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 Iowa elections, 2026",
+      "name": "Ballotpedia — Iowa elections, 2026",
       "url": "https://ballotpedia.org/Iowa_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -20,15 +20,18 @@
       "candidates": [
         {
           "name": "Ashley Hinson",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ashley_Hinson"
         },
         {
           "name": "Josh Turek",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Josh_Turek"
         },
         {
           "name": "Thomas Laehn",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Thomas_Laehn"
         }
       ],
       "source": {
@@ -44,15 +47,18 @@
       "candidates": [
         {
           "name": "Mariannette Miller-Meeks",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mariannette_Miller-Meeks"
         },
         {
           "name": "Christina Bohannan",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Christina_Bohannan"
         },
         {
           "name": "Michael Bridgford",
-          "party": "No Party"
+          "party": "No Party",
+          "ballotpedia": "https://ballotpedia.org/Michael_Bridgford"
         }
       ],
       "source": {
@@ -68,19 +74,23 @@
       "candidates": [
         {
           "name": "Joe Mitchell",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Joe_Mitchell_(Iowa)"
         },
         {
           "name": "Lindsay James",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Lindsay_James"
         },
         {
           "name": "Rick Stewart",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Rick_Stewart"
         },
         {
           "name": "Dave Bushaw",
-          "party": "No Party"
+          "party": "No Party",
+          "ballotpedia": "https://ballotpedia.org/Dave_Bushaw"
         }
       ],
       "source": {
@@ -96,11 +106,13 @@
       "candidates": [
         {
           "name": "Zach Nunn",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Zach_Nunn"
         },
         {
           "name": "Sarah Trone Garriott",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sarah_Trone_Garriott"
         }
       ],
       "source": {
@@ -116,11 +128,13 @@
       "candidates": [
         {
           "name": "Chris McGowan",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Chris_McGowan"
         },
         {
           "name": "Dave Dawson",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Dave_Dawson"
         }
       ],
       "source": {
@@ -136,11 +150,13 @@
       "candidates": [
         {
           "name": "Zach Lahn",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Zach_Lahn"
         },
         {
           "name": "Rob Sand",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Rob_Sand"
         }
       ],
       "source": {
@@ -156,11 +172,13 @@
       "candidates": [
         {
           "name": "Derek Wulf",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Derek_Wulf"
         },
         {
           "name": "Dave Muhlbauer",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Dave_Muhlbauer"
         }
       ],
       "source": {
@@ -176,11 +194,13 @@
       "candidates": [
         {
           "name": "Brenna Bird",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Brenna_Bird"
         },
         {
           "name": "Nate Willems",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Nate_Willems"
         }
       ],
       "source": {
@@ -196,11 +216,13 @@
       "candidates": [
         {
           "name": "Paul Pate",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Paul_Pate"
         },
         {
           "name": "Ryan Peterman",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ryan_Peterman"
         }
       ],
       "source": {
@@ -216,11 +238,13 @@
       "candidates": [
         {
           "name": "Chris Cournoyer",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Chris_Cournoyer"
         },
         {
           "name": "Taylor Wettach",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Taylor_Wettach"
         }
       ],
       "source": {
@@ -236,11 +260,13 @@
       "candidates": [
         {
           "name": "Mike Naig",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Naig"
         },
         {
           "name": "Chris Jones",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Chris_Jones_(Iowa)"
         }
       ],
       "source": {
@@ -256,11 +282,13 @@
       "candidates": [
         {
           "name": "Roby Smith",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Roby_Smith"
         },
         {
           "name": "John Norwood",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/John_Norwood"
         }
       ],
       "source": {

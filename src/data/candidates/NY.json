@@ -8,7 +8,7 @@
       "published": "October 7, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 New York elections, 2026",
+      "name": "Ballotpedia — New York elections, 2026",
       "url": "https://ballotpedia.org/New_York_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -53,15 +53,18 @@
       "candidates": [
         {
           "name": "Christopher J. Gallant",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Christopher_Gallant"
         },
         {
           "name": "Nicholas J. Lalota",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Nicholas_J._LaLota"
         },
         {
           "name": "Nicholas J. Lalota",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Nicholas_J._LaLota"
         }
       ],
       "source": {
@@ -77,19 +80,23 @@
       "candidates": [
         {
           "name": "Patrick Halpin",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Patrick_Halpin"
         },
         {
           "name": "Andrew R. Garbarino",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Andrew_Garbarino"
         },
         {
           "name": "Andrew R. Garbarino",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Andrew_Garbarino"
         },
         {
           "name": "Patrick Halpin",
-          "party": "Working Families"
+          "party": "Working Families",
+          "ballotpedia": "https://ballotpedia.org/Patrick_Halpin"
         }
       ],
       "source": {
@@ -109,11 +116,13 @@
         },
         {
           "name": "Michael J. LiPetri Jr",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Michael_LiPetri_Jr."
         },
         {
           "name": "Michael J. LiPetri Jr",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Michael_LiPetri_Jr."
         }
       ],
       "source": {
@@ -129,19 +138,23 @@
       "candidates": [
         {
           "name": "Laura A. Gillen",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Laura_Gillen"
         },
         {
           "name": "Jeanine C. Driscoll",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jeanine_Driscoll"
         },
         {
           "name": "Jeanine C. Driscoll",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Jeanine_Driscoll"
         },
         {
           "name": "Blay Tarnoff",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Blay_Tarnoff"
         }
       ],
       "source": {
@@ -157,15 +170,18 @@
       "candidates": [
         {
           "name": "Gregory W. Meeks",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Gregory_Meeks"
         },
         {
           "name": "George Marsh",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/George_Marsh"
         },
         {
           "name": "George Marsh",
-          "party": "Queens United"
+          "party": "Queens United",
+          "ballotpedia": "https://ballotpedia.org/George_Marsh"
         }
       ],
       "source": {
@@ -181,15 +197,18 @@
       "candidates": [
         {
           "name": "Grace Meng",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Grace_Meng"
         },
         {
           "name": "Joseph Chou",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Joseph_Chou"
         },
         {
           "name": "Joseph Chou",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Joseph_Chou"
         }
       ],
       "source": {
@@ -205,23 +224,28 @@
       "candidates": [
         {
           "name": "Claire Valdez",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Claire_Valdez"
         },
         {
           "name": "Melvin Rivera",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Melvin_Rivera_(New_York)"
         },
         {
           "name": "Melvin Rivera",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Melvin_Rivera_(New_York)"
         },
         {
           "name": "Claire Valdez",
-          "party": "Working Families"
+          "party": "Working Families",
+          "ballotpedia": "https://ballotpedia.org/Claire_Valdez"
         },
         {
           "name": "Priscilla Ghaznavi",
-          "party": "Our Future"
+          "party": "Our Future",
+          "ballotpedia": "https://ballotpedia.org/Priscilla_Ghaznavi"
         }
       ],
       "source": {
@@ -237,15 +261,18 @@
       "candidates": [
         {
           "name": "Hakeem S. Jeffries",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Hakeem_Jeffries"
         },
         {
           "name": "Lewis Mizrahi",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Lewis_Mizrahi"
         },
         {
           "name": "Lewis Mizrahi",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Lewis_Mizrahi"
         }
       ],
       "source": {
@@ -261,7 +288,8 @@
       "candidates": [
         {
           "name": "Yvette D. Clarke",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Yvette_Clarke"
         },
         {
           "name": "Joel Azumah",
@@ -285,19 +313,23 @@
       "candidates": [
         {
           "name": "Brad Lander",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Brad_Lander"
         },
         {
           "name": "Jennifer E. Moore",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jennifer_Moore_(New_York)"
         },
         {
           "name": "Jennifer E. Moore",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Jennifer_Moore_(New_York)"
         },
         {
           "name": "Brad Lander",
-          "party": "Working Families"
+          "party": "Working Families",
+          "ballotpedia": "https://ballotpedia.org/Brad_Lander"
         }
       ],
       "source": {
@@ -317,11 +349,13 @@
         },
         {
           "name": "Nicole Malliotakis",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Nicole_Malliotakis"
         },
         {
           "name": "Nicole Malliotakis",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Nicole_Malliotakis"
         }
       ],
       "source": {
@@ -337,23 +371,28 @@
       "candidates": [
         {
           "name": "Micah C. Lasher",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Micah_Lasher"
         },
         {
           "name": "Caroline Shinkle",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Caroline_Shinkle"
         },
         {
           "name": "Caroline Shinkle",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Caroline_Shinkle"
         },
         {
           "name": "Wilneida Negron",
-          "party": "For All of Us"
+          "party": "For All of Us",
+          "ballotpedia": "https://ballotpedia.org/Wilneida_Negron"
         },
         {
           "name": "Karen Ortiz",
-          "party": "Karen Ortiz"
+          "party": "Karen Ortiz",
+          "ballotpedia": "https://ballotpedia.org/Karen_Ortiz"
         }
       ],
       "source": {
@@ -369,7 +408,8 @@
       "candidates": [
         {
           "name": "Darializa Avila Chevalier",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Darializa_Avila_Chevalier"
         },
         {
           "name": "Jomo M. Williams",
@@ -377,7 +417,8 @@
         },
         {
           "name": "Darializa Avila Chevalier",
-          "party": "Working Families"
+          "party": "Working Families",
+          "ballotpedia": "https://ballotpedia.org/Darializa_Avila_Chevalier"
         }
       ],
       "source": {
@@ -393,19 +434,23 @@
       "candidates": [
         {
           "name": "Alexandria Ocasio-Cortez",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Alexandria_Ocasio-Cortez"
         },
         {
           "name": "Diamant Hysenaj",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Diamant_Hysenaj"
         },
         {
           "name": "Diamant Hysenaj",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Diamant_Hysenaj"
         },
         {
           "name": "Alexandria Ocasio-Cortez",
-          "party": "Working Families"
+          "party": "Working Families",
+          "ballotpedia": "https://ballotpedia.org/Alexandria_Ocasio-Cortez"
         }
       ],
       "source": {
@@ -421,23 +466,28 @@
       "candidates": [
         {
           "name": "Ritchie Torres",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ritchie_Torres"
         },
         {
           "name": "Stylo Sapaskis",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Stylo_Sapaskis"
         },
         {
           "name": "Gonzalo Duran",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Gonzalo_Duran"
         },
         {
           "name": "Andre Easton",
-          "party": "Socialism PSL"
+          "party": "Socialism PSL",
+          "ballotpedia": "https://ballotpedia.org/Andre_Easton"
         },
         {
           "name": "Jose Vega",
-          "party": "Speak The Truth"
+          "party": "Speak The Truth",
+          "ballotpedia": "https://ballotpedia.org/Jose_Vega"
         }
       ],
       "source": {
@@ -453,11 +503,13 @@
       "candidates": [
         {
           "name": "George S. Latimer",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/George_Latimer_(New_York)"
         },
         {
           "name": "Joseph J. Cinquemani",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Joseph_Cinquemani"
         }
       ],
       "source": {
@@ -473,7 +525,8 @@
       "candidates": [
         {
           "name": "Cait Conley",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Cait_Conley"
         },
         {
           "name": "Mike Lawler",
@@ -485,7 +538,8 @@
         },
         {
           "name": "Cait Conley",
-          "party": "Working Families"
+          "party": "Working Families",
+          "ballotpedia": "https://ballotpedia.org/Cait_Conley"
         }
       ],
       "source": {
@@ -501,7 +555,8 @@
       "candidates": [
         {
           "name": "Pat Ryan",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Pat_Ryan_(New_York)"
         },
         {
           "name": "Jackie Mary Auringer",
@@ -513,7 +568,8 @@
         },
         {
           "name": "Pat Ryan",
-          "party": "Working Families"
+          "party": "Working Families",
+          "ballotpedia": "https://ballotpedia.org/Pat_Ryan_(New_York)"
         }
       ],
       "source": {
@@ -529,19 +585,23 @@
       "candidates": [
         {
           "name": "Josh Riley",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Josh_Riley"
         },
         {
           "name": "Peter K. Oberacker",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Peter_Oberacker"
         },
         {
           "name": "Peter K. Oberacker",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Peter_Oberacker"
         },
         {
           "name": "Josh Riley",
-          "party": "Working Families"
+          "party": "Working Families",
+          "ballotpedia": "https://ballotpedia.org/Josh_Riley"
         }
       ],
       "source": {
@@ -557,19 +617,23 @@
       "candidates": [
         {
           "name": "Paul D. Tonko",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Paul_Tonko"
         },
         {
           "name": "Ralph F. Ambrosio",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ralph_Ambrosio"
         },
         {
           "name": "Ralph F. Ambrosio",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Ralph_Ambrosio"
         },
         {
           "name": "Paul D. Tonko",
-          "party": "Working Families"
+          "party": "Working Families",
+          "ballotpedia": "https://ballotpedia.org/Paul_Tonko"
         }
       ],
       "source": {
@@ -585,15 +649,18 @@
       "candidates": [
         {
           "name": "Blake Gendebien",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Blake_Gendebien"
         },
         {
           "name": "Anthony Constantino",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Anthony_Constantino"
         },
         {
           "name": "Anthony Constantino",
-          "party": "Taxpayer Rights"
+          "party": "Taxpayer Rights",
+          "ballotpedia": "https://ballotpedia.org/Anthony_Constantino"
         }
       ],
       "source": {
@@ -609,19 +676,23 @@
       "candidates": [
         {
           "name": "John W. Mannion",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/John_Mannion"
         },
         {
           "name": "Kailee Buller",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kailee_Buller"
         },
         {
           "name": "Kailee Buller",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Kailee_Buller"
         },
         {
           "name": "John W. Mannion",
-          "party": "Working Families"
+          "party": "Working Families",
+          "ballotpedia": "https://ballotpedia.org/John_Mannion"
         }
       ],
       "source": {
@@ -637,7 +708,8 @@
       "candidates": [
         {
           "name": "Aaron Gies",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Aaron_Gies"
         },
         {
           "name": "Nicholas A. Langworthy",
@@ -649,7 +721,8 @@
         },
         {
           "name": "Aaron Gies",
-          "party": "Working Families"
+          "party": "Working Families",
+          "ballotpedia": "https://ballotpedia.org/Aaron_Gies"
         }
       ],
       "source": {
@@ -665,19 +738,23 @@
       "candidates": [
         {
           "name": "Alissa J. Ellman",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Alissa_Ellman"
         },
         {
           "name": "Claudia Tenney",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Claudia_Tenney"
         },
         {
           "name": "Claudia Tenney",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Claudia_Tenney"
         },
         {
           "name": "Alissa J. Ellman",
-          "party": "Working Families"
+          "party": "Working Families",
+          "ballotpedia": "https://ballotpedia.org/Alissa_Ellman"
         }
       ],
       "source": {
@@ -693,19 +770,23 @@
       "candidates": [
         {
           "name": "Joseph D. Morelle",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Joseph_Morelle"
         },
         {
           "name": "Virginia E. McIntyre",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Virginia_McIntyre"
         },
         {
           "name": "Virginia E. McIntyre",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Virginia_McIntyre"
         },
         {
           "name": "Joseph D. Morelle",
-          "party": "Working Families"
+          "party": "Working Families",
+          "ballotpedia": "https://ballotpedia.org/Joseph_Morelle"
         }
       ],
       "source": {
@@ -725,11 +806,13 @@
         },
         {
           "name": "Dennis E. Hannon",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Dennis_Hannon"
         },
         {
           "name": "Dennis E. Hannon",
-          "party": "Conservative"
+          "party": "Conservative",
+          "ballotpedia": "https://ballotpedia.org/Dennis_Hannon"
         }
       ],
       "source": {
@@ -745,11 +828,13 @@
       "candidates": [
         {
           "name": "Letitia James",
-          "party": "Democratic, Working Families Party"
+          "party": "Democratic, Working Families Party",
+          "ballotpedia": "https://ballotpedia.org/Letitia_James"
         },
         {
           "name": "Saritha Komatireddy",
-          "party": "Republican, Conservative Party"
+          "party": "Republican, Conservative Party",
+          "ballotpedia": "https://ballotpedia.org/Saritha_Komatireddy"
         }
       ],
       "source": {
@@ -765,11 +850,13 @@
       "candidates": [
         {
           "name": "Thomas P. DiNapoli",
-          "party": "Democratic, Working Families Party"
+          "party": "Democratic, Working Families Party",
+          "ballotpedia": "https://ballotpedia.org/Thomas_DiNapoli"
         },
         {
           "name": "Joseph Hernandez",
-          "party": "Republican, Conservative Party"
+          "party": "Republican, Conservative Party",
+          "ballotpedia": "https://ballotpedia.org/Joseph_Hernandez_(New_York)"
         }
       ],
       "source": {

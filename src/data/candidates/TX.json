@@ -8,7 +8,7 @@
       "published": "August 28, 2026"
     },
     {
-      "name": "Ballotpedia \u2014 Texas elections, 2026",
+      "name": "Ballotpedia — Texas elections, 2026",
       "url": "https://ballotpedia.org/Texas_elections,_2026",
       "accessed": "October 24, 2026"
     }
@@ -21,15 +21,18 @@
       "candidates": [
         {
           "name": "KEN PAXTON",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Ken_Paxton"
         },
         {
           "name": "JAMES TALARICO",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/James_Talarico"
         },
         {
           "name": "TED BROWN",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Ted_Brown_(Texas)"
         }
       ],
       "source": {
@@ -45,11 +48,13 @@
       "candidates": [
         {
           "name": "LANCE GOODEN",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Lance_Gooden"
         },
         {
           "name": "CHELSEY HOCKETT",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Chelsey_Hockett"
         }
       ],
       "source": {
@@ -65,15 +70,18 @@
       "candidates": [
         {
           "name": "GREG ABBOTT",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Greg_Abbott"
         },
         {
           "name": "GINA HINOJOSA",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Gina_Hinojosa"
         },
         {
           "name": "PAT DIXON",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Pat_Dixon"
         }
       ],
       "source": {
@@ -89,11 +97,13 @@
       "candidates": [
         {
           "name": "TOM SELL",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Tom_Sell"
         },
         {
           "name": "KYLE RABLE",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Kyle_Rable"
         }
       ],
       "source": {
@@ -109,11 +119,13 @@
       "candidates": [
         {
           "name": "BRIAN BABIN",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Brian_Babin"
         },
         {
           "name": "RHONDA HART",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Rhonda_Hart"
         }
       ],
       "source": {
@@ -129,11 +141,13 @@
       "candidates": [
         {
           "name": "MONICA DE LA CRUZ",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Monica_De_La_Cruz"
         },
         {
           "name": "BOBBY PULIDO",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Bobby_Pulido"
         }
       ],
       "source": {
@@ -149,11 +163,13 @@
       "candidates": [
         {
           "name": "MICHAEL CLOUD",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Michael_Cloud_(Texas)"
         },
         {
           "name": "TANYA LLOYD",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Tanya_Lloyd"
         }
       ],
       "source": {
@@ -169,11 +185,13 @@
       "candidates": [
         {
           "name": "RONNY JACKSON",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Ronny_Jackson"
         },
         {
           "name": "MARK NAIR",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Mark_Nair"
         }
       ],
       "source": {
@@ -189,11 +207,13 @@
       "candidates": [
         {
           "name": "TANO E. TIJERINA",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Tano_Tijerina"
         },
         {
           "name": "HENRY CUELLAR",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Henry_Cuellar"
         }
       ],
       "source": {
@@ -209,11 +229,13 @@
       "candidates": [
         {
           "name": "MARK TEIXEIRA",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Mark_Teixeira"
         },
         {
           "name": "KRISTIN HOOK",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Kristin_Hook"
         }
       ],
       "source": {
@@ -229,11 +251,13 @@
       "candidates": [
         {
           "name": "CHRIS GOBER",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Chris_Gober"
         },
         {
           "name": "CAITLIN ROURK",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Caitlin_Rourk"
         }
       ],
       "source": {
@@ -249,11 +273,13 @@
       "candidates": [
         {
           "name": "PETE SESSIONS",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Pete_Sessions"
         },
         {
           "name": "CASEY SHEPARD",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Casey_Shepard"
         }
       ],
       "source": {
@@ -269,15 +295,18 @@
       "candidates": [
         {
           "name": "JOHN CARTER",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/John_Carter_(Texas)"
         },
         {
           "name": "JUSTIN EARLY",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Justin_Early"
         },
         {
           "name": "GREG STOKER",
-          "party": "GRE"
+          "party": "GRE",
+          "ballotpedia": "https://ballotpedia.org/Greg_Stoker"
         }
       ],
       "source": {
@@ -297,7 +326,8 @@
         },
         {
           "name": "JOAQUIN CASTRO",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Joaquin_Castro"
         }
       ],
       "source": {
@@ -313,11 +343,13 @@
       "candidates": [
         {
           "name": "BRANDON HERRERA",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Brandon_Herrera"
         },
         {
           "name": "KATY PADILLA STOUT",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Katy_Padilla_Stout"
         }
       ],
       "source": {
@@ -333,11 +365,13 @@
       "candidates": [
         {
           "name": "CARLOS DE LA CRUZ",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Carlos_De_La_Cruz"
         },
         {
           "name": "JOHNNY C. GARCIA",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Johnny_Garcia_(Texas_congressional_candidate)"
         }
       ],
       "source": {
@@ -353,11 +387,13 @@
       "candidates": [
         {
           "name": "NATHANIEL MORAN",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Nathaniel_Moran"
         },
         {
           "name": "YOLANDA R. PRINCE",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Yolanda_Prince"
         }
       ],
       "source": {
@@ -373,11 +409,13 @@
       "candidates": [
         {
           "name": "PAT FALLON",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Pat_Fallon"
         },
         {
           "name": "JASON PEARCE",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Jason_Pearce"
         }
       ],
       "source": {
@@ -393,11 +431,13 @@
       "candidates": [
         {
           "name": "RANDY WEBER",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Randy_Weber"
         },
         {
           "name": "THURMAN BILL BARTIE",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Thurman_Bill_Bartie"
         }
       ],
       "source": {
@@ -413,11 +453,13 @@
       "candidates": [
         {
           "name": "TREVER NEHLS",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Trever_Nehls"
         },
         {
           "name": "MARQUETTE GREENE-SCOTT",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Marquette_Greene-Scott"
         }
       ],
       "source": {
@@ -433,11 +475,13 @@
       "candidates": [
         {
           "name": "AUGUST PFLUGER",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/August_Pfluger"
         },
         {
           "name": "CLAIRE REYNOLDS",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Claire_Reynolds"
         }
       ],
       "source": {
@@ -453,11 +497,13 @@
       "candidates": [
         {
           "name": "ROGER WILLIAMS",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Roger_Williams_(Texas)"
         },
         {
           "name": "DIONE SIMS",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Dione_Sims"
         }
       ],
       "source": {
@@ -473,19 +519,23 @@
       "candidates": [
         {
           "name": "ERIC FLORES",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Eric_Flores_(Texas)"
         },
         {
           "name": "VICENTE GONZALEZ",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Vicente_Gonzalez_Jr."
         },
         {
           "name": "CHRIS ROYAL",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Chris_Royal"
         },
         {
           "name": "EDDIE ESPINOZA",
-          "party": "GRE"
+          "party": "GRE",
+          "ballotpedia": "https://ballotpedia.org/Eddie_Espinoza"
         }
       ],
       "source": {
@@ -501,11 +551,13 @@
       "candidates": [
         {
           "name": "JACE YARBROUGH",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Jace_Yarbrough"
         },
         {
           "name": "DAN BARRIOS",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Dan_Barrios"
         }
       ],
       "source": {
@@ -521,11 +573,13 @@
       "candidates": [
         {
           "name": "KEITH SELF",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Keith_Self"
         },
         {
           "name": "EVAN HUNT",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Evan_Hunt_(Texas)"
         }
       ],
       "source": {
@@ -541,15 +595,18 @@
       "candidates": [
         {
           "name": "BRANDON GILL",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Brandon_Gill"
         },
         {
           "name": "STEVEN SHOOK",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Steven_Shook"
         },
         {
           "name": "PHIL GRAY",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Phil_Gray"
         }
       ],
       "source": {
@@ -565,11 +622,13 @@
       "candidates": [
         {
           "name": "JAKE ELLZEY",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Jake_Ellzey"
         },
         {
           "name": "DANNY MINTON",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Danny_Minton"
         }
       ],
       "source": {
@@ -585,11 +644,13 @@
       "candidates": [
         {
           "name": "BETH VAN DUYNE",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Beth_Van_Duyne"
         },
         {
           "name": "KEVIN BURGE",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Burge_(Texas)"
         }
       ],
       "source": {
@@ -605,11 +666,13 @@
       "candidates": [
         {
           "name": "EVERETT JACKSON",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Everett_Jackson"
         },
         {
           "name": "FREDERICK D. HAYNES III",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Frederick_Haynes"
         }
       ],
       "source": {
@@ -629,7 +692,8 @@
         },
         {
           "name": "COLIN ALLRED",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Colin_Allred"
         }
       ],
       "source": {
@@ -645,11 +709,13 @@
       "candidates": [
         {
           "name": "ADAM BAUMAN",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Adam_Bauman"
         },
         {
           "name": "VERONICA ESCOBAR",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Veronica_Escobar"
         }
       ],
       "source": {
@@ -665,15 +731,18 @@
       "candidates": [
         {
           "name": "ALEXANDER HALE",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Alexander_Hale"
         },
         {
           "name": "LIZZIE PANNILL FLETCHER",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Lizzie_Pannill_Fletcher"
         },
         {
           "name": "ESPOIR NGABO",
-          "party": "GRE"
+          "party": "GRE",
+          "ballotpedia": "https://ballotpedia.org/Espoir_Ngabo"
         }
       ],
       "source": {
@@ -689,11 +758,13 @@
       "candidates": [
         {
           "name": "STEVE TOTH",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Steve_Toth"
         },
         {
           "name": "SHAUN FINNIE",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Shaun_Finnie"
         }
       ],
       "source": {
@@ -713,7 +784,8 @@
         },
         {
           "name": "LAURA JONES",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Laura_Jones_(Texas)"
         }
       ],
       "source": {
@@ -729,11 +801,13 @@
       "candidates": [
         {
           "name": "ALEX MEALER",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Alex_Mealer"
         },
         {
           "name": "LETICIA GUTIERREZ",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Leticia_Gutierrez"
         }
       ],
       "source": {
@@ -769,11 +843,13 @@
       "candidates": [
         {
           "name": "MARTHA FIERRO",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Martha_Fierro"
         },
         {
           "name": "SYLVIA GARCIA",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Sylvia_Garcia"
         }
       ],
       "source": {
@@ -789,15 +865,18 @@
       "candidates": [
         {
           "name": "JON BONCK",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Jon_Bonck"
         },
         {
           "name": "MELISSA MCDONOUGH",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Melissa_McDonough"
         },
         {
           "name": "ALEX MCMENEMY",
-          "party": "GRE"
+          "party": "GRE",
+          "ballotpedia": "https://ballotpedia.org/Alex_McMenemy"
         }
       ],
       "source": {
@@ -813,7 +892,8 @@
       "candidates": [
         {
           "name": "CRAIG GOLDMAN",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Craig_Goldman"
         }
       ],
       "source": {
@@ -829,7 +909,8 @@
       "candidates": [
         {
           "name": "GREG CASAR",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Greg_Casar"
         }
       ],
       "source": {
@@ -845,27 +926,33 @@
       "candidates": [
         {
           "name": "Dan Patrick",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Dan_Patrick"
         },
         {
           "name": "Vikki Goodwin",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Vikki_Goodwin"
         },
         {
           "name": "Kevin McCormick",
-          "party": "Green"
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Kevin_McCormick_(Texas)"
         },
         {
           "name": "Arturo Espinosa",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Arturo_Espinosa"
         },
         {
           "name": "Stephen Samuelson",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Stephen_Samuelson_(Texas)"
         },
         {
           "name": "Anthony Cristo",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Anthony_Cristo"
         }
       ],
       "source": {
@@ -881,15 +968,18 @@
       "candidates": [
         {
           "name": "Mayes Middleton",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mayes_Middleton"
         },
         {
           "name": "Nathan Johnson",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Nathan_Johnson_(Texas)"
         },
         {
           "name": "Tom Oxford",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Tom_Oxford"
         }
       ],
       "source": {
@@ -905,15 +995,18 @@
       "candidates": [
         {
           "name": "Nate Sheets",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Nate_Sheets"
         },
         {
           "name": "Clayton Tucker",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Clayton_Tucker"
         },
         {
           "name": "Austin Kelly",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Austin_Kelly"
         }
       ],
       "source": {
@@ -929,19 +1022,23 @@
       "candidates": [
         {
           "name": "Donald Huffines",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Donald_Huffines"
         },
         {
           "name": "Sarah Eckhardt",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sarah_Eckhardt"
         },
         {
           "name": "Shehla Faizi",
-          "party": "Green"
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Shehla_Faizi"
         },
         {
           "name": "V. Alonzo Echavarria-Garza",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/V._Alonzo_Echavarria-Garza"
         }
       ],
       "source": {
@@ -957,15 +1054,18 @@
       "candidates": [
         {
           "name": "Dawn Buckingham",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Dawn_Buckingham"
         },
         {
           "name": "Benjamin Flores",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Benjamin_Flores"
         },
         {
           "name": "Neil Snider",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Neil_Snider_(Texas)"
         }
       ],
       "source": {
@@ -981,15 +1081,18 @@
       "candidates": [
         {
           "name": "Bo French",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bo_French"
         },
         {
           "name": "Jon Rosenthal",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jon_Rosenthal"
         },
         {
           "name": "Arthur DiBianca",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Arthur_DiBianca"
         }
       ],
       "source": {
@@ -1005,11 +1108,13 @@
       "candidates": [
         {
           "name": "Jimmy Blacklock",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jimmy_Blacklock"
         },
         {
           "name": "Maggie Ellis",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Maggie_Ellis"
         }
       ],
       "source": {
@@ -1025,15 +1130,18 @@
       "candidates": [
         {
           "name": "Thomas Smith",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Thomas_Smith_(Texas)"
         },
         {
           "name": "Okey Anyiam",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Okey_Anyiam"
         },
         {
           "name": "Mark Ash",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Mark_Ash"
         }
       ],
       "source": {
@@ -1049,11 +1157,13 @@
       "candidates": [
         {
           "name": "Kevin Patrick Yeary",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Patrick_Yeary"
         },
         {
           "name": "Audra Riley",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Audra_Riley"
         }
       ],
       "source": {
@@ -1069,11 +1179,13 @@
       "candidates": [
         {
           "name": "John Messinger",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/John_Messinger"
         },
         {
           "name": "Holly Taylor",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Holly_Taylor_(Texas)"
         }
       ],
       "source": {
@@ -1089,11 +1201,13 @@
       "candidates": [
         {
           "name": "James Sullivan",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/James_Sullivan_(Texas)"
         },
         {
           "name": "Chari Kelly",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Chari_Kelly"
         }
       ],
       "source": {
@@ -1109,11 +1223,13 @@
       "candidates": [
         {
           "name": "Kyle Hawkins",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kyle_Hawkins"
         },
         {
           "name": "Kristen Hawkins",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kristen_Hawkins"
         }
       ],
       "source": {
@@ -1129,11 +1245,13 @@
       "candidates": [
         {
           "name": "Brett Busby",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Brett_Busby"
         },
         {
           "name": "Gisela Triana",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Gisela_Triana"
         }
       ],
       "source": {

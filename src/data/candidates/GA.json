@@ -15,11 +15,13 @@
       "candidates": [
         {
           "name": "Mike Collins",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Mike_Collins_(Georgia)"
         },
         {
           "name": "Jon Ossoff",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Jon_Ossoff"
         }
       ],
       "source": {
@@ -35,7 +37,8 @@
       "candidates": [
         {
           "name": "Rick Jackson",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Rick_Jackson_(Georgia)"
         },
         {
           "name": "Keisha Lance Bottoms",
@@ -55,11 +58,13 @@
       "candidates": [
         {
           "name": "Greg Dolezal",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Greg_Dolezal"
         },
         {
           "name": "Josh McLaurin",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Josh_McLaurin"
         }
       ],
       "source": {
@@ -75,11 +80,13 @@
       "candidates": [
         {
           "name": "Tim Fleming",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Tim_Fleming_(Georgia)"
         },
         {
           "name": "Penny Brown Reynolds",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Penny_Brown_Reynolds"
         }
       ],
       "source": {
@@ -95,11 +102,13 @@
       "candidates": [
         {
           "name": "Brian Strickland",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Brian_Strickland"
         },
         {
           "name": "Tanya Miller",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Tanya_Miller"
         }
       ],
       "source": {
@@ -115,11 +124,13 @@
       "candidates": [
         {
           "name": "Tyler Harper",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Tyler_Harper"
         },
         {
           "name": "Katherine E. Juhan-Arnold",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Katherine_Juhan-Arnold"
         }
       ],
       "source": {
@@ -135,11 +146,13 @@
       "candidates": [
         {
           "name": "John King",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/John_King_(Georgia)"
         },
         {
           "name": "Keisha Sean Waites",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Keisha_Sean_Waites"
         }
       ],
       "source": {
@@ -155,11 +168,13 @@
       "candidates": [
         {
           "name": "Richard Woods",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Richard_Woods_(Georgia)"
         },
         {
           "name": "Lydia Powell",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Lydia_Powell"
         }
       ],
       "source": {
@@ -174,12 +189,14 @@
       "district": null,
       "candidates": [
         {
-          "name": "B\u00e1rbara Rivera Holmes",
-          "party": "R"
+          "name": "Bárbara Rivera Holmes",
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/B%C3%A1rbara_Rivera_Holmes"
         },
         {
           "name": "Nikki Porcher",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Nikki_Porcher"
         }
       ],
       "source": {
@@ -195,11 +212,13 @@
       "candidates": [
         {
           "name": "James \"Jim\" Kingston",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/James_Kingston_(Georgia)"
         },
         {
           "name": "Amanda Hollowell",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Amanda_Hollowell"
         }
       ],
       "source": {
@@ -215,11 +234,13 @@
       "candidates": [
         {
           "name": "Houston Gaines",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Houston_Gaines"
         },
         {
           "name": "Pamela \"Pam\" Delancy",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Pamela_DeLancy"
         }
       ],
       "source": {
@@ -235,11 +256,13 @@
       "candidates": [
         {
           "name": "John Cowan",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/John_Cowan"
         },
         {
           "name": "Chris Harden",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Chris_Harden"
         }
       ],
       "source": {
@@ -255,11 +278,13 @@
       "candidates": [
         {
           "name": "Rick W. Allen",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Rick_Allen"
         },
         {
           "name": "Ceretta Smith",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Ceretta_Smith"
         }
       ],
       "source": {
@@ -275,11 +300,13 @@
       "candidates": [
         {
           "name": "Jonathan Chavez",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Jonathan_Chavez"
         },
         {
           "name": "Jasmine Clark",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Jasmine_Clark"
         }
       ],
       "source": {
@@ -299,7 +326,8 @@
         },
         {
           "name": "Shawn Harris",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Shawn_Harris_(Georgia)"
         }
       ],
       "source": {
@@ -315,11 +343,13 @@
       "candidates": [
         {
           "name": "Matt Day",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Matt_Day_(Georgia)"
         },
         {
           "name": "Sanford Bishop",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Sanford_Bishop_Jr."
         }
       ],
       "source": {
@@ -335,11 +365,13 @@
       "candidates": [
         {
           "name": "Brian Jack",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Brian_Jack"
         },
         {
           "name": "Maura Keller",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Maura_Keller"
         }
       ],
       "source": {
@@ -375,11 +407,13 @@
       "candidates": [
         {
           "name": "John \"BONGO\" Salvesen",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/John_Salvesen"
         },
         {
           "name": "Nikema Williams",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Nikema_Williams"
         }
       ],
       "source": {
@@ -395,11 +429,13 @@
       "candidates": [
         {
           "name": "Kevin E. Martin",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Martin_(Georgia)"
         },
         {
           "name": "LUCY MCBATH",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Lucy_McBath"
         }
       ],
       "source": {
@@ -415,11 +451,13 @@
       "candidates": [
         {
           "name": "Rich McCormick",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Rich_McCormick"
         },
         {
           "name": "Tony Kozycki",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Tony_Kozycki"
         }
       ],
       "source": {
@@ -435,11 +473,13 @@
       "candidates": [
         {
           "name": "Austin Scott",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Austin_Scott"
         },
         {
           "name": "Kelly Esti",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Kelly_Esti"
         }
       ],
       "source": {
@@ -455,11 +495,13 @@
       "candidates": [
         {
           "name": "Andrew Clyde",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Andrew_Clyde"
         },
         {
           "name": "Caitlyn Gegen",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Caitlyn_Gegen"
         }
       ],
       "source": {

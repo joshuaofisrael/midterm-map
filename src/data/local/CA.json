@@ -41,7 +41,8 @@
         "candidates": [
           {
             "name": "CHRISTOPHER SAENZ",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Christopher_Saenz_(Baldwin_Park_City_Clerk,_California,_candidate_2026)"
           }
         ]
       },
@@ -51,7 +52,8 @@
         "candidates": [
           {
             "name": "JOANNA VALENZUELA",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Joanna_Valenzuela_(Baldwin_Park_City_Treasurer,_California,_candidate_2026)"
           }
         ]
       },
@@ -119,7 +121,8 @@
         "candidates": [
           {
             "name": "KIMBERLEY CLARK",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Kimberley_Clark_(Burbank_City_Clerk,_California,_candidate_2026)"
           }
         ]
       },
@@ -129,7 +132,8 @@
         "candidates": [
           {
             "name": "KRYSTLE PALMER",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Krystle_Palmer_(Burbank_City_Treasurer,_California,_candidate_2026)"
           }
         ]
       },
@@ -190,7 +194,8 @@
         "candidates": [
           {
             "name": "KHALEAH K. BRADSHAW",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Khaleah_K._Bradshaw_(Carson_City_Clerk,_California,_candidate_2026)"
           }
         ]
       },
@@ -200,7 +205,8 @@
         "candidates": [
           {
             "name": "MONICA COOPER",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Monica_Cooper_(Carson_City_Treasurer,_California,_candidate_2026)"
           }
         ]
       },
@@ -249,11 +255,13 @@
         "candidates": [
           {
             "name": "ANDRE SPICER",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Andre_Spicer_(Mayor_of_Compton,_California,_candidate_2026)"
           },
           {
             "name": "EMMA SHARIF",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Emma_Sharif_(Mayor_of_Compton,_California,_candidate_2026)"
           }
         ]
       }
@@ -346,11 +354,13 @@
         "candidates": [
           {
             "name": "GABRIEL RAMIREZ",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Gabriel_Ramirez_(El_Monte_City_Clerk,_California,_candidate_2026)"
           },
           {
             "name": "JERRY VELASCO",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Jerry_Velasco_(El_Monte_City_Clerk,_California,_candidate_2026)"
           }
         ]
       },
@@ -360,15 +370,18 @@
         "candidates": [
           {
             "name": "MARIA SANTAY",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Maria_Santay_(El_Monte_City_Treasurer,_California,_candidate_2026)"
           },
           {
             "name": "MARYANN G. BARRIOS",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Maryann_G._Barrios_(El_Monte_City_Treasurer,_California,_candidate_2026)"
           },
           {
             "name": "XIAOHU \"JEFF\" MENG",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Xiaohu_Meng_(El_Monte_City_Treasurer,_California,_candidate_2026)"
           }
         ]
       },
@@ -378,15 +391,18 @@
         "candidates": [
           {
             "name": "JESSICA ANCONA",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Jessica_Ancona_(Mayor_of_El_Monte,_California,_candidate_2026)"
           },
           {
             "name": "VIVIANA LONGORIA",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Viviana_Longoria_(Mayor_of_El_Monte,_California,_candidate_2026)"
           },
           {
             "name": "CHRISTINE SARMIENTO",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Christine_Sarmiento_(Mayor_of_El_Monte,_California,_candidate_2026)"
           }
         ]
       }
@@ -456,7 +472,8 @@
         "candidates": [
           {
             "name": "DAYNA S. WILLIAMS-HUNTER",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Dayna_S._Williams-Hunter_(Hawthorne_City_Clerk,_California,_candidate_2026)"
           }
         ]
       },
@@ -466,11 +483,13 @@
         "candidates": [
           {
             "name": "L. DAVID PATTERSON",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/L._David_Patterson_(Hawthorne_City_Treasurer,_California,_candidate_2026)"
           },
           {
             "name": "RAYMOND VERGARA",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Raymond_Vergara_(Hawthorne_City_Treasurer,_California,_candidate_2026)"
           }
         ]
       },
@@ -542,27 +561,33 @@
         "candidates": [
           {
             "name": "FRE'DRISHA \"SHA\" DIXION",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Fre'Drisha_Dixion_(Mayor_of_Inglewood,_California,_candidate_2026)"
           },
           {
             "name": "JAMES T. BUTTS JR.",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/James_T._Butts_Jr._(Mayor_of_Inglewood,_California,_candidate_2026)"
           },
           {
             "name": "ARTURO MARTINEZ",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Arturo_Martinez_(Mayor_of_Inglewood,_California,_candidate_2026)"
           },
           {
             "name": "GLORIA D. GRAY",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Gloria_D._Gray_(Mayor_of_Inglewood,_California,_candidate_2026)"
           },
           {
             "name": "RAINA CARRILLO",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Raina_Carrillo_(Mayor_of_Inglewood,_California,_candidate_2026)"
           },
           {
             "name": "JOE SOTO",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Joe_Soto_(Mayor_of_Inglewood,_California,_candidate_2026)"
           }
         ]
       },
@@ -604,7 +629,8 @@
         "candidates": [
           {
             "name": "ERICA HARBISON",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Erica_Harbison_(Lawndale_City_Clerk,_California,_candidate_2026)"
           }
         ]
       },
@@ -628,11 +654,13 @@
         "candidates": [
           {
             "name": "ROBERT PULLEN-MILES",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Robert_Pullen-Miles_(Mayor_of_Lawndale,_California,_candidate_2026)"
           },
           {
             "name": "FRANCISCO M. TALAVERA",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Francisco_M._Talavera_(Mayor_of_Lawndale,_California,_candidate_2026)"
           }
         ]
       }
@@ -644,11 +672,13 @@
         "candidates": [
           {
             "name": "JOHN MCKINNEY",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/John_McKinney_(California)"
           },
           {
             "name": "MARISSA ROY",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Marissa_Roy"
           }
         ]
       },
@@ -658,7 +688,8 @@
         "candidates": [
           {
             "name": "NITHYA RAMAN",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Nithya_Raman"
           },
           {
             "name": "KAREN RUTH BASS",
@@ -815,7 +846,8 @@
         "candidates": [
           {
             "name": "ALICE D. ATKINS",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Alice_D._Atkins_(Monrovia_City_Clerk,_California,_candidate_2026)"
           }
         ]
       },
@@ -825,7 +857,8 @@
         "candidates": [
           {
             "name": "JANET WALL",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Janet_Wall_(Monrovia_City_Treasurer,_California,_candidate_2026)"
           }
         ]
       },
@@ -853,7 +886,8 @@
         "candidates": [
           {
             "name": "BECKY A. SHEVLIN",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Becky_A._Shevlin_(Mayor_of_Monrovia,_California,_candidate_2026)"
           }
         ]
       }
@@ -865,7 +899,8 @@
         "candidates": [
           {
             "name": "DAVID MATANGA",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/David_Matanga_(Montebello_City_Treasurer,_California,_candidate_2026)"
           }
         ]
       }
@@ -877,7 +912,8 @@
         "candidates": [
           {
             "name": "DORA LEUNG",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Dora_Leung_(Monterey_Park_City_Clerk,_California,_candidate_2026)"
           }
         ]
       },
@@ -887,7 +923,8 @@
         "candidates": [
           {
             "name": "AMY LEE",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Amy_Lee_(Monterey_Park_City_Treasurer,_California,_candidate_2026)"
           }
         ]
       },
@@ -1076,7 +1113,8 @@
         "candidates": [
           {
             "name": "THU \"JULIE\" NGUYEN",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Thu_Nguyen_(San_Gabriel_City_Clerk,_California,_candidate_2026)"
           }
         ]
       },
@@ -1086,7 +1124,8 @@
         "candidates": [
           {
             "name": "KEVIN SAWKINS",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Kevin_Sawkins_(San_Gabriel_City_Treasurer,_California,_candidate_2026)"
           }
         ]
       },
@@ -1253,7 +1292,8 @@
         "candidates": [
           {
             "name": "YODIT GLAZE",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Yodit_Glaze_(South_Gate_City_Clerk,_California,_candidate_2026)"
           }
         ]
       },
@@ -1289,7 +1329,8 @@
         "candidates": [
           {
             "name": "JOSE DE LA PAZ",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Jose_de_la_Paz_(South_Gate_City_Treasurer,_California,_candidate_2026)"
           }
         ]
       },
@@ -1330,7 +1371,8 @@
         "candidates": [
           {
             "name": "NICKOLAS LEWIS",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Nickolas_Lewis_(West_Covina_City_Clerk,_California,_candidate_2026)"
           }
         ]
       },
@@ -1340,7 +1382,8 @@
         "candidates": [
           {
             "name": "COLLEEN B. ROZATTI",
-            "party": "NON PARTISAN"
+            "party": "NON PARTISAN",
+            "ballotpedia": "https://ballotpedia.org/Colleen_B._Rozatti_(West_Covina_City_Treasurer,_California,_candidate_2026)"
           }
         ]
       }
@@ -1457,19 +1500,23 @@
         "candidates": [
           {
             "name": "ARSENAULT, BILL",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Bill_Arsenault_(Mayor_of_Carlsbad,_California,_candidate_2026)"
           },
           {
             "name": "BANISTER, STEPHEN",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Stephen_Banister_(Mayor_of_Carlsbad,_California,_candidate_2026)"
           },
           {
             "name": "BLACKBURN, KEITH",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Keith_Blackburn_(Mayor_of_Carlsbad,_California,_candidate_2026)"
           },
           {
             "name": "NIXON, ERIC",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Eric_Nixon_(Mayor_of_Carlsbad,_California,_candidate_2026)"
           }
         ]
       },
@@ -1479,7 +1526,8 @@
         "candidates": [
           {
             "name": "FREISINGER, SHERRY A.",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Sherry_A._Freisinger_(Carlsbad_City_Clerk,_California,_candidate_2026)"
           }
         ]
       },
@@ -1505,7 +1553,8 @@
         "candidates": [
           {
             "name": "VERDUGO, MARCO",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Marco_Verdugo"
           }
         ]
       },
@@ -1515,11 +1564,13 @@
         "candidates": [
           {
             "name": "MCCANN, JOHN",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/John_McCann_(California)"
           },
           {
             "name": "TAMAYO, FRANCISCO",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Francisco_Tamayo"
           }
         ]
       }
@@ -1579,11 +1630,13 @@
         "candidates": [
           {
             "name": "KRAFT, ALEXANDER",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Alexander_Kraft_(Mayor_of_El_Cajon,_California,_candidate_2026)"
           },
           {
             "name": "WELLS, BILL",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Bill_Wells_(Mayor_of_El_Cajon,_California,_candidate_2026)"
           }
         ]
       }
@@ -1595,11 +1648,13 @@
         "candidates": [
           {
             "name": "VELAZQUEZ, ELIAS",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Elias_Velazquez_(Mayor_of_Escondido,_California,_candidate_2026)"
           },
           {
             "name": "WHITE, DANE M.",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Dane_M._White_(Mayor_of_Escondido,_California,_candidate_2026)"
           }
         ]
       }
@@ -1611,15 +1666,18 @@
         "candidates": [
           {
             "name": "BRADLEY, KARL",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Karl_Bradley_(Mayor_of_Imperial_Beach,_California,_candidate_2026)"
           },
           {
             "name": "LEYBA-GONZALEZ, MATTHEW",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Matthew_Leyba-Gonzalez_(Mayor_of_Imperial_Beach,_California,_candidate_2026)"
           },
           {
             "name": "MCKAY, MITCHELL \"MITCH\"",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Mitchell_McKay_(Mayor_of_Imperial_Beach,_California,_candidate_2026)"
           }
         ]
       }
@@ -1645,19 +1703,23 @@
         "candidates": [
           {
             "name": "LOTHIAN, LAURA",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Laura_Lothian_(Mayor_of_La_Mesa,_California,_candidate_2026)"
           },
           {
             "name": "NORMANDY-DILLARD, PATRICIA",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Patricia_Normandy-Dillard_(Mayor_of_La_Mesa,_California,_candidate_2026)"
           },
           {
             "name": "REESE, QUINN M.",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Quinn_M._Reese_(Mayor_of_La_Mesa,_California,_candidate_2026)"
           },
           {
             "name": "STIERINGER, JIM",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Jim_Stieringer_(Mayor_of_La_Mesa,_California,_candidate_2026)"
           }
         ]
       },
@@ -1715,19 +1777,23 @@
         "candidates": [
           {
             "name": "BEAUCHAMP, RUBLE MITCHEL",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Ruble_Mitchel_Beauchamp_(Mayor_of_National_City,_California,_candidate_2026)"
           },
           {
             "name": "BUSH, MARCUS",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Marcus_Bush_(Mayor_of_National_City,_California,_candidate_2026)"
           },
           {
             "name": "CASTREJON, JACOBB",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Jacobb_Castrejon_(Mayor_of_National_City,_California,_candidate_2026)"
           },
           {
             "name": "RODRIGUEZ, JOSE",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Jose_Rodriguez_(Mayor_of_National_City,_California,_candidate_2026)"
           }
         ]
       }
@@ -1739,15 +1805,18 @@
         "candidates": [
           {
             "name": "MAEDA, JENNY",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Jenny_Maeda_(Mayor_of_Poway,_California,_candidate_2026)"
           },
           {
             "name": "OLPS, DELLENA",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Dellena_Olps_(Mayor_of_Poway,_California,_candidate_2026)"
           },
           {
             "name": "VAUS, STEVE",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Steve_Vaus_(Mayor_of_Poway,_California,_candidate_2026)"
           }
         ]
       }
@@ -1759,11 +1828,13 @@
         "candidates": [
           {
             "name": "JENKINS, SHARON",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Sharon_Jenkins_(Mayor_of_San_Marcos,_California,_candidate_2026)"
           },
           {
             "name": "SANNELLA, MIKE",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Mike_Sannella_(Mayor_of_San_Marcos,_California,_candidate_2026)"
           }
         ]
       }
@@ -1775,11 +1846,13 @@
         "candidates": [
           {
             "name": "GREEN, JOE",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Joe_Green_(Mayor_of_Vista,_California,_candidate_2026)"
           },
           {
             "name": "ZUNIGA, KENNETH",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Kenneth_Zuniga_(Mayor_of_Vista,_California,_candidate_2026)"
           }
         ]
       }
@@ -1899,15 +1972,18 @@
         "candidates": [
           {
             "name": "TONY DAYSOG",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Tony_Daysog_(Mayor_of_Alameda,_California,_candidate_2026)"
           },
           {
             "name": "TRACY JENSEN",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Tracy_Jensen_(Mayor_of_Alameda,_California,_candidate_2026)"
           },
           {
             "name": "MALIA VELLA",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Malia_Vella_(Mayor_of_Alameda,_California,_candidate_2026)"
           }
         ]
       },
@@ -1949,15 +2025,18 @@
         "candidates": [
           {
             "name": "SHERRY HU",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Sherry_Hu_(Mayor_of_Dublin,_California,_candidate_2026)"
           },
           {
             "name": "MICHAEL MCCORRISTON",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Michael_McCorriston_(Mayor_of_Dublin,_California,_candidate_2026)"
           },
           {
             "name": "KIRAN MOHAMMAD",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Kiran_Mohammad_(Mayor_of_Dublin,_California,_candidate_2026)"
           }
         ]
       }
@@ -1993,11 +2072,13 @@
         "candidates": [
           {
             "name": "MARK SALINAS",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Mark_Salinas_(Mayor_of_Hayward,_California,_candidate_2026)"
           },
           {
             "name": "TOM WONG",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Tom_Wong_(Mayor_of_Hayward,_California,_candidate_2026)"
           }
         ]
       }
@@ -2009,7 +2090,8 @@
         "candidates": [
           {
             "name": "MICHAEL K. HANNON",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Michael_K._Hannon_(Mayor_of_Newark,_California,_candidate_2026)"
           }
         ]
       },
@@ -2071,11 +2153,13 @@
         "candidates": [
           {
             "name": "JACK BALCH",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Jack_Balch_(Mayor_of_Pleasanton,_California,_candidate_2026)"
           },
           {
             "name": "JULIE TESTA",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Julie_Testa_(Mayor_of_Pleasanton,_California,_candidate_2026)"
           }
         ]
       }
@@ -2087,11 +2171,13 @@
         "candidates": [
           {
             "name": "JUAN GONZÁLEZ III",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Juan_Gonzalez_III_(Mayor_of_San_Leandro,_California,_candidate_2026)"
           },
           {
             "name": "JAMES MAES",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/James_Maes_(Mayor_of_San_Leandro,_California,_candidate_2026)"
           }
         ]
       }
@@ -2207,11 +2293,13 @@
         "candidates": [
           {
             "name": "Kathleen \"Missy\" Aguilar-Billinger",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Kathleen_Aguilar-Billinger_(Beaumont_City_Clerk,_California,_candidate_2026)"
           },
           {
             "name": "Elaine Morgan",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Elaine_Morgan_(Beaumont_City_Clerk,_California,_candidate_2026)"
           }
         ]
       }
@@ -2253,7 +2341,8 @@
         "candidates": [
           {
             "name": "Mallory Crecelius",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Mallory_Crecelius_(Blythe_City_Clerk,_California,_candidate_2026)"
           }
         ]
       },
@@ -2295,11 +2384,13 @@
         "candidates": [
           {
             "name": "Shelley Kaplan",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Shelley_Kaplan_(Cathedral_City_City_Treasurer,_California,_candidate_2026)"
           },
           {
             "name": "Gregory Jackson",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Gregory_Jackson_(Cathedral_City_City_Treasurer,_California,_candidate_2026)"
           }
         ]
       }
@@ -2311,19 +2402,23 @@
         "candidates": [
           {
             "name": "Denise Delgado",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Denise_Delgado_(Mayor_of_Coachella,_California,_candidate_2026)"
           },
           {
             "name": "Jesus \"Kino\" Gonzalez",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Jesus_Gonzalez_(Mayor_of_Coachella,_California,_candidate_2026)"
           },
           {
             "name": "Frank Figueroa",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Frank_Figueroa_(Mayor_of_Coachella,_California,_candidate_2026)"
           },
           {
             "name": "Francisco \"Frankie\" Molina",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Francisco_Molina_(Mayor_of_Coachella,_California,_candidate_2026)"
           }
         ]
       },
@@ -2381,15 +2476,18 @@
         "candidates": [
           {
             "name": "Lynne Langdon",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Lynne_Langdon_(Mayor_of_La_Quinta,_California,_candidate_2026)"
           },
           {
             "name": "Suzanne Espinoza-Jimenez",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Suzanne_Espinoza-Jimenez_(Mayor_of_La_Quinta,_California,_candidate_2026)"
           },
           {
             "name": "Linda Evans",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Linda_Evans_(Mayor_of_La_Quinta,_California,_candidate_2026)"
           }
         ]
       },
@@ -2455,7 +2553,8 @@
         "candidates": [
           {
             "name": "Nancy Salazar",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Nancy_Salazar_(Perris_City_Clerk,_California,_candidate_2026)"
           }
         ]
       }
@@ -2511,15 +2610,18 @@
         "candidates": [
           {
             "name": "ASHLEIGH AITKEN",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Ashleigh_Aitken"
           },
           {
             "name": "IMRAN SHARIEF",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Imran_Sharief"
           },
           {
             "name": "ALFREDO RODRIGUEZ",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Alfredo_Rodriguez"
           }
         ]
       }
@@ -2559,11 +2661,13 @@
         "candidates": [
           {
             "name": "MIKE BULEY",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Mike_Buley_(Mayor_of_Costa_Mesa,_California,_candidate_2026)"
           },
           {
             "name": "LOREN GAMEROS",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Loren_Gameros_(Mayor_of_Costa_Mesa,_California,_candidate_2026)"
           }
         ]
       }
@@ -2619,11 +2723,13 @@
         "candidates": [
           {
             "name": "STEPHANIE KLOPFENSTEIN",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Stephanie_Klopfenstein_(Mayor_of_Garden_Grove,_California,_candidate_2026)"
           },
           {
             "name": "THU-HA NGUYEN",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Thu-Ha_Nguyen_(Mayor_of_Garden_Grove,_California,_candidate_2026)"
           }
         ]
       }
@@ -2685,7 +2791,8 @@
         "candidates": [
           {
             "name": "MIKE VIGLIOTTA",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Mike_Vigliotta_(Huntington_Beach_City_Attorney,_California,_candidate_2026)"
           }
         ]
       }
@@ -2697,11 +2804,13 @@
         "candidates": [
           {
             "name": "LARRY AGRAN",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Larry_Agran"
           },
           {
             "name": "MAKSIM V EGOROV",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Maksim_Egorov"
           }
         ]
       }
@@ -2801,11 +2910,13 @@
         "candidates": [
           {
             "name": "DAN SLATER",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Dan_Slater_(Mayor_of_Orange,_California,_candidate_2026)"
           },
           {
             "name": "ARIANNA BARRIOS",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Arianna_Barrios_(Mayor_of_Orange,_California,_candidate_2026)"
           }
         ]
       }
@@ -2817,7 +2928,8 @@
         "candidates": [
           {
             "name": "ROBERT S. \"BOB\" MCKINNELL",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Robert_S._McKinnell_(Placentia_City_Clerk,_California,_candidate_2026)"
           }
         ]
       }
@@ -2829,15 +2941,18 @@
         "candidates": [
           {
             "name": "SHANE HIRSCHMAN",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Shane_Hirschman_(Mayor_of_San_Clemente,_California,_candidate_2026)"
           },
           {
             "name": "KATHY WARD",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Kathy_Ward_(Mayor_of_San_Clemente,_California,_candidate_2026)"
           },
           {
             "name": "VICTOR CABRAL",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Victor_Cabral_(Mayor_of_San_Clemente,_California,_candidate_2026)"
           }
         ]
       }
@@ -2849,15 +2964,18 @@
         "candidates": [
           {
             "name": "VALERIE AMEZCUA",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Valerie_Amezcua"
           },
           {
             "name": "DWAYNE SHIPP",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Dwayne_Shipp"
           },
           {
             "name": "DAN SHIMELL",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Dan_Shimell"
           }
         ]
       }
@@ -2869,11 +2987,13 @@
         "candidates": [
           {
             "name": "LETITIA CLARK",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Letitia_Clark_(Mayor_of_Tustin,_California,_candidate_2026)"
           },
           {
             "name": "AUSTIN LUMBARD",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Austin_Lumbard_(Mayor_of_Tustin,_California,_candidate_2026)"
           }
         ]
       }
@@ -2885,23 +3005,28 @@
         "candidates": [
           {
             "name": "KIMBERLY HO",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Kimberly_Ho_(Mayor_of_Westminster,_California,_candidate_2026)"
           },
           {
             "name": "NGUYEN PHUONG HUNG",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Nguyen_Phuong_Hung_(Mayor_of_Westminster,_California,_candidate_2026)"
           },
           {
             "name": "CHI CHARLIE NGUYEN",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Chi_Charlie_Nguyen_(Mayor_of_Westminster,_California,_candidate_2026)"
           },
           {
             "name": "CHARLES S. SHIPP",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Charles_S._Shipp_(Mayor_of_Westminster,_California,_candidate_2026)"
           },
           {
             "name": "CARLOS MANZO",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Carlos_Manzo_(Mayor_of_Westminster,_California,_candidate_2026)"
           }
         ]
       }
@@ -3009,11 +3134,13 @@
         "candidates": [
           {
             "name": "GARY K. YEP",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Gary_K._Yep_(Mayor_of_Kerman,_California,_candidate_2026)"
           },
           {
             "name": "YAZMINE ENRIQUEZ",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Yazmine_Enriquez_(Mayor_of_Kerman,_California,_candidate_2026)"
           }
         ]
       }
@@ -3049,7 +3176,8 @@
         "candidates": [
           {
             "name": "GILBERT GARCIA",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Gilbert_Garcia_(Mayor_of_Orange_Cove,_California,_candidate_2026)"
           }
         ]
       },
@@ -3083,15 +3211,18 @@
         "candidates": [
           {
             "name": "LIONEL LOPEZ, JR.",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Lionel_Lopez_Jr._(Mayor_of_Parlier,_California,_candidate_2026)"
           },
           {
             "name": "FERNANDO BAÑUELOS",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Fernando_Banuelos_(Mayor_of_Parlier,_California,_candidate_2026)"
           },
           {
             "name": "ALMA M. BELTRÁN",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Alma_M._Beltran_(Mayor_of_Parlier,_California,_candidate_2026)"
           }
         ]
       }
@@ -3103,15 +3234,18 @@
         "candidates": [
           {
             "name": "GAVINO BARRERA",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Gavino_Barrera_(Mayor_of_Sanger,_California,_candidate_2026)"
           },
           {
             "name": "VICTOR RUIZ",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Victor_Ruiz_(Mayor_of_Sanger,_California,_candidate_2026)"
           },
           {
             "name": "FRANK GONZALEZ",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Frank_Gonzalez_(Mayor_of_Sanger,_California,_candidate_2026)"
           }
         ]
       }
@@ -3123,19 +3257,23 @@
         "candidates": [
           {
             "name": "NARIPJEET \"NARIP\" JOSAN",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Naripjeet_Josan_(Mayor_of_Selma,_California,_candidate_2026)"
           },
           {
             "name": "ROSEMARY ALANIS",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Rosemary_Alanis_(Mayor_of_Selma,_California,_candidate_2026)"
           },
           {
             "name": "SCOTT ROBERTSON",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Scott_Robertson_(Mayor_of_Selma,_California,_candidate_2026)"
           },
           {
             "name": "THERESA H. GUZMAN SALAS",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Theresa_H._Guzman_Salas_(Mayor_of_Selma,_California,_candidate_2026)"
           }
         ]
       }
@@ -3171,7 +3309,8 @@
         "candidates": [
           {
             "name": "PATTI BARSOTTI",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Patti_Barsotti_(Concord_City_Treasurer,_California,_candidate_2026)"
           }
         ]
       }
@@ -3385,19 +3524,23 @@
         "candidates": [
           {
             "name": "LATOYYA P. ELLA BORDELON",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Latoyya_P._Ella_Bordelon_(Pittsburg_City_Clerk,_California,_candidate_2026)"
           },
           {
             "name": "ANGEL RODRIGUEZ",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Angel_Rodriguez_(Pittsburg_City_Clerk,_California,_candidate_2026)"
           },
           {
             "name": "MELAINE APPLE VENENCIANO",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Melaine_Apple_Venenciano_(Pittsburg_City_Clerk,_California,_candidate_2026)"
           },
           {
             "name": "ALICE E. EVENSON",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Alice_E._Evenson_(Pittsburg_City_Clerk,_California,_candidate_2026)"
           }
         ]
       },
@@ -3407,7 +3550,8 @@
         "candidates": [
           {
             "name": "NANCY PARENT",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Nancy_Parent_(Pittsburg_City_Treasurer,_California,_candidate_2026)"
           }
         ]
       }
@@ -3419,11 +3563,13 @@
         "candidates": [
           {
             "name": "CLAUDIA JIMÉNEZ",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Claudia_Jimenez_(Mayor_of_Richmond,_California,_candidate_2026)"
           },
           {
             "name": "AHMAD ANDERSON",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Ahmad_Anderson_(Mayor_of_Richmond,_California,_candidate_2026)"
           }
         ]
       }
@@ -3457,7 +3603,8 @@
         "candidates": [
           {
             "name": "DOROTHY GANTT",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Dorothy_Gantt_(San_Pablo_City_Clerk,_California,_candidate_2026)"
           }
         ]
       },
@@ -3467,7 +3614,8 @@
         "candidates": [
           {
             "name": "VIVIANA TOLEDO",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Viviana_Toledo_(San_Pablo_City_Treasurer,_California,_candidate_2026)"
           }
         ]
       }
@@ -3479,15 +3627,18 @@
         "candidates": [
           {
             "name": "EMMA CHIGBU",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Emma_Chigbu_(Mayor_of_San_Ramon,_California,_candidate_2026)"
           },
           {
             "name": "MARK H. ARMSTRONG",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Mark_H._Armstrong_(Mayor_of_San_Ramon,_California,_candidate_2026)"
           },
           {
             "name": "PASCHALIS NTATSOS",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Paschalis_Ntatsos_(Mayor_of_San_Ramon,_California,_candidate_2026)"
           }
         ]
       }
@@ -3513,7 +3664,8 @@
         "candidates": [
           {
             "name": "RONALD CASSANO",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Ronald_Cassano_(Walnut_Creek_City_Treasurer,_California,_candidate_2026)"
           }
         ]
       }
@@ -3525,7 +3677,8 @@
         "candidates": [
           {
             "name": "CHRIS R. ENEGREN",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Chris_R._Enegren_(Mayor_of_Moorpark,_California,_candidate_2026)"
           }
         ]
       }
@@ -3537,7 +3690,8 @@
         "candidates": [
           {
             "name": "ANDY GILMAN",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Andy_Gilman_(Mayor_of_Ojai,_California,_candidate_2026)"
           }
         ]
       }
@@ -3577,23 +3731,28 @@
         "candidates": [
           {
             "name": "WAYNE HAMPTON HOLLAND, III",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Wayne_Hampton_Holland_III_(Mayor_of_Simi_Valley,_California,_candidate_2026)"
           },
           {
             "name": "DEE DEE CAVANAUGH",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Dee_Dee_Cavanaugh_(Mayor_of_Simi_Valley,_California,_candidate_2026)"
           },
           {
             "name": "ROBERT CLARIZIO",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Robert_Clarizio_(Mayor_of_Simi_Valley,_California,_candidate_2026)"
           },
           {
             "name": "MIKE JUDGE",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Mike_Judge_(Mayor_of_Simi_Valley,_California,_candidate_2026)"
           },
           {
             "name": "KAREEM JUBRAN",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Kareem_Jubran_(Mayor_of_Simi_Valley,_California,_candidate_2026)"
           }
         ]
       }
@@ -3689,7 +3848,8 @@
         "candidates": [
           {
             "name": "MARKS, JORDAN Z.",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Jordan_Marks_(California)"
           }
         ]
       },
@@ -3779,11 +3939,13 @@
         "candidates": [
           {
             "name": "KAREN SHER",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Karen_Sher_(Ventura_County_Superintendent_of_Schools,_California,_candidate_2026)"
           },
           {
             "name": "MAGGIE MARSCHNER",
-            "party": ""
+            "party": "",
+            "ballotpedia": "https://ballotpedia.org/Maggie_Marschner_(Ventura_County_Superintendent_of_Schools,_California,_candidate_2026)"
           }
         ]
       }

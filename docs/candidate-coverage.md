@@ -26,7 +26,7 @@ Counts are contests stored for each state after merging the official list with B
 | MA | published | 15 | 1 | 9 | 1 | 4 | 32 |
 | MD | published | 12 | 0 | 8 | 1 | 3 | 31 |
 | ME | published | 4 | 1 | 2 | 1 | 0 | 9 |
-| MI | published | 18 | 1 | 13 | 1 | 3 | 90 |
+| MI | published | 18 | 1 | 13 | 1 | 3 | 88 |
 | MN | published | 15 | 1 | 8 | 1 | 5 | 35 |
 | MO | published | 10 | 0 | 8 | 0 | 2 | 28 |
 | MS | published | 5 | 1 | 4 | 0 | 0 | 15 |
@@ -65,3 +65,4 @@ Counts are contests stored for each state after merging the official list with B
 - Kentucky, Maryland, and Oklahoma supreme court contests are limited to the seats present on the parsed general-election list.
 - State legislative districts, public-service-commission districts, and intermediate appellate courts are omitted. This site has no place-to-legislative-district assignment for them.
 - A candidate with no verified Ballotpedia profile is shown without a link and listed in docs/ballotpedia-unresolved.md.
+- Michigan’s November 3, 2026 official candidate listing marks Felix Thibodeau (U.S. House District 7) DISQ, and Ballotpedia lists him as Withdrew General. The same official listing marks D. Etta Wilcoxon (U.S. House District 13) DISQ, and Ballotpedia’s 2026 general list does not name that candidate. Both names were removed.
