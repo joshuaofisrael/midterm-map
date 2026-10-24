@@ -1,10 +1,10 @@
 {
-  "accessed": "October 23, 2026",
+  "accessed": "October 24, 2026",
   "date": {
     "quote": "November 3, 2026",
-    "text": "These questions are copied from the New York City Board of Elections English proposed ballot questions file for the 2026 general election."
+    "text": "City lines are copied from the official list linked for that place. County lines are copied from the official list linked for that county. Those lists are for the November 3, 2026 general election."
   },
-  "localIntro": "City measure titles below are copied from the official questions file linked for this place. That file does not print candidate names for these questions.",
+  "localIntro": "Citywide offices and city measure titles below are copied from the official list linked for this place. Candidate names are copied in the order printed on that list. Party is copied only when that list prints it.",
   "local": {
     "3651000": [
       {
@@ -32,6 +32,128 @@
         "key": null,
         "candidates": []
       }
+    ],
+    "3611000": [
+      {
+        "office": "City Court Judge (Vote for One)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Michael J. Pacifico",
+            "party": "D"
+          }
+        ],
+        "term": "10 Year Term"
+      },
+      {
+        "office": "Ballot Abstract No. 1: City of Buffalo Charter Amendment regarding Acting Public Officials Amends City Charter clarifying that any reference to the Mayor, Comptroller, Councilmember, Council President or Council president pro tempore includes any person holding such office in an acting capacity. A “YES” Vote will add a section to the City Charter clarifying that officials in an acting capacity have all of the powers of the permanent office. A “NO” vote will leave the City Charter unchanged. Abstract: Currently the Buffalo City Charter provides for filling vacancies in certain public offices on an acting basis. This local law makes it clear that a person assuming the specific offices of Mayor, Council Member, Comptroller, Common Council President or Common Council President pro tempore on an acting basis has all of the powers and duties of the permanent position while in an acting capacity.",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Ballot Abstract No. 2: City of Buffalo Charter Amendment to require Charter Revision Commissions Every Ten Years Amends the City of Buffalo Charter to require the establishment of a Charter Revision Commission at least once every ten years. A “YES” vote will mandate a City of Buffalo Charter Revision Commission at least every ten years. A “NO” vote will not mandate a Charter Revision Commission every ten years. Abstract: The City of Buffalo Charter has only been reviewed by a Charter Revision Commission twice since 1999. This Amendment to the City Charter would require the Common Council to establish a commission to formally review the Charter every ten years.",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Ballot Abstract No. 3: City of Buffalo Charter Amendment empowering Council to fill vacancy if Council President becomes Acting Mayor Amends City Charter to empower the Common Council to temporarily fill the district seat of the Common Council President if that person becomes Acting Mayor. A “YES” vote will allow the Common Council to temporarily fill the district seat of a Common Council President who becomes Acting Mayor. A “NO” vote will leave the district seat of a Common Council President who becomes Acting Mayor vacant. Abstract: When Mayor Byron Brown resigned before the end of his term in 2024 it created a vacancy that would not be filled permanently until the 2025 general election. It was not clear what happens when the Common Council President temporarily assumes the powers and duties of the Mayor if the Mayor leaves office before the end of their term. As the Common Council President is also a district councilmember and a person can’t be both Mayor and Councilmember, the South District was left without a representative for over a year. This Charter amendment would allow the Common Council to fill such a district seat on a temporary basis.",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Ballot Abstract No. 4: City of Buffalo Charter Amendment to Limit Holdover Terms and to Review Inactive Boards Amends the City Charter to limit members of City boards from serving past the expiration of their terms and requires the Common Council to review boards that have been inactive. A “YES” vote will limit members of City boards from serving more than sixty days after their terms expire and will require the Common Council to review the status of inactive City Boards. A “NO” vote will maintain the current situation where members of many city boards serve long after the expiration or their terms and dormant City boards remain in existence for years after they are no longer active. Abstract: Currently many boards, commissions and other public bodies that are in the City Charter remain in existence on paper even though they have not met in years, and many members of City boards have never been reappointed or replaced even though their term expired. This Charter amendment would suspend these dormant boards until the Common Council reviews the need for them and would limit the holdover status of board members to sixty days.",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Ballot Abstract No. 5: City of Buffalo Charter Amendment regarding Mayoral Succession Amends the Charter clarifying that in the event the office of Mayor becomes vacant, the Common Council President becomes Acting Mayor. A “YES” Vote will amend section 4-5 of the City Charter to clarify that if the office of Mayor becomes vacant the Common Council President becomes Acting Mayor. A “NO” vote will leave the City Charter unchanged. Abstract: When Mayor Brown left office before the end of his term, it was not clear if the Common Council President became Acting Mayor or just assumed the powers and duties of the office. This amendment would clarify that the Council President becomes Acting Mayor and that the district seat becomes temporarily vacant and can be filled by the Common Council.",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Ballot Abstract No. 6: City of Buffalo Charter Amendment to require public website about City boards and board training Amends City Charter to require a website providing information about City boards, including an application to fill vacancies, and requires training and orientation for new board members. A “YES” vote will mandate that the city establish such a website and training. A “NO” vote will not mandate such a website and training. ABSTRACT: Currently there is no requirement that the City maintain a publicly accessible website for information about the numerous boards, commissions, committees and other public bodies that conduct many elements of City business. While there is some information regarding some of these bodies on a City website, much of this information is not kept up to date or is just missing, Also, there is no formal way for members of the public body to know about opportunities items to serve on these bodies or for persons appointed to these boards to get orientation or training to serve on such bodies. This local law will mandate that the City maintain a website to provide this information to the public and to provide orientation and training to persons appointed to such boards.",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Ballot Abstract No. 7: City of Buffalo Charter Amendment for creation of temporary task forces Amends Buffalo City Charter to empower the Mayor and the Common Council to appoint temporary task forces for terms not exceeding two years. A “YES” vote will give these powers to the Mayor and Common Council. A “NO” vote will not give them this power. Abstract: The Mayor and the Common Council will be able to appoint temporary task forces to advise them on matters pertaining to the administration, safety or welfare of the City of Buffalo.",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Ballot Abstract No. 8: City of Buffalo Charter Amendment on Budget Adoption Procedures Amends Charter to give additional powers to the Comptroller to recommend revenue and expenditure estimates in the Mayor’s proposed annual budget and for Common Council to implement those recommendations. A “YES” vote would add these powers. A “NO” vote would leave the current powers unchanged. Abstract: Currently the City Comptroller has limited time and power to review and make recommendations on the Mayor’s tentative budget once it is submitted to the Common Council, and the Comon Council has no power to adjust revenue or expenditure estimates. This Charter amendment would require the Mayor to provide the proposed tentative budget to the Comptroller before submission to the Common Council. If the Comptroller recommends changes to the Mayor’s revenue or expenditure estimates, the Common Council will be able to adjust those numbers downward by a two-thirds vote and any expenditure estimate upward by a majority vote.",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Ballot Abstract No. 9: City of Buffalo Charter Amendment to create an Election Reforms Task Force Amends City Charter to establish a task force to study and make recommendations on election reforms in the City of Buffalo. A “YES” vote would establish an Election Reforms Task Force. A “NO” vote would not establish an Election Reforms Task Force. Abstract: The City of Buffalo Charter Revision Commission established in 2025 discussed several proposals to change how primary and general elections for the offices of Mayor, Comptroller, Councilmembers and City Court Judges could be conducted, including the use of ranked choice voting and open primaries. This local law would establish a task force to study and examine these issues and make recommendations for submitting local law proposals on these issues at the City of Buffalo November 2028 general election.",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Ballot Abstract No. 10: City of Buffalo Charter Amendment to Create a Civilian Police Advisory Commission Amends City Charter to create Civilian Police Advisory Commission. A “YES” vote will create a City of Buffalo Civilian Police Advisory Commission. A “NO” vote will not create a City of Buffalo Civilian Police Advisory Commission. Abstract: Effective February 1, 2027, a Civilian Police Advisory Commission made up of city residents, would be created in order to advise the various City of Buffalo departments on issues pertaining to Buffalo policing policies with the goal of increasing transparency and reporting, and improving resident-police relations.",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Ballot Abstract No. 11: City of Buffalo Charter Amendment to create a Commission on Human Rights Amends City Charter to establish a Commission on Human Rights to ensure respect, protection, promotion, and enjoyment of human rights for all residents of the City of Buffalo. A “YES” vote would establish a Commission on Human Rights. A “NO” vote would not establish a Commission on Human Rights. Abstract: This City Charter provision would establish an empowered Commission on Human Rights thereby replacing the current Commission on Citizen’s Rights and Community Relations. The new Commission on Human Rights would be granted expanded powers including making recommendations to the Mayor, Common Council, City Departments, and wider community regarding legislation and other appropriate measures to further human rights protection of residents in the City of Buffalo.",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "3601000": [
+      {
+        "office": "CITY COURT JUDGE",
+        "key": null,
+        "candidates": [
+          {
+            "name": "JOSHUA L. FARRELL",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "KURT W. HAAS",
+            "party": "DEMOCRATIC"
+          }
+        ]
+      }
+    ],
+    "3663000": [
+      {
+        "office": "Rochester City Court Judge",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Maija C Dixon",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "3673000": [
+      {
+        "office": "Councilor at Large (to fill vacancy) (Vote for 1)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Helen Hudson",
+            "party": "DEM"
+          },
+          {
+            "name": "Raymond J. Dague",
+            "party": "REP"
+          }
+        ]
+      },
+      {
+        "office": "Commissioner of Education (to fill vacancy) (Vote for 1)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Desire Ndagijimana",
+            "party": "DEM"
+          }
+        ]
+      }
     ]
   },
   "localPlace": {
@@ -46,6 +168,2397 @@
           "name": "New York City Board of Elections, ballot proposals",
           "url": "https://www.vote.nyc/page/ballot-proposals",
           "accessed": "October 23, 2026"
+        },
+        {
+          "name": "New York City Board of Elections, contest list for the November 3, 2026 general election, printed September 11, 2026",
+          "url": "https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf",
+          "accessed": "October 24, 2026"
+        },
+        {
+          "name": "New York City Board of Elections, election results summary",
+          "url": "https://www.vote.nyc/page/election-results-summary",
+          "accessed": "October 24, 2026"
+        }
+      ],
+      "note": "The New York City Board of Elections contest list, printed September 11, 2026, is marked Tentative and Subject to Change. That list names Surrogate contests for New York and the Bronx, Judge of the Civil Court county contests for New York, Kings, Queens, and Richmond, Judge of the Civil Court by municipal court district, and Member of the City Council for the 3rd Council District. It does not name a mayor contest. Candidate names from that tentative list are not copied here. The Board posts election results summaries on its election results summary page."
+    },
+    "3611000": {
+      "sources": [
+        {
+          "name": "Erie County Board of Elections, 2026 general election candidate list",
+          "url": "https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf",
+          "accessed": "October 24, 2026"
+        },
+        {
+          "name": "Erie County Board of Elections, City of Buffalo ballot propositions 2026",
+          "url": "https://elections.erie.gov/pdfs/City%20of%20Buffalo%20Proposals.pdf",
+          "accessed": "October 24, 2026"
+        }
+      ],
+      "note": "The Erie County candidate list prints City Court Judge and Proposal No. 1 through Proposal No. 11 with district BFLO. Proposal wording is copied from the Board's City of Buffalo ballot propositions file. The candidate list does not name a mayor or common council contest for BFLO."
+    },
+    "3601000": {
+      "sources": [
+        {
+          "name": "Albany County Board of Elections, notice of candidates nominated for the November 3, 2026 general election",
+          "url": "https://content.civicplus.com/api/assets/cd5f13cf-73f6-4151-bf22-82fa793f04e1",
+          "accessed": "October 24, 2026"
+        }
+      ],
+      "note": "The notice prints two City Court Judge rows for Albany. It does not print a vote-for number or a term. It does not name a mayor or common council contest for Albany."
+    },
+    "3663000": {
+      "sources": [
+        {
+          "name": "Monroe County Board of Elections, certification of candidates for the November 3, 2026 general election, amended September 11, 2026",
+          "url": "https://www.monroecounty.gov/files/boe/Documents/GE26%20Candidates%20List%20-%20CERTIFICATION%2020260911%20-%20WEB.pdf",
+          "accessed": "October 24, 2026"
+        }
+      ],
+      "note": "The certification prints Rochester City Court Judge. It does not list a mayor or city council contest for Rochester. Addresses on that certification are not copied."
+    },
+    "3673000": {
+      "sources": [
+        {
+          "name": "Onondaga County Board of Elections, official candidates list for November 3, 2026, revised September 18, 2026",
+          "url": "https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf",
+          "accessed": "October 24, 2026"
+        }
+      ],
+      "note": "The official candidates list's City of Syracuse section prints Councilor at Large to fill a vacancy and Commissioner of Education to fill a vacancy. It does not name a mayor contest."
+    }
+  },
+  "localByCounty": {
+    "New York County": [
+      {
+        "office": "Supreme Court Justice, 1st Judicial District (Vote for 6)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Saliann Scarpulla",
+            "party": "Democratic"
+          },
+          {
+            "name": "Kathleen Waterman-Marshall",
+            "party": "Democratic"
+          },
+          {
+            "name": "Shlomo S. Hagler",
+            "party": "Democratic"
+          },
+          {
+            "name": "Manuel J. Mendez",
+            "party": "Democratic"
+          },
+          {
+            "name": "Hasa A. Kingo",
+            "party": "Democratic"
+          },
+          {
+            "name": "Christopher Chin",
+            "party": "Democratic"
+          },
+          {
+            "name": "Amy S. Taylor",
+            "party": "Working Families"
+          },
+          {
+            "name": "Joshua E. Goldfein",
+            "party": "Working Families"
+          },
+          {
+            "name": "Sienna M. Fontaine",
+            "party": "Working Families"
+          },
+          {
+            "name": "Bob Cohen",
+            "party": "Working Families"
+          },
+          {
+            "name": "Jeffrey W. Rizzo",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Kings County": [
+      {
+        "office": "Supreme Court Justice, 2nd Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Betsey Jean Jacques",
+            "party": "Democratic"
+          },
+          {
+            "name": "Hemalee J. Patel",
+            "party": "Democratic"
+          },
+          {
+            "name": "Sherveal Mimes",
+            "party": "Democratic"
+          },
+          {
+            "name": "Lola Waterman",
+            "party": "Democratic"
+          },
+          {
+            "name": "Betsey Jean Jacques",
+            "party": "Republican"
+          },
+          {
+            "name": "Hemalee J. Patel",
+            "party": "Republican"
+          },
+          {
+            "name": "Sherveal Mimes",
+            "party": "Republican"
+          },
+          {
+            "name": "Lola Waterman",
+            "party": "Republican"
+          },
+          {
+            "name": "Betsey Jean Jacques",
+            "party": "Conservative"
+          },
+          {
+            "name": "William D. Spain Jr",
+            "party": "Conservative"
+          },
+          {
+            "name": "Sherveal Mimes",
+            "party": "Conservative"
+          },
+          {
+            "name": "Lola Waterman",
+            "party": "Conservative"
+          }
+        ]
+      }
+    ],
+    "Columbia County": [
+      {
+        "office": "Supreme Court Justice, 3rd Judicial District (Vote for 2)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amy E. Joyce",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jennifer G. Sober",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "Greene County": [
+      {
+        "office": "Supreme Court Justice, 3rd Judicial District (Vote for 2)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amy E. Joyce",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jennifer G. Sober",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "Rensselaer County": [
+      {
+        "office": "Supreme Court Justice, 3rd Judicial District (Vote for 2)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amy E. Joyce",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jennifer G. Sober",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "Schoharie County": [
+      {
+        "office": "Supreme Court Justice, 3rd Judicial District (Vote for 2)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amy E. Joyce",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jennifer G. Sober",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "Sullivan County": [
+      {
+        "office": "Supreme Court Justice, 3rd Judicial District (Vote for 2)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amy E. Joyce",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jennifer G. Sober",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "Ulster County": [
+      {
+        "office": "Supreme Court Justice, 3rd Judicial District (Vote for 2)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Amy E. Joyce",
+            "party": "Democratic"
+          },
+          {
+            "name": "Jennifer G. Sober",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "Clinton County": [
+      {
+        "office": "Supreme Court Justice, 4th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bradley M. Wanner",
+            "party": "Democratic"
+          },
+          {
+            "name": "Christine M. Clark",
+            "party": "Democratic"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Republican"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Republican"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Republican"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Republican"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Conservative"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Conservative"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Conservative"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Conservative"
+          }
+        ]
+      }
+    ],
+    "Essex County": [
+      {
+        "office": "Supreme Court Justice, 4th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bradley M. Wanner",
+            "party": "Democratic"
+          },
+          {
+            "name": "Christine M. Clark",
+            "party": "Democratic"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Republican"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Republican"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Republican"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Republican"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Conservative"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Conservative"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Conservative"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Conservative"
+          }
+        ]
+      }
+    ],
+    "Franklin County": [
+      {
+        "office": "Supreme Court Justice, 4th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bradley M. Wanner",
+            "party": "Democratic"
+          },
+          {
+            "name": "Christine M. Clark",
+            "party": "Democratic"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Republican"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Republican"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Republican"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Republican"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Conservative"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Conservative"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Conservative"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Conservative"
+          }
+        ]
+      }
+    ],
+    "Fulton County": [
+      {
+        "office": "Supreme Court Justice, 4th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bradley M. Wanner",
+            "party": "Democratic"
+          },
+          {
+            "name": "Christine M. Clark",
+            "party": "Democratic"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Republican"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Republican"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Republican"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Republican"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Conservative"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Conservative"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Conservative"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Conservative"
+          }
+        ]
+      }
+    ],
+    "Hamilton County": [
+      {
+        "office": "Supreme Court Justice, 4th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bradley M. Wanner",
+            "party": "Democratic"
+          },
+          {
+            "name": "Christine M. Clark",
+            "party": "Democratic"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Republican"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Republican"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Republican"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Republican"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Conservative"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Conservative"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Conservative"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Conservative"
+          }
+        ]
+      }
+    ],
+    "Montgomery County": [
+      {
+        "office": "Supreme Court Justice, 4th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bradley M. Wanner",
+            "party": "Democratic"
+          },
+          {
+            "name": "Christine M. Clark",
+            "party": "Democratic"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Republican"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Republican"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Republican"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Republican"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Conservative"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Conservative"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Conservative"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Conservative"
+          }
+        ]
+      }
+    ],
+    "St. Lawrence County": [
+      {
+        "office": "Supreme Court Justice, 4th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bradley M. Wanner",
+            "party": "Democratic"
+          },
+          {
+            "name": "Christine M. Clark",
+            "party": "Democratic"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Republican"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Republican"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Republican"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Republican"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Conservative"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Conservative"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Conservative"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Conservative"
+          }
+        ]
+      }
+    ],
+    "Saratoga County": [
+      {
+        "office": "Supreme Court Justice, 4th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bradley M. Wanner",
+            "party": "Democratic"
+          },
+          {
+            "name": "Christine M. Clark",
+            "party": "Democratic"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Republican"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Republican"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Republican"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Republican"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Conservative"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Conservative"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Conservative"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Conservative"
+          }
+        ]
+      }
+    ],
+    "Schenectady County": [
+      {
+        "office": "Supreme Court Justice, 4th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bradley M. Wanner",
+            "party": "Democratic"
+          },
+          {
+            "name": "Christine M. Clark",
+            "party": "Democratic"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Republican"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Republican"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Republican"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Republican"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Conservative"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Conservative"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Conservative"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Conservative"
+          }
+        ]
+      }
+    ],
+    "Warren County": [
+      {
+        "office": "Supreme Court Justice, 4th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bradley M. Wanner",
+            "party": "Democratic"
+          },
+          {
+            "name": "Christine M. Clark",
+            "party": "Democratic"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Republican"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Republican"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Republican"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Republican"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Conservative"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Conservative"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Conservative"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Conservative"
+          }
+        ]
+      }
+    ],
+    "Washington County": [
+      {
+        "office": "Supreme Court Justice, 4th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bradley M. Wanner",
+            "party": "Democratic"
+          },
+          {
+            "name": "Christine M. Clark",
+            "party": "Democratic"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Republican"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Republican"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Republican"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Republican"
+          },
+          {
+            "name": "Tom Buchanan",
+            "party": "Conservative"
+          },
+          {
+            "name": "John T. Ellis",
+            "party": "Conservative"
+          },
+          {
+            "name": "Kate Hogan",
+            "party": "Conservative"
+          },
+          {
+            "name": "Keith S. Massey Jr",
+            "party": "Conservative"
+          }
+        ]
+      }
+    ],
+    "Herkimer County": [
+      {
+        "office": "Supreme Court Justice, 5th Judicial District (Vote for 1)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joseph Zavaglia",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michael J. Manfredi",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael J. Manfredi",
+            "party": "Conservative"
+          },
+          {
+            "name": "Joseph Zavaglia",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Jefferson County": [
+      {
+        "office": "Supreme Court Justice, 5th Judicial District (Vote for 1)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joseph Zavaglia",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michael J. Manfredi",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael J. Manfredi",
+            "party": "Conservative"
+          },
+          {
+            "name": "Joseph Zavaglia",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Lewis County": [
+      {
+        "office": "Supreme Court Justice, 5th Judicial District (Vote for 1)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joseph Zavaglia",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michael J. Manfredi",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael J. Manfredi",
+            "party": "Conservative"
+          },
+          {
+            "name": "Joseph Zavaglia",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Oneida County": [
+      {
+        "office": "Supreme Court Justice, 5th Judicial District (Vote for 1)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joseph Zavaglia",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michael J. Manfredi",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael J. Manfredi",
+            "party": "Conservative"
+          },
+          {
+            "name": "Joseph Zavaglia",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Oswego County": [
+      {
+        "office": "Supreme Court Justice, 5th Judicial District (Vote for 1)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joseph Zavaglia",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michael J. Manfredi",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael J. Manfredi",
+            "party": "Conservative"
+          },
+          {
+            "name": "Joseph Zavaglia",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Allegany County": [
+      {
+        "office": "Supreme Court Justice, 8th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Craig R. Bucki",
+            "party": "Democratic"
+          },
+          {
+            "name": "Anne E. Joynt",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Democratic"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Democratic"
+          },
+          {
+            "name": "Deanne M. Tripi",
+            "party": "Republican"
+          },
+          {
+            "name": "Jonathan S. Hickey",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Republican"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Republican"
+          },
+          {
+            "name": "Deanne M. Tripi",
+            "party": "Conservative"
+          },
+          {
+            "name": "Jonathan S. Hickey",
+            "party": "Conservative"
+          },
+          {
+            "name": "Robert R. Vario",
+            "party": "Conservative"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Conservative"
+          },
+          {
+            "name": "Craig R. Bucki",
+            "party": "Working Families"
+          },
+          {
+            "name": "Anne E. Joynt",
+            "party": "Working Families"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Cattaraugus County": [
+      {
+        "office": "Supreme Court Justice, 8th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Craig R. Bucki",
+            "party": "Democratic"
+          },
+          {
+            "name": "Anne E. Joynt",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Democratic"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Democratic"
+          },
+          {
+            "name": "Deanne M. Tripi",
+            "party": "Republican"
+          },
+          {
+            "name": "Jonathan S. Hickey",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Republican"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Republican"
+          },
+          {
+            "name": "Deanne M. Tripi",
+            "party": "Conservative"
+          },
+          {
+            "name": "Jonathan S. Hickey",
+            "party": "Conservative"
+          },
+          {
+            "name": "Robert R. Vario",
+            "party": "Conservative"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Conservative"
+          },
+          {
+            "name": "Craig R. Bucki",
+            "party": "Working Families"
+          },
+          {
+            "name": "Anne E. Joynt",
+            "party": "Working Families"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Chautauqua County": [
+      {
+        "office": "Supreme Court Justice, 8th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Craig R. Bucki",
+            "party": "Democratic"
+          },
+          {
+            "name": "Anne E. Joynt",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Democratic"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Democratic"
+          },
+          {
+            "name": "Deanne M. Tripi",
+            "party": "Republican"
+          },
+          {
+            "name": "Jonathan S. Hickey",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Republican"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Republican"
+          },
+          {
+            "name": "Deanne M. Tripi",
+            "party": "Conservative"
+          },
+          {
+            "name": "Jonathan S. Hickey",
+            "party": "Conservative"
+          },
+          {
+            "name": "Robert R. Vario",
+            "party": "Conservative"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Conservative"
+          },
+          {
+            "name": "Craig R. Bucki",
+            "party": "Working Families"
+          },
+          {
+            "name": "Anne E. Joynt",
+            "party": "Working Families"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Genesee County": [
+      {
+        "office": "Supreme Court Justice, 8th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Craig R. Bucki",
+            "party": "Democratic"
+          },
+          {
+            "name": "Anne E. Joynt",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Democratic"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Democratic"
+          },
+          {
+            "name": "Deanne M. Tripi",
+            "party": "Republican"
+          },
+          {
+            "name": "Jonathan S. Hickey",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Republican"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Republican"
+          },
+          {
+            "name": "Deanne M. Tripi",
+            "party": "Conservative"
+          },
+          {
+            "name": "Jonathan S. Hickey",
+            "party": "Conservative"
+          },
+          {
+            "name": "Robert R. Vario",
+            "party": "Conservative"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Conservative"
+          },
+          {
+            "name": "Craig R. Bucki",
+            "party": "Working Families"
+          },
+          {
+            "name": "Anne E. Joynt",
+            "party": "Working Families"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Niagara County": [
+      {
+        "office": "Supreme Court Justice, 8th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Craig R. Bucki",
+            "party": "Democratic"
+          },
+          {
+            "name": "Anne E. Joynt",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Democratic"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Democratic"
+          },
+          {
+            "name": "Deanne M. Tripi",
+            "party": "Republican"
+          },
+          {
+            "name": "Jonathan S. Hickey",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Republican"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Republican"
+          },
+          {
+            "name": "Deanne M. Tripi",
+            "party": "Conservative"
+          },
+          {
+            "name": "Jonathan S. Hickey",
+            "party": "Conservative"
+          },
+          {
+            "name": "Robert R. Vario",
+            "party": "Conservative"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Conservative"
+          },
+          {
+            "name": "Craig R. Bucki",
+            "party": "Working Families"
+          },
+          {
+            "name": "Anne E. Joynt",
+            "party": "Working Families"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Orleans County": [
+      {
+        "office": "Supreme Court Justice, 8th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Craig R. Bucki",
+            "party": "Democratic"
+          },
+          {
+            "name": "Anne E. Joynt",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Democratic"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Democratic"
+          },
+          {
+            "name": "Deanne M. Tripi",
+            "party": "Republican"
+          },
+          {
+            "name": "Jonathan S. Hickey",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Republican"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Republican"
+          },
+          {
+            "name": "Deanne M. Tripi",
+            "party": "Conservative"
+          },
+          {
+            "name": "Jonathan S. Hickey",
+            "party": "Conservative"
+          },
+          {
+            "name": "Robert R. Vario",
+            "party": "Conservative"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Conservative"
+          },
+          {
+            "name": "Craig R. Bucki",
+            "party": "Working Families"
+          },
+          {
+            "name": "Anne E. Joynt",
+            "party": "Working Families"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Wyoming County": [
+      {
+        "office": "Supreme Court Justice, 8th Judicial District (Vote for 4)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Craig R. Bucki",
+            "party": "Democratic"
+          },
+          {
+            "name": "Anne E. Joynt",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Democratic"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Democratic"
+          },
+          {
+            "name": "Deanne M. Tripi",
+            "party": "Republican"
+          },
+          {
+            "name": "Jonathan S. Hickey",
+            "party": "Republican"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Republican"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Republican"
+          },
+          {
+            "name": "Deanne M. Tripi",
+            "party": "Conservative"
+          },
+          {
+            "name": "Jonathan S. Hickey",
+            "party": "Conservative"
+          },
+          {
+            "name": "Robert R. Vario",
+            "party": "Conservative"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "Conservative"
+          },
+          {
+            "name": "Craig R. Bucki",
+            "party": "Working Families"
+          },
+          {
+            "name": "Anne E. Joynt",
+            "party": "Working Families"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Dutchess County": [
+      {
+        "office": "Supreme Court Justice, 9th Judicial District (Vote for 3)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Maria G. Rosa",
+            "party": "Democratic"
+          },
+          {
+            "name": "George E. Fufidio",
+            "party": "Democratic"
+          },
+          {
+            "name": "Alden H. Wolfe",
+            "party": "Democratic"
+          },
+          {
+            "name": "Richard S. Fava Pastilha",
+            "party": "Republican"
+          },
+          {
+            "name": "George E. Fufidio",
+            "party": "Republican"
+          },
+          {
+            "name": "John Ciampoli",
+            "party": "Republican"
+          },
+          {
+            "name": "Richard S. Fava Pastilha",
+            "party": "Conservative"
+          },
+          {
+            "name": "Alden H. Wolfe",
+            "party": "Conservative"
+          },
+          {
+            "name": "Maria G. Rosa",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Orange County": [
+      {
+        "office": "Supreme Court Justice, 9th Judicial District (Vote for 3)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Maria G. Rosa",
+            "party": "Democratic"
+          },
+          {
+            "name": "George E. Fufidio",
+            "party": "Democratic"
+          },
+          {
+            "name": "Alden H. Wolfe",
+            "party": "Democratic"
+          },
+          {
+            "name": "Richard S. Fava Pastilha",
+            "party": "Republican"
+          },
+          {
+            "name": "George E. Fufidio",
+            "party": "Republican"
+          },
+          {
+            "name": "John Ciampoli",
+            "party": "Republican"
+          },
+          {
+            "name": "Richard S. Fava Pastilha",
+            "party": "Conservative"
+          },
+          {
+            "name": "Alden H. Wolfe",
+            "party": "Conservative"
+          },
+          {
+            "name": "Maria G. Rosa",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Putnam County": [
+      {
+        "office": "Supreme Court Justice, 9th Judicial District (Vote for 3)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Maria G. Rosa",
+            "party": "Democratic"
+          },
+          {
+            "name": "George E. Fufidio",
+            "party": "Democratic"
+          },
+          {
+            "name": "Alden H. Wolfe",
+            "party": "Democratic"
+          },
+          {
+            "name": "Richard S. Fava Pastilha",
+            "party": "Republican"
+          },
+          {
+            "name": "George E. Fufidio",
+            "party": "Republican"
+          },
+          {
+            "name": "John Ciampoli",
+            "party": "Republican"
+          },
+          {
+            "name": "Richard S. Fava Pastilha",
+            "party": "Conservative"
+          },
+          {
+            "name": "Alden H. Wolfe",
+            "party": "Conservative"
+          },
+          {
+            "name": "Maria G. Rosa",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Rockland County": [
+      {
+        "office": "Supreme Court Justice, 9th Judicial District (Vote for 3)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Maria G. Rosa",
+            "party": "Democratic"
+          },
+          {
+            "name": "George E. Fufidio",
+            "party": "Democratic"
+          },
+          {
+            "name": "Alden H. Wolfe",
+            "party": "Democratic"
+          },
+          {
+            "name": "Richard S. Fava Pastilha",
+            "party": "Republican"
+          },
+          {
+            "name": "George E. Fufidio",
+            "party": "Republican"
+          },
+          {
+            "name": "John Ciampoli",
+            "party": "Republican"
+          },
+          {
+            "name": "Richard S. Fava Pastilha",
+            "party": "Conservative"
+          },
+          {
+            "name": "Alden H. Wolfe",
+            "party": "Conservative"
+          },
+          {
+            "name": "Maria G. Rosa",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Westchester County": [
+      {
+        "office": "Supreme Court Justice, 9th Judicial District (Vote for 3)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Maria G. Rosa",
+            "party": "Democratic"
+          },
+          {
+            "name": "George E. Fufidio",
+            "party": "Democratic"
+          },
+          {
+            "name": "Alden H. Wolfe",
+            "party": "Democratic"
+          },
+          {
+            "name": "Richard S. Fava Pastilha",
+            "party": "Republican"
+          },
+          {
+            "name": "George E. Fufidio",
+            "party": "Republican"
+          },
+          {
+            "name": "John Ciampoli",
+            "party": "Republican"
+          },
+          {
+            "name": "Richard S. Fava Pastilha",
+            "party": "Conservative"
+          },
+          {
+            "name": "Alden H. Wolfe",
+            "party": "Conservative"
+          },
+          {
+            "name": "Maria G. Rosa",
+            "party": "Working Families"
+          }
+        ]
+      }
+    ],
+    "Nassau County": [
+      {
+        "office": "Supreme Court Justice, 10th Judicial District (Vote for 8)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Richard Ambro",
+            "party": "Democratic"
+          },
+          {
+            "name": "Leonard D. Steinman",
+            "party": "Democratic"
+          },
+          {
+            "name": "Mary E. Porter",
+            "party": "Democratic"
+          },
+          {
+            "name": "Joy M. Watson",
+            "party": "Democratic"
+          },
+          {
+            "name": "Stephen L. Ukeiley",
+            "party": "Democratic"
+          },
+          {
+            "name": "Eric Sachs",
+            "party": "Democratic"
+          },
+          {
+            "name": "William D. Wexler",
+            "party": "Democratic"
+          },
+          {
+            "name": "John Kelly",
+            "party": "Democratic"
+          },
+          {
+            "name": "Richard Ambro",
+            "party": "Republican"
+          },
+          {
+            "name": "Leonard D. Steinman",
+            "party": "Republican"
+          },
+          {
+            "name": "Kelly A. Reape",
+            "party": "Republican"
+          },
+          {
+            "name": "Joy M. Watson",
+            "party": "Republican"
+          },
+          {
+            "name": "Karen M. Wilutis",
+            "party": "Republican"
+          },
+          {
+            "name": "John Iliou",
+            "party": "Republican"
+          },
+          {
+            "name": "James A. McDonaugh",
+            "party": "Republican"
+          },
+          {
+            "name": "Mary Kate Mullen",
+            "party": "Republican"
+          },
+          {
+            "name": "Anthony R. Portesy",
+            "party": "Conservative"
+          },
+          {
+            "name": "Leonard D. Steinman",
+            "party": "Conservative"
+          },
+          {
+            "name": "Kelly A. Reape",
+            "party": "Conservative"
+          },
+          {
+            "name": "Joy M. Watson",
+            "party": "Conservative"
+          },
+          {
+            "name": "Karen M. Wilutis",
+            "party": "Conservative"
+          },
+          {
+            "name": "John Iliou",
+            "party": "Conservative"
+          },
+          {
+            "name": "James A. McDonaugh",
+            "party": "Conservative"
+          },
+          {
+            "name": "Mary Kate Mullen",
+            "party": "Conservative"
+          }
+        ]
+      }
+    ],
+    "Suffolk County": [
+      {
+        "office": "Supreme Court Justice, 10th Judicial District (Vote for 8)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Richard Ambro",
+            "party": "Democratic"
+          },
+          {
+            "name": "Leonard D. Steinman",
+            "party": "Democratic"
+          },
+          {
+            "name": "Mary E. Porter",
+            "party": "Democratic"
+          },
+          {
+            "name": "Joy M. Watson",
+            "party": "Democratic"
+          },
+          {
+            "name": "Stephen L. Ukeiley",
+            "party": "Democratic"
+          },
+          {
+            "name": "Eric Sachs",
+            "party": "Democratic"
+          },
+          {
+            "name": "William D. Wexler",
+            "party": "Democratic"
+          },
+          {
+            "name": "John Kelly",
+            "party": "Democratic"
+          },
+          {
+            "name": "Richard Ambro",
+            "party": "Republican"
+          },
+          {
+            "name": "Leonard D. Steinman",
+            "party": "Republican"
+          },
+          {
+            "name": "Kelly A. Reape",
+            "party": "Republican"
+          },
+          {
+            "name": "Joy M. Watson",
+            "party": "Republican"
+          },
+          {
+            "name": "Karen M. Wilutis",
+            "party": "Republican"
+          },
+          {
+            "name": "John Iliou",
+            "party": "Republican"
+          },
+          {
+            "name": "James A. McDonaugh",
+            "party": "Republican"
+          },
+          {
+            "name": "Mary Kate Mullen",
+            "party": "Republican"
+          },
+          {
+            "name": "Anthony R. Portesy",
+            "party": "Conservative"
+          },
+          {
+            "name": "Leonard D. Steinman",
+            "party": "Conservative"
+          },
+          {
+            "name": "Kelly A. Reape",
+            "party": "Conservative"
+          },
+          {
+            "name": "Joy M. Watson",
+            "party": "Conservative"
+          },
+          {
+            "name": "Karen M. Wilutis",
+            "party": "Conservative"
+          },
+          {
+            "name": "John Iliou",
+            "party": "Conservative"
+          },
+          {
+            "name": "James A. McDonaugh",
+            "party": "Conservative"
+          },
+          {
+            "name": "Mary Kate Mullen",
+            "party": "Conservative"
+          }
+        ]
+      }
+    ],
+    "Queens County": [
+      {
+        "office": "Supreme Court Justice, 11th Judicial District (Vote for 3)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Edwin I. Novillo",
+            "party": "Democratic"
+          },
+          {
+            "name": "Oma D. Phillips",
+            "party": "Democratic"
+          },
+          {
+            "name": "Gail A. Adams",
+            "party": "Democratic"
+          },
+          {
+            "name": "David A. Bellon",
+            "party": "Republican"
+          },
+          {
+            "name": "Gary Muraca",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Bronx County": [
+      {
+        "office": "Supreme Court Justice, 12th Judicial District (Vote for 1)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Alvin M. Yearwood",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "Richmond County": [
+      {
+        "office": "Supreme Court Justice, 13th Judicial District (Vote for 1)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Kelvin Richards",
+            "party": "Democratic"
+          },
+          {
+            "name": "Michael J. Pinto",
+            "party": "Republican"
+          }
+        ]
+      }
+    ],
+    "Albany County": [
+      {
+        "office": "COUNTY CORONER",
+        "key": null,
+        "candidates": [
+          {
+            "name": "THOMAS J. PRATT",
+            "party": "DEMOCRATIC"
+          }
+        ]
+      },
+      {
+        "office": "COUNTY COURT JUDGE",
+        "key": null,
+        "candidates": [
+          {
+            "name": "TINA K SODHI",
+            "party": "DEMOCRATIC"
+          }
+        ]
+      },
+      {
+        "office": "Proposal one, an Amendment: Replacing Coroners with Medical Examiners. An Albany County Charter amendment repealing the elected office of County Coroner(s) and replacing it with the appointed office of County Medical Examiner. Establishes required credentialing for County Medical Examiners. A \"Yes\" vote repeals the elected office of Coroner and replaces it with the appointed office of Medical Examiner. A \"No\" vote maintains the elected office of Coroner.",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Proposal two, an amendment: Establishing Additional Qualifications for County Legislators. An Albany County Charter amendment which establishes additional qualifications for the position of County Legislator. The amendment also establishes procedures for investigating and disciplining County Legislators for violating these rules. A \"Yes\" vote adopts additional qualifications for elected County Legislators. A \"No\" vote would leave the County Charter unchanged",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "SUPREME COURT JUSTICE, 3rd JUDICIAL DISTRICT",
+        "key": null,
+        "candidates": [
+          {
+            "name": "AMY E. JOYCE",
+            "party": "DEMOCRATIC"
+          },
+          {
+            "name": "JENNIFER G. SOBER",
+            "party": "DEMOCRATIC"
+          }
+        ]
+      }
+    ],
+    "Erie County": [
+      {
+        "office": "County Clerk (Vote for One)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Steven G. Meyer",
+            "party": "D"
+          },
+          {
+            "name": "Michael P. Kearns",
+            "party": "R"
+          },
+          {
+            "name": "Michael P. Kearns",
+            "party": "C"
+          },
+          {
+            "name": "Steven G. Meyer",
+            "party": "W"
+          }
+        ],
+        "term": "4 Year Term"
+      },
+      {
+        "office": "Justice of the Supreme Court (Vote for Any Four)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Craig R. Bucki",
+            "party": "D"
+          },
+          {
+            "name": "Anne E. Joynt",
+            "party": "D"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "D"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "D"
+          },
+          {
+            "name": "Deanne M. Tripi",
+            "party": "R"
+          },
+          {
+            "name": "Jonathan S. Hickey",
+            "party": "R"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "R"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "R"
+          },
+          {
+            "name": "Deanne M. Tripi",
+            "party": "C"
+          },
+          {
+            "name": "Jonathan S. Hickey",
+            "party": "C"
+          },
+          {
+            "name": "Robert R. Vario",
+            "party": "C"
+          },
+          {
+            "name": "Robert N. Richardson",
+            "party": "C"
+          },
+          {
+            "name": "Craig R. Bucki",
+            "party": "W"
+          },
+          {
+            "name": "Anne E. Joynt",
+            "party": "W"
+          },
+          {
+            "name": "Michael L. Amodeo",
+            "party": "W"
+          }
+        ],
+        "term": "14 Year Term"
+      }
+    ],
+    "Monroe County": [
+      {
+        "office": "District Attorney",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brian Green",
+            "party": "Democratic"
+          }
+        ]
+      }
+    ],
+    "Onondaga County": [
+      {
+        "office": "Onondaga County Proposition 1. Establishing a term limit of three (3) consecutive four-year terms for the office of County Executive and the office of County Comptroller.",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Onondaga County Proposition 2. Establishing a term limit of four (4) consecutive four-year terms for the office of County Executive and the office of County Comptroller.",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Onondaga County Sheriff (Vote for 1)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Toby Shelley",
+            "party": "DEM"
+          },
+          {
+            "name": "RJ Lenhart",
+            "party": "REP"
+          },
+          {
+            "name": "RJ Lenhart",
+            "party": "CON"
+          },
+          {
+            "name": "Toby Shelley",
+            "party": "WTP"
+          }
+        ]
+      },
+      {
+        "office": "County Court Judge (Vote for 1)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Jeffrey G. Leibo",
+            "party": "DEM"
+          },
+          {
+            "name": "Matthew J. Doran",
+            "party": "REP"
+          },
+          {
+            "name": "Matthew J. Doran",
+            "party": "CON"
+          },
+          {
+            "name": "Jeffrey G. Leibo",
+            "party": "WOR"
+          }
+        ]
+      },
+      {
+        "office": "State Supreme Court Justice, 5th Judicial District (Vote for 1)",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Joseph Zavaglia",
+            "party": "DEM"
+          },
+          {
+            "name": "Michael J. Manfredi",
+            "party": "REP"
+          },
+          {
+            "name": "Michael J. Manfredi",
+            "party": "CON"
+          },
+          {
+            "name": "Joseph Zavaglia",
+            "party": "WOR"
+          }
+        ]
+      }
+    ]
+  },
+  "countyRead": {
+    "New York County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 1st Judicial District and names New York County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Kings County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 2nd Judicial District and names Kings County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Columbia County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 3rd Judicial District and names Columbia County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Greene County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 3rd Judicial District and names Greene County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Rensselaer County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 3rd Judicial District and names Rensselaer County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Schoharie County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 3rd Judicial District and names Schoharie County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Sullivan County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 3rd Judicial District and names Sullivan County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Ulster County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 3rd Judicial District and names Ulster County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Clinton County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 4th Judicial District and names Clinton County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Essex County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 4th Judicial District and names Essex County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Franklin County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 4th Judicial District and names Franklin County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Fulton County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 4th Judicial District and names Fulton County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Hamilton County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 4th Judicial District and names Hamilton County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Montgomery County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 4th Judicial District and names Montgomery County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "St. Lawrence County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 4th Judicial District and names St. Lawrence County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Saratoga County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 4th Judicial District and names Saratoga County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Schenectady County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 4th Judicial District and names Schenectady County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Warren County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 4th Judicial District and names Warren County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Washington County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 4th Judicial District and names Washington County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Herkimer County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 5th Judicial District and names Herkimer County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Jefferson County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 5th Judicial District and names Jefferson County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Lewis County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 5th Judicial District and names Lewis County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Oneida County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 5th Judicial District and names Oneida County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Oswego County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 5th Judicial District and names Oswego County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Allegany County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 8th Judicial District and names Allegany County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Cattaraugus County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 8th Judicial District and names Cattaraugus County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Chautauqua County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 8th Judicial District and names Chautauqua County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Genesee County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 8th Judicial District and names Genesee County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Niagara County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 8th Judicial District and names Niagara County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Orleans County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 8th Judicial District and names Orleans County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Wyoming County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 8th Judicial District and names Wyoming County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Dutchess County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 9th Judicial District and names Dutchess County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Orange County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 9th Judicial District and names Orange County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Putnam County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 9th Judicial District and names Putnam County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Rockland County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 9th Judicial District and names Rockland County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Westchester County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 9th Judicial District and names Westchester County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied. The county board also posts a file titled 2026 unofficial general election candidate list. That title says the list is unofficial, so candidate names from that file are not copied here.",
+      "sources": [
+        {
+          "name": "Westchester County Board of Elections, 2026 unofficial general election candidate list",
+          "url": "https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf",
+          "accessed": "October 24, 2026"
+        }
+      ]
+    },
+    "Nassau County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 10th Judicial District and names Nassau County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Suffolk County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 10th Judicial District and names Suffolk County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Queens County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 11th Judicial District and names Queens County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Bronx County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 12th Judicial District and names Bronx County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Richmond County": {
+      "label": "New York State Board of Elections, amended certification for the November 3, 2026 general election, dated October 7, 2026",
+      "href": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+      "intro": "The New York State Board of Elections amended certification dated October 7, 2026 lists Supreme Court Justice for the 13th Judicial District and names Richmond County among the counties. Candidate names are copied in the order printed. Party is copied as printed.",
+      "note": "Blank party lines with no candidate name are not copied. Congressional, state senate, and assembly districts on that certification are not copied."
+    },
+    "Albany County": {
+      "label": "Albany County Board of Elections, notice of candidates nominated for the November 3, 2026 general election",
+      "href": "https://content.civicplus.com/api/assets/cd5f13cf-73f6-4151-bf22-82fa793f04e1",
+      "intro": "The Albany County Board of Elections notice says it is a complete list of candidates nominated for offices to be voted on in Albany County at the November 3, 2026 general election. These countywide offices and proposals are copied from that notice. Candidate names and party descriptions are copied as printed.",
+      "note": "The notice also prints congressional, state senate, assembly, and county legislature districts, and town and village offices. Those districts are not copied here."
+    },
+    "Erie County": {
+      "label": "Erie County Board of Elections, 2026 general election candidate list",
+      "href": "https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf",
+      "intro": "The Erie County Board of Elections 2026 general election candidate list prints these countywide offices. Candidate names are copied in the order printed. Party abbreviations are copied as printed.",
+      "note": "The list also prints congressional districts, state senate districts, assembly districts, county legislator districts, and town offices. Those districts are not copied here."
+    },
+    "Monroe County": {
+      "label": "Monroe County Board of Elections, certification of candidates for the November 3, 2026 general election, amended September 11, 2026",
+      "href": "https://www.monroecounty.gov/files/boe/Documents/GE26%20Candidates%20List%20-%20CERTIFICATION%2020260911%20-%20WEB.pdf",
+      "intro": "The Monroe County Board of Elections certification of candidates for the November 3, 2026 general election, amended September 11, 2026, lists this countywide office. Candidate names are copied in the order printed. Party is copied as printed. Addresses on that certification are not copied.",
+      "note": "The certification also lists congressional districts, state senate districts, assembly districts, and town and village offices. Those districts are not copied here. The Board's election results page says unofficial election results are generally posted on the board homepage on election day and are updated until they are officially certified.",
+      "sources": [
+        {
+          "name": "Monroe County Board of Elections, election results",
+          "url": "https://www.monroecounty.gov/elections-results",
+          "accessed": "October 24, 2026"
+        }
+      ]
+    },
+    "Onondaga County": {
+      "label": "Onondaga County Board of Elections, official candidates list for November 3, 2026, revised September 18, 2026",
+      "href": "https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf",
+      "intro": "The Onondaga County Board of Elections official candidates list for November 3, 2026, revised September 18, 2026, prints these countywide offices and propositions. Candidate names are copied in the order printed. Party abbreviations are copied as printed. The list defines WTP as We The People.",
+      "note": "The list also prints legislator districts 1 through 17 and town and village offices. Those districts are not copied here. The Board's election results page says all results for Onondaga County elections are archived on its Results Caster.",
+      "sources": [
+        {
+          "name": "Onondaga County Board of Elections, election results",
+          "url": "https://onondaga.gov/elections/election-results/",
+          "accessed": "October 24, 2026"
         }
       ]
     }

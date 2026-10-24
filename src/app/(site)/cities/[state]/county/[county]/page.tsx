@@ -18,6 +18,15 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 import { placeDisplayName, placeIsStandalone } from "@/lib/placeNames";
 import { formatPopulation } from "@/lib/placeText";
 
+function countySeoDescription(countyName: string, stateName: string, placeCount: number): string {
+  const count = placeCount.toLocaleString("en-US");
+  const text = `${countyName}, ${stateName}: ${count} Census places with 2026 midterm pages. Not an official election website.`;
+  if (text.length > 160) {
+    throw new Error(`County meta description is ${text.length} characters: ${text}`);
+  }
+  return text;
+}
+
 export const dynamicParams = false;
 
 export function generateStaticParams() {
@@ -41,7 +50,7 @@ export async function generateMetadata({
   if (!state || !county) return {};
   return pageMetadata({
     title: `2026 Midterm Election Info for ${county.name}, ${state.code}`,
-    description: `${county.places.length.toLocaleString("en-US")} Census places in ${county.name}, ${state.name}, with links to 2026 midterm pages. Population figures are the 2020 Census counts stored for each place. Not an official election website.`,
+    description: countySeoDescription(county.name, state.name, county.places.length),
     path: `/cities/${state.code}/county/${county.slug}`,
   });
 }

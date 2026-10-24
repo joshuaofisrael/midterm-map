@@ -1,16 +1,25 @@
-import { candidateFile } from "@/data/candidates/load";
 import { electionOfficeFor } from "@/data/electionOffices";
 import { pollCloseIso } from "@/data/pollClose";
 import type { PlaceRecord } from "@/data/places/load";
 import { nearbyFor } from "@/data/places/nearby";
 import { absoluteUrl, SITE } from "@/data/site";
 import { citySeoHeading, placeDisplayName, readableAliases, type TitleKind } from "@/lib/placeNames";
-import { formatPopulation, joinFacts } from "@/lib/placeText";
+import { formatPopulation } from "@/lib/placeText";
 
 const TITLE_TAIL = "2026 Elections: Candidates & Races";
 
 export function citySeoTitle(stateCode: string, place: PlaceRecord, kind: TitleKind): string {
   return citySeoHeading(stateCode, place, kind);
+}
+
+const META_MAX = 160;
+
+function boundedDescription(text: string): string {
+  const clean = text.replace(/\s+/g, " ").trim();
+  if (clean.length > META_MAX) {
+    throw new Error(`Meta description is ${clean.length} characters: ${clean}`);
+  }
+  return clean;
 }
 
 export function citySeoDescription(
@@ -19,31 +28,28 @@ export function citySeoDescription(
   place: PlaceRecord,
 ): string {
   const display = placeDisplayName(place.name);
-  const file = candidateFile(stateCode);
-  const published = file?.status === "published";
-  const list = published
-    ? `Candidate names are copied from the official ${stateName} list.`
-    : "Candidates are not listed on this page yet; use the official state election office.";
   const population =
-    place.pop == null
-      ? `The 2020 Census place file has no population for GEOID ${place.geoid}.`
-      : `2020 Census population ${formatPopulation(place.pop)}.`;
-  const counties = place.counties.length > 0 ? joinFacts(place.counties) : "no county on the place file";
-  const districts =
-    place.districts && place.districts.length > 0 ? place.districts.join("; ") : "no congressional district row";
-  const aliases = readableAliases(place.name)
-    .filter((name) => name.toLowerCase() !== display.toLowerCase() && name.toLowerCase() !== place.name.toLowerCase())
-    .slice(0, 3);
-  const also = aliases.length > 0 ? ` Also matches ${aliases.join(", ")}.` : "";
-  return `2026 midterm election info for ${display}, ${stateCode}. ${list} ${counties}. ${districts}. GEOID ${place.geoid}. ${population}${also} Not an official election website.`;
+    place.pop == null ? "" : ` 2020 Census population ${formatPopulation(place.pop)}.`;
+  const withPopulation = `${display}, ${stateName} (GEOID ${place.geoid}): 2026 midterm candidates and races.${population} Not an official election website.`;
+  if (withPopulation.length <= META_MAX) return withPopulation;
+  const coded = `${display}, ${stateCode} (GEOID ${place.geoid}): 2026 midterm candidates and races.${population} Not an official election website.`;
+  if (coded.length <= META_MAX) return coded;
+  const noPopulation = `${display}, ${stateCode} (GEOID ${place.geoid}): 2026 midterm candidates and races. Not an official election website.`;
+  if (noPopulation.length <= META_MAX) return noPopulation;
+  const suffix = `, ${stateCode} (GEOID ${place.geoid}): 2026 midterm races. Not an official election website.`;
+  const room = META_MAX - suffix.length;
+  const name = display.length <= room ? display : `${display.slice(0, Math.max(1, room - 1)).trimEnd()}…`;
+  return boundedDescription(`${name}${suffix}`);
 }
 
 export function raceSeoTitle(shortTitle: string): string {
   return `${shortTitle} ${TITLE_TAIL}`;
 }
 
-export function raceSeoDescription(title: string, overview: string): string {
-  return `${title}. ${overview} Informational only. Not an endorsement.`;
+export function raceSeoDescription(shortTitle: string, stateCode: string): string {
+  return boundedDescription(
+    `${shortTitle}, ${stateCode}: 2026 candidates and race guide. Informational only. Not an endorsement.`,
+  );
 }
 
 /**

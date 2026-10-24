@@ -303,7 +303,11 @@ function stateHubHeading(name: string): string {
 }
 
 function stateHubDescription(state: StateProfile, dates: StateElectionDates): string {
-  return `${state.name} ${deadlineMetaClause(dates)} for the November 3, 2026 election, plus sample-ballot structure and race guides. ${stateCycleLead(state)} Dates link to ${state.officialElectionOffice.label}. Not an official election website.`;
+  const text = `${state.name}: 2026 ${deadlineMetaClause(dates)} for November 3, plus race guides. Not an official election website.`;
+  if (text.length > 160) {
+    throw new Error(`State meta description is ${text.length} characters: ${text}`);
+  }
+  return text;
 }
 
 /** Lowercase clause. Only categories with sourced facts are named. */
@@ -318,60 +322,3 @@ function deadlineMetaClause(dates: StateElectionDates): string {
   return `${parts[0]}, ${parts[1]}, and ${parts[2]} deadlines`;
 }
 
-/**
- * One sentence from stored cycle flags and statewide offices.
- * Does not invent offices that are not on the state profile.
- */
-function stateCycleLead(state: StateProfile): string {
-  const cycle = ballotCycleFor(state.code);
-  if (cycle) return cycle.shortLead;
-  const listed = joinOffices(notableOffices(state));
-
-  if (state.hasSenateClass2 && state.hasGovernor2026) {
-    const extra = listed ? `, along with the ${listed}` : "";
-    return `${state.name}’s 2026 cycle includes a Class 2 U.S. Senate seat and the governor’s office${extra}.`;
-  }
-
-  if (state.hasSenateClass2) {
-    const extra = listed ? `, with other offices often listed such as ${listed}` : "";
-    return `${state.name}’s 2026 cycle includes a Class 2 U.S. Senate seat${extra}; the governor’s office is not on the regular 2026 ballot.`;
-  }
-
-  if (state.hasGovernor2026) {
-    const extra = listed ? ` and other statewide offices such as ${listed}` : "";
-    return `${state.name}’s 2026 cycle includes the governor’s office${extra}, with no Class 2 U.S. Senate seat scheduled.`;
-  }
-
-  const extra = listed ? `; offices often listed include ${listed}` : "";
-  return `No Class 2 U.S. Senate seat or governor’s office is scheduled for ${state.name} in 2026${extra}.`;
-}
-
-function notableOffices(state: StateProfile): string[] {
-  return state.statewideOffices2026
-    .filter((office) => {
-      const normalized = office.toLowerCase();
-      if (normalized.startsWith("u.s. senate")) return false;
-      if (normalized.startsWith("governor")) return false;
-      if (normalized.startsWith("u.s. house")) return false;
-      if (normalized.includes("address-specific")) return false;
-      if (normalized.includes("as certified")) return false;
-      if (normalized.includes("local contest")) return false;
-      return true;
-    })
-    .slice(0, 2)
-    .map(proseOffice);
-}
-
-function proseOffice(office: string): string {
-  const trimmed = office.replace(/ on this cycle$/, "");
-  if (/^(U\.S\.|Public |Corporation |Railroad |State Board |University |Judicial )/.test(trimmed)) {
-    return trimmed;
-  }
-  return trimmed.charAt(0).toLowerCase() + trimmed.slice(1);
-}
-
-function joinOffices(offices: string[]): string {
-  if (offices.length === 0) return "";
-  if (offices.length === 1) return offices[0];
-  return `${offices[0]} and ${offices[1]}`;
-}

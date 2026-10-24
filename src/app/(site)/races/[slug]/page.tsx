@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!race) return {};
   return pageMetadata({
     title: raceSeoTitle(race.shortTitle),
-    description: raceSeoDescription(race.title, race.overview),
+    description: raceSeoDescription(race.shortTitle, race.state),
     path: `/races/${race.slug}`,
   });
 }
