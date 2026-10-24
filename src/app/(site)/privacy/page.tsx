@@ -8,6 +8,7 @@ import { LEGAL } from "@/data/legalEntity";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 import { FORMSUBMIT_PRIVACY, FORMSUBMIT_URL } from "@/data/contact";
 import { CookieChoicesButton, GA_MEASUREMENT_ID } from "@/components/GoogleAnalytics";
+import { GOOGLE_ADS_POLICIES_URL } from "@/lib/adsense";
 
 export const metadata = pageMetadata({
   title: "Privacy Policy",
@@ -59,7 +60,8 @@ export default function PrivacyPage() {
           This policy explains what information is involved when you visit {SITE.name} (
           {SITE.url}). The site is operated by {LEGAL.legalName}, a {LEGAL.entityType} based in{" "}
           {LEGAL.location} (“we,” “us”). {SITE.name} is a static informational website. It has no
-          user accounts and no comments. It does not currently load an advertising script (see “Advertising” below).
+          user accounts and no comments. It loads Google AdSense, which may serve ads and use cookies
+          (see “Advertising” below).
           {signup ? " It offers an optional election-night email alert." : " It has no email sign-up form."}
           {affiliates ? " Some pages contain disclosed affiliate links." : " It has no affiliate links."}
           {tips
@@ -97,6 +99,9 @@ export default function PrivacyPage() {
             Analytics, only if you click Accept: Google Analytics cookies and usage data, as
             described below.
           </li>
+          <li>
+            Advertising: Google AdSense may serve ads and use cookies, as described below.
+          </li>
           <li>Hosting: security logs kept by GitHub Pages.</li>
           <li>Messages you choose to send us by email or through the contact form (delivered by FormSubmit).</li>
           <li>
@@ -106,8 +111,9 @@ export default function PrivacyPage() {
           </li>
         </ul>
         <p>
-          The contact form is processed by FormSubmit, which emails your message to us. No Google AdSense,
-          Ezoic, or Adsterra script is loaded today; see “Advertising” below.
+          The contact form is processed by FormSubmit, which emails your message to us. Google AdSense
+          may serve ads and use cookies; see “Advertising” below. Ezoic and Adsterra scripts are not
+          loaded.
         </p>
 
         <h2>Summary</h2>
@@ -119,7 +125,11 @@ export default function PrivacyPage() {
             storage and does not fingerprint visitors. We see aggregate traffic statistics only.
           </li>
           <li>Our host, GitHub Pages, logs visitor IP addresses for security purposes.</li>
-          <li>We do not sell or share personal information, and we do not use it for targeted advertising.</li>
+          <li>
+            We do not sell personal information. We do not use information we collect ourselves for
+            targeted advertising. Google AdSense may use cookies to serve ads, including ads Google
+            personalizes, as described under Advertising.
+          </li>
           <li>
             We also use Google Analytics, but only if you click Accept. The Google script is not
             loaded, and its cookies are not set, if you click Reject or make no choice. No
@@ -173,9 +183,11 @@ export default function PrivacyPage() {
         <h2 id="google-analytics">Analytics: Google Analytics (only with your consent)</h2>
         <p>
           The site also uses Google Analytics 4 (measurement ID {GA_MEASUREMENT_ID}), a service of
-          Google LLC, to count visits and understand which pages are useful. The Google script is
-          not on the page until you click Accept. Advertising and analytics storage start denied.
-          When you first visit, a banner asks whether you accept analytics cookies.
+          Google LLC, to count visits and understand which pages are useful. The Google Analytics
+          script is not on the page until you click Accept. That choice is this site’s consent
+          script. Advertising and analytics storage for that tag start denied. When you first visit,
+          a banner asks whether you accept analytics cookies. Google AdSense is a separate script
+          and is described under Advertising.
         </p>
         <ul>
           <li>
@@ -204,9 +216,10 @@ export default function PrivacyPage() {
             ).
           </li>
           <li>
-            We have turned off Google signals and ad personalization, all advertising consent
-            signals stay denied, and we do not use Google Analytics data for advertising or share
-            it for targeted advertising.
+            We have turned off Google signals and ad personalization for Google Analytics. That
+            tag’s advertising consent signals stay denied, and we do not use Google Analytics data
+            for advertising or share it for targeted advertising. The analytics choice does not
+            replace Google’s advertising consent message.
           </li>
         </ul>
         <p>
@@ -309,19 +322,24 @@ export default function PrivacyPage() {
 
         <h2 id="advertising">Advertising</h2>
         <p>
-          No advertising script is loaded on this site today. Google AdSense, Ezoic, and Adsterra
-          are not running. The file <a href="/ads.txt">ads.txt</a> lists one Google AdSense
-          publisher ID (<code>pub-5681559774142917</code>) so Google can verify the site if AdSense
-          is turned on later. Ezoic and Adsterra are not listed in that file.
+          {SITE.name} may show advertisements from Google AdSense. Google and its advertising
+          partners may use cookies to serve and measure those ads. Google describes that use in{" "}
+          <a href={GOOGLE_ADS_POLICIES_URL} rel="noopener noreferrer">
+            Google’s advertising policies
+          </a>
+          . The file <a href="/ads.txt">ads.txt</a> lists one Google AdSense publisher ID (
+          <code>pub-5681559774142917</code>). Ezoic and Adsterra are not running and are not listed
+          in that file.
         </p>
         <p>
-          If AdSense, Ezoic, or Adsterra is enabled later, this policy, the{" "}
+          Visitors in the European Economic Area, the United Kingdom, and Switzerland get Google’s
+          consent message before those advertising cookies are used. The message is Google’s
+          EU/UK/CH consent message, shown through the AdSense script. It is separate from the
+          analytics choice on this site: Google Analytics still loads only if you click Accept, as
+          described under <Link href="#google-analytics">Google Analytics</Link>. If we add Ezoic,
+          Adsterra, or another advertising network, this policy, the{" "}
           <Link href="/advertising">advertising disclosure</Link>, and <a href="/ads.txt">ads.txt</a>{" "}
-          will be updated first. Those networks can use cookies to measure and personalize ads.
-          Google’s EU/UK/CH consent message — the consent message Google provides for people in the
-          European Economic Area, the United Kingdom, and Switzerland — is not shown today, because
-          no advertising script loads. If AdSense is turned on, visitors in those places would see
-          that message before personalized ads. You can opt out of Google’s personalized ads at{" "}
+          will be updated first. You can opt out of Google’s personalized ads at{" "}
           <a href="https://www.google.com/settings/ads">Google Ads Settings</a>, and of some other
           vendors’ advertising cookies at <a href="https://www.aboutads.info">www.aboutads.info</a>.
         </p>
@@ -373,15 +391,17 @@ export default function PrivacyPage() {
           <li>To operate, secure, and fix the website</li>
           <li>To understand aggregate use of pages through Cloudflare Web Analytics</li>
           <li>To measure visits and page use through Google Analytics, if you accept analytics cookies</li>
+          <li>To let Google AdSense serve and measure ads, as described under Advertising</li>
           <li>To respond to messages you send</li>
           {tips && <li>To process, record, and if needed refund tips, and to keep required tax and accounting records</li>}
           {signup && <li>To send the election-night alert and occasional site updates you signed up for</li>}
           <li>To comply with law or protect our rights where required</li>
         </ul>
         <p>
-          We do not sell personal information, “share” it for cross-context behavioral advertising
-          (as those terms are used in California law), or use it to profile you. We do not make
-          automated decisions about you.
+          We do not sell personal information, and we do not use information we collect ourselves
+          for cross-context behavioral advertising (as that term is used in California law) or to
+          profile you. Google AdSense may use cookies to serve and measure ads, including ads Google
+          personalizes, as described under Advertising. We do not make automated decisions about you.
         </p>
 
         <h2>Retention</h2>
@@ -402,11 +422,13 @@ export default function PrivacyPage() {
           personal information we process. Our legal basis is our legitimate interest in operating,
           securing, and improving a free public information website and in answering messages you
           choose to send. For Google Analytics, the legal basis is your consent, which you give by
-          clicking Accept and can withdraw at any time through the Cookie choices link.
+          clicking Accept and can withdraw at any time through the Cookie choices link. For Google
+          AdSense, visitors in the European Economic Area, the United Kingdom, and Switzerland are
+          asked through Google’s consent message before advertising cookies are used.
           {tips ? " For tips, the legal basis is processing needed to take your payment and to meet tax and accounting obligations." : ""}
           {signup ? " For the email alert, the legal basis is your consent, which you can withdraw at any time by unsubscribing." : ""}{" "}
           Information is processed in the United States by us and by our service providers
-          (Cloudflare, GitHub, FormSubmit for contact form messages, Google for analytics and for email we receive{tips ? ", Stripe for tips" : ""}
+          (Cloudflare, GitHub, FormSubmit for contact form messages, Google for analytics, advertising, and email we receive{tips ? ", Stripe for tips" : ""}
           {signup ? ", and our email alert provider" : ""}). Subject to the conditions in
           those laws, you may ask to access, correct, delete, or restrict our use of your personal
           information, object to our use of it, or receive a copy of it. You may also complain to
@@ -417,11 +439,13 @@ export default function PrivacyPage() {
         <p>
           Depending on where you live, state law may give you the right to know what personal
           information we have about you, to correct it, to delete it, and to opt out of its sale,
-          sharing for targeted advertising, or profiling. We do not sell or share personal
-          information or use it for targeted advertising or profiling, so there is nothing to opt
-          out of. For the same reason, a browser privacy signal such as Global Privacy Control does
-          not change how this site handles your information. We will not treat you differently for exercising a privacy
-          right.
+          sharing for targeted advertising, or profiling. We do not sell personal information.
+          Google may use cookies for advertising as described under Advertising,
+          including ads that Google personalizes. You can opt out of Google’s personalized ads at{" "}
+          <a href="https://www.google.com/settings/ads">Google Ads Settings</a>. A browser privacy
+          signal such as Global Privacy Control is separate from that Google setting and from the
+          analytics choice stored in this browser. We will not treat you differently for exercising
+          a privacy right.
         </p>
 
         <h2>How to make a privacy request</h2>

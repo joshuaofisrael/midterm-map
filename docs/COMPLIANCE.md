@@ -89,9 +89,9 @@ The public site keeps plain, sourced facts (registration and other deadline date
 Public pages already had `/terms`, `/disclaimer`, `/privacy`, `/about`, and `/contact`. This pass extended those pages and added two:
 
 - `/copyright/` — copyright, content use, DMCA notices through the contact form (no inbox address), and the corrections policy. There is no separate public corrections log. A correction replaces the page text and the page’s stored “Last updated” date changes. The report stays with contact-form records.
-- `/advertising/` — no ad script today, Google AdSense publisher line in ads.txt only, no paid political advertising, no candidate endorsements, affiliate links disclosed if added.
+- `/advertising/` — Google AdSense may serve ads (verification meta tag and adsbygoogle.js loader; no ad units placed), Google AdSense publisher line in ads.txt, no paid political advertising, no candidate endorsements, affiliate links disclosed if added.
 
-Terms now include use at your own risk, indemnification, opinions as the site’s own, market odds (none are shown), third-party links not endorsed, and Florida, USA governing law. Privacy still states that AdSense is not loaded. It names Google’s EU/UK/CH consent message as something visitors would see only if AdSense is turned on. High-risk templates carry one static line: informational, not advice, compiled from public sources and AI-assisted, verify with official sources. That line is not injected into the live-results JSON.
+Terms now include use at your own risk, indemnification, opinions as the site’s own, market odds (none are shown), third-party links not endorsed, and Florida, USA governing law. Privacy, as of this October 23 note, stated that AdSense was not loaded. That changed on October 24, 2026: the AdSense loader is on every page, and privacy says visitors in the EEA, the UK, and Switzerland get Google’s consent message. High-risk templates carry one static line: informational, not advice, compiled from public sources and AI-assisted, verify with official sources. That line is not injected into the live-results JSON.
 
 Candidate and certified write-in names on race guides and city pages are copied from official election-office lists for identification. This pass did not find an accusation against a private individual and did not delete those names.
 

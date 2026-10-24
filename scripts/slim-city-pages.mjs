@@ -6,6 +6,9 @@
  * flight payload. State indexes stay as normal Next pages so place search keeps
  * its script. County indexes are static lists, so their flight payload and
  * index.txt copies are removed the same way.
+ * External scripts other than data-keep tags are removed here. The AdSense
+ * meta tag and loader are inserted afterward by scripts/stamp-adsense-html.ts,
+ * including on these city and county pages.
  */
 import fs from "node:fs";
 import path from "node:path";

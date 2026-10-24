@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
 import { SITE } from "@/data/site";
+import { ADSENSE_CLIENT, ADSENSE_SCRIPT_SRC } from "@/lib/adsense";
 import { CloudflareAnalytics } from "@/components/CloudflareAnalytics";
 import { GoogleAnalyticsHead } from "@/components/GoogleAnalytics";
 import "./globals.css";
@@ -72,6 +73,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
+        <meta name="google-adsense-account" content={ADSENSE_CLIENT} />
+        <script async src={ADSENSE_SCRIPT_SRC} crossOrigin="anonymous" />
         <GoogleAnalyticsHead />
       </head>
       <body className={`${sourceSans.variable} ${sourceSerif.variable} font-sans`}>
