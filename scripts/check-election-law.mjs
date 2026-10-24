@@ -28,6 +28,12 @@ for (const [code, iso] of closes) {
 }
 
 const results = JSON.parse(readFileSync(path.join(root, "public/live/results.json"), "utf8"));
+for (const chamber of ["house", "senate"]) {
+  const counts = results.chambers?.[chamber];
+  if (!counts || counts.dem !== null || counts.rep !== null || counts.other !== null) {
+    errors.push(`${chamber} needle counts in results.json must stay null until an official file states them`);
+  }
+}
 for (const [code, state] of Object.entries(results.states ?? {})) {
   const close = Date.parse(closes.get(code) ?? "");
   const races = Array.isArray(state.races) ? state.races : [];

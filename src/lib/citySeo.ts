@@ -59,7 +59,7 @@ export function raceSeoDescription(shortTitle: string, stateCode: string): strin
  * election office, which administers the election. Image is this site's
  * existing Open Graph card, not a photograph of the polling place.
  */
-function eventNode(input: { name: string; placeId: string; about: string; stateCode: string }) {
+function eventNode(input: { name: string; placeId: string; about: string; stateCode: string; image?: string }) {
   const office = electionOfficeFor(input.stateCode);
   const endDate = pollCloseIso(input.stateCode);
   const node: Record<string, unknown> = {
@@ -70,7 +70,7 @@ function eventNode(input: { name: string; placeId: string; about: string; stateC
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
     location: { "@id": input.placeId },
     description: input.about,
-    image: `${SITE.url}/og.jpg`,
+    image: input.image ?? `${SITE.url}/og.jpg`,
     organizer: {
       "@type": "GovernmentOrganization",
       name: office.office.label,
@@ -150,6 +150,7 @@ export function raceStructuredData(input: {
   stateName: string;
   faqs: { question: string; answer: string }[];
   crumbs: { name: string; path: string }[];
+  image?: string;
 }) {
   const url = absoluteUrl(input.path);
   const placeId = `${url}#place`;
@@ -169,6 +170,7 @@ export function raceStructuredData(input: {
       placeId,
       about: `${input.shortTitle}. Informational only. Not an endorsement.`,
       stateCode: input.stateCode,
+      image: input.image,
     }),
     {
       "@type": "BreadcrumbList",

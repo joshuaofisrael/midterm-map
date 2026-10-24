@@ -1,17 +1,18 @@
+import { CONTACT_FORM_ACTION } from "@/data/contact";
+import { absoluteUrl } from "@/data/site";
 import Link from "next/link";
-import { EMAIL_SIGNUP, emailSignupEnabled } from "@/data/monetization";
+
+const inputClass = "min-w-[14rem] flex-1 rounded-md border border-line bg-white px-3 py-2";
 
 /**
- * "Election night results alert" signup. Plain HTML POST to the configured
- * provider (Kit, Buttondown, MailerLite...). No scripts, no tracking.
- * Renders nothing until EMAIL_SIGNUP.action is set.
+ * Election-night updates. Posts to the same FormSubmit alias as the contact form.
+ * The inbox address is not in the form action. The consent box starts unchecked.
  */
 export function EmailSignup({ prominent = false }: { prominent?: boolean } = {}) {
-  if (!emailSignupEnabled()) return null;
   return (
     <section
-      id="results-alert"
-      aria-labelledby="results-alert-heading"
+      id="election-updates"
+      aria-labelledby="election-updates-heading"
       className={
         prominent
           ? "rounded-xl border-2 border-navy bg-paper-card p-5 text-sm leading-6 shadow-sm"
@@ -19,48 +20,52 @@ export function EmailSignup({ prominent = false }: { prominent?: boolean } = {})
       }
     >
       <h2
-        id="results-alert-heading"
+        id="election-updates-heading"
         className={prominent ? "font-serif text-xl font-semibold" : "font-serif text-lg font-semibold"}
       >
-        {prominent ? "Get official results in your inbox on election night" : "Election night results alert"}
+        Get election-night updates
       </h2>
-      {prominent && (
-        <p className="mt-1 text-ink-muted">
-          One free email on November 3, 2026 with links to each state&rsquo;s official results page. No
-          predictions, no endorsements.
-        </p>
-      )}
-      <form action={EMAIL_SIGNUP.action} method="post" className="mt-3 space-y-3">
-        {Object.entries(EMAIL_SIGNUP.hiddenFields).map(([name, value]) => (
-          <input key={name} type="hidden" name={name} value={value} />
-        ))}
+      <p className="mt-1 text-ink-muted">
+        One email address, used only to send election updates for November 3, 2026. You can ask us to remove it.
+      </p>
+      <form action={CONTACT_FORM_ACTION} method="POST" className="relative mt-3 space-y-3">
+        <input type="hidden" name="_subject" value="Election-night updates signup from Map the Midterms" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_next" value={absoluteUrl("/updates/thanks")} />
+        <input type="hidden" name="form" value="election-night-updates" />
+        <div aria-hidden="true" className="absolute -left-[10000px] h-px w-px overflow-hidden">
+          <label>
+            Company
+            <input type="text" name="_honey" tabIndex={-1} autoComplete="off" defaultValue="" />
+          </label>
+        </div>
         <div className="flex flex-wrap gap-2">
-          <label htmlFor="results-alert-email" className="sr-only">
+          <label htmlFor="election-updates-email" className="sr-only">
             Email address
           </label>
           <input
-            id="results-alert-email"
+            id="election-updates-email"
             type="email"
-            name={EMAIL_SIGNUP.emailField}
+            name="email"
             required
+            maxLength={320}
             autoComplete="email"
             placeholder="you@example.com"
-            className="min-w-[14rem] flex-1 rounded-md border border-line bg-white px-3 py-2"
+            className={inputClass}
           />
-          <button
-            type="submit"
-            className="rounded-md bg-navy px-4 py-2 font-semibold text-white hover:bg-navy-deep"
-          >
+          <button type="submit" className="rounded-md bg-navy px-4 py-2 font-semibold text-white hover:bg-navy-deep">
             Sign up
           </button>
         </div>
         <label className="flex items-start gap-2 text-xs leading-5 text-ink-muted">
-          {/* No name attribute: the consent box is enforced by the browser and not sent to the provider. */}
-          <input type="checkbox" required className="mt-1" />
+          <input type="checkbox" name="consent" value="yes" required className="mt-1" />
           <span>
-            Get one email with links to official results on election night (Nov 3, 2026) and
-            occasional site updates. You will get a confirmation email first. Unsubscribe anytime.
-            See our <Link className="underline" href="/privacy">Privacy Policy</Link>.
+            I agree to receive election-night updates by email. This address is collected only to send
+            election updates and can be removed on request. See the{" "}
+            <Link className="underline" href="/privacy/#election-updates">
+              privacy policy
+            </Link>
+            .
           </span>
         </label>
       </form>

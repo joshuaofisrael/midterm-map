@@ -13,7 +13,7 @@ import { LivePanel } from "@/components/LivePanel";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { PollTable } from "@/components/PollTable";
-import { ShareLink } from "@/components/ShareLink";
+import { ShareBar } from "@/components/ShareBar";
 import { SourceLines, uniqueCitations } from "@/components/SourceLines";
 import { SourceList } from "@/components/SourceList";
 import { TipJar } from "@/components/TipJar";
@@ -23,10 +23,12 @@ import { AGGREGATORS } from "@/data/sources";
 import { getRace, RACES, racesForState } from "@/data/races";
 import { getState } from "@/data/states";
 import { contentUpdatedLabel } from "@/lib/contentDate";
+import { SITE } from "@/data/site";
 import { raceSeoDescription, raceSeoTitle, raceStructuredData } from "@/lib/citySeo";
 import { chamberLabel, ratingTone } from "@/lib/format";
 import { VISUALS } from "@/data/visuals";
 import { pageMetadata } from "@/lib/metadata";
+import { raceOg } from "@/lib/ogCard";
 
 export function generateStaticParams() {
   return RACES.map((race) => ({ slug: race.slug }));
@@ -36,10 +38,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const race = getRace(slug);
   if (!race) return {};
+  const card = raceOg(race, getState(race.state)?.name ?? race.state);
   return pageMetadata({
     title: raceSeoTitle(race.shortTitle),
     description: raceSeoDescription(race.shortTitle, race.state),
     path: `/races/${race.slug}`,
+    image: { url: card.url, alt: card.alt },
   });
 }
 
@@ -71,6 +75,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
           stateName: state?.name ?? race.state,
           faqs: race.faqs,
           crumbs,
+          image: `${SITE.url}${raceOg(race, state?.name ?? race.state).url}`,
         })}
       />
       <Breadcrumbs
@@ -99,7 +104,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
               {rating.outlet}: {rating.tier} ({rating.asOf})
             </a>
           ))}
-          <ShareLink title={race.title} />
+          <ShareBar path={`/races/${race.slug}`} title={race.office} />
         </div>
       </PageHeader>
       <ContentTrust

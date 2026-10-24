@@ -559,6 +559,11 @@ async function main() {
     generatedAt: new Date().toISOString(),
     electionDay: ELECTION_DAY,
     countsContinue: countsContinue(states, day),
+    // Seat totals stay null. Summing winner flags would be a projection of chamber control.
+    chambers: {
+      house: { dem: null, rep: null, other: null },
+      senate: { dem: null, rep: null, other: null },
+    },
     states: Object.fromEntries(states.map((state) => [state.code, state])),
   };
   mkdirSync(path.dirname(outPath), { recursive: true });

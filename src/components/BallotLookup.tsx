@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { FormEvent, useMemo, useState } from "react";
-import { STARTER_STATES } from "@/data/states";
+import { STATE_CHOICES } from "@/data/stateChoices";
 import { lookupZipState, normalizeZip } from "@/data/zip";
 
 export function BallotLookup({ initialState = "" }: { initialState?: string }) {
@@ -28,7 +28,7 @@ export function BallotLookup({ initialState = "" }: { initialState?: string }) {
 
     if (digits.length === 5 && !fromZip) {
       setMessage(
-        `That ZIP prefix is outside the ${STARTER_STATES.length} states this site covers. Official pages for other states are the state election office and Vote.gov.`,
+        `That ZIP prefix is outside the ${STATE_CHOICES.length} states this site covers. Official pages for other states are the state election office and Vote.gov.`,
       );
       return;
     }
@@ -82,7 +82,7 @@ export function BallotLookup({ initialState = "" }: { initialState?: string }) {
             className="mt-1 w-full rounded-md border border-line bg-white px-3 py-2 text-ink"
           >
             <option value="">Select a starter state</option>
-            {STARTER_STATES.map((item) => (
+            {STATE_CHOICES.map((item) => (
               <option key={item.code} value={item.code}>
                 {item.name}
               </option>

@@ -19,5 +19,5 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules", "scripts", "src/lib/placeNames.test.ts", "src/lib/contactEndpoint.test.ts", "src/data/candidates/contestOrder.test.ts"]
+  "exclude": ["node_modules", "scripts", "src/lib/placeNames.test.ts", "src/lib/contactEndpoint.test.ts", "src/data/candidates/contestOrder.test.ts", "src/data/stateChoices.test.ts", "src/lib/electionNight.test.ts"]
 }

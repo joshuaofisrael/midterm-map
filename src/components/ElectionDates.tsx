@@ -2,15 +2,9 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import {
-  DEADLINE_CATEGORY_LABEL,
-  MARKER_NOTE,
-  votingDeadlinesStateHref,
-  type DeadlineFact,
-  type OmittedDeadline,
-  type StateElectionDates,
-} from "@/data/electionDates";
-import type { StateProfile } from "@/data/types";
+import { DEADLINE_CATEGORY_LABEL, MARKER_NOTE, votingDeadlinesStateHref } from "@/data/deadlineLabels";
+import type { DeadlineFact, OmittedDeadline, StateElectionDates } from "@/data/electionDates";
+import type { StateCode } from "@/data/types";
 
 type Timing = "upcoming" | "today" | "in-progress" | "passed";
 
@@ -104,10 +98,14 @@ function FactBlock({ fact }: { fact: DeadlineFact }) {
 }
 
 export function KeyDatesSection({
-  state,
+  stateCode,
+  officeLabel,
+  officeHref,
   dates,
 }: {
-  state: StateProfile;
+  stateCode: StateCode;
+  officeLabel: string;
+  officeHref: string;
   dates: StateElectionDates;
 }) {
   return (
@@ -119,7 +117,7 @@ export function KeyDatesSection({
         {dates.facts.some((fact) => fact.checkedOn) ? (
           <> A line that prints its own check date was not re-read on {dates.checkedOn}. </>
         ) : null}{" "}
-        {state.officialElectionOffice.label} publishes the current calendar. County voting hours
+        {officeLabel} publishes the current calendar. County voting hours
         vary. {MARKER_NOTE}
       </p>
       <div className="mt-5 space-y-5">
@@ -131,16 +129,16 @@ export function KeyDatesSection({
         ))}
       </div>
       <p className="mt-5 text-sm">
-        <Link className="font-medium text-navy hover:underline" href={votingDeadlinesStateHref(state.code)}>
+        <Link className="font-medium text-navy hover:underline" href={votingDeadlinesStateHref(stateCode)}>
           Compare with other states
         </Link>
         {" · "}
         <a
           className="font-medium text-navy hover:underline"
-          href={state.officialElectionOffice.href}
+          href={officeHref}
           rel="noopener noreferrer"
         >
-          {state.officialElectionOffice.label}
+          {officeLabel}
         </a>
       </p>
     </section>
