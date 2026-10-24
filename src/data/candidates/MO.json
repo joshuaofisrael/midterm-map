@@ -6,6 +6,11 @@
       "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
       "accessed": "October 17, 2026",
       "published": "August 25, 2026"
+    },
+    {
+      "name": "Ballotpedia \u2014 Missouri elections, 2026",
+      "url": "https://ballotpedia.org/Missouri_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -26,7 +31,12 @@
           "name": "Tom Schmitz",
           "party": "Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+        "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For U.S. Representative District 2",
@@ -45,7 +55,12 @@
           "name": "Brandon Coulter Daugherty",
           "party": "Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+        "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For U.S. Representative District 3",
@@ -64,7 +79,12 @@
           "name": "Jim Higgins",
           "party": "Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+        "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For U.S. Representative District 4",
@@ -83,7 +103,12 @@
           "name": "Thomas Holbrook",
           "party": "Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+        "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For U.S. Representative District 5",
@@ -102,7 +127,12 @@
           "name": "Randall (Randy) Langkraehr",
           "party": "Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+        "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For U.S. Representative District 6",
@@ -121,7 +151,12 @@
           "name": "Andy Maidment",
           "party": "Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+        "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For U.S. Representative District 7",
@@ -140,7 +175,12 @@
           "name": "Kevin Craig",
           "party": "Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+        "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For U.S. Representative District 8",
@@ -159,7 +199,52 @@
           "name": "Rebecca Sharpe Lombard",
           "party": "Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+        "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "Missouri State Auditor",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Scott Fitzpatrick",
+          "party": "Republican"
+        },
+        {
+          "name": "Quentin Wilson",
+          "party": "Democratic"
+        },
+        {
+          "name": "Dustin Coffell",
+          "party": "Libertarian"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Missouri State Auditor, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Missouri_Auditor_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Missouri Supreme Court",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Paul C. Wilson",
+          "party": "Nonpartisan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Missouri Supreme Court, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Missouri_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

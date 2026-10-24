@@ -22,7 +22,12 @@
           "name": "James Byrd",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Wyoming Secretary of State, 2026 General Election Candidate Roster",
+        "url": "https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "UNITED STATES REPRESENTATIVE",
@@ -45,7 +50,12 @@
           "name": "Jeffrey Haggit",
           "party": "Constitution"
         }
-      ]
+      ],
+      "source": {
+        "name": "Wyoming Secretary of State, 2026 General Election Candidate Roster",
+        "url": "https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "GOVERNOR",
@@ -64,7 +74,12 @@
           "name": "Rebecca Bextel",
           "party": "Constitution"
         }
-      ]
+      ],
+      "source": {
+        "name": "Wyoming Secretary of State, 2026 General Election Candidate Roster",
+        "url": "https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "SECRETARY OF STATE",
@@ -83,7 +98,12 @@
           "name": "Tamara Trujillo",
           "party": "Constitution"
         }
-      ]
+      ],
+      "source": {
+        "name": "Wyoming Secretary of State, 2026 General Election Candidate Roster",
+        "url": "https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "STATE AUDITOR",
@@ -94,7 +114,12 @@
           "name": "Kristi Racines",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Wyoming Secretary of State, 2026 General Election Candidate Roster",
+        "url": "https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "STATE TREASURER",
@@ -105,7 +130,12 @@
           "name": "Curt Meier",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Wyoming Secretary of State, 2026 General Election Candidate Roster",
+        "url": "https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "SUPERINTENDENT OF PUBLIC INSTRUCTION",
@@ -120,7 +150,12 @@
           "name": "Ana Cordova",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Wyoming Secretary of State, 2026 General Election Candidate Roster",
+        "url": "https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "JUSTICE OF THE SUPREME COURT",
@@ -131,7 +166,12 @@
           "name": "Bridget Hill",
           "party": ""
         }
-      ]
+      ],
+      "source": {
+        "name": "Wyoming Secretary of State, 2026 General Election Candidate Roster",
+        "url": "https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "JUSTICE OF THE SUPREME COURT",
@@ -142,7 +182,12 @@
           "name": "Robert C. Jarosh",
           "party": ""
         }
-      ]
+      ],
+      "source": {
+        "name": "Wyoming Secretary of State, 2026 General Election Candidate Roster",
+        "url": "https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.pdf",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }

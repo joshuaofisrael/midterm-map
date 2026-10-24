@@ -1,11 +1,593 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
       "name": "Ohio Secretary of State — Elections",
       "url": "https://www.ohiosos.gov/elections/",
       "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Ballotpedia — Ohio elections, 2026",
+      "url": "https://ballotpedia.org/Ohio_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "U.S. Senate Ohio",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Jon Husted",
+          "party": "Republican"
+        },
+        {
+          "name": "Sherrod Brown",
+          "party": "Democratic"
+        },
+        {
+          "name": "Stephen Faris",
+          "party": "Independent"
+        },
+        {
+          "name": "Anthony Holliman",
+          "party": "Independent"
+        },
+        {
+          "name": "Gregory Levy",
+          "party": "Independent"
+        },
+        {
+          "name": "Timothy Telymonde",
+          "party": "Independent"
+        },
+        {
+          "name": "Bill Redpath",
+          "party": "Libertarian"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. Senate Ohio, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/United_States_Senate_special_election_in_Ohio,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Ohio District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Greg Landsman",
+          "party": "Democratic"
+        },
+        {
+          "name": "Eric Conroy",
+          "party": "Republican"
+        },
+        {
+          "name": "Nathan Weise",
+          "party": "Libertarian"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Ohio District 1, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio's_1st_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Ohio District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "David Taylor",
+          "party": "Republican"
+        },
+        {
+          "name": "Jen Mazzuckelli",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Ohio District 2, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio's_2nd_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Ohio District 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Joyce Beatty",
+          "party": "Democratic"
+        },
+        {
+          "name": "Cleophus Dulaney",
+          "party": "Republican"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Ohio District 3, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio's_3rd_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Ohio District 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Jim Jordan",
+          "party": "Republican"
+        },
+        {
+          "name": "Joshua Kolasinski",
+          "party": "Democratic"
+        },
+        {
+          "name": "Tracey Tackett",
+          "party": "Independent"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Ohio District 4, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio's_4th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Ohio District 5",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Bob Latta",
+          "party": "Republican"
+        },
+        {
+          "name": "Brian Shaver",
+          "party": "Democratic"
+        },
+        {
+          "name": "Michael Veloff",
+          "party": "Libertarian"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Ohio District 5, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio's_5th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Ohio District 6",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Michael Rulli",
+          "party": "Republican"
+        },
+        {
+          "name": "Elizabeth Kirtley",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Ohio District 6, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio's_6th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Ohio District 7",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Max Miller",
+          "party": "Republican"
+        },
+        {
+          "name": "Brian Poindexter",
+          "party": "Democratic"
+        },
+        {
+          "name": "Thahbia Asad",
+          "party": "Independent"
+        },
+        {
+          "name": "Andrey Martinichin",
+          "party": "Independent"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Ohio District 7, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio's_7th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Ohio District 8",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "Warren Davidson",
+          "party": "Republican"
+        },
+        {
+          "name": "Vanessa Enoch",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Ohio District 8, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio's_8th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Ohio District 9",
+      "kind": "house",
+      "district": "9",
+      "candidates": [
+        {
+          "name": "Marcy Kaptur",
+          "party": "Democratic"
+        },
+        {
+          "name": "Derek Merrin",
+          "party": "Republican"
+        },
+        {
+          "name": "Kathy McKinstry",
+          "party": "Independent"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Ohio District 9, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio's_9th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Ohio District 10",
+      "kind": "house",
+      "district": "10",
+      "candidates": [
+        {
+          "name": "Michael Turner",
+          "party": "Republican"
+        },
+        {
+          "name": "Kristina Knickerbocker",
+          "party": "Democratic"
+        },
+        {
+          "name": "Thomas McMasters",
+          "party": "Libertarian"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Ohio District 10, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio's_10th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Ohio District 11",
+      "kind": "house",
+      "district": "11",
+      "candidates": [
+        {
+          "name": "Shontel Brown",
+          "party": "Democratic"
+        },
+        {
+          "name": "Mike Kirchner",
+          "party": "Republican"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Ohio District 11, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio's_11th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Ohio District 12",
+      "kind": "house",
+      "district": "12",
+      "candidates": [
+        {
+          "name": "Troy Balderson",
+          "party": "Republican"
+        },
+        {
+          "name": "Jerrad Christian",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Ohio District 12, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio's_12th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Ohio District 13",
+      "kind": "house",
+      "district": "13",
+      "candidates": [
+        {
+          "name": "Emilia Sykes",
+          "party": "Democratic"
+        },
+        {
+          "name": "Carey Coleman",
+          "party": "Republican"
+        },
+        {
+          "name": "Sandeep Dixit",
+          "party": "Independent"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Ohio District 13, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio's_13th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Ohio District 14",
+      "kind": "house",
+      "district": "14",
+      "candidates": [
+        {
+          "name": "David Joyce",
+          "party": "Republican"
+        },
+        {
+          "name": "Maria Jukic",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Ohio District 14, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio's_14th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Ohio District 15",
+      "kind": "house",
+      "district": "15",
+      "candidates": [
+        {
+          "name": "Mike Carey",
+          "party": "Republican"
+        },
+        {
+          "name": "Don Leonard",
+          "party": "Democratic"
+        },
+        {
+          "name": "Gary Josephson",
+          "party": "Independent"
+        },
+        {
+          "name": "Samuel Ronan",
+          "party": "Independent"
+        },
+        {
+          "name": "Brennan Barrington",
+          "party": "Libertarian"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Ohio District 15, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio's_15th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Governor of Ohio",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Vivek Ramaswamy",
+          "party": "Republican"
+        },
+        {
+          "name": "Amy Acton",
+          "party": "Democratic"
+        },
+        {
+          "name": "Tim Grady",
+          "party": "Independent"
+        },
+        {
+          "name": "Heather Hill",
+          "party": "Independent"
+        },
+        {
+          "name": "Renea Turner",
+          "party": "Independent"
+        },
+        {
+          "name": "Ron Ula",
+          "party": "Independent"
+        },
+        {
+          "name": "Don Kissick",
+          "party": "Libertarian"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Governor of Ohio, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Lieutenant Governor of Ohio",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Robert McColley",
+          "party": "Republican"
+        },
+        {
+          "name": "David Pepper",
+          "party": "Democratic"
+        },
+        {
+          "name": "Michael Lehnerd",
+          "party": "Independent"
+        },
+        {
+          "name": "Pat Manley",
+          "party": "Independent"
+        },
+        {
+          "name": "Andrea Neutzling",
+          "party": "Independent"
+        },
+        {
+          "name": "Jalen Turner",
+          "party": "Independent"
+        },
+        {
+          "name": "James Mills",
+          "party": "Libertarian"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Lieutenant Governor of Ohio, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of Ohio",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Keith Faber",
+          "party": "Republican"
+        },
+        {
+          "name": "John Kulewicz",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of Ohio, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Ohio Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Robert Sprague",
+          "party": "Republican"
+        },
+        {
+          "name": "Allison Russo",
+          "party": "Democratic"
+        },
+        {
+          "name": "Tom Pruss",
+          "party": "Libertarian"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Ohio Secretary of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio_Secretary_of_State_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Ohio Auditor of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Frank LaRose",
+          "party": "Republican"
+        },
+        {
+          "name": "Annette Blackwell",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Ohio Auditor of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio_Auditor_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Ohio Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Jay Edwards",
+          "party": "Republican"
+        },
+        {
+          "name": "Seth Walsh",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Ohio Treasurer, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio_Treasurer_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Ohio Supreme Court",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Dan Hawkins",
+          "party": "Republican"
+        },
+        {
+          "name": "Marilyn Zayas",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jennifer L. Brunner",
+          "party": "Democratic"
+        },
+        {
+          "name": "Colleen O'Donnell",
+          "party": "Republican"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Ohio Supreme Court, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Ohio_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
+    }
+  ]
 }

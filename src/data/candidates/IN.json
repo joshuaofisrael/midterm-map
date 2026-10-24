@@ -2,9 +2,14 @@
   "status": "published",
   "sources": [
     {
-      "name": "Indiana Election Division, Candidate List — Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header “2026 GENERAL ELECTION - 11/3/2026”",
+      "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
       "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
       "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Ballotpedia \u2014 Indiana elections, 2026",
+      "url": "https://ballotpedia.org/Indiana_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -33,7 +38,12 @@
           "name": "Andrew Delano",
           "party": "Write-In (National Socialist American Workers')"
         }
-      ]
+      ],
+      "source": {
+        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "State Comptroller (Auditor of State)",
@@ -52,7 +62,12 @@
           "name": "Elise Nieshalla",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Treasurer of State",
@@ -67,7 +82,12 @@
           "name": "Daniel Elliott",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States Representative, Eighth District",
@@ -82,7 +102,12 @@
           "name": "Mark Messmer",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States Representative, Fifth District",
@@ -97,7 +122,12 @@
           "name": "Victoria Spartz",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States Representative, First District",
@@ -120,7 +150,12 @@
           "name": "Prescription Dope Deaths Johnson, Jr",
           "party": "Write-In (Other)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States Representative, Fourth District",
@@ -139,7 +174,12 @@
           "name": "David E. Bokash",
           "party": "Write-In (Independent)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States Representative, Ninth District",
@@ -162,7 +202,12 @@
           "name": "Floyd Michael Taylor",
           "party": "Write-In (Independent)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States Representative, Second District",
@@ -181,7 +226,12 @@
           "name": "Rudy Yakym",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States Representative, Seventh District",
@@ -189,7 +239,7 @@
       "district": "7",
       "candidates": [
         {
-          "name": "André Carson",
+          "name": "Andr\u00e9 Carson",
           "party": "Democratic"
         },
         {
@@ -200,7 +250,12 @@
           "name": "Patrick McAuley",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States Representative, Sixth District",
@@ -215,7 +270,12 @@
           "name": "Jefferson Shreve",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States Representative, Third District",
@@ -234,7 +294,36 @@
           "name": "Phillip D. Beachy (Phil)",
           "party": "Write-In (Independent)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Indiana Election Division, Candidate List \u2014 Abbreviated (Candidate_List_Abbreviated_20260922_011251PM.xlsx), sheet rpt_CandidateList_Short, header \u201c2026 GENERAL ELECTION - 11/3/2026\u201d",
+        "url": "https://www.in.gov/sos/elections/files/Candidate_List_Abbreviated_20260922_011251PM.xlsx",
+        "accessed": "October 18, 2026"
+      }
+    },
+    {
+      "office": "Indiana Comptroller of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Elise Nieshalla",
+          "party": "Republican"
+        },
+        {
+          "name": "Jessica Bailey",
+          "party": "Democratic"
+        },
+        {
+          "name": "John Schick",
+          "party": "Libertarian"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Indiana Comptroller of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Indiana_Comptroller_election,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

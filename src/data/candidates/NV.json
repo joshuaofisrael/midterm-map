@@ -1,11 +1,289 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
       "name": "Nevada Secretary of State — Elections",
       "url": "https://www.nvsos.gov/sos/elections",
       "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Ballotpedia — Nevada elections, 2026",
+      "url": "https://ballotpedia.org/Nevada_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "U.S. House Nevada District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Dina Titus",
+          "party": "Democratic"
+        },
+        {
+          "name": "Carrie Buck",
+          "party": "Republican"
+        },
+        {
+          "name": "Steven St John",
+          "party": "No Political Party"
+        },
+        {
+          "name": "Bobby Khan",
+          "party": "No Political Party"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Nevada District 1, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Nevada's_1st_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Nevada District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "David Flippo",
+          "party": "Republican"
+        },
+        {
+          "name": "Teresa Benitez-Thompson",
+          "party": "Democratic"
+        },
+        {
+          "name": "Lynn Chapman",
+          "party": "Independent American Party"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Nevada District 2, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Nevada's_2nd_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Nevada District 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Susie Lee",
+          "party": "Democratic"
+        },
+        {
+          "name": "Marty O'Donnell",
+          "party": "Republican"
+        },
+        {
+          "name": "Jon Kamerath",
+          "party": "Independent American Party"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Nevada District 3, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Nevada's_3rd_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Nevada District 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Steven Horsford",
+          "party": "Democratic"
+        },
+        {
+          "name": "Cody Whipple",
+          "party": "Republican"
+        },
+        {
+          "name": "Russell Best",
+          "party": "Independent American Party"
+        },
+        {
+          "name": "William Johnson",
+          "party": "No Political Party"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Nevada District 4, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Nevada's_4th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Governor of Nevada",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Joe Lombardo",
+          "party": "Republican"
+        },
+        {
+          "name": "Aaron Ford",
+          "party": "Democratic"
+        },
+        {
+          "name": "Danielle Ford",
+          "party": "No Political Party"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Governor of Nevada, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Nevada_gubernatorial_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Lieutenant Governor of Nevada",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Stavros Anthony",
+          "party": "Republican"
+        },
+        {
+          "name": "Sandra Jauregui",
+          "party": "Democratic"
+        },
+        {
+          "name": "Janine Hansen",
+          "party": "Independent American Party"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Lieutenant Governor of Nevada, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Nevada_lieutenant_gubernatorial_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of Nevada",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Adriana Guzmán Fralick",
+          "party": "Republican"
+        },
+        {
+          "name": "Nicole Cannizzaro",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of Nevada, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Nevada_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Nevada Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Cisco Aguilar",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jim Marchant",
+          "party": "Republican"
+        },
+        {
+          "name": "Brad Barnhill",
+          "party": "Independent American Party"
+        },
+        {
+          "name": "John T. Kennedy",
+          "party": "Libertarian"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Nevada Secretary of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Nevada_Secretary_of_State_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Nevada Controller",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Andy Matthews",
+          "party": "Republican"
+        },
+        {
+          "name": "Michael MacDougall",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Nevada Controller, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Nevada_Controller_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Nevada State Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Drew Johnson",
+          "party": "Republican"
+        },
+        {
+          "name": "Tya Mathis-Coleman",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Nevada State Treasurer, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Nevada_Treasurer_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Nevada Supreme Court Seat B",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Kris Pickering",
+          "party": "Nonpartisan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Nevada Supreme Court Seat B, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Nevada_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Nevada Supreme Court Seat D",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Douglas Herndon",
+          "party": "Nonpartisan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Nevada Supreme Court Seat D, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Nevada_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
+    }
+  ]
 }

@@ -6,6 +6,11 @@
       "url": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_statewide_candidatelist.html",
       "accessed": "October 17, 2026",
       "published": "October 16, 2026"
+    },
+    {
+      "name": "Ballotpedia \u2014 Maryland elections, 2026",
+      "url": "https://ballotpedia.org/Maryland_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -30,7 +35,12 @@
           "name": "Cathy White / Cathy Permut",
           "party": "Working Class Party"
         }
-      ]
+      ],
+      "source": {
+        "name": "Maryland State Board of Elections, 2026 gubernatorial general election candidate lists (statewide CSV last updated 10/16/2026 06:00 PM on the statewide page)",
+        "url": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_statewide_candidatelist.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress Congressional District 1",
@@ -49,7 +59,12 @@
           "name": "Edward Shlikas",
           "party": "Unaffiliated"
         }
-      ]
+      ],
+      "source": {
+        "name": "Maryland State Board of Elections, 2026 gubernatorial general election candidate lists (statewide CSV last updated 10/16/2026 06:00 PM on the statewide page)",
+        "url": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_statewide_candidatelist.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress Congressional District 2",
@@ -64,7 +79,12 @@
           "name": "Dave Wallace",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Maryland State Board of Elections, 2026 gubernatorial general election candidate lists (statewide CSV last updated 10/16/2026 06:00 PM on the statewide page)",
+        "url": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_statewide_candidatelist.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress Congressional District 3",
@@ -83,7 +103,12 @@
           "name": "Robert L. Coffman",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Maryland State Board of Elections, 2026 gubernatorial general election candidate lists (statewide CSV last updated 10/16/2026 06:00 PM on the statewide page)",
+        "url": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_statewide_candidatelist.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress Congressional District 4",
@@ -102,7 +127,12 @@
           "name": "Sam Husseini",
           "party": "Green"
         }
-      ]
+      ],
+      "source": {
+        "name": "Maryland State Board of Elections, 2026 gubernatorial general election candidate lists (statewide CSV last updated 10/16/2026 06:00 PM on the statewide page)",
+        "url": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_statewide_candidatelist.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress Congressional District 5",
@@ -121,7 +151,12 @@
           "name": "Mildred Marie Hall",
           "party": "Other Candidates"
         }
-      ]
+      ],
+      "source": {
+        "name": "Maryland State Board of Elections, 2026 gubernatorial general election candidate lists (statewide CSV last updated 10/16/2026 06:00 PM on the statewide page)",
+        "url": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_statewide_candidatelist.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress Congressional District 6",
@@ -140,7 +175,12 @@
           "name": "Moshe Y. Landman",
           "party": "Green"
         }
-      ]
+      ],
+      "source": {
+        "name": "Maryland State Board of Elections, 2026 gubernatorial general election candidate lists (statewide CSV last updated 10/16/2026 06:00 PM on the statewide page)",
+        "url": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_statewide_candidatelist.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress Congressional District 7",
@@ -155,7 +195,12 @@
           "name": "Scott M. Collier",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Maryland State Board of Elections, 2026 gubernatorial general election candidate lists (statewide CSV last updated 10/16/2026 06:00 PM on the statewide page)",
+        "url": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_statewide_candidatelist.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress Congressional District 8",
@@ -174,7 +219,68 @@
           "name": "Nancy Wallace",
           "party": "Green"
         }
-      ]
+      ],
+      "source": {
+        "name": "Maryland State Board of Elections, 2026 gubernatorial general election candidate lists (statewide CSV last updated 10/16/2026 06:00 PM on the statewide page)",
+        "url": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_statewide_candidatelist.html",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of Maryland",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Anthony G. Brown",
+          "party": "Democratic"
+        },
+        {
+          "name": "James Rutledge",
+          "party": "Republican"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of Maryland, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Maryland_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Maryland Comptroller",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Brooke Elizabeth Lierman",
+          "party": "Democratic"
+        },
+        {
+          "name": "Sonya Dunn",
+          "party": "Republican"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Maryland Comptroller, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Maryland_Comptroller_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Maryland Supreme Court 4th Circuit",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Peter K. Killough",
+          "party": "Nonpartisan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Maryland Supreme Court 4th Circuit, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Maryland_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

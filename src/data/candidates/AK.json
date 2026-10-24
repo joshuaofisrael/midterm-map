@@ -6,6 +6,11 @@
       "url": "https://www.elections.alaska.gov/candidates/?election=26genr",
       "accessed": "October 17, 2026",
       "published": "September 25, 2026"
+    },
+    {
+      "name": "Ballotpedia \u2014 Alaska elections, 2026",
+      "url": "https://ballotpedia.org/Alaska_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -19,15 +24,15 @@
           "party": "Registered Republican"
         },
         {
-          "name": "DeWitt, Meda / Steere, Christopher “Chris” (certified write-in)",
+          "name": "DeWitt, Meda / Steere, Christopher \u201cChris\u201d (certified write-in)",
           "party": "Nonpartisan"
         },
         {
-          "name": "Kreiss-Tomkins, Jonathan S. “JKT” / Johnson, Zac",
+          "name": "Kreiss-Tomkins, Jonathan S. \u201cJKT\u201d / Johnson, Zac",
           "party": "Registered Democrat / Nonpartisan"
         },
         {
-          "name": "Parkin, James W. “JP4” / Greer, Ramadhani “Ram” (certified write-in)",
+          "name": "Parkin, James W. \u201cJP4\u201d / Greer, Ramadhani \u201cRam\u201d (certified write-in)",
           "party": "Registered Republican / Registered Democrat"
         },
         {
@@ -38,7 +43,12 @@
           "name": "Wilson, Bernadette M. / Shower, Michael K.",
           "party": "Registered Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alaska Division of Elections, 2026 general election candidate list (page last updated September 25, 2026)",
+        "url": "https://www.elections.alaska.gov/candidates/?election=26genr",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "UNITED STATES SENATOR",
@@ -50,7 +60,7 @@
           "party": "Registered Republican"
         },
         {
-          "name": "Hill, Sidney “Sid” (certified write-in)",
+          "name": "Hill, Sidney \u201cSid\u201d (certified write-in)",
           "party": "Undeclared"
         },
         {
@@ -69,7 +79,12 @@
           "name": "Sullivan, Daniel J. Jr.",
           "party": "Registered Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alaska Division of Elections, 2026 general election candidate list (page last updated September 25, 2026)",
+        "url": "https://www.elections.alaska.gov/candidates/?election=26genr",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "UNITED STATES REPRESENTATIVE",
@@ -93,10 +108,31 @@
           "party": "Nonpartisan"
         },
         {
-          "name": "McDermott, James C. “Jim”",
+          "name": "McDermott, James C. \u201cJim\u201d",
           "party": "Registered Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alaska Division of Elections, 2026 general election candidate list (page last updated September 25, 2026)",
+        "url": "https://www.elections.alaska.gov/candidates/?election=26genr",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "Alaska Supreme Court",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Jude Pate",
+          "party": "Nonpartisan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Alaska Supreme Court, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Alaska_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

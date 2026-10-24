@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BallotpediaLink } from "@/components/BallotpediaLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { InfoNote } from "@/components/InfoNote";
 import { ContentTrust } from "@/components/ContentTrust";
@@ -126,7 +127,8 @@ export default function ResultsPage() {
                     <ul className="mt-2 space-y-2">
                       {race.candidates.map((candidate) => (
                         <li key={candidate.name} className="text-sm">
-                          <span className="font-medium text-ink">{candidate.name}</span>
+                          <span className="font-medium text-ink">{candidate.name}</span>{" "}
+                          <BallotpediaLink href={candidate.ballotpedia} />
                           <SourceLines sources={candidate.sources} />
                         </li>
                       ))}
@@ -171,7 +173,8 @@ export default function ResultsPage() {
                     <ul className="mt-2 space-y-2">
                       {race.candidates.map((candidate) => (
                         <li key={candidate.name} className="text-sm">
-                          <span className="font-medium text-ink">{candidate.name}</span>
+                          <span className="font-medium text-ink">{candidate.name}</span>{" "}
+                          <BallotpediaLink href={candidate.ballotpedia} />
                           <SourceLines sources={candidate.sources} />
                         </li>
                       ))}

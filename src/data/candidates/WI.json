@@ -6,6 +6,11 @@
       "url": "https://elections.wi.gov/sites/default/files/documents/Candidates%20on%20Ballot%20By%20Election_November%203%202026%20General%20Election.pdf",
       "accessed": "October 17, 2026",
       "published": "August 25, 2026"
+    },
+    {
+      "name": "Ballotpedia \u2014 Wisconsin elections, 2026",
+      "url": "https://ballotpedia.org/Wisconsin_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -22,7 +27,12 @@
           "name": "David Crowley / Sarah Godlewski",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Wisconsin Elections Commission, candidates on the ballot, 2026 General Election, printed 8/25/2026 4:39:33 PM",
+        "url": "https://elections.wi.gov/sites/default/files/documents/Candidates%20on%20Ballot%20By%20Election_November%203%202026%20General%20Election.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS DISTRICT 1",
@@ -37,7 +47,12 @@
           "name": "Mitchell Berman",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Wisconsin Elections Commission, candidates on the ballot, 2026 General Election, printed 8/25/2026 4:39:33 PM",
+        "url": "https://elections.wi.gov/sites/default/files/documents/Candidates%20on%20Ballot%20By%20Election_November%203%202026%20General%20Election.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS DISTRICT 2",
@@ -48,7 +63,12 @@
           "name": "Mark Pocan",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Wisconsin Elections Commission, candidates on the ballot, 2026 General Election, printed 8/25/2026 4:39:33 PM",
+        "url": "https://elections.wi.gov/sites/default/files/documents/Candidates%20on%20Ballot%20By%20Election_November%203%202026%20General%20Election.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS DISTRICT 3",
@@ -71,7 +91,12 @@
           "name": "Rustin Provance",
           "party": "Independent"
         }
-      ]
+      ],
+      "source": {
+        "name": "Wisconsin Elections Commission, candidates on the ballot, 2026 General Election, printed 8/25/2026 4:39:33 PM",
+        "url": "https://elections.wi.gov/sites/default/files/documents/Candidates%20on%20Ballot%20By%20Election_November%203%202026%20General%20Election.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS DISTRICT 4",
@@ -90,7 +115,12 @@
           "name": "Arthur Burks",
           "party": "Independent"
         }
-      ]
+      ],
+      "source": {
+        "name": "Wisconsin Elections Commission, candidates on the ballot, 2026 General Election, printed 8/25/2026 4:39:33 PM",
+        "url": "https://elections.wi.gov/sites/default/files/documents/Candidates%20on%20Ballot%20By%20Election_November%203%202026%20General%20Election.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS DISTRICT 5",
@@ -105,7 +135,12 @@
           "name": "Andrew Beck",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Wisconsin Elections Commission, candidates on the ballot, 2026 General Election, printed 8/25/2026 4:39:33 PM",
+        "url": "https://elections.wi.gov/sites/default/files/documents/Candidates%20on%20Ballot%20By%20Election_November%203%202026%20General%20Election.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS DISTRICT 6",
@@ -132,7 +167,12 @@
           "name": "Mike Thurow",
           "party": "Independent"
         }
-      ]
+      ],
+      "source": {
+        "name": "Wisconsin Elections Commission, candidates on the ballot, 2026 General Election, printed 8/25/2026 4:39:33 PM",
+        "url": "https://elections.wi.gov/sites/default/files/documents/Candidates%20on%20Ballot%20By%20Election_November%203%202026%20General%20Election.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS DISTRICT 7",
@@ -147,7 +187,12 @@
           "name": "Fred Clark",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Wisconsin Elections Commission, candidates on the ballot, 2026 General Election, printed 8/25/2026 4:39:33 PM",
+        "url": "https://elections.wi.gov/sites/default/files/documents/Candidates%20on%20Ballot%20By%20Election_November%203%202026%20General%20Election.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS DISTRICT 8",
@@ -162,7 +207,96 @@
           "name": "Rick Crosson",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Wisconsin Elections Commission, candidates on the ballot, 2026 General Election, printed 8/25/2026 4:39:33 PM",
+        "url": "https://elections.wi.gov/sites/default/files/documents/Candidates%20on%20Ballot%20By%20Election_November%203%202026%20General%20Election.pdf",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "Lieutenant Governor of Wisconsin",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "David Varnam",
+          "party": "Republican"
+        },
+        {
+          "name": "Sarah Godlewski",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Lieutenant Governor of Wisconsin, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Wisconsin_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of Wisconsin",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Josh Kaul",
+          "party": "Democratic"
+        },
+        {
+          "name": "Eric Toney",
+          "party": "Republican"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of Wisconsin, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Wisconsin_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Wisconsin Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Jay Schroeder",
+          "party": "Republican"
+        },
+        {
+          "name": "JoCasta Zamarripa",
+          "party": "Democratic"
+        },
+        {
+          "name": "Pete Karas",
+          "party": "Green"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Wisconsin Secretary of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Wisconsin_Secretary_of_State_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Wisconsin Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "John Leiber",
+          "party": "Republican"
+        },
+        {
+          "name": "Yee Leng Xiong",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Wisconsin Treasurer, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Wisconsin_Treasurer_election,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

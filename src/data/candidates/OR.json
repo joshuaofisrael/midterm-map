@@ -2,22 +2,22 @@
   "status": "published",
   "sources": [
     {
-      "name": "Oregon Secretary of State, Official 2026 General Election Voters’ Pamphlet, Book 13 (Multnomah): complete listing of federal and state candidates for U.S. Senator, Governor, and U.S. House Districts 1, 3, and 5",
+      "name": "Oregon Secretary of State, Official 2026 General Election Voters\u2019 Pamphlet, Book 13 (Multnomah): complete listing of federal and state candidates for U.S. Senator, Governor, and U.S. House Districts 1, 3, and 5",
       "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book13_web.pdf",
       "accessed": "October 18, 2026"
     },
     {
-      "name": "Oregon Secretary of State, Official 2026 General Election Voters’ Pamphlet, Book 18 (Klamath): U.S. House District 2",
+      "name": "Oregon Secretary of State, Official 2026 General Election Voters\u2019 Pamphlet, Book 18 (Klamath): U.S. House District 2",
       "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book18_web.pdf",
       "accessed": "October 18, 2026"
     },
     {
-      "name": "Oregon Secretary of State, Official 2026 General Election Voters’ Pamphlet, Book 6 (Benton): U.S. House District 4",
+      "name": "Oregon Secretary of State, Official 2026 General Election Voters\u2019 Pamphlet, Book 6 (Benton): U.S. House District 4",
       "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book6_web.pdf",
       "accessed": "October 18, 2026"
     },
     {
-      "name": "Oregon Secretary of State, Official 2026 General Election Voters’ Pamphlet, Book 12 (Washington): U.S. House District 6",
+      "name": "Oregon Secretary of State, Official 2026 General Election Voters\u2019 Pamphlet, Book 12 (Washington): U.S. House District 6",
       "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book12_web.pdf",
       "accessed": "October 18, 2026"
     }
@@ -44,7 +44,12 @@
           "name": "Chris Henry",
           "party": "Progressive, Pacific Green"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oregon Secretary of State, Official 2026 General Election Voters\u2019 Pamphlet, Book 13 (Multnomah): complete listing of federal and state candidates for U.S. Senator, Governor, and U.S. House Districts 1, 3, and 5",
+        "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book13_web.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative, 1st District",
@@ -59,7 +64,12 @@
           "name": "Suzanne Bonamici",
           "party": "Democrat, Working Families"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oregon Secretary of State, Official 2026 General Election Voters\u2019 Pamphlet, Book 13 (Multnomah): complete listing of federal and state candidates for U.S. Senator, Governor, and U.S. House Districts 1, 3, and 5",
+        "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book13_web.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative, 2nd District",
@@ -74,7 +84,12 @@
           "name": "Cliff Bentz",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oregon Secretary of State, Official 2026 General Election Voters\u2019 Pamphlet, Book 13 (Multnomah): complete listing of federal and state candidates for U.S. Senator, Governor, and U.S. House Districts 1, 3, and 5",
+        "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book13_web.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative, 3rd District",
@@ -89,7 +104,12 @@
           "name": "Loran Ayles",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oregon Secretary of State, Official 2026 General Election Voters\u2019 Pamphlet, Book 13 (Multnomah): complete listing of federal and state candidates for U.S. Senator, Governor, and U.S. House Districts 1, 3, and 5",
+        "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book13_web.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative, 4th District",
@@ -108,7 +128,12 @@
           "name": "Justin Filip",
           "party": "Pacific Green, Progressive"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oregon Secretary of State, Official 2026 General Election Voters\u2019 Pamphlet, Book 13 (Multnomah): complete listing of federal and state candidates for U.S. Senator, Governor, and U.S. House Districts 1, 3, and 5",
+        "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book13_web.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative, 5th District",
@@ -127,7 +152,12 @@
           "name": "Patti Adair",
           "party": "Republican, Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oregon Secretary of State, Official 2026 General Election Voters\u2019 Pamphlet, Book 13 (Multnomah): complete listing of federal and state candidates for U.S. Senator, Governor, and U.S. House Districts 1, 3, and 5",
+        "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book13_web.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative, 6th District",
@@ -142,7 +172,12 @@
           "name": "David Russ",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oregon Secretary of State, Official 2026 General Election Voters\u2019 Pamphlet, Book 13 (Multnomah): complete listing of federal and state candidates for U.S. Senator, Governor, and U.S. House Districts 1, 3, and 5",
+        "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book13_web.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Governor",
@@ -161,7 +196,12 @@
           "name": "Christine Drazan",
           "party": "Republican, Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oregon Secretary of State, Official 2026 General Election Voters\u2019 Pamphlet, Book 13 (Multnomah): complete listing of federal and state candidates for U.S. Senator, Governor, and U.S. House Districts 1, 3, and 5",
+        "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book13_web.pdf",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }

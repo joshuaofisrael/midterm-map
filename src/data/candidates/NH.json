@@ -25,7 +25,12 @@
           "name": "Stephen Villee",
           "party": "LIB"
         }
-      ]
+      ],
+      "source": {
+        "name": "New Hampshire Secretary of State, 2026 General Election Candidates (Election Candidate List with Address), linked from the 2026 Election Details page",
+        "url": "https://mm.nh.gov/files/uploads/sos/docs/2026-ge-candidate-list.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States Senator",
@@ -44,7 +49,12 @@
           "name": "Edmond Laplante",
           "party": "CON"
         }
-      ]
+      ],
+      "source": {
+        "name": "New Hampshire Secretary of State, 2026 General Election Candidates (Election Candidate List with Address), linked from the 2026 Election Details page",
+        "url": "https://mm.nh.gov/files/uploads/sos/docs/2026-ge-candidate-list.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Representative in Congress, District 1",
@@ -59,7 +69,12 @@
           "name": "Anthony DiLorenzo",
           "party": "REP"
         }
-      ]
+      ],
+      "source": {
+        "name": "New Hampshire Secretary of State, 2026 General Election Candidates (Election Candidate List with Address), linked from the 2026 Election Details page",
+        "url": "https://mm.nh.gov/files/uploads/sos/docs/2026-ge-candidate-list.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Representative in Congress, District 2",
@@ -78,7 +93,12 @@
           "name": "Robbie Mahrou",
           "party": "IND"
         }
-      ]
+      ],
+      "source": {
+        "name": "New Hampshire Secretary of State, 2026 General Election Candidates (Election Candidate List with Address), linked from the 2026 Election Details page",
+        "url": "https://mm.nh.gov/files/uploads/sos/docs/2026-ge-candidate-list.pdf",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }

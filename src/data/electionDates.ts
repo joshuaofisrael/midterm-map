@@ -2023,7 +2023,7 @@ export const ELECTION_DATES: StateElectionDates[] = [
       {
         category: "early",
         label: "Early voting",
-        text: "The FVAP New Hampshire federal-election deadlines table does not list an early-voting period. The New Hampshire Secretary of State election-dates page was not retrieved on October 18, 2026.",
+        text: "The FVAP New Hampshire federal-election deadlines table has no early-voting period. The Secretary of State publishes the election calendar.",
       },
     ],
   },

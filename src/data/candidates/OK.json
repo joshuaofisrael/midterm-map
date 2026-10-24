@@ -5,12 +5,17 @@
       "name": "Oklahoma State Election Board, November 2026 List of Elections",
       "url": "https://hosting.okelections.gov/electionlist.html",
       "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Ballotpedia \u2014 Oklahoma elections, 2026",
+      "url": "https://ballotpedia.org/Oklahoma_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
     {
       "office": "GOVERNOR",
-      "kind": "statewide",
+      "kind": "governor",
       "district": null,
       "candidates": [
         {
@@ -33,7 +38,12 @@
           "name": "JERRY GRIFFIN",
           "party": "INDEPENDENT"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oklahoma State Election Board, November 2026 List of Elections",
+        "url": "https://hosting.okelections.gov/electionlist.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "LIEUTENANT GOVERNOR",
@@ -48,7 +58,12 @@
           "name": "KELLY FORBES",
           "party": "DEMOCRAT"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oklahoma State Election Board, November 2026 List of Elections",
+        "url": "https://hosting.okelections.gov/electionlist.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "ATTORNEY GENERAL",
@@ -63,7 +78,12 @@
           "name": "NICK COFFEY",
           "party": "DEMOCRAT"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oklahoma State Election Board, November 2026 List of Elections",
+        "url": "https://hosting.okelections.gov/electionlist.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "STATE TREASURER",
@@ -78,7 +98,12 @@
           "name": "KIEFER PERRY",
           "party": "LIBERTARIAN"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oklahoma State Election Board, November 2026 List of Elections",
+        "url": "https://hosting.okelections.gov/electionlist.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "SUPERINTENDENT OF PUBLIC INSTRUCTION",
@@ -93,7 +118,12 @@
           "name": "JENNETTIE MARSHALL",
           "party": "DEMOCRAT"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oklahoma State Election Board, November 2026 List of Elections",
+        "url": "https://hosting.okelections.gov/electionlist.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "COMMISSIONER OF LABOR",
@@ -112,7 +142,12 @@
           "name": "MIKE HALL",
           "party": "LIBERTARIAN"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oklahoma State Election Board, November 2026 List of Elections",
+        "url": "https://hosting.okelections.gov/electionlist.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "INSURANCE COMMISSIONER",
@@ -127,7 +162,12 @@
           "name": "CRAIG MacINTYRE",
           "party": "DEMOCRAT"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oklahoma State Election Board, November 2026 List of Elections",
+        "url": "https://hosting.okelections.gov/electionlist.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "CORPORATION COMMISSIONER",
@@ -142,7 +182,12 @@
           "name": "RHONDA EASTMAN",
           "party": "DEMOCRAT"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oklahoma State Election Board, November 2026 List of Elections",
+        "url": "https://hosting.okelections.gov/electionlist.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "UNITED STATES SENATOR",
@@ -169,7 +214,12 @@
           "name": "CURTIS STINNETT",
           "party": "INDEPENDENT"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oklahoma State Election Board, November 2026 List of Elections",
+        "url": "https://hosting.okelections.gov/electionlist.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "UNITED STATES REPRESENTATIVE - DISTRICT 01",
@@ -184,7 +234,12 @@
           "name": "JOHN CROISANT",
           "party": "DEMOCRAT"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oklahoma State Election Board, November 2026 List of Elections",
+        "url": "https://hosting.okelections.gov/electionlist.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "UNITED STATES REPRESENTATIVE - DISTRICT 02",
@@ -203,7 +258,12 @@
           "name": "RONNIE HOPKINS",
           "party": "INDEPENDENT"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oklahoma State Election Board, November 2026 List of Elections",
+        "url": "https://hosting.okelections.gov/electionlist.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "UNITED STATES REPRESENTATIVE - DISTRICT 03",
@@ -218,7 +278,12 @@
           "name": "SUZIE BYRD",
           "party": "DEMOCRAT"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oklahoma State Election Board, November 2026 List of Elections",
+        "url": "https://hosting.okelections.gov/electionlist.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "UNITED STATES REPRESENTATIVE - DISTRICT 04",
@@ -237,7 +302,12 @@
           "name": "ROCCO BONACCI",
           "party": "INDEPENDENT"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oklahoma State Election Board, November 2026 List of Elections",
+        "url": "https://hosting.okelections.gov/electionlist.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "UNITED STATES REPRESENTATIVE - DISTRICT 05",
@@ -260,7 +330,92 @@
           "name": "AUSTIN NIEVES",
           "party": "INDEPENDENT"
         }
-      ]
+      ],
+      "source": {
+        "name": "Oklahoma State Election Board, November 2026 List of Elections",
+        "url": "https://hosting.okelections.gov/electionlist.html",
+        "accessed": "October 18, 2026"
+      }
+    },
+    {
+      "office": "Oklahoma Court of Criminal Appeals District 2",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Rob Hudson",
+          "party": "Nonpartisan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Oklahoma Court of Criminal Appeals District 2, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Oklahoma_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Oklahoma Supreme Court District 1",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "M. John Kane IV",
+          "party": "Nonpartisan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Oklahoma Supreme Court District 1, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Oklahoma_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Oklahoma Supreme Court District 4",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Travis Jett",
+          "party": "Nonpartisan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Oklahoma Supreme Court District 4, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Oklahoma_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Oklahoma Supreme Court District 6",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Dana Kuehn",
+          "party": "Nonpartisan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Oklahoma Supreme Court District 6, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Oklahoma_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Oklahoma Supreme Court District 9",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Richard Darby",
+          "party": "Nonpartisan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Oklahoma Supreme Court District 9, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Oklahoma_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

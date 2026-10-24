@@ -108,11 +108,18 @@ export const MORE_BALLOT_CYCLES: BallotCycle[] = [
     code: "AR",
     checkedOn: CHECKED,
     intro:
-      "The Arkansas Secretary of State’s initiatives-and-referenda page, under proposed initiatives certified by the General Assembly, lists Issue No. 1, Issue No. 2, Issue No. 3, and Issue No. 4. Each issue file says the General Assembly refers it to a vote of the people on November 3, 2026. A candidate or office list for that general election was not retrieved as text on October 19, 2026, so this page does not name candidate offices.",
+      "The candidate list on this page names U.S. Senate, four U.S. House districts, governor, lieutenant governor, attorney general, secretary of state, auditor, and treasurer. The Arkansas Secretary of State’s initiatives-and-referenda page, under proposed initiatives certified by the General Assembly, lists Issue No. 1, Issue No. 2, Issue No. 3, and Issue No. 4. Each issue file says the General Assembly refers it to a vote of the people on November 3, 2026.",
     shortLead:
-      "Arkansas’s Secretary of State lists four measures referred to the November 3, 2026 ballot. A general-election candidate list was not retrieved as text on October 19, 2026.",
-    federal: [],
-    statewide: [],
+      "Arkansas’s November 3, 2026 candidate list names U.S. Senate, U.S. House, and statewide executive offices. The Secretary of State lists four referred measures.",
+    federal: ["U.S. Senate", "U.S. House, Districts 1 through 4"],
+    statewide: [
+      "Governor",
+      "Lieutenant Governor",
+      "Attorney General",
+      "Secretary of State",
+      "Auditor of State",
+      "Treasurer",
+    ],
     measures: [
       "Issue No. 1, popular name “The Citizens Only Voting Amendment,” providing that only a citizen of the United States meeting the qualifications of an elector may vote in an election in this state",
       "Issue No. 2, popular name on the right to keep and bear arms, amending Arkansas Constitution Article 2, § 5",
@@ -122,7 +129,7 @@ export const MORE_BALLOT_CYCLES: BallotCycle[] = [
     measureNote:
       "The initiatives page says “None for the 2026 General Election” under proposed initiatives certified by the Attorney General, and it says posting is not confirmation of circulation or of ballot placement. The four issues above are the General Assembly referrals, and each issue file says it will appear on the November 3, 2026 ballot.",
     districtNote:
-      "This page does not list federal or statewide candidate offices. The candidate search at candidates.arkansas.gov did not return a readable office list on October 19, 2026. The 2026 election calendar describes November 3 as the general election, nonpartisan runoff election, and annual school runoff election.",
+      "U.S. House contests are listed by district in the candidate list above. The 2026 election calendar describes November 3 as the general election, nonpartisan runoff election, and annual school runoff election.",
     sources: [
       {
         label: "Arkansas Secretary of State — initiatives and referenda",
@@ -288,11 +295,19 @@ export const MORE_BALLOT_CYCLES: BallotCycle[] = [
     code: "ID",
     checkedOn: CHECKED,
     intro:
-      "The Idaho Secretary of State’s voter pamphlet for the Tuesday, November 3, 2026 general election, and the 2026 general-election page, print two constitutional amendments, Proposition One, and one advisory question. A certified list of candidate offices for that election was not retrieved as text on October 19, 2026, so this page does not name candidate offices.",
+      "The Idaho Secretary of State candidate list for the November 3, 2026 general election names U.S. Senate, U.S. House Districts 1 and 2, governor, lieutenant governor, secretary of state, state controller, state treasurer, attorney general, and superintendent of public instruction. The voter pamphlet and the 2026 general-election page print two constitutional amendments, Proposition One, and one advisory question.",
     shortLead:
-      "Idaho’s November 3, 2026 voter pamphlet prints two constitutional amendments, Proposition One, and a non-binding advisory question. A certified candidate-office list was not retrieved.",
-    federal: [],
-    statewide: [],
+      "Idaho’s November 3, 2026 candidate list names U.S. Senate, two U.S. House districts, and statewide executive offices. The voter pamphlet prints two constitutional amendments, Proposition One, and an advisory question.",
+    federal: ["United States Senator", "U.S. House, Districts 1 and 2"],
+    statewide: [
+      "Governor",
+      "Lieutenant Governor",
+      "Secretary of State",
+      "State Controller",
+      "State Treasurer",
+      "Attorney General",
+      "Superintendent of Public Instruction",
+    ],
     measures: [
       "Amendment to Idaho Constitution - House Joint Resolution 4, on legislative authority over marijuana, narcotics, and other psychoactive substances",
       "Amendment to Idaho Constitution - House Joint Resolution 6, on English as the official language of the state",
@@ -302,7 +317,7 @@ export const MORE_BALLOT_CYCLES: BallotCycle[] = [
     measureNote:
       "The initiatives page says the Reproductive Freedom and Privacy Act has met the statutory requirements to appear on the November 3, 2026 general-election ballot. The pamphlet says the House Bill 932 question is non-binding. The same initiatives page says the Idaho Medical Cannabis Act and the Decriminalize Cannabis Now Initiative did not qualify for the November ballot.",
     districtNote:
-      "This page does not list federal or statewide candidate offices. An independent-candidate petition form names U.S. Senate and U.S. Representative, District 1 or 2, as offices that form can be used for, and it is not a certified office list. The 2026 legislative-candidates page names State Senator and State Representative seats and does not display the candidate roster.",
+      "U.S. Senate and U.S. House Districts 1 and 2 are in the candidate list above, copied from the Secretary of State candidate list. State legislative contests are not in that stored list.",
     sources: [
       {
         label: "Idaho Secretary of State — 2026 general election voter pamphlet",
@@ -426,7 +441,7 @@ export const MORE_BALLOT_CYCLES: BallotCycle[] = [
       "I-194 (Ballot Issue #10), qualified for the 2026 general election ballot on August 17, 2026",
     ],
     measureNote:
-      "The ballot-issues page says the subject of a ballot issue may be paraphrased and that the statement appearing on the ballot is on a linked page. Those ballot-statement texts were not retrieved on October 19, 2026, so this page does not print a ballot title for CI-132, CI-133, or I-194. Other issues on that page are still gathering signatures, submitted, or not qualified, and they are not listed here.",
+      "The ballot-issues page says the subject of a ballot issue may be paraphrased and that the statement appearing on the ballot is on a linked page. This page names CI-132, CI-133, and I-194 as qualified for the 2026 general-election ballot. Other issues on that page are still gathering signatures, submitted, or not qualified, and they are omitted here.",
     districtNote:
       "The filing page lists United States Representative districts 1 and 2, Public Service Commissioner districts 1 and 5, Supreme Court Justice as District 4, State Senator districts, State Representative districts 1–100, and district court judges. The filing notice names Supreme Court Justice without a district number. This page does not treat that seat as a separate statewide office beyond the notice’s wording.",
     sources: [

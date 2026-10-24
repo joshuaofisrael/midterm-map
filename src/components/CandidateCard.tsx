@@ -1,5 +1,6 @@
 import type { Candidate } from "@/data/types";
 import { initialsFor, partyTone } from "@/lib/format";
+import { BallotpediaLink } from "@/components/BallotpediaLink";
 import { SourceLines } from "@/components/SourceLines";
 
 export function CandidateCard({ candidate }: { candidate: Candidate }) {
@@ -35,6 +36,11 @@ export function CandidateCard({ candidate }: { candidate: Candidate }) {
             {candidate.partyLabel}
             {candidate.incumbent ? " · Incumbent" : ""}
           </p>
+          {candidate.ballotpedia ? (
+            <p className="mt-1">
+              <BallotpediaLink href={candidate.ballotpedia} />
+            </p>
+          ) : null}
           {candidate.statusNote && (
             <p className="mt-1 text-xs text-ink-soft">{candidate.statusNote}</p>
           )}

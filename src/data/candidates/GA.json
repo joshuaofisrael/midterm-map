@@ -21,7 +21,12 @@
           "name": "Jon Ossoff",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Governor",
@@ -36,7 +41,12 @@
           "name": "Keisha Lance Bottoms",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Lieutenant Governor",
@@ -51,7 +61,12 @@
           "name": "Josh McLaurin",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Secretary of State",
@@ -66,7 +81,12 @@
           "name": "Penny Brown Reynolds",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Attorney General",
@@ -81,7 +101,12 @@
           "name": "Tanya Miller",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Agriculture Commissioner",
@@ -96,7 +121,12 @@
           "name": "Katherine E. Juhan-Arnold",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Insurance and Fire Safety Commissioner",
@@ -111,7 +141,12 @@
           "name": "Keisha Sean Waites",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "State School Superintendent",
@@ -126,7 +161,12 @@
           "name": "Lydia Powell",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Labor Commissioner",
@@ -134,14 +174,19 @@
       "district": null,
       "candidates": [
         {
-          "name": "Bárbara Rivera Holmes",
+          "name": "B\u00e1rbara Rivera Holmes",
           "party": "R"
         },
         {
           "name": "Nikki Porcher",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives, District 1",
@@ -156,7 +201,12 @@
           "name": "Amanda Hollowell",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives, District 10",
@@ -171,7 +221,12 @@
           "name": "Pamela \"Pam\" Delancy",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives, District 11",
@@ -186,7 +241,12 @@
           "name": "Chris Harden",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives, District 12",
@@ -201,7 +261,12 @@
           "name": "Ceretta Smith",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives, District 13",
@@ -216,7 +281,12 @@
           "name": "Jasmine Clark",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives, District 14",
@@ -231,7 +301,12 @@
           "name": "Shawn Harris",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives, District 2",
@@ -246,7 +321,12 @@
           "name": "Sanford Bishop",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives, District 3",
@@ -261,7 +341,12 @@
           "name": "Maura Keller",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives, District 4",
@@ -276,7 +361,12 @@
           "name": "Henry \"Hank\" Johnson Jr.",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives, District 5",
@@ -291,7 +381,12 @@
           "name": "Nikema Williams",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives, District 6",
@@ -306,7 +401,12 @@
           "name": "LUCY MCBATH",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives, District 7",
@@ -321,7 +421,12 @@
           "name": "Tony Kozycki",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives, District 8",
@@ -336,7 +441,12 @@
           "name": "Kelly Esti",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives, District 9",
@@ -351,7 +461,12 @@
           "name": "Caitlyn Gegen",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Georgia Secretary of State, November 2026 Federal and State Candidates (list of candidates to appear on the November General Election Ballot)",
+        "url": "https://sos.ga.gov/sites/default/files/2026-09/November%202026%20Federal%20and%20State%20Candidates%202026.zip",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }

@@ -8,6 +8,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { RaceCard } from "@/components/RaceCard";
+import { StateCandidates } from "@/components/StateCandidates";
 import { KeyDatesSection } from "@/components/ElectionDates";
 import { ballotCycleFor } from "@/data/ballotCycle";
 import {
@@ -77,6 +78,7 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
         officeLabel={state.officialElectionOffice.label}
       />
       <OfficialNotice compact />
+      <StateCandidates code={state.code} stateName={state.name} />
 
       <section className="grid gap-4 md:grid-cols-2">
         <article className="rounded-xl border border-line border-t-4 border-t-navy bg-paper-card p-5 shadow-card">

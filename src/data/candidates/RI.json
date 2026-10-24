@@ -1,11 +1,193 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
       "name": "Rhode Island Board of Elections",
       "url": "https://elections.ri.gov/",
       "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Ballotpedia — Rhode Island elections, 2026",
+      "url": "https://ballotpedia.org/Rhode_Island_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "U.S. Senate Rhode Island",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Jack Reed",
+          "party": "Democratic"
+        },
+        {
+          "name": "Raymond McKay",
+          "party": "Republican"
+        },
+        {
+          "name": "Michael Bahry",
+          "party": "Independent"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. Senate Rhode Island, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/United_States_Senate_election_in_Rhode_Island,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Rhode Island District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Gabe Amo",
+          "party": "Democratic"
+        },
+        {
+          "name": "Kellie Keenan",
+          "party": "Republican"
+        },
+        {
+          "name": "Pedro Soares de Souza",
+          "party": "Independent"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Rhode Island District 1, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Rhode_Island's_1st_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Rhode Island District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Seth Magaziner",
+          "party": "Democratic"
+        },
+        {
+          "name": "Victor Mellor",
+          "party": "Republican"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Rhode Island District 2, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Rhode_Island's_2nd_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Governor of Rhode Island",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Aaron Guckian",
+          "party": "Republican"
+        },
+        {
+          "name": "Helena Foulkes",
+          "party": "Democratic"
+        },
+        {
+          "name": "Ken Block",
+          "party": "Independent"
+        },
+        {
+          "name": "Jasjit Gotra",
+          "party": "Independent"
+        },
+        {
+          "name": "Christopher Reynolds",
+          "party": "Independent"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Governor of Rhode Island, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Rhode_Island_gubernatorial_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Lieutenant Governor of Rhode Island",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Sabina Matos",
+          "party": "Democratic"
+        },
+        {
+          "name": "John Loughlin",
+          "party": "Republican"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Lieutenant Governor of Rhode Island, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Rhode_Island_lieutenant_gubernatorial_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of Rhode Island",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Alan Gordon",
+          "party": "Republican"
+        },
+        {
+          "name": "Kim Ahern",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of Rhode Island, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Rhode_Island_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Rhode Island Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Gregg Amore",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Rhode Island Secretary of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Rhode_Island_Secretary_of_State_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Rhode Island General Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "James Diossa",
+          "party": "Democratic"
+        },
+        {
+          "name": "Micholas Credle",
+          "party": "Republican"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Rhode Island General Treasurer, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Rhode_Island_Treasurer_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    }
+  ]
 }

@@ -6,6 +6,11 @@
       "url": "https://coloradosos.gov/pubs/elections/vote/generalCandidates.html",
       "accessed": "October 17, 2026",
       "published": "September 4, 2026"
+    },
+    {
+      "name": "Ballotpedia \u2014 Colorado elections, 2026",
+      "url": "https://ballotpedia.org/Colorado_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -38,7 +43,12 @@
           "name": "Adam Withrow",
           "party": "Unity Party"
         }
-      ]
+      ],
+      "source": {
+        "name": "Colorado Secretary of State, 2026 general election official candidate list (certified to the counties on September 4; names stricken through or marked write-in are not copied)",
+        "url": "https://coloradosos.gov/pubs/elections/vote/generalCandidates.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US House of Representatives 1",
@@ -65,7 +75,12 @@
           "name": "Shimon Blau",
           "party": "Unaffiliated"
         }
-      ]
+      ],
+      "source": {
+        "name": "Colorado Secretary of State, 2026 general election official candidate list (certified to the counties on September 4; names stricken through or marked write-in are not copied)",
+        "url": "https://coloradosos.gov/pubs/elections/vote/generalCandidates.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US House of Representatives 2",
@@ -84,7 +99,12 @@
           "name": "Gaylon Kent",
           "party": "Libertarian Party"
         }
-      ]
+      ],
+      "source": {
+        "name": "Colorado Secretary of State, 2026 general election official candidate list (certified to the counties on September 4; names stricken through or marked write-in are not copied)",
+        "url": "https://coloradosos.gov/pubs/elections/vote/generalCandidates.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US House of Representatives 3",
@@ -107,7 +127,12 @@
           "name": "Clifton Brown",
           "party": "Unaffiliated"
         }
-      ]
+      ],
+      "source": {
+        "name": "Colorado Secretary of State, 2026 general election official candidate list (certified to the counties on September 4; names stricken through or marked write-in are not copied)",
+        "url": "https://coloradosos.gov/pubs/elections/vote/generalCandidates.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US House of Representatives 4",
@@ -126,7 +151,12 @@
           "name": "Douglas Mangeris",
           "party": "Libertarian Party"
         }
-      ]
+      ],
+      "source": {
+        "name": "Colorado Secretary of State, 2026 general election official candidate list (certified to the counties on September 4; names stricken through or marked write-in are not copied)",
+        "url": "https://coloradosos.gov/pubs/elections/vote/generalCandidates.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US House of Representatives 5",
@@ -149,7 +179,12 @@
           "name": "Mark \"Marky Jr\" Elworth",
           "party": "Libertarian Party"
         }
-      ]
+      ],
+      "source": {
+        "name": "Colorado Secretary of State, 2026 general election official candidate list (certified to the counties on September 4; names stricken through or marked write-in are not copied)",
+        "url": "https://coloradosos.gov/pubs/elections/vote/generalCandidates.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US House of Representatives 6",
@@ -176,7 +211,12 @@
           "name": "Samir Ezzeldin Witta",
           "party": "Unaffiliated"
         }
-      ]
+      ],
+      "source": {
+        "name": "Colorado Secretary of State, 2026 general election official candidate list (certified to the counties on September 4; names stricken through or marked write-in are not copied)",
+        "url": "https://coloradosos.gov/pubs/elections/vote/generalCandidates.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US House of Representatives 7",
@@ -207,7 +247,12 @@
           "name": "Joe Krzeczkowski",
           "party": "Unaffiliated"
         }
-      ]
+      ],
+      "source": {
+        "name": "Colorado Secretary of State, 2026 general election official candidate list (certified to the counties on September 4; names stricken through or marked write-in are not copied)",
+        "url": "https://coloradosos.gov/pubs/elections/vote/generalCandidates.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US House of Representatives 8",
@@ -226,7 +271,12 @@
           "name": "Dave Wood",
           "party": "Libertarian Party"
         }
-      ]
+      ],
+      "source": {
+        "name": "Colorado Secretary of State, 2026 general election official candidate list (certified to the counties on September 4; names stricken through or marked write-in are not copied)",
+        "url": "https://coloradosos.gov/pubs/elections/vote/generalCandidates.html",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Governor",
@@ -261,7 +311,148 @@
           "name": "Greg Lopez",
           "party": "Unaffiliated"
         }
-      ]
+      ],
+      "source": {
+        "name": "Colorado Secretary of State, 2026 general election official candidate list (certified to the counties on September 4; names stricken through or marked write-in are not copied)",
+        "url": "https://coloradosos.gov/pubs/elections/vote/generalCandidates.html",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "Lieutenant Governor of Colorado",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "George Washington Markert",
+          "party": "Republican"
+        },
+        {
+          "name": "Frank Atwood",
+          "party": "Approval Voting Party"
+        },
+        {
+          "name": "James Treibert",
+          "party": "Constitution Party"
+        },
+        {
+          "name": "Lesley Dahlkemper",
+          "party": "Democratic"
+        },
+        {
+          "name": "Wayne Harlos",
+          "party": "Libertarian"
+        },
+        {
+          "name": "Taralyn Romero",
+          "party": "Unaffiliated"
+        },
+        {
+          "name": "T.J. Cole",
+          "party": "Unity Party"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Lieutenant Governor of Colorado, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Colorado_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of Colorado",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Michael Allen",
+          "party": "Republican"
+        },
+        {
+          "name": "Jena Griswold",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of Colorado, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Colorado_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Colorado Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "James Wiley",
+          "party": "Republican"
+        },
+        {
+          "name": "Amanda Campbell",
+          "party": "American Constitution Party"
+        },
+        {
+          "name": "Celeste Landry",
+          "party": "Colorado Forward Party"
+        },
+        {
+          "name": "Amanda Gonzalez",
+          "party": "Democratic"
+        },
+        {
+          "name": "Sean Vadney",
+          "party": "Libertarian"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Colorado Secretary of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Colorado_Secretary_of_State_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Colorado Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Kevin J. Grantham",
+          "party": "Republican"
+        },
+        {
+          "name": "Marilee Langner Sturgis",
+          "party": "Approval Voting Party"
+        },
+        {
+          "name": "Jeff Bridges",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jodie Barr",
+          "party": "Libertarian"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Colorado Treasurer, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Colorado_Treasurer_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Colorado Supreme Court",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "William W. Hood",
+          "party": "Nonpartisan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Colorado Supreme Court, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Colorado_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

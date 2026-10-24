@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BallotpediaLink } from "@/components/BallotpediaLink";
 import { SourceLines } from "@/components/SourceLines";
 import type { RaceGuide } from "@/data/types";
 import { indexableRaceHref } from "@/data/results";
@@ -44,7 +45,8 @@ export function RaceCard({ race, compact = false }: { race: RaceGuide; compact?:
         <ul className="mt-3 space-y-2 text-sm text-ink-muted">
           {race.candidates.map((candidate) => (
             <li key={candidate.name}>
-              <span className="font-medium text-ink">{candidate.name}</span>
+              <span className="font-medium text-ink">{candidate.name}</span>{" "}
+              <BallotpediaLink href={candidate.ballotpedia} />
               <SourceLines sources={candidate.sources} />
             </li>
           ))}

@@ -6,6 +6,11 @@
       "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
       "accessed": "October 17, 2026",
       "published": "October 7, 2026"
+    },
+    {
+      "name": "Ballotpedia \u2014 New York elections, 2026",
+      "url": "https://ballotpedia.org/New_York_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -34,7 +39,12 @@
           "name": "Bruce A. Blakeman / Todd Hood",
           "party": "Vote Affordable"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 1",
@@ -53,7 +63,12 @@
           "name": "Nicholas J. Lalota",
           "party": "Conservative"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 2",
@@ -76,7 +91,12 @@
           "name": "Patrick Halpin",
           "party": "Working Families"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 3",
@@ -95,7 +115,12 @@
           "name": "Michael J. LiPetri Jr",
           "party": "Conservative"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 4",
@@ -118,7 +143,12 @@
           "name": "Blay Tarnoff",
           "party": "Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 5",
@@ -137,7 +167,12 @@
           "name": "George Marsh",
           "party": "Queens United"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 6",
@@ -156,7 +191,12 @@
           "name": "Joseph Chou",
           "party": "Conservative"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 7",
@@ -183,7 +223,12 @@
           "name": "Priscilla Ghaznavi",
           "party": "Our Future"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 8",
@@ -202,7 +247,12 @@
           "name": "Lewis Mizrahi",
           "party": "Conservative"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 9",
@@ -221,7 +271,12 @@
           "name": "Joel Azumah",
           "party": "Conservative"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 10",
@@ -244,7 +299,12 @@
           "name": "Brad Lander",
           "party": "Working Families"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 11",
@@ -263,7 +323,12 @@
           "name": "Nicole Malliotakis",
           "party": "Conservative"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 12",
@@ -290,7 +355,12 @@
           "name": "Karen Ortiz",
           "party": "Karen Ortiz"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 13",
@@ -309,7 +379,12 @@
           "name": "Darializa Avila Chevalier",
           "party": "Working Families"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 14",
@@ -332,7 +407,12 @@
           "name": "Alexandria Ocasio-Cortez",
           "party": "Working Families"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 15",
@@ -359,7 +439,12 @@
           "name": "Jose Vega",
           "party": "Speak The Truth"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 16",
@@ -374,7 +459,12 @@
           "name": "Joseph J. Cinquemani",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 17",
@@ -397,7 +487,12 @@
           "name": "Cait Conley",
           "party": "Working Families"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 18",
@@ -420,7 +515,12 @@
           "name": "Pat Ryan",
           "party": "Working Families"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 19",
@@ -443,7 +543,12 @@
           "name": "Josh Riley",
           "party": "Working Families"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 20",
@@ -466,7 +571,12 @@
           "name": "Paul D. Tonko",
           "party": "Working Families"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 21",
@@ -485,7 +595,12 @@
           "name": "Anthony Constantino",
           "party": "Taxpayer Rights"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 22",
@@ -508,7 +623,12 @@
           "name": "John W. Mannion",
           "party": "Working Families"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 23",
@@ -531,7 +651,12 @@
           "name": "Aaron Gies",
           "party": "Working Families"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 24",
@@ -554,7 +679,12 @@
           "name": "Alissa J. Ellman",
           "party": "Working Families"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 25",
@@ -577,7 +707,12 @@
           "name": "Joseph D. Morelle",
           "party": "Working Families"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Representative in Congress 26",
@@ -596,7 +731,52 @@
           "name": "Dennis E. Hannon",
           "party": "Conservative"
         }
-      ]
+      ],
+      "source": {
+        "name": "New York State Board of Elections, amended certification for the November 3, 2026 general election",
+        "url": "https://elections.ny.gov/system/files/documents/2026/10/accessible-2026-general-ballot-certification-10.7.2026.pdf",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of New York",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Letitia James",
+          "party": "Democratic, Working Families Party"
+        },
+        {
+          "name": "Saritha Komatireddy",
+          "party": "Republican, Conservative Party"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of New York, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/New_York_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "New York Comptroller",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Thomas P. DiNapoli",
+          "party": "Democratic, Working Families Party"
+        },
+        {
+          "name": "Joseph Hernandez",
+          "party": "Republican, Conservative Party"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, New York Comptroller, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/New_York_Comptroller_election,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

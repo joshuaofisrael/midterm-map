@@ -15,6 +15,11 @@
       "name": "Kentucky Secretary of State, 2026 General Election candidate filings for US Representative",
       "url": "https://web.sos.ky.gov/CandidateFilings/Default.aspx?id=4",
       "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Ballotpedia \u2014 Kentucky elections, 2026",
+      "url": "https://ballotpedia.org/Kentucky_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -39,7 +44,12 @@
           "name": "Christopher Campbell",
           "party": "Kentucky Party"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kentucky Secretary of State, Candidate Filings for the 2026 General Election",
+        "url": "https://web.sos.ky.gov/candidatefilings/",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative",
@@ -54,7 +64,12 @@
           "name": "James R. Comer",
           "party": "Republican Party"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kentucky Secretary of State, Candidate Filings for the 2026 General Election",
+        "url": "https://web.sos.ky.gov/candidatefilings/",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative",
@@ -73,7 +88,12 @@
           "name": "Thomas A. Loecken",
           "party": "Independent"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kentucky Secretary of State, Candidate Filings for the 2026 General Election",
+        "url": "https://web.sos.ky.gov/candidatefilings/",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative",
@@ -88,7 +108,12 @@
           "name": "Maria Teresa Rodriguez",
           "party": "Republican Party"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kentucky Secretary of State, Candidate Filings for the 2026 General Election",
+        "url": "https://web.sos.ky.gov/candidatefilings/",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative",
@@ -111,7 +136,12 @@
           "name": "Peter Harmon Williams",
           "party": "Write-In"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kentucky Secretary of State, Candidate Filings for the 2026 General Election",
+        "url": "https://web.sos.ky.gov/candidatefilings/",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative",
@@ -138,7 +168,12 @@
           "name": "Mikel Wein",
           "party": "Independent"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kentucky Secretary of State, Candidate Filings for the 2026 General Election",
+        "url": "https://web.sos.ky.gov/candidatefilings/",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative",
@@ -165,7 +200,28 @@
           "name": "Robert Quigley",
           "party": "Write-In"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kentucky Secretary of State, Candidate Filings for the 2026 General Election",
+        "url": "https://web.sos.ky.gov/candidatefilings/",
+        "accessed": "October 18, 2026"
+      }
+    },
+    {
+      "office": "Kentucky Supreme Court 3rd District",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Debra Hembree Lambert",
+          "party": "Nonpartisan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Kentucky Supreme Court 3rd District, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Kentucky_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

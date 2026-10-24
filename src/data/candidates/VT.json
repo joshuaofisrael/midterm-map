@@ -2,7 +2,7 @@
   "status": "published",
   "sources": [
     {
-      "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet “Last Updated: 9/23/2026”)",
+      "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet \u201cLast Updated: 9/23/2026\u201d)",
       "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
       "accessed": "October 18, 2026",
       "published": "September 23, 2026"
@@ -38,7 +38,12 @@
           "name": "RYAN P. WALTON",
           "party": "INDEPENDENT"
         }
-      ]
+      ],
+      "source": {
+        "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet \u201cLast Updated: 9/23/2026\u201d)",
+        "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "GOVERNOR",
@@ -65,7 +70,12 @@
           "name": "PHIL SCOTT",
           "party": "REPUBLICAN"
         }
-      ]
+      ],
+      "source": {
+        "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet \u201cLast Updated: 9/23/2026\u201d)",
+        "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "LIEUTENANT GOVERNOR",
@@ -80,7 +90,12 @@
           "name": "JOHN S. RODGERS",
           "party": "REPUBLICAN"
         }
-      ]
+      ],
+      "source": {
+        "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet \u201cLast Updated: 9/23/2026\u201d)",
+        "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "STATE TREASURER",
@@ -99,7 +114,12 @@
           "name": "MIKE PIECIAK",
           "party": "DEMOCRATIC"
         }
-      ]
+      ],
+      "source": {
+        "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet \u201cLast Updated: 9/23/2026\u201d)",
+        "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "SECRETARY OF STATE",
@@ -118,7 +138,12 @@
           "name": "RACHEL SHAW",
           "party": "PROGRESSIVE"
         }
-      ]
+      ],
+      "source": {
+        "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet \u201cLast Updated: 9/23/2026\u201d)",
+        "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "AUDITOR OF ACCOUNTS",
@@ -133,7 +158,12 @@
           "name": "IVAR KRONICK",
           "party": "REPUBLICAN"
         }
-      ]
+      ],
+      "source": {
+        "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet \u201cLast Updated: 9/23/2026\u201d)",
+        "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "ATTORNEY GENERAL",
@@ -148,7 +178,12 @@
           "name": "EDWIN HOWELL KEMON",
           "party": "REPUBLICAN"
         }
-      ]
+      ],
+      "source": {
+        "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet \u201cLast Updated: 9/23/2026\u201d)",
+        "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }

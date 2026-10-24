@@ -21,7 +21,240 @@
           "name": "Julia Letlow",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Louisiana Secretary of State candidate inquiry for the November 3, 2026 election (election id 344), U.S. Senator. The Secretary of State elections page titles that election “U.S. Senate General / Open U.S. Representative Primary / Open Primary Election.” U.S. House candidates on the same date are the open primary, not the general election, and are not included.",
+        "url": "https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/CandidateList?electionId=344&officeIds=67997",
+        "accessed": "October 18, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Louisiana District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Steve Scalise",
+          "party": "Republican"
+        },
+        {
+          "name": "Randall Arrington",
+          "party": "Republican"
+        },
+        {
+          "name": "Lauren Jewett",
+          "party": "Democratic"
+        },
+        {
+          "name": "Liddy Glass",
+          "party": "Unaffiliated"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Louisiana District 1, November 3, 2026 open-primary candidate list",
+        "url": "https://ballotpedia.org/Louisiana's_1st_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Louisiana District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Troy Carter",
+          "party": "Democratic"
+        },
+        {
+          "name": "Peter Williams",
+          "party": "Republican"
+        },
+        {
+          "name": "Lisa Ballay",
+          "party": "Libertarian"
+        },
+        {
+          "name": "Walter Beach",
+          "party": "Unaffiliated"
+        },
+        {
+          "name": "Renada Collins",
+          "party": "Unaffiliated"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Louisiana District 2, November 3, 2026 open-primary candidate list",
+        "url": "https://ballotpedia.org/Louisiana's_2nd_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Louisiana District 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Clay Higgins",
+          "party": "Republican"
+        },
+        {
+          "name": "Kate Cotten",
+          "party": "Republican"
+        },
+        {
+          "name": "John Day",
+          "party": "Democratic"
+        },
+        {
+          "name": "Priscilla Gonzalez",
+          "party": "Democratic"
+        },
+        {
+          "name": "Caleb Walker",
+          "party": "Democratic"
+        },
+        {
+          "name": "Tia LeBrun",
+          "party": "No Party Affiliation"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Louisiana District 3, November 3, 2026 open-primary candidate list",
+        "url": "https://ballotpedia.org/Louisiana's_3rd_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Louisiana District 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Mike Johnson",
+          "party": "Republican"
+        },
+        {
+          "name": "Gordon Heslop",
+          "party": "Republican"
+        },
+        {
+          "name": "Mike Nichols",
+          "party": "Republican"
+        },
+        {
+          "name": "Conrad Cable",
+          "party": "Democratic"
+        },
+        {
+          "name": "Matthew Gromlich",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Louisiana District 4, November 3, 2026 open-primary candidate list",
+        "url": "https://ballotpedia.org/Louisiana's_4th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Louisiana District 5",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Stewart Cathey",
+          "party": "Republican"
+        },
+        {
+          "name": "Misti Cordell",
+          "party": "Republican"
+        },
+        {
+          "name": "Oscar Dantzler",
+          "party": "Republican"
+        },
+        {
+          "name": "Michael Echols",
+          "party": "Republican"
+        },
+        {
+          "name": "Gabe Firment",
+          "party": "Republican"
+        },
+        {
+          "name": "Austin Magee",
+          "party": "Republican"
+        },
+        {
+          "name": "Dan McKay",
+          "party": "Democratic"
+        },
+        {
+          "name": "Pat Moore",
+          "party": "Democratic"
+        },
+        {
+          "name": "Antonio Wilson",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Louisiana District 5, November 3, 2026 open-primary candidate list",
+        "url": "https://ballotpedia.org/Louisiana's_5th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Louisiana District 6",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Monique Appeaning",
+          "party": "Republican"
+        },
+        {
+          "name": "Larry Davis",
+          "party": "Republican"
+        },
+        {
+          "name": "Rick Edmonds",
+          "party": "Republican"
+        },
+        {
+          "name": "Michael Mebruer",
+          "party": "Republican"
+        },
+        {
+          "name": "Blake Miguez",
+          "party": "Republican"
+        },
+        {
+          "name": "Stephen Wagley",
+          "party": "Republican"
+        },
+        {
+          "name": "Chauna Banks",
+          "party": "Democratic"
+        },
+        {
+          "name": "Patrick Forbes",
+          "party": "Democratic"
+        },
+        {
+          "name": "Lindsay Garcia",
+          "party": "Democratic"
+        },
+        {
+          "name": "Rufus Craig",
+          "party": "Libertarian"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Louisiana District 6, November 3, 2026 open-primary candidate list",
+        "url": "https://ballotpedia.org/Louisiana's_6th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

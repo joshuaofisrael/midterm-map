@@ -10,7 +10,7 @@ export const STARTER_STATES: StateProfile[] = [
     capital: "Phoenix",
     timezoneNote: "Most of Arizona does not observe daylight saving time; the Navajo Nation does.",
     summary:
-      "Arizona’s November 3, 2026 publicity pamphlet and ballot-measures page list eight propositions. The candidate listing linked from the 2026 election-information page was not retrieved as text on October 18, 2026.",
+      "Arizona’s November 3, 2026 publicity pamphlet lists eight propositions. The candidate list on this page names each U.S. House district, governor, lieutenant governor, attorney general, secretary of state, state treasurer, superintendent of public instruction, state mine inspector, the corporation commission, and the Arizona Supreme Court.",
     officialElectionOffice: {
       label: "Arizona Secretary of State — Elections",
       href: "https://azsos.gov/elections",
@@ -39,7 +39,17 @@ export const STARTER_STATES: StateProfile[] = [
       },
     ],
     ballotpedia: { label: "Ballotpedia — Arizona elections 2026", href: "https://ballotpedia.org/Arizona_elections,_2026" },
-    statewideOffices2026: [],
+    statewideOffices2026: [
+      "Governor",
+      "Lieutenant Governor",
+      "Attorney General",
+      "Secretary of State",
+      "State Treasurer",
+      "Superintendent of Public Instruction",
+      "State Mine Inspector",
+      "Corporation Commission",
+      "Arizona Supreme Court",
+    ],
     cycleCheckedOn: "October 18, 2026",
     cycleSources: [
       {
@@ -68,7 +78,7 @@ export const STARTER_STATES: StateProfile[] = [
     hasGovernor2026: true,
     sampleBallotNotes: [
       "The 2026 ballot-measures page lists eight propositions. Those proposition numbers are in the November 3, 2026 publicity pamphlet.",
-      "The candidate listing linked from the 2026 election-information page was not retrieved as text on October 18, 2026.",
+      "U.S. House districts, governor, lieutenant governor, attorney general, secretary of state, treasurer, superintendent of public instruction, mine inspector, corporation commission, and the Arizona Supreme Court are in the candidate list on this page.",
     ],
   },
   {

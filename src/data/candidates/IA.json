@@ -5,6 +5,11 @@
       "name": "Iowa Secretary of State, candidate list, November 3, 2026 general election",
       "url": "https://sos.iowa.gov/sites/default/files/2026-08/2026%20General%20-%20Candidate%20List%20Database%20-%20All%20Elections_1.pdf",
       "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Ballotpedia \u2014 Iowa elections, 2026",
+      "url": "https://ballotpedia.org/Iowa_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -25,7 +30,12 @@
           "name": "Thomas Laehn",
           "party": "Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Iowa Secretary of State, candidate list, November 3, 2026 general election",
+        "url": "https://sos.iowa.gov/sites/default/files/2026-08/2026%20General%20-%20Candidate%20List%20Database%20-%20All%20Elections_1.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 1",
@@ -44,7 +54,12 @@
           "name": "Michael Bridgford",
           "party": "No Party"
         }
-      ]
+      ],
+      "source": {
+        "name": "Iowa Secretary of State, candidate list, November 3, 2026 general election",
+        "url": "https://sos.iowa.gov/sites/default/files/2026-08/2026%20General%20-%20Candidate%20List%20Database%20-%20All%20Elections_1.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 2",
@@ -67,7 +82,12 @@
           "name": "Dave Bushaw",
           "party": "No Party"
         }
-      ]
+      ],
+      "source": {
+        "name": "Iowa Secretary of State, candidate list, November 3, 2026 general election",
+        "url": "https://sos.iowa.gov/sites/default/files/2026-08/2026%20General%20-%20Candidate%20List%20Database%20-%20All%20Elections_1.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 3",
@@ -82,7 +102,12 @@
           "name": "Sarah Trone Garriott",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Iowa Secretary of State, candidate list, November 3, 2026 general election",
+        "url": "https://sos.iowa.gov/sites/default/files/2026-08/2026%20General%20-%20Candidate%20List%20Database%20-%20All%20Elections_1.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 4",
@@ -97,7 +122,12 @@
           "name": "Dave Dawson",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Iowa Secretary of State, candidate list, November 3, 2026 general election",
+        "url": "https://sos.iowa.gov/sites/default/files/2026-08/2026%20General%20-%20Candidate%20List%20Database%20-%20All%20Elections_1.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Governor",
@@ -112,7 +142,132 @@
           "name": "Rob Sand",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Iowa Secretary of State, candidate list, November 3, 2026 general election",
+        "url": "https://sos.iowa.gov/sites/default/files/2026-08/2026%20General%20-%20Candidate%20List%20Database%20-%20All%20Elections_1.pdf",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "Lieutenant Governor of Iowa",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Derek Wulf",
+          "party": "Republican"
+        },
+        {
+          "name": "Dave Muhlbauer",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Lieutenant Governor of Iowa, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Iowa_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of Iowa",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Brenna Bird",
+          "party": "Republican"
+        },
+        {
+          "name": "Nate Willems",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of Iowa, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Iowa_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Iowa Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Paul Pate",
+          "party": "Republican"
+        },
+        {
+          "name": "Ryan Peterman",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Iowa Secretary of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Iowa_Secretary_of_State_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Iowa Auditor of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Chris Cournoyer",
+          "party": "Republican"
+        },
+        {
+          "name": "Taylor Wettach",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Iowa Auditor of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Iowa_Auditor_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Iowa Secretary of Agriculture",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Mike Naig",
+          "party": "Republican"
+        },
+        {
+          "name": "Chris Jones",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Iowa Secretary of Agriculture, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Iowa_Agriculture_Commissioner_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Iowa Treasurer of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Roby Smith",
+          "party": "Republican"
+        },
+        {
+          "name": "John Norwood",
+          "party": "Democratic"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Iowa Treasurer of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Iowa_Treasurer_election,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

@@ -83,7 +83,15 @@ function reportingText(race: LiveRace): string | null {
   return `${race.precinctsReporting.toLocaleString("en-US")} of ${race.precinctsTotal.toLocaleString("en-US")} ${race.reportingLabel} reporting`;
 }
 
-function RaceFigures({ race, office }: { race: LiveRace; office: string }) {
+function RaceFigures({
+  race,
+  office,
+  ballotpediaByName,
+}: {
+  race: LiveRace;
+  office: string;
+  ballotpediaByName?: Record<string, string>;
+}) {
   const status = race.certified
     ? `Official results as reported by the ${office}.`
     : `Unofficial results as reported by the ${office}.`;
@@ -96,7 +104,17 @@ function RaceFigures({ race, office }: { race: LiveRace; office: string }) {
         {race.candidates.map((candidate) => (
           <li key={`${candidate.name}-${candidate.partyLabel}`} className="px-3 py-3">
             <p className="font-semibold text-ink">
-              {candidate.name}
+              {candidate.name}{" "}
+              {ballotpediaByName?.[candidate.name]?.startsWith("https://ballotpedia.org/") ? (
+                <a
+                  className="text-xs font-medium text-navy hover:underline"
+                  href={ballotpediaByName[candidate.name]}
+                  rel="noopener"
+                  target="_blank"
+                >
+                  Ballotpedia
+                </a>
+              ) : null}
               {candidate.winner ? <span className="ml-2 text-sm font-semibold uppercase tracking-wide">Winner</span> : null}
             </p>
             <p className="text-sm text-ink-muted">{candidate.partyLabel || "No party label in the file"}</p>
@@ -117,12 +135,14 @@ function StateBlock({
   now,
   raceSlugs,
   stale,
+  ballotpediaBySlug,
 }: {
   source: LiveSource;
   file: LiveStateFile | undefined;
   now: number | null;
   raceSlugs?: string[];
   stale: boolean;
+  ballotpediaBySlug?: Record<string, Record<string, string>>;
 }) {
   const closeAt = source.allPollsClosedAt === "" ? NaN : Date.parse(source.allPollsClosedAt);
   const closed = now != null && !Number.isNaN(closeAt) && closeAt <= now;
@@ -197,7 +217,11 @@ function StateBlock({
             races.map((race) => (
               <div key={race.siteSlug || race.title} className="mt-4">
                 <h4 className="font-semibold">{race.title}</h4>
-                <RaceFigures race={race} office={source.office} />
+                <RaceFigures
+                  race={race}
+                  office={source.office}
+                  ballotpediaByName={race.siteSlug ? ballotpediaBySlug?.[race.siteSlug] : undefined}
+                />
               </div>
             ))
           )}
@@ -210,9 +234,11 @@ function StateBlock({
 export function LiveResults({
   sources,
   raceSlugs,
+  ballotpediaBySlug,
 }: {
   sources: LiveSource[];
   raceSlugs?: string[];
+  ballotpediaBySlug?: Record<string, Record<string, string>>;
 }) {
   const [payload, setPayload] = useState<LivePayload | null>(null);
   const [now, setNow] = useState<number | null>(null);
@@ -278,6 +304,7 @@ export function LiveResults({
           now={now}
           raceSlugs={raceSlugs}
           stale={stale}
+          ballotpediaBySlug={ballotpediaBySlug}
         />
       ))}
     </div>

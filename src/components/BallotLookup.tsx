@@ -41,7 +41,16 @@ export function BallotLookup({ initialState = "" }: { initialState?: string }) {
       setMessage(null);
     }
 
-    router.push(`/ballot/${fromZip || target}`);
+    const path = `/ballot/${fromZip || target}`;
+    const hash = digits.length === 5 ? `zip=${digits}` : "";
+    const here = window.location.pathname.replace(/\/$/, "");
+    if (here === path) {
+      if (hash) window.location.hash = hash;
+      else window.history.replaceState(null, "", path);
+      window.dispatchEvent(new HashChangeEvent("hashchange"));
+    } else {
+      router.push(hash ? `${path}#${hash}` : path);
+    }
   }
 
   return (
@@ -88,8 +97,10 @@ export function BallotLookup({ initialState = "" }: { initialState?: string }) {
         </button>
       </div>
       <p id="zip-help" className="mt-3 text-sm leading-6 text-ink-muted">
-        ZIP lookup is client-side and local. We do not send your ZIP to a server
-        or match it to a voter file. Prefixes only map to a starter state.
+        ZIP lookup stays in this browser. A 5-digit ZIP is kept after # on the
+        ballot address and narrows U.S. House districts with the Census file on
+        this site. We do not send your ZIP to a server or match it to a voter
+        file. Prefixes map to a starter state.
         {matched ? ` This prefix currently maps to ${matched}.` : ""}
       </p>
       {message && (

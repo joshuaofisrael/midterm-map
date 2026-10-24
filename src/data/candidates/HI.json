@@ -35,7 +35,12 @@
           "name": "LAM, Adriel C.",
           "party": "Republican Party"
         }
-      ]
+      ],
+      "source": {
+        "name": "Hawaii Office of Elections, 2026 General Election facsimile ballot proofs",
+        "url": "https://elections.hawaii.gov/wp-content/uploads/2026-General-Ballot-Proofs.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. Representative, Dist II",
@@ -50,7 +55,12 @@
           "name": "TOKUDA, Jill N.",
           "party": "Democratic Party"
         }
-      ]
+      ],
+      "source": {
+        "name": "Hawaii Office of Elections, 2026 General Election facsimile ballot proofs",
+        "url": "https://elections.hawaii.gov/wp-content/uploads/2026-General-Ballot-Proofs.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Governor and Lieutenant Governor",
@@ -65,7 +75,12 @@
           "name": "GREEN, Josh / KAWAKAMI, Derek S.K.",
           "party": "Democratic Party"
         }
-      ]
+      ],
+      "source": {
+        "name": "Hawaii Office of Elections, 2026 General Election facsimile ballot proofs",
+        "url": "https://elections.hawaii.gov/wp-content/uploads/2026-General-Ballot-Proofs.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Office of Hawaiian Affairs At-Large Trustee",
@@ -96,7 +111,12 @@
           "name": "WAIHEE, John, IV",
           "party": ""
         }
-      ]
+      ],
+      "source": {
+        "name": "Hawaii Office of Elections, 2026 General Election facsimile ballot proofs",
+        "url": "https://elections.hawaii.gov/wp-content/uploads/2026-General-Ballot-Proofs.pdf",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }

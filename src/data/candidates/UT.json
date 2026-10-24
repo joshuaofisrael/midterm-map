@@ -12,6 +12,11 @@
       "url": "https://vote.utah.gov/wp-content/uploads/2026/09/2026-Write-In-Certification.pdf",
       "accessed": "October 18, 2026",
       "published": "September 10, 2026"
+    },
+    {
+      "name": "Ballotpedia \u2014 Utah elections, 2026",
+      "url": "https://ballotpedia.org/Utah_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -40,7 +45,12 @@
           "name": "BABAK \"BOBBY\" DARVISH",
           "party": "Write-in"
         }
-      ]
+      ],
+      "source": {
+        "name": "Utah Lieutenant Governor Deidre M. Henderson, 2026 General Election Certification",
+        "url": "https://vote.utah.gov/wp-content/uploads/2026/09/2026-General-Election-Certification.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives District 2",
@@ -67,7 +77,12 @@
           "name": "CARLTON E. BOWEN",
           "party": "Independent American"
         }
-      ]
+      ],
+      "source": {
+        "name": "Utah Lieutenant Governor Deidre M. Henderson, 2026 General Election Certification",
+        "url": "https://vote.utah.gov/wp-content/uploads/2026/09/2026-General-Election-Certification.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives District 3",
@@ -98,7 +113,12 @@
           "name": "ADONIS HOOSLYN",
           "party": "Unaffiliated"
         }
-      ]
+      ],
+      "source": {
+        "name": "Utah Lieutenant Governor Deidre M. Henderson, 2026 General Election Certification",
+        "url": "https://vote.utah.gov/wp-content/uploads/2026/09/2026-General-Election-Certification.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives District 4",
@@ -121,7 +141,28 @@
           "name": "MIKE KENNEDY",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Utah Lieutenant Governor Deidre M. Henderson, 2026 General Election Certification",
+        "url": "https://vote.utah.gov/wp-content/uploads/2026/09/2026-General-Election-Certification.pdf",
+        "accessed": "October 18, 2026"
+      }
+    },
+    {
+      "office": "Utah Supreme Court",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Jill Pohlman",
+          "party": "Nonpartisan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Utah Supreme Court, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Utah_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

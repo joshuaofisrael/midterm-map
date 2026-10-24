@@ -25,7 +25,12 @@
           "name": "Ty Pinkins",
           "party": "Independent"
         }
-      ]
+      ],
+      "source": {
+        "name": "Mississippi Secretary of State, SAMPLE Official Election Ballot, Federal and Judicial Election, Tuesday, November 3, 2026",
+        "url": "https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "For US House of Representatives, 4th Congressional District",
@@ -44,7 +49,12 @@
           "name": "Carl Boyanton",
           "party": "Independent"
         }
-      ]
+      ],
+      "source": {
+        "name": "Mississippi Secretary of State, SAMPLE Official Election Ballot, Federal and Judicial Election, Tuesday, November 3, 2026",
+        "url": "https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "For US House of Representatives, 1st Congressional District",
@@ -63,7 +73,12 @@
           "name": "Trent Kelly",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Mississippi Secretary of State, SAMPLE Official Election Ballot, Federal and Judicial Election, Tuesday, November 3, 2026",
+        "url": "https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "For US House of Representatives, 2nd Congressional District",
@@ -82,7 +97,12 @@
           "name": "Bennie Foster",
           "party": "Independent"
         }
-      ]
+      ],
+      "source": {
+        "name": "Mississippi Secretary of State, SAMPLE Official Election Ballot, Federal and Judicial Election, Tuesday, November 3, 2026",
+        "url": "https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "For US House of Representatives, 3rd Congressional District",
@@ -101,7 +121,12 @@
           "name": "Erik Kiehle",
           "party": "Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Mississippi Secretary of State, SAMPLE Official Election Ballot, Federal and Judicial Election, Tuesday, November 3, 2026",
+        "url": "https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }
