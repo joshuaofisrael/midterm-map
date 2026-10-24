@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { CopyrightNotice } from "@/components/CopyrightNotice";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { affiliateEnabled, tipJarEnabled } from "@/data/monetization";
@@ -107,6 +108,7 @@ export default function AdvertisingPage() {
           {LEGAL.legalName}. Mailing address: {LEGAL.mailingAddress}.{" "}
           <Link href="/contact">Contact</Link>.
         </p>
+        <CopyrightNotice />
       </div>
     </div>
   );

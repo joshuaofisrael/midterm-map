@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { CopyrightNotice } from "@/components/CopyrightNotice";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
@@ -197,6 +198,7 @@ export default function DisclaimerPage() {
           <Link href="/advertising">advertising disclosure</Link>. If you do
           not agree, do not use this website.
         </p>
+        <CopyrightNotice />
       </div>
     </div>
   );
