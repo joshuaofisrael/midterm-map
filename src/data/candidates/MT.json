@@ -15,25 +15,34 @@
       "candidates": [
         {
           "name": "KURT ALME",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Kurt_Alme"
         },
         {
           "name": "KYLE AUSTIN",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Kyle_Austin_(Montana)"
         },
         {
           "name": "ALANI BANKHEAD",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Alani_Bankhead"
         },
         {
           "name": "SETH BODNAR",
-          "party": "IND"
+          "party": "IND",
+          "ballotpedia": "https://ballotpedia.org/Seth_Bodnar"
         },
         {
           "name": "JAMI DEE WOODMAN (WRITE-IN)",
           "party": "NON"
         }
-      ]
+      ],
+      "source": {
+        "name": "Montana Secretary of State, FEDERAL GENERAL 2026 Candidate List (November 3, 2026). Party Preference codes are printed as DEM, REP, LIB, IND, and NON; the page legend reads DEM = Democratic, REP = Republican, LIB = Libertarian, IND = Independent, MP = Minor Party, NON = Non Partisan. A leading asterisk is the page’s incumbent marker and is not part of the name. Jami Dee Woodman’s Email/Web field reads WRITE-IN; Party Preference remains NON.",
+        "url": "https://candidatefiling.mt.gov/candidatefiling/CandidateList.aspx?e=450002987",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "UNITED STATES REPRESENTATIVE",
@@ -42,17 +51,25 @@
       "candidates": [
         {
           "name": "AARON FLINT",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Aaron_Flint_(Montana)"
         },
         {
           "name": "SAM FORSTAG",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Sam_Forstag"
         },
         {
           "name": "NICK SHEEDY",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Nick_Sheedy"
         }
-      ]
+      ],
+      "source": {
+        "name": "Montana Secretary of State, FEDERAL GENERAL 2026 Candidate List (November 3, 2026). Party Preference codes are printed as DEM, REP, LIB, IND, and NON; the page legend reads DEM = Democratic, REP = Republican, LIB = Libertarian, IND = Independent, MP = Minor Party, NON = Non Partisan. A leading asterisk is the page’s incumbent marker and is not part of the name. Jami Dee Woodman’s Email/Web field reads WRITE-IN; Party Preference remains NON.",
+        "url": "https://candidatefiling.mt.gov/candidatefiling/CandidateList.aspx?e=450002987",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "UNITED STATES REPRESENTATIVE",
@@ -61,21 +78,30 @@
       "candidates": [
         {
           "name": "TROY DOWNING",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Troy_Downing"
         },
         {
           "name": "PATRICK MCCRACKEN",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Patrick_McCracken"
         },
         {
           "name": "BRIAN J MILLER",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Brian_Miller_(Montana)"
         },
         {
           "name": "MICHAEL D EISENHAUER",
-          "party": "IND"
+          "party": "IND",
+          "ballotpedia": "https://ballotpedia.org/Michael_Eisenhauer"
         }
-      ]
+      ],
+      "source": {
+        "name": "Montana Secretary of State, FEDERAL GENERAL 2026 Candidate List (November 3, 2026). Party Preference codes are printed as DEM, REP, LIB, IND, and NON; the page legend reads DEM = Democratic, REP = Republican, LIB = Libertarian, IND = Independent, MP = Minor Party, NON = Non Partisan. A leading asterisk is the page’s incumbent marker and is not part of the name. Jami Dee Woodman’s Email/Web field reads WRITE-IN; Party Preference remains NON.",
+        "url": "https://candidatefiling.mt.gov/candidatefiling/CandidateList.aspx?e=450002987",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "SUPREME COURT JUSTICE #4",
@@ -90,7 +116,12 @@
           "name": "DAN WILSON",
           "party": "NON"
         }
-      ]
+      ],
+      "source": {
+        "name": "Montana Secretary of State, FEDERAL GENERAL 2026 Candidate List (November 3, 2026). Party Preference codes are printed as DEM, REP, LIB, IND, and NON; the page legend reads DEM = Democratic, REP = Republican, LIB = Libertarian, IND = Independent, MP = Minor Party, NON = Non Partisan. A leading asterisk is the page’s incumbent marker and is not part of the name. Jami Dee Woodman’s Email/Web field reads WRITE-IN; Party Preference remains NON.",
+        "url": "https://candidatefiling.mt.gov/candidatefiling/CandidateList.aspx?e=450002987",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }

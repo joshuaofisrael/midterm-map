@@ -21,21 +21,30 @@
       "candidates": [
         {
           "name": "BERNING, Nathan M.",
-          "party": "Nonpartisan"
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Nathan_Berning"
         },
         {
           "name": "CASE, Ed",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Ed_Case"
         },
         {
           "name": "CONLEY, Jordan S.",
-          "party": "Green Party"
+          "party": "Green Party",
+          "ballotpedia": "https://ballotpedia.org/Jordan_Conley"
         },
         {
           "name": "LAM, Adriel C.",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Adriel_Lam"
         }
-      ]
+      ],
+      "source": {
+        "name": "Hawaii Office of Elections, 2026 General Election facsimile ballot proofs",
+        "url": "https://elections.hawaii.gov/wp-content/uploads/2026-General-Ballot-Proofs.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. Representative, Dist II",
@@ -44,13 +53,20 @@
       "candidates": [
         {
           "name": "AWA, Brenton",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Brenton_Awa"
         },
         {
           "name": "TOKUDA, Jill N.",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Jill_Tokuda"
         }
-      ]
+      ],
+      "source": {
+        "name": "Hawaii Office of Elections, 2026 General Election facsimile ballot proofs",
+        "url": "https://elections.hawaii.gov/wp-content/uploads/2026-General-Ballot-Proofs.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Governor and Lieutenant Governor",
@@ -65,7 +81,12 @@
           "name": "GREEN, Josh / KAWAKAMI, Derek S.K.",
           "party": "Democratic Party"
         }
-      ]
+      ],
+      "source": {
+        "name": "Hawaii Office of Elections, 2026 General Election facsimile ballot proofs",
+        "url": "https://elections.hawaii.gov/wp-content/uploads/2026-General-Ballot-Proofs.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Office of Hawaiian Affairs At-Large Trustee",
@@ -74,29 +95,40 @@
       "candidates": [
         {
           "name": "AKINA, Adrian (Kealii)",
-          "party": ""
+          "party": "",
+          "ballotpedia": "https://ballotpedia.org/Adrian_Akina"
         },
         {
           "name": "ANDERSON, Ikaika",
-          "party": ""
+          "party": "",
+          "ballotpedia": "https://ballotpedia.org/Ikaika_Anderson"
         },
         {
           "name": "CRABBE, Kanekoa (Koa)",
-          "party": ""
+          "party": "",
+          "ballotpedia": "https://ballotpedia.org/Kanekoa_Crabbe"
         },
         {
           "name": "GALUTERIA, Brickwood M.",
-          "party": ""
+          "party": "",
+          "ballotpedia": "https://ballotpedia.org/Brickwood_Galuteria"
         },
         {
           "name": "SOUZA, Keoni",
-          "party": ""
+          "party": "",
+          "ballotpedia": "https://ballotpedia.org/Keoni_Souza"
         },
         {
           "name": "WAIHEE, John, IV",
-          "party": ""
+          "party": "",
+          "ballotpedia": "https://ballotpedia.org/John_Waihee_IV"
         }
-      ]
+      ],
+      "source": {
+        "name": "Hawaii Office of Elections, 2026 General Election facsimile ballot proofs",
+        "url": "https://elections.hawaii.gov/wp-content/uploads/2026-General-Ballot-Proofs.pdf",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }

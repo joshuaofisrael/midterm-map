@@ -1,3 +1,4 @@
+import { BallotpediaLink } from "@/components/BallotpediaLink";
 import { SourceLines, uniqueCitations } from "@/components/SourceLines";
 import { localFile, type LocalContest, type LocalFile } from "@/data/local/load";
 import type { PlaceRecord } from "@/data/places/load";
@@ -142,7 +143,8 @@ function Contest({ contest }: { contest: LocalContest }) {
         <ol className="mt-2 list-decimal space-y-1 pl-5 text-sm leading-6">
           {contest.candidates.map((candidate, index) => (
             <li key={`${index}-${candidate.name}-${candidate.party}`}>
-              {candidate.party ? `${candidate.name} — ${candidate.party}` : candidate.name}
+              {candidate.party ? `${candidate.name} — ${candidate.party}` : candidate.name}{" "}
+              <BallotpediaLink href={candidate.ballotpedia} />
             </li>
           ))}
         </ol>

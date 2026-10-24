@@ -40,6 +40,11 @@
       "name": "Alabama Secretary of State, Dallas County sample ballot, General and Constitutional Amendment Election, November 3, 2026 (7th Congressional District)",
       "url": "https://www.sos.alabama.gov/sites/default/files/sample-ballots/2026/gen/Dallas-Sample.pdf",
       "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Ballotpedia — Alabama elections, 2026",
+      "url": "https://ballotpedia.org/Alabama_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -50,13 +55,20 @@
       "candidates": [
         {
           "name": "DOUG JONES",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Doug_Jones_(Alabama)"
         },
         {
           "name": "TOMMY TUBERVILLE",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Tommy_Tuberville"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR LIEUTENANT GOVERNOR",
@@ -65,13 +77,20 @@
       "candidates": [
         {
           "name": "PHILLIP ENSLER",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Phillip_Ensler"
         },
         {
           "name": "JOHN WAHL",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/John_Wahl"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR UNITED STATES SENATOR",
@@ -80,13 +99,20 @@
       "candidates": [
         {
           "name": "EVERETT WESS",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Everett_Wess"
         },
         {
           "name": "BARRY MOORE",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Barry_Moore_(Alabama_U.S._representative)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR UNITED STATES REPRESENTATIVE, 1ST CONGRESSIONAL DISTRICT",
@@ -95,13 +121,20 @@
       "candidates": [
         {
           "name": "CLYDE JONES",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Clyde_W._Jones_Jr._(Alabama_congressional_candidate)"
         },
         {
           "name": "JERRY CARL",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jerry_Carl"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR UNITED STATES REPRESENTATIVE, 2ND CONGRESSIONAL DISTRICT",
@@ -110,13 +143,20 @@
       "candidates": [
         {
           "name": "SHOMARI C. FIGURES",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Shomari_Figures"
         },
         {
           "name": "RHETT MARQUES",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Rhett_Marques"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR UNITED STATES REPRESENTATIVE, 3RD CONGRESSIONAL DISTRICT",
@@ -125,13 +165,20 @@
       "candidates": [
         {
           "name": "LEE McINNIS",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Lee_McInnis"
         },
         {
           "name": "MIKE ROGERS",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Rogers_(Alabama)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR UNITED STATES REPRESENTATIVE, 4TH CONGRESSIONAL DISTRICT",
@@ -140,13 +187,20 @@
       "candidates": [
         {
           "name": "AMANDA N. PUSCZEK",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Amanda_Pusczek"
         },
         {
           "name": "ROBERT B. ADERHOLT",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Robert_Aderholt"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR UNITED STATES REPRESENTATIVE, 5TH CONGRESSIONAL DISTRICT",
@@ -155,13 +209,20 @@
       "candidates": [
         {
           "name": "ANDREW SNEED",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Andrew_Sneed"
         },
         {
           "name": "DALE W. STRONG",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Dale_Strong"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR UNITED STATES REPRESENTATIVE, 6TH CONGRESSIONAL DISTRICT",
@@ -170,13 +231,20 @@
       "candidates": [
         {
           "name": "MAURICE MERCER",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Maurice_Mercer"
         },
         {
           "name": "GARY PALMER",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Gary_Palmer"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR UNITED STATES REPRESENTATIVE, 7TH CONGRESSIONAL DISTRICT",
@@ -185,13 +253,20 @@
       "candidates": [
         {
           "name": "TERRI SEWELL",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Terri_Sewell"
         },
         {
           "name": "AMMIE AKIN",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ammie_Akin"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR ATTORNEY GENERAL",
@@ -204,9 +279,15 @@
         },
         {
           "name": "KATHERINE ROBERTSON",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Katherine_Robertson"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR ASSOCIATE JUSTICE OF THE SUPREME COURT, PLACE 7",
@@ -217,7 +298,12 @@
           "name": "BRAD MENDHEIM",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR ASSOCIATE JUSTICE OF THE SUPREME COURT, PLACE 8",
@@ -232,7 +318,12 @@
           "name": "GREG SHAW",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR SECRETARY OF STATE",
@@ -241,13 +332,20 @@
       "candidates": [
         {
           "name": "WAYNE ROGERS",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Wayne_Rogers_(Alabama)"
         },
         {
           "name": "CAROLEENE DOBSON",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Caroleene_Dobson"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR STATE TREASURER",
@@ -262,7 +360,12 @@
           "name": "YOUNG BOOZER",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR STATE AUDITOR",
@@ -277,7 +380,12 @@
           "name": "ANDREW SORRELL",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR COMMISSIONER OF AGRICULTURE AND INDUSTRIES",
@@ -286,13 +394,20 @@
       "candidates": [
         {
           "name": "RON SPARKS",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Ron_Sparks"
         },
         {
           "name": "COREY HILL",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Corey_Hill"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR PUBLIC SERVICE COMMISSION, PLACE NO. 1",
@@ -301,13 +416,20 @@
       "candidates": [
         {
           "name": "JAMES O. GORDON",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/James_Gordon_(Alabama)"
         },
         {
           "name": "MATT GENTRY",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Matt_Gentry"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "FOR PUBLIC SERVICE COMMISSION, PLACE NO. 2",
@@ -316,13 +438,40 @@
       "candidates": [
         {
           "name": "SHEILA D. McNEIL",
-          "party": "Democrat"
+          "party": "Democrat",
+          "ballotpedia": "https://ballotpedia.org/Sheila_McNeil"
         },
         {
           "name": "JIM ZIG ZEIGLER",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alabama Secretary of State, 2026 General Election Sample Ballots",
+        "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
+        "accessed": "October 18, 2026"
+      }
+    },
+    {
+      "office": "Alabama Court of Criminal Appeals",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Mary Becker Windom",
+          "party": "Republican"
+        },
+        {
+          "name": "Riggs Walker",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Riggs_Walker"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Alabama Court of Criminal Appeals, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Alabama_intermediate_appellate_court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

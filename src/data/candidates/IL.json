@@ -5,6 +5,11 @@
       "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
       "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
       "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Ballotpedia — Illinois elections, 2026",
+      "url": "https://ballotpedia.org/Illinois_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -15,17 +20,25 @@
       "candidates": [
         {
           "name": "Juliana Stratton",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Juliana_Stratton"
         },
         {
           "name": "Don Tracy",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Don_Tracy"
         },
         {
           "name": "Whitfield Harrington Jr",
-          "party": "AMERICAN CENTER PARTY"
+          "party": "AMERICAN CENTER PARTY",
+          "ballotpedia": "https://ballotpedia.org/Whitfield_Harrington_Jr._(Illinois)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "GOVERNOR AND LIEUTENANT GOVERNOR",
@@ -44,7 +57,12 @@
           "name": "Collin Corbett / Carolyn Schofield",
           "party": "INDEPENDENT"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "1ST CONGRESS",
@@ -53,13 +71,20 @@
       "candidates": [
         {
           "name": "Jonathan L. Jackson",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Jonathan_Jackson_(Illinois)"
         },
         {
           "name": "Christian Maxwell",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Christian_Maxwell"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "2ND CONGRESS",
@@ -68,13 +93,19 @@
       "candidates": [
         {
           "name": "Donna Miller",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Donna_Miller_(Illinois)"
         },
         {
           "name": "Michael Scott Noack",
           "party": "REPUBLICAN"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "3RD CONGRESS",
@@ -83,13 +114,20 @@
       "candidates": [
         {
           "name": "Delia Ramirez",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Delia_Ramirez"
         },
         {
           "name": "Angel Oakley",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Angel_Oakley"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "4TH CONGRESS",
@@ -98,21 +136,30 @@
       "candidates": [
         {
           "name": "Patty Garcia",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Patty_Garcia"
         },
         {
           "name": "Lupe Castillo",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Lupe_Castillo"
         },
         {
           "name": "Ed Hershey",
-          "party": "WORKING CLASS PARTY"
+          "party": "WORKING CLASS PARTY",
+          "ballotpedia": "https://ballotpedia.org/Ed_Hershey"
         },
         {
           "name": "Chris Getty",
-          "party": "INDEPENDENT"
+          "party": "INDEPENDENT",
+          "ballotpedia": "https://ballotpedia.org/Chris_Getty"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "5TH CONGRESS",
@@ -121,13 +168,19 @@
       "candidates": [
         {
           "name": "Mike Quigley",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Mike_Quigley"
         },
         {
           "name": "Tommy Hanson",
           "party": "REPUBLICAN"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "6TH CONGRESS",
@@ -136,13 +189,20 @@
       "candidates": [
         {
           "name": "Sean Casten",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Sean_Casten"
         },
         {
           "name": "Niki Conforti",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Niki_Conforti"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "7TH CONGRESS",
@@ -151,13 +211,20 @@
       "candidates": [
         {
           "name": "La Shawn K. Ford",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/La_Shawn_K._Ford"
         },
         {
           "name": "Chad Koppie",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Chad_Koppie"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "8TH CONGRESS",
@@ -166,13 +233,20 @@
       "candidates": [
         {
           "name": "Melissa L. Bean",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Melissa_Bean"
         },
         {
           "name": "Jennifer Davis",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Jennifer_Davis_(Illinois)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "9TH CONGRESS",
@@ -181,13 +255,20 @@
       "candidates": [
         {
           "name": "Daniel Biss",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Daniel_K._Biss"
         },
         {
           "name": "John Elleson",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/John_Elleson"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "10TH CONGRESS",
@@ -196,13 +277,20 @@
       "candidates": [
         {
           "name": "Brad Schneider",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Brad_Schneider"
         },
         {
           "name": "Carl Lambrecht",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Carl_Lambrecht"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "11TH CONGRESS",
@@ -211,13 +299,19 @@
       "candidates": [
         {
           "name": "Bill Foster",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Bill_Foster_(Illinois)"
         },
         {
           "name": "Jeff Walter",
           "party": "REPUBLICAN"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "12TH CONGRESS",
@@ -226,13 +320,20 @@
       "candidates": [
         {
           "name": "Julie Fortier",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Julie_Fortier"
         },
         {
           "name": "Mike Bost",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Mike_Bost"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "13TH CONGRESS",
@@ -241,13 +342,20 @@
       "candidates": [
         {
           "name": "Nikki Budzinski",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Nikki_Budzinski"
         },
         {
           "name": "Jeff Wilson",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Jeff_Wilson_(Illinois's_13th_Congressional_District)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "14TH CONGRESS",
@@ -256,13 +364,19 @@
       "candidates": [
         {
           "name": "Lauren Underwood",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Lauren_Underwood"
         },
         {
           "name": "James T. \"Jim\" Marter",
           "party": "REPUBLICAN"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "15TH CONGRESS",
@@ -271,13 +385,20 @@
       "candidates": [
         {
           "name": "Jennifer Todd",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Jennifer_Todd"
         },
         {
           "name": "Mary E. Miller",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Mary_Miller_(Illinois)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "16TH CONGRESS",
@@ -286,13 +407,20 @@
       "candidates": [
         {
           "name": "Paul Nolley",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Paul_Nolley"
         },
         {
           "name": "Darin LaHood",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Darin_LaHood"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "17TH CONGRESS",
@@ -301,13 +429,118 @@
       "candidates": [
         {
           "name": "Eric Sorensen",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Eric_Sorensen"
         },
         {
           "name": "Dillan S. Vancil",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Dillan_Vancil_(Illinois)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Illinois State Board of Elections, general election candidate list, November 3, 2026",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of Illinois",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Kwame Raoul",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kwame_Raoul"
+        },
+        {
+          "name": "Bob Fioretti",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bob_Fioretti"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of Illinois, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Illinois_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Illinois Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Alexi Giannoulias",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Alexi_Giannoulias"
+        },
+        {
+          "name": "Diane Harris",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Diane_Harris"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Illinois Secretary of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Illinois_Secretary_of_State_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Illinois Comptroller",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Bryan Drew",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bryan_Drew"
+        },
+        {
+          "name": "Margaret Croke",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Margaret_Croke"
+        },
+        {
+          "name": "Anna Schiefelbein",
+          "party": "Independent, Green",
+          "ballotpedia": "https://ballotpedia.org/Anna_Schiefelbein"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Illinois Comptroller, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Illinois_Comptroller_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Illinois Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Mike Frerichs",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mike_Frerichs"
+        },
+        {
+          "name": "Max Solomon",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Max_Solomon"
+        },
+        {
+          "name": "Timothea Papas",
+          "party": "Independent, Green",
+          "ballotpedia": "https://ballotpedia.org/Timothea_Papas"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Illinois Treasurer, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Illinois_Treasurer_election,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

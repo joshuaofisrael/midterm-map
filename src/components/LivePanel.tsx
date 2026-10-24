@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { LiveResults, type LiveSource } from "@/components/LiveResults";
+import raceLinks from "@/data/ballotpedia/race-links.json";
 import liveSources from "@/data/live-sources.json";
 import { pollCloseFor } from "@/data/pollClose";
 
@@ -59,7 +60,11 @@ export function LivePanel({
         </Link>
       </p>
       <div className="mt-4">
-        <LiveResults sources={liveSourceRows(stateCode, raceSlugs)} raceSlugs={raceSlugs} />
+        <LiveResults
+          sources={liveSourceRows(stateCode, raceSlugs)}
+          raceSlugs={raceSlugs}
+          ballotpediaBySlug={raceLinks}
+        />
       </div>
     </section>
   );

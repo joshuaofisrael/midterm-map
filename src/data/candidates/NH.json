@@ -15,17 +15,25 @@
       "candidates": [
         {
           "name": "Cinde Warmington",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Cinde_Warmington"
         },
         {
           "name": "Kelly Ayotte",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Kelly_Ayotte"
         },
         {
           "name": "Stephen Villee",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Stephen_Villee"
         }
-      ]
+      ],
+      "source": {
+        "name": "New Hampshire Secretary of State, 2026 General Election Candidates (Election Candidate List with Address), linked from the 2026 Election Details page",
+        "url": "https://mm.nh.gov/files/uploads/sos/docs/2026-ge-candidate-list.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States Senator",
@@ -34,17 +42,25 @@
       "candidates": [
         {
           "name": "Chris Pappas",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Chris_Pappas"
         },
         {
           "name": "John E. Sununu",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/John_E._Sununu"
         },
         {
           "name": "Edmond Laplante",
-          "party": "CON"
+          "party": "CON",
+          "ballotpedia": "https://ballotpedia.org/Edmond_Laplante"
         }
-      ]
+      ],
+      "source": {
+        "name": "New Hampshire Secretary of State, 2026 General Election Candidates (Election Candidate List with Address), linked from the 2026 Election Details page",
+        "url": "https://mm.nh.gov/files/uploads/sos/docs/2026-ge-candidate-list.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Representative in Congress, District 1",
@@ -53,13 +69,20 @@
       "candidates": [
         {
           "name": "Stefany Shaheen",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Stefany_Shaheen"
         },
         {
           "name": "Anthony DiLorenzo",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Anthony_DiLorenzo"
         }
-      ]
+      ],
+      "source": {
+        "name": "New Hampshire Secretary of State, 2026 General Election Candidates (Election Candidate List with Address), linked from the 2026 Election Details page",
+        "url": "https://mm.nh.gov/files/uploads/sos/docs/2026-ge-candidate-list.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Representative in Congress, District 2",
@@ -68,7 +91,8 @@
       "candidates": [
         {
           "name": "Maggie Goodlander",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Maggie_Goodlander"
         },
         {
           "name": "Lily Tang Williams",
@@ -76,9 +100,15 @@
         },
         {
           "name": "Robbie Mahrou",
-          "party": "IND"
+          "party": "IND",
+          "ballotpedia": "https://ballotpedia.org/Robbie_Mahrou"
         }
-      ]
+      ],
+      "source": {
+        "name": "New Hampshire Secretary of State, 2026 General Election Candidates (Election Candidate List with Address), linked from the 2026 Election Details page",
+        "url": "https://mm.nh.gov/files/uploads/sos/docs/2026-ge-candidate-list.pdf",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }

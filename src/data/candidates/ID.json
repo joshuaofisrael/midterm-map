@@ -15,21 +15,30 @@
       "candidates": [
         {
           "name": "Natalie M Fleming",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Natalie_Fleming_(Idaho)"
         },
         {
           "name": "Todd Achilles",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Todd_Achilles"
         },
         {
           "name": "Matt Loesby",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Matt_Loesby"
         },
         {
           "name": "Jim Risch",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jim_Risch"
         }
-      ]
+      ],
+      "source": {
+        "name": "Idaho Secretary of State, candidate list for the November 3, 2026 general election (2026 GENERAL, final list) linked from the Idaho General Election page",
+        "url": "https://run.voteidaho.gov/search",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States Representative",
@@ -38,21 +47,30 @@
       "candidates": [
         {
           "name": "Brendan J. Gomez",
-          "party": "Constitution"
+          "party": "Constitution",
+          "ballotpedia": "https://ballotpedia.org/Brendan_Gomez"
         },
         {
           "name": "Kaylee Peterson",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kaylee_Peterson"
         },
         {
           "name": "Sarah Zabel",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Sarah_Zabel_(Idaho)"
         },
         {
           "name": "Russ Fulcher",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Russ_Fulcher"
         }
-      ]
+      ],
+      "source": {
+        "name": "Idaho Secretary of State, candidate list for the November 3, 2026 general election (2026 GENERAL, final list) linked from the Idaho General Election page",
+        "url": "https://run.voteidaho.gov/search",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States Representative",
@@ -65,7 +83,8 @@
         },
         {
           "name": "Emre Houser",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Emre_Houser"
         },
         {
           "name": "Tripp Charles Hutchinson",
@@ -73,13 +92,19 @@
         },
         {
           "name": "Will Johanson",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Will_Johanson"
         },
         {
           "name": "Mike Simpson",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Idaho Secretary of State, candidate list for the November 3, 2026 general election (2026 GENERAL, final list) linked from the Idaho General Election page",
+        "url": "https://run.voteidaho.gov/search",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Governor",
@@ -88,29 +113,40 @@
       "candidates": [
         {
           "name": "Pro-Life",
-          "party": "Constitution"
+          "party": "Constitution",
+          "ballotpedia": "https://ballotpedia.org/Pro-Life_(Marvin_Thomas_Richardson)"
         },
         {
           "name": "Terri Pickens",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Terri_Pickens"
         },
         {
           "name": "Jacob Burnett (WRITE-IN)",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Jacob_Burnett"
         },
         {
           "name": "John R. Stegner",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/John_Stegner"
         },
         {
           "name": "Paul Sand",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Paul_Sand"
         },
         {
           "name": "Brad Little",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Brad_Little"
         }
-      ]
+      ],
+      "source": {
+        "name": "Idaho Secretary of State, candidate list for the November 3, 2026 general election (2026 GENERAL, final list) linked from the Idaho General Election page",
+        "url": "https://run.voteidaho.gov/search",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Lieutenant Governor",
@@ -119,13 +155,20 @@
       "candidates": [
         {
           "name": "Eric Myricks",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Eric_Myricks"
         },
         {
           "name": "Scott Bedke",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Scott_Bedke"
         }
-      ]
+      ],
+      "source": {
+        "name": "Idaho Secretary of State, candidate list for the November 3, 2026 general election (2026 GENERAL, final list) linked from the Idaho General Election page",
+        "url": "https://run.voteidaho.gov/search",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Secretary of State",
@@ -134,13 +177,20 @@
       "candidates": [
         {
           "name": "Shawn Keenan",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Shawn_Keenan"
         },
         {
           "name": "Phil McGrane",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Phil_McGrane"
         }
-      ]
+      ],
+      "source": {
+        "name": "Idaho Secretary of State, candidate list for the November 3, 2026 general election (2026 GENERAL, final list) linked from the Idaho General Election page",
+        "url": "https://run.voteidaho.gov/search",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "State Controller",
@@ -155,7 +205,12 @@
           "name": "Brandon D Woolf",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Idaho Secretary of State, candidate list for the November 3, 2026 general election (2026 GENERAL, final list) linked from the Idaho General Election page",
+        "url": "https://run.voteidaho.gov/search",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "State Treasurer",
@@ -170,7 +225,12 @@
           "name": "Julie A. Ellsworth",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Idaho Secretary of State, candidate list for the November 3, 2026 general election (2026 GENERAL, final list) linked from the Idaho General Election page",
+        "url": "https://run.voteidaho.gov/search",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Attorney General",
@@ -179,13 +239,20 @@
       "candidates": [
         {
           "name": "Lori Hickman",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Lori_Hickman"
         },
         {
           "name": "Raul R. Labrador",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ra%C3%BAl_Labrador"
         }
-      ]
+      ],
+      "source": {
+        "name": "Idaho Secretary of State, candidate list for the November 3, 2026 general election (2026 GENERAL, final list) linked from the Idaho General Election page",
+        "url": "https://run.voteidaho.gov/search",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Superintendent of Public Instruction",
@@ -194,7 +261,8 @@
       "candidates": [
         {
           "name": "Teresa Roundy",
-          "party": "Constitution"
+          "party": "Constitution",
+          "ballotpedia": "https://ballotpedia.org/Teresa_Roundy"
         },
         {
           "name": "Becky Sundin Mitchell",
@@ -202,9 +270,15 @@
         },
         {
           "name": "Debbie Critchfield",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Debbie_Critchfield"
         }
-      ]
+      ],
+      "source": {
+        "name": "Idaho Secretary of State, candidate list for the November 3, 2026 general election (2026 GENERAL, final list) linked from the Idaho General Election page",
+        "url": "https://run.voteidaho.gov/search",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }

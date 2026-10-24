@@ -25,7 +25,12 @@
           "name": "SHAPIRO, JOSHUA D",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "LIEUTENANT GOVERNOR",
@@ -34,17 +39,25 @@
       "candidates": [
         {
           "name": "THOMAS, JOHN C",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/John_Thomas_(Pennsylvania_lieutenant_governor_candidate)"
         },
         {
           "name": "RICHEY, JASON L",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jason_Richey_(Pennsylvania)"
         },
         {
           "name": "DAVIS, AUSTIN",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Austin_Davis_(Pennsylvania)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -53,13 +66,19 @@
       "candidates": [
         {
           "name": "FITZPATRICK, BRIAN",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Brian_Fitzpatrick"
         },
         {
           "name": "HARVIE JR, ROBERT J",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -68,13 +87,20 @@
       "candidates": [
         {
           "name": "ARRIAGA, JESSICA",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jessica_Arriaga"
         },
         {
           "name": "BOYLE, BRENDAN F",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Brendan_Boyle"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -87,9 +113,15 @@
         },
         {
           "name": "RABB, CHRISTOPHER M",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Christopher_Rabb"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -98,13 +130,19 @@
       "candidates": [
         {
           "name": "STUSKI, AURORA",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Aurora_Stuski"
         },
         {
           "name": "DEAN CUNNANE, MADELEINE",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -117,9 +155,15 @@
         },
         {
           "name": "SCANLON, MARY GAY",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mary_Gay_Scanlon"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -134,7 +178,12 @@
           "name": "HOULAHAN, CHRISSY JAMPOLER",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -147,9 +196,15 @@
         },
         {
           "name": "MACKENZIE, RYAN E",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ryan_Mackenzie"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -162,9 +217,15 @@
         },
         {
           "name": "COGNETTI, PAIGE",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Paige_Cognetti"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -179,7 +240,12 @@
           "name": "MEUSER, DANIEL PHILIP",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -188,13 +254,20 @@
       "candidates": [
         {
           "name": "STELSON, JANELLE",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Janelle_Stelson"
         },
         {
           "name": "PERRY, SCOTT",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Scott_Perry"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -207,9 +280,15 @@
         },
         {
           "name": "SMUCKER, LLOYD K",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Lloyd_Smucker"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -224,7 +303,12 @@
           "name": "LEE, SUMMER LYNN",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -237,9 +321,15 @@
         },
         {
           "name": "JOYCE, JOHN",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/John_Joyce_(Pennsylvania)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -254,7 +344,12 @@
           "name": "RESCHENTHALER, GUY LORIN",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -263,13 +358,19 @@
       "candidates": [
         {
           "name": "BILGER, RAY",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ray_Bilger"
         },
         {
           "name": "THOMPSON JR, GLENN WILLIAM",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -284,7 +385,12 @@
           "name": "WAGNER, JUSTIN REED",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "REPRESENTATIVE IN CONGRESS",
@@ -299,7 +405,12 @@
           "name": "DELUZIO, CHRISTOPHER RAPHAEL",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Pennsylvania Department of State, PA Voter Services candidate data for the 2026 General Election (11/03/2026), dataJson on ElectionInfo.aspx; approved primary winners and approved nomination-paper candidates",
+        "url": "https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }

@@ -15,21 +15,29 @@
       "candidates": [
         {
           "name": "Edward J. Markey",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Edward_Markey"
         },
         {
           "name": "John Deaton",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/John_Deaton_(Massachusetts)"
         },
         {
           "name": "Shiva Ayyadurai",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Shiva_Ayyadurai"
         },
         {
           "name": "Joe Tache",
           "party": "Socialism and Liberation"
         }
-      ]
+      ],
+      "source": {
+        "name": "Massachusetts Secretary of the Commonwealth, Elections Division, 2026 State Election Candidates",
+        "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Governor & Lieutenant Governor",
@@ -48,7 +56,12 @@
           "name": "James and Kittredge",
           "party": "Independent"
         }
-      ]
+      ],
+      "source": {
+        "name": "Massachusetts Secretary of the Commonwealth, Elections Division, 2026 State Election Candidates",
+        "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Attorney General",
@@ -61,9 +74,15 @@
         },
         {
           "name": "Michael C. Walsh",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Michael_C._Walsh_(Massachusetts_Attorney_General_candidate)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Massachusetts Secretary of the Commonwealth, Elections Division, 2026 State Election Candidates",
+        "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Secretary of State",
@@ -76,9 +95,15 @@
         },
         {
           "name": "Anne R. Brensley",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Anne_Brensley"
         }
-      ]
+      ],
+      "source": {
+        "name": "Massachusetts Secretary of the Commonwealth, Elections Division, 2026 State Election Candidates",
+        "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Treasurer",
@@ -91,9 +116,15 @@
         },
         {
           "name": "Elizabeth Dionne",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Elizabeth_Dionne"
         }
-      ]
+      ],
+      "source": {
+        "name": "Massachusetts Secretary of the Commonwealth, Elections Division, 2026 State Election Candidates",
+        "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Auditor",
@@ -108,7 +139,12 @@
           "name": "Al Ozonoff",
           "party": "Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Massachusetts Secretary of the Commonwealth, Elections Division, 2026 State Election Candidates",
+        "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Representative in Congress, First District",
@@ -117,13 +153,19 @@
       "candidates": [
         {
           "name": "Richard E. Neal",
-          "party": ""
+          "party": "",
+          "ballotpedia": "https://ballotpedia.org/Richard_Neal"
         },
         {
           "name": "Nadia Donya Milleron",
           "party": "Independent/Unenrolled"
         }
-      ]
+      ],
+      "source": {
+        "name": "Massachusetts Secretary of the Commonwealth, Elections Division, 2026 State Election Candidates",
+        "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Representative in Congress, Second District",
@@ -134,7 +176,12 @@
           "name": "James P. McGovern",
           "party": "Democratic"
         }
-      ]
+      ],
+      "source": {
+        "name": "Massachusetts Secretary of the Commonwealth, Elections Division, 2026 State Election Candidates",
+        "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Representative in Congress, Third District",
@@ -147,13 +194,20 @@
         },
         {
           "name": "Gary J. Grossi",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Gary_Grossi"
         },
         {
           "name": "Dennis R. Conlon",
-          "party": "Unenrolled"
+          "party": "Unenrolled",
+          "ballotpedia": "https://ballotpedia.org/Dennis_Conlon"
         }
-      ]
+      ],
+      "source": {
+        "name": "Massachusetts Secretary of the Commonwealth, Elections Division, 2026 State Election Candidates",
+        "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Representative in Congress, Fourth District",
@@ -162,13 +216,20 @@
       "candidates": [
         {
           "name": "Jake Auchincloss",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jake_Auchincloss"
         },
         {
           "name": "Thomas Stalcup",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Thomas_Stalcup"
         }
-      ]
+      ],
+      "source": {
+        "name": "Massachusetts Secretary of the Commonwealth, Elections Division, 2026 State Election Candidates",
+        "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Representative in Congress, Fifth District",
@@ -177,9 +238,15 @@
       "candidates": [
         {
           "name": "Katherine M. Clark",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Katherine_Clark"
         }
-      ]
+      ],
+      "source": {
+        "name": "Massachusetts Secretary of the Commonwealth, Elections Division, 2026 State Election Candidates",
+        "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Representative in Congress, Sixth District",
@@ -192,9 +259,15 @@
         },
         {
           "name": "Dan Koh",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Dan_Koh"
         }
-      ]
+      ],
+      "source": {
+        "name": "Massachusetts Secretary of the Commonwealth, Elections Division, 2026 State Election Candidates",
+        "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Representative in Congress, Seventh District",
@@ -203,9 +276,15 @@
       "candidates": [
         {
           "name": "Ayanna S. Pressley",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ayanna_Pressley"
         }
-      ]
+      ],
+      "source": {
+        "name": "Massachusetts Secretary of the Commonwealth, Elections Division, 2026 State Election Candidates",
+        "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Representative in Congress, Eighth District",
@@ -214,17 +293,24 @@
       "candidates": [
         {
           "name": "Stephen F. Lynch",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Stephen_Lynch"
         },
         {
           "name": "Robert G. Burke",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Robert_Burke_(Massachusetts)"
         },
         {
           "name": "Rasheed Nicholas Walters",
           "party": "Independent"
         }
-      ]
+      ],
+      "source": {
+        "name": "Massachusetts Secretary of the Commonwealth, Elections Division, 2026 State Election Candidates",
+        "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Representative in Congress, Ninth District",
@@ -233,13 +319,20 @@
       "candidates": [
         {
           "name": "Bill Keating",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Bill_Keating"
         },
         {
           "name": "R. Tyler Macallister",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/R._Tyler_MacAllister"
         }
-      ]
+      ],
+      "source": {
+        "name": "Massachusetts Secretary of the Commonwealth, Elections Division, 2026 State Election Candidates",
+        "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }

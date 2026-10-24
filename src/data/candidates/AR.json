@@ -1,11 +1,269 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
       "name": "Arkansas Secretary of State — Elections",
       "url": "https://www.sos.arkansas.gov/elections",
       "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Ballotpedia — Arkansas elections, 2026",
+      "url": "https://ballotpedia.org/Arkansas_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "U.S. Senate Arkansas",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Tom Cotton",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Tom_Cotton"
+        },
+        {
+          "name": "Hallie Shoffner",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Hallie_Shoffner"
+        },
+        {
+          "name": "Jeff Wadlin",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Jeff_Wadlin"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. Senate Arkansas, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/United_States_Senate_election_in_Arkansas,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Arkansas District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Rick Crawford",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Rick_Crawford_(Arkansas)"
+        },
+        {
+          "name": "Terri Yarbrough Green",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Terri_Yarbrough_Green"
+        },
+        {
+          "name": "Steve Parsons",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Steve_Parsons"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Arkansas District 1, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arkansas'_1st_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Arkansas District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "French Hill",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/French_Hill"
+        },
+        {
+          "name": "Chris Jones",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Chris_Jones_(Arkansas_congressional_candidate)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Arkansas District 2, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arkansas'_2nd_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Arkansas District 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Steve Womack",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Steve_Womack"
+        },
+        {
+          "name": "Robb Ryerse",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Robb_Ryerse"
+        },
+        {
+          "name": "Bobby Wilson",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Bobby_Wilson_(Arkansas)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Arkansas District 3, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arkansas'_3rd_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Arkansas District 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Bruce Westerman",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bruce_Westerman"
+        },
+        {
+          "name": "James Russell",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/James_Russell_(Arkansas)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Arkansas District 4, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arkansas'_4th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Governor of Arkansas",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Sarah Huckabee Sanders",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Sarah_Huckabee_Sanders"
+        },
+        {
+          "name": "Fredrick Love",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Fredrick_Love"
+        },
+        {
+          "name": "Colt Shelby",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Colt_Shelby"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Governor of Arkansas, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arkansas_gubernatorial_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Lieutenant Governor of Arkansas",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Leslie Rutledge",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Leslie_Rutledge"
+        },
+        {
+          "name": "Michael Kalagias",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Michael_Kalagias"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Lieutenant Governor of Arkansas, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arkansas_lieutenant_gubernatorial_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of Arkansas",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Tim Griffin",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Tim_Griffin_(Arkansas)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of Arkansas, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arkansas_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Arkansas Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Kim Hammer",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kim_Hammer"
+        },
+        {
+          "name": "Kelly Grappe",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kelly_Grappe"
+        },
+        {
+          "name": "Michael Pakko",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Michael_Pakko"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Arkansas Secretary of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arkansas_Secretary_of_State_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Arkansas Auditor of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Dennis Milligan",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Dennis_Milligan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Arkansas Auditor of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arkansas_Auditor_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Arkansas Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "John Thurston",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/John_Thurston"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Arkansas Treasurer, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arkansas_Treasurer_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    }
+  ]
 }

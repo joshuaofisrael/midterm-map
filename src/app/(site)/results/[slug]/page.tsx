@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { BallotpediaLink } from "@/components/BallotpediaLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { InfoNote } from "@/components/InfoNote";
 import { ContentTrust } from "@/components/ContentTrust";
@@ -130,7 +131,7 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
               return (
               <tr key={line.candidateLabel} className="border-t border-line align-top">
                 <td className={`py-2.5 pr-4 font-medium ${partyTone(line.party)}`}>
-                  {line.candidateLabel}
+                  {line.candidateLabel} {candidate ? <BallotpediaLink href={candidate.ballotpedia} /> : null}
                   {candidate && <SourceLines sources={candidate.sources} />}
                 </td>
                 <td className="py-2.5 pr-4">{line.party}</td>

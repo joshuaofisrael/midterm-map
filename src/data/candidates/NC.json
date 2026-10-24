@@ -6,6 +6,11 @@
       "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
       "accessed": "October 17, 2026",
       "published": "October 13, 2026"
+    },
+    {
+      "name": "Ballotpedia — North Carolina elections, 2026",
+      "url": "https://ballotpedia.org/North_Carolina_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -16,21 +21,30 @@
       "candidates": [
         {
           "name": "Michael Dublin",
-          "party": "GRE"
+          "party": "GRE",
+          "ballotpedia": "https://ballotpedia.org/Michael_Dublin"
         },
         {
           "name": "Roy Cooper",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Roy_Cooper"
         },
         {
           "name": "Shannon W. Bray",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Shannon_Bray"
         },
         {
           "name": "Michael Whatley",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Michael_Whatley"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Carolina State Board of Elections, 2026 general candidate list by contest (federal and state), printed Oct 13, 2026 12:25 pm",
+        "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US HOUSE OF REPRESENTATIVES DISTRICT 01",
@@ -43,13 +57,20 @@
         },
         {
           "name": "Laurie Buckhout",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Laurie_Buckhout"
         },
         {
           "name": "Tom Bailey",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Tom_Bailey_(North_Carolina)"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Carolina State Board of Elections, 2026 general candidate list by contest (federal and state), printed Oct 13, 2026 12:25 pm",
+        "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US HOUSE OF REPRESENTATIVES DISTRICT 02",
@@ -58,17 +79,25 @@
       "candidates": [
         {
           "name": "Eugene F. Douglass",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Eugene_Douglass"
         },
         {
           "name": "Deborah K. Ross",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Deborah_Ross"
         },
         {
           "name": "Matthew Laszacs",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Matthew_Laszacs"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Carolina State Board of Elections, 2026 general candidate list by contest (federal and state), printed Oct 13, 2026 12:25 pm",
+        "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US HOUSE OF REPRESENTATIVES DISTRICT 03",
@@ -77,17 +106,24 @@
       "candidates": [
         {
           "name": "Daniel Cavender",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Daniel_Cavender"
         },
         {
           "name": "Raymond Smith",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Raymond_Smith_Jr."
         },
         {
           "name": "Greg Murphy",
           "party": "REP"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Carolina State Board of Elections, 2026 general candidate list by contest (federal and state), printed Oct 13, 2026 12:25 pm",
+        "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US HOUSE OF REPRESENTATIVES DISTRICT 04",
@@ -96,17 +132,25 @@
       "candidates": [
         {
           "name": "Valerie P. Foushee",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Valerie_Foushee"
         },
         {
           "name": "Guy Meilleur",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Guy_Meilleur"
         },
         {
           "name": "Mahesh (Max) Ganorkar",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Mahesh_Ganorkar"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Carolina State Board of Elections, 2026 general candidate list by contest (federal and state), printed Oct 13, 2026 12:25 pm",
+        "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US HOUSE OF REPRESENTATIVES DISTRICT 05",
@@ -115,17 +159,25 @@
       "candidates": [
         {
           "name": "Virginia Foxx",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Virginia_Foxx"
         },
         {
           "name": "Robert B. Luffman",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Robert_Luffman"
         },
         {
           "name": "Chuck Hubbard",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Chuck_Hubbard"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Carolina State Board of Elections, 2026 general candidate list by contest (federal and state), printed Oct 13, 2026 12:25 pm",
+        "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US HOUSE OF REPRESENTATIVES DISTRICT 06",
@@ -134,13 +186,20 @@
       "candidates": [
         {
           "name": "Addison McDowell",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Addison_McDowell"
         },
         {
           "name": "Cyril Jefferson",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Cyril_Jefferson"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Carolina State Board of Elections, 2026 general candidate list by contest (federal and state), printed Oct 13, 2026 12:25 pm",
+        "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US HOUSE OF REPRESENTATIVES DISTRICT 07",
@@ -149,17 +208,25 @@
       "candidates": [
         {
           "name": "Maad Abu-Ghazalah",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Maad_Abu-Ghazalah"
         },
         {
           "name": "David Rouzer",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/David_Rouzer"
         },
         {
           "name": "Kimberly Hardy",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Kimberly_Hardy"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Carolina State Board of Elections, 2026 general candidate list by contest (federal and state), printed Oct 13, 2026 12:25 pm",
+        "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US HOUSE OF REPRESENTATIVES DISTRICT 08",
@@ -168,17 +235,25 @@
       "candidates": [
         {
           "name": "Bo Whitehead",
-          "party": "GRE"
+          "party": "GRE",
+          "ballotpedia": "https://ballotpedia.org/Bo_Whitehead"
         },
         {
           "name": "Colby Watson",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Colby_Watson"
         },
         {
           "name": "Mark Harris",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Mark_Harris_(North_Carolina)"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Carolina State Board of Elections, 2026 general candidate list by contest (federal and state), printed Oct 13, 2026 12:25 pm",
+        "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US HOUSE OF REPRESENTATIVES DISTRICT 09",
@@ -187,13 +262,20 @@
       "candidates": [
         {
           "name": "Richard N. Ojeda II",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Richard_Ojeda"
         },
         {
           "name": "Richard Hudson",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Richard_Hudson"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Carolina State Board of Elections, 2026 general candidate list by contest (federal and state), printed Oct 13, 2026 12:25 pm",
+        "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US HOUSE OF REPRESENTATIVES DISTRICT 10",
@@ -202,17 +284,25 @@
       "candidates": [
         {
           "name": "Steven Feldman",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Steven_Feldman_(North_Carolina)"
         },
         {
           "name": "Ashley Bell",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Ashley_Bell_(North_Carolina)"
         },
         {
           "name": "Pat Harrigan",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Pat_Harrigan"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Carolina State Board of Elections, 2026 general candidate list by contest (federal and state), printed Oct 13, 2026 12:25 pm",
+        "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US HOUSE OF REPRESENTATIVES DISTRICT 11",
@@ -225,13 +315,20 @@
         },
         {
           "name": "Jamie Ager",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Jamie_Ager"
         },
         {
           "name": "Travis Groo",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Travis_Groo"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Carolina State Board of Elections, 2026 general candidate list by contest (federal and state), printed Oct 13, 2026 12:25 pm",
+        "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US HOUSE OF REPRESENTATIVES DISTRICT 12",
@@ -240,13 +337,20 @@
       "candidates": [
         {
           "name": "Jack Codiga",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Jack_Codiga"
         },
         {
           "name": "Alma S. Adams",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Alma_Adams"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Carolina State Board of Elections, 2026 general candidate list by contest (federal and state), printed Oct 13, 2026 12:25 pm",
+        "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US HOUSE OF REPRESENTATIVES DISTRICT 13",
@@ -255,17 +359,25 @@
       "candidates": [
         {
           "name": "Paul Barringer",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Paul_Barringer"
         },
         {
           "name": "Steven Swinton",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Steven_Swinton"
         },
         {
           "name": "Brad Knott",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Brad_Knott"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Carolina State Board of Elections, 2026 general candidate list by contest (federal and state), printed Oct 13, 2026 12:25 pm",
+        "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "US HOUSE OF REPRESENTATIVES DISTRICT 14",
@@ -274,13 +386,41 @@
       "candidates": [
         {
           "name": "Lakesha Womack",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Lakesha_Womack"
         },
         {
           "name": "Tim Moore",
           "party": "REP"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Carolina State Board of Elections, 2026 general candidate list by contest (federal and state), printed Oct 13, 2026 12:25 pm",
+        "url": "https://dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "North Carolina Supreme Court",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Anita Earls",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Anita_Earls"
+        },
+        {
+          "name": "Sarah Stevens",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Sarah_Stevens"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, North Carolina Supreme Court, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/North_Carolina_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

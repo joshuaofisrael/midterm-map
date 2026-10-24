@@ -6,6 +6,11 @@
       "url": "https://www.elections.alaska.gov/candidates/?election=26genr",
       "accessed": "October 17, 2026",
       "published": "September 25, 2026"
+    },
+    {
+      "name": "Ballotpedia — Alaska elections, 2026",
+      "url": "https://ballotpedia.org/Alaska_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -38,7 +43,12 @@
           "name": "Wilson, Bernadette M. / Shower, Michael K.",
           "party": "Registered Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alaska Division of Elections, 2026 general election candidate list (page last updated September 25, 2026)",
+        "url": "https://www.elections.alaska.gov/candidates/?election=26genr",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "UNITED STATES SENATOR",
@@ -69,7 +79,12 @@
           "name": "Sullivan, Daniel J. Jr.",
           "party": "Registered Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alaska Division of Elections, 2026 general election candidate list (page last updated September 25, 2026)",
+        "url": "https://www.elections.alaska.gov/candidates/?election=26genr",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "UNITED STATES REPRESENTATIVE",
@@ -96,7 +111,29 @@
           "name": "McDermott, James C. “Jim”",
           "party": "Registered Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Alaska Division of Elections, 2026 general election candidate list (page last updated September 25, 2026)",
+        "url": "https://www.elections.alaska.gov/candidates/?election=26genr",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "Alaska Supreme Court",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Jude Pate",
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Jude_Pate"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Alaska Supreme Court, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Alaska_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

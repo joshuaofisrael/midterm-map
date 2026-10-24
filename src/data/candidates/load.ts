@@ -1,8 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { PlaceRecord } from "@/data/places/load";
+import { sortContests } from "@/data/candidates/contestOrder";
+import { districtNumber } from "@/data/candidates/district";
 
-export type CandidatePerson = { name: string; party: string };
+export type CandidatePerson = { name: string; party: string; ballotpedia?: string };
 
 export type ContestKind = "senate" | "governor" | "house" | "statewide";
 
@@ -11,6 +13,8 @@ export type CandidateContest = {
   kind: ContestKind;
   district: string | null;
   candidates: CandidatePerson[];
+  /** Page the names in this contest were copied from, when it is not the file-level source. */
+  source?: CandidateSource;
 };
 
 export type CandidateSource = {
@@ -54,13 +58,6 @@ function cd120Places(): Record<string, Record<string, string[]>> {
   return cd120Cache;
 }
 
-function districtNumber(value: string): string {
-  if (/at Large/i.test(value)) return "0";
-  const match = /(\d+)/.exec(value);
-  if (!match) return "";
-  return String(parseInt(match[1], 10));
-}
-
 /** 2026 U.S. House district numbers for this place. Changed-map states use the 120th file. */
 export function houseDistrictNumbers(code: string, place: PlaceRecord): string[] {
   return [...houseKeys(code, place)].sort((a, b) => Number(a) - Number(b) || a.localeCompare(b));
@@ -82,16 +79,8 @@ export type HouseBasis = "bef" | "unchanged" | "none";
  * equivalency assignment. Other states use the 119th relationship-file number
  * because Census says those boundaries did not change for 2026.
  */
-export function contestsForPlace(
-  code: string,
-  place: PlaceRecord,
-): { contests: CandidateContest[]; houseBasis: HouseBasis } {
-  const upper = code.toUpperCase();
-  const file = candidateFile(upper);
-  if (!file || file.status !== "published") return { contests: [], houseBasis: "none" };
-  const keys = houseKeys(upper, place);
+function selectContests(file: CandidateFile, keys: Set<string> | null): CandidateContest[] {
   const contests: CandidateContest[] = [];
-  let showedHouse = false;
   for (const contest of file.contests) {
     if (contest.candidates.length === 0) continue;
     if (contest.kind === "senate" || contest.kind === "governor" || contest.kind === "statewide") {
@@ -100,14 +89,54 @@ export function contestsForPlace(
     }
     if (contest.kind !== "house" || contest.district == null) continue;
     const district = districtNumber(contest.district);
-    if (!district || !keys.has(district)) continue;
+    if (!district) continue;
+    if (keys && !keys.has(district)) continue;
     contests.push(contest);
-    showedHouse = true;
   }
-  const houseBasis: HouseBasis = showedHouse
-    ? CHANGED_HOUSE_MAPS.has(upper)
-      ? "bef"
-      : "unchanged"
-    : "none";
-  return { contests, houseBasis };
+  return sortContests(contests);
+}
+
+function houseBasisFor(code: string, contests: CandidateContest[]): HouseBasis {
+  const showedHouse = contests.some((contest) => contest.kind === "house");
+  if (!showedHouse) return "none";
+  return CHANGED_HOUSE_MAPS.has(code) ? "bef" : "unchanged";
+}
+
+export function contestsForPlace(
+  code: string,
+  place: PlaceRecord,
+): { contests: CandidateContest[]; houseBasis: HouseBasis } {
+  const upper = code.toUpperCase();
+  const file = candidateFile(upper);
+  if (!file || file.status !== "published") return { contests: [], houseBasis: "none" };
+  const contests = selectContests(file, houseKeys(upper, place));
+  return { contests, houseBasis: houseBasisFor(upper, contests) };
+}
+
+/** Statewide contests plus every U.S. House district that covers one of these places. */
+export function contestsForPlaces(
+  code: string,
+  places: PlaceRecord[],
+): { contests: CandidateContest[]; houseBasis: HouseBasis } {
+  const upper = code.toUpperCase();
+  const file = candidateFile(upper);
+  if (!file || file.status !== "published") return { contests: [], houseBasis: "none" };
+  const keys = new Set<string>();
+  for (const place of places) {
+    for (const key of houseKeys(upper, place)) keys.add(key);
+  }
+  const contests = selectContests(file, keys);
+  return { contests, houseBasis: houseBasisFor(upper, contests) };
+}
+
+/** Every contest on the stored statewide list, including each U.S. House district. */
+export function ballotContests(code: string): {
+  contests: CandidateContest[];
+  status: CandidateFile["status"] | "missing";
+  sources: CandidateSource[];
+} {
+  const file = candidateFile(code);
+  if (!file) return { contests: [], status: "missing", sources: [] };
+  if (file.status !== "published") return { contests: [], status: file.status, sources: file.sources };
+  return { contests: selectContests(file, null), status: "published", sources: file.sources };
 }

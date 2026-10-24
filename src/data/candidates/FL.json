@@ -5,6 +5,11 @@
       "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
       "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
       "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Ballotpedia — Florida elections, 2026",
+      "url": "https://ballotpedia.org/Florida_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -15,17 +20,25 @@
       "candidates": [
         {
           "name": "Gillespie, Neil J.",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Neil_Gillespie"
         },
         {
           "name": "Moody, Ashley",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Ashley_B._Moody"
         },
         {
           "name": "Nixon, Angie",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Angie_Nixon"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 1",
@@ -34,17 +47,25 @@
       "candidates": [
         {
           "name": "Davis, Tyler L.",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Tyler_Davis_(Florida)"
         },
         {
           "name": "Patronis, Jimmy",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Jimmy_Patronis"
         },
         {
           "name": "Valimont, Gay",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Gay_Valimont"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 2",
@@ -57,9 +78,15 @@
         },
         {
           "name": "Rogers, Austin",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Austin_Rogers"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 3",
@@ -68,17 +95,25 @@
       "candidates": [
         {
           "name": "Cammack, Kat",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Kat_Cammack"
         },
         {
           "name": "Harp, Seth",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Seth_Harp_(Florida)"
         },
         {
           "name": "Klein, Mike",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Mike_Klein_(Florida)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 4",
@@ -87,7 +122,8 @@
       "candidates": [
         {
           "name": "Bean, Aaron",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Aaron_Bean"
         },
         {
           "name": "Holloway, LaShonda \"L.J.\"",
@@ -95,13 +131,20 @@
         },
         {
           "name": "Schaefer, Todd",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Todd_Schaefer"
         },
         {
           "name": "Sell, Mike",
-          "party": "FFP"
+          "party": "FFP",
+          "ballotpedia": "https://ballotpedia.org/Mike_Sell"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 5",
@@ -110,17 +153,24 @@
       "candidates": [
         {
           "name": "Grage, Rachel",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Rachel_Grage"
         },
         {
           "name": "Rutherford, John H.",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/John_Rutherford_(Florida)"
         },
         {
           "name": "Upham, William Lintag",
           "party": "WRI"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 6",
@@ -129,21 +179,30 @@
       "candidates": [
         {
           "name": "Fine, Randy",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Randy_Fine"
         },
         {
           "name": "Parrott, Andrew",
-          "party": "LPF"
+          "party": "LPF",
+          "ballotpedia": "https://ballotpedia.org/Andrew_Parrott"
         },
         {
           "name": "Pavlik, Alec",
-          "party": "WRI"
+          "party": "WRI",
+          "ballotpedia": "https://ballotpedia.org/Alec_Pavlik"
         },
         {
           "name": "Yonce, Eric",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Eric_Yonce"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 7",
@@ -152,17 +211,25 @@
       "candidates": [
         {
           "name": "Dalton, Bale",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Bale_Dalton"
         },
         {
           "name": "Dennison, Christopher",
-          "party": "LPF"
+          "party": "LPF",
+          "ballotpedia": "https://ballotpedia.org/Christopher_Dennison"
         },
         {
           "name": "Elijah, Ryan",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Ryan_Elijah"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 8",
@@ -171,13 +238,20 @@
       "candidates": [
         {
           "name": "Haridopolos, Mike",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Mike_Haridopolos"
         },
         {
           "name": "Jenkins, Jennifer",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Jennifer_Jenkins"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 9",
@@ -186,13 +260,20 @@
       "candidates": [
         {
           "name": "Green, Dan",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Dan_Green_(Florida_congressional_candidate)"
         },
         {
           "name": "Soto, Darren",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Darren_Soto"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 10",
@@ -203,7 +284,12 @@
           "name": "Frost, Maxwell Alejandro (listed as Unopposed on the official list)",
           "party": "DEM"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 11",
@@ -212,17 +298,25 @@
       "candidates": [
         {
           "name": "Groves, Ralph",
-          "party": "LPF"
+          "party": "LPF",
+          "ballotpedia": "https://ballotpedia.org/Ralph_Groves"
         },
         {
           "name": "Pericola, James",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/James_Pericola"
         },
         {
           "name": "Strada, Joe",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Joe_Strada"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 12",
@@ -235,13 +329,20 @@
         },
         {
           "name": "Overman, Kimberly",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Kimberly_Overman"
         },
         {
           "name": "Scrivener, Branden",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Branden_Scrivener"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 13",
@@ -250,17 +351,25 @@
       "candidates": [
         {
           "name": "D'Arrigo, Tony",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Tony_D'Arrigo"
         },
         {
           "name": "Gray, Leela",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Leela_Gray"
         },
         {
           "name": "Luna, Anna Paulina",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Anna_Paulina_Luna"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 14",
@@ -269,25 +378,35 @@
       "candidates": [
         {
           "name": "Beltran, Mike",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Mike_Beltran"
         },
         {
           "name": "Castor, Kathy",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Kathy_Castor"
         },
         {
           "name": "Hernandez Sr., Salomon",
-          "party": "WRI"
+          "party": "WRI",
+          "ballotpedia": "https://ballotpedia.org/Salomon_Hernandez"
         },
         {
           "name": "Lambert, Brian",
-          "party": "LPF"
+          "party": "LPF",
+          "ballotpedia": "https://ballotpedia.org/Brian_Lambert"
         },
         {
           "name": "Varian, Keith",
-          "party": "WRI"
+          "party": "WRI",
+          "ballotpedia": "https://ballotpedia.org/Keith_Varian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 15",
@@ -296,17 +415,25 @@
       "candidates": [
         {
           "name": "Boone, Angie",
-          "party": "WRI"
+          "party": "WRI",
+          "ballotpedia": "https://ballotpedia.org/Angie_Boone"
         },
         {
           "name": "Lee, Laurel",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Laurel_Lee"
         },
         {
           "name": "People, Robert",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Robert_People_(Florida)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 16",
@@ -315,17 +442,25 @@
       "candidates": [
         {
           "name": "Davis, Mark",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Mark_Davis_(Florida)"
         },
         {
           "name": "Gruters, Sydney",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Sydney_Gruters"
         },
         {
           "name": "Kirschner, Kelly",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Kelly_Kirschner"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 17",
@@ -334,17 +469,25 @@
       "candidates": [
         {
           "name": "Montavon, Matthew",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Matthew_Montavon"
         },
         {
           "name": "Quirk, Michael J.",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Michael_Quirk"
         },
         {
           "name": "Steube, Greg",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Greg_Steube"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 18",
@@ -353,17 +496,25 @@
       "candidates": [
         {
           "name": "Franklin, Scott",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Scott_Franklin"
         },
         {
           "name": "Gibson, Curtis",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Curtis_Gibson"
         },
         {
           "name": "Simmons, Deva",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Deva_Simmons"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 19",
@@ -372,21 +523,30 @@
       "candidates": [
         {
           "name": "Arias, Victor",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Victor_Arias"
         },
         {
           "name": "Haskin, Seth",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Seth_Haskin"
         },
         {
           "name": "Schwartzel, Jim",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Jim_Schwartzel"
         },
         {
           "name": "Zakhvatayev, Alexandra",
-          "party": "WRI"
+          "party": "WRI",
+          "ballotpedia": "https://ballotpedia.org/Alexandra_Zakhvatayev"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 20",
@@ -395,17 +555,25 @@
       "candidates": [
         {
           "name": "Andersen, Brent",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Brent_Andersen"
         },
         {
           "name": "Maxime, Kedner",
-          "party": "IND"
+          "party": "IND",
+          "ballotpedia": "https://ballotpedia.org/Kedner_Maxime"
         },
         {
           "name": "Wasserman Schultz, Debbie",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Debbie_Wasserman_Schultz"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 21",
@@ -414,21 +582,30 @@
       "candidates": [
         {
           "name": "Cooke, Alexander",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Alexander_Cooke"
         },
         {
           "name": "Fabrikant, David",
-          "party": "WRI"
+          "party": "WRI",
+          "ballotpedia": "https://ballotpedia.org/David_Fabrikant"
         },
         {
           "name": "Martin, James T.",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/James_Martin_(Florida)"
         },
         {
           "name": "Mast, Brian",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Brian_Mast"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 22",
@@ -437,13 +614,20 @@
       "candidates": [
         {
           "name": "Askar, Casey",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Casey_Askar"
         },
         {
           "name": "Dandiya, Pia",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Pia_Dandiya"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 23",
@@ -452,13 +636,20 @@
       "candidates": [
         {
           "name": "Adeimy, Deborah",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Deborah_Adeimy"
         },
         {
           "name": "Frankel, Lois",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Lois_Frankel"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 24",
@@ -471,13 +662,19 @@
         },
         {
           "name": "Gilbert III, Oliver G.",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Oliver_Gilbert"
         },
         {
           "name": "Gonzalez, Patricia",
           "party": "WRI"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 25",
@@ -486,11 +683,13 @@
       "candidates": [
         {
           "name": "Hamilton, Michaelangelo",
-          "party": "WRI"
+          "party": "WRI",
+          "ballotpedia": "https://ballotpedia.org/Michaelangelo_Hamilton"
         },
         {
           "name": "Jassenoff, Peter",
-          "party": "LPF"
+          "party": "LPF",
+          "ballotpedia": "https://ballotpedia.org/Peter_Jassenoff"
         },
         {
           "name": "Moskowitz, Jared",
@@ -498,9 +697,15 @@
         },
         {
           "name": "Singer, Scott",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Scott_Singer"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 26",
@@ -509,17 +714,24 @@
       "candidates": [
         {
           "name": "Diaz-Balart, Mario",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Mario_Diaz-Balart"
         },
         {
           "name": "Locklin, Nicole",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Nicole_Locklin"
         },
         {
           "name": "Meidinger Hosey, Deborah Ann",
           "party": "NPA"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 27",
@@ -528,13 +740,20 @@
       "candidates": [
         {
           "name": "Rodriguez, Eliott",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Eliott_Rodriguez"
         },
         {
           "name": "Salazar, Maria Elvira",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Maria_Elvira_Salazar"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 28",
@@ -543,17 +762,25 @@
       "candidates": [
         {
           "name": "Ehr, Phil \"Felipe\"",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Phil_Ehr"
         },
         {
           "name": "Gimenez, Carlos A.",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Carlos_Gimenez"
         },
         {
           "name": "Rojas, Eddy",
-          "party": "NPA"
+          "party": "NPA",
+          "ballotpedia": "https://ballotpedia.org/Eddy_Rojas"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Governor",
@@ -600,7 +827,140 @@
           "name": "Russo, Frank J. / Rodriguez, Rachel",
           "party": "NPA"
         }
-      ]
+      ],
+      "source": {
+        "name": "Florida Division of Elections, qualified candidate listing for the November 3, 2026 general election (name order)",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "Lieutenant Governor of Florida",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Bryan Avila",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bryan_Avila"
+        },
+        {
+          "name": "Ruben Coto",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ruben_Coto"
+        },
+        {
+          "name": "Rachel Rodriguez",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Rachel_Rodriguez"
+        },
+        {
+          "name": "Juan Santana",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Juan_Santana"
+        },
+        {
+          "name": "Gwen Graham",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Gwen_Graham"
+        },
+        {
+          "name": "Nicole Skelly",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Nicole_Skelly"
+        },
+        {
+          "name": "LeRoy Alaways",
+          "party": "No Party Affiliation",
+          "ballotpedia": "https://ballotpedia.org/LeRoy_Alaways"
+        },
+        {
+          "name": "Daniel Nokovich",
+          "party": "No Party Affiliation",
+          "ballotpedia": "https://ballotpedia.org/Daniel_Nokovich"
+        },
+        {
+          "name": "Benjiman Rojas",
+          "party": "No Party Affiliation",
+          "ballotpedia": "https://ballotpedia.org/Benjiman_Rojas"
+        },
+        {
+          "name": "Joseph Van Vactor",
+          "party": "No Party Affiliation",
+          "ballotpedia": "https://ballotpedia.org/Joseph_Van_Vactor"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Lieutenant Governor of Florida, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Florida_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of Florida",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "James Uthmeier",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/James_Uthmeier"
+        },
+        {
+          "name": "Jose Javier Rodriguez",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jose_Javier_Rodriguez_(Florida_state_senator)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of Florida, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Florida_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Florida Commissioner of Agriculture and Consumer Services",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Wilton Simpson",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Wilton_Simpson"
+        },
+        {
+          "name": "Joey Atkins",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Joey_Atkins"
+        },
+        {
+          "name": "Kyle Gibson",
+          "party": "No Party Affiliation",
+          "ballotpedia": "https://ballotpedia.org/Kyle_Gibson"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Florida Commissioner of Agriculture and Consumer Services, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Florida_Agriculture_Commissioner_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Florida Supreme Court",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Carlos Muñiz",
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Carlos_Mu%C3%B1iz"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Florida Supreme Court, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Florida_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

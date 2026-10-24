@@ -119,6 +119,8 @@ export default async function CityPage({
         <a href="/sources/#gazetteer">sources page</a>.
       </p>
       <InfoNote city />
+      <CityCandidates code={state.code} place={place} />
+      <CityLocal code={state.code} place={place} />
       <AdSlot id="city-top" height={90} />
 
       {aliases.length > 0 || misspellings.length > 0 ? (
@@ -180,8 +182,6 @@ export default async function CityPage({
         </dl>
       </section>
 
-      <CityCandidates code={state.code} place={place} />
-      <CityLocal code={state.code} place={place} />
       <CityVoting code={state.code} stateName={state.name} />
       <AdSlot id="city-bottom" height={250} />
       <CityRelated code={state.code} stateName={state.name} place={place} />

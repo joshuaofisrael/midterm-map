@@ -21,7 +21,12 @@
           "name": "Jackson, Troy D.",
           "party": "D"
         }
-      ]
+      ],
+      "source": {
+        "name": "Maine Secretary of State, 2026 general election candidate list (Excel)",
+        "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/2026%20General%20Candidate%20List%20-%20FINAL.xlsx",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "CG 1",
@@ -36,7 +41,12 @@
           "name": "Russell, Ronald C.",
           "party": "R"
         }
-      ]
+      ],
+      "source": {
+        "name": "Maine Secretary of State, 2026 general election candidate list (Excel)",
+        "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/2026%20General%20Candidate%20List%20-%20FINAL.xlsx",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "CG 2",
@@ -51,7 +61,12 @@
           "name": "LePage, Paul R.",
           "party": "R"
         }
-      ]
+      ],
+      "source": {
+        "name": "Maine Secretary of State, 2026 general election candidate list (Excel)",
+        "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/2026%20General%20Candidate%20List%20-%20FINAL.xlsx",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "GOV",
@@ -68,9 +83,15 @@
         },
         {
           "name": "Pingree, Hannah M.",
-          "party": "D"
+          "party": "D",
+          "ballotpedia": "https://ballotpedia.org/Hannah_Pingree"
         }
-      ]
+      ],
+      "source": {
+        "name": "Maine Secretary of State, 2026 general election candidate list (Excel)",
+        "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/2026%20General%20Candidate%20List%20-%20FINAL.xlsx",
+        "accessed": "October 17, 2026"
+      }
     }
   ]
 }

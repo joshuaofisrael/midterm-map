@@ -15,13 +15,20 @@
       "candidates": [
         {
           "name": "Mark R. Warner",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mark_Warner"
         },
         {
           "name": "Bert Mizusawa",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bert_Mizusawa"
         }
-      ]
+      ],
+      "source": {
+        "name": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+        "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Member, House of Representatives 2",
@@ -30,7 +37,8 @@
       "candidates": [
         {
           "name": "Elaine G. Luria",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Elaine_Luria"
         },
         {
           "name": "Jen A. Kiggans",
@@ -42,9 +50,15 @@
         },
         {
           "name": "J. Matt Baker",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/J._Matt_Baker"
         }
-      ]
+      ],
+      "source": {
+        "name": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+        "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Member, House of Representatives 5",
@@ -53,17 +67,25 @@
       "candidates": [
         {
           "name": "Tom S. P. Perriello",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Tom_Perriello"
         },
         {
           "name": "John J. McGuire III",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/John_McGuire"
         },
         {
           "name": "Cooke C. Harvey",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Cooke_Harvey"
         }
-      ]
+      ],
+      "source": {
+        "name": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+        "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Member, House of Representatives 7",
@@ -72,7 +94,8 @@
       "candidates": [
         {
           "name": "Eugene S. Vindman",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Eugene_Vindman"
         },
         {
           "name": "Doug A. Ollivant",
@@ -84,17 +107,25 @@
         },
         {
           "name": "Alaha Ahrar",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Alaha_Ahrar"
         },
         {
           "name": "Joshua E. Ertle",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Joshua_Ertle"
         },
         {
           "name": "Randall A. Terry",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Randall_Terry"
         }
-      ]
+      ],
+      "source": {
+        "name": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+        "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Member, House of Representatives 8",
@@ -107,17 +138,25 @@
         },
         {
           "name": "Tony A. Sabio",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Tony_Sabio"
         },
         {
           "name": "Shelly M. Arnoldi",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Shelly_Arnoldi"
         },
         {
           "name": "Tim S. Sharman",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Tim_Sharman"
         }
-      ]
+      ],
+      "source": {
+        "name": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+        "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Member, House of Representatives 6",
@@ -126,13 +165,19 @@
       "candidates": [
         {
           "name": "Beth A. Macy",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Beth_Macy"
         },
         {
           "name": "Ben L. Cline",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+        "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Member, House of Representatives 9",
@@ -141,13 +186,20 @@
       "candidates": [
         {
           "name": "Joy A. Powers",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Joy_Powers"
         },
         {
           "name": "H. Morgan Griffith",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Morgan_Griffith"
         }
-      ]
+      ],
+      "source": {
+        "name": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+        "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Member, House of Representatives 4",
@@ -156,17 +208,25 @@
       "candidates": [
         {
           "name": "Jennifer L. McClellan",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jennifer_McClellan"
         },
         {
           "name": "Robert P. \"Family Man\" Murray, Jr.",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Robert_Murray_Jr._(Virginia)"
         },
         {
           "name": "Joan E. \"Andrews\" Bell",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Joan_Bell_(Virginia)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+        "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Member, House of Representatives 3",
@@ -179,17 +239,25 @@
         },
         {
           "name": "Edwin Rivera, Jr.",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Edwin_Rivera"
         },
         {
           "name": "Makiba A. Gaines",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Makiba_Gaines"
         },
         {
           "name": "Stephen C. Woll",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Stephen_Woll"
         }
-      ]
+      ],
+      "source": {
+        "name": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+        "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Member, House of Representatives 1",
@@ -198,13 +266,19 @@
       "candidates": [
         {
           "name": "Shannon L. Taylor",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Shannon_Taylor_(Virginia)"
         },
         {
           "name": "Robert J. \"Rob\" Wittman",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+        "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Member, House of Representatives 11",
@@ -213,17 +287,25 @@
       "candidates": [
         {
           "name": "James R. Walkinshaw",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/James_Walkinshaw"
         },
         {
           "name": "Arthur G. Purves",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Arthur_Purves"
         },
         {
           "name": "Dianne L. Blais",
-          "party": "Green"
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Dianne_Blais"
         }
-      ]
+      ],
+      "source": {
+        "name": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+        "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Member, House of Representatives 10",
@@ -232,17 +314,24 @@
       "candidates": [
         {
           "name": "Suhas Subramanyam",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Suhas_Subramanyam"
         },
         {
           "name": "Dave T. Beckwith",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Dave_Beckwith"
         },
         {
           "name": "Ahsen Mujeeb Malik",
           "party": "Independent"
         }
-      ]
+      ],
+      "source": {
+        "name": "Virginia Department of Elections, November 3, 2026 general election candidate list, all offices",
+        "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
+        "accessed": "October 17, 2026"
+      }
     }
   ]
 }

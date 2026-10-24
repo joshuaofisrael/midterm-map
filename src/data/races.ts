@@ -3,6 +3,21 @@ import { EXPANSION_GOVERNOR_RACES, EXPANSION_SENATE_RACES } from "./races/expans
 import { GOVERNOR_RACES } from "./races/governors";
 import { HOUSE_RACES } from "./races/house";
 import { SENATE_RACES } from "./races/senate";
+import raceLinks from "./ballotpedia/race-links.json";
+
+const linksBySlug = raceLinks as Record<string, Record<string, string>>;
+
+function withBallotpedia(race: RaceGuide): RaceGuide {
+  const links = linksBySlug[race.slug];
+  if (!links) return race;
+  return {
+    ...race,
+    candidates: race.candidates.map((candidate) => {
+      const href = links[candidate.name];
+      return href ? { ...candidate, ballotpedia: href } : candidate;
+    }),
+  };
+}
 
 export const RACES: RaceGuide[] = [
   ...SENATE_RACES,
@@ -10,7 +25,7 @@ export const RACES: RaceGuide[] = [
   ...GOVERNOR_RACES,
   ...EXPANSION_GOVERNOR_RACES,
   ...HOUSE_RACES,
-];
+].map(withBallotpedia);
 
 export function getRace(slug: string): RaceGuide | undefined {
   return RACES.find((race) => race.slug === slug);

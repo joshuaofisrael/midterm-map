@@ -387,11 +387,23 @@ export const BALLOT_CYCLES: BallotCycle[] = [
     code: "AZ",
     checkedOn: CHECKED,
     intro:
-      "The Arizona Secretary of State’s 2026 election-information page sets the general election on November 3, 2026 and links a candidate listing for that election. That listing was not retrieved as text on October 18, 2026, so this page does not name candidate offices from it. The same office’s 2026 ballot-measures page, under 2026 ballot-measure arguments, lists Proposition 141 Taxation, Proposition 142 Prohibition of Preferential Treatment and Discrimination, Proposition 144 Election Requirements, Proposition 316 Municipal Transaction Privilege Tax, Proposition 317 Arizona Department of Homeland Security, Proposition 318 Student Athletics, Proposition 319 Photo Enforcement Systems, and Proposition 320 School District Budgets. Those proposition numbers are in the November 3, 2026 publicity pamphlet.",
+      "The candidate list on this page names each U.S. House district, governor, lieutenant governor, attorney general, secretary of state, state treasurer, superintendent of public instruction, state mine inspector, the corporation commission, and the Arizona Supreme Court. The Secretary of State’s 2026 ballot-measures page, under 2026 ballot-measure arguments, lists Proposition 141 Taxation, Proposition 142 Prohibition of Preferential Treatment and Discrimination, Proposition 144 Election Requirements, Proposition 316 Municipal Transaction Privilege Tax, Proposition 317 Arizona Department of Homeland Security, Proposition 318 Student Athletics, Proposition 319 Photo Enforcement Systems, and Proposition 320 School District Budgets. Those proposition numbers are in the November 3, 2026 publicity pamphlet.",
     shortLead:
-      "Arizona’s November 3, 2026 publicity pamphlet and ballot-measures page list eight propositions. The linked candidate listing was not retrieved as text on October 18, 2026.",
-    federal: [],
-    statewide: [],
+      "Arizona’s November 3, 2026 candidate list names U.S. House districts and statewide executive and supreme court offices. The publicity pamphlet lists eight propositions.",
+    federal: [
+      "U.S. House, Districts 1 through 9",
+    ],
+    statewide: [
+      "Governor",
+      "Lieutenant Governor",
+      "Attorney General",
+      "Secretary of State",
+      "State Treasurer",
+      "Superintendent of Public Instruction",
+      "State Mine Inspector",
+      "Corporation Commission",
+      "Arizona Supreme Court",
+    ],
     measures: [
       "Proposition 141, Taxation",
       "Proposition 142, Prohibition of Preferential Treatment and Discrimination",
@@ -405,7 +417,7 @@ export const BALLOT_CYCLES: BallotCycle[] = [
     measureNote:
       "Those eight names are the rows in the 2026 ballot-measure arguments table. The publicity pamphlet is titled for the November 3, 2026 general election and includes the same proposition numbers. Proposition 143 is not in that table or in the pamphlet table of contents read on October 18, 2026.",
     districtNote:
-      "This page does not list federal or statewide candidate offices. The candidate listing linked from the 2026 election-information page was not retrieved as text on October 18, 2026.",
+      "U.S. House contests are listed by district in the candidate list above. State legislative districts are not in that statewide list.",
     sources: [
       {
         label: "Arizona Secretary of State — 2026 election information",

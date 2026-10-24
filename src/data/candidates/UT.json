@@ -12,6 +12,11 @@
       "url": "https://vote.utah.gov/wp-content/uploads/2026/09/2026-Write-In-Certification.pdf",
       "accessed": "October 18, 2026",
       "published": "September 10, 2026"
+    },
+    {
+      "name": "Ballotpedia — Utah elections, 2026",
+      "url": "https://ballotpedia.org/Utah_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -22,11 +27,13 @@
       "candidates": [
         {
           "name": "JESSE WEST",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Jesse_West"
         },
         {
           "name": "BEN MCADAMS",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ben_McAdams_(Utah)"
         },
         {
           "name": "ELIAS HENRY MONTGOMERY",
@@ -34,13 +41,19 @@
         },
         {
           "name": "RILEY OWEN",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Riley_Owen"
         },
         {
           "name": "BABAK \"BOBBY\" DARVISH",
           "party": "Write-in"
         }
-      ]
+      ],
+      "source": {
+        "name": "Utah Lieutenant Governor Deidre M. Henderson, 2026 General Election Certification",
+        "url": "https://vote.utah.gov/wp-content/uploads/2026/09/2026-General-Election-Certification.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives District 2",
@@ -49,25 +62,35 @@
       "candidates": [
         {
           "name": "PETER CROSBY",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Peter_Crosby"
         },
         {
           "name": "DANIEL COTTAM",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Daniel_Cottam"
         },
         {
           "name": "ROBERT M. MOESINGER",
-          "party": "Unaffiliated"
+          "party": "Unaffiliated",
+          "ballotpedia": "https://ballotpedia.org/Robert_Moesinger"
         },
         {
           "name": "BLAKE D. MOORE",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Blake_Moore"
         },
         {
           "name": "CARLTON E. BOWEN",
-          "party": "Independent American"
+          "party": "Independent American",
+          "ballotpedia": "https://ballotpedia.org/Carlton_Bowen"
         }
-      ]
+      ],
+      "source": {
+        "name": "Utah Lieutenant Governor Deidre M. Henderson, 2026 General Election Certification",
+        "url": "https://vote.utah.gov/wp-content/uploads/2026/09/2026-General-Election-Certification.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives District 3",
@@ -76,29 +99,40 @@
       "candidates": [
         {
           "name": "KENT S. UDELL",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kent_Udell"
         },
         {
           "name": "CASSIE EASLEY",
-          "party": "Constitution"
+          "party": "Constitution",
+          "ballotpedia": "https://ballotpedia.org/Cassie_Easley"
         },
         {
           "name": "CELESTE MALOY",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Celeste_Maloy"
         },
         {
           "name": "AYDEN SCOTT",
-          "party": "Unaffiliated"
+          "party": "Unaffiliated",
+          "ballotpedia": "https://ballotpedia.org/Ayden_Scott"
         },
         {
           "name": "MICHAEL R. STODDARD",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Michael_Stoddard"
         },
         {
           "name": "ADONIS HOOSLYN",
-          "party": "Unaffiliated"
+          "party": "Unaffiliated",
+          "ballotpedia": "https://ballotpedia.org/Adonis_Hooslyn"
         }
-      ]
+      ],
+      "source": {
+        "name": "Utah Lieutenant Governor Deidre M. Henderson, 2026 General Election Certification",
+        "url": "https://vote.utah.gov/wp-content/uploads/2026/09/2026-General-Election-Certification.pdf",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "U.S. House of Representatives District 4",
@@ -107,21 +141,47 @@
       "candidates": [
         {
           "name": "TAYLOR WRIGHT",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Taylor_Wright"
         },
         {
           "name": "JONNY LARSEN",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jonny_Larsen"
         },
         {
           "name": "STEVEN BURT",
-          "party": "Unaffiliated"
+          "party": "Unaffiliated",
+          "ballotpedia": "https://ballotpedia.org/Steven_Burt"
         },
         {
           "name": "MIKE KENNEDY",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Kennedy_(Utah)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Utah Lieutenant Governor Deidre M. Henderson, 2026 General Election Certification",
+        "url": "https://vote.utah.gov/wp-content/uploads/2026/09/2026-General-Election-Certification.pdf",
+        "accessed": "October 18, 2026"
+      }
+    },
+    {
+      "office": "Utah Supreme Court",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Jill Pohlman",
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Jill_Pohlman"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Utah Supreme Court, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Utah_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

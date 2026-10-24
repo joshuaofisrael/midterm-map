@@ -6,6 +6,11 @@
       "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
       "accessed": "October 17, 2026",
       "published": "August 28, 2026"
+    },
+    {
+      "name": "Ballotpedia — Texas elections, 2026",
+      "url": "https://ballotpedia.org/Texas_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -16,17 +21,25 @@
       "candidates": [
         {
           "name": "KEN PAXTON",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Ken_Paxton"
         },
         {
           "name": "JAMES TALARICO",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/James_Talarico"
         },
         {
           "name": "TED BROWN",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Ted_Brown_(Texas)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 5",
@@ -35,13 +48,20 @@
       "candidates": [
         {
           "name": "LANCE GOODEN",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Lance_Gooden"
         },
         {
           "name": "CHELSEY HOCKETT",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Chelsey_Hockett"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "GOVERNOR",
@@ -50,17 +70,25 @@
       "candidates": [
         {
           "name": "GREG ABBOTT",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Greg_Abbott"
         },
         {
           "name": "GINA HINOJOSA",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Gina_Hinojosa"
         },
         {
           "name": "PAT DIXON",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Pat_Dixon"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 19",
@@ -69,13 +97,20 @@
       "candidates": [
         {
           "name": "TOM SELL",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Tom_Sell"
         },
         {
           "name": "KYLE RABLE",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Kyle_Rable"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 36",
@@ -84,13 +119,20 @@
       "candidates": [
         {
           "name": "BRIAN BABIN",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Brian_Babin"
         },
         {
           "name": "RHONDA HART",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Rhonda_Hart"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 15",
@@ -99,13 +141,20 @@
       "candidates": [
         {
           "name": "MONICA DE LA CRUZ",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Monica_De_La_Cruz"
         },
         {
           "name": "BOBBY PULIDO",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Bobby_Pulido"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 27",
@@ -114,13 +163,20 @@
       "candidates": [
         {
           "name": "MICHAEL CLOUD",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Michael_Cloud_(Texas)"
         },
         {
           "name": "TANYA LLOYD",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Tanya_Lloyd"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 13",
@@ -129,13 +185,20 @@
       "candidates": [
         {
           "name": "RONNY JACKSON",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Ronny_Jackson"
         },
         {
           "name": "MARK NAIR",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Mark_Nair"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 28",
@@ -144,13 +207,20 @@
       "candidates": [
         {
           "name": "TANO E. TIJERINA",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Tano_Tijerina"
         },
         {
           "name": "HENRY CUELLAR",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Henry_Cuellar"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 21",
@@ -159,13 +229,20 @@
       "candidates": [
         {
           "name": "MARK TEIXEIRA",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Mark_Teixeira"
         },
         {
           "name": "KRISTIN HOOK",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Kristin_Hook"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 10",
@@ -174,13 +251,20 @@
       "candidates": [
         {
           "name": "CHRIS GOBER",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Chris_Gober"
         },
         {
           "name": "CAITLIN ROURK",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Caitlin_Rourk"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 17",
@@ -189,13 +273,20 @@
       "candidates": [
         {
           "name": "PETE SESSIONS",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Pete_Sessions"
         },
         {
           "name": "CASEY SHEPARD",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Casey_Shepard"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 31",
@@ -204,17 +295,25 @@
       "candidates": [
         {
           "name": "JOHN CARTER",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/John_Carter_(Texas)"
         },
         {
           "name": "JUSTIN EARLY",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Justin_Early"
         },
         {
           "name": "GREG STOKER",
-          "party": "GRE"
+          "party": "GRE",
+          "ballotpedia": "https://ballotpedia.org/Greg_Stoker"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 20",
@@ -227,9 +326,15 @@
         },
         {
           "name": "JOAQUIN CASTRO",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Joaquin_Castro"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 23",
@@ -238,13 +343,20 @@
       "candidates": [
         {
           "name": "BRANDON HERRERA",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Brandon_Herrera"
         },
         {
           "name": "KATY PADILLA STOUT",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Katy_Padilla_Stout"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 35",
@@ -253,13 +365,20 @@
       "candidates": [
         {
           "name": "CARLOS DE LA CRUZ",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Carlos_De_La_Cruz"
         },
         {
           "name": "JOHNNY C. GARCIA",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Johnny_Garcia_(Texas_congressional_candidate)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 1",
@@ -268,13 +387,20 @@
       "candidates": [
         {
           "name": "NATHANIEL MORAN",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Nathaniel_Moran"
         },
         {
           "name": "YOLANDA R. PRINCE",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Yolanda_Prince"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 4",
@@ -283,13 +409,20 @@
       "candidates": [
         {
           "name": "PAT FALLON",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Pat_Fallon"
         },
         {
           "name": "JASON PEARCE",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Jason_Pearce"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 14",
@@ -298,13 +431,20 @@
       "candidates": [
         {
           "name": "RANDY WEBER",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Randy_Weber"
         },
         {
           "name": "THURMAN BILL BARTIE",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Thurman_Bill_Bartie"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 22",
@@ -313,13 +453,20 @@
       "candidates": [
         {
           "name": "TREVER NEHLS",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Trever_Nehls"
         },
         {
           "name": "MARQUETTE GREENE-SCOTT",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Marquette_Greene-Scott"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 11",
@@ -328,13 +475,20 @@
       "candidates": [
         {
           "name": "AUGUST PFLUGER",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/August_Pfluger"
         },
         {
           "name": "CLAIRE REYNOLDS",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Claire_Reynolds"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 25",
@@ -343,13 +497,20 @@
       "candidates": [
         {
           "name": "ROGER WILLIAMS",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Roger_Williams_(Texas)"
         },
         {
           "name": "DIONE SIMS",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Dione_Sims"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 34",
@@ -358,21 +519,30 @@
       "candidates": [
         {
           "name": "ERIC FLORES",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Eric_Flores_(Texas)"
         },
         {
           "name": "VICENTE GONZALEZ",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Vicente_Gonzalez_Jr."
         },
         {
           "name": "CHRIS ROYAL",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Chris_Royal"
         },
         {
           "name": "EDDIE ESPINOZA",
-          "party": "GRE"
+          "party": "GRE",
+          "ballotpedia": "https://ballotpedia.org/Eddie_Espinoza"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 32",
@@ -381,13 +551,20 @@
       "candidates": [
         {
           "name": "JACE YARBROUGH",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Jace_Yarbrough"
         },
         {
           "name": "DAN BARRIOS",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Dan_Barrios"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 3",
@@ -396,13 +573,20 @@
       "candidates": [
         {
           "name": "KEITH SELF",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Keith_Self"
         },
         {
           "name": "EVAN HUNT",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Evan_Hunt_(Texas)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 26",
@@ -411,17 +595,25 @@
       "candidates": [
         {
           "name": "BRANDON GILL",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Brandon_Gill"
         },
         {
           "name": "STEVEN SHOOK",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Steven_Shook"
         },
         {
           "name": "PHIL GRAY",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Phil_Gray"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 6",
@@ -430,13 +622,20 @@
       "candidates": [
         {
           "name": "JAKE ELLZEY",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Jake_Ellzey"
         },
         {
           "name": "DANNY MINTON",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Danny_Minton"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 24",
@@ -445,13 +644,20 @@
       "candidates": [
         {
           "name": "BETH VAN DUYNE",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Beth_Van_Duyne"
         },
         {
           "name": "KEVIN BURGE",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Burge_(Texas)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 30",
@@ -460,13 +666,20 @@
       "candidates": [
         {
           "name": "EVERETT JACKSON",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Everett_Jackson"
         },
         {
           "name": "FREDERICK D. HAYNES III",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Frederick_Haynes"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 33",
@@ -479,9 +692,15 @@
         },
         {
           "name": "COLIN ALLRED",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Colin_Allred"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 16",
@@ -490,13 +709,20 @@
       "candidates": [
         {
           "name": "ADAM BAUMAN",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Adam_Bauman"
         },
         {
           "name": "VERONICA ESCOBAR",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Veronica_Escobar"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 7",
@@ -505,17 +731,25 @@
       "candidates": [
         {
           "name": "ALEXANDER HALE",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Alexander_Hale"
         },
         {
           "name": "LIZZIE PANNILL FLETCHER",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Lizzie_Pannill_Fletcher"
         },
         {
           "name": "ESPOIR NGABO",
-          "party": "GRE"
+          "party": "GRE",
+          "ballotpedia": "https://ballotpedia.org/Espoir_Ngabo"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 2",
@@ -524,13 +758,20 @@
       "candidates": [
         {
           "name": "STEVE TOTH",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Steve_Toth"
         },
         {
           "name": "SHAUN FINNIE",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Shaun_Finnie"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 8",
@@ -543,9 +784,15 @@
         },
         {
           "name": "LAURA JONES",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Laura_Jones_(Texas)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 9",
@@ -554,13 +801,20 @@
       "candidates": [
         {
           "name": "ALEX MEALER",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Alex_Mealer"
         },
         {
           "name": "LETICIA GUTIERREZ",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Leticia_Gutierrez"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 18",
@@ -575,7 +829,12 @@
           "name": "CHRISTIAN DASHAUN MENEFEE",
           "party": "DEM"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 29",
@@ -584,13 +843,20 @@
       "candidates": [
         {
           "name": "MARTHA FIERRO",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Martha_Fierro"
         },
         {
           "name": "SYLVIA GARCIA",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Sylvia_Garcia"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 38",
@@ -599,17 +865,25 @@
       "candidates": [
         {
           "name": "JON BONCK",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Jon_Bonck"
         },
         {
           "name": "MELISSA MCDONOUGH",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Melissa_McDonough"
         },
         {
           "name": "ALEX MCMENEMY",
-          "party": "GRE"
+          "party": "GRE",
+          "ballotpedia": "https://ballotpedia.org/Alex_McMenemy"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 12",
@@ -618,9 +892,15 @@
       "candidates": [
         {
           "name": "CRAIG GOLDMAN",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Craig_Goldman"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U. S. REPRESENTATIVE DISTRICT 37",
@@ -629,9 +909,356 @@
       "candidates": [
         {
           "name": "GREG CASAR",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Greg_Casar"
         }
-      ]
+      ],
+      "source": {
+        "name": "Texas Secretary of State, 2026 ballot certification for the November 3, 2026 general election, signed August 28, 2026",
+        "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "Lieutenant Governor of Texas",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Dan Patrick",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Dan_Patrick"
+        },
+        {
+          "name": "Vikki Goodwin",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Vikki_Goodwin"
+        },
+        {
+          "name": "Kevin McCormick",
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Kevin_McCormick_(Texas)"
+        },
+        {
+          "name": "Arturo Espinosa",
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Arturo_Espinosa"
+        },
+        {
+          "name": "Stephen Samuelson",
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Stephen_Samuelson_(Texas)"
+        },
+        {
+          "name": "Anthony Cristo",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Anthony_Cristo"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Lieutenant Governor of Texas, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Texas_lieutenant_gubernatorial_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of Texas",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Mayes Middleton",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mayes_Middleton"
+        },
+        {
+          "name": "Nathan Johnson",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Nathan_Johnson_(Texas)"
+        },
+        {
+          "name": "Tom Oxford",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Tom_Oxford"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of Texas, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Texas_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Texas Commissioner of Agriculture",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Nate Sheets",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Nate_Sheets"
+        },
+        {
+          "name": "Clayton Tucker",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Clayton_Tucker"
+        },
+        {
+          "name": "Austin Kelly",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Austin_Kelly"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Texas Commissioner of Agriculture, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Texas_Agriculture_Commissioner_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Texas Comptroller of Public Accounts",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Donald Huffines",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Donald_Huffines"
+        },
+        {
+          "name": "Sarah Eckhardt",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sarah_Eckhardt"
+        },
+        {
+          "name": "Shehla Faizi",
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Shehla_Faizi"
+        },
+        {
+          "name": "V. Alonzo Echavarria-Garza",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/V._Alonzo_Echavarria-Garza"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Texas Comptroller of Public Accounts, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Texas_Comptroller_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Texas Land Commissioner",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Dawn Buckingham",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Dawn_Buckingham"
+        },
+        {
+          "name": "Benjamin Flores",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Benjamin_Flores"
+        },
+        {
+          "name": "Neil Snider",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Neil_Snider_(Texas)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Texas Land Commissioner, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Texas_Public_Lands_Commissioner_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Texas Railroad Commission",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Bo French",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bo_French"
+        },
+        {
+          "name": "Jon Rosenthal",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jon_Rosenthal"
+        },
+        {
+          "name": "Arthur DiBianca",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Arthur_DiBianca"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Texas Railroad Commission, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Texas_Railroad_Commissioner_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Texas Supreme Court Place 1 Chief Justice",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Jimmy Blacklock",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jimmy_Blacklock"
+        },
+        {
+          "name": "Maggie Ellis",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Maggie_Ellis"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Texas Supreme Court Place 1 Chief Justice, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Texas_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Texas Court of Criminal Appeals Place 3",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Thomas Smith",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Thomas_Smith_(Texas)"
+        },
+        {
+          "name": "Okey Anyiam",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Okey_Anyiam"
+        },
+        {
+          "name": "Mark Ash",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Mark_Ash"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Texas Court of Criminal Appeals Place 3, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Texas_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Texas Court of Criminal Appeals Place 4",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Kevin Patrick Yeary",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Patrick_Yeary"
+        },
+        {
+          "name": "Audra Riley",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Audra_Riley"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Texas Court of Criminal Appeals Place 4, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Texas_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Texas Court of Criminal Appeals Place 9",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "John Messinger",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/John_Messinger"
+        },
+        {
+          "name": "Holly Taylor",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Holly_Taylor_(Texas)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Texas Court of Criminal Appeals Place 9, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Texas_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Texas Supreme Court Place 2",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "James Sullivan",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/James_Sullivan_(Texas)"
+        },
+        {
+          "name": "Chari Kelly",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Chari_Kelly"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Texas Supreme Court Place 2, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Texas_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Texas Supreme Court Place 7",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Kyle Hawkins",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kyle_Hawkins"
+        },
+        {
+          "name": "Kristen Hawkins",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kristen_Hawkins"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Texas Supreme Court Place 7, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Texas_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Texas Supreme Court Place 8",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Brett Busby",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Brett_Busby"
+        },
+        {
+          "name": "Gisela Triana",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Gisela_Triana"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Texas Supreme Court Place 8, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Texas_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

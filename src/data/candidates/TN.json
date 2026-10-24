@@ -15,19 +15,23 @@
       "candidates": [
         {
           "name": "Bill Hagerty",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bill_Hagerty"
         },
         {
           "name": "Marquita Bradshaw",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Marquita_Bradshaw"
         },
         {
           "name": "Tharon Chandler",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Tharon_Chandler"
         },
         {
           "name": "Andrew Gerena",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Andrew_Gerena"
         },
         {
           "name": "Jeremy Dean Hearn",
@@ -35,7 +39,8 @@
         },
         {
           "name": "Robert Jones",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Robert_Jones_(Tennesses_congressional_candidate)"
         },
         {
           "name": "James William Macon III",
@@ -43,17 +48,24 @@
         },
         {
           "name": "Yoshi D. Matthews",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Yoshi_Matthews"
         },
         {
           "name": "David Sutman, Jr.",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/David_Sutman_Jr."
         },
         {
           "name": "Catherine Barcel \"Barcy\" Whitson",
           "party": "Independent"
         }
-      ]
+      ],
+      "source": {
+        "name": "Tennessee Secretary of State, candidate lists for the November 3, 2026 general election (Governor, United States Senate, and United States House PDFs)",
+        "url": "https://sos.tn.gov/elections/2026-candidate-lists",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Governor",
@@ -62,31 +74,38 @@
       "candidates": [
         {
           "name": "Marsha Blackburn",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Marsha_Blackburn"
         },
         {
           "name": "Jerri Green",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jerri_Green"
         },
         {
           "name": "Misam Abidi",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Misam_Abidi"
         },
         {
           "name": "Dean Brewer",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Dean_Brewer"
         },
         {
           "name": "Ray Brown",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Ray_Brown_(Tennessee)"
         },
         {
           "name": "David Hatley",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/David_Hatley"
         },
         {
           "name": "Wendell Jackson",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Wendell_Jackson"
         },
         {
           "name": "Charles Van Morgan",
@@ -94,19 +113,23 @@
         },
         {
           "name": "Eddie Lee Murphy",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Eddie_Lee_Murphy"
         },
         {
           "name": "Lauren Pinkston",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Lauren_Pinkston"
         },
         {
           "name": "Victor L. Scoggin",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Victor_Scoggin"
         },
         {
           "name": "Dave Seeman",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Dave_Seeman"
         },
         {
           "name": "Karl Knox Smithson",
@@ -114,13 +137,20 @@
         },
         {
           "name": "L. Webb Taylor",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/L._Webb_Taylor"
         },
         {
           "name": "Robert C. Vick",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Robert_Vick_(Tennessee)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Tennessee Secretary of State, candidate lists for the November 3, 2026 general election (Governor, United States Senate, and United States House PDFs)",
+        "url": "https://sos.tn.gov/elections/2026-candidate-lists",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States House of Representatives District 1",
@@ -129,33 +159,44 @@
       "candidates": [
         {
           "name": "Diana Harshbarger",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Diana_Harshbarger"
         },
         {
           "name": "Kristi Burke",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kristi_Burke"
         },
         {
           "name": "Joshua Ray Ashburn",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Joshua_Ray_Ashburn"
         },
         {
           "name": "Richard G. Baker",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Richard_Baker_(Tennessee)"
         },
         {
           "name": "Chris Campbell",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Chris_Campbell_(Tennessee)"
         },
         {
           "name": "Billy Cody",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Billy_Cody"
         },
         {
           "name": "Tyler Brice Mitchell McClain",
           "party": "Independent"
         }
-      ]
+      ],
+      "source": {
+        "name": "Tennessee Secretary of State, candidate lists for the November 3, 2026 general election (Governor, United States Senate, and United States House PDFs)",
+        "url": "https://sos.tn.gov/elections/2026-candidate-lists",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States House of Representatives District 2",
@@ -164,21 +205,30 @@
       "candidates": [
         {
           "name": "Tim Burchett",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Tim_Burchett"
         },
         {
           "name": "Michaela Barnett",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Michaela_Barnett"
         },
         {
           "name": "Bruce Fine",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Bruce_Fine"
         },
         {
           "name": "Adam Heimerman",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Adam_Heimerman"
         }
-      ]
+      ],
+      "source": {
+        "name": "Tennessee Secretary of State, candidate lists for the November 3, 2026 general election (Governor, United States Senate, and United States House PDFs)",
+        "url": "https://sos.tn.gov/elections/2026-candidate-lists",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States House of Representatives District 3",
@@ -191,15 +241,18 @@
         },
         {
           "name": "Anna Golladay",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Anna_Golladay"
         },
         {
           "name": "Dean Arnold",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Dean_Arnold"
         },
         {
           "name": "Jean Howard-Hill",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Jean_Howard-Hill"
         },
         {
           "name": "Rodney Joe King",
@@ -213,7 +266,12 @@
           "name": "Edward John Roland",
           "party": "Independent"
         }
-      ]
+      ],
+      "source": {
+        "name": "Tennessee Secretary of State, candidate lists for the November 3, 2026 general election (Governor, United States Senate, and United States House PDFs)",
+        "url": "https://sos.tn.gov/elections/2026-candidate-lists",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States House of Representatives District 4",
@@ -222,11 +280,13 @@
       "candidates": [
         {
           "name": "Scott DesJarlais",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Scott_DesJarlais"
         },
         {
           "name": "Victoria Broderick",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Victoria_Broderick"
         },
         {
           "name": "Jacob Kristopher Anders",
@@ -234,9 +294,15 @@
         },
         {
           "name": "Clay Faircloth",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Clay_Faircloth"
         }
-      ]
+      ],
+      "source": {
+        "name": "Tennessee Secretary of State, candidate lists for the November 3, 2026 general election (Governor, United States Senate, and United States House PDFs)",
+        "url": "https://sos.tn.gov/elections/2026-candidate-lists",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States House of Representatives District 5",
@@ -245,21 +311,30 @@
       "candidates": [
         {
           "name": "Charlie Hatcher",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Charlie_Hatcher"
         },
         {
           "name": "Chaz Molder",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Chaz_Molder"
         },
         {
           "name": "James A. Johnson",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/James_Johnson_(Tennessee_congressional_candidate)"
         },
         {
           "name": "Micheál (Me-Haul) O'Leary",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Miche%C3%A1l_O'Leary"
         }
-      ]
+      ],
+      "source": {
+        "name": "Tennessee Secretary of State, candidate lists for the November 3, 2026 general election (Governor, United States Senate, and United States House PDFs)",
+        "url": "https://sos.tn.gov/elections/2026-candidate-lists",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States House of Representatives District 6",
@@ -268,21 +343,30 @@
       "candidates": [
         {
           "name": "Johnny Garrett",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Johnny_Garrett"
         },
         {
           "name": "Mike Croley",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mike_Croley"
         },
         {
           "name": "Christopher B. Monday",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Christopher_Monday"
         },
         {
           "name": "Angus Purdy",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Angus_Purdy"
         }
-      ]
+      ],
+      "source": {
+        "name": "Tennessee Secretary of State, candidate lists for the November 3, 2026 general election (Governor, United States Senate, and United States House PDFs)",
+        "url": "https://sos.tn.gov/elections/2026-candidate-lists",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States House of Representatives District 7",
@@ -291,21 +375,30 @@
       "candidates": [
         {
           "name": "Matt Van Epps",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Matt_Van_Epps"
         },
         {
           "name": "Darden Copeland",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Darden_Copeland"
         },
         {
           "name": "Andrew J. Koontz",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Andrew_Koontz"
         },
         {
           "name": "Lowell Reynolds",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Lowell_Reynolds"
         }
-      ]
+      ],
+      "source": {
+        "name": "Tennessee Secretary of State, candidate lists for the November 3, 2026 general election (Governor, United States Senate, and United States House PDFs)",
+        "url": "https://sos.tn.gov/elections/2026-candidate-lists",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States House of Representatives District 8",
@@ -314,23 +407,28 @@
       "candidates": [
         {
           "name": "David Kustoff",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/David_Kustoff"
         },
         {
           "name": "Heidi Kuhn",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Heidi_Kuhn"
         },
         {
           "name": "Adam D. Austill",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Adam_Austill"
         },
         {
           "name": "Wendell \"Wells\" Blankenship",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Wendell_Blankenship"
         },
         {
           "name": "Antonio Futch",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Antonio_Futch"
         },
         {
           "name": "Pamela Jeanine \"P.\" Moses",
@@ -338,13 +436,20 @@
         },
         {
           "name": "Horace Taylor",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Horace_Taylor"
         },
         {
           "name": "Henry J. Ward, III",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Henry_Ward_III"
         }
-      ]
+      ],
+      "source": {
+        "name": "Tennessee Secretary of State, candidate lists for the November 3, 2026 general election (Governor, United States Senate, and United States House PDFs)",
+        "url": "https://sos.tn.gov/elections/2026-candidate-lists",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States House of Representatives District 9",
@@ -353,11 +458,13 @@
       "candidates": [
         {
           "name": "Brent Taylor",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Brent_Taylor_(Tennessee)"
         },
         {
           "name": "Justin J. Pearson",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Justin_Pearson_(Tennessee)"
         },
         {
           "name": "Dennis Clark",
@@ -367,7 +474,12 @@
           "name": "Michelle Davis Head",
           "party": "Independent"
         }
-      ]
+      ],
+      "source": {
+        "name": "Tennessee Secretary of State, candidate lists for the November 3, 2026 general election (Governor, United States Senate, and United States House PDFs)",
+        "url": "https://sos.tn.gov/elections/2026-candidate-lists",
+        "accessed": "October 17, 2026"
+      }
     }
   ]
 }

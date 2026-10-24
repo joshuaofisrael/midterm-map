@@ -1,11 +1,98 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
       "name": "West Virginia Secretary of State — Elections",
       "url": "https://sos.wv.gov/elections",
       "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Ballotpedia — West Virginia elections, 2026",
+      "url": "https://ballotpedia.org/West_Virginia_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "U.S. Senate West Virginia",
+      "kind": "senate",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Shelley Moore Capito",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Shelley_Moore_Capito"
+        },
+        {
+          "name": "S. Marshall Wilson",
+          "party": "Constitution Party",
+          "ballotpedia": "https://ballotpedia.org/S._Marshall_Wilson_(West_Virginia)"
+        },
+        {
+          "name": "Rachel Fetty Anderson",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Rachel_Fetty_Anderson"
+        },
+        {
+          "name": "Rio Phillips",
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Rio_Phillips"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. Senate West Virginia, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/United_States_Senate_election_in_West_Virginia,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House West Virginia District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Carol Miller",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Carol_Miller_(West_Virginia)"
+        },
+        {
+          "name": "Belinda Fox-Spencer",
+          "party": "Constitution Party",
+          "ballotpedia": "https://ballotpedia.org/Belinda_Fox-Spencer"
+        },
+        {
+          "name": "Vince George",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Vince_George"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House West Virginia District 1, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/West_Virginia's_1st_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House West Virginia District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Riley Moore",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Riley_Moore"
+        },
+        {
+          "name": "Ace Parsi",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ace_Parsi"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House West Virginia District 2, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/West_Virginia's_2nd_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    }
+  ]
 }

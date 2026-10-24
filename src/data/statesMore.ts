@@ -58,7 +58,7 @@ export const MORE_STATE_PROFILES: StateProfile[] = [
     capital: "Little Rock",
     timezoneNote: "Arkansas is on Central Time.",
     summary:
-      "Arkansas’s Secretary of State lists four measures referred to the November 3, 2026 ballot. A general-election candidate list was not retrieved as text on October 19, 2026.",
+      "Arkansas’s Secretary of State lists four measures referred to the November 3, 2026 ballot. The candidate list on this page names U.S. Senate, four U.S. House districts, governor, lieutenant governor, attorney general, secretary of state, auditor, and treasurer.",
     officialElectionOffice: { label: "Arkansas Secretary of State — Elections", href: "https://www.sos.arkansas.gov/elections" },
     voteGov: { label: "Vote.gov: Arkansas registration information", href: "https://vote.gov/register/arkansas" },
     officialVoterLinks: [
@@ -66,10 +66,19 @@ export const MORE_STATE_PROFILES: StateProfile[] = [
       { label: "Vote.gov: Arkansas registration information", href: "https://vote.gov/register/arkansas" },
     ],
     ballotpedia: { label: "Ballotpedia — Arkansas elections 2026", href: "https://ballotpedia.org/Arkansas_elections,_2026" },
-    statewideOffices2026: [],
+    statewideOffices2026: [
+      "U.S. Senate",
+      "Governor",
+      "Lieutenant Governor",
+      "Attorney General",
+      "Secretary of State",
+      "Auditor of State",
+      "Treasurer",
+    ],
     cycleCheckedOn: CHECKED,
     cycleSources: [
       { label: "Arkansas Secretary of State — initiatives and referenda", href: "https://www.sos.arkansas.gov/elections/initiatives-and-referenda" },
+      { label: "Ballotpedia — Arkansas elections, 2026", href: "https://ballotpedia.org/Arkansas_elections,_2026" },
     ],
     sampleBallotOfficial: { label: "Arkansas Secretary of State — Elections", href: "https://www.sos.arkansas.gov/elections" },
     registrationNote: "Registration dates from the 2026 election calendar are on the voting-deadlines page.",
@@ -239,7 +248,7 @@ export const MORE_STATE_PROFILES: StateProfile[] = [
     capital: "Boise",
     timezoneNote: "Most of Idaho is on Mountain Time. The northern panhandle is on Pacific Time.",
     summary:
-      "Idaho’s November 3, 2026 voter pamphlet prints two constitutional amendments, Proposition One, and a non-binding advisory question. A certified candidate-office list was not retrieved.",
+      "Idaho’s November 3, 2026 voter pamphlet prints two constitutional amendments, Proposition One, and a non-binding advisory question. The Secretary of State candidate list names U.S. Senate, two U.S. House districts, governor, lieutenant governor, secretary of state, state controller, state treasurer, attorney general, and superintendent of public instruction.",
     officialElectionOffice: { label: "Idaho Secretary of State — Elections", href: "https://voteidaho.gov/" },
     voteGov: { label: "Vote.gov: Idaho registration information", href: "https://vote.gov/register/idaho" },
     officialVoterLinks: [
@@ -247,10 +256,20 @@ export const MORE_STATE_PROFILES: StateProfile[] = [
       { label: "Vote.gov: Idaho registration information", href: "https://vote.gov/register/idaho" },
     ],
     ballotpedia: { label: "Ballotpedia — Idaho elections 2026", href: "https://ballotpedia.org/Idaho_elections,_2026" },
-    statewideOffices2026: [],
+    statewideOffices2026: [
+      "United States Senator",
+      "Governor",
+      "Lieutenant Governor",
+      "Secretary of State",
+      "State Controller",
+      "State Treasurer",
+      "Attorney General",
+      "Superintendent of Public Instruction",
+    ],
     cycleCheckedOn: CHECKED,
     cycleSources: [
       { label: "Idaho Secretary of State — 2026 general election voter pamphlet", href: "https://archive.voteidaho.gov/download/2026_Voter_Pamphlet.pdf" },
+      { label: "Idaho Secretary of State — candidate list for the November 3, 2026 general election", href: "https://run.voteidaho.gov/search" },
     ],
     sampleBallotOfficial: { label: "2026 Idaho general election", href: "https://voteidaho.gov/idaho-general-election/" },
     registrationNote: "The pre-registration date on the general-election page is on the voting-deadlines page.",
@@ -261,7 +280,7 @@ export const MORE_STATE_PROFILES: StateProfile[] = [
     hasGovernor2026: false,
     sampleBallotNotes: [
       "The pamphlet prints House Joint Resolution 4, House Joint Resolution 6, Proposition One, and the House Bill 932 advisory question.",
-      "A certified list of candidate offices was not retrieved on October 19, 2026.",
+      "The Secretary of State candidate list names U.S. Senate, U.S. House Districts 1 and 2, governor, lieutenant governor, secretary of state, state controller, state treasurer, attorney general, and superintendent of public instruction.",
     ],
   },
   {
@@ -397,7 +416,7 @@ export const MORE_STATE_PROFILES: StateProfile[] = [
     hasGovernor2026: false,
     sampleBallotNotes: [
       "CI-132, CI-133, and I-194 are marked qualified for the 2026 general-election ballot.",
-      "The page says its subject lines may be paraphrased. The ballot-statement text was not retrieved on October 19, 2026.",
+      "The page says its subject lines may be paraphrased. The statement printed on the ballot is on the linked page for each issue. This page names CI-132, CI-133, and I-194 as qualified for the 2026 general-election ballot.",
     ],
   },
   {

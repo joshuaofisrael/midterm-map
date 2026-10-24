@@ -15,6 +15,11 @@
       "name": "Kentucky Secretary of State, 2026 General Election candidate filings for US Representative",
       "url": "https://web.sos.ky.gov/CandidateFilings/Default.aspx?id=4",
       "accessed": "October 18, 2026"
+    },
+    {
+      "name": "Ballotpedia — Kentucky elections, 2026",
+      "url": "https://ballotpedia.org/Kentucky_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -25,11 +30,13 @@
       "candidates": [
         {
           "name": "Andy Barr",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Andy_Barr"
         },
         {
           "name": "Charles Booker",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Charles_Booker"
         },
         {
           "name": "Thomas Michael Murphy",
@@ -37,9 +44,15 @@
         },
         {
           "name": "Christopher Campbell",
-          "party": "Kentucky Party"
+          "party": "Kentucky Party",
+          "ballotpedia": "https://ballotpedia.org/Christopher_Campbell_(Kentucky)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kentucky Secretary of State, Candidate Filings for the 2026 General Election",
+        "url": "https://web.sos.ky.gov/candidatefilings/",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative",
@@ -52,9 +65,15 @@
         },
         {
           "name": "James R. Comer",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/James_Comer_Jr."
         }
-      ]
+      ],
+      "source": {
+        "name": "Kentucky Secretary of State, Candidate Filings for the 2026 General Election",
+        "url": "https://web.sos.ky.gov/candidatefilings/",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative",
@@ -63,17 +82,25 @@
       "candidates": [
         {
           "name": "Megan Wingfield",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Megan_Wingfield"
         },
         {
           "name": "S. Brett Guthrie",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Brett_Guthrie"
         },
         {
           "name": "Thomas A. Loecken",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Thomas_Loecken"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kentucky Secretary of State, Candidate Filings for the 2026 General Election",
+        "url": "https://web.sos.ky.gov/candidatefilings/",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative",
@@ -82,13 +109,20 @@
       "candidates": [
         {
           "name": "Morgan McGarvey",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Morgan_McGarvey"
         },
         {
           "name": "Maria Teresa Rodriguez",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Maria_Teresa_Rodriguez"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kentucky Secretary of State, Candidate Filings for the 2026 General Election",
+        "url": "https://web.sos.ky.gov/candidatefilings/",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative",
@@ -101,17 +135,25 @@
         },
         {
           "name": "Ed Gallrein",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Ed_Gallrein"
         },
         {
           "name": "Jeremy Todd",
-          "party": "Libertarian Party"
+          "party": "Libertarian Party",
+          "ballotpedia": "https://ballotpedia.org/Jeremy_Todd"
         },
         {
           "name": "Peter Harmon Williams",
-          "party": "Write-In"
+          "party": "Write-In",
+          "ballotpedia": "https://ballotpedia.org/Peter_Harmon_Williams"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kentucky Secretary of State, Candidate Filings for the 2026 General Election",
+        "url": "https://web.sos.ky.gov/candidatefilings/",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative",
@@ -120,25 +162,35 @@
       "candidates": [
         {
           "name": "Hal Rogers",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Hal_Rogers"
         },
         {
           "name": "Ned Pillersdorf",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Ned_Pillersdorf"
         },
         {
           "name": "Billy Ray Wilson",
-          "party": "Write-In"
+          "party": "Write-In",
+          "ballotpedia": "https://ballotpedia.org/Billy_Ray_Wilson"
         },
         {
           "name": "Gerardo Serrano",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Gerardo_Serrano"
         },
         {
           "name": "Mikel Wein",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Mikel_Wein"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kentucky Secretary of State, Candidate Filings for the 2026 General Election",
+        "url": "https://web.sos.ky.gov/candidatefilings/",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "US Representative",
@@ -147,25 +199,52 @@
       "candidates": [
         {
           "name": "Ralph Alvarado",
-          "party": "Republican Party"
+          "party": "Republican Party",
+          "ballotpedia": "https://ballotpedia.org/Ralph_Alvarado"
         },
         {
           "name": "Zach Dembo",
-          "party": "Democratic Party"
+          "party": "Democratic Party",
+          "ballotpedia": "https://ballotpedia.org/Zach_Dembo"
         },
         {
           "name": "Jay J Bowman",
-          "party": "Independent"
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Jay_Bowman"
         },
         {
           "name": "Pete Lynch",
-          "party": "Kentucky Party"
+          "party": "Kentucky Party",
+          "ballotpedia": "https://ballotpedia.org/Pete_Lynch"
         },
         {
           "name": "Robert Quigley",
-          "party": "Write-In"
+          "party": "Write-In",
+          "ballotpedia": "https://ballotpedia.org/Robert_Quigley"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kentucky Secretary of State, Candidate Filings for the 2026 General Election",
+        "url": "https://web.sos.ky.gov/candidatefilings/",
+        "accessed": "October 18, 2026"
+      }
+    },
+    {
+      "office": "Kentucky Supreme Court 3rd District",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Debra Hembree Lambert",
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Debra_Hembree_Lambert"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Kentucky Supreme Court 3rd District, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Kentucky_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

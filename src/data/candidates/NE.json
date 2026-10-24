@@ -6,6 +6,11 @@
       "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf",
       "accessed": "October 17, 2026",
       "published": "September 11, 2026"
+    },
+    {
+      "name": "Ballotpedia — Nebraska elections, 2026",
+      "url": "https://ballotpedia.org/Nebraska_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -16,25 +21,35 @@
       "candidates": [
         {
           "name": "Pete Ricketts",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Pete_Ricketts"
         },
         {
           "name": "Mike Marvin",
-          "party": "Legal Marijuana NOW"
+          "party": "Legal Marijuana NOW",
+          "ballotpedia": "https://ballotpedia.org/Mike_Marvin"
         },
         {
           "name": "Robin Richards",
-          "party": "Nebraska Working People"
+          "party": "Nebraska Working People",
+          "ballotpedia": "https://ballotpedia.org/Robin_Richards"
         },
         {
           "name": "Chuck Conboy",
-          "party": "America First"
+          "party": "America First",
+          "ballotpedia": "https://ballotpedia.org/Chuck_Conboy"
         },
         {
           "name": "Dan Osborn",
-          "party": "By Petition"
+          "party": "By Petition",
+          "ballotpedia": "https://ballotpedia.org/Dan_Osborn"
         }
-      ]
+      ],
+      "source": {
+        "name": "Nebraska Secretary of State, final statewide general candidate list, November 3, 2026 general election",
+        "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For Representative in Congress District 1",
@@ -43,7 +58,8 @@
       "candidates": [
         {
           "name": "Mike Flood",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Flood"
         },
         {
           "name": "Chris Backemeyer",
@@ -51,13 +67,20 @@
         },
         {
           "name": "Nik Sandman",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Nik_Sandman"
         },
         {
           "name": "Dan Hartong",
-          "party": "America First"
+          "party": "America First",
+          "ballotpedia": "https://ballotpedia.org/Dan_Hartong"
         }
-      ]
+      ],
+      "source": {
+        "name": "Nebraska Secretary of State, final statewide general candidate list, November 3, 2026 general election",
+        "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For Representative in Congress District 2",
@@ -66,17 +89,25 @@
       "candidates": [
         {
           "name": "Brinker Harding",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Brinker_Harding"
         },
         {
           "name": "Denise Powell",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Denise_Powell"
         },
         {
           "name": "Eric Michael Foreman",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Eric_Michael_Foreman"
         }
-      ]
+      ],
+      "source": {
+        "name": "Nebraska Secretary of State, final statewide general candidate list, November 3, 2026 general election",
+        "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For Representative in Congress District 3",
@@ -85,7 +116,8 @@
       "candidates": [
         {
           "name": "Adrian Smith",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Adrian_Smith_(Nebraska)"
         },
         {
           "name": "Becky Kelly Stille",
@@ -93,17 +125,25 @@
         },
         {
           "name": "David J. Else",
-          "party": "Legal Marijuana NOW"
+          "party": "Legal Marijuana NOW",
+          "ballotpedia": "https://ballotpedia.org/David_Else_(Nebraska)"
         },
         {
           "name": "Macey Budke",
-          "party": "Nebraska Working People"
+          "party": "Nebraska Working People",
+          "ballotpedia": "https://ballotpedia.org/Macey_Budke"
         },
         {
           "name": "Mark Cohen",
-          "party": "By Petition"
+          "party": "By Petition",
+          "ballotpedia": "https://ballotpedia.org/Mark_Cohen_(Nebraska)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Nebraska Secretary of State, final statewide general candidate list, November 3, 2026 general election",
+        "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For Governor and Lt. Governor",
@@ -126,7 +166,110 @@
           "name": "Brett Lindstrom and Michael Picard",
           "party": "America First"
         }
-      ]
+      ],
+      "source": {
+        "name": "Nebraska Secretary of State, final statewide general candidate list, November 3, 2026 general election",
+        "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of Nebraska",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Mike Hilgers",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Hilgers"
+        },
+        {
+          "name": "Jocelyn Brasher",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jocelyn_Brasher"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of Nebraska, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Nebraska_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Nebraska Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Scott Petersen",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Scott_Petersen_(Nebraska)"
+        },
+        {
+          "name": "Bob Krist",
+          "party": "America First Party Nebraska",
+          "ballotpedia": "https://ballotpedia.org/Bob_Krist"
+        },
+        {
+          "name": "Sarah Slattery",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sarah_Slattery"
+        },
+        {
+          "name": "Paul Rumbaugh",
+          "party": "Nebraska Working People Party",
+          "ballotpedia": "https://ballotpedia.org/Paul_Rumbaugh"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Nebraska Secretary of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Nebraska_Secretary_of_State_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Nebraska Auditor of Public Accounts",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Mike Foley",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Foley"
+        },
+        {
+          "name": "John Knight",
+          "party": "America First Party Nebraska",
+          "ballotpedia": "https://ballotpedia.org/John_Knight_(Nebraska)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Nebraska Auditor of Public Accounts, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Nebraska_Auditor_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Nebraska Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Joey Spellerberg",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Joey_Spellerberg"
+        },
+        {
+          "name": "Daniel Ebers",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Daniel_Ebers"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Nebraska Treasurer, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Nebraska_Treasurer_election,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

@@ -15,21 +15,30 @@
       "candidates": [
         {
           "name": "Julie Fedorchak",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Julie_Fedorchak"
         },
         {
           "name": "Trygve Hammer",
-          "party": "Democratic-NPL"
+          "party": "Democratic-NPL",
+          "ballotpedia": "https://ballotpedia.org/Trygve_Hammer"
         },
         {
           "name": "Helene Neville",
-          "party": "independent nomination"
+          "party": "independent nomination",
+          "ballotpedia": "https://ballotpedia.org/Helene_Neville"
         },
         {
           "name": "Charles Tuttle",
-          "party": "independent nomination"
+          "party": "independent nomination",
+          "ballotpedia": "https://ballotpedia.org/Charles_Tuttle"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Dakota Secretary of State, 2026 General Election Contest/Candidate List, statewide jurisdiction",
+        "url": "https://vip.sos.nd.gov/candidatelist.aspx?eid=348",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Secretary of State",
@@ -38,13 +47,20 @@
       "candidates": [
         {
           "name": "Ryan Braunberger",
-          "party": "Democratic-NPL"
+          "party": "Democratic-NPL",
+          "ballotpedia": "https://ballotpedia.org/Ryan_Braunberger"
         },
         {
           "name": "Michael Howe",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Michael_Howe"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Dakota Secretary of State, 2026 General Election Contest/Candidate List, statewide jurisdiction",
+        "url": "https://vip.sos.nd.gov/candidatelist.aspx?eid=348",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Attorney General",
@@ -57,9 +73,15 @@
         },
         {
           "name": "Drew Wrigley",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Drew_Wrigley"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Dakota Secretary of State, 2026 General Election Contest/Candidate List, statewide jurisdiction",
+        "url": "https://vip.sos.nd.gov/candidatelist.aspx?eid=348",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Agriculture Commissioner",
@@ -68,13 +90,20 @@
       "candidates": [
         {
           "name": "Doug Goehring",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Doug_Goehring"
         },
         {
           "name": "Vern Thompson",
-          "party": "Democratic-NPL"
+          "party": "Democratic-NPL",
+          "ballotpedia": "https://ballotpedia.org/Vern_Thompson"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Dakota Secretary of State, 2026 General Election Contest/Candidate List, statewide jurisdiction",
+        "url": "https://vip.sos.nd.gov/candidatelist.aspx?eid=348",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Public Service Commissioner",
@@ -89,7 +118,12 @@
           "name": "John M Pederson",
           "party": "Democratic-NPL"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Dakota Secretary of State, 2026 General Election Contest/Candidate List, statewide jurisdiction",
+        "url": "https://vip.sos.nd.gov/candidatelist.aspx?eid=348",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Public Service Commissioner Unexpired 2-Year Term",
@@ -104,7 +138,12 @@
           "name": "Jill Kringstad",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Dakota Secretary of State, 2026 General Election Contest/Candidate List, statewide jurisdiction",
+        "url": "https://vip.sos.nd.gov/candidatelist.aspx?eid=348",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Tax Commissioner",
@@ -113,13 +152,20 @@
       "candidates": [
         {
           "name": "Brian Kroshus",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Brian_Kroshus"
         },
         {
           "name": "Mark Nelson",
-          "party": "Democratic-NPL"
+          "party": "Democratic-NPL",
+          "ballotpedia": "https://ballotpedia.org/Mark_Nelson_(North_Dakota)"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Dakota Secretary of State, 2026 General Election Contest/Candidate List, statewide jurisdiction",
+        "url": "https://vip.sos.nd.gov/candidatelist.aspx?eid=348",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Superintendent of Public Instruction Unexpired 2-Year Term",
@@ -134,7 +180,12 @@
           "name": "Tracy Layne Foss",
           "party": "Nonpartisan"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Dakota Secretary of State, 2026 General Election Contest/Candidate List, statewide jurisdiction",
+        "url": "https://vip.sos.nd.gov/candidatelist.aspx?eid=348",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Justice of the Supreme Court Unexpired 8-Year Term",
@@ -145,7 +196,12 @@
           "name": "Douglas A Bahr",
           "party": "Nonpartisan"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Dakota Secretary of State, 2026 General Election Contest/Candidate List, statewide jurisdiction",
+        "url": "https://vip.sos.nd.gov/candidatelist.aspx?eid=348",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Justice of the Supreme Court",
@@ -160,7 +216,12 @@
           "name": "Jerod Tufte",
           "party": "Nonpartisan"
         }
-      ]
+      ],
+      "source": {
+        "name": "North Dakota Secretary of State, 2026 General Election Contest/Candidate List, statewide jurisdiction",
+        "url": "https://vip.sos.nd.gov/candidatelist.aspx?eid=348",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }

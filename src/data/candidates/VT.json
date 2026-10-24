@@ -16,29 +16,40 @@
       "candidates": [
         {
           "name": "PHOENIX K. ALTAIR",
-          "party": "INDEPENDENT"
+          "party": "INDEPENDENT",
+          "ballotpedia": "https://ballotpedia.org/Phoenix_Altair"
         },
         {
           "name": "BECCA BALINT",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Becca_Balint"
         },
         {
           "name": "GERALD MALLOY",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Gerald_Malloy_(Vermont)"
         },
         {
           "name": "ADAM ORTIZ",
-          "party": "INDEPENDENT"
+          "party": "INDEPENDENT",
+          "ballotpedia": "https://ballotpedia.org/Adam_Ortiz"
         },
         {
           "name": "SUZANNE \"SUZ\" SEYMOUR",
-          "party": "INDEPENDENT"
+          "party": "INDEPENDENT",
+          "ballotpedia": "https://ballotpedia.org/Suzanne_Seymour_(Vermont)"
         },
         {
           "name": "RYAN P. WALTON",
-          "party": "INDEPENDENT"
+          "party": "INDEPENDENT",
+          "ballotpedia": "https://ballotpedia.org/Ryan_Walton"
         }
-      ]
+      ],
+      "source": {
+        "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet “Last Updated: 9/23/2026”)",
+        "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "GOVERNOR",
@@ -47,25 +58,35 @@
       "candidates": [
         {
           "name": "JUNE GOODBAND",
-          "party": "PEACE AND JUSTICE"
+          "party": "PEACE AND JUSTICE",
+          "ballotpedia": "https://ballotpedia.org/June_Goodband"
         },
         {
           "name": "AMANDA JANOO",
-          "party": "DEM/PROG"
+          "party": "DEM/PROG",
+          "ballotpedia": "https://ballotpedia.org/Amanda_Janoo"
         },
         {
           "name": "BRIAN JUDD",
-          "party": "INDEPENDENT"
+          "party": "INDEPENDENT",
+          "ballotpedia": "https://ballotpedia.org/Brian_Judd"
         },
         {
           "name": "DEAN ROY",
-          "party": "FREEDOM AND UNITY"
+          "party": "FREEDOM AND UNITY",
+          "ballotpedia": "https://ballotpedia.org/Dean_Roy"
         },
         {
           "name": "PHIL SCOTT",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Phil_Scott_(Vermont)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet “Last Updated: 9/23/2026”)",
+        "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "LIEUTENANT GOVERNOR",
@@ -74,13 +95,20 @@
       "candidates": [
         {
           "name": "MOLLY GRAY",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Molly_Gray"
         },
         {
           "name": "JOHN S. RODGERS",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/John_Rodgers_(Vermont)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet “Last Updated: 9/23/2026”)",
+        "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "STATE TREASURER",
@@ -99,7 +127,12 @@
           "name": "MIKE PIECIAK",
           "party": "DEMOCRATIC"
         }
-      ]
+      ],
+      "source": {
+        "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet “Last Updated: 9/23/2026”)",
+        "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "SECRETARY OF STATE",
@@ -108,17 +141,25 @@
       "candidates": [
         {
           "name": "SARAH COPELAND HANZAS",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Sarah_Copeland_Hanzas"
         },
         {
           "name": "H. BROOKE PAIGE",
-          "party": "REPUBLICAN"
+          "party": "REPUBLICAN",
+          "ballotpedia": "https://ballotpedia.org/Brooke_Paige"
         },
         {
           "name": "RACHEL SHAW",
-          "party": "PROGRESSIVE"
+          "party": "PROGRESSIVE",
+          "ballotpedia": "https://ballotpedia.org/Rachel_Shaw"
         }
-      ]
+      ],
+      "source": {
+        "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet “Last Updated: 9/23/2026”)",
+        "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "AUDITOR OF ACCOUNTS",
@@ -133,7 +174,12 @@
           "name": "IVAR KRONICK",
           "party": "REPUBLICAN"
         }
-      ]
+      ],
+      "source": {
+        "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet “Last Updated: 9/23/2026”)",
+        "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "ATTORNEY GENERAL",
@@ -142,13 +188,19 @@
       "candidates": [
         {
           "name": "CHARITY R. CLARK",
-          "party": "DEMOCRATIC"
+          "party": "DEMOCRATIC",
+          "ballotpedia": "https://ballotpedia.org/Charity_Clark"
         },
         {
           "name": "EDWIN HOWELL KEMON",
           "party": "REPUBLICAN"
         }
-      ]
+      ],
+      "source": {
+        "name": "Vermont Secretary of State, 2026 General Election Candidate Listing (qualified candidates workbook; Selection Criteria sheet “Last Updated: 9/23/2026”)",
+        "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }

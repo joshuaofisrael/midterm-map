@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { BallotCandidates } from "@/components/BallotCandidates";
 import { BallotLookup } from "@/components/BallotLookup";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentTrust } from "@/components/ContentTrust";
@@ -81,6 +82,7 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
         officeLabel={state.officialElectionOffice.label}
       />
       <OfficialNotice />
+      <BallotCandidates code={state.code} stateName={state.name} />
       <LivePanel stateCode={state.code} />
       <BallotLookup initialState={state.code} />
       {cycle ? (

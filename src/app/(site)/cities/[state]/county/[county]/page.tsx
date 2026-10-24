@@ -7,6 +7,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { JurisdictionLinks } from "@/components/JurisdictionLinks";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
+import { CountyCandidates } from "@/components/CountyCandidates";
 import { PlaceIndex } from "@/components/PlaceIndex";
 import { SourceLines } from "@/components/SourceLines";
 import { countyCitation, countyNameCitation, gazetteerCitation, populationCitation } from "@/data/censusSources";
@@ -115,6 +116,7 @@ export default async function CountyPlacesPage({
         officeLabel={office.office.label}
       />
       <OfficialNotice compact />
+      <CountyCandidates code={state.code} county={county} />
       <JurisdictionLinks code={state.code} name={state.name} />
       <p className="text-sm">
         <Link className="font-medium text-navy hover:underline" href={`/cities/${state.code}#place-search`}>

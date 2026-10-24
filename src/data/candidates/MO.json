@@ -6,6 +6,11 @@
       "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
       "accessed": "October 17, 2026",
       "published": "August 25, 2026"
+    },
+    {
+      "name": "Ballotpedia — Missouri elections, 2026",
+      "url": "https://ballotpedia.org/Missouri_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -16,17 +21,25 @@
       "candidates": [
         {
           "name": "Paul Berry III",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Paul_Berry_(Missouri)"
         },
         {
           "name": "Wesley Bell",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Wesley_Bell"
         },
         {
           "name": "Tom Schmitz",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Tom_Schmitz"
         }
-      ]
+      ],
+      "source": {
+        "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+        "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For U.S. Representative District 2",
@@ -35,7 +48,8 @@
       "candidates": [
         {
           "name": "Ann Wagner",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ann_Wagner"
         },
         {
           "name": "Fred Wellman",
@@ -45,7 +59,12 @@
           "name": "Brandon Coulter Daugherty",
           "party": "Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+        "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For U.S. Representative District 3",
@@ -54,17 +73,25 @@
       "candidates": [
         {
           "name": "Bob Onder",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bob_Onder"
         },
         {
           "name": "Bethany E Mann",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Bethany_Mann"
         },
         {
           "name": "Jim Higgins",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Jim_Higgins"
         }
-      ]
+      ],
+      "source": {
+        "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+        "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For U.S. Representative District 4",
@@ -73,17 +100,25 @@
       "candidates": [
         {
           "name": "Mark Alford",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mark_Alford"
         },
         {
           "name": "Jordan Herrera",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jordan_Herrera"
         },
         {
           "name": "Thomas Holbrook",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Thomas_Holbrook_(Missouri)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+        "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For U.S. Representative District 5",
@@ -92,17 +127,24 @@
       "candidates": [
         {
           "name": "Rick Brattin",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Rick_Brattin"
         },
         {
           "name": "Emanuel Cleaver, II",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Emanuel_Cleaver"
         },
         {
           "name": "Randall (Randy) Langkraehr",
           "party": "Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+        "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For U.S. Representative District 6",
@@ -111,17 +153,25 @@
       "candidates": [
         {
           "name": "Chris Stigall",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Chris_Stigall"
         },
         {
           "name": "Josh Smead",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Josh_Smead"
         },
         {
           "name": "Andy Maidment",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Andy_Maidment"
         }
-      ]
+      ],
+      "source": {
+        "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+        "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For U.S. Representative District 7",
@@ -130,17 +180,25 @@
       "candidates": [
         {
           "name": "Eric W. Burlison",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Eric_Burlison"
         },
         {
           "name": "Missi Hesketh",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Missi_Hesketh"
         },
         {
           "name": "Kevin Craig",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Craig_(Missouri)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+        "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "For U.S. Representative District 8",
@@ -149,7 +207,8 @@
       "candidates": [
         {
           "name": "Jason T. Smith",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jason_Smith_(Missouri_congressional_representative)"
         },
         {
           "name": "Chris Reichard",
@@ -157,9 +216,59 @@
         },
         {
           "name": "Rebecca Sharpe Lombard",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Rebecca_Sharpe_Lombard"
         }
-      ]
+      ],
+      "source": {
+        "name": "Missouri Secretary of State, certification of candidates for the November 3, 2026 general election",
+        "url": "https://www.sos.mo.gov/CMSImages/ElectionCandidates/2026GeneralElectionCertifiedCandidates.pdf",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "Missouri State Auditor",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Scott Fitzpatrick",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Scott_Fitzpatrick"
+        },
+        {
+          "name": "Quentin Wilson",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Quentin_Wilson"
+        },
+        {
+          "name": "Dustin Coffell",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Dustin_Coffell"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Missouri State Auditor, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Missouri_Auditor_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Missouri Supreme Court",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Paul C. Wilson",
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Paul_C._Wilson_(Missouri)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Missouri Supreme Court, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Missouri_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

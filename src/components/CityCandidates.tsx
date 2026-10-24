@@ -1,4 +1,5 @@
-import { contestsForPlace, candidateFile } from "@/data/candidates/load";
+import { CandidateContestList } from "@/components/CandidateContestList";
+import { candidateFile, contestsForPlace } from "@/data/candidates/load";
 import type { PlaceRecord } from "@/data/places/load";
 
 export function CityCandidates({ code, place }: { code: string; place: PlaceRecord }) {
@@ -23,11 +24,10 @@ export function CityCandidates({ code, place }: { code: string; place: PlaceReco
     <section>
       <h2>Who is on the ballot</h2>
       <p>
-        U.S. Senate, governor, other statewide offices, and U.S. House contests are listed when
-        the stored official list includes them and the district number matches this place. State
-        legislative districts are not in the place file, so those contests are not listed here.
-        Local contests from an official city or county list are in the next section when this
-        site has that list.
+        Names and parties are copied in stored-list order: U.S. Senate, each U.S. House district
+        that covers this place, governor, then other statewide offices. State legislative contests
+        are included when that stored list contains them. Local contests from a stored city or
+        county list follow.
       </p>
       {houseBasis === "bef" ? (
         <p>
@@ -39,18 +39,7 @@ export function CityCandidates({ code, place }: { code: string; place: PlaceReco
           U.S. House contests follow the <a href="/sources/#house-119">119th district numbers</a>.
         </p>
       ) : null}
-      {contests.map((contest) => (
-        <div key={`${contest.kind}-${contest.district ?? "statewide"}-${contest.office}`}>
-          <h3>{contest.office}</h3>
-          <ol>
-            {contest.candidates.map((candidate, index) => (
-              <li key={`${index}-${candidate.name}-${candidate.party}`}>
-                {candidate.party ? `${candidate.name} — ${candidate.party}` : candidate.name}
-              </li>
-            ))}
-          </ol>
-        </div>
-      ))}
+      <CandidateContestList contests={contests} variant="city" />
       {file.sources.map((item) => (
         <p key={item.url}>
           Source:{" "}

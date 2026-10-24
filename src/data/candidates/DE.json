@@ -16,13 +16,20 @@
       "candidates": [
         {
           "name": "Chris Coons",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Chris_Coons"
         },
         {
           "name": "Michael \"Dr. Mike\" Katz",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Michael_Katz"
         }
-      ]
+      ],
+      "source": {
+        "name": "Delaware Department of Elections, Filed Candidates for the November 3, 2026 Statewide General Election",
+        "url": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Representative in Congress",
@@ -31,13 +38,20 @@
       "candidates": [
         {
           "name": "Sarah McBride",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sarah_McBride"
         },
         {
           "name": "Joseph \"Dr. Joe\" Arminio",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Joseph_Arminio"
         }
-      ]
+      ],
+      "source": {
+        "name": "Delaware Department of Elections, Filed Candidates for the November 3, 2026 Statewide General Election",
+        "url": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Attorney General",
@@ -46,13 +60,20 @@
       "candidates": [
         {
           "name": "Kathy Jennings",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kathy_Jennings"
         },
         {
           "name": "David C. \"Dave\" Graham",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/David_Graham_(Delaware)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Delaware Department of Elections, Filed Candidates for the November 3, 2026 Statewide General Election",
+        "url": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Auditor of Accounts",
@@ -71,7 +92,12 @@
           "name": "Austin Cassidy",
           "party": "Ind Pty of DE"
         }
-      ]
+      ],
+      "source": {
+        "name": "Delaware Department of Elections, Filed Candidates for the November 3, 2026 Statewide General Election",
+        "url": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "State Treasurer",
@@ -86,7 +112,12 @@
           "name": "Michael Ramone",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Delaware Department of Elections, Filed Candidates for the November 3, 2026 Statewide General Election",
+        "url": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }

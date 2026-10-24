@@ -15,17 +15,25 @@
       "candidates": [
         {
           "name": "Adam Hamilton",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Adam_Hamilton_(Kansas)"
         },
         {
           "name": "Roger Marshall",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Roger_Marshall"
         },
         {
           "name": "David C Graham",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/David_Graham_(Kansas)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kansas Secretary of State, Candidate Lists, 2026 General (national and state offices)",
+        "url": "https://sos.ks.gov/elections/elections_upcoming_candidate.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States House of Representatives",
@@ -34,17 +42,25 @@
       "candidates": [
         {
           "name": "Lauren Reinhold",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Lauren_Reinhold"
         },
         {
           "name": "Tracey Mann",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Tracey_Mann"
         },
         {
           "name": "Steven Jacob",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Steven_Jacob_(Kansas)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kansas Secretary of State, Candidate Lists, 2026 General (national and state offices)",
+        "url": "https://sos.ks.gov/elections/elections_upcoming_candidate.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States House of Representatives",
@@ -53,17 +69,25 @@
       "candidates": [
         {
           "name": "Don Coover",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Don_Coover"
         },
         {
           "name": "Derek Schmidt",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Derek_Schmidt"
         },
         {
           "name": "John Hauer",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/John_Hauer"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kansas Secretary of State, Candidate Lists, 2026 General (national and state offices)",
+        "url": "https://sos.ks.gov/elections/elections_upcoming_candidate.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States House of Representatives",
@@ -72,17 +96,24 @@
       "candidates": [
         {
           "name": "Sharice L. Davids",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sharice_Davids"
         },
         {
           "name": "Eric Jenkins",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Eric_Jenkins"
         },
         {
           "name": "Steven A Hohe",
           "party": "Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kansas Secretary of State, Candidate Lists, 2026 General (national and state offices)",
+        "url": "https://sos.ks.gov/elections/elections_upcoming_candidate.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "United States House of Representatives",
@@ -91,17 +122,25 @@
       "candidates": [
         {
           "name": "Katy Tyndell",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Katy_Tyndell"
         },
         {
           "name": "Ron Estes",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ron_Estes_(U.S._Representative_from_Kansas)"
         },
         {
           "name": "Drew Cranmer",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Drew_Cranmer"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kansas Secretary of State, Candidate Lists, 2026 General (national and state offices)",
+        "url": "https://sos.ks.gov/elections/elections_upcoming_candidate.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Governor / Lt. Governor",
@@ -116,7 +155,12 @@
           "name": "Ty Masterson / Jeffrey Klemp",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kansas Secretary of State, Candidate Lists, 2026 General (national and state offices)",
+        "url": "https://sos.ks.gov/elections/elections_upcoming_candidate.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Secretary of State",
@@ -125,17 +169,25 @@
       "candidates": [
         {
           "name": "Jennifer Day",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jennifer_Day_(Kansas)"
         },
         {
           "name": "Pat Proctor",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Pat_Proctor"
         },
         {
           "name": "Scott E. Morgan",
-          "party": "United Kansas"
+          "party": "United Kansas",
+          "ballotpedia": "https://ballotpedia.org/Scott_Morgan_(Kansas)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kansas Secretary of State, Candidate Lists, 2026 General (national and state offices)",
+        "url": "https://sos.ks.gov/elections/elections_upcoming_candidate.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Attorney General",
@@ -144,13 +196,20 @@
       "candidates": [
         {
           "name": "Chris Mann",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Chris_Mann_(Kansas)"
         },
         {
           "name": "Kris Kobach",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kris_Kobach"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kansas Secretary of State, Candidate Lists, 2026 General (national and state offices)",
+        "url": "https://sos.ks.gov/elections/elections_upcoming_candidate.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "State Treasurer",
@@ -169,7 +228,12 @@
           "name": "Eric Lund",
           "party": "Libertarian"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kansas Secretary of State, Candidate Lists, 2026 General (national and state offices)",
+        "url": "https://sos.ks.gov/elections/elections_upcoming_candidate.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Commissioner of Insurance",
@@ -178,17 +242,25 @@
       "candidates": [
         {
           "name": "Dinah Sykes",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Dinah_Sykes"
         },
         {
           "name": "Daniel Hawkins",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Daniel_Hawkins_(Kansas)"
         },
         {
           "name": "Ric Koehn",
-          "party": "Libertarian"
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Ric_Koehn_(Kansas)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Kansas Secretary of State, Candidate Lists, 2026 General (national and state offices)",
+        "url": "https://sos.ks.gov/elections/elections_upcoming_candidate.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Supreme Court Justice",
@@ -203,7 +275,12 @@
           "name": "Larkin E. Walsh",
           "party": ""
         }
-      ]
+      ],
+      "source": {
+        "name": "Kansas Secretary of State, Candidate Lists, 2026 General (national and state offices)",
+        "url": "https://sos.ks.gov/elections/elections_upcoming_candidate.aspx",
+        "accessed": "October 18, 2026"
+      }
     },
     {
       "office": "Court of Appeals Judge",
@@ -230,7 +307,12 @@
           "name": "Jacy Hurst",
           "party": ""
         }
-      ]
+      ],
+      "source": {
+        "name": "Kansas Secretary of State, Candidate Lists, 2026 General (national and state offices)",
+        "url": "https://sos.ks.gov/elections/elections_upcoming_candidate.aspx",
+        "accessed": "October 18, 2026"
+      }
     }
   ]
 }

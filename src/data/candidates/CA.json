@@ -6,6 +6,11 @@
       "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
       "accessed": "October 17, 2026",
       "published": "August 27, 2026"
+    },
+    {
+      "name": "Ballotpedia — California elections, 2026",
+      "url": "https://ballotpedia.org/California_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -16,13 +21,20 @@
       "candidates": [
         {
           "name": "Xavier Becerra",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Xavier_Becerra"
         },
         {
           "name": "Steve Hilton",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Steve_Hilton"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 1",
@@ -31,13 +43,20 @@
       "candidates": [
         {
           "name": "Mike McGuire",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mike_McGuire"
         },
         {
           "name": "James Gallagher",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/James_Gallagher_(California)"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 2",
@@ -46,13 +65,20 @@
       "candidates": [
         {
           "name": "Jared Huffman",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jared_Huffman"
         },
         {
           "name": "Robin Littau",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Robin_Littau"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 3",
@@ -61,13 +87,20 @@
       "candidates": [
         {
           "name": "Ami Bera",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ami_Bera"
         },
         {
           "name": "Robb Tucker",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Robb_Tucker"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 4",
@@ -76,13 +109,20 @@
       "candidates": [
         {
           "name": "Eric Jones",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Eric_Jones_(California)"
         },
         {
           "name": "Mike Thompson",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mike_Thompson_(California)"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 5",
@@ -91,13 +131,20 @@
       "candidates": [
         {
           "name": "Michael Masuda",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Michael_Masuda"
         },
         {
           "name": "Tom McClintock",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Tom_McClintock"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 6",
@@ -106,13 +153,20 @@
       "candidates": [
         {
           "name": "Richard Pan",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Richard_Pan"
         },
         {
           "name": "Kevin Kiley",
-          "party": "No Party Preference"
+          "party": "No Party Preference",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Kiley"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 7",
@@ -121,13 +175,20 @@
       "candidates": [
         {
           "name": "Doris Matsui",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Doris_Matsui"
         },
         {
           "name": "Mai Vang",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mai_Vang_(California)"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 8",
@@ -136,13 +197,20 @@
       "candidates": [
         {
           "name": "John Garamendi",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/John_Garamendi"
         },
         {
           "name": "Rudy Recile",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Rudy_Recile"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 9",
@@ -151,13 +219,20 @@
       "candidates": [
         {
           "name": "Josh Harder",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Josh_Harder"
         },
         {
           "name": "John McBride",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/John_McBride_(California)"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 10",
@@ -166,13 +241,20 @@
       "candidates": [
         {
           "name": "Mark DeSaulnier",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mark_DeSaulnier"
         },
         {
           "name": "Jeff Frese",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jeff_Frese"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 11",
@@ -181,13 +263,20 @@
       "candidates": [
         {
           "name": "Connie Chan",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Connie_Chan"
         },
         {
           "name": "Scott Wiener",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Scott_Wiener"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 12",
@@ -196,13 +285,20 @@
       "candidates": [
         {
           "name": "Jamie Joyce",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jamie_Joyce"
         },
         {
           "name": "Lateefah Simon",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Lateefah_Simon"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 13",
@@ -211,13 +307,20 @@
       "candidates": [
         {
           "name": "Adam Gray",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Adam_Gray"
         },
         {
           "name": "Kevin Lincoln",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Lincoln_II"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 14",
@@ -226,13 +329,20 @@
       "candidates": [
         {
           "name": "Melissa Hernandez",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Melissa_Hernandez"
         },
         {
           "name": "Aisha Wahab",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Aisha_Wahab"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 15",
@@ -241,13 +351,20 @@
       "candidates": [
         {
           "name": "Kevin Mullin",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Mullin_(California)"
         },
         {
           "name": "Charles Hoelter",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Charles_Hoelter"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 16",
@@ -256,13 +373,19 @@
       "candidates": [
         {
           "name": "Sam Liccardo",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sam_Liccardo"
         },
         {
           "name": "Peter Sundin Soulé",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 17",
@@ -271,13 +394,20 @@
       "candidates": [
         {
           "name": "Ro Khanna",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ro_Khanna"
         },
         {
           "name": "Ritesh Tandon",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ritesh_Tandon"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 18",
@@ -286,13 +416,20 @@
       "candidates": [
         {
           "name": "Zoe Lofgren",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Zoe_Lofgren"
         },
         {
           "name": "Shane Lewis",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Shane_Lewis"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 19",
@@ -301,13 +438,19 @@
       "candidates": [
         {
           "name": "Jimmy Panetta",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jimmy_Panetta"
         },
         {
           "name": "Peter Coe Verbica",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 20",
@@ -316,13 +459,20 @@
       "candidates": [
         {
           "name": "Sandra Van Scotter",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sandra_Van_Scotter"
         },
         {
           "name": "Vince Fong",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Vince_Fong"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 21",
@@ -331,13 +481,20 @@
       "candidates": [
         {
           "name": "Jim Costa",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jim_Costa"
         },
         {
           "name": "Kyle Kirkland",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kyle_Kirkland"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 22",
@@ -346,13 +503,20 @@
       "candidates": [
         {
           "name": "Randy Villegas",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Randy_Villegas_(California)"
         },
         {
           "name": "David G. Valadao",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/David_Valadao"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 23",
@@ -361,13 +525,20 @@
       "candidates": [
         {
           "name": "Tessa Lynn Hodge",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Tessa_Lynn_Hodge"
         },
         {
           "name": "Jay Obernolte",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jay_Obernolte"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 24",
@@ -376,13 +547,20 @@
       "candidates": [
         {
           "name": "Salud Carbajal",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Salud_Carbajal"
         },
         {
           "name": "Bob Smith",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Bob_Smith_(California's_24th_Congressional_District)"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 25",
@@ -391,13 +569,20 @@
       "candidates": [
         {
           "name": "Raul Ruiz",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Raul_Ruiz"
         },
         {
           "name": "Joe Males",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Joe_Males_(California)"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 26",
@@ -406,13 +591,19 @@
       "candidates": [
         {
           "name": "Jacqui Irwin",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jacqui_Irwin"
         },
         {
           "name": "Sam Gallucci",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 27",
@@ -421,13 +612,20 @@
       "candidates": [
         {
           "name": "George Whitesides",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/George_Whitesides"
         },
         {
           "name": "Jason Gibbs",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jason_Gibbs_(California)"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 28",
@@ -436,13 +634,20 @@
       "candidates": [
         {
           "name": "Judy Chu",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Judy_Chu"
         },
         {
           "name": "April A. Verlato",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/April_Verlato"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 29",
@@ -451,13 +656,20 @@
       "candidates": [
         {
           "name": "Angélica María Dueñas",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ang%C3%A9lica_Mar%C3%ADa_Due%C3%B1as"
         },
         {
           "name": "Luz Maria Rivas",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Luz_Maria_Rivas"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 30",
@@ -466,13 +678,19 @@
       "candidates": [
         {
           "name": "Laura Friedman",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Laura_Friedman"
         },
         {
           "name": "Scott Alan Meyers",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 31",
@@ -481,13 +699,20 @@
       "candidates": [
         {
           "name": "Gil Cisneros",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Gil_Cisneros"
         },
         {
           "name": "Eric Ching",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Eric_Ching"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 32",
@@ -496,13 +721,20 @@
       "candidates": [
         {
           "name": "Brad Sherman",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Brad_Sherman_(California)"
         },
         {
           "name": "Larry Thompson",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Larry_Thompson_(California)"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 33",
@@ -511,13 +743,20 @@
       "candidates": [
         {
           "name": "Pete Aguilar",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Pete_Aguilar"
         },
         {
           "name": "Stephanie M. Vargas",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Stephanie_Vargas"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 34",
@@ -526,13 +765,20 @@
       "candidates": [
         {
           "name": "Jimmy Gomez",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jimmy_Gomez"
         },
         {
           "name": "Angela Gonzales-Torres",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Angela_Gonzales-Torres"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 35",
@@ -541,13 +787,20 @@
       "candidates": [
         {
           "name": "Norma J. Torres",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Norma_Torres"
         },
         {
           "name": "Mike Cargile",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mike_Cargile"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 36",
@@ -556,13 +809,20 @@
       "candidates": [
         {
           "name": "Ted W. Lieu",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ted_Lieu"
         },
         {
           "name": "Houston Brignano",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Houston_Brignano"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 37",
@@ -571,13 +831,20 @@
       "candidates": [
         {
           "name": "Sydney Kamlager-Dove",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sydney_Kamlager-Dove"
         },
         {
           "name": "Samantha Mota",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Samantha_Mota"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 38",
@@ -586,13 +853,19 @@
       "candidates": [
         {
           "name": "Hilda Solis",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Hilda_Solis"
         },
         {
           "name": "Pedro Antonio Casas",
           "party": "Republican"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 39",
@@ -601,13 +874,20 @@
       "candidates": [
         {
           "name": "Mark Takano",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mark_Takano"
         },
         {
           "name": "Steve Manos",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Steve_Manos"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 40",
@@ -616,13 +896,20 @@
       "candidates": [
         {
           "name": "Ken Calvert",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ken_Calvert"
         },
         {
           "name": "Young Kim",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Young_Kim_(California)"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 41",
@@ -631,13 +918,20 @@
       "candidates": [
         {
           "name": "Linda Sánchez",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Linda_S%C3%A1nchez"
         },
         {
           "name": "Mitch Clemmons",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mitch_Clemmons"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 42",
@@ -646,13 +940,20 @@
       "candidates": [
         {
           "name": "Robert Garcia",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Robert_Garcia_(California)"
         },
         {
           "name": "Brian Burley",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Brian_Burley"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 43",
@@ -661,13 +962,20 @@
       "candidates": [
         {
           "name": "Maxine Waters",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Maxine_Waters"
         },
         {
           "name": "Cristian Morales",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Cristian_Morales"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 44",
@@ -680,9 +988,15 @@
         },
         {
           "name": "Genevieve Angel",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Genevieve_Angel"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 45",
@@ -691,13 +1005,20 @@
       "candidates": [
         {
           "name": "Derek Tran",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Derek_Tran"
         },
         {
           "name": "Chuong V. Vo",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Chuong_Vo"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 46",
@@ -706,13 +1027,20 @@
       "candidates": [
         {
           "name": "Lou Correa",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Lou_Correa"
         },
         {
           "name": "David Pan",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/David_Pan"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 47",
@@ -721,13 +1049,20 @@
       "candidates": [
         {
           "name": "Dave Min",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Dave_Min"
         },
         {
           "name": "Jenny Rae Le Roux",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jenny_Rae_Le_Roux"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 48",
@@ -736,13 +1071,20 @@
       "candidates": [
         {
           "name": "Marni von Wilpert",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Marni_von_Wilpert"
         },
         {
           "name": "Jim Desmond",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jim_Desmond"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 49",
@@ -751,13 +1093,20 @@
       "candidates": [
         {
           "name": "Mike Levin",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Mike_Levin"
         },
         {
           "name": "Armen Kurdian",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Armen_Kurdian"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 50",
@@ -766,13 +1115,20 @@
       "candidates": [
         {
           "name": "Scott Peters",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Scott_Peters"
         },
         {
           "name": "Steve Cohen",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Steve_Cohen_(California)"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 51",
@@ -781,13 +1137,20 @@
       "candidates": [
         {
           "name": "Sara Jacobs",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Sara_Jacobs"
         },
         {
           "name": "Ricardo Cabrera",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ricardo_Cabrera"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative District 52",
@@ -796,13 +1159,196 @@
       "candidates": [
         {
           "name": "Juan Vargas",
-          "party": "Democratic"
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Juan_Vargas"
         },
         {
           "name": "Jeff Belle",
-          "party": "Republican"
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jeff_Belle"
         }
-      ]
+      ],
+      "source": {
+        "name": "California Secretary of State, certified list of candidates for the November 3, 2026 general election",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "Lieutenant Governor of California",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Gloria J. Romero",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Gloria_J._Romero"
+        },
+        {
+          "name": "Fiona Ma",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Fiona_Ma"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Lieutenant Governor of California, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/California_lieutenant_gubernatorial_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of California",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Rob Bonta",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Rob_Bonta"
+        },
+        {
+          "name": "Michael Gates",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Michael_Gates_(California)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of California, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/California_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "California Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Shirley Weber",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Shirley_Weber"
+        },
+        {
+          "name": "Donald P. Wagner",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Donald_P._Wagner"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, California Secretary of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/California_Secretary_of_State_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "California Commissioner of Insurance",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Ben Allen",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Ben_Allen"
+        },
+        {
+          "name": "Jane Kim",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jane_Kim"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, California Commissioner of Insurance, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/California_Insurance_Commissioner_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "California Controller",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Malia Cohen",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Malia_Cohen"
+        },
+        {
+          "name": "Herb Morgan",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Herb_Morgan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, California Controller, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/California_Controller_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "California Superintendent of Public Instruction",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Richard Barrera",
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Richard_Barrera"
+        },
+        {
+          "name": "Sonja Shaw",
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Sonja_Shaw_(California)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, California Superintendent of Public Instruction, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/California_Superintendent_of_Public_Instruction_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "California Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Jennifer Hawks",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jennifer_Hawks"
+        },
+        {
+          "name": "Eleni Kounalakis",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Eleni_Kounalakis"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, California Treasurer, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/California_Treasurer_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "California Supreme Court",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Kelli M. Evans",
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Kelli_M._Evans"
+        },
+        {
+          "name": "Joshua Groban",
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Joshua_Groban"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, California Supreme Court, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/California_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

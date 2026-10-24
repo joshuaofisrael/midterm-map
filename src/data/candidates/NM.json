@@ -5,6 +5,11 @@
       "name": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
       "url": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
       "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Ballotpedia — New Mexico elections, 2026",
+      "url": "https://ballotpedia.org/New_Mexico_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -19,9 +24,15 @@
         },
         {
           "name": "LARRY E MARKER",
-          "party": "REP"
+          "party": "REP",
+          "ballotpedia": "https://ballotpedia.org/Larry_Marker"
         }
-      ]
+      ],
+      "source": {
+        "name": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+        "url": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative DISTRICT 1",
@@ -30,13 +41,19 @@
       "candidates": [
         {
           "name": "MELANIE ANN STANSBURY",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Melanie_Ann_Stansbury"
         },
         {
           "name": "NDIDIAMAKA EKWUA CHARLENE OKPAREKE",
           "party": "REP"
         }
-      ]
+      ],
+      "source": {
+        "name": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+        "url": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative DISTRICT 2",
@@ -49,9 +66,15 @@
         },
         {
           "name": "GABRIEL VASQUEZ",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Gabriel_Vasquez"
         }
-      ]
+      ],
+      "source": {
+        "name": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+        "url": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "United States Representative DISTRICT 3",
@@ -60,13 +83,19 @@
       "candidates": [
         {
           "name": "TERESA LEGER FERNANDEZ",
-          "party": "DEM"
+          "party": "DEM",
+          "ballotpedia": "https://ballotpedia.org/Teresa_Leger_Fernandez"
         },
         {
           "name": "MARTIN ZAMORA",
           "party": "REP"
         }
-      ]
+      ],
+      "source": {
+        "name": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+        "url": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Governor and Lieutenant Governor",
@@ -81,7 +110,122 @@
           "name": "DEB HAALAND AND STEPHANIE GARCIA RICHARD",
           "party": "DEM"
         }
-      ]
+      ],
+      "source": {
+        "name": "New Mexico Secretary of State, 2026 General Election Contest/Candidate List",
+        "url": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of New Mexico",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Raul Torrez",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Raul_Torrez"
+        },
+        {
+          "name": "Samuel Kane",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Samuel_Kane"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of New Mexico, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/New_Mexico_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "New Mexico Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Ramona Goolsby",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ramona_Goolsby"
+        },
+        {
+          "name": "Amanda Lopez Askin",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Amanda_Lopez_Askin"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, New Mexico Secretary of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/New_Mexico_Secretary_of_State_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "New Mexico State Auditor",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Joseph Maestas",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Joseph_Maestas"
+        },
+        {
+          "name": "Joshua Lawrence",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Joshua_Lawrence"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, New Mexico State Auditor, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/New_Mexico_Auditor_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "New Mexico Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Laura Montoya",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Laura_Montoya"
+        },
+        {
+          "name": "James Ellison",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/James_Ellison_(New_Mexico)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, New Mexico Treasurer, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/New_Mexico_Treasurer_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "New Mexico Supreme Court",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "David K. Thomson",
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/David_Thomson"
+        },
+        {
+          "name": "Shannon Bacon",
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Shannon_Bacon"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, New Mexico Supreme Court, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/New_Mexico_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

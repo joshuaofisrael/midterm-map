@@ -5,6 +5,8 @@ export type LocalCandidate = {
   name: string;
   party: string;
   mark?: string;
+  /** Verified https://ballotpedia.org/ profile. Omitted when none was verified. */
+  ballotpedia?: string;
 };
 
 export type LocalContest = {

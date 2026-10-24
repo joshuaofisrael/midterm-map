@@ -1,11 +1,533 @@
 {
-  "status": "unpublished",
+  "status": "published",
   "sources": [
     {
       "name": "Arizona Secretary of State — Elections",
       "url": "https://azsos.gov/elections",
       "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Ballotpedia — Arizona elections, 2026",
+      "url": "https://ballotpedia.org/Arizona_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
-  "contests": []
+  "contests": [
+    {
+      "office": "U.S. House Arizona District 1",
+      "kind": "house",
+      "district": "1",
+      "candidates": [
+        {
+          "name": "Jay Feely",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jay_Feely"
+        },
+        {
+          "name": "Amish Shah",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Amish_Shah"
+        },
+        {
+          "name": "Dev Gupta",
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Dev_Gupta"
+        },
+        {
+          "name": "Monica Alponte",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Monica_Alponte"
+        },
+        {
+          "name": "Gage Thunder",
+          "party": "No party preference",
+          "ballotpedia": "https://ballotpedia.org/Gage_Thunder"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Arizona District 1, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona's_1st_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Arizona District 2",
+      "kind": "house",
+      "district": "2",
+      "candidates": [
+        {
+          "name": "Eli Crane",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Eli_Crane"
+        },
+        {
+          "name": "Jonathan Nez",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jonathan_Nez"
+        },
+        {
+          "name": "Curtis Goodwin",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Curtis_Goodwin"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Arizona District 2, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona's_2nd_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Arizona District 3",
+      "kind": "house",
+      "district": "3",
+      "candidates": [
+        {
+          "name": "Yassamin Ansari",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Yassamin_Ansari"
+        },
+        {
+          "name": "Jacob Parkman",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Jacob_Parkman"
+        },
+        {
+          "name": "David Redkey",
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/David_Redkey"
+        },
+        {
+          "name": "Alan Aversa",
+          "party": "No Labels Party",
+          "ballotpedia": "https://ballotpedia.org/Alan_Aversa"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Arizona District 3, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona's_3rd_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Arizona District 4",
+      "kind": "house",
+      "district": "4",
+      "candidates": [
+        {
+          "name": "Greg Stanton",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Greg_Stanton"
+        },
+        {
+          "name": "Zuhdi Jasser",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Zuhdi_Jasser"
+        },
+        {
+          "name": "Tisha Benoit",
+          "party": "No Labels Party",
+          "ballotpedia": "https://ballotpedia.org/Tisha_Benoit"
+        },
+        {
+          "name": "Steven Sanders",
+          "party": "No Labels Party",
+          "ballotpedia": "https://ballotpedia.org/Steven_Sanders_(Arizona)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Arizona District 4, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona's_4th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Arizona District 5",
+      "kind": "house",
+      "district": "5",
+      "candidates": [
+        {
+          "name": "Mark Lamb",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Mark_Lamb"
+        },
+        {
+          "name": "Elizabeth Lee",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Elizabeth_Lee_(Arizona)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Arizona District 5, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona's_5th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Arizona District 6",
+      "kind": "house",
+      "district": "6",
+      "candidates": [
+        {
+          "name": "Juan Ciscomani",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Juan_Ciscomani"
+        },
+        {
+          "name": "JoAnna Mendoza",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/JoAnna_Mendoza"
+        },
+        {
+          "name": "Gary Swing",
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Gary_Swing"
+        },
+        {
+          "name": "Michael Dorland",
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/Michael_Dorland"
+        },
+        {
+          "name": "Jereme Peters",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Jereme_Peters"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Arizona District 6, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona's_6th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Arizona District 7",
+      "kind": "house",
+      "district": "7",
+      "candidates": [
+        {
+          "name": "Adelita Grijalva",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Adelita_Grijalva"
+        },
+        {
+          "name": "Daniel Butierez Sr.",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Daniel_Butierez_Sr."
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Arizona District 7, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona's_7th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Arizona District 8",
+      "kind": "house",
+      "district": "8",
+      "candidates": [
+        {
+          "name": "Abraham Hamadeh",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Abraham_Hamadeh"
+        },
+        {
+          "name": "Bernadette Greene Placentia",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Bernadette_Greene_Placentia"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Arizona District 8, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona's_8th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "U.S. House Arizona District 9",
+      "kind": "house",
+      "district": "9",
+      "candidates": [
+        {
+          "name": "Paul Gosar",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Paul_Gosar"
+        },
+        {
+          "name": "Danielle Sterbinsky",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Danielle_Sterbinsky"
+        },
+        {
+          "name": "G. Seville Hatch",
+          "party": "Independent",
+          "ballotpedia": "https://ballotpedia.org/G._Seville_Hatch"
+        },
+        {
+          "name": "William Perry",
+          "party": "Independent Party",
+          "ballotpedia": "https://ballotpedia.org/William_Perry_(Arizona)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, U.S. House Arizona District 9, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona's_9th_Congressional_District_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Governor of Arizona",
+      "kind": "governor",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Katie Hobbs",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Katie_Hobbs"
+        },
+        {
+          "name": "Andy Biggs",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Andy_Biggs"
+        },
+        {
+          "name": "Gertritrude Gonzalez",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Gertritrude_Gonzalez"
+        },
+        {
+          "name": "Alice Novoa",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Alice_Novoa"
+        },
+        {
+          "name": "Risa Lombardo",
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Risa_Lombardo"
+        },
+        {
+          "name": "Teri Hourihan",
+          "party": "No Labels Party",
+          "ballotpedia": "https://ballotpedia.org/Teri_Hourihan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Governor of Arizona, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Lieutenant Governor of Arizona",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Sine Kerr",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Sine_Kerr"
+        },
+        {
+          "name": "Lisa Castillo",
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Lisa_Castillo"
+        },
+        {
+          "name": "John Giles",
+          "party": "No party preference",
+          "ballotpedia": "https://ballotpedia.org/John_Giles"
+        },
+        {
+          "name": "Angela Harrolle Mohan",
+          "party": "No party preference",
+          "ballotpedia": "https://ballotpedia.org/Angela_Harrolle_Mohan"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Lieutenant Governor of Arizona, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of Arizona",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Kris Mayes",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Kris_Mayes"
+        },
+        {
+          "name": "Warren Petersen",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Warren_Petersen"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of Arizona, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Arizona Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Adrian Fontes",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Adrian_Fontes"
+        },
+        {
+          "name": "Alexander Kolodin",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Alexander_Kolodin"
+        },
+        {
+          "name": "Duwayne Collier",
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Duwayne_Collier"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Arizona Secretary of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona_Secretary_of_State_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Arizona State Mine Inspector",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Les Presmyk",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Les_Presmyk"
+        },
+        {
+          "name": "Brian Matlock",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Brian_Matlock_(Arizona)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Arizona State Mine Inspector, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona_Mine_Inspector_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Arizona Superintendent of Public Instruction",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Kimberly Yee",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kimberly_Yee"
+        },
+        {
+          "name": "Teresa Leyba Ruiz",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Teresa_Leyba_Ruiz_(Arizona)"
+        },
+        {
+          "name": "Gerard Davis",
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Gerard_Davis"
+        },
+        {
+          "name": "Stephen Neal Jr.",
+          "party": "No Labels Party",
+          "ballotpedia": "https://ballotpedia.org/Stephen_Neal_Jr."
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Arizona Superintendent of Public Instruction, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona_Superintendent_of_Public_Instruction_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Arizona Treasurer",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Elijah Norton",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Elijah_Norton"
+        },
+        {
+          "name": "Nick Mansour",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Nick_Mansour"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Arizona Treasurer, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona_Treasurer_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Arizona Corporation Commission",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Kevin Thompson",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Kevin_Thompson_(Arizona)"
+        },
+        {
+          "name": "Ralph Heap",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ralph_Heap"
+        },
+        {
+          "name": "Jonathon Hill",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Jonathon_Hill_(Arizona)"
+        },
+        {
+          "name": "Clara Pratte",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Clara_Pratte"
+        },
+        {
+          "name": "Mike Cease",
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Mike_Cease"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Arizona Corporation Commission, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona_Corporation_Commission_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Arizona Supreme Court",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "John Lopez IV",
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/John_Lopez_IV"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Arizona Supreme Court, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Arizona_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
+    }
+  ]
 }

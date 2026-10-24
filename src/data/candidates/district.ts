@@ -1,0 +1,1 @@
+export { districtNumber } from "./contestOrder";

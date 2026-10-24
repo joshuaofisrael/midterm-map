@@ -5,6 +5,11 @@
       "name": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
       "url": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
       "accessed": "October 17, 2026"
+    },
+    {
+      "name": "Ballotpedia — Minnesota elections, 2026",
+      "url": "https://ballotpedia.org/Minnesota_elections,_2026",
+      "accessed": "October 24, 2026"
     }
   ],
   "contests": [
@@ -15,21 +20,30 @@
       "candidates": [
         {
           "name": "Marisa Simonetti",
-          "party": "IND"
+          "party": "IND",
+          "ballotpedia": "https://ballotpedia.org/Marisa_Simonetti"
         },
         {
           "name": "Rebecca Whiting",
-          "party": "LIB"
+          "party": "LIB",
+          "ballotpedia": "https://ballotpedia.org/Rebecca_Whiting"
         },
         {
           "name": "Peggy Flanagan",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Peggy_Flanagan"
         },
         {
           "name": "Michele Tafoya",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Michele_Tafoya"
         }
-      ]
+      ],
+      "source": {
+        "name": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+        "url": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U.S. Representative District 1",
@@ -38,13 +52,20 @@
       "candidates": [
         {
           "name": "Jake Johnson",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Jake_Johnson_(Minnesota)"
         },
         {
           "name": "Brad Finstad",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Brad_Finstad"
         }
-      ]
+      ],
+      "source": {
+        "name": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+        "url": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U.S. Representative District 2",
@@ -53,13 +74,20 @@
       "candidates": [
         {
           "name": "Matt Little",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Matt_Little"
         },
         {
           "name": "Eric Pratt",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Eric_Pratt_(Minnesota)"
         }
-      ]
+      ],
+      "source": {
+        "name": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+        "url": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U.S. Representative District 3",
@@ -68,13 +96,20 @@
       "candidates": [
         {
           "name": "Tyler Bass",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Tyler_Bass"
         },
         {
           "name": "Kelly Morrison",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Kelly_Morrison"
         }
-      ]
+      ],
+      "source": {
+        "name": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+        "url": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U.S. Representative District 4",
@@ -83,13 +118,20 @@
       "candidates": [
         {
           "name": "Betty McCollum",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Betty_McCollum"
         },
         {
           "name": "Paul Wikstrom",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Paul_Wikstrom"
         }
-      ]
+      ],
+      "source": {
+        "name": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+        "url": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U.S. Representative District 5",
@@ -98,17 +140,25 @@
       "candidates": [
         {
           "name": "Ilhan Omar",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Ilhan_Omar"
         },
         {
           "name": "John Nagel",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/John_Nagel"
         },
         {
           "name": "DeVelle L. Jackson",
-          "party": "IND"
+          "party": "IND",
+          "ballotpedia": "https://ballotpedia.org/DeVelle_Jackson"
         }
-      ]
+      ],
+      "source": {
+        "name": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+        "url": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U.S. Representative District 6",
@@ -117,13 +167,20 @@
       "candidates": [
         {
           "name": "Tom Emmer",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Tom_Emmer"
         },
         {
           "name": "Doug Chapin",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Doug_Chapin"
         }
-      ]
+      ],
+      "source": {
+        "name": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+        "url": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U.S. Representative District 7",
@@ -132,13 +189,20 @@
       "candidates": [
         {
           "name": "Michelle Fischbach",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Michelle_Fischbach"
         },
         {
           "name": "Erik Osberg",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Erik_Osberg"
         }
-      ]
+      ],
+      "source": {
+        "name": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+        "url": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "U.S. Representative District 8",
@@ -147,13 +211,20 @@
       "candidates": [
         {
           "name": "Pete Stauber",
-          "party": "R"
+          "party": "R",
+          "ballotpedia": "https://ballotpedia.org/Pete_Stauber"
         },
         {
           "name": "Trina Swanson",
-          "party": "DFL"
+          "party": "DFL",
+          "ballotpedia": "https://ballotpedia.org/Trina_Swanson"
         }
-      ]
+      ],
+      "source": {
+        "name": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+        "url": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+        "accessed": "October 17, 2026"
+      }
     },
     {
       "office": "Governor & Lt Governor",
@@ -172,7 +243,127 @@
           "name": "Lisa Demuth and Ryan Wilson",
           "party": "R"
         }
-      ]
+      ],
+      "source": {
+        "name": "Minnesota Secretary of State, candidate file cand.txt for the November 3, 2026 election",
+        "url": "https://electionresultsfiles.sos.mn.gov/20261103/cand.txt",
+        "accessed": "October 17, 2026"
+      }
+    },
+    {
+      "office": "Attorney General of Minnesota",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Keith Ellison",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Keith_Ellison_(Minnesota)"
+        },
+        {
+          "name": "Ron Schutz",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Ron_Schutz"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Attorney General of Minnesota, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Minnesota_Attorney_General_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Minnesota Secretary of State",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Steve Simon",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Steve_Simon_(Minnesota)"
+        },
+        {
+          "name": "Tad Jude",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Tad_Jude"
+        },
+        {
+          "name": "Seth Kuhl-Stennes",
+          "party": "Green",
+          "ballotpedia": "https://ballotpedia.org/Seth_Kuhl-Stennes"
+        },
+        {
+          "name": "Chip Tangen",
+          "party": "Libertarian",
+          "ballotpedia": "https://ballotpedia.org/Chip_Tangen"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Minnesota Secretary of State, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Minnesota_Secretary_of_State_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Minnesota State Auditor",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Scott Jensen",
+          "party": "Republican",
+          "ballotpedia": "https://ballotpedia.org/Scott_Jensen_(Minnesota)"
+        },
+        {
+          "name": "Zack Filipovich",
+          "party": "Democratic",
+          "ballotpedia": "https://ballotpedia.org/Zack_Filipovich"
+        },
+        {
+          "name": "Jay Reeves",
+          "party": "Forward Independence Party",
+          "ballotpedia": "https://ballotpedia.org/Jay_Reeves_(Minnesota)"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Minnesota State Auditor, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Minnesota_Auditor_election,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Minnesota Supreme Court Seat 1",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Sarah E. Hennesy",
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Sarah_E._Hennesy"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Minnesota Supreme Court Seat 1, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Minnesota_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
+    },
+    {
+      "office": "Minnesota Supreme Court Seat 4",
+      "kind": "statewide",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Paul Thissen",
+          "party": "Nonpartisan",
+          "ballotpedia": "https://ballotpedia.org/Paul_Thissen"
+        }
+      ],
+      "source": {
+        "name": "Ballotpedia, Minnesota Supreme Court Seat 4, 2026 general-election candidate list",
+        "url": "https://ballotpedia.org/Minnesota_Supreme_Court_elections,_2026",
+        "accessed": "October 24, 2026"
+      }
     }
   ]
 }

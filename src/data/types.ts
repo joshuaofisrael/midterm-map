@@ -115,6 +115,8 @@ export interface Candidate {
   image?: CandidateImage;
   links: CandidateLink[];
   sources: Citation[];
+  /** Verified https://ballotpedia.org/ profile. Omitted when none was verified. */
+  ballotpedia?: string;
 }
 
 export interface RaceRating {
