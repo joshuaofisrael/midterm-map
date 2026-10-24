@@ -3,7 +3,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CopyrightNotice } from "@/components/CopyrightNotice";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
-import { AFFILIATE, affiliateEnabled, EMAIL_SIGNUP, emailSignupEnabled, tipJarEnabled } from "@/data/monetization";
+import { AFFILIATE, affiliateEnabled, tipJarEnabled } from "@/data/monetization";
 import { SITE } from "@/data/site";
 import { LEGAL } from "@/data/legalEntity";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
@@ -14,7 +14,7 @@ import { GOOGLE_ADS_POLICIES_URL } from "@/lib/adsense";
 export const metadata = pageMetadata({
   title: "Privacy Policy",
   description:
-    `Privacy practices for ${SITE.name} (Joshua Israel Ventures LLC): no accounts, browser-only ZIP lookup, a FormSubmit contact form, cookieless Cloudflare Web Analytics, Google Analytics only with your consent, GitHub Pages hosting logs, optional tips through Stripe, email alert and affiliate link terms, no sale of personal information, and your privacy rights.`,
+    `Privacy practices for ${SITE.name} (Joshua Israel Ventures LLC): no accounts, browser-only ZIP lookup, a FormSubmit contact form, election-night update emails, cookieless Cloudflare Web Analytics, Google Analytics only with your consent, GitHub Pages hosting logs, optional tips through Stripe, affiliate link terms, no sale of personal information, and your privacy rights.`,
   path: "/privacy",
 });
 
@@ -35,13 +35,11 @@ const GITHUB_PRIVACY = "https://docs.github.com/en/site-policy/privacy-policies/
 
 export default function PrivacyPage() {
   const tips = tipJarEnabled();
-  const signup = emailSignupEnabled();
   const affiliates = affiliateEnabled();
   const affiliateRetailers = [
     AFFILIATE.bookshopId.trim() ? "Bookshop.org" : "",
     AFFILIATE.amazonTag.trim() ? "Amazon" : "",
   ].filter(Boolean);
-  const providerName = EMAIL_SIGNUP.provider.trim();
   return (
     <div className="mx-auto max-w-3xl">
       <JsonLd
@@ -63,7 +61,8 @@ export default function PrivacyPage() {
           {LEGAL.location} (“we,” “us”). {SITE.name} is a static informational website. It has no
           user accounts and no comments. It loads Google AdSense, which may serve ads and use cookies
           (see “Advertising” below).
-          {signup ? " It offers an optional election-night email alert." : " It has no email sign-up form."}
+          {" "}
+          It offers an optional “Get election-night updates” form.
           {affiliates ? " Some pages contain disclosed affiliate links." : " It has no affiliate links."}
           {tips
             ? " Readers can leave an optional tip, which is processed by Stripe on Stripe’s own payment page."
@@ -80,13 +79,10 @@ export default function PrivacyPage() {
 
         <h2>What the site collects, at a glance</h2>
         <ul>
-          {signup && (
-            <li>
-              Election night results alert: the email address you enter, stored with
-              {providerName ? ` ${providerName}` : " our email provider"}, added only after you
-              confirm through a double opt-in email.
-            </li>
-          )}
+          <li>
+            Election-night updates: the email address you enter in the “Get election-night updates”
+            form. We collect it only to send election updates. You can ask us to remove it.
+          </li>
           {tips && (
             <li>
               Tips: payment details are collected by Stripe on its own Payment Link page; we receive
@@ -143,9 +139,8 @@ export default function PrivacyPage() {
             </li>
           )}
           <li>
-            {signup
-              ? "If you sign up for the election-night alert, we use your email address only for that alert and occasional site updates. We never sell it."
-              : "We do not collect email addresses through the site unless you email us or use the contact form."}
+            If you sign up for election-night updates, we use your email address only to send those
+            updates. You can ask us to remove it. We never sell it.
           </li>
         </ul>
 
@@ -290,36 +285,18 @@ export default function PrivacyPage() {
           </>
         )}
 
-        <h2>Election night results alert (email sign-up)</h2>
-        {signup ? (
-          <p>
-            Some pages offer an optional “Election night results alert.” If you sign up, we collect
-            your email address. It is stored with our email service provider
-            {providerName ? `, ${providerName}` : ""}
-            {EMAIL_SIGNUP.providerPrivacyUrl.trim() ? (
-              <>
-                {" "}(see its{" "}
-                <a href={EMAIL_SIGNUP.providerPrivacyUrl} rel="noopener noreferrer">privacy policy</a>)
-              </>
-            ) : null}
-            , and used only to send one email with links to official results on election night
-            (November 3, 2026) and occasional updates about this site. Sign-up uses double opt-in:
-            you are not added until you confirm through the link in a confirmation email. Every email
-            includes an unsubscribe link, and you can unsubscribe at any time. We never sell or rent
-            the list. Email providers may record delivery information and whether messages are
-            opened or links clicked, as described in their privacy policies.
-          </p>
-        ) : (
-          <p>
-            We may offer an optional “Election night results alert.” No sign-up form is live on the
-            site today. If we add one and you choose to sign up, we will collect only your email
-            address, store it with a third-party email service provider named at signup, and use it
-            only for the election-night alert and occasional site updates. Sign-up will use double
-            opt-in (you confirm through a link in a confirmation email), every email will include an
-            unsubscribe link, and we will never sell or rent the list. We will update this policy to
-            name the provider before a form goes live.
-          </p>
-        )}
+        <h2 id="election-updates">Election-night updates</h2>
+        <p>
+          Some pages offer an optional “Get election-night updates” form. If you submit it, we
+          collect your email address only to send election updates. We do not use that address for
+          any other purpose. The form includes a consent checkbox that is not pre-checked. It is
+          processed by <a href={FORMSUBMIT_URL} rel="noopener noreferrer">FormSubmit</a>, the same
+          service as the contact form, and it posts to a FormSubmit alias so the inbox address is
+          not part of the form’s web address. FormSubmit emails the address to {LEGAL.legalName}.
+          FormSubmit’s <a href={FORMSUBMIT_PRIVACY} rel="noopener noreferrer">privacy policy</a>{" "}
+          applies to that delivery. The address can be removed on request through the{" "}
+          <Link href="/contact">contact form</Link>.
+        </p>
 
         <h2 id="advertising">Advertising</h2>
         <p>
@@ -395,7 +372,7 @@ export default function PrivacyPage() {
           <li>To let Google AdSense serve and measure ads, as described under Advertising</li>
           <li>To respond to messages you send</li>
           {tips && <li>To process, record, and if needed refund tips, and to keep required tax and accounting records</li>}
-          {signup && <li>To send the election-night alert and occasional site updates you signed up for</li>}
+          <li>To send election updates to an email address you submitted for that purpose</li>
           <li>To comply with law or protect our rights where required</li>
         </ul>
         <p>
@@ -410,7 +387,9 @@ export default function PrivacyPage() {
           We keep emails for as long as needed to respond and for ordinary business records, and we
           delete them when they are no longer needed.
           {tips ? " We keep tip records for as long as tax and accounting rules require (generally up to seven years)." : ""}
-          {signup ? " We keep alert subscribers’ email addresses until they unsubscribe or ask us to delete them." : ""}{" "}
+          {" "}
+          We keep an election-update email address only while we may send those updates, and we
+          remove it when you ask.{" "}
           Google keeps Google Analytics data under the retention setting in our Google Analytics
           account (no longer than 14 months for user-level data). Cloudflare and GitHub keep analytics and security logs, and Stripe keeps payment records,
           under their own retention practices; we do not hold copies of Cloudflare’s or GitHub’s logs.
@@ -427,10 +406,12 @@ export default function PrivacyPage() {
           AdSense, visitors in the European Economic Area, the United Kingdom, and Switzerland are
           asked through Google’s consent message before advertising cookies are used.
           {tips ? " For tips, the legal basis is processing needed to take your payment and to meet tax and accounting obligations." : ""}
-          {signup ? " For the email alert, the legal basis is your consent, which you can withdraw at any time by unsubscribing." : ""}{" "}
-          Information is processed in the United States by us and by our service providers
-          (Cloudflare, GitHub, FormSubmit for contact form messages, Google for analytics, advertising, and email we receive{tips ? ", Stripe for tips" : ""}
-          {signup ? ", and our email alert provider" : ""}). Subject to the conditions in
+          {" "}
+          For election-night updates, the legal basis is your consent, which you can withdraw by
+          asking us to remove your email address. Information is processed in the United States by
+          us and by our service providers (Cloudflare, GitHub, FormSubmit for contact form messages
+          and election-night update sign-ups, Google for analytics, advertising, and email we
+          receive{tips ? ", Stripe for tips" : ""}). Subject to the conditions in
           those laws, you may ask to access, correct, delete, or restrict our use of your personal
           information, object to our use of it, or receive a copy of it. You may also complain to
           your local data-protection authority, such as the UK Information Commissioner’s Office.
@@ -457,7 +438,7 @@ export default function PrivacyPage() {
           any other privacy request and tell us what you are asking for. Because we do not have accounts, we usually hold no
           personal information about visitors other than emails and contact form messages they have sent us
           {tips ? ", records of tips" : ""}
-          {signup ? ", and alert subscribers’ email addresses" : ""}. We may need to
+          , and email addresses submitted for election-night updates. We may need to
           confirm that a request comes from the person the information is about, and we will
           respond within the time the applicable law requires. Requests about Cloudflare’s,
           GitHub’s, Google’s, or Stripe’s own records may need to go to those companies.

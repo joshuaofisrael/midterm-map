@@ -18,6 +18,9 @@
 # Generated at build from Census place files.
 /public/place-search/
 
+# Generated Open Graph cards (scripts/write-og-images.mjs).
+/public/og/
+
 # production
 /build
 

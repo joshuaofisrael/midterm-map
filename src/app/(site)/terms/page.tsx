@@ -3,7 +3,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CopyrightNotice } from "@/components/CopyrightNotice";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
-import { affiliateEnabled, emailSignupEnabled, tipJarEnabled } from "@/data/monetization";
+import { affiliateEnabled, tipJarEnabled } from "@/data/monetization";
 import { SITE } from "@/data/site";
 import { LEGAL } from "@/data/legalEntity";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
@@ -17,7 +17,6 @@ export const metadata = pageMetadata({
 
 export default function TermsPage() {
   const tips = tipJarEnabled();
-  const signup = emailSignupEnabled();
   const affiliates = affiliateEnabled();
   return (
     <div className="mx-auto max-w-3xl">
@@ -111,9 +110,10 @@ export default function TermsPage() {
 
         <h2>Email alerts</h2>
         <p>
-          {signup
-            ? "If you sign up for the election night results alert, you agree to receive the emails described at sign-up: one email with links to official results on election night and occasional site updates. You can unsubscribe at any time using the link in every email. See the privacy policy for how your email address is handled."
-            : "The site does not currently offer an email sign-up. If we add an optional election night results alert and you sign up, you will receive only the emails described at sign-up and can unsubscribe at any time using the link in every email."}
+          If you use the “Get election-night updates” form, you agree that we may email you election
+          updates. We collect that email address only to send those updates. You can ask us to
+          remove it through the contact form. The <Link href="/privacy/#election-updates">privacy policy</Link>{" "}
+          describes how the address is handled.
         </p>
 
         <h2>Affiliate links and advertising</h2>

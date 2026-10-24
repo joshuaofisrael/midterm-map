@@ -10,6 +10,9 @@ import { PageHeader } from "@/components/PageHeader";
 import { RaceCard } from "@/components/RaceCard";
 import { StateCandidates } from "@/components/StateCandidates";
 import { KeyDatesSection } from "@/components/ElectionDates";
+import { EmailSignup } from "@/components/EmailSignup";
+import { MapTheGeneral } from "@/components/MapTheGeneral";
+import { ShareBar } from "@/components/ShareBar";
 import { ballotCycleFor } from "@/data/ballotCycle";
 import {
   electionDatesFor,
@@ -25,6 +28,7 @@ import type { StateProfile } from "@/data/types";
 import { contentUpdatedLabel } from "@/lib/contentDate";
 import { faqJsonLd } from "@/lib/format";
 import { VISUALS } from "@/data/visuals";
+import { stateHubOg } from "@/lib/ogCard";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
@@ -36,10 +40,12 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   const state = getState(code);
   if (!state) return {};
   const dates = electionDatesFor(state.code);
+  const card = stateHubOg(state.code, state.name);
   return pageMetadata({
     title: stateHubTitle(state.name, dates),
     description: stateHubDescription(state, dates),
     path: `/states/${state.code}`,
+    image: { url: card.url, alt: card.alt },
   });
 }
 
@@ -78,6 +84,8 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
         officeLabel={state.officialElectionOffice.label}
       />
       <OfficialNotice compact />
+      <ShareBar path={`/states/${state.code}`} title={`${state.name} 2026 midterms`} />
+      <MapTheGeneral />
       <StateCandidates code={state.code} stateName={state.name} />
 
       <section className="grid gap-4 md:grid-cols-2">
@@ -181,7 +189,12 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
         </article>
       </section>
 
-      <KeyDatesSection state={state} dates={electionDatesFor(state.code)} />
+      <KeyDatesSection
+        stateCode={state.code}
+        officeLabel={state.officialElectionOffice.label}
+        officeHref={state.officialElectionOffice.href}
+        dates={electionDatesFor(state.code)}
+      />
 
       {state.officialVoterLinks && state.officialVoterLinks.length > 0 && (
         <section id="official-links" className="rounded-xl border border-line bg-paper-card p-5">
@@ -271,6 +284,7 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
           </Link>
         </p>
       </section>
+      <EmailSignup />
       <CrossLinks state={state.code} />
       <TipJar />
     </div>

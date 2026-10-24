@@ -13,21 +13,32 @@ function read(rel) {
   return readFileSync(path.join(root, rel), "utf8");
 }
 
-const client = read("src/components/LiveResults.tsx");
-if (client.includes("raw.githubusercontent.com")) {
-  errors.push("LiveResults.tsx fetches GitHub from the browser");
+const feed = read("src/lib/liveFeed.ts");
+if (feed.includes("raw.githubusercontent.com")) {
+  errors.push("liveFeed.ts fetches GitHub from the browser");
 }
-if (/cache:\s*"no-store"/.test(client)) {
-  errors.push("LiveResults.tsx bypasses HTTP caching");
+if (/cache:\s*"no-store"/.test(feed)) {
+  errors.push("liveFeed.ts bypasses HTTP caching");
 }
-if (!client.includes('"/live/results.json"') && !client.includes("'/live/results.json'")) {
-  errors.push("LiveResults.tsx must read /live/results.json");
+if (!feed.includes('"/live/results.json"') && !feed.includes("'/live/results.json'")) {
+  errors.push("liveFeed.ts must read /live/results.json");
 }
-if (!client.includes("60_000") && !client.includes("60000")) {
-  errors.push("LiveResults.tsx must poll at most every 60 seconds");
+if (!feed.includes("?t=")) {
+  errors.push("liveFeed.ts must cache-bust the results file with a query string");
 }
-if (client.includes("googletagmanager.com")) {
-  errors.push("LiveResults.tsx must not load a third-party script");
+if (!feed.includes("60_000") && !feed.includes("60000")) {
+  errors.push("liveFeed.ts must poll at most every 60 seconds");
+}
+if (feed.includes("googletagmanager.com")) {
+  errors.push("liveFeed.ts must not load a third-party script");
+}
+for (const file of ["src/components/LiveResults.tsx", "src/components/LiveNeedles.tsx"]) {
+  const source = read(file);
+  if (!source.includes("subscribeLive")) errors.push(`${file} must read the shared static JSON feed`);
+  if (source.includes("fetch(")) errors.push(`${file} must not fetch on its own`);
+  if (source.includes("raw.githubusercontent.com") || source.includes("googletagmanager.com")) {
+    errors.push(`${file} must not call a third party`);
+  }
 }
 
 const layout = read("src/components/GoogleAnalytics.tsx");

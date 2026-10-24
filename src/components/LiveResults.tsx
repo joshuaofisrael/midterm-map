@@ -1,52 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
-/** Same-origin file. The browser must not call GitHub or a state election API. */
-const RESULTS_URL = "/live/results.json";
-const STORAGE_KEY = "mtm-live-results-v1";
-/** Poll at most once a minute. The query bucket is that same minute so a CDN can cache it. */
-const POLL_MS = 60_000;
-
-interface LiveCandidate {
-  name: string;
-  partyLabel: string;
-  votes: number;
-  percentText: string | null;
-  winner: boolean;
-}
-
-interface LiveRace {
-  siteSlug: string | null;
-  office: string;
-  district: string | null;
-  title: string;
-  precinctsReporting: number | null;
-  precinctsTotal: number | null;
-  reportingLabel: string | null;
-  certified: boolean;
-  candidates: LiveCandidate[];
-}
-
-interface LiveStateFile {
-  code: string;
-  name: string;
-  office: string;
-  resultsUrl: string;
-  resultsLabel: string;
-  machineReadable: boolean;
-  feedStatus: string;
-  feedNote: string;
-  sourceUpdatedAt: string | null;
-  fetchedAt: string | null;
-  races: LiveRace[];
-}
-
-interface LivePayload {
-  generatedAt: string;
-  electionDay?: string;
-  states: Record<string, LiveStateFile>;
-}
+import { subscribeLive, type LiveRace, type LiveSnapshot, type LiveStateFile } from "@/lib/liveFeed";
 
 export interface LiveSource {
   code: string;
@@ -240,59 +195,11 @@ export function LiveResults({
   raceSlugs?: string[];
   ballotpediaBySlug?: Record<string, Record<string, string>>;
 }) {
-  const [payload, setPayload] = useState<LivePayload | null>(null);
-  const [now, setNow] = useState<number | null>(null);
-  const [stale, setStale] = useState(false);
+  const [snapshot, setSnapshot] = useState<LiveSnapshot>({ payload: null, now: null, stale: false });
 
-  useEffect(() => {
-    let stop = false;
-    let generation = 0;
-    async function load() {
-      if (document.hidden) return;
-      const id = ++generation;
-      setNow(Date.now());
-      // One URL per minute. Visitors share that URL, so the edge can cache it.
-      // Default cache mode honors Cache-Control. Do not send Cache-Control: no-store.
-      const bucket = Math.floor(Date.now() / POLL_MS);
-      try {
-        const response = await fetch(`${RESULTS_URL}?t=${bucket}`);
-        if (!response.ok) throw new Error(String(response.status));
-        const json = (await response.json()) as LivePayload;
-        if (json?.electionDay !== "2026-11-03") throw new Error("election day");
-        if (stop || id !== generation) return;
-        setPayload(json);
-        setStale(false);
-        try {
-          localStorage.setItem(STORAGE_KEY, JSON.stringify(json));
-        } catch {
-          /* private mode */
-        }
-        return;
-      } catch {
-        /* the same-origin file did not load */
-      }
-      if (stop || id !== generation) return;
-      setStale(true);
-      try {
-        const saved = localStorage.getItem(STORAGE_KEY);
-        const parsed = saved ? (JSON.parse(saved) as LivePayload) : null;
-        if (parsed?.electionDay === "2026-11-03") setPayload(parsed);
-      } catch {
-        /* keep the last in-memory copy */
-      }
-    }
-    void load();
-    const timer = window.setInterval(() => void load(), POLL_MS);
-    function onVisible() {
-      if (!document.hidden) void load();
-    }
-    document.addEventListener("visibilitychange", onVisible);
-    return () => {
-      stop = true;
-      window.clearInterval(timer);
-      document.removeEventListener("visibilitychange", onVisible);
-    };
-  }, []);
+  useEffect(() => subscribeLive(setSnapshot), []);
+
+  const { payload, now, stale } = snapshot;
 
   return (
     <div className="space-y-4" aria-live="polite">

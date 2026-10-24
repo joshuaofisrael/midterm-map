@@ -28,7 +28,7 @@ export function CivicImage({
           width={asset.width}
           height={asset.height}
           loading={priority ? "eager" : "lazy"}
-          fetchPriority={priority ? "high" : "auto"}
+          fetchPriority={priority ? "high" : "low"}
           decoding="async"
           className="aspect-video w-full object-cover"
         />

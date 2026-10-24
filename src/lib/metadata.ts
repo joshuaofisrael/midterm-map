@@ -13,12 +13,16 @@ export function pageMetadata(input: {
   description: string;
   path: string;
   index?: boolean;
+  image?: { url: string; alt: string };
 }): Metadata {
   const isHome = input.title === SITE.name;
   const socialTitle = isHome
     ? `${SITE.name} · 2026 U.S. midterms voter information`
     : `${input.title} · ${SITE.name}`;
   const url = absoluteUrl(input.path);
+  const image = input.image
+    ? { url: input.image.url, width: 1200, height: 630, alt: input.image.alt }
+    : OG_IMAGE;
 
   return {
     title: isHome ? { absolute: socialTitle } : input.title,
@@ -32,13 +36,13 @@ export function pageMetadata(input: {
       siteName: SITE.name,
       type: "website",
       locale: "en_US",
-      images: [OG_IMAGE],
+      images: [image],
     },
     twitter: {
       card: "summary_large_image",
       title: socialTitle,
       description: input.description,
-      images: [OG_IMAGE.url],
+      images: [image.url],
     },
   };
 }

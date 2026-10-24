@@ -8,6 +8,9 @@
 /visuals/*
   Cache-Control: public, max-age=2592000
 
+/og/*
+  Cache-Control: public, max-age=2592000
+
 /candidates/*
   Cache-Control: public, max-age=2592000
 

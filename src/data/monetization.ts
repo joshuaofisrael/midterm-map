@@ -28,11 +28,15 @@ export type EmailSignupConfig = {
   hiddenFields: Record<string, string>;
 };
 
+/**
+ * Unused. Election-night updates post to the FormSubmit alias in src/data/contact.ts.
+ * Leave action empty so this config cannot collect a second list.
+ */
 export const EMAIL_SIGNUP: EmailSignupConfig = {
-  provider: "Kit",
-  providerPrivacyUrl: "https://kit.com/privacy",
-  action: "https://app.kit.com/forms/10018291/subscriptions",
-  emailField: "email_address",
+  provider: "",
+  providerPrivacyUrl: "",
+  action: "",
+  emailField: "email",
   hiddenFields: {},
 };
 

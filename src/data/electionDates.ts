@@ -153,9 +153,13 @@ export const DATES_CHECKED_ON = "October 6, 2026";
 /** States in the deadlines table that do not have a state hub page. */
 export const DEADLINE_ONLY_STATES: { code: StateCode; name: string }[] = [];
 
-/** Plain-language caveat shown wherever the browser markers appear. */
-export const MARKER_NOTE =
-  "“Passed,” “Deadline today,” “In progress,” and “Upcoming” markers use only the date on the device. They ignore cutoff times and the state’s time zone, so a deadline marked for today may already have closed. The marker is not an official cutoff.";
+export {
+  DEADLINE_CATEGORY_LABEL,
+  MARKER_NOTE,
+  VOTING_DEADLINES_PATH,
+  stateKeyDatesHref,
+  votingDeadlinesStateHref,
+} from "./deadlineLabels";
 
 
 export const ELECTION_DATES: StateElectionDates[] = [
@@ -2546,15 +2550,6 @@ export function electionDatesFor(code: StateCode): StateElectionDates {
   return entry;
 }
 
-export const DEADLINE_CATEGORY_LABEL: Record<DeadlineCategory, string> = {
-  registration: "Voter registration",
-  early: "Early or in-person absentee voting",
-  "mail-request": "Mail or absentee ballot request",
-  "mail-return": "Mail or absentee ballot return",
-};
-
-export const VOTING_DEADLINES_PATH = "/voting-deadlines";
-
 /** True when this state stores a sourced fact in the category. Omitted rows do not count. */
 export function hasSourcedDeadline(
   dates: StateElectionDates,
@@ -2568,12 +2563,3 @@ export function hasSourcedMailDeadline(dates: StateElectionDates): boolean {
   return hasSourcedDeadline(dates, "mail-request") || hasSourcedDeadline(dates, "mail-return");
 }
 
-/** Deep link to one state's row on the voting-deadlines page. Trailing slash matches GitHub Pages. */
-export function votingDeadlinesStateHref(code: StateCode): string {
-  return `${VOTING_DEADLINES_PATH}/#${code}`;
-}
-
-/** Deep link to the key-dates section on a state hub. */
-export function stateKeyDatesHref(code: StateCode): string {
-  return `/states/${code}/#key-dates`;
-}

@@ -2,6 +2,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BallotCandidates } from "@/components/BallotCandidates";
 import { BallotLookup } from "@/components/BallotLookup";
+import { EmailSignup } from "@/components/EmailSignup";
+import { MapTheGeneral } from "@/components/MapTheGeneral";
+import { ShareBar } from "@/components/ShareBar";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentTrust } from "@/components/ContentTrust";
 import { CrossLinks } from "@/components/CrossLinks";
@@ -21,6 +24,7 @@ import { getState, isStateCode, STARTER_STATES } from "@/data/states";
 import { contentUpdatedLabel } from "@/lib/contentDate";
 import { faqJsonLd } from "@/lib/format";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
+import { ballotOg } from "@/lib/ogCard";
 import type { RaceGuide, StateProfile } from "@/data/types";
 
 export function generateStaticParams() {
@@ -32,12 +36,14 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   const state = getState(code);
   if (!state) return {};
   const cycle = ballotCycleFor(state.code);
+  const card = ballotOg(state.code, state.name);
   return pageMetadata({
     title: cycle ? `${state.name} ballot, November 3, 2026` : `${state.name} 2026 sample ballot structure`,
     description: cycle
       ? `${cycle.shortLead} Dates and measure titles cite official sources. Not an official ballot.`
       : `Structured 2026 sample-ballot sections for ${state.name}, with official ${state.officialElectionOffice.label} and Vote.gov links. Not an official ballot.`,
     path: `/ballot/${state.code}`,
+    image: { url: card.url, alt: card.alt },
   });
 }
 
@@ -82,6 +88,8 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
         officeLabel={state.officialElectionOffice.label}
       />
       <OfficialNotice />
+      <ShareBar path={`/ballot/${state.code}`} title={`${state.name} ballot, November 3, 2026`} />
+      <MapTheGeneral />
       <BallotCandidates code={state.code} stateName={state.name} />
       <LivePanel stateCode={state.code} />
       <BallotLookup initialState={state.code} />
@@ -102,6 +110,7 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
           ))}
         </dl>
       </section>
+      <EmailSignup />
       <CrossLinks state={state.code} />
     </div>
   );

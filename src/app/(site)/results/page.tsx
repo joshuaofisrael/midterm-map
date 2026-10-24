@@ -3,7 +3,7 @@ import { BallotpediaLink } from "@/components/BallotpediaLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { InfoNote } from "@/components/InfoNote";
 import { ContentTrust } from "@/components/ContentTrust";
-import { ControlMeter } from "@/components/ControlMeter";
+import { LiveNeedles } from "@/components/LiveNeedles";
 import { CrossLinks } from "@/components/CrossLinks";
 import { EmailSignup } from "@/components/EmailSignup";
 import { JsonLd } from "@/components/JsonLd";
@@ -15,10 +15,8 @@ import { StatusChip } from "@/components/StatusChip";
 import { getRace, RACES } from "@/data/races";
 import {
   ADDITIONAL_RESULT_SLUGS,
-  HOUSE_METER,
   isPreElection,
   KEY_RESULT_SLUGS,
-  SENATE_METER,
   resultShellForRace,
   resultShellHasReturns,
   stateResultsPath,
@@ -97,10 +95,7 @@ export default function ResultsPage() {
       <LivePanel raceSlugs={RACES.map((race) => race.slug)} />
       <EmailSignup prominent />
 
-      <div className="grid gap-4 lg:grid-cols-2">
-        <ControlMeter meter={HOUSE_METER} />
-        <ControlMeter meter={SENATE_METER} />
-      </div>
+      <LiveNeedles />
 
       <section>
         <h2 className="font-serif text-2xl font-semibold">Key races</h2>

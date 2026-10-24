@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { BallotLookup } from "@/components/BallotLookup";
+import { MapTheGeneral } from "@/components/MapTheGeneral";
+import { ShareBar } from "@/components/ShareBar";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentTrust } from "@/components/ContentTrust";
 import { CrossLinks } from "@/components/CrossLinks";
@@ -47,6 +49,8 @@ export default function BallotIndexPage() {
       />
       <ContentTrust updated={contentUpdatedLabel("/ballot")} pagePath="/ballot" />
       <OfficialNotice />
+      <ShareBar path="/ballot" title="2026 ballot lookup" />
+      <MapTheGeneral />
       <div id="ballot-lookup">
         <BallotLookup />
       </div>

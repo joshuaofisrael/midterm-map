@@ -249,6 +249,8 @@ function coreSitemap(): MetadataRoute.Sitemap {
     "/advertising",
     "/contact",
     "/contact/thanks",
+    "/updates/thanks",
+    "/embed/map",
   ];
 
   const statePaths = STARTER_STATES.flatMap((state) => [

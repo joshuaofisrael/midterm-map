@@ -3,6 +3,9 @@ import { BallotLookup } from "@/components/BallotLookup";
 import { CivicImage } from "@/components/CivicImage";
 import { ZipPlaceSearchSection } from "@/components/ZipPlaceSearchSection";
 import { EmailSignup } from "@/components/EmailSignup";
+import { EmbedSnippet } from "@/components/EmbedSnippet";
+import { MapTheGeneral } from "@/components/MapTheGeneral";
+import { ShareBar } from "@/components/ShareBar";
 import { FurtherReading } from "@/components/FurtherReading";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
@@ -92,6 +95,8 @@ export default function HomePage() {
         </div>
       </section>
       <OfficialNotice />
+      <ShareBar path="/" title={SITE.name} />
+      <MapTheGeneral />
 
       <section>
         <h2 className="font-serif text-2xl font-semibold">Find a starter sample ballot</h2>
@@ -224,6 +229,7 @@ export default function HomePage() {
       </section>
 
       <EmailSignup />
+      <EmbedSnippet />
       <FurtherReading />
       <TipJar />
     </div>

@@ -3,6 +3,8 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { InfoNote } from "@/components/InfoNote";
 import { ContentTrust } from "@/components/ContentTrust";
 import { EmailSignup } from "@/components/EmailSignup";
+import { MapTheGeneral } from "@/components/MapTheGeneral";
+import { ShareBar } from "@/components/ShareBar";
 import { JsonLd } from "@/components/JsonLd";
 import { liveSourceRows } from "@/components/LivePanel";
 import { LiveResults } from "@/components/LiveResults";
@@ -65,6 +67,8 @@ export default function LivePage() {
       </PageHeader>
       <ContentTrust updated={contentUpdatedLabel("/live")} pagePath="/live" />
       <OfficialNotice />
+      <ShareBar path="/live" title="2026 election night results" />
+      <MapTheGeneral />
 
       <section className="rounded-xl border border-line bg-paper-card p-5 text-sm leading-6">
         <h2 className="font-serif text-xl font-semibold">How to read this page</h2>
