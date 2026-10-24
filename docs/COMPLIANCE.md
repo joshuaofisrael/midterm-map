@@ -12,6 +12,7 @@ This document is an **internal owner checklist**. It is **not legal advice** and
 
 ### Ownership and identity
 - [x] LLC legal name and mailing address stay on the legal pages (terms, disclaimer, privacy, copyright, advertising, contact), not in the header, banner, hero, trust line, or footer
+- [x] The only © line is on terms, privacy, disclaimer, copyright, and advertising: “© 2026 Joshua Israel Ventures LLC. All rights reserved. Map the Midterms is a trade name of Joshua Israel Ventures LLC, a Florida limited liability company.” Header, footer, hero, and other pages, including Census city and county pages, have no © line
 - [x] Organization and WebSite JSON-LD use “Map the Midterms” as the publisher name
 - [x] Brand relationship to the LLC is stated on the legal pages, not in the public footer
 - [x] Sunbiz document number stays on the legal pages and as the Organization identifier; it is not repeated in the sitewide footer
@@ -96,6 +97,10 @@ Terms now include use at your own risk, indemnification, opinions as the site’
 Candidate and certified write-in names on race guides and city pages are copied from official election-office lists for identification. This pass did not find an accusation against a private individual and did not delete those names.
 
 City and race Event JSON-LD is one election-day event per page. Per-contest Event nodes were removed. `endDate` is the state’s poll-close instant from `pollClose.ts`. The organizer is the state election office (`GovernmentOrganization`). The image is the existing `/og.jpg` card. Performer and offers are omitted. The national event on `/live/` does not name the LLC as organizer of the election.
+
+## October 24, 2026 — copyright line
+
+The sitewide footer and the Census place footer no longer carry a © line. Terms, privacy, disclaimer, copyright, and advertising each end with the LLC copyright line above. There is no separate imprint or legal-notice route. The Florida governing-law paragraph on `/terms` is unchanged. Organization JSON-LD still names Map the Midterms as the publisher. `ads.txt` is unchanged.
 
 ## What counsel should still review
 

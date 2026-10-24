@@ -22,10 +22,10 @@ export const SITE = {
     "This is not an official government, secretary of state, or county election site, and it is not affiliated with any government or election authority. Confirm your sample ballot, districts, and voting rules with your state or county election office.",
   lastUpdated: "October 6, 2026",
   /** Last substantive change to /disclaimer. Change only when that page changes. */
-  legalLastUpdated: "October 23, 2026",
-  /** Last substantive change to /terms. Change only when that page changes. */
-  policyLastUpdated: "October 23, 2026",
-  privacyLastUpdated: "October 23, 2026",
+  legalLastUpdated: "October 24, 2026",
+  /** Last substantive change to /terms, /copyright, and /advertising. Change only when those pages change. */
+  policyLastUpdated: "October 24, 2026",
+  privacyLastUpdated: "October 24, 2026",
   voteGovUrl: "https://www.vote.gov/",
 } as const;
 

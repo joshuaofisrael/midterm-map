@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { CopyrightNotice } from "@/components/CopyrightNotice";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { affiliateEnabled, emailSignupEnabled, tipJarEnabled } from "@/data/monetization";
@@ -267,6 +268,7 @@ export default function TermsPage() {
           <Link href="/advertising">advertising disclosure</Link>, and the{" "}
           <Link href="/copyright">copyright and corrections</Link> page.
         </p>
+        <CopyrightNotice />
       </div>
     </div>
   );

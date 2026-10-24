@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { CopyrightNotice } from "@/components/CopyrightNotice";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { AFFILIATE, affiliateEnabled, EMAIL_SIGNUP, emailSignupEnabled, tipJarEnabled } from "@/data/monetization";
@@ -460,6 +461,7 @@ export default function PrivacyPage() {
           <Link href="/disclaimer">disclaimer</Link>, <Link href="/terms">terms of use</Link>, and{" "}
           <Link href="/advertising">advertising disclosure</Link>.
         </p>
+        <CopyrightNotice />
       </div>
     </div>
   );
