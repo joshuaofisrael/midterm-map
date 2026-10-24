@@ -4,13 +4,14 @@ import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { affiliateEnabled, tipJarEnabled } from "@/data/monetization";
 import { SITE } from "@/data/site";
+import { GOOGLE_ADS_POLICIES_URL } from "@/lib/adsense";
 import { LEGAL } from "@/data/legalEntity";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
   title: "Advertising and affiliate disclosure",
   description:
-    `Advertising and affiliate disclosure for ${SITE.name}: no ad script is loaded today, no paid political advertising, no candidate endorsements, and affiliate links are disclosed if they are added.`,
+    `Advertising and affiliate disclosure for ${SITE.name}: Google AdSense may serve ads and use cookies. No paid political ads or candidate endorsements.`,
   path: "/advertising",
 });
 
@@ -27,7 +28,7 @@ export default function AdvertisingPage() {
       />
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "Advertising" }]} />
       <PageHeader
-        eyebrow={`Last updated ${SITE.policyLastUpdated}`}
+        eyebrow={`Last updated ${SITE.advertisingLastUpdated}`}
         title="Advertising and affiliate disclosure"
         lede={`How ${SITE.name} handles ads, affiliate links, and endorsements.`}
       />
@@ -41,16 +42,19 @@ export default function AdvertisingPage() {
 
         <h2>Advertising</h2>
         <p>
-          No advertising script is loaded on this site today. Google AdSense is not running. The file{" "}
-          <a href="/ads.txt">ads.txt</a> lists one Google AdSense publisher ID (
-          <code>pub-5681559774142917</code>) so Google can verify the site if AdSense is turned on
-          later. Ezoic and Adsterra are not running and are not listed in that file.
+          {SITE.name} may show advertisements from Google AdSense. Google and its partners may use
+          cookies to serve and measure those ads. Google describes that use in{" "}
+          <a href={GOOGLE_ADS_POLICIES_URL} rel="noopener noreferrer">
+            Google’s advertising policies
+          </a>
+          . The file <a href="/ads.txt">ads.txt</a> lists one Google AdSense publisher ID (
+          <code>pub-5681559774142917</code>). Ezoic and Adsterra are not running and are not listed in
+          that file. We do not write a candidate’s ad, and an ad is not an endorsement by{" "}
+          {LEGAL.legalName} of the advertiser, a candidate, a party, or a ballot measure.
         </p>
         <p>
-          If we turn on Google AdSense or another advertising network, we will update this page, the
-          privacy policy, and <a href="/ads.txt">ads.txt</a> first. Ads would come from that network.
-          We do not write a candidate’s ad, and an ad is not an endorsement by {LEGAL.legalName} of the
-          advertiser, a candidate, a party, or a ballot measure.
+          If we add another advertising network, we will update this page, the privacy policy, and{" "}
+          <a href="/ads.txt">ads.txt</a> first.
         </p>
 
         <h2>No paid political advertising</h2>
@@ -66,18 +70,18 @@ export default function AdvertisingPage() {
         <h2>No endorsements of candidates</h2>
         <p>
           Nothing on this site is an endorsement of a candidate, party, ticket, or ballot measure.
-          Party labels are for identification only. An advertisement, if one is shown later, and an
-          affiliate link, if one is shown, are not endorsements.
+          Party labels are for identification only. An advertisement, and an affiliate link if one
+          is shown, are not endorsements.
         </p>
 
         <h2>Cookies and Google’s EU/UK/CH consent message</h2>
         <p>
-          No advertising cookie is set today. Google Analytics cookies load only if you click Accept,
-          as the <Link href="/privacy/#google-analytics">privacy policy</Link> explains. Cloudflare Web
-          Analytics is cookieless. If Google AdSense is turned on, Google may use cookies to serve and
-          measure ads, and visitors in the European Economic Area, the United Kingdom, and Switzerland
-          would see Google’s EU/UK/CH consent message before personalized ads. That message is not
-          shown today, because no advertising script loads.
+          Google AdSense may use cookies to serve and measure ads. Visitors in the European Economic
+          Area, the United Kingdom, and Switzerland get Google’s consent message through the AdSense
+          script before those advertising cookies are used. Google Analytics cookies still load only
+          if you click Accept, through this site’s consent script, as the{" "}
+          <Link href="/privacy/#google-analytics">privacy policy</Link> explains. That analytics
+          choice does not replace Google’s consent message. Cloudflare Web Analytics is cookieless.
         </p>
 
         <h2>Affiliate links</h2>

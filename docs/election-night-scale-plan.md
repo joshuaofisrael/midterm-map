@@ -121,7 +121,7 @@ How to read the limit: `100 GB / bytes per pageview` is how many uncached pagevi
 
 ## Privacy and ads.txt
 
-`/privacy` names Cloudflare Web Analytics, Google Analytics 4 (measurement ID `G-Q9FB3RS751`, script only after Accept), and the ad networks Google AdSense, Ezoic, and Adsterra. No AdSense, Ezoic, or Adsterra script is loaded. `/ads.txt` is `google.com, pub-5681559774142917, DIRECT, f08c47fec0942fa0` and is served from `public/ads.txt`. Ezoic and Adsterra are not in that file. If an ad script is added later, update `/privacy` and `/ads.txt` first.
+`/privacy` names Cloudflare Web Analytics, Google Analytics 4 (measurement ID `G-Q9FB3RS751`, script only after Accept), and the ad networks Google AdSense, Ezoic, and Adsterra. The Google AdSense loader (`adsbygoogle.js`, client `ca-pub-5681559774142917`) and the `google-adsense-account` meta tag are on every HTML page, including city, county, and redirect pages. No ad unit is placed. Ezoic and Adsterra scripts are not loaded. `/ads.txt` is `google.com, pub-5681559774142917, DIRECT, f08c47fec0942fa0` and is served from `public/ads.txt`. Ezoic and Adsterra are not in that file. Analytics consent stays in `consent.js`. Google’s EU/UK/CH consent message is delivered by the AdSense loader.
 
 ## Fallback: move the site off GitHub Pages
 

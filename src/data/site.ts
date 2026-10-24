@@ -9,7 +9,7 @@ export const SITE = {
   name: "Map the Midterms",
   tagline: "A voter information utility for the 2026 U.S. midterms",
   description:
-    "Sourced 2026 U.S. midterm voter information: sample-ballot sketches, Senate and governor race guides, published polls, key general-election dates, and a results tracker. Informational only. Not an official election website.",
+    "Sourced 2026 U.S. midterm voter information: sample-ballot sketches, race guides, polls, key dates, and a results tracker. Not an official election website.",
   url: publicSiteUrl(),
   electionDayLabel: "Tuesday, November 3, 2026",
   electionDayIso: "2026-11-03",
@@ -25,7 +25,9 @@ export const SITE = {
   legalLastUpdated: "October 23, 2026",
   /** Last substantive change to /terms. Change only when that page changes. */
   policyLastUpdated: "October 23, 2026",
-  privacyLastUpdated: "October 23, 2026",
+  privacyLastUpdated: "October 24, 2026",
+  /** Last substantive change to /advertising. Change only when that page changes. */
+  advertisingLastUpdated: "October 24, 2026",
   voteGovUrl: "https://www.vote.gov/",
 } as const;
 
