@@ -4,9 +4,6 @@ import { STARTER_STATES } from "@/data/states";
 import { STRIPE_TIP_URL, tipJarEnabled } from "@/data/monetization";
 import { CookieChoicesButton } from "@/components/GoogleAnalytics";
 
-/** Copyright line names the site. The operating company is named on the legal pages. */
-const COPYRIGHT_YEAR = 2026;
-
 export function SiteFooter() {
   return (
     <footer className="mt-16 border-t border-line bg-navy-deep text-white">
@@ -76,10 +73,7 @@ export function SiteFooter() {
               </span>
             ))}
           </p>
-          <p className="mt-4 text-sm font-medium leading-6 text-white">
-            {`© ${COPYRIGHT_YEAR} ${SITE.name}. All rights reserved.`}
-          </p>
-          <nav aria-label="Legal" className="mt-2 text-sm leading-6 text-white/90">
+          <nav aria-label="Legal" className="mt-4 text-sm leading-6 text-white/90">
             {FOOTER_LEGAL_LINKS.map((item) => (
               <span key={item.href}>
                 <Link className="underline hover:text-white" href={item.href}>
