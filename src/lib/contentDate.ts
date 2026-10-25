@@ -90,6 +90,8 @@ function ballotStateLabels(code: StateCode): string[] {
     if (race.chamber !== "senate" && race.chamber !== "governor") continue;
     labels.push(...race.candidates.flatMap((candidate) => accessed(candidate.sources)));
   }
+  const local = localFile(code);
+  if (local?.accessed) labels.push(local.accessed);
   return labels;
 }
 

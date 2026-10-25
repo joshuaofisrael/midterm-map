@@ -1,0 +1,137 @@
+{
+  "accessed": "October 25, 2026",
+  "date": {
+    "quote": "November 3, 2026",
+    "text": "City lines are copied from the official list linked for that place. County lines are copied from the official list linked for that county. Those lists are for the November 3, 2026 general election."
+  },
+  "localIntro": "City ballot questions below are copied from the official list linked for this place. That list does not print candidate names for these questions.",
+  "local": {
+    "4260000": [
+      {
+        "office": "Question #1. Proposed Charter Change. Should the Philadelphia Home Rule Charter be amended to revise the City’s contracting procedures to allow for bid preferences and set-asides for small businesses; modify the threshold and standards for contracts that can be set aside for small and local businesses; and grant the Procurement Department and the City Solicitor discretion on bond requirements for certain construction projects?",
+        "key": null,
+        "candidates": []
+      },
+      {
+        "office": "Question #2. Proposed Charter Change. Shall the Philadelphia Home Rule Charter be amended to establish and define the functions of Creative Philadelphia, an office headed by the Chief Cultural Officer to promote the City’s arts, culture, and creative economy sector?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "4207992": [
+      {
+        "office": "Proposed amendment to the Borough of Braddock Home Rule Charter. Shall Article 2, Section 204 of the Home Rule Charter of the Borough of Braddock be amended to provide that Borough Council members shall receive compensation on a per-meeting basis based on their attendance at twelve (12) regularly scheduled annual Borough Council meetings subject to excused absences?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "4220432": [
+      {
+        "office": "City of Duquesne proposed Home Rule Charter special election question. Shall the Home Rule Charter contained in the report, dated July 20, 2026, of the Government Study Commission, prepared in accordance with the Home Rule Charter and Optional Plans Law, be adopted by the City of Duquesne?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "4259040": [
+      {
+        "office": "Proposed amendment to the Municipality of Penn Hills Home Rule Charter. Shall the Penn Hills Home Rule Charter be amended to clarify the process for appointing an Acting or Interim Municipal Manager by distinguishing between a temporary absence of the Manager and a vacancy in the office of Manager, and to authorize Council to designate an Acting or Interim Manager in the event of a vacancy?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "4246792": [
+      {
+        "office": "Malvern Borough: Home Rule Charter Referendum. Shall the Home Rule Charter of the Borough of Malvern be amended to reduce the number of Members of Council from seven (7) to five (5) members, effective January 3, 2028, so that two (2) Members of Council are elected in 2027 and every four (4) years thereafter, and three (3) Members of Council are elected in 2029 and every four (4) years thereafter?",
+        "key": null,
+        "candidates": []
+      }
+    ]
+  },
+  "localPlace": {
+    "4260000": {
+      "sources": [
+        {
+          "name": "Philadelphia City Commissioners, proposed charter change questions, 2026 general election",
+          "url": "https://vote.phila.gov/media/2026G_Ballot_Questions.pdf",
+          "accessed": "October 25, 2026"
+        },
+        {
+          "name": "Philadelphia City Commissioners, candidates for office, November 3, 2026",
+          "url": "https://vote.phila.gov/voting/candidates-for-office/",
+          "accessed": "October 25, 2026"
+        }
+      ],
+      "note": "Question 1 was submitted by Bill No. 260457, which became law June 23, 2026, and Resolution No. 260467, adopted June 4, 2026. Question 2 was submitted by Bill No. 260264-A, which became law June 23, 2026, and Resolution No. 260270, adopted June 11, 2026. The candidates-for-office page names Governor and Lieutenant Governor, Representative in Congress, Senator in the General Assembly, and Representative in the General Assembly. It does not name a mayor or city council contest."
+    },
+    "4207992": {
+      "sources": [
+        {
+          "name": "Allegheny County Elections Division, ballot referenda, November 2026 general election",
+          "url": "https://www.alleghenycounty.us/files/assets/county/v/4/government/elections/documents/ballot-questions-november-2026-general-election-8-19-2026.pdf",
+          "accessed": "October 25, 2026"
+        }
+      ],
+      "note": "The question sentence is copied from the county ballot-referenda file. The file also prints an explanation of the question."
+    },
+    "4220432": {
+      "sources": [
+        {
+          "name": "Allegheny County Elections Division, ballot referenda, November 2026 general election",
+          "url": "https://www.alleghenycounty.us/files/assets/county/v/4/government/elections/documents/ballot-questions-november-2026-general-election-8-19-2026.pdf",
+          "accessed": "October 25, 2026"
+        }
+      ],
+      "note": "The question sentence is copied from the county ballot-referenda file. The file also prints an explanation of the question."
+    },
+    "4259040": {
+      "sources": [
+        {
+          "name": "Allegheny County Elections Division, ballot referenda, November 2026 general election",
+          "url": "https://www.alleghenycounty.us/files/assets/county/v/4/government/elections/documents/ballot-questions-november-2026-general-election-8-19-2026.pdf",
+          "accessed": "October 25, 2026"
+        }
+      ],
+      "note": "The question sentence is copied from the county ballot-referenda file. The file also prints an explanation of the question."
+    },
+    "4246792": {
+      "sources": [
+        {
+          "name": "Chester County, official list of referendum questions, November 3, 2026 general election, list updated September 14, 2026",
+          "url": "https://www.chesco.org/DocumentCenter/View/85854/CHESTER_2026-GENERAL_OFFICIAL-LIST-OF-REFERENDUMS",
+          "accessed": "October 25, 2026"
+        }
+      ],
+      "note": "The question sentence is copied from the county referendum list. The same list also prints East Whiteland Township and Tredyffrin Township questions. Those townships are not Census places in this file, so those questions are not copied onto another place."
+    }
+  },
+  "localByCounty": {
+    "Allegheny County": [
+      {
+        "office": "Proposed amendment to the County of Allegheny Home Rule Charter. Shall Article III, Subsection 7(c) of Allegheny County's Home Rule Charter be repealed in order to remove restrictions on County Council members' ability to receive County funding for personal staff, district offices, and fringe benefits?",
+        "key": null,
+        "candidates": []
+      }
+    ],
+    "Delaware County": [
+      {
+        "office": "REFERENDUM: DELAWARE COUNTY WATER QUALITY, NATURAL AREAS, AND WILDLIFE HABITAT PROTECTION. Shall debt in the maximum principal amount of up to $120 million be authorized for purposes of financing land conservation, including protecting drinking water sources, water quality in rivers and creeks, wildlife habitat, conserving trees to protect air quality, conserving wetlands to prevent flooding, providing greenways and parks, protecting natural areas from development, and related costs, to be incurred by the County as debt approved by the voters, requiring public disclosure and annual independent audits?",
+        "key": null,
+        "candidates": []
+      }
+    ]
+  },
+  "countyRead": {
+    "Allegheny County": {
+      "label": "Allegheny County Elections Division, ballot referenda, November 2026 general election",
+      "href": "https://www.alleghenycounty.us/files/assets/county/v/4/government/elections/documents/ballot-questions-november-2026-general-election-8-19-2026.pdf",
+      "intro": "The Allegheny County ballot-referenda file for the November 2026 general election prints this county question.",
+      "note": "The question sentence is copied from that file. The file also prints an explanation. Borough of Braddock, City of Duquesne, and Municipality of Penn Hills questions in the same file are printed on those places, not on every place in the county. The file does not name a City of Pittsburgh question."
+    },
+    "Delaware County": {
+      "label": "Delaware County, official general election sample ballot, Chester Township Precinct 03, November 3, 2026, preview dated September 8, 2026",
+      "href": "https://www.delcopa.gov/sites/default/files/media/CHESTER_TWP_PRECINCT_03_NOV-2026.pdf",
+      "intro": "The Delaware County sample ballot for Chester Township Precinct 03 prints this county referendum addressed to the voters of Delaware County.",
+      "note": "The referendum title and question are copied from that sample ballot. Governor, Representative in Congress, and Representative in the General Assembly on that ballot are not copied."
+    }
+  }
+}
