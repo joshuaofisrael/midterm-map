@@ -60,7 +60,13 @@ export function raceSeoDescription(shortTitle: string, stateCode: string): strin
  * election office, which administers the election. Image is this site's
  * existing Open Graph card, not a photograph of the polling place.
  */
-function eventNode(input: { name: string; placeId: string; about: string; stateCode: string; image?: string }) {
+function eventNode(input: {
+  name: string;
+  place: Record<string, unknown>;
+  about: string;
+  stateCode: string;
+  image?: string;
+}) {
   const office = electionOfficeFor(input.stateCode);
   const endDate = pollCloseIso(input.stateCode);
   const node: Record<string, unknown> = {
@@ -69,7 +75,12 @@ function eventNode(input: { name: string; placeId: string; about: string; stateC
     startDate: SITE.electionDayIso,
     eventStatus: "https://schema.org/EventScheduled",
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-    location: { "@id": input.placeId },
+    // Inline Place (name + address): Google's Event parser does not resolve @id references.
+    location: {
+      "@type": "Place",
+      name: input.place.name,
+      address: input.place.address,
+    },
     description: input.about,
     image: input.image ?? `${SITE.url}/og.jpg`,
     organizer: {
@@ -126,7 +137,7 @@ export function cityStructuredData(input: {
       placeNode,
       eventNode({
         name: `2026 Midterm Election in ${display}, ${input.stateCode}`,
-        placeId,
+        place: placeNode,
         about: `Informational page for the November 3, 2026 general election in ${display}, ${input.stateCode}. Not a forecast and not an official election website.`,
         stateCode: input.stateCode,
       }),
@@ -155,6 +166,16 @@ export function raceStructuredData(input: {
 }) {
   const url = absoluteUrl(input.path);
   const placeId = `${url}#place`;
+  const statePlace: Record<string, unknown> = {
+    "@type": "Place",
+    "@id": placeId,
+    name: input.stateName,
+    address: {
+      "@type": "PostalAddress",
+      addressRegion: input.stateCode,
+      addressCountry: "US",
+    },
+  };
   const graph: Record<string, unknown>[] = [
     {
       "@type": "Article",
@@ -169,19 +190,10 @@ export function raceStructuredData(input: {
       },
       description: `${input.shortTitle}. Informational only. Not an endorsement.`,
     },
-    {
-      "@type": "Place",
-      "@id": placeId,
-      name: input.stateName,
-      address: {
-        "@type": "PostalAddress",
-        addressRegion: input.stateCode,
-        addressCountry: "US",
-      },
-    },
+    statePlace,
     eventNode({
       name: input.title,
-      placeId,
+      place: statePlace,
       about: `${input.shortTitle}. Informational only. Not an endorsement.`,
       stateCode: input.stateCode,
       image: input.image,
