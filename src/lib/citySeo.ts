@@ -1,3 +1,4 @@
+import { EDITORIAL_TEAM } from "@/data/editorial";
 import { electionOfficeFor } from "@/data/electionOffices";
 import { pollCloseIso } from "@/data/pollClose";
 import type { PlaceRecord } from "@/data/places/load";
@@ -155,6 +156,19 @@ export function raceStructuredData(input: {
   const url = absoluteUrl(input.path);
   const placeId = `${url}#place`;
   const graph: Record<string, unknown>[] = [
+    {
+      "@type": "Article",
+      headline: input.title,
+      url,
+      mainEntityOfPage: url,
+      author: EDITORIAL_TEAM,
+      publisher: {
+        "@type": "Organization",
+        name: SITE.name,
+        url: absoluteUrl("/"),
+      },
+      description: `${input.shortTitle}. Informational only. Not an endorsement.`,
+    },
     {
       "@type": "Place",
       "@id": placeId,
