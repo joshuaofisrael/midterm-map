@@ -1,7 +1,6 @@
 import { Suspense } from "react";
 import { CONTACT_FORM_ACTION } from "@/data/contact";
 import { absoluteUrl, SITE } from "@/data/site";
-import { LEGAL } from "@/data/legalEntity";
 import { ReportedPageField } from "@/components/ReportedPageField";
 
 export { CONTACT_FORM_ACTION, FORMSUBMIT_PRIVACY, FORMSUBMIT_URL } from "@/data/contact";
@@ -54,7 +53,7 @@ export function ContactForm() {
       <p className="mt-3 text-sm leading-6 text-ink-muted">
         We use your name, email, and message only to reply, to correct an error you report, or to
         handle a privacy request. We do not add you to a mailing list. FormSubmit, a third-party
-        service, emails the message to {LEGAL.legalName}. See the{" "}
+        service, emails the message to Map the Midterms. See the{" "}
         <a className="underline" href="/privacy/#contact-form">
           privacy policy
         </a>
