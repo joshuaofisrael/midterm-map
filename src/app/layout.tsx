@@ -60,10 +60,8 @@ export const metadata: Metadata = {
     description: SITE.description,
     images: ["/og.jpg"],
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  // No site-wide robots tag: indexable is the default, and a root tag would
+  // sit beside the noindex Next.js adds to the 404 page.
   verification: {
     google: "9ieSMdsWZWScgZAWXuy7odaYr2pLMA4KjWETrT8f4Gs",
   },

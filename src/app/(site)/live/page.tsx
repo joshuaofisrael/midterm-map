@@ -33,8 +33,12 @@ const eventJsonLd = {
   eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
   eventStatus: "https://schema.org/EventScheduled",
   location: {
-    "@type": "Country",
+    "@type": "Place",
     name: "United States",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "US",
+    },
   },
   image: `${SITE.url}/og.jpg`,
   description:

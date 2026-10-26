@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Page not found",
   description:
     "That address is not a page on Map the Midterms. This site is an unofficial voter information utility and is not affiliated with any government or election authority.",
-  robots: { index: false, follow: true },
+  // No robots field: Next.js already emits noindex on the 404 page; a second tag duplicated it.
 };
 
 export default function NotFound() {
