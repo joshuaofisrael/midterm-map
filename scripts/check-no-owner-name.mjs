@@ -3,6 +3,8 @@
  * the export outside the legal pages. Candidate given names and the Texas
  * place named Joshua are not the company name and are not flagged.
  *
+ * Contact pages use the brand name; they may mention the company but are not
+ * required to.
  * Allowed pages for the company name and mailing address: /terms, /disclaimer,
  * /privacy, /copyright, /advertising, /contact (including /contact/thanks).
  *
@@ -53,7 +55,6 @@ const NAME_PAGES = [
   "privacy/index.html",
   "copyright/index.html",
   "advertising/index.html",
-  "contact/index.html",
 ];
 const ADDRESS_PAGES = [
   "terms/index.html",
