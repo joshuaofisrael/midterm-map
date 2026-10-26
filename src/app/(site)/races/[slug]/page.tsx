@@ -91,6 +91,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         lede={race.overview}
         visual={VISUALS.pollingSign}
       >
+        <p className="mt-3 text-sm font-medium text-ink">By Map the Midterms Editorial Team</p>
         <InfoNote />
         <SourceLines sources={race.sources} />
         <div className="mt-4 flex flex-wrap items-center gap-2">

@@ -1,9 +1,9 @@
 /**
  * FormSubmit alias for the public contact form.
- * The random-like string came from FormSubmit's activation email for
+ * The random-like string is FormSubmit's activated alias for
  * mapthemidterms.com. Keep the inbox address out of this URL.
  */
-export const FORMSUBMIT_ALIAS = "4497ee41a1200e746e967998473d21da";
+export const FORMSUBMIT_ALIAS = "6df5ef4d7f615ae7f765a3e8e238d41c";
 
 export const CONTACT_FORM_ACTION = `https://formsubmit.co/${FORMSUBMIT_ALIAS}`;
 

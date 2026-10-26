@@ -2,8 +2,9 @@ import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
+import { EDITORIAL_TEAM } from "@/data/editorial";
 import { tipJarEnabled } from "@/data/monetization";
-import { SITE } from "@/data/site";
+import { absoluteUrl, SITE } from "@/data/site";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -16,10 +17,20 @@ export default function AboutPage() {
   return (
     <div className="mx-auto max-w-3xl">
       <JsonLd
-        data={breadcrumbJsonLd([
-          { name: "Home", path: "/" },
-          { name: "About", path: "/about" },
-        ])}
+        data={[
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "About", path: "/about" },
+          ]),
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: `About ${SITE.name}`,
+            url: absoluteUrl("/about"),
+            author: EDITORIAL_TEAM,
+            isPartOf: { "@id": `${SITE.url}/#organization` },
+          },
+        ]}
       />
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "About" }]} />
       <PageHeader
@@ -27,6 +38,7 @@ export default function AboutPage() {
         title={`About ${SITE.name}`}
         lede="A voter information utility for the 2026 U.S. midterms."
       />
+      <p className="mb-6 text-sm font-medium text-ink">By Map the Midterms Editorial Team</p>
       <div className="prose-legal">
         <h2>What this site is</h2>
         <p>
