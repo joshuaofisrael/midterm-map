@@ -102,8 +102,10 @@ export function ZipPlaceSearch({ scopeName }: { scopeName?: string }) {
         </button>
       </div>
       <p id={helpId} className="mt-3 text-sm leading-6 text-ink-muted">
-        The full ZIP stays in this browser. Search loads a public file for the first three digits
-        from this site only. The ZIP is not stored and is not sent to a third-party service.
+        Census place lookup stays in this browser. The page address, query string, and fragment
+        stay unchanged. Search loads /zcta/ plus the first three digits and .json from this site
+        only, then uses the five-digit ZIP as the key for a row in that file. The ZIP is not written
+        to local storage, session storage, or a cookie, and it is not sent to a third-party service.
         {scopeName
           ? ` Results are national and can include places outside ${scopeName}.`
           : ""}
