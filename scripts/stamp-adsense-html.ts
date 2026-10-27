@@ -7,7 +7,7 @@
  */
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import path from "node:path";
-import { ensureAdsenseHead } from "../src/lib/adsense.ts";
+import { adsAllowedForPath, isRedirectStub, stampAdsenseHead } from "../src/lib/adsense.ts";
 
 const OUT = path.join(process.cwd(), "out");
 
@@ -30,7 +30,10 @@ function walk(dir: string) {
     if (!name.endsWith(".html")) continue;
     scanned++;
     const before = readFileSync(full, "utf8");
-    const after = ensureAdsenseHead(before);
+    const rel = "/" + path.relative(OUT, full).split(path.sep).join("/");
+    const sitePath = rel.endsWith("/index.html") ? rel.slice(0, -"index.html".length) : rel;
+    const allow = !isRedirectStub(before) && adsAllowedForPath(sitePath);
+    const after = stampAdsenseHead(before, allow);
     if (after === before) {
       skipped++;
       continue;

@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { AdSlot } from "@/components/AdSlot";
+import { cityIsThin } from "@/lib/cityThin";
 import { InfoNote } from "@/components/InfoNote";
 import { CityCandidates } from "@/components/CityCandidates";
 import { CityLocal } from "@/components/CityLocal";
@@ -50,6 +50,7 @@ export async function generateMetadata({
     title: citySeoTitle(state.code, place, kind),
     description: citySeoDescription(state.code, state.name, place),
     path: `/cities/${state.code}/${place.slug}`,
+    index: !cityIsThin(state.code, place),
   });
 }
 
@@ -121,7 +122,6 @@ export default async function CityPage({
       <InfoNote city />
       <CityCandidates code={state.code} place={place} />
       <CityLocal code={state.code} place={place} />
-      <AdSlot id="city-top" height={90} />
 
       {aliases.length > 0 || misspellings.length > 0 ? (
         <section>
@@ -183,7 +183,6 @@ export default async function CityPage({
       </section>
 
       <CityVoting code={state.code} stateName={state.name} />
-      <AdSlot id="city-bottom" height={250} />
       <CityRelated code={state.code} stateName={state.name} place={place} />
 
       <JurisdictionLinks code={state.code} name={state.name} />

@@ -44,6 +44,30 @@ export function headHasAdsense(head: string): boolean {
  * Includes redirect stubs. Leaves non-documents (no head) unchanged.
  * Strips a mangled copy of the same tags so the exact pair appears once.
  */
+/**
+ * AdSense policy: the ad loader runs only on substantive, first-party pages.
+ * Templated census-place/county pages, the live page (third-party embeds), embeds,
+ * forms, legal pages, and the 404 get the account meta tag only, never the loader.
+ * Paths are site-relative directories, e.g. "/states/pa/".
+ */
+const AD_PATH_PREFIXES = ["/states/", "/races/", "/results/", "/voting-deadlines/", "/ballot/", "/updates/", "/sources/", "/about/", "/live/"];
+
+export function adsAllowedForPath(sitePath: string): boolean {
+  const p = sitePath.endsWith("/") ? sitePath : `${sitePath}/`;
+  if (p === "/") return true;
+  return AD_PATH_PREFIXES.some((prefix) => p.startsWith(prefix));
+}
+
+/** Meta tag always; loader only when allowed; strips any loader when not allowed. */
+export function stampAdsenseHead(html: string, allowAds: boolean): string {
+  if (htmlHead(html) === null) return html;
+  const stripped = html
+    .replace(/<meta\b[^>]*\bgoogle-adsense-account\b[^>]*>\s*/gi, "")
+    .replace(/<script\b[^>]*\badsbygoogle\.js\b[^>]*>\s*<\/script>\s*/gi, "");
+  const tags = allowAds ? ADSENSE_HEAD_TAGS : ADSENSE_META_TAG;
+  return stripped.replace(/<\/head>/i, `${tags}\n</head>`);
+}
+
 export function ensureAdsenseHead(html: string): string {
   if (htmlHead(html) === null) return html;
   if (headHasAdsense(htmlHead(html) ?? "")) return html;
