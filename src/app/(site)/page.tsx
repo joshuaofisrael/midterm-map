@@ -116,10 +116,10 @@ export default function HomePage() {
         <h2 className="font-serif text-2xl font-semibold">Find a starter sample ballot</h2>
         <p className="mt-2 max-w-2xl text-ink-muted">
           ZIP matching runs in your browser. A five-digit ZIP on this form is kept
-          after # on the ballot address and narrows U.S. House districts and local
-          contests. The Census place search below does not put the ZIP in the
-          address. We do not collect Social Security numbers, voter registration
-          numbers, or ballot images.
+          in this tab’s session storage until the tab closes, and narrows U.S.
+          House districts and local contests. It is not added to the page address.
+          The Census place search below does not store the ZIP. We do not collect
+          Social Security numbers, voter registration numbers, or ballot images.
         </p>
         <div className="mt-4">
           <BallotLookup />

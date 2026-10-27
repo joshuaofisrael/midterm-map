@@ -59,8 +59,8 @@ export function BallotCandidates({ code, stateName }: { code: string; stateName:
         Names and parties are copied in stored-list order: U.S. Senate, each U.S. House district,
         governor, then other statewide offices. State legislative contests are included when that
         stored list contains them. Local contests from the stored city and county lists follow. A
-        ZIP after # on this address narrows U.S. House districts, and local contests, in this
-        browser.
+        ZIP kept in this tab’s session storage narrows U.S. House districts, and local contests,
+        in this browser. It is not added to the page address.
       </p>
       <BallotZipNarrow stateCode={code} />
       {ballot.status === "unpublished" ? (

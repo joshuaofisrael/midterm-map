@@ -2,20 +2,15 @@
 
 import { useEffect, useState } from "react";
 import { districtNumber } from "@/data/candidates/district";
+import { BALLOT_ZIP_EVENT, readBallotZip } from "@/lib/ballotZip";
 
 type PlaceHit = [string, string, string];
 type DistrictHit = [string, string];
 type ZipRow = { p?: PlaceHit[]; d?: DistrictHit[] };
 
-function zipFromHash(): string {
-  const raw = window.location.hash.replace(/^#/, "");
-  const zip = new URLSearchParams(raw).get("zip") ?? "";
-  return zip.replace(/\D/g, "").slice(0, 5);
-}
-
 /**
  * Hides U.S. House and local blocks that the Census ZCTA file does not list for
- * the ZIP in the address hash. The ZIP stays in the browser.
+ * the ZIP in this tab's session storage. The ZIP is not in the page address.
  */
 export function BallotZipNarrow({ stateCode }: { stateCode: string }) {
   const [note, setNote] = useState<string | null>(null);
@@ -33,7 +28,7 @@ export function BallotZipNarrow({ stateCode }: { stateCode: string }) {
     };
 
     async function apply() {
-      const zip = zipFromHash();
+      const zip = readBallotZip();
       if (!/^\d{5}$/.test(zip)) {
         showAll();
         if (!cancelled) setNote(null);
@@ -103,10 +98,10 @@ export function BallotZipNarrow({ stateCode }: { stateCode: string }) {
     }
 
     void apply();
-    window.addEventListener("hashchange", apply);
+    window.addEventListener(BALLOT_ZIP_EVENT, apply);
     return () => {
       cancelled = true;
-      window.removeEventListener("hashchange", apply);
+      window.removeEventListener(BALLOT_ZIP_EVENT, apply);
     };
   }, [stateCode]);
 

@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import test from "node:test";
 import { ADSENSE_HEAD_TAGS, ADSENSE_META_TAG, stampAdsenseHead } from "./adsense.ts";
+import { BALLOT_ZIP_BOOT_SCRIPT, BALLOT_ZIP_STORAGE_KEY, isBallotHtml } from "./ballotZip.ts";
 import {
   EZOIC_ANALYTICS_SRC,
   EZOIC_GATEKEEPER_CMP_SRC,
@@ -54,6 +55,42 @@ test("insertEzoicHead is first after charset, idempotent, and does not move AdSe
   assert.ok(metaOnly.includes(ADSENSE_META_TAG));
   assert.equal(metaOnly.includes("adsbygoogle.js"), false);
   assert.equal(insertEzoicHead("not a document"), "not a document");
+});
+
+test("ballot pages boot the ZIP strip before Gatekeeper and other pages do not", () => {
+  assert.ok(BALLOT_ZIP_BOOT_SCRIPT.length < 500);
+  assert.equal(isBallotHtml("ballot/index.html"), true);
+  assert.equal(isBallotHtml("ballot/AZ/index.html"), true);
+  assert.equal(isBallotHtml("ballot/AZ.html"), true);
+  assert.equal(isBallotHtml("cities/az/phoenix-city/index.html"), false);
+  assert.equal(isBallotHtml("index.html"), false);
+  const ballot = insertEzoicHead(stampAdsenseHead(SAMPLE, true), "ballot/AZ/index.html");
+  const again = insertEzoicHead(ballot, "ballot/AZ/index.html");
+  assert.equal(again.split(BALLOT_ZIP_BOOT_SCRIPT).length, 2);
+  assert.equal(again.split(EZOIC_GATEKEEPER_SRC).length, 2);
+  const head = ballot.slice(ballot.indexOf("<head"), ballot.indexOf("</head>"));
+  assert.ok(head.indexOf(BALLOT_ZIP_STORAGE_KEY) < head.indexOf(EZOIC_GATEKEEPER_SRC));
+  assert.ok(head.indexOf(EZOIC_GATEKEEPER_SRC) < head.indexOf("adsbygoogle.js"));
+  assert.deepEqual(ezoicHeadProblems(head, ballot, true, true), []);
+  const home = insertEzoicHead(SAMPLE, "index.html");
+  assert.equal(home.includes(BALLOT_ZIP_STORAGE_KEY), false);
+  const stored: Record<string, string> = {};
+  let replaced = "";
+  const context = {
+    location: { hash: "#zip=85004", pathname: "/ballot/AZ/", search: "" },
+    sessionStorage: { setItem: (key: string, value: string) => { stored[key] = value; } },
+    history: { replaceState: (_state: null, _title: string, url: string) => { replaced = url; } },
+    URLSearchParams,
+  };
+  const source = BALLOT_ZIP_BOOT_SCRIPT.replace(/^<script[^>]*>/, "").replace(/<\/script>$/, "");
+  new Function("location", "sessionStorage", "history", "URLSearchParams", source)(
+    context.location,
+    context.sessionStorage,
+    context.history,
+    context.URLSearchParams,
+  );
+  assert.equal(stored[BALLOT_ZIP_STORAGE_KEY], "85004");
+  assert.equal(replaced, "/ballot/AZ/");
 });
 
 test("placeholder check allows header scripts and rejects slots on thin pages", () => {

@@ -28,7 +28,8 @@ function walk(dir: string) {
     if (!name.endsWith(".html")) continue;
     scanned++;
     const before = readFileSync(full, "utf8");
-    const after = insertEzoicHead(before);
+    const rel = path.relative(OUT, full).split(path.sep).join("/");
+    const after = insertEzoicHead(before, rel);
     if (after === before) {
       skipped++;
       continue;
