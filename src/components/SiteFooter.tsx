@@ -1,8 +1,9 @@
 import Link from "next/link";
+import { CookieChoicesButton } from "@/components/GoogleAnalytics";
+import { MAP_THE_GENERAL_URL } from "@/components/MapTheGeneral";
+import { STRIPE_TIP_URL, tipJarEnabled } from "@/data/monetization";
 import { FOOTER_LEGAL_LINKS, LEGAL_NAV, PRIMARY_NAV, SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
-import { STRIPE_TIP_URL, tipJarEnabled } from "@/data/monetization";
-import { CookieChoicesButton } from "@/components/GoogleAnalytics";
 
 export function SiteFooter() {
   return (
@@ -14,6 +15,11 @@ export function SiteFooter() {
             A voter information utility for the {SITE.electionDayLong}.
           </p>
           <p className="mt-4 text-sm leading-6 text-white/80">{SITE.officialNotUs}</p>
+          <p className="mt-4 text-sm leading-6">
+            <a className="underline hover:text-white" href={MAP_THE_GENERAL_URL}>
+              Elections around the world: Map the General
+            </a>
+          </p>
         </div>
         <div>
           <p className="text-xs font-semibold uppercase tracking-wide text-white/60">Explore</p>

@@ -96,7 +96,7 @@ export default function HomePage() {
       </section>
       <OfficialNotice />
       <ShareBar path="/" title={SITE.name} />
-      <MapTheGeneral />
+      <MapTheGeneral variant="hubs" />
 
       <section>
         <h2 className="font-serif text-2xl font-semibold">Find a starter sample ballot</h2>

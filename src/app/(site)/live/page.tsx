@@ -72,7 +72,7 @@ export default function LivePage() {
       <ContentTrust updated={contentUpdatedLabel("/live")} pagePath="/live" />
       <OfficialNotice />
       <ShareBar path="/live" title="2026 election night results" />
-      <MapTheGeneral />
+      <MapTheGeneral variant="hubs" />
 
       <section className="rounded-xl border border-line bg-paper-card p-5 text-sm leading-6">
         <h2 className="font-serif text-xl font-semibold">How to read this page</h2>
