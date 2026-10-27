@@ -10,6 +10,8 @@ import {
   ADSENSE_META_TAG,
   GOOGLE_ADS_POLICIES_URL,
   ensureAdsenseHead,
+  adsAllowedForPath,
+  stampAdsenseHead,
   headHasAdsense,
   htmlHead,
 } from "./adsense.ts";
@@ -103,5 +105,19 @@ test("analytics consent.js stays the Analytics loader and does not load AdSense"
   assert.match(consent, /googletagmanager\.com/);
   assert.doesNotMatch(consent, /adsbygoogle/);
   assert.match(layout, /google-adsense-account/);
-  assert.match(layout, /ADSENSE_SCRIPT_SRC/);
+  assert.doesNotMatch(layout, /ADSENSE_SCRIPT_SRC/);
+});
+
+test("ad loader only on substantive pages; thin, embed, live-free and legal pages get meta only", () => {
+  for (const p of ["/", "/states/pa/", "/races/pa-senate/", "/results/", "/live/", "/voting-deadlines/"]) {
+    assert.equal(adsAllowedForPath(p), true, p);
+  }
+  for (const p of ["/cities/pa/erie-city/", "/cities/", "/embed/x/", "/contact/", "/privacy/", "/terms/", "/404/", "/polls/"]) {
+    assert.equal(adsAllowedForPath(p), false, p);
+  }
+  const doc = "<html><head><title>x</title></head><body></body></html>";
+  assert.ok(stampAdsenseHead(doc, true).includes("adsbygoogle.js"));
+  const off = stampAdsenseHead(stampAdsenseHead(doc, true), false);
+  assert.ok(!off.includes("adsbygoogle.js"));
+  assert.ok(off.includes("google-adsense-account"));
 });

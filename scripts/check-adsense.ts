@@ -13,6 +13,7 @@ import {
   ADSENSE_META_TAG,
   htmlHead,
   isRedirectStub,
+  adsAllowedForPath,
 } from "../src/lib/adsense.ts";
 
 const OUT = path.join(process.cwd(), "out");
@@ -21,6 +22,7 @@ const ADSENSE_BOTS = ["Mediapartners-Google", "AdsBot-Google", "AdsBot-Google-Mo
 const errors: string[] = [];
 
 let pages = 0;
+let adPages = 0;
 let redirects = 0;
 let nonDocuments = 0;
 let bytes = 0;
@@ -46,7 +48,13 @@ function walk(dir: string) {
     pages++;
     const rel = path.relative(OUT, full);
     if (!head.includes(ADSENSE_META_TAG)) errors.push(`${rel}: missing ${ADSENSE_META_TAG}`);
-    if (!head.includes(ADSENSE_LOADER_TAG)) errors.push(`${rel}: missing AdSense loader`);
+    const sitePath = "/" + rel.split(path.sep).join("/").replace(/index\.html$/, "");
+    const allow = !isRedirectStub(html) && adsAllowedForPath(sitePath);
+    const hasLoader = head.includes("adsbygoogle.js");
+    if (allow && !head.includes(ADSENSE_LOADER_TAG)) errors.push(`${rel}: missing AdSense loader`);
+    if (!allow && hasLoader) errors.push(`${rel}: AdSense loader on a page that must stay ad-free`);
+    if (hasLoader && /<meta[^>]*name="robots"[^>]*noindex/i.test(head)) errors.push(`${rel}: loader on a noindex page`);
+    if (allow) adPages++;
     if (/<ins\b[^>]*\badsbygoogle\b/i.test(html) || /adsbygoogle\s*=\s*window\.adsbygoogle/.test(html)) {
       errors.push(`${rel}: ad unit is present; only the loader is allowed`);
     }
@@ -162,5 +170,5 @@ if (errors.length) {
 
 const mb = (bytes / (1024 * 1024)).toFixed(1);
 console.log(
-  `adsense: ${pages} pages have the meta tag and loader (${redirects} redirect stubs included); ${nonDocuments} non-documents skipped; ads.txt ok; robots.txt allows AdSense crawlers; out/ is ${mb} MB.`,
+  `adsense: ${pages} pages have the meta tag, ${adPages} substantive pages load the ad script (${redirects} redirect stubs included); ${nonDocuments} non-documents skipped; ads.txt ok; robots.txt allows AdSense crawlers; out/ is ${mb} MB.`,
 );
