@@ -182,21 +182,21 @@ body {
 }
 
 /* House-ad banner. Inline min-height reserves the row; this paints it.
-   Static, in normal flow: not sticky, fixed, or a popup. */
+   Amber is outside the navy/paper palette so the row does not blend in.
+   #d97706 is about 2.9:1 on the page background, under the 3:1 UI bar,
+   so the border is #c2410c (about 4.6:1). Text on #fef3c7 stays above 4.5:1.
+   Static, in normal flow: not sticky, fixed, or a popup. No animation. */
 .house-ad {
   position: relative;
   margin: 0 0 1.25rem;
-  border: 1px solid #d5dde6;
-  border-left: 3px solid #1e4a73;
+  border: 2px solid #c2410c;
   border-radius: 10px;
-  background: #fff;
-  color: #1a2332;
+  background: #fef3c7;
+  color: #1c1917;
   text-decoration: none;
-  box-shadow: 0 1px 2px rgba(20, 36, 56, 0.06);
 }
 .house-ad:hover {
-  border-color: #b7c3d0;
-  border-left-color: #143251;
+  border-color: #9a3412;
   text-decoration: none;
 }
 .house-ad-k {
@@ -207,22 +207,23 @@ body {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   line-height: 1.3;
-  color: #5b6472;
+  color: #7c2d12;
 }
 .house-ad-b {
   flex: 1 1 16rem;
   min-width: 12rem;
   font-size: 0.875rem;
+  font-weight: 700;
   line-height: 1.35;
-  color: #4a5568;
+  color: #1c1917;
 }
 .house-ad-btn {
   display: inline-block;
   flex: 0 0 auto;
   margin-left: auto;
-  padding: 0.4rem 0.8rem;
+  padding: 0.5rem 1rem;
   border-radius: 6px;
-  background: #1e4a73;
+  background: #9a3412;
   color: #fff;
   font-size: 0.875rem;
   font-weight: 700;
@@ -230,19 +231,19 @@ body {
   white-space: nowrap;
 }
 .house-ad:hover .house-ad-btn {
-  background: #143251;
+  background: #7c2d12;
 }
 .city a.house-ad,
 .city a.house-ad:hover {
   margin: 0;
-  color: #1a2332;
+  color: #1c1917;
   text-decoration: none;
 }
 .city a.house-ad .house-ad-k {
-  color: #5b6472;
+  color: #7c2d12;
 }
 .city a.house-ad .house-ad-b {
-  color: #4a5568;
+  color: #1c1917;
 }
 .city a.house-ad .house-ad-btn,
 .city a.house-ad:hover .house-ad-btn {
