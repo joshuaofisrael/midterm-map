@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { FormEvent, useMemo, useState } from "react";
 import { STATE_CHOICES } from "@/data/stateChoices";
 import { lookupZipState, normalizeZip } from "@/data/zip";
+import { BALLOT_ZIP_EVENT, writeBallotZip } from "@/lib/ballotZip";
 
 export function BallotLookup({ initialState = "" }: { initialState?: string }) {
   const router = useRouter();
@@ -41,15 +42,19 @@ export function BallotLookup({ initialState = "" }: { initialState?: string }) {
       setMessage(null);
     }
 
+    writeBallotZip(digits.length === 5 ? digits : "");
     const path = `/ballot/${fromZip || target}`;
-    const hash = digits.length === 5 ? `zip=${digits}` : "";
-    const here = window.location.pathname.replace(/\/$/, "");
+    const here = window.location.pathname.replace(/\/$/, "") || "/";
     if (here === path) {
-      if (hash) window.location.hash = hash;
-      else window.history.replaceState(null, "", path);
-      window.dispatchEvent(new HashChangeEvent("hashchange"));
+      if (window.location.hash) {
+        const params = new URLSearchParams(window.location.hash.replace(/^#/, ""));
+        params.delete("zip");
+        const next = params.toString();
+        window.history.replaceState(null, "", `${path}${window.location.search}${next ? `#${next}` : ""}`);
+      }
+      window.dispatchEvent(new Event(BALLOT_ZIP_EVENT));
     } else {
-      router.push(hash ? `${path}#${hash}` : path);
+      router.push(path);
     }
   }
 
@@ -98,17 +103,16 @@ export function BallotLookup({ initialState = "" }: { initialState?: string }) {
       </div>
       <p id="zip-help" className="mt-3 text-sm leading-6 text-ink-muted">
         Ballot ZIP lookup stays in this browser. The first three digits select a
-        starter state from a table on this page. A 5-digit ZIP is kept after # on
-        the ballot address, as #zip= followed by those digits, and narrows U.S.
-        House districts and local contests. The part after # is not included in
-        the request this site receives. The browser loads /zcta/ plus the first
-        three digits and .json from this site, then uses the five-digit ZIP as the
-        key for a row in that file. This lookup does not write the ZIP into local
-        storage, session storage, or a cookie, and it does not match the ZIP to a
-        voter file. A full load of that ballot address sends the fragment in
-        Google AdSense and some Ezoic requests. The Census place search on the
-        homepage does not add the ZIP to the page address. Prefixes map to a
-        starter state.
+        starter state from a table on this page. A 5-digit ZIP is kept in
+        session storage for this tab, not in the page address, and narrows U.S.
+        House districts and local contests. It stays until the tab closes. The
+        browser loads /zcta/ plus the first three digits and .json from this site,
+        then uses the five-digit ZIP as the key for a row in that file. This
+        lookup does not write the ZIP into local storage or a cookie, and it does
+        not match the ZIP to a voter file. A ballot address that still has #zip=
+        is stored and the fragment is removed before advertising or analytics scripts run. The
+        Census place search does not store the ZIP. Prefixes map to a starter
+        state.
         {matched ? ` This prefix currently maps to ${matched}.` : ""}
       </p>
       {message && (

@@ -19,6 +19,8 @@
  * DNS are unchanged. No Ezoic ad placeholders are inserted.
  */
 
+import { BALLOT_ZIP_BOOT_SCRIPT, BALLOT_ZIP_STORAGE_KEY, isBallotHtml } from "./ballotZip";
+
 export const EZOIC_GATEKEEPER_SRC = "https://cmp.gatekeeperconsent.com/min.js";
 export const EZOIC_GATEKEEPER_CMP_SRC = "https://the.gatekeeperconsent.com/cmp.min.js";
 export const EZOIC_SA_SRC = "//www.ezojs.com/ezoic/sa.min.js";
@@ -80,21 +82,23 @@ function stripEzoic(html: string): string {
  * meta is the first head element, otherwise immediately after <head>.
  * Leaves every other tag, including the AdSense meta and loader, where it is.
  */
-export function insertEzoicHead(html: string): string {
+export function insertEzoicHead(html: string, rel = ""): string {
   if (!HEAD_RE.test(html)) return html;
-  const next = stripEzoic(html);
+  const next = stripEzoic(html).split(BALLOT_ZIP_BOOT_SCRIPT).join("");
   const open = next.match(HEAD_OPEN_RE);
   if (!open || open.index == null) return html;
   let pos = open.index + open[0].length;
   const charset = next.slice(pos).match(CHARSET_RE);
   if (charset && charset.index != null) pos += charset.index + charset[0].length;
-  return `${next.slice(0, pos)}\n${EZOIC_HEAD_BLOCK}\n${next.slice(pos)}`;
+  const boot = isBallotHtml(rel) ? `${BALLOT_ZIP_BOOT_SCRIPT}\n` : "";
+  return `${next.slice(0, pos)}\n${boot}${EZOIC_HEAD_BLOCK}\n${next.slice(pos)}`;
 }
 
 export function ezoicHeadProblems(
   head: string,
   html: string,
   placeholdersAllowed: boolean,
+  bootExpected = false,
 ): string[] {
   const problems: string[] = [];
   let prev = -1;
@@ -104,9 +108,15 @@ export function ezoicHeadProblems(
     else if (at < prev) problems.push(`out of order: ${marker}`);
     else prev = at;
   }
-  const firstScript = head.search(/<script\b/i);
-  const firstTag = firstScript === -1 ? "" : head.slice(firstScript);
-  const src = firstTag.match(/^<script\b[^>]*\bsrc=["']([^"']+)["']/i);
+  const tags = [...head.matchAll(/<script\b[\s\S]*?<\/script>/gi)].map((match) => match[0]);
+  const bootAt = tags.findIndex((tag) => tag.includes(BALLOT_ZIP_STORAGE_KEY));
+  if (bootExpected) {
+    if (bootAt !== 0) problems.push("ballot ZIP boot script is not the first script");
+  } else if (bootAt !== -1) {
+    problems.push("ballot ZIP boot script on a non-ballot page");
+  }
+  const gate = tags[bootAt === 0 ? 1 : 0] ?? "";
+  const src = gate.match(/^<script\b[^>]*\bsrc=["']([^"']+)["']/i);
   if (!src || !src[1].includes("cmp.gatekeeperconsent.com/min.js")) {
     problems.push("first script is not the Gatekeeper CMP");
   }

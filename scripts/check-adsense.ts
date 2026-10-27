@@ -19,6 +19,7 @@ import {
   isRedirectStub,
   adsAllowedForPath,
 } from "../src/lib/adsense.ts";
+import { isBallotHtml } from "../src/lib/ballotZip.ts";
 import { ezoicHeadProblems } from "../src/lib/ezoic.ts";
 
 const OUT = path.join(process.cwd(), "out");
@@ -62,7 +63,8 @@ function walk(dir: string) {
     if (hasLoader && noindex) errors.push(`${rel}: loader on a noindex page`);
     if (allow) adPages++;
     const placeholdersAllowed = allow && !noindex;
-    for (const problem of ezoicHeadProblems(head, html, placeholdersAllowed)) {
+    const relPosix = rel.split(path.sep).join("/");
+    for (const problem of ezoicHeadProblems(head, html, placeholdersAllowed, isBallotHtml(relPosix))) {
       errors.push(`${rel}: ${problem}`);
     }
     if (/<ins\b[^>]*\badsbygoogle\b/i.test(html) || /adsbygoogle\s*=\s*window\.adsbygoogle/.test(html)) {
