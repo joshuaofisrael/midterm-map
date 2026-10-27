@@ -1,25 +1,31 @@
 /**
  * Pre-publish legal hold for Map the Midterms.
  *
- * Fails the process when content that would publish is flagged or is on hold
- * without Joshua's approval of that exact file (sha256 in data/review/approvals.jsonl).
- * This script never writes an approval. A clean scan is not an approval.
+ * Fails the process when content that would publish is flagged or is on hold.
+ * This script never writes an approval and never writes a moderate clearance.
+ * A clean scan is not an approval.
  *
- * Automated:
- *   1 allegation keywords next to a named person
- *   2 private emails, phone numbers, and street addresses in content
+ * HIGH stays HOLD_REVIEW for Joshua. It is released only by data/review/approvals.jsonl
+ * recording the sha256 of that exact file. A moderate clearance cannot release it.
+ *   1 allegation keywords next to a named person or organisation
+ *   2 private emails, phone numbers, and street addresses
+ *   6 election logistics (voting dates, deadlines, poll-close times, eligibility,
+ *     places, procedures) without an election-authority source
+ *   8 legal notices and complaints, from data/review/holds.jsonl
+ * MODERATE can be fixed in the content, or released by data/review/moderate-clearances.jsonl
+ * when verdict is exactly "safe" and sha256 is the hash of that exact file.
+ * The clearance also names the item path, the rule, the fix, and an independent reviewer.
+ * This script is not that reviewer.
  *   3 image / asset provenance in data/review/asset-rights.json
  *   4 source URL and retrieval time on candidate, race, and results files
- *   6 final/certified results need an official-status flag; projections, odds,
- *     partial counts, and official results stay distinct; deadline and poll-close
- *     rows need an election-authority source
- *   7 claims that this site is official or affiliated, and unlabelled synthetic media
- * Manual hold list (rules 5 and 8, and any other item Joshua holds):
- *   data/review/holds.jsonl with status HOLD_REVIEW
+ *   5 general advice, when somebody has listed it on the manual hold list
+ *   6 presentation of results: final or certified claims, and keeping projections,
+ *     odds, partial counts, and official results distinct
+ *   7 official or affiliation claims, and unlabelled synthetic media
  *
- * Headline strength, implied wrongdoing beyond the keyword test, personalised
- * advice, and legal complaints that nobody has listed are not machine-detectable.
- * Those stay on the manual hold list.
+ * Headline strength beyond that labelling, implied wrongdoing beyond the keyword
+ * test, personalised advice, and legal complaints that nobody has listed are not
+ * machine-detectable. Those stay on the manual hold list.
  */
 import { createHash } from "node:crypto";
 import { appendFileSync, existsSync, readFileSync, readdirSync, statSync } from "node:fs";
@@ -60,8 +66,11 @@ const SOURCED_FILES = [
 
 const DEADLINE_FILES = ["src/data/electionDates.ts", "src/data/electionDatesMore.ts"];
 
+export type Severity = "HIGH" | "MODERATE";
+
 export type HoldFlag = {
   rule: number;
+  severity: Severity;
   title: string;
   flagged: string;
   sources: string[];
@@ -71,7 +80,23 @@ export type HoldFlag = {
 };
 
 type Approval = { path: string; sha256: string };
-type HoldLine = { path?: string; status?: string; rule?: number; title?: string; reason?: string };
+type Clearance = {
+  ts?: string;
+  item?: string;
+  rule?: number;
+  fix?: string;
+  independent_reviewer?: string;
+  verdict?: string;
+  sha256?: string;
+};
+type HoldLine = {
+  path?: string;
+  status?: string;
+  rule?: number;
+  title?: string;
+  reason?: string;
+  severity?: string;
+};
 type RightsEntry = {
   path?: string;
   basis?: string;
@@ -167,6 +192,39 @@ function loadApprovals(root: string): Approval[] {
   });
 }
 
+function loadClearances(root: string): Clearance[] {
+  return jsonl(path.join(root, "data/review/moderate-clearances.jsonl")).flatMap((row) => {
+    return row && typeof row === "object" ? [row as Clearance] : [];
+  });
+}
+
+/** Rules 1, 2, and 8 cannot be downgraded. Rule 6 defaults to logistics (HIGH). */
+function severityFor(rule: number, requested?: string): Severity {
+  if (rule === 1 || rule === 2 || rule === 8) return "HIGH";
+  if (requested === "HIGH") return "HIGH";
+  if (requested === "MODERATE") return "MODERATE";
+  if (rule === 3 || rule === 4 || rule === 5 || rule === 7) return "MODERATE";
+  return "HIGH";
+}
+
+const SELF_REVIEWERS = new Set(["politics bot", "legal-hold", "check-legal-hold", "map the midterms"]);
+
+function moderateCleared(clearances: Clearance[], item: HoldFlag, file: string): boolean {
+  if (item.severity !== "MODERATE" || !existsSync(file)) return false;
+  const hash = sha256(file);
+  return clearances.some((row) => {
+    if (row.verdict !== "safe") return false;
+    if (typeof row.sha256 !== "string" || row.sha256.toLowerCase() !== hash) return false;
+    if (row.rule !== item.rule) return false;
+    if (row.item !== item.draft_path) return false;
+    if (typeof row.ts !== "string" || !row.ts.trim()) return false;
+    if (typeof row.fix !== "string" || !row.fix.trim()) return false;
+    const reviewer = typeof row.independent_reviewer === "string" ? row.independent_reviewer.trim() : "";
+    if (!reviewer || SELF_REVIEWERS.has(reviewer.toLowerCase())) return false;
+    return true;
+  });
+}
+
 function loadHolds(root: string): HoldLine[] {
   return jsonl(path.join(root, "data/review/holds.jsonl")).flatMap((row) => {
     const item = row as HoldLine;
@@ -180,9 +238,12 @@ function approved(approvals: Approval[], rel: string, file: string): boolean {
   return approvals.some((item) => item.path === rel && item.sha256 === hash);
 }
 
-function flag(partial: Omit<HoldFlag, "publishable"> & { publishable?: boolean }): HoldFlag {
+function flag(
+  partial: Omit<HoldFlag, "publishable" | "severity"> & { publishable?: boolean; severity?: Severity },
+): HoldFlag {
   return {
     ...partial,
+    severity: severityFor(partial.rule, partial.severity),
     publishable: partial.publishable ?? publishable(partial.draft_path),
     flagged: clip(partial.flagged),
   };
@@ -422,7 +483,7 @@ function scanDeadlines(root: string, flags: HoldFlag[]) {
             title: "Voting date with no source",
             flagged: "A deadline fact has an empty sources list.",
             sources: [],
-            suggestion: "Cite the election authority that printed the date, and the day that page was read. If the office did not print the date, omit the date.",
+            suggestion: "Cite the election authority that printed the date, and the day that page was read. If the office did not print the date, omit the date. This is a high hold: only Joshua's approval of this exact file releases it.",
             draft_path: rel,
           }),
         );
@@ -436,7 +497,7 @@ function scanDeadlines(root: string, flags: HoldFlag[]) {
             title: "Voting date without an election-authority source",
             flagged: clip(body, 240),
             sources: urls,
-            suggestion: "Point the deadline at the election office, Vote.gov, or the statute that prints it.",
+            suggestion: "Point the deadline at the election office, Vote.gov, or the statute that prints it. This is a high hold: only Joshua's approval of this exact file releases it.",
             draft_path: rel,
           }),
         );
@@ -455,7 +516,7 @@ function scanDeadlines(root: string, flags: HoldFlag[]) {
             title: `${code} deadlines have no retrieval date`,
             flagged: `${code} publishes voting dates without checkedOn.`,
             sources: [],
-            suggestion: "Record the day the election-authority pages were read.",
+            suggestion: "Record the day the election-authority pages were read. This is a high hold: only Joshua's approval of this exact file releases it.",
             draft_path: rel,
           }),
         );
@@ -475,7 +536,7 @@ function scanDeadlines(root: string, flags: HoldFlag[]) {
         title: `${match[1]} poll close has no election-authority source`,
         flagged: citation || "(empty citation)",
         sources: [],
-        suggestion: "Cite the statute or election-office page that sets the poll-close time.",
+        suggestion: "Cite the statute or election-office page that sets the poll-close time. This is a high hold: only Joshua's approval of this exact file releases it.",
         draft_path: "src/data/pollClose.ts",
       }),
     );
@@ -499,8 +560,9 @@ function scanRule6Labels(rel: string, text: string, flags: HoldFlag[]) {
                 title: "Results marked final or certified without official status",
                 flagged: JSON.stringify(race).slice(0, 300),
                 sources: state.resultsUrl ? [state.resultsUrl] : [],
-                suggestion: "Keep certified or final results behind the election file's own official-status flag, and keep the source URL on the state.",
+                suggestion: "Keep certified or final results behind the election file's own official-status flag, and keep the source URL on the state. Fix the label. A moderate clearance cannot replace that fix unless an independent reviewer marks this exact file safe.",
                 draft_path: rel,
+                severity: "MODERATE",
               }),
             );
           }
@@ -531,8 +593,9 @@ function scanRule6Labels(rel: string, text: string, flags: HoldFlag[]) {
           title: "Election figure is not labelled distinctly",
           flagged: sentence,
           sources: [],
-          suggestion: "Say whether the figure is a projection, market odds, a partial count, or an official result. Do not treat those as the same thing.",
+          suggestion: "Say whether the figure is a projection, market odds, a partial count, or an official result. Do not treat those as the same thing, and do not soften the sentence just to skip this check.",
           draft_path: rel,
+          severity: "MODERATE",
         }),
       );
     }
@@ -547,6 +610,7 @@ function scanRule6Labels(rel: string, text: string, flags: HoldFlag[]) {
           sources: [],
           suggestion: "Do not call results final or certified unless the election authority's file says so, and store that official-status flag with the row.",
           draft_path: rel,
+          severity: "MODERATE",
         }),
       );
     }
@@ -603,20 +667,24 @@ function scanRule7(rel: string, text: string, flags: HoldFlag[]) {
   }
 }
 
-function scanHolds(root: string, approvals: Approval[], limit: Set<string> | null, flags: HoldFlag[]) {
+function scanHolds(root: string, limit: Set<string> | null, flags: HoldFlag[]) {
   for (const hold of loadHolds(root)) {
     if (hold.status !== "HOLD_REVIEW" || !hold.path) continue;
     if (limit && !limit.has(hold.path)) continue;
     const rel = hold.path;
-    const file = path.join(root, rel);
-    if (approved(approvals, rel, file)) continue;
+    const rule = typeof hold.rule === "number" ? hold.rule : 8;
+    const severity = severityFor(rule, hold.severity);
     flags.push(
       flag({
-        rule: typeof hold.rule === "number" ? hold.rule : 8,
+        rule,
+        severity,
         title: hold.title || `Held: ${rel}`,
         flagged: hold.reason || rel,
         sources: [],
-        suggestion: "Leave it unpublished until data/review/approvals.jsonl records the sha256 of this exact file.",
+        suggestion:
+          severity === "HIGH"
+            ? "Leave it unpublished until data/review/approvals.jsonl records the sha256 of this exact file."
+            : "Fix the item, or leave it unpublished until an independent reviewer records a safe verdict and the sha256 of this exact file in data/review/moderate-clearances.jsonl. This gate does not write that clearance.",
         draft_path: rel,
         publishable: publishable(rel) || Boolean(limit?.has(rel)),
       }),
@@ -640,6 +708,7 @@ function collect(root: string, limit: Set<string> | null): HoldFlag[] {
   const flags: HoldFlag[] = [];
   const files = contentFiles(root, limit);
   const approvals = loadApprovals(root);
+  const clearances = loadClearances(root);
   for (const file of files) {
     const rel = relPath(root, file);
     const ext = path.extname(rel).toLowerCase();
@@ -679,13 +748,13 @@ function collect(root: string, limit: Set<string> | null): HoldFlag[] {
       }
     }
   }
-  scanHolds(root, approvals, limit, flags);
-  const released = flags.filter((item) => {
+  scanHolds(root, limit, flags);
+  return flags.filter((item) => {
     const file = path.join(root, item.draft_path);
-    return approved(approvals, item.draft_path, file);
+    if (approved(approvals, item.draft_path, file)) return false;
+    if (moderateCleared(clearances, item, file)) return false;
+    return true;
   });
-  const releasedKeys = new Set(released.map((item) => `${item.draft_path}\0${item.rule}\0${item.flagged}`));
-  return flags.filter((item) => !releasedKeys.has(`${item.draft_path}\0${item.rule}\0${item.flagged}`));
 }
 
 function queueKey(item: { draft_path: string; rule: number; flagged: string }): string {
@@ -716,6 +785,7 @@ function writeQueue(root: string, flags: HoldFlag[]) {
       title: item.title,
       flagged: item.flagged,
       rule: item.rule,
+      severity: item.severity,
       sources: item.sources,
       suggestion: item.suggestion,
       draft_path: item.draft_path,
@@ -758,11 +828,13 @@ function isDirectRun(): boolean {
 if (isDirectRun()) {
   const result = runLegalHold(parseArgs(process.argv.slice(2)));
   const held = result.flags.filter((item) => !item.publishable);
+  const high = result.blocking.filter((item) => item.severity === "HIGH").length;
+  const moderate = result.blocking.filter((item) => item.severity === "MODERATE").length;
   console.log(
-    `legal-hold: ${result.flags.length} flag(s), ${result.blocking.length} blocking publish, ${held.length} recorded and already unpublished.`,
+    `legal-hold: ${result.flags.length} flag(s), ${result.blocking.length} blocking publish (${high} high, ${moderate} moderate), ${held.length} recorded and already unpublished.`,
   );
   for (const item of result.blocking) {
-    console.error(`  BLOCK rule ${item.rule} ${item.draft_path}: ${item.flagged}`);
+    console.error(`  BLOCK ${item.severity} rule ${item.rule} ${item.draft_path}: ${item.flagged}`);
   }
   if (result.blocking.length) process.exit(1);
 }
