@@ -8,6 +8,7 @@ import { CrossLinks } from "@/components/CrossLinks";
 import { EmailSignup } from "@/components/EmailSignup";
 import { JsonLd } from "@/components/JsonLd";
 import { LivePanel } from "@/components/LivePanel";
+import { MapTheGeneral } from "@/components/MapTheGeneral";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { SourceLines } from "@/components/SourceLines";
@@ -54,6 +55,7 @@ export default function ResultsPage() {
       </PageHeader>
       <ContentTrust updated={contentUpdatedLabel("/results")} pagePath="/results" />
       <OfficialNotice />
+      <MapTheGeneral variant="hubs" />
 
       <section id="election-night" className="rounded-xl border border-line bg-paper-card p-5 text-sm leading-6">
         <h2 className="font-serif text-xl font-semibold">How election night works on this page</h2>
