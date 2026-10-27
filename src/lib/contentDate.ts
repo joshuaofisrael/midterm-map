@@ -1,6 +1,7 @@
 import { ballotCycleFor } from "@/data/ballotCycle";
 import { candidateFile } from "@/data/candidates/load";
 import { CENSUS_PLACES_UPDATED } from "@/data/censusSources";
+import { essayForPath } from "@/data/essays/previews";
 import { ESSAY_UPDATED } from "@/data/essays/text";
 import { getLearnArticle } from "@/data/learn/articles";
 import { localFile } from "@/data/local/load";
@@ -121,6 +122,11 @@ function votingDeadlineLabels(): string[] {
   ]);
 }
 
+function withEssayDate(path: string, labels: Array<string | undefined>): string {
+  const essay = essayForPath(path);
+  return latestContentLabel(essay ? [...labels, essay.updated] : labels);
+}
+
 export function latestContentLabel(labels: Array<string | undefined>): string {
   let bestIso = "";
   let bestLabel = "";
@@ -184,8 +190,8 @@ export function contentUpdatedLabelForPath(path: string): string | null {
   }
   if (clean === "/about") return ESSAY_UPDATED;
 
-  if (clean === "/") return latestContentLabel(votingDeadlineLabels());
-  if (clean === "/live") return liveSourcesCheckedLabel();
+  if (clean === "/") return withEssayDate(clean, votingDeadlineLabels());
+  if (clean === "/live") return withEssayDate(clean, [liveSourcesCheckedLabel()]);
   if (clean === "/cities") return CENSUS_PLACES_UPDATED;
   const cityState = /^\/cities\/([A-Za-z]{2})(?:\/|$)/.exec(clean);
   if (cityState) return latestContentLabel(cityFactLabels(cityState[1].toUpperCase()));
@@ -195,7 +201,7 @@ export function contentUpdatedLabelForPath(path: string): string | null {
   }
   if (clean === "/races") return latestContentLabel(RACES.flatMap(raceFactLabels));
   if (clean === "/results") {
-    return latestContentLabel([
+    return withEssayDate(clean, [
       liveSourcesCheckedLabel(),
       ...[...KEY_RESULT_SLUGS, ...ADDITIONAL_RESULT_SLUGS].flatMap((slug) => {
         const race = getRace(slug);
@@ -212,7 +218,7 @@ export function contentUpdatedLabelForPath(path: string): string | null {
 
   const stateHub = /^\/states\/([A-Za-z]{2})$/.exec(clean);
   if (stateHub && isStateCode(stateHub[1].toUpperCase())) {
-    return latestContentLabel(stateHubLabels(stateHub[1].toUpperCase() as StateCode));
+    return withEssayDate(clean, stateHubLabels(stateHub[1].toUpperCase() as StateCode));
   }
 
   const ballot = /^\/ballot\/([A-Za-z]{2})$/.exec(clean);
@@ -223,7 +229,7 @@ export function contentUpdatedLabelForPath(path: string): string | null {
   const racePath = /^\/races\/([^/]+)$/.exec(clean);
   if (racePath) {
     const race = getRace(racePath[1]);
-    return race ? latestContentLabel(racePageLabels(race)) : null;
+    return race ? withEssayDate(clean, racePageLabels(race)) : null;
   }
 
   const resultPath = /^\/results\/([^/]+)$/.exec(clean);

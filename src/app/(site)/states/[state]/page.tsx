@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Byline } from "@/components/Byline";
 import { ContentTrust } from "@/components/ContentTrust";
+import { EditorialSection } from "@/components/EditorialSection";
 import { CrossLinks } from "@/components/CrossLinks";
 import { TipJar } from "@/components/TipJar";
 import { JsonLd } from "@/components/JsonLd";
@@ -14,6 +15,7 @@ import { KeyDatesSection } from "@/components/ElectionDates";
 import { EmailSignup } from "@/components/EmailSignup";
 import { MapTheGeneral } from "@/components/MapTheGeneral";
 import { ShareBar } from "@/components/ShareBar";
+import { statePreview } from "@/data/essays/previews";
 import { ballotCycleFor } from "@/data/ballotCycle";
 import {
   electionDatesFor,
@@ -85,6 +87,7 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
         officeHref={state.officialElectionOffice.href}
         officeLabel={state.officialElectionOffice.label}
       />
+      <EditorialSection essay={statePreview(state)} />
       <OfficialNotice compact />
       <ShareBar path={`/states/${state.code}`} title={`${state.name} 2026 midterms`} />
       <MapTheGeneral />

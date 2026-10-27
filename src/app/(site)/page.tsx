@@ -2,6 +2,7 @@ import Link from "next/link";
 import { BallotLookup } from "@/components/BallotLookup";
 import { Byline } from "@/components/Byline";
 import { ContentTrust } from "@/components/ContentTrust";
+import { EditorialSection } from "@/components/EditorialSection";
 import { CivicImage } from "@/components/CivicImage";
 import { ZipPlaceSearchSection } from "@/components/ZipPlaceSearchSection";
 import { EmailSignup } from "@/components/EmailSignup";
@@ -15,6 +16,7 @@ import { RaceCard } from "@/components/RaceCard";
 import { TipJar } from "@/components/TipJar";
 import { ELECTION_DATES } from "@/data/electionDates";
 import { HOME_FAQS } from "@/data/homeFaqs";
+import { homePreview } from "@/data/essays/previews";
 import { LEARN_ARTICLES } from "@/data/learn/articles";
 import { featuredRaces } from "@/data/races";
 import { SITE } from "@/data/site";
@@ -100,6 +102,7 @@ export default function HomePage() {
       </section>
       <Byline className="mt-0" />
       <ContentTrust updated={contentUpdatedLabel("/")} pagePath="/" />
+      <EditorialSection essay={homePreview()} />
       <OfficialNotice />
       <ShareBar path="/" title={SITE.name} />
       <MapTheGeneral variant="hubs" />

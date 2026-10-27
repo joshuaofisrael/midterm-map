@@ -2,6 +2,7 @@ import Link from "next/link";
 import { BallotpediaLink } from "@/components/BallotpediaLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Byline } from "@/components/Byline";
+import { EditorialSection } from "@/components/EditorialSection";
 import { InfoNote } from "@/components/InfoNote";
 import { ContentTrust } from "@/components/ContentTrust";
 import { LiveNeedles } from "@/components/LiveNeedles";
@@ -14,6 +15,7 @@ import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { SourceLines } from "@/components/SourceLines";
 import { StatusChip } from "@/components/StatusChip";
+import { resultsPreview } from "@/data/essays/previews";
 import { getRace, RACES } from "@/data/races";
 import {
   ADDITIONAL_RESULT_SLUGS,
@@ -56,6 +58,7 @@ export default function ResultsPage() {
         <InfoNote />
       </PageHeader>
       <ContentTrust updated={contentUpdatedLabel("/results")} pagePath="/results" />
+      <EditorialSection essay={resultsPreview()} />
       <OfficialNotice />
       <MapTheGeneral variant="hubs" />
 

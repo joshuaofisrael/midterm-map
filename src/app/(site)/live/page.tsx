@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Byline } from "@/components/Byline";
+import { EditorialSection } from "@/components/EditorialSection";
 import { InfoNote } from "@/components/InfoNote";
 import { ContentTrust } from "@/components/ContentTrust";
 import { EmailSignup } from "@/components/EmailSignup";
@@ -12,6 +13,7 @@ import { LiveResults } from "@/components/LiveResults";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { PageHeader } from "@/components/PageHeader";
 import { TipJar } from "@/components/TipJar";
+import { livePreview } from "@/data/essays/previews";
 import liveSources from "@/data/live-sources.json";
 import { latestPollCloseIso, POLL_CLOSE } from "@/data/pollClose";
 import { SITE, absoluteUrl } from "@/data/site";
@@ -72,6 +74,7 @@ export default function LivePage() {
         <InfoNote />
       </PageHeader>
       <ContentTrust updated={contentUpdatedLabel("/live")} pagePath="/live" />
+      <EditorialSection essay={livePreview()} />
       <OfficialNotice />
       <ShareBar path="/live" title="2026 election night results" />
       <MapTheGeneral variant="hubs" />
