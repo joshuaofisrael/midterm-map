@@ -104,7 +104,8 @@ export function BallotLookup({ initialState = "" }: { initialState?: string }) {
       <p id="zip-help" className="mt-3 text-sm leading-6 text-ink-muted">
         Ballot ZIP lookup stays in this browser. The first three digits select a
         starter state from a table on this page. A 5-digit ZIP is kept in
-        session storage for this tab, not in the page address, and narrows U.S.
+        session storage for this tab only, not in the page address or sent to a
+        third party, and narrows U.S.
         House districts and local contests. It stays until the tab closes. The
         browser loads /zcta/ plus the first three digits and .json from this site,
         then uses the five-digit ZIP as the key for a row in that file. This

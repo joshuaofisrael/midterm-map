@@ -119,7 +119,8 @@ export default function PrivacyPage() {
           <li>We do not ask you to create an account or submit personal information to use the site.</li>
           <li>
             Two ZIP lookups run in your browser. The ballot form keeps a five-digit ZIP in session
-            storage for this tab, until the tab closes, and does not add it to the page address. An
+            storage for this tab, until the tab closes, and does not add it to the page address or
+            send it to a third party. An
             older ballot address that still has #zip= is copied into that session storage and the
             fragment is removed before advertising or analytics scripts run. The Census place search
             does not add the ZIP to the page address and does not store it. Each lookup requests a

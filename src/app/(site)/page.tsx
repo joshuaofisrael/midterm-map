@@ -117,7 +117,8 @@ export default function HomePage() {
         <p className="mt-2 max-w-2xl text-ink-muted">
           ZIP matching runs in your browser. A five-digit ZIP on this form is kept
           in this tab’s session storage until the tab closes, and narrows U.S.
-          House districts and local contests. It is not added to the page address.
+          House districts and local contests. It is not added to the page address
+          and it is not sent to a third party.
           The Census place search below does not store the ZIP. We do not collect
           Social Security numbers, voter registration numbers, or ballot images.
         </p>
