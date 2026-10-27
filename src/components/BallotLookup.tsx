@@ -98,9 +98,12 @@ export function BallotLookup({ initialState = "" }: { initialState?: string }) {
       </div>
       <p id="zip-help" className="mt-3 text-sm leading-6 text-ink-muted">
         ZIP lookup stays in this browser. A 5-digit ZIP is kept after # on the
-        ballot address and narrows U.S. House districts with the Census file on
-        this site. We do not send your ZIP to a server or match it to a voter
-        file. Prefixes map to a starter state.
+        ballot address and narrows U.S. House districts and local contests with
+        the Census file on this site. The part after # is not included in the
+        request this site receives. The browser loads a public Census file for
+        the first three digits from this site. The ZIP is not matched to a voter
+        file. A full load of that ballot address includes the fragment in Google
+        AdSense and Ezoic requests. Prefixes map to a starter state.
         {matched ? ` This prefix currently maps to ${matched}.` : ""}
       </p>
       {message && (

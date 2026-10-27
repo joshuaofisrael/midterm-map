@@ -14,7 +14,7 @@ import { GOOGLE_ADS_POLICIES_URL } from "@/lib/adsense";
 export const metadata = pageMetadata({
   title: "Privacy Policy",
   description:
-    `Privacy practices for ${SITE.name} (Joshua Israel Ventures LLC): no accounts, browser-only ZIP lookup, a FormSubmit contact form, election-night update emails, cookieless Cloudflare Web Analytics, Google Analytics only with your consent, Ezoic scripts and cookies with an opt-out, GitHub Pages hosting logs, optional tips through Stripe, affiliate link terms, no sale of personal information, and your privacy rights.`,
+    `Privacy practices for ${SITE.name} (Joshua Israel Ventures LLC): no accounts, in-browser ZIP lookup, a FormSubmit contact form, election-night update emails, cookieless Cloudflare Web Analytics, Google Analytics only with your consent, Ezoic scripts and cookies with an opt-out, GitHub Pages hosting logs, optional tips through Stripe, affiliate link terms, no sale of personal information, and your privacy rights.`,
   path: "/privacy",
 });
 
@@ -117,7 +117,12 @@ export default function PrivacyPage() {
         <h2>Summary</h2>
         <ul>
           <li>We do not ask you to create an account or submit personal information to use the site.</li>
-          <li>The ZIP lookup runs entirely in your browser. Your ZIP is not sent to us.</li>
+          <li>
+            ZIP lookup runs in your browser. A five-digit ballot ZIP is kept after # on the ballot
+            address and is not included in the request this site receives. The browser does request a
+            public Census file named with the first three digits. Details are under “ZIP and state
+            lookup.”
+          </li>
           <li>
             We use Cloudflare Web Analytics, which Cloudflare says does not use cookies or local
             storage and does not fingerprint visitors. We see aggregate traffic statistics only.
@@ -157,10 +162,39 @@ export default function PrivacyPage() {
 
         <h2>ZIP and state lookup</h2>
         <p>
-          The ballot lookup runs only in your browser. Your browser matches the first three digits
-          of a ZIP code to one of the site’s starter states using a static table shipped with the
-          page, then opens that state’s page. The ZIP you type is not sent to our servers, is not
-          added to the page address, and is not matched to a voter record.
+          Two ZIP lookups run in the browser. Neither one searches a voter file. Neither one writes
+          the ZIP you type into local storage, session storage, or a cookie.
+        </p>
+        <h3>Ballot lookup</h3>
+        <p>
+          The ballot form matches the first three digits of a ZIP code to one of the site’s starter
+          states using a table shipped with the page, then opens that state’s ballot page. When you
+          enter five digits, the browser keeps them in the page address after <code>#</code>, as{" "}
+          <code>#zip=</code> followed by those digits. The browser uses that fragment, together with
+          a Census relationship file, to narrow U.S. House contests and local contests. Statewide
+          contests stay listed.
+        </p>
+        <p>
+          The fragment is not part of the request this site receives. The request for the ballot
+          page has no <code>#</code> and no five-digit ZIP, and the address has no query string. The
+          Referer on the file request that follows does not include the fragment. The browser then
+          requests a public file from this site at <code>/zcta/</code> plus the first three digits
+          and <code>.json</code>. That request contains those three digits and not the last two. The
+          five-digit ZIP is used in the browser to read the file.
+        </p>
+        <p>
+          A full load of a ballot address that already includes the fragment is different for the
+          advertising scripts. Google AdSense and Ezoic include the full page address, fragment
+          included, in their own requests. Google Analytics, and only if you have accepted analytics
+          cookies, sends the ballot page address without the fragment and does not include the
+          five-digit ZIP. Cloudflare Web Analytics requests do not include the ZIP.
+        </p>
+        <h3>Census place lookup</h3>
+        <p>
+          The ZIP search on the homepage and on Census place indexes does not add the ZIP to the
+          page address. The query string and the fragment stay empty. The browser requests the same
+          kind of public Census file from this site, <code>/zcta/</code> plus the first three
+          digits. The five-digit ZIP stays in the browser and is not sent to a third-party service.
         </p>
 
         <h2>Analytics: Cloudflare Web Analytics</h2>

@@ -21,7 +21,7 @@ export const HOME_FAQS: HomeFaq[] = [
   {
     question: "How does the ballot ZIP lookup work?",
     answer:
-      "The ZIP lookup runs in the browser and maps a prefix to a starter-state sample-ballot sketch. It is not an official ballot, not a voter-file search, and not a registration check. The site does not collect Social Security numbers, voter registration numbers, or ballot images. The official sample ballot for an address is issued by the election office.",
+      "The ZIP lookup runs in the browser. The first three digits select a starter-state sample-ballot sketch, and a five-digit ZIP is kept after # on that page to narrow U.S. House districts and local contests. The part after # is not included in the request this site receives. The browser loads a public Census file for the first three digits from this site. It is not an official ballot, not a voter-file search, and not a registration check. The site does not collect Social Security numbers, voter registration numbers, or ballot images. The official sample ballot for an address is issued by the election office.",
   },
   {
     question: "Where do candidate names and ratings come from?",
