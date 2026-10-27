@@ -67,16 +67,16 @@ function walk(dir: string) {
     if (!card.includes('rel="sponsored noopener"')) errors.push(`${rel}: missing rel="sponsored noopener"`);
     if (!card.includes('target="_blank"')) errors.push(`${rel}: missing target="_blank"`);
     if (!card.includes("min-height:72px")) errors.push(`${rel}: missing reserved 72px min-height`);
-    const sampleScript = html.match(/<script\b[^>]*\bsrc="\/rankfootprint-sample\.js"[^>]*>\s*<\/script>/i);
+    const sampleScripts = [
+      ...html.matchAll(/<script\b[^>]*\bsrc="\/rankfootprint-sample\.js"[^>]*>\s*<\/script>/gi),
+    ];
     if (id === "rankfootprint") {
-      if (!sampleScript) errors.push(`${rel}: missing deferred RankFootprint sample script`);
-      else if (!/\bdefer\b/i.test(sampleScript[0]) || !/\bdata-keep=/.test(sampleScript[0])) {
+      if (sampleScripts.length !== 1) {
+        errors.push(`${rel}: expected one deferred sample script, found ${sampleScripts.length}`);
+      } else if (!/\bdefer\b/i.test(sampleScripts[0][0]) || !/\bdata-keep=/.test(sampleScripts[0][0])) {
         errors.push(`${rel}: sample script must be deferred and marked data-keep`);
       }
-      if ((html.match(/rankfootprint-sample\.js/g) ?? []).length !== 1) {
-        errors.push(`${rel}: expected one sample script`);
-      }
-    } else if (sampleScript) {
+    } else if (sampleScripts.length) {
       errors.push(`${rel}: sample script is only for RankFootprint`);
     }
     if (!card.includes("utm_source=mapthemidterms")) errors.push(`${rel}: missing utm_source`);
