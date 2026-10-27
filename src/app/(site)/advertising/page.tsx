@@ -9,10 +9,12 @@ import { GOOGLE_ADS_POLICIES_URL } from "@/lib/adsense";
 import { LEGAL } from "@/data/legalEntity";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
+const EZOIC_PRIVACY = "https://www.ezoic.com/privacy-policy/";
+
 export const metadata = pageMetadata({
   title: "Advertising and affiliate disclosure",
   description:
-    `Advertising and affiliate disclosure for ${SITE.name}: Google AdSense may serve ads and use cookies. No paid political ads or candidate endorsements.`,
+    `Advertising and affiliate disclosure for ${SITE.name}: Google AdSense and Ezoic may serve ads and use cookies. No paid political ads or candidate endorsements.`,
   path: "/advertising",
 });
 
@@ -43,19 +45,22 @@ export default function AdvertisingPage() {
 
         <h2>Advertising</h2>
         <p>
-          {SITE.name} may show advertisements from Google AdSense. Google and its partners may use
-          cookies to serve and measure those ads. Google describes that use in{" "}
+          {SITE.name} may show advertisements from Google AdSense and from Ezoic. Google, Ezoic, and
+          their partners may use cookies to serve and measure those ads. Google describes that use in{" "}
           <a href={GOOGLE_ADS_POLICIES_URL} rel="noopener noreferrer">
             Google’s advertising policies
           </a>
-          . The file <a href="/ads.txt">ads.txt</a> lists one Google AdSense publisher ID (
-          <code>pub-5681559774142917</code>). Ezoic and Adsterra are not running and are not listed in
-          that file. We do not write a candidate’s ad, and an ad is not an endorsement by{" "}
-          {LEGAL.legalName} of the advertiser, a candidate, a party, or a ballot measure.
+          . Ezoic describes its cookies and its opt-out in{" "}
+          <a href={EZOIC_PRIVACY} rel="noopener noreferrer">Ezoic’s privacy policy</a>. The{" "}
+          <Link href="/privacy/#advertising">privacy policy</Link> names the Ezoic cookies. The file{" "}
+          <a href="/ads.txt">ads.txt</a> lists one Google AdSense publisher ID (
+          <code>pub-5681559774142917</code>) and was not changed when the Ezoic scripts were added.
+          Adsterra is not running and is not listed in that file. We do not add Ezoic ad placeholders
+          on thin or noindexed pages. We do not write a candidate’s ad, and an ad is not an endorsement
+          by {LEGAL.legalName} of the advertiser, a candidate, a party, or a ballot measure.
         </p>
         <p>
-          If we add another advertising network, we will update this page, the privacy policy, and{" "}
-          <a href="/ads.txt">ads.txt</a> first.
+          If we add another advertising network, we will update this page and the privacy policy first.
         </p>
 
         <h2>No paid political advertising</h2>
@@ -75,14 +80,17 @@ export default function AdvertisingPage() {
           is shown, are not endorsements.
         </p>
 
-        <h2>Cookies and Google’s EU/UK/CH consent message</h2>
+        <h2>Cookies and the EU/UK/CH consent prompt</h2>
         <p>
-          Google AdSense may use cookies to serve and measure ads. Visitors in the European Economic
-          Area, the United Kingdom, and Switzerland get Google’s consent message through the AdSense
-          script before those advertising cookies are used. Google Analytics cookies still load only
-          if you click Accept, through this site’s consent script, as the{" "}
-          <Link href="/privacy/#google-analytics">privacy policy</Link> explains. That analytics
-          choice does not replace Google’s consent message. Cloudflare Web Analytics is cookieless.
+          Google AdSense and Ezoic may use cookies to serve and measure ads. Ezoic’s Gatekeeper is
+          the single consent prompt for visitors in the European Economic Area and the United Kingdom
+          when that prompt is active, so this site’s banner stays hidden there. Visitors in
+          Switzerland, and visitors elsewhere, keep this site’s consent script for Google Analytics:
+          those cookies still load only if you click Accept, as the{" "}
+          <Link href="/privacy/#google-analytics">privacy policy</Link> explains. Where Gatekeeper is
+          not the prompt, visitors in the European Economic Area, the United Kingdom, and Switzerland
+          can still get Google’s consent message through the AdSense script. That analytics choice
+          does not replace Google’s consent message. Cloudflare Web Analytics is cookieless.
         </p>
 
         <h2>Affiliate links</h2>

@@ -1,8 +1,12 @@
 /**
  * Fails the build when an HTML page with a head lacks the AdSense meta tag or loader
  * (including static city, county, and redirect pages), when an ad unit is present,
+ * when the Ezoic header scripts are missing or out of order, when an Ezoic ad
+ * placeholder is on a noindex page or a page that must stay free of AdSense,
  * when ads.txt is missing or different, when robots.txt blocks an AdSense crawler,
  * or when the exported site is 1 GB or larger.
+ * Ezoic's header scripts are required on every HTML document. The AdSense loader
+ * stays limited to substantive pages.
  */
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import path from "node:path";
@@ -15,6 +19,7 @@ import {
   isRedirectStub,
   adsAllowedForPath,
 } from "../src/lib/adsense.ts";
+import { ezoicHeadProblems } from "../src/lib/ezoic.ts";
 
 const OUT = path.join(process.cwd(), "out");
 const GIGABYTE = 1024 * 1024 * 1024;
@@ -51,10 +56,15 @@ function walk(dir: string) {
     const sitePath = "/" + rel.split(path.sep).join("/").replace(/index\.html$/, "");
     const allow = !isRedirectStub(html) && adsAllowedForPath(sitePath);
     const hasLoader = head.includes("adsbygoogle.js");
+    const noindex = /<meta[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(head);
     if (allow && !head.includes(ADSENSE_LOADER_TAG)) errors.push(`${rel}: missing AdSense loader`);
     if (!allow && hasLoader) errors.push(`${rel}: AdSense loader on a page that must stay ad-free`);
-    if (hasLoader && /<meta[^>]*name="robots"[^>]*noindex/i.test(head)) errors.push(`${rel}: loader on a noindex page`);
+    if (hasLoader && noindex) errors.push(`${rel}: loader on a noindex page`);
     if (allow) adPages++;
+    const placeholdersAllowed = allow && !noindex;
+    for (const problem of ezoicHeadProblems(head, html, placeholdersAllowed)) {
+      errors.push(`${rel}: ${problem}`);
+    }
     if (/<ins\b[^>]*\badsbygoogle\b/i.test(html) || /adsbygoogle\s*=\s*window\.adsbygoogle/.test(html)) {
       errors.push(`${rel}: ad unit is present; only the loader is allowed`);
     }
@@ -133,6 +143,16 @@ if (!existsSync(OUT)) {
 }
 
 walk(OUT);
+
+const consentDefaultPath = path.join(OUT, "consent-default.js");
+if (!existsSync(consentDefaultPath)) {
+  errors.push("consent-default.js is missing from out/");
+} else {
+  const consentDefault = readFileSync(consentDefaultPath, "utf8");
+  if (!consentDefault.includes('consent", "default"') || !consentDefault.includes("analytics_storage")) {
+    errors.push("consent-default.js does not set a Consent Mode default");
+  }
+}
 
 const adsPath = path.join(OUT, "ads.txt");
 if (!existsSync(adsPath)) {

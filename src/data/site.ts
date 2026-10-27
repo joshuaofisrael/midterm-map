@@ -25,9 +25,9 @@ export const SITE = {
   legalLastUpdated: "October 24, 2026",
   /** Last substantive change to /terms and /copyright. Change only when those pages change. */
   policyLastUpdated: "October 24, 2026",
-  privacyLastUpdated: "October 24, 2026",
+  privacyLastUpdated: "October 27, 2026",
   /** Last substantive change to /advertising. Change only when that page changes. */
-  advertisingLastUpdated: "October 24, 2026",
+  advertisingLastUpdated: "October 27, 2026",
   voteGovUrl: "https://www.vote.gov/",
 } as const;
 
