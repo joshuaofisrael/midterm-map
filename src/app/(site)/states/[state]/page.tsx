@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { Byline } from "@/components/Byline";
 import { ContentTrust } from "@/components/ContentTrust";
 import { CrossLinks } from "@/components/CrossLinks";
 import { TipJar } from "@/components/TipJar";
@@ -77,6 +78,7 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
         lede={state.summary}
         visual={VISUALS.civicBuilding}
       />
+      <Byline className="mt-0" />
       <ContentTrust
         updated={contentUpdatedLabel(`/states/${state.code}`)}
         pagePath={`/states/${state.code}`}

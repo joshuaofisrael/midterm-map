@@ -100,7 +100,9 @@ test("organization and race Article JSON-LD parse, and the author is not a perso
   });
   assert.equal(typesOf(org).includes("Person"), false);
   assert.equal(typesOf(race).includes("Person"), false);
-  assert.match(read("app/(site)/races/[slug]/page.tsx"), /By Map the Midterms Editorial Team/);
-  assert.match(read("app/(site)/about/page.tsx"), /By Map the Midterms Editorial Team/);
+  assert.match(read("components/Byline.tsx"), /By Map the Midterms Editorial Team/);
+  assert.match(read("app/(site)/races/[slug]/page.tsx"), /<Byline\s*\/>/);
+  assert.match(read("app/(site)/about/page.tsx"), /<Byline\s*\/>/);
+  assert.match(read("app/(site)/learn/[slug]/page.tsx"), /<Byline/);
   assert.match(read("app/(site)/about/page.tsx"), /"@type": "WebPage"/);
 });

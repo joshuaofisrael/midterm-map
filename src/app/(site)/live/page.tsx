@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { Byline } from "@/components/Byline";
 import { InfoNote } from "@/components/InfoNote";
 import { ContentTrust } from "@/components/ContentTrust";
 import { EmailSignup } from "@/components/EmailSignup";
@@ -67,6 +68,7 @@ export default function LivePage() {
         title="Election night results"
         lede={`Unofficial figures for the November 3, 2026 general election, copied from state election-office files after polls close. ${SITE.name} does not call a winner. A winner is labeled only when the official file marks that candidate.`}
       >
+        <Byline />
         <InfoNote />
       </PageHeader>
       <ContentTrust updated={contentUpdatedLabel("/live")} pagePath="/live" />

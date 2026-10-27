@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { BallotLookup } from "@/components/BallotLookup";
+import { Byline } from "@/components/Byline";
+import { ContentTrust } from "@/components/ContentTrust";
 import { CivicImage } from "@/components/CivicImage";
 import { ZipPlaceSearchSection } from "@/components/ZipPlaceSearchSection";
 import { EmailSignup } from "@/components/EmailSignup";
@@ -13,10 +15,12 @@ import { RaceCard } from "@/components/RaceCard";
 import { TipJar } from "@/components/TipJar";
 import { ELECTION_DATES } from "@/data/electionDates";
 import { HOME_FAQS } from "@/data/homeFaqs";
+import { LEARN_ARTICLES } from "@/data/learn/articles";
 import { featuredRaces } from "@/data/races";
 import { SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
 import { VISUALS } from "@/data/visuals";
+import { contentUpdatedLabel } from "@/lib/contentDate";
 import { faqJsonLd } from "@/lib/format";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -94,6 +98,8 @@ export default function HomePage() {
           <CivicImage asset={VISUALS.pollingPlace} priority className="order-1 lg:order-2" />
         </div>
       </section>
+      <Byline className="mt-0" />
+      <ContentTrust updated={contentUpdatedLabel("/")} pagePath="/" />
       <OfficialNotice />
       <ShareBar path="/" title={SITE.name} />
       <MapTheGeneral variant="hubs" />
@@ -197,6 +203,28 @@ export default function HomePage() {
             </Link>
           </p>
         </div>
+      </section>
+
+      <section>
+        <h2 className="font-serif text-2xl font-semibold">How the count works</h2>
+        <p className="mt-2 max-w-2xl text-sm leading-6 text-ink-muted">
+          Original explainers on majorities, mail ballots, recounts, and certification.
+          They describe the rules. They do not call a race.
+        </p>
+        <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+          {LEARN_ARTICLES.slice(0, 6).map((article) => (
+            <li key={article.slug}>
+              <Link className="font-medium text-navy hover:underline" href={`/learn/${article.slug}`}>
+                {article.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <p className="mt-4 text-sm">
+          <Link className="font-medium text-navy hover:underline" href="/learn">
+            All {LEARN_ARTICLES.length} explainers
+          </Link>
+        </p>
       </section>
 
       <section id="faq" className="rounded-xl border border-line bg-paper-card p-5 shadow-card">

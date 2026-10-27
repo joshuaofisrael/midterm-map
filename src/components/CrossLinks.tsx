@@ -13,6 +13,7 @@ export function CrossLinks({
     { href: "/races", label: "Race guides" },
     { href: "/polls", label: "Polls & ratings" },
     { href: "/results", label: "Results tracker" },
+    { href: "/learn", label: "Explainers" },
   ];
 
   if (state) {
