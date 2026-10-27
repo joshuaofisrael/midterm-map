@@ -3,14 +3,34 @@
  * for the offer selected from that page's path, placed under the header and
  * above the main heading. Redirect stubs stay ad-free.
  * NamedScan is about 60% and RankFootprint about 40%. Tax Deed Pack is absent.
+ * RankFootprint uses the $1 sample line and must not contain free-scan wording
+ * or the removed auto-switch script.
  */
 import { readdirSync, readFileSync, statSync, existsSync } from "node:fs";
 import path from "node:path";
 import { htmlHead, isRedirectStub } from "../src/lib/adsense.ts";
-import { HOUSE_ADS, normalizeHouseAdPath, pickHouseAd, type HouseAdId } from "../src/lib/houseAd.ts";
+import {
+  HOUSE_ADS,
+  RANKFOOTPRINT_FREE_SCAN,
+  RANKFOOTPRINT_SAMPLE_LINE,
+  normalizeHouseAdPath,
+  pickHouseAd,
+  type HouseAdId,
+} from "../src/lib/houseAd.ts";
 
 const OUT = path.join(process.cwd(), "out");
 const errors: string[] = [];
+const rankOffer = HOUSE_ADS.rankfootprint;
+const rankCopy = [rankOffer.label, rankOffer.headline, rankOffer.pitch, rankOffer.cta, rankOffer.href].join("\n");
+if (
+  rankOffer.headline !== RANKFOOTPRINT_SAMPLE_LINE ||
+  !rankOffer.pitch.startsWith(`${RANKFOOTPRINT_SAMPLE_LINE}.`)
+) {
+  errors.push(`RankFootprint offer must use exactly "${RANKFOOTPRINT_SAMPLE_LINE}"`);
+}
+if (RANKFOOTPRINT_FREE_SCAN.test(rankCopy)) {
+  errors.push("RankFootprint offer contains free-scan wording");
+}
 const counts: Record<HouseAdId, number> = { namedscan: 0, rankfootprint: 0 };
 const examples: Partial<Record<HouseAdId, string>> = {};
 let pages = 0;
@@ -34,7 +54,9 @@ function walk(dir: string) {
     if (/taxdeedpack|Tax Deed Pack/i.test(html)) {
       errors.push(`${rel}: still mentions Tax Deed Pack`);
     }
-    if (/free scan/i.test(html)) errors.push(`${rel}: static HTML says "free scan"`);
+    if (html.includes("rankfootprint-sample.js") || html.includes("sample-status")) {
+      errors.push(`${rel}: RankFootprint auto-switch script is still referenced`);
+    }
     if (isRedirectStub(html)) {
       redirects += 1;
       if (html.includes("data-house-ad")) errors.push(`${rel}: redirect stub has a house ad`);
@@ -67,17 +89,13 @@ function walk(dir: string) {
     if (!card.includes('rel="sponsored noopener"')) errors.push(`${rel}: missing rel="sponsored noopener"`);
     if (!card.includes('target="_blank"')) errors.push(`${rel}: missing target="_blank"`);
     if (!card.includes("min-height:72px")) errors.push(`${rel}: missing reserved 72px min-height`);
-    const sampleScripts = [
-      ...html.matchAll(/<script\b[^>]*\bsrc="\/rankfootprint-sample\.js"[^>]*>\s*<\/script>/gi),
-    ];
     if (id === "rankfootprint") {
-      if (sampleScripts.length !== 1) {
-        errors.push(`${rel}: expected one deferred sample script, found ${sampleScripts.length}`);
-      } else if (!/\bdefer\b/i.test(sampleScripts[0][0]) || !/\bdata-keep=/.test(sampleScripts[0][0])) {
-        errors.push(`${rel}: sample script must be deferred and marked data-keep`);
+      if (RANKFOOTPRINT_FREE_SCAN.test(card)) {
+        errors.push(`${rel}: RankFootprint ad contains free-scan wording`);
       }
-    } else if (sampleScripts.length) {
-      errors.push(`${rel}: sample script is only for RankFootprint`);
+      if (!card.includes(RANKFOOTPRINT_SAMPLE_LINE)) {
+        errors.push(`${rel}: RankFootprint ad must say "${RANKFOOTPRINT_SAMPLE_LINE}"`);
+      }
     }
     if (!card.includes("utm_source=mapthemidterms")) errors.push(`${rel}: missing utm_source`);
     if (!card.includes("utm_medium=house_ad")) errors.push(`${rel}: missing utm_medium`);
@@ -104,6 +122,10 @@ if (!existsSync(OUT)) {
 }
 
 walk(OUT);
+
+if (existsSync(path.join(OUT, "rankfootprint-sample.js"))) {
+  errors.push("out/rankfootprint-sample.js is still published");
+}
 
 if (pages === 0) errors.push("no HTML pages found");
 
