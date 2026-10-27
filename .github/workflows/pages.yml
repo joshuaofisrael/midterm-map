@@ -35,6 +35,9 @@ jobs:
         env:
           NEXT_PUBLIC_SITE_URL: https://mapthemidterms.com
 
+      - name: Legal hold before deploy
+        run: node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/check-legal-hold.ts
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
