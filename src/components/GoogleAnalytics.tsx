@@ -6,10 +6,11 @@ export const CONSENT_STORAGE_KEY = "mtm-analytics-consent";
 
 /**
  * Sitewide head tags for the cookie banner. gtag.js is not in the page.
- * public/consent.js loads it only after the visitor clicks Accept, so a normal
- * pageview does not call Google. data-keep tells scripts/slim-city-pages.mjs to
- * leave these tags on Census place pages. The measurement id string has to stay
- * in the HTML for that check.
+ * public/consent.js loads it only after Accept, or after Gatekeeper's TCF
+ * signal grants analytics storage. data-keep tells scripts/slim-city-pages.mjs
+ * to leave these tags on Census place pages. The measurement id string has to
+ * stay in the HTML for that check. The Ezoic scripts and the Consent Mode
+ * default are stamped into exported HTML; they are not part of this component.
  */
 export function GoogleAnalyticsHead() {
   return (

@@ -98,6 +98,12 @@ Candidate and certified write-in names on race guides and city pages are copied 
 
 City and race Event JSON-LD is one election-day event per page. Per-contest Event nodes were removed. `endDate` is the state’s poll-close instant from `pollClose.ts`. The organizer is the state election office (`GovernmentOrganization`). The image is the existing `/og.jpg` card. Performer and offers are omitted. The national event on `/live/` does not name the LLC as organizer of the election.
 
+## October 27, 2026 — Ezoic header scripts
+
+Every exported HTML page now loads Ezoic’s Gatekeeper CMP, then `sa.min.js`, the `ezstandalone` queue, and `ezoicanalytics.com/analytics.js`, immediately after the charset meta. No Ezoic ad placeholders were added. AdSense tag placement, `ads.txt`, and DNS were not changed. The AdSense loader is still limited to substantive pages. The build check requires the Ezoic header scripts on every document and rejects an Ezoic placeholder on a noindex page or a page that must not load AdSense.
+
+Consent choice: Gatekeeper is the only prompt when its TCF signal reports that GDPR applies (Ezoic shows that modal for the EU, the EEA, and the UK). This site’s banner stays hidden there. GA4 Consent Mode defaults analytics storage to denied, and denies ad storage for the EEA, the UK, and Switzerland, then updates from Gatekeeper’s purpose map (analytics storage requires purposes 1, 7, 8, and 10) before `gtag.js` loads. Switzerland is outside that geo list, so the site banner remains there and the regional default stays denied until Google’s own message grants ad storage. Everywhere else the site banner remains and ad storage stays granted so the existing AdSense loader is not blocked. `/privacy` names Ezoic, the cookies, and the opt-out.
+
 ## October 24, 2026 — copyright line
 
 The sitewide footer and the Census place footer no longer carry a © line. Terms, privacy, disclaimer, copyright, and advertising each end with the LLC copyright line above. There is no separate imprint or legal-notice route. The Florida governing-law paragraph on `/terms` is unchanged. Organization JSON-LD still names Map the Midterms as the publisher. `ads.txt` is unchanged.
