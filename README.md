@@ -83,9 +83,31 @@ Do not use `https://joshuaofisrael.github.io/midterm-map/` as the public URL. Ca
 | `/polls` | Attributed ratings + cited poll tables |
 | `/results` | House/Senate meters, key races, pre-election mode |
 | `/results/[slug]` | Per-race unofficial-returns shell |
+| `/results/state/[state]` | State results |
+| `/live` | Election night |
+| `/advertise` | Election-night sponsorship offer |
 | `/states/[state]` | State hub |
 | `/about` `/disclaimer` `/privacy` `/terms` `/copyright` `/advertising` | Legal |
 | `/sitemap.xml` `/robots.txt` | Crawlers |
+
+## Election-night sponsorship
+
+The row under the top house-ad banner on `/`, `/live/`, `/results/`, and `/results/state/[state]/` is one config value, `ELECTION_NIGHT_SPONSOR`, in `src/data/sponsor.ts`.
+
+Leave it `null` to show the booking slot (“Advertise here”, with “Book this slot” linking to `/advertise/`).
+
+Replace `null` with one object to sell the slot. `name`, `url`, and `copy` are required. `image` is optional. `url` must be `https`. A blank field keeps the booking slot. Prefer a logo file in `public/` (a site path such as `/sponsors/acme.png`) so the image is served with this site.
+
+```ts
+export const ELECTION_NIGHT_SPONSOR = {
+  name: "Example Co",
+  url: "https://example.com/",
+  copy: "One short line about the business.",
+  image: "/sponsors/example.png",
+};
+```
+
+The row then reads “Sponsored by Example Co” and links to `url` with `rel="sponsored noopener"`. The “Pay $1,000” button on `/advertise/` uses `SPONSOR_CHECKOUT_URL` in the same file.
 
 Starter states: AZ, GA, MI, NC, NV, OH, PA, WI, TX, FL, CA, NY, MN, ME, IA, AK, KS.
 

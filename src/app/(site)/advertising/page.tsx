@@ -72,6 +72,13 @@ export default function AdvertisingPage() {
             ? ` Optional tips, if you choose to leave one, are paid to ${LEGAL.legalName} through Stripe. A tip is not a political contribution and not an advertisement.`
             : ""}
         </p>
+        <p>
+          A separate sponsorship is offered to non-political businesses only: one exclusive banner
+          from 3 November 2026 at 00:00 Eastern Time through 6 November 2026 at 23:59 Eastern Time.
+          The terms, the review, and a full refund if the ad is not approved are on the{" "}
+          <Link href="/advertise">advertise</Link> page. An approved ad is labelled Sponsored.
+          Traffic is not guaranteed.
+        </p>
 
         <h2>No endorsements of candidates</h2>
         <p>
