@@ -1,0 +1,1948 @@
+{
+  "accessed": "October 27, 2026",
+  "date": {
+    "quote": "November 3, 2026",
+    "text": "County lines are copied from the Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election. Where this page prints a circuit contest, the Michigan Compiled Laws section linked for that county names the counties in the circuit."
+  },
+  "localByCounty": {
+    "Alger County": [
+      {
+        "office": "11th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rahilly, Brian D.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Steinhoff, Robert T.",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Allegan County": [
+      {
+        "office": "48th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Antkoviak, Matt",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Alpena County": [
+      {
+        "office": "26th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Black, K. Edward",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Antrim County": [
+      {
+        "office": "13th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Elsenheimer, Kevin A.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Baraga County": [
+      {
+        "office": "12th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bulleit, Brittany A.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Bay County": [
+      {
+        "office": "18th Circuit Judge of Circuit Court Non-Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Huber, Michael",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Benzie County": [
+      {
+        "office": "19th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Thompson, David A.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Berrien County": [
+      {
+        "office": "2nd Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Smith-DenDooven, Jennifer L.",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "BERRIEN Judge of Probate Court Incumbent 6 Year Term (1) Position Files With County",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mayfield, Mabel Johnson",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Branch County": [
+      {
+        "office": "15th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Stempien, Zachary William",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Calhoun County": [
+      {
+        "office": "37th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Lincoln, Sarah S.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Chippewa County": [
+      {
+        "office": "CHIPPEWA Judge of Probate Court Incumbent 6 Year Term (1) Position Files With County",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Blubaugh, Eric G.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Clare County": [
+      {
+        "office": "55th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Hovey, Tara S.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Clinton County": [
+      {
+        "office": "29th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Schlegel, Shannon L.W.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Crawford County": [
+      {
+        "office": "46th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mertz, George J.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Dickinson County": [
+      {
+        "office": "41st Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ninomiya, Christopher S.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Genesee County": [
+      {
+        "office": "7th Circuit Judge of Circuit Court Incumbent 6 Year Terms (3) Positions",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Christenson, Chris",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Latchana, Mark W.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "McDowell, Anthony J.",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "GENESEE Judge of Probate Court Non-Incumbent 6 Year Term (1) Position Files With County",
+        "key": null,
+        "candidates": [
+          {
+            "name": "LeGendre, Andrea L.",
+            "party": ""
+          },
+          {
+            "name": "Prew, Ashley",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Gladwin County": [
+      {
+        "office": "55th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Hovey, Tara S.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Gogebic County": [
+      {
+        "office": "32nd Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Pope, Michael K.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Grand Traverse County": [
+      {
+        "office": "13th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Elsenheimer, Kevin A.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Gratiot County": [
+      {
+        "office": "29th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Schlegel, Shannon L.W.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Houghton County": [
+      {
+        "office": "12th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bulleit, Brittany A.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Huron County": [
+      {
+        "office": "52nd Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Prill, Gerald M.",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "HURON Judge of Probate Court Incumbent 6 Year Term (1) Position Files With County",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ferris, Julienne M.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Testolin-Reinke, Jessica Leigh",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Ingham County": [
+      {
+        "office": "30th Circuit Judge of Circuit Court Incumbent 6 Year Terms (3) Positions",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Aquilina, Rosemarie Elizabeth",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Koenig, Carol N.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Stokes, Wanda M.",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "30th Circuit Judge of Circuit Court Incumbent Partial Term - 2 Years Ending 01/01/2029 (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Tremblay, Patricia",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "INGHAM Judge of Probate Court Incumbent 6 Year Term (1) Position Files With County",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Garcia, Richard J.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Ionia County": [
+      {
+        "office": "8th Circuit Judge of Circuit Court Non-Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shearer, Lori J.",
+            "party": ""
+          },
+          {
+            "name": "Sternisha, Ed",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Iron County": [
+      {
+        "office": "41st Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ninomiya, Christopher S.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Jackson County": [
+      {
+        "office": "4th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "McBain Jr., John G.",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "4th Circuit Judge of Circuit Court Incumbent Partial Term Ending 01/01/2031 (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bates, Allison L.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Kalamazoo County": [
+      {
+        "office": "9th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Giguere Jr., Gary C.",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "KALAMAZOO Judge of Probate Court Incumbent 6 Year Term (1) Position Files With County",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ankley, Tiffany A.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Kalkaska County": [
+      {
+        "office": "46th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mertz, George J.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Kent County": [
+      {
+        "office": "17th Circuit Judge of Circuit Court Incumbent 6 Year Terms (3) Positions",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gottlieb, Maureen A.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Noto, Scott A.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "West, Clay M.",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "KENT Judge of Probate Court Incumbent 6 Year Term (1) Position Files With County",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Murkowski, David M.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Keweenaw County": [
+      {
+        "office": "12th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Bulleit, Brittany A.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Leelanau County": [
+      {
+        "office": "13th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Elsenheimer, Kevin A.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Lenawee County": [
+      {
+        "office": "39th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Olsaver, Michael R.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Livingston County": [
+      {
+        "office": "44th Circuit Judge of Circuit Court Non-Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Banfield, Andrea",
+            "party": ""
+          },
+          {
+            "name": "Lyke, Kristina S.",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Luce County": [
+      {
+        "office": "11th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rahilly, Brian D.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Steinhoff, Robert T.",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Mackinac County": [
+      {
+        "office": "11th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rahilly, Brian D.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Steinhoff, Robert T.",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Macomb County": [
+      {
+        "office": "16th Circuit Judge of Circuit Court Incumbent 6 Year Terms (4) Positions",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Gatti, Julie",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Grillo, Tanya A.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Maceroni, James M.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Switalski, Matthew S.",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "16th Circuit Judge of Circuit Court Non-Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Spagnuolo, James L.",
+            "party": ""
+          },
+          {
+            "name": "Taylor, Genevieve L.",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "MACOMB Judge of Probate Court Incumbent 6 Year Term (1) Position Files With County",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Schimke, Sara A.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Manistee County": [
+      {
+        "office": "19th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Thompson, David A.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Marquette County": [
+      {
+        "office": "25th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Wiese, Matt",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Mason County": [
+      {
+        "office": "51st Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sniegowski, Susan Kasley",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Mecosta County": [
+      {
+        "office": "49th Circuit Judge of Circuit Court Non-Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Duvall Jr., Dennis L.",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Menominee County": [
+      {
+        "office": "41st Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ninomiya, Christopher S.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Midland County": [
+      {
+        "office": "42nd Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Beale, Michael J.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Missaukee County": [
+      {
+        "office": "28th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Elmore, Jason J.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Monroe County": [
+      {
+        "office": "38th Circuit Judge of Circuit Court Non-Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Beaudry, Lauren K.",
+            "party": ""
+          },
+          {
+            "name": "Zagorski, Maria",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "MONROE Judge of Probate Court Incumbent 6 Year Term (1) Position Files With County",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sweeney, Cheryl R.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Montcalm County": [
+      {
+        "office": "8th Circuit Judge of Circuit Court Non-Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Shearer, Lori J.",
+            "party": ""
+          },
+          {
+            "name": "Sternisha, Ed",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Montmorency County": [
+      {
+        "office": "26th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Black, K. Edward",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Muskegon County": [
+      {
+        "office": "14th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Hoogstra, Kathy",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Oakland County": [
+      {
+        "office": "6th Circuit Judge of Circuit Court Incumbent 6 Year Terms (6) Positions",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Brennan, Mary Ellen T.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Cohen, David M.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Gorcyca, Lisa",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Grant, Nanci",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Matis, Jeffery S.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Savin, Lorie N.",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "6th Circuit Judge of Circuit Court Non-Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "King, Victoria",
+            "party": ""
+          },
+          {
+            "name": "Neilson, Lisa Marie",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "OAKLAND Judge of Probate Court Incumbent Partial Term Ending 01/01/2029 (1) Position Files With County",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Huddleston, Nicole S.",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "OAKLAND Judge of Probate Court Non-Incumbent 6 Year Term (1) Position Files With County",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Dery, Elisabeth",
+            "party": ""
+          },
+          {
+            "name": "Hallmark, Jessica Ann",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Oceana County": [
+      {
+        "office": "51st Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sniegowski, Susan Kasley",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Ontonagon County": [
+      {
+        "office": "32nd Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Pope, Michael K.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Osceola County": [
+      {
+        "office": "49th Circuit Judge of Circuit Court Non-Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Duvall Jr., Dennis L.",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Otsego County": [
+      {
+        "office": "46th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Mertz, George J.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Ottawa County": [
+      {
+        "office": "20th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Hulsing, Jon",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Saginaw County": [
+      {
+        "office": "10th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Trice III, Manvel",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "SAGINAW Judge of Probate Court Incumbent 6 Year Term (1) Position Files With County",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Meter, Barbara L.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Sanilac County": [
+      {
+        "office": "24th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Wrathell, Timothy C.",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "SANILAC Judge of Probate Court Non-Incumbent 6 Year Term (1) Position Files With County",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Grout, Sara L.",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Schoolcraft County": [
+      {
+        "office": "11th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Rahilly, Brian D.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Steinhoff, Robert T.",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Shiawassee County": [
+      {
+        "office": "35th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Stewart, Matthew J.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "St. Clair County": [
+      {
+        "office": "31st Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Damman, Daniel A.",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "ST. CLAIR Judge of Probate Court Incumbent 6 Year Term (1) Position Files With County",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Deegan, Jennifer",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ],
+    "Van Buren County": [
+      {
+        "office": "36th Circuit Judge of Circuit Court Non-Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Ward, Kelly",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Washtenaw County": [
+      {
+        "office": "22nd Circuit Judge of Circuit Court Incumbent 6 Year Terms (2) Positions",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Conlin Jr., Patrick J.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Van den Bergh, Tracy E.",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "WASHTENAW Judge of Probate Court Non-Incumbent 6 Year Term (1) Position Files With County",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Battles, Alethia Jean",
+            "party": ""
+          },
+          {
+            "name": "Lawrence, Jennifer",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Wayne County": [
+      {
+        "office": "3rd Circuit Judge of Circuit Court Incumbent 6 Year Terms (16) Positions",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Allen, David J.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Baker-Robinson, Chandra W.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Blount, Christopher M.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Castka, Nicole L.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Cobb, Bradley L.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Dingell, Chris",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Elder, Charlene M.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Farhat, Helal A.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Goodson, Nicole N.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Joseph, Edward J.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Kelly, Mary Beth",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Knapp, Don",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Miller, Cylenthia LaToye",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Testani, Carla G.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Van Houten, Margaret M.",
+            "party": "INCUMBENT"
+          },
+          {
+            "name": "Walker, Shannon Nicol",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "3rd Circuit Judge of Circuit Court Non-Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Hawkins, Shakira Lynn",
+            "party": ""
+          }
+        ]
+      },
+      {
+        "office": "3rd Circuit Judge of Circuit Court Incumbent Partial Term - 4 Years Ending 01/01/2031 (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Sabree, Aliyah S.",
+            "party": "INCUMBENT"
+          }
+        ]
+      },
+      {
+        "office": "WAYNE Judge of Probate Court Non-Incumbent 6 Year Terms (3) Positions Files With County",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Colegrove, Sarah",
+            "party": ""
+          },
+          {
+            "name": "Fanning, Suzanne",
+            "party": ""
+          },
+          {
+            "name": "Moss, Vanessa M.",
+            "party": ""
+          }
+        ]
+      }
+    ],
+    "Wexford County": [
+      {
+        "office": "28th Circuit Judge of Circuit Court Incumbent 6 Year Term (1) Position",
+        "key": null,
+        "candidates": [
+          {
+            "name": "Elmore, Jason J.",
+            "party": "INCUMBENT"
+          }
+        ]
+      }
+    ]
+  },
+  "countyRead": {
+    "Alger County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.512, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-512",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Allegan County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.549, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-549",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Alpena County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.527, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-527",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Antrim County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.514, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-514",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Baraga County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.513, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-513",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Bay County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.519, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-519",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Benzie County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.520, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-520",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Berrien County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.503, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-503",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Branch County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.516, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-516",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Calhoun County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.538, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-538",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Chippewa County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line."
+    },
+    "Clare County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.549g, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-549g",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Clinton County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.530, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-530",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Crawford County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.547, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-547",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Dickinson County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.542, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-542",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Genesee County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.508, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-508",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Gladwin County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.549g, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-549g",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Gogebic County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.533, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-533",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Grand Traverse County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.514, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-514",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Gratiot County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.530, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-530",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Houghton County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.513, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-513",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Huron County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.549d, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-549d",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Ingham County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.531, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-531",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Ionia County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.509, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-509",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Iron County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.542, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-542",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Jackson County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.505, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-505",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Kalamazoo County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.510, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-510",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Kalkaska County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.547, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-547",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Kent County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.518, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-518",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Keweenaw County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.513, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-513",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Leelanau County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.514, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-514",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Lenawee County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.540, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-540",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Livingston County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.545, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-545",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Luce County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.512, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-512",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Mackinac County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.512, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-512",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Macomb County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.517, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-517",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Manistee County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.520, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-520",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Marquette County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.526, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-526",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Mason County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.549c, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-549c",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Mecosta County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.549a, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-549a",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Menominee County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.542, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-542",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Midland County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.543, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-543",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Missaukee County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.529, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-529",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Monroe County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.539, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-539",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Montcalm County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.509, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-509",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Montmorency County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.527, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-527",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Muskegon County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.515, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-515",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Oakland County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.507, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-507",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Oceana County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.549c, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-549c",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Ontonagon County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.533, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-533",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Osceola County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.549a, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-549a",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Otsego County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.547, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-547",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Ottawa County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.521, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-521",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Saginaw County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.511, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-511",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Sanilac County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.525, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-525",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Schoolcraft County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.512, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-512",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Shiawassee County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.536, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-536",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "St. Clair County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.532, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-532",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Van Buren County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.537, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-537",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Washtenaw County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.523, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-523",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Wayne County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.504, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-504",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    },
+    "Wexford County": {
+      "label": "Michigan Bureau of Elections, official candidate listing, all state and judicial offices, November 3, 2026 general election, 721 candidates as of Fri Sep 04 08:48:42 EDT",
+      "href": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport",
+      "intro": "The Michigan Bureau of Elections official candidate listing for the November 3, 2026 general election prints these contests.",
+      "note": "The listing's last line prints 721 Candidates as of Fri Sep 04 08:48:42 EDT. Names are copied in the order printed on the official candidate listing. The Party / Incumbent column is copied as printed. When that column prints INCUMBENT and no party name, the party cell on this page is INCUMBENT. When that column is blank, no party is printed. A row whose Status cell prints DISQ or WITHD is not copied. The Filed On and Filing Method cells are not copied. Governor, secretary of state, attorney general, U.S. Senate, U.S. House, the Michigan Legislature, the State Board of Education, the university boards, the Supreme Court, and the Court of Appeals are not copied. District court contests are not copied, because the listing does not name the places in each district. County clerk, sheriff, treasurer, prosecutor, register of deeds, county commissioner, and city offices are not on this listing and are not copied. A circuit contest is printed on each Census county named in that circuit's consists-of sentence. When the section prints a later Beginning date that is already in effect, that sentence is the one used. The 5th, 33rd, 40th, and 56th circuit contests are not copied, because those sections state the counties inside an if-the-county-approves sentence and the candidate listing does not name the county. A probate contest is printed on the county named at the start of the office line.",
+      "sources": [
+        {
+          "name": "Michigan Legislature, MCL 600.529, judicial circuit",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-529",
+          "accessed": "October 27, 2026"
+        }
+      ]
+    }
+  }
+}
