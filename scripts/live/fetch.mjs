@@ -10,7 +10,7 @@
  *     Set LIVE_PUBLISH=1 to push public/live/results.json to live-results.
  */
 
-import { execFileSync } from "node:child_process";
+import { execFileSync, spawnSync } from "node:child_process";
 import { appendFileSync, readFileSync, writeFileSync, mkdirSync, mkdtempSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
@@ -570,6 +570,21 @@ async function main() {
   writeFileSync(outPath, `${JSON.stringify(payload)}\n`);
   const bytes = Buffer.byteLength(JSON.stringify(payload));
   console.log(`Wrote ${outPath} (${bytes} bytes)`);
+  const hold = spawnSync(
+    process.execPath,
+    [
+      "--disable-warning=MODULE_TYPELESS_PACKAGE_JSON",
+      "--experimental-strip-types",
+      path.join(root, "scripts/check-legal-hold.ts"),
+      "--paths",
+      path.relative(root, outPath),
+    ],
+    { cwd: root, stdio: "inherit" },
+  );
+  if (hold.status !== 0) {
+    setOutput("publish", "false");
+    process.exit(hold.status ?? 1);
+  }
   setOutput("publish", dryRun ? "false" : "true");
   if (dryRun) {
     console.log("--- sample files already online ---");

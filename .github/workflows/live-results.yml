@@ -81,6 +81,10 @@ jobs:
           LIVE_DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && (inputs.dry_run == true || inputs.dry_run == 'true') && 'true' || '' }}
           LIVE_STOP: ${{ github.event_name == 'workflow_dispatch' && (inputs.stop_counting == true || inputs.stop_counting == 'true') && 'true' || '' }}
 
+      - name: Legal hold before publish
+        if: steps.window.outputs.run == 'true' && steps.fetch.outputs.publish == 'true'
+        run: node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/check-legal-hold.ts --paths public/live/results.json
+
       - name: Publish results JSON
         if: steps.window.outputs.run == 'true' && steps.fetch.outputs.publish == 'true'
         run: node scripts/live/publish.mjs

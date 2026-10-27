@@ -1,0 +1,370 @@
+{
+  "site": "Map the Midterms",
+  "entries": [
+    {
+      "path": "public/candidates/jon-ossoff.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jon_Ossoff_Senate_Portrait_2021_(cropped).jpg",
+      "author": "U.S. Senate Photographic Studio",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/mike-collins.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rep._Mike_Collins_official_photo,_118th_Congress_(cropped).jpg",
+      "author": "United States Congress",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/abdul-el-sayed.webp",
+      "basis": "licensed",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_5_(cropped).jpg",
+      "author": "Conlan Houston",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/mike-rogers.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mike_Rogers_109th_Congress_photo.jpg",
+      "author": "U.S. Congress",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/roy-cooper.webp",
+      "basis": "licensed",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NC_Governor_Roy_Cooper.jpg",
+      "author": "RadioFan",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/ken-paxton.webp",
+      "basis": "licensed",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ken_Paxton.jpg",
+      "author": "Alice Linahan, Voices Empower",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/katie-hobbs.webp",
+      "basis": "licensed",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Katie_Hobbs_by_Gage_Skidmore.jpg",
+      "author": "Gage Skidmore",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/andy-biggs.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andy_Biggs_official_portrait_(headshot).jpg",
+      "author": "U.S. Congress",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/keisha-lance-bottoms.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keisha_Lance_Bottoms_(cropped).jpg",
+      "author": "Executive Office of the President of the United States",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/jocelyn-benson.webp",
+      "basis": "licensed",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jocelyn_Benson_1.jpg",
+      "author": "Parent55",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/john-james.webp",
+      "basis": "licensed",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_James.png",
+      "author": "John James Senate campaign",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/joe-lombardo.webp",
+      "basis": "licensed",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Governor_Joe_Lombardo.jpg",
+      "author": "Office of Glenn Youngkin",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/vivek-ramaswamy.webp",
+      "basis": "licensed",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vivek_Ramaswamy_by_Gage_Skidmore.jpg",
+      "author": "Gage Skidmore",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/josh-shapiro.webp",
+      "basis": "licensed",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Josh_Shapiro_in_2019.jpg",
+      "author": "Governor Tom Wolf from Harrisburg, PA",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/stacy-garrity.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stacy_Garrity_US_Army.jpg",
+      "author": "United States Army",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/tom-tiffany.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tom_Tiffany_(WI-07).jpg",
+      "author": "U.S. House of Representatives, Office of the Clerk",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/byron-donalds.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rep._Byron_Donalds_official_photo,_117th_Congress.jpg",
+      "author": "United States Congress",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/david-jolly.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:David_Jolly.jpg",
+      "author": "U.S. House of Representatives",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/xavier-becerra.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:HHS_Xavier_Becerra_(cropped).jpg",
+      "author": "U.S. Department of Health and Human Services",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/kathy-hochul.webp",
+      "basis": "licensed",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kathy_Hochul,_November_2017.jpeg",
+      "author": "KC Kratt",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/greg-abbott.webp",
+      "basis": "licensed",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greg_Abbott_by_Gage_Skidmore.jpg",
+      "author": "Gage Skidmore",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/rich-mccormick.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rep._Rich_McCormick_official_photo,_118th_Congress_(cropped).jpg",
+      "author": "United States Congress",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/tom-barrett.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rep._Tom_Barrett_official_photo,_119th_Congress_(3x4_close).jpg",
+      "author": "House Creative Services",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/don-davis.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Congressman_Don_Davis_(cropped).jpg",
+      "author": "Library of Congress",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/susie-lee.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Susie_Lee,_official_portrait,_116th_Congress_(cropped).jpg",
+      "author": "Eric Connolly, U.S. House",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/marcy-kaptur.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marcy_Kaptur,_official_photo_portrait,_color.jpg",
+      "author": "U.S. House (author not named on Commons)",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/ryan-mackenzie.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rep._Ryan_Mackenzie_official_photo,_119th_Congress.jpg",
+      "author": "House Creative Services",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/derrick-van-orden.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Congressman_dvo.jpg",
+      "author": "U.S. House of Representatives",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/monica-de-la-cruz.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rep._Monica_De_La_Cruz_-_118th_Congress.jpg",
+      "author": "U.S. House of Representatives",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/anna-paulina-luna.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anna_Paulina_Luna.jpg",
+      "author": "U.S. House of Representatives",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/adam-gray.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adam_Gray_119th_congress.webp",
+      "author": "House Creative Services",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/candidates/john-mannion.webp",
+      "basis": "public-domain",
+      "license": "Public domain (as marked on Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_Mannion,_official_portrait_(119th_Congress)_(cropped).jpg",
+      "author": "U.S. House of Representatives",
+      "retrieved": "October 6, 2026",
+      "use": "Candidate portrait on race guides. Square crop and WebP conversion only."
+    },
+    {
+      "path": "public/visuals/polling-place.webp",
+      "basis": "generated",
+      "by": "this site",
+      "retrieved": "October 2026",
+      "note": "Generic photograph. No voters are present. Not a specific precinct and not an official ballot. Generated for this site. Not evidence of a real precinct, person, or event."
+    },
+    {
+      "path": "public/visuals/polling-place.avif",
+      "basis": "generated",
+      "by": "this site",
+      "retrieved": "October 2026",
+      "note": "Generic photograph. No voters are present. Not a specific precinct and not an official ballot. Generated for this site. Not evidence of a real precinct, person, or event."
+    },
+    {
+      "path": "public/visuals/civic-building.webp",
+      "basis": "generated",
+      "by": "this site",
+      "retrieved": "October 2026",
+      "note": "Generic civic building. Not a photograph of a specific state capitol. Generated for this site. Not evidence of a real precinct, person, or event."
+    },
+    {
+      "path": "public/visuals/civic-building.avif",
+      "basis": "generated",
+      "by": "this site",
+      "retrieved": "October 2026",
+      "note": "Generic civic building. Not a photograph of a specific state capitol. Generated for this site. Not evidence of a real precinct, person, or event."
+    },
+    {
+      "path": "public/visuals/polling-sign.webp",
+      "basis": "generated",
+      "by": "this site",
+      "retrieved": "October 2026",
+      "note": "Generic photograph of polling-place signage. Not a specific precinct. Generated for this site. Not evidence of a real precinct, person, or event."
+    },
+    {
+      "path": "public/visuals/polling-sign.avif",
+      "basis": "generated",
+      "by": "this site",
+      "retrieved": "October 2026",
+      "note": "Generic photograph of polling-place signage. Not a specific precinct. Generated for this site. Not evidence of a real precinct, person, or event."
+    },
+    {
+      "path": "public/logo.svg",
+      "basis": "original",
+      "by": "this site",
+      "note": "Brand mark drawn for Map the Midterms."
+    },
+    {
+      "path": "src/app/icon.svg",
+      "basis": "original",
+      "by": "this site",
+      "note": "Same brand mark as public/logo.svg."
+    },
+    {
+      "path": "public/og.jpg",
+      "basis": "original",
+      "by": "this site",
+      "note": "Static brand card. Navy field, wordmark, and November 3, 2026. No third-party photograph."
+    },
+    {
+      "path": "public/og/**",
+      "basis": "generated",
+      "by": "scripts/write-og-images.mjs",
+      "note": "Open Graph cards drawn at build time from site text. No third-party photograph and no candidate portrait."
+    }
+  ]
+}
