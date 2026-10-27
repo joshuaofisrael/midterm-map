@@ -5,15 +5,12 @@ export const MAP_THE_GENERAL_URL = "https://mapthegeneral.com/";
 /**
  * Live country hubs on Map the General, checked 27 October 2026.
  * Each URL returned HTTP 200. Labels follow that hub's title and
- * description. A date is included only when the hub prints a polling day.
+ * description. A date is included only for a future polling day the hub prints;
+ * past elections link to their results page instead.
  */
 export const MAP_THE_GENERAL_HUBS: { href: string; label: string; date?: string }[] = [
   { href: "https://mapthegeneral.com/au/", label: "Australia elections" },
-  {
-    href: "https://mapthegeneral.com/br/",
-    label: "Brazil general election",
-    date: "4 October and 25 October 2026",
-  },
+  { href: "https://mapthegeneral.com/br/en/elections/general-2026/", label: "Brazil 2026 general election results" },
   { href: "https://mapthegeneral.com/ca/", label: "Canada federal election", date: "15 October 2029" },
   {
     href: "https://mapthegeneral.com/ch/",
@@ -23,15 +20,14 @@ export const MAP_THE_GENERAL_HUBS: { href: string; label: string; date?: string 
   { href: "https://mapthegeneral.com/es/", label: "Spain general election", date: "29 November 2026" },
   { href: "https://mapthegeneral.com/gb/", label: "United Kingdom general election" },
   { href: "https://mapthegeneral.com/ie/", label: "Ireland elections" },
-  { href: "https://mapthegeneral.com/il/", label: "Israel Knesset election", date: "27 October 2026" },
+  { href: "https://mapthegeneral.com/il/", label: "Israel 2026 Knesset election" },
   { href: "https://mapthegeneral.com/it/", label: "Italy elections" },
   { href: "https://mapthegeneral.com/mx/", label: "Mexico federal election", date: "6 June 2027" },
   { href: "https://mapthegeneral.com/no/", label: "Norway Storting election" },
   { href: "https://mapthegeneral.com/pl/", label: "Poland elections" },
   {
-    href: "https://mapthegeneral.com/rs/",
-    label: "Serbia National Assembly election",
-    date: "25 October 2026",
+    href: "https://mapthegeneral.com/rs/en/elections/national-assembly-2026/",
+    label: "Serbia 2026 National Assembly election preliminary results",
   },
   { href: "https://mapthegeneral.com/se/", label: "Sweden elections", date: "8 September 2030" },
 ];
@@ -70,7 +66,7 @@ function MapTheGeneralHubs() {
         After the midterms: elections around the world
       </h2>
       <p className="mt-2 max-w-2xl text-sm leading-6 text-ink-muted">
-        See upcoming national and regional elections on{" "}
+        See upcoming national and regional elections, and recent results, on{" "}
         <a className="font-semibold text-navy underline" href={MAP_THE_GENERAL_URL}>
           Map the General
         </a>
