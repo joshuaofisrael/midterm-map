@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AdSlot } from "@/components/AdSlot";
 import { Byline } from "@/components/Byline";
+import { EditorialSection } from "@/components/EditorialSection";
 import { InfoNote } from "@/components/InfoNote";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CandidateCard } from "@/components/CandidateCard";
@@ -18,6 +19,7 @@ import { ShareBar } from "@/components/ShareBar";
 import { SourceLines, uniqueCitations } from "@/components/SourceLines";
 import { SourceList } from "@/components/SourceList";
 import { TipJar } from "@/components/TipJar";
+import { racePreview } from "@/data/essays/previews";
 import { pollsForRace } from "@/data/polls";
 import { indexableRaceHref } from "@/data/results";
 import { AGGREGATORS } from "@/data/sources";
@@ -116,6 +118,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         officeLabel={state?.officialElectionOffice.label}
       />
       <OfficialNotice compact />
+      <EditorialSection essay={racePreview(race)} />
       <LivePanel stateCode={race.state} raceSlugs={[race.slug]} />
       <EmailSignup prominent />
       <AdSlot id="race-top" height={90} />
