@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { BallotpediaLink } from "@/components/BallotpediaLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { Byline } from "@/components/Byline";
 import { InfoNote } from "@/components/InfoNote";
 import { ContentTrust } from "@/components/ContentTrust";
 import { LiveNeedles } from "@/components/LiveNeedles";
@@ -51,6 +52,7 @@ export default function ResultsPage() {
         title="Election night and key races"
         lede={`Key contests for ${SITE.electionDayLabel}, and unofficial figures after polls close. ${SITE.name} does not project winners and does not certify outcomes. A winner label appears only when the official file marks that candidate.`}
       >
+        <Byline />
         <InfoNote />
       </PageHeader>
       <ContentTrust updated={contentUpdatedLabel("/results")} pagePath="/results" />

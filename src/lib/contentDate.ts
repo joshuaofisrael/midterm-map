@@ -1,6 +1,8 @@
 import { ballotCycleFor } from "@/data/ballotCycle";
 import { candidateFile } from "@/data/candidates/load";
 import { CENSUS_PLACES_UPDATED } from "@/data/censusSources";
+import { ESSAY_UPDATED } from "@/data/essays/text";
+import { getLearnArticle } from "@/data/learn/articles";
 import { localFile } from "@/data/local/load";
 import liveSources from "@/data/live-sources.json";
 import { ELECTION_DATES, electionDatesFor } from "@/data/electionDates";
@@ -175,6 +177,12 @@ function liveSourcesCheckedLabel(): string {
 /** Long date for a site path, or null when this path has no trust-line date. */
 export function contentUpdatedLabelForPath(path: string): string | null {
   const clean = path.replace(/\/+$/, "") || "/";
+
+  if (clean === "/learn") return ESSAY_UPDATED;
+  if (clean.startsWith("/learn/")) {
+    return getLearnArticle(clean.slice("/learn/".length)) ? ESSAY_UPDATED : null;
+  }
+  if (clean === "/about") return ESSAY_UPDATED;
 
   if (clean === "/") return latestContentLabel(votingDeadlineLabels());
   if (clean === "/live") return liveSourcesCheckedLabel();

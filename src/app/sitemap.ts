@@ -5,6 +5,7 @@ import { RACES } from "@/data/races";
 import { resultShellForRace, resultShellHasReturns } from "@/data/results";
 import { absoluteUrl, SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
+import { LEARN_ARTICLES } from "@/data/learn/articles";
 import { contentUpdatedIsoForPath } from "@/lib/contentDate";
 
 /** Sitemap protocol limit is 50,000 URLs per file. Stay under it. */
@@ -176,7 +177,11 @@ const CONTACT_FORM_PATHS = new Set([
   "/advertising",
 ]);
 
+/** October 27, 2026. Editorial explainers and the methods section on About. */
+const EDITORIAL_UPDATED = "2026-10-27";
+
 function lastModifiedFor(path: string): string {
+  if (path === "/about" || path === "/learn" || path.startsWith("/learn/")) return EDITORIAL_UPDATED;
   if (COPYRIGHT_NOTICE_PATHS.has(path)) return COPYRIGHT_NOTICE_UPDATED;
   if (CONTACT_FORM_PATHS.has(path)) return CONTACT_FORM_UPDATED;
   if (path === "/sources") return CITY_PAGES_UPDATED;
@@ -225,7 +230,7 @@ function priorityFor(path: string): number {
   if (path === "/live" || path.startsWith("/results/state/")) return 0.8;
   if (path === "/cities") return 0.7;
   if (path === "/voting-deadlines" || path.startsWith("/states/")) return 0.8;
-  if (path.startsWith("/races/")) return 0.8;
+  if (path.startsWith("/races/") || path.startsWith("/learn")) return 0.8;
   if (path === "/contact/thanks") return 0.3;
   return 0.6;
 }
@@ -241,6 +246,7 @@ function coreSitemap(): MetadataRoute.Sitemap {
     "/polls",
     "/results",
     "/live",
+    "/learn",
     "/about",
     "/disclaimer",
     "/privacy",
@@ -259,6 +265,8 @@ function coreSitemap(): MetadataRoute.Sitemap {
     `/results/state/${state.code}`,
   ]);
 
+  const learnPaths = LEARN_ARTICLES.map((article) => `/learn/${article.slug}`);
+
   const racePaths = RACES.flatMap((race) => {
     const paths = [`/races/${race.slug}`];
     const hasReturns = resultShellHasReturns(resultShellForRace(race.slug));
@@ -268,7 +276,9 @@ function coreSitemap(): MetadataRoute.Sitemap {
     return paths;
   });
 
-  return [...staticPaths, ...statePaths, ...racePaths].map((path) => sitemapEntry(path, priorityFor(path)));
+  return [...staticPaths, ...learnPaths, ...statePaths, ...racePaths].map((path) =>
+    sitemapEntry(path, priorityFor(path)),
+  );
 }
 
 function stateSitemap(code: string): MetadataRoute.Sitemap {

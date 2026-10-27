@@ -58,6 +58,7 @@ export const PRIMARY_NAV = [
   { href: "/polls", label: "Polls" },
   { href: "/results", label: "Results" },
   { href: "/live", label: "Election night" },
+  { href: "/learn", label: "Learn" },
 ] as const;
 
 /** Report-an-error target. The page path is the `url` query on /contact/. */

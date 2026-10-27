@@ -1,10 +1,13 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { Byline } from "@/components/Byline";
+import { ContentTrust } from "@/components/ContentTrust";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { EDITORIAL_TEAM } from "@/data/editorial";
 import { tipJarEnabled } from "@/data/monetization";
 import { absoluteUrl, SITE } from "@/data/site";
+import { contentUpdatedLabel } from "@/lib/contentDate";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -38,7 +41,10 @@ export default function AboutPage() {
         title={`About ${SITE.name}`}
         lede="A voter information utility for the 2026 U.S. midterms."
       />
-      <p className="mb-6 text-sm font-medium text-ink">By Map the Midterms Editorial Team</p>
+      <Byline />
+      <div className="mb-6">
+        <ContentTrust updated={contentUpdatedLabel("/about")} pagePath="/about" />
+      </div>
       <div className="prose-legal">
         <h2>What this site is</h2>
         <p>
@@ -77,13 +83,63 @@ export default function AboutPage() {
           what we cover or how we describe it.
         </p>
 
-        <h2>Editorial approach</h2>
+        <h2>Editorial methods and sources</h2>
         <p>
-          Candidate names and party labels, when they appear, are for
-          identification of an office or ticket only. Bios are short original
-          paraphrases with outbound links. Race ratings appear only when a
-          named outlet is cited. We prefer conservative wording over
-          traffic-chasing claims.
+          The byline on explainers, race previews, and state briefings is the{" "}
+          <Link href="/learn">Map the Midterms Editorial Team</Link>. It is an
+          organization, not a personal name. Pages that identify the operating
+          company are the legal pages linked below. Explainers do not repeat
+          that identification.
+        </p>
+        <p>
+          A fact in an explainer or a preview is tied to a page a reader can
+          open. Election offices, the Clerk of the U.S. House, the Senate’s
+          class and terms pages, the Constitution and the U.S. Code, the Census
+          Bureau’s voting and registration series, and a state’s canvass are
+          the usual primary sources. A poll appears only when this site stores
+          the pollster, the dates, the sample, and a link. A race rating appears
+          only with the outlet’s name, the label that outlet used, and the date
+          on the guide. The label is that outlet’s judgment. It is not a
+          forecast by this site.
+        </p>
+        <p>
+          The wording is written here. Pages link to a statute, a canvass, a
+          candidate’s site, or a news report. They do not paste those pages. A
+          candidate’s public statement is included only when the sentence cites
+          the page where the candidate, or a reputable outlet quoting the
+          candidate, published it. When the citation on hand is an
+          election-office candidate list, the preview says the list identifies
+          who is on the ballot. It does not invent a speech.
+        </p>
+        <p>
+          The team does not predict who will win, does not call a race, and
+          does not average polls into a model. One survey can be described with
+          its sponsor and its dates. A reader who wants a forecast should open
+          the outlet that publishes one and read that outlet’s methods.
+        </p>
+        <p>
+          “Last updated” is the latest stored date among the sources and
+          deadline checks the page renders, including this methods section
+          where it appears. It is not a promise that every figure was re-read
+          that morning. The{" "}
+          <Link href="/sources">sources page</Link> lists the Census files
+          behind place directories. Those directories stay on that file list.
+        </p>
+        <p>
+          The <Link href="/learn">learn library</Link> is evergreen civics: how
+          a House or Senate majority is counted, how mail and provisional
+          ballots move a total, what a recount and a certification are, and
+          what the Electoral Count Reform Act changed about presidential
+          electoral votes. Those pages are linked from the navigation and from
+          the state and race pages that use the idea.
+        </p>
+        <p>
+          Candidate names and party labels, when they appear, identify an
+          office or a ticket only. Bios are short original paraphrases with
+          outbound links. We prefer a narrower sentence over a louder one.
+          Corrections use the <Link href="/contact">contact form</Link>. The{" "}
+          <Link href="/copyright">copyright and corrections</Link> page says
+          what a report should include.
         </p>
         <p>
           Read the <Link href="/disclaimer">disclaimer</Link>,{" "}

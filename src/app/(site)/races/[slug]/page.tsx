@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AdSlot } from "@/components/AdSlot";
+import { Byline } from "@/components/Byline";
 import { InfoNote } from "@/components/InfoNote";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CandidateCard } from "@/components/CandidateCard";
@@ -91,7 +92,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         lede={race.overview}
         visual={VISUALS.pollingSign}
       >
-        <p className="mt-3 text-sm font-medium text-ink">By Map the Midterms Editorial Team</p>
+        <Byline />
         <InfoNote />
         <SourceLines sources={race.sources} />
         <div className="mt-4 flex flex-wrap items-center gap-2">
