@@ -181,6 +181,91 @@ body {
   margin-top: 0.5rem;
 }
 
+/* House ad. Inline min-height on the anchor reserves the box; this paints it. */
+.house-ad {
+  position: relative;
+  align-items: flex-start;
+  gap: 0.35rem;
+  margin-top: 2.5rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid #d5dde6;
+  border-left: 3px solid #1e4a73;
+  border-radius: 12px;
+  background: #fff;
+  color: #1a2332;
+  text-decoration: none;
+  box-shadow: 0 1px 2px rgba(20, 36, 56, 0.06);
+}
+.house-ad:hover {
+  border-color: #b7c3d0;
+  border-left-color: #143251;
+  text-decoration: none;
+}
+.house-ad-k {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  line-height: 1.3;
+  color: #5b6472;
+}
+.house-ad-t {
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #143251;
+}
+.house-ad-b {
+  max-width: 40rem;
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  color: #4a5568;
+}
+.house-ad-btn {
+  display: inline-block;
+  margin-top: auto;
+  padding: 0.45rem 0.85rem;
+  border-radius: 6px;
+  background: #1e4a73;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.house-ad:hover .house-ad-btn {
+  background: #143251;
+}
+.city a.house-ad,
+.city a.house-ad:hover {
+  color: #1a2332;
+  text-decoration: none;
+}
+.city a.house-ad .house-ad-k {
+  color: #5b6472;
+}
+.city a.house-ad .house-ad-t {
+  color: #143251;
+}
+.city a.house-ad .house-ad-b {
+  color: #4a5568;
+}
+.city a.house-ad .house-ad-btn,
+.city a.house-ad:hover .house-ad-btn {
+  color: #fff;
+}
+.house-ad-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* Footer "Cookie choices" control (banner logic in public/consent.js). */
 .consent-link {
   background: none;

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { HouseAd } from "@/components/HouseAd";
 import { PageHeader } from "@/components/PageHeader";
 import { SiteJsonLd } from "@/components/SiteJsonLd";
 import { SiteShell } from "@/components/SiteShell";
@@ -55,6 +56,7 @@ export default function NotFound() {
           </Link>
         </li>
         </ul>
+        <HouseAd path="/404" />
         </div>
       </SiteShell>
     </>

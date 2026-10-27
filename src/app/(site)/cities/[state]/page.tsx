@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { HouseAd } from "@/components/HouseAd";
 import { ContentTrust } from "@/components/ContentTrust";
 import { JsonLd } from "@/components/JsonLd";
 import { JurisdictionLinks } from "@/components/JurisdictionLinks";
@@ -138,6 +139,7 @@ export default async function StateCitiesPage({ params }: { params: Promise<{ st
 
       <PlaceIndex stateCode={state.code} places={places} heading="Places A to Z" />
       <SourceLines sources={[gazetteerCitation, populationCitation]} />
+      <HouseAd path={path} />
     </div>
   );
 }

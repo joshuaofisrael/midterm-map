@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Suspense } from "react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { HouseAd } from "@/components/HouseAd";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { ReportedPageNote } from "@/components/ReportedPageNote";
@@ -71,6 +72,7 @@ export default function ContactPage() {
           <Link href="/advertising">advertising disclosure</Link>.
         </p>
       </div>
+      <HouseAd path="/contact" />
     </div>
   );
 }

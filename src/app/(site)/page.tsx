@@ -13,6 +13,7 @@ import { FurtherReading } from "@/components/FurtherReading";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { RaceCard } from "@/components/RaceCard";
+import { HouseAd } from "@/components/HouseAd";
 import { TipJar } from "@/components/TipJar";
 import { ELECTION_DATES } from "@/data/electionDates";
 import { HOME_FAQS } from "@/data/homeFaqs";
@@ -263,6 +264,7 @@ export default function HomePage() {
       <EmbedSnippet />
       <FurtherReading />
       <TipJar />
+      <HouseAd path="/" />
     </div>
   );
 }

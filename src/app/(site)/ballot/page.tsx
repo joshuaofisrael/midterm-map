@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BallotLookup } from "@/components/BallotLookup";
+import { HouseAd } from "@/components/HouseAd";
 import { MapTheGeneral } from "@/components/MapTheGeneral";
 import { ShareBar } from "@/components/ShareBar";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -105,6 +106,7 @@ export default function BallotIndexPage() {
         </ul>
       </section>
       <CrossLinks />
+      <HouseAd path="/ballot" />
     </div>
   );
 }

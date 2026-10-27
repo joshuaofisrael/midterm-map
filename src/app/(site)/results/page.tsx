@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BallotpediaLink } from "@/components/BallotpediaLink";
+import { HouseAd } from "@/components/HouseAd";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Byline } from "@/components/Byline";
 import { EditorialSection } from "@/components/EditorialSection";
@@ -259,6 +260,7 @@ export default function ResultsPage() {
         </ul>
       </section>
       <CrossLinks />
+      <HouseAd path="/results" />
     </div>
   );
 }
