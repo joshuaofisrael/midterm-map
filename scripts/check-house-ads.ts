@@ -34,6 +34,7 @@ function walk(dir: string) {
     if (/taxdeedpack|Tax Deed Pack/i.test(html)) {
       errors.push(`${rel}: still mentions Tax Deed Pack`);
     }
+    if (/free scan/i.test(html)) errors.push(`${rel}: static HTML says "free scan"`);
     if (isRedirectStub(html)) {
       redirects += 1;
       if (html.includes("data-house-ad")) errors.push(`${rel}: redirect stub has a house ad`);
@@ -65,7 +66,19 @@ function walk(dir: string) {
     if (!card.includes(offer.pitch)) errors.push(`${rel}: missing pitch`);
     if (!card.includes('rel="sponsored noopener"')) errors.push(`${rel}: missing rel="sponsored noopener"`);
     if (!card.includes('target="_blank"')) errors.push(`${rel}: missing target="_blank"`);
-    if (!card.includes("min-height:")) errors.push(`${rel}: missing reserved min-height`);
+    if (!card.includes("min-height:72px")) errors.push(`${rel}: missing reserved 72px min-height`);
+    const sampleScripts = [
+      ...html.matchAll(/<script\b[^>]*\bsrc="\/rankfootprint-sample\.js"[^>]*>\s*<\/script>/gi),
+    ];
+    if (id === "rankfootprint") {
+      if (sampleScripts.length !== 1) {
+        errors.push(`${rel}: expected one deferred sample script, found ${sampleScripts.length}`);
+      } else if (!/\bdefer\b/i.test(sampleScripts[0][0]) || !/\bdata-keep=/.test(sampleScripts[0][0])) {
+        errors.push(`${rel}: sample script must be deferred and marked data-keep`);
+      }
+    } else if (sampleScripts.length) {
+      errors.push(`${rel}: sample script is only for RankFootprint`);
+    }
     if (!card.includes("utm_source=mapthemidterms")) errors.push(`${rel}: missing utm_source`);
     if (!card.includes("utm_medium=house_ad")) errors.push(`${rel}: missing utm_medium`);
     if (!card.includes(`utm_campaign=${id}`)) errors.push(`${rel}: missing utm_campaign`);
