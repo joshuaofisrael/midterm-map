@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { countiesForState, placeState, placeStates, placesForState } from "@/data/places/load";
 import { placeIsStandalone } from "@/lib/placeNames";
+import { cityIsThin } from "@/lib/cityThin";
 import { RACES } from "@/data/races";
 import { resultShellForRace, resultShellHasReturns } from "@/data/results";
 import { absoluteUrl, SITE } from "@/data/site";
@@ -282,7 +283,7 @@ function coreSitemap(): MetadataRoute.Sitemap {
 }
 
 function stateSitemap(code: string): MetadataRoute.Sitemap {
-  const places = placesForState(code).filter(placeIsStandalone);
+  const places = placesForState(code).filter((place) => placeIsStandalone(place) && !cityIsThin(code, place));
   const counties = countiesForState(code);
   const entries = [
     sitemapEntry(`/cities/${code}`, 0.6),

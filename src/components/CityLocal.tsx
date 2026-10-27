@@ -3,6 +3,7 @@ import { SourceLines, uniqueCitations } from "@/components/SourceLines";
 import { localFile, type LocalContest, type LocalFile } from "@/data/local/load";
 import type { PlaceRecord } from "@/data/places/load";
 import type { Citation } from "@/data/types";
+import { cityHasLocalContent } from "@/lib/cityThin";
 
 const READ = "October 17, 2026";
 
@@ -15,15 +16,7 @@ export function CityLocal({ code, place }: { code: string; place: PlaceRecord })
   const readCounties = place.counties.filter((county) => data.countyRead?.[county]);
   const unpublishedCounties = place.counties.filter((county) => data.countyUnpublished?.[county]);
   const countyContests = readCounties.flatMap((county) => data.localByCounty?.[county] ?? []);
-  const hasBody =
-    placeLocal.length > 0 ||
-    Boolean(placeMeta?.empty || placeMeta?.note) ||
-    countyContests.length > 0 ||
-    unpublishedCounties.length > 0 ||
-    readCounties.some((county) => {
-      const listing = data.countyRead?.[county];
-      return Boolean(listing?.note || listing?.empty || (data.localByCounty?.[county] ?? []).length);
-    });
+  const hasBody = cityHasLocalContent(code, place);
   if (!hasBody) return null;
 
   const accessed = data.accessed ?? READ;

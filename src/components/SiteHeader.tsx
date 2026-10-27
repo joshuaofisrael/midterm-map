@@ -5,6 +5,13 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { PRIMARY_NAV, SITE } from "@/data/site";
 
+const TRUST_NAV = [
+  { href: "/contact", label: "Contact" },
+  { href: "/privacy", label: "Privacy" },
+  { href: "/terms", label: "Terms" },
+  { href: "/disclaimer", label: "Disclaimer" },
+];
+
 function navClass(pathname: string, href: string) {
   const active = pathname === href || pathname.startsWith(`${href}/`);
   return active
@@ -27,7 +34,7 @@ export function SiteHeader() {
             2026 midterms information · not official · not affiliated
           </span>
         </Link>
-        <nav className="hidden items-center gap-5 text-sm lg:flex" aria-label="Primary">
+        <nav className="hidden flex-wrap items-center justify-end gap-x-4 gap-y-1 text-sm lg:flex" aria-label="Primary">
           {PRIMARY_NAV.map((item) => (
             <Link key={item.href} href={item.href} className={navClass(pathname, item.href)}>
               {item.label}
@@ -39,6 +46,11 @@ export function SiteHeader() {
           <Link href="/about" className={navClass(pathname, "/about")}>
             About
           </Link>
+          {TRUST_NAV.map((item) => (
+            <Link key={item.href} href={item.href} className={navClass(pathname, item.href)}>
+              {item.label}
+            </Link>
+          ))}
         </nav>
         <button
           type="button"
@@ -70,6 +82,13 @@ export function SiteHeader() {
                 About
               </Link>
             </li>
+            {TRUST_NAV.map((item) => (
+              <li key={item.href}>
+                <Link href={item.href} className={navClass(pathname, item.href)} onClick={() => setOpen(false)}>
+                  {item.label}
+                </Link>
+              </li>
+            ))}
           </ul>
         </nav>
       )}
