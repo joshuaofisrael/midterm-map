@@ -109,7 +109,7 @@ test("analytics consent.js stays the Analytics loader and does not load AdSense"
 });
 
 test("ad loader only on substantive pages; thin, embed, live-free and legal pages get meta only", () => {
-  for (const p of ["/", "/states/pa/", "/races/pa-senate/", "/results/", "/live/", "/voting-deadlines/"]) {
+  for (const p of ["/", "/states/pa/", "/races/pa-senate/", "/results/", "/live/", "/voting-deadlines/", "/learn/", "/learn/house-majority/"]) {
     assert.equal(adsAllowedForPath(p), true, p);
   }
   for (const p of ["/cities/pa/erie-city/", "/cities/", "/embed/x/", "/contact/", "/privacy/", "/terms/", "/404/", "/polls/"]) {

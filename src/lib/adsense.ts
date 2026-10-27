@@ -45,12 +45,13 @@ export function headHasAdsense(head: string): boolean {
  * Strips a mangled copy of the same tags so the exact pair appears once.
  */
 /**
- * AdSense policy: the ad loader runs only on substantive, first-party pages.
+ * AdSense policy: the ad loader runs only on substantive, first-party pages,
+ * including the /learn/ explainers.
  * Templated census-place/county pages, the live page (third-party embeds), embeds,
  * forms, legal pages, and the 404 get the account meta tag only, never the loader.
  * Paths are site-relative directories, e.g. "/states/pa/".
  */
-const AD_PATH_PREFIXES = ["/states/", "/races/", "/results/", "/voting-deadlines/", "/ballot/", "/updates/", "/sources/", "/about/", "/live/"];
+const AD_PATH_PREFIXES = ["/states/", "/races/", "/results/", "/voting-deadlines/", "/ballot/", "/updates/", "/sources/", "/about/", "/learn/", "/live/"];
 
 export function adsAllowedForPath(sitePath: string): boolean {
   const p = sitePath.endsWith("/") ? sitePath : `${sitePath}/`;
