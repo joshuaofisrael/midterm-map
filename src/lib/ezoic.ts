@@ -19,7 +19,7 @@
  * DNS are unchanged. No Ezoic ad placeholders are inserted.
  */
 
-import { BALLOT_ZIP_BOOT_SCRIPT, BALLOT_ZIP_STORAGE_KEY, isBallotHtml } from "./ballotZip.ts";
+import { BALLOT_ZIP_BOOT_SCRIPT, BALLOT_ZIP_STORAGE_KEY, isBallotHtml } from "./ballotZip";
 
 export const EZOIC_GATEKEEPER_SRC = "https://cmp.gatekeeperconsent.com/min.js";
 export const EZOIC_GATEKEEPER_CMP_SRC = "https://the.gatekeeperconsent.com/cmp.min.js";
