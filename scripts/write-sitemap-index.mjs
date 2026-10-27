@@ -5,7 +5,7 @@ const manifest = JSON.parse(
   fs.readFileSync(new URL("../src/data/places/manifest.json", import.meta.url), "utf8"),
 );
 const base = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://mapthemidterms.com").replace(/\/+$/, "");
-const lastmod = "2026-10-26";
+const lastmod = "2026-10-27";
 const ids = ["core", ...manifest.states.map((state) => state.code).sort()];
 
 for (const state of manifest.states) {
