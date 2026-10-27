@@ -182,6 +182,7 @@ const CONTACT_FORM_PATHS = new Set([
 const EDITORIAL_UPDATED = "2026-10-27";
 
 function lastModifiedFor(path: string): string {
+  if (path === "/advertise") return "2026-10-27";
   if (path === "/about" || path === "/learn" || path.startsWith("/learn/")) return EDITORIAL_UPDATED;
   if (COPYRIGHT_NOTICE_PATHS.has(path)) return COPYRIGHT_NOTICE_UPDATED;
   if (CONTACT_FORM_PATHS.has(path)) return CONTACT_FORM_UPDATED;
@@ -254,6 +255,7 @@ function coreSitemap(): MetadataRoute.Sitemap {
     "/terms",
     "/copyright",
     "/advertising",
+    "/advertise",
     "/contact",
     "/contact/thanks",
     "/updates/thanks",
