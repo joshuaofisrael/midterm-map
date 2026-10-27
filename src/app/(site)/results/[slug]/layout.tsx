@@ -11,8 +11,8 @@ export default async function Layout({
   const { slug } = await params;
   return (
     <>
-      {children}
       <HouseAd path={`/results/${slug}`} />
+      {children}
     </>
   );
 }

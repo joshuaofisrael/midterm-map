@@ -26,7 +26,9 @@ export default function CitiesIndexPage() {
   const states = [...placeStates()].sort((a, b) => a.name.localeCompare(b.name, "en"));
 
   return (
-    <div className="space-y-8">
+    <>
+      <HouseAd path={PATH} />
+      <div className="space-y-8">
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", path: "/" },
@@ -74,7 +76,7 @@ export default function CitiesIndexPage() {
           ))}
         </ul>
       </section>
-      <HouseAd path={PATH} />
-    </div>
+      </div>
+    </>
   );
 }

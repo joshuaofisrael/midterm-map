@@ -35,7 +35,9 @@ export const metadata = pageMetadata({
 
 export default function BallotIndexPage() {
   return (
-    <div className="space-y-8">
+    <>
+      <HouseAd path="/ballot" />
+      <div className="space-y-8">
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", path: "/" },
@@ -106,7 +108,7 @@ export default function BallotIndexPage() {
         </ul>
       </section>
       <CrossLinks />
-      <HouseAd path="/ballot" />
-    </div>
+      </div>
+    </>
   );
 }

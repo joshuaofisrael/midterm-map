@@ -96,7 +96,7 @@ body {
   width: 100%;
   max-width: 72rem;
   margin: 0 auto;
-  padding-top: 24px;
+  padding-top: 12px;
   padding-bottom: 32px;
   flex: 1;
   overflow-wrap: break-word;
@@ -181,16 +181,14 @@ body {
   margin-top: 0.5rem;
 }
 
-/* House ad. Inline min-height on the anchor reserves the box; this paints it. */
+/* House-ad banner. Inline min-height reserves the row; this paints it.
+   Static, in normal flow: not sticky, fixed, or a popup. */
 .house-ad {
   position: relative;
-  align-items: flex-start;
-  gap: 0.35rem;
-  margin-top: 2.5rem;
-  padding: 1rem 1.1rem;
+  margin: 0 0 1.25rem;
   border: 1px solid #d5dde6;
   border-left: 3px solid #1e4a73;
-  border-radius: 12px;
+  border-radius: 10px;
   background: #fff;
   color: #1a2332;
   text-decoration: none;
@@ -202,50 +200,46 @@ body {
   text-decoration: none;
 }
 .house-ad-k {
+  flex: 0 0 auto;
+  white-space: nowrap;
   font-size: 0.6875rem;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   line-height: 1.3;
   color: #5b6472;
 }
-.house-ad-t {
-  font-family: var(--font-source-serif), Georgia, serif;
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 1.25;
-  color: #143251;
-}
 .house-ad-b {
-  max-width: 40rem;
-  font-size: 0.9375rem;
-  line-height: 1.45;
+  flex: 1 1 16rem;
+  min-width: 12rem;
+  font-size: 0.875rem;
+  line-height: 1.35;
   color: #4a5568;
 }
 .house-ad-btn {
   display: inline-block;
-  margin-top: auto;
-  padding: 0.45rem 0.85rem;
+  flex: 0 0 auto;
+  margin-left: auto;
+  padding: 0.4rem 0.8rem;
   border-radius: 6px;
   background: #1e4a73;
   color: #fff;
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 1.2;
+  white-space: nowrap;
 }
 .house-ad:hover .house-ad-btn {
   background: #143251;
 }
 .city a.house-ad,
 .city a.house-ad:hover {
+  margin: 0;
   color: #1a2332;
   text-decoration: none;
 }
 .city a.house-ad .house-ad-k {
   color: #5b6472;
-}
-.city a.house-ad .house-ad-t {
-  color: #143251;
 }
 .city a.house-ad .house-ad-b {
   color: #4a5568;

@@ -17,7 +17,9 @@ export const metadata = pageMetadata({
 
 export default function ContactPage() {
   return (
-    <div className="mx-auto max-w-3xl">
+    <>
+      <HouseAd path="/contact" />
+      <div className="mx-auto max-w-3xl">
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", path: "/" },
@@ -72,7 +74,7 @@ export default function ContactPage() {
           <Link href="/advertising">advertising disclosure</Link>.
         </p>
       </div>
-      <HouseAd path="/contact" />
-    </div>
+      </div>
+    </>
   );
 }

@@ -61,7 +61,9 @@ export default async function StateCitiesPage({ params }: { params: Promise<{ st
   }
 
   return (
-    <div className="space-y-8">
+    <>
+      <HouseAd path={path} />
+      <div className="space-y-8">
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", path: "/" },
@@ -139,7 +141,7 @@ export default async function StateCitiesPage({ params }: { params: Promise<{ st
 
       <PlaceIndex stateCode={state.code} places={places} heading="Places A to Z" />
       <SourceLines sources={[gazetteerCitation, populationCitation]} />
-      <HouseAd path={path} />
-    </div>
+      </div>
+    </>
   );
 }

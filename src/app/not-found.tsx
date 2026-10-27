@@ -19,6 +19,7 @@ export default function NotFound() {
       <SiteJsonLd />
       <SiteShell>
         <div>
+        <HouseAd path="/404" />
       <PageHeader
         eyebrow="404"
         title="This page is not on the map"
@@ -56,7 +57,6 @@ export default function NotFound() {
           </Link>
         </li>
         </ul>
-        <HouseAd path="/404" />
         </div>
       </SiteShell>
     </>

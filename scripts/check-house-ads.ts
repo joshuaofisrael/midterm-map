@@ -1,6 +1,8 @@
 /**
- * Fail the build unless every real HTML page has exactly one house-ad card
- * for the offer selected from that page's path. Redirect stubs stay ad-free.
+ * Fail the build unless every real HTML page has exactly one house-ad banner
+ * for the offer selected from that page's path, placed under the header and
+ * above the main heading. Redirect stubs stay ad-free.
+ * NamedScan is about 60% and RankFootprint about 40%. Tax Deed Pack is absent.
  */
 import { readdirSync, readFileSync, statSync, existsSync } from "node:fs";
 import path from "node:path";
@@ -9,7 +11,7 @@ import { HOUSE_ADS, normalizeHouseAdPath, pickHouseAd, type HouseAdId } from "..
 
 const OUT = path.join(process.cwd(), "out");
 const errors: string[] = [];
-const counts: Record<HouseAdId, number> = { namedscan: 0, taxdeedpack: 0, rankfootprint: 0 };
+const counts: Record<HouseAdId, number> = { namedscan: 0, rankfootprint: 0 };
 const examples: Partial<Record<HouseAdId, string>> = {};
 let pages = 0;
 let redirects = 0;
@@ -29,6 +31,9 @@ function walk(dir: string) {
     const html = readFileSync(full, "utf8");
     if (htmlHead(html) === null) continue;
     const rel = path.relative(OUT, full);
+    if (/taxdeedpack|Tax Deed Pack/i.test(html)) {
+      errors.push(`${rel}: still mentions Tax Deed Pack`);
+    }
     if (isRedirectStub(html)) {
       redirects += 1;
       if (html.includes("data-house-ad")) errors.push(`${rel}: redirect stub has a house ad`);
@@ -40,7 +45,7 @@ function walk(dir: string) {
     const visible = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "");
     const cards = [
       ...visible.matchAll(
-        /<a\b[^>]*\bdata-house-ad="(namedscan|taxdeedpack|rankfootprint)"[^>]*>[\s\S]*?<\/a>/g,
+        /<a\b[^>]*\bdata-house-ad="(namedscan|rankfootprint)"[^>]*>[\s\S]*?<\/a>/g,
       ),
     ];
     if (cards.length !== 1) {
@@ -67,6 +72,16 @@ function walk(dir: string) {
     if ((card.match(/<a\b/g) ?? []).length !== 1) errors.push(`${rel}: house ad must be a single anchor`);
     if (/<img\b|<script\b|<button\b/i.test(card)) errors.push(`${rel}: house ad has an image, script, or button`);
     if (/Joshua|LLC|Ventures|gmail/i.test(card)) errors.push(`${rel}: house ad names the operator`);
+    if (/position:\s*(sticky|fixed)/i.test(card)) errors.push(`${rel}: house ad is sticky or fixed`);
+    const adAt = visible.indexOf("data-house-ad");
+    const headerEnd = visible.indexOf("</header>");
+    const h1At = visible.search(/<h1\b/i);
+    if (headerEnd !== -1 && adAt !== -1 && adAt < headerEnd) {
+      errors.push(`${rel}: house ad is not below the header`);
+    }
+    if (h1At !== -1 && adAt !== -1 && adAt > h1At) {
+      errors.push(`${rel}: house ad is not above the main heading`);
+    }
   }
 }
 
@@ -81,16 +96,12 @@ if (pages === 0) errors.push("no HTML pages found");
 
 if (pages > 0) {
   const named = counts.namedscan / pages;
-  const tax = counts.taxdeedpack / pages;
   const rank = counts.rankfootprint / pages;
   if (named < 0.55 || named > 0.65) {
     errors.push(`NamedScan share ${(named * 100).toFixed(1)}% is outside 55–65%`);
   }
-  if (tax < 0.15 || tax > 0.25) {
-    errors.push(`Tax Deed Pack share ${(tax * 100).toFixed(1)}% is outside 15–25%`);
-  }
-  if (rank < 0.15 || rank > 0.25) {
-    errors.push(`RankFootprint share ${(rank * 100).toFixed(1)}% is outside 15–25%`);
+  if (rank < 0.35 || rank > 0.45) {
+    errors.push(`RankFootprint share ${(rank * 100).toFixed(1)}% is outside 35–45%`);
   }
 }
 
@@ -102,5 +113,5 @@ if (errors.length) {
 
 const sample = (Object.keys(examples) as HouseAdId[]).map((id) => `${id} ${examples[id]}`).join("; ");
 console.log(
-  `house ads: ${pages} pages, ${redirects} redirect stubs skipped; NamedScan ${counts.namedscan}, Tax Deed Pack ${counts.taxdeedpack}, RankFootprint ${counts.rankfootprint}; examples: ${sample}`,
+  `house ads: ${pages} pages, ${redirects} redirect stubs skipped; NamedScan ${counts.namedscan}, RankFootprint ${counts.rankfootprint}; examples: ${sample}`,
 );

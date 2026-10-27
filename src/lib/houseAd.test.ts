@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readdirSync, readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import test from "node:test";
 import { fileURLToPath } from "node:url";
@@ -15,25 +15,24 @@ const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "../..");
 
 test("labels, calls to action, and tracking links match the card spec", () => {
   assert.equal(HOUSE_ADS.namedscan.label, "Sponsored by NamedScan");
-  assert.equal(HOUSE_ADS.taxdeedpack.label, "Sponsored by Tax Deed Pack");
   assert.equal(HOUSE_ADS.rankfootprint.label, "Sponsored by RankFootprint");
   assert.equal(HOUSE_ADS.namedscan.cta, "Try NamedScan");
-  assert.equal(HOUSE_ADS.taxdeedpack.cta, "Get the $149 pack");
   assert.equal(HOUSE_ADS.rankfootprint.cta, "Start a free grid scan");
   assert.match(HOUSE_ADS.namedscan.pitch, /\$5/);
-  assert.match(HOUSE_ADS.taxdeedpack.pitch, /\$149/);
   assert.match(HOUSE_ADS.rankfootprint.pitch, /3×3/);
   assert.match(HOUSE_ADS.rankfootprint.pitch, /not affiliated with Google/);
+  assert.equal(Object.keys(HOUSE_ADS).join(","), "namedscan,rankfootprint");
 
   for (const ad of Object.values(HOUSE_ADS)) {
     assert.equal(ad.label, `Sponsored by ${ad.siteName}`);
     const sentences = ad.pitch.split(/(?<=[.!?])\s+/).filter(Boolean);
     assert.ok(sentences.length >= 1 && sentences.length <= 2, ad.id);
+    const host = ad.id === "namedscan" ? "namedscan.com" : "rankfootprint.com";
     assert.equal(
       ad.href,
-      `https://${ad.id === "namedscan" ? "namedscan.com" : ad.id === "taxdeedpack" ? "taxdeedpack.com" : "rankfootprint.com"}/?utm_source=mapthemidterms&utm_medium=house_ad&utm_campaign=${ad.id}`,
+      `https://${host}/?utm_source=mapthemidterms&utm_medium=house_ad&utm_campaign=${ad.id}`,
     );
-    assert.doesNotMatch(ad.pitch + ad.headline + ad.cta + ad.label, /Joshua|LLC|Ventures|gmail|guarantee|testimonial/i);
+    assert.doesNotMatch(ad.pitch + ad.headline + ad.cta + ad.label + ad.href, /taxdeedpack|Tax Deed|Joshua|LLC|Ventures|gmail|guarantee|testimonial/i);
   }
 });
 
@@ -48,8 +47,11 @@ test("path normalization ignores trailing slashes, index.html, and queries", () 
   assert.equal(houseAdHash("/cities/MI/a"), houseAdHash("/cities/MI/a/"));
 });
 
-test("about three fifths of real place paths pick NamedScan", () => {
-  const counts: Record<HouseAdId, number> = { namedscan: 0, taxdeedpack: 0, rankfootprint: 0 };
+test("homepage is NamedScan and other paths are about 60/40", () => {
+  assert.equal(pickHouseAd("/").id, "namedscan");
+  assert.equal(pickHouseAd("/index.html").id, "namedscan");
+
+  const counts: Record<HouseAdId, number> = { namedscan: 0, rankfootprint: 0 };
   const placesDir = path.join(root, "src/data/places");
   let n = 0;
   for (const file of readdirSync(placesDir)) {
@@ -57,26 +59,34 @@ test("about three fifths of real place paths pick NamedScan", () => {
     const code = file.slice(0, 2);
     const places = JSON.parse(readFileSync(path.join(placesDir, file), "utf8")) as { slug: string }[];
     for (const place of places) {
-      counts[pickHouseAd(`/cities/${code}/${place.slug}`).id] += 1;
+      const ad = pickHouseAd(`/cities/${code}/${place.slug}`);
+      assert.notEqual(ad.id, "taxdeedpack");
+      assert.doesNotMatch(ad.href, /taxdeedpack/i);
+      counts[ad.id] += 1;
       n += 1;
     }
   }
   assert.ok(n > 1000, `expected many places, got ${n}`);
   const named = counts.namedscan / n;
-  const tax = counts.taxdeedpack / n;
   const rank = counts.rankfootprint / n;
   assert.ok(named > 0.55 && named < 0.65, `namedscan ${named}`);
-  assert.ok(tax > 0.15 && tax < 0.25, `taxdeedpack ${tax}`);
-  assert.ok(rank > 0.15 && rank < 0.25, `rankfootprint ${rank}`);
+  assert.ok(rank > 0.35 && rank < 0.45, `rankfootprint ${rank}`);
 });
 
-test("the card component is one anchor, with the button as a span", () => {
+test("the banner is one anchor, with the button as a span", () => {
   const source = readFileSync(path.join(root, "src/components/HouseAd.tsx"), "utf8");
+  const offers = readFileSync(path.join(root, "src/lib/houseAd.ts"), "utf8");
   assert.match(source, /rel="sponsored noopener"/);
   assert.match(source, /target="_blank"/);
+  assert.match(source, /<span className="house-ad-k">\{ad\.label\}<\/span>/);
+  assert.match(source, /<span className="house-ad-b">\{ad\.pitch\}<\/span>/);
   assert.match(source, /<span className="house-ad-btn">\{ad\.cta\}<\/span>/);
+  assert.match(source, /minHeight: 72/);
   assert.equal(source.includes("<img"), false);
   assert.equal(source.includes("<Link"), false);
   assert.equal(source.includes("<button"), false);
   assert.equal(source.includes("Joshua"), false);
+  assert.doesNotMatch(source, /taxdeedpack|Tax Deed/i);
+  assert.doesNotMatch(source, /position\s*:\s*["']?(sticky|fixed)/i);
+  assert.doesNotMatch(offers, /taxdeedpack|Tax Deed/i);
 });
