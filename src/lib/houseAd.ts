@@ -3,6 +3,10 @@
  * Copy is limited to offers stated on namedscan.com and rankfootprint.com.
  * No rankings promises, testimonials, or invented figures.
  *
+ * RankFootprint's sample scan is $1 unless the status endpoint says otherwise.
+ * The static banner is always the $1 offer. public/rankfootprint-sample.js
+ * may replace that wording after load; it is not part of this module.
+ *
  * Buckets are FNV-1a of the normalized path, modulo 5:
  * 0–2 NamedScan (60%), 3–4 RankFootprint (40%).
  * `/` is always NamedScan.
@@ -48,10 +52,9 @@ export const HOUSE_ADS: Record<HouseAdId, HouseAdOffer> = {
     id: "rankfootprint",
     siteName: "RankFootprint",
     label: "Sponsored by RankFootprint",
-    headline: "Your Google Maps rank, block by block",
-    pitch:
-      "See the Google Maps rank at each point on a grid around your business. A free scan is 3×3, and RankFootprint is not affiliated with Google.",
-    cta: "Start a free grid scan",
+    headline: "$1 Google Maps rank sample scan",
+    pitch: "$1 Google Maps rank sample scan. RankFootprint is not affiliated with Google.",
+    cta: "Get the $1 sample scan",
     href: offerUrl("rankfootprint"),
   },
 };
