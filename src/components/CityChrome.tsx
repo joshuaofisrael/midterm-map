@@ -24,8 +24,8 @@ export function CityChrome({ children, path }: { children: ReactNode; path: stri
         </nav>
       </header>
       <main id="main" className="city-main">
-        {children}
         <HouseAd path={path} />
+        {children}
       </main>
       <footer className="city-ftr">
         <p>{SITE.officialNotUs}</p>

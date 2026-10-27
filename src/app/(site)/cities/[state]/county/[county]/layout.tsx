@@ -11,8 +11,8 @@ export default async function Layout({
   const { state, county } = await params;
   return (
     <>
-      {children}
       <HouseAd path={`/cities/${state}/county/${county}`} />
+      {children}
     </>
   );
 }

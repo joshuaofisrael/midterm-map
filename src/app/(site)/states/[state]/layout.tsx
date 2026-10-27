@@ -11,8 +11,8 @@ export default async function Layout({
   const { state } = await params;
   return (
     <>
-      {children}
       <HouseAd path={`/states/${state}`} />
+      {children}
     </>
   );
 }

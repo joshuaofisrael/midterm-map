@@ -13,7 +13,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
         {SITE.officialNotUs}
       </p>
       <SiteHeader />
-      <main id="main" className="mx-auto w-full max-w-site flex-1 px-4 py-8 sm:py-10">
+      <main id="main" className="mx-auto w-full max-w-site flex-1 px-4 pb-8 pt-3 sm:pb-10 sm:pt-4">
         {children}
       </main>
       <SiteFooter />

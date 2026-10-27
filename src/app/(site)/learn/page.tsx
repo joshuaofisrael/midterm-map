@@ -19,7 +19,9 @@ export const metadata = pageMetadata({
 
 export default function LearnIndexPage() {
   return (
-    <div className="space-y-8">
+    <>
+      <HouseAd path="/learn" />
+      <div className="space-y-8">
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", path: "/" },
@@ -46,7 +48,7 @@ export default function LearnIndexPage() {
           </li>
         ))}
       </ul>
-      <HouseAd path="/learn" />
-    </div>
+      </div>
+    </>
   );
 }

@@ -32,7 +32,9 @@ const GROUPS = [
 
 export default function RacesPage() {
   return (
-    <div className="space-y-10">
+    <>
+      <HouseAd path="/races" />
+      <div className="space-y-10">
       <JsonLd
         data={[
           breadcrumbJsonLd([
@@ -98,7 +100,7 @@ export default function RacesPage() {
         </p>
       </section>
       <CrossLinks />
-      <HouseAd path="/races" />
-    </div>
+      </div>
+    </>
   );
 }

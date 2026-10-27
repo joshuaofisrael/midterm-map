@@ -1,13 +1,14 @@
 /**
- * House ads for our own sites. One card per page, chosen at build time.
- * Copy is limited to offers stated on namedscan.com, taxdeedpack.com, and
- * rankfootprint.com. No rankings promises, testimonials, or invented figures.
+ * House ads for our own sites. One banner per page, chosen at build time.
+ * Copy is limited to offers stated on namedscan.com and rankfootprint.com.
+ * No rankings promises, testimonials, or invented figures.
  *
  * Buckets are FNV-1a of the normalized path, modulo 5:
- * 0–2 NamedScan (60%), 3 Tax Deed Pack (20%), 4 RankFootprint (20%).
+ * 0–2 NamedScan (60%), 3–4 RankFootprint (40%).
+ * `/` is always NamedScan.
  */
 
-export type HouseAdId = "namedscan" | "taxdeedpack" | "rankfootprint";
+export type HouseAdId = "namedscan" | "rankfootprint";
 
 export type HouseAdOffer = {
   id: HouseAdId;
@@ -23,8 +24,13 @@ export type HouseAdOffer = {
 
 const UTM = "utm_source=mapthemidterms&utm_medium=house_ad";
 
-function offerUrl(host: string, campaign: HouseAdId): string {
-  return `https://${host}/?${UTM}&utm_campaign=${campaign}`;
+const OFFER_HOST: Record<HouseAdId, string> = {
+  namedscan: "namedscan.com",
+  rankfootprint: "rankfootprint.com",
+};
+
+function offerUrl(id: HouseAdId): string {
+  return `https://${OFFER_HOST[id]}/?${UTM}&utm_campaign=${id}`;
 }
 
 export const HOUSE_ADS: Record<HouseAdId, HouseAdOffer> = {
@@ -36,17 +42,7 @@ export const HOUSE_ADS: Record<HouseAdId, HouseAdOffer> = {
     pitch:
       "See whether ChatGPT names your business when people ask which local business to hire. A free preview asks three of those questions with live web search, and the full PDF report is $5.",
     cta: "Try NamedScan",
-    href: offerUrl("namedscan.com", "namedscan"),
-  },
-  taxdeedpack: {
-    id: "taxdeedpack",
-    siteName: "Tax Deed Pack",
-    label: "Sponsored by Tax Deed Pack",
-    headline: "Tax deed research for one property",
-    pitch:
-      "Get a $149 research PDF for one tax-deed property: public records, raw sold comps, and a zoning, flood, and use checklist. It is not an appraisal, a title search, or a recommended bid.",
-    cta: "Get the $149 pack",
-    href: offerUrl("taxdeedpack.com", "taxdeedpack"),
+    href: offerUrl("namedscan"),
   },
   rankfootprint: {
     id: "rankfootprint",
@@ -56,16 +52,16 @@ export const HOUSE_ADS: Record<HouseAdId, HouseAdOffer> = {
     pitch:
       "See the Google Maps rank at each point on a grid around your business. A free scan is 3×3, and RankFootprint is not affiliated with Google.",
     cta: "Start a free grid scan",
-    href: offerUrl("rankfootprint.com", "rankfootprint"),
+    href: offerUrl("rankfootprint"),
   },
 };
 
-/** Three NamedScan buckets, then one each of the alternates. */
+/** Three NamedScan buckets, then two RankFootprint buckets. */
 const BUCKETS: readonly HouseAdId[] = [
   "namedscan",
   "namedscan",
   "namedscan",
-  "taxdeedpack",
+  "rankfootprint",
   "rankfootprint",
 ];
 
@@ -93,6 +89,8 @@ export function houseAdHash(path: string): number {
 }
 
 export function pickHouseAd(path: string): HouseAdOffer {
-  const id = BUCKETS[houseAdHash(path) % BUCKETS.length];
+  const normalized = normalizeHouseAdPath(path);
+  if (normalized === "/") return HOUSE_ADS.namedscan;
+  const id = BUCKETS[houseAdHash(normalized) % BUCKETS.length];
   return HOUSE_ADS[id];
 }

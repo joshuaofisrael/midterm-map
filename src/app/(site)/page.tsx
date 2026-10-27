@@ -70,7 +70,9 @@ export default function HomePage() {
   const featured = featuredRaces();
 
   return (
-    <div className="space-y-14">
+    <>
+      <HouseAd path="/" />
+      <div className="space-y-14">
       <JsonLd data={faqJsonLd(HOME_FAQS)} />
       <section className="overflow-hidden rounded-2xl border border-navy-deep bg-navy-deep text-white shadow-card">
         <div className="grid lg:grid-cols-[1.15fr_0.85fr]">
@@ -264,7 +266,7 @@ export default function HomePage() {
       <EmbedSnippet />
       <FurtherReading />
       <TipJar />
-      <HouseAd path="/" />
-    </div>
+      </div>
+    </>
   );
 }

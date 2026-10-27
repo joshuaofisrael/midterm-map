@@ -16,6 +16,7 @@ export const metadata: Metadata = pageMetadata({
 export default function EmbedMapPage() {
   return (
     <div className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 py-4">
+      <HouseAd path="/embed/map" />
       <script
         dangerouslySetInnerHTML={{
           __html: "try{if(window.top!==window.self)document.documentElement.classList.add('is-embed')}catch(e){}",
@@ -32,7 +33,6 @@ export default function EmbedMapPage() {
         </span>
       </p>
       <div className="embed-extra mt-6 space-y-4">
-        <HouseAd path="/embed/map" />
         <ShareBar path="/embed/map" title="Map the Midterms" />
         <EmbedSnippet />
       </div>

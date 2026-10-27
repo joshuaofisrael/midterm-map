@@ -42,7 +42,9 @@ export default function ResultsPage() {
   const preElection = isPreElection();
 
   return (
-    <div className="space-y-8">
+    <>
+      <HouseAd path="/results" />
+      <div className="space-y-8">
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", path: "/" },
@@ -260,7 +262,7 @@ export default function ResultsPage() {
         </ul>
       </section>
       <CrossLinks />
-      <HouseAd path="/results" />
-    </div>
+      </div>
+    </>
   );
 }
