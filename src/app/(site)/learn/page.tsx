@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { HouseAd } from "@/components/HouseAd";
 import { Byline } from "@/components/Byline";
 import { ContentTrust } from "@/components/ContentTrust";
 import { JsonLd } from "@/components/JsonLd";
@@ -45,6 +46,7 @@ export default function LearnIndexPage() {
           </li>
         ))}
       </ul>
+      <HouseAd path="/learn" />
     </div>
   );
 }

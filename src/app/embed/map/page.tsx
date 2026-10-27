@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { EmbedSnippet } from "@/components/EmbedSnippet";
+import { HouseAd } from "@/components/HouseAd";
 import { ShareBar } from "@/components/ShareBar";
 import { StateMap } from "@/components/StateMap";
 import { SITE } from "@/data/site";
@@ -31,6 +32,7 @@ export default function EmbedMapPage() {
         </span>
       </p>
       <div className="embed-extra mt-6 space-y-4">
+        <HouseAd path="/embed/map" />
         <ShareBar path="/embed/map" title="Map the Midterms" />
         <EmbedSnippet />
       </div>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { HouseAd } from "@/components/HouseAd";
 import { ContentTrust } from "@/components/ContentTrust";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
@@ -73,6 +74,7 @@ export default function CitiesIndexPage() {
           ))}
         </ul>
       </section>
+      <HouseAd path={PATH} />
     </div>
   );
 }

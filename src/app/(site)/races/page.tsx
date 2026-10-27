@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { HouseAd } from "@/components/HouseAd";
 import { InfoNote } from "@/components/InfoNote";
 import { ContentTrust } from "@/components/ContentTrust";
 import { CrossLinks } from "@/components/CrossLinks";
@@ -97,6 +98,7 @@ export default function RacesPage() {
         </p>
       </section>
       <CrossLinks />
+      <HouseAd path="/races" />
     </div>
   );
 }
