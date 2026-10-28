@@ -48,10 +48,6 @@ const ID_GEN: DeadlineSource = src(
   "Idaho Secretary of State — 2026 Idaho general election",
   "https://voteidaho.gov/idaho-general-election/",
 );
-const ID_PAMPHLET: DeadlineSource = src(
-  "Idaho Secretary of State — 2026 general election voter pamphlet",
-  "https://archive.voteidaho.gov/download/2026_Voter_Pamphlet.pdf",
-);
 const KY_HOME: DeadlineSource = src(
   "Kentucky State Board of Elections",
   "https://elect.ky.gov/Pages/default.aspx",
@@ -141,7 +137,7 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
   ),
   {
     code: "AR",
-    checkedOn: "October 23, 2026",
+    checkedOn: "October 28, 2026",
     faqAnswer:
       "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Arkansas Secretary of State’s 2026 election calendar (Rev. July 2026) prints October 4, 2026 as a Sunday registration deadline and states the actual deadline is Monday, October 5, 2026. It prints early voting from October 19 through 5:00 p.m. on November 2, an October 27 absentee-application deadline, and a 7:30 p.m. Election Day deadline for the county clerk to receive absentee ballots by mail, excluding military and overseas ballots. Dates can change. The Arkansas Secretary of State publishes the calendar.",
     facts: [
@@ -149,7 +145,7 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
         id: "ar-register",
         category: "registration",
         label: "Voter registration",
-        text: "The calendar prints “October 4, 2026 – Sunday” as “30 DAYS PRIOR TO THE GENERAL ELECTION” and “Deadline to apply to register to vote in the General Election.” The same calendar states the actual deadline is Monday, October 5, 2026, because a deadline that falls on a Saturday, Sunday, or legal holiday advances to the next business day under Ark. Code § 7-1-108.",
+        text: "The calendar prints “October 4, 2026 – Sunday” as “30 DAYS PRIOR TO THE GENERAL ELECTION” and “Deadline to apply to register to vote in the General Election.” The same calendar states the actual deadline was Monday, October 5, 2026, because a deadline that falls on a Saturday, Sunday, or legal holiday advances to the next business day under Ark. Code § 7-1-108.",
         endsOn: "2026-10-05",
         sources: [AR_CAL],
       },
@@ -166,7 +162,7 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
         id: "ar-request",
         category: "mail-request",
         label: "Absentee application",
-        text: "The calendar prints October 27, 2026 as “7 DAYS PRIOR TO THE GENERAL ELECTION” and “Deadline for county clerk to receive absentee ballot applications by mail, fax, or electronic mail for the General Election.”",
+        text: "The calendar prints October 27, 2026, which was “7 DAYS PRIOR TO THE GENERAL ELECTION” and the deadline for the county clerk to receive absentee ballot applications by mail, fax, or electronic mail for the General Election.",
         endsOn: "2026-10-27",
         sources: [AR_CAL],
       },
@@ -183,16 +179,25 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
   },
   {
     code: "CT",
-    checkedOn: CHECKED,
+    checkedOn: "October 28, 2026",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Connecticut Secretary of the State’s 2026 voter guide lists Friday, October 16, 2026 as the last day to register to vote online, by mail, in person, or at the Department of Motor Vehicles and vote in the general election. It lists Monday, November 2, 2026 as the final day to personally return an absentee ballot in person to the town clerk, and 8 p.m. on Election Day as the deadline for an absentee ballot submitted in a drop box or by mail.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Connecticut Secretary of the State’s 2026 voter guide lists Friday, October 16, 2026, which was the last day to register to vote online, by mail, in person, or at the Department of Motor Vehicles and vote in the general election. It lists in-person early voting from October 19 through November 1, 2026. It lists Monday, November 2, 2026 as the final day to personally return an absentee ballot in person to the town clerk, and 8 p.m. on Election Day as the deadline for an absentee ballot submitted in a drop box or by mail.",
     facts: [
       {
         id: "ct-register",
         category: "registration",
         label: "Voter registration",
-        text: "The 2026 voter guide prints Friday, October 16, 2026 as the last day for eligible individuals to register to vote online, by mail, in person, or at the Department of Motor Vehicles and vote in the general election.",
+        text: "The 2026 voter guide prints Friday, October 16, 2026, which was the last day for eligible individuals to register to vote online, by mail, in person, or at the Department of Motor Vehicles and vote in the general election. It says that after October 16, new voters use same-day registration during early voting or on Election Day.",
         endsOn: "2026-10-16",
+        sources: [CT_GUIDE],
+      },
+      {
+        id: "ct-early",
+        category: "early",
+        label: "In-person early voting",
+        text: "The 2026 voter guide prints in-person early voting from Monday, October 19 through Sunday, November 1, 2026, from 10 a.m. to 6 p.m., with extended hours of 8 a.m. to 8 p.m. on Tuesday, October 27 and Thursday, October 29.",
+        startsOn: "2026-10-19",
+        endsOn: "2026-11-01",
         sources: [CT_GUIDE],
       },
       {
@@ -206,29 +211,33 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
     ],
     omitted: [
       {
-        category: "early",
-        label: "Early voting",
-        text: "The 2026 voter guide pages read on October 19, 2026 do not print an early-voting period. The Connecticut Secretary of the State publishes the calendar.",
-      },
-      {
         category: "mail-request",
         label: "Absentee application",
-        text: "The 2026 voter guide pages read on October 19, 2026 do not print an absentee-application deadline. The Connecticut Secretary of the State publishes the calendar.",
+        text: "The 2026 voter guide read on October 28, 2026 says an absentee ballot application may be submitted at any time and does not print one calendar deadline for a regular application. It says an emergency paper application is used when the application is made six or fewer days before an election because of an unforeseen illness or disability, or because the voter is a patient in a hospital or nursing home. The Connecticut Secretary of the State publishes the calendar.",
       },
     ],
   },
   {
     code: "DE",
-    checkedOn: CHECKED,
+    checkedOn: "October 28, 2026",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Delaware Department of Elections general-election page lists Saturday, October 10, 2026 as the deadline to register to vote if not yet registered. It lists Friday, October 30, 2026 as the last day to submit a request for a general-election absentee ballot in order for the ballot to be mailed, and 8 p.m. on Election Day, Tuesday, November 3, 2026, as the deadline for the Department of Elections to receive an absentee ballot.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Delaware Department of Elections general-election page lists Saturday, October 10, 2026, which was the deadline to register to vote if not yet registered, and Monday, October 19, 2026 for uniformed service members and citizens living outside the United States who were not yet registered. It prints early voting on October 22–24 and October 26–27 from 7 a.m. to 7 p.m., no early voting on October 25, and early voting on October 28 through November 1 from 11 a.m. to 7 p.m. It lists Friday, October 30, 2026 as the last day to submit a request for a general-election absentee ballot in order for the ballot to be mailed, and 8 p.m. on Election Day, Tuesday, November 3, 2026, as the deadline for the Department of Elections to receive an absentee ballot.",
     facts: [
       {
         id: "de-register",
         category: "registration",
         label: "Voter registration",
-        text: "The general-election page says the deadline to register to vote if you are not yet registered is Saturday, October 10, 2026.",
+        text: "The general-election page says the deadline to register to vote if a person was not yet registered was Saturday, October 10, 2026. The same page lists Monday, October 19, 2026 as the registration deadline for uniformed service members and citizens living outside the United States who were not yet registered.",
         endsOn: "2026-10-10",
+        sources: [DE_GEN],
+      },
+      {
+        id: "de-early",
+        category: "early",
+        label: "Early voting",
+        text: "The general-election page prints early voting on October 22, 2026 through October 24, 2026, from 7 a.m. to 7 p.m.; no early voting on October 25, 2026; early voting on October 26, 2026 through October 27, 2026, from 7 a.m. to 7 p.m.; and early voting on October 28, 2026 through November 1, 2026, from 11 a.m. to 7 p.m.",
+        startsOn: "2026-10-22",
+        endsOn: "2026-11-01",
         sources: [DE_GEN],
       },
       {
@@ -248,19 +257,13 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
         sources: [DE_GEN],
       },
     ],
-    omitted: [
-      {
-        category: "early",
-        label: "Early voting",
-        text: "The general-election page read on October 19, 2026 does not print an early-voting period. The Delaware Department of Elections publishes the calendar.",
-      },
-    ],
+    omitted: [],
   },
   {
     code: "DC",
-    checkedOn: CHECKED,
+    checkedOn: "October 28, 2026",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The D.C. Board of Elections calendar, revised October 1, 2026, lists Tuesday, October 13, 2026 as the deadline for receipt of voter registration applications and updates, except those submitted in person at the Board or at voter registration agencies. It lists in-person registration at Vote Centers on Election Day from 7:00 a.m. to 8:00 p.m. It lists Monday, October 19, 2026 as the deadline for receipt of ballot requests from non-UOCAVA voters, and Friday, November 13, 2026 as the deadline for receipt of mailed ballots that are postmarked on or before Election Day.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The D.C. Board of Elections calendar, revised October 1, 2026, lists Tuesday, October 13, 2026 as the deadline for receipt of voter registration applications and updates, except those submitted in person at the Board or at voter registration agencies. It lists in-person registration at Vote Centers on Election Day from 7:00 a.m. to 8:00 p.m. It lists Monday, October 26 through Sunday, November 1, 2026 as the period for registration and voting at Early Vote Centers, from 8:30 a.m. to 7:00 p.m. It lists Monday, October 19, 2026, which was the deadline for receipt of ballot requests from non-UOCAVA voters, and Friday, November 13, 2026 as the deadline for receipt of mailed ballots that are postmarked on or before Election Day.",
     facts: [
       {
         id: "dc-register",
@@ -274,8 +277,17 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
         id: "dc-request",
         category: "mail-request",
         label: "Ballot request",
-        text: "The calendar prints Monday, October 19, 2026 as the deadline for receipt of ballot requests from non-UOCAVA voters.",
+        text: "The calendar prints Monday, October 19, 2026, which was the deadline for receipt of ballot requests from non-UOCAVA voters.",
         endsOn: "2026-10-19",
+        sources: [DC_CAL],
+      },
+      {
+        id: "dc-early",
+        category: "early",
+        label: "Early Vote Centers",
+        text: "The calendar, revised October 1, 2026, prints Monday, October 26, 2026 through Sunday, November 1, 2026 as the period during which qualified electors may register and cast ballots at Early Vote Centers. It says those centers are open every day during that period from 8:30 a.m. to 7:00 p.m.",
+        startsOn: "2026-10-26",
+        endsOn: "2026-11-01",
         sources: [DC_CAL],
       },
       {
@@ -287,25 +299,19 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
         sources: [DC_CAL],
       },
     ],
-    omitted: [
-      {
-        category: "early",
-        label: "Early voting",
-        text: "The revised October 1, 2026 calendar lines read on October 19, 2026 do not print a separate early-voting date range. The D.C. Board of Elections publishes the calendar.",
-      },
-    ],
+    omitted: [],
   },
   {
     code: "HI",
-    checkedOn: CHECKED,
+    checkedOn: "October 28, 2026",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Hawaii Office of Elections proclamation page lists October 26, 2026 as the date a paper voter-registration application must be submitted to the county elections division for the general election, October 27, 2026 as the deadline to request that a ballot be sent to an alternate address, and 7:00 p.m. on November 3, 2026 as the time a ballot must be received by the county elections division.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Hawaii Office of Elections proclamation page lists October 26, 2026, which was the date a paper voter-registration application had to be submitted to the county elections division for the general election, October 27, 2026, which was the deadline to request that a ballot be sent to an alternate address, voter service centers from October 20 through November 3, 2026 excluding Sundays, and 7:00 p.m. on November 3, 2026 as the time a ballot must be received by the county elections division.",
     facts: [
       {
         id: "hi-register",
         category: "registration",
         label: "Paper voter registration",
-        text: "The proclamation page says paper voter-registration applications must be submitted to the county elections division by October 26, 2026 for the general election.",
+        text: "The proclamation page says paper voter-registration applications had to be submitted to the county elections division by October 26, 2026 for the general election. It says voters may register online at any time or in person at a voter service center.",
         endsOn: "2026-10-26",
         sources: [HI_PROC],
       },
@@ -313,7 +319,7 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
         id: "hi-request",
         category: "mail-request",
         label: "Alternate-address ballot request",
-        text: "The proclamation page says the deadline to request that a ballot be sent to an alternate address is October 27, 2026 for the general election.",
+        text: "The proclamation page says the deadline to request that a ballot be sent to an alternate address was October 27, 2026 for the general election.",
         endsOn: "2026-10-27",
         sources: [HI_PROC],
       },
@@ -325,26 +331,29 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
         endsOn: "2026-11-03",
         sources: [HI_PROC],
       },
-    ],
-    omitted: [
       {
+        id: "hi-early",
         category: "early",
-        label: "Early voting",
-        text: "The proclamation page lines read on October 19, 2026 do not print a separate early-voting period. The Hawaii Office of Elections publishes the calendar.",
+        label: "Voter service centers",
+        text: "The proclamation page says voter service centers are open 10 business days before the election and offer in-person voting and same-day registration. For the general election it prints October 20 through November 3, 2026, excluding Sundays.",
+        startsOn: "2026-10-20",
+        endsOn: "2026-11-03",
+        sources: [HI_PROC],
       },
     ],
+    omitted: [],
   },
   {
     code: "ID",
-    checkedOn: CHECKED,
+    checkedOn: "October 28, 2026",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Idaho Secretary of State’s general-election page says voter pre-registration ends on October 23 and that a request for an absentee ballot is due by 5:00 p.m. local time on October 23. The voter pamphlet prints that absentee request deadline as Friday, October 23. Those pages do not print an absentee-ballot return deadline.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Idaho Secretary of State’s general-election page says online voter registration and absentee ballot requests closed at 5:00 p.m. on October 23, and that in-person registration remains available during early voting and on Election Day. It says all counties are open for early voting until October 30. That page does not print an absentee-ballot return deadline.",
     facts: [
       {
         id: "id-register",
         category: "registration",
-        label: "Voter pre-registration",
-        text: "The general-election page says voter pre-registration ends on October 23. It does not print a year next to that day. The page is the 2026 Idaho general-election page.",
+        label: "Online voter registration",
+        text: "The general-election page says online voter registration and absentee ballot requests closed at 5:00 p.m. on October 23. It does not print a year next to that day. The page is the 2026 Idaho general-election page. It says in-person registration remains available during early voting and on Election Day.",
         endsOn: "2026-10-23",
         sources: [ID_GEN],
       },
@@ -352,35 +361,38 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
         id: "id-request",
         category: "mail-request",
         label: "Absentee request",
-        text: "The general-election page says to request an absentee ballot by 5:00 p.m. local time on October 23. The voter pamphlet says to request an absentee ballot by 5:00 p.m. local time on the deadline of Friday, October 23.",
+        text: "The general-election page says online voter registration and absentee ballot requests closed at 5:00 p.m. on October 23.",
         endsOn: "2026-10-23",
-        sources: [ID_GEN, ID_PAMPHLET],
+        sources: [ID_GEN],
+      },
+      {
+        id: "id-early",
+        category: "early",
+        label: "Early voting",
+        text: "The general-election page says all counties are open for early voting until October 30. It does not print a year next to that day. The page is the 2026 Idaho general-election page.",
+        endsOn: "2026-10-30",
+        sources: [ID_GEN],
       },
     ],
     omitted: [
       {
-        category: "early",
-        label: "Early voting",
-        text: "The general-election page and the voter pamphlet read on October 19, 2026 do not print an early-voting period. The Idaho Secretary of State publishes the calendar.",
-      },
-      {
         category: "mail-return",
         label: "Absentee return",
-        text: "The general-election page and the voter pamphlet read on October 19, 2026 do not print an absentee-ballot return deadline. The Idaho Secretary of State publishes the calendar.",
+        text: "The general-election page read on October 28, 2026 does not print an absentee-ballot return deadline. The Idaho Secretary of State publishes the calendar.",
       },
     ],
   },
   {
     code: "KY",
-    checkedOn: CHECKED,
+    checkedOn: "October 28, 2026",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Kentucky State Board of Elections homepage lists October 5, 2026 as the last day to register to vote for the general election. It lists September 19, 2026 as the day the mail-in absentee ballot request portal opens and October 20, 2026 as the day that portal closes. It lists excused in-person absentee voting on October 21–23 and October 26–28, 2026, and in-person no-excuse absentee voting on October 29–31, 2026.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Kentucky State Board of Elections homepage lists October 5, 2026, which was the last day to register to vote for the general election. It lists September 19, 2026 as the day the mail-in absentee ballot request portal opened and October 20, 2026, which was the day that portal closed. It lists excused in-person absentee voting on October 21–23 and October 26–28, 2026, and in-person no-excuse absentee voting on October 29–31, 2026.",
     facts: [
       {
         id: "ky-register",
         category: "registration",
         label: "Voter registration",
-        text: "The State Board of Elections homepage prints “October 5, 2026 - Last Day to Register to Vote for the General.”",
+        text: "The State Board of Elections homepage prints “October 5, 2026 - Last Day to Register to Vote for the General.” That deadline has passed.",
         endsOn: "2026-10-05",
         sources: [KY_HOME],
       },
@@ -388,7 +400,7 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
         id: "ky-request",
         category: "mail-request",
         label: "Mail-in absentee request portal",
-        text: "The homepage prints “September 19, 2026 - Mail-in Absentee Ballot Request Portal Opens” and “October 20, 2026 - Mail-in Absentee Ballot Request Portal Closes.”",
+        text: "The homepage prints “September 19, 2026 - Mail-in Absentee Ballot Request Portal Opens” and “October 20, 2026 - Mail-in Absentee Ballot Request Portal Closes.” That portal has closed.",
         startsOn: "2026-09-19",
         endsOn: "2026-10-20",
         sources: [KY_HOME],
@@ -407,23 +419,32 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
       {
         category: "mail-return",
         label: "Absentee return",
-        text: "The homepage lines read on October 19, 2026 do not print a statutory absentee-ballot return deadline. The Kentucky State Board of Elections publishes the calendar.",
+        text: "The homepage lines read on October 28, 2026 do not print a statutory absentee-ballot return deadline. The Kentucky State Board of Elections publishes the calendar.",
       },
     ],
   },
   {
     code: "LA",
-    checkedOn: CHECKED,
+    checkedOn: "October 28, 2026",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Louisiana Secretary of State’s elections page lists an in-person and by-mail registration deadline of October 5, 2026 and an online registration deadline of October 13, 2026 for the November 3, 2026 election. The election quick facts list October 30 as the last day to request an absentee ballot other than for military and overseas voters, and November 2 as the last day for absentee ballots to be received by 4:30 p.m.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Louisiana Secretary of State’s elections page lists an in-person and by-mail registration deadline of October 5, 2026 and an online registration deadline of October 13, 2026 for the November 3, 2026 election. Both have passed. The election quick facts list early voting from October 20 through October 27, which has passed, October 30 as the last day to request an absentee ballot other than for military and overseas voters, and November 2 as the last day for absentee ballots to be received by 4:30 p.m.",
     facts: [
       {
         id: "la-register",
         category: "registration",
         label: "Voter registration",
-        text: "The elections page prints “In person / by mail deadline: October 5, 2026” and “Online deadline: October 13, 2026” for the November 3, 2026 election.",
+        text: "The elections page prints “In person / by mail deadline: October 5, 2026” and “Online deadline: October 13, 2026” for the November 3, 2026 election. Both deadlines have passed.",
         endsOn: "2026-10-13",
         sources: [LA_HOME],
+      },
+      {
+        id: "la-early",
+        category: "early",
+        label: "Early voting",
+        text: "The election quick facts print October 20 as the day early voting begins and October 27 as the last day of early voting. Both dates have passed.",
+        startsOn: "2026-10-20",
+        endsOn: "2026-10-27",
+        sources: [LA_FACTS],
       },
       {
         id: "la-request",
@@ -442,13 +463,7 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
         sources: [LA_FACTS],
       },
     ],
-    omitted: [
-      {
-        category: "early",
-        label: "Early voting",
-        text: "The elections page and the quick facts read on October 19, 2026 do not print an early-voting period. The Louisiana Secretary of State publishes the calendar.",
-      },
-    ],
+    omitted: [],
   },
   gap(
     "MS",
@@ -497,7 +512,7 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
   ),
   {
     code: "NM",
-    checkedOn: CHECKED,
+    checkedOn: "October 28, 2026",
     faqAnswer:
       "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The New Mexico Secretary of State’s 2026 general-election voter guide prints “Early Voting begins Oct. 6, 2026” and “Election Day is Nov. 3, 2026.” That guide does not print a voter-registration deadline or a mail-ballot request or return deadline.",
     facts: [
@@ -515,23 +530,23 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
       {
         category: "registration",
         label: "Voter registration",
-        text: "The voter guide and the January 26, 2026 proclamation read on October 19, 2026 do not print a voter-registration deadline. The New Mexico Secretary of State publishes the calendar.",
+        text: "The voter guide read on October 28, 2026 still prints “Early Voting begins Oct. 6, 2026” and does not print a voter-registration deadline. The January 26, 2026 proclamation was not re-read that day. The New Mexico Secretary of State publishes the calendar.",
       },
       {
         category: "mail-request",
         label: "Mail-ballot request",
-        text: "The voter guide and the January 26, 2026 proclamation read on October 19, 2026 do not print a mail-ballot request deadline. The New Mexico Secretary of State publishes the calendar.",
+        text: "The voter guide read on October 28, 2026 does not print a mail-ballot request deadline. The January 26, 2026 proclamation was not re-read that day. The New Mexico Secretary of State publishes the calendar.",
       },
       {
         category: "mail-return",
         label: "Mail-ballot return",
-        text: "The voter guide and the January 26, 2026 proclamation read on October 19, 2026 do not print a mail-ballot return deadline. The New Mexico Secretary of State publishes the calendar.",
+        text: "The voter guide read on October 28, 2026 does not print a mail-ballot return deadline. The January 26, 2026 proclamation was not re-read that day. The New Mexico Secretary of State publishes the calendar.",
       },
     ],
   },
   {
     code: "ND",
-    checkedOn: CHECKED,
+    checkedOn: "October 28, 2026",
     faqAnswer:
       "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The North Dakota Secretary of State’s current-and-past elections page lists September 24, 2026 as the day absentee voting begins, November 2, 2026 as the absentee application submission deadline, and November 3, 2026 as the day absentee ballots must be returned by the close of polls. That page does not print a voter-registration deadline.",
     facts: [
@@ -557,26 +572,26 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
       {
         category: "registration",
         label: "Voter registration",
-        text: "The current-and-past elections page read on October 19, 2026 does not print a voter-registration deadline. The North Dakota Secretary of State publishes the calendar.",
+        text: "The current-and-past elections page read on October 28, 2026 does not print a voter-registration deadline. The North Dakota Secretary of State publishes the calendar.",
       },
       {
         category: "early",
         label: "Early voting",
-        text: "The current-and-past elections page read on October 19, 2026 does not print a separate early-voting period. It prints September 24, 2026 as the day absentee voting begins. The North Dakota Secretary of State publishes the calendar.",
+        text: "The current-and-past elections page read on October 28, 2026 does not print a separate early-voting period. It prints September 24, 2026 as the day absentee voting begins. The North Dakota Secretary of State publishes the calendar.",
       },
     ],
   },
   {
     code: "OK",
-    checkedOn: CHECKED,
+    checkedOn: "October 28, 2026",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Oklahoma State Election Board homepage lists October 9, 2026 as the voter-registration deadline for the November 3 election and 5 p.m. Monday, October 19, 2026 as the absentee-ballot request deadline. The July 24, 2026 election notice prints the same two dates. Those pages do not print an absentee-ballot return deadline.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Oklahoma State Election Board homepage lists October 9, 2026, which was the voter-registration deadline for the November 3 election, and 5 p.m. Monday, October 19, 2026, which was the absentee-ballot request deadline. The July 24, 2026 election notice prints the same two dates. Those pages do not print an absentee-ballot return deadline.",
     facts: [
       {
         id: "ok-register",
         category: "registration",
         label: "Voter registration",
-        text: "The homepage lists “November 3 Elections - October 9, 2026” under voter-registration deadlines. The July 24 notice prints “Voter registration deadline: October 9, 2026.”",
+        text: "The homepage lists “November 3 Elections - October 9, 2026” under voter-registration deadlines. The July 24 notice prints “Voter registration deadline: October 9, 2026.” That deadline has passed.",
         endsOn: "2026-10-09",
         sources: [OK_HOME, OK_NOTICE],
       },
@@ -584,7 +599,7 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
         id: "ok-request",
         category: "mail-request",
         label: "Absentee request",
-        text: "The homepage prints “Deadline for November Elections 5 p.m. Monday October 19, 2026” under the absentee-ballot request deadline. The July 24 notice prints “Absentee ballot request deadline: 5 p.m. (CST), October 19, 2026.”",
+        text: "The homepage prints “Deadline for November Elections 5 p.m. Monday October 19, 2026” under the absentee-ballot request deadline. The July 24 notice prints “Absentee ballot request deadline: 5 p.m. (CST), October 19, 2026.” That deadline has passed.",
         endsOn: "2026-10-19",
         sources: [OK_HOME, OK_NOTICE],
       },
@@ -593,26 +608,26 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
       {
         category: "early",
         label: "Early voting",
-        text: "The homepage and the July 24 notice read on October 19, 2026 do not print an early-voting period. The Oklahoma State Election Board publishes the calendar.",
+        text: "The homepage and the July 24 notice read on October 28, 2026 do not print an early-voting period. The Oklahoma State Election Board publishes the calendar.",
       },
       {
         category: "mail-return",
         label: "Absentee return",
-        text: "The homepage and the July 24 notice read on October 19, 2026 do not print an absentee-ballot return deadline. The Oklahoma State Election Board publishes the calendar.",
+        text: "The homepage and the July 24 notice read on October 28, 2026 do not print an absentee-ballot return deadline. The Oklahoma State Election Board publishes the calendar.",
       },
     ],
   },
   {
     code: "OR",
-    checkedOn: CHECKED,
+    checkedOn: "October 28, 2026",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Oregon Secretary of State lists October 13, 2026 as the last day to register to vote in the general election and October 14, 2026 as the first day ballots are mailed. The upcoming-elections page says the last day to return a ballot using a drop box is November 3 at 8 p.m., and that a ballot mailed with an Election Day postmark can be received up to 7 days after Election Day and be counted.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Oregon Secretary of State lists October 13, 2026, which was the last day to register to vote in the general election, and October 14, 2026 as the first day ballots were mailed. The upcoming-elections page says the last day to return a ballot using a drop box is November 3 at 8 p.m., and that a ballot mailed with an Election Day postmark can be received up to 7 days after Election Day and be counted.",
     facts: [
       {
         id: "or-register",
         category: "registration",
         label: "Voter registration",
-        text: "The elections page prints October 13, 2026 as the last day to register to vote in the general election. The upcoming-elections page prints “Voter registration deadline: October 13.”",
+        text: "The elections page prints October 13, 2026, which was the last day to register to vote in the general election. The upcoming-elections page prints “Voter registration deadline: October 13.”",
         endsOn: "2026-10-13",
         sources: [OR_HOME, OR_PAGE],
       },
@@ -637,22 +652,31 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
       {
         category: "early",
         label: "Early voting",
-        text: "The elections page and the upcoming-elections page read on October 19, 2026 do not print a separate early-voting period. The Oregon Secretary of State publishes the calendar.",
+        text: "The elections page and the upcoming-elections page read on October 28, 2026 do not print a separate early-voting period. The Oregon Secretary of State publishes the calendar.",
       },
     ],
   },
   {
     code: "RI",
-    checkedOn: CHECKED,
+    checkedOn: "October 28, 2026",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Rhode Island voter-information handbook says a mail-ballot application is due by Tuesday, October 13, must be postmarked by October 13 at 4 p.m., and must be received within three days of that deadline. It says a mail ballot must be received by the State Board of Elections or deposited in a secure mail-ballot drop box by 8 p.m. on Election Day, November 3. The Board’s date table marks a registration deadline of 10/4/26 with an asterisk the page also uses for an unofficial proposed schedule, so that registration date is not listed as a confirmed deadline.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Rhode Island voter-information handbook says a mail-ballot application was due by Tuesday, October 13, had to be postmarked by October 13 at 4 p.m., and had to be received within three days of that deadline. It prints early voting from October 14 through November 2. It says a mail ballot must be received by the State Board of Elections or deposited in a secure mail-ballot drop box by 8 p.m. on Election Day, November 3. The Board’s date table marks a registration deadline of 10/4/26 with an asterisk the page also uses for an unofficial proposed schedule, so that registration date is not listed as a confirmed deadline.",
     facts: [
       {
         id: "ri-request",
         category: "mail-request",
         label: "Mail-ballot application",
-        text: "The handbook says a mail-ballot application is due by Tuesday, October 13. It says applications must be postmarked by October 13 at 4 p.m. and received within three days of that deadline.",
+        text: "The handbook says a mail-ballot application was due by Tuesday, October 13. It says applications had to be postmarked by October 13 at 4 p.m. and received within three days of that deadline.",
         endsOn: "2026-10-13",
+        sources: [RI_HANDBOOK],
+      },
+      {
+        id: "ri-early",
+        category: "early",
+        label: "Early voting",
+        text: "The handbook prints early voting from October 14 through November 2.",
+        startsOn: "2026-10-14",
+        endsOn: "2026-11-02",
         sources: [RI_HANDBOOK],
       },
       {
@@ -668,12 +692,7 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
       {
         category: "registration",
         label: "Voter registration",
-        text: "The Board of Elections date table prints 10/4/26 and attaches an asterisk. The same page uses an asterisk for “unofficial proposed schedule” and for a different emergency-ballot footnote. Because those footnotes do not identify which date is unofficial, the October 4 date is not listed as a confirmed deadline. The Rhode Island Board of Elections and the Secretary of State publish the calendar.",
-      },
-      {
-        category: "early",
-        label: "Early voting",
-        text: "The Board’s date table prints an early-voting start of 10/14/26 under the same asterisk. That date is not listed as a confirmed early-voting period. The Rhode Island Board of Elections publishes the calendar.",
+        text: "The Board of Elections date table prints 10/4/26 and attaches an asterisk. The same page uses an asterisk for “unofficial proposed schedule” and for a different emergency-ballot footnote. Because those footnotes do not identify which date is unofficial, the October 4 date is not listed as a confirmed deadline. That table was not re-read on October 28, 2026. The Rhode Island Board of Elections and the Secretary of State publish the calendar.",
       },
     ],
   },
@@ -793,7 +812,7 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
   },
   {
     code: "WV",
-    checkedOn: CHECKED,
+    checkedOn: "October 28, 2026",
     faqAnswer:
       "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. GoVoteWV lists October 13, 2026 as the voter-registration deadline, October 21 through October 31, 2026 as early voting in person, and August 11 through October 28, 2026 as the absentee application period. It lists October 28, 2026 as the deadline for absentee ballot applications, October 27 through noon on November 3, 2026 as emergency absentee voting, November 2, 2026 as the deadline to hand-deliver an absentee ballot to the clerk’s office, November 4, 2026 as the day absentee ballots without a postmark are accepted, and November 9, 2026 as the day absentee ballots postmarked by Election Day are accepted.",
     facts: [
@@ -836,15 +855,15 @@ export const MORE_ELECTION_DATES: StateElectionDates[] = [
   },
   {
     code: "WY",
-    checkedOn: CHECKED,
+    checkedOn: "October 28, 2026",
     faqAnswer:
-      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Wyoming Secretary of State’s 2026 key-election-dates sheet lists October 19, 2026 as the day voter registration closes for the general election, and October 20 through November 2, 2026 as days a voter may still register in person and cast an absentee ballot. It lists October 6 through November 2, 2026 for general-election absentee voting. The voter guide says a ballot is returned to the county clerk’s office by 7 p.m. on Election Day.",
+      "The 2026 U.S. midterm general election is Tuesday, November 3, 2026. The Wyoming Secretary of State’s 2026 key-election-dates sheet lists October 19, 2026, which was the day voter registration closed for the general election, and October 20 through November 2, 2026 as days a voter may still register in person and cast an absentee ballot. It lists October 6 through November 2, 2026 for general-election absentee voting. The voter guide says a ballot is returned to the county clerk’s office by 7 p.m. on Election Day.",
     facts: [
       {
         id: "wy-register",
         category: "registration",
         label: "Voter registration",
-        text: "The key-dates sheet prints “Voter Registration Closes: General … October 19, 2026.” It also prints that voters may still register in person and cast an absentee ballot October 20 through November 2, 2026.",
+        text: "The key-dates sheet prints “Voter Registration Closes: General … October 19, 2026.” That close date has passed. It also prints that voters may still register in person and cast an absentee ballot October 20 through November 2, 2026.",
         endsOn: "2026-11-02",
         sources: [WY_DATES],
       },
