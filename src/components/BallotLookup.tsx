@@ -69,7 +69,6 @@ export function BallotLookup({ initialState = "" }: { initialState?: string }) {
           <input
             inputMode="numeric"
             autoComplete="postal-code"
-            name="zip"
             maxLength={5}
             value={zip}
             onChange={(event) => setZip(normalizeZip(event.target.value))}
@@ -81,7 +80,6 @@ export function BallotLookup({ initialState = "" }: { initialState?: string }) {
         <label className="block text-sm">
           <span className="font-medium text-ink">State</span>
           <select
-            name="state"
             value={state}
             onChange={(event) => setState(event.target.value)}
             className="mt-1 w-full rounded-md border border-line bg-white px-3 py-2 text-ink"
