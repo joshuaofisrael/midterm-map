@@ -183,6 +183,12 @@ export default function PrivacyPage() {
           listed.
         </p>
         <p>
+          The ZIP and state fields in both lookups have no form field name. If you submit a form
+          before the page’s script has loaded, the browser reloads the page without adding the ZIP
+          or the state to the address, so the ZIP does not reach the host’s logs or the advertising
+          and analytics requests in that case either.
+        </p>
+        <p>
           The request for the ballot page is for <code>/ballot/</code> plus the state code. It has
           no five-digit ZIP. The browser then requests a public file from this site:{" "}
           <code>GET /zcta/</code> plus the first three digits and <code>.json</code>, for example{" "}
@@ -211,6 +217,14 @@ export default function PrivacyPage() {
           five-digit ZIP is not written to local storage, session storage, or a cookie, and it is
           not sent to a third-party service. Third-party requests during that search carry the page
           address, which does not contain the ZIP.
+        </p>
+        <p>
+          The advertising, consent, and analytics scripts described below run inside the page, as
+          such scripts do on any site that carries them. This site does not pass the ZIP to them.
+          In a test on {SITE.privacyLastUpdated}, after both lookups no request to Google, Ezoic,
+          Gatekeeper, or Cloudflare contained the five-digit ZIP. In the same test the only storage
+          those scripts left was Google’s consent-message cookie <code>FCCDCF</code> and Ezoic’s
+          local-storage key <code>ez_integration_beacon</code>. Neither held the ZIP.
         </p>
 
         <h2>Analytics: Cloudflare Web Analytics</h2>

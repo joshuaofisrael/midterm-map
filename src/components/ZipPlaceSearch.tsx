@@ -83,7 +83,6 @@ export function ZipPlaceSearch({ scopeName }: { scopeName?: string }) {
           <span className="font-medium text-ink">ZIP code</span>
           <input
             id={inputId}
-            name="zip"
             inputMode="numeric"
             autoComplete="postal-code"
             maxLength={5}
