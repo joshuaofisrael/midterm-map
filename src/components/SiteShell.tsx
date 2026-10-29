@@ -1,6 +1,5 @@
 import type { ReactNode } from "react";
 import { SITE } from "@/data/site";
-import { BannerAd, TopBanner } from "./BannerAd";
 import { SiteFooter } from "./SiteFooter";
 import { SiteHeader } from "./SiteHeader";
 
@@ -15,9 +14,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
       </p>
       <SiteHeader />
       <main id="main" className="mx-auto w-full max-w-site flex-1 px-4 pb-8 pt-3 sm:pb-10 sm:pt-4">
-        <TopBanner />
         {children}
-        <BannerAd size="300x250" className="flex" />
       </main>
       <SiteFooter />
     </div>
