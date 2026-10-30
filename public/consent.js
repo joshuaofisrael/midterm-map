@@ -65,6 +65,7 @@
     document.head.appendChild(s);
   }
   function loadGa() {
+    if (window.__mtmGaId) window["ga-disable-" + window.__mtmGaId] = false;
     ensureDefault();
     window.gtag("consent", "update", { analytics_storage: "granted" });
     window.gtag("set", "url_passthrough", false);
@@ -105,6 +106,9 @@
     if (v === "granted") loadGa();
     else {
       gtagSafe("consent", "update", { analytics_storage: "denied" });
+      // Withdrawal: a tag already loaded on this page must send nothing more,
+      // not even a cookieless consent-mode ping on page exit.
+      if (window.__mtmGaId) window["ga-disable-" + window.__mtmGaId] = true;
       clearGaCookies();
     }
     close();

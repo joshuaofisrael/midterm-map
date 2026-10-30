@@ -69,6 +69,14 @@ for (const file of fs.readdirSync(path.join(root, "src/data/places"))) {
   }
 }
 
+// Short aliases for top-level pages (e.g. /deadlines/ was linked externally and 404ed).
+for (const [alias, target, label] of [["deadlines", "/voting-deadlines/", "Voting deadlines"]] as const) {
+  const htmlPath = path.join(outDir, alias, "index.html");
+  if (fs.existsSync(htmlPath)) throw new Error(`Alias /${alias}/ would overwrite an existing page`);
+  fs.mkdirSync(path.dirname(htmlPath), { recursive: true });
+  fs.writeFileSync(htmlPath, redirectHtml(target, label, `${base}${target}`));
+}
+
 if (farmington !== "/cities/MI/farmington-hills-city/") {
   throw new Error(`Farmington Hills redirect target was ${farmington || "missing"}`);
 }
