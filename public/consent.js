@@ -3,8 +3,8 @@
    - The stamped head (/consent-default.js) sets a Consent Mode default:
      analytics_storage denied everywhere; ad storage also denied in the EEA,
      the UK and Switzerland. No third-party CMP is loaded.
-   - If an IAB TCF CMP is present (e.g. Google's own EEA/UK message) and
-     gdprApplies, its signal is followed; otherwise this banner is the prompt.
+   - This banner is always the analytics prompt. An IAB TCF CMP (Google's
+     EEA/UK message), if present, only sets the ad-storage signals.
    - This banner:  Accept loads gtag.js. Reject and no
      choice do not. The choice is kept in localStorage. A TCF decision does
      not overwrite that stored choice. */
@@ -164,69 +164,43 @@
     if (v === "granted") loadGa();
     else if (v !== "denied") show(false, false);
   }
+  // Google's consent message (TCF) only feeds the ad-storage signals that
+  // AdSense reads. It never hides, delays or replaces this site's banner,
+  // and GA loads only after Accept on this banner. If the TCF tool is slow,
+  // fails or is blocked, nothing here waits for it.
   function applyTcf(tc) {
     var signal = function (ids) { return allPurposes(tc, ids) ? "granted" : "denied"; };
-    var analytics = signal([1, 7, 8, 10]);
     ensureDefault();
     window.gtag("consent", "update", {
       ad_storage: signal([1]),
       ad_user_data: signal([1, 7]),
-      ad_personalization: signal([3, 4]),
-      analytics_storage: analytics
+      ad_personalization: signal([3, 4])
     });
     window.gtag("set", "url_passthrough", false);
-    window.__mtmTcfAnalytics = analytics;
-    if (analytics === "granted") loadGaScript();
-    else clearGaCookies();
   }
   function onTcf(tc, ok) {
     if (!ok || !tc) return;
     var status = tc.eventStatus;
-    // Google's CMP (Funding Choices) answers gdprApplies: true in the EEA/UK
-    // even when no consent message is published, so it shows nothing. Defer
-    // to it only when it shows its own prompt or holds a stored choice;
-    // otherwise the site banner is the prompt.
-    if (status === "cmpuishown") {
-      window.__mtmGatekeeper = true;
-      close();
-      return;
-    }
     if (status !== "tcloaded" && status !== "useractioncomplete") return;
-    if (tc.gdprApplies === true && (status === "useractioncomplete" || tc.tcString)) {
-      window.__mtmGatekeeper = true;
-      close();
-      applyTcf(tc);
-      return;
-    }
-    if (window.__mtmGatekeeper !== true) {
-      window.__mtmGatekeeper = false;
-      ourRegionInit();
-    }
+    if (tc.gdprApplies === true && (status === "useractioncomplete" || tc.tcString)) applyTcf(tc);
   }
   function armTcf() {
-    if (typeof window.__tcfapi !== "function") return false;
-    window.__tcfapi("addEventListener", 2, onTcf);
-    return true;
+    try {
+      if (typeof window.__tcfapi !== "function") return false;
+      window.__tcfapi("addEventListener", 2, onTcf);
+      return true;
+    } catch (e) { return false; }
   }
   function init() {
     ensureDefault();
+    window.__mtmGatekeeper = false;
+    ourRegionInit();
     if (!armTcf()) {
-      ourRegionInit();
-      return;
+      var tries = 0;
+      var t = setInterval(function () {
+        if (armTcf() || ++tries > 50) clearInterval(t);
+      }, 200);
     }
-    var waited = 0;
-    var timer = setInterval(function () {
-      waited += 100;
-      if (window.__mtmGatekeeper === true) {
-        clearInterval(timer);
-        close();
-        return;
-      }
-      if (window.__mtmGatekeeper === false || waited >= 2000) {
-        clearInterval(timer);
-        if (window.__mtmGatekeeper !== true) ourRegionInit();
-      }
-    }, 100);
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
   else init();
@@ -242,4 +216,6 @@
   }
   if (document.readyState === "complete") recheck();
   else window.addEventListener("load", recheck);
+  // Late re-renders or third-party scripts can also remove it; check again.
+  [1500, 4000, 8000].forEach(function (ms) { setTimeout(recheck, ms); });
 })();
