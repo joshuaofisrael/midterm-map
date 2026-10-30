@@ -70,7 +70,11 @@ for (const file of fs.readdirSync(path.join(root, "src/data/places"))) {
 }
 
 // Short aliases for top-level pages (e.g. /deadlines/ was linked externally and 404ed).
-for (const [alias, target, label] of [["deadlines", "/voting-deadlines/", "Voting deadlines"]] as const) {
+for (const [alias, target, label] of [
+  ["deadlines", "/voting-deadlines/", "Voting deadlines"],
+  ["privacy-policy", "/privacy/", "Privacy policy"],
+  ["corrections", "/copyright/", "Copyright and corrections"],
+] as const) {
   const htmlPath = path.join(outDir, alias, "index.html");
   if (fs.existsSync(htmlPath)) throw new Error(`Alias /${alias}/ would overwrite an existing page`);
   fs.mkdirSync(path.dirname(htmlPath), { recursive: true });
