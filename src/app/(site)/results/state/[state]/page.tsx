@@ -96,6 +96,30 @@ export default async function StateResultsPage({ params }: { params: Promise<{ s
         )}
       </section>
 
+      <section className="space-y-3 text-sm leading-6">
+        <h2 className="font-serif text-xl font-semibold">How to read {state.name} returns</h2>
+        {official?.closeLabel ? (
+          <p>
+            Polls close in {state.name} at {official.closeLabel}. Nothing appears on this page for {state.name}{" "}
+            before then. {state.timezoneNote}
+          </p>
+        ) : null}
+        <p>
+          {official?.machineReadable
+            ? `${official.office} publishes a results file this site can read. After polls close, a scheduled job copies its figures here with the file's own timestamp.`
+            : `${official?.office ?? "The state election office"} does not publish a results file this site can read, so this page links to the official results page instead of copying numbers.`}{" "}
+          {races.length > 0
+            ? `This site tracks ${races.length} ${races.length === 1 ? "contest" : "contests"} in ${state.name}: ${races.map((race) => race.title).join("; ")}.`
+            : `This site does not keep a race guide for a ${state.name} contest.`}
+        </p>
+        <p>
+          Early totals often come from one kind of ballot or one group of counties. Mail and provisional ballots can
+          take days to process, so an election-night lead can change before the canvass. A winner
+          label appears here only when the official file marks a candidate. Certification belongs to {state.name}
+          {"'"}s election officials.
+        </p>
+      </section>
+
       <section>
         <h2 className="font-serif text-xl font-semibold">Linked pages</h2>
         <ul className="mt-3 space-y-2 text-sm leading-6">

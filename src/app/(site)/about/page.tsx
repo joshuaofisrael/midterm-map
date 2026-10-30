@@ -48,11 +48,11 @@ export default function AboutPage() {
       <div className="prose-legal">
         <h2>What this site is</h2>
         <p>
-          {SITE.name} is a public-facing informational hub. It gathers three
-          tools in one place: a structured sample-ballot sketch, sourced race
-          guides with cited polls and attributed ratings, and a results tracker
-          for Election Day {SITE.electionDayLabel}. The goal is plain-English
-          orientation — not persuasion.
+          {SITE.name} is a voter guide to the 2026 midterms. It has a
+          sample-ballot sketch you can narrow by ZIP, race guides that cite
+          their polls and name the outlet behind each rating, and a results
+          page for Election Day, {SITE.electionDayLabel}. It explains how the
+          election works. It does not try to persuade anyone.
         </p>
         <ul>
           <li>Neutral, factual framing for voters, journalists, and students</li>
@@ -83,7 +83,7 @@ export default function AboutPage() {
           what we cover or how we describe it.
         </p>
 
-        <h2>Editorial methods and sources</h2>
+        <h2 id="editorial">Editorial methods and sources</h2>
         <p>
           The byline on explainers, race previews, and state briefings is the{" "}
           <Link href="/learn">Map the Midterms Editorial Team</Link>. It is an

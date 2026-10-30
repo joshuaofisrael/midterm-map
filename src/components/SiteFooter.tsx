@@ -12,7 +12,7 @@ export function SiteFooter() {
         <div className="md:col-span-2">
           <p className="font-serif text-2xl font-semibold">{SITE.name}</p>
           <p className="mt-3 max-w-lg text-sm leading-6 text-white/80">
-            A voter information utility for the {SITE.electionDayLong}.
+            A voter guide to the 2026 U.S. midterms. {SITE.electionDayLong}.
           </p>
           <p className="mt-4 text-sm leading-6 text-white/80">{SITE.officialNotUs}</p>
           <p className="mt-4 text-sm leading-6">

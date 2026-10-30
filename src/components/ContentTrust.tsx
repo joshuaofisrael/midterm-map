@@ -38,6 +38,11 @@ export function ContentTrust({
         </a>.
       </p>
       <p className="mt-1">
+        By the{" "}
+        <Link className="font-medium text-navy underline underline-offset-2" href="/about/#editorial">
+          {SITE.name} Editorial Team
+        </Link>
+        {" · "}
         <Link
           className="font-medium text-navy underline underline-offset-2"
           href={reportErrorHref(pagePath)}
