@@ -1,16 +1,16 @@
 /**
- * After the AdSense stamp, insert the Ezoic head block at the start of <head>
+ * After the AdSense stamp, insert the Consent Mode default at the start of <head>
  * on every exported HTML document. Does not move the AdSense meta tag or loader,
  * and does not add ad placeholders.
  */
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import path from "node:path";
-import { insertEzoicHead } from "../src/lib/ezoic.ts";
+import { insertConsentHead } from "../src/lib/consentHead.ts";
 
 const OUT = path.join(process.cwd(), "out");
 
 if (!existsSync(OUT)) {
-  console.error("ezoic stamp: out/ is missing. Run next build first.");
+  console.error("consent head stamp: out/ is missing. Run next build first.");
   process.exit(1);
 }
 
@@ -29,7 +29,7 @@ function walk(dir: string) {
     scanned++;
     const before = readFileSync(full, "utf8");
     const rel = path.relative(OUT, full).split(path.sep).join("/");
-    const after = insertEzoicHead(before, rel);
+    const after = insertConsentHead(before, rel);
     if (after === before) {
       skipped++;
       continue;
@@ -40,4 +40,4 @@ function walk(dir: string) {
 }
 
 walk(OUT);
-console.log(`ezoic stamp: ${updated} pages updated, ${skipped} unchanged, ${scanned} html files.`);
+console.log(`consent head stamp: ${updated} pages updated, ${skipped} unchanged, ${scanned} html files.`);

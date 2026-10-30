@@ -1,12 +1,11 @@
 /**
  * Fails the build when an HTML page with a head lacks the AdSense meta tag or loader
  * (including static city, county, and redirect pages), when an ad unit is present,
- * when the Ezoic header scripts are missing or out of order, when an Ezoic ad
- * placeholder is on a noindex page or a page that must stay free of AdSense,
+ * when the Consent Mode default is not first in <head>, when Ezoic or Adsterra
+ * code is present,
  * when ads.txt is missing or different, when robots.txt blocks an AdSense crawler,
  * or when the exported site is 1 GB or larger.
- * Ezoic's header scripts are required on every HTML document. The AdSense loader
- * stays limited to substantive pages.
+ * The AdSense loader stays limited to substantive pages.
  */
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import path from "node:path";
@@ -20,7 +19,7 @@ import {
   adsAllowedForPath,
 } from "../src/lib/adsense.ts";
 import { isBallotHtml } from "../src/lib/ballotZip.ts";
-import { ezoicHeadProblems } from "../src/lib/ezoic.ts";
+import { consentHeadProblems } from "../src/lib/consentHead.ts";
 
 const OUT = path.join(process.cwd(), "out");
 const GIGABYTE = 1024 * 1024 * 1024;
@@ -62,9 +61,8 @@ function walk(dir: string) {
     if (!allow && hasLoader) errors.push(`${rel}: AdSense loader on a page that must stay ad-free`);
     if (hasLoader && noindex) errors.push(`${rel}: loader on a noindex page`);
     if (allow) adPages++;
-    const placeholdersAllowed = allow && !noindex;
     const relPosix = rel.split(path.sep).join("/");
-    for (const problem of ezoicHeadProblems(head, html, placeholdersAllowed, isBallotHtml(relPosix))) {
+    for (const problem of consentHeadProblems(head, html, isBallotHtml(relPosix))) {
       errors.push(`${rel}: ${problem}`);
     }
     if (/<ins\b[^>]*\badsbygoogle\b/i.test(html) || /adsbygoogle\s*=\s*window\.adsbygoogle/.test(html)) {

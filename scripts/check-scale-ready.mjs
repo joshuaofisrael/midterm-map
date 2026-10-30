@@ -71,7 +71,7 @@ if (indexNow !== "7d9821210489aaf528bb6f613749ac93") {
 }
 
 const privacy = read("src/app/(site)/privacy/page.tsx");
-for (const phrase of ["Cloudflare Web Analytics", "Google Analytics", "AdSense", "Ezoic", "Adsterra"]) {
+for (const phrase of ["Cloudflare Web Analytics", "Google Analytics", "AdSense", "Adsterra"]) {
   if (!privacy.includes(phrase)) errors.push(`Privacy policy does not mention ${phrase}`);
 }
 

@@ -14,7 +14,7 @@ import { GOOGLE_ADS_POLICIES_URL } from "@/lib/adsense";
 export const metadata = pageMetadata({
   title: "Privacy Policy",
   description:
-    `Privacy practices for ${SITE.name} (Joshua Israel Ventures LLC): no accounts, in-browser ZIP lookup, a FormSubmit contact form, election-night update emails, cookieless Cloudflare Web Analytics, Google Analytics only with your consent, Ezoic scripts and cookies with an opt-out, GitHub Pages hosting logs, optional tips through Stripe, affiliate link terms, no sale of personal information, and your privacy rights.`,
+    `Privacy practices for ${SITE.name} (Joshua Israel Ventures LLC): no accounts, in-browser ZIP lookup, a FormSubmit contact form, election-night update emails, cookieless Cloudflare Web Analytics, Google Analytics only with your consent, Google AdSense advertising, GitHub Pages hosting logs, optional tips through Stripe, affiliate link terms, no sale of personal information, and your privacy rights.`,
   path: "/privacy",
 });
 
@@ -30,7 +30,6 @@ const GOOGLE_PARTNER_SITES = "https://policies.google.com/technologies/partner-s
 const GOOGLE_PRIVACY = "https://policies.google.com/privacy";
 const GOOGLE_OPTOUT = "https://tools.google.com/dlpage/gaoptout";
 const GOOGLE_ADS_DPT = "https://business.safety.google/adsprocessorterms/";
-const EZOIC_PRIVACY = "https://www.ezoic.com/privacy-policy/";
 const STRIPE_PRIVACY = "https://stripe.com/privacy";
 const GITHUB_PRIVACY = "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement";
 
@@ -60,7 +59,7 @@ export default function PrivacyPage() {
           This policy explains what information is involved when you visit {SITE.name} (
           {SITE.url}). The site is operated by {LEGAL.legalName}, a {LEGAL.entityType} based in{" "}
           {LEGAL.location} (“we,” “us”). {SITE.name} is a static informational website. It has no
-          user accounts and no comments. It loads Google AdSense and Ezoic, which may serve ads and
+          user accounts and no comments. It loads Google AdSense, which may serve ads and
           use cookies (see “Advertising” below).
           {" "}
           It offers an optional “Get election-night updates” form.
@@ -98,7 +97,7 @@ export default function PrivacyPage() {
             described below.
           </li>
           <li>
-            Advertising: Google AdSense and Ezoic may serve ads and use cookies, as described below.
+            Advertising: Google AdSense may serve ads and use cookies, as described below.
           </li>
           <li>Hosting: security logs kept by GitHub Pages.</li>
           <li>Messages you choose to send us by email or through the contact form (delivered by FormSubmit).</li>
@@ -110,8 +109,8 @@ export default function PrivacyPage() {
         </ul>
         <p>
           The contact form is processed by FormSubmit, which emails your message to us. Google AdSense
-          and Ezoic may serve ads and use cookies; see “Advertising” below. Adsterra scripts are not
-          loaded.
+          may serve ads and use cookies; see “Advertising” below. Adsterra and other ad networks’ scripts
+          are loaded.
         </p>
 
         <h2>Summary</h2>
@@ -134,15 +133,13 @@ export default function PrivacyPage() {
           <li>Our host, GitHub Pages, logs visitor IP addresses for security purposes.</li>
           <li>
             We do not sell personal information. We do not use information we collect ourselves for
-            targeted advertising. Google AdSense and Ezoic may use cookies to serve ads, including
-            ads those companies personalize, as described under Advertising.
+            targeted advertising. Google AdSense may use cookies to serve ads, including
+            ads Google personalizes, as described under Advertising.
           </li>
           <li>
-            We also use Google Analytics, but only after a grant. Outside the Ezoic consent
-            prompt, that grant is when you click Accept. The Google script is not loaded, and its
-            cookies are not set, if you click Reject or make no choice. Where Ezoic’s Gatekeeper
-            consent prompt applies, the Google script loads only if that prompt’s consent signal
-            allows analytics cookies. Ezoic may set the cookies named under Advertising.
+            We also use Google Analytics, but only after a grant: when you click Accept. The Google
+            script is not loaded, and its cookies are not set, if you click Reject or make no choice.
+            If you later withdraw consent, the script stops and its cookies are cleared.
           </li>
           {tips && (
             <li>
@@ -199,7 +196,7 @@ export default function PrivacyPage() {
         <p>
           An older ballot address may still contain <code>#zip=</code> and the five digits. Each
           ballot page runs a short inline script at the top of the document head, before
-          Google AdSense, Ezoic, and the analytics scripts. That script reads a five-digit{" "}
+          Google AdSense and the analytics scripts. That script reads a five-digit{" "}
           <code>#zip=</code>, stores it in <code>mtm-ballot-zip</code>, and removes the fragment
           with <code>history.replaceState</code> before those later scripts run. Advertising and
           analytics requests receive the page address after that removal, so the five-digit ZIP is
@@ -221,10 +218,9 @@ export default function PrivacyPage() {
         <p>
           The advertising, consent, and analytics scripts described below run inside the page, as
           such scripts do on any site that carries them. This site does not pass the ZIP to them.
-          In a test on {SITE.privacyLastUpdated}, after both lookups no request to Google, Ezoic,
-          Gatekeeper, or Cloudflare contained the five-digit ZIP. In the same test the only storage
-          those scripts left was Google’s consent-message cookie <code>FCCDCF</code> and Ezoic’s
-          local-storage key <code>ez_integration_beacon</code>. Neither held the ZIP.
+          In a test on {SITE.privacyLastUpdated}, after both lookups no request to Google or Cloudflare contained the five-digit ZIP. In the same test the only storage
+          those scripts left was Google’s consent-message cookie <code>FCCDCF</code>, which did not
+          hold the ZIP.
         </p>
 
         <h2>Analytics: Cloudflare Web Analytics</h2>
@@ -248,14 +244,11 @@ export default function PrivacyPage() {
           The site also uses Google Analytics 4 (measurement ID {GA_MEASUREMENT_ID}), a service of
           Google LLC, to count visits and understand which pages are useful. Analytics storage for
           that tag starts denied. The Google Analytics script is not on the page until there is a
-          grant. For visitors who do not get Ezoic’s Gatekeeper prompt, that grant is this site’s
-          consent script: when you first visit, a banner asks whether you accept analytics cookies,
-          and the script loads only if you click Accept. For visitors in the European Economic Area
-          and the United Kingdom, when Gatekeeper reports that its consent rules apply, that prompt
-          is the only one. This site’s banner stays hidden, and the script loads only if Gatekeeper’s
-          consent signal allows analytics cookies (device storage plus ad measurement, content
-          measurement, and product improvement). Switzerland keeps this site’s banner, because
-          Gatekeeper’s prompt is shown for the EU, the EEA, and the UK. Google AdSense is a separate
+          grant. That grant is this site’s consent script: when you first visit, a banner asks
+          whether you accept analytics cookies, and the script loads only if you click Accept. Where
+          an IAB TCF consent message reports that its rules apply (for example Google’s consent
+          message in the European Economic Area and the United Kingdom), the script loads only if
+          that message’s consent signal allows analytics cookies. Google AdSense is a separate
           script and is described under Advertising.
         </p>
         <ul>
@@ -305,11 +298,9 @@ export default function PrivacyPage() {
         </p>
         <p>
           <strong>How to opt out.</strong> You can change your choice at any time with the{" "}
-          <CookieChoicesButton /> link in the footer of every page. Where this site’s banner is the
-          prompt, choosing Reject stops Google Analytics cookies and removes any <code>_ga</code>{" "}
+          <CookieChoicesButton /> link in the footer of every page. Choosing Reject stops Google Analytics cookies and removes any <code>_ga</code>{" "}
           cookies set on this site. Your choice is remembered in your browser’s local storage (key{" "}
-          <code>mtm-analytics-consent</code>), not in a cookie. Where Gatekeeper is the prompt, that
-          same link reopens Gatekeeper so you can withdraw the analytics grant. You can also install the{" "}
+          <code>mtm-analytics-consent</code>), not in a cookie. You can also install the{" "}
           <a href={GOOGLE_OPTOUT} rel="noopener noreferrer">
             Google Analytics Opt-out Browser Add-on
           </a>
@@ -374,57 +365,28 @@ export default function PrivacyPage() {
 
         <h2 id="advertising">Advertising</h2>
         <p>
-          {SITE.name} may show advertisements from Google AdSense and from Ezoic (Ezoic Inc.). Google,
-          Ezoic, and their advertising partners may use cookies to serve and measure those ads.
-          Google describes its use in{" "}
+          {SITE.name} may show advertisements from Google AdSense. Google and its advertising
+          partners may use cookies to serve and measure those ads. Google describes its use in{" "}
           <a href={GOOGLE_ADS_POLICIES_URL} rel="noopener noreferrer">
             Google’s advertising policies
           </a>
-          . Ezoic describes its use in{" "}
-          <a href={EZOIC_PRIVACY} rel="noopener noreferrer">Ezoic’s privacy policy</a>. Every page
-          loads Ezoic’s Gatekeeper consent scripts (
-          <code>cmp.gatekeeperconsent.com</code> and <code>the.gatekeeperconsent.com</code>
-          ), <code>www.ezojs.com/ezoic/sa.min.js</code>, and <code>ezoicanalytics.com/analytics.js</code>.
-          Those are header scripts. This site does not add Ezoic ad placeholders on thin or noindexed
-          pages. The file <a href="/ads.txt">ads.txt</a> lists one Google AdSense publisher ID (
-          <code>pub-5681559774142917</code>) and was not changed for this integration. Adsterra is not
-          running and is not listed in that file.
+          . The file <a href="/ads.txt">ads.txt</a> lists one Google AdSense publisher ID (
+          <code>pub-5681559774142917</code>). No other ad network runs on this site or is listed
+          in that file.
         </p>
         <p>
-          Ezoic and its partners may set cookies, including <code>ezCMPCookieConsent</code> (the
-          consent choice), <code>euconsent-v2</code> (the IAB consent string), <code>ezds</code> and{" "}
-          <code>ezohw</code> (screen and browser size), <code>ezoab_</code> (feature tests),{" "}
-          <code>ezovuuid_</code>, <code>ezovuuidtime_</code>, <code>ezovid_</code>, and{" "}
-          <code>ezouid_</code> (visit and visitor identifiers), <code>ezux_tos_</code>,{" "}
-          <code>ezux_lpl_</code>, and <code>ezux_et_</code> (time and engagement), <code>ezoref_</code>{" "}
-          and <code>ezopvc_</code> (referrer and pages viewed), <code>ezoadgid_</code> (an age and
-          gender category), <code>ezosuigeneris</code> (a cross-site identifier), and{" "}
-          <code>active_template</code> (the layout in use). Names ending in <code>_</code> may be
-          followed by a site identifier.
-        </p>
-        <p>
-          <strong>How to opt out of Ezoic.</strong> Visitors in the European Economic Area and the
-          United Kingdom get Gatekeeper as the single consent prompt when that CMP reports that its
-          rules apply. Rejecting non-essential cookies there opts out of Ezoic’s advertising and
-          analytics cookies. The footer <CookieChoicesButton /> link reopens that prompt. Visitors
-          in Switzerland, and visitors elsewhere, keep this site’s analytics banner (or no extra
-          analytics prompt after they have chosen). They can still refuse or delete Ezoic cookies in
-          the browser, and Ezoic’s opt-out is described in{" "}
-          <a href={EZOIC_PRIVACY} rel="noopener noreferrer">Ezoic’s privacy policy</a>. You can opt
-          out of Google’s personalized ads at{" "}
+          You can opt out of Google’s personalized ads at{" "}
           <a href="https://www.google.com/settings/ads">Google Ads Settings</a>, and of some other
           vendors’ advertising cookies at <a href="https://www.aboutads.info">www.aboutads.info</a>{" "}
           and <a href="https://optout.networkadvertising.org/">optout.networkadvertising.org</a>.
+          The footer <CookieChoicesButton /> link reopens this site’s analytics choice.
         </p>
         <p>
-          Where Gatekeeper is not the active prompt, visitors in the European Economic Area, the
-          United Kingdom, and Switzerland can still get Google’s consent message before Google’s
-          advertising cookies are used. That message is shown through the AdSense script. It is
-          separate from this site’s analytics choice: outside Gatekeeper, Google Analytics still
-          loads only if you click Accept, as described under{" "}
-          <Link href="#google-analytics">Google Analytics</Link>. Gatekeeper is a certified consent
-          manager, so its prompt is meant to replace a second advertising prompt for the visitors it
-          covers.
+          Visitors in the European Economic Area, the United Kingdom, and Switzerland can get
+          Google’s consent message before Google’s advertising cookies are used. That message is
+          shown through the AdSense script. It is separate from this site’s analytics choice:
+          Google Analytics still loads only with a grant, as described under{" "}
+          <Link href="#google-analytics">Google Analytics</Link>.
         </p>
 
         <h2>Affiliate links</h2>
@@ -474,7 +436,7 @@ export default function PrivacyPage() {
           <li>To operate, secure, and fix the website</li>
           <li>To understand aggregate use of pages through Cloudflare Web Analytics</li>
           <li>To measure visits and page use through Google Analytics, if you accept analytics cookies</li>
-          <li>To let Google AdSense and Ezoic serve and measure ads, as described under Advertising</li>
+          <li>To let Google AdSense serve and measure ads, as described under Advertising</li>
           <li>To respond to messages you send</li>
           {tips && <li>To process, record, and if needed refund tips, and to keep required tax and accounting records</li>}
           <li>To send election updates to an email address you submitted for that purpose</li>
@@ -483,7 +445,7 @@ export default function PrivacyPage() {
         <p>
           We do not sell personal information, and we do not use information we collect ourselves
           for cross-context behavioral advertising (as that term is used in California law) or to
-          profile you. Google AdSense and Ezoic may use cookies to serve and measure ads, including
+          profile you. Google AdSense may use cookies to serve and measure ads, including
           personalized ads, as described under Advertising. We do not make automated decisions about you.
         </p>
 
@@ -496,8 +458,7 @@ export default function PrivacyPage() {
           We keep an election-update email address only while we may send those updates, and we
           remove it when you ask.{" "}
           Google keeps Google Analytics data under the retention setting in our Google Analytics
-          account (no longer than 14 months for user-level data). Ezoic keeps the cookies described
-          under Advertising under its own retention practices. Cloudflare and GitHub keep analytics and security logs, and Stripe keeps payment records,
+          account (no longer than 14 months for user-level data). Cloudflare and GitHub keep analytics and security logs, and Stripe keeps payment records,
           under their own retention practices; we do not hold copies of Cloudflare’s or GitHub’s logs.
         </p>
 
@@ -507,20 +468,17 @@ export default function PrivacyPage() {
           Data Protection Regulation applies to you, {LEGAL.legalName} is the controller for any
           personal information we process. Our legal basis is our legitimate interest in operating,
           securing, and improving a free public information website and in answering messages you
-          choose to send. For Google Analytics, the legal basis is your consent. Where Gatekeeper
-          applies, you give that consent in Gatekeeper’s prompt. Elsewhere you give it by clicking
-          Accept. You can withdraw it at any time through the Cookie choices link. For advertising
-          cookies, visitors in the European Economic Area and the United Kingdom are asked through
-          Gatekeeper when that prompt is active. Visitors in Switzerland are asked through this
-          site’s banner for analytics and through Google’s consent message for Google advertising
-          cookies.
+          choose to send. For Google Analytics, the legal basis is your consent. You give it by
+          clicking Accept, and you can withdraw it at any time through the Cookie choices link. For
+          Google advertising cookies, visitors in the European Economic Area, the United Kingdom,
+          and Switzerland are asked through Google’s consent message.
           {tips ? " For tips, the legal basis is processing needed to take your payment and to meet tax and accounting obligations." : ""}
           {" "}
           For election-night updates, the legal basis is your consent, which you can withdraw by
           asking us to remove your email address. Information is processed in the United States by
           us and by our service providers (Cloudflare, GitHub, FormSubmit for contact form messages
           and election-night update sign-ups, Google for analytics, advertising, and email we
-          receive, Ezoic for advertising and measurement
+          receive
           {tips ? ", Stripe for tips" : ""}). Subject to the conditions in
           those laws, you may ask to access, correct, delete, or restrict our use of your personal
           information, object to our use of it, or receive a copy of it. You may also complain to
@@ -532,11 +490,9 @@ export default function PrivacyPage() {
           Depending on where you live, state law may give you the right to know what personal
           information we have about you, to correct it, to delete it, and to opt out of its sale,
           sharing for targeted advertising, or profiling. We do not sell personal information.
-          Google and Ezoic may use cookies for advertising as described under Advertising,
+          Google may use cookies for advertising as described under Advertising,
           including personalized ads. You can opt out of Google’s personalized ads at{" "}
-          <a href="https://www.google.com/settings/ads">Google Ads Settings</a> and of Ezoic’s cookies
-          through Gatekeeper where it applies, or through{" "}
-          <a href={EZOIC_PRIVACY} rel="noopener noreferrer">Ezoic’s privacy policy</a>. A browser privacy
+          <a href="https://www.google.com/settings/ads">Google Ads Settings</a>. A browser privacy
           signal such as Global Privacy Control is separate from that Google setting and from the
           analytics choice stored in this browser. We will not treat you differently for exercising
           a privacy right.
@@ -553,7 +509,7 @@ export default function PrivacyPage() {
           , and email addresses submitted for election-night updates. We may need to
           confirm that a request comes from the person the information is about, and we will
           respond within the time the applicable law requires. Requests about Cloudflare’s,
-          GitHub’s, Google’s, Ezoic’s, or Stripe’s own records may need to go to those companies.
+          GitHub’s, Google’s, or Stripe’s own records may need to go to those companies.
         </p>
 
         <h2>Children</h2>

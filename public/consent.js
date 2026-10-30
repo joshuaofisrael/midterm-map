@@ -1,20 +1,11 @@
 /* Map the Midterms cookie choice for Google Analytics (Consent Mode v2).
    Approach: one prompt.
-   - The stamped head defines gtag and a Consent Mode default before sa.min.js.
-     analytics_storage starts denied everywhere. In the EEA, the UK, and
-     Switzerland, ad storage starts denied too (wait_for_update). Elsewhere ad
-     storage stays granted so the existing AdSense loader is unchanged.
-   - Gatekeeper is the IAB TCF CMP. Ezoic shows it for EU/EEA/UK visitors.
-     When tcData.gdprApplies is true, this banner stays hidden and Gatekeeper
-     is the only prompt. Footer "Cookie choices" reopens Gatekeeper.
-   - GA4 (G-Q9FB3RS751) loads only after a grant. For Gatekeeper visitors the
-     grant is the CMP's TCF map, the same one as Gatekeeper's
-     _updateGoogleConsentMode: analytics_storage requires purposes 1, 7, 8,
-     and 10. consent update runs before gtag.js is inserted.
-   - Switzerland is not in Ezoic's EU/EEA/UK geo list, so gdprApplies is not
-     expected there. Those visitors keep this banner. The regional default
-     still denies ad storage so Google's own message can grant it.
-   - Everywhere else this banner remains. Accept loads gtag.js. Reject and no
+   - The stamped head (/consent-default.js) sets a Consent Mode default:
+     analytics_storage denied everywhere; ad storage also denied in the EEA,
+     the UK and Switzerland. No third-party CMP is loaded.
+   - If an IAB TCF CMP is present (e.g. Google's own EEA/UK message) and
+     gdprApplies, its signal is followed; otherwise this banner is the prompt.
+   - This banner:  Accept loads gtag.js. Reject and no
      choice do not. The choice is kept in localStorage. A TCF decision does
      not overwrite that stored choice. */
 (function () {
