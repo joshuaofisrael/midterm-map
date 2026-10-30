@@ -18,18 +18,17 @@ export function CityCandidates({ code, place }: { code: string; place: PlaceReco
     );
   }
 
-  const { contests, houseBasis } = contestsForPlace(code, place);
+  const { contests: allContests, houseBasis } = contestsForPlace(code, place);
+  const contests = allContests.filter((contest) => contest.kind === "house");
 
   return (
     <section>
       <h2>Who is on the ballot</h2>
       <p>
-        Names and parties are copied in stored-list order: U.S. Senate, each U.S. House district
-        that covers this place, governor, then other statewide offices. State legislative contests
-        are included when that stored list contains them. Local contests from a stored city or
-        county list follow.
-      </p>
-      {houseBasis === "bef" ? (
+        Statewide contests (U.S. Senate, governor and other statewide offices) are on the{" "}
+        <a href={`/ballot/${code}`}>full {code} ballot list</a>. The U.S. House district for this place
+        is below; local contests follow.
+      </p>      {houseBasis === "bef" ? (
         <p>
           U.S. House contests follow the <a href="/sources/#house-120">120th block assignment</a>.
         </p>

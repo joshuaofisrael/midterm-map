@@ -22,7 +22,8 @@ function asLocalContest(contest: LocalContest) {
 
 export function CountyCandidates({ code, county }: { code: string; county: CountyBucket }) {
   const file = candidateFile(code);
-  const { contests, houseBasis } = contestsForPlaces(code, county.places);
+  const { contests: allContests, houseBasis } = contestsForPlaces(code, county.places);
+  const contests = allContests.filter((contest) => contest.kind === "house");
   const local = localFile(code);
   const countyContests = local?.localByCounty?.[county.name] ?? [];
   const read = local?.countyRead?.[county.name];
@@ -38,12 +39,10 @@ export function CountyCandidates({ code, county }: { code: string; county: Count
     <section id="candidates" className="rounded-xl border border-line bg-paper-card p-5">
       <h2 className="font-serif text-2xl font-semibold">Candidates</h2>
       <p className="mt-3 text-sm leading-6 text-ink-muted">
-        Names and parties are copied in stored-list order: U.S. Senate, each U.S. House district
-        that covers a Census place in this county, governor, then other statewide offices. State
-        legislative contests are included when that stored list contains them. Local contests from
-        the stored county list follow. City contests stay on each city page.
-      </p>
-      {file?.status === "unpublished" ? (
+        U.S. Senate, governor and other statewide candidates are the same across the state; see the{" "}
+        <a className="text-navy underline" href={`/ballot/${code}`}>full {code} ballot list</a>. Below: the U.S. House
+        districts that cover places in this county, then county contests.
+      </p>      {file?.status === "unpublished" ? (
         <p className="mt-3 text-sm leading-6">
           Statewide and U.S. House candidates for this state are not yet listed on this site.
         </p>
