@@ -22,6 +22,7 @@ import {
   readableAliases,
 } from "@/lib/placeNames";
 import { formatPopulation, joinFacts } from "@/lib/placeText";
+import { cityIntro } from "@/lib/placeIntro";
 
 export const dynamicParams = false;
 
@@ -110,6 +111,7 @@ export default async function CityPage({
         <span>{place.name}</span>
       </nav>
       <h1>{title}</h1>
+      <p data-intro="city">{cityIntro(state.code, state.name, place).join(" ")}</p>
       <p className="note">
         Last updated: {contentUpdatedLabel(path)}. Unofficial information. {SITE.notAffiliated} Confirm
         with your{" "}

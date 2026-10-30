@@ -18,6 +18,7 @@ import { contentUpdatedLabel } from "@/lib/contentDate";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 import { placeDisplayName, placeIsStandalone } from "@/lib/placeNames";
 import { formatPopulation } from "@/lib/placeText";
+import { countyIntro } from "@/lib/placeIntro";
 
 function countySeoDescription(countyName: string, stateName: string, placeCount: number): string {
   const count = placeCount.toLocaleString("en-US");
@@ -109,6 +110,7 @@ export default async function CountyPlacesPage({
       >
         <InfoNote />
       </PageHeader>
+      <p className="max-w-3xl leading-7" data-intro="county">{countyIntro(state.code, state.name, county).join(" ")}</p>
       <ContentTrust
         updated={contentUpdatedLabel(path)}
         pagePath={path}
