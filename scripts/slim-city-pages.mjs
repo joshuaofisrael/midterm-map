@@ -8,9 +8,8 @@
  * index.txt copies are removed the same way.
  * External scripts other than data-keep tags are removed here. The AdSense
  * meta tag and loader are inserted afterward by scripts/stamp-adsense-html.ts,
- * including on these city and county pages. scripts/stamp-ezoic-html.ts then
- * inserts the Ezoic header scripts at the start of every head, with no ad
- * placeholders.
+ * including on these city and county pages. scripts/stamp-consent-head.ts then
+ * inserts the Consent Mode default at the start of every head.
  */
 import fs from "node:fs";
 import path from "node:path";

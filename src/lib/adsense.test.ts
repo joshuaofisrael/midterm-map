@@ -91,7 +91,7 @@ test("privacy and advertising say AdSense may serve ads", () => {
     assert.match(source, /United Kingdom/);
     assert.match(source, /Switzerland/);
   }
-  assert.match(privacy, /Ezoic/);
+  assert.doesNotMatch(privacy, /Ezoic/);
   assert.match(privacy, /Adsterra/);
   assert.match(privacy, /click Accept/);
   assert.match(advertising, /consent script/);

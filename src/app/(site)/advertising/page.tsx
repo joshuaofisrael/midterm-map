@@ -9,12 +9,11 @@ import { GOOGLE_ADS_POLICIES_URL } from "@/lib/adsense";
 import { LEGAL } from "@/data/legalEntity";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
-const EZOIC_PRIVACY = "https://www.ezoic.com/privacy-policy/";
 
 export const metadata = pageMetadata({
   title: "Advertising and affiliate disclosure",
   description:
-    `Advertising and affiliate disclosure for ${SITE.name}: Google AdSense and Ezoic may serve ads and use cookies. No paid political ads or candidate endorsements.`,
+    `Advertising and affiliate disclosure for ${SITE.name}: Google AdSense may serve ads and use cookies. No paid political ads or candidate endorsements.`,
   path: "/advertising",
 });
 
@@ -45,18 +44,14 @@ export default function AdvertisingPage() {
 
         <h2>Advertising</h2>
         <p>
-          {SITE.name} may show advertisements from Google AdSense and from Ezoic. Google, Ezoic, and
-          their partners may use cookies to serve and measure those ads. Google describes that use in{" "}
+          {SITE.name} may show advertisements from Google AdSense. Google and its partners may use
+          cookies to serve and measure those ads. Google describes that use in{" "}
           <a href={GOOGLE_ADS_POLICIES_URL} rel="noopener noreferrer">
             Google’s advertising policies
           </a>
-          . Ezoic describes its cookies and its opt-out in{" "}
-          <a href={EZOIC_PRIVACY} rel="noopener noreferrer">Ezoic’s privacy policy</a>. The{" "}
-          <Link href="/privacy/#advertising">privacy policy</Link> names the Ezoic cookies. The file{" "}
-          <a href="/ads.txt">ads.txt</a> lists one Google AdSense publisher ID (
-          <code>pub-5681559774142917</code>) and was not changed when the Ezoic scripts were added.
-          Adsterra is not running and is not listed in that file. We do not add Ezoic ad placeholders
-          on thin or noindexed pages. We do not write a candidate’s ad, and an ad is not an endorsement
+          . The file <a href="/ads.txt">ads.txt</a> lists one Google AdSense publisher ID (
+          <code>pub-5681559774142917</code>). Adsterra is not running and is not listed in that file.
+          We do not write a candidate’s ad, and an ad is not an endorsement
           by {LEGAL.legalName} of the advertiser, a candidate, a party, or a ballot measure.
         </p>
         <p>
@@ -89,14 +84,11 @@ export default function AdvertisingPage() {
 
         <h2>Cookies and the EU/UK/CH consent prompt</h2>
         <p>
-          Google AdSense and Ezoic may use cookies to serve and measure ads. Ezoic’s Gatekeeper is
-          the single consent prompt for visitors in the European Economic Area and the United Kingdom
-          when that prompt is active, so this site’s banner stays hidden there. Visitors in
-          Switzerland, and visitors elsewhere, keep this site’s consent script for Google Analytics:
-          those cookies still load only if you click Accept, as the{" "}
-          <Link href="/privacy/#google-analytics">privacy policy</Link> explains. Where Gatekeeper is
-          not the prompt, visitors in the European Economic Area, the United Kingdom, and Switzerland
-          can still get Google’s consent message through the AdSense script. That analytics choice
+          Google AdSense may use cookies to serve and measure ads. This site’s consent script
+          controls Google Analytics: those cookies load only if you click Accept, as the{" "}
+          <Link href="/privacy/#google-analytics">privacy policy</Link> explains. Visitors in the
+          European Economic Area, the United Kingdom, and Switzerland can get Google’s consent
+          message through the AdSense script. That analytics choice
           does not replace Google’s consent message. Cloudflare Web Analytics is cookieless.
         </p>
 
