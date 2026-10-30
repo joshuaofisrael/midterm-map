@@ -141,6 +141,18 @@ export default function AboutPage() {
           <Link href="/copyright">copyright and corrections</Link> page says
           what a report should include.
         </p>
+        <h2>Use of AI tools</h2>
+        <p>
+          The team uses AI writing and research tools to help draft, check,
+          and organize pages. A draft is not published because a tool wrote
+          it. Facts, dates, and figures are checked against the official or
+          reputable source the page cites, and an independent automated review
+          screens new text for unsupported claims before it goes live. Where
+          the site shows an illustration made with an AI image tool, it is
+          labeled as AI-generated. Results and vote counts are never generated
+          by AI; they come from the cited election office or a named outlet.
+          If you find a mistake, use the <Link href="/contact">contact form</Link>.
+        </p>
         <p>
           Read the <Link href="/disclaimer">disclaimer</Link>,{" "}
           <Link href="/privacy">privacy policy</Link>,{" "}
