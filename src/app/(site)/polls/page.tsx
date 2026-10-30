@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { ContentTrust } from "@/components/ContentTrust";
+import { contentUpdatedLabel } from "@/lib/contentDate";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { InfoNote } from "@/components/InfoNote";
 import { CrossLinks } from "@/components/CrossLinks";
@@ -42,6 +44,7 @@ export default function PollsPage() {
         visual={VISUALS.civicBuilding}
       >
         <InfoNote />
+      <ContentTrust updated={contentUpdatedLabel("/polls")} pagePath="/polls" />
       </PageHeader>
       <OfficialNotice compact />
 

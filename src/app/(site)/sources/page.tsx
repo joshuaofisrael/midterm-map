@@ -1,3 +1,5 @@
+import { ContentTrust } from "@/components/ContentTrust";
+import { contentUpdatedLabel } from "@/lib/contentDate";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
@@ -51,6 +53,7 @@ export default function SourcesPage() {
         title="Where the place facts come from"
         lede="Census place pages link here instead of repeating the same source notes. Candidate names stay on each place page, with that state's election-office citation."
       />
+      <ContentTrust updated={contentUpdatedLabel("/sources")} pagePath="/sources" />
       <div className="prose-legal">
         <h2 id="names">Place-name spellings</h2>
         <p>

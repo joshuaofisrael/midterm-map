@@ -192,14 +192,14 @@ export function contentUpdatedLabelForPath(path: string): string | null {
 
   if (clean === "/") return withEssayDate(clean, votingDeadlineLabels());
   if (clean === "/live") return withEssayDate(clean, [liveSourcesCheckedLabel()]);
-  if (clean === "/cities") return CENSUS_PLACES_UPDATED;
+  if (clean === "/cities" || clean === "/sources") return CENSUS_PLACES_UPDATED;
   const cityState = /^\/cities\/([A-Za-z]{2})(?:\/|$)/.exec(clean);
   if (cityState) return latestContentLabel(cityFactLabels(cityState[1].toUpperCase()));
   if (clean === "/voting-deadlines") return latestContentLabel(votingDeadlineLabels());
   if (clean === "/ballot") {
     return latestContentLabel(STARTER_STATES.flatMap((state) => ballotStateLabels(state.code)));
   }
-  if (clean === "/races") return latestContentLabel(RACES.flatMap(raceFactLabels));
+  if (clean === "/races" || clean === "/polls") return latestContentLabel(RACES.flatMap(raceFactLabels));
   if (clean === "/results") {
     return withEssayDate(clean, [
       liveSourcesCheckedLabel(),

@@ -118,7 +118,8 @@ export default async function CityPage({
         <a href={office.office.href} rel="noopener noreferrer">
           official election office ({office.office.label})
         </a>
-        . <Link href={reportErrorHref(path)}>Report an error</Link>. Census sources are on the{" "}
+        . By the <a href="/about/#editorial">{SITE.name} Editorial Team</a>.{" "}
+        <Link href={reportErrorHref(path)}>Report an error</Link>. Census sources are on the{" "}
         <a href="/sources/#gazetteer">sources page</a>.
       </p>
       <InfoNote city />
