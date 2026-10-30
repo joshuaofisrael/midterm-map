@@ -96,10 +96,10 @@
     save(v);
     if (v === "granted") loadGa();
     else {
-      gtagSafe("consent", "update", { analytics_storage: "denied" });
-      // Withdrawal: a tag already loaded on this page must send nothing more,
-      // not even a cookieless consent-mode ping on page exit.
+      // Withdrawal: disable the loaded tag BEFORE the consent update, so the
+      // update itself and any page-exit hit send nothing to Google.
       if (window.__mtmGaId) window["ga-disable-" + window.__mtmGaId] = true;
+      gtagSafe("consent", "update", { analytics_storage: "denied" });
       clearGaCookies();
     }
     close();
@@ -182,18 +182,23 @@
   function onTcf(tc, ok) {
     if (!ok || !tc) return;
     var status = tc.eventStatus;
-    if (tc.gdprApplies === true || status === "cmpuishown") {
+    // Google's CMP (Funding Choices) answers gdprApplies: true in the EEA/UK
+    // even when no consent message is published, so it shows nothing. Defer
+    // to it only when it shows its own prompt or holds a stored choice;
+    // otherwise the site banner is the prompt.
+    if (status === "cmpuishown") {
       window.__mtmGatekeeper = true;
       close();
+      return;
     }
     if (status !== "tcloaded" && status !== "useractioncomplete") return;
-    if (tc.gdprApplies === true) {
+    if (tc.gdprApplies === true && (status === "useractioncomplete" || tc.tcString)) {
       window.__mtmGatekeeper = true;
       close();
       applyTcf(tc);
       return;
     }
-    if (tc.gdprApplies === false) {
+    if (window.__mtmGatekeeper !== true) {
       window.__mtmGatekeeper = false;
       ourRegionInit();
     }
@@ -225,4 +230,16 @@
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
   else init();
+  // The banner is first drawn before Next.js hydrates, so it paints with the
+  // page. Hydration can drop nodes it did not render; after load, put the
+  // banner back if it is gone and no choice has been made.
+  function recheck() {
+    setTimeout(function () {
+      if (window.__mtmGatekeeper === true || document.getElementById("mtm-consent")) return;
+      var v = read();
+      if (v !== "granted" && v !== "denied") show(false, false);
+    }, 0);
+  }
+  if (document.readyState === "complete") recheck();
+  else window.addEventListener("load", recheck);
 })();
