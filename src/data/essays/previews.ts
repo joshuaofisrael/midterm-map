@@ -1,3 +1,4 @@
+import { RACE_FOCUS } from "./raceFocus";
 import { pollsForRace } from "@/data/polls";
 import { RACES, racesForState } from "@/data/races";
 import { getState, STARTER_STATES } from "@/data/states";
@@ -118,6 +119,7 @@ export function racePreview(race: RaceGuide): Essay {
         : `Voters comparing 2026 with the last gubernatorial canvass should open ${stateName}’s certified results. This preview does not insert a prior percentage it has not copied from that canvass. A close prior race explains why county reporting order will be watched. It does not decide this one.`;
 
   const contestLabel = district ? `${stateName} ${race.office}, ${district}` : `${stateName} ${race.office}`;
+  const focus = RACE_FOCUS[race.slug];
   const paragraphs = [
     `${contestLabel} is on the November 3, 2026 ballot. ${officeLearn} In plain terms, ${stake}. It is not a national scoreboard. Control of a chamber, where the office sits in one, depends on every other seat as well. This page is one contest.`,
     `The principal names on the guide are ${candidateClause(race)}. ${race.incumbentNote ? `The guide also carries this listing note: ${race.incumbentNote} ` : ""}${recordClause(race)}`,
@@ -125,6 +127,7 @@ export function racePreview(race: RaceGuide): Essay {
     history,
     `${stateName} counts this ballot under its own calendar. Registration, early voting, and mail-ballot deadlines that this site has checked sit on the voting-deadlines page and on the state hub, each tied to an official page. ${race.countingNote ? race.countingNote + " " : ""}Totals on election night are unofficial. Mail ballots, provisional ballots, and any later round the state requires can move them. Turnout is a ratio that changes with the denominator — voting-age population, registered voters, or ballots counted — and the Census Bureau’s survey is not the same instrument as the canvass. Nothing here is a call.`,
   ];
+  if (focus) paragraphs.splice(1, 0, focus);
 
   const sources: EssaySource[] = [
     ...(state ? [officeSource(state), voteSource(state)] : []),
