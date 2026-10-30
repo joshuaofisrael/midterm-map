@@ -27,7 +27,7 @@ export function CityCandidates({ code, place }: { code: string; place: PlaceReco
       <h2>Who is on the ballot</h2>
       <p>
         Statewide contests (U.S. Senate, governor and other statewide offices) are on the{" "}
-        {getState(code) ? <a href={`/ballot/${code}`}>full {code} ballot list</a> : <>state election office (this site has no {code} ballot list)</>}. The U.S. House district for this place
+        {getState(code) ? <a href={`/ballot/${code}/`}>full {code} ballot list</a> : <>state election office (this site has no {code} ballot list)</>}. The U.S. House district for this place
         is below; local contests follow.
       </p>      {houseBasis === "bef" ? (
         <p>
