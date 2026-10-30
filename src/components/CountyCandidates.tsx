@@ -41,7 +41,7 @@ export function CountyCandidates({ code, county }: { code: string; county: Count
       <h2 className="font-serif text-2xl font-semibold">Candidates</h2>
       <p className="mt-3 text-sm leading-6 text-ink-muted">
         U.S. Senate, governor and other statewide candidates are the same across the state; see the{" "}
-        {getState(code) ? <a className="text-navy underline" href={`/ballot/${code}`}>full {code} ballot list</a> : <>state election office (this site has no {code} ballot list)</>}. Below: the U.S. House
+        {getState(code) ? <a className="text-navy underline" href={`/ballot/${code}/`}>full {code} ballot list</a> : <>state election office (this site has no {code} ballot list)</>}. Below: the U.S. House
         districts that cover places in this county, then county contests.
       </p>      {file?.status === "unpublished" ? (
         <p className="mt-3 text-sm leading-6">
