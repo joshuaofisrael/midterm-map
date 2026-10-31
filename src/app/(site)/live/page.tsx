@@ -98,6 +98,10 @@ export default function LivePage() {
           <Link className="font-medium text-navy underline" href="/races">
             Race guides
           </Link>
+          {" · "}
+          <Link className="font-medium text-navy underline" href="/election-night-tv">
+            How to watch on TV
+          </Link>
         </p>
       </section>
 

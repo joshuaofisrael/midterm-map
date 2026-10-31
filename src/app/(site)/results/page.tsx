@@ -119,6 +119,11 @@ export default function ResultsPage() {
           </a>{" "}
           is the federal voting portal. It is not a results feed.
         </p>
+        <p className="mt-2">
+          <Link className="font-medium text-navy underline" href="/election-night-tv">
+            TV and streaming start times for election night
+          </Link>
+        </p>
       </section>
 
       <div className="rounded-xl border border-notice-line bg-notice-wash p-5">
