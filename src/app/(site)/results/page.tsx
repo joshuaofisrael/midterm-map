@@ -27,9 +27,9 @@ import {
   resultShellHasReturns,
   stateResultsPath,
 } from "@/data/results";
-import { SITE } from "@/data/site";
+import { absoluteUrl, SITE } from "@/data/site";
 import { getState, STARTER_STATES } from "@/data/states";
-import { contentUpdatedLabel } from "@/lib/contentDate";
+import { contentUpdatedIsoForPath, contentUpdatedLabel } from "@/lib/contentDate";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -38,6 +38,34 @@ export const metadata = pageMetadata({
     "November 3, 2026 key races and unofficial returns copied from state election-office files after polls close. No projections. Returns are unofficial until certified.",
   path: "/results",
 });
+
+function resultsHubJsonLd() {
+  const races = [...KEY_RESULT_SLUGS, ...ADDITIONAL_RESULT_SLUGS]
+    .map((slug) => getRace(slug))
+    .filter((race): race is NonNullable<ReturnType<typeof getRace>> => Boolean(race));
+  const modified = contentUpdatedIsoForPath("/results");
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Election night and key races",
+    url: absoluteUrl("/results"),
+    description:
+      "Key November 3, 2026 contests with unofficial returns copied from state election-office files after polls close. No projections.",
+    inLanguage: "en-US",
+    ...(modified ? { dateModified: modified } : {}),
+    isPartOf: { "@type": "WebSite", name: SITE.name, url: absoluteUrl("/") },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: races.length,
+      itemListElement: races.map((race, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: race.title,
+        url: absoluteUrl(`/results/${race.slug}`),
+      })),
+    },
+  };
+}
 
 export default function ResultsPage() {
   const preElection = isPreElection();
@@ -48,10 +76,13 @@ export default function ResultsPage() {
       <SponsorSlot />
       <div className="space-y-8">
       <JsonLd
-        data={breadcrumbJsonLd([
-          { name: "Home", path: "/" },
-          { name: "Results", path: "/results" },
-        ])}
+        data={[
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "Results", path: "/results" },
+          ]),
+          resultsHubJsonLd(),
+        ]}
       />
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "Results" }]} />
       <PageHeader
