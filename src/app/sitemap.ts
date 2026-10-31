@@ -229,7 +229,7 @@ function sitemapEntry(path: string, priority: number): MetadataRoute.Sitemap[num
 
 function priorityFor(path: string): number {
   if (path === "") return 1;
-  if (path === "/live" || path.startsWith("/results/state/")) return 0.8;
+  if (path === "/live" || path === "/election-night-tv" || path.startsWith("/results/state/")) return 0.8;
   if (path === "/cities") return 0.7;
   if (path === "/voting-deadlines" || path.startsWith("/states/")) return 0.8;
   if (path.startsWith("/races/") || path.startsWith("/learn")) return 0.8;
@@ -248,6 +248,7 @@ function coreSitemap(): MetadataRoute.Sitemap {
     "/polls",
     "/results",
     "/live",
+    "/election-night-tv",
     "/learn",
     "/about",
     "/disclaimer",

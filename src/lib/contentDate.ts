@@ -189,6 +189,7 @@ export function contentUpdatedLabelForPath(path: string): string | null {
     return getLearnArticle(clean.slice("/learn/".length)) ? ESSAY_UPDATED : null;
   }
   if (clean === "/about") return ESSAY_UPDATED;
+  if (clean === "/election-night-tv") return "October 31, 2026";
 
   if (clean === "/") return withEssayDate(clean, votingDeadlineLabels());
   if (clean === "/live") return withEssayDate(clean, [liveSourcesCheckedLabel()]);
