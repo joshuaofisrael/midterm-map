@@ -57,7 +57,7 @@ export const PRIMARY_NAV = [
   { href: "/races", label: "Races" },
   { href: "/polls", label: "Polls" },
   { href: "/results", label: "Results" },
-  { href: "/live", label: "Election night" },
+  { href: "https://mapthegeneral.com/us/en/live/", label: "Election night" },
   { href: "/learn", label: "Learn" },
 ] as const;
 

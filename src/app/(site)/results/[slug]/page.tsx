@@ -153,7 +153,7 @@ export default async function RaceResultPage({ params }: { params: Promise<{ slu
           Race guide
         </Link>
         {" · "}
-        <Link className="font-medium text-navy hover:underline" href="/live">
+        <Link className="font-medium text-navy hover:underline" href="https://mapthegeneral.com/us/en/live/">
           Live results
         </Link>
         {" · "}

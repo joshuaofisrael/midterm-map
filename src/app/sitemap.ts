@@ -247,7 +247,6 @@ function coreSitemap(): MetadataRoute.Sitemap {
     "/races",
     "/polls",
     "/results",
-    "/live",
     "/election-night-tv",
     "/learn",
     "/about",

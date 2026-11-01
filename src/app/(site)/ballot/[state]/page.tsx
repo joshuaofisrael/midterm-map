@@ -367,7 +367,7 @@ function ResultsLinks({ state, races }: { state: StateProfile; races: RaceGuide[
           </Link>
         </li>
         <li>
-          <Link className="text-navy underline" href="/live">
+          <Link className="text-navy underline" href="https://mapthegeneral.com/us/en/live/">
             Live results
           </Link>
         </li>

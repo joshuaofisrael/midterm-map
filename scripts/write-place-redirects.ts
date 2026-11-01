@@ -81,6 +81,16 @@ for (const [alias, target, label] of [
   fs.writeFileSync(htmlPath, redirectHtml(target, label, `${base}${target}`));
 }
 
+// /live/ moved to Map the General (1 Nov 2026). Cross-domain stub: meta refresh + JS + canonical.
+// /live/results.json stays here: it is the official-state feed both sites read.
+{
+  const target = "https://mapthegeneral.com/us/en/live/";
+  const htmlPath = path.join(outDir, "live", "index.html");
+  if (fs.existsSync(htmlPath)) throw new Error("/live/ would overwrite an existing page");
+  fs.mkdirSync(path.dirname(htmlPath), { recursive: true });
+  fs.writeFileSync(htmlPath, redirectHtml(target, "Live election results on Map the General", target));
+}
+
 if (farmington !== "/cities/MI/farmington-hills-city/") {
   throw new Error(`Farmington Hills redirect target was ${farmington || "missing"}`);
 }

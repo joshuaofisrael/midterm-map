@@ -106,7 +106,6 @@ test("booking copy, checkout URL, and slot markup match the offer", () => {
 
   const placements: Array<[string, string]> = [
     ["src/app/(site)/page.tsx", "<HouseAd path=\"/\" />"],
-    ["src/app/(site)/live/layout.tsx", "<HouseAd path=\"/live\" />"],
     ["src/app/(site)/results/page.tsx", "<HouseAd path=\"/results\" />"],
     ["src/app/(site)/results/state/[state]/layout.tsx", "<HouseAd path={`/results/state/${state}`} />"],
   ];

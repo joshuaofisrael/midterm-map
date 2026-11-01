@@ -105,7 +105,7 @@ export default function ResultsPage() {
           <li>
             Vote totals are copied from that state’s election-office file. The office is named on
             each row and listed on the{" "}
-            <Link className="font-medium text-navy underline" href="/live">
+            <Link className="font-medium text-navy underline" href="https://mapthegeneral.com/us/en/live/">
               election night page
             </Link>
             .
@@ -254,7 +254,7 @@ export default function ResultsPage() {
         </p>
         <ul className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm">
           <li>
-            <Link className="font-medium text-navy hover:underline" href="/live">
+            <Link className="font-medium text-navy hover:underline" href="https://mapthegeneral.com/us/en/live/">
               Live results
             </Link>
           </li>

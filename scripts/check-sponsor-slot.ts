@@ -119,7 +119,7 @@ if (!existsSync(OUT)) {
   process.exit(1);
 }
 
-const required = ["index.html", "live/index.html", "results/index.html"];
+const required = ["index.html", "results/index.html"];
 for (const state of STARTER_STATES) required.push(`results/state/${state.code}/index.html`);
 
 for (const rel of required) {

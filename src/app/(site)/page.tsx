@@ -51,7 +51,7 @@ const CTAS = [
     body: "Published surveys with pollster, dates, sample, and source links. Ratings appear only when a named outlet is cited.",
   },
   {
-    href: "/live",
+    href: "https://mapthegeneral.com/us/en/live/",
     title: "Election night",
     body: "Unofficial figures from each state’s election-office file after polls close. No projections and no winner calls.",
   },
@@ -76,6 +76,9 @@ export default function HomePage() {
       <SponsorSlot />
       <div className="space-y-14">
       <JsonLd data={faqJsonLd(HOME_FAQS)} />
+      <a href="https://mapthegeneral.com/us/en/live/" className="block rounded-xl border-2 border-navy bg-paper-card p-4 text-center font-serif text-xl font-semibold text-navy underline">
+        Live results on Map the General: November 3 election night, from official state files
+      </a>
       <section className="overflow-hidden rounded-2xl border border-navy-deep bg-navy-deep text-white shadow-card">
         <div className="grid lg:grid-cols-[1.15fr_0.85fr]">
           <div className="order-2 px-5 py-8 sm:px-8 sm:py-10 lg:order-1 lg:py-12">

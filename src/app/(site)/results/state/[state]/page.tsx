@@ -129,7 +129,7 @@ export default async function StateResultsPage({ params }: { params: Promise<{ s
             </Link>
           </li>
           <li>
-            <Link className="text-navy underline" href="/live">
+            <Link className="text-navy underline" href="https://mapthegeneral.com/us/en/live/">
               Live results
             </Link>
           </li>

@@ -133,7 +133,7 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
               </Link>
             </li>
             <li>
-              <Link className="font-medium text-navy hover:underline" href="/live">
+              <Link className="font-medium text-navy hover:underline" href="https://mapthegeneral.com/us/en/live/">
                 Live results
               </Link>
             </li>
