@@ -55,7 +55,7 @@ export function LivePanel({
         Vote totals appear here after polls close in this state. They are copied from the state
         election office file. A winner is labeled only when that file marks the race decided or
         certified.{" "}
-        <Link className="font-medium text-navy underline" href="/live">
+        <Link className="font-medium text-navy underline" href="https://mapthegeneral.com/us/en/live/">
           All states
         </Link>
       </p>

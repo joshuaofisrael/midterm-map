@@ -211,7 +211,7 @@ export default function ElectionNightTvPage() {
         </ul>
         <p className="mt-3">
           Unofficial figures from state election offices appear on our{" "}
-          <Link className="font-medium text-navy underline" href="/live">
+          <Link className="font-medium text-navy underline" href="https://mapthegeneral.com/us/en/live/">
             election night results page
           </Link>{" "}
           after polls close, and race by race on the{" "}
