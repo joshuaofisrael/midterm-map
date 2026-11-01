@@ -7,6 +7,7 @@ import { CivicImage } from "@/components/CivicImage";
 import { ZipPlaceSearchSection } from "@/components/ZipPlaceSearchSection";
 import { EmailSignup } from "@/components/EmailSignup";
 import { EmbedSnippet } from "@/components/EmbedSnippet";
+import { LiveResultsBanner } from "@/components/LiveResultsBanner";
 import { MapTheGeneral } from "@/components/MapTheGeneral";
 import { ShareBar } from "@/components/ShareBar";
 import { FurtherReading } from "@/components/FurtherReading";
@@ -106,6 +107,7 @@ export default function HomePage() {
         </div>
       </section>
       <Byline className="mt-0" />
+      <LiveResultsBanner />
       <ContentTrust updated={contentUpdatedLabel("/")} pagePath="/" />
       <EditorialSection essay={homePreview()} />
       <OfficialNotice />

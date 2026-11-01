@@ -111,6 +111,7 @@ How to read the limit: `100 GB / bytes per pageview` is how many uncached pagevi
 ## Images, cache, and indexability
 
 - `/_next/static/` files are content-hashed by the Next.js build. Cache them for a year (rule above). `public/_headers` sets the same policy for a Netlify or Cloudflare Pages fallback. GitHub Pages ignores `_headers`.
+- `public/_headers` also sends `Access-Control-Allow-Origin: https://mapthegeneral.com` on `/live/results.json`, so Map the General can read the feed cross-origin on a Netlify or Cloudflare Pages fallback. On the current GitHub Pages + Cloudflare setup this header is not used, because the origin rule above serves that path straight from `raw.githubusercontent.com`, which already answers with `access-control-allow-origin: *`.
 - Shared photographs are already AVIF and WebP with width and height (`src/data/visuals.ts`, `src/components/CivicImage.tsx`). The in-view hero is eager. Other slots are lazy.
 - Candidate portraits in `public/candidates/` are WebP. The short side is at most 320 pixels. The card sets `width`, `height`, `loading="lazy"`, and `decoding="async"`. Credits stay in `public/ATTRIBUTION.md`.
 - `og.jpg` stays JPEG (about 40 KB) because link-preview crawlers ask for the file named in the metadata.

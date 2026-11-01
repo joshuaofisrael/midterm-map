@@ -8,6 +8,7 @@ import { EmailSignup } from "@/components/EmailSignup";
 import { MapTheGeneral } from "@/components/MapTheGeneral";
 import { ShareBar } from "@/components/ShareBar";
 import { JsonLd } from "@/components/JsonLd";
+import { LiveResultsBanner } from "@/components/LiveResultsBanner";
 import { liveSourceRows } from "@/components/LivePanel";
 import { LiveResults } from "@/components/LiveResults";
 import { OfficialNotice } from "@/components/OfficialNotice";
@@ -73,6 +74,7 @@ export default function LivePage() {
         <Byline />
         <InfoNote />
       </PageHeader>
+      <LiveResultsBanner />
       <ContentTrust updated={contentUpdatedLabel("/live")} pagePath="/live" />
       <EditorialSection essay={livePreview()} />
       <OfficialNotice />

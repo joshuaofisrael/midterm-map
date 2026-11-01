@@ -17,6 +17,7 @@
 /live/results.json
   Cache-Control: public, max-age=60
   X-Content-Type-Options: nosniff
+  Access-Control-Allow-Origin: https://mapthegeneral.com
 
 /*.html
   Cache-Control: public, max-age=600
