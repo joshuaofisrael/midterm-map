@@ -122,6 +122,11 @@ export default async function CityPage({
         <Link href={reportErrorHref(path)}>Report an error</Link>. Census sources are on the{" "}
         <a href="/sources/#gazetteer">sources page</a>.
       </p>
+      <p className="note">
+        Election night, 3 November 2026: unofficial returns for {state.name} and every state, with
+        links to official sources, are on the{" "}
+        <a href="https://mapthegeneral.com/us/en/live/">Map the General live results page</a>.
+      </p>
       <InfoNote city />
       <CityCandidates code={state.code} place={place} />
       <CityLocal code={state.code} place={place} />
