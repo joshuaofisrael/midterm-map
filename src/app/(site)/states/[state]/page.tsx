@@ -13,6 +13,7 @@ import { RaceCard } from "@/components/RaceCard";
 import { StateCandidates } from "@/components/StateCandidates";
 import { KeyDatesSection } from "@/components/ElectionDates";
 import { EmailSignup } from "@/components/EmailSignup";
+import { MtgNote } from "@/components/MtgNote";
 import { MapTheGeneral } from "@/components/MapTheGeneral";
 import { ShareBar } from "@/components/ShareBar";
 import { statePreview } from "@/data/essays/previews";
@@ -290,6 +291,7 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
         </p>
       </section>
       <EmailSignup />
+      <MtgNote />
       <CrossLinks state={state.code} />
       <TipJar />
     </div>

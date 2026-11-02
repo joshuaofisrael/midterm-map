@@ -26,7 +26,7 @@ export function EmailSignup({ prominent = false }: { prominent?: boolean } = {})
         Get election-night updates
       </h2>
       <p className="mt-1 text-ink-muted">
-        One email address, used only to send election updates for November 3, 2026. You can ask us to remove it.
+        One email address, used only to send election updates for November 3, 2026, plus Map the General coverage of the 2028 race. You can ask us to remove it.
       </p>
       <form action={CONTACT_FORM_ACTION} method="POST" className="relative mt-3 space-y-3">
         <input type="hidden" name="_subject" value="Election-night updates signup from Map the Midterms" />
