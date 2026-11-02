@@ -313,3 +313,23 @@ body {
   text-decoration: underline;
   cursor: pointer;
 }
+
+.live-bar {
+  min-height: 2.25rem;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  background: #0b1f3a;
+  color: #fff;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.live-bar a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.live-bar a:focus-visible {
+  outline: 2px solid #ffd54a;
+  outline-offset: 2px;
+}

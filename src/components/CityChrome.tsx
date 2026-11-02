@@ -1,3 +1,4 @@
+import { LiveBar } from "@/components/LiveBar";
 import type { ReactNode } from "react";
 import { Fragment } from "react";
 import Link from "next/link";
@@ -12,6 +13,7 @@ export function CityChrome({ children, path }: { children: ReactNode; path: stri
       <a className="skip-link" href="#main">
         Skip to content
       </a>
+      <LiveBar />
       <p className="city-banner">{SITE.officialNotUs}</p>
       <header className="city-hdr">
         <Link href="/">{SITE.name}</Link>
