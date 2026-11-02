@@ -9,6 +9,7 @@ import { CandidateCard } from "@/components/CandidateCard";
 import { ContentTrust } from "@/components/ContentTrust";
 import { CrossLinks } from "@/components/CrossLinks";
 import { EmailSignup } from "@/components/EmailSignup";
+import { MtgNote } from "@/components/MtgNote";
 import { FurtherReading } from "@/components/FurtherReading";
 import { JsonLd } from "@/components/JsonLd";
 import { LivePanel } from "@/components/LivePanel";
@@ -121,6 +122,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
       <EditorialSection essay={racePreview(race)} />
       <LivePanel stateCode={race.state} raceSlugs={[race.slug]} />
       <EmailSignup prominent />
+      <MtgNote />
       <AdSlot id="race-top" height={90} />
 
       <div className="grid gap-6 lg:grid-cols-[1.25fr_0.75fr]">
