@@ -1,3 +1,4 @@
+import { LiveBar } from "@/components/LiveBar";
 import type { ReactNode } from "react";
 import { SITE } from "@/data/site";
 import { SiteFooter } from "./SiteFooter";
@@ -9,6 +10,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
       <a className="skip-link" href="#main">
         Skip to content
       </a>
+      <LiveBar />
       <p className="border-b border-notice-line bg-notice-wash px-4 py-2 text-center text-xs leading-5 text-navy-deep">
         {SITE.officialNotUs}
       </p>
