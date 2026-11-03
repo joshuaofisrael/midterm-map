@@ -5,7 +5,7 @@ const OG_IMAGE = {
   url: "/og.jpg",
   width: 1200,
   height: 630,
-  alt: "Map the Midterms — 2026 U.S. midterms voter information",
+  alt: "Map the Midterms — 2026 midterm election results & voter information",
 } as const;
 
 export function pageMetadata(input: {
@@ -17,7 +17,7 @@ export function pageMetadata(input: {
 }): Metadata {
   const isHome = input.title === SITE.name;
   const socialTitle = isHome
-    ? `${SITE.name} · 2026 U.S. midterms voter information`
+    ? `${SITE.name} · 2026 midterm election results & voter information`
     : `${input.title} · ${SITE.name}`;
   const url = absoluteUrl(input.path);
   const image = input.image
