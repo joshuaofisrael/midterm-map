@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Byline } from "@/components/Byline";
 import { ContentTrust } from "@/components/ContentTrust";
+import { EmailSignup } from "@/components/EmailSignup";
 import { EssayParagraphs } from "@/components/EditorialSection";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
@@ -64,6 +65,7 @@ export default async function LearnArticlePage({ params }: { params: Promise<{ s
           </ul>
         </div>
       </article>
+      <EmailSignup />
       <section className="rounded-xl border border-line bg-paper-card p-5">
         <h2 className="font-serif text-xl font-semibold">Questions readers ask</h2>
         <dl className="mt-3 space-y-4">

@@ -290,7 +290,7 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
           </Link>
         </p>
       </section>
-      <EmailSignup />
+      <EmailSignup state={state.code} />
       <MtgNote />
       <CrossLinks state={state.code} />
       <TipJar />
