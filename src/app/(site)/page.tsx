@@ -14,7 +14,6 @@ import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
 import { RaceCard } from "@/components/RaceCard";
 import { HouseAd } from "@/components/HouseAd";
-import { SponsorSlot } from "@/components/SponsorSlot";
 import { TipJar } from "@/components/TipJar";
 import { ELECTION_DATES } from "@/data/electionDates";
 import { HOME_FAQS } from "@/data/homeFaqs";
@@ -73,7 +72,6 @@ export default function HomePage() {
   return (
     <>
       <HouseAd path="/" />
-      <SponsorSlot />
       <div className="space-y-14">
       <JsonLd data={faqJsonLd(HOME_FAQS)} />
       <a href="https://mapthegeneral.com/us/en/live/" className="block rounded-xl border-2 border-navy bg-paper-card p-4 text-center font-serif text-xl font-semibold text-navy underline">
