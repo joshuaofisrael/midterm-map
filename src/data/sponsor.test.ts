@@ -111,9 +111,7 @@ test("booking copy, checkout URL, and slot markup match the offer", () => {
   ];
   for (const [rel, house] of placements) {
     const source = readFileSync(path.join(root, rel), "utf8");
-    const houseAt = source.indexOf(house);
-    const slotAt = source.indexOf("<SponsorSlot />");
-    assert.ok(houseAt !== -1 && slotAt > houseAt, rel);
-    assert.equal(source.slice(houseAt + house.length, slotAt).trim(), "", rel);
+    assert.ok(source.includes(house), rel);
+    assert.equal(source.includes("<SponsorSlot"), false, rel);
   }
 });

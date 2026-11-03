@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { BallotpediaLink } from "@/components/BallotpediaLink";
 import { HouseAd } from "@/components/HouseAd";
-import { SponsorSlot } from "@/components/SponsorSlot";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Byline } from "@/components/Byline";
 import { EditorialSection } from "@/components/EditorialSection";
@@ -73,7 +72,6 @@ export default function ResultsPage() {
   return (
     <>
       <HouseAd path="/results" />
-      <SponsorSlot />
       <div className="space-y-8">
       <JsonLd
         data={[
