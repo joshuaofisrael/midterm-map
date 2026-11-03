@@ -358,7 +358,7 @@ export default function PrivacyPage() {
           election results and updates from {SITE.name} and its sister site Map the General. The
           list is stored in a Cloudflare D1 database operated by {LEGAL.legalName}; it is not sold
           or shared with advertisers. Every email includes a way to unsubscribe, and you can also
-          ask us to delete your address through the <Link href="/contact">contact form</Link>.
+          ask us to delete your address through the <Link href="/contact">contact form</Link>; it can be removed on request at any time.
         </p>
 
         <h2 id="advertising">Advertising</h2>

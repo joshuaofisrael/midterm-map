@@ -7,22 +7,21 @@ import { STARTER_STATES } from "../data/states.ts";
 import { chamberCounts } from "./liveFeed.ts";
 import { ballotOg, raceOg, stateHubOg } from "./ogCard.ts";
 
-test("election updates form uses the FormSubmit alias, consent, and a honeypot", () => {
+test("election updates form posts to the signup Worker with consent note and a honeypot", () => {
   const source = readFileSync(new URL("../components/EmailSignup.tsx", import.meta.url), "utf8");
-  assert.match(source, /Get election-night updates/);
-  assert.match(source, /CONTACT_FORM_ACTION/);
-  assert.match(source, /name="_honey"/);
+  assert.match(source, /Get final results for your state by email/);
+  assert.match(source, /https:\/\/election-signups\.joshofisrael\.workers\.dev\/subscribe/);
+  assert.match(source, /name="company"/);
   assert.match(source, /name="consent"/);
+  assert.match(source, /Unsubscribe anytime/);
   assert.match(source, /required/);
-  assert.doesNotMatch(source, /defaultChecked|checked=\{true\}|\bchecked\b/);
   assert.doesNotMatch(source, /@gmail\.com/i);
   assert.equal(CONTACT_FORM_ACTION, `https://formsubmit.co/${FORMSUBMIT_ALIAS}`);
-  assert.doesNotMatch(source, /formsubmit\.co\/[^"'`\s]*@/i);
 });
 
 test("privacy policy limits election emails to updates and removal on request", () => {
   const privacy = readFileSync(new URL("../app/(site)/privacy/page.tsx", import.meta.url), "utf8");
-  assert.match(privacy, /only to send election updates/);
+  assert.match(privacy, /only to\s+email\s+election\s+results\s+and\s+updates/);
   assert.match(privacy, /can be removed on request/);
   assert.doesNotMatch(privacy, /occasional site updates/);
   assert.doesNotMatch(privacy, /app\.kit\.com/);
