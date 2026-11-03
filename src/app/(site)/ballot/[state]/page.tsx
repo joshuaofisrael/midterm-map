@@ -110,7 +110,7 @@ export default async function BallotStatePage({ params }: { params: Promise<{ st
           ))}
         </dl>
       </section>
-      <EmailSignup />
+      <EmailSignup state={state.code} />
       <CrossLinks state={state.code} />
     </div>
   );

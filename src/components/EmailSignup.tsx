@@ -1,73 +1,74 @@
-import { CONTACT_FORM_ACTION } from "@/data/contact";
-import { absoluteUrl } from "@/data/site";
 import Link from "next/link";
 
-const inputClass = "min-w-[14rem] flex-1 rounded-md border border-line bg-white px-3 py-2";
+/** Cloudflare Worker that stores signups in D1 (one list for both election sites, tagged by site). */
+export const EMAIL_SIGNUP_ENDPOINT = "https://election-signups.joshofisrael.workers.dev/subscribe";
+
+const STATES: [string, string][] = [
+  ["AL", "Alabama"], ["AK", "Alaska"], ["AZ", "Arizona"], ["AR", "Arkansas"], ["CA", "California"],
+  ["CO", "Colorado"], ["CT", "Connecticut"], ["DE", "Delaware"], ["DC", "District of Columbia"],
+  ["FL", "Florida"], ["GA", "Georgia"], ["HI", "Hawaii"], ["ID", "Idaho"], ["IL", "Illinois"],
+  ["IN", "Indiana"], ["IA", "Iowa"], ["KS", "Kansas"], ["KY", "Kentucky"], ["LA", "Louisiana"],
+  ["ME", "Maine"], ["MD", "Maryland"], ["MA", "Massachusetts"], ["MI", "Michigan"], ["MN", "Minnesota"],
+  ["MS", "Mississippi"], ["MO", "Missouri"], ["MT", "Montana"], ["NE", "Nebraska"], ["NV", "Nevada"],
+  ["NH", "New Hampshire"], ["NJ", "New Jersey"], ["NM", "New Mexico"], ["NY", "New York"],
+  ["NC", "North Carolina"], ["ND", "North Dakota"], ["OH", "Ohio"], ["OK", "Oklahoma"], ["OR", "Oregon"],
+  ["PA", "Pennsylvania"], ["RI", "Rhode Island"], ["SC", "South Carolina"], ["SD", "South Dakota"],
+  ["TN", "Tennessee"], ["TX", "Texas"], ["UT", "Utah"], ["VT", "Vermont"], ["VA", "Virginia"],
+  ["WA", "Washington"], ["WV", "West Virginia"], ["WI", "Wisconsin"], ["WY", "Wyoming"],
+];
+
+const field = "min-w-0 rounded-md border border-line bg-white px-3 py-2 text-base text-ink";
 
 /**
- * Election-night updates. Posts to the same FormSubmit alias as the contact form.
- * The inbox address is not in the form action. The consent box starts unchecked.
+ * Plain HTML form (no client JS). Posts to the Worker, which validates, rate-limits,
+ * stores the address and redirects back to /updates/thanks/.
  */
-export function EmailSignup({ prominent = false }: { prominent?: boolean } = {}) {
+export function EmailSignup({ prominent = false, state }: { prominent?: boolean; state?: string } = {}) {
   return (
     <section
       id="election-updates"
       aria-labelledby="election-updates-heading"
-      className={
-        prominent
-          ? "rounded-xl border-2 border-navy bg-paper-card p-5 text-sm leading-6 shadow-sm"
-          : "rounded-xl border border-line bg-paper-card p-5 text-sm leading-6"
-      }
+      className={`my-6 rounded-xl bg-paper-card p-5 text-sm leading-6 ${prominent ? "border-2 border-navy" : "border border-line"}`}
     >
-      <h2
-        id="election-updates-heading"
-        className={prominent ? "font-serif text-xl font-semibold" : "font-serif text-lg font-semibold"}
-      >
-        Get election-night updates
+      <h2 id="election-updates-heading" className="font-serif text-lg font-semibold">
+        Get final results for your state by email
       </h2>
-      <p className="mt-1 text-ink-muted">
-        One email address, used only to send election updates for November 3, 2026, plus Map the General coverage of the 2028 race. You can ask us to remove it.
-      </p>
-      <form action={CONTACT_FORM_ACTION} method="POST" className="relative mt-3 space-y-3">
-        <input type="hidden" name="_subject" value="Election-night updates signup from Map the Midterms" />
-        <input type="hidden" name="_template" value="table" />
-        <input type="hidden" name="_next" value={absoluteUrl("/updates/thanks")} />
-        <input type="hidden" name="form" value="election-night-updates" />
-        <div aria-hidden="true" className="absolute -left-[10000px] h-px w-px overflow-hidden">
+      <form action={EMAIL_SIGNUP_ENDPOINT} method="POST" className="relative mt-3">
+        <input type="hidden" name="consent" value="yes" />
+        <div aria-hidden="true" style={{ position: "absolute", left: "-10000px", width: 1, height: 1, overflow: "hidden" }}>
           <label>
             Company
-            <input type="text" name="_honey" tabIndex={-1} autoComplete="off" defaultValue="" />
+            <input type="text" name="company" tabIndex={-1} autoComplete="off" defaultValue="" />
           </label>
         </div>
-        <div className="flex flex-wrap gap-2">
-          <label htmlFor="election-updates-email" className="sr-only">
-            Email address
-          </label>
+        <div className="flex flex-col gap-2 sm:flex-row">
+          <label htmlFor="election-updates-email" className="sr-only">Email address</label>
           <input
             id="election-updates-email"
             type="email"
             name="email"
             required
-            maxLength={320}
+            maxLength={254}
             autoComplete="email"
+            inputMode="email"
             placeholder="you@example.com"
-            className={inputClass}
+            className={`${field} sm:flex-1`}
           />
+          <label htmlFor="election-updates-state" className="sr-only">State (optional)</label>
+          <select id="election-updates-state" name="state" defaultValue={state ?? ""} className={field}>
+            <option value="">State (optional)</option>
+            {STATES.map(([code, name]) => (
+              <option key={code} value={code}>{name}</option>
+            ))}
+          </select>
           <button type="submit" className="rounded-md bg-navy px-4 py-2 font-semibold text-white hover:bg-navy-deep">
             Sign up
           </button>
         </div>
-        <label className="flex items-start gap-2 text-xs leading-5 text-ink-muted">
-          <input type="checkbox" name="consent" value="yes" required className="mt-1" />
-          <span>
-            I agree to receive election-night updates by email. This address is collected only to send
-            election updates and can be removed on request. See the{" "}
-            <Link className="underline" href="/privacy/#election-updates">
-              privacy policy
-            </Link>
-            .
-          </span>
-        </label>
+        <p className="mt-2 text-xs leading-5 text-ink-muted">
+          We&apos;ll email election results and updates. Unsubscribe anytime.{" "}
+          <Link className="underline" href="/privacy/#election-updates">Privacy policy</Link>
+        </p>
       </form>
     </section>
   );

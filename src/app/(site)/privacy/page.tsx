@@ -80,7 +80,7 @@ export default function PrivacyPage() {
         <h2>What the site collects, at a glance</h2>
         <ul>
           <li>
-            Election-night updates: the email address you enter in the “Get election-night updates”
+            Election-night updates: the email address you enter in the “Get final results for your state by email”
             form. We collect it only to send election updates. You can ask us to remove it.
           </li>
           {tips && (
@@ -350,17 +350,15 @@ export default function PrivacyPage() {
           </>
         )}
 
-        <h2 id="election-updates">Election-night updates</h2>
+        <h2 id="election-updates">Election results email updates</h2>
         <p>
-          Some pages offer an optional “Get election-night updates” form. If you submit it, we
-          collect your email address only to send election updates. We do not use that address for
-          any other purpose. The form includes a consent checkbox that is not pre-checked. It is
-          processed by <a href={FORMSUBMIT_URL} rel="noopener noreferrer">FormSubmit</a>, the same
-          service as the contact form, and it posts to a FormSubmit alias so the inbox address is
-          not part of the form’s web address. FormSubmit emails the address to {LEGAL.legalName}.
-          FormSubmit’s <a href={FORMSUBMIT_PRIVACY} rel="noopener noreferrer">privacy policy</a>{" "}
-          applies to that delivery. The address can be removed on request through the{" "}
-          <Link href="/contact">contact form</Link>.
+          Some pages offer an optional “Get final results for your state by email” form. If you
+          submit it, we store your email address, the state you choose (optional), which of our
+          sites you signed up on, the time, and a record of your consent. We use it only to email
+          election results and updates from {SITE.name} and its sister site Map the General. The
+          list is stored in a Cloudflare D1 database operated by {LEGAL.legalName}; it is not sold
+          or shared with advertisers. Every email includes a way to unsubscribe, and you can also
+          ask us to delete your address through the <Link href="/contact">contact form</Link>.
         </p>
 
         <h2 id="advertising">Advertising</h2>
