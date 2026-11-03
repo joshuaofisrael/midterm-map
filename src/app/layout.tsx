@@ -21,7 +21,7 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name} · 2026 U.S. midterms voter information`,
+    default: `${SITE.name} · 2026 midterm election results & voter information`,
     template: `%s · ${SITE.name}`,
   },
   description: SITE.description,
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: SITE.name,
-    title: `${SITE.name} · 2026 U.S. midterms voter information`,
+    title: `${SITE.name} · 2026 midterm election results & voter information`,
     description: SITE.description,
     url: `${SITE.url}/`,
     images: [
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Map the Midterms — 2026 U.S. midterms voter information",
+        alt: "Map the Midterms — 2026 midterm election results & voter information",
       },
     ],
   },
