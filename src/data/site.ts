@@ -9,7 +9,7 @@ export const SITE = {
   name: "Map the Midterms",
   tagline: "A voter information utility for the 2026 U.S. midterms",
   description:
-    "Sourced 2026 U.S. midterm voter information: sample-ballot sketches, race guides, polls, key dates, and a results tracker. Not an official election website.",
+    "2026 midterm election results for House, Senate and governor races, with links to official state results and sourced race guides. Not an official election site.",
   url: publicSiteUrl(),
   electionDayLabel: "Tuesday, November 3, 2026",
   electionDayIso: "2026-11-03",
