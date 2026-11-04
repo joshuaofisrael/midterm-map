@@ -7,6 +7,7 @@ import { EditorialSection } from "@/components/EditorialSection";
 import { InfoNote } from "@/components/InfoNote";
 import { ContentTrust } from "@/components/ContentTrust";
 import { LiveNeedles } from "@/components/LiveNeedles";
+import { OddsMeter } from "@/components/OddsMeter";
 import { CrossLinks } from "@/components/CrossLinks";
 import { EmailSignup } from "@/components/EmailSignup";
 import { JsonLd } from "@/components/JsonLd";
@@ -142,6 +143,8 @@ export default function ResultsPage() {
       <EmailSignup prominent />
 
       <LiveNeedles />
+      <OddsMeter slug="which-party-will-win-the-house-in-2026" title="House control" max={2} />
+      <OddsMeter slug="which-party-will-win-the-senate-in-2026" title="Senate control" max={2} />
 
       <section>
         <h2 className="font-serif text-2xl font-semibold">Key races</h2>
