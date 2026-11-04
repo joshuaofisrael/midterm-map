@@ -13,7 +13,10 @@ export const SITE = {
   url: publicSiteUrl(),
   electionDayLabel: "Tuesday, November 3, 2026",
   electionDayIso: "2026-11-03",
-  electionDayLong: "Election Day is Tuesday, November 3, 2026",
+  electionDayLong: "Election Day was Tuesday, November 3, 2026",
+  /** Post-election notice (4 Nov 2026): shown in every page banner so no page reads as pre-election. */
+  postElection:
+    "The 2026 general election was held on Tuesday, November 3, 2026. Registration, early-voting, and mail-ballot deadlines on this site have passed and are kept for reference. Results are unofficial until each state certifies them.",
   /** Shared with the banner, footer, and trust line. Matches the disclaimer. */
   notAffiliated: "Not affiliated with any government or election authority.",
   officialNotUs:
@@ -37,7 +40,10 @@ export const FOOTER_LEGAL_LINKS = [
   { href: "/privacy", label: "Privacy Policy" },
   { href: "/disclaimer", label: "Disclaimer" },
   { href: "/copyright", label: "Copyright & Corrections" },
+  { href: "/editorial-policy", label: "Editorial Policy" },
+  { href: "/image-policy", label: "Image Policy" },
   { href: "/advertising", label: "Advertising" },
+  { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ] as const;
 
@@ -46,6 +52,8 @@ export const LEGAL_NAV = [
   { href: "/privacy", label: "Privacy" },
   { href: "/terms", label: "Terms" },
   { href: "/copyright", label: "Copyright & Corrections" },
+  { href: "/editorial-policy", label: "Editorial Policy" },
+  { href: "/image-policy", label: "Image Policy" },
   { href: "/advertising", label: "Advertising" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },

@@ -20,6 +20,7 @@ const NAME_NEEDLES = ["Joshua Israel Ventures", "Joshua Israel", "JI Ventures"];
 const ADDRESS_NEEDLE = "5640 W Maple Rd";
 const NEEDLES = [...NAME_NEEDLES, ADDRESS_NEEDLE];
 const ALLOWED_DIRS = new Set([
+  "about", // owner rule 4 Nov 2026: About names the operating company (name only, no address)
   "terms",
   "disclaimer",
   "privacy",

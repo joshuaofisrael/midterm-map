@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { AdSlot } from "@/components/AdSlot";
 import { Byline } from "@/components/Byline";
 import { EditorialSection } from "@/components/EditorialSection";
 import { InfoNote } from "@/components/InfoNote";
@@ -123,7 +122,6 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
       <LivePanel stateCode={race.state} raceSlugs={[race.slug]} />
       <EmailSignup prominent />
       <MtgNote />
-      <AdSlot id="race-top" height={90} />
 
       <div className="grid gap-6 lg:grid-cols-[1.25fr_0.75fr]">
         <article className="space-y-8">
@@ -281,7 +279,6 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
           </ul>
         </section>
       )}
-      <AdSlot id="race-bottom" height={250} />
       <CrossLinks state={race.state} raceSlug={race.slug} />
       <FurtherReading />
       <TipJar />

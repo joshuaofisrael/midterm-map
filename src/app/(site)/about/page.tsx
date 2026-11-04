@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { LEGAL } from "@/data/legalEntity";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Byline } from "@/components/Byline";
 import { ContentTrust } from "@/components/ContentTrust";
@@ -61,6 +62,15 @@ export default function AboutPage() {
           <li>Pointers to official state, county, and Vote.gov sources</li>
         </ul>
 
+        <h2>Who runs this site</h2>
+        <p>
+          {SITE.name} is owned and operated by <strong>{LEGAL.legalName}</strong>, a{" "}
+          {LEGAL.entityType}. Questions, corrections, and business inquiries go through the{" "}
+          <Link href="/contact">contact form</Link>. Our standards are on the{" "}
+          <Link href="/editorial-policy">editorial and corrections policy</Link> and{" "}
+          <Link href="/image-policy">image policy</Link> pages.
+        </p>
+
         <h2>What this site is not</h2>
         <ul>
           <li>Not an official government, secretary of state, or county election website</li>
@@ -76,7 +86,7 @@ export default function AboutPage() {
           {tipJarEnabled()
             ? "Readers who find this site useful can leave an optional tip through Stripe (“Keep this map free”). Tips are not political contributions and are not tax-deductible. "
             : ""}
-          In the future we may add affiliate links, for example to civics and
+          The site shows Google AdSense ads, which are labeled and kept separate from page content. In the future we may add affiliate links, for example to civics and
           election books; any page with affiliate links will say so directly
           above them. We take no money or advertising from candidates,
           campaigns, parties, or PACs, and tips or commissions do not affect
@@ -87,9 +97,7 @@ export default function AboutPage() {
         <p>
           The byline on explainers, race previews, and state briefings is the{" "}
           <Link href="/learn">Map the Midterms Editorial Team</Link>. It is an
-          organization, not a personal name. Pages that identify the operating
-          company are the legal pages linked below. Explainers do not repeat
-          that identification.
+          organization, not a personal name. The operating company is named above and on the legal pages.
         </p>
         <p>
           A fact in an explainer or a preview is tied to a page a reader can

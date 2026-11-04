@@ -65,7 +65,7 @@ export function racesHubFaqs(): RacesFaq[] {
     },
     {
       question: "Does this site predict who will win?",
-      answer: `No. ${SITE.name} does not predict winners, average polls, or forecast control of the U.S. House, the U.S. Senate, or any governor’s office. Ratings stay attributed to the outlet that published them, even when the label says Tossup, Tilt, Lean, Likely, or Solid. Poll rows are individual published surveys. Election Day is ${SITE.electionDayLabel}. Nothing here becomes an official result until the state or county certifies the contest.`,
+      answer: `No. ${SITE.name} does not predict winners, average polls, or forecast control of the U.S. House, the U.S. Senate, or any governor’s office. Ratings stay attributed to the outlet that published them, even when the label says Tossup, Tilt, Lean, Likely, or Solid. Poll rows are individual published surveys. Election Day was ${SITE.electionDayLabel}. Nothing here becomes an official result until the state or county certifies the contest.`,
     },
     {
       question: "Is Map the Midterms an official election website?",

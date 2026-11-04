@@ -14,7 +14,7 @@ export function CityChrome({ children, path }: { children: ReactNode; path: stri
         Skip to content
       </a>
       <LiveBar />
-      <p className="city-banner">{SITE.officialNotUs}</p>
+      <p className="city-banner">{SITE.postElection} {SITE.officialNotUs}</p>
       <header className="city-hdr">
         <Link href="/">{SITE.name}</Link>
         <nav className="city-nav" aria-label="Primary">
