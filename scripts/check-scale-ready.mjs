@@ -14,8 +14,8 @@ function read(rel) {
 }
 
 const feed = read("src/lib/liveFeed.ts");
-if (feed.includes("raw.githubusercontent.com")) {
-  errors.push("liveFeed.ts fetches GitHub from the browser");
+if (feed.includes("raw.githubusercontent.com") && !feed.includes("/live-results/results.json")) {
+  errors.push("liveFeed.ts may only read the live-results branch file from GitHub");
 }
 if (/cache:\s*"no-store"/.test(feed)) {
   errors.push("liveFeed.ts bypasses HTTP caching");

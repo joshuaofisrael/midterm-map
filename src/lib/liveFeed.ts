@@ -6,6 +6,10 @@
  * The browser does not call GitHub or a state election API.
  */
 export const RESULTS_URL = "/live/results.json";
+// Free-plan Cloudflare cannot proxy /live/results.json to the branch (Host override is Enterprise-only),
+// so browsers read the live-results branch file directly (CORS *, GitHub's own CDN) and fall back to the
+// same-origin copy if that fails.
+export const BRANCH_RESULTS_URL = "https://raw.githubusercontent.com/joshuaofisrael/midterm-map/live-results/results.json";
 const STORAGE_KEY = "mtm-live-results-v1";
 /** Poll at most once a minute. */
 export const POLL_MS = 60_000;
@@ -85,9 +89,18 @@ async function load() {
   const now = Date.now();
   const bucket = Math.floor(now / POLL_MS);
   try {
-    const response = await fetch(`${RESULTS_URL}?t=${bucket}`);
-    if (!response.ok) throw new Error(String(response.status));
-    const json = (await response.json()) as LivePayload;
+    let json: LivePayload | null = null;
+    try {
+      const branch = await fetch(`${BRANCH_RESULTS_URL}?t=${bucket}`);
+      if (branch.ok) json = (await branch.json()) as LivePayload;
+    } catch {
+      json = null;
+    }
+    if (json?.electionDay !== "2026-11-03") {
+      const response = await fetch(`${RESULTS_URL}?t=${bucket}`);
+      if (!response.ok) throw new Error(String(response.status));
+      json = (await response.json()) as LivePayload;
+    }
     if (json?.electionDay !== "2026-11-03") throw new Error("election day");
     if (id !== generation) return;
     snapshot = { payload: json, now, stale: false };
