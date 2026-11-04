@@ -1,5 +1,16 @@
 import { localFile } from "@/data/local/load";
 import type { PlaceRecord } from "@/data/places/load";
+import visitedSince1028 from "@/data/places/visited-since-2026-10-28.json";
+
+/**
+ * 4 Nov 2026 AdSense cleanup: place pages with at least one Cloudflare RUM
+ * pageview from 28 Oct to 4 Nov 2026 stay indexable. Every other templated
+ * place page is noindex, left out of the sitemap, and carries no ad code.
+ */
+const VISITED = new Set<string>(visitedSince1028 as string[]);
+export function cityWasVisited(code: string, place: PlaceRecord): boolean {
+  return VISITED.has(`${code}/${place.slug}`);
+}
 
 /**
  * AdSense / quality policy: a templated census-place page is "thin" when it has no
@@ -29,6 +40,6 @@ export function cityHasLocalContent(code: string, place: PlaceRecord): boolean {
 }
 
 export function cityIsThin(code: string, place: PlaceRecord): boolean {
-  if (cityHasLocalContent(code, place)) return false;
-  return (place.pop ?? 0) < CITY_INDEX_MIN_POP;
+  // Owner rule 4 Nov 2026: index only pages people actually visited since 28 Oct.
+  return !cityWasVisited(code, place);
 }

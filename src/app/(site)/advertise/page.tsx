@@ -10,6 +10,8 @@ export const metadata = pageMetadata({
   title: "Advertise on election night",
   description: `One exclusive banner on ${SITE.name}, 3–6 November 2026, for $1,000. Non-political businesses only. Ads are reviewed. Traffic is not guaranteed.`,
   path: "/advertise",
+  // 4 Nov 2026: time-limited sponsorship offer; keep out of search.
+  index: false,
 });
 
 export default function AdvertisePage() {

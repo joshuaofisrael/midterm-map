@@ -12,7 +12,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
       </a>
       <LiveBar />
       <p className="border-b border-notice-line bg-notice-wash px-4 py-2 text-center text-xs leading-5 text-navy-deep">
-        {SITE.officialNotUs}
+        {SITE.postElection} {SITE.officialNotUs}
       </p>
       <SiteHeader />
       <main id="main" className="mx-auto w-full max-w-site flex-1 px-4 pb-8 pt-3 sm:pb-10 sm:pt-4">
