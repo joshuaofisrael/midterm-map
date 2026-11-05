@@ -64,7 +64,11 @@ const SOURCED_FILES = [
   "public/live/results.json",
 ];
 
-const DEADLINE_FILES = ["src/data/electionDates.ts", "src/data/electionDatesMore.ts"];
+const DEADLINE_FILES = [
+  "src/data/electionDates.ts",
+  "src/data/electionDatesMore.ts",
+  "src/data/electionCalendar.ts",
+];
 
 export type Severity = "HIGH" | "MODERATE";
 

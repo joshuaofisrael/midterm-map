@@ -211,6 +211,7 @@ function changeFrequencyFor(path: string): "hourly" | "weekly" | "monthly" {
   if (
     path === "" ||
     path === "/voting-deadlines" ||
+    path === "/calendar" ||
     path.startsWith("/states/") ||
     path.startsWith("/results/state/")
   ) {
@@ -232,7 +233,7 @@ function priorityFor(path: string): number {
   if (path === "") return 1;
   if (path === "/live" || path === "/election-night-tv" || path.startsWith("/results/state/")) return 0.8;
   if (path === "/cities") return 0.7;
-  if (path === "/voting-deadlines" || path.startsWith("/states/")) return 0.8;
+  if (path === "/voting-deadlines" || path === "/calendar" || path.startsWith("/states/")) return 0.8;
   if (path.startsWith("/races/") || path.startsWith("/learn")) return 0.8;
   if (path === "/contact/thanks") return 0.3;
   return 0.6;
@@ -245,6 +246,7 @@ function coreSitemap(): MetadataRoute.Sitemap {
     "/sources",
     "/ballot",
     "/voting-deadlines",
+    "/calendar",
     "/races",
     "/polls",
     "/results",

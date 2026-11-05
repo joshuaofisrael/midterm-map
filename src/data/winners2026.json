@@ -8,7 +8,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.97,
-"lastUpdated": "2026-11-05T01:03:51.764000Z",
+"lastUpdated": "2026-11-05T22:29:22.526000Z",
 "calledAt": "2026-11-04T04:17:58.590Z",
 "totalVotes": 1676683,
 "candidates": [
@@ -72,50 +72,50 @@
 "label": "Colorado Senate",
 "special": false,
 "flipped": false,
-"eevp": 87.69,
-"lastUpdated": "2026-11-05T06:18:44.143000Z",
+"eevp": 91.6,
+"lastUpdated": "2026-11-05T22:50:04.726000Z",
 "calledAt": "2026-11-04T02:00:32.190Z",
-"totalVotes": 2381782,
+"totalVotes": 2467645,
 "candidates": [
 {
 "name": "John Hickenlooper",
 "party": "Democratic",
-"votes": 1424709,
+"votes": 1475279,
 "pct": 59.8,
 "winner": true
 },
 {
 "name": "Mark Baisley",
 "party": "Republican",
-"votes": 853374,
+"votes": 883188,
 "pct": 35.8,
 "winner": false
 },
 {
 "name": "Bob Chew",
 "party": "Forward",
-"votes": 62100,
+"votes": 64877,
 "pct": 2.6,
 "winner": false
 },
 {
 "name": "Blake Huber",
 "party": "Libertarian",
-"votes": 27145,
-"pct": 1.1,
+"votes": 28910,
+"pct": 1.2,
 "winner": false
 },
 {
 "name": "Adam Withrow",
 "party": "Uty",
-"votes": 10943,
+"votes": 11692,
 "pct": 0.5,
 "winner": false
 },
 {
 "name": "Christopher Baum",
 "party": "AVP",
-"votes": 3511,
+"votes": 3699,
 "pct": 0.1,
 "winner": false
 }
@@ -130,7 +130,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T16:09:29.538000Z",
+"lastUpdated": "2026-11-05T20:08:57.215000Z",
 "calledAt": "2026-11-04T01:00:20.744Z",
 "totalVotes": 378111,
 "candidates": [
@@ -159,28 +159,28 @@
 "special": true,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:45:50.092000Z",
+"lastUpdated": "2026-11-05T22:56:10.893000Z",
 "calledAt": "2026-11-04T01:34:55.352Z",
-"totalVotes": 8271863,
+"totalVotes": 8271989,
 "candidates": [
 {
 "name": "Ashley Moody",
 "party": "Republican",
-"votes": 4208022,
+"votes": 4208055,
 "pct": 50.9,
 "winner": true
 },
 {
 "name": "Angie Nixon",
 "party": "Democratic",
-"votes": 3969303,
+"votes": 3969395,
 "pct": 48.0,
 "winner": false
 },
 {
 "name": "Neil Gillespie",
 "party": "No party affiliation",
-"votes": 94538,
+"votes": 94539,
 "pct": 1.1,
 "winner": false
 }
@@ -195,21 +195,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T21:46:20.162000Z",
+"lastUpdated": "2026-11-05T22:38:03.378000Z",
 "calledAt": "2026-11-04T00:55:21.984Z",
-"totalVotes": 4177954,
+"totalVotes": 4178291,
 "candidates": [
 {
 "name": "Jon Ossoff",
 "party": "Democratic",
-"votes": 2466207,
+"votes": 2466235,
 "pct": 59.0,
 "winner": true
 },
 {
 "name": "Mike Collins",
 "party": "Republican",
-"votes": 1711747,
+"votes": 1712056,
 "pct": 41.0,
 "winner": false
 },
@@ -230,36 +230,36 @@
 "label": "Idaho Senate",
 "special": false,
 "flipped": false,
-"eevp": 98.94,
-"lastUpdated": "2026-11-04T19:27:46.681000Z",
+"eevp": 98.95,
+"lastUpdated": "2026-11-05T22:52:38.167000Z",
 "calledAt": "2026-11-04T06:31:52.473Z",
-"totalVotes": 710679,
+"totalVotes": 710724,
 "candidates": [
 {
 "name": "Jim Risch",
 "party": "Republican",
-"votes": 401731,
+"votes": 401778,
 "pct": 56.5,
 "winner": true
 },
 {
 "name": "Todd Achilles",
 "party": "Independent",
-"votes": 238348,
+"votes": 238342,
 "pct": 33.5,
 "winner": false
 },
 {
 "name": "Natalie Fleming",
 "party": "Independent",
-"votes": 49927,
+"votes": 49928,
 "pct": 7.0,
 "winner": false
 },
 {
 "name": "Matt Loesby",
 "party": "Libertarian",
-"votes": 20673,
+"votes": 20676,
 "pct": 2.9,
 "winner": false
 }
@@ -273,29 +273,29 @@
 "label": "Illinois Senate",
 "special": false,
 "flipped": false,
-"eevp": 93.17,
-"lastUpdated": "2026-11-05T00:21:09.703000Z",
+"eevp": 93.28,
+"lastUpdated": "2026-11-05T20:40:13.618000Z",
 "calledAt": "2026-11-04T01:00:40.102Z",
-"totalVotes": 3995437,
+"totalVotes": 4000161,
 "candidates": [
 {
 "name": "Juliana Stratton",
 "party": "Democratic",
-"votes": 2431012,
-"pct": 60.8,
+"votes": 2435142,
+"pct": 60.9,
 "winner": true
 },
 {
 "name": "Don Tracy",
 "party": "Republican",
-"votes": 1501458,
-"pct": 37.6,
+"votes": 1501979,
+"pct": 37.5,
 "winner": false
 },
 {
 "name": "Whitfield Harrington",
 "party": "ACR",
-"votes": 62967,
+"votes": 63040,
 "pct": 1.6,
 "winner": false
 }
@@ -310,28 +310,28 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-05T01:15:02.781000Z",
+"lastUpdated": "2026-11-05T21:45:43.739000Z",
 "calledAt": "2026-11-04T04:35:30.952Z",
-"totalVotes": 1359188,
+"totalVotes": 1359507,
 "candidates": [
 {
 "name": "Josh Turek",
 "party": "Democratic",
-"votes": 686487,
+"votes": 686629,
 "pct": 50.5,
 "winner": true
 },
 {
 "name": "Ashley Hinson",
 "party": "Republican",
-"votes": 630615,
+"votes": 630789,
 "pct": 46.4,
 "winner": false
 },
 {
 "name": "Thomas Laehn",
 "party": "Libertarian",
-"votes": 42086,
+"votes": 42089,
 "pct": 3.1,
 "winner": false
 }
@@ -345,8 +345,8 @@
 "label": "Kansas Senate",
 "special": false,
 "flipped": true,
-"eevp": 98.78,
-"lastUpdated": "2026-11-05T01:19:54.817000Z",
+"eevp": 98.7,
+"lastUpdated": "2026-11-05T22:57:49.812000Z",
 "calledAt": "2026-11-04T04:24:51.393Z",
 "totalVotes": 1097920,
 "candidates": [
@@ -382,7 +382,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T21:39:42.506000Z",
+"lastUpdated": "2026-11-05T22:33:42.026000Z",
 "calledAt": "2026-11-04T02:16:00.684Z",
 "totalVotes": 1427118,
 "candidates": [
@@ -418,7 +418,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T21:27:19.486000Z",
+"lastUpdated": "2026-11-05T20:07:46.673000Z",
 "calledAt": "2026-11-04T05:31:29.298Z",
 "totalVotes": 1466069,
 "candidates": [
@@ -446,36 +446,36 @@
 "label": "Maine Senate",
 "special": false,
 "flipped": true,
-"eevp": 91.01,
-"lastUpdated": "2026-11-04T23:35:49.635000Z",
+"eevp": 93.1,
+"lastUpdated": "2026-11-05T22:49:02.276000Z",
 "calledAt": "2026-11-04T06:02:01.517Z",
-"totalVotes": 689841,
+"totalVotes": 704606,
 "candidates": [
 {
 "name": "Troy Jackson",
 "party": "Democratic",
-"votes": 368429,
-"pct": 53.4,
+"votes": 374585,
+"pct": 53.2,
 "winner": true
 },
 {
 "name": "Susan Collins",
 "party": "Republican",
-"votes": 320926,
-"pct": 46.5,
+"votes": 329531,
+"pct": 46.8,
 "winner": false
 },
 {
 "name": "Brent Andrews (write-in)",
 "party": "Unaffiliated",
-"votes": 220,
+"votes": 221,
 "pct": 0.0,
 "winner": false
 },
 {
 "name": "Ashley Webb (write-in)",
 "party": "Democratic",
-"votes": 81,
+"votes": 82,
 "pct": 0.0,
 "winner": false
 },
@@ -489,14 +489,14 @@
 {
 "name": "Sigrid Olson (write-in)",
 "party": "Democratic",
-"votes": 49,
+"votes": 50,
 "pct": 0.0,
 "winner": false
 },
 {
 "name": "Michael Turcotte (write-in)",
 "party": "Unr",
-"votes": 42,
+"votes": 43,
 "pct": 0.0,
 "winner": false
 },
@@ -517,36 +517,36 @@
 "label": "Massachusetts Senate",
 "special": false,
 "flipped": false,
-"eevp": 95.3,
-"lastUpdated": "2026-11-04T20:50:00.095000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T22:33:24.345000Z",
 "calledAt": "2026-11-04T01:01:27.995Z",
-"totalVotes": 2513941,
+"totalVotes": 2603799,
 "candidates": [
 {
 "name": "Edward Markey",
 "party": "Democratic",
-"votes": 1590089,
-"pct": 63.3,
+"votes": 1650581,
+"pct": 63.4,
 "winner": true
 },
 {
 "name": "John Deaton",
 "party": "Republican",
-"votes": 811327,
-"pct": 32.3,
+"votes": 837055,
+"pct": 32.1,
 "winner": false
 },
 {
 "name": "Shiva Ayyadurai",
 "party": "Independent",
-"votes": 57847,
+"votes": 59732,
 "pct": 2.3,
 "winner": false
 },
 {
 "name": "Joe Tache",
 "party": "SLP",
-"votes": 54678,
+"votes": 56431,
 "pct": 2.2,
 "winner": false
 }
@@ -560,36 +560,36 @@
 "label": "Michigan Senate",
 "special": false,
 "flipped": false,
-"eevp": 97.54,
-"lastUpdated": "2026-11-04T23:55:23.559000Z",
+"eevp": 97.71,
+"lastUpdated": "2026-11-05T21:55:21.833000Z",
 "calledAt": "2026-11-04T07:27:18.642Z",
-"totalVotes": 4775683,
+"totalVotes": 4776083,
 "candidates": [
 {
 "name": "Abdul El-Sayed",
 "party": "Democratic",
-"votes": 2507454,
+"votes": 2507616,
 "pct": 52.5,
 "winner": true
 },
 {
 "name": "Mike Rogers",
 "party": "Republican",
-"votes": 2172586,
+"votes": 2172814,
 "pct": 45.5,
 "winner": false
 },
 {
 "name": "Lydia Christensen",
 "party": "Libertarian",
-"votes": 49484,
+"votes": 49491,
 "pct": 1.0,
 "winner": false
 },
 {
 "name": "Tim Long",
 "party": "UST",
-"votes": 26417,
+"votes": 26420,
 "pct": 0.6,
 "winner": false
 },
@@ -618,21 +618,21 @@
 "special": false,
 "flipped": false,
 "eevp": 98.85,
-"lastUpdated": "2026-11-04T23:10:41.935000Z",
+"lastUpdated": "2026-11-05T22:39:42.299000Z",
 "calledAt": "2026-11-04T05:07:07.217Z",
-"totalVotes": 2831787,
+"totalVotes": 2831786,
 "candidates": [
 {
 "name": "Peggy Flanagan",
 "party": "Democratic",
-"votes": 1520869,
+"votes": 1520871,
 "pct": 53.7,
 "winner": true
 },
 {
 "name": "Michele Tafoya",
 "party": "Republican",
-"votes": 1233470,
+"votes": 1233467,
 "pct": 43.6,
 "winner": false
 },
@@ -667,36 +667,36 @@
 "label": "Montana Senate",
 "special": false,
 "flipped": false,
-"eevp": 94.97,
-"lastUpdated": "2026-11-05T05:46:16.017000Z",
+"eevp": 97.17,
+"lastUpdated": "2026-11-05T22:51:16.364000Z",
 "calledAt": "2026-11-04T07:54:25.875Z",
-"totalVotes": 473649,
+"totalVotes": 481929,
 "candidates": [
 {
 "name": "Kurt Alme",
 "party": "Republican",
-"votes": 230117,
-"pct": 48.6,
+"votes": 232863,
+"pct": 48.3,
 "winner": true
 },
 {
 "name": "Seth Bodnar",
 "party": "Independent",
-"votes": 177762,
-"pct": 37.5,
+"votes": 181659,
+"pct": 37.7,
 "winner": false
 },
 {
 "name": "Alani Bankhead",
 "party": "Democratic",
-"votes": 57089,
+"votes": 58540,
 "pct": 12.1,
 "winner": false
 },
 {
 "name": "Kyle Austin",
 "party": "Libertarian",
-"votes": 8681,
+"votes": 8867,
 "pct": 1.8,
 "winner": false
 }
@@ -710,43 +710,43 @@
 "label": "Nebraska Senate",
 "special": false,
 "flipped": false,
-"eevp": 94.1,
-"lastUpdated": "2026-11-05T00:15:00.449000Z",
+"eevp": 94.11,
+"lastUpdated": "2026-11-05T22:48:23.175000Z",
 "calledAt": "2026-11-04T08:27:46.220Z",
-"totalVotes": 739702,
+"totalVotes": 739767,
 "candidates": [
 {
 "name": "Pete Ricketts",
 "party": "Republican",
-"votes": 373122,
+"votes": 373160,
 "pct": 50.4,
 "winner": true
 },
 {
 "name": "Dan Osborn",
 "party": "Nonpartisan",
-"votes": 322627,
+"votes": 322646,
 "pct": 43.6,
 "winner": false
 },
 {
 "name": "Robin Richards",
 "party": "NWk",
-"votes": 19065,
+"votes": 19069,
 "pct": 2.6,
 "winner": false
 },
 {
 "name": "Mike Marvin",
 "party": "LMN",
-"votes": 15974,
+"votes": 15975,
 "pct": 2.2,
 "winner": false
 },
 {
 "name": "Chuck Conboy",
 "party": "AFi",
-"votes": 8914,
+"votes": 8917,
 "pct": 1.2,
 "winner": false
 }
@@ -760,29 +760,29 @@
 "label": "New Hampshire Senate",
 "special": false,
 "flipped": false,
-"eevp": 93.95,
-"lastUpdated": "2026-11-04T22:02:12.369000Z",
+"eevp": 98.03,
+"lastUpdated": "2026-11-05T22:57:46.031000Z",
 "calledAt": "2026-11-04T01:20:51.833Z",
-"totalVotes": 610642,
+"totalVotes": 633978,
 "candidates": [
 {
 "name": "Chris Pappas",
 "party": "Democratic",
-"votes": 341737,
-"pct": 56.0,
+"votes": 354693,
+"pct": 55.9,
 "winner": true
 },
 {
 "name": "John Sununu",
 "party": "Republican",
-"votes": 257453,
+"votes": 267261,
 "pct": 42.2,
 "winner": false
 },
 {
 "name": "Edmond Laplante",
 "party": "Constitution",
-"votes": 11452,
+"votes": 12024,
 "pct": 1.9,
 "winner": false
 }
@@ -796,36 +796,36 @@
 "label": "New Jersey Senate",
 "special": false,
 "flipped": false,
-"eevp": 94.39,
-"lastUpdated": "2026-11-04T22:44:02.263000Z",
+"eevp": 95.32,
+"lastUpdated": "2026-11-05T22:35:37.068000Z",
 "calledAt": "2026-11-04T01:00:53.549Z",
-"totalVotes": 2877055,
+"totalVotes": 2899705,
 "candidates": [
 {
 "name": "Cory Booker",
 "party": "Democratic",
-"votes": 1787172,
-"pct": 62.1,
+"votes": 1804735,
+"pct": 62.2,
 "winner": true
 },
 {
 "name": "Justin Murphy",
 "party": "Republican",
-"votes": 1015941,
-"pct": 35.3,
+"votes": 1020226,
+"pct": 35.2,
 "winner": false
 },
 {
 "name": "Veronica Fernandez",
 "party": "Other",
-"votes": 47222,
+"votes": 47719,
 "pct": 1.6,
 "winner": false
 },
 {
 "name": "Joanne Kuniansky",
 "party": "Other",
-"votes": 26720,
+"votes": 27025,
 "pct": 0.9,
 "winner": false
 }
@@ -839,22 +839,22 @@
 "label": "New Mexico Senate",
 "special": false,
 "flipped": false,
-"eevp": 98,
-"lastUpdated": "2026-11-04T15:45:06.702000Z",
+"eevp": 98.36,
+"lastUpdated": "2026-11-05T22:48:44.490000Z",
 "calledAt": "2026-11-04T02:00:42.148Z",
-"totalVotes": 720722,
+"totalVotes": 724267,
 "candidates": [
 {
 "name": "Ben Lujan",
 "party": "Democratic",
-"votes": 455165,
+"votes": 458007,
 "pct": 63.2,
 "winner": true
 },
 {
 "name": "Larry Marker",
 "party": "Republican",
-"votes": 265557,
+"votes": 266260,
 "pct": 36.8,
 "winner": false
 }
@@ -869,7 +869,7 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:26:37.294000Z",
+"lastUpdated": "2026-11-05T22:50:31.388000Z",
 "calledAt": "2026-11-04T01:23:59.591Z",
 "totalVotes": 4203181,
 "candidates": [
@@ -911,8 +911,8 @@
 "label": "Ohio Senate special",
 "special": true,
 "flipped": true,
-"eevp": 98.01,
-"lastUpdated": "2026-11-04T22:54:41.140000Z",
+"eevp": 97.99,
+"lastUpdated": "2026-11-05T22:58:08.739000Z",
 "calledAt": "2026-11-04T04:10:04.990Z",
 "totalVotes": 4601571,
 "candidates": [
@@ -955,7 +955,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T23:47:01.365000Z",
+"lastUpdated": "2026-11-05T14:45:28.869000Z",
 "calledAt": "2026-11-04T02:36:04.840Z",
 "totalVotes": 1117932,
 "candidates": [
@@ -1055,7 +1055,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.03,
-"lastUpdated": "2026-11-05T01:03:41.152000Z",
+"lastUpdated": "2026-11-05T16:59:05.786000Z",
 "calledAt": "2026-11-04T01:01:11.089Z",
 "totalVotes": 359033,
 "candidates": [
@@ -1098,7 +1098,7 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:41:50.640000Z",
+"lastUpdated": "2026-11-05T15:07:13.611000Z",
 "calledAt": "2026-11-04T03:39:16.039Z",
 "totalVotes": 2038780,
 "candidates": [
@@ -1148,21 +1148,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T23:50:44.562000Z",
+"lastUpdated": "2026-11-05T21:55:43.214000Z",
 "calledAt": "2026-11-04T05:02:17.689Z",
-"totalVotes": 305086,
+"totalVotes": 305097,
 "candidates": [
 {
 "name": "Mike Rounds",
 "party": "Republican",
-"votes": 184584,
+"votes": 184588,
 "pct": 60.5,
 "winner": true
 },
 {
 "name": "Brian Bengs",
 "party": "Independent",
-"votes": 120502,
+"votes": 120509,
 "pct": 39.5,
 "winner": false
 }
@@ -1177,9 +1177,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T21:33:23.409000Z",
+"lastUpdated": "2026-11-05T22:32:39.281000Z",
 "calledAt": "2026-11-04T04:28:22.446Z",
-"totalVotes": 2066881,
+"totalVotes": 2066890,
 "candidates": [
 {
 "name": "Bill Hagerty",
@@ -1198,7 +1198,7 @@
 {
 "name": "Robert Jones",
 "party": "Independent",
-"votes": 9392,
+"votes": 9398,
 "pct": 0.5,
 "winner": false
 },
@@ -1212,7 +1212,7 @@
 {
 "name": "Andrew Gerena",
 "party": "Independent",
-"votes": 5626,
+"votes": 5633,
 "pct": 0.3,
 "winner": false
 },
@@ -1226,7 +1226,7 @@
 {
 "name": "Jeremy Hearn",
 "party": "Independent",
-"votes": 4944,
+"votes": 4937,
 "pct": 0.2,
 "winner": false
 },
@@ -1247,7 +1247,7 @@
 {
 "name": "James Macon",
 "party": "Independent",
-"votes": 2573,
+"votes": 2576,
 "pct": 0.1,
 "winner": false
 }
@@ -1262,28 +1262,28 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-05T00:10:18.301000Z",
+"lastUpdated": "2026-11-05T20:34:17.883000Z",
 "calledAt": "2026-11-04T04:03:28.187Z",
-"totalVotes": 9885131,
+"totalVotes": 9885178,
 "candidates": [
 {
 "name": "James Talarico",
 "party": "Democratic",
-"votes": 5445121,
+"votes": 5445156,
 "pct": 55.1,
 "winner": true
 },
 {
 "name": "Ken Paxton",
 "party": "Republican",
-"votes": 4249752,
+"votes": 4249763,
 "pct": 43.0,
 "winner": false
 },
 {
 "name": "Ted Brown",
 "party": "Libertarian",
-"votes": 190258,
+"votes": 190259,
 "pct": 1.9,
 "winner": false
 }
@@ -1297,29 +1297,29 @@
 "label": "Virginia Senate",
 "special": false,
 "flipped": false,
-"eevp": 97.5,
-"lastUpdated": "2026-11-04T23:29:01.541000Z",
+"eevp": 97.57,
+"lastUpdated": "2026-11-05T21:33:39.300000Z",
 "calledAt": "2026-11-04T00:00:10.929Z",
-"totalVotes": 3569191,
+"totalVotes": 3569105,
 "candidates": [
 {
 "name": "Mark Warner",
 "party": "Democratic",
-"votes": 2183072,
+"votes": 2182959,
 "pct": 61.2,
 "winner": true
 },
 {
 "name": "Bert Mizusawa",
 "party": "Republican",
-"votes": 1376676,
+"votes": 1376714,
 "pct": 38.6,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 9443,
+"votes": 9432,
 "pct": 0.3,
 "winner": false
 }
@@ -1333,15 +1333,15 @@
 "label": "West Virginia Senate",
 "special": false,
 "flipped": false,
-"eevp": 98.91,
-"lastUpdated": "2026-11-04T20:26:20.830000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T16:12:02.200000Z",
 "calledAt": "2026-11-04T01:52:23.966Z",
-"totalVotes": 456129,
+"totalVotes": 456128,
 "candidates": [
 {
 "name": "Shelley Capito",
 "party": "Republican",
-"votes": 266068,
+"votes": 266067,
 "pct": 58.3,
 "winner": true
 },
@@ -1370,7 +1370,7 @@
 "special": false,
 "flipped": false,
 "eevp": 96.95,
-"lastUpdated": "2026-11-04T09:04:42.230000Z",
+"lastUpdated": "2026-11-05T19:37:56.842000Z",
 "calledAt": "2026-11-04T02:00:20.492Z",
 "totalVotes": 187254,
 "candidates": [
@@ -1398,23 +1398,23 @@
 "label": "Alabama Governor",
 "special": false,
 "flipped": false,
-"eevp": 98.72,
-"lastUpdated": "2026-11-05T01:03:50.945000Z",
+"eevp": 98.9,
+"lastUpdated": "2026-11-05T22:29:22.538000Z",
 "calledAt": "2026-11-04T06:36:23.346Z",
-"totalVotes": 1675913,
+"totalVotes": 1679602,
 "candidates": [
 {
 "name": "Thomas Tuberville",
 "party": "Republican",
-"votes": 872445,
-"pct": 52.1,
+"votes": 873332,
+"pct": 52.0,
 "winner": true
 },
 {
 "name": "Doug Jones",
 "party": "Democratic",
-"votes": 803468,
-"pct": 47.9,
+"votes": 806270,
+"pct": 48.0,
 "winner": false
 }
 ]
@@ -1427,36 +1427,36 @@
 "label": "Arizona Governor",
 "special": false,
 "flipped": false,
-"eevp": 85.51,
-"lastUpdated": "2026-11-05T02:14:57.023000Z",
+"eevp": 86.78,
+"lastUpdated": "2026-11-05T22:45:47.323000Z",
 "calledAt": "2026-11-04T08:20:43.985Z",
-"totalVotes": 2223400,
+"totalVotes": 2254875,
 "candidates": [
 {
 "name": "Katie Hobbs",
 "party": "Democratic",
-"votes": 1235630,
-"pct": 55.6,
+"votes": 1250534,
+"pct": 55.5,
 "winner": true
 },
 {
 "name": "Andy Biggs",
 "party": "Republican",
-"votes": 949421,
-"pct": 42.7,
+"votes": 965122,
+"pct": 42.8,
 "winner": false
 },
 {
 "name": "Risa Lombardo",
 "party": "Green",
-"votes": 19875,
+"votes": 20266,
 "pct": 0.9,
 "winner": false
 },
 {
 "name": "Teri Ann Hourihan",
 "party": "NoL",
-"votes": 18465,
+"votes": 18944,
 "pct": 0.8,
 "winner": false
 },
@@ -1520,23 +1520,23 @@
 "label": "California Governor",
 "special": false,
 "flipped": false,
-"eevp": 61.14,
-"lastUpdated": "2026-11-05T02:01:45.275000Z",
+"eevp": 61.49,
+"lastUpdated": "2026-11-05T22:56:28.374000Z",
 "calledAt": "2026-11-04T04:00:05.615Z",
-"totalVotes": 8079733,
+"totalVotes": 8198799,
 "candidates": [
 {
 "name": "Xavier Becerra",
 "party": "Democratic",
-"votes": 5186216,
-"pct": 64.2,
+"votes": 5276328,
+"pct": 64.4,
 "winner": true
 },
 {
 "name": "Steve Hilton",
 "party": "Republican",
-"votes": 2893517,
-"pct": 35.8,
+"votes": 2922471,
+"pct": 35.6,
 "winner": false
 }
 ]
@@ -1549,57 +1549,57 @@
 "label": "Colorado Governor",
 "special": false,
 "flipped": false,
-"eevp": 87.27,
-"lastUpdated": "2026-11-05T06:18:42.968000Z",
+"eevp": 91.22,
+"lastUpdated": "2026-11-05T22:50:12.382000Z",
 "calledAt": "2026-11-04T02:00:32.286Z",
-"totalVotes": 2370281,
+"totalVotes": 2455759,
 "candidates": [
 {
 "name": "Phil Weiser",
 "party": "Democratic",
-"votes": 1433885,
-"pct": 60.5,
+"votes": 1484485,
+"pct": 60.4,
 "winner": true
 },
 {
 "name": "Victor Marx",
 "party": "Republican",
-"votes": 804930,
-"pct": 34.0,
+"votes": 833656,
+"pct": 33.9,
 "winner": false
 },
 {
 "name": "Greg Lopez",
 "party": "Unaffiliated",
-"votes": 66413,
+"votes": 68831,
 "pct": 2.8,
 "winner": false
 },
 {
 "name": "Eric Mulder",
 "party": "Libertarian",
-"votes": 37739,
+"votes": 39853,
 "pct": 1.6,
 "winner": false
 },
 {
 "name": "Stephen Hamilton",
 "party": "AmC",
-"votes": 14976,
+"votes": 15754,
 "pct": 0.6,
 "winner": false
 },
 {
 "name": "Erik Underwood",
 "party": "AVP",
-"votes": 7573,
+"votes": 8074,
 "pct": 0.3,
 "winner": false
 },
 {
 "name": "Jeff Peckman",
 "party": "Uty",
-"votes": 4765,
+"votes": 5106,
 "pct": 0.2,
 "winner": false
 }
@@ -1613,23 +1613,23 @@
 "label": "Connecticut Governor",
 "special": false,
 "flipped": false,
-"eevp": 95.59,
-"lastUpdated": "2026-11-05T04:56:35.171000Z",
+"eevp": 98.04,
+"lastUpdated": "2026-11-05T22:56:10.490000Z",
 "calledAt": "2026-11-04T02:17:10.065Z",
-"totalVotes": 1255337,
+"totalVotes": 1290276,
 "candidates": [
 {
 "name": "Ned Lamont",
 "party": "Democratic",
-"votes": 739286,
-"pct": 58.9,
+"votes": 765562,
+"pct": 59.3,
 "winner": true
 },
 {
 "name": "Ryan Fazio",
 "party": "Republican",
-"votes": 516051,
-"pct": 41.1,
+"votes": 524714,
+"pct": 40.7,
 "winner": false
 }
 ]
@@ -1643,21 +1643,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:45:49.224000Z",
+"lastUpdated": "2026-11-05T22:56:10.738000Z",
 "calledAt": "2026-11-04T02:09:14.952Z",
-"totalVotes": 8261791,
+"totalVotes": 8261896,
 "candidates": [
 {
 "name": "Byron Donalds",
 "party": "Republican",
-"votes": 4132355,
+"votes": 4132385,
 "pct": 50.0,
 "winner": true
 },
 {
 "name": "David Jolly",
 "party": "Democratic",
-"votes": 4024669,
+"votes": 4024742,
 "pct": 48.7,
 "winner": false
 },
@@ -1671,7 +1671,7 @@
 {
 "name": "Frank Russo",
 "party": "No party affiliation",
-"votes": 23201,
+"votes": 23202,
 "pct": 0.3,
 "winner": false
 },
@@ -1692,7 +1692,7 @@
 {
 "name": "Jeffrey Datto",
 "party": "No party affiliation",
-"votes": 8312,
+"votes": 8313,
 "pct": 0.1,
 "winner": false
 },
@@ -1714,21 +1714,21 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-04T21:46:19.511000Z",
+"lastUpdated": "2026-11-05T22:38:03.407000Z",
 "calledAt": "2026-11-04T02:24:08.323Z",
-"totalVotes": 4180225,
+"totalVotes": 4180567,
 "candidates": [
 {
 "name": "Keisha Bottoms",
 "party": "Democratic",
-"votes": 2271388,
+"votes": 2271404,
 "pct": 54.3,
 "winner": true
 },
 {
 "name": "Rick Jackson",
 "party": "Republican",
-"votes": 1908837,
+"votes": 1909163,
 "pct": 45.7,
 "winner": false
 },
@@ -1750,7 +1750,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-05T07:53:48.197000Z",
+"lastUpdated": "2026-11-05T22:47:09.340000Z",
 "calledAt": "2026-11-04T05:00:11.283Z",
 "totalVotes": 383578,
 "candidates": [
@@ -1778,50 +1778,50 @@
 "label": "Idaho Governor",
 "special": false,
 "flipped": false,
-"eevp": 98.95,
-"lastUpdated": "2026-11-04T19:27:43.163000Z",
+"eevp": 98.96,
+"lastUpdated": "2026-11-05T22:52:29.711000Z",
 "calledAt": "2026-11-04T05:36:13.223Z",
-"totalVotes": 713554,
+"totalVotes": 713590,
 "candidates": [
 {
 "name": "Brad Little",
 "party": "Republican",
-"votes": 407216,
+"votes": 407253,
 "pct": 57.1,
 "winner": true
 },
 {
 "name": "Terri Pickens",
 "party": "Democratic",
-"votes": 230763,
+"votes": 230760,
 "pct": 32.3,
 "winner": false
 },
 {
 "name": "John Stegner",
 "party": "Independent",
-"votes": 54206,
+"votes": 54210,
 "pct": 7.6,
 "winner": false
 },
 {
 "name": "Paul Sand",
 "party": "Libertarian",
-"votes": 11541,
+"votes": 11543,
 "pct": 1.6,
 "winner": false
 },
 {
 "name": "Pro-Life",
 "party": "Constitution",
-"votes": 9486,
+"votes": 9488,
 "pct": 1.3,
 "winner": false
 },
 {
 "name": "Jacob Burnett (write-in)",
 "party": "Independent",
-"votes": 342,
+"votes": 336,
 "pct": 0.0,
 "winner": false
 }
@@ -1835,30 +1835,30 @@
 "label": "Illinois Governor",
 "special": false,
 "flipped": false,
-"eevp": 91.46,
-"lastUpdated": "2026-11-05T00:21:09.826000Z",
+"eevp": 93.23,
+"lastUpdated": "2026-11-05T20:30:14.870000Z",
 "calledAt": "2026-11-04T01:00:40.195Z",
-"totalVotes": 3932402,
+"totalVotes": 4008619,
 "candidates": [
 {
 "name": "JB Pritzker",
 "party": "Democratic",
-"votes": 2347428,
-"pct": 59.7,
+"votes": 2390469,
+"pct": 59.6,
 "winner": true
 },
 {
 "name": "Darren Bailey",
 "party": "Republican",
-"votes": 1453571,
+"votes": 1483322,
 "pct": 37.0,
 "winner": false
 },
 {
 "name": "Collin Corbett",
 "party": "Independent",
-"votes": 131403,
-"pct": 3.3,
+"votes": 134828,
+"pct": 3.4,
 "winner": false
 }
 ]
@@ -1872,21 +1872,21 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-04T23:54:13.277000Z",
+"lastUpdated": "2026-11-05T21:45:43.589000Z",
 "calledAt": "2026-11-04T04:12:21.264Z",
-"totalVotes": 1364741,
+"totalVotes": 1365064,
 "candidates": [
 {
 "name": "Rob Sand",
 "party": "Democratic",
-"votes": 757326,
+"votes": 757489,
 "pct": 55.5,
 "winner": true
 },
 {
 "name": "Zach Lahn",
 "party": "Republican",
-"votes": 607415,
+"votes": 607575,
 "pct": 44.5,
 "winner": false
 }
@@ -1900,30 +1900,30 @@
 "label": "Maine Governor",
 "special": false,
 "flipped": false,
-"eevp": 91.02,
-"lastUpdated": "2026-11-04T23:35:49.654000Z",
+"eevp": 93.11,
+"lastUpdated": "2026-11-05T22:49:02.380000Z",
 "calledAt": "2026-11-04T04:29:21.708Z",
-"totalVotes": 693699,
+"totalVotes": 708535,
 "candidates": [
 {
 "name": "Hannah Pingree",
 "party": "Democratic",
-"votes": 379914,
-"pct": 54.8,
+"votes": 386236,
+"pct": 54.5,
 "winner": true
 },
 {
 "name": "Robert Charles",
 "party": "Republican",
-"votes": 257847,
-"pct": 37.2,
+"votes": 264793,
+"pct": 37.4,
 "winner": false
 },
 {
 "name": "Rick Bennett",
 "party": "Independent",
-"votes": 55697,
-"pct": 8.0,
+"votes": 57263,
+"pct": 8.1,
 "winner": false
 },
 {
@@ -1936,7 +1936,7 @@
 {
 "name": "John Glowa (write-in)",
 "party": "Independent",
-"votes": 55,
+"votes": 57,
 "pct": 0.0,
 "winner": false
 }
@@ -1950,36 +1950,36 @@
 "label": "Maryland Governor",
 "special": false,
 "flipped": false,
-"eevp": 78.09,
-"lastUpdated": "2026-11-05T00:51:49.454000Z",
+"eevp": 79.18,
+"lastUpdated": "2026-11-05T22:45:08.496000Z",
 "calledAt": "2026-11-04T01:01:47.008Z",
-"totalVotes": 1858091,
+"totalVotes": 1884049,
 "candidates": [
 {
 "name": "Wes Moore",
 "party": "Democratic",
-"votes": 1165429,
-"pct": 62.7,
+"votes": 1182684,
+"pct": 62.8,
 "winner": true
 },
 {
 "name": "Dan Cox",
 "party": "Republican",
-"votes": 617673,
+"votes": 625361,
 "pct": 33.2,
 "winner": false
 },
 {
 "name": "Andy Ellis",
 "party": "Green",
-"votes": 38357,
+"votes": 38899,
 "pct": 2.1,
 "winner": false
 },
 {
 "name": "Cathy White",
 "party": "Working Class",
-"votes": 36632,
+"votes": 37105,
 "pct": 2.0,
 "winner": false
 }
@@ -1993,30 +1993,30 @@
 "label": "Massachusetts Governor",
 "special": false,
 "flipped": false,
-"eevp": 95.32,
-"lastUpdated": "2026-11-04T20:45:21.017000Z",
+"eevp": 98.99,
+"lastUpdated": "2026-11-05T22:33:24.379000Z",
 "calledAt": "2026-11-04T01:01:28.205Z",
-"totalVotes": 2523301,
+"totalVotes": 2611312,
 "candidates": [
 {
 "name": "Maura Healey",
 "party": "Democratic",
-"votes": 1563247,
-"pct": 62.0,
+"votes": 1623656,
+"pct": 62.2,
 "winner": true
 },
 {
 "name": "Michael Minogue",
 "party": "Republican",
-"votes": 875013,
-"pct": 34.7,
+"votes": 901849,
+"pct": 34.5,
 "winner": false
 },
 {
 "name": "Andrea James",
 "party": "Independent",
-"votes": 85041,
-"pct": 3.4,
+"votes": 85807,
+"pct": 3.3,
 "winner": false
 }
 ]
@@ -2029,36 +2029,36 @@
 "label": "Michigan Governor",
 "special": false,
 "flipped": false,
-"eevp": 97.56,
-"lastUpdated": "2026-11-04T23:55:23.593000Z",
+"eevp": 97.72,
+"lastUpdated": "2026-11-05T21:55:21.861000Z",
 "calledAt": "2026-11-04T06:45:21.077Z",
-"totalVotes": 4769407,
+"totalVotes": 4769806,
 "candidates": [
 {
 "name": "Jocelyn Benson",
 "party": "Democratic",
-"votes": 2600471,
+"votes": 2600636,
 "pct": 54.5,
 "winner": true
 },
 {
 "name": "John James",
 "party": "Republican",
-"votes": 2087039,
+"votes": 2087265,
 "pct": 43.8,
 "winner": false
 },
 {
 "name": "Anthony Hudson",
 "party": "Libertarian",
-"votes": 44311,
+"votes": 44317,
 "pct": 0.9,
 "winner": false
 },
 {
 "name": "Donna Brandenburg",
 "party": "UST",
-"votes": 20050,
+"votes": 20052,
 "pct": 0.4,
 "winner": false
 },
@@ -2080,28 +2080,28 @@
 "special": false,
 "flipped": false,
 "eevp": 98.84,
-"lastUpdated": "2026-11-04T23:10:46.004000Z",
+"lastUpdated": "2026-11-05T22:39:41.181000Z",
 "calledAt": "2026-11-04T05:07:26.279Z",
-"totalVotes": 2830158,
+"totalVotes": 2830159,
 "candidates": [
 {
 "name": "Amy Klobuchar",
 "party": "Democratic",
-"votes": 1569694,
+"votes": 1569698,
 "pct": 55.5,
 "winner": true
 },
 {
 "name": "Lisa Demuth",
 "party": "Republican",
-"votes": 1206587,
+"votes": 1206583,
 "pct": 42.6,
 "winner": false
 },
 {
 "name": "Steven Young",
 "party": "Green",
-"votes": 51403,
+"votes": 51404,
 "pct": 1.8,
 "winner": false
 },
@@ -2122,29 +2122,29 @@
 "label": "Nebraska Governor",
 "special": false,
 "flipped": false,
-"eevp": 94.21,
-"lastUpdated": "2026-11-05T00:15:06.919000Z",
+"eevp": 94.22,
+"lastUpdated": "2026-11-05T22:48:23.198000Z",
 "calledAt": "2026-11-04T07:53:54.147Z",
-"totalVotes": 741158,
+"totalVotes": 741226,
 "candidates": [
 {
 "name": "Jim Pillen",
 "party": "Republican",
-"votes": 376248,
+"votes": 376285,
 "pct": 50.8,
 "winner": true
 },
 {
 "name": "Lynne Walz",
 "party": "Democratic",
-"votes": 312635,
+"votes": 312653,
 "pct": 42.2,
 "winner": false
 },
 {
 "name": "Brett Lindstrom",
 "party": "AFi",
-"votes": 32593,
+"votes": 32606,
 "pct": 4.4,
 "winner": false
 },
@@ -2165,37 +2165,37 @@
 "label": "Nevada Governor",
 "special": false,
 "flipped": true,
-"eevp": 90.14,
-"lastUpdated": "2026-11-05T08:06:51.000000Z",
+"eevp": 90.39,
+"lastUpdated": "2026-11-05T21:49:27.579000Z",
 "calledAt": "2026-11-04T09:46:36.197Z",
-"totalVotes": 1029573,
+"totalVotes": 1035046,
 "candidates": [
 {
 "name": "Aaron Ford",
 "party": "Democratic",
-"votes": 530510,
-"pct": 51.5,
+"votes": 532083,
+"pct": 51.4,
 "winner": true
 },
 {
 "name": "Joseph Lombardo",
 "party": "Republican",
-"votes": 455302,
-"pct": 44.2,
+"votes": 458807,
+"pct": 44.3,
 "winner": false
 },
 {
 "name": "Danielle Ford",
 "party": "No party affiliation",
-"votes": 28870,
+"votes": 29117,
 "pct": 2.8,
 "winner": false
 },
 {
 "name": "None of These Candidates",
 "party": "NPD",
-"votes": 14891,
-"pct": 1.4,
+"votes": 15039,
+"pct": 1.5,
 "winner": false
 }
 ]
@@ -2208,29 +2208,29 @@
 "label": "New Hampshire Governor",
 "special": false,
 "flipped": false,
-"eevp": 93.92,
-"lastUpdated": "2026-11-04T22:02:13.170000Z",
+"eevp": 98.04,
+"lastUpdated": "2026-11-05T22:57:46.126000Z",
 "calledAt": "2026-11-04T05:42:29.910Z",
-"totalVotes": 606125,
+"totalVotes": 629285,
 "candidates": [
 {
 "name": "Kelly Ayotte",
 "party": "Republican",
-"votes": 311543,
+"votes": 323204,
 "pct": 51.4,
 "winner": true
 },
 {
 "name": "Cinde Warmington",
 "party": "Democratic",
-"votes": 285411,
+"votes": 296529,
 "pct": 47.1,
 "winner": false
 },
 {
 "name": "Stephen Villee",
 "party": "Libertarian",
-"votes": 9171,
+"votes": 9552,
 "pct": 1.5,
 "winner": false
 }
@@ -2244,23 +2244,23 @@
 "label": "New Mexico Governor",
 "special": false,
 "flipped": false,
-"eevp": 98,
-"lastUpdated": "2026-11-04T15:45:06.538000Z",
+"eevp": 98.36,
+"lastUpdated": "2026-11-05T22:48:45.148000Z",
 "calledAt": "2026-11-04T03:40:44.095Z",
-"totalVotes": 721149,
+"totalVotes": 724694,
 "candidates": [
 {
 "name": "Deb Haaland",
 "party": "Democratic",
-"votes": 412834,
-"pct": 57.2,
+"votes": 415484,
+"pct": 57.3,
 "winner": true
 },
 {
 "name": "Greggory Hull",
 "party": "Republican",
-"votes": 308315,
-"pct": 42.8,
+"votes": 309210,
+"pct": 42.7,
 "winner": false
 }
 ]
@@ -2273,29 +2273,29 @@
 "label": "New York Governor",
 "special": false,
 "flipped": false,
-"eevp": 92.75,
-"lastUpdated": "2026-11-05T03:22:46.478000Z",
+"eevp": 90.43,
+"lastUpdated": "2026-11-05T22:51:37.028000Z",
 "calledAt": "2026-11-04T02:00:05.888Z",
-"totalVotes": 5962873,
+"totalVotes": 5924085,
 "candidates": [
 {
 "name": "Kathy Hochul",
 "party": "Democratic",
-"votes": 3576763,
-"pct": 60.0,
+"votes": 3530302,
+"pct": 59.6,
 "winner": true
 },
 {
 "name": "Bruce Blakeman",
 "party": "Republican",
-"votes": 2373666,
-"pct": 39.8,
+"votes": 2381256,
+"pct": 40.2,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 12444,
+"votes": 12527,
 "pct": 0.2,
 "winner": false
 }
@@ -2309,8 +2309,8 @@
 "label": "Ohio Governor",
 "special": false,
 "flipped": true,
-"eevp": 98.01,
-"lastUpdated": "2026-11-04T22:54:41.107000Z",
+"eevp": 97.99,
+"lastUpdated": "2026-11-05T22:58:08.702000Z",
 "calledAt": "2026-11-04T03:49:08.000Z",
 "totalVotes": 4595782,
 "candidates": [
@@ -2346,7 +2346,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T23:47:01.375000Z",
+"lastUpdated": "2026-11-05T14:45:28.907000Z",
 "calledAt": "2026-11-04T04:46:46.516Z",
 "totalVotes": 1120139,
 "candidates": [
@@ -2438,29 +2438,29 @@
 "label": "Pennsylvania Governor",
 "special": false,
 "flipped": false,
-"eevp": 98.68,
-"lastUpdated": "2026-11-04T21:32:45.721000Z",
+"eevp": 98.74,
+"lastUpdated": "2026-11-05T22:22:47.923000Z",
 "calledAt": "2026-11-04T01:01:56.195Z",
-"totalVotes": 4978474,
+"totalVotes": 4981376,
 "candidates": [
 {
 "name": "Josh Shapiro",
 "party": "Democratic",
-"votes": 3006519,
+"votes": 3009220,
 "pct": 60.4,
 "winner": true
 },
 {
 "name": "Stacy Garrity",
 "party": "Republican",
-"votes": 1907499,
+"votes": 1907685,
 "pct": 38.3,
 "winner": false
 },
 {
 "name": "Ken Krawchuk",
 "party": "Libertarian",
-"votes": 64456,
+"votes": 64471,
 "pct": 1.3,
 "winner": false
 }
@@ -2475,7 +2475,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.03,
-"lastUpdated": "2026-11-05T01:03:39.155000Z",
+"lastUpdated": "2026-11-05T16:59:03.579000Z",
 "calledAt": "2026-11-04T01:32:37.260Z",
 "totalVotes": 358609,
 "candidates": [
@@ -2532,7 +2532,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:41:52.001000Z",
+"lastUpdated": "2026-11-05T15:07:13.630000Z",
 "calledAt": "2026-11-04T05:35:52.176Z",
 "totalVotes": 2035521,
 "candidates": [
@@ -2582,21 +2582,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T23:50:38.502000Z",
+"lastUpdated": "2026-11-05T21:55:38.500000Z",
 "calledAt": "2026-11-04T04:45:56.644Z",
-"totalVotes": 304478,
+"totalVotes": 304490,
 "candidates": [
 {
 "name": "Larry Rhoden",
 "party": "Republican",
-"votes": 193329,
+"votes": 193333,
 "pct": 63.5,
 "winner": true
 },
 {
 "name": "Dan Ahlers",
 "party": "Democratic",
-"votes": 111149,
+"votes": 111157,
 "pct": 36.5,
 "winner": false
 }
@@ -2611,7 +2611,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.91,
-"lastUpdated": "2026-11-04T21:33:23.426000Z",
+"lastUpdated": "2026-11-05T22:32:39.463000Z",
 "calledAt": "2026-11-04T05:43:19.886Z",
 "totalVotes": 2099975,
 "candidates": [
@@ -2731,21 +2731,21 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-05T00:10:26.826000Z",
+"lastUpdated": "2026-11-05T20:34:17.923000Z",
 "calledAt": "2026-11-04T04:17:30.287Z",
-"totalVotes": 9903952,
+"totalVotes": 9903980,
 "candidates": [
 {
 "name": "Gina Hinojosa",
 "party": "Democratic",
-"votes": 5230908,
+"votes": 5230929,
 "pct": 52.8,
 "winner": true
 },
 {
 "name": "Greg Abbott",
 "party": "Republican",
-"votes": 4524948,
+"votes": 4524955,
 "pct": 45.7,
 "winner": false
 },
@@ -2766,50 +2766,50 @@
 "label": "Vermont Governor",
 "special": false,
 "flipped": false,
-"eevp": 98.99,
-"lastUpdated": "2026-11-04T23:12:48.184000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T22:22:47.149000Z",
 "calledAt": "2026-11-04T05:35:27.269Z",
-"totalVotes": 310171,
+"totalVotes": 310257,
 "candidates": [
 {
 "name": "Phil Scott",
 "party": "Republican",
-"votes": 163162,
+"votes": 163201,
 "pct": 52.6,
 "winner": true
 },
 {
 "name": "Amanda Janoo",
 "party": "Democratic",
-"votes": 141575,
+"votes": 141622,
 "pct": 45.6,
 "winner": false
 },
 {
 "name": "Brian Judd",
 "party": "Independent",
-"votes": 2612,
+"votes": 2613,
 "pct": 0.8,
 "winner": false
 },
 {
 "name": "June Goodband",
 "party": "PJP",
-"votes": 1242,
+"votes": 1238,
 "pct": 0.4,
 "winner": false
 },
 {
 "name": "Dean Roy",
 "party": "Other",
-"votes": 1135,
+"votes": 1137,
 "pct": 0.4,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 445,
+"votes": 446,
 "pct": 0.1,
 "winner": false
 }
@@ -2823,23 +2823,23 @@
 "label": "Wisconsin Governor",
 "special": false,
 "flipped": false,
-"eevp": 98.5,
-"lastUpdated": "2026-11-04T21:14:50.622000Z",
+"eevp": 98.85,
+"lastUpdated": "2026-11-05T22:27:18.956000Z",
 "calledAt": "2026-11-04T04:28:00.184Z",
-"totalVotes": 2660389,
+"totalVotes": 2668664,
 "candidates": [
 {
 "name": "David Crowley",
 "party": "Democratic",
-"votes": 1438721,
-"pct": 54.1,
+"votes": 1440990,
+"pct": 54.0,
 "winner": true
 },
 {
 "name": "Tom Tiffany",
 "party": "Republican",
-"votes": 1221668,
-"pct": 45.9,
+"votes": 1227674,
+"pct": 46.0,
 "winner": false
 }
 ]
@@ -2853,7 +2853,7 @@
 "special": false,
 "flipped": false,
 "eevp": 96.97,
-"lastUpdated": "2026-11-04T09:04:42.018000Z",
+"lastUpdated": "2026-11-05T19:38:46.612000Z",
 "calledAt": "2026-11-04T02:00:20.399Z",
 "totalVotes": 187379,
 "candidates": [
@@ -2889,7 +2889,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-05T01:03:45.170000Z",
+"lastUpdated": "2026-11-05T22:29:22.594000Z",
 "calledAt": "2026-11-04T04:15:20.379Z",
 "totalVotes": 231965,
 "candidates": [
@@ -2918,7 +2918,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.95,
-"lastUpdated": "2026-11-05T01:03:44.706000Z",
+"lastUpdated": "2026-11-05T22:27:45.953000Z",
 "calledAt": "2026-11-04T04:00:23.554Z",
 "totalVotes": 231471,
 "candidates": [
@@ -2947,7 +2947,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-05T01:03:52.947000Z",
+"lastUpdated": "2026-11-05T21:17:20.753000Z",
 "calledAt": "2026-11-04T03:10:41.072Z",
 "totalVotes": 221726,
 "candidates": [
@@ -2976,7 +2976,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.91,
-"lastUpdated": "2026-11-05T01:03:46.845000Z",
+"lastUpdated": "2026-11-05T22:28:14.889000Z",
 "calledAt": "2026-11-04T02:33:00.516Z",
 "totalVotes": 213641,
 "candidates": [
@@ -3005,7 +3005,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:32:40.735000Z",
+"lastUpdated": "2026-11-05T21:22:51.695000Z",
 "calledAt": "2026-11-04T04:03:26.672Z",
 "totalVotes": 266843,
 "candidates": [
@@ -3034,7 +3034,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.31,
-"lastUpdated": "2026-11-05T01:03:43.044000Z",
+"lastUpdated": "2026-11-05T22:26:41.415000Z",
 "calledAt": "2026-11-04T05:00:53.608Z",
 "totalVotes": 260878,
 "candidates": [
@@ -3063,7 +3063,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.95,
-"lastUpdated": "2026-11-05T01:03:46.028000Z",
+"lastUpdated": "2026-11-05T22:26:17.018000Z",
 "calledAt": "2026-11-04T03:24:01.827Z",
 "totalVotes": 251908,
 "candidates": [
@@ -3084,6 +3084,56 @@
 ]
 },
 {
+"slug": "az-house-district-1",
+"office": "House",
+"state": "AZ",
+"stateName": "Arizona",
+"label": "Arizona House District 1",
+"special": false,
+"flipped": true,
+"eevp": 87.81,
+"lastUpdated": "2026-11-05T18:23:55.613000Z",
+"calledAt": "2026-11-05T17:02:49.849Z",
+"totalVotes": 323405,
+"candidates": [
+{
+"name": "Amish Shah",
+"party": "Democratic",
+"votes": 169687,
+"pct": 52.5,
+"winner": true
+},
+{
+"name": "Thomas Feely",
+"party": "Republican",
+"votes": 146978,
+"pct": 45.4,
+"winner": false
+},
+{
+"name": "Monica Alponte",
+"party": "Libertarian",
+"votes": 6725,
+"pct": 2.1,
+"winner": false
+},
+{
+"name": "Dev Gupta (write-in)",
+"party": "Independent",
+"votes": 8,
+"pct": 0.0,
+"winner": false
+},
+{
+"name": "Gage Dylan Thunder (write-in)",
+"party": "No party affiliation",
+"votes": 7,
+"pct": 0.0,
+"winner": false
+}
+]
+},
+{
 "slug": "az-house-district-3",
 "office": "House",
 "state": "AZ",
@@ -3091,36 +3141,36 @@
 "label": "Arizona House District 3",
 "special": false,
 "flipped": false,
-"eevp": 87.24,
-"lastUpdated": "2026-11-05T01:49:15.427000Z",
+"eevp": 88.56,
+"lastUpdated": "2026-11-05T18:23:59.899000Z",
 "calledAt": "2026-11-04T03:09:42.232Z",
-"totalVotes": 122643,
+"totalVotes": 123900,
 "candidates": [
 {
 "name": "Yassamin Ansari",
 "party": "Democratic",
-"votes": 107146,
+"votes": 108264,
 "pct": 87.4,
 "winner": true
 },
 {
 "name": "Alan Aversa",
 "party": "NoL",
-"votes": 7552,
+"votes": 7624,
 "pct": 6.2,
 "winner": false
 },
 {
 "name": "David Redkey",
 "party": "Green",
-"votes": 6648,
+"votes": 6698,
 "pct": 5.4,
 "winner": false
 },
 {
 "name": "Jacob Parkman (write-in)",
 "party": "Republican",
-"votes": 1297,
+"votes": 1314,
 "pct": 1.1,
 "winner": false
 }
@@ -3134,29 +3184,29 @@
 "label": "Arizona House District 4",
 "special": false,
 "flipped": false,
-"eevp": 86.65,
-"lastUpdated": "2026-11-05T01:49:15.457000Z",
+"eevp": 88.04,
+"lastUpdated": "2026-11-05T18:23:54.924000Z",
 "calledAt": "2026-11-04T03:10:56.841Z",
-"totalVotes": 224662,
+"totalVotes": 225951,
 "candidates": [
 {
 "name": "Greg Stanton",
 "party": "Democratic",
-"votes": 140015,
+"votes": 140838,
 "pct": 62.3,
 "winner": true
 },
 {
 "name": "Zuhdi Jasser",
 "party": "Republican",
-"votes": 79649,
-"pct": 35.5,
+"votes": 80074,
+"pct": 35.4,
 "winner": false
 },
 {
 "name": "Tisha Benoit",
 "party": "NoL",
-"votes": 4961,
+"votes": 5002,
 "pct": 2.2,
 "winner": false
 },
@@ -3170,6 +3220,56 @@
 ]
 },
 {
+"slug": "az-house-district-6",
+"office": "House",
+"state": "AZ",
+"stateName": "Arizona",
+"label": "Arizona House District 6",
+"special": false,
+"flipped": true,
+"eevp": 83.99,
+"lastUpdated": "2026-11-05T19:38:13.062000Z",
+"calledAt": "2026-11-05T19:38:13.062Z",
+"totalVotes": 307853,
+"candidates": [
+{
+"name": "JoAnna Mendoza",
+"party": "Democratic",
+"votes": 163197,
+"pct": 53.0,
+"winner": true
+},
+{
+"name": "Juan Ciscomani",
+"party": "Republican",
+"votes": 138235,
+"pct": 44.9,
+"winner": false
+},
+{
+"name": "Jereme Peters",
+"party": "Libertarian",
+"votes": 3753,
+"pct": 1.2,
+"winner": false
+},
+{
+"name": "Gary Swing",
+"party": "Green",
+"votes": 2636,
+"pct": 0.9,
+"winner": false
+},
+{
+"name": "Michael Dorland (write-in)",
+"party": "Independent",
+"votes": 32,
+"pct": 0.0,
+"winner": false
+}
+]
+},
+{
 "slug": "az-house-district-7",
 "office": "House",
 "state": "AZ",
@@ -3177,23 +3277,23 @@
 "label": "Arizona House District 7",
 "special": false,
 "flipped": false,
-"eevp": 82.44,
-"lastUpdated": "2026-11-05T02:12:51.911000Z",
+"eevp": 83.04,
+"lastUpdated": "2026-11-05T22:45:50.894000Z",
 "calledAt": "2026-11-04T03:11:34.250Z",
-"totalVotes": 161587,
+"totalVotes": 163397,
 "candidates": [
 {
 "name": "Adelita Grijalva",
 "party": "Democratic",
-"votes": 115759,
-"pct": 71.6,
+"votes": 117137,
+"pct": 71.7,
 "winner": true
 },
 {
 "name": "Daniel Butierez",
 "party": "Republican",
-"votes": 45828,
-"pct": 28.4,
+"votes": 46260,
+"pct": 28.3,
 "winner": false
 }
 ]
@@ -3206,23 +3306,23 @@
 "label": "Arizona House District 9",
 "special": false,
 "flipped": false,
-"eevp": 84.34,
-"lastUpdated": "2026-11-05T02:14:56.939000Z",
+"eevp": 85.49,
+"lastUpdated": "2026-11-05T22:45:43.170000Z",
 "calledAt": "2026-11-04T08:45:30.365Z",
-"totalVotes": 244280,
+"totalVotes": 247428,
 "candidates": [
 {
 "name": "Paul Gosar",
 "party": "Republican",
-"votes": 140892,
-"pct": 57.7,
+"votes": 142561,
+"pct": 57.6,
 "winner": true
 },
 {
 "name": "Danielle Sterbinsky",
 "party": "Democratic",
-"votes": 103352,
-"pct": 42.3,
+"votes": 104831,
+"pct": 42.4,
 "winner": false
 },
 {
@@ -3273,6 +3373,35 @@
 "party": "Libertarian",
 "votes": 6938,
 "pct": 3.6,
+"winner": false
+}
+]
+},
+{
+"slug": "ar-house-district-2",
+"office": "House",
+"state": "AR",
+"stateName": "Arkansas",
+"label": "Arkansas House District 2",
+"special": false,
+"flipped": false,
+"eevp": 99,
+"lastUpdated": "2026-11-05T17:01:35.527000Z",
+"calledAt": "2026-11-05T17:01:35.527Z",
+"totalVotes": 250469,
+"candidates": [
+{
+"name": "French Hill",
+"party": "Republican",
+"votes": 127437,
+"pct": 50.9,
+"winner": true
+},
+{
+"name": "Chris Jones",
+"party": "Democratic",
+"votes": 123032,
+"pct": 49.1,
 "winner": false
 }
 ]
@@ -3351,7 +3480,7 @@
 "special": false,
 "flipped": true,
 "eevp": 50.09,
-"lastUpdated": "2026-11-05T02:07:47.513000Z",
+"lastUpdated": "2026-11-05T22:56:06.246000Z",
 "calledAt": "2026-11-04T04:53:06.875Z",
 "totalVotes": 154527,
 "candidates": [
@@ -3380,7 +3509,7 @@
 "special": false,
 "flipped": false,
 "eevp": 50.23,
-"lastUpdated": "2026-11-05T01:47:32.768000Z",
+"lastUpdated": "2026-11-05T22:56:10.502000Z",
 "calledAt": "2026-11-04T04:47:40.059Z",
 "totalVotes": 161641,
 "candidates": [
@@ -3409,7 +3538,7 @@
 "special": false,
 "flipped": true,
 "eevp": 49.44,
-"lastUpdated": "2026-11-04T09:57:40.074000Z",
+"lastUpdated": "2026-11-05T22:10:57.067000Z",
 "calledAt": "2026-11-04T05:36:02.003Z",
 "totalVotes": 167146,
 "candidates": [
@@ -3438,7 +3567,7 @@
 "special": false,
 "flipped": false,
 "eevp": 62.26,
-"lastUpdated": "2026-11-05T01:54:47.175000Z",
+"lastUpdated": "2026-11-05T22:10:55.092000Z",
 "calledAt": "2026-11-04T07:33:21.419Z",
 "totalVotes": 185800,
 "candidates": [
@@ -3467,7 +3596,7 @@
 "special": false,
 "flipped": false,
 "eevp": 50.12,
-"lastUpdated": "2026-11-05T00:18:15.596000Z",
+"lastUpdated": "2026-11-05T22:10:56.617000Z",
 "calledAt": "2026-11-04T07:00:40.011Z",
 "totalVotes": 150875,
 "candidates": [
@@ -3495,8 +3624,8 @@
 "label": "California House District 8",
 "special": false,
 "flipped": false,
-"eevp": 72.91,
-"lastUpdated": "2026-11-05T01:49:00.949000Z",
+"eevp": 70.94,
+"lastUpdated": "2026-11-05T22:10:58.290000Z",
 "calledAt": "2026-11-04T04:42:42.538Z",
 "totalVotes": 173798,
 "candidates": [
@@ -3525,7 +3654,7 @@
 "special": false,
 "flipped": false,
 "eevp": 55.57,
-"lastUpdated": "2026-11-04T22:14:14.107000Z",
+"lastUpdated": "2026-11-05T22:10:53.231000Z",
 "calledAt": "2026-11-04T04:41:10.823Z",
 "totalVotes": 118891,
 "candidates": [
@@ -3554,7 +3683,7 @@
 "special": false,
 "flipped": false,
 "eevp": 62.08,
-"lastUpdated": "2026-11-04T22:14:14.301000Z",
+"lastUpdated": "2026-11-05T22:10:54.350000Z",
 "calledAt": "2026-11-04T04:42:20.820Z",
 "totalVotes": 190983,
 "candidates": [
@@ -3583,7 +3712,7 @@
 "special": false,
 "flipped": false,
 "eevp": 52,
-"lastUpdated": "2026-11-04T10:25:36.881000Z",
+"lastUpdated": "2026-11-05T22:10:51.161000Z",
 "calledAt": "2026-11-04T05:31:03.398Z",
 "totalVotes": 135621,
 "candidates": [
@@ -3612,7 +3741,7 @@
 "special": false,
 "flipped": false,
 "eevp": 57.23,
-"lastUpdated": "2026-11-04T22:30:52.223000Z",
+"lastUpdated": "2026-11-05T22:10:55.456000Z",
 "calledAt": "2026-11-04T18:03:14.496Z",
 "totalVotes": 94941,
 "candidates": [
@@ -3641,7 +3770,7 @@
 "special": false,
 "flipped": false,
 "eevp": 51.87,
-"lastUpdated": "2026-11-05T01:45:39.655000Z",
+"lastUpdated": "2026-11-05T22:10:52.048000Z",
 "calledAt": "2026-11-04T04:43:59.873Z",
 "totalVotes": 132478,
 "candidates": [
@@ -3669,8 +3798,8 @@
 "label": "California House District 16",
 "special": false,
 "flipped": false,
-"eevp": 48.17,
-"lastUpdated": "2026-11-05T01:45:42.979000Z",
+"eevp": 47.87,
+"lastUpdated": "2026-11-05T22:10:55.770000Z",
 "calledAt": "2026-11-04T05:36:23.781Z",
 "totalVotes": 148251,
 "candidates": [
@@ -3698,8 +3827,8 @@
 "label": "California House District 17",
 "special": false,
 "flipped": false,
-"eevp": 48.35,
-"lastUpdated": "2026-11-05T01:45:46.794000Z",
+"eevp": 47.54,
+"lastUpdated": "2026-11-05T22:10:57.511000Z",
 "calledAt": "2026-11-04T05:33:49.339Z",
 "totalVotes": 107592,
 "candidates": [
@@ -3727,8 +3856,8 @@
 "label": "California House District 18",
 "special": false,
 "flipped": false,
-"eevp": 55.13,
-"lastUpdated": "2026-11-05T01:45:46.925000Z",
+"eevp": 51.55,
+"lastUpdated": "2026-11-05T22:10:52.887000Z",
 "calledAt": "2026-11-04T04:57:26.923Z",
 "totalVotes": 101020,
 "candidates": [
@@ -3756,8 +3885,8 @@
 "label": "California House District 19",
 "special": false,
 "flipped": false,
-"eevp": 57.5,
-"lastUpdated": "2026-11-05T01:45:46.330000Z",
+"eevp": 55.05,
+"lastUpdated": "2026-11-05T22:10:57.097000Z",
 "calledAt": "2026-11-04T04:48:52.128Z",
 "totalVotes": 184458,
 "candidates": [
@@ -3786,7 +3915,7 @@
 "special": false,
 "flipped": false,
 "eevp": 57.11,
-"lastUpdated": "2026-11-05T00:19:02.261000Z",
+"lastUpdated": "2026-11-05T22:10:55.213000Z",
 "calledAt": "2026-11-04T04:36:35.180Z",
 "totalVotes": 145328,
 "candidates": [
@@ -3815,7 +3944,7 @@
 "special": false,
 "flipped": false,
 "eevp": 53.54,
-"lastUpdated": "2026-11-05T00:19:02.371000Z",
+"lastUpdated": "2026-11-05T22:10:52.681000Z",
 "calledAt": "2026-11-04T04:31:38.456Z",
 "totalVotes": 86606,
 "candidates": [
@@ -3844,7 +3973,7 @@
 "special": false,
 "flipped": true,
 "eevp": 57.06,
-"lastUpdated": "2026-11-05T00:19:02.507000Z",
+"lastUpdated": "2026-11-05T22:10:53.149000Z",
 "calledAt": "2026-11-04T18:17:49.897Z",
 "totalVotes": 81817,
 "candidates": [
@@ -3872,22 +4001,22 @@
 "label": "California House District 24",
 "special": false,
 "flipped": false,
-"eevp": 59.86,
-"lastUpdated": "2026-11-05T01:33:46.749000Z",
+"eevp": 60.49,
+"lastUpdated": "2026-11-05T22:56:20.935000Z",
 "calledAt": "2026-11-04T05:02:41.079Z",
-"totalVotes": 165667,
+"totalVotes": 167413,
 "candidates": [
 {
 "name": "Salud Carbajal",
 "party": "Democratic",
-"votes": 109061,
+"votes": 110231,
 "pct": 65.8,
 "winner": true
 },
 {
 "name": "Bob Smith",
 "party": "Republican",
-"votes": 56606,
+"votes": 57182,
 "pct": 34.2,
 "winner": false
 }
@@ -3901,8 +4030,8 @@
 "label": "California House District 25",
 "special": false,
 "flipped": false,
-"eevp": 50.12,
-"lastUpdated": "2026-11-05T01:45:43.298000Z",
+"eevp": 45.2,
+"lastUpdated": "2026-11-05T22:10:50.883000Z",
 "calledAt": "2026-11-04T06:12:47.012Z",
 "totalVotes": 118534,
 "candidates": [
@@ -3930,23 +4059,23 @@
 "label": "California House District 26",
 "special": false,
 "flipped": false,
-"eevp": 75.76,
-"lastUpdated": "2026-11-05T01:45:43.549000Z",
+"eevp": 80.59,
+"lastUpdated": "2026-11-05T22:56:27.675000Z",
 "calledAt": "2026-11-04T05:04:22.861Z",
-"totalVotes": 180951,
+"totalVotes": 192473,
 "candidates": [
 {
 "name": "Jacqui Irwin",
 "party": "Democratic",
-"votes": 111693,
-"pct": 61.7,
+"votes": 119043,
+"pct": 61.8,
 "winner": true
 },
 {
 "name": "Sam Gallucci",
 "party": "Republican",
-"votes": 69258,
-"pct": 38.3,
+"votes": 73430,
+"pct": 38.2,
 "winner": false
 }
 ]
@@ -3959,23 +4088,23 @@
 "label": "California House District 27",
 "special": false,
 "flipped": false,
-"eevp": 72,
-"lastUpdated": "2026-11-05T01:45:47.883000Z",
+"eevp": 75.37,
+"lastUpdated": "2026-11-05T22:10:52.754000Z",
 "calledAt": "2026-11-04T06:01:40.953Z",
-"totalVotes": 172331,
+"totalVotes": 180402,
 "candidates": [
 {
 "name": "George Whitesides",
 "party": "Democratic",
-"votes": 107051,
-"pct": 62.1,
+"votes": 112641,
+"pct": 62.4,
 "winner": true
 },
 {
 "name": "Jason Gibbs",
 "party": "Republican",
-"votes": 65280,
-"pct": 37.9,
+"votes": 67761,
+"pct": 37.6,
 "winner": false
 }
 ]
@@ -3988,23 +4117,52 @@
 "label": "California House District 28",
 "special": false,
 "flipped": false,
-"eevp": 68.71,
-"lastUpdated": "2026-11-05T01:45:43.417000Z",
+"eevp": 71.41,
+"lastUpdated": "2026-11-05T22:10:57.470000Z",
 "calledAt": "2026-11-04T04:52:44.733Z",
-"totalVotes": 187680,
+"totalVotes": 195055,
 "candidates": [
 {
 "name": "Judy Chu",
 "party": "Democratic",
-"votes": 129408,
-"pct": 69.0,
+"votes": 135318,
+"pct": 69.4,
 "winner": true
 },
 {
 "name": "April Verlato",
 "party": "Republican",
-"votes": 58272,
-"pct": 31.0,
+"votes": 59737,
+"pct": 30.6,
+"winner": false
+}
+]
+},
+{
+"slug": "ca-house-district-29",
+"office": "House",
+"state": "CA",
+"stateName": "California",
+"label": "California House District 29",
+"special": false,
+"flipped": false,
+"eevp": 75.24,
+"lastUpdated": "2026-11-05T22:10:56.149000Z",
+"calledAt": "2026-11-05T17:03:21.636Z",
+"totalVotes": 127317,
+"candidates": [
+{
+"name": "Luz Rivas",
+"party": "Democratic",
+"votes": 75853,
+"pct": 59.6,
+"winner": true
+},
+{
+"name": "Ang\u00e9lica Due\u00f1as",
+"party": "Democratic",
+"votes": 51464,
+"pct": 40.4,
 "winner": false
 }
 ]
@@ -4017,23 +4175,23 @@
 "label": "California House District 30",
 "special": false,
 "flipped": false,
-"eevp": 72,
-"lastUpdated": "2026-11-05T01:45:46.042000Z",
+"eevp": 75.31,
+"lastUpdated": "2026-11-05T22:10:53.403000Z",
 "calledAt": "2026-11-04T04:44:55.800Z",
-"totalVotes": 187739,
+"totalVotes": 196370,
 "candidates": [
 {
 "name": "Laura Friedman",
 "party": "Democratic",
-"votes": 142477,
-"pct": 75.9,
+"votes": 149559,
+"pct": 76.2,
 "winner": true
 },
 {
 "name": "Scott Meyers",
 "party": "Republican",
-"votes": 45262,
-"pct": 24.1,
+"votes": 46811,
+"pct": 23.8,
 "winner": false
 }
 ]
@@ -4046,23 +4204,23 @@
 "label": "California House District 31",
 "special": false,
 "flipped": false,
-"eevp": 70.89,
-"lastUpdated": "2026-11-05T01:45:41.364000Z",
+"eevp": 73.11,
+"lastUpdated": "2026-11-05T22:10:52.400000Z",
 "calledAt": "2026-11-04T04:50:02.724Z",
-"totalVotes": 170625,
+"totalVotes": 175946,
 "candidates": [
 {
 "name": "Gil Cisneros",
 "party": "Democratic",
-"votes": 109561,
-"pct": 64.2,
+"votes": 113426,
+"pct": 64.5,
 "winner": true
 },
 {
 "name": "Eric Ching",
 "party": "Republican",
-"votes": 61064,
-"pct": 35.8,
+"votes": 62520,
+"pct": 35.5,
 "winner": false
 }
 ]
@@ -4075,23 +4233,23 @@
 "label": "California House District 32",
 "special": false,
 "flipped": false,
-"eevp": 71.13,
-"lastUpdated": "2026-11-05T01:45:44.668000Z",
+"eevp": 74.51,
+"lastUpdated": "2026-11-05T22:56:28.942000Z",
 "calledAt": "2026-11-04T04:48:12.845Z",
-"totalVotes": 198548,
+"totalVotes": 207982,
 "candidates": [
 {
 "name": "Brad Sherman",
 "party": "Democratic",
-"votes": 131774,
-"pct": 66.4,
+"votes": 138420,
+"pct": 66.6,
 "winner": true
 },
 {
 "name": "Larry Thompson",
 "party": "Republican",
-"votes": 66774,
-"pct": 33.6,
+"votes": 69562,
+"pct": 33.4,
 "winner": false
 }
 ]
@@ -4104,8 +4262,8 @@
 "label": "California House District 33",
 "special": false,
 "flipped": false,
-"eevp": 58.66,
-"lastUpdated": "2026-11-05T01:45:45.410000Z",
+"eevp": 58.67,
+"lastUpdated": "2026-11-05T22:10:51.438000Z",
 "calledAt": "2026-11-04T04:52:28.234Z",
 "totalVotes": 113650,
 "candidates": [
@@ -4133,23 +4291,23 @@
 "label": "California House District 34",
 "special": false,
 "flipped": false,
-"eevp": 72,
-"lastUpdated": "2026-11-05T01:45:41.292000Z",
+"eevp": 75.57,
+"lastUpdated": "2026-11-05T22:10:56.229000Z",
 "calledAt": "2026-11-04T18:11:54.264Z",
-"totalVotes": 120208,
+"totalVotes": 126164,
 "candidates": [
 {
 "name": "Angela Gonzales-Torres",
 "party": "Democratic",
-"votes": 71206,
-"pct": 59.2,
+"votes": 75286,
+"pct": 59.7,
 "winner": true
 },
 {
 "name": "Jimmy Gomez",
 "party": "Democratic",
-"votes": 49002,
-"pct": 40.8,
+"votes": 50878,
+"pct": 40.3,
 "winner": false
 }
 ]
@@ -4162,23 +4320,23 @@
 "label": "California House District 35",
 "special": false,
 "flipped": false,
-"eevp": 58.81,
-"lastUpdated": "2026-11-05T01:45:40.719000Z",
+"eevp": 60.28,
+"lastUpdated": "2026-11-05T22:10:51.889000Z",
 "calledAt": "2026-11-04T05:09:35.262Z",
-"totalVotes": 113896,
+"totalVotes": 114857,
 "candidates": [
 {
 "name": "Norma Torres",
 "party": "Democratic",
-"votes": 74533,
-"pct": 65.4,
+"votes": 75296,
+"pct": 65.6,
 "winner": true
 },
 {
 "name": "Mike Cargile",
 "party": "Republican",
-"votes": 39363,
-"pct": 34.6,
+"votes": 39561,
+"pct": 34.4,
 "winner": false
 }
 ]
@@ -4191,23 +4349,23 @@
 "label": "California House District 36",
 "special": false,
 "flipped": false,
-"eevp": 72,
-"lastUpdated": "2026-11-05T01:45:47.034000Z",
+"eevp": 75.83,
+"lastUpdated": "2026-11-05T22:10:51.631000Z",
 "calledAt": "2026-11-04T04:40:06.574Z",
-"totalVotes": 222940,
+"totalVotes": 234796,
 "candidates": [
 {
 "name": "Ted Lieu",
 "party": "Democratic",
-"votes": 158941,
-"pct": 71.3,
+"votes": 168351,
+"pct": 71.7,
 "winner": true
 },
 {
 "name": "Houston Brignano",
 "party": "Republican",
-"votes": 63999,
-"pct": 28.7,
+"votes": 66445,
+"pct": 28.3,
 "winner": false
 }
 ]
@@ -4220,22 +4378,22 @@
 "label": "California House District 37",
 "special": false,
 "flipped": false,
-"eevp": 72,
-"lastUpdated": "2026-11-05T01:45:42.605000Z",
+"eevp": 76.47,
+"lastUpdated": "2026-11-05T22:10:51.997000Z",
 "calledAt": "2026-11-04T05:34:02.171Z",
-"totalVotes": 126763,
+"totalVotes": 134628,
 "candidates": [
 {
 "name": "Sydney Kamlager-Dove",
 "party": "Democratic",
-"votes": 78568,
+"votes": 83491,
 "pct": 62.0,
 "winner": true
 },
 {
 "name": "Samantha Mota",
 "party": "Democratic",
-"votes": 48195,
+"votes": 51137,
 "pct": 38.0,
 "winner": false
 }
@@ -4249,23 +4407,23 @@
 "label": "California House District 38",
 "special": false,
 "flipped": false,
-"eevp": 71.04,
-"lastUpdated": "2026-11-05T01:45:42.165000Z",
+"eevp": 73.19,
+"lastUpdated": "2026-11-05T22:10:55.175000Z",
 "calledAt": "2026-11-04T04:55:12.583Z",
-"totalVotes": 158308,
+"totalVotes": 163107,
 "candidates": [
 {
 "name": "Hilda Solis",
 "party": "Democratic",
-"votes": 103689,
-"pct": 65.5,
+"votes": 107458,
+"pct": 65.9,
 "winner": true
 },
 {
 "name": "Pedro Casas",
 "party": "Republican",
-"votes": 54619,
-"pct": 34.5,
+"votes": 55649,
+"pct": 34.1,
 "winner": false
 }
 ]
@@ -4278,8 +4436,8 @@
 "label": "California House District 39",
 "special": false,
 "flipped": false,
-"eevp": 49.46,
-"lastUpdated": "2026-11-05T01:45:45.530000Z",
+"eevp": 43,
+"lastUpdated": "2026-11-05T22:10:50.461000Z",
 "calledAt": "2026-11-04T06:11:44.245Z",
 "totalVotes": 82792,
 "candidates": [
@@ -4307,23 +4465,23 @@
 "label": "California House District 41",
 "special": false,
 "flipped": true,
-"eevp": 73.36,
-"lastUpdated": "2026-11-05T01:45:41.010000Z",
+"eevp": 76.71,
+"lastUpdated": "2026-11-05T22:10:51.947000Z",
 "calledAt": "2026-11-04T05:39:23.555Z",
-"totalVotes": 181726,
+"totalVotes": 190041,
 "candidates": [
 {
 "name": "Linda S\u00e1nchez",
 "party": "Democratic",
-"votes": 119039,
-"pct": 65.5,
+"votes": 125248,
+"pct": 65.9,
 "winner": true
 },
 {
 "name": "Mitch Clemmons",
 "party": "Republican",
-"votes": 62687,
-"pct": 34.5,
+"votes": 64793,
+"pct": 34.1,
 "winner": false
 }
 ]
@@ -4336,23 +4494,23 @@
 "label": "California House District 42",
 "special": false,
 "flipped": false,
-"eevp": 69.44,
-"lastUpdated": "2026-11-05T01:45:44.859000Z",
+"eevp": 70.3,
+"lastUpdated": "2026-11-05T22:10:52.674000Z",
 "calledAt": "2026-11-04T06:23:19.545Z",
-"totalVotes": 203551,
+"totalVotes": 206065,
 "candidates": [
 {
 "name": "Robert Garcia",
 "party": "Democratic",
-"votes": 121913,
-"pct": 59.9,
+"votes": 123914,
+"pct": 60.1,
 "winner": true
 },
 {
 "name": "Brian Burley",
 "party": "Republican",
-"votes": 81638,
-"pct": 40.1,
+"votes": 82151,
+"pct": 39.9,
 "winner": false
 }
 ]
@@ -4365,23 +4523,23 @@
 "label": "California House District 43",
 "special": false,
 "flipped": false,
-"eevp": 72,
-"lastUpdated": "2026-11-05T01:45:39.783000Z",
+"eevp": 75.43,
+"lastUpdated": "2026-11-05T22:10:48.797000Z",
 "calledAt": "2026-11-04T04:33:45.205Z",
-"totalVotes": 130689,
+"totalVotes": 136922,
 "candidates": [
 {
 "name": "Maxine Waters",
 "party": "Democratic",
-"votes": 106609,
-"pct": 81.6,
+"votes": 112061,
+"pct": 81.8,
 "winner": true
 },
 {
 "name": "Cristian Morales",
 "party": "Republican",
-"votes": 24080,
-"pct": 18.4,
+"votes": 24861,
+"pct": 18.2,
 "winner": false
 }
 ]
@@ -4394,23 +4552,23 @@
 "label": "California House District 44",
 "special": false,
 "flipped": false,
-"eevp": 72,
-"lastUpdated": "2026-11-05T01:45:48.294000Z",
+"eevp": 74.85,
+"lastUpdated": "2026-11-05T22:10:52.071000Z",
 "calledAt": "2026-11-04T04:35:04.677Z",
-"totalVotes": 127954,
+"totalVotes": 133012,
 "candidates": [
 {
 "name": "Nanette Barragan",
 "party": "Democratic",
-"votes": 102703,
-"pct": 80.3,
+"votes": 106977,
+"pct": 80.4,
 "winner": true
 },
 {
 "name": "Genevieve Angel",
 "party": "Republican",
-"votes": 25251,
-"pct": 19.7,
+"votes": 26035,
+"pct": 19.6,
 "winner": false
 }
 ]
@@ -4423,23 +4581,23 @@
 "label": "California House District 45",
 "special": false,
 "flipped": false,
-"eevp": 68.58,
-"lastUpdated": "2026-11-05T01:45:45.236000Z",
+"eevp": 69.53,
+"lastUpdated": "2026-11-05T22:10:57.672000Z",
 "calledAt": "2026-11-04T06:57:25.358Z",
-"totalVotes": 185103,
+"totalVotes": 187677,
 "candidates": [
 {
 "name": "Derek Tran",
 "party": "Democratic",
-"votes": 109254,
-"pct": 59.0,
+"votes": 111190,
+"pct": 59.2,
 "winner": true
 },
 {
 "name": "Chuong Vo",
 "party": "Republican",
-"votes": 75849,
-"pct": 41.0,
+"votes": 76487,
+"pct": 40.8,
 "winner": false
 }
 ]
@@ -4453,7 +4611,7 @@
 "special": false,
 "flipped": false,
 "eevp": 71.43,
-"lastUpdated": "2026-11-05T01:45:49.005000Z",
+"lastUpdated": "2026-11-05T22:10:56.435000Z",
 "calledAt": "2026-11-04T04:49:41.849Z",
 "totalVotes": 131551,
 "candidates": [
@@ -4482,7 +4640,7 @@
 "special": false,
 "flipped": false,
 "eevp": 62.3,
-"lastUpdated": "2026-11-05T01:45:43.010000Z",
+"lastUpdated": "2026-11-05T22:10:54.068000Z",
 "calledAt": "2026-11-05T01:15:59.925Z",
 "totalVotes": 211442,
 "candidates": [
@@ -4510,8 +4668,8 @@
 "label": "California House District 48",
 "special": false,
 "flipped": true,
-"eevp": 53.72,
-"lastUpdated": "2026-11-05T01:45:42.692000Z",
+"eevp": 52.26,
+"lastUpdated": "2026-11-05T22:10:50.408000Z",
 "calledAt": "2026-11-05T01:32:45.566Z",
 "totalVotes": 160570,
 "candidates": [
@@ -4540,7 +4698,7 @@
 "special": false,
 "flipped": false,
 "eevp": 59.91,
-"lastUpdated": "2026-11-05T01:45:45.689000Z",
+"lastUpdated": "2026-11-05T22:10:58.079000Z",
 "calledAt": "2026-11-04T07:13:34.674Z",
 "totalVotes": 212049,
 "candidates": [
@@ -4569,7 +4727,7 @@
 "special": false,
 "flipped": false,
 "eevp": 60.08,
-"lastUpdated": "2026-11-04T23:01:41.068000Z",
+"lastUpdated": "2026-11-05T22:10:54.356000Z",
 "calledAt": "2026-11-04T06:12:18.732Z",
 "totalVotes": 192876,
 "candidates": [
@@ -4598,7 +4756,7 @@
 "special": false,
 "flipped": false,
 "eevp": 60.21,
-"lastUpdated": "2026-11-04T23:01:43.866000Z",
+"lastUpdated": "2026-11-05T22:10:49.578000Z",
 "calledAt": "2026-11-04T06:07:54.740Z",
 "totalVotes": 172878,
 "candidates": [
@@ -4627,7 +4785,7 @@
 "special": false,
 "flipped": false,
 "eevp": 63.67,
-"lastUpdated": "2026-11-04T23:01:43.343000Z",
+"lastUpdated": "2026-11-05T22:10:55.367000Z",
 "calledAt": "2026-11-04T04:45:51.621Z",
 "totalVotes": 130688,
 "candidates": [
@@ -4655,36 +4813,36 @@
 "label": "Colorado House District 1",
 "special": false,
 "flipped": false,
-"eevp": 78.42,
-"lastUpdated": "2026-11-05T03:28:37.114000Z",
+"eevp": 78.46,
+"lastUpdated": "2026-11-05T20:20:03.683000Z",
 "calledAt": "2026-11-04T02:22:24.627Z",
-"totalVotes": 245909,
+"totalVotes": 246036,
 "candidates": [
 {
 "name": "Melat Kiros",
 "party": "Democratic",
-"votes": 192446,
+"votes": 192544,
 "pct": 78.3,
 "winner": true
 },
 {
 "name": "Christy Peterson",
 "party": "Republican",
-"votes": 34396,
+"votes": 34417,
 "pct": 14.0,
 "winner": false
 },
 {
 "name": "Shimon Blau",
 "party": "Unaffiliated",
-"votes": 14234,
+"votes": 14239,
 "pct": 5.8,
 "winner": false
 },
 {
 "name": "Chad Humphrey",
 "party": "Libertarian",
-"votes": 3968,
+"votes": 3971,
 "pct": 1.6,
 "winner": false
 },
@@ -4705,29 +4863,72 @@
 "label": "Colorado House District 2",
 "special": false,
 "flipped": false,
-"eevp": 83.56,
-"lastUpdated": "2026-11-05T06:18:45.928000Z",
+"eevp": 87.77,
+"lastUpdated": "2026-11-05T22:15:03.801000Z",
 "calledAt": "2026-11-04T02:34:10.952Z",
-"totalVotes": 317769,
+"totalVotes": 333774,
 "candidates": [
 {
 "name": "Joe Neguse",
 "party": "Democratic",
-"votes": 236814,
-"pct": 74.5,
+"votes": 247701,
+"pct": 74.2,
 "winner": true
 },
 {
 "name": "Kelley Dennison",
 "party": "Republican",
-"votes": 75494,
-"pct": 23.8,
+"votes": 80111,
+"pct": 24.0,
 "winner": false
 },
 {
 "name": "Gaylon Kent",
 "party": "Libertarian",
-"votes": 5461,
+"votes": 5962,
+"pct": 1.8,
+"winner": false
+}
+]
+},
+{
+"slug": "co-house-district-5",
+"office": "House",
+"state": "CO",
+"stateName": "Colorado",
+"label": "Colorado House District 5",
+"special": false,
+"flipped": true,
+"eevp": 94,
+"lastUpdated": "2026-11-05T19:38:34.112000Z",
+"calledAt": "2026-11-05T19:38:34.112Z",
+"totalVotes": 278287,
+"candidates": [
+{
+"name": "Jessica Killin",
+"party": "Democratic",
+"votes": 140713,
+"pct": 50.6,
+"winner": true
+},
+{
+"name": "Jeff Crank",
+"party": "Republican",
+"votes": 127946,
+"pct": 46.0,
+"winner": false
+},
+{
+"name": "Mark Elworth",
+"party": "Libertarian",
+"votes": 5032,
+"pct": 1.8,
+"winner": false
+},
+{
+"name": "Christopher Mitchell",
+"party": "AmC",
+"votes": 4596,
 "pct": 1.7,
 "winner": false
 }
@@ -4741,44 +4942,44 @@
 "label": "Colorado House District 6",
 "special": false,
 "flipped": false,
-"eevp": 79.09,
-"lastUpdated": "2026-11-05T03:28:25.532000Z",
+"eevp": 83.97,
+"lastUpdated": "2026-11-05T22:15:17.489000Z",
 "calledAt": "2026-11-04T02:32:27.790Z",
-"totalVotes": 238519,
+"totalVotes": 253076,
 "candidates": [
 {
 "name": "Jason Crow",
 "party": "Democratic",
-"votes": 156990,
-"pct": 65.8,
+"votes": 166121,
+"pct": 65.6,
 "winner": true
 },
 {
 "name": "Jason Clark",
 "party": "Republican",
-"votes": 75109,
-"pct": 31.5,
+"votes": 79877,
+"pct": 31.6,
 "winner": false
 },
 {
 "name": "Patty McMahon",
 "party": "Libertarian",
-"votes": 3309,
+"votes": 3628,
 "pct": 1.4,
 "winner": false
 },
 {
 "name": "Samir Witta",
 "party": "Unaffiliated",
-"votes": 1855,
+"votes": 2046,
 "pct": 0.8,
 "winner": false
 },
 {
 "name": "Meredith Ryan",
 "party": "Uty",
-"votes": 1256,
-"pct": 0.5,
+"votes": 1404,
+"pct": 0.6,
 "winner": false
 }
 ]
@@ -4791,50 +4992,50 @@
 "label": "Colorado House District 7",
 "special": false,
 "flipped": false,
-"eevp": 91.36,
-"lastUpdated": "2026-11-05T03:28:32.908000Z",
+"eevp": 95.84,
+"lastUpdated": "2026-11-05T22:15:19.273000Z",
 "calledAt": "2026-11-04T03:12:06.684Z",
-"totalVotes": 349487,
+"totalVotes": 366341,
 "candidates": [
 {
 "name": "Brittany Pettersen",
 "party": "Democratic",
-"votes": 212195,
+"votes": 222251,
 "pct": 60.7,
 "winner": true
 },
 {
 "name": "Tim Bennett",
 "party": "Republican",
-"votes": 126967,
+"votes": 132885,
 "pct": 36.3,
 "winner": false
 },
 {
 "name": "Joe Krzeczkowski",
 "party": "Unaffiliated",
-"votes": 3977,
-"pct": 1.1,
+"votes": 4288,
+"pct": 1.2,
 "winner": false
 },
 {
 "name": "Dan Sallis",
 "party": "Libertarian",
-"votes": 3639,
-"pct": 1.0,
+"votes": 3962,
+"pct": 1.1,
 "winner": false
 },
 {
 "name": "Susan Hall",
 "party": "Uty",
-"votes": 1557,
-"pct": 0.4,
+"votes": 1702,
+"pct": 0.5,
 "winner": false
 },
 {
 "name": "Lawrence Clark",
 "party": "AmC",
-"votes": 1152,
+"votes": 1253,
 "pct": 0.3,
 "winner": false
 }
@@ -4848,30 +5049,30 @@
 "label": "Colorado House District 8",
 "special": false,
 "flipped": true,
-"eevp": 90.72,
-"lastUpdated": "2026-11-05T06:18:39.401000Z",
+"eevp": 98.45,
+"lastUpdated": "2026-11-05T22:15:18.104000Z",
 "calledAt": "2026-11-04T04:49:24.111Z",
-"totalVotes": 251525,
+"totalVotes": 275046,
 "candidates": [
 {
 "name": "Manny Rutinel",
 "party": "Democratic",
-"votes": 137200,
-"pct": 54.5,
+"votes": 150941,
+"pct": 54.9,
 "winner": true
 },
 {
 "name": "Gabe Evans",
 "party": "Republican",
-"votes": 104702,
-"pct": 41.6,
+"votes": 113417,
+"pct": 41.2,
 "winner": false
 },
 {
 "name": "Dave Wood",
 "party": "Libertarian",
-"votes": 9623,
-"pct": 3.8,
+"votes": 10688,
+"pct": 3.9,
 "winner": false
 }
 ]
@@ -4884,29 +5085,29 @@
 "label": "Connecticut House District 1",
 "special": false,
 "flipped": false,
-"eevp": 91.8,
-"lastUpdated": "2026-11-04T23:51:43.417000Z",
+"eevp": 98.52,
+"lastUpdated": "2026-11-05T22:44:07.769000Z",
 "calledAt": "2026-11-04T04:04:31.485Z",
-"totalVotes": 237496,
+"totalVotes": 254059,
 "candidates": [
 {
 "name": "Luke Bronin",
 "party": "Democratic",
-"votes": 155787,
-"pct": 65.6,
+"votes": 170455,
+"pct": 67.1,
 "winner": true
 },
 {
 "name": "Amy Chai",
 "party": "Republican",
-"votes": 77744,
-"pct": 32.7,
+"votes": 79169,
+"pct": 31.2,
 "winner": false
 },
 {
 "name": "Mary Sanders",
 "party": "Green",
-"votes": 3965,
+"votes": 4435,
 "pct": 1.7,
 "winner": false
 }
@@ -4920,22 +5121,22 @@
 "label": "Connecticut House District 2",
 "special": false,
 "flipped": false,
-"eevp": 95.06,
-"lastUpdated": "2026-11-05T01:04:45.958000Z",
+"eevp": 98.31,
+"lastUpdated": "2026-11-05T22:32:13.200000Z",
 "calledAt": "2026-11-04T03:54:14.040Z",
-"totalVotes": 281536,
+"totalVotes": 290049,
 "candidates": [
 {
 "name": "Joe Courtney",
 "party": "Democratic",
-"votes": 175794,
+"votes": 180961,
 "pct": 62.4,
 "winner": true
 },
 {
 "name": "George Austin",
 "party": "Republican",
-"votes": 105742,
+"votes": 109088,
 "pct": 37.6,
 "winner": false
 }
@@ -4949,30 +5150,30 @@
 "label": "Connecticut House District 3",
 "special": false,
 "flipped": false,
-"eevp": 98.46,
-"lastUpdated": "2026-11-05T04:56:42.139000Z",
+"eevp": 97.53,
+"lastUpdated": "2026-11-05T22:56:11.148000Z",
 "calledAt": "2026-11-04T04:42:04.756Z",
-"totalVotes": 240467,
+"totalVotes": 239917,
 "candidates": [
 {
 "name": "Rosa DeLauro",
 "party": "Democratic",
-"votes": 145229,
-"pct": 60.4,
+"votes": 145270,
+"pct": 60.6,
 "winner": true
 },
 {
 "name": "Christopher Lancia",
 "party": "Republican",
-"votes": 87561,
-"pct": 36.4,
+"votes": 87571,
+"pct": 36.5,
 "winner": false
 },
 {
 "name": "Thomas Egan",
 "party": "IP",
-"votes": 7677,
-"pct": 3.2,
+"votes": 7076,
+"pct": 2.9,
 "winner": false
 }
 ]
@@ -4985,29 +5186,29 @@
 "label": "Connecticut House District 4",
 "special": false,
 "flipped": false,
-"eevp": 98.27,
-"lastUpdated": "2026-11-05T01:28:48.150000Z",
+"eevp": 98.41,
+"lastUpdated": "2026-11-05T21:09:17.143000Z",
 "calledAt": "2026-11-04T02:55:14.618Z",
-"totalVotes": 239654,
+"totalVotes": 239987,
 "candidates": [
 {
 "name": "Jim Himes",
 "party": "Democratic",
-"votes": 157036,
-"pct": 65.5,
+"votes": 157364,
+"pct": 65.6,
 "winner": true
 },
 {
 "name": "Michael Goldstein",
 "party": "Republican",
-"votes": 78031,
-"pct": 32.6,
+"votes": 78033,
+"pct": 32.5,
 "winner": false
 },
 {
 "name": "Benjamin Wesley",
 "party": "IP",
-"votes": 4587,
+"votes": 4590,
 "pct": 1.9,
 "winner": false
 }
@@ -5021,23 +5222,23 @@
 "label": "Connecticut House District 5",
 "special": false,
 "flipped": false,
-"eevp": 94.21,
-"lastUpdated": "2026-11-04T23:04:46.695000Z",
+"eevp": 98.6,
+"lastUpdated": "2026-11-05T22:02:14.300000Z",
 "calledAt": "2026-11-04T04:59:57.219Z",
-"totalVotes": 241473,
+"totalVotes": 253035,
 "candidates": [
 {
 "name": "Jahana Hayes",
 "party": "Democratic",
-"votes": 140184,
-"pct": 58.1,
+"votes": 146375,
+"pct": 57.8,
 "winner": true
 },
 {
 "name": "Chris Shea",
 "party": "Republican",
-"votes": 101289,
-"pct": 41.9,
+"votes": 106660,
+"pct": 42.2,
 "winner": false
 }
 ]
@@ -5051,7 +5252,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T16:09:18.412000Z",
+"lastUpdated": "2026-11-05T20:08:57.243000Z",
 "calledAt": "2026-11-04T01:50:26.609Z",
 "totalVotes": 378433,
 "candidates": [
@@ -5080,7 +5281,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:55:08.311000Z",
+"lastUpdated": "2026-11-05T19:36:14.360000Z",
 "calledAt": "2026-11-04T01:35:27.858Z",
 "totalVotes": 290474,
 "candidates": [
@@ -5116,7 +5317,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:15:50.314000Z",
+"lastUpdated": "2026-11-05T22:28:52.300000Z",
 "calledAt": "2026-11-04T01:52:52.121Z",
 "totalVotes": 308760,
 "candidates": [
@@ -5145,7 +5346,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:52:52.214000Z",
+"lastUpdated": "2026-11-05T22:56:05.832000Z",
 "calledAt": "2026-11-04T01:32:27.187Z",
 "totalVotes": 299778,
 "candidates": [
@@ -5181,7 +5382,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:15:41.856000Z",
+"lastUpdated": "2026-11-05T22:36:56.027000Z",
 "calledAt": "2026-11-04T01:51:37.500Z",
 "totalVotes": 300932,
 "candidates": [
@@ -5224,21 +5425,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:15:41.949000Z",
+"lastUpdated": "2026-11-05T17:51:00.026000Z",
 "calledAt": "2026-11-04T00:38:45.451Z",
-"totalVotes": 333038,
+"totalVotes": 333111,
 "candidates": [
 {
 "name": "John Rutherford",
 "party": "Republican",
-"votes": 187917,
+"votes": 187951,
 "pct": 56.4,
 "winner": true
 },
 {
 "name": "Rachel Grage",
 "party": "Democratic",
-"votes": 145121,
+"votes": 145160,
 "pct": 43.6,
 "winner": false
 }
@@ -5253,7 +5454,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:53:37.780000Z",
+"lastUpdated": "2026-11-05T18:12:46.053000Z",
 "calledAt": "2026-11-04T01:00:47.762Z",
 "totalVotes": 331241,
 "candidates": [
@@ -5289,7 +5490,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:21:59.602000Z",
+"lastUpdated": "2026-11-05T18:09:32.229000Z",
 "calledAt": "2026-11-04T01:01:58.406Z",
 "totalVotes": 319449,
 "candidates": [
@@ -5340,7 +5541,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:37:59.668000Z",
+"lastUpdated": "2026-11-05T21:32:38.038000Z",
 "calledAt": "2026-11-04T01:05:15.254Z",
 "totalVotes": 365581,
 "candidates": [
@@ -5376,7 +5577,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:45:35.726000Z",
+"lastUpdated": "2026-11-05T21:41:37.746000Z",
 "calledAt": "2026-11-04T00:59:41.659Z",
 "totalVotes": 285838,
 "candidates": [
@@ -5404,6 +5605,42 @@
 ]
 },
 {
+"slug": "fl-house-district-13",
+"office": "House",
+"state": "FL",
+"stateName": "Florida",
+"label": "Florida House District 13",
+"special": false,
+"flipped": false,
+"eevp": 99,
+"lastUpdated": "2026-11-05T19:38:55.301000Z",
+"calledAt": "2026-11-05T19:38:55.301Z",
+"totalVotes": 313496,
+"candidates": [
+{
+"name": "Anna Luna",
+"party": "Republican",
+"votes": 155117,
+"pct": 49.5,
+"winner": true
+},
+{
+"name": "Leela Gray",
+"party": "Democratic",
+"votes": 152600,
+"pct": 48.7,
+"winner": false
+},
+{
+"name": "Tony D'Arrigo",
+"party": "No party affiliation",
+"votes": 5779,
+"pct": 1.8,
+"winner": false
+}
+]
+},
+{
 "slug": "fl-house-district-14",
 "office": "House",
 "state": "FL",
@@ -5412,7 +5649,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:33:45.005000Z",
+"lastUpdated": "2026-11-05T21:41:37.835000Z",
 "calledAt": "2026-11-04T01:13:10.744Z",
 "totalVotes": 299915,
 "candidates": [
@@ -5448,7 +5685,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:45:43.372000Z",
+"lastUpdated": "2026-11-05T21:41:37.992000Z",
 "calledAt": "2026-11-04T01:09:38.475Z",
 "totalVotes": 300641,
 "candidates": [
@@ -5477,7 +5714,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:45:56.294000Z",
+"lastUpdated": "2026-11-05T19:38:51.939000Z",
 "calledAt": "2026-11-04T01:39:07.512Z",
 "totalVotes": 342729,
 "candidates": [
@@ -5513,7 +5750,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:50:45.744000Z",
+"lastUpdated": "2026-11-05T16:24:20.771000Z",
 "calledAt": "2026-11-04T00:46:58.943Z",
 "totalVotes": 357633,
 "candidates": [
@@ -5549,7 +5786,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:47:15.849000Z",
+"lastUpdated": "2026-11-05T16:24:21.218000Z",
 "calledAt": "2026-11-04T02:37:07.257Z",
 "totalVotes": 273264,
 "candidates": [
@@ -5585,7 +5822,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:38:33.183000Z",
+"lastUpdated": "2026-11-05T16:24:25.439000Z",
 "calledAt": "2026-11-04T00:16:55.306Z",
 "totalVotes": 325015,
 "candidates": [
@@ -5621,7 +5858,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:11:24.932000Z",
+"lastUpdated": "2026-11-05T16:24:27.568000Z",
 "calledAt": "2026-11-04T00:09:03.412Z",
 "totalVotes": 245505,
 "candidates": [
@@ -5657,7 +5894,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:49:26.105000Z",
+"lastUpdated": "2026-11-05T16:24:23.846000Z",
 "calledAt": "2026-11-04T01:13:02.479Z",
 "totalVotes": 340657,
 "candidates": [
@@ -5693,7 +5930,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:36:07.226000Z",
+"lastUpdated": "2026-11-05T16:24:21.537000Z",
 "calledAt": "2026-11-04T02:11:34.875Z",
 "totalVotes": 294933,
 "candidates": [
@@ -5722,7 +5959,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:35:59.274000Z",
+"lastUpdated": "2026-11-05T16:24:21.273000Z",
 "calledAt": "2026-11-04T00:34:27.926Z",
 "totalVotes": 258707,
 "candidates": [
@@ -5751,21 +5988,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:16:00.776000Z",
+"lastUpdated": "2026-11-05T22:26:48.669000Z",
 "calledAt": "2026-11-04T00:16:24.918Z",
-"totalVotes": 204361,
+"totalVotes": 204374,
 "candidates": [
 {
 "name": "Oliver Gilbert",
 "party": "Democratic",
-"votes": 164825,
+"votes": 164837,
 "pct": 80.7,
 "winner": true
 },
 {
 "name": "Te Brown",
 "party": "Republican",
-"votes": 39536,
+"votes": 39537,
 "pct": 19.3,
 "winner": false
 }
@@ -5780,21 +6017,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:16:00.858000Z",
+"lastUpdated": "2026-11-05T22:26:54.048000Z",
 "calledAt": "2026-11-04T01:07:33.679Z",
-"totalVotes": 280420,
+"totalVotes": 280431,
 "candidates": [
 {
 "name": "Jared Moskowitz",
 "party": "Democratic",
-"votes": 143755,
+"votes": 143763,
 "pct": 51.3,
 "winner": true
 },
 {
 "name": "Scott Singer",
 "party": "Republican",
-"votes": 130789,
+"votes": 130792,
 "pct": 46.6,
 "winner": false
 },
@@ -5816,21 +6053,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:16:01.320000Z",
+"lastUpdated": "2026-11-05T22:26:50.640000Z",
 "calledAt": "2026-11-04T00:55:15.431Z",
-"totalVotes": 236269,
+"totalVotes": 236285,
 "candidates": [
 {
 "name": "Carlos Gimenez",
 "party": "Republican",
-"votes": 124984,
+"votes": 124988,
 "pct": 52.9,
 "winner": true
 },
 {
 "name": "Phil Ehr",
 "party": "Democratic",
-"votes": 107842,
+"votes": 107854,
 "pct": 45.6,
 "winner": false
 },
@@ -5852,7 +6089,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:02:02.699000Z",
+"lastUpdated": "2026-11-05T18:57:12.356000Z",
 "calledAt": "2026-11-04T05:14:38.399Z",
 "totalVotes": 272681,
 "candidates": [
@@ -5881,21 +6118,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:32:38.830000Z",
+"lastUpdated": "2026-11-05T22:28:12.723000Z",
 "calledAt": "2026-11-04T00:59:07.999Z",
-"totalVotes": 243456,
+"totalVotes": 243459,
 "candidates": [
 {
 "name": "Sanford Bishop",
 "party": "Democratic",
-"votes": 148193,
+"votes": 148195,
 "pct": 60.9,
 "winner": true
 },
 {
 "name": "Matt Day",
 "party": "Republican",
-"votes": 95263,
+"votes": 95264,
 "pct": 39.1,
 "winner": false
 }
@@ -5910,7 +6147,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:01:00.219000Z",
+"lastUpdated": "2026-11-05T22:38:03.692000Z",
 "calledAt": "2026-11-04T01:59:18.552Z",
 "totalVotes": 321689,
 "candidates": [
@@ -5939,7 +6176,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:49:17.579000Z",
+"lastUpdated": "2026-11-05T22:27:10.175000Z",
 "calledAt": "2026-11-04T00:38:33.758Z",
 "totalVotes": 262763,
 "candidates": [
@@ -5967,8 +6204,8 @@
 "label": "Georgia House District 5",
 "special": false,
 "flipped": false,
-"eevp": 98.93,
-"lastUpdated": "2026-11-04T21:46:17.155000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T22:35:51.651000Z",
 "calledAt": "2026-11-04T00:24:24.416Z",
 "totalVotes": 304461,
 "candidates": [
@@ -5996,8 +6233,8 @@
 "label": "Georgia House District 6",
 "special": false,
 "flipped": false,
-"eevp": 98.73,
-"lastUpdated": "2026-11-04T21:46:20.486000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T22:35:30.372000Z",
 "calledAt": "2026-11-04T00:34:12.075Z",
 "totalVotes": 326129,
 "candidates": [
@@ -6025,8 +6262,8 @@
 "label": "Georgia House District 7",
 "special": false,
 "flipped": false,
-"eevp": 98.39,
-"lastUpdated": "2026-11-04T21:46:17.255000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T18:31:53.081000Z",
 "calledAt": "2026-11-04T02:32:39.318Z",
 "totalVotes": 340862,
 "candidates": [
@@ -6055,21 +6292,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:04:46.555000Z",
+"lastUpdated": "2026-11-05T22:36:25.587000Z",
 "calledAt": "2026-11-04T01:28:13.912Z",
-"totalVotes": 264650,
+"totalVotes": 264982,
 "candidates": [
 {
 "name": "Austin Scott",
 "party": "Republican",
-"votes": 159798,
+"votes": 160114,
 "pct": 60.4,
 "winner": true
 },
 {
 "name": "Kelly Esti",
 "party": "Democratic",
-"votes": 104852,
+"votes": 104868,
 "pct": 39.6,
 "winner": false
 }
@@ -6084,7 +6321,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:49:17.591000Z",
+"lastUpdated": "2026-11-05T22:27:06.814000Z",
 "calledAt": "2026-11-04T01:10:46.450Z",
 "totalVotes": 308412,
 "candidates": [
@@ -6113,7 +6350,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:49:16.799000Z",
+"lastUpdated": "2026-11-05T22:27:05.028000Z",
 "calledAt": "2026-11-04T02:54:21.704Z",
 "totalVotes": 325175,
 "candidates": [
@@ -6149,14 +6386,14 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:22:07.484000Z",
+"lastUpdated": "2026-11-05T22:35:30.632000Z",
 "calledAt": "2026-11-04T03:17:48.781Z",
-"totalVotes": 329020,
+"totalVotes": 329021,
 "candidates": [
 {
 "name": "John Cowan",
 "party": "Republican",
-"votes": 182159,
+"votes": 182160,
 "pct": 55.4,
 "winner": true
 },
@@ -6184,15 +6421,15 @@
 "label": "Georgia House District 12",
 "special": false,
 "flipped": false,
-"eevp": 98.29,
-"lastUpdated": "2026-11-04T19:42:52.152000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T19:30:41.748000Z",
 "calledAt": "2026-11-04T03:57:29.693Z",
-"totalVotes": 270342,
+"totalVotes": 270343,
 "candidates": [
 {
 "name": "Rick Allen",
 "party": "Republican",
-"votes": 140842,
+"votes": 140843,
 "pct": 52.1,
 "winner": true
 },
@@ -6214,7 +6451,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:49:17.611000Z",
+"lastUpdated": "2026-11-05T22:35:51.483000Z",
 "calledAt": "2026-11-04T00:21:31.239Z",
 "totalVotes": 310587,
 "candidates": [
@@ -6250,7 +6487,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T15:04:00.813000Z",
+"lastUpdated": "2026-11-05T22:37:30.624000Z",
 "calledAt": "2026-11-04T01:55:35.989Z",
 "totalVotes": 287088,
 "candidates": [
@@ -6286,7 +6523,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-05T07:53:47.100000Z",
+"lastUpdated": "2026-11-05T22:48:19.927000Z",
 "calledAt": "2026-11-04T06:21:07.633Z",
 "totalVotes": 175575,
 "candidates": [
@@ -6329,7 +6566,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-05T07:54:39.162000Z",
+"lastUpdated": "2026-11-05T22:48:59.923000Z",
 "calledAt": "2026-11-04T06:18:30.825Z",
 "totalVotes": 194717,
 "candidates": [
@@ -6358,35 +6595,35 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:27:39.407000Z",
+"lastUpdated": "2026-11-05T22:52:30.637000Z",
 "calledAt": "2026-11-04T04:43:54.852Z",
-"totalVotes": 379004,
+"totalVotes": 379048,
 "candidates": [
 {
 "name": "Russ Fulcher",
 "party": "Republican",
-"votes": 243591,
+"votes": 243645,
 "pct": 64.3,
 "winner": true
 },
 {
 "name": "Kaylee Peterson",
 "party": "Democratic",
-"votes": 108996,
+"votes": 108990,
 "pct": 28.8,
 "winner": false
 },
 {
 "name": "Sarah Zabel",
 "party": "Independent",
-"votes": 23004,
+"votes": 23001,
 "pct": 6.1,
 "winner": false
 },
 {
 "name": "Brendan Gomez",
 "party": "Constitution",
-"votes": 3413,
+"votes": 3412,
 "pct": 0.9,
 "winner": false
 }
@@ -6401,7 +6638,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.75,
-"lastUpdated": "2026-11-04T19:15:01.402000Z",
+"lastUpdated": "2026-11-05T22:52:38.133000Z",
 "calledAt": "2026-11-04T08:49:18.630Z",
 "totalVotes": 330398,
 "candidates": [
@@ -6450,23 +6687,23 @@
 "label": "Illinois House District 1",
 "special": false,
 "flipped": false,
-"eevp": 81.61,
-"lastUpdated": "2026-11-04T22:46:47.184000Z",
+"eevp": 82.27,
+"lastUpdated": "2026-11-05T19:59:54.445000Z",
 "calledAt": "2026-11-04T01:58:49.240Z",
-"totalVotes": 218137,
+"totalVotes": 219894,
 "candidates": [
 {
 "name": "Jonathan Jackson",
 "party": "Democratic",
-"votes": 153398,
-"pct": 70.3,
+"votes": 155065,
+"pct": 70.5,
 "winner": true
 },
 {
 "name": "Christian Maxwell",
 "party": "Republican",
-"votes": 64739,
-"pct": 29.7,
+"votes": 64829,
+"pct": 29.5,
 "winner": false
 }
 ]
@@ -6479,23 +6716,23 @@
 "label": "Illinois House District 2",
 "special": false,
 "flipped": false,
-"eevp": 84.93,
-"lastUpdated": "2026-11-04T22:55:41.745000Z",
+"eevp": 85.3,
+"lastUpdated": "2026-11-05T19:59:43.791000Z",
 "calledAt": "2026-11-04T01:55:27.549Z",
-"totalVotes": 208343,
+"totalVotes": 209240,
 "candidates": [
 {
 "name": "Donna Miller",
 "party": "Democratic",
-"votes": 151587,
-"pct": 72.8,
+"votes": 152448,
+"pct": 72.9,
 "winner": true
 },
 {
 "name": "Michael Noack",
 "party": "Republican",
-"votes": 56756,
-"pct": 27.2,
+"votes": 56792,
+"pct": 27.1,
 "winner": false
 }
 ]
@@ -6509,14 +6746,14 @@
 "special": false,
 "flipped": false,
 "eevp": 80.72,
-"lastUpdated": "2026-11-04T22:46:47.155000Z",
+"lastUpdated": "2026-11-05T19:59:46.040000Z",
 "calledAt": "2026-11-04T03:00:08.631Z",
-"totalVotes": 180783,
+"totalVotes": 180787,
 "candidates": [
 {
 "name": "Delia Ramirez",
 "party": "Democratic",
-"votes": 137104,
+"votes": 137108,
 "pct": 75.8,
 "winner": true
 },
@@ -6537,36 +6774,36 @@
 "label": "Illinois House District 4",
 "special": false,
 "flipped": false,
-"eevp": 82.31,
-"lastUpdated": "2026-11-04T22:46:46.680000Z",
+"eevp": 82.56,
+"lastUpdated": "2026-11-05T19:59:44.844000Z",
 "calledAt": "2026-11-04T02:42:38.129Z",
-"totalVotes": 151780,
+"totalVotes": 152234,
 "candidates": [
 {
 "name": "Patty Garcia",
 "party": "Democratic",
-"votes": 107643,
-"pct": 70.9,
+"votes": 108028,
+"pct": 71.0,
 "winner": true
 },
 {
 "name": "Lupe Castillo",
 "party": "Republican",
-"votes": 24681,
-"pct": 16.3,
+"votes": 24718,
+"pct": 16.2,
 "winner": false
 },
 {
 "name": "Chris Getty",
 "party": "Independent",
-"votes": 14129,
+"votes": 14151,
 "pct": 9.3,
 "winner": false
 },
 {
 "name": "Ed Hershey",
 "party": "Working Class",
-"votes": 5327,
+"votes": 5337,
 "pct": 3.5,
 "winner": false
 }
@@ -6581,21 +6818,21 @@
 "special": false,
 "flipped": false,
 "eevp": 92.35,
-"lastUpdated": "2026-11-04T22:46:47.201000Z",
+"lastUpdated": "2026-11-05T19:59:42.998000Z",
 "calledAt": "2026-11-04T02:09:33.222Z",
-"totalVotes": 241878,
+"totalVotes": 241897,
 "candidates": [
 {
 "name": "Mike Quigley",
 "party": "Democratic",
-"votes": 182716,
+"votes": 182732,
 "pct": 75.5,
 "winner": true
 },
 {
 "name": "Tommy Hanson",
 "party": "Republican",
-"votes": 59162,
+"votes": 59165,
 "pct": 24.5,
 "winner": false
 }
@@ -6609,22 +6846,22 @@
 "label": "Illinois House District 6",
 "special": false,
 "flipped": false,
-"eevp": 92.12,
-"lastUpdated": "2026-11-04T22:46:43.924000Z",
+"eevp": 92.4,
+"lastUpdated": "2026-11-05T19:59:42.921000Z",
 "calledAt": "2026-11-04T03:37:12.313Z",
-"totalVotes": 252922,
+"totalVotes": 253686,
 "candidates": [
 {
 "name": "Sean Casten",
 "party": "Democratic",
-"votes": 158082,
+"votes": 158514,
 "pct": 62.5,
 "winner": true
 },
 {
 "name": "Niki Conforti",
 "party": "Republican",
-"votes": 94840,
+"votes": 95172,
 "pct": 37.5,
 "winner": false
 }
@@ -6638,23 +6875,23 @@
 "label": "Illinois House District 7",
 "special": false,
 "flipped": false,
-"eevp": 74.6,
-"lastUpdated": "2026-11-04T22:46:47.217000Z",
+"eevp": 74.89,
+"lastUpdated": "2026-11-05T19:59:44.030000Z",
 "calledAt": "2026-11-04T01:54:24.491Z",
-"totalVotes": 182362,
+"totalVotes": 183079,
 "candidates": [
 {
 "name": "La Shawn Ford",
 "party": "Democratic",
-"votes": 162350,
-"pct": 89.0,
+"votes": 163037,
+"pct": 89.1,
 "winner": true
 },
 {
 "name": "Chad Koppie",
 "party": "Republican",
-"votes": 20012,
-"pct": 11.0,
+"votes": 20042,
+"pct": 10.9,
 "winner": false
 }
 ]
@@ -6667,23 +6904,23 @@
 "label": "Illinois House District 8",
 "special": false,
 "flipped": false,
-"eevp": 76.3,
-"lastUpdated": "2026-11-04T22:46:41.146000Z",
+"eevp": 88.59,
+"lastUpdated": "2026-11-05T20:19:59.129000Z",
 "calledAt": "2026-11-04T02:31:20.001Z",
-"totalVotes": 179837,
+"totalVotes": 208816,
 "candidates": [
 {
 "name": "Melissa Bean",
 "party": "Democratic",
-"votes": 116575,
-"pct": 64.8,
+"votes": 133210,
+"pct": 63.8,
 "winner": true
 },
 {
 "name": "Jennifer Davis",
 "party": "Republican",
-"votes": 63262,
-"pct": 35.2,
+"votes": 75606,
+"pct": 36.2,
 "winner": false
 }
 ]
@@ -6696,22 +6933,22 @@
 "label": "Illinois House District 9",
 "special": false,
 "flipped": false,
-"eevp": 94.17,
-"lastUpdated": "2026-11-04T22:46:46.632000Z",
+"eevp": 94.18,
+"lastUpdated": "2026-11-05T19:59:48.154000Z",
 "calledAt": "2026-11-04T01:50:30.692Z",
-"totalVotes": 242632,
+"totalVotes": 242658,
 "candidates": [
 {
 "name": "Daniel Biss",
 "party": "Democratic",
-"votes": 184004,
+"votes": 184028,
 "pct": 75.8,
 "winner": true
 },
 {
 "name": "John Elleson",
 "party": "Republican",
-"votes": 58628,
+"votes": 58630,
 "pct": 24.2,
 "winner": false
 }
@@ -6726,14 +6963,14 @@
 "special": false,
 "flipped": false,
 "eevp": 96.21,
-"lastUpdated": "2026-11-04T22:40:48.170000Z",
+"lastUpdated": "2026-11-05T19:59:51.897000Z",
 "calledAt": "2026-11-04T04:02:02.144Z",
-"totalVotes": 230432,
+"totalVotes": 230441,
 "candidates": [
 {
 "name": "Brad Schneider",
 "party": "Democratic",
-"votes": 160849,
+"votes": 160858,
 "pct": 69.8,
 "winner": true
 },
@@ -6754,23 +6991,23 @@
 "label": "Illinois House District 11",
 "special": false,
 "flipped": false,
-"eevp": 83.11,
-"lastUpdated": "2026-11-04T22:44:14.992000Z",
+"eevp": 95.36,
+"lastUpdated": "2026-11-05T20:19:59.841000Z",
 "calledAt": "2026-11-04T02:38:07.068Z",
-"totalVotes": 230060,
+"totalVotes": 263975,
 "candidates": [
 {
 "name": "Bill Foster",
 "party": "Democratic",
-"votes": 150391,
-"pct": 65.4,
+"votes": 169353,
+"pct": 64.2,
 "winner": true
 },
 {
 "name": "Jeff Walter",
 "party": "Republican",
-"votes": 79669,
-"pct": 34.6,
+"votes": 94622,
+"pct": 35.8,
 "winner": false
 }
 ]
@@ -6841,23 +7078,23 @@
 "label": "Illinois House District 14",
 "special": false,
 "flipped": false,
-"eevp": 93.16,
-"lastUpdated": "2026-11-04T22:44:34.322000Z",
+"eevp": 96.43,
+"lastUpdated": "2026-11-05T20:40:14.224000Z",
 "calledAt": "2026-11-04T03:34:13.213Z",
-"totalVotes": 236857,
+"totalVotes": 245166,
 "candidates": [
 {
 "name": "Lauren Underwood",
 "party": "Democratic",
-"votes": 148101,
-"pct": 62.5,
+"votes": 153408,
+"pct": 62.6,
 "winner": true
 },
 {
 "name": "James Marter",
 "party": "Republican",
-"votes": 88756,
-"pct": 37.5,
+"votes": 91758,
+"pct": 37.4,
 "winner": false
 }
 ]
@@ -6899,23 +7136,23 @@
 "label": "Illinois House District 16",
 "special": false,
 "flipped": false,
-"eevp": 92.87,
-"lastUpdated": "2026-11-04T22:55:41.651000Z",
+"eevp": 93.86,
+"lastUpdated": "2026-11-05T20:30:14.966000Z",
 "calledAt": "2026-11-04T03:01:09.857Z",
-"totalVotes": 291405,
+"totalVotes": 294511,
 "candidates": [
 {
 "name": "Darin LaHood",
 "party": "Republican",
-"votes": 170760,
-"pct": 58.6,
+"votes": 173191,
+"pct": 58.8,
 "winner": true
 },
 {
 "name": "Paul Nolley",
 "party": "Democratic",
-"votes": 120645,
-"pct": 41.4,
+"votes": 121320,
+"pct": 41.2,
 "winner": false
 }
 ]
@@ -6929,7 +7166,7 @@
 "special": false,
 "flipped": false,
 "eevp": 95.03,
-"lastUpdated": "2026-11-04T22:47:01.838000Z",
+"lastUpdated": "2026-11-05T20:30:15.043000Z",
 "calledAt": "2026-11-04T02:48:31.642Z",
 "totalVotes": 235467,
 "candidates": [
@@ -6957,8 +7194,8 @@
 "label": "Indiana House District 1",
 "special": false,
 "flipped": false,
-"eevp": 96.05,
-"lastUpdated": "2026-11-04T20:32:42.257000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T16:37:09.554000Z",
 "calledAt": "2026-11-04T03:18:26.184Z",
 "totalVotes": 225681,
 "candidates": [
@@ -6986,8 +7223,8 @@
 "label": "Indiana House District 2",
 "special": false,
 "flipped": false,
-"eevp": 97.14,
-"lastUpdated": "2026-11-04T20:13:39.472000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T17:14:36.832000Z",
 "calledAt": "2026-11-04T07:54:36.982Z",
 "totalVotes": 193229,
 "candidates": [
@@ -7022,8 +7259,8 @@
 "label": "Indiana House District 3",
 "special": false,
 "flipped": false,
-"eevp": 98.31,
-"lastUpdated": "2026-11-04T22:57:27.697000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T22:32:53.850000Z",
 "calledAt": "2026-11-04T04:05:08.960Z",
 "totalVotes": 199872,
 "candidates": [
@@ -7051,15 +7288,15 @@
 "label": "Indiana House District 4",
 "special": false,
 "flipped": false,
-"eevp": 98.92,
-"lastUpdated": "2026-11-04T22:55:03.994000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T20:26:01.671000Z",
 "calledAt": "2026-11-04T04:44:26.877Z",
-"totalVotes": 212155,
+"totalVotes": 212156,
 "candidates": [
 {
 "name": "Jim Baird",
 "party": "Republican",
-"votes": 115013,
+"votes": 115014,
 "pct": 54.2,
 "winner": true
 },
@@ -7080,8 +7317,8 @@
 "label": "Indiana House District 5",
 "special": false,
 "flipped": true,
-"eevp": 98.98,
-"lastUpdated": "2026-11-04T17:05:55.608000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T20:14:14.396000Z",
 "calledAt": "2026-11-04T06:03:32.370Z",
 "totalVotes": 260327,
 "candidates": [
@@ -7109,8 +7346,8 @@
 "label": "Indiana House District 6",
 "special": false,
 "flipped": false,
-"eevp": 98.52,
-"lastUpdated": "2026-11-04T23:38:00.817000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T17:42:19.052000Z",
 "calledAt": "2026-11-04T04:43:25.931Z",
 "totalVotes": 201692,
 "candidates": [
@@ -7139,7 +7376,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T23:38:03.089000Z",
+"lastUpdated": "2026-11-05T15:53:10.352000Z",
 "calledAt": "2026-11-04T01:38:28.530Z",
 "totalVotes": 206871,
 "candidates": [
@@ -7174,22 +7411,22 @@
 "label": "Indiana House District 8",
 "special": false,
 "flipped": false,
-"eevp": 97.97,
-"lastUpdated": "2026-11-04T22:55:36.364000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T21:05:00.512000Z",
 "calledAt": "2026-11-04T02:21:38.269Z",
-"totalVotes": 212709,
+"totalVotes": 212984,
 "candidates": [
 {
 "name": "Mark Messmer",
 "party": "Republican",
-"votes": 117503,
+"votes": 117667,
 "pct": 55.2,
 "winner": true
 },
 {
 "name": "Mary Allen",
 "party": "Democratic",
-"votes": 95206,
+"votes": 95317,
 "pct": 44.8,
 "winner": false
 }
@@ -7203,8 +7440,8 @@
 "label": "Indiana House District 9",
 "special": false,
 "flipped": false,
-"eevp": 98.64,
-"lastUpdated": "2026-11-04T21:06:05.266000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T16:36:02.412000Z",
 "calledAt": "2026-11-04T04:50:56.091Z",
 "totalVotes": 226336,
 "candidates": [
@@ -7240,7 +7477,7 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-05T01:14:59.665000Z",
+"lastUpdated": "2026-11-05T13:45:26.833000Z",
 "calledAt": "2026-11-04T05:08:30.903Z",
 "totalVotes": 345470,
 "candidates": [
@@ -7276,7 +7513,7 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-04T23:53:22.489000Z",
+"lastUpdated": "2026-11-05T19:45:40.986000Z",
 "calledAt": "2026-11-04T05:19:55.506Z",
 "totalVotes": 346203,
 "candidates": [
@@ -7319,22 +7556,22 @@
 "special": false,
 "flipped": true,
 "eevp": 98.84,
-"lastUpdated": "2026-11-04T23:53:48.563000Z",
+"lastUpdated": "2026-11-05T16:48:29.023000Z",
 "calledAt": "2026-11-04T05:03:37.503Z",
-"totalVotes": 352658,
+"totalVotes": 352980,
 "candidates": [
 {
 "name": "Sarah Trone Garriott",
 "party": "Democratic",
-"votes": 189217,
-"pct": 53.7,
+"votes": 189349,
+"pct": 53.6,
 "winner": true
 },
 {
 "name": "Zach Nunn",
 "party": "Republican",
-"votes": 163441,
-"pct": 46.3,
+"votes": 163631,
+"pct": 46.4,
 "winner": false
 }
 ]
@@ -7348,14 +7585,14 @@
 "special": false,
 "flipped": false,
 "eevp": 98.7,
-"lastUpdated": "2026-11-04T23:54:13.314000Z",
+"lastUpdated": "2026-11-05T21:45:41.247000Z",
 "calledAt": "2026-11-04T04:33:34.046Z",
-"totalVotes": 302785,
+"totalVotes": 302786,
 "candidates": [
 {
 "name": "Chris McGowan",
 "party": "Republican",
-"votes": 178845,
+"votes": 178846,
 "pct": 59.1,
 "winner": true
 },
@@ -7376,8 +7613,8 @@
 "label": "Kansas House District 1",
 "special": false,
 "flipped": false,
-"eevp": 99,
-"lastUpdated": "2026-11-05T00:45:43.591000Z",
+"eevp": 98.63,
+"lastUpdated": "2026-11-05T22:57:49.860000Z",
 "calledAt": "2026-11-04T04:13:55.358Z",
 "totalVotes": 252934,
 "candidates": [
@@ -7412,8 +7649,8 @@
 "label": "Kansas House District 2",
 "special": false,
 "flipped": false,
-"eevp": 98.41,
-"lastUpdated": "2026-11-05T01:19:54.198000Z",
+"eevp": 98.58,
+"lastUpdated": "2026-11-05T22:48:28.590000Z",
 "calledAt": "2026-11-04T05:26:31.787Z",
 "totalVotes": 245048,
 "candidates": [
@@ -7449,7 +7686,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.6,
-"lastUpdated": "2026-11-05T00:48:50.695000Z",
+"lastUpdated": "2026-11-05T20:49:42.340000Z",
 "calledAt": "2026-11-04T03:08:30.390Z",
 "totalVotes": 337037,
 "candidates": [
@@ -7485,7 +7722,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-05T00:35:41.572000Z",
+"lastUpdated": "2026-11-05T22:37:06.393000Z",
 "calledAt": "2026-11-04T04:10:21.984Z",
 "totalVotes": 259475,
 "candidates": [
@@ -7521,7 +7758,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:08:34.111000Z",
+"lastUpdated": "2026-11-05T20:41:09.554000Z",
 "calledAt": "2026-11-04T00:56:30.063Z",
 "totalVotes": 229170,
 "candidates": [
@@ -7550,7 +7787,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:14:46.559000Z",
+"lastUpdated": "2026-11-05T22:33:40.540000Z",
 "calledAt": "2026-11-04T01:42:38.829Z",
 "totalVotes": 231058,
 "candidates": [
@@ -7586,7 +7823,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:14:47.488000Z",
+"lastUpdated": "2026-11-05T22:33:42.253000Z",
 "calledAt": "2026-11-04T00:03:20.762Z",
 "totalVotes": 248500,
 "candidates": [
@@ -7615,7 +7852,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:10:51.679000Z",
+"lastUpdated": "2026-11-05T20:38:46.651000Z",
 "calledAt": "2026-11-04T01:43:12.412Z",
 "totalVotes": 253820,
 "candidates": [
@@ -7651,7 +7888,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T21:40:13.367000Z",
+"lastUpdated": "2026-11-05T20:40:00.531000Z",
 "calledAt": "2026-11-04T00:00:02.966Z",
 "totalVotes": 196468,
 "candidates": [
@@ -7694,7 +7931,7 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:08:28.112000Z",
+"lastUpdated": "2026-11-05T20:39:41.887000Z",
 "calledAt": "2026-11-04T03:16:11.543Z",
 "totalVotes": 263353,
 "candidates": [
@@ -7737,7 +7974,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T21:22:02.833000Z",
+"lastUpdated": "2026-11-05T20:07:46.569000Z",
 "calledAt": "2026-11-04T03:58:50.646Z",
 "totalVotes": 263373,
 "candidates": [
@@ -7936,23 +8173,23 @@
 "label": "Maine House District 1",
 "special": false,
 "flipped": false,
-"eevp": 90.37,
-"lastUpdated": "2026-11-04T21:55:22.566000Z",
+"eevp": 92.16,
+"lastUpdated": "2026-11-05T20:39:12.405000Z",
 "calledAt": "2026-11-04T03:18:52.586Z",
-"totalVotes": 371788,
+"totalVotes": 379114,
 "candidates": [
 {
 "name": "Chellie Pingree",
 "party": "Democratic",
-"votes": 246117,
-"pct": 66.2,
+"votes": 249772,
+"pct": 65.9,
 "winner": true
 },
 {
 "name": "Ronald Russell",
 "party": "Republican",
-"votes": 125671,
-"pct": 33.8,
+"votes": 129342,
+"pct": 34.1,
 "winner": false
 }
 ]
@@ -7965,23 +8202,23 @@
 "label": "Maryland House District 1",
 "special": false,
 "flipped": false,
-"eevp": 83,
-"lastUpdated": "2026-11-05T00:49:22.547000Z",
+"eevp": 86.41,
+"lastUpdated": "2026-11-05T22:29:25.474000Z",
 "calledAt": "2026-11-04T04:42:01.021Z",
-"totalVotes": 270189,
+"totalVotes": 281286,
 "candidates": [
 {
 "name": "Andy Harris",
 "party": "Republican",
-"votes": 150870,
-"pct": 55.8,
+"votes": 154230,
+"pct": 54.8,
 "winner": true
 },
 {
 "name": "Dan Schwartz",
 "party": "Democratic",
-"votes": 119319,
-"pct": 44.2,
+"votes": 127056,
+"pct": 45.2,
 "winner": false
 }
 ]
@@ -7994,23 +8231,23 @@
 "label": "Maryland House District 2",
 "special": false,
 "flipped": false,
-"eevp": 77.56,
-"lastUpdated": "2026-11-05T00:34:56.011000Z",
+"eevp": 79.27,
+"lastUpdated": "2026-11-05T22:45:15.808000Z",
 "calledAt": "2026-11-04T03:53:45.295Z",
-"totalVotes": 235097,
+"totalVotes": 240278,
 "candidates": [
 {
 "name": "John Olszewski",
 "party": "Democratic",
-"votes": 144727,
-"pct": 61.6,
+"votes": 148248,
+"pct": 61.7,
 "winner": true
 },
 {
 "name": "Dave Wallace",
 "party": "Republican",
-"votes": 90370,
-"pct": 38.4,
+"votes": 92030,
+"pct": 38.3,
 "winner": false
 }
 ]
@@ -8023,22 +8260,22 @@
 "label": "Maryland House District 3",
 "special": false,
 "flipped": false,
-"eevp": 81.49,
-"lastUpdated": "2026-11-05T00:33:28.610000Z",
+"eevp": 81.71,
+"lastUpdated": "2026-11-05T22:45:11.574000Z",
 "calledAt": "2026-11-04T02:37:47.259Z",
-"totalVotes": 265006,
+"totalVotes": 265719,
 "candidates": [
 {
 "name": "Sarah Elfreth",
 "party": "Democratic",
-"votes": 173364,
+"votes": 173856,
 "pct": 65.4,
 "winner": true
 },
 {
 "name": "Berney Flowers",
 "party": "Republican",
-"votes": 91642,
+"votes": 91863,
 "pct": 34.6,
 "winner": false
 }
@@ -8052,29 +8289,29 @@
 "label": "Maryland House District 4",
 "special": false,
 "flipped": false,
-"eevp": 73.69,
-"lastUpdated": "2026-11-05T00:47:59.534000Z",
+"eevp": 75.41,
+"lastUpdated": "2026-11-05T19:46:13.363000Z",
 "calledAt": "2026-11-04T02:33:43.345Z",
-"totalVotes": 163198,
+"totalVotes": 167019,
 "candidates": [
 {
 "name": "Glenn Ivey",
 "party": "Democratic",
-"votes": 145407,
+"votes": 148803,
 "pct": 89.1,
 "winner": true
 },
 {
 "name": "George McDermott",
 "party": "Republican",
-"votes": 10374,
+"votes": 10624,
 "pct": 6.4,
 "winner": false
 },
 {
 "name": "Sam Husseini",
 "party": "Green",
-"votes": 7417,
+"votes": 7592,
 "pct": 4.5,
 "winner": false
 }
@@ -8088,23 +8325,23 @@
 "label": "Maryland House District 5",
 "special": false,
 "flipped": false,
-"eevp": 81.2,
-"lastUpdated": "2026-11-05T00:47:57.396000Z",
+"eevp": 82.35,
+"lastUpdated": "2026-11-05T22:15:35.842000Z",
 "calledAt": "2026-11-04T02:32:37.874Z",
-"totalVotes": 271567,
+"totalVotes": 275420,
 "candidates": [
 {
 "name": "Adrian Boafo",
 "party": "Democratic",
-"votes": 187219,
-"pct": 68.9,
+"votes": 189955,
+"pct": 69.0,
 "winner": true
 },
 {
 "name": "Chris Chaffee",
 "party": "Republican",
-"votes": 84348,
-"pct": 31.1,
+"votes": 85465,
+"pct": 31.0,
 "winner": false
 }
 ]
@@ -8117,29 +8354,29 @@
 "label": "Maryland House District 6",
 "special": false,
 "flipped": false,
-"eevp": 82.04,
-"lastUpdated": "2026-11-05T00:51:44.166000Z",
+"eevp": 82.54,
+"lastUpdated": "2026-11-05T20:51:10.019000Z",
 "calledAt": "2026-11-04T04:23:09.099Z",
-"totalVotes": 237522,
+"totalVotes": 238958,
 "candidates": [
 {
 "name": "April McClain Delaney",
 "party": "Democratic",
-"votes": 133881,
+"votes": 134692,
 "pct": 56.4,
 "winner": true
 },
 {
 "name": "Robin Ficker",
 "party": "Republican",
-"votes": 97242,
+"votes": 97838,
 "pct": 40.9,
 "winner": false
 },
 {
 "name": "Moshe Landman",
 "party": "Green",
-"votes": 6399,
+"votes": 6428,
 "pct": 2.7,
 "winner": false
 }
@@ -8154,7 +8391,7 @@
 "special": false,
 "flipped": false,
 "eevp": 68.19,
-"lastUpdated": "2026-11-05T00:34:52.373000Z",
+"lastUpdated": "2026-11-05T19:46:46.767000Z",
 "calledAt": "2026-11-04T02:27:18.793Z",
 "totalVotes": 167674,
 "candidates": [
@@ -8183,14 +8420,14 @@
 "special": false,
 "flipped": false,
 "eevp": 75.26,
-"lastUpdated": "2026-11-05T00:44:26.757000Z",
+"lastUpdated": "2026-11-05T19:46:12.571000Z",
 "calledAt": "2026-11-04T02:15:23.355Z",
-"totalVotes": 241476,
+"totalVotes": 241477,
 "candidates": [
 {
 "name": "Jamie Raskin",
 "party": "Democratic",
-"votes": 199582,
+"votes": 199583,
 "pct": 82.7,
 "winner": true
 },
@@ -8218,23 +8455,23 @@
 "label": "Massachusetts House District 1",
 "special": false,
 "flipped": false,
-"eevp": 93.94,
-"lastUpdated": "2026-11-04T20:14:10.598000Z",
+"eevp": 98.54,
+"lastUpdated": "2026-11-05T22:30:12.564000Z",
 "calledAt": "2026-11-04T02:38:52.897Z",
-"totalVotes": 259379,
+"totalVotes": 270709,
 "candidates": [
 {
 "name": "Richard Neal",
 "party": "Democratic",
-"votes": 168982,
-"pct": 65.1,
+"votes": 177120,
+"pct": 65.4,
 "winner": true
 },
 {
 "name": "Nadia Milleron",
 "party": "Independent",
-"votes": 90397,
-"pct": 34.9,
+"votes": 93589,
+"pct": 34.6,
 "winner": false
 }
 ]
@@ -8247,16 +8484,16 @@
 "label": "Massachusetts House District 2",
 "special": false,
 "flipped": false,
-"eevp": 0,
-"lastUpdated": "2026-11-04T19:43:46.504000Z",
+"eevp": 57.6,
+"lastUpdated": "2026-11-05T22:35:54.521000Z",
 "calledAt": "2026-11-04T01:00:00.000Z",
-"totalVotes": 0,
+"totalVotes": 182559,
 "candidates": [
 {
 "name": "James McGovern",
 "party": "Democratic",
-"votes": 0,
-"pct": 0,
+"votes": 182559,
+"pct": 100,
 "winner": true
 }
 ]
@@ -8269,30 +8506,30 @@
 "label": "Massachusetts House District 3",
 "special": false,
 "flipped": false,
-"eevp": 91.67,
-"lastUpdated": "2026-11-04T20:05:45.714000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T22:30:45.750000Z",
 "calledAt": "2026-11-04T03:18:11.300Z",
-"totalVotes": 240903,
+"totalVotes": 258064,
 "candidates": [
 {
 "name": "Lori Trahan",
 "party": "Democratic",
-"votes": 159573,
-"pct": 66.2,
+"votes": 173326,
+"pct": 67.2,
 "winner": true
 },
 {
 "name": "Gary Grossi",
 "party": "Republican",
-"votes": 75134,
-"pct": 31.2,
+"votes": 78296,
+"pct": 30.3,
 "winner": false
 },
 {
 "name": "Dennis Conlon",
 "party": "Unr",
-"votes": 6196,
-"pct": 2.6,
+"votes": 6442,
+"pct": 2.5,
 "winner": false
 }
 ]
@@ -8305,23 +8542,23 @@
 "label": "Massachusetts House District 4",
 "special": false,
 "flipped": false,
-"eevp": 86.21,
-"lastUpdated": "2026-11-04T20:02:19.967000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T22:30:12.130000Z",
 "calledAt": "2026-11-04T03:39:36.475Z",
-"totalVotes": 254739,
+"totalVotes": 290237,
 "candidates": [
 {
 "name": "Jake Auchincloss",
 "party": "Democratic",
-"votes": 163838,
-"pct": 64.3,
+"votes": 192645,
+"pct": 66.4,
 "winner": true
 },
 {
 "name": "Thomas Stalcup",
 "party": "Republican",
-"votes": 90901,
-"pct": 35.7,
+"votes": 97592,
+"pct": 33.6,
 "winner": false
 }
 ]
@@ -8334,16 +8571,16 @@
 "label": "Massachusetts House District 5",
 "special": false,
 "flipped": false,
-"eevp": 0,
-"lastUpdated": "2026-11-04T18:20:32.815000Z",
+"eevp": 68.45,
+"lastUpdated": "2026-11-05T17:13:07.105000Z",
 "calledAt": "2026-11-04T01:00:00.000Z",
-"totalVotes": 0,
+"totalVotes": 206925,
 "candidates": [
 {
 "name": "Katherine Clark",
 "party": "Democratic",
-"votes": 0,
-"pct": 0,
+"votes": 206925,
+"pct": 100,
 "winner": true
 }
 ]
@@ -8385,16 +8622,16 @@
 "label": "Massachusetts House District 7",
 "special": false,
 "flipped": false,
-"eevp": 0,
-"lastUpdated": "2026-11-04T09:00:08.505000Z",
+"eevp": 60.89,
+"lastUpdated": "2026-11-05T22:25:45.829000Z",
 "calledAt": "2026-11-04T01:00:00.000Z",
-"totalVotes": 0,
+"totalVotes": 158384,
 "candidates": [
 {
 "name": "Ayanna Pressley",
 "party": "Democratic",
-"votes": 0,
-"pct": 0,
+"votes": 158384,
+"pct": 100,
 "winner": true
 }
 ]
@@ -8408,28 +8645,28 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:15:11.396000Z",
+"lastUpdated": "2026-11-05T21:08:51.059000Z",
 "calledAt": "2026-11-04T03:45:28.721Z",
-"totalVotes": 280922,
+"totalVotes": 281804,
 "candidates": [
 {
 "name": "Stephen Lynch",
 "party": "Democratic",
-"votes": 194867,
+"votes": 195606,
 "pct": 69.4,
 "winner": true
 },
 {
 "name": "Robert Burke",
 "party": "Republican",
-"votes": 75503,
-"pct": 26.9,
+"votes": 75619,
+"pct": 26.8,
 "winner": false
 },
 {
 "name": "Rasheed Walters",
 "party": "Independent",
-"votes": 10552,
+"votes": 10579,
 "pct": 3.8,
 "winner": false
 }
@@ -8443,23 +8680,23 @@
 "label": "Massachusetts House District 9",
 "special": false,
 "flipped": false,
-"eevp": 94.14,
-"lastUpdated": "2026-11-04T20:45:21.807000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T22:28:35.844000Z",
 "calledAt": "2026-11-04T03:27:54.454Z",
-"totalVotes": 341667,
+"totalVotes": 350869,
 "candidates": [
 {
 "name": "Bill Keating",
 "party": "Democratic",
-"votes": 208847,
-"pct": 61.1,
+"votes": 213587,
+"pct": 60.9,
 "winner": true
 },
 {
 "name": "R. Macallister",
 "party": "Republican",
-"votes": 132820,
-"pct": 38.9,
+"votes": 137282,
+"pct": 39.1,
 "winner": false
 }
 ]
@@ -8472,50 +8709,50 @@
 "label": "Michigan House District 1",
 "special": false,
 "flipped": false,
-"eevp": 96.99,
-"lastUpdated": "2026-11-04T23:49:20.221000Z",
+"eevp": 97.39,
+"lastUpdated": "2026-11-05T21:55:00.218000Z",
 "calledAt": "2026-11-04T06:09:29.238Z",
-"totalVotes": 403405,
+"totalVotes": 403805,
 "candidates": [
 {
 "name": "Jack Bergman",
 "party": "Republican",
-"votes": 216960,
+"votes": 217185,
 "pct": 53.8,
 "winner": true
 },
 {
 "name": "Callie Barr",
 "party": "Democratic",
-"votes": 178381,
+"votes": 178548,
 "pct": 44.2,
 "winner": false
 },
 {
 "name": "Arnett Satterla",
 "party": "Libertarian",
-"votes": 2757,
+"votes": 2761,
 "pct": 0.7,
 "winner": false
 },
 {
 "name": "Liz Hakola",
 "party": "Working Class",
-"votes": 2383,
+"votes": 2385,
 "pct": 0.6,
 "winner": false
 },
 {
 "name": "Doc Kovaly",
 "party": "UST",
-"votes": 1229,
+"votes": 1230,
 "pct": 0.3,
 "winner": false
 },
 {
 "name": "Zebulon Featherly",
 "party": "No party affiliation",
-"votes": 922,
+"votes": 923,
 "pct": 0.2,
 "winner": false
 },
@@ -8536,8 +8773,8 @@
 "label": "Michigan House District 2",
 "special": false,
 "flipped": false,
-"eevp": 93.68,
-"lastUpdated": "2026-11-04T23:47:35.116000Z",
+"eevp": 95.31,
+"lastUpdated": "2026-11-05T21:44:20.818000Z",
 "calledAt": "2026-11-04T03:45:52.252Z",
 "totalVotes": 357469,
 "candidates": [
@@ -8579,8 +8816,8 @@
 "label": "Michigan House District 3",
 "special": false,
 "flipped": false,
-"eevp": 98.95,
-"lastUpdated": "2026-11-04T22:51:53.890000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T21:41:52.403000Z",
 "calledAt": "2026-11-04T05:54:25.475Z",
 "totalVotes": 369388,
 "candidates": [
@@ -8616,7 +8853,7 @@
 "special": false,
 "flipped": true,
 "eevp": 96.9,
-"lastUpdated": "2026-11-04T23:43:32.731000Z",
+"lastUpdated": "2026-11-05T19:49:27.826000Z",
 "calledAt": "2026-11-04T18:13:09.652Z",
 "totalVotes": 369860,
 "candidates": [
@@ -8651,8 +8888,8 @@
 "label": "Michigan House District 5",
 "special": false,
 "flipped": false,
-"eevp": 93.97,
-"lastUpdated": "2026-11-04T23:46:26.128000Z",
+"eevp": 94.25,
+"lastUpdated": "2026-11-05T15:38:53.592000Z",
 "calledAt": "2026-11-04T04:11:51.058Z",
 "totalVotes": 336325,
 "candidates": [
@@ -8701,8 +8938,8 @@
 "label": "Michigan House District 6",
 "special": false,
 "flipped": false,
-"eevp": 94.73,
-"lastUpdated": "2026-11-04T23:51:35.817000Z",
+"eevp": 94.74,
+"lastUpdated": "2026-11-05T21:54:24.537000Z",
 "calledAt": "2026-11-04T03:32:48.802Z",
 "totalVotes": 389997,
 "candidates": [
@@ -8795,7 +9032,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.16,
-"lastUpdated": "2026-11-04T23:41:38.189000Z",
+"lastUpdated": "2026-11-05T21:55:21.879000Z",
 "calledAt": "2026-11-04T06:30:33.290Z",
 "totalVotes": 352770,
 "candidates": [
@@ -9002,7 +9239,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.46,
-"lastUpdated": "2026-11-04T23:55:23.613000Z",
+"lastUpdated": "2026-11-05T14:07:26.276000Z",
 "calledAt": "2026-11-04T01:55:52.635Z",
 "totalVotes": 325322,
 "candidates": [
@@ -9052,7 +9289,7 @@
 "special": false,
 "flipped": false,
 "eevp": 69.44,
-"lastUpdated": "2026-11-04T23:52:02.603000Z",
+"lastUpdated": "2026-11-05T21:54:41.163000Z",
 "calledAt": "2026-11-04T03:33:07.745Z",
 "totalVotes": 274324,
 "candidates": [
@@ -9102,14 +9339,14 @@
 "special": false,
 "flipped": false,
 "eevp": 98.93,
-"lastUpdated": "2026-11-04T20:22:04.743000Z",
+"lastUpdated": "2026-11-05T22:09:41.652000Z",
 "calledAt": "2026-11-04T05:32:43.386Z",
-"totalVotes": 375226,
+"totalVotes": 375225,
 "candidates": [
 {
 "name": "Matt Little",
 "party": "Democratic",
-"votes": 214255,
+"votes": 214254,
 "pct": 57.1,
 "winner": true
 },
@@ -9138,7 +9375,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.68,
-"lastUpdated": "2026-11-04T20:30:31.576000Z",
+"lastUpdated": "2026-11-05T16:17:08.018000Z",
 "calledAt": "2026-11-04T05:05:19.114Z",
 "totalVotes": 377997,
 "candidates": [
@@ -9174,9 +9411,9 @@
 "special": false,
 "flipped": false,
 "eevp": 98.63,
-"lastUpdated": "2026-11-04T20:39:45.627000Z",
+"lastUpdated": "2026-11-05T22:29:40.806000Z",
 "calledAt": "2026-11-04T05:06:09.267Z",
-"totalVotes": 336244,
+"totalVotes": 336243,
 "candidates": [
 {
 "name": "Betty McCollum",
@@ -9188,7 +9425,7 @@
 {
 "name": "Paul Wikstrom",
 "party": "Republican",
-"votes": 90068,
+"votes": 90067,
 "pct": 26.8,
 "winner": false
 },
@@ -9210,7 +9447,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.97,
-"lastUpdated": "2026-11-04T20:30:31.667000Z",
+"lastUpdated": "2026-11-05T17:01:05.098000Z",
 "calledAt": "2026-11-04T05:04:45.354Z",
 "totalVotes": 343508,
 "candidates": [
@@ -9253,7 +9490,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:59:41.140000Z",
+"lastUpdated": "2026-11-05T17:13:15.158000Z",
 "calledAt": "2026-11-04T06:42:19.677Z",
 "totalVotes": 367346,
 "candidates": [
@@ -9288,22 +9525,22 @@
 "label": "Minnesota House District 7",
 "special": false,
 "flipped": false,
-"eevp": 98.75,
-"lastUpdated": "2026-11-04T23:10:42.767000Z",
+"eevp": 98.8,
+"lastUpdated": "2026-11-05T19:49:40.766000Z",
 "calledAt": "2026-11-04T04:08:00.798Z",
-"totalVotes": 330628,
+"totalVotes": 330820,
 "candidates": [
 {
 "name": "Michelle Fischbach",
 "party": "Republican",
-"votes": 214503,
+"votes": 214675,
 "pct": 64.9,
 "winner": true
 },
 {
 "name": "Erik Osberg",
 "party": "Democratic",
-"votes": 115805,
+"votes": 115825,
 "pct": 35.0,
 "winner": false
 },
@@ -9325,22 +9562,22 @@
 "special": false,
 "flipped": false,
 "eevp": 98.81,
-"lastUpdated": "2026-11-04T20:48:36.655000Z",
+"lastUpdated": "2026-11-05T18:10:42.004000Z",
 "calledAt": "2026-11-04T07:11:54.417Z",
-"totalVotes": 359453,
+"totalVotes": 359455,
 "candidates": [
 {
 "name": "Pete Stauber",
 "party": "Republican",
-"votes": 190744,
-"pct": 53.1,
+"votes": 190669,
+"pct": 53.0,
 "winner": true
 },
 {
 "name": "Trina Swanson",
 "party": "Democratic",
-"votes": 168350,
-"pct": 46.8,
+"votes": 168427,
+"pct": 46.9,
 "winner": false
 },
 {
@@ -9360,29 +9597,29 @@
 "label": "Mississippi House District 1",
 "special": false,
 "flipped": false,
-"eevp": 95.72,
-"lastUpdated": "2026-11-04T23:44:16.509000Z",
+"eevp": 95.97,
+"lastUpdated": "2026-11-05T22:27:50.159000Z",
 "calledAt": "2026-11-04T03:05:36.317Z",
-"totalVotes": 239033,
+"totalVotes": 239517,
 "candidates": [
 {
 "name": "Trent Kelly",
 "party": "Republican",
-"votes": 139489,
-"pct": 58.4,
+"votes": 139749,
+"pct": 58.3,
 "winner": true
 },
 {
 "name": "Cliff Johnson",
 "party": "Democratic",
-"votes": 96219,
+"votes": 96428,
 "pct": 40.3,
 "winner": false
 },
 {
 "name": "Johnny Baucom",
 "party": "Libertarian",
-"votes": 3325,
+"votes": 3340,
 "pct": 1.4,
 "winner": false
 }
@@ -9396,29 +9633,29 @@
 "label": "Mississippi House District 2",
 "special": false,
 "flipped": false,
-"eevp": 94.99,
-"lastUpdated": "2026-11-04T23:23:26.141000Z",
+"eevp": 95.08,
+"lastUpdated": "2026-11-05T22:44:42.500000Z",
 "calledAt": "2026-11-04T02:45:41.646Z",
-"totalVotes": 243693,
+"totalVotes": 244017,
 "candidates": [
 {
 "name": "Bennie Thompson",
 "party": "Democratic",
-"votes": 164759,
+"votes": 164970,
 "pct": 67.6,
 "winner": true
 },
 {
 "name": "Ron Eller",
 "party": "Republican",
-"votes": 73109,
+"votes": 73164,
 "pct": 30.0,
 "winner": false
 },
 {
 "name": "Bennie Foster",
 "party": "Independent",
-"votes": 5825,
+"votes": 5883,
 "pct": 2.4,
 "winner": false
 }
@@ -9432,29 +9669,29 @@
 "label": "Mississippi House District 3",
 "special": false,
 "flipped": false,
-"eevp": 95.06,
-"lastUpdated": "2026-11-05T00:12:41.406000Z",
+"eevp": 95.02,
+"lastUpdated": "2026-11-05T21:37:16.695000Z",
 "calledAt": "2026-11-04T03:21:31.654Z",
-"totalVotes": 248587,
+"totalVotes": 250781,
 "candidates": [
 {
 "name": "Michael Guest",
 "party": "Republican",
-"votes": 143578,
-"pct": 57.8,
+"votes": 144471,
+"pct": 57.6,
 "winner": true
 },
 {
 "name": "Michael Chiaradio",
 "party": "Democratic",
-"votes": 101882,
-"pct": 41.0,
+"votes": 103164,
+"pct": 41.1,
 "winner": false
 },
 {
 "name": "Erik Kiehle",
 "party": "Libertarian",
-"votes": 3127,
+"votes": 3146,
 "pct": 1.3,
 "winner": false
 }
@@ -9468,29 +9705,29 @@
 "label": "Mississippi House District 4",
 "special": false,
 "flipped": false,
-"eevp": 96.53,
-"lastUpdated": "2026-11-04T21:16:05.791000Z",
+"eevp": 96.58,
+"lastUpdated": "2026-11-05T22:27:41.957000Z",
 "calledAt": "2026-11-04T02:45:53.947Z",
-"totalVotes": 214518,
+"totalVotes": 214643,
 "candidates": [
 {
 "name": "Mike Ezell",
 "party": "Republican",
-"votes": 131074,
+"votes": 131137,
 "pct": 61.1,
 "winner": true
 },
 {
 "name": "Jeffrey Hulum",
 "party": "Democratic",
-"votes": 76856,
+"votes": 76914,
 "pct": 35.8,
 "winner": false
 },
 {
 "name": "Carl Boyanton",
 "party": "Independent",
-"votes": 6588,
+"votes": 6592,
 "pct": 3.1,
 "winner": false
 }
@@ -9505,7 +9742,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:55:33.573000Z",
+"lastUpdated": "2026-11-05T21:25:04.482000Z",
 "calledAt": "2026-11-04T01:37:01.159Z",
 "totalVotes": 232150,
 "candidates": [
@@ -9541,7 +9778,7 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:55:33.589000Z",
+"lastUpdated": "2026-11-05T21:25:05.950000Z",
 "calledAt": "2026-11-04T04:57:28.710Z",
 "totalVotes": 331391,
 "candidates": [
@@ -9577,7 +9814,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.85,
-"lastUpdated": "2026-11-04T20:07:18.959000Z",
+"lastUpdated": "2026-11-05T21:25:08.635000Z",
 "calledAt": "2026-11-04T04:02:07.426Z",
 "totalVotes": 282210,
 "candidates": [
@@ -9612,29 +9849,29 @@
 "label": "Missouri House District 4",
 "special": false,
 "flipped": false,
-"eevp": 96.92,
-"lastUpdated": "2026-11-04T21:57:24.557000Z",
+"eevp": 97.15,
+"lastUpdated": "2026-11-05T21:38:49.550000Z",
 "calledAt": "2026-11-04T02:40:45.992Z",
-"totalVotes": 246550,
+"totalVotes": 247120,
 "candidates": [
 {
 "name": "Mark Alford",
 "party": "Republican",
-"votes": 150944,
+"votes": 151329,
 "pct": 61.2,
 "winner": true
 },
 {
 "name": "Jordan Herrera",
 "party": "Democratic",
-"votes": 88423,
+"votes": 88596,
 "pct": 35.9,
 "winner": false
 },
 {
 "name": "Thomas Holbrook",
 "party": "Libertarian",
-"votes": 7183,
+"votes": 7195,
 "pct": 2.9,
 "winner": false
 }
@@ -9649,7 +9886,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:52:10.114000Z",
+"lastUpdated": "2026-11-05T21:25:15.255000Z",
 "calledAt": "2026-11-04T02:54:13.351Z",
 "totalVotes": 257956,
 "candidates": [
@@ -9685,28 +9922,28 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:23:44.140000Z",
+"lastUpdated": "2026-11-05T21:37:40.057000Z",
 "calledAt": "2026-11-04T02:48:42.995Z",
-"totalVotes": 257663,
+"totalVotes": 257840,
 "candidates": [
 {
 "name": "Chris Stigall",
 "party": "Republican",
-"votes": 151219,
+"votes": 151360,
 "pct": 58.7,
 "winner": true
 },
 {
 "name": "Josh Smead",
 "party": "Democratic",
-"votes": 100416,
+"votes": 100450,
 "pct": 39.0,
 "winner": false
 },
 {
 "name": "Andy Maidment",
 "party": "Libertarian",
-"votes": 6028,
+"votes": 6030,
 "pct": 2.3,
 "winner": false
 }
@@ -9721,7 +9958,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:16:34.911000Z",
+"lastUpdated": "2026-11-05T21:25:03.285000Z",
 "calledAt": "2026-11-04T03:40:28.629Z",
 "totalVotes": 253409,
 "candidates": [
@@ -9757,7 +9994,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.3,
-"lastUpdated": "2026-11-04T21:46:35.113000Z",
+"lastUpdated": "2026-11-05T21:25:09.459000Z",
 "calledAt": "2026-11-04T02:36:52.160Z",
 "totalVotes": 225424,
 "candidates": [
@@ -9785,6 +10022,42 @@
 ]
 },
 {
+"slug": "mt-house-district-1",
+"office": "House",
+"state": "MT",
+"stateName": "Montana",
+"label": "Montana House District 1",
+"special": false,
+"flipped": true,
+"eevp": 97.12,
+"lastUpdated": "2026-11-05T22:51:16.395000Z",
+"calledAt": "2026-11-05T17:02:04.546Z",
+"totalVotes": 262219,
+"candidates": [
+{
+"name": "Sam Forstag",
+"party": "Democratic",
+"votes": 132003,
+"pct": 50.3,
+"winner": true
+},
+{
+"name": "Aaron Flint",
+"party": "Republican",
+"votes": 122694,
+"pct": 46.8,
+"winner": false
+},
+{
+"name": "Nick Sheedy",
+"party": "Libertarian",
+"votes": 7522,
+"pct": 2.9,
+"winner": false
+}
+]
+},
+{
 "slug": "mt-house-district-2",
 "office": "House",
 "state": "MT",
@@ -9792,36 +10065,36 @@
 "label": "Montana House District 2",
 "special": false,
 "flipped": false,
-"eevp": 97.02,
-"lastUpdated": "2026-11-05T04:36:19.091000Z",
+"eevp": 97.47,
+"lastUpdated": "2026-11-05T22:48:52.929000Z",
 "calledAt": "2026-11-04T04:18:51.791Z",
-"totalVotes": 218064,
+"totalVotes": 218777,
 "candidates": [
 {
 "name": "Troy Downing",
 "party": "Republican",
-"votes": 126862,
+"votes": 127291,
 "pct": 58.2,
 "winner": true
 },
 {
 "name": "Brian Miller",
 "party": "Democratic",
-"votes": 70209,
+"votes": 70409,
 "pct": 32.2,
 "winner": false
 },
 {
 "name": "Michael Eisenhauer",
 "party": "Independent",
-"votes": 17015,
+"votes": 17077,
 "pct": 7.8,
 "winner": false
 },
 {
 "name": "Patrick McCracken",
 "party": "Libertarian",
-"votes": 3978,
+"votes": 4000,
 "pct": 1.8,
 "winner": false
 }
@@ -9836,7 +10109,7 @@
 "special": false,
 "flipped": false,
 "eevp": 92.2,
-"lastUpdated": "2026-11-04T22:11:11.832000Z",
+"lastUpdated": "2026-11-05T22:48:03.730000Z",
 "calledAt": "2026-11-04T22:11:11.832Z",
 "totalVotes": 248343,
 "candidates": [
@@ -9879,7 +10152,7 @@
 "special": false,
 "flipped": true,
 "eevp": 92.1,
-"lastUpdated": "2026-11-05T00:15:01.319000Z",
+"lastUpdated": "2026-11-05T22:47:22.142000Z",
 "calledAt": "2026-11-04T04:57:07.866Z",
 "totalVotes": 245938,
 "candidates": [
@@ -9914,22 +10187,22 @@
 "label": "Nebraska House District 3",
 "special": false,
 "flipped": false,
-"eevp": 98.35,
-"lastUpdated": "2026-11-05T00:10:45.030000Z",
+"eevp": 98.38,
+"lastUpdated": "2026-11-05T22:48:23.219000Z",
 "calledAt": "2026-11-04T04:08:48.912Z",
-"totalVotes": 244033,
+"totalVotes": 244095,
 "candidates": [
 {
 "name": "Adrian Smith",
 "party": "Republican",
-"votes": 173227,
+"votes": 173269,
 "pct": 71.0,
 "winner": true
 },
 {
 "name": "Becky Stille",
 "party": "Democratic",
-"votes": 48842,
+"votes": 48854,
 "pct": 20.0,
 "winner": false
 },
@@ -9943,14 +10216,14 @@
 {
 "name": "David Else",
 "party": "LMN",
-"votes": 7074,
+"votes": 7077,
 "pct": 2.9,
 "winner": false
 },
 {
 "name": "Macey Budke",
 "party": "NWk",
-"votes": 6824,
+"votes": 6829,
 "pct": 2.8,
 "winner": false
 }
@@ -9965,7 +10238,7 @@
 "special": false,
 "flipped": false,
 "eevp": 88.23,
-"lastUpdated": "2026-11-05T08:07:41.964000Z",
+"lastUpdated": "2026-11-05T21:29:10.844000Z",
 "calledAt": "2026-11-04T09:00:54.107Z",
 "totalVotes": 223575,
 "candidates": [
@@ -10007,30 +10280,30 @@
 "label": "Nevada House District 2",
 "special": false,
 "flipped": true,
-"eevp": 92.67,
-"lastUpdated": "2026-11-05T03:03:41.973000Z",
+"eevp": 93.53,
+"lastUpdated": "2026-11-05T21:49:29.393000Z",
 "calledAt": "2026-11-05T02:29:25.426Z",
-"totalVotes": 299089,
+"totalVotes": 304506,
 "candidates": [
 {
 "name": "Teresa Benitez-Thompson",
 "party": "Democratic",
-"votes": 150333,
-"pct": 50.3,
+"votes": 152186,
+"pct": 50.0,
 "winner": true
 },
 {
 "name": "David Flippo",
 "party": "Republican",
-"votes": 132762,
-"pct": 44.4,
+"votes": 135869,
+"pct": 44.6,
 "winner": false
 },
 {
 "name": "Lynn Chapman",
 "party": "IAP",
-"votes": 15994,
-"pct": 5.3,
+"votes": 16451,
+"pct": 5.4,
 "winner": false
 }
 ]
@@ -10044,7 +10317,7 @@
 "special": false,
 "flipped": false,
 "eevp": 88.95,
-"lastUpdated": "2026-11-05T08:06:42.265000Z",
+"lastUpdated": "2026-11-05T21:29:08.623000Z",
 "calledAt": "2026-11-04T09:04:34.029Z",
 "totalVotes": 259868,
 "candidates": [
@@ -10080,7 +10353,7 @@
 "special": false,
 "flipped": false,
 "eevp": 90.1,
-"lastUpdated": "2026-11-05T08:06:50.421000Z",
+"lastUpdated": "2026-11-05T21:29:08.040000Z",
 "calledAt": "2026-11-04T08:53:17.226Z",
 "totalVotes": 239373,
 "candidates": [
@@ -10122,23 +10395,23 @@
 "label": "New Hampshire House District 1",
 "special": false,
 "flipped": false,
-"eevp": 95.84,
-"lastUpdated": "2026-11-04T22:02:06.868000Z",
+"eevp": 98.61,
+"lastUpdated": "2026-11-05T22:57:46.195000Z",
 "calledAt": "2026-11-04T02:21:46.377Z",
-"totalVotes": 306807,
+"totalVotes": 315135,
 "candidates": [
 {
 "name": "Stefany Shaheen",
 "party": "Democratic",
-"votes": 175752,
-"pct": 57.3,
+"votes": 180031,
+"pct": 57.1,
 "winner": true
 },
 {
 "name": "Anthony DiLorenzo",
 "party": "Republican",
-"votes": 131055,
-"pct": 42.7,
+"votes": 135104,
+"pct": 42.9,
 "winner": false
 }
 ]
@@ -10151,30 +10424,30 @@
 "label": "New Hampshire House District 2",
 "special": false,
 "flipped": false,
-"eevp": 91.55,
-"lastUpdated": "2026-11-04T22:01:00.414000Z",
+"eevp": 97.42,
+"lastUpdated": "2026-11-05T22:36:03.549000Z",
 "calledAt": "2026-11-04T04:05:53.943Z",
-"totalVotes": 300143,
+"totalVotes": 314224,
 "candidates": [
 {
 "name": "Maggie Goodlander",
 "party": "Democratic",
-"votes": 176721,
-"pct": 58.9,
+"votes": 184761,
+"pct": 58.8,
 "winner": true
 },
 {
 "name": "Lily Tang Williams",
 "party": "Republican",
-"votes": 116395,
+"votes": 122024,
 "pct": 38.8,
 "winner": false
 },
 {
 "name": "Robbie Mahrou",
 "party": "Independent",
-"votes": 7027,
-"pct": 2.3,
+"votes": 7439,
+"pct": 2.4,
 "winner": false
 }
 ]
@@ -10187,23 +10460,59 @@
 "label": "New Jersey House District 1",
 "special": false,
 "flipped": false,
-"eevp": 93.16,
-"lastUpdated": "2026-11-04T22:43:28.914000Z",
+"eevp": 95.56,
+"lastUpdated": "2026-11-05T22:34:46.089000Z",
 "calledAt": "2026-11-04T01:17:19.543Z",
-"totalVotes": 251956,
+"totalVotes": 256155,
 "candidates": [
 {
 "name": "Donald Norcross",
 "party": "Democratic",
-"votes": 176763,
-"pct": 70.2,
+"votes": 180228,
+"pct": 70.4,
 "winner": true
 },
 {
 "name": "Damon Galdo",
 "party": "Republican",
-"votes": 75193,
-"pct": 29.8,
+"votes": 75927,
+"pct": 29.6,
+"winner": false
+}
+]
+},
+{
+"slug": "nj-house-district-2",
+"office": "House",
+"state": "NJ",
+"stateName": "New Jersey",
+"label": "New Jersey House District 2",
+"special": false,
+"flipped": true,
+"eevp": 96.96,
+"lastUpdated": "2026-11-05T22:35:37.110000Z",
+"calledAt": "2026-11-05T21:29:00.736Z",
+"totalVotes": 270069,
+"candidates": [
+{
+"name": "Zack Mullock",
+"party": "Democratic",
+"votes": 137166,
+"pct": 50.8,
+"winner": true
+},
+{
+"name": "Jeff Van Drew",
+"party": "Republican",
+"votes": 130084,
+"pct": 48.2,
+"winner": false
+},
+{
+"name": "Ramon Mora",
+"party": "Other",
+"votes": 2819,
+"pct": 1.0,
 "winner": false
 }
 ]
@@ -10216,36 +10525,36 @@
 "label": "New Jersey House District 3",
 "special": false,
 "flipped": false,
-"eevp": 93.36,
-"lastUpdated": "2026-11-04T21:28:17.787000Z",
+"eevp": 94.15,
+"lastUpdated": "2026-11-05T22:34:31.480000Z",
 "calledAt": "2026-11-04T01:35:41.078Z",
-"totalVotes": 271568,
+"totalVotes": 273857,
 "candidates": [
 {
 "name": "Herb Conaway",
 "party": "Democratic",
-"votes": 169650,
-"pct": 62.5,
+"votes": 171392,
+"pct": 62.6,
 "winner": true
 },
 {
 "name": "Michael McGuire",
 "party": "Republican",
-"votes": 96692,
-"pct": 35.6,
+"votes": 97157,
+"pct": 35.5,
 "winner": false
 },
 {
 "name": "Ryan Kelly",
 "party": "Other",
-"votes": 3580,
+"votes": 3635,
 "pct": 1.3,
 "winner": false
 },
 {
 "name": "Steven Welzer",
 "party": "Other",
-"votes": 1646,
+"votes": 1673,
 "pct": 0.6,
 "winner": false
 }
@@ -10259,23 +10568,23 @@
 "label": "New Jersey House District 4",
 "special": false,
 "flipped": false,
-"eevp": 96.57,
-"lastUpdated": "2026-11-04T21:23:35.006000Z",
+"eevp": 96.96,
+"lastUpdated": "2026-11-05T21:45:42.116000Z",
 "calledAt": "2026-11-04T02:23:29.661Z",
-"totalVotes": 261512,
+"totalVotes": 262197,
 "candidates": [
 {
 "name": "Christopher Smith",
 "party": "Republican",
-"votes": 154601,
-"pct": 59.1,
+"votes": 154813,
+"pct": 59.0,
 "winner": true
 },
 {
 "name": "Rachel Peace",
 "party": "Democratic",
-"votes": 106911,
-"pct": 40.9,
+"votes": 107384,
+"pct": 41.0,
 "winner": false
 }
 ]
@@ -10289,7 +10598,7 @@
 "special": false,
 "flipped": false,
 "eevp": 96.06,
-"lastUpdated": "2026-11-04T19:18:19.205000Z",
+"lastUpdated": "2026-11-05T22:35:02.371000Z",
 "calledAt": "2026-11-04T02:12:11.123Z",
 "totalVotes": 270002,
 "candidates": [
@@ -10324,22 +10633,22 @@
 "label": "New Jersey House District 6",
 "special": false,
 "flipped": false,
-"eevp": 94.74,
-"lastUpdated": "2026-11-04T19:17:37.374000Z",
+"eevp": 95,
+"lastUpdated": "2026-11-05T21:45:41.666000Z",
 "calledAt": "2026-11-04T02:06:31.009Z",
-"totalVotes": 207934,
+"totalVotes": 208509,
 "candidates": [
 {
 "name": "Frank Pallone",
 "party": "Democratic",
-"votes": 143589,
+"votes": 144087,
 "pct": 69.1,
 "winner": true
 },
 {
 "name": "Hillary Herzig",
 "party": "Republican",
-"votes": 64345,
+"votes": 64422,
 "pct": 30.9,
 "winner": false
 }
@@ -10353,29 +10662,29 @@
 "label": "New Jersey House District 7",
 "special": false,
 "flipped": true,
-"eevp": 94.55,
-"lastUpdated": "2026-11-04T22:44:14.106000Z",
+"eevp": 94.72,
+"lastUpdated": "2026-11-05T22:17:26.436000Z",
 "calledAt": "2026-11-04T02:48:17.933Z",
-"totalVotes": 327294,
+"totalVotes": 327877,
 "candidates": [
 {
 "name": "Rebecca Bennett",
 "party": "Democratic",
-"votes": 186879,
+"votes": 187275,
 "pct": 57.1,
 "winner": true
 },
 {
 "name": "Thomas Kean",
 "party": "Republican",
-"votes": 135392,
-"pct": 41.4,
+"votes": 135560,
+"pct": 41.3,
 "winner": false
 },
 {
 "name": "Seamus O'Toole",
 "party": "Other",
-"votes": 5023,
+"votes": 5042,
 "pct": 1.5,
 "winner": false
 }
@@ -10389,36 +10698,36 @@
 "label": "New Jersey House District 8",
 "special": false,
 "flipped": false,
-"eevp": 80.97,
-"lastUpdated": "2026-11-04T21:20:48.211000Z",
+"eevp": 81.16,
+"lastUpdated": "2026-11-05T21:34:00.960000Z",
 "calledAt": "2026-11-04T01:11:12.519Z",
-"totalVotes": 122265,
+"totalVotes": 122549,
 "candidates": [
 {
 "name": "Rob Menendez",
 "party": "Democratic",
-"votes": 108271,
+"votes": 108520,
 "pct": 88.6,
 "winner": true
 },
 {
 "name": "Craig Honts",
 "party": "Other",
-"votes": 5198,
+"votes": 5209,
 "pct": 4.3,
 "winner": false
 },
 {
 "name": "Aristotle Eliopoulos",
 "party": "Other",
-"votes": 5182,
+"votes": 5198,
 "pct": 4.2,
 "winner": false
 },
 {
 "name": "Da'Shone Hughey",
 "party": "Other",
-"votes": 3614,
+"votes": 3622,
 "pct": 3.0,
 "winner": false
 }
@@ -10433,7 +10742,7 @@
 "special": false,
 "flipped": false,
 "eevp": 94.33,
-"lastUpdated": "2026-11-04T21:18:34.056000Z",
+"lastUpdated": "2026-11-05T22:35:02.345000Z",
 "calledAt": "2026-11-04T03:22:06.948Z",
 "totalVotes": 184519,
 "candidates": [
@@ -10468,23 +10777,23 @@
 "label": "New Jersey House District 10",
 "special": false,
 "flipped": false,
-"eevp": 89.33,
-"lastUpdated": "2026-11-04T21:20:14.877000Z",
+"eevp": 90.18,
+"lastUpdated": "2026-11-05T21:34:00.975000Z",
 "calledAt": "2026-11-04T01:22:28.493Z",
-"totalVotes": 174710,
+"totalVotes": 176383,
 "candidates": [
 {
 "name": "LaMonica McIver",
 "party": "Democratic",
-"votes": 147445,
-"pct": 84.4,
+"votes": 148968,
+"pct": 84.5,
 "winner": true
 },
 {
 "name": "Carmen Bucco",
 "party": "Republican",
-"votes": 27265,
-"pct": 15.6,
+"votes": 27415,
+"pct": 15.5,
 "winner": false
 }
 ]
@@ -10497,29 +10806,29 @@
 "label": "New Jersey House District 11",
 "special": false,
 "flipped": false,
-"eevp": 92.44,
-"lastUpdated": "2026-11-04T20:30:14.731000Z",
+"eevp": 94.54,
+"lastUpdated": "2026-11-05T20:49:29.087000Z",
 "calledAt": "2026-11-04T01:18:49.311Z",
-"totalVotes": 270533,
+"totalVotes": 276673,
 "candidates": [
 {
 "name": "Analilia Mejia",
 "party": "Democratic",
-"votes": 162759,
-"pct": 60.2,
+"votes": 167572,
+"pct": 60.6,
 "winner": true
 },
 {
 "name": "Joe Hathaway",
 "party": "Republican",
-"votes": 105350,
-"pct": 38.9,
+"votes": 106622,
+"pct": 38.5,
 "winner": false
 },
 {
 "name": "Alan Bond",
 "party": "Other",
-"votes": 2424,
+"votes": 2479,
 "pct": 0.9,
 "winner": false
 }
@@ -10533,36 +10842,36 @@
 "label": "New Jersey House District 12",
 "special": false,
 "flipped": false,
-"eevp": 93.08,
-"lastUpdated": "2026-11-04T21:24:34.798000Z",
+"eevp": 93.29,
+"lastUpdated": "2026-11-05T22:17:52.449000Z",
 "calledAt": "2026-11-04T01:26:52.699Z",
-"totalVotes": 228812,
+"totalVotes": 229320,
 "candidates": [
 {
 "name": "Adam Hamawy",
 "party": "Democratic",
-"votes": 160586,
+"votes": 160896,
 "pct": 70.2,
 "winner": true
 },
 {
 "name": "Gregg Mele",
 "party": "Republican",
-"votes": 64797,
+"votes": 64984,
 "pct": 28.3,
 "winner": false
 },
 {
 "name": "Winston Jordan",
 "party": "Other",
-"votes": 1774,
+"votes": 1781,
 "pct": 0.8,
 "winner": false
 },
 {
 "name": "Andres Jinete",
 "party": "Other",
-"votes": 1655,
+"votes": 1659,
 "pct": 0.7,
 "winner": false
 }
@@ -10576,23 +10885,23 @@
 "label": "New Mexico House District 1",
 "special": false,
 "flipped": false,
-"eevp": 97.94,
-"lastUpdated": "2026-11-04T15:45:07.609000Z",
+"eevp": 98.44,
+"lastUpdated": "2026-11-05T19:39:45.368000Z",
 "calledAt": "2026-11-04T05:07:37.574Z",
-"totalVotes": 280562,
+"totalVotes": 282002,
 "candidates": [
 {
 "name": "Melanie Stansbury",
 "party": "Democratic",
-"votes": 178261,
-"pct": 63.5,
+"votes": 179361,
+"pct": 63.6,
 "winner": true
 },
 {
 "name": "Ndidiamaka Okpareke",
 "party": "Republican",
-"votes": 102301,
-"pct": 36.5,
+"votes": 102641,
+"pct": 36.4,
 "winner": false
 }
 ]
@@ -10605,22 +10914,22 @@
 "label": "New Mexico House District 2",
 "special": false,
 "flipped": false,
-"eevp": 98,
-"lastUpdated": "2026-11-04T15:45:08.366000Z",
+"eevp": 98.36,
+"lastUpdated": "2026-11-05T19:37:20.800000Z",
 "calledAt": "2026-11-04T05:12:37.370Z",
-"totalVotes": 209763,
+"totalVotes": 210527,
 "candidates": [
 {
 "name": "Gabriel Vasquez",
 "party": "Democratic",
-"votes": 123113,
+"votes": 123679,
 "pct": 58.7,
 "winner": true
 },
 {
 "name": "Gregory Cunningham",
 "party": "Republican",
-"votes": 86650,
+"votes": 86848,
 "pct": 41.3,
 "winner": false
 }
@@ -10634,23 +10943,95 @@
 "label": "New Mexico House District 3",
 "special": false,
 "flipped": false,
-"eevp": 98,
-"lastUpdated": "2026-11-04T15:45:11.080000Z",
+"eevp": 98.19,
+"lastUpdated": "2026-11-05T22:48:37.633000Z",
 "calledAt": "2026-11-04T04:19:47.209Z",
-"totalVotes": 227620,
+"totalVotes": 228948,
 "candidates": [
 {
 "name": "Teresa Leger Fernandez",
 "party": "Democratic",
-"votes": 139967,
-"pct": 61.5,
+"votes": 141081,
+"pct": 61.6,
 "winner": true
 },
 {
 "name": "Martin Zamora",
 "party": "Republican",
-"votes": 87653,
-"pct": 38.5,
+"votes": 87867,
+"pct": 38.4,
+"winner": false
+}
+]
+},
+{
+"slug": "ny-house-district-1",
+"office": "House",
+"state": "NY",
+"stateName": "New York",
+"label": "New York House District 1",
+"special": false,
+"flipped": false,
+"eevp": 97,
+"lastUpdated": "2026-11-05T17:00:41.053000Z",
+"calledAt": "2026-11-05T17:00:41.053Z",
+"totalVotes": 298585,
+"candidates": [
+{
+"name": "Nicholas LaLota",
+"party": "Republican",
+"votes": 152546,
+"pct": 51.1,
+"winner": true
+},
+{
+"name": "Christopher Gallant",
+"party": "Democratic",
+"votes": 145869,
+"pct": 48.9,
+"winner": false
+},
+{
+"name": "Total Write-ins",
+"party": "Other",
+"votes": 170,
+"pct": 0.1,
+"winner": false
+}
+]
+},
+{
+"slug": "ny-house-district-2",
+"office": "House",
+"state": "NY",
+"stateName": "New York",
+"label": "New York House District 2",
+"special": false,
+"flipped": false,
+"eevp": 97.22,
+"lastUpdated": "2026-11-05T17:44:06.771000Z",
+"calledAt": "2026-11-05T17:00:30.832Z",
+"totalVotes": 248655,
+"candidates": [
+{
+"name": "Andrew Garbarino",
+"party": "Republican",
+"votes": 128184,
+"pct": 51.6,
+"winner": true
+},
+{
+"name": "Patrick Halpin",
+"party": "Democratic",
+"votes": 120263,
+"pct": 48.4,
+"winner": false
+},
+{
+"name": "Total Write-ins",
+"party": "Other",
+"votes": 208,
+"pct": 0.1,
 "winner": false
 }
 ]
@@ -10663,29 +11044,29 @@
 "label": "New York House District 3",
 "special": false,
 "flipped": false,
-"eevp": 97.01,
-"lastUpdated": "2026-11-04T20:57:14.762000Z",
+"eevp": 96.86,
+"lastUpdated": "2026-11-05T21:32:52.790000Z",
 "calledAt": "2026-11-04T19:04:10.881Z",
-"totalVotes": 270572,
+"totalVotes": 272733,
 "candidates": [
 {
 "name": "Thomas Suozzi",
 "party": "Democratic",
-"votes": 148216,
+"votes": 149547,
 "pct": 54.8,
 "winner": true
 },
 {
 "name": "Michael LiPetri",
 "party": "Republican",
-"votes": 121623,
-"pct": 45.0,
+"votes": 122442,
+"pct": 44.9,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 733,
+"votes": 744,
 "pct": 0.3,
 "winner": false
 }
@@ -10699,36 +11080,36 @@
 "label": "New York House District 4",
 "special": false,
 "flipped": false,
-"eevp": 97,
-"lastUpdated": "2026-11-04T19:04:26.176000Z",
+"eevp": 97.99,
+"lastUpdated": "2026-11-05T17:44:07.464000Z",
 "calledAt": "2026-11-04T19:04:26.176Z",
-"totalVotes": 285480,
+"totalVotes": 288407,
 "candidates": [
 {
 "name": "Laura Gillen",
 "party": "Democratic",
-"votes": 160234,
-"pct": 56.1,
+"votes": 162077,
+"pct": 56.2,
 "winner": true
 },
 {
 "name": "Jeanine Driscoll",
 "party": "Republican",
-"votes": 124259,
+"votes": 125333,
 "pct": 43.5,
 "winner": false
 },
 {
 "name": "Blay Tarnoff",
 "party": "Other",
-"votes": 714,
-"pct": 0.3,
+"votes": 720,
+"pct": 0.2,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 273,
+"votes": 277,
 "pct": 0.1,
 "winner": false
 }
@@ -10742,8 +11123,8 @@
 "label": "New York House District 5",
 "special": false,
 "flipped": false,
-"eevp": 91.13,
-"lastUpdated": "2026-11-04T06:58:09.926000Z",
+"eevp": 90.73,
+"lastUpdated": "2026-11-05T21:32:52.652000Z",
 "calledAt": "2026-11-04T02:05:56.054Z",
 "totalVotes": 161418,
 "candidates": [
@@ -10778,8 +11159,8 @@
 "label": "New York House District 6",
 "special": false,
 "flipped": false,
-"eevp": 87.19,
-"lastUpdated": "2026-11-04T06:58:09.902000Z",
+"eevp": 88.22,
+"lastUpdated": "2026-11-05T21:32:45.523000Z",
 "calledAt": "2026-11-04T02:22:27.667Z",
 "totalVotes": 134749,
 "candidates": [
@@ -10814,8 +11195,8 @@
 "label": "New York House District 7",
 "special": false,
 "flipped": false,
-"eevp": 97.4,
-"lastUpdated": "2026-11-04T20:29:57.693000Z",
+"eevp": 88.15,
+"lastUpdated": "2026-11-05T21:32:49.722000Z",
 "calledAt": "2026-11-04T02:08:40.071Z",
 "totalVotes": 162218,
 "candidates": [
@@ -10857,8 +11238,8 @@
 "label": "New York House District 8",
 "special": false,
 "flipped": false,
-"eevp": 98,
-"lastUpdated": "2026-11-04T20:30:01.074000Z",
+"eevp": 87.04,
+"lastUpdated": "2026-11-05T21:32:53.370000Z",
 "calledAt": "2026-11-04T02:07:13.207Z",
 "totalVotes": 162404,
 "candidates": [
@@ -10893,8 +11274,8 @@
 "label": "New York House District 9",
 "special": false,
 "flipped": false,
-"eevp": 98,
-"lastUpdated": "2026-11-04T20:30:08.111000Z",
+"eevp": 87.14,
+"lastUpdated": "2026-11-05T21:32:56.665000Z",
 "calledAt": "2026-11-04T02:05:32.790Z",
 "totalVotes": 178465,
 "candidates": [
@@ -10929,8 +11310,8 @@
 "label": "New York House District 10",
 "special": false,
 "flipped": false,
-"eevp": 91.91,
-"lastUpdated": "2026-11-04T20:30:03.626000Z",
+"eevp": 88.45,
+"lastUpdated": "2026-11-05T21:32:53.456000Z",
 "calledAt": "2026-11-04T02:05:13.644Z",
 "totalVotes": 201120,
 "candidates": [
@@ -10965,8 +11346,8 @@
 "label": "New York House District 11",
 "special": false,
 "flipped": false,
-"eevp": 96.77,
-"lastUpdated": "2026-11-04T20:30:02.364000Z",
+"eevp": 91.08,
+"lastUpdated": "2026-11-05T21:32:52.432000Z",
 "calledAt": "2026-11-04T02:26:46.016Z",
 "totalVotes": 181316,
 "candidates": [
@@ -11001,8 +11382,8 @@
 "label": "New York House District 12",
 "special": false,
 "flipped": false,
-"eevp": 88.11,
-"lastUpdated": "2026-11-04T06:59:36.800000Z",
+"eevp": 85.9,
+"lastUpdated": "2026-11-05T21:32:53.383000Z",
 "calledAt": "2026-11-04T02:04:50.543Z",
 "totalVotes": 250781,
 "candidates": [
@@ -11051,8 +11432,8 @@
 "label": "New York House District 13",
 "special": false,
 "flipped": false,
-"eevp": 79.77,
-"lastUpdated": "2026-11-04T17:22:04.954000Z",
+"eevp": 89.54,
+"lastUpdated": "2026-11-05T21:32:45.929000Z",
 "calledAt": "2026-11-04T02:07:39.132Z",
 "totalVotes": 161117,
 "candidates": [
@@ -11087,8 +11468,8 @@
 "label": "New York House District 14",
 "special": false,
 "flipped": false,
-"eevp": 95.59,
-"lastUpdated": "2026-11-04T17:23:20.135000Z",
+"eevp": 91.5,
+"lastUpdated": "2026-11-05T21:32:49.476000Z",
 "calledAt": "2026-11-04T02:06:26.257Z",
 "totalVotes": 136956,
 "candidates": [
@@ -11123,8 +11504,8 @@
 "label": "New York House District 15",
 "special": false,
 "flipped": false,
-"eevp": 93.8,
-"lastUpdated": "2026-11-04T17:25:11.686000Z",
+"eevp": 90.1,
+"lastUpdated": "2026-11-05T21:32:55.600000Z",
 "calledAt": "2026-11-04T02:08:00.258Z",
 "totalVotes": 122169,
 "candidates": [
@@ -11180,29 +11561,29 @@
 "label": "New York House District 16",
 "special": false,
 "flipped": false,
-"eevp": 36.72,
-"lastUpdated": "2026-11-05T03:22:40.953000Z",
+"eevp": 39.29,
+"lastUpdated": "2026-11-05T21:32:53.976000Z",
 "calledAt": "2026-11-04T03:31:50.028Z",
-"totalVotes": 102607,
+"totalVotes": 107961,
 "candidates": [
 {
 "name": "George Latimer",
 "party": "Democratic",
-"votes": 82587,
-"pct": 80.5,
+"votes": 85872,
+"pct": 79.5,
 "winner": true
 },
 {
 "name": "Joseph Cinquemani",
 "party": "Republican",
-"votes": 19667,
-"pct": 19.2,
+"votes": 21724,
+"pct": 20.1,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 353,
+"votes": 365,
 "pct": 0.3,
 "winner": false
 }
@@ -11217,7 +11598,7 @@
 "special": false,
 "flipped": false,
 "eevp": 88.9,
-"lastUpdated": "2026-11-04T20:35:18.805000Z",
+"lastUpdated": "2026-11-05T22:41:17.976000Z",
 "calledAt": "2026-11-04T02:37:09.718Z",
 "totalVotes": 268816,
 "candidates": [
@@ -11252,22 +11633,22 @@
 "label": "New York House District 19",
 "special": false,
 "flipped": false,
-"eevp": 96.99,
-"lastUpdated": "2026-11-04T21:42:45.018000Z",
+"eevp": 96.51,
+"lastUpdated": "2026-11-05T21:43:14.182000Z",
 "calledAt": "2026-11-04T02:40:01.275Z",
-"totalVotes": 292232,
+"totalVotes": 292931,
 "candidates": [
 {
 "name": "Josh Riley",
 "party": "Democratic",
-"votes": 167360,
+"votes": 167896,
 "pct": 57.3,
 "winner": true
 },
 {
 "name": "Peter Oberacker",
 "party": "Republican",
-"votes": 124566,
+"votes": 124729,
 "pct": 42.6,
 "winner": false
 },
@@ -11288,22 +11669,22 @@
 "label": "New York House District 20",
 "special": false,
 "flipped": false,
-"eevp": 95.98,
-"lastUpdated": "2026-11-04T20:58:40.514000Z",
+"eevp": 96.1,
+"lastUpdated": "2026-11-05T22:40:43.064000Z",
 "calledAt": "2026-11-04T03:40:40.251Z",
-"totalVotes": 285385,
+"totalVotes": 285746,
 "candidates": [
 {
 "name": "Paul Tonko",
 "party": "Democratic",
-"votes": 181290,
+"votes": 181580,
 "pct": 63.5,
 "winner": true
 },
 {
 "name": "Ralph Ambrosio",
 "party": "Republican",
-"votes": 103846,
+"votes": 103917,
 "pct": 36.4,
 "winner": false
 },
@@ -11324,22 +11705,22 @@
 "label": "New York House District 22",
 "special": false,
 "flipped": false,
-"eevp": 93.9,
-"lastUpdated": "2026-11-04T22:37:50.313000Z",
+"eevp": 93.76,
+"lastUpdated": "2026-11-05T22:39:38.512000Z",
 "calledAt": "2026-11-04T02:55:35.442Z",
-"totalVotes": 273480,
+"totalVotes": 273507,
 "candidates": [
 {
 "name": "John Mannion",
 "party": "Democratic",
-"votes": 159544,
+"votes": 159563,
 "pct": 58.3,
 "winner": true
 },
 {
 "name": "Kailee Buller",
 "party": "Republican",
-"votes": 113721,
+"votes": 113729,
 "pct": 41.6,
 "winner": false
 },
@@ -11361,7 +11742,7 @@
 "special": false,
 "flipped": false,
 "eevp": 97.28,
-"lastUpdated": "2026-11-04T20:11:15.712000Z",
+"lastUpdated": "2026-11-05T22:41:14.394000Z",
 "calledAt": "2026-11-04T03:49:43.737Z",
 "totalVotes": 301707,
 "candidates": [
@@ -11397,7 +11778,7 @@
 "special": false,
 "flipped": false,
 "eevp": 95.96,
-"lastUpdated": "2026-11-04T20:26:04.563000Z",
+"lastUpdated": "2026-11-05T22:41:14.425000Z",
 "calledAt": "2026-11-04T04:11:11.671Z",
 "totalVotes": 283863,
 "candidates": [
@@ -11433,7 +11814,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.01,
-"lastUpdated": "2026-11-04T20:11:33.523000Z",
+"lastUpdated": "2026-11-05T22:22:57.770000Z",
 "calledAt": "2026-11-04T02:38:51.240Z",
 "totalVotes": 280606,
 "candidates": [
@@ -11469,7 +11850,7 @@
 "special": false,
 "flipped": false,
 "eevp": 83.65,
-"lastUpdated": "2026-11-04T17:07:07.875000Z",
+"lastUpdated": "2026-11-05T22:23:44.388000Z",
 "calledAt": "2026-11-04T02:53:41.461Z",
 "totalVotes": 242613,
 "candidates": [
@@ -11497,6 +11878,42 @@
 ]
 },
 {
+"slug": "nc-house-district-1",
+"office": "House",
+"state": "NC",
+"stateName": "North Carolina",
+"label": "North Carolina House District 1",
+"special": false,
+"flipped": false,
+"eevp": 99,
+"lastUpdated": "2026-11-05T17:26:41.359000Z",
+"calledAt": "2026-11-05T16:58:36.782Z",
+"totalVotes": 312703,
+"candidates": [
+{
+"name": "Don Davis",
+"party": "Democratic",
+"votes": 156564,
+"pct": 50.1,
+"winner": true
+},
+{
+"name": "Laurie Buckhout",
+"party": "Republican",
+"votes": 146259,
+"pct": 46.8,
+"winner": false
+},
+{
+"name": "Tom Bailey",
+"party": "Libertarian",
+"votes": 9880,
+"pct": 3.2,
+"winner": false
+}
+]
+},
+{
 "slug": "nc-house-district-2",
 "office": "House",
 "state": "NC",
@@ -11505,7 +11922,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:26:40.143000Z",
+"lastUpdated": "2026-11-05T15:42:47.600000Z",
 "calledAt": "2026-11-04T01:24:28.657Z",
 "totalVotes": 326962,
 "candidates": [
@@ -11548,7 +11965,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.9,
-"lastUpdated": "2026-11-04T22:26:33.943000Z",
+"lastUpdated": "2026-11-05T15:42:48.652000Z",
 "calledAt": "2026-11-04T01:24:37.306Z",
 "totalVotes": 358015,
 "candidates": [
@@ -11576,6 +11993,64 @@
 ]
 },
 {
+"slug": "nc-house-district-6",
+"office": "House",
+"state": "NC",
+"stateName": "North Carolina",
+"label": "North Carolina House District 6",
+"special": false,
+"flipped": true,
+"eevp": 99,
+"lastUpdated": "2026-11-05T21:34:58.768000Z",
+"calledAt": "2026-11-05T16:58:47.607Z",
+"totalVotes": 273738,
+"candidates": [
+{
+"name": "Cyril Jefferson",
+"party": "Democratic",
+"votes": 140001,
+"pct": 51.1,
+"winner": true
+},
+{
+"name": "Addison McDowell",
+"party": "Republican",
+"votes": 133737,
+"pct": 48.9,
+"winner": false
+}
+]
+},
+{
+"slug": "nc-house-district-9",
+"office": "House",
+"state": "NC",
+"stateName": "North Carolina",
+"label": "North Carolina House District 9",
+"special": false,
+"flipped": true,
+"eevp": 99,
+"lastUpdated": "2026-11-05T22:50:31.275000Z",
+"calledAt": "2026-11-05T19:39:21.200Z",
+"totalVotes": 271399,
+"candidates": [
+{
+"name": "Richard Ojeda",
+"party": "Democratic",
+"votes": 138707,
+"pct": 51.1,
+"winner": true
+},
+{
+"name": "Richard Hudson",
+"party": "Republican",
+"votes": 132692,
+"pct": 48.9,
+"winner": false
+}
+]
+},
+{
 "slug": "nc-house-district-11",
 "office": "House",
 "state": "NC",
@@ -11584,7 +12059,7 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:26:22.123000Z",
+"lastUpdated": "2026-11-05T15:42:51.229000Z",
 "calledAt": "2026-11-04T01:53:13.100Z",
 "totalVotes": 342409,
 "candidates": [
@@ -11620,7 +12095,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:26:33.756000Z",
+"lastUpdated": "2026-11-05T21:48:31.119000Z",
 "calledAt": "2026-11-04T01:25:03.636Z",
 "totalVotes": 270536,
 "candidates": [
@@ -11641,6 +12116,71 @@
 ]
 },
 {
+"slug": "nc-house-district-13",
+"office": "House",
+"state": "NC",
+"stateName": "North Carolina",
+"label": "North Carolina House District 13",
+"special": false,
+"flipped": true,
+"eevp": 99,
+"lastUpdated": "2026-11-05T21:46:01.006000Z",
+"calledAt": "2026-11-05T16:59:02.063Z",
+"totalVotes": 316789,
+"candidates": [
+{
+"name": "Paul Barringer",
+"party": "Democratic",
+"votes": 159981,
+"pct": 50.5,
+"winner": true
+},
+{
+"name": "Brad Knott",
+"party": "Republican",
+"votes": 152329,
+"pct": 48.1,
+"winner": false
+},
+{
+"name": "Steven Swinton",
+"party": "Libertarian",
+"votes": 4479,
+"pct": 1.4,
+"winner": false
+}
+]
+},
+{
+"slug": "nc-house-district-14",
+"office": "House",
+"state": "NC",
+"stateName": "North Carolina",
+"label": "North Carolina House District 14",
+"special": false,
+"flipped": true,
+"eevp": 99,
+"lastUpdated": "2026-11-05T21:48:31.006000Z",
+"calledAt": "2026-11-05T16:59:11.444Z",
+"totalVotes": 288361,
+"candidates": [
+{
+"name": "Lakesha Womack",
+"party": "Democratic",
+"votes": 147388,
+"pct": 51.1,
+"winner": true
+},
+{
+"name": "Tim Moore",
+"party": "Republican",
+"votes": 140973,
+"pct": 48.9,
+"winner": false
+}
+]
+},
+{
 "slug": "nd-house-at-large",
 "office": "House",
 "state": "ND",
@@ -11648,8 +12188,8 @@
 "label": "North Dakota at-large House",
 "special": false,
 "flipped": false,
-"eevp": 97.25,
-"lastUpdated": "2026-11-04T17:20:52.205000Z",
+"eevp": 98.2,
+"lastUpdated": "2026-11-05T17:01:38.029000Z",
 "calledAt": "2026-11-04T02:56:13.495Z",
 "totalVotes": 234255,
 "candidates": [
@@ -11692,7 +12232,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98,
-"lastUpdated": "2026-11-04T22:14:22.973000Z",
+"lastUpdated": "2026-11-05T21:16:31.980000Z",
 "calledAt": "2026-11-04T03:35:01.840Z",
 "totalVotes": 324471,
 "candidates": [
@@ -11727,8 +12267,8 @@
 "label": "Ohio House District 2",
 "special": false,
 "flipped": false,
-"eevp": 98.03,
-"lastUpdated": "2026-11-04T22:13:54.729000Z",
+"eevp": 97.97,
+"lastUpdated": "2026-11-05T22:55:19.316000Z",
 "calledAt": "2026-11-04T02:06:02.943Z",
 "totalVotes": 273049,
 "candidates": [
@@ -11757,7 +12297,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98,
-"lastUpdated": "2026-11-04T20:40:32.613000Z",
+"lastUpdated": "2026-11-05T16:48:03.318000Z",
 "calledAt": "2026-11-04T00:42:11.309Z",
 "totalVotes": 300332,
 "candidates": [
@@ -11786,7 +12326,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.1,
-"lastUpdated": "2026-11-04T22:22:25.343000Z",
+"lastUpdated": "2026-11-05T20:33:37.152000Z",
 "calledAt": "2026-11-04T01:58:47.082Z",
 "totalVotes": 305586,
 "candidates": [
@@ -11822,7 +12362,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.15,
-"lastUpdated": "2026-11-04T22:21:36.471000Z",
+"lastUpdated": "2026-11-05T21:29:30.315000Z",
 "calledAt": "2026-11-04T02:56:06.740Z",
 "totalVotes": 301101,
 "candidates": [
@@ -11858,7 +12398,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.06,
-"lastUpdated": "2026-11-04T22:54:41.408000Z",
+"lastUpdated": "2026-11-05T21:35:19.092000Z",
 "calledAt": "2026-11-04T02:35:01.196Z",
 "totalVotes": 270985,
 "candidates": [
@@ -11887,7 +12427,7 @@
 "special": false,
 "flipped": true,
 "eevp": 98,
-"lastUpdated": "2026-11-04T22:09:54.841000Z",
+"lastUpdated": "2026-11-05T20:32:13.111000Z",
 "calledAt": "2026-11-04T06:23:33.534Z",
 "totalVotes": 328791,
 "candidates": [
@@ -11915,8 +12455,8 @@
 "label": "Ohio House District 8",
 "special": false,
 "flipped": false,
-"eevp": 98,
-"lastUpdated": "2026-11-04T20:57:34.906000Z",
+"eevp": 97.92,
+"lastUpdated": "2026-11-05T22:56:14.593000Z",
 "calledAt": "2026-11-04T04:03:49.925Z",
 "totalVotes": 323517,
 "candidates": [
@@ -11945,7 +12485,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.07,
-"lastUpdated": "2026-11-04T22:43:20.953000Z",
+"lastUpdated": "2026-11-05T22:56:47.327000Z",
 "calledAt": "2026-11-04T07:53:04.366Z",
 "totalVotes": 302136,
 "candidates": [
@@ -11966,6 +12506,42 @@
 ]
 },
 {
+"slug": "oh-house-district-10",
+"office": "House",
+"state": "OH",
+"stateName": "Ohio",
+"label": "Ohio House District 10",
+"special": false,
+"flipped": true,
+"eevp": 97.51,
+"lastUpdated": "2026-11-05T19:39:42.727000Z",
+"calledAt": "2026-11-05T19:39:42.727Z",
+"totalVotes": 302016,
+"candidates": [
+{
+"name": "Kristina Knickerbocker",
+"party": "Democratic",
+"votes": 149024,
+"pct": 49.3,
+"winner": true
+},
+{
+"name": "Mike Turner",
+"party": "Republican",
+"votes": 144086,
+"pct": 47.7,
+"winner": false
+},
+{
+"name": "Thomas McMasters",
+"party": "Libertarian",
+"votes": 8906,
+"pct": 2.9,
+"winner": false
+}
+]
+},
+{
 "slug": "oh-house-district-11",
 "office": "House",
 "state": "OH",
@@ -11974,7 +12550,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98,
-"lastUpdated": "2026-11-04T22:09:54.861000Z",
+"lastUpdated": "2026-11-05T19:50:06.177000Z",
 "calledAt": "2026-11-04T00:52:51.929Z",
 "totalVotes": 263344,
 "candidates": [
@@ -12002,8 +12578,8 @@
 "label": "Ohio House District 12",
 "special": false,
 "flipped": false,
-"eevp": 98.01,
-"lastUpdated": "2026-11-04T22:22:55.521000Z",
+"eevp": 97.68,
+"lastUpdated": "2026-11-05T21:33:27.008000Z",
 "calledAt": "2026-11-04T02:35:31.538Z",
 "totalVotes": 323137,
 "candidates": [
@@ -12031,8 +12607,8 @@
 "label": "Ohio House District 13",
 "special": false,
 "flipped": false,
-"eevp": 97.86,
-"lastUpdated": "2026-11-04T21:23:35.792000Z",
+"eevp": 98.1,
+"lastUpdated": "2026-11-05T21:36:24.986000Z",
 "calledAt": "2026-11-04T00:48:02.013Z",
 "totalVotes": 317775,
 "candidates": [
@@ -12068,7 +12644,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.09,
-"lastUpdated": "2026-11-04T22:29:27.872000Z",
+"lastUpdated": "2026-11-05T21:37:06.694000Z",
 "calledAt": "2026-11-04T03:06:01.335Z",
 "totalVotes": 326118,
 "candidates": [
@@ -12096,8 +12672,8 @@
 "label": "Ohio House District 15",
 "special": false,
 "flipped": true,
-"eevp": 97.98,
-"lastUpdated": "2026-11-04T22:01:05.801000Z",
+"eevp": 97.93,
+"lastUpdated": "2026-11-05T22:55:59.562000Z",
 "calledAt": "2026-11-04T03:52:04.969Z",
 "totalVotes": 287647,
 "candidates": [
@@ -12162,7 +12738,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T23:45:20.956000Z",
+"lastUpdated": "2026-11-05T14:45:03.290000Z",
 "calledAt": "2026-11-04T01:49:16.735Z",
 "totalVotes": 211874,
 "candidates": [
@@ -12227,7 +12803,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T23:28:44.235000Z",
+"lastUpdated": "2026-11-05T14:45:28.948000Z",
 "calledAt": "2026-11-04T02:19:54.574Z",
 "totalVotes": 218008,
 "candidates": [
@@ -12536,7 +13112,7 @@
 "special": false,
 "flipped": true,
 "eevp": 98.47,
-"lastUpdated": "2026-11-04T21:27:33.066000Z",
+"lastUpdated": "2026-11-05T17:52:08.423000Z",
 "calledAt": "2026-11-04T05:37:55.727Z",
 "totalVotes": 356618,
 "candidates": [
@@ -12564,22 +13140,22 @@
 "label": "Pennsylvania House District 2",
 "special": false,
 "flipped": false,
-"eevp": 98.56,
-"lastUpdated": "2026-11-04T20:49:28.106000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T22:23:47.443000Z",
 "calledAt": "2026-11-04T01:28:38.680Z",
-"totalVotes": 182506,
+"totalVotes": 183983,
 "candidates": [
 {
 "name": "Brendan Boyle",
 "party": "Democratic",
-"votes": 147433,
+"votes": 148570,
 "pct": 80.8,
 "winner": true
 },
 {
 "name": "Jessica Arriaga",
 "party": "Republican",
-"votes": 35073,
+"votes": 35413,
 "pct": 19.2,
 "winner": false
 }
@@ -12593,22 +13169,22 @@
 "label": "Pennsylvania House District 3",
 "special": false,
 "flipped": false,
-"eevp": 97.9,
-"lastUpdated": "2026-11-04T20:49:27.480000Z",
+"eevp": 98.48,
+"lastUpdated": "2026-11-05T21:31:36.004000Z",
 "calledAt": "2026-11-04T01:27:44.834Z",
-"totalVotes": 269927,
+"totalVotes": 271524,
 "candidates": [
 {
 "name": "Chris Rabb",
 "party": "Democratic",
-"votes": 252629,
+"votes": 254163,
 "pct": 93.6,
 "winner": true
 },
 {
 "name": "Dennis Mahoney",
 "party": "Independent",
-"votes": 17298,
+"votes": 17361,
 "pct": 6.4,
 "winner": false
 }
@@ -12623,7 +13199,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T14:46:48.941000Z",
+"lastUpdated": "2026-11-05T17:52:08.529000Z",
 "calledAt": "2026-11-04T01:48:29.148Z",
 "totalVotes": 344889,
 "candidates": [
@@ -12652,21 +13228,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:49:27.562000Z",
+"lastUpdated": "2026-11-05T21:31:36.070000Z",
 "calledAt": "2026-11-04T01:44:53.714Z",
-"totalVotes": 296108,
+"totalVotes": 296228,
 "candidates": [
 {
 "name": "Mary Scanlon",
 "party": "Democratic",
-"votes": 213389,
+"votes": 213497,
 "pct": 72.1,
 "winner": true
 },
 {
 "name": "Nick Manganaro",
 "party": "Republican",
-"votes": 82719,
+"votes": 82731,
 "pct": 27.9,
 "winner": false
 }
@@ -12681,7 +13257,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T14:59:12.374000Z",
+"lastUpdated": "2026-11-05T14:48:51.851000Z",
 "calledAt": "2026-11-04T02:17:45.309Z",
 "totalVotes": 309012,
 "candidates": [
@@ -12710,7 +13286,7 @@
 "special": false,
 "flipped": true,
 "eevp": 98.86,
-"lastUpdated": "2026-11-04T21:19:29.567000Z",
+"lastUpdated": "2026-11-05T14:48:48.301000Z",
 "calledAt": "2026-11-04T03:27:45.871Z",
 "totalVotes": 293245,
 "candidates": [
@@ -12738,22 +13314,22 @@
 "label": "Pennsylvania House District 8",
 "special": false,
 "flipped": true,
-"eevp": 98.19,
-"lastUpdated": "2026-11-04T20:59:21.009000Z",
+"eevp": 98.22,
+"lastUpdated": "2026-11-05T20:26:45.125000Z",
 "calledAt": "2026-11-04T03:41:21.541Z",
-"totalVotes": 280664,
+"totalVotes": 280751,
 "candidates": [
 {
 "name": "Paige Cognetti",
 "party": "Democratic",
-"votes": 152583,
+"votes": 152616,
 "pct": 54.4,
 "winner": true
 },
 {
 "name": "Rob Bresnahan",
 "party": "Republican",
-"votes": 128081,
+"votes": 128135,
 "pct": 45.6,
 "winner": false
 }
@@ -12767,22 +13343,22 @@
 "label": "Pennsylvania House District 9",
 "special": false,
 "flipped": false,
-"eevp": 97.57,
-"lastUpdated": "2026-11-04T20:46:45.524000Z",
+"eevp": 97.64,
+"lastUpdated": "2026-11-05T18:52:55.202000Z",
 "calledAt": "2026-11-04T03:31:29.246Z",
-"totalVotes": 269101,
+"totalVotes": 269282,
 "candidates": [
 {
 "name": "Dan Meuser",
 "party": "Republican",
-"votes": 165686,
+"votes": 165758,
 "pct": 61.6,
 "winner": true
 },
 {
 "name": "Rachel Wallace",
 "party": "Democratic",
-"votes": 103415,
+"votes": 103524,
 "pct": 38.4,
 "winner": false
 }
@@ -12796,22 +13372,22 @@
 "label": "Pennsylvania House District 10",
 "special": false,
 "flipped": true,
-"eevp": 98.93,
-"lastUpdated": "2026-11-04T21:31:46.261000Z",
+"eevp": 98.71,
+"lastUpdated": "2026-11-05T14:54:13.994000Z",
 "calledAt": "2026-11-04T03:41:44.934Z",
-"totalVotes": 315904,
+"totalVotes": 315190,
 "candidates": [
 {
 "name": "Janelle Stelson",
 "party": "Democratic",
-"votes": 173845,
+"votes": 173500,
 "pct": 55.0,
 "winner": true
 },
 {
 "name": "Scott Perry",
 "party": "Republican",
-"votes": 142059,
+"votes": 141690,
 "pct": 45.0,
 "winner": false
 }
@@ -12826,7 +13402,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.62,
-"lastUpdated": "2026-11-04T19:40:34.203000Z",
+"lastUpdated": "2026-11-05T14:48:48.340000Z",
 "calledAt": "2026-11-04T03:55:56.813Z",
 "totalVotes": 301155,
 "candidates": [
@@ -12855,7 +13431,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.7,
-"lastUpdated": "2026-11-04T19:40:00.598000Z",
+"lastUpdated": "2026-11-05T14:48:47.859000Z",
 "calledAt": "2026-11-04T01:46:45.265Z",
 "totalVotes": 295901,
 "candidates": [
@@ -12884,7 +13460,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T21:13:44.095000Z",
+"lastUpdated": "2026-11-05T18:46:20.835000Z",
 "calledAt": "2026-11-04T02:12:38.878Z",
 "totalVotes": 280573,
 "candidates": [
@@ -12913,21 +13489,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:39:56.536000Z",
+"lastUpdated": "2026-11-05T18:51:09.474000Z",
 "calledAt": "2026-11-04T03:40:42.605Z",
-"totalVotes": 275913,
+"totalVotes": 275923,
 "candidates": [
 {
 "name": "Guy Reschenthaler",
 "party": "Republican",
-"votes": 158856,
+"votes": 158859,
 "pct": 57.6,
 "winner": true
 },
 {
 "name": "Alan Bradstock",
 "party": "Democratic",
-"votes": 117057,
+"votes": 117064,
 "pct": 42.4,
 "winner": false
 }
@@ -12942,21 +13518,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T21:23:03.157000Z",
+"lastUpdated": "2026-11-05T20:54:44.301000Z",
 "calledAt": "2026-11-04T02:28:58.884Z",
-"totalVotes": 267519,
+"totalVotes": 267562,
 "candidates": [
 {
 "name": "Glenn Thompson",
 "party": "Republican",
-"votes": 170998,
+"votes": 171017,
 "pct": 63.9,
 "winner": true
 },
 {
 "name": "Ray Bilger",
 "party": "Democratic",
-"votes": 96521,
+"votes": 96545,
 "pct": 36.1,
 "winner": false
 }
@@ -12970,22 +13546,22 @@
 "label": "Pennsylvania House District 16",
 "special": false,
 "flipped": false,
-"eevp": 98.08,
-"lastUpdated": "2026-11-04T19:37:19.091000Z",
+"eevp": 98.11,
+"lastUpdated": "2026-11-05T18:46:41.371000Z",
 "calledAt": "2026-11-04T04:03:56.220Z",
-"totalVotes": 285720,
+"totalVotes": 285781,
 "candidates": [
 {
 "name": "Mike Kelly",
 "party": "Republican",
-"votes": 154125,
+"votes": 154144,
 "pct": 53.9,
 "winner": true
 },
 {
 "name": "Justin Wagner",
 "party": "Democratic",
-"votes": 131595,
+"votes": 131637,
 "pct": 46.1,
 "winner": false
 }
@@ -13000,7 +13576,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.98,
-"lastUpdated": "2026-11-04T19:41:03.723000Z",
+"lastUpdated": "2026-11-05T14:48:49.377000Z",
 "calledAt": "2026-11-04T02:01:11.790Z",
 "totalVotes": 330630,
 "candidates": [
@@ -13029,7 +13605,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.31,
-"lastUpdated": "2026-11-05T01:03:40.123000Z",
+"lastUpdated": "2026-11-05T16:59:05.778000Z",
 "calledAt": "2026-11-04T01:32:15.576Z",
 "totalVotes": 162831,
 "candidates": [
@@ -13072,7 +13648,7 @@
 "special": false,
 "flipped": false,
 "eevp": 97.76,
-"lastUpdated": "2026-11-05T01:03:46.101000Z",
+"lastUpdated": "2026-11-05T16:59:00.948000Z",
 "calledAt": "2026-11-04T01:36:03.351Z",
 "totalVotes": 194759,
 "candidates": [
@@ -13230,7 +13806,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:41:51.419000Z",
+"lastUpdated": "2026-11-05T15:07:13.601000Z",
 "calledAt": "2026-11-04T01:37:40.885Z",
 "totalVotes": 260374,
 "candidates": [
@@ -13302,21 +13878,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T23:50:43.625000Z",
+"lastUpdated": "2026-11-05T21:55:45.273000Z",
 "calledAt": "2026-11-04T04:03:59.912Z",
-"totalVotes": 305568,
+"totalVotes": 305580,
 "candidates": [
 {
 "name": "Marty Jackley",
 "party": "Republican",
-"votes": 195583,
+"votes": 195587,
 "pct": 64.0,
 "winner": true
 },
 {
 "name": "Nicole Gronli",
 "party": "Democratic",
-"votes": 109985,
+"votes": 109993,
 "pct": 36.0,
 "winner": false
 }
@@ -13331,7 +13907,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T21:33:23.471000Z",
+"lastUpdated": "2026-11-05T22:10:28.696000Z",
 "calledAt": "2026-11-04T03:29:44.553Z",
 "totalVotes": 209355,
 "candidates": [
@@ -13395,7 +13971,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T21:00:26.983000Z",
+"lastUpdated": "2026-11-05T22:10:52.747000Z",
 "calledAt": "2026-11-04T04:06:32.433Z",
 "totalVotes": 250980,
 "candidates": [
@@ -13438,7 +14014,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.25,
-"lastUpdated": "2026-11-04T21:23:23.277000Z",
+"lastUpdated": "2026-11-05T21:48:32.781000Z",
 "calledAt": "2026-11-04T03:40:05.919Z",
 "totalVotes": 236358,
 "candidates": [
@@ -13502,7 +14078,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T21:01:51.050000Z",
+"lastUpdated": "2026-11-05T22:11:28.874000Z",
 "calledAt": "2026-11-04T05:17:15.428Z",
 "totalVotes": 213705,
 "candidates": [
@@ -13545,7 +14121,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:42:53.402000Z",
+"lastUpdated": "2026-11-05T22:01:36.173000Z",
 "calledAt": "2026-11-04T05:16:48.755Z",
 "totalVotes": 238224,
 "candidates": [
@@ -13580,6 +14156,49 @@
 ]
 },
 {
+"slug": "tn-house-district-7",
+"office": "House",
+"state": "TN",
+"stateName": "Tennessee",
+"label": "Tennessee House District 7",
+"special": false,
+"flipped": false,
+"eevp": 99,
+"lastUpdated": "2026-11-05T22:03:38.710000Z",
+"calledAt": "2026-11-05T17:01:14.324Z",
+"totalVotes": 240886,
+"candidates": [
+{
+"name": "Matt Van Epps",
+"party": "Republican",
+"votes": 121100,
+"pct": 50.3,
+"winner": true
+},
+{
+"name": "Darden Copeland",
+"party": "Democratic",
+"votes": 115867,
+"pct": 48.1,
+"winner": false
+},
+{
+"name": "Andrew Koontz",
+"party": "Independent",
+"votes": 2603,
+"pct": 1.1,
+"winner": false
+},
+{
+"name": "Lowell Reynolds",
+"party": "Independent",
+"votes": 1316,
+"pct": 0.5,
+"winner": false
+}
+]
+},
+{
 "slug": "tn-house-district-8",
 "office": "House",
 "state": "TN",
@@ -13588,7 +14207,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T21:14:16.629000Z",
+"lastUpdated": "2026-11-05T22:07:32.534000Z",
 "calledAt": "2026-11-04T05:16:19.424Z",
 "totalVotes": 220906,
 "candidates": [
@@ -13651,6 +14270,49 @@
 ]
 },
 {
+"slug": "tn-house-district-9",
+"office": "House",
+"state": "TN",
+"stateName": "Tennessee",
+"label": "Tennessee House District 9",
+"special": false,
+"flipped": true,
+"eevp": 99,
+"lastUpdated": "2026-11-05T22:32:39.333000Z",
+"calledAt": "2026-11-05T19:40:13.354Z",
+"totalVotes": 225614,
+"candidates": [
+{
+"name": "Brent Taylor",
+"party": "Republican",
+"votes": 111968,
+"pct": 49.6,
+"winner": true
+},
+{
+"name": "Justin Pearson",
+"party": "Democratic",
+"votes": 109429,
+"pct": 48.5,
+"winner": false
+},
+{
+"name": "Dennis Clark",
+"party": "Independent",
+"votes": 2413,
+"pct": 1.1,
+"winner": false
+},
+{
+"name": "Michelle Davis Head",
+"party": "Independent",
+"votes": 1804,
+"pct": 0.8,
+"winner": false
+}
+]
+},
+{
 "slug": "tx-house-district-1",
 "office": "House",
 "state": "TX",
@@ -13659,7 +14321,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:06:19.828000Z",
+"lastUpdated": "2026-11-05T15:35:16.439000Z",
 "calledAt": "2026-11-04T03:00:08.161Z",
 "totalVotes": 263585,
 "candidates": [
@@ -13688,7 +14350,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:11:41.765000Z",
+"lastUpdated": "2026-11-05T20:06:54.774000Z",
 "calledAt": "2026-11-04T22:11:41.765Z",
 "totalVotes": 283915,
 "candidates": [
@@ -13717,7 +14379,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:30:14.411000Z",
+"lastUpdated": "2026-11-05T20:05:24.577000Z",
 "calledAt": "2026-11-04T07:09:45.723Z",
 "totalVotes": 320910,
 "candidates": [
@@ -13746,7 +14408,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:39:12.084000Z",
+"lastUpdated": "2026-11-05T20:05:25.056000Z",
 "calledAt": "2026-11-04T05:44:32.828Z",
 "totalVotes": 306215,
 "candidates": [
@@ -13775,7 +14437,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:17:16.655000Z",
+"lastUpdated": "2026-11-05T15:35:19.502000Z",
 "calledAt": "2026-11-04T22:11:54.444Z",
 "totalVotes": 253133,
 "candidates": [
@@ -13804,7 +14466,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:17:11.958000Z",
+"lastUpdated": "2026-11-05T15:35:19.220000Z",
 "calledAt": "2026-11-04T07:20:02.967Z",
 "totalVotes": 268408,
 "candidates": [
@@ -13833,21 +14495,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-05T00:10:25.739000Z",
+"lastUpdated": "2026-11-05T16:01:53.680000Z",
 "calledAt": "2026-11-04T02:26:22.127Z",
-"totalVotes": 226489,
+"totalVotes": 226493,
 "candidates": [
 {
 "name": "Lizzie Pannill Fletcher",
 "party": "Democratic",
-"votes": 160452,
+"votes": 160454,
 "pct": 70.8,
 "winner": true
 },
 {
 "name": "Alexander Hale",
 "party": "Republican",
-"votes": 62385,
+"votes": 62387,
 "pct": 27.5,
 "winner": false
 },
@@ -13869,7 +14531,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:41:02.112000Z",
+"lastUpdated": "2026-11-05T20:06:55.253000Z",
 "calledAt": "2026-11-04T06:08:38.787Z",
 "totalVotes": 266466,
 "candidates": [
@@ -13898,7 +14560,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:09:43.031000Z",
+"lastUpdated": "2026-11-05T15:35:14.556000Z",
 "calledAt": "2026-11-04T18:02:04.375Z",
 "totalVotes": 170419,
 "candidates": [
@@ -13927,7 +14589,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:40:52.788000Z",
+"lastUpdated": "2026-11-05T15:43:44.608000Z",
 "calledAt": "2026-11-04T06:00:38.956Z",
 "totalVotes": 300257,
 "candidates": [
@@ -13956,7 +14618,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:43:33.307000Z",
+"lastUpdated": "2026-11-05T20:34:17.126000Z",
 "calledAt": "2026-11-04T05:36:11.524Z",
 "totalVotes": 232980,
 "candidates": [
@@ -13985,7 +14647,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:30:37.049000Z",
+"lastUpdated": "2026-11-05T15:59:41.715000Z",
 "calledAt": "2026-11-04T08:30:42.898Z",
 "totalVotes": 271894,
 "candidates": [
@@ -14014,7 +14676,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.88,
-"lastUpdated": "2026-11-04T20:59:22.844000Z",
+"lastUpdated": "2026-11-05T20:06:39.535000Z",
 "calledAt": "2026-11-04T04:58:26.347Z",
 "totalVotes": 242331,
 "candidates": [
@@ -14043,21 +14705,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-05T00:10:25.854000Z",
+"lastUpdated": "2026-11-05T20:05:43.522000Z",
 "calledAt": "2026-11-04T05:41:14.100Z",
-"totalVotes": 282548,
+"totalVotes": 282553,
 "candidates": [
 {
 "name": "Randy Weber",
 "party": "Republican",
-"votes": 152618,
+"votes": 152619,
 "pct": 54.0,
 "winner": true
 },
 {
 "name": "Thurman Bartie",
 "party": "Democratic",
-"votes": 129930,
+"votes": 129934,
 "pct": 46.0,
 "winner": false
 }
@@ -14072,7 +14734,7 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:56:27.517000Z",
+"lastUpdated": "2026-11-05T20:06:13.854000Z",
 "calledAt": "2026-11-04T05:37:33.656Z",
 "totalVotes": 202509,
 "candidates": [
@@ -14101,7 +14763,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:30:09.656000Z",
+"lastUpdated": "2026-11-05T15:35:22.021000Z",
 "calledAt": "2026-11-04T02:08:20.730Z",
 "totalVotes": 195790,
 "candidates": [
@@ -14130,7 +14792,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:43:25.246000Z",
+"lastUpdated": "2026-11-05T20:34:17.824000Z",
 "calledAt": "2026-11-04T06:59:29.171Z",
 "totalVotes": 268003,
 "candidates": [
@@ -14159,21 +14821,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-05T00:10:26.129000Z",
+"lastUpdated": "2026-11-05T16:01:53.812000Z",
 "calledAt": "2026-11-04T01:24:02.876Z",
-"totalVotes": 224477,
+"totalVotes": 224483,
 "candidates": [
 {
 "name": "Christian Menefee",
 "party": "Democratic",
-"votes": 193144,
+"votes": 193149,
 "pct": 86.0,
 "winner": true
 },
 {
 "name": "Ronald Whitfield",
 "party": "Republican",
-"votes": 31333,
+"votes": 31334,
 "pct": 14.0,
 "winner": false
 }
@@ -14188,7 +14850,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:16:32.347000Z",
+"lastUpdated": "2026-11-05T20:05:10.177000Z",
 "calledAt": "2026-11-04T05:34:57.324Z",
 "totalVotes": 221753,
 "candidates": [
@@ -14217,7 +14879,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:30:01.293000Z",
+"lastUpdated": "2026-11-05T15:35:20.261000Z",
 "calledAt": "2026-11-04T01:52:52.580Z",
 "totalVotes": 192494,
 "candidates": [
@@ -14246,7 +14908,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:38:39.000000Z",
+"lastUpdated": "2026-11-05T20:06:27.429000Z",
 "calledAt": "2026-11-04T05:42:34.575Z",
 "totalVotes": 356390,
 "candidates": [
@@ -14275,21 +14937,21 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-05T00:10:25.991000Z",
+"lastUpdated": "2026-11-05T20:05:43.616000Z",
 "calledAt": "2026-11-04T22:12:10.165Z",
-"totalVotes": 289752,
+"totalVotes": 289777,
 "candidates": [
 {
 "name": "Trever Nehls",
 "party": "Republican",
-"votes": 150161,
+"votes": 150166,
 "pct": 51.8,
 "winner": true
 },
 {
 "name": "Marquette Greene-Scott",
 "party": "Democratic",
-"votes": 139591,
+"votes": 139611,
 "pct": 48.2,
 "winner": false
 }
@@ -14304,7 +14966,7 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:29:05.050000Z",
+"lastUpdated": "2026-11-05T15:35:15.587000Z",
 "calledAt": "2026-11-04T06:05:50.409Z",
 "totalVotes": 272437,
 "candidates": [
@@ -14340,7 +15002,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:17:17.191000Z",
+"lastUpdated": "2026-11-05T15:35:17.466000Z",
 "calledAt": "2026-11-04T06:33:16.067Z",
 "totalVotes": 321448,
 "candidates": [
@@ -14369,7 +15031,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:30:37.279000Z",
+"lastUpdated": "2026-11-05T20:03:58.083000Z",
 "calledAt": "2026-11-04T07:04:52.519Z",
 "totalVotes": 265575,
 "candidates": [
@@ -14398,7 +15060,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:30:07.112000Z",
+"lastUpdated": "2026-11-05T20:06:39.656000Z",
 "calledAt": "2026-11-04T05:47:37.881Z",
 "totalVotes": 334900,
 "candidates": [
@@ -14434,7 +15096,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:15:05.044000Z",
+"lastUpdated": "2026-11-05T20:06:27.546000Z",
 "calledAt": "2026-11-04T22:15:05.044Z",
 "totalVotes": 282399,
 "candidates": [
@@ -14463,7 +15125,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:43:32.228000Z",
+"lastUpdated": "2026-11-05T15:35:20.715000Z",
 "calledAt": "2026-11-04T05:31:08.827Z",
 "totalVotes": 172312,
 "candidates": [
@@ -14499,7 +15161,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:09:40.600000Z",
+"lastUpdated": "2026-11-05T15:35:18.256000Z",
 "calledAt": "2026-11-04T02:27:51.201Z",
 "totalVotes": 167608,
 "candidates": [
@@ -14528,7 +15190,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:17:13.573000Z",
+"lastUpdated": "2026-11-05T15:35:19.619000Z",
 "calledAt": "2026-11-04T01:12:34.238Z",
 "totalVotes": 226118,
 "candidates": [
@@ -14557,7 +15219,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:43:29.799000Z",
+"lastUpdated": "2026-11-05T20:34:17.850000Z",
 "calledAt": "2026-11-04T05:37:40.890Z",
 "totalVotes": 304973,
 "candidates": [
@@ -14593,7 +15255,7 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:17:23.203000Z",
+"lastUpdated": "2026-11-05T20:05:26.540000Z",
 "calledAt": "2026-11-04T22:12:21.225Z",
 "totalVotes": 277615,
 "candidates": [
@@ -14622,7 +15284,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:17:17.900000Z",
+"lastUpdated": "2026-11-05T15:35:15.525000Z",
 "calledAt": "2026-11-04T01:10:44.669Z",
 "totalVotes": 192048,
 "candidates": [
@@ -14651,7 +15313,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T21:05:22.178000Z",
+"lastUpdated": "2026-11-05T15:35:38.737000Z",
 "calledAt": "2026-11-04T03:51:38.471Z",
 "totalVotes": 202645,
 "candidates": [
@@ -14694,7 +15356,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:29:10.558000Z",
+"lastUpdated": "2026-11-05T16:29:12.124000Z",
 "calledAt": "2026-11-04T06:23:57.344Z",
 "totalVotes": 252558,
 "candidates": [
@@ -14723,7 +15385,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T21:43:44.009000Z",
+"lastUpdated": "2026-11-05T20:05:45.749000Z",
 "calledAt": "2026-11-04T06:36:05.832Z",
 "totalVotes": 257689,
 "candidates": [
@@ -14752,7 +15414,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T20:17:32.575000Z",
+"lastUpdated": "2026-11-05T15:43:44.644000Z",
 "calledAt": "2026-11-04T03:56:17.985Z",
 "totalVotes": 304426,
 "candidates": [
@@ -14781,7 +15443,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T22:12:40.074000Z",
+"lastUpdated": "2026-11-05T15:35:16.444000Z",
 "calledAt": "2026-11-04T22:12:40.074Z",
 "totalVotes": 305101,
 "candidates": [
@@ -14816,8 +15478,8 @@
 "label": "Utah House District 1",
 "special": false,
 "flipped": true,
-"eevp": 59.95,
-"lastUpdated": "2026-11-04T21:03:27.927000Z",
+"eevp": 67.54,
+"lastUpdated": "2026-11-05T15:15:49.866000Z",
 "calledAt": "2026-11-04T05:26:32.273Z",
 "totalVotes": 179481,
 "candidates": [
@@ -14859,6 +15521,56 @@
 ]
 },
 {
+"slug": "ut-house-district-2",
+"office": "House",
+"state": "UT",
+"stateName": "Utah",
+"label": "Utah House District 2",
+"special": false,
+"flipped": false,
+"eevp": 89.38,
+"lastUpdated": "2026-11-05T17:02:26.384000Z",
+"calledAt": "2026-11-05T17:02:26.384Z",
+"totalVotes": 233617,
+"candidates": [
+{
+"name": "Blake Moore",
+"party": "Republican",
+"votes": 117192,
+"pct": 50.2,
+"winner": true
+},
+{
+"name": "Peter Crosby",
+"party": "Democratic",
+"votes": 98952,
+"pct": 42.4,
+"winner": false
+},
+{
+"name": "Carlton Bowen",
+"party": "IAP",
+"votes": 7437,
+"pct": 3.2,
+"winner": false
+},
+{
+"name": "Robert Moesinger",
+"party": "Unaffiliated",
+"votes": 5968,
+"pct": 2.6,
+"winner": false
+},
+{
+"name": "Daniel Cottam",
+"party": "Libertarian",
+"votes": 4068,
+"pct": 1.7,
+"winner": false
+}
+]
+},
+{
 "slug": "ut-house-district-3",
 "office": "House",
 "state": "UT",
@@ -14866,50 +15578,50 @@
 "label": "Utah House District 3",
 "special": false,
 "flipped": false,
-"eevp": 63.26,
-"lastUpdated": "2026-11-05T04:32:58.244000Z",
+"eevp": 70.43,
+"lastUpdated": "2026-11-05T22:09:33.672000Z",
 "calledAt": "2026-11-04T05:03:50.989Z",
-"totalVotes": 189565,
+"totalVotes": 191536,
 "candidates": [
 {
 "name": "Celeste Maloy",
 "party": "Republican",
-"votes": 110240,
-"pct": 58.2,
+"votes": 111232,
+"pct": 58.1,
 "winner": true
 },
 {
 "name": "Kent Udell",
 "party": "Democratic",
-"votes": 66191,
-"pct": 34.9,
+"votes": 67012,
+"pct": 35.0,
 "winner": false
 },
 {
 "name": "Cassie Easley",
 "party": "Constitution",
-"votes": 5505,
+"votes": 5565,
 "pct": 2.9,
 "winner": false
 },
 {
 "name": "Michael Stoddard",
 "party": "Libertarian",
-"votes": 3691,
-"pct": 1.9,
+"votes": 3746,
+"pct": 2.0,
 "winner": false
 },
 {
 "name": "Ayden Scott",
 "party": "Unaffiliated",
-"votes": 2816,
+"votes": 2848,
 "pct": 1.5,
 "winner": false
 },
 {
 "name": "Adonis Hooslyn",
 "party": "Unaffiliated",
-"votes": 1122,
+"votes": 1133,
 "pct": 0.6,
 "winner": false
 }
@@ -14923,22 +15635,22 @@
 "label": "Vermont at-large House",
 "special": false,
 "flipped": false,
-"eevp": 98.99,
-"lastUpdated": "2026-11-04T23:12:40.886000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T22:02:46.521000Z",
 "calledAt": "2026-11-04T00:41:47.560Z",
-"totalVotes": 304629,
+"totalVotes": 304742,
 "candidates": [
 {
 "name": "Becca Balint",
 "party": "Democratic",
-"votes": 198679,
+"votes": 198745,
 "pct": 65.2,
 "winner": true
 },
 {
 "name": "Gerald Malloy",
 "party": "Republican",
-"votes": 94021,
+"votes": 94065,
 "pct": 30.9,
 "winner": false
 },
@@ -14952,29 +15664,65 @@
 {
 "name": "Ryan Walton",
 "party": "Independent",
-"votes": 2728,
+"votes": 2733,
 "pct": 0.9,
 "winner": false
 },
 {
 "name": "Phoenix Altair",
 "party": "Independent",
-"votes": 2352,
+"votes": 2347,
 "pct": 0.8,
 "winner": false
 },
 {
 "name": "Adam Ortiz",
 "party": "Independent",
-"votes": 2194,
+"votes": 2195,
 "pct": 0.7,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 293,
+"votes": 295,
 "pct": 0.1,
+"winner": false
+}
+]
+},
+{
+"slug": "va-house-district-1",
+"office": "House",
+"state": "VA",
+"stateName": "Virginia",
+"label": "Virginia House District 1",
+"special": false,
+"flipped": true,
+"eevp": 98.53,
+"lastUpdated": "2026-11-05T21:54:44.723000Z",
+"calledAt": "2026-11-05T16:59:33.672Z",
+"totalVotes": 407467,
+"candidates": [
+{
+"name": "Shannon Taylor",
+"party": "Democratic",
+"votes": 208052,
+"pct": 51.1,
+"winner": true
+},
+{
+"name": "Robert Wittman",
+"party": "Republican",
+"votes": 198429,
+"pct": 48.7,
+"winner": false
+},
+{
+"name": "Total Write-ins",
+"party": "Other",
+"votes": 986,
+"pct": 0.2,
 "winner": false
 }
 ]
@@ -14988,42 +15736,42 @@
 "special": false,
 "flipped": true,
 "eevp": 97.66,
-"lastUpdated": "2026-11-04T22:42:16.817000Z",
+"lastUpdated": "2026-11-05T20:20:15.319000Z",
 "calledAt": "2026-11-04T04:47:25.620Z",
-"totalVotes": 336856,
+"totalVotes": 336997,
 "candidates": [
 {
 "name": "Elaine Luria",
 "party": "Democratic",
 "votes": 178741,
-"pct": 53.1,
+"pct": 53.0,
 "winner": true
 },
 {
 "name": "Jen Kiggans",
 "party": "Republican",
 "votes": 150095,
-"pct": 44.6,
+"pct": 44.5,
 "winner": false
 },
 {
 "name": "J. Baker",
 "party": "Independent",
-"votes": 4576,
+"votes": 4735,
 "pct": 1.4,
 "winner": false
 },
 {
 "name": "Geral Staten",
 "party": "Independent",
-"votes": 3004,
+"votes": 3020,
 "pct": 0.9,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 440,
+"votes": 406,
 "pct": 0.1,
 "winner": false
 }
@@ -15038,7 +15786,7 @@
 "special": false,
 "flipped": false,
 "eevp": 97.64,
-"lastUpdated": "2026-11-04T22:41:25.197000Z",
+"lastUpdated": "2026-11-05T16:32:20.097000Z",
 "calledAt": "2026-11-04T01:08:23.968Z",
 "totalVotes": 247468,
 "candidates": [
@@ -15087,36 +15835,79 @@
 "label": "Virginia House District 4",
 "special": false,
 "flipped": false,
-"eevp": 97.66,
-"lastUpdated": "2026-11-04T22:42:27.152000Z",
+"eevp": 97.75,
+"lastUpdated": "2026-11-05T21:27:28.646000Z",
 "calledAt": "2026-11-04T01:33:41.774Z",
-"totalVotes": 308966,
+"totalVotes": 308999,
 "candidates": [
 {
 "name": "Jennifer McClellan",
 "party": "Democratic",
-"votes": 222936,
+"votes": 223073,
 "pct": 72.2,
 "winner": true
 },
 {
 "name": "Robert Murray",
 "party": "Republican",
-"votes": 81148,
-"pct": 26.3,
+"votes": 81051,
+"pct": 26.2,
 "winner": false
 },
 {
 "name": "Joan Bell",
 "party": "Independent",
-"votes": 4150,
+"votes": 4144,
 "pct": 1.3,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 732,
+"votes": 731,
+"pct": 0.2,
+"winner": false
+}
+]
+},
+{
+"slug": "va-house-district-5",
+"office": "House",
+"state": "VA",
+"stateName": "Virginia",
+"label": "Virginia House District 5",
+"special": false,
+"flipped": false,
+"eevp": 98.02,
+"lastUpdated": "2026-11-05T21:30:05.559000Z",
+"calledAt": "2026-11-05T16:59:42.774Z",
+"totalVotes": 361216,
+"candidates": [
+{
+"name": "John McGuire",
+"party": "Republican",
+"votes": 181301,
+"pct": 50.2,
+"winner": true
+},
+{
+"name": "Tom Perriello",
+"party": "Democratic",
+"votes": 173439,
+"pct": 48.0,
+"winner": false
+},
+{
+"name": "Cooke Harvey",
+"party": "Independent",
+"votes": 5766,
+"pct": 1.6,
+"winner": false
+},
+{
+"name": "Total Write-ins",
+"party": "Other",
+"votes": 710,
 "pct": 0.2,
 "winner": false
 }
@@ -15131,28 +15922,28 @@
 "special": false,
 "flipped": false,
 "eevp": 98.23,
-"lastUpdated": "2026-11-04T22:42:23.391000Z",
+"lastUpdated": "2026-11-05T21:15:46.196000Z",
 "calledAt": "2026-11-04T02:10:30.669Z",
-"totalVotes": 316622,
+"totalVotes": 316642,
 "candidates": [
 {
 "name": "Ben Cline",
 "party": "Republican",
-"votes": 175797,
+"votes": 175807,
 "pct": 55.5,
 "winner": true
 },
 {
 "name": "Beth Macy",
 "party": "Democratic",
-"votes": 140216,
+"votes": 140225,
 "pct": 44.3,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 609,
+"votes": 610,
 "pct": 0.2,
 "winner": false
 }
@@ -15166,8 +15957,8 @@
 "label": "Virginia House District 7",
 "special": false,
 "flipped": false,
-"eevp": 97.9,
-"lastUpdated": "2026-11-04T21:35:30.446000Z",
+"eevp": 97.92,
+"lastUpdated": "2026-11-05T21:28:34.411000Z",
 "calledAt": "2026-11-04T01:40:22.097Z",
 "totalVotes": 320552,
 "candidates": [
@@ -15231,7 +16022,7 @@
 "special": false,
 "flipped": false,
 "eevp": 95.27,
-"lastUpdated": "2026-11-04T23:28:43.191000Z",
+"lastUpdated": "2026-11-05T16:39:43.851000Z",
 "calledAt": "2026-11-04T01:05:22.460Z",
 "totalVotes": 312772,
 "candidates": [
@@ -15280,29 +16071,29 @@
 "label": "Virginia House District 9",
 "special": false,
 "flipped": false,
-"eevp": 98.12,
-"lastUpdated": "2026-11-04T21:27:44.857000Z",
+"eevp": 98.5,
+"lastUpdated": "2026-11-05T21:30:18.741000Z",
 "calledAt": "2026-11-04T01:29:35.869Z",
-"totalVotes": 293824,
+"totalVotes": 293987,
 "candidates": [
 {
 "name": "H. Griffith",
 "party": "Republican",
-"votes": 193785,
+"votes": 193917,
 "pct": 66.0,
 "winner": true
 },
 {
 "name": "Joy Powers",
 "party": "Democratic",
-"votes": 99444,
+"votes": 99473,
 "pct": 33.8,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 595,
+"votes": 597,
 "pct": 0.2,
 "winner": false
 }
@@ -15317,7 +16108,7 @@
 "special": false,
 "flipped": false,
 "eevp": 97.39,
-"lastUpdated": "2026-11-04T23:28:39.642000Z",
+"lastUpdated": "2026-11-05T17:36:11.605000Z",
 "calledAt": "2026-11-04T01:03:36.123Z",
 "totalVotes": 328996,
 "candidates": [
@@ -15438,22 +16229,22 @@
 "label": "Washington House District 2",
 "special": false,
 "flipped": false,
-"eevp": 69.69,
-"lastUpdated": "2026-11-05T06:08:02.748000Z",
+"eevp": 69.76,
+"lastUpdated": "2026-11-05T21:27:42.793000Z",
 "calledAt": "2026-11-04T04:38:38.046Z",
-"totalVotes": 272101,
+"totalVotes": 272364,
 "candidates": [
 {
 "name": "Rick Larsen",
 "party": "Democratic",
-"votes": 184065,
-"pct": 67.6,
+"votes": 184264,
+"pct": 67.7,
 "winner": true
 },
 {
 "name": "Edwin Feller",
 "party": "Republican",
-"votes": 87035,
+"votes": 87099,
 "pct": 32.0,
 "winner": false
 },
@@ -15691,7 +16482,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T19:44:26.340000Z",
+"lastUpdated": "2026-11-05T16:12:04.075000Z",
 "calledAt": "2026-11-04T02:20:50.935Z",
 "totalVotes": 207986,
 "candidates": [
@@ -15726,15 +16517,15 @@
 "label": "West Virginia House District 2",
 "special": false,
 "flipped": false,
-"eevp": 98.79,
-"lastUpdated": "2026-11-04T20:26:40.517000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T16:12:07.271000Z",
 "calledAt": "2026-11-04T02:22:21.433Z",
-"totalVotes": 241992,
+"totalVotes": 241991,
 "candidates": [
 {
 "name": "Riley Moore",
 "party": "Republican",
-"votes": 143757,
+"votes": 143756,
 "pct": 59.4,
 "winner": true
 },
@@ -15784,15 +16575,15 @@
 "label": "Wisconsin House District 2",
 "special": false,
 "flipped": false,
-"eevp": 88.18,
-"lastUpdated": "2026-11-04T09:31:32.195000Z",
+"eevp": 93.72,
+"lastUpdated": "2026-11-05T15:17:30.670000Z",
 "calledAt": "2026-11-04T02:00:00.000Z",
-"totalVotes": 298359,
+"totalVotes": 317125,
 "candidates": [
 {
 "name": "Mark Pocan",
 "party": "Democratic",
-"votes": 298359,
+"votes": 317125,
 "pct": 100,
 "winner": true
 }
@@ -15807,7 +16598,7 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-04T08:29:52.293000Z",
+"lastUpdated": "2026-11-05T21:44:31.725000Z",
 "calledAt": "2026-11-04T05:48:40.114Z",
 "totalVotes": 329463,
 "candidates": [
@@ -15886,14 +16677,14 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-04T18:04:45.210000Z",
+"lastUpdated": "2026-11-05T20:31:06.047000Z",
 "calledAt": "2026-11-04T03:14:43.861Z",
-"totalVotes": 374267,
+"totalVotes": 374268,
 "candidates": [
 {
 "name": "Scott Fitzgerald",
 "party": "Republican",
-"votes": 220990,
+"votes": 220991,
 "pct": 59.0,
 "winner": true
 },
@@ -15915,7 +16706,7 @@
 "special": false,
 "flipped": false,
 "eevp": 97.79,
-"lastUpdated": "2026-11-04T08:28:15.435000Z",
+"lastUpdated": "2026-11-05T21:43:47.440000Z",
 "calledAt": "2026-11-04T03:35:42.980Z",
 "totalVotes": 326136,
 "candidates": [
@@ -15964,23 +16755,23 @@
 "label": "Wisconsin House District 7",
 "special": false,
 "flipped": false,
-"eevp": 96.32,
-"lastUpdated": "2026-11-04T19:30:47.453000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-05T22:27:19.340000Z",
 "calledAt": "2026-11-04T04:02:12.771Z",
-"totalVotes": 331730,
+"totalVotes": 339994,
 "candidates": [
 {
 "name": "Michael Alfonso",
 "party": "Republican",
-"votes": 186035,
-"pct": 56.1,
+"votes": 191822,
+"pct": 56.4,
 "winner": true
 },
 {
 "name": "Fred Clark",
 "party": "Democratic",
-"votes": 145695,
-"pct": 43.9,
+"votes": 148172,
+"pct": 43.6,
 "winner": false
 }
 ]
@@ -15994,7 +16785,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.98,
-"lastUpdated": "2026-11-04T09:13:03.660000Z",
+"lastUpdated": "2026-11-05T21:43:47.178000Z",
 "calledAt": "2026-11-04T04:01:22.295Z",
 "totalVotes": 328729,
 "candidates": [
@@ -16023,7 +16814,7 @@
 "special": false,
 "flipped": false,
 "eevp": 96.59,
-"lastUpdated": "2026-11-04T09:04:35.702000Z",
+"lastUpdated": "2026-11-05T19:38:20.524000Z",
 "calledAt": "2026-11-04T04:40:29.036Z",
 "totalVotes": 183203,
 "candidates": [
