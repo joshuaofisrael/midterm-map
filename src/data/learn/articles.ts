@@ -103,7 +103,7 @@ export const LEARN_ARTICLES: LearnArticle[] = [
     slug: "senate-majority",
     title: "How the Senate majority works",
     description:
-      "Why a Senate majority is a count of 100 seats, what a tie means, and why ending debate is a different vote.",
+      "Who controls the Senate after the 2026 midterms: why a majority is 51 of 100 seats, what a 50–50 tie means, and why ending debate is a different vote.",
     updated: UPDATED,
     paragraphs: body([
       "The Senate has 100 seats, two from each state, without regard to population. A majority of that body is 51 if every seat is filled. The practical meaning of “majority” depends on the question. Organizing the chamber, confirming a nominee, and cutting off debate are not the same vote. The Constitution gives the Vice President a vote when the Senate is equally divided. A 50–50 Senate can therefore organize and pass measures with the Vice President’s vote. That is a rule about ties. It is not a forecast of the 2026 elections.",
@@ -122,6 +122,11 @@ export const LEARN_ARTICLES: LearnArticle[] = [
         question: "Are 60 votes required to pass a bill?",
         answer:
           "A simple majority can pass many questions if debate has ended. The 60-vote figure readers see is the Senate’s cloture practice for ending debate under its rules. It is not written into the Constitution as the price of every bill.",
+      },
+      {
+        question: "Who controls the Senate after the 2026 midterms?",
+        answer:
+          "The party that holds at least 51 seats when the new Congress meets in January 2027, or 50 seats plus the Vice President’s tie-breaking vote, organizes the chamber. That count adds the seats not on the 2026 ballot to the winners of the 2026 contests, as each state certifies them. Map the Midterms does not call races itself; its results hub at mapthemidterms.com/results/ links each state’s official results and names the outlet behind any race call it repeats.",
       },
     ],
     related: ["senate-classes", "house-majority", "runoffs", "certification"],
