@@ -64,6 +64,11 @@ const CTAS = [
     title: "Voting deadlines",
     body: `Registration, early voting, and mail-ballot dates for ${ELECTION_DATES.length} states, each tied to an official election-office page.`,
   },
+  {
+    href: "/calendar",
+    title: "2027–2028 calendar",
+    body: "Dated specials and off-year elections, each tied to a state election office, a statute, or the FEC.",
+  },
 ];
 
 export default function HomePage() {
@@ -257,6 +262,10 @@ export default function HomePage() {
         <p className="mt-5 text-sm">
           <Link className="font-medium text-navy hover:underline" href="/voting-deadlines">
             Key 2026 dates for {ELECTION_DATES.length} states
+          </Link>
+          {" · "}
+          <Link className="font-medium text-navy hover:underline" href="/calendar">
+            2027 and 2028 election calendar
           </Link>
           {" · "}
           <Link className="font-medium text-navy hover:underline" href="/ballot">

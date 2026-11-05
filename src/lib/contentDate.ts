@@ -6,6 +6,7 @@ import { ESSAY_UPDATED } from "@/data/essays/text";
 import { getLearnArticle } from "@/data/learn/articles";
 import { localFile } from "@/data/local/load";
 import liveSources from "@/data/live-sources.json";
+import { CALENDAR_CHECKED_ON } from "@/data/electionCalendar";
 import { ELECTION_DATES, electionDatesFor } from "@/data/electionDates";
 import { pollsForRace } from "@/data/polls";
 import { getRace, RACES, racesForState } from "@/data/races";
@@ -190,6 +191,7 @@ export function contentUpdatedLabelForPath(path: string): string | null {
   }
   if (clean === "/about") return ESSAY_UPDATED;
   if (clean === "/election-night-tv") return "October 31, 2026";
+  if (clean === "/calendar") return CALENDAR_CHECKED_ON;
 
   if (clean === "/") return withEssayDate(clean, votingDeadlineLabels());
   if (clean === "/live") return withEssayDate(clean, [liveSourcesCheckedLabel()]);

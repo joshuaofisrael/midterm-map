@@ -32,6 +32,11 @@ export function SiteFooter() {
               </li>
             ))}
             <li>
+              <Link className="hover:underline" href="/calendar">
+                Election calendar
+              </Link>
+            </li>
+            <li>
               <Link className="hover:underline" href="/races">
                 All race guides
               </Link>

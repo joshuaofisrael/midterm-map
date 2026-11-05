@@ -4,12 +4,15 @@ import { indexableRaceHref } from "@/data/results";
 export function CrossLinks({
   state,
   raceSlug,
+  omitHref,
 }: {
   state?: string;
   raceSlug?: string;
+  omitHref?: string;
 }) {
   const links = [
     { href: "/ballot", label: "Ballot lookup" },
+    { href: "/calendar", label: "Election calendar" },
     { href: "/races", label: "Race guides" },
     { href: "/polls", label: "Polls & ratings" },
     { href: "/results", label: "Results tracker" },
@@ -30,7 +33,8 @@ export function CrossLinks({
   }
 
   const unique = links.filter(
-    (link, index, arr) => arr.findIndex((item) => item.href === link.href) === index,
+    (link, index, arr) =>
+      link.href !== omitHref && arr.findIndex((item) => item.href === link.href) === index,
   );
 
   return (
