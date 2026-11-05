@@ -1,3 +1,4 @@
+import { WINNERS_2026 } from "@/data/winners2026";
 import type { MetadataRoute } from "next";
 import { countiesForState, placeState, placeStates, placesForState } from "@/data/places/load";
 import { placeIsStandalone } from "@/lib/placeNames";
@@ -261,6 +262,8 @@ function coreSitemap(): MetadataRoute.Sitemap {
     "/contact/thanks",
     "/updates/thanks",
     "/embed/map",
+    "/results/2026",
+    ...WINNERS_2026.map((w) => `/results/2026/${w.slug}`),
   ];
 
   const statePaths = STARTER_STATES.flatMap((state) => [

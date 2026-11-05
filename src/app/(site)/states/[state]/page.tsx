@@ -13,6 +13,7 @@ import { RaceCard } from "@/components/RaceCard";
 import { StateCandidates } from "@/components/StateCandidates";
 import { KeyDatesSection } from "@/components/ElectionDates";
 import { EmailSignup } from "@/components/EmailSignup";
+import { winnersForState, winnerTitle } from "@/data/winners2026";
 import { MtgNote } from "@/components/MtgNote";
 import { MapTheGeneral } from "@/components/MapTheGeneral";
 import { ShareBar } from "@/components/ShareBar";
@@ -290,6 +291,18 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
           </Link>
         </p>
       </section>
+      {winnersForState(state.code).length ? (
+        <section aria-labelledby="who-won" className="text-sm leading-6">
+          <h2 id="who-won" className="font-serif text-xl font-semibold">Who won in {state.name} (2026)</h2>
+          <ul className="mt-2 list-disc pl-5">
+            {winnersForState(state.code).map((w) => (
+              <li key={w.slug}>
+                <Link className="text-navy hover:underline" href={`/results/2026/${w.slug}`}>{winnerTitle(w)}</Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
       <EmailSignup state={state.code} />
       <MtgNote />
       <CrossLinks state={state.code} />
