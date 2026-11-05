@@ -6,9 +6,9 @@ import { learnArticleJsonLd } from "../../lib/learnSchema.ts";
 
 const BANNED = [/will win/i, /going to win/i, /we predict/i, /projected winner/i, /Joshua Israel/];
 
-test("learn library is 10 to 20 original explainers", () => {
+test("learn library is 10 to 22 original explainers", () => {
   assert.ok(LEARN_ARTICLES.length >= 10);
-  assert.ok(LEARN_ARTICLES.length <= 20);
+  assert.ok(LEARN_ARTICLES.length <= 22);
   const slugs = new Set(LEARN_ARTICLES.map((article) => article.slug));
   assert.equal(slugs.size, LEARN_ARTICLES.length);
 });

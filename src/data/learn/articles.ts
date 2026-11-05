@@ -70,6 +70,44 @@ const FEC = {
   url: "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
 };
 
+
+const SENATE_VETOES = {
+  name: "U.S. Senate, Vetoes, 1789 to Present",
+  url: "https://www.senate.gov/legislative/vetoes/vetoCounts.htm",
+};
+const HOUSE_VETOES = {
+  name: "U.S. House of Representatives History, Art & Archives, Presidential Vetoes",
+  url: "https://history.house.gov/Institution/Presidential-Vetoes/Presidential-Vetoes/",
+};
+const CONST_ART1_S7 = {
+  name: "Constitution Annotated, Article I, Section 7 (Congress.gov)",
+  url: "https://constitution.congress.gov/browse/article-1/section-7/",
+};
+const CONST_ART1_S2 = {
+  name: "Constitution Annotated, Article I, Section 2 (Congress.gov)",
+  url: "https://constitution.congress.gov/browse/article-1/section-2/",
+};
+const CONST_ART1_S3 = {
+  name: "Constitution Annotated, Article I, Section 3 (Congress.gov)",
+  url: "https://constitution.congress.gov/browse/article-1/section-3/",
+};
+const CONST_ART2_S4 = {
+  name: "Constitution Annotated, Article II, Section 4 (Congress.gov)",
+  url: "https://constitution.congress.gov/browse/article-2/section-4/",
+};
+const CONST_AMEND25 = {
+  name: "Constitution Annotated, Twenty-Fifth Amendment (Congress.gov)",
+  url: "https://constitution.congress.gov/constitution/amendment-25/",
+};
+const SENATE_IMPEACH = {
+  name: "U.S. Senate, About Impeachment",
+  url: "https://www.senate.gov/about/powers-procedures/impeachment.htm",
+};
+const SENATE_IMPEACH_LIST = {
+  name: "U.S. Senate, Impeachment Cases",
+  url: "https://www.senate.gov/about/powers-procedures/impeachment/impeachment-list.htm",
+};
+
 export const LEARN_ARTICLES: LearnArticle[] = [
   {
     slug: "house-majority",
@@ -96,7 +134,7 @@ export const LEARN_ARTICLES: LearnArticle[] = [
           "No. Each district elects its own representative. One party can receive more votes nationwide and still win fewer seats, or the reverse. This site does not convert a national poll into a seat count.",
       },
     ],
-    related: ["house-districts", "senate-majority", "certification", "results-shift"],
+    related: ["house-districts", "senate-majority", "veto-override", "impeachment"],
     sources: [CONSTITUTION, HOUSE, USC_2A, FEC],
   },
   {
@@ -129,7 +167,7 @@ export const LEARN_ARTICLES: LearnArticle[] = [
           "The party that holds at least 51 seats when the new Congress meets in January 2027, or 50 seats plus the Vice President’s tie-breaking vote, organizes the chamber. That count adds the seats not on the 2026 ballot to the winners of the 2026 contests, as each state certifies them. Map the Midterms does not call races itself; its results hub at mapthemidterms.com/results/ links each state’s official results and names the outlet behind any race call it repeats.",
       },
     ],
-    related: ["senate-classes", "house-majority", "runoffs", "certification"],
+    related: ["senate-classes", "house-majority", "veto-override", "impeachment"],
     sources: [CONSTITUTION, SENATE_TERMS, HOUSE],
   },
   {
@@ -513,6 +551,118 @@ export const LEARN_ARTICLES: LearnArticle[] = [
     ],
     related: ["certification", "mail-ballots", "ballot-measures", "what-is-a-midterm"],
     sources: [EAC, VOTE_GOV],
+  },
+
+  {
+    slug: "veto-override",
+    title: "How do you override a presidential veto?",
+    description:
+      "How do you override a presidential veto? Two-thirds of members present in each chamber, a quorum, pocket vetoes, and why overrides are rare.",
+    updated: UPDATED,
+    paragraphs: body([
+      "A president who disapproves a bill can return it to the chamber that sent it, with objections. Article I, Section 7 of the Constitution then lets Congress enact the bill anyway if two-thirds of each house agree to repass it. The Constitution Annotated and congressional practice treat that two-thirds figure as two-thirds of the members present and voting, provided a quorum is present, not as two-thirds of every seat on the membership roll. The vote must be recorded by the yeas and nays. If either chamber fails to muster that share, the veto stands and the bill does not become law.",
+      "A quorum is the minimum attendance needed to do business. For each house, that floor is a majority of its members under Article I, Section 5. Without a quorum, the chamber cannot take a valid override vote even if the members who showed up all favor the bill. Vacancies and absences therefore matter twice: they can shrink the number of votes needed for two-thirds of those present, and they can threaten the quorum itself. Readers who want the current membership should check the Clerk of the House and the Senate’s own roll, not a campaign ad.",
+      "A pocket veto is different. If Congress adjourned in a way that prevents the return of the bill, and the president neither signs nor returns it within ten days excluding Sundays, the Constitution says the bill does not become law. Because the bill was never returned, there is no override vote to take. House History and the Senate’s veto tables list pocket vetoes separately from regular vetoes for that reason. Disputes over which adjournments allow a pocket veto are long-running. The practical point for a reader is that an override applies to a returned veto, not to a pocket veto.",
+      "Overrides are rare. The Senate’s table of vetoes from 1789 to the present counts 2,599 presidential vetoes in total, of which 1,533 were regular vetoes and 1,066 were pocket vetoes, and it records 112 overrides. That is a small share of all vetoes, and pocket vetoes are not among the bills Congress can repass. House History’s presidential-vetoes page tells the same story in chamber terms: Congress can override, and it almost never does relative to the volume of vetoes issued. The scarcity is structural. Two-thirds in both chambers is a high bar when parties are competitive.",
+      "The 2026 midterms change the override math only by changing who sits in each seat. A two-thirds House vote with all 435 voting seats filled is 290. A two-thirds Senate vote with all 100 seats filled is 67. If seats are vacant, the threshold tracks two-thirds of members present once a quorum exists. Neither party in a closely divided Congress usually holds 290 House seats or 67 Senate seats by itself, so an override still needs votes from the other party. Map the Midterms does not invent chamber totals. Use the [results hub](/results/) for called races and official state files; unfinished contests stay unfinished until those sources say otherwise. Seat counts from that hub are the inputs to the arithmetic. They are not a forecast of whether any particular veto will be overridden.",
+    ]),
+    faqs: [
+      {
+        question: "How many votes does it take to override a presidential veto?",
+        answer:
+          "Two-thirds of the members present and voting in each chamber, with a quorum present. With every seat filled and voting, that is 290 in the House and 67 in the Senate.",
+      },
+      {
+        question: "Is the two-thirds vote based on the full membership or on who showed up?",
+        answer:
+          "Practice under Article I, Section 7 treats the requirement as two-thirds of the members present and voting, so long as a quorum is present. It is not automatically two-thirds of every seat on the roll.",
+      },
+      {
+        question: "What is a pocket veto?",
+        answer:
+          "A pocket veto occurs when Congress’s adjournment prevents the president from returning a bill and the president neither signs nor returns it within ten days excluding Sundays. There is then no returned veto for Congress to override.",
+      },
+      {
+        question: "How often does Congress override a veto?",
+        answer:
+          "Rarely. The Senate’s veto table from 1789 to the present lists 2,599 vetoes and 112 overrides. Pocket vetoes cannot be overridden because the bill is not returned.",
+      },
+      {
+        question: "Can one chamber override a veto by itself?",
+        answer:
+          "No. Both the House and the Senate must each repass the bill by a two-thirds vote. Success in one chamber alone does not enact the bill.",
+      },
+      {
+        question: "How do the 2026 midterm results change veto-override math?",
+        answer:
+          "They change which members hold the seats that cast the two-thirds votes. Check called races on the results hub; do not treat unfinished contests as decided. The constitutional threshold itself stays two-thirds in each chamber.",
+      },
+      {
+        question: "Does a party need a two-thirds majority of seats to override?",
+        answer:
+          "No single-party two-thirds majority is required by the Constitution. Members of more than one party can join the same override vote. In a closely divided Congress, that cross-party support is usually necessary.",
+      },
+    ],
+    related: ["impeachment", "house-majority", "senate-majority", "certification"],
+    sources: [CONST_ART1_S7, CONSTITUTION, SENATE_VETOES, HOUSE_VETOES],
+  },
+  {
+    slug: "impeachment",
+    title: "What happens if a president is impeached?",
+    description:
+      "What happens if a president is impeached? House majority, Senate trial with the Chief Justice, two-thirds to convict, removal, and disqualification.",
+    updated: UPDATED,
+    paragraphs: body([
+      "Impeachment is the House’s formal accusation, not removal from office. Article I, Section 2 gives the House the sole power of impeachment. The House approves articles of impeachment by a simple majority. Article II, Section 4 says the president, vice president, and all civil officers may be removed on impeachment for, and conviction of, treason, bribery, or other high crimes and misdemeanors. The Constitution does not define that last phrase in more detail. The House’s vote is the charge. It is not the end of the process.",
+      "After the House impeaches, the Senate tries the case. Article I, Section 3 gives the Senate the sole power to try all impeachments and requires the concurrence of two-thirds of the members present to convict. For a presidential trial, the Chief Justice of the United States presides. House managers present the case. Senators sit as the court. A guilty vote on an article by that two-thirds share convicts on that article. Acquittal ends the congressional case on those articles. There is no appeal from the Senate’s judgment in impeachment.",
+      "Conviction removes the president from office. The Constitution limits the Senate’s judgment to removal and, if the Senate chooses, disqualification from holding and enjoying any office of honor, trust, or profit under the United States. Under the Twenty-Fifth Amendment, when the presidency is vacant the vice president becomes president. Removal by impeachment and conviction is one way that vacancy arises. A separate criminal prosecution in the courts remains possible under the Constitution’s text; impeachment does not replace ordinary criminal law.",
+      "Disqualification is optional and separate. Senate practice, described in congressional research on Senate impeachment procedure, is that after conviction the Senate may take a further vote to disqualify, and that further vote is decided by a simple majority rather than by two-thirds. The Senate’s own impeachment pages note that some convicted officers have been barred from future office and that about half of all Senate impeachment trials since 1789 have ended in conviction and removal. Most of those cases involved judges, not presidents.",
+      "No president has been removed by impeachment. The Senate’s list of impeachment cases records presidential trials for Andrew Johnson in 1868, William J. Clinton in 1999, and Donald J. Trump in 2020 and again in 2021. In each of those trials the Senate voted not guilty. Johnson’s closest vote fell one short of two-thirds. The midterm elections decide who sits in the House that would cast an impeachment vote and in the Senate that would try one. They do not change the constitutional thresholds. For who holds seats after November 3, 2026, use the [results hub](/results/) and the state files it cites. For how impeachment works, the Constitution and the Senate’s impeachment pages are the authorities.",
+    ]),
+    faqs: [
+      {
+        question: "What happens if a president is impeached?",
+        answer:
+          "The House’s majority vote sends articles of impeachment to the Senate for trial. Impeachment alone does not remove the president; removal requires a Senate conviction by two-thirds of the members present.",
+      },
+      {
+        question: "How many House votes does it take to impeach?",
+        answer:
+          "A simple majority of the House. The House has the sole power to impeach under Article I, Section 2.",
+      },
+      {
+        question: "Who presides over a presidential impeachment trial?",
+        answer:
+          "The Chief Justice of the United States presides when the president is tried in the Senate. That rule is in Article I, Section 3.",
+      },
+      {
+        question: "How many Senate votes does it take to convict and remove a president?",
+        answer:
+          "Two-thirds of the senators present must vote to convict on an article. With all 100 senators present and voting, that is 67 guilty votes.",
+      },
+      {
+        question: "Does conviction automatically remove the president from office?",
+        answer:
+          "Yes. A Senate conviction on an impeachment article removes the officer from office. The vice president then becomes president under the Twenty-Fifth Amendment when the presidency is vacant.",
+      },
+      {
+        question: "Can the Senate also ban a removed president from future office?",
+        answer:
+          "Yes. After conviction, the Senate may take a separate vote to disqualify the person from future federal office. Senate practice decides that extra step by a simple majority.",
+      },
+      {
+        question: "Has a U.S. president ever been removed by impeachment?",
+        answer:
+          "No. The Senate’s case list shows presidential impeachment trials for Andrew Johnson, Bill Clinton, and Donald Trump (twice). The Senate acquitted in each of those trials.",
+      },
+      {
+        question: "Is impeachment the same as a criminal conviction?",
+        answer:
+          "No. Impeachment is a congressional process that can remove someone from office. The Constitution still allows a separate indictment and trial in the ordinary courts.",
+      },
+    ],
+    related: ["veto-override", "senate-majority", "house-majority", "electoral-count-act"],
+    sources: [CONST_ART1_S2, CONST_ART1_S3, CONST_ART2_S4, CONST_AMEND25, SENATE_IMPEACH, SENATE_IMPEACH_LIST, CONSTITUTION],
   },
   {
     slug: "turnout",
