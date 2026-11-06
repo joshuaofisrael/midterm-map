@@ -33,9 +33,9 @@ import { contentUpdatedIsoForPath, contentUpdatedLabel } from "@/lib/contentDate
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
-  title: "Election night and key races",
+  title: "2026 midterm election results and key races",
   description:
-    "November 3, 2026 key races and unofficial returns copied from state election-office files after polls close. No projections. Returns are unofficial until certified.",
+    "2026 midterm election results for Senate, House and governor races, with AP-called winners and links to official state returns. Unofficial until certified.",
   path: "/results",
 });
 
@@ -47,10 +47,10 @@ function resultsHubJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Election night and key races",
+    name: "2026 midterm election results and key races",
     url: absoluteUrl("/results"),
     description:
-      "Key November 3, 2026 contests with unofficial returns copied from state election-office files after polls close. No projections.",
+      "2026 midterm election results for Senate, House and governor races, with AP-called winners and links to official state returns. Unofficial until certified.",
     inLanguage: "en-US",
     ...(modified ? { dateModified: modified } : {}),
     isPartOf: { "@type": "WebSite", name: SITE.name, url: absoluteUrl("/") },
@@ -86,12 +86,23 @@ export default function ResultsPage() {
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "Results" }]} />
       <PageHeader
         eyebrow="Results"
-        title="Election night and key races"
-        lede={`Key contests for ${SITE.electionDayLabel}, and unofficial figures after polls close. ${SITE.name} does not project winners and does not certify outcomes. A winner label appears only when the official file marks that candidate.`}
+        title="2026 midterm election results and key races"
+        lede={`Unofficial and AP-called 2026 midterm results for Senate, House and governor races. ${SITE.name} does not call races itself and does not certify outcomes. A winner label appears only when an attributed source or the official state file marks that candidate.`}
       >
         <Byline />
         <InfoNote />
       </PageHeader>
+      <div className="rounded-xl border border-line bg-paper-card p-5 text-sm leading-6">
+        <h2 className="font-serif text-xl font-semibold">Who won the 2026 elections</h2>
+        <p className="mt-2">
+          The evergreen winners index lists every 2026 Senate, House and governor race called by the
+          Associated Press, with each candidate’s votes and share.{" "}
+          <Link className="font-medium text-navy underline" href="/results/2026/">
+            Open who won the 2026 elections
+          </Link>
+          .
+        </p>
+      </div>
       <ContentTrust updated={contentUpdatedLabel("/results")} pagePath="/results" />
       <EditorialSection essay={resultsPreview()} />
       <OfficialNotice />
