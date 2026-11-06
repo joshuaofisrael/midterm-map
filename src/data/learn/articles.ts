@@ -113,16 +113,21 @@ export const LEARN_ARTICLES: LearnArticle[] = [
     slug: "house-majority",
     title: "How the House majority works",
     description:
-      "What 218 means, what vacancies change, and why the national popular vote does not choose the U.S. House majority.",
+      "Who controls the House after the 2026 midterms: why a majority is 218 of 435 seats, what vacancies change, and why the national popular vote does not choose it.",
     updated: UPDATED,
     paragraphs: body([
       "A majority in the U.S. House is a count of seats, not a share of the national popular vote. Voters in each district elect one representative. The majority is whichever party, or coalition of members, holds more of those seats when the House organizes. The Constitution apportions representatives among the states by population and guarantees every state at least one. It does not fix the modern total of 435. That number comes from statute, in 2 U.S.C. § 2a, after each census. Apportionment is a separate act from the election on November 3, 2026.",
       "If all 435 voting seats are filled, 218 is a bare majority. That is why a graphic says “218.” It is not a constitutional charm. A vacant seat is not a vote. When seats are empty, a majority of the members who have been sworn can be smaller than 218. The Clerk of the House and the House itself are the authorities on who has taken the oath. A chart that still prints 218 after resignations is describing the full House, not necessarily the votes required on a given day.",
       "The House also seats delegates from the District of Columbia and the territories. Their floor rights are set by House rules. They are not part of the 435, and a delegate race is not an extra vote for Speaker under the statute that fixes the voting membership. The District’s own ballot can include a delegate contest and local offices. Those elections are real. They do not become a 436th vote in the apportionment statute.",
       "Organizing the House is the first job of a new Congress. Members elect a Speaker. A party can hold more seats than the other party and still fail to elect a Speaker on the first ballot if its members do not vote together. That is a description of how the Speaker ballot works. It is not a prediction about 2027. This site does not forecast which party will organize the House.",
-      "Every voting seat is on the November 3, 2026 ballot because a House term is two years. A state can prefer one party for senator or governor and still split its House seats, because a district is not the statewide electorate. Committee gavels and the floor agenda follow the majority the House actually organizes. They do not follow a national generic-ballot percentage. When this site prints a generic-ballot survey, it is one poll with a pollster and dates, not a model that awards seats. Unofficial election-night totals are not the organization of the House. States canvass on their own calendars, and a television projection is not a certificate.",
+      "Every voting seat is on the November 3, 2026 ballot because a House term is two years. A state can prefer one party for senator or governor and still split its House seats, because a district is not the statewide electorate. Committee gavels and the floor agenda follow the majority the House actually organizes. They do not follow a national generic-ballot percentage. When this site prints a generic-ballot survey, it is one poll with a pollster and dates, not a model that awards seats. Unofficial election-night totals are not the organization of the House. States canvass on their own calendars, and a television race call is not a certificate. AP-called 2026 winners, with sources, are on the [who won the 2026 elections](/results/2026/) index.",
     ]),
     faqs: [
+      {
+        question: "Who controls the House after the 2026 midterms?",
+        answer:
+          "The party that holds a majority of voting seats when the new House organizes in January 2027. If all 435 seats are filled, that majority is 218. The count is the sum of district winners as each state certifies them, not a share of the national popular vote. Map the Midterms does not call races itself; its winners index at mapthemidterms.com/results/2026/ lists Associated Press calls and links each state’s official results.",
+      },
       {
         question: "Is 218 always enough to control the House?",
         answer:
