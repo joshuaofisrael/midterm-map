@@ -23,7 +23,8 @@ import { featuredRaces } from "@/data/races";
 import { SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
 import { VISUALS } from "@/data/visuals";
-import { contentUpdatedLabel } from "@/lib/contentDate";
+import { contentUpdatedLabel, winnersUpdatedLabel } from "@/lib/contentDate";
+const RESULTS_UPDATED = winnersUpdatedLabel();
 import { faqJsonLd } from "@/lib/format";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -50,14 +51,14 @@ const CTAS = [
     body: "Published surveys with pollster, dates, sample, and source links. Ratings appear only when a named outlet is cited.",
   },
   {
-    href: "https://mapthegeneral.com/us/en/live/",
-    title: "Election night",
-    body: "Unofficial figures from each state’s election-office file after polls close. No projections and no winner calls.",
+    href: "/results/2026",
+    title: "Who won",
+    body: "Every 2026 Senate, House and governor race the Associated Press has called, with votes and vote share. Unofficial until each state certifies.",
   },
   {
     href: "/results",
     title: "Key races",
-    body: "Senate, governor, and House contests for November 3, 2026, with the official source named on each page. Awaiting unofficial returns.",
+    body: "Senate, governor, and House contests for November 3, 2026, with the official source named on each page. Unofficial returns until states certify.",
   },
   {
     href: "/voting-deadlines",
@@ -79,9 +80,9 @@ export default function HomePage() {
       <HouseAd path="/" />
       <div className="space-y-14">
       <JsonLd data={faqJsonLd(HOME_FAQS)} />
-      <a href="https://mapthegeneral.com/us/en/live/" className="block rounded-xl border-2 border-navy bg-paper-card p-4 text-center font-serif text-xl font-semibold text-navy underline">
-        Live results on Map the General: November 3 election night, from official state files
-      </a>
+      <Link href="/results/2026" className="block rounded-xl border-2 border-navy bg-paper-card p-4 text-center font-serif text-xl font-semibold text-navy underline">
+        2026 results: see who won. Counts are unofficial and still updating until states certify (results data last updated {RESULTS_UPDATED}).
+      </Link>
       <section className="overflow-hidden rounded-2xl border border-navy-deep bg-navy-deep text-white shadow-card">
         <div className="grid lg:grid-cols-[1.15fr_0.85fr]">
           <div className="order-2 px-5 py-8 sm:px-8 sm:py-10 lg:order-1 lg:py-12">

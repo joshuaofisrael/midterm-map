@@ -50,7 +50,7 @@ export default function AdvertisingPage() {
             Google’s advertising policies
           </a>
           . The file <a href="/ads.txt">ads.txt</a> lists one Google AdSense publisher ID (
-          <code>pub-5681559774142917</code>). Adsterra is not running and is not listed in that file.
+          <code>pub-5681559774142917</code>). No other ad network runs on this site or is listed in that file.
           We do not write a candidate’s ad, and an ad is not an endorsement
           by {LEGAL.legalName} of the advertiser, a candidate, a party, or a ballot measure.
         </p>
