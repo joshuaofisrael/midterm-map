@@ -109,8 +109,8 @@ export default function PrivacyPage() {
         </ul>
         <p>
           The contact form is processed by FormSubmit, which emails your message to us. Google AdSense
-          may serve ads and use cookies; see “Advertising” below. Adsterra and other ad networks’ scripts
-          are loaded.
+          may serve ads and use cookies; see “Advertising” below. No other ad network’s
+          scripts are loaded.
         </p>
 
         <h2>Summary</h2>

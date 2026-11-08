@@ -10,6 +10,7 @@ import { CALENDAR_CHECKED_ON } from "@/data/electionCalendar";
 import { ELECTION_DATES, electionDatesFor } from "@/data/electionDates";
 import { pollsForRace } from "@/data/polls";
 import { getRace, RACES, racesForState } from "@/data/races";
+import { WINNERS_2026 } from "@/data/winners2026";
 import { ADDITIONAL_RESULT_SLUGS, KEY_RESULT_SLUGS } from "@/data/results";
 import { getState, isStateCode, STARTER_STATES } from "@/data/states";
 import type { Citation, RaceGuide, StateCode } from "@/data/types";
@@ -193,7 +194,7 @@ export function contentUpdatedLabelForPath(path: string): string | null {
   if (clean === "/election-night-tv") return "October 31, 2026";
   if (clean === "/calendar") return CALENDAR_CHECKED_ON;
 
-  if (clean === "/") return withEssayDate(clean, votingDeadlineLabels());
+  if (clean === "/") return winnersUpdatedLabel();
   if (clean === "/live") return withEssayDate(clean, [liveSourcesCheckedLabel()]);
   if (clean === "/cities" || clean === "/sources") return CENSUS_PLACES_UPDATED;
   const cityState = /^\/cities\/([A-Za-z]{2})(?:\/|$)/.exec(clean);
@@ -255,4 +256,10 @@ export function contentUpdatedLabel(path: string): string {
     throw new Error(`No stored content date for ${path}`);
   }
   return label;
+}
+
+/** Latest lastUpdated across the AP-called 2026 winners file, e.g. "November 5, 2026". */
+export function winnersUpdatedLabel(): string {
+  const latest = WINNERS_2026.map((w) => w.lastUpdated).filter(Boolean).sort().pop() ?? "2026-11-04T00:00:00Z";
+  return new Date(latest).toLocaleDateString("en-US", { timeZone: "America/New_York", year: "numeric", month: "long", day: "numeric" });
 }
