@@ -218,7 +218,7 @@ export default function PrivacyPage() {
         <p>
           The advertising, consent, and analytics scripts described below run inside the page, as
           such scripts do on any site that carries them. This site does not pass the ZIP to them.
-          In a test on {SITE.privacyLastUpdated}, after both lookups no request to Google or Cloudflare contained the five-digit ZIP. In the same test the only storage
+          In a test on October 30, 2026, after both lookups no request to Google or Cloudflare contained the five-digit ZIP. In the same test the only storage
           those scripts left was Google’s consent-message cookie <code>FCCDCF</code>, which did not
           hold the ZIP.
         </p>
@@ -361,28 +361,85 @@ export default function PrivacyPage() {
           ask us to delete your address through the <Link href="/contact">contact form</Link>; it can be removed on request at any time.
         </p>
 
-        <h2 id="advertising">Advertising</h2>
+        <h2 id="advertising">Advertising and ad partners</h2>
         <p>
-          {SITE.name} may show advertisements from Google AdSense. Google and its advertising
-          partners may use cookies to serve and measure those ads. Google describes its use in{" "}
+          {SITE.name} is free to read and is paid for by advertising. Today the site shows ads from Google
+          AdSense. The file <a href="/ads.txt">ads.txt</a> lists one Google AdSense publisher ID (
+          <code>pub-5681559774142917</code>), and no other ad network&apos;s scripts are loaded. Google
+          describes how it uses information in{" "}
           <a href={GOOGLE_ADS_POLICIES_URL} rel="noopener noreferrer">
             Google’s advertising policies
           </a>
-          . The file <a href="/ads.txt">ads.txt</a> lists one Google AdSense publisher ID (
-          <code>pub-5681559774142917</code>). No other ad network runs on this site or is listed
-          in that file.
+          .
         </p>
         <p>
-          You can opt out of Google’s personalized ads at{" "}
-          <a href="https://www.google.com/settings/ads">Google Ads Settings</a>, and of some other
-          vendors’ advertising cookies at <a href="https://www.aboutads.info">www.aboutads.info</a>{" "}
-          and <a href="https://optout.networkadvertising.org/">optout.networkadvertising.org</a>.
-          The footer <CookieChoicesButton /> link reopens this site’s analytics choice.
+          We may also work with Mediavine, an advertising management company, to sell and serve ads on the site.
+          Mediavine ads are not running on {SITE.name} today. If that changes, Mediavine and the advertising
+          partners it works with would serve ads under the practices described here, ads.txt would list
+          them, and we would update this page and its “Last updated” date before their ads go live.
+          Mediavine explains its own practices in its{" "}
+          <a href="https://www.mediavine.com/legal-and-privacy-center/" rel="noopener noreferrer">
+            Legal &amp; Privacy Center
+          </a>{" "}
+          and takes privacy choices and requests at its{" "}
+          <a href="https://privacy.mediavine.com/" rel="noopener noreferrer">Privacy Center</a>.
+        </p>
+        <h3>Cookies and similar technologies used by ad partners</h3>
+        <p>
+          Ad partners may set or read cookies, and use similar technologies such as pixels, local storage,
+          and device or advertising identifiers, when an ad loads. They use them to show ads, limit how often
+          you see the same ad, measure whether ads were seen or clicked, detect fraud, and, where allowed,
+          personalize ads. These technologies belong to the ad partners, not to us, and are governed by their
+          own privacy policies.
+        </p>
+        <h3>Personalized and non-personalized ads</h3>
+        <p>
+          Personalized ads are chosen using information about your browsing, such as earlier visits to this
+          and other websites, and an interest profile linked to a cookie or identifier. Non-personalized ads are
+          chosen using context only, such as the page you are reading, your approximate location (based on IP
+          address), the time, and the type of device, and do not use a profile of your past behavior. Even
+          non-personalized ads can use cookies for frequency capping, measurement, and fraud prevention.
+        </p>
+        <h3>Information shared with ad partners</h3>
+        <p>
+          When an ad loads, your browser connects directly to the ad partner. The partner can receive your IP
+          address, browser and device information, the address of the page you are on and the page that sent
+          you there, cookie or device identifiers, the date and time, and your interaction with the ad. In
+          real-time ad auctions, an ad partner can pass some of this information to advertisers and other
+          ad-technology companies that bid to show an ad. We do not give ad partners your name, your email
+          address, contact-form messages, or the ZIP code you type into the lookup.
+        </p>
+        <h3>Your choices and opt-out links</h3>
+        <ul>
+          <li>
+            Google personalized ads: <a href="https://adssettings.google.com">Google Ads Settings</a>
+          </li>
+          <li>
+            Digital Advertising Alliance (U.S.): <a href="https://optout.aboutads.info">optout.aboutads.info</a>
+          </li>
+          <li>
+            Network Advertising Initiative:{" "}
+            <a href="https://optout.networkadvertising.org">optout.networkadvertising.org</a>
+          </li>
+          <li>
+            European Interactive Digital Advertising Alliance (EU/UK):{" "}
+            <a href="https://www.youronlinechoices.eu">www.youronlinechoices.eu</a>
+          </li>
+          <li>
+            Mediavine: <a href="https://privacy.mediavine.com/">Mediavine Privacy Center</a>
+          </li>
+        </ul>
+        <p>
+          Opting out stops personalized ads from participating companies in that browser. You will still see
+          ads, which may be non-personalized. Opt-outs often rely on a cookie, so clearing cookies or using
+          another browser or device can undo them. You can also block or delete cookies in your browser
+          settings. The footer <CookieChoicesButton /> link reopens this site’s analytics choice.
         </p>
         <p>
           Visitors in the European Economic Area, the United Kingdom, and Switzerland can get
           Google’s consent message before Google’s advertising cookies are used. That message is
-          shown through the AdSense script. It is separate from this site’s analytics choice:
+          shown through the AdSense script. Until consent is given there, this site’s default setting
+          denies ad storage. It is separate from this site’s analytics choice:
           Google Analytics still loads only with a grant, as described under{" "}
           <Link href="#google-analytics">Google Analytics</Link>.
         </p>
@@ -468,8 +525,10 @@ export default function PrivacyPage() {
           securing, and improving a free public information website and in answering messages you
           choose to send. For Google Analytics, the legal basis is your consent. You give it by
           clicking Accept, and you can withdraw it at any time through the Cookie choices link. For
-          Google advertising cookies, visitors in the European Economic Area, the United Kingdom,
-          and Switzerland are asked through Google’s consent message.
+          advertising cookies and personalized ads, the legal basis is your consent: visitors in the
+          European Economic Area, the United Kingdom, and Switzerland are asked through Google’s consent
+          message, and ad storage stays denied by default until consent is given. You can withdraw that
+          consent through the same message or by clearing cookies.
           {tips ? " For tips, the legal basis is processing needed to take your payment and to meet tax and accounting obligations." : ""}
           {" "}
           For election-night updates, the legal basis is your consent, which you can withdraw by
@@ -487,12 +546,14 @@ export default function PrivacyPage() {
         <p>
           Depending on where you live, state law may give you the right to know what personal
           information we have about you, to correct it, to delete it, and to opt out of its sale,
-          sharing for targeted advertising, or profiling. We do not sell personal information.
-          Google may use cookies for advertising as described under Advertising,
-          including personalized ads. You can opt out of Google’s personalized ads at{" "}
-          <a href="https://www.google.com/settings/ads">Google Ads Settings</a>. A browser privacy
-          signal such as Global Privacy Control is separate from that Google setting and from the
-          analytics choice stored in this browser. We will not treat you differently for exercising
+          sharing for targeted advertising, or profiling. We do not sell personal information for money.
+          Some state laws, such as California’s, can treat letting ad partners collect identifiers on our
+          pages for personalized (targeted) ads as a “sale” or “sharing.” To opt out of that, use the
+          opt-out links under <Link href="#advertising">Advertising and ad partners</Link>, starting with{" "}
+          <a href="https://adssettings.google.com">Google Ads Settings</a> and{" "}
+          <a href="https://optout.aboutads.info">optout.aboutads.info</a>, or send us a request as described
+          below. A browser privacy signal such as Global Privacy Control is separate from those settings and
+          from the analytics choice stored in this browser. We will not treat you differently for exercising
           a privacy right.
         </p>
 
