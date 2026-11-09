@@ -4,25 +4,28 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { EmailSignup } from "@/components/EmailSignup";
 import { JsonLd } from "@/components/JsonLd";
 import { getState } from "@/data/states";
-import { WINNERS_2026, getWinner, nextWinner, winnerTitle, winnerDescription, etDate } from "@/data/winners2026";
+import { RACES_2026, getRace, nextWinner, winnerOf, winnerTitle, winnerDescription, etDate, statusLine } from "@/data/winners2026";
+import { CERTIFIED_2026, CERT_DEADLINES_2026, longDate } from "@/data/certification2026";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return WINNERS_2026.map((w) => ({ slug: w.slug }));
+  return RACES_2026.map((w) => ({ slug: w.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
-  const w = getWinner((await params).slug);
+  const w = getRace((await params).slug);
   if (!w) return {};
   return pageMetadata({ title: winnerTitle(w), description: winnerDescription(w), path: `/results/2026/${w.slug}`, index: true });
 }
 
 export default async function WinnerPage({ params }: { params: Promise<{ slug: string }> }) {
-  const w = getWinner((await params).slug);
+  const w = getRace((await params).slug);
   if (!w) notFound();
-  const win = w.candidates.find((c) => c.winner)!;
+  const win = winnerOf(w);
+  const cert = CERTIFIED_2026[w.state];
+  const deadline = CERT_DEADLINES_2026[w.state];
   const next = nextWinner(w.slug);
   const hasHub = Boolean(getState(w.state));
   return (
@@ -45,11 +48,25 @@ export default async function WinnerPage({ params }: { params: Promise<{ slug: s
       />
       <header>
         <h1 className="font-serif text-3xl font-semibold">{winnerTitle(w)}</h1>
-        <p className="mt-3 text-lg leading-7">
-          <strong>{win.name}</strong> ({win.party}) won the 2026 {w.label} election with {win.pct}% of the vote, according
-          to the Associated Press, which called the race on {etDate(w.calledAt)}.
-          {w.flipped ? " The seat changed party." : ""}
-        </p>
+        {win ? (
+          <p className="mt-3 text-lg leading-7">
+            <strong>{win.name}</strong> ({win.party}) won the 2026 {w.label} election with {win.pct}% of the vote, according
+            to the Associated Press, which called the race on {etDate(w.calledAt!)}.
+            {w.flipped ? " The seat changed party." : ""}
+          </p>
+        ) : (
+          <p className="mt-3 text-lg leading-7">
+            <strong>{statusLine(w)}.</strong>{" "}
+            {w.status === "runoff"
+              ? "The Associated Press reports that no candidate won outright and the race goes to a runoff."
+              : "The Associated Press has not called this race. Votes are still being counted."}{" "}
+            Map the Midterms does not name a winner until AP calls the race. Follow the count at the{" "}
+            <a className="font-medium text-navy underline" href={w.official.href} rel="noopener noreferrer">
+              {w.official.label}
+            </a>
+            .
+          </p>
+        )}
       </header>
       <section aria-labelledby="cands">
         <h2 id="cands" className="font-serif text-xl font-semibold">Every candidate</h2>
@@ -77,12 +94,35 @@ export default async function WinnerPage({ params }: { params: Promise<{ slug: s
           {w.eevp != null ? `, with about ${Math.round(w.eevp)}% of the expected vote counted` : ""}. Totals can change until
           the state certifies the result.
         </p>
+        <p className="mt-2 text-sm">
+          <strong>Certification:</strong>{" "}
+          {cert ? (
+            <>
+              {w.stateName} certified its 2026 general-election results on {longDate(cert.date)} (
+              <a className="text-navy underline" href={cert.href} rel="noopener noreferrer">{cert.label}</a>).
+            </>
+          ) : (
+            <>
+              Map the Midterms has not recorded a state certification for this race yet, so these counts are unofficial.
+              {deadline ? (
+                <>
+                  {" "}The state certification date is {longDate(deadline.date)} (
+                  <a className="text-navy underline" href={deadline.href} rel="noopener noreferrer">{deadline.label}</a>).
+                </>
+              ) : null}
+            </>
+          )}
+        </p>
       </section>
       <section className="text-sm leading-6">
         <h2 className="font-serif text-xl font-semibold">Sources</h2>
         <ul className="mt-2 list-disc pl-5">
           <li>Race call and vote counts: The Associated Press, via the Guardian&apos;s published AP results data.</li>
-          <li>Certified results are published by the {w.stateName} state election office.</li>
+          <li>
+            Official results:{" "}
+            <a className="text-navy underline" href={w.official.href} rel="noopener noreferrer">{w.official.label}</a>.
+            Certified results are published by the {w.stateName} state election office.
+          </li>
         </ul>
       </section>
       <nav className="rounded-xl border border-line p-4 text-sm">
