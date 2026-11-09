@@ -66,6 +66,7 @@ export const PRIMARY_NAV = [
   { href: "/polls", label: "Polls" },
   { href: "/results", label: "Results" },
   { href: "/results/2026", label: "Who won" },
+  { href: "/representatives", label: "Representatives" },
   { href: "/calendar", label: "Calendar" },
   { href: "https://mapthegeneral.com/us/en/live/", label: "Election night" },
   { href: "/learn", label: "Learn" },

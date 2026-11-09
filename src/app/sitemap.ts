@@ -1,4 +1,5 @@
 import { RACES_2026 } from "@/data/winners2026";
+import { REP_STATES, repDistrictPath } from "@/data/representatives2026";
 import type { MetadataRoute } from "next";
 import { countiesForState, placeState, placeStates, placesForState } from "@/data/places/load";
 import { placeIsStandalone } from "@/lib/placeNames";
@@ -184,6 +185,8 @@ const EDITORIAL_UPDATED = "2026-10-27";
 
 function lastModifiedFor(path: string): string {
   if (path === "/advertise") return "2026-10-27";
+  if (path === "/representatives" || path === "/your-representative" || path.startsWith("/representatives/")) return "2026-11-09";
+  if (path === "/results/2026" || path.startsWith("/results/2026/")) return "2026-11-09";
   if (path === "/about" || path === "/learn" || path.startsWith("/learn/")) return EDITORIAL_UPDATED;
   if (COPYRIGHT_NOTICE_PATHS.has(path)) return COPYRIGHT_NOTICE_UPDATED;
   if (CONTACT_FORM_PATHS.has(path)) return CONTACT_FORM_UPDATED;
@@ -266,6 +269,10 @@ function coreSitemap(): MetadataRoute.Sitemap {
     "/embed/map",
     "/results/2026",
     ...RACES_2026.map((w) => `/results/2026/${w.slug}`),
+    "/representatives",
+    "/your-representative",
+    ...REP_STATES.map((s) => `/representatives/${s.code}`),
+    ...REP_STATES.flatMap((s) => s.house.map((h) => repDistrictPath(s.code, h.district))),
   ];
 
   const statePaths = STARTER_STATES.flatMap((state) => [

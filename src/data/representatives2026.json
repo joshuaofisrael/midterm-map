@@ -1,0 +1,5271 @@
+{
+"sources": {
+"senate": {
+"url": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
+"updated": "2026-11-06T13:08-05:00"
+},
+"house": {
+"url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+"updated": "November 3, 2026"
+}
+},
+"states": {
+"AL": {
+"name": "Alabama",
+"senate": [
+{
+"current": {
+"name": "Tommy Tuberville",
+"party": "Republican",
+"class": "II",
+"website": "https://www.tuberville.senate.gov",
+"bioguide": "T000278"
+},
+"race": "al-senate"
+},
+{
+"current": {
+"name": "Katie Boyd Britt",
+"party": "Republican",
+"class": "III",
+"website": "https://www.britt.senate.gov/",
+"bioguide": "B001319"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Barry Moore",
+"party": "Republican",
+"bioguide": "M001212"
+},
+"race": "al-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Shomari Figures",
+"party": "Democratic",
+"bioguide": "F000481"
+},
+"race": "al-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Mike Rogers",
+"party": "Republican",
+"bioguide": "R000575"
+},
+"race": "al-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Robert B. Aderholt",
+"party": "Republican",
+"bioguide": "A000055"
+},
+"race": "al-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Dale W. Strong",
+"party": "Republican",
+"bioguide": "S001220"
+},
+"race": "al-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Gary J. Palmer",
+"party": "Republican",
+"bioguide": "P000609"
+},
+"race": "al-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Terri A. Sewell",
+"party": "Democratic",
+"bioguide": "S001185"
+},
+"race": "al-house-district-7"
+}
+]
+},
+"AK": {
+"name": "Alaska",
+"senate": [
+{
+"current": {
+"name": "Dan Sullivan",
+"party": "Republican",
+"class": "II",
+"website": "https://www.sullivan.senate.gov",
+"bioguide": "S001198"
+},
+"race": "ak-senate"
+},
+{
+"current": {
+"name": "Lisa Murkowski",
+"party": "Republican",
+"class": "III",
+"website": "https://www.murkowski.senate.gov/",
+"bioguide": "M001153"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "at-large",
+"current": {
+"name": "Nicholas J. Begich III",
+"party": "Republican",
+"bioguide": "B001323"
+},
+"race": "ak-house-at-large"
+}
+]
+},
+"AZ": {
+"name": "Arizona",
+"senate": [
+{
+"current": {
+"name": "Ruben Gallego",
+"party": "Democratic",
+"class": "I",
+"website": "https://www.gallego.senate.gov/",
+"bioguide": "G000574"
+},
+"race": null
+},
+{
+"current": {
+"name": "Mark Kelly",
+"party": "Democratic",
+"class": "III",
+"website": "https://www.kelly.senate.gov",
+"bioguide": "K000377"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "David Schweikert",
+"party": "Republican",
+"bioguide": "S001183"
+},
+"race": "az-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Elijah Crane",
+"party": "Republican",
+"bioguide": "C001132"
+},
+"race": "az-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Yassamin Ansari",
+"party": "Democratic",
+"bioguide": "A000381"
+},
+"race": "az-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Greg Stanton",
+"party": "Democratic",
+"bioguide": "S001211"
+},
+"race": "az-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Andy Biggs",
+"party": "Republican",
+"bioguide": "B001302"
+},
+"race": "az-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Juan Ciscomani",
+"party": "Republican",
+"bioguide": "C001133"
+},
+"race": "az-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Adelita S. Grijalva",
+"party": "Democratic",
+"bioguide": "G000606"
+},
+"race": "az-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Abraham J. Hamadeh",
+"party": "Republican",
+"bioguide": "H001098"
+},
+"race": "az-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "Paul A. Gosar",
+"party": "Republican",
+"bioguide": "G000565"
+},
+"race": "az-house-district-9"
+}
+]
+},
+"AR": {
+"name": "Arkansas",
+"senate": [
+{
+"current": {
+"name": "Tom Cotton",
+"party": "Republican",
+"class": "II",
+"website": "https://www.cotton.senate.gov",
+"bioguide": "C001095"
+},
+"race": "ar-senate"
+},
+{
+"current": {
+"name": "John Boozman",
+"party": "Republican",
+"class": "III",
+"website": "https://www.boozman.senate.gov/",
+"bioguide": "B001236"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Eric A. \"Rick\" Crawford",
+"party": "Republican",
+"bioguide": "C001087"
+},
+"race": "ar-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "J. French Hill",
+"party": "Republican",
+"bioguide": "H001072"
+},
+"race": "ar-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Steve Womack",
+"party": "Republican",
+"bioguide": "W000809"
+},
+"race": "ar-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Bruce Westerman",
+"party": "Republican",
+"bioguide": "W000821"
+},
+"race": "ar-house-district-4"
+}
+]
+},
+"CA": {
+"name": "California",
+"senate": [
+{
+"current": {
+"name": "Adam B. Schiff",
+"party": "Democratic",
+"class": "I",
+"website": "https://www.schiff.senate.gov",
+"bioguide": "S001150"
+},
+"race": null
+},
+{
+"current": {
+"name": "Alex Padilla",
+"party": "Democratic",
+"class": "III",
+"website": "https://www.padilla.senate.gov",
+"bioguide": "P000145"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "James Gallagher",
+"party": "Republican",
+"bioguide": "G000607"
+},
+"race": "ca-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Jared Huffman",
+"party": "Democratic",
+"bioguide": "H001068"
+},
+"race": "ca-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Kevin Kiley",
+"party": "Independent",
+"bioguide": "K000401"
+},
+"race": "ca-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Mike Thompson",
+"party": "Democratic",
+"bioguide": "T000460"
+},
+"race": "ca-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Tom McClintock",
+"party": "Republican",
+"bioguide": "M001177"
+},
+"race": "ca-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Ami Bera",
+"party": "Democratic",
+"bioguide": "B001287"
+},
+"race": "ca-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Doris O. Matsui",
+"party": "Democratic",
+"bioguide": "M001163"
+},
+"race": "ca-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "John Garamendi",
+"party": "Democratic",
+"bioguide": "G000559"
+},
+"race": "ca-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "Josh Harder",
+"party": "Democratic",
+"bioguide": "H001090"
+},
+"race": "ca-house-district-9"
+},
+{
+"district": "10",
+"current": {
+"name": "Mark DeSaulnier",
+"party": "Democratic",
+"bioguide": "D000623"
+},
+"race": "ca-house-district-10"
+},
+{
+"district": "11",
+"current": {
+"name": "Nancy Pelosi",
+"party": "Democratic",
+"bioguide": "P000197"
+},
+"race": "ca-house-district-11"
+},
+{
+"district": "12",
+"current": {
+"name": "Lateefah Simon",
+"party": "Democratic",
+"bioguide": "S001231"
+},
+"race": "ca-house-district-12"
+},
+{
+"district": "13",
+"current": {
+"name": "Adam Gray",
+"party": "Democratic",
+"bioguide": "G000605"
+},
+"race": "ca-house-district-13"
+},
+{
+"district": "14",
+"current": {
+"name": "Aisha Wahab",
+"party": "Democratic",
+"bioguide": "W000832"
+},
+"race": "ca-house-district-14"
+},
+{
+"district": "15",
+"current": {
+"name": "Kevin Mullin",
+"party": "Democratic",
+"bioguide": "M001225"
+},
+"race": "ca-house-district-15"
+},
+{
+"district": "16",
+"current": {
+"name": "Sam T. Liccardo",
+"party": "Democratic",
+"bioguide": "L000607"
+},
+"race": "ca-house-district-16"
+},
+{
+"district": "17",
+"current": {
+"name": "Ro Khanna",
+"party": "Democratic",
+"bioguide": "K000389"
+},
+"race": "ca-house-district-17"
+},
+{
+"district": "18",
+"current": {
+"name": "Zoe Lofgren",
+"party": "Democratic",
+"bioguide": "L000397"
+},
+"race": "ca-house-district-18"
+},
+{
+"district": "19",
+"current": {
+"name": "Jimmy Panetta",
+"party": "Democratic",
+"bioguide": "P000613"
+},
+"race": "ca-house-district-19"
+},
+{
+"district": "20",
+"current": {
+"name": "Vince Fong",
+"party": "Republican",
+"bioguide": "F000480"
+},
+"race": "ca-house-district-20"
+},
+{
+"district": "21",
+"current": {
+"name": "Jim Costa",
+"party": "Democratic",
+"bioguide": "C001059"
+},
+"race": "ca-house-district-21"
+},
+{
+"district": "22",
+"current": {
+"name": "David G. Valadao",
+"party": "Republican",
+"bioguide": "V000129"
+},
+"race": "ca-house-district-22"
+},
+{
+"district": "23",
+"current": {
+"name": "Jay Obernolte",
+"party": "Republican",
+"bioguide": "O000019"
+},
+"race": "ca-house-district-23"
+},
+{
+"district": "24",
+"current": {
+"name": "Salud O. Carbajal",
+"party": "Democratic",
+"bioguide": "C001112"
+},
+"race": "ca-house-district-24"
+},
+{
+"district": "25",
+"current": {
+"name": "Raul Ruiz",
+"party": "Democratic",
+"bioguide": "R000599"
+},
+"race": "ca-house-district-25"
+},
+{
+"district": "26",
+"current": {
+"name": "Julia Brownley",
+"party": "Democratic",
+"bioguide": "B001285"
+},
+"race": "ca-house-district-26"
+},
+{
+"district": "27",
+"current": {
+"name": "George Whitesides",
+"party": "Democratic",
+"bioguide": "W000830"
+},
+"race": "ca-house-district-27"
+},
+{
+"district": "28",
+"current": {
+"name": "Judy Chu",
+"party": "Democratic",
+"bioguide": "C001080"
+},
+"race": "ca-house-district-28"
+},
+{
+"district": "29",
+"current": {
+"name": "Luz M. Rivas",
+"party": "Democratic",
+"bioguide": "R000620"
+},
+"race": "ca-house-district-29"
+},
+{
+"district": "30",
+"current": {
+"name": "Laura Friedman",
+"party": "Democratic",
+"bioguide": "F000483"
+},
+"race": "ca-house-district-30"
+},
+{
+"district": "31",
+"current": {
+"name": "Gilbert Ray Cisneros, Jr.",
+"party": "Democratic",
+"bioguide": "C001123"
+},
+"race": "ca-house-district-31"
+},
+{
+"district": "32",
+"current": {
+"name": "Brad Sherman",
+"party": "Democratic",
+"bioguide": "S000344"
+},
+"race": "ca-house-district-32"
+},
+{
+"district": "33",
+"current": {
+"name": "Pete Aguilar",
+"party": "Democratic",
+"bioguide": "A000371"
+},
+"race": "ca-house-district-33"
+},
+{
+"district": "34",
+"current": {
+"name": "Jimmy Gomez",
+"party": "Democratic",
+"bioguide": "G000585"
+},
+"race": "ca-house-district-34"
+},
+{
+"district": "35",
+"current": {
+"name": "Norma J. Torres",
+"party": "Democratic",
+"bioguide": "T000474"
+},
+"race": "ca-house-district-35"
+},
+{
+"district": "36",
+"current": {
+"name": "Ted Lieu",
+"party": "Democratic",
+"bioguide": "L000582"
+},
+"race": "ca-house-district-36"
+},
+{
+"district": "37",
+"current": {
+"name": "Sydney Kamlager-Dove",
+"party": "Democratic",
+"bioguide": "K000400"
+},
+"race": "ca-house-district-37"
+},
+{
+"district": "38",
+"current": {
+"name": "Linda T. S\u00e1nchez",
+"party": "Democratic",
+"bioguide": "S001156"
+},
+"race": "ca-house-district-38"
+},
+{
+"district": "39",
+"current": {
+"name": "Mark Takano",
+"party": "Democratic",
+"bioguide": "T000472"
+},
+"race": "ca-house-district-39"
+},
+{
+"district": "40",
+"current": {
+"name": "Young Kim",
+"party": "Republican",
+"bioguide": "K000397"
+},
+"race": "ca-house-district-40"
+},
+{
+"district": "41",
+"current": {
+"name": "Ken Calvert",
+"party": "Republican",
+"bioguide": "C000059"
+},
+"race": "ca-house-district-41"
+},
+{
+"district": "42",
+"current": {
+"name": "Robert Garcia",
+"party": "Democratic",
+"bioguide": "G000598"
+},
+"race": "ca-house-district-42"
+},
+{
+"district": "43",
+"current": {
+"name": "Maxine Waters",
+"party": "Democratic",
+"bioguide": "W000187"
+},
+"race": "ca-house-district-43"
+},
+{
+"district": "44",
+"current": {
+"name": "Nanette Diaz Barrag\u00e1n",
+"party": "Democratic",
+"bioguide": "B001300"
+},
+"race": "ca-house-district-44"
+},
+{
+"district": "45",
+"current": {
+"name": "Derek Tran",
+"party": "Democratic",
+"bioguide": "T000491"
+},
+"race": "ca-house-district-45"
+},
+{
+"district": "46",
+"current": {
+"name": "J. Luis Correa",
+"party": "Democratic",
+"bioguide": "C001110"
+},
+"race": "ca-house-district-46"
+},
+{
+"district": "47",
+"current": {
+"name": "Dave Min",
+"party": "Democratic",
+"bioguide": "M001241"
+},
+"race": "ca-house-district-47"
+},
+{
+"district": "48",
+"current": {
+"name": "Darrell Issa",
+"party": "Republican",
+"bioguide": "I000056"
+},
+"race": "ca-house-district-48"
+},
+{
+"district": "49",
+"current": {
+"name": "Mike Levin",
+"party": "Democratic",
+"bioguide": "L000593"
+},
+"race": "ca-house-district-49"
+},
+{
+"district": "50",
+"current": {
+"name": "Scott H. Peters",
+"party": "Democratic",
+"bioguide": "P000608"
+},
+"race": "ca-house-district-50"
+},
+{
+"district": "51",
+"current": {
+"name": "Sara Jacobs",
+"party": "Democratic",
+"bioguide": "J000305"
+},
+"race": "ca-house-district-51"
+},
+{
+"district": "52",
+"current": {
+"name": "Juan Vargas",
+"party": "Democratic",
+"bioguide": "V000130"
+},
+"race": "ca-house-district-52"
+}
+]
+},
+"CO": {
+"name": "Colorado",
+"senate": [
+{
+"current": {
+"name": "John W. Hickenlooper",
+"party": "Democratic",
+"class": "II",
+"website": "https://www.hickenlooper.senate.gov",
+"bioguide": "H000273"
+},
+"race": "co-senate"
+},
+{
+"current": {
+"name": "Michael F. Bennet",
+"party": "Democratic",
+"class": "III",
+"website": "https://www.bennet.senate.gov",
+"bioguide": "B001267"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Diana DeGette",
+"party": "Democratic",
+"bioguide": "D000197"
+},
+"race": "co-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Joe Neguse",
+"party": "Democratic",
+"bioguide": "N000191"
+},
+"race": "co-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Jeff Hurd",
+"party": "Republican",
+"bioguide": "H001100"
+},
+"race": "co-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Lauren Boebert",
+"party": "Republican",
+"bioguide": "B000825"
+},
+"race": "co-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Jeff Crank",
+"party": "Republican",
+"bioguide": "C001137"
+},
+"race": "co-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Jason Crow",
+"party": "Democratic",
+"bioguide": "C001121"
+},
+"race": "co-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Brittany Pettersen",
+"party": "Democratic",
+"bioguide": "P000620"
+},
+"race": "co-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Gabe Evans",
+"party": "Republican",
+"bioguide": "E000300"
+},
+"race": "co-house-district-8"
+}
+]
+},
+"CT": {
+"name": "Connecticut",
+"senate": [
+{
+"current": {
+"name": "Christopher Murphy",
+"party": "Democratic",
+"class": "I",
+"website": "https://www.murphy.senate.gov/",
+"bioguide": "M001169"
+},
+"race": null
+},
+{
+"current": {
+"name": "Richard Blumenthal",
+"party": "Democratic",
+"class": "III",
+"website": "https://www.blumenthal.senate.gov",
+"bioguide": "B001277"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "John B. Larson",
+"party": "Democratic",
+"bioguide": "L000557"
+},
+"race": "ct-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Joe Courtney",
+"party": "Democratic",
+"bioguide": "C001069"
+},
+"race": "ct-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Rosa L. DeLauro",
+"party": "Democratic",
+"bioguide": "D000216"
+},
+"race": "ct-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "James A. Himes",
+"party": "Democratic",
+"bioguide": "H001047"
+},
+"race": "ct-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Jahana Hayes",
+"party": "Democratic",
+"bioguide": "H001081"
+},
+"race": "ct-house-district-5"
+}
+]
+},
+"DE": {
+"name": "Delaware",
+"senate": [
+{
+"current": {
+"name": "Lisa Blunt Rochester",
+"party": "Democratic",
+"class": "I",
+"website": "https://www.bluntrochester.senate.gov/",
+"bioguide": "B001303"
+},
+"race": null
+},
+{
+"current": {
+"name": "Christopher A. Coons",
+"party": "Democratic",
+"class": "II",
+"website": "https://www.coons.senate.gov/",
+"bioguide": "C001088"
+},
+"race": "de-senate"
+}
+],
+"house": [
+{
+"district": "at-large",
+"current": {
+"name": "Sarah McBride",
+"party": "Democratic",
+"bioguide": "M001238"
+},
+"race": "de-house-at-large"
+}
+]
+},
+"FL": {
+"name": "Florida",
+"senate": [
+{
+"current": {
+"name": "Rick Scott",
+"party": "Republican",
+"class": "I",
+"website": "https://www.rickscott.senate.gov/",
+"bioguide": "S001217"
+},
+"race": null
+},
+{
+"current": {
+"name": "Ashley Moody",
+"party": "Republican",
+"class": "III",
+"website": "https://www.moody.senate.gov",
+"bioguide": "M001244"
+},
+"race": "fl-senate-special"
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Jimmy Patronis",
+"party": "Republican",
+"bioguide": "P000622"
+},
+"race": "fl-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Neal P. Dunn",
+"party": "Republican",
+"bioguide": "D000628"
+},
+"race": "fl-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Kat Cammack",
+"party": "Republican",
+"bioguide": "C001039"
+},
+"race": "fl-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Aaron Bean",
+"party": "Republican",
+"bioguide": "B001314"
+},
+"race": "fl-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "John H. Rutherford",
+"party": "Republican",
+"bioguide": "R000609"
+},
+"race": "fl-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Randy Fine",
+"party": "Republican",
+"bioguide": "F000484"
+},
+"race": "fl-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Cory Mills",
+"party": "Republican",
+"bioguide": "M001216"
+},
+"race": "fl-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Mike Haridopolos",
+"party": "Republican",
+"bioguide": "H001099"
+},
+"race": "fl-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "Darren Soto",
+"party": "Democratic",
+"bioguide": "S001200"
+},
+"race": "fl-house-district-9"
+},
+{
+"district": "10",
+"current": {
+"name": "Maxwell Frost",
+"party": "Democratic",
+"bioguide": "F000476"
+},
+"race": "fl-house-district-10"
+},
+{
+"district": "11",
+"current": {
+"name": "Daniel Webster",
+"party": "Republican",
+"bioguide": "W000806"
+},
+"race": "fl-house-district-11"
+},
+{
+"district": "12",
+"current": {
+"name": "Gus M. Bilirakis",
+"party": "Republican",
+"bioguide": "B001257"
+},
+"race": "fl-house-district-12"
+},
+{
+"district": "13",
+"current": {
+"name": "Anna Paulina Luna",
+"party": "Republican",
+"bioguide": "L000596"
+},
+"race": "fl-house-district-13"
+},
+{
+"district": "14",
+"current": {
+"name": "Kathy Castor",
+"party": "Democratic",
+"bioguide": "C001066"
+},
+"race": "fl-house-district-14"
+},
+{
+"district": "15",
+"current": {
+"name": "Laurel M. Lee",
+"party": "Republican",
+"bioguide": "L000597"
+},
+"race": "fl-house-district-15"
+},
+{
+"district": "16",
+"current": {
+"name": "Vern Buchanan",
+"party": "Republican",
+"bioguide": "B001260"
+},
+"race": "fl-house-district-16"
+},
+{
+"district": "17",
+"current": {
+"name": "W. Gregory Steube",
+"party": "Republican",
+"bioguide": "S001214"
+},
+"race": "fl-house-district-17"
+},
+{
+"district": "18",
+"current": {
+"name": "Scott Franklin",
+"party": "Republican",
+"bioguide": "F000472"
+},
+"race": "fl-house-district-18"
+},
+{
+"district": "19",
+"current": {
+"name": "Byron Donalds",
+"party": "Republican",
+"bioguide": "D000032"
+},
+"race": "fl-house-district-19"
+},
+{
+"district": "20",
+"current": null,
+"race": "fl-house-district-20"
+},
+{
+"district": "21",
+"current": {
+"name": "Brian J. Mast",
+"party": "Republican",
+"bioguide": "M001199"
+},
+"race": "fl-house-district-21"
+},
+{
+"district": "22",
+"current": {
+"name": "Lois Frankel",
+"party": "Democratic",
+"bioguide": "F000462"
+},
+"race": "fl-house-district-22"
+},
+{
+"district": "23",
+"current": {
+"name": "Jared Moskowitz",
+"party": "Democratic",
+"bioguide": "M001217"
+},
+"race": "fl-house-district-23"
+},
+{
+"district": "24",
+"current": {
+"name": "Frederica S. Wilson",
+"party": "Democratic",
+"bioguide": "W000808"
+},
+"race": "fl-house-district-24"
+},
+{
+"district": "25",
+"current": {
+"name": "Debbie Wasserman Schultz",
+"party": "Democratic",
+"bioguide": "W000797"
+},
+"race": "fl-house-district-25"
+},
+{
+"district": "26",
+"current": {
+"name": "Mario Diaz-Balart",
+"party": "Republican",
+"bioguide": "D000600"
+},
+"race": "fl-house-district-26"
+},
+{
+"district": "27",
+"current": {
+"name": "Maria Elvira Salazar",
+"party": "Republican",
+"bioguide": "S000168"
+},
+"race": "fl-house-district-27"
+},
+{
+"district": "28",
+"current": {
+"name": "Carlos A. Gimenez",
+"party": "Republican",
+"bioguide": "G000593"
+},
+"race": "fl-house-district-28"
+}
+]
+},
+"GA": {
+"name": "Georgia",
+"senate": [
+{
+"current": {
+"name": "Jon Ossoff",
+"party": "Democratic",
+"class": "II",
+"website": "https://www.ossoff.senate.gov",
+"bioguide": "O000174"
+},
+"race": "ga-senate"
+},
+{
+"current": {
+"name": "Raphael G. Warnock",
+"party": "Democratic",
+"class": "III",
+"website": "https://www.warnock.senate.gov",
+"bioguide": "W000790"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Earl L. \"Buddy\" Carter",
+"party": "Republican",
+"bioguide": "C001103"
+},
+"race": "ga-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Sanford D. Bishop, Jr.",
+"party": "Democratic",
+"bioguide": "B000490"
+},
+"race": "ga-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Brian Jack",
+"party": "Republican",
+"bioguide": "J000311"
+},
+"race": "ga-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Henry C. \"Hank\" Johnson, Jr.",
+"party": "Democratic",
+"bioguide": "J000288"
+},
+"race": "ga-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Nikema Williams",
+"party": "Democratic",
+"bioguide": "W000788"
+},
+"race": "ga-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Lucy McBath",
+"party": "Democratic",
+"bioguide": "M001208"
+},
+"race": "ga-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Richard McCormick",
+"party": "Republican",
+"bioguide": "M001218"
+},
+"race": "ga-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Austin Scott",
+"party": "Republican",
+"bioguide": "S001189"
+},
+"race": "ga-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "Andrew S. Clyde",
+"party": "Republican",
+"bioguide": "C001116"
+},
+"race": "ga-house-district-9"
+},
+{
+"district": "10",
+"current": {
+"name": "Mike Collins",
+"party": "Republican",
+"bioguide": "C001129"
+},
+"race": "ga-house-district-10"
+},
+{
+"district": "11",
+"current": {
+"name": "Barry Loudermilk",
+"party": "Republican",
+"bioguide": "L000583"
+},
+"race": "ga-house-district-11"
+},
+{
+"district": "12",
+"current": {
+"name": "Rick W. Allen",
+"party": "Republican",
+"bioguide": "A000372"
+},
+"race": "ga-house-district-12"
+},
+{
+"district": "13",
+"current": {
+"name": "Everton Blair Jr.",
+"party": "Democratic",
+"bioguide": "B001328"
+},
+"race": "ga-house-district-13"
+},
+{
+"district": "14",
+"current": {
+"name": "Clay Fuller",
+"party": "Republican",
+"bioguide": "F000485"
+},
+"race": "ga-house-district-14"
+}
+]
+},
+"HI": {
+"name": "Hawaii",
+"senate": [
+{
+"current": {
+"name": "Mazie K. Hirono",
+"party": "Democratic",
+"class": "I",
+"website": "https://www.hirono.senate.gov/",
+"bioguide": "H001042"
+},
+"race": null
+},
+{
+"current": {
+"name": "Brian Schatz",
+"party": "Democratic",
+"class": "III",
+"website": "https://www.schatz.senate.gov",
+"bioguide": "S001194"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Ed Case",
+"party": "Democratic",
+"bioguide": "C001055"
+},
+"race": "hi-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Jill N. Tokuda",
+"party": "Democratic",
+"bioguide": "T000487"
+},
+"race": "hi-house-district-2"
+}
+]
+},
+"ID": {
+"name": "Idaho",
+"senate": [
+{
+"current": {
+"name": "James E. Risch",
+"party": "Republican",
+"class": "II",
+"website": "https://www.risch.senate.gov",
+"bioguide": "R000584"
+},
+"race": "id-senate"
+},
+{
+"current": {
+"name": "Mike Crapo",
+"party": "Republican",
+"class": "III",
+"website": "https://www.crapo.senate.gov",
+"bioguide": "C000880"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Russ Fulcher",
+"party": "Republican",
+"bioguide": "F000469"
+},
+"race": "id-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Michael K. Simpson",
+"party": "Republican",
+"bioguide": "S001148"
+},
+"race": "id-house-district-2"
+}
+]
+},
+"IL": {
+"name": "Illinois",
+"senate": [
+{
+"current": {
+"name": "Richard J. Durbin",
+"party": "Democratic",
+"class": "II",
+"website": "https://www.durbin.senate.gov",
+"bioguide": "D000563"
+},
+"race": "il-senate"
+},
+{
+"current": {
+"name": "Tammy Duckworth",
+"party": "Democratic",
+"class": "III",
+"website": "https://www.duckworth.senate.gov",
+"bioguide": "D000622"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Jonathan L. Jackson",
+"party": "Democratic",
+"bioguide": "J000309"
+},
+"race": "il-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Robin L. Kelly",
+"party": "Democratic",
+"bioguide": "K000385"
+},
+"race": "il-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Delia C. Ramirez",
+"party": "Democratic",
+"bioguide": "R000617"
+},
+"race": "il-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Jes\u00fas G. \"Chuy\" Garc\u00eda",
+"party": "Democratic",
+"bioguide": "G000586"
+},
+"race": "il-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Mike Quigley",
+"party": "Democratic",
+"bioguide": "Q000023"
+},
+"race": "il-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Sean Casten",
+"party": "Democratic",
+"bioguide": "C001117"
+},
+"race": "il-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Danny K. Davis",
+"party": "Democratic",
+"bioguide": "D000096"
+},
+"race": "il-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Raja Krishnamoorthi",
+"party": "Democratic",
+"bioguide": "K000391"
+},
+"race": "il-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "Janice D. Schakowsky",
+"party": "Democratic",
+"bioguide": "S001145"
+},
+"race": "il-house-district-9"
+},
+{
+"district": "10",
+"current": {
+"name": "Bradley Scott Schneider",
+"party": "Democratic",
+"bioguide": "S001190"
+},
+"race": "il-house-district-10"
+},
+{
+"district": "11",
+"current": {
+"name": "Bill Foster",
+"party": "Democratic",
+"bioguide": "F000454"
+},
+"race": "il-house-district-11"
+},
+{
+"district": "12",
+"current": {
+"name": "Mike Bost",
+"party": "Republican",
+"bioguide": "B001295"
+},
+"race": "il-house-district-12"
+},
+{
+"district": "13",
+"current": {
+"name": "Nikki Budzinski",
+"party": "Democratic",
+"bioguide": "B001315"
+},
+"race": "il-house-district-13"
+},
+{
+"district": "14",
+"current": {
+"name": "Lauren Underwood",
+"party": "Democratic",
+"bioguide": "U000040"
+},
+"race": "il-house-district-14"
+},
+{
+"district": "15",
+"current": {
+"name": "Mary E. Miller",
+"party": "Republican",
+"bioguide": "M001211"
+},
+"race": "il-house-district-15"
+},
+{
+"district": "16",
+"current": {
+"name": "Darin LaHood",
+"party": "Republican",
+"bioguide": "L000585"
+},
+"race": "il-house-district-16"
+},
+{
+"district": "17",
+"current": {
+"name": "Eric Sorensen",
+"party": "Democratic",
+"bioguide": "S001225"
+},
+"race": "il-house-district-17"
+}
+]
+},
+"IN": {
+"name": "Indiana",
+"senate": [
+{
+"current": {
+"name": "Jim Banks",
+"party": "Republican",
+"class": "I",
+"website": "https://www.banks.senate.gov/",
+"bioguide": "B001299"
+},
+"race": null
+},
+{
+"current": {
+"name": "Todd Young",
+"party": "Republican",
+"class": "III",
+"website": "https://www.young.senate.gov",
+"bioguide": "Y000064"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Frank J. Mrvan",
+"party": "Democratic",
+"bioguide": "M001214"
+},
+"race": "in-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Rudy Yakym III",
+"party": "Republican",
+"bioguide": "Y000067"
+},
+"race": "in-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Marlin A. Stutzman",
+"party": "Republican",
+"bioguide": "S001188"
+},
+"race": "in-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "James R. Baird",
+"party": "Republican",
+"bioguide": "B001307"
+},
+"race": "in-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Victoria Spartz",
+"party": "Republican",
+"bioguide": "S000929"
+},
+"race": "in-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Jefferson Shreve",
+"party": "Republican",
+"bioguide": "S001229"
+},
+"race": "in-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Andr\u00e9 Carson",
+"party": "Democratic",
+"bioguide": "C001072"
+},
+"race": "in-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Mark B. Messmer",
+"party": "Republican",
+"bioguide": "M001233"
+},
+"race": "in-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "Erin Houchin",
+"party": "Republican",
+"bioguide": "H001093"
+},
+"race": "in-house-district-9"
+}
+]
+},
+"IA": {
+"name": "Iowa",
+"senate": [
+{
+"current": {
+"name": "Joni Ernst",
+"party": "Republican",
+"class": "II",
+"website": "https://www.ernst.senate.gov",
+"bioguide": "E000295"
+},
+"race": "ia-senate"
+},
+{
+"current": {
+"name": "Chuck Grassley",
+"party": "Republican",
+"class": "III",
+"website": "https://www.grassley.senate.gov",
+"bioguide": "G000386"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Mariannette Miller-Meeks",
+"party": "Republican",
+"bioguide": "M001215"
+},
+"race": "ia-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Ashley Hinson",
+"party": "Republican",
+"bioguide": "H001091"
+},
+"race": "ia-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Zachary Nunn",
+"party": "Republican",
+"bioguide": "N000193"
+},
+"race": "ia-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Randy Feenstra",
+"party": "Republican",
+"bioguide": "F000446"
+},
+"race": "ia-house-district-4"
+}
+]
+},
+"KS": {
+"name": "Kansas",
+"senate": [
+{
+"current": {
+"name": "Roger Marshall",
+"party": "Republican",
+"class": "II",
+"website": "https://www.marshall.senate.gov",
+"bioguide": "M001198"
+},
+"race": "ks-senate"
+},
+{
+"current": {
+"name": "Jerry Moran",
+"party": "Republican",
+"class": "III",
+"website": "https://www.moran.senate.gov",
+"bioguide": "M000934"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Tracey Mann",
+"party": "Republican",
+"bioguide": "M000871"
+},
+"race": "ks-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Derek Schmidt",
+"party": "Republican",
+"bioguide": "S001228"
+},
+"race": "ks-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Sharice Davids",
+"party": "Democratic",
+"bioguide": "D000629"
+},
+"race": "ks-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Ron Estes",
+"party": "Republican",
+"bioguide": "E000298"
+},
+"race": "ks-house-district-4"
+}
+]
+},
+"KY": {
+"name": "Kentucky",
+"senate": [
+{
+"current": {
+"name": "Mitch McConnell",
+"party": "Republican",
+"class": "II",
+"website": "https://www.mcconnell.senate.gov/",
+"bioguide": "M000355"
+},
+"race": "ky-senate"
+},
+{
+"current": {
+"name": "Rand Paul",
+"party": "Republican",
+"class": "III",
+"website": "https://www.paul.senate.gov",
+"bioguide": "P000603"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "James Comer",
+"party": "Republican",
+"bioguide": "C001108"
+},
+"race": "ky-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Brett Guthrie",
+"party": "Republican",
+"bioguide": "G000558"
+},
+"race": "ky-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Morgan McGarvey",
+"party": "Democratic",
+"bioguide": "M001220"
+},
+"race": "ky-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Thomas Massie",
+"party": "Republican",
+"bioguide": "M001184"
+},
+"race": "ky-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Harold Rogers",
+"party": "Republican",
+"bioguide": "R000395"
+},
+"race": "ky-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Andy Barr",
+"party": "Republican",
+"bioguide": "B001282"
+},
+"race": "ky-house-district-6"
+}
+]
+},
+"LA": {
+"name": "Louisiana",
+"senate": [
+{
+"current": {
+"name": "Bill Cassidy",
+"party": "Republican",
+"class": "II",
+"website": "https://www.cassidy.senate.gov",
+"bioguide": "C001075"
+},
+"race": "la-senate"
+},
+{
+"current": {
+"name": "John Kennedy",
+"party": "Republican",
+"class": "III",
+"website": "https://www.kennedy.senate.gov",
+"bioguide": "K000393"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Steve Scalise",
+"party": "Republican",
+"bioguide": "S001176"
+},
+"race": "la-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Troy A. Carter",
+"party": "Democratic",
+"bioguide": "C001125"
+},
+"race": "la-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Clay Higgins",
+"party": "Republican",
+"bioguide": "H001077"
+},
+"race": "la-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Mike Johnson",
+"party": "Republican",
+"bioguide": "J000299"
+},
+"race": "la-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Julia Letlow",
+"party": "Republican",
+"bioguide": "L000595"
+},
+"race": "la-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Cleo Fields",
+"party": "Democratic",
+"bioguide": "F000110"
+},
+"race": "la-house-district-6"
+}
+]
+},
+"ME": {
+"name": "Maine",
+"senate": [
+{
+"current": {
+"name": "Angus S., Jr. King",
+"party": "Independent",
+"class": "I",
+"website": "https://www.king.senate.gov/",
+"bioguide": "K000383"
+},
+"race": null
+},
+{
+"current": {
+"name": "Susan M. Collins",
+"party": "Republican",
+"class": "II",
+"website": "https://www.collins.senate.gov",
+"bioguide": "C001035"
+},
+"race": "me-senate"
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Chellie Pingree",
+"party": "Democratic",
+"bioguide": "P000597"
+},
+"race": "me-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Jared F. Golden",
+"party": "Democratic",
+"bioguide": "G000592"
+},
+"race": "me-house-district-2"
+}
+]
+},
+"MD": {
+"name": "Maryland",
+"senate": [
+{
+"current": {
+"name": "Angela D. Alsobrooks",
+"party": "Democratic",
+"class": "I",
+"website": "https://alsobrooks.senate.gov/",
+"bioguide": "A000382"
+},
+"race": null
+},
+{
+"current": {
+"name": "Chris Van Hollen",
+"party": "Democratic",
+"class": "III",
+"website": "https://www.vanhollen.senate.gov",
+"bioguide": "V000128"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Andy Harris",
+"party": "Republican",
+"bioguide": "H001052"
+},
+"race": "md-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Johnny Olszewski, Jr.",
+"party": "Democratic",
+"bioguide": "O000176"
+},
+"race": "md-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Sarah Elfreth",
+"party": "Democratic",
+"bioguide": "E000301"
+},
+"race": "md-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Glenn Ivey",
+"party": "Democratic",
+"bioguide": "I000058"
+},
+"race": "md-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Steny H. Hoyer",
+"party": "Democratic",
+"bioguide": "H000874"
+},
+"race": "md-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "April McClain Delaney",
+"party": "Democratic",
+"bioguide": "M001232"
+},
+"race": "md-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Kweisi Mfume",
+"party": "Democratic",
+"bioguide": "M000687"
+},
+"race": "md-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Jamie Raskin",
+"party": "Democratic",
+"bioguide": "R000606"
+},
+"race": "md-house-district-8"
+}
+]
+},
+"MA": {
+"name": "Massachusetts",
+"senate": [
+{
+"current": {
+"name": "Elizabeth Warren",
+"party": "Democratic",
+"class": "I",
+"website": "https://www.warren.senate.gov",
+"bioguide": "W000817"
+},
+"race": null
+},
+{
+"current": {
+"name": "Edward J. Markey",
+"party": "Democratic",
+"class": "II",
+"website": "https://www.markey.senate.gov",
+"bioguide": "M000133"
+},
+"race": "ma-senate"
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Richard E. Neal",
+"party": "Democratic",
+"bioguide": "N000015"
+},
+"race": "ma-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "James P. McGovern",
+"party": "Democratic",
+"bioguide": "M000312"
+},
+"race": "ma-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Lori Trahan",
+"party": "Democratic",
+"bioguide": "T000482"
+},
+"race": "ma-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Jake Auchincloss",
+"party": "Democratic",
+"bioguide": "A000148"
+},
+"race": "ma-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Katherine M. Clark",
+"party": "Democratic",
+"bioguide": "C001101"
+},
+"race": "ma-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Seth Moulton",
+"party": "Democratic",
+"bioguide": "M001196"
+},
+"race": "ma-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Ayanna Pressley",
+"party": "Democratic",
+"bioguide": "P000617"
+},
+"race": "ma-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Stephen F. Lynch",
+"party": "Democratic",
+"bioguide": "L000562"
+},
+"race": "ma-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "William R. Keating",
+"party": "Democratic",
+"bioguide": "K000375"
+},
+"race": "ma-house-district-9"
+}
+]
+},
+"MI": {
+"name": "Michigan",
+"senate": [
+{
+"current": {
+"name": "Elissa Slotkin",
+"party": "Democratic",
+"class": "I",
+"website": "https://www.slotkin.senate.gov/",
+"bioguide": "S001208"
+},
+"race": null
+},
+{
+"current": {
+"name": "Gary C. Peters",
+"party": "Democratic",
+"class": "II",
+"website": "https://www.peters.senate.gov",
+"bioguide": "P000595"
+},
+"race": "mi-senate"
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Jack Bergman",
+"party": "Republican",
+"bioguide": "B001301"
+},
+"race": "mi-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "John R. Moolenaar",
+"party": "Republican",
+"bioguide": "M001194"
+},
+"race": "mi-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Hillary J. Scholten",
+"party": "Democratic",
+"bioguide": "S001221"
+},
+"race": "mi-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Bill Huizenga",
+"party": "Republican",
+"bioguide": "H001058"
+},
+"race": "mi-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Tim Walberg",
+"party": "Republican",
+"bioguide": "W000798"
+},
+"race": "mi-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Debbie Dingell",
+"party": "Democratic",
+"bioguide": "D000624"
+},
+"race": "mi-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Tom Barrett",
+"party": "Republican",
+"bioguide": "B001321"
+},
+"race": "mi-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Kristen McDonald Rivet",
+"party": "Democratic",
+"bioguide": "M001237"
+},
+"race": "mi-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "Lisa C. McClain",
+"party": "Republican",
+"bioguide": "M001136"
+},
+"race": "mi-house-district-9"
+},
+{
+"district": "10",
+"current": {
+"name": "John James",
+"party": "Republican",
+"bioguide": "J000307"
+},
+"race": "mi-house-district-10"
+},
+{
+"district": "11",
+"current": {
+"name": "Haley M. Stevens",
+"party": "Democratic",
+"bioguide": "S001215"
+},
+"race": "mi-house-district-11"
+},
+{
+"district": "12",
+"current": {
+"name": "Rashida Tlaib",
+"party": "Democratic",
+"bioguide": "T000481"
+},
+"race": "mi-house-district-12"
+},
+{
+"district": "13",
+"current": {
+"name": "Shri Thanedar",
+"party": "Democratic",
+"bioguide": "T000488"
+},
+"race": "mi-house-district-13"
+}
+]
+},
+"MN": {
+"name": "Minnesota",
+"senate": [
+{
+"current": {
+"name": "Amy Klobuchar",
+"party": "Democratic",
+"class": "I",
+"website": "https://www.klobuchar.senate.gov/",
+"bioguide": "K000367"
+},
+"race": null
+},
+{
+"current": {
+"name": "Tina Smith",
+"party": "Democratic",
+"class": "II",
+"website": "https://www.smith.senate.gov",
+"bioguide": "S001203"
+},
+"race": "mn-senate"
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Brad Finstad",
+"party": "Republican",
+"bioguide": "F000475"
+},
+"race": "mn-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Angie Craig",
+"party": "Democratic",
+"bioguide": "C001119"
+},
+"race": "mn-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Kelly Morrison",
+"party": "Democratic",
+"bioguide": "M001234"
+},
+"race": "mn-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Betty McCollum",
+"party": "Democratic",
+"bioguide": "M001143"
+},
+"race": "mn-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Ilhan Omar",
+"party": "Democratic",
+"bioguide": "O000173"
+},
+"race": "mn-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Tom Emmer",
+"party": "Republican",
+"bioguide": "E000294"
+},
+"race": "mn-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Michelle Fischbach",
+"party": "Republican",
+"bioguide": "F000470"
+},
+"race": "mn-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Pete Stauber",
+"party": "Republican",
+"bioguide": "S001212"
+},
+"race": "mn-house-district-8"
+}
+]
+},
+"MS": {
+"name": "Mississippi",
+"senate": [
+{
+"current": {
+"name": "Roger F. Wicker",
+"party": "Republican",
+"class": "I",
+"website": "https://www.wicker.senate.gov",
+"bioguide": "W000437"
+},
+"race": null
+},
+{
+"current": {
+"name": "Cindy Hyde-Smith",
+"party": "Republican",
+"class": "II",
+"website": "https://www.hydesmith.senate.gov/",
+"bioguide": "H001079"
+},
+"race": "ms-senate"
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Trent Kelly",
+"party": "Republican",
+"bioguide": "K000388"
+},
+"race": "ms-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Bennie G. Thompson",
+"party": "Democratic",
+"bioguide": "T000193"
+},
+"race": "ms-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Michael Guest",
+"party": "Republican",
+"bioguide": "G000591"
+},
+"race": "ms-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Mike Ezell",
+"party": "Republican",
+"bioguide": "E000235"
+},
+"race": "ms-house-district-4"
+}
+]
+},
+"MO": {
+"name": "Missouri",
+"senate": [
+{
+"current": {
+"name": "Josh Hawley",
+"party": "Republican",
+"class": "I",
+"website": "https://www.hawley.senate.gov",
+"bioguide": "H001089"
+},
+"race": null
+},
+{
+"current": {
+"name": "Eric Schmitt",
+"party": "Republican",
+"class": "III",
+"website": "https://www.schmitt.senate.gov/",
+"bioguide": "S001227"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Wesley Bell",
+"party": "Democratic",
+"bioguide": "B001324"
+},
+"race": "mo-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Ann Wagner",
+"party": "Republican",
+"bioguide": "W000812"
+},
+"race": "mo-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Robert F. Onder, Jr.",
+"party": "Republican",
+"bioguide": "O000177"
+},
+"race": "mo-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Mark Alford",
+"party": "Republican",
+"bioguide": "A000379"
+},
+"race": "mo-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Emanuel Cleaver",
+"party": "Democratic",
+"bioguide": "C001061"
+},
+"race": "mo-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Sam Graves",
+"party": "Republican",
+"bioguide": "G000546"
+},
+"race": "mo-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Eric Burlison",
+"party": "Republican",
+"bioguide": "B001316"
+},
+"race": "mo-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Jason Smith",
+"party": "Republican",
+"bioguide": "S001195"
+},
+"race": "mo-house-district-8"
+}
+]
+},
+"MT": {
+"name": "Montana",
+"senate": [
+{
+"current": {
+"name": "Tim Sheehy",
+"party": "Republican",
+"class": "I",
+"website": "https://www.sheehy.senate.gov/",
+"bioguide": "S001232"
+},
+"race": null
+},
+{
+"current": {
+"name": "Steve Daines",
+"party": "Republican",
+"class": "II",
+"website": "https://www.daines.senate.gov",
+"bioguide": "D000618"
+},
+"race": "mt-senate"
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Ryan K. Zinke",
+"party": "Republican",
+"bioguide": "Z000018"
+},
+"race": "mt-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Troy Downing",
+"party": "Republican",
+"bioguide": "D000634"
+},
+"race": "mt-house-district-2"
+}
+]
+},
+"NE": {
+"name": "Nebraska",
+"senate": [
+{
+"current": {
+"name": "Deb Fischer",
+"party": "Republican",
+"class": "I",
+"website": "https://www.fischer.senate.gov",
+"bioguide": "F000463"
+},
+"race": null
+},
+{
+"current": {
+"name": "Pete Ricketts",
+"party": "Republican",
+"class": "II",
+"website": "https://www.ricketts.senate.gov",
+"bioguide": "R000618"
+},
+"race": "ne-senate"
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Mike Flood",
+"party": "Republican",
+"bioguide": "F000474"
+},
+"race": "ne-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Don Bacon",
+"party": "Republican",
+"bioguide": "B001298"
+},
+"race": "ne-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Adrian Smith",
+"party": "Republican",
+"bioguide": "S001172"
+},
+"race": "ne-house-district-3"
+}
+]
+},
+"NV": {
+"name": "Nevada",
+"senate": [
+{
+"current": {
+"name": "Jacky Rosen",
+"party": "Democratic",
+"class": "I",
+"website": "https://www.rosen.senate.gov",
+"bioguide": "R000608"
+},
+"race": null
+},
+{
+"current": {
+"name": "Catherine Cortez Masto",
+"party": "Democratic",
+"class": "III",
+"website": "https://www.cortezmasto.senate.gov",
+"bioguide": "C001113"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Dina Titus",
+"party": "Democratic",
+"bioguide": "T000468"
+},
+"race": "nv-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Mark E. Amodei",
+"party": "Republican",
+"bioguide": "A000369"
+},
+"race": "nv-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Susie Lee",
+"party": "Democratic",
+"bioguide": "L000590"
+},
+"race": "nv-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Steven Horsford",
+"party": "Democratic",
+"bioguide": "H001066"
+},
+"race": "nv-house-district-4"
+}
+]
+},
+"NH": {
+"name": "New Hampshire",
+"senate": [
+{
+"current": {
+"name": "Jeanne Shaheen",
+"party": "Democratic",
+"class": "II",
+"website": "https://www.shaheen.senate.gov",
+"bioguide": "S001181"
+},
+"race": "nh-senate"
+},
+{
+"current": {
+"name": "Margaret Wood Hassan",
+"party": "Democratic",
+"class": "III",
+"website": "https://www.hassan.senate.gov",
+"bioguide": "H001076"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Chris Pappas",
+"party": "Democratic",
+"bioguide": "P000614"
+},
+"race": "nh-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Maggie Goodlander",
+"party": "Democratic",
+"bioguide": "G000604"
+},
+"race": "nh-house-district-2"
+}
+]
+},
+"NJ": {
+"name": "New Jersey",
+"senate": [
+{
+"current": {
+"name": "Andy Kim",
+"party": "Democratic",
+"class": "I",
+"website": "https://www.kim.senate.gov/",
+"bioguide": "K000394"
+},
+"race": null
+},
+{
+"current": {
+"name": "Cory A. Booker",
+"party": "Democratic",
+"class": "II",
+"website": "https://www.booker.senate.gov",
+"bioguide": "B001288"
+},
+"race": "nj-senate"
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Donald Norcross",
+"party": "Democratic",
+"bioguide": "N000188"
+},
+"race": "nj-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Jefferson Van Drew",
+"party": "Republican",
+"bioguide": "V000133"
+},
+"race": "nj-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Herbert C. Conaway, Jr.",
+"party": "Democratic",
+"bioguide": "C001136"
+},
+"race": "nj-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Christopher H. Smith",
+"party": "Republican",
+"bioguide": "S000522"
+},
+"race": "nj-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Josh Gottheimer",
+"party": "Democratic",
+"bioguide": "G000583"
+},
+"race": "nj-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Frank Pallone, Jr.",
+"party": "Democratic",
+"bioguide": "P000034"
+},
+"race": "nj-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Thomas H. Kean, Jr.",
+"party": "Republican",
+"bioguide": "K000398"
+},
+"race": "nj-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Robert Menendez",
+"party": "Democratic",
+"bioguide": "M001226"
+},
+"race": "nj-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "Nellie Pou",
+"party": "Democratic",
+"bioguide": "P000621"
+},
+"race": "nj-house-district-9"
+},
+{
+"district": "10",
+"current": {
+"name": "LaMonica McIver",
+"party": "Democratic",
+"bioguide": "M001229"
+},
+"race": "nj-house-district-10"
+},
+{
+"district": "11",
+"current": {
+"name": "Analilia Mejia",
+"party": "Democratic",
+"bioguide": "M001246"
+},
+"race": "nj-house-district-11"
+},
+{
+"district": "12",
+"current": {
+"name": "Bonnie Watson Coleman",
+"party": "Democratic",
+"bioguide": "W000822"
+},
+"race": "nj-house-district-12"
+}
+]
+},
+"NM": {
+"name": "New Mexico",
+"senate": [
+{
+"current": {
+"name": "Martin Heinrich",
+"party": "Democratic",
+"class": "I",
+"website": "https://www.heinrich.senate.gov/",
+"bioguide": "H001046"
+},
+"race": null
+},
+{
+"current": {
+"name": "Ben Ray Luj\u00e1n",
+"party": "Democratic",
+"class": "II",
+"website": "https://www.lujan.senate.gov",
+"bioguide": "L000570"
+},
+"race": "nm-senate"
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Melanie A. Stansbury",
+"party": "Democratic",
+"bioguide": "S001218"
+},
+"race": "nm-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Gabe Vasquez",
+"party": "Democratic",
+"bioguide": "V000136"
+},
+"race": "nm-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Teresa Leger Fernandez",
+"party": "Democratic",
+"bioguide": "L000273"
+},
+"race": "nm-house-district-3"
+}
+]
+},
+"NY": {
+"name": "New York",
+"senate": [
+{
+"current": {
+"name": "Kirsten E. Gillibrand",
+"party": "Democratic",
+"class": "I",
+"website": "https://www.gillibrand.senate.gov",
+"bioguide": "G000555"
+},
+"race": null
+},
+{
+"current": {
+"name": "Charles E. Schumer",
+"party": "Democratic",
+"class": "III",
+"website": "https://www.schumer.senate.gov/",
+"bioguide": "S000148"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Nick LaLota",
+"party": "Republican",
+"bioguide": "L000598"
+},
+"race": "ny-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Andrew R. Garbarino",
+"party": "Republican",
+"bioguide": "G000597"
+},
+"race": "ny-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Thomas R. Suozzi",
+"party": "Democratic",
+"bioguide": "S001201"
+},
+"race": "ny-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Laura Gillen",
+"party": "Democratic",
+"bioguide": "G000602"
+},
+"race": "ny-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Gregory W. Meeks",
+"party": "Democratic",
+"bioguide": "M001137"
+},
+"race": "ny-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Grace Meng",
+"party": "Democratic",
+"bioguide": "M001188"
+},
+"race": "ny-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Nydia M. Vel\u00e1zquez",
+"party": "Democratic",
+"bioguide": "V000081"
+},
+"race": "ny-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Hakeem S. Jeffries",
+"party": "Democratic",
+"bioguide": "J000294"
+},
+"race": "ny-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "Yvette D. Clarke",
+"party": "Democratic",
+"bioguide": "C001067"
+},
+"race": "ny-house-district-9"
+},
+{
+"district": "10",
+"current": {
+"name": "Daniel S. Goldman",
+"party": "Democratic",
+"bioguide": "G000599"
+},
+"race": "ny-house-district-10"
+},
+{
+"district": "11",
+"current": {
+"name": "Nicole Malliotakis",
+"party": "Republican",
+"bioguide": "M000317"
+},
+"race": "ny-house-district-11"
+},
+{
+"district": "12",
+"current": {
+"name": "Jerrold Nadler",
+"party": "Democratic",
+"bioguide": "N000002"
+},
+"race": "ny-house-district-12"
+},
+{
+"district": "13",
+"current": {
+"name": "Adriano Espaillat",
+"party": "Democratic",
+"bioguide": "E000297"
+},
+"race": "ny-house-district-13"
+},
+{
+"district": "14",
+"current": {
+"name": "Alexandria Ocasio-Cortez",
+"party": "Democratic",
+"bioguide": "O000172"
+},
+"race": "ny-house-district-14"
+},
+{
+"district": "15",
+"current": {
+"name": "Ritchie Torres",
+"party": "Democratic",
+"bioguide": "T000486"
+},
+"race": "ny-house-district-15"
+},
+{
+"district": "16",
+"current": {
+"name": "George Latimer",
+"party": "Democratic",
+"bioguide": "L000606"
+},
+"race": "ny-house-district-16"
+},
+{
+"district": "17",
+"current": {
+"name": "Michael Lawler",
+"party": "Republican",
+"bioguide": "L000599"
+},
+"race": "ny-house-district-17"
+},
+{
+"district": "18",
+"current": {
+"name": "Patrick Ryan",
+"party": "Democratic",
+"bioguide": "R000579"
+},
+"race": "ny-house-district-18"
+},
+{
+"district": "19",
+"current": {
+"name": "Josh Riley",
+"party": "Democratic",
+"bioguide": "R000622"
+},
+"race": "ny-house-district-19"
+},
+{
+"district": "20",
+"current": {
+"name": "Paul Tonko",
+"party": "Democratic",
+"bioguide": "T000469"
+},
+"race": "ny-house-district-20"
+},
+{
+"district": "21",
+"current": {
+"name": "Elise M. Stefanik",
+"party": "Republican",
+"bioguide": "S001196"
+},
+"race": "ny-house-district-21"
+},
+{
+"district": "22",
+"current": {
+"name": "John W. Mannion",
+"party": "Democratic",
+"bioguide": "M001231"
+},
+"race": "ny-house-district-22"
+},
+{
+"district": "23",
+"current": {
+"name": "Nicholas A. Langworthy",
+"party": "Republican",
+"bioguide": "L000600"
+},
+"race": "ny-house-district-23"
+},
+{
+"district": "24",
+"current": {
+"name": "Claudia Tenney",
+"party": "Republican",
+"bioguide": "T000478"
+},
+"race": "ny-house-district-24"
+},
+{
+"district": "25",
+"current": {
+"name": "Joseph D. Morelle",
+"party": "Democratic",
+"bioguide": "M001206"
+},
+"race": "ny-house-district-25"
+},
+{
+"district": "26",
+"current": {
+"name": "Timothy M. Kennedy",
+"party": "Democratic",
+"bioguide": "K000402"
+},
+"race": "ny-house-district-26"
+}
+]
+},
+"NC": {
+"name": "North Carolina",
+"senate": [
+{
+"current": {
+"name": "Thom Tillis",
+"party": "Republican",
+"class": "II",
+"website": "https://www.tillis.senate.gov",
+"bioguide": "T000476"
+},
+"race": "nc-senate"
+},
+{
+"current": {
+"name": "Ted Budd",
+"party": "Republican",
+"class": "III",
+"website": "https://www.budd.senate.gov/",
+"bioguide": "B001305"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Donald G. Davis",
+"party": "Democratic",
+"bioguide": "D000230"
+},
+"race": "nc-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Deborah K. Ross",
+"party": "Democratic",
+"bioguide": "R000305"
+},
+"race": "nc-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Gregory F. Murphy",
+"party": "Republican",
+"bioguide": "M001210"
+},
+"race": "nc-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Valerie P. Foushee",
+"party": "Democratic",
+"bioguide": "F000477"
+},
+"race": "nc-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Virginia Foxx",
+"party": "Republican",
+"bioguide": "F000450"
+},
+"race": "nc-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Addison P. McDowell",
+"party": "Republican",
+"bioguide": "M001240"
+},
+"race": "nc-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "David Rouzer",
+"party": "Republican",
+"bioguide": "R000603"
+},
+"race": "nc-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Mark Harris",
+"party": "Republican",
+"bioguide": "H001102"
+},
+"race": "nc-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "Richard Hudson",
+"party": "Republican",
+"bioguide": "H001067"
+},
+"race": "nc-house-district-9"
+},
+{
+"district": "10",
+"current": {
+"name": "Pat Harrigan",
+"party": "Republican",
+"bioguide": "H001101"
+},
+"race": "nc-house-district-10"
+},
+{
+"district": "11",
+"current": {
+"name": "Chuck Edwards",
+"party": "Republican",
+"bioguide": "E000246"
+},
+"race": "nc-house-district-11"
+},
+{
+"district": "12",
+"current": {
+"name": "Alma S. Adams",
+"party": "Democratic",
+"bioguide": "A000370"
+},
+"race": "nc-house-district-12"
+},
+{
+"district": "13",
+"current": {
+"name": "Brad Knott",
+"party": "Republican",
+"bioguide": "K000405"
+},
+"race": "nc-house-district-13"
+},
+{
+"district": "14",
+"current": {
+"name": "Tim Moore",
+"party": "Republican",
+"bioguide": "M001236"
+},
+"race": "nc-house-district-14"
+}
+]
+},
+"ND": {
+"name": "North Dakota",
+"senate": [
+{
+"current": {
+"name": "Kevin Cramer",
+"party": "Republican",
+"class": "I",
+"website": "https://www.cramer.senate.gov",
+"bioguide": "C001096"
+},
+"race": null
+},
+{
+"current": {
+"name": "John Hoeven",
+"party": "Republican",
+"class": "III",
+"website": "https://www.hoeven.senate.gov",
+"bioguide": "H001061"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "at-large",
+"current": {
+"name": "Julie Fedorchak",
+"party": "Republican",
+"bioguide": "F000482"
+},
+"race": "nd-house-at-large"
+}
+]
+},
+"OH": {
+"name": "Ohio",
+"senate": [
+{
+"current": {
+"name": "Bernie Moreno",
+"party": "Republican",
+"class": "I",
+"website": "https://www.moreno.senate.gov",
+"bioguide": "M001242"
+},
+"race": null
+},
+{
+"current": {
+"name": "Jon Husted",
+"party": "Republican",
+"class": "III",
+"website": "https://www.husted.senate.gov/",
+"bioguide": "H001104"
+},
+"race": "oh-senate-special"
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Greg Landsman",
+"party": "Democratic",
+"bioguide": "L000601"
+},
+"race": "oh-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "David J. Taylor",
+"party": "Republican",
+"bioguide": "T000490"
+},
+"race": "oh-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Joyce Beatty",
+"party": "Democratic",
+"bioguide": "B001281"
+},
+"race": "oh-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Jim Jordan",
+"party": "Republican",
+"bioguide": "J000289"
+},
+"race": "oh-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Robert E. Latta",
+"party": "Republican",
+"bioguide": "L000566"
+},
+"race": "oh-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Michael A. Rulli",
+"party": "Republican",
+"bioguide": "R000619"
+},
+"race": "oh-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Max L. Miller",
+"party": "Republican",
+"bioguide": "M001222"
+},
+"race": "oh-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Warren Davidson",
+"party": "Republican",
+"bioguide": "D000626"
+},
+"race": "oh-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "Marcy Kaptur",
+"party": "Democratic",
+"bioguide": "K000009"
+},
+"race": "oh-house-district-9"
+},
+{
+"district": "10",
+"current": {
+"name": "Michael R. Turner",
+"party": "Republican",
+"bioguide": "T000463"
+},
+"race": "oh-house-district-10"
+},
+{
+"district": "11",
+"current": {
+"name": "Shontel M. Brown",
+"party": "Democratic",
+"bioguide": "B001313"
+},
+"race": "oh-house-district-11"
+},
+{
+"district": "12",
+"current": {
+"name": "Troy Balderson",
+"party": "Republican",
+"bioguide": "B001306"
+},
+"race": "oh-house-district-12"
+},
+{
+"district": "13",
+"current": {
+"name": "Emilia Strong Sykes",
+"party": "Democratic",
+"bioguide": "S001223"
+},
+"race": "oh-house-district-13"
+},
+{
+"district": "14",
+"current": {
+"name": "David P. Joyce",
+"party": "Republican",
+"bioguide": "J000295"
+},
+"race": "oh-house-district-14"
+},
+{
+"district": "15",
+"current": {
+"name": "Mike Carey",
+"party": "Republican",
+"bioguide": "C001126"
+},
+"race": "oh-house-district-15"
+}
+]
+},
+"OK": {
+"name": "Oklahoma",
+"senate": [
+{
+"current": {
+"name": "Alan Armstrong",
+"party": "Republican",
+"class": "II",
+"website": "https://www.armstrong.senate.gov/",
+"bioguide": "A000383"
+},
+"race": "ok-senate"
+},
+{
+"current": {
+"name": "James Lankford",
+"party": "Republican",
+"class": "III",
+"website": "https://www.lankford.senate.gov",
+"bioguide": "L000575"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Kevin Hern",
+"party": "Republican",
+"bioguide": "H001082"
+},
+"race": "ok-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Josh Brecheen",
+"party": "Republican",
+"bioguide": "B001317"
+},
+"race": "ok-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Frank D. Lucas",
+"party": "Republican",
+"bioguide": "L000491"
+},
+"race": "ok-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Tom Cole",
+"party": "Republican",
+"bioguide": "C001053"
+},
+"race": "ok-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Stephanie I. Bice",
+"party": "Republican",
+"bioguide": "B000740"
+},
+"race": "ok-house-district-5"
+}
+]
+},
+"OR": {
+"name": "Oregon",
+"senate": [
+{
+"current": {
+"name": "Jeff Merkley",
+"party": "Democratic",
+"class": "II",
+"website": "https://www.merkley.senate.gov",
+"bioguide": "M001176"
+},
+"race": "or-senate"
+},
+{
+"current": {
+"name": "Ron Wyden",
+"party": "Democratic",
+"class": "III",
+"website": "https://www.wyden.senate.gov/",
+"bioguide": "W000779"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Suzanne Bonamici",
+"party": "Democratic",
+"bioguide": "B001278"
+},
+"race": "or-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Cliff Bentz",
+"party": "Republican",
+"bioguide": "B000668"
+},
+"race": "or-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Maxine Dexter",
+"party": "Democratic",
+"bioguide": "D000635"
+},
+"race": "or-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Val T. Hoyle",
+"party": "Democratic",
+"bioguide": "H001094"
+},
+"race": "or-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Janelle S. Bynum",
+"party": "Democratic",
+"bioguide": "B001326"
+},
+"race": "or-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Andrea Salinas",
+"party": "Democratic",
+"bioguide": "S001226"
+},
+"race": "or-house-district-6"
+}
+]
+},
+"PA": {
+"name": "Pennsylvania",
+"senate": [
+{
+"current": {
+"name": "David McCormick",
+"party": "Republican",
+"class": "I",
+"website": "https://mccormick.senate.gov/",
+"bioguide": "M001243"
+},
+"race": null
+},
+{
+"current": {
+"name": "John Fetterman",
+"party": "Democratic",
+"class": "III",
+"website": "https://www.fetterman.senate.gov/",
+"bioguide": "F000479"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Brian K. Fitzpatrick",
+"party": "Republican",
+"bioguide": "F000466"
+},
+"race": "pa-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Brendan F. Boyle",
+"party": "Democratic",
+"bioguide": "B001296"
+},
+"race": "pa-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Dwight Evans",
+"party": "Democratic",
+"bioguide": "E000296"
+},
+"race": "pa-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Madeleine Dean",
+"party": "Democratic",
+"bioguide": "D000631"
+},
+"race": "pa-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Mary Gay Scanlon",
+"party": "Democratic",
+"bioguide": "S001205"
+},
+"race": "pa-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Chrissy Houlahan",
+"party": "Democratic",
+"bioguide": "H001085"
+},
+"race": "pa-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Ryan Mackenzie",
+"party": "Republican",
+"bioguide": "M001230"
+},
+"race": "pa-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Robert P. Bresnahan, Jr.",
+"party": "Republican",
+"bioguide": "B001327"
+},
+"race": "pa-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "Daniel Meuser",
+"party": "Republican",
+"bioguide": "M001204"
+},
+"race": "pa-house-district-9"
+},
+{
+"district": "10",
+"current": {
+"name": "Scott Perry",
+"party": "Republican",
+"bioguide": "P000605"
+},
+"race": "pa-house-district-10"
+},
+{
+"district": "11",
+"current": {
+"name": "Lloyd Smucker",
+"party": "Republican",
+"bioguide": "S001199"
+},
+"race": "pa-house-district-11"
+},
+{
+"district": "12",
+"current": {
+"name": "Summer L. Lee",
+"party": "Democratic",
+"bioguide": "L000602"
+},
+"race": "pa-house-district-12"
+},
+{
+"district": "13",
+"current": {
+"name": "John Joyce",
+"party": "Republican",
+"bioguide": "J000302"
+},
+"race": "pa-house-district-13"
+},
+{
+"district": "14",
+"current": {
+"name": "Guy Reschenthaler",
+"party": "Republican",
+"bioguide": "R000610"
+},
+"race": "pa-house-district-14"
+},
+{
+"district": "15",
+"current": {
+"name": "Glenn Thompson",
+"party": "Republican",
+"bioguide": "T000467"
+},
+"race": "pa-house-district-15"
+},
+{
+"district": "16",
+"current": {
+"name": "Mike Kelly",
+"party": "Republican",
+"bioguide": "K000376"
+},
+"race": "pa-house-district-16"
+},
+{
+"district": "17",
+"current": {
+"name": "Christopher R. Deluzio",
+"party": "Democratic",
+"bioguide": "D000530"
+},
+"race": "pa-house-district-17"
+}
+]
+},
+"RI": {
+"name": "Rhode Island",
+"senate": [
+{
+"current": {
+"name": "Sheldon Whitehouse",
+"party": "Democratic",
+"class": "I",
+"website": "https://www.whitehouse.senate.gov/",
+"bioguide": "W000802"
+},
+"race": null
+},
+{
+"current": {
+"name": "Jack Reed",
+"party": "Democratic",
+"class": "II",
+"website": "https://www.reed.senate.gov/",
+"bioguide": "R000122"
+},
+"race": "ri-senate"
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Gabe Amo",
+"party": "Democratic",
+"bioguide": "A000380"
+},
+"race": "ri-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Seth Magaziner",
+"party": "Democratic",
+"bioguide": "M001223"
+},
+"race": "ri-house-district-2"
+}
+]
+},
+"SC": {
+"name": "South Carolina",
+"senate": [
+{
+"current": {
+"name": "Darline Graham",
+"party": "Republican",
+"class": "II",
+"website": "https://www.dgraham.senate.gov/",
+"bioguide": "G000608"
+},
+"race": "sc-senate"
+},
+{
+"current": {
+"name": "Tim Scott",
+"party": "Republican",
+"class": "III",
+"website": "https://www.scott.senate.gov/",
+"bioguide": "S001184"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Nancy Mace",
+"party": "Republican",
+"bioguide": "M000194"
+},
+"race": "sc-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Joe Wilson",
+"party": "Republican",
+"bioguide": "W000795"
+},
+"race": "sc-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Sheri Biggs",
+"party": "Republican",
+"bioguide": "B001325"
+},
+"race": "sc-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "William R. Timmons IV",
+"party": "Republican",
+"bioguide": "T000480"
+},
+"race": "sc-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Ralph Norman",
+"party": "Republican",
+"bioguide": "N000190"
+},
+"race": "sc-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "James E. Clyburn",
+"party": "Democratic",
+"bioguide": "C000537"
+},
+"race": "sc-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Russell Fry",
+"party": "Republican",
+"bioguide": "F000478"
+},
+"race": "sc-house-district-7"
+}
+]
+},
+"SD": {
+"name": "South Dakota",
+"senate": [
+{
+"current": {
+"name": "Mike Rounds",
+"party": "Republican",
+"class": "II",
+"website": "https://www.rounds.senate.gov",
+"bioguide": "R000605"
+},
+"race": "sd-senate"
+},
+{
+"current": {
+"name": "John Thune",
+"party": "Republican",
+"class": "III",
+"website": "https://www.thune.senate.gov/",
+"bioguide": "T000250"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "at-large",
+"current": {
+"name": "Dusty Johnson",
+"party": "Republican",
+"bioguide": "J000301"
+},
+"race": "sd-house-at-large"
+}
+]
+},
+"TN": {
+"name": "Tennessee",
+"senate": [
+{
+"current": {
+"name": "Marsha Blackburn",
+"party": "Republican",
+"class": "I",
+"website": "https://www.blackburn.senate.gov",
+"bioguide": "B001243"
+},
+"race": null
+},
+{
+"current": {
+"name": "Bill Hagerty",
+"party": "Republican",
+"class": "II",
+"website": "https://www.hagerty.senate.gov",
+"bioguide": "H000601"
+},
+"race": "tn-senate"
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Diana Harshbarger",
+"party": "Republican",
+"bioguide": "H001086"
+},
+"race": "tn-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Tim Burchett",
+"party": "Republican",
+"bioguide": "B001309"
+},
+"race": "tn-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Charles J. \"Chuck\" Fleischmann",
+"party": "Republican",
+"bioguide": "F000459"
+},
+"race": "tn-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Scott DesJarlais",
+"party": "Republican",
+"bioguide": "D000616"
+},
+"race": "tn-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Andrew Ogles",
+"party": "Republican",
+"bioguide": "O000175"
+},
+"race": "tn-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "John W. Rose",
+"party": "Republican",
+"bioguide": "R000612"
+},
+"race": "tn-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Matt Van Epps",
+"party": "Republican",
+"bioguide": "V000139"
+},
+"race": "tn-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "David Kustoff",
+"party": "Republican",
+"bioguide": "K000392"
+},
+"race": "tn-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "Steve Cohen",
+"party": "Democratic",
+"bioguide": "C001068"
+},
+"race": "tn-house-district-9"
+}
+]
+},
+"TX": {
+"name": "Texas",
+"senate": [
+{
+"current": {
+"name": "Ted Cruz",
+"party": "Republican",
+"class": "I",
+"website": "https://www.cruz.senate.gov",
+"bioguide": "C001098"
+},
+"race": null
+},
+{
+"current": {
+"name": "John Cornyn",
+"party": "Republican",
+"class": "II",
+"website": "https://www.cornyn.senate.gov/",
+"bioguide": "C001056"
+},
+"race": "tx-senate"
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Nathaniel Moran",
+"party": "Republican",
+"bioguide": "M001224"
+},
+"race": "tx-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Dan Crenshaw",
+"party": "Republican",
+"bioguide": "C001120"
+},
+"race": "tx-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Keith Self",
+"party": "Republican",
+"bioguide": "S001224"
+},
+"race": "tx-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Pat Fallon",
+"party": "Republican",
+"bioguide": "F000246"
+},
+"race": "tx-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Lance Gooden",
+"party": "Republican",
+"bioguide": "G000589"
+},
+"race": "tx-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Jake Ellzey",
+"party": "Republican",
+"bioguide": "E000071"
+},
+"race": "tx-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Lizzie Fletcher",
+"party": "Democratic",
+"bioguide": "F000468"
+},
+"race": "tx-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Morgan Luttrell",
+"party": "Republican",
+"bioguide": "L000603"
+},
+"race": "tx-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "Al Green",
+"party": "Democratic",
+"bioguide": "G000553"
+},
+"race": "tx-house-district-9"
+},
+{
+"district": "10",
+"current": {
+"name": "Michael T. McCaul",
+"party": "Republican",
+"bioguide": "M001157"
+},
+"race": "tx-house-district-10"
+},
+{
+"district": "11",
+"current": {
+"name": "August Pfluger",
+"party": "Republican",
+"bioguide": "P000048"
+},
+"race": "tx-house-district-11"
+},
+{
+"district": "12",
+"current": {
+"name": "Craig A. Goldman",
+"party": "Republican",
+"bioguide": "G000601"
+},
+"race": "tx-house-district-12"
+},
+{
+"district": "13",
+"current": {
+"name": "Ronny Jackson",
+"party": "Republican",
+"bioguide": "J000304"
+},
+"race": "tx-house-district-13"
+},
+{
+"district": "14",
+"current": {
+"name": "Randy K. Weber, Sr.",
+"party": "Republican",
+"bioguide": "W000814"
+},
+"race": "tx-house-district-14"
+},
+{
+"district": "15",
+"current": {
+"name": "Monica De La Cruz",
+"party": "Republican",
+"bioguide": "D000594"
+},
+"race": "tx-house-district-15"
+},
+{
+"district": "16",
+"current": {
+"name": "Veronica Escobar",
+"party": "Democratic",
+"bioguide": "E000299"
+},
+"race": "tx-house-district-16"
+},
+{
+"district": "17",
+"current": {
+"name": "Pete Sessions",
+"party": "Republican",
+"bioguide": "S000250"
+},
+"race": "tx-house-district-17"
+},
+{
+"district": "18",
+"current": {
+"name": "Christian D. Menefee",
+"party": "Democratic",
+"bioguide": "M001245"
+},
+"race": "tx-house-district-18"
+},
+{
+"district": "19",
+"current": {
+"name": "Jodey C. Arrington",
+"party": "Republican",
+"bioguide": "A000375"
+},
+"race": "tx-house-district-19"
+},
+{
+"district": "20",
+"current": {
+"name": "Joaquin Castro",
+"party": "Democratic",
+"bioguide": "C001091"
+},
+"race": "tx-house-district-20"
+},
+{
+"district": "21",
+"current": {
+"name": "Chip Roy",
+"party": "Republican",
+"bioguide": "R000614"
+},
+"race": "tx-house-district-21"
+},
+{
+"district": "22",
+"current": {
+"name": "Troy E. Nehls",
+"party": "Republican",
+"bioguide": "N000026"
+},
+"race": "tx-house-district-22"
+},
+{
+"district": "23",
+"current": null,
+"race": "tx-house-district-23"
+},
+{
+"district": "24",
+"current": {
+"name": "Beth Van Duyne",
+"party": "Republican",
+"bioguide": "V000134"
+},
+"race": "tx-house-district-24"
+},
+{
+"district": "25",
+"current": {
+"name": "Roger Williams",
+"party": "Republican",
+"bioguide": "W000816"
+},
+"race": "tx-house-district-25"
+},
+{
+"district": "26",
+"current": {
+"name": "Brandon Gill",
+"party": "Republican",
+"bioguide": "G000603"
+},
+"race": "tx-house-district-26"
+},
+{
+"district": "27",
+"current": {
+"name": "Michael Cloud",
+"party": "Republican",
+"bioguide": "C001115"
+},
+"race": "tx-house-district-27"
+},
+{
+"district": "28",
+"current": {
+"name": "Henry Cuellar",
+"party": "Democratic",
+"bioguide": "C001063"
+},
+"race": "tx-house-district-28"
+},
+{
+"district": "29",
+"current": {
+"name": "Sylvia R. Garcia",
+"party": "Democratic",
+"bioguide": "G000587"
+},
+"race": "tx-house-district-29"
+},
+{
+"district": "30",
+"current": {
+"name": "Jasmine Crockett",
+"party": "Democratic",
+"bioguide": "C001130"
+},
+"race": "tx-house-district-30"
+},
+{
+"district": "31",
+"current": {
+"name": "John R. Carter",
+"party": "Republican",
+"bioguide": "C001051"
+},
+"race": "tx-house-district-31"
+},
+{
+"district": "32",
+"current": {
+"name": "Julie Johnson",
+"party": "Democratic",
+"bioguide": "J000310"
+},
+"race": "tx-house-district-32"
+},
+{
+"district": "33",
+"current": {
+"name": "Marc A. Veasey",
+"party": "Democratic",
+"bioguide": "V000131"
+},
+"race": "tx-house-district-33"
+},
+{
+"district": "34",
+"current": {
+"name": "Vicente Gonzalez",
+"party": "Democratic",
+"bioguide": "G000581"
+},
+"race": "tx-house-district-34"
+},
+{
+"district": "35",
+"current": {
+"name": "Greg Casar",
+"party": "Democratic",
+"bioguide": "C001131"
+},
+"race": "tx-house-district-35"
+},
+{
+"district": "36",
+"current": {
+"name": "Brian Babin",
+"party": "Republican",
+"bioguide": "B001291"
+},
+"race": "tx-house-district-36"
+},
+{
+"district": "37",
+"current": {
+"name": "Lloyd Doggett",
+"party": "Democratic",
+"bioguide": "D000399"
+},
+"race": "tx-house-district-37"
+},
+{
+"district": "38",
+"current": {
+"name": "Wesley Hunt",
+"party": "Republican",
+"bioguide": "H001095"
+},
+"race": "tx-house-district-38"
+}
+]
+},
+"UT": {
+"name": "Utah",
+"senate": [
+{
+"current": {
+"name": "John R. Curtis",
+"party": "Republican",
+"class": "I",
+"website": "https://www.curtis.senate.gov/",
+"bioguide": "C001114"
+},
+"race": null
+},
+{
+"current": {
+"name": "Mike Lee",
+"party": "Republican",
+"class": "III",
+"website": "https://www.lee.senate.gov/",
+"bioguide": "L000577"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Blake D. Moore",
+"party": "Republican",
+"bioguide": "M001213"
+},
+"race": "ut-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Celeste Maloy",
+"party": "Republican",
+"bioguide": "M001228"
+},
+"race": "ut-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Mike Kennedy",
+"party": "Republican",
+"bioguide": "K000403"
+},
+"race": "ut-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Burgess Owens",
+"party": "Republican",
+"bioguide": "O000086"
+},
+"race": "ut-house-district-4"
+}
+]
+},
+"VT": {
+"name": "Vermont",
+"senate": [
+{
+"current": {
+"name": "Bernard Sanders",
+"party": "Independent",
+"class": "I",
+"website": "https://www.sanders.senate.gov/",
+"bioguide": "S000033"
+},
+"race": null
+},
+{
+"current": {
+"name": "Peter Welch",
+"party": "Democratic",
+"class": "III",
+"website": "https://www.welch.senate.gov/",
+"bioguide": "W000800"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "at-large",
+"current": {
+"name": "Becca Balint",
+"party": "Democratic",
+"bioguide": "B001318"
+},
+"race": "vt-house-at-large"
+}
+]
+},
+"VA": {
+"name": "Virginia",
+"senate": [
+{
+"current": {
+"name": "Tim Kaine",
+"party": "Democratic",
+"class": "I",
+"website": "https://www.kaine.senate.gov/",
+"bioguide": "K000384"
+},
+"race": null
+},
+{
+"current": {
+"name": "Mark R. Warner",
+"party": "Democratic",
+"class": "II",
+"website": "https://www.warner.senate.gov",
+"bioguide": "W000805"
+},
+"race": "va-senate"
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Robert J. Wittman",
+"party": "Republican",
+"bioguide": "W000804"
+},
+"race": "va-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Jennifer A. Kiggans",
+"party": "Republican",
+"bioguide": "K000399"
+},
+"race": "va-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Robert C. \"Bobby\" Scott",
+"party": "Democratic",
+"bioguide": "S000185"
+},
+"race": "va-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Jennifer L. McClellan",
+"party": "Democratic",
+"bioguide": "M001227"
+},
+"race": "va-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "John J. McGuire III",
+"party": "Republican",
+"bioguide": "M001239"
+},
+"race": "va-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Ben Cline",
+"party": "Republican",
+"bioguide": "C001118"
+},
+"race": "va-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Eugene Simon Vindman",
+"party": "Democratic",
+"bioguide": "V000138"
+},
+"race": "va-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Donald S. Beyer, Jr.",
+"party": "Democratic",
+"bioguide": "B001292"
+},
+"race": "va-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "H. Morgan Griffith",
+"party": "Republican",
+"bioguide": "G000568"
+},
+"race": "va-house-district-9"
+},
+{
+"district": "10",
+"current": {
+"name": "Suhas Subramanyam",
+"party": "Democratic",
+"bioguide": "S001230"
+},
+"race": "va-house-district-10"
+},
+{
+"district": "11",
+"current": {
+"name": "James R. Walkinshaw",
+"party": "Democratic",
+"bioguide": "W000831"
+},
+"race": "va-house-district-11"
+}
+]
+},
+"WA": {
+"name": "Washington",
+"senate": [
+{
+"current": {
+"name": "Maria Cantwell",
+"party": "Democratic",
+"class": "I",
+"website": "https://www.cantwell.senate.gov",
+"bioguide": "C000127"
+},
+"race": null
+},
+{
+"current": {
+"name": "Patty Murray",
+"party": "Democratic",
+"class": "III",
+"website": "https://www.murray.senate.gov/",
+"bioguide": "M001111"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Suzan K. DelBene",
+"party": "Democratic",
+"bioguide": "D000617"
+},
+"race": "wa-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Rick Larsen",
+"party": "Democratic",
+"bioguide": "L000560"
+},
+"race": "wa-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Marie Gluesenkamp Perez",
+"party": "Democratic",
+"bioguide": "G000600"
+},
+"race": "wa-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Dan Newhouse",
+"party": "Republican",
+"bioguide": "N000189"
+},
+"race": "wa-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Michael Baumgartner",
+"party": "Republican",
+"bioguide": "B001322"
+},
+"race": "wa-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Emily Randall",
+"party": "Democratic",
+"bioguide": "R000621"
+},
+"race": "wa-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Pramila Jayapal",
+"party": "Democratic",
+"bioguide": "J000298"
+},
+"race": "wa-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Kim Schrier",
+"party": "Democratic",
+"bioguide": "S001216"
+},
+"race": "wa-house-district-8"
+},
+{
+"district": "9",
+"current": {
+"name": "Adam Smith",
+"party": "Democratic",
+"bioguide": "S000510"
+},
+"race": "wa-house-district-9"
+},
+{
+"district": "10",
+"current": {
+"name": "Marilyn Strickland",
+"party": "Democratic",
+"bioguide": "S001159"
+},
+"race": "wa-house-district-10"
+}
+]
+},
+"WV": {
+"name": "West Virginia",
+"senate": [
+{
+"current": {
+"name": "James C. Justice",
+"party": "Republican",
+"class": "I",
+"website": "https://www.justice.senate.gov/",
+"bioguide": "J000312"
+},
+"race": null
+},
+{
+"current": {
+"name": "Shelley Moore Capito",
+"party": "Republican",
+"class": "II",
+"website": "https://www.capito.senate.gov",
+"bioguide": "C001047"
+},
+"race": "wv-senate"
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Carol D. Miller",
+"party": "Republican",
+"bioguide": "M001205"
+},
+"race": "wv-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Riley M. Moore",
+"party": "Republican",
+"bioguide": "M001235"
+},
+"race": "wv-house-district-2"
+}
+]
+},
+"WI": {
+"name": "Wisconsin",
+"senate": [
+{
+"current": {
+"name": "Tammy Baldwin",
+"party": "Democratic",
+"class": "I",
+"website": "https://www.baldwin.senate.gov/",
+"bioguide": "B001230"
+},
+"race": null
+},
+{
+"current": {
+"name": "Ron Johnson",
+"party": "Republican",
+"class": "III",
+"website": "https://www.ronjohnson.senate.gov/",
+"bioguide": "J000293"
+},
+"race": null
+}
+],
+"house": [
+{
+"district": "1",
+"current": {
+"name": "Bryan Steil",
+"party": "Republican",
+"bioguide": "S001213"
+},
+"race": "wi-house-district-1"
+},
+{
+"district": "2",
+"current": {
+"name": "Mark Pocan",
+"party": "Democratic",
+"bioguide": "P000607"
+},
+"race": "wi-house-district-2"
+},
+{
+"district": "3",
+"current": {
+"name": "Derrick Van Orden",
+"party": "Republican",
+"bioguide": "V000135"
+},
+"race": "wi-house-district-3"
+},
+{
+"district": "4",
+"current": {
+"name": "Gwen Moore",
+"party": "Democratic",
+"bioguide": "M001160"
+},
+"race": "wi-house-district-4"
+},
+{
+"district": "5",
+"current": {
+"name": "Scott Fitzgerald",
+"party": "Republican",
+"bioguide": "F000471"
+},
+"race": "wi-house-district-5"
+},
+{
+"district": "6",
+"current": {
+"name": "Glenn Grothman",
+"party": "Republican",
+"bioguide": "G000576"
+},
+"race": "wi-house-district-6"
+},
+{
+"district": "7",
+"current": {
+"name": "Thomas P. Tiffany",
+"party": "Republican",
+"bioguide": "T000165"
+},
+"race": "wi-house-district-7"
+},
+{
+"district": "8",
+"current": {
+"name": "Tony Wied",
+"party": "Republican",
+"bioguide": "W000829"
+},
+"race": "wi-house-district-8"
+}
+]
+},
+"WY": {
+"name": "Wyoming",
+"senate": [
+{
+"current": {
+"name": "John Barrasso",
+"party": "Republican",
+"class": "I",
+"website": "https://www.barrasso.senate.gov",
+"bioguide": "B001261"
+},
+"race": null
+},
+{
+"current": {
+"name": "Cynthia M. Lummis",
+"party": "Republican",
+"class": "II",
+"website": "https://www.lummis.senate.gov",
+"bioguide": "L000571"
+},
+"race": "wy-senate"
+}
+],
+"house": [
+{
+"district": "at-large",
+"current": {
+"name": "Harriet M. Hageman",
+"party": "Republican",
+"bioguide": "H001096"
+},
+"race": "wy-house-at-large"
+}
+]
+}
+}
+}
