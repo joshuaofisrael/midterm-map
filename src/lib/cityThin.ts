@@ -1,23 +1,27 @@
 import { localFile } from "@/data/local/load";
 import type { PlaceRecord } from "@/data/places/load";
-import visitedSince1028 from "@/data/places/visited-since-2026-10-28.json";
+import visited from "@/data/places/visited-2026-10-28-to-11-09.json";
 
 /**
- * 4 Nov 2026 AdSense cleanup: place pages with at least one Cloudflare RUM
- * pageview from 28 Oct to 4 Nov 2026 stay indexable. Every other templated
- * place page is noindex, left out of the sitemap, and carries no ad code.
+ * City-page index rule (Joshua, relayed 9 Nov 2026: noindex only truly thin pages).
+ *
+ * A Census place page stays indexable, in the sitemap and eligible for ads when either:
+ *  1. it had at least one non-bot Cloudflare RUM pageview from 28 Oct to 9 Nov 2026
+ *     (the 4 Nov list from PR #128, plus pages first visited 4–9 Nov), or
+ *  2. it lists at least one city-level local contest of its own (unique local race data).
+ * Every other place page is templated boilerplate shared with its county neighbours:
+ * noindex, left out of the sitemap, no ad code.
  */
-const VISITED = new Set<string>(visitedSince1028 as string[]);
+const VISITED = new Set<string>(visited as string[]);
 export function cityWasVisited(code: string, place: PlaceRecord): boolean {
   return VISITED.has(`${code}/${place.slug}`);
 }
 
-/**
- * AdSense / quality policy: a templated census-place page is "thin" when it has no
- * place- or county-level local contest content and a population under this floor.
- * Thin pages are noindex, left out of the sitemap, and never load ad code.
- */
-export const CITY_INDEX_MIN_POP = 10000;
+/** True when the place page lists contests for this place itself (not only shared county contests). */
+export function cityHasOwnContests(code: string, place: PlaceRecord): boolean {
+  return (localFile(code)?.local?.[place.geoid] ?? []).length > 0;
+}
+
 
 /** True when the place page has its own local-contest content (not only templated text). */
 export function cityHasLocalContent(code: string, place: PlaceRecord): boolean {
@@ -40,6 +44,5 @@ export function cityHasLocalContent(code: string, place: PlaceRecord): boolean {
 }
 
 export function cityIsThin(code: string, place: PlaceRecord): boolean {
-  // Owner rule 4 Nov 2026: index only pages people actually visited since 28 Oct.
-  return !cityWasVisited(code, place);
+  return !cityWasVisited(code, place) && !cityHasOwnContests(code, place);
 }
