@@ -25,7 +25,6 @@ for m in sen_root.findall("member"):
         "party": PARTY.get(m.findtext("party").strip(), m.findtext("party").strip()),
         "class": m.findtext("class").strip().replace("Class ", ""),
         "website": (m.findtext("website") or "").strip(),
-        "phone": (m.findtext("phone") or "").strip(),
         "bioguide": (m.findtext("bioguide_id") or "").strip(),
     })
 
@@ -42,7 +41,6 @@ for m in clerk.find("members"):
     house.setdefault(st, {})[dist] = None if not name else {
         "name": name,
         "party": PARTY.get((info.findtext("party") or "").strip(), (info.findtext("party") or "").strip()),
-        "phone": (info.findtext("phone") or "").strip(),
         "bioguide": (info.findtext("bioguideID") or "").strip(),
     }
 

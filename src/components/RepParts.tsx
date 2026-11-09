@@ -27,7 +27,6 @@ export function SenateTable({ state }: { state: RepState }) {
                     <a className={a} href={seat.current.website} rel="noopener noreferrer">{seat.current.name}</a>
                   ) : seat.current.name}{" "}
                   ({seat.current.party})
-                  {seat.current.phone ? <span className="block text-ink-muted">{seat.current.phone}</span> : null}
                 </td>
                 <td className="py-2">
                   {race ? (

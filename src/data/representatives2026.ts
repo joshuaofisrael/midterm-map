@@ -1,7 +1,7 @@
 import data from "./representatives2026.json";
 import { getRace, winnerOf, type WinnerRace } from "./winners2026";
 
-export type Member = { name: string; party: string; phone: string; bioguide: string; class?: string; website?: string };
+export type Member = { name: string; party: string; bioguide: string; class?: string; website?: string };
 export type HouseSeat = { district: string; current: Member | null; race: string };
 export type SenateSeat = { current: Member; race: string | null };
 export type RepState = { code: string; name: string; senate: SenateSeat[]; house: HouseSeat[] };

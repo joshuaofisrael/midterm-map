@@ -78,7 +78,7 @@ export default async function RepDistrictPage({ params }: { params: Promise<{ st
               the Associated Press, which called the race on {etDate(race.calledAt!)}. The new term starts January 3, 2027.
             </>
           ) : (
-            <>The 2026 race is <strong>{statusLine(race).toLowerCase()}</strong>; follow the count at the{" "}
+            <>The 2026 race: <strong>{statusLine(race)}</strong>. Follow the count at the{" "}
               <a className="font-medium text-navy underline" href={race.official.href} rel="noopener noreferrer">{race.official.label}</a>.</>
           )}
         </p>
@@ -98,7 +98,7 @@ export default async function RepDistrictPage({ params }: { params: Promise<{ st
               {seat.current ? (
                 <>
                   <a className="text-navy underline" href={bio(seat.current.bioguide)} rel="noopener noreferrer">{seat.current.name}</a> ({seat.current.party})
-                  {seat.current.phone ? <span className="block text-ink-muted">Washington office: {seat.current.phone}</span> : null}
+                  <span className="block text-ink-muted">Official profile: Biographical Directory of the U.S. Congress</span>
                 </>
               ) : "Vacant"}
             </dd>
