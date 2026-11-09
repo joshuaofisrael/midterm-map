@@ -25,6 +25,11 @@ export function CityRelated({
     <section>
       <h2>Related pages</h2>
       <ul>
+        {isStateCode(code) ? (
+          <li>
+            <Link href={`/results/state/${code}`}>{stateName} 2026 midterm results</Link>
+          </li>
+        ) : null}
         <li>
           <Link href={`/cities/${code}`}>Census places in {stateName}</Link>
         </li>

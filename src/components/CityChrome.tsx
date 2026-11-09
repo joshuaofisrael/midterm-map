@@ -22,7 +22,8 @@ export function CityChrome({ children, path }: { children: ReactNode; path: stri
           <Link href="/cities">Places</Link>
           <Link href="/races">Races</Link>
           <Link href="/results">Results</Link>
-          <a href="https://mapthegeneral.com/us/en/live/">Election night live</a>
+          <Link href="/results/2026">Who won 2026</Link>
+          <Link href="/calendar">Calendar</Link>
           <Link href="/sources">Sources</Link>
         </nav>
       </header>
