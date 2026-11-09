@@ -7,6 +7,7 @@ import { getState } from "@/data/states";
 import { RACES_2026, getRace, nextWinner, winnerOf, winnerTitle, winnerDescription, etDate, statusLine } from "@/data/winners2026";
 import { CERTIFIED_2026, CERT_DEADLINES_2026, longDate } from "@/data/certification2026";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
+import { repDistrictPath, repState } from "@/data/representatives2026";
 
 export const dynamicParams = false;
 
@@ -28,6 +29,8 @@ export default async function WinnerPage({ params }: { params: Promise<{ slug: s
   const deadline = CERT_DEADLINES_2026[w.state];
   const next = nextWinner(w.slug);
   const hasHub = Boolean(getState(w.state));
+  const reps = repState(w.state);
+  const seat = reps?.house.find((h) => h.race === w.slug);
   return (
     <div className="space-y-6">
       <JsonLd
@@ -134,6 +137,14 @@ export default async function WinnerPage({ params }: { params: Promise<{ slug: s
             </>
           ) : null}
           <Link className="font-medium text-navy hover:underline" href="/results/2026">All 2026 winners</Link>
+          {reps ? (
+            <>
+              {" · "}
+              <Link className="font-medium text-navy hover:underline" href={seat ? repDistrictPath(reps.code, seat.district) : `/representatives/${reps.code}`}>
+                {seat ? "Who represents this district" : `${reps.name} senators and representatives`}
+              </Link>
+            </>
+          ) : null}
         </p>
         {next ? (
           <p className="mt-2">

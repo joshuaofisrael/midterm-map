@@ -4,6 +4,7 @@ import { countyNeighbors, nearbyFor, placesForSlugs } from "@/data/places/nearby
 import type { PlaceRecord } from "@/data/places/load";
 import { racesForState } from "@/data/races";
 import { isStateCode } from "@/data/states";
+import { districtShort, repDistrictPath, repState } from "@/data/representatives2026";
 import type { StateCode } from "@/data/types";
 import { countyPath, placeIsStandalone, placeTargetPath } from "@/lib/placeNames";
 
@@ -20,6 +21,7 @@ export function CityRelated({
   const nearest = near ? placesForSlugs(code, near.slugs) : [];
   const neighbors = countyNeighbors(code, place);
   const districtLinks = districtRaceLinks(code, place);
+  const repLinks = representativeLinks(code, place);
 
   return (
     <section>
@@ -30,6 +32,11 @@ export function CityRelated({
             <Link href={`/results/state/${code}`}>{stateName} 2026 midterm results</Link>
           </li>
         ) : null}
+        {repLinks.map((link) => (
+          <li key={link.href}>
+            <Link href={link.href}>{link.label}</Link>
+          </li>
+        ))}
         <li>
           <Link href={`/cities/${code}`}>Census places in {stateName}</Link>
         </li>
@@ -86,4 +93,18 @@ function districtRaceLinks(code: string, place: PlaceRecord): { href: string; la
   return racesForState(code as StateCode)
     .filter((race) => race.chamber === "house" && race.district && numbers.has(race.district))
     .map((race) => ({ href: `/races/${race.slug}`, label: race.title }));
+}
+
+/** Representative pages for this place: its House district(s), else the state page. */
+function representativeLinks(code: string, place: PlaceRecord): { href: string; label: string }[] {
+  const s = repState(code);
+  if (!s) return [];
+  const nums = new Set(houseDistrictNumbers(code, place).map((n) => (n === "0" ? "at-large" : n)));
+  if (s.house.length === 1) nums.add("at-large");
+  const seats = s.house.filter((h) => nums.has(h.district));
+  const links = seats.map((h) => ({
+    href: repDistrictPath(s.code, h.district),
+    label: `Who represents ${districtShort(s.code, h.district)} in Congress`,
+  }));
+  return [...links, { href: `/representatives/${s.code}`, label: `${s.name} senators and representatives` }];
 }

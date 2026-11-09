@@ -23,6 +23,7 @@ export function CityChrome({ children, path }: { children: ReactNode; path: stri
           <Link href="/races">Races</Link>
           <Link href="/results">Results</Link>
           <Link href="/results/2026">Who won 2026</Link>
+          <Link href="/representatives">Representatives</Link>
           <Link href="/calendar">Calendar</Link>
           <Link href="/sources">Sources</Link>
         </nav>
