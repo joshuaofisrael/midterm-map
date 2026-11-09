@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { EmailSignup } from "@/components/EmailSignup";
 import { JsonLd } from "@/components/JsonLd";
-import { WINNERS_2026 } from "@/data/winners2026";
+import { RACES_2026, UNCALLED_2026, WINNERS_2026, WINNERS_FETCHED_AT, etDate, statusLine, winnerOf } from "@/data/winners2026";
 import { pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -16,7 +16,7 @@ const FAQS = [
   {
     question: "Who won the 2026 midterms?",
     answer:
-      "This page lists every 2026 Senate, House and governor race the Associated Press has called, with each candidate's votes and share. Races AP has not called are not listed yet. Vote counts stay unofficial until a state certifies them.",
+      "This page lists every 2026 Senate, House and governor race. Races the Associated Press has called show the winner, with each candidate's votes and share. Races AP has not called are marked not yet called, with a link to the state's official results. Vote counts stay unofficial until a state certifies them.",
   },
   {
     question: "Who controls the House after the 2026 midterms?",
@@ -36,7 +36,9 @@ const FAQS = [
 ] as const;
 
 export default function Winners2026Index() {
-  const states = [...new Set(WINNERS_2026.map((w) => w.stateName))].sort();
+  const states = [...new Set(RACES_2026.map((w) => w.stateName))].sort();
+  const count = (office: string) => WINNERS_2026.filter((w) => w.office === office).length;
+  const total = (office: string) => RACES_2026.filter((w) => w.office === office).length;
   return (
     <div className="space-y-6">
       <JsonLd
@@ -55,8 +57,9 @@ export default function Winners2026Index() {
       />
       <h1 className="font-serif text-3xl font-semibold">Who won the 2026 elections</h1>
       <p className="text-sm leading-6">
-        Races called by the Associated Press. Races AP has not called are not listed here yet. Vote counts are unofficial
-        until certified. For majority rules, see{" "}
+        Every 2026 Senate, governor and House race. Winners are shown only for races the Associated Press has called;
+        other races are marked not yet called and link to the state&apos;s official results. Vote counts are unofficial
+        until certified. AP data last read {etDate(WINNERS_FETCHED_AT)}. For majority rules, see{" "}
         <Link className="text-navy hover:underline" href="/learn/house-majority">
           How the House majority works
         </Link>{" "}
@@ -70,14 +73,34 @@ export default function Winners2026Index() {
         </Link>
         .
       </p>
+      <ul className="grid gap-2 text-sm sm:grid-cols-3">
+        {(["Senate", "Governor", "House"] as const).map((o) => (
+          <li key={o} className="rounded-xl border border-line p-3">
+            <strong>{o}:</strong> {count(o)} of {total(o)} races called by AP
+          </li>
+        ))}
+      </ul>
+      {UNCALLED_2026.length ? (
+        <section aria-labelledby="not-called">
+          <h2 id="not-called" className="font-serif text-xl font-semibold">Not yet called ({UNCALLED_2026.length})</h2>
+          <ul className="mt-1 list-disc pl-5 text-sm">
+            {UNCALLED_2026.map((w) => (
+              <li key={w.slug}>
+                <Link className="text-navy hover:underline" href={`/results/2026/${w.slug}`}>{w.label}</Link>: {statusLine(w)} ·{" "}
+                <a className="text-navy underline" href={w.official.href} rel="noopener noreferrer">official results</a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
       {states.map((s) => (
         <section key={s}>
           <h2 className="font-serif text-xl font-semibold">{s}</h2>
           <ul className="mt-1 list-disc pl-5 text-sm">
-            {WINNERS_2026.filter((w) => w.stateName === s).map((w) => (
+            {RACES_2026.filter((w) => w.stateName === s).map((w) => (
               <li key={w.slug}>
                 <Link className="text-navy hover:underline" href={`/results/2026/${w.slug}`}>{w.label}</Link>:{" "}
-                {w.candidates.find((c) => c.winner)?.name}
+                {winnerOf(w)?.name ?? statusLine(w)}
               </li>
             ))}
           </ul>
