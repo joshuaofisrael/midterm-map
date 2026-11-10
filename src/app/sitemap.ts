@@ -185,6 +185,8 @@ const EDITORIAL_UPDATED = "2026-10-27";
 
 function lastModifiedFor(path: string): string {
   if (path === "/advertise") return "2026-10-27";
+  // 8 Nov 2026 (#138): city and county pages got the Who won 2026 / Calendar nav and state results links.
+  if (path === "/cities" || path.startsWith("/cities/")) return "2026-11-08";
   if (path === "/privacy") return "2026-11-09";
   if (path === "/representatives" || path === "/your-representative" || path.startsWith("/representatives/")) return "2026-11-09";
   if (path === "/results/2026" || path.startsWith("/results/2026/")) return "2026-11-09";
