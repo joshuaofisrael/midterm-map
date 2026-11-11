@@ -11,7 +11,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "How to watch election night 2026: TV start times",
   description:
-    "Start times for election night coverage of the November 3, 2026 midterms on NBC, CBS, ABC, CNN, Fox News, MS Now, C-SPAN, NewsNation, and BBC News, in Eastern time and UK time.",
+    "Start times for November 3, 2026 midterm election-night coverage on major U.S. networks and BBC News, in Eastern time and UK time.",
   path: "/election-night-tv",
 });
 

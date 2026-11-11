@@ -14,7 +14,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
   title: "2026 voter registration, early voting and mail ballot deadlines by state",
-  description: `Voter registration, early voting, and mail-ballot deadlines for the November 3, 2026 general election in the 50 states and the District of Columbia. Each date is tied to an official election-office page, state statute, or Vote.gov. Not an official election website.`,
+  description: `2026 voter registration, early voting, and mail-ballot deadlines by state and D.C., each tied to an official source. Not an official election website.`,
   path: "/voting-deadlines",
 });
 

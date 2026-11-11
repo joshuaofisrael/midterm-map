@@ -20,7 +20,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "2026 polls and race ratings",
   description:
-    "Published 2026 midterm polls with pollster, dates, sample, and source links, plus race ratings attributed to Cook, Inside Elections, Sabato, and Decision Desk HQ. Not a live forecast.",
+    "Published 2026 midterm polls with pollster, dates, sample, and source links, plus attributed race ratings. Not a live forecast.",
   path: "/polls",
 });
 
