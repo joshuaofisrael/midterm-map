@@ -3,6 +3,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Byline } from "@/components/Byline";
 import { ContentTrust } from "@/components/ContentTrust";
 import { JsonLd } from "@/components/JsonLd";
+import { CrossLinks } from "@/components/CrossLinks";
 import { PageHeader } from "@/components/PageHeader";
 import { contentUpdatedLabel } from "@/lib/contentDate";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
@@ -240,6 +241,7 @@ export default function ElectionNightTvPage() {
           </a>
           .
         </p>
+      <CrossLinks />
       </section>
     </div>
   );

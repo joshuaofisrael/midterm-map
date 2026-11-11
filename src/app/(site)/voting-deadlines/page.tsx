@@ -3,6 +3,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentTrust } from "@/components/ContentTrust";
 import { JsonLd } from "@/components/JsonLd";
 import { OfficialNotice } from "@/components/OfficialNotice";
+import { CrossLinks } from "@/components/CrossLinks";
 import { PageHeader } from "@/components/PageHeader";
 import { VotingDeadlinesTable } from "@/components/ElectionDates";
 import { DEADLINE_ONLY_STATES, ELECTION_DATES, MARKER_NOTE, stateKeyDatesHref } from "@/data/electionDates";
@@ -70,6 +71,7 @@ export default function VotingDeadlinesPage() {
         </ul>
       </nav>
       <VotingDeadlinesTable rows={rows} />
+      <CrossLinks />
       <p className="text-sm">
         <Link className="font-medium text-navy hover:underline" href="/">
           Back to the homepage

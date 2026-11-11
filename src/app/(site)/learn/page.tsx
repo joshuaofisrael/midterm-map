@@ -4,6 +4,7 @@ import { HouseAd } from "@/components/HouseAd";
 import { Byline } from "@/components/Byline";
 import { ContentTrust } from "@/components/ContentTrust";
 import { JsonLd } from "@/components/JsonLd";
+import { CrossLinks } from "@/components/CrossLinks";
 import { PageHeader } from "@/components/PageHeader";
 import { LEARN_ARTICLES } from "@/data/learn/articles";
 import { SITE } from "@/data/site";
@@ -47,6 +48,7 @@ export default function LearnIndexPage() {
             <p className="mt-2 text-sm leading-6 text-ink-muted">{article.description}</p>
           </li>
         ))}
+      <CrossLinks />
       </ul>
       </div>
     </>
