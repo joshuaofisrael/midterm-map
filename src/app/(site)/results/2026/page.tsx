@@ -2,7 +2,7 @@ import Link from "next/link";
 import { EmailSignup } from "@/components/EmailSignup";
 import { JsonLd } from "@/components/JsonLd";
 import { RACES_2026, UNCALLED_2026, WINNERS_2026, WINNERS_FETCHED_AT, etDate, statusLine, winnerOf } from "@/data/winners2026";
-import { pageMetadata } from "@/lib/metadata";
+import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
   title: "Who won the 2026 elections: Senate, House and governor winners",
@@ -41,6 +41,13 @@ export default function Winners2026Index() {
   const total = (office: string) => RACES_2026.filter((w) => w.office === office).length;
   return (
     <div className="space-y-6">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Home", path: "/" },
+          { name: "Results", path: "/results" },
+          { name: "2026 winners", path: "/results/2026" },
+        ])}
+      />
       <JsonLd
         data={{
           "@context": "https://schema.org",
