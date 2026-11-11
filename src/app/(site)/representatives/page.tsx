@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CrossLinks } from "@/components/CrossLinks";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { EmailSignup } from "@/components/EmailSignup";
 import { JsonLd } from "@/components/JsonLd";
@@ -51,6 +52,7 @@ export default function RepresentativesHub() {
         {" · "}<Link className="text-navy hover:underline" href="/results/2026">Who won 2026</Link>
         {" · "}<Link className="text-navy hover:underline" href="/calendar">Election calendar</Link>
       </p>
+      <CrossLinks />
       <RepSources />
       <EmailSignup />
     </div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CrossLinks } from "@/components/CrossLinks";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { EmailSignup } from "@/components/EmailSignup";
 import { JsonLd } from "@/components/JsonLd";
@@ -44,6 +45,7 @@ export default function YourRepresentative() {
         Browse <Link className="text-navy hover:underline" href="/representatives">representatives by state</Link> or see{" "}
         <Link className="text-navy hover:underline" href="/results/2026">who won every 2026 race</Link>.
       </p>
+      <CrossLinks />
       <EmailSignup />
     </div>
   );

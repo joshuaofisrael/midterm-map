@@ -10,6 +10,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { getLearnArticle, LEARN_ARTICLES } from "@/data/learn/articles";
 import { contentUpdatedLabel } from "@/lib/contentDate";
 import { learnArticleJsonLd } from "@/lib/learnSchema";
+import { CrossLinks } from "@/components/CrossLinks";
 import { pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
@@ -96,6 +97,7 @@ export default async function LearnArticlePage({ params }: { params: Promise<{ s
           </ul>
         </nav>
       )}
+      <CrossLinks />
     </div>
   );
 }
