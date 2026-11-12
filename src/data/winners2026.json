@@ -44,10 +44,10 @@
 "apStatus": "Too Early to Call",
 "special": false,
 "flipped": false,
-"eevp": 84.32,
-"lastUpdated": "2026-11-11T15:25:13.739000Z",
+"eevp": 86.2,
+"lastUpdated": "2026-11-12T03:34:25.836000Z",
 "calledAt": null,
-"totalVotes": 242947,
+"totalVotes": 248525,
 "official": {
 "label": "Alaska Division of Elections \u2014 election results",
 "href": "https://www.elections.alaska.gov/election-results/"
@@ -56,29 +56,29 @@
 {
 "name": "Mary Peltola",
 "party": "Democratic",
-"votes": 118926,
-"pct": 49.0,
+"votes": 121487,
+"pct": 48.9,
 "winner": false
 },
 {
 "name": "Dan Sullivan",
 "party": "Republican",
-"votes": 114676,
-"pct": 47.2,
+"votes": 117512,
+"pct": 47.3,
 "winner": false
 },
 {
 "name": "Gerald Heikes",
 "party": "Republican",
-"votes": 5318,
+"votes": 5426,
 "pct": 2.2,
 "winner": false
 },
 {
 "name": "Daniel Sullivan",
 "party": "UDC",
-"votes": 4027,
-"pct": 1.7,
+"votes": 4100,
+"pct": 1.6,
 "winner": false
 },
 {
@@ -332,9 +332,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-11T18:54:49.491000Z",
+"lastUpdated": "2026-11-11T20:03:21.590000Z",
 "calledAt": "2026-11-04T06:31:52.473Z",
-"totalVotes": 713327,
+"totalVotes": 713281,
 "official": {
 "label": "Vote Idaho \u2014 election results",
 "href": "https://voteidaho.gov/election-results/"
@@ -343,28 +343,28 @@
 {
 "name": "Jim Risch",
 "party": "Republican",
-"votes": 403011,
+"votes": 402983,
 "pct": 56.5,
 "winner": true
 },
 {
 "name": "Todd Achilles",
 "party": "Independent",
-"votes": 239435,
+"votes": 239422,
 "pct": 33.6,
 "winner": false
 },
 {
 "name": "Natalie Fleming",
 "party": "Independent",
-"votes": 50137,
+"votes": 50134,
 "pct": 7.0,
 "winner": false
 },
 {
 "name": "Matt Loesby",
 "party": "Libertarian",
-"votes": 20744,
+"votes": 20742,
 "pct": 2.9,
 "winner": false
 }
@@ -380,10 +380,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 96.79,
-"lastUpdated": "2026-11-11T17:01:37.824000Z",
+"eevp": 97.24,
+"lastUpdated": "2026-11-11T23:28:22.995000Z",
 "calledAt": "2026-11-04T01:00:40.102Z",
-"totalVotes": 4122445,
+"totalVotes": 4141588,
 "official": {
 "label": "Illinois State Board of Elections",
 "href": "https://www.elections.il.gov/"
@@ -392,21 +392,21 @@
 {
 "name": "Juliana Stratton",
 "party": "Democratic",
-"votes": 2536598,
-"pct": 61.5,
+"votes": 2554126,
+"pct": 61.7,
 "winner": true
 },
 {
 "name": "Don Tracy",
 "party": "Republican",
-"votes": 1520609,
-"pct": 36.9,
+"votes": 1521943,
+"pct": 36.7,
 "winner": false
 },
 {
 "name": "Whitfield Harrington",
 "party": "ACR",
-"votes": 65238,
+"votes": 65519,
 "pct": 1.6,
 "winner": false
 }
@@ -465,7 +465,7 @@
 "special": false,
 "flipped": true,
 "eevp": 98.58,
-"lastUpdated": "2026-11-11T15:25:33.747000Z",
+"lastUpdated": "2026-11-11T22:46:31.032000Z",
 "calledAt": "2026-11-04T04:24:51.393Z",
 "totalVotes": 1100385,
 "official": {
@@ -661,7 +661,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-11T18:50:47.907000Z",
+"lastUpdated": "2026-11-11T20:13:27.423000Z",
 "calledAt": "2026-11-04T01:01:27.995Z",
 "totalVotes": 2608367,
 "official": {
@@ -710,7 +710,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.26,
-"lastUpdated": "2026-11-10T21:49:27.829000Z",
+"lastUpdated": "2026-11-11T22:54:00.084000Z",
 "calledAt": "2026-11-04T07:27:18.642Z",
 "totalVotes": 4798074,
 "official": {
@@ -824,14 +824,14 @@
 "state": "MS",
 "stateName": "Mississippi",
 "label": "Mississippi Senate",
-"status": "uncalled",
-"apStatus": "Too Early to Call",
+"status": "called",
+"apStatus": "Called",
 "special": false,
-"flipped": false,
-"eevp": 98.27,
-"lastUpdated": "2026-11-11T17:41:54.376000Z",
-"calledAt": null,
-"totalVotes": 957565,
+"flipped": true,
+"eevp": 98.88,
+"lastUpdated": "2026-11-12T15:05:25.037000Z",
+"calledAt": "2026-11-11T22:58:49.687Z",
+"totalVotes": 963858,
 "official": {
 "label": "Mississippi Secretary of State \u2014 election results",
 "href": "https://www.sos.ms.gov/elections-voting/election-results"
@@ -840,21 +840,21 @@
 {
 "name": "Scott Colom",
 "party": "Democratic",
-"votes": 470309,
-"pct": 49.1,
-"winner": false
+"votes": 474549,
+"pct": 49.2,
+"winner": true
 },
 {
 "name": "Cindy Hyde-Smith",
 "party": "Republican",
-"votes": 467133,
-"pct": 48.8,
+"votes": 469039,
+"pct": 48.7,
 "winner": false
 },
 {
 "name": "Ty Pinkins",
 "party": "Independent",
-"votes": 20123,
+"votes": 20270,
 "pct": 2.1,
 "winner": false
 }
@@ -919,10 +919,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 97.51,
-"lastUpdated": "2026-11-11T17:55:22.686000Z",
+"eevp": 97.52,
+"lastUpdated": "2026-11-12T15:04:41.958000Z",
 "calledAt": "2026-11-04T08:27:46.220Z",
-"totalVotes": 757414,
+"totalVotes": 757439,
 "official": {
 "label": "Nebraska Secretary of State \u2014 election results",
 "href": "https://electionresults.nebraska.gov/"
@@ -931,21 +931,21 @@
 {
 "name": "Pete Ricketts",
 "party": "Republican",
-"votes": 379355,
+"votes": 379370,
 "pct": 50.1,
 "winner": true
 },
 {
 "name": "Dan Osborn",
 "party": "Nonpartisan",
-"votes": 332846,
+"votes": 332852,
 "pct": 43.9,
 "winner": false
 },
 {
 "name": "Robin Richards",
 "party": "NWk",
-"votes": 19696,
+"votes": 19700,
 "pct": 2.6,
 "winner": false
 },
@@ -1151,7 +1151,7 @@
 "special": true,
 "flipped": true,
 "eevp": 97.75,
-"lastUpdated": "2026-11-11T16:07:44.983000Z",
+"lastUpdated": "2026-11-11T21:03:29.784000Z",
 "calledAt": "2026-11-04T04:10:04.990Z",
 "totalVotes": 4601728,
 "official": {
@@ -1584,10 +1584,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 98.99,
-"lastUpdated": "2026-11-10T23:30:07.781000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-11T20:58:16.422000Z",
 "calledAt": "2026-11-04T00:00:10.929Z",
-"totalVotes": 3611030,
+"totalVotes": 3616441,
 "official": {
 "label": "Virginia Department of Elections \u2014 results and reports",
 "href": "https://www.elections.virginia.gov/resultsreports/"
@@ -1596,21 +1596,21 @@
 {
 "name": "Mark Warner",
 "party": "Democratic",
-"votes": 2215838,
+"votes": 2218725,
 "pct": 61.4,
 "winner": true
 },
 {
 "name": "Bert Mizusawa",
 "party": "Republican",
-"votes": 1385571,
+"votes": 1388066,
 "pct": 38.4,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 9621,
+"votes": 9650,
 "pct": 0.3,
 "winner": false
 }
@@ -1745,10 +1745,10 @@
 "apStatus": "Too Early to Call",
 "special": false,
 "flipped": false,
-"eevp": 84.04,
-"lastUpdated": "2026-11-11T15:25:05.438000Z",
+"eevp": 85.92,
+"lastUpdated": "2026-11-12T03:35:13.132000Z",
 "calledAt": null,
-"totalVotes": 240268,
+"totalVotes": 245784,
 "official": {
 "label": "Alaska Division of Elections \u2014 election results",
 "href": "https://www.elections.alaska.gov/election-results/"
@@ -1757,28 +1757,28 @@
 {
 "name": "Jonathan Kreiss-Tomkins",
 "party": "Democratic",
-"votes": 119860,
-"pct": 49.9,
+"votes": 122353,
+"pct": 49.8,
 "winner": false
 },
 {
 "name": "Bernadette Wilson",
 "party": "Republican",
-"votes": 69199,
-"pct": 28.8,
+"votes": 71231,
+"pct": 29.0,
 "winner": false
 },
 {
 "name": "Dave Bronson",
 "party": "Republican",
-"votes": 33590,
-"pct": 14.0,
+"votes": 34188,
+"pct": 13.9,
 "winner": false
 },
 {
 "name": "Treg Taylor",
 "party": "Republican",
-"votes": 17619,
+"votes": 18012,
 "pct": 7.3,
 "winner": false
 },
@@ -1802,9 +1802,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-11T02:28:02.230000Z",
+"lastUpdated": "2026-11-12T14:23:52.224000Z",
 "calledAt": "2026-11-04T08:20:43.985Z",
-"totalVotes": 2575270,
+"totalVotes": 2575544,
 "official": {
 "label": "Arizona Secretary of State \u2014 results.arizona.vote",
 "href": "https://results.arizona.vote/"
@@ -1813,28 +1813,28 @@
 {
 "name": "Katie Hobbs",
 "party": "Democratic",
-"votes": 1433606,
+"votes": 1433772,
 "pct": 55.7,
 "winner": true
 },
 {
 "name": "Andy Biggs",
 "party": "Republican",
-"votes": 1093546,
+"votes": 1093643,
 "pct": 42.5,
 "winner": false
 },
 {
 "name": "Risa Lombardo",
 "party": "Green",
-"votes": 24603,
+"votes": 24609,
 "pct": 1.0,
 "winner": false
 },
 {
 "name": "Teri Ann Hourihan",
 "party": "NoL",
-"votes": 23488,
+"votes": 23493,
 "pct": 0.9,
 "winner": false
 },
@@ -1906,10 +1906,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 88.96,
-"lastUpdated": "2026-11-11T03:03:17.452000Z",
+"eevp": 90.73,
+"lastUpdated": "2026-11-12T15:00:22.278000Z",
 "calledAt": "2026-11-04T04:00:05.615Z",
-"totalVotes": 12071502,
+"totalVotes": 12308547,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -1918,15 +1918,15 @@
 {
 "name": "Xavier Becerra",
 "party": "Democratic",
-"votes": 7922872,
-"pct": 65.6,
+"votes": 8084229,
+"pct": 65.7,
 "winner": true
 },
 {
 "name": "Steve Hilton",
 "party": "Republican",
-"votes": 4148630,
-"pct": 34.4,
+"votes": 4224318,
+"pct": 34.3,
 "winner": false
 }
 ]
@@ -2201,9 +2201,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-11T18:55:42.942000Z",
+"lastUpdated": "2026-11-11T19:18:45.935000Z",
 "calledAt": "2026-11-04T05:36:13.223Z",
-"totalVotes": 716157,
+"totalVotes": 716113,
 "official": {
 "label": "Vote Idaho \u2014 election results",
 "href": "https://voteidaho.gov/election-results/"
@@ -2212,21 +2212,21 @@
 {
 "name": "Brad Little",
 "party": "Republican",
-"votes": 408442,
+"votes": 408410,
 "pct": 57.0,
 "winner": true
 },
 {
 "name": "Terri Pickens",
 "party": "Democratic",
-"votes": 231483,
+"votes": 231475,
 "pct": 32.3,
 "winner": false
 },
 {
 "name": "John Stegner",
 "party": "Independent",
-"votes": 54871,
+"votes": 54867,
 "pct": 7.7,
 "winner": false
 },
@@ -2263,10 +2263,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 96.77,
-"lastUpdated": "2026-11-11T17:02:43.806000Z",
+"eevp": 97.22,
+"lastUpdated": "2026-11-11T23:29:06.958000Z",
 "calledAt": "2026-11-04T01:00:40.195Z",
-"totalVotes": 4136819,
+"totalVotes": 4156168,
 "official": {
 "label": "Illinois State Board of Elections",
 "href": "https://www.elections.il.gov/"
@@ -2275,21 +2275,21 @@
 {
 "name": "JB Pritzker",
 "party": "Democratic",
-"votes": 2493304,
-"pct": 60.3,
+"votes": 2511087,
+"pct": 60.4,
 "winner": true
 },
 {
 "name": "Darren Bailey",
 "party": "Republican",
-"votes": 1504676,
-"pct": 36.4,
+"votes": 1505778,
+"pct": 36.2,
 "winner": false
 },
 {
 "name": "Collin Corbett",
 "party": "Independent",
-"votes": 138839,
+"votes": 139303,
 "pct": 3.4,
 "winner": false
 }
@@ -2341,7 +2341,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.58,
-"lastUpdated": "2026-11-11T15:25:33.250000Z",
+"lastUpdated": "2026-11-11T22:46:51.370000Z",
 "calledAt": null,
 "totalVotes": 1095370,
 "official": {
@@ -2481,7 +2481,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-11T18:52:19.976000Z",
+"lastUpdated": "2026-11-11T20:13:25.279000Z",
 "calledAt": "2026-11-04T01:01:28.205Z",
 "totalVotes": 2627066,
 "official": {
@@ -2523,7 +2523,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.27,
-"lastUpdated": "2026-11-10T21:49:36.332000Z",
+"lastUpdated": "2026-11-11T22:54:00.397000Z",
 "calledAt": "2026-11-04T06:45:21.077Z",
 "totalVotes": 4791774,
 "official": {
@@ -2628,9 +2628,9 @@
 "special": false,
 "flipped": false,
 "eevp": 97.62,
-"lastUpdated": "2026-11-11T17:55:21.438000Z",
+"lastUpdated": "2026-11-12T15:04:41.366000Z",
 "calledAt": "2026-11-04T07:53:54.147Z",
-"totalVotes": 758888,
+"totalVotes": 758914,
 "official": {
 "label": "Nebraska Secretary of State \u2014 election results",
 "href": "https://electionresults.nebraska.gov/"
@@ -2639,14 +2639,14 @@
 {
 "name": "Jim Pillen",
 "party": "Republican",
-"votes": 382481,
+"votes": 382501,
 "pct": 50.4,
 "winner": true
 },
 {
 "name": "Lynne Walz",
 "party": "Democratic",
-"votes": 322765,
+"votes": 322771,
 "pct": 42.5,
 "winner": false
 },
@@ -2677,7 +2677,7 @@
 "special": false,
 "flipped": true,
 "eevp": 98.38,
-"lastUpdated": "2026-11-11T17:27:24.122000Z",
+"lastUpdated": "2026-11-12T02:57:20.554000Z",
 "calledAt": "2026-11-04T09:46:36.197Z",
 "totalVotes": 1090632,
 "official": {
@@ -2803,7 +2803,7 @@
 "special": false,
 "flipped": false,
 "eevp": 95.26,
-"lastUpdated": "2026-11-11T16:57:40.020000Z",
+"lastUpdated": "2026-11-11T22:53:35.745000Z",
 "calledAt": "2026-11-04T02:00:05.888Z",
 "totalVotes": 6111736,
 "official": {
@@ -2845,7 +2845,7 @@
 "special": false,
 "flipped": true,
 "eevp": 97.75,
-"lastUpdated": "2026-11-11T16:07:45.203000Z",
+"lastUpdated": "2026-11-11T21:03:31.597000Z",
 "calledAt": "2026-11-04T03:49:08.000Z",
 "totalVotes": 4595934,
 "official": {
@@ -2992,9 +2992,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-11T18:13:44.800000Z",
+"lastUpdated": "2026-11-12T15:04:20.208000Z",
 "calledAt": "2026-11-04T01:01:56.195Z",
-"totalVotes": 4994405,
+"totalVotes": 4998288,
 "official": {
 "label": "Pennsylvania Department of State \u2014 election returns",
 "href": "https://www.electionreturns.pa.gov/"
@@ -3003,21 +3003,21 @@
 {
 "name": "Josh Shapiro",
 "party": "Democratic",
-"votes": 3019106,
-"pct": 60.4,
+"votes": 3022209,
+"pct": 60.5,
 "winner": true
 },
 {
 "name": "Stacy Garrity",
 "party": "Republican",
-"votes": 1910626,
-"pct": 38.3,
+"votes": 1911355,
+"pct": 38.2,
 "winner": false
 },
 {
 "name": "Ken Krawchuk",
 "party": "Libertarian",
-"votes": 64673,
+"votes": 64724,
 "pct": 1.3,
 "winner": false
 }
@@ -3747,10 +3747,10 @@
 "apStatus": "Too Early to Call",
 "special": false,
 "flipped": false,
-"eevp": 84.23,
-"lastUpdated": "2026-11-11T15:25:11.350000Z",
+"eevp": 86.12,
+"lastUpdated": "2026-11-12T03:34:53.007000Z",
 "calledAt": null,
-"totalVotes": 242195,
+"totalVotes": 247789,
 "official": {
 "label": "Alaska Division of Elections \u2014 election results",
 "href": "https://www.elections.alaska.gov/election-results/"
@@ -3759,28 +3759,28 @@
 {
 "name": "Nick Begich",
 "party": "Republican",
-"votes": 118337,
-"pct": 48.9,
+"votes": 121324,
+"pct": 49.0,
 "winner": false
 },
 {
 "name": "Bill Hill",
 "party": "Nonpartisan",
-"votes": 99240,
-"pct": 41.0,
+"votes": 101297,
+"pct": 40.9,
 "winner": false
 },
 {
 "name": "Eric Hafner",
 "party": "Democratic",
-"votes": 18121,
+"votes": 18562,
 "pct": 7.5,
 "winner": false
 },
 {
 "name": "James McDermott",
 "party": "Libertarian",
-"votes": 6497,
+"votes": 6606,
 "pct": 2.7,
 "winner": false
 },
@@ -3804,9 +3804,9 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-11T02:27:42.819000Z",
+"lastUpdated": "2026-11-12T14:21:30.294000Z",
 "calledAt": "2026-11-05T17:02:49.849Z",
-"totalVotes": 354620,
+"totalVotes": 354660,
 "official": {
 "label": "Arizona Secretary of State \u2014 results.arizona.vote",
 "href": "https://results.arizona.vote/"
@@ -3815,14 +3815,14 @@
 {
 "name": "Amish Shah",
 "party": "Democratic",
-"votes": 185799,
+"votes": 185813,
 "pct": 52.4,
 "winner": true
 },
 {
 "name": "Thomas Feely",
 "party": "Republican",
-"votes": 161092,
+"votes": 161118,
 "pct": 45.4,
 "winner": false
 },
@@ -3860,7 +3860,7 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-11T02:28:05.442000Z",
+"lastUpdated": "2026-11-12T14:23:52.123000Z",
 "calledAt": "2026-11-09T17:53:43.059Z",
 "totalVotes": 329656,
 "official": {
@@ -3902,9 +3902,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-11T02:27:59.767000Z",
+"lastUpdated": "2026-11-12T14:21:22.899000Z",
 "calledAt": "2026-11-04T03:09:42.232Z",
-"totalVotes": 149540,
+"totalVotes": 149586,
 "official": {
 "label": "Arizona Secretary of State \u2014 results.arizona.vote",
 "href": "https://results.arizona.vote/"
@@ -3913,21 +3913,21 @@
 {
 "name": "Yassamin Ansari",
 "party": "Democratic",
-"votes": 130675,
+"votes": 130716,
 "pct": 87.4,
 "winner": true
 },
 {
 "name": "Alan Aversa",
 "party": "NoL",
-"votes": 9066,
+"votes": 9068,
 "pct": 6.1,
 "winner": false
 },
 {
 "name": "David Redkey",
 "party": "Green",
-"votes": 7779,
+"votes": 7782,
 "pct": 5.2,
 "winner": false
 },
@@ -3951,9 +3951,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-11T02:27:51.335000Z",
+"lastUpdated": "2026-11-12T14:26:57.562000Z",
 "calledAt": "2026-11-04T03:10:56.841Z",
-"totalVotes": 255036,
+"totalVotes": 255118,
 "official": {
 "label": "Arizona Secretary of State \u2014 results.arizona.vote",
 "href": "https://results.arizona.vote/"
@@ -3962,21 +3962,21 @@
 {
 "name": "Greg Stanton",
 "party": "Democratic",
-"votes": 159203,
+"votes": 159251,
 "pct": 62.4,
 "winner": true
 },
 {
 "name": "Zuhdi Jasser",
 "party": "Republican",
-"votes": 89782,
+"votes": 89811,
 "pct": 35.2,
 "winner": false
 },
 {
 "name": "Tisha Benoit",
 "party": "NoL",
-"votes": 5981,
+"votes": 5986,
 "pct": 2.3,
 "winner": false
 },
@@ -4000,9 +4000,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-11T02:27:43.868000Z",
+"lastUpdated": "2026-11-12T14:21:28.219000Z",
 "calledAt": "2026-11-06T16:25:33.037Z",
-"totalVotes": 324966,
+"totalVotes": 325005,
 "official": {
 "label": "Arizona Secretary of State \u2014 results.arizona.vote",
 "href": "https://results.arizona.vote/"
@@ -4011,14 +4011,14 @@
 {
 "name": "Mark Lamb",
 "party": "Republican",
-"votes": 167959,
+"votes": 167969,
 "pct": 51.7,
 "winner": true
 },
 {
 "name": "Elizabeth Lee",
 "party": "Democratic",
-"votes": 157007,
+"votes": 157036,
 "pct": 48.3,
 "winner": false
 }
@@ -4091,9 +4091,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-11T02:27:52.905000Z",
+"lastUpdated": "2026-11-12T14:27:08.696000Z",
 "calledAt": "2026-11-04T03:11:34.250Z",
-"totalVotes": 204931,
+"totalVotes": 204944,
 "official": {
 "label": "Arizona Secretary of State \u2014 results.arizona.vote",
 "href": "https://results.arizona.vote/"
@@ -4102,7 +4102,7 @@
 {
 "name": "Adelita Grijalva",
 "party": "Democratic",
-"votes": 147478,
+"votes": 147491,
 "pct": 72.0,
 "winner": true
 },
@@ -4126,9 +4126,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-11T02:27:51.230000Z",
+"lastUpdated": "2026-11-12T14:21:30.132000Z",
 "calledAt": "2026-11-06T18:25:34.538Z",
-"totalVotes": 287175,
+"totalVotes": 287226,
 "official": {
 "label": "Arizona Secretary of State \u2014 results.arizona.vote",
 "href": "https://results.arizona.vote/"
@@ -4137,14 +4137,14 @@
 {
 "name": "Abraham Hamadeh",
 "party": "Republican",
-"votes": 146999,
+"votes": 147023,
 "pct": 51.2,
 "winner": true
 },
 {
 "name": "Bernadette Greene-Placentia",
 "party": "Democratic",
-"votes": 140176,
+"votes": 140203,
 "pct": 48.8,
 "winner": false
 }
@@ -4161,9 +4161,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-11T02:27:51.214000Z",
+"lastUpdated": "2026-11-12T14:21:35.771000Z",
 "calledAt": "2026-11-04T08:45:30.365Z",
-"totalVotes": 288753,
+"totalVotes": 288773,
 "official": {
 "label": "Arizona Secretary of State \u2014 results.arizona.vote",
 "href": "https://results.arizona.vote/"
@@ -4172,14 +4172,14 @@
 {
 "name": "Paul Gosar",
 "party": "Republican",
-"votes": 165920,
+"votes": 165926,
 "pct": 57.5,
 "winner": true
 },
 {
 "name": "Danielle Sterbinsky",
 "party": "Democratic",
-"votes": 122760,
+"votes": 122774,
 "pct": 42.5,
 "winner": false
 },
@@ -4363,10 +4363,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": true,
-"eevp": 76.55,
-"lastUpdated": "2026-11-11T02:03:40.424000Z",
+"eevp": 83.48,
+"lastUpdated": "2026-11-12T14:52:05.575000Z",
 "calledAt": "2026-11-04T04:53:06.875Z",
-"totalVotes": 225294,
+"totalVotes": 248305,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -4375,15 +4375,15 @@
 {
 "name": "Mike McGuire",
 "party": "Democratic",
-"votes": 126367,
-"pct": 56.1,
+"votes": 143582,
+"pct": 57.8,
 "winner": true
 },
 {
 "name": "James Gallagher",
 "party": "Republican",
-"votes": 98927,
-"pct": 43.9,
+"votes": 104723,
+"pct": 42.2,
 "winner": false
 }
 ]
@@ -4398,10 +4398,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 68.85,
-"lastUpdated": "2026-11-11T03:03:22.779000Z",
+"eevp": 82.03,
+"lastUpdated": "2026-11-12T14:54:50.283000Z",
 "calledAt": "2026-11-04T04:47:40.059Z",
-"totalVotes": 224190,
+"totalVotes": 267476,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -4410,15 +4410,15 @@
 {
 "name": "Jared Huffman",
 "party": "Democratic",
-"votes": 147094,
-"pct": 65.6,
+"votes": 180908,
+"pct": 67.6,
 "winner": true
 },
 {
 "name": "Robin Littau",
 "party": "Republican",
-"votes": 77096,
-"pct": 34.4,
+"votes": 86568,
+"pct": 32.4,
 "winner": false
 }
 ]
@@ -4468,10 +4468,10 @@
 "apStatus": "Too Early to Call",
 "special": false,
 "flipped": false,
-"eevp": 74.15,
-"lastUpdated": "2026-11-11T02:03:46.716000Z",
+"eevp": 78.93,
+"lastUpdated": "2026-11-12T14:52:12.517000Z",
 "calledAt": null,
-"totalVotes": 194499,
+"totalVotes": 202069,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -4480,15 +4480,15 @@
 {
 "name": "Eric Jones",
 "party": "Democratic",
-"votes": 101407,
-"pct": 52.1,
+"votes": 105129,
+"pct": 52.0,
 "winner": false
 },
 {
 "name": "Mike Thompson",
 "party": "Democratic",
-"votes": 93092,
-"pct": 47.9,
+"votes": 96940,
+"pct": 48.0,
 "winner": false
 }
 ]
@@ -4503,10 +4503,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 86.76,
-"lastUpdated": "2026-11-11T02:09:03.864000Z",
+"eevp": 87.96,
+"lastUpdated": "2026-11-12T14:21:40.216000Z",
 "calledAt": "2026-11-04T07:33:21.419Z",
-"totalVotes": 261325,
+"totalVotes": 261354,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -4515,14 +4515,14 @@
 {
 "name": "Tom McClintock",
 "party": "Republican",
-"votes": 146751,
+"votes": 146768,
 "pct": 56.2,
 "winner": true
 },
 {
 "name": "Michael Masuda",
 "party": "Democratic",
-"votes": 114574,
+"votes": 114586,
 "pct": 43.8,
 "winner": false
 }
@@ -4573,10 +4573,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 87.66,
-"lastUpdated": "2026-11-11T00:46:22.034000Z",
+"eevp": 87.72,
+"lastUpdated": "2026-11-12T14:21:40.306000Z",
 "calledAt": "2026-11-11T00:46:22.034Z",
-"totalVotes": 232571,
+"totalVotes": 232730,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -4585,14 +4585,14 @@
 {
 "name": "Doris Matsui",
 "party": "Democratic",
-"votes": 123958,
+"votes": 124027,
 "pct": 53.3,
 "winner": true
 },
 {
 "name": "Mai Vang",
 "party": "Democratic",
-"votes": 108613,
+"votes": 108703,
 "pct": 46.7,
 "winner": false
 }
@@ -4608,10 +4608,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 97.66,
-"lastUpdated": "2026-11-11T01:46:40.178000Z",
+"eevp": 97.69,
+"lastUpdated": "2026-11-12T14:21:40.372000Z",
 "calledAt": "2026-11-04T04:42:42.538Z",
-"totalVotes": 255662,
+"totalVotes": 255739,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -4620,14 +4620,14 @@
 {
 "name": "John Garamendi",
 "party": "Democratic",
-"votes": 187434,
+"votes": 187483,
 "pct": 73.3,
 "winner": true
 },
 {
 "name": "Rudy Recile",
 "party": "Republican",
-"votes": 68228,
+"votes": 68256,
 "pct": 26.7,
 "winner": false
 }
@@ -4643,10 +4643,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 96.46,
-"lastUpdated": "2026-11-11T00:13:34.060000Z",
+"eevp": 97.19,
+"lastUpdated": "2026-11-12T14:21:40.602000Z",
 "calledAt": "2026-11-04T04:41:10.823Z",
-"totalVotes": 208338,
+"totalVotes": 209919,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -4655,15 +4655,15 @@
 {
 "name": "Josh Harder",
 "party": "Democratic",
-"votes": 139355,
-"pct": 66.9,
+"votes": 140542,
+"pct": 67.0,
 "winner": true
 },
 {
 "name": "John McBride",
 "party": "Republican",
-"votes": 68983,
-"pct": 33.1,
+"votes": 69377,
+"pct": 33.0,
 "winner": false
 }
 ]
@@ -4783,10 +4783,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 88.17,
-"lastUpdated": "2026-11-11T02:09:04.289000Z",
+"eevp": 89.11,
+"lastUpdated": "2026-11-12T14:21:40.831000Z",
 "calledAt": "2026-11-04T18:03:14.496Z",
-"totalVotes": 154762,
+"totalVotes": 155069,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -4795,14 +4795,14 @@
 {
 "name": "Adam Gray",
 "party": "Democratic",
-"votes": 95939,
+"votes": 96169,
 "pct": 62.0,
 "winner": true
 },
 {
 "name": "Kevin Lincoln",
 "party": "Republican",
-"votes": 58823,
+"votes": 58900,
 "pct": 38.0,
 "winner": false
 }
@@ -4888,10 +4888,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 87.1,
-"lastUpdated": "2026-11-11T01:59:14.771000Z",
+"eevp": 93.02,
+"lastUpdated": "2026-11-12T15:00:19.903000Z",
 "calledAt": "2026-11-04T05:36:23.781Z",
-"totalVotes": 250044,
+"totalVotes": 267997,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -4900,15 +4900,15 @@
 {
 "name": "Sam Liccardo",
 "party": "Democratic",
-"votes": 193856,
-"pct": 77.5,
+"votes": 208432,
+"pct": 77.8,
 "winner": true
 },
 {
 "name": "Peter Soul\u00e9",
 "party": "Republican",
-"votes": 56188,
-"pct": 22.5,
+"votes": 59565,
+"pct": 22.2,
 "winner": false
 }
 ]
@@ -4923,10 +4923,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 89.06,
-"lastUpdated": "2026-11-11T01:59:11.194000Z",
+"eevp": 95.5,
+"lastUpdated": "2026-11-12T15:00:14.895000Z",
 "calledAt": "2026-11-04T05:33:49.339Z",
-"totalVotes": 193065,
+"totalVotes": 208563,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -4935,15 +4935,15 @@
 {
 "name": "Ro Khanna",
 "party": "Democratic",
-"votes": 139688,
-"pct": 72.4,
+"votes": 151527,
+"pct": 72.7,
 "winner": true
 },
 {
 "name": "Ritesh Tandon",
 "party": "Republican",
-"votes": 53377,
-"pct": 27.6,
+"votes": 57036,
+"pct": 27.3,
 "winner": false
 }
 ]
@@ -4958,10 +4958,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 86.79,
-"lastUpdated": "2026-11-11T02:08:58.851000Z",
+"eevp": 91.02,
+"lastUpdated": "2026-11-12T15:00:17.586000Z",
 "calledAt": "2026-11-04T04:57:26.923Z",
-"totalVotes": 175873,
+"totalVotes": 184599,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -4970,15 +4970,15 @@
 {
 "name": "Zoe Lofgren",
 "party": "Democratic",
-"votes": 128549,
-"pct": 73.1,
+"votes": 135477,
+"pct": 73.4,
 "winner": true
 },
 {
 "name": "Shane Lewis",
 "party": "Republican",
-"votes": 47324,
-"pct": 26.9,
+"votes": 49122,
+"pct": 26.6,
 "winner": false
 }
 ]
@@ -4993,10 +4993,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 88.21,
-"lastUpdated": "2026-11-11T01:59:11.762000Z",
+"eevp": 90.85,
+"lastUpdated": "2026-11-12T15:00:24.132000Z",
 "calledAt": "2026-11-04T04:48:52.128Z",
-"totalVotes": 283250,
+"totalVotes": 294117,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -5005,14 +5005,14 @@
 {
 "name": "Jimmy Panetta",
 "party": "Democratic",
-"votes": 206452,
+"votes": 214428,
 "pct": 72.9,
 "winner": true
 },
 {
 "name": "Peter Verbica",
 "party": "Republican",
-"votes": 76798,
+"votes": 79689,
 "pct": 27.1,
 "winner": false
 }
@@ -5028,10 +5028,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 77.82,
-"lastUpdated": "2026-11-11T02:08:58.508000Z",
+"eevp": 82.31,
+"lastUpdated": "2026-11-12T14:56:06.198000Z",
 "calledAt": "2026-11-04T04:36:35.180Z",
-"totalVotes": 223291,
+"totalVotes": 231045,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -5040,15 +5040,15 @@
 {
 "name": "Vince Fong",
 "party": "Republican",
-"votes": 137560,
-"pct": 61.6,
+"votes": 141898,
+"pct": 61.4,
 "winner": true
 },
 {
 "name": "Sandra Van Scotter",
 "party": "Democratic",
-"votes": 85731,
-"pct": 38.4,
+"votes": 89147,
+"pct": 38.6,
 "winner": false
 }
 ]
@@ -5063,10 +5063,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 80.66,
-"lastUpdated": "2026-11-11T02:09:04.623000Z",
+"eevp": 82.66,
+"lastUpdated": "2026-11-12T14:56:07.425000Z",
 "calledAt": "2026-11-04T04:31:38.456Z",
-"totalVotes": 136362,
+"totalVotes": 139898,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -5075,14 +5075,14 @@
 {
 "name": "Jim Costa",
 "party": "Democratic",
-"votes": 87391,
+"votes": 89638,
 "pct": 64.1,
 "winner": true
 },
 {
 "name": "Kyle Kirkland",
 "party": "Republican",
-"votes": 48971,
+"votes": 50260,
 "pct": 35.9,
 "winner": false
 }
@@ -5098,10 +5098,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": true,
-"eevp": 80.5,
-"lastUpdated": "2026-11-11T02:08:58.331000Z",
+"eevp": 83.07,
+"lastUpdated": "2026-11-12T14:56:09.274000Z",
 "calledAt": "2026-11-04T18:17:49.897Z",
-"totalVotes": 134458,
+"totalVotes": 137123,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -5110,14 +5110,14 @@
 {
 "name": "Randy Villegas",
 "party": "Democratic",
-"votes": 91305,
+"votes": 93110,
 "pct": 67.9,
 "winner": true
 },
 {
 "name": "David Valadao",
 "party": "Republican",
-"votes": 43153,
+"votes": 44013,
 "pct": 32.1,
 "winner": false
 }
@@ -5133,10 +5133,10 @@
 "apStatus": "Too Early to Call",
 "special": false,
 "flipped": false,
-"eevp": 95.18,
-"lastUpdated": "2026-11-11T01:54:59.948000Z",
+"eevp": 95,
+"lastUpdated": "2026-11-12T14:05:15.320000Z",
 "calledAt": null,
-"totalVotes": 209219,
+"totalVotes": 209757,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -5145,14 +5145,14 @@
 {
 "name": "Jay Obernolte",
 "party": "Republican",
-"votes": 106453,
+"votes": 106793,
 "pct": 50.9,
 "winner": false
 },
 {
 "name": "Tessa Hodge",
 "party": "Democratic",
-"votes": 102766,
+"votes": 102964,
 "pct": 49.1,
 "winner": false
 }
@@ -5203,10 +5203,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 70.43,
-"lastUpdated": "2026-11-11T01:55:03.992000Z",
+"eevp": 76.01,
+"lastUpdated": "2026-11-12T14:05:20.941000Z",
 "calledAt": "2026-11-04T06:12:47.012Z",
-"totalVotes": 174928,
+"totalVotes": 186368,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -5215,15 +5215,15 @@
 {
 "name": "Raul Ruiz",
 "party": "Democratic",
-"votes": 114273,
-"pct": 65.3,
+"votes": 122348,
+"pct": 65.6,
 "winner": true
 },
 {
 "name": "Joe Males",
 "party": "Republican",
-"votes": 60655,
-"pct": 34.7,
+"votes": 64020,
+"pct": 34.4,
 "winner": false
 }
 ]
@@ -5309,7 +5309,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.1,
-"lastUpdated": "2026-11-11T01:54:56.574000Z",
+"lastUpdated": "2026-11-12T14:04:49.160000Z",
 "calledAt": "2026-11-04T04:52:44.733Z",
 "totalVotes": 258958,
 "official": {
@@ -5414,7 +5414,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.17,
-"lastUpdated": "2026-11-11T01:54:58.467000Z",
+"lastUpdated": "2026-11-12T14:04:46.922000Z",
 "calledAt": "2026-11-04T04:50:02.724Z",
 "totalVotes": 236365,
 "official": {
@@ -5483,10 +5483,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 96.54,
-"lastUpdated": "2026-11-11T01:55:03.050000Z",
+"eevp": 96.87,
+"lastUpdated": "2026-11-12T14:05:16.885000Z",
 "calledAt": "2026-11-04T04:52:28.234Z",
-"totalVotes": 198826,
+"totalVotes": 199189,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -5495,14 +5495,14 @@
 {
 "name": "Pete Aguilar",
 "party": "Democratic",
-"votes": 136873,
+"votes": 137089,
 "pct": 68.8,
 "winner": true
 },
 {
 "name": "Stephanie Vargas",
 "party": "Republican",
-"votes": 61953,
+"votes": 62100,
 "pct": 31.2,
 "winner": false
 }
@@ -5553,10 +5553,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 90.94,
-"lastUpdated": "2026-11-11T01:55:02.955000Z",
+"eevp": 92.97,
+"lastUpdated": "2026-11-12T14:05:17.313000Z",
 "calledAt": "2026-11-04T05:09:35.262Z",
-"totalVotes": 191685,
+"totalVotes": 196550,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -5565,15 +5565,15 @@
 {
 "name": "Norma Torres",
 "party": "Democratic",
-"votes": 128749,
-"pct": 67.2,
+"votes": 131762,
+"pct": 67.0,
 "winner": true
 },
 {
 "name": "Mike Cargile",
 "party": "Republican",
-"votes": 62936,
-"pct": 32.8,
+"votes": 64788,
+"pct": 33.0,
 "winner": false
 }
 ]
@@ -5658,10 +5658,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 97.16,
-"lastUpdated": "2026-11-11T01:53:58.873000Z",
+"eevp": 97.42,
+"lastUpdated": "2026-11-12T14:50:48.802000Z",
 "calledAt": "2026-11-04T04:55:12.583Z",
-"totalVotes": 213077,
+"totalVotes": 214384,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -5670,15 +5670,15 @@
 {
 "name": "Hilda Solis",
 "party": "Democratic",
-"votes": 143779,
-"pct": 67.5,
+"votes": 144466,
+"pct": 67.4,
 "winner": true
 },
 {
 "name": "Pedro Casas",
 "party": "Republican",
-"votes": 69298,
-"pct": 32.5,
+"votes": 69918,
+"pct": 32.6,
 "winner": false
 }
 ]
@@ -5693,10 +5693,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 68.01,
-"lastUpdated": "2026-11-11T01:48:59.744000Z",
+"eevp": 74.48,
+"lastUpdated": "2026-11-12T14:05:22.548000Z",
 "calledAt": "2026-11-04T06:11:44.245Z",
-"totalVotes": 135031,
+"totalVotes": 149966,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -5705,15 +5705,15 @@
 {
 "name": "Mark Takano",
 "party": "Democratic",
-"votes": 91182,
-"pct": 67.5,
+"votes": 101654,
+"pct": 67.8,
 "winner": true
 },
 {
 "name": "Steve Manos",
 "party": "Republican",
-"votes": 43849,
-"pct": 32.5,
+"votes": 48312,
+"pct": 32.2,
 "winner": false
 }
 ]
@@ -5728,10 +5728,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 77.67,
-"lastUpdated": "2026-11-11T01:49:01.668000Z",
+"eevp": 83.21,
+"lastUpdated": "2026-11-12T14:50:48.313000Z",
 "calledAt": "2026-11-10T02:31:06.944Z",
-"totalVotes": 201613,
+"totalVotes": 219403,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -5740,15 +5740,15 @@
 {
 "name": "Ken Calvert",
 "party": "Republican",
-"votes": 107582,
-"pct": 53.4,
+"votes": 116486,
+"pct": 53.1,
 "winner": true
 },
 {
 "name": "Young Kim",
 "party": "Republican",
-"votes": 94031,
-"pct": 46.6,
+"votes": 102917,
+"pct": 46.9,
 "winner": false
 }
 ]
@@ -5763,10 +5763,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": true,
-"eevp": 97.95,
-"lastUpdated": "2026-11-11T01:54:13.536000Z",
+"eevp": 97.59,
+"lastUpdated": "2026-11-12T14:50:49.908000Z",
 "calledAt": "2026-11-04T05:39:23.555Z",
-"totalVotes": 250411,
+"totalVotes": 251547,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -5775,14 +5775,14 @@
 {
 "name": "Linda S\u00e1nchez",
 "party": "Democratic",
-"votes": 169056,
+"votes": 169833,
 "pct": 67.5,
 "winner": true
 },
 {
 "name": "Mitch Clemmons",
 "party": "Republican",
-"votes": 81355,
+"votes": 81714,
 "pct": 32.5,
 "winner": false
 }
@@ -5798,10 +5798,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 96.19,
-"lastUpdated": "2026-11-11T01:54:04.673000Z",
+"eevp": 96.13,
+"lastUpdated": "2026-11-12T14:50:49.635000Z",
 "calledAt": "2026-11-04T06:23:19.545Z",
-"totalVotes": 275806,
+"totalVotes": 280709,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -5810,14 +5810,14 @@
 {
 "name": "Robert Garcia",
 "party": "Democratic",
-"votes": 170793,
+"votes": 173678,
 "pct": 61.9,
 "winner": true
 },
 {
 "name": "Brian Burley",
 "party": "Republican",
-"votes": 105013,
+"votes": 107031,
 "pct": 38.1,
 "winner": false
 }
@@ -5903,10 +5903,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 96.01,
-"lastUpdated": "2026-11-11T01:53:44.846000Z",
+"eevp": 95.46,
+"lastUpdated": "2026-11-12T14:50:52.899000Z",
 "calledAt": "2026-11-04T06:57:25.358Z",
-"totalVotes": 242213,
+"totalVotes": 246376,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -5915,15 +5915,15 @@
 {
 "name": "Derek Tran",
 "party": "Democratic",
-"votes": 147168,
-"pct": 60.8,
+"votes": 150077,
+"pct": 60.9,
 "winner": true
 },
 {
 "name": "Chuong Vo",
 "party": "Republican",
-"votes": 95045,
-"pct": 39.2,
+"votes": 96299,
+"pct": 39.1,
 "winner": false
 }
 ]
@@ -5938,10 +5938,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 95.14,
-"lastUpdated": "2026-11-11T01:14:42.162000Z",
+"eevp": 94.74,
+"lastUpdated": "2026-11-12T14:50:49.821000Z",
 "calledAt": "2026-11-04T04:49:41.849Z",
-"totalVotes": 187040,
+"totalVotes": 193143,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -5950,15 +5950,15 @@
 {
 "name": "Lou Correa",
 "party": "Democratic",
-"votes": 133047,
-"pct": 71.1,
+"votes": 137985,
+"pct": 71.4,
 "winner": true
 },
 {
 "name": "David Pan",
 "party": "Republican",
-"votes": 53993,
-"pct": 28.9,
+"votes": 55158,
+"pct": 28.6,
 "winner": false
 }
 ]
@@ -5973,10 +5973,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 93.85,
-"lastUpdated": "2026-11-11T01:14:40.712000Z",
+"eevp": 94.74,
+"lastUpdated": "2026-11-12T14:50:56.314000Z",
 "calledAt": "2026-11-05T01:15:59.925Z",
-"totalVotes": 275873,
+"totalVotes": 282725,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -5985,15 +5985,15 @@
 {
 "name": "Dave Min",
 "party": "Democratic",
-"votes": 160913,
-"pct": 58.3,
+"votes": 165366,
+"pct": 58.5,
 "winner": true
 },
 {
 "name": "Jenny Rae Le Roux",
 "party": "Republican",
-"votes": 114960,
-"pct": 41.7,
+"votes": 117359,
+"pct": 41.5,
 "winner": false
 }
 ]
@@ -6008,10 +6008,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": true,
-"eevp": 76.09,
-"lastUpdated": "2026-11-11T01:56:58.913000Z",
+"eevp": 81.29,
+"lastUpdated": "2026-11-12T14:05:12.658000Z",
 "calledAt": "2026-11-05T01:32:45.566Z",
-"totalVotes": 235560,
+"totalVotes": 245795,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -6020,15 +6020,15 @@
 {
 "name": "Marni von Wilpert",
 "party": "Democratic",
-"votes": 140896,
-"pct": 59.8,
+"votes": 146787,
+"pct": 59.7,
 "winner": true
 },
 {
 "name": "Jim Desmond",
 "party": "Republican",
-"votes": 94664,
-"pct": 40.2,
+"votes": 99008,
+"pct": 40.3,
 "winner": false
 }
 ]
@@ -6043,10 +6043,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 87.24,
-"lastUpdated": "2026-11-11T01:56:54.963000Z",
+"eevp": 90.88,
+"lastUpdated": "2026-11-12T14:50:53.064000Z",
 "calledAt": "2026-11-04T07:13:34.674Z",
-"totalVotes": 298580,
+"totalVotes": 299845,
 "official": {
 "label": "California Secretary of State \u2014 election results",
 "href": "https://electionresults.sos.ca.gov/"
@@ -6055,14 +6055,14 @@
 {
 "name": "Mike Levin",
 "party": "Democratic",
-"votes": 175764,
+"votes": 176470,
 "pct": 58.9,
 "winner": true
 },
 {
 "name": "Armen Kurdian",
 "party": "Republican",
-"votes": 122816,
+"votes": 123375,
 "pct": 41.1,
 "winner": false
 }
@@ -6078,8 +6078,8 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 87.07,
-"lastUpdated": "2026-11-11T01:57:03.556000Z",
+"eevp": 90,
+"lastUpdated": "2026-11-12T14:04:47.547000Z",
 "calledAt": "2026-11-04T06:12:18.732Z",
 "totalVotes": 283802,
 "official": {
@@ -6113,8 +6113,8 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 90.18,
-"lastUpdated": "2026-11-11T01:56:59.752000Z",
+"eevp": 90,
+"lastUpdated": "2026-11-12T14:04:47.195000Z",
 "calledAt": "2026-11-04T06:07:54.740Z",
 "totalVotes": 264119,
 "official": {
@@ -6148,8 +6148,8 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 90.23,
-"lastUpdated": "2026-11-11T01:56:55.173000Z",
+"eevp": 90,
+"lastUpdated": "2026-11-12T14:04:46.715000Z",
 "calledAt": "2026-11-04T04:45:51.621Z",
 "totalVotes": 200164,
 "official": {
@@ -6331,7 +6331,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.08,
-"lastUpdated": "2026-11-11T00:54:35.030000Z",
+"lastUpdated": "2026-11-11T22:36:27.008000Z",
 "calledAt": null,
 "totalVotes": 381689,
 "official": {
@@ -8578,9 +8578,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-11T18:55:09.559000Z",
+"lastUpdated": "2026-11-11T20:03:22.048000Z",
 "calledAt": "2026-11-04T08:49:18.630Z",
-"totalVotes": 330714,
+"totalVotes": 330667,
 "official": {
 "label": "Vote Idaho \u2014 election results",
 "href": "https://voteidaho.gov/election-results/"
@@ -8589,21 +8589,21 @@
 {
 "name": "Mike Simpson",
 "party": "Republican",
-"votes": 170899,
+"votes": 170868,
 "pct": 51.7,
 "winner": true
 },
 {
 "name": "Ellie Gilbreath",
 "party": "Democratic",
-"votes": 133169,
+"votes": 133156,
 "pct": 40.3,
 "winner": false
 },
 {
 "name": "Tripp Hutchinson",
 "party": "Independent",
-"votes": 11643,
+"votes": 11641,
 "pct": 3.5,
 "winner": false
 },
@@ -8617,7 +8617,7 @@
 {
 "name": "Will Johanson",
 "party": "Libertarian",
-"votes": 7146,
+"votes": 7145,
 "pct": 2.2,
 "winner": false
 }
@@ -8633,10 +8633,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 94.98,
-"lastUpdated": "2026-11-11T17:11:41.294000Z",
+"eevp": 95.21,
+"lastUpdated": "2026-11-11T23:33:08.436000Z",
 "calledAt": "2026-11-04T01:58:49.240Z",
-"totalVotes": 233669,
+"totalVotes": 234223,
 "official": {
 "label": "Illinois State Board of Elections",
 "href": "https://www.elections.il.gov/"
@@ -8645,14 +8645,14 @@
 {
 "name": "Jonathan Jackson",
 "party": "Democratic",
-"votes": 167964,
+"votes": 168483,
 "pct": 71.9,
 "winner": true
 },
 {
 "name": "Christian Maxwell",
 "party": "Republican",
-"votes": 65705,
+"votes": 65740,
 "pct": 28.1,
 "winner": false
 }
@@ -8703,10 +8703,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 95.84,
-"lastUpdated": "2026-11-11T17:12:32.606000Z",
+"eevp": 98.31,
+"lastUpdated": "2026-11-11T23:33:51.802000Z",
 "calledAt": "2026-11-04T03:00:08.631Z",
-"totalVotes": 195763,
+"totalVotes": 200806,
 "official": {
 "label": "Illinois State Board of Elections",
 "href": "https://www.elections.il.gov/"
@@ -8715,15 +8715,15 @@
 {
 "name": "Delia Ramirez",
 "party": "Democratic",
-"votes": 150595,
-"pct": 76.9,
+"votes": 155315,
+"pct": 77.3,
 "winner": true
 },
 {
 "name": "Angel Oakley",
 "party": "Republican",
-"votes": 45168,
-"pct": 23.1,
+"votes": 45491,
+"pct": 22.7,
 "winner": false
 }
 ]
@@ -8787,10 +8787,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 95.4,
-"lastUpdated": "2026-11-11T17:15:01.074000Z",
+"eevp": 97.07,
+"lastUpdated": "2026-11-11T23:34:45.725000Z",
 "calledAt": "2026-11-04T02:09:33.222Z",
-"totalVotes": 266472,
+"totalVotes": 271136,
 "official": {
 "label": "Illinois State Board of Elections",
 "href": "https://www.elections.il.gov/"
@@ -8799,15 +8799,15 @@
 {
 "name": "Mike Quigley",
 "party": "Democratic",
-"votes": 204480,
-"pct": 76.7,
+"votes": 208785,
+"pct": 77.0,
 "winner": true
 },
 {
 "name": "Tommy Hanson",
 "party": "Republican",
-"votes": 61992,
-"pct": 23.3,
+"votes": 62351,
+"pct": 23.0,
 "winner": false
 }
 ]
@@ -8822,10 +8822,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 96.95,
-"lastUpdated": "2026-11-11T17:15:32.610000Z",
+"eevp": 97.14,
+"lastUpdated": "2026-11-11T23:35:02.192000Z",
 "calledAt": "2026-11-04T03:37:12.313Z",
-"totalVotes": 263963,
+"totalVotes": 264475,
 "official": {
 "label": "Illinois State Board of Elections",
 "href": "https://www.elections.il.gov/"
@@ -8834,14 +8834,14 @@
 {
 "name": "Sean Casten",
 "party": "Democratic",
-"votes": 165476,
+"votes": 165885,
 "pct": 62.7,
 "winner": true
 },
 {
 "name": "Niki Conforti",
 "party": "Republican",
-"votes": 98487,
+"votes": 98590,
 "pct": 37.3,
 "winner": false
 }
@@ -8857,10 +8857,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 95.26,
-"lastUpdated": "2026-11-11T17:16:16.745000Z",
+"eevp": 97.69,
+"lastUpdated": "2026-11-11T23:35:30.435000Z",
 "calledAt": "2026-11-04T01:54:24.491Z",
-"totalVotes": 196419,
+"totalVotes": 201430,
 "official": {
 "label": "Illinois State Board of Elections",
 "href": "https://www.elections.il.gov/"
@@ -8869,15 +8869,15 @@
 {
 "name": "La Shawn Ford",
 "party": "Democratic",
-"votes": 175091,
-"pct": 89.1,
+"votes": 179704,
+"pct": 89.2,
 "winner": true
 },
 {
 "name": "Chad Koppie",
 "party": "Republican",
-"votes": 21328,
-"pct": 10.9,
+"votes": 21726,
+"pct": 10.8,
 "winner": false
 }
 ]
@@ -8927,10 +8927,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 96.13,
-"lastUpdated": "2026-11-11T17:17:05.331000Z",
+"eevp": 97.32,
+"lastUpdated": "2026-11-11T23:35:55.569000Z",
 "calledAt": "2026-11-04T01:50:30.692Z",
-"totalVotes": 254055,
+"totalVotes": 257182,
 "official": {
 "label": "Illinois State Board of Elections",
 "href": "https://www.elections.il.gov/"
@@ -8939,15 +8939,15 @@
 {
 "name": "Daniel Biss",
 "party": "Democratic",
-"votes": 194238,
-"pct": 76.5,
+"votes": 197279,
+"pct": 76.7,
 "winner": true
 },
 {
 "name": "John Elleson",
 "party": "Republican",
-"votes": 59817,
-"pct": 23.5,
+"votes": 59903,
+"pct": 23.3,
 "winner": false
 }
 ]
@@ -9740,7 +9740,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.57,
-"lastUpdated": "2026-11-10T17:55:35.995000Z",
+"lastUpdated": "2026-11-11T21:17:31.080000Z",
 "calledAt": "2026-11-04T04:13:55.358Z",
 "totalVotes": 253318,
 "official": {
@@ -9866,7 +9866,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.29,
-"lastUpdated": "2026-11-11T15:25:25.633000Z",
+"lastUpdated": "2026-11-11T22:47:22.220000Z",
 "calledAt": "2026-11-04T04:10:21.984Z",
 "totalVotes": 260121,
 "official": {
@@ -11007,9 +11007,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-09T17:06:13.638000Z",
+"lastUpdated": "2026-11-11T20:13:22.792000Z",
 "calledAt": "2026-11-04T03:18:11.300Z",
-"totalVotes": 258068,
+"totalVotes": 260190,
 "official": {
 "label": "Massachusetts Secretary of the Commonwealth \u2014 election statistics",
 "href": "https://electionstats.state.ma.us/"
@@ -11018,21 +11018,21 @@
 {
 "name": "Lori Trahan",
 "party": "Democratic",
-"votes": 173329,
+"votes": 174853,
 "pct": 67.2,
 "winner": true
 },
 {
 "name": "Gary Grossi",
 "party": "Republican",
-"votes": 78297,
+"votes": 78849,
 "pct": 30.3,
 "winner": false
 },
 {
 "name": "Dennis Conlon",
 "party": "Unr",
-"votes": 6442,
+"votes": 6488,
 "pct": 2.5,
 "winner": false
 }
@@ -11252,7 +11252,7 @@
 "special": false,
 "flipped": false,
 "eevp": 97.65,
-"lastUpdated": "2026-11-10T21:25:35.319000Z",
+"lastUpdated": "2026-11-11T22:54:05.775000Z",
 "calledAt": "2026-11-04T06:09:29.238Z",
 "totalVotes": 404877,
 "official": {
@@ -12301,10 +12301,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 98.04,
-"lastUpdated": "2026-11-11T17:19:29.251000Z",
+"eevp": 98.61,
+"lastUpdated": "2026-11-12T15:05:23.967000Z",
 "calledAt": "2026-11-04T03:05:36.317Z",
-"totalVotes": 240020,
+"totalVotes": 241665,
 "official": {
 "label": "Mississippi Secretary of State \u2014 election results",
 "href": "https://www.sos.ms.gov/elections-voting/election-results"
@@ -12313,21 +12313,21 @@
 {
 "name": "Trent Kelly",
 "party": "Republican",
-"votes": 139986,
-"pct": 58.3,
+"votes": 140390,
+"pct": 58.1,
 "winner": true
 },
 {
 "name": "Cliff Johnson",
 "party": "Democratic",
-"votes": 96685,
-"pct": 40.3,
+"votes": 97897,
+"pct": 40.5,
 "winner": false
 },
 {
 "name": "Johnny Baucom",
 "party": "Libertarian",
-"votes": 3349,
+"votes": 3378,
 "pct": 1.4,
 "winner": false
 }
@@ -12343,10 +12343,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 98.28,
-"lastUpdated": "2026-11-11T17:41:54.949000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-11T23:16:58.940000Z",
 "calledAt": "2026-11-04T02:45:41.646Z",
-"totalVotes": 245206,
+"totalVotes": 246114,
 "official": {
 "label": "Mississippi Secretary of State \u2014 election results",
 "href": "https://www.sos.ms.gov/elections-voting/election-results"
@@ -12355,21 +12355,21 @@
 {
 "name": "Bennie Thompson",
 "party": "Democratic",
-"votes": 165861,
-"pct": 67.6,
+"votes": 166636,
+"pct": 67.7,
 "winner": true
 },
 {
 "name": "Ron Eller",
 "party": "Republican",
-"votes": 73433,
+"votes": 73538,
 "pct": 29.9,
 "winner": false
 },
 {
 "name": "Bennie Foster",
 "party": "Independent",
-"votes": 5912,
+"votes": 5940,
 "pct": 2.4,
 "winner": false
 }
@@ -12385,10 +12385,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 98.73,
-"lastUpdated": "2026-11-11T17:41:55.066000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-12T15:05:21.507000Z",
 "calledAt": "2026-11-04T03:21:31.654Z",
-"totalVotes": 253996,
+"totalVotes": 254070,
 "official": {
 "label": "Mississippi Secretary of State \u2014 election results",
 "href": "https://www.sos.ms.gov/elections-voting/election-results"
@@ -12397,21 +12397,21 @@
 {
 "name": "Michael Guest",
 "party": "Republican",
-"votes": 145910,
+"votes": 145935,
 "pct": 57.4,
 "winner": true
 },
 {
 "name": "Michael Chiaradio",
 "party": "Democratic",
-"votes": 104903,
+"votes": 104951,
 "pct": 41.3,
 "winner": false
 },
 {
 "name": "Erik Kiehle",
 "party": "Libertarian",
-"votes": 3183,
+"votes": 3184,
 "pct": 1.3,
 "winner": false
 }
@@ -12427,10 +12427,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 97.97,
-"lastUpdated": "2026-11-11T14:36:53.730000Z",
+"eevp": 98.69,
+"lastUpdated": "2026-11-11T23:17:12.064000Z",
 "calledAt": "2026-11-04T02:45:53.947Z",
-"totalVotes": 215363,
+"totalVotes": 217531,
 "official": {
 "label": "Mississippi Secretary of State \u2014 election results",
 "href": "https://www.sos.ms.gov/elections-voting/election-results"
@@ -12439,21 +12439,21 @@
 {
 "name": "Mike Ezell",
 "party": "Republican",
-"votes": 131554,
-"pct": 61.1,
+"votes": 132674,
+"pct": 61.0,
 "winner": true
 },
 {
 "name": "Jeffrey Hulum",
 "party": "Democratic",
-"votes": 77194,
-"pct": 35.8,
+"votes": 78189,
+"pct": 35.9,
 "winner": false
 },
 {
 "name": "Carl Boyanton",
 "party": "Independent",
-"votes": 6615,
+"votes": 6668,
 "pct": 3.1,
 "winner": false
 }
@@ -12945,10 +12945,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": true,
-"eevp": 97.22,
-"lastUpdated": "2026-11-11T17:55:22.588000Z",
+"eevp": 97.23,
+"lastUpdated": "2026-11-12T15:04:41.875000Z",
 "calledAt": "2026-11-04T04:57:07.866Z",
-"totalVotes": 256552,
+"totalVotes": 256577,
 "official": {
 "label": "Nebraska Secretary of State \u2014 election results",
 "href": "https://electionresults.nebraska.gov/"
@@ -12957,21 +12957,21 @@
 {
 "name": "Denise Powell",
 "party": "Democratic",
-"votes": 145396,
+"votes": 145402,
 "pct": 56.7,
 "winner": true
 },
 {
 "name": "Brinker Harding",
 "party": "Republican",
-"votes": 104480,
+"votes": 104498,
 "pct": 40.7,
 "winner": false
 },
 {
 "name": "Eric Foreman",
 "party": "Libertarian",
-"votes": 6676,
+"votes": 6677,
 "pct": 2.6,
 "winner": false
 }
@@ -13093,7 +13093,7 @@
 "special": false,
 "flipped": true,
 "eevp": 97.74,
-"lastUpdated": "2026-11-11T17:15:29.445000Z",
+"lastUpdated": "2026-11-12T02:57:19.944000Z",
 "calledAt": "2026-11-05T02:29:25.426Z",
 "totalVotes": 321134,
 "official": {
@@ -14710,7 +14710,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.05,
-"lastUpdated": "2026-11-10T18:51:33.962000Z",
+"lastUpdated": "2026-11-11T20:45:07.903000Z",
 "calledAt": "2026-11-04T02:40:01.275Z",
 "totalVotes": 294393,
 "official": {
@@ -14752,7 +14752,7 @@
 "special": false,
 "flipped": false,
 "eevp": 96.09,
-"lastUpdated": "2026-11-10T23:03:39.179000Z",
+"lastUpdated": "2026-11-11T20:45:11.097000Z",
 "calledAt": "2026-11-04T03:40:40.251Z",
 "totalVotes": 286967,
 "official": {
@@ -15704,7 +15704,7 @@
 "special": false,
 "flipped": false,
 "eevp": 97.7,
-"lastUpdated": "2026-11-10T19:05:47.875000Z",
+"lastUpdated": "2026-11-11T21:03:34.465000Z",
 "calledAt": "2026-11-04T02:06:02.943Z",
 "totalVotes": 273203,
 "official": {
@@ -15774,7 +15774,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.1,
-"lastUpdated": "2026-11-10T20:28:01.978000Z",
+"lastUpdated": "2026-11-11T20:56:49.138000Z",
 "calledAt": "2026-11-04T01:58:47.082Z",
 "totalVotes": 305586,
 "official": {
@@ -16075,7 +16075,7 @@
 "special": false,
 "flipped": false,
 "eevp": 97.7,
-"lastUpdated": "2026-11-10T16:42:29.110000Z",
+"lastUpdated": "2026-11-11T19:27:40.772000Z",
 "calledAt": "2026-11-04T02:35:31.538Z",
 "totalVotes": 323137,
 "official": {
@@ -16152,7 +16152,7 @@
 "special": false,
 "flipped": false,
 "eevp": 98.08,
-"lastUpdated": "2026-11-11T15:40:33.976000Z",
+"lastUpdated": "2026-11-11T20:09:36.985000Z",
 "calledAt": "2026-11-04T03:06:01.335Z",
 "totalVotes": 326118,
 "official": {
@@ -16803,9 +16803,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-10T15:33:22.451000Z",
+"lastUpdated": "2026-11-12T15:03:51.972000Z",
 "calledAt": "2026-11-04T01:48:29.148Z",
-"totalVotes": 344921,
+"totalVotes": 345120,
 "official": {
 "label": "Pennsylvania Department of State \u2014 election returns",
 "href": "https://www.electionreturns.pa.gov/"
@@ -16814,14 +16814,14 @@
 {
 "name": "Madeleine Dean",
 "party": "Democratic",
-"votes": 231451,
+"votes": 231583,
 "pct": 67.1,
 "winner": true
 },
 {
 "name": "Aurora Stuski",
 "party": "Republican",
-"votes": 113470,
+"votes": 113537,
 "pct": 32.9,
 "winner": false
 }
@@ -16838,9 +16838,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-10T15:33:24.640000Z",
+"lastUpdated": "2026-11-12T15:04:12.479000Z",
 "calledAt": "2026-11-04T01:44:53.714Z",
-"totalVotes": 296248,
+"totalVotes": 298215,
 "official": {
 "label": "Pennsylvania Department of State \u2014 election returns",
 "href": "https://www.electionreturns.pa.gov/"
@@ -16849,15 +16849,15 @@
 {
 "name": "Mary Scanlon",
 "party": "Democratic",
-"votes": 213515,
-"pct": 72.1,
+"votes": 215217,
+"pct": 72.2,
 "winner": true
 },
 {
 "name": "Nick Manganaro",
 "party": "Republican",
-"votes": 82733,
-"pct": 27.9,
+"votes": 82998,
+"pct": 27.8,
 "winner": false
 }
 ]
@@ -16873,9 +16873,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-11T18:13:46.788000Z",
+"lastUpdated": "2026-11-12T15:04:10.038000Z",
 "calledAt": "2026-11-04T02:17:45.309Z",
-"totalVotes": 311507,
+"totalVotes": 311985,
 "official": {
 "label": "Pennsylvania Department of State \u2014 election returns",
 "href": "https://www.electionreturns.pa.gov/"
@@ -16884,14 +16884,14 @@
 {
 "name": "Chrissy Houlahan",
 "party": "Democratic",
-"votes": 200783,
+"votes": 201158,
 "pct": 64.5,
 "winner": true
 },
 {
 "name": "Marty Young",
 "party": "Republican",
-"votes": 110724,
+"votes": 110827,
 "pct": 35.5,
 "winner": false
 }
@@ -16908,9 +16908,9 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-10T20:47:08.886000Z",
+"lastUpdated": "2026-11-12T15:04:07.249000Z",
 "calledAt": "2026-11-04T03:27:45.871Z",
-"totalVotes": 293293,
+"totalVotes": 294487,
 "official": {
 "label": "Pennsylvania Department of State \u2014 election returns",
 "href": "https://www.electionreturns.pa.gov/"
@@ -16919,15 +16919,15 @@
 {
 "name": "Bob Brooks",
 "party": "Democratic",
-"votes": 164546,
-"pct": 56.1,
+"votes": 165460,
+"pct": 56.2,
 "winner": true
 },
 {
 "name": "Ryan Mackenzie",
 "party": "Republican",
-"votes": 128747,
-"pct": 43.9,
+"votes": 129027,
+"pct": 43.8,
 "winner": false
 }
 ]
@@ -16978,9 +16978,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-10T22:19:33.814000Z",
+"lastUpdated": "2026-11-12T15:04:11.326000Z",
 "calledAt": "2026-11-04T03:31:29.246Z",
-"totalVotes": 269766,
+"totalVotes": 269850,
 "official": {
 "label": "Pennsylvania Department of State \u2014 election returns",
 "href": "https://www.electionreturns.pa.gov/"
@@ -16989,14 +16989,14 @@
 {
 "name": "Dan Meuser",
 "party": "Republican",
-"votes": 165922,
+"votes": 165958,
 "pct": 61.5,
 "winner": true
 },
 {
 "name": "Rachel Wallace",
 "party": "Democratic",
-"votes": 103844,
+"votes": 103892,
 "pct": 38.5,
 "winner": false
 }
@@ -17153,9 +17153,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-10T20:49:48.744000Z",
+"lastUpdated": "2026-11-12T14:10:55.916000Z",
 "calledAt": "2026-11-04T03:40:42.605Z",
-"totalVotes": 276897,
+"totalVotes": 276899,
 "official": {
 "label": "Pennsylvania Department of State \u2014 election returns",
 "href": "https://www.electionreturns.pa.gov/"
@@ -17171,7 +17171,7 @@
 {
 "name": "Alan Bradstock",
 "party": "Democratic",
-"votes": 117689,
+"votes": 117691,
 "pct": 42.5,
 "winner": false
 }
@@ -17258,9 +17258,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-10T18:47:10.698000Z",
+"lastUpdated": "2026-11-12T15:04:10.895000Z",
 "calledAt": "2026-11-04T02:01:11.790Z",
-"totalVotes": 331263,
+"totalVotes": 331495,
 "official": {
 "label": "Pennsylvania Department of State \u2014 election returns",
 "href": "https://www.electionreturns.pa.gov/"
@@ -17269,14 +17269,14 @@
 {
 "name": "Chris Deluzio",
 "party": "Democratic",
-"votes": 208296,
+"votes": 208475,
 "pct": 62.9,
 "winner": true
 },
 {
 "name": "Tony Guy",
 "party": "Republican",
-"votes": 122967,
+"votes": 123020,
 "pct": 37.1,
 "winner": false
 }
@@ -19932,9 +19932,9 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-10T22:46:05.489000Z",
+"lastUpdated": "2026-11-11T20:58:12.579000Z",
 "calledAt": "2026-11-05T16:59:33.672Z",
-"totalVotes": 410832,
+"totalVotes": 412179,
 "official": {
 "label": "Virginia Department of Elections \u2014 results and reports",
 "href": "https://www.elections.virginia.gov/resultsreports/"
@@ -19943,21 +19943,21 @@
 {
 "name": "Shannon Taylor",
 "party": "Democratic",
-"votes": 210468,
-"pct": 51.2,
+"votes": 211423,
+"pct": 51.3,
 "winner": true
 },
 {
 "name": "Robert Wittman",
 "party": "Republican",
-"votes": 199358,
+"votes": 199744,
 "pct": 48.5,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 1006,
+"votes": 1012,
 "pct": 0.2,
 "winner": false
 }
@@ -19974,9 +19974,9 @@
 "special": false,
 "flipped": true,
 "eevp": 99,
-"lastUpdated": "2026-11-10T22:32:53.763000Z",
+"lastUpdated": "2026-11-11T20:33:48.235000Z",
 "calledAt": "2026-11-04T04:47:25.620Z",
-"totalVotes": 340141,
+"totalVotes": 340652,
 "official": {
 "label": "Virginia Department of Elections \u2014 results and reports",
 "href": "https://www.elections.virginia.gov/resultsreports/"
@@ -19985,35 +19985,35 @@
 {
 "name": "Elaine Luria",
 "party": "Democratic",
-"votes": 180618,
+"votes": 180981,
 "pct": 53.1,
 "winner": true
 },
 {
 "name": "Jen Kiggans",
 "party": "Republican",
-"votes": 151223,
-"pct": 44.5,
+"votes": 151336,
+"pct": 44.4,
 "winner": false
 },
 {
 "name": "J. Baker",
 "party": "Independent",
-"votes": 4828,
+"votes": 4837,
 "pct": 1.4,
 "winner": false
 },
 {
 "name": "Geral Staten",
 "party": "Independent",
-"votes": 3062,
+"votes": 3087,
 "pct": 0.9,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 410,
+"votes": 411,
 "pct": 0.1,
 "winner": false
 }
@@ -20085,10 +20085,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 98.43,
-"lastUpdated": "2026-11-10T23:29:40.961000Z",
+"eevp": 98.66,
+"lastUpdated": "2026-11-11T20:33:01.638000Z",
 "calledAt": "2026-11-04T01:33:41.774Z",
-"totalVotes": 310453,
+"totalVotes": 311167,
 "official": {
 "label": "Virginia Department of Elections \u2014 results and reports",
 "href": "https://www.elections.virginia.gov/resultsreports/"
@@ -20097,28 +20097,28 @@
 {
 "name": "Jennifer McClellan",
 "party": "Democratic",
-"votes": 224283,
-"pct": 72.2,
+"votes": 224895,
+"pct": 72.3,
 "winner": true
 },
 {
 "name": "Robert Murray",
 "party": "Republican",
-"votes": 81262,
-"pct": 26.2,
+"votes": 81344,
+"pct": 26.1,
 "winner": false
 },
 {
 "name": "Joan Bell",
 "party": "Independent",
-"votes": 4173,
+"votes": 4188,
 "pct": 1.3,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 735,
+"votes": 740,
 "pct": 0.2,
 "winner": false
 }
@@ -20134,10 +20134,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 98.82,
-"lastUpdated": "2026-11-10T22:44:27.189000Z",
+"eevp": 99,
+"lastUpdated": "2026-11-11T20:40:53.509000Z",
 "calledAt": "2026-11-05T16:59:42.774Z",
-"totalVotes": 363744,
+"totalVotes": 366083,
 "official": {
 "label": "Virginia Department of Elections \u2014 results and reports",
 "href": "https://www.elections.virginia.gov/resultsreports/"
@@ -20146,28 +20146,28 @@
 {
 "name": "John McGuire",
 "party": "Republican",
-"votes": 182020,
-"pct": 50.0,
+"votes": 183775,
+"pct": 50.2,
 "winner": true
 },
 {
 "name": "Tom Perriello",
 "party": "Democratic",
-"votes": 175127,
-"pct": 48.1,
+"votes": 175631,
+"pct": 48.0,
 "winner": false
 },
 {
 "name": "Cooke Harvey",
 "party": "Independent",
-"votes": 5875,
+"votes": 5942,
 "pct": 1.6,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 722,
+"votes": 735,
 "pct": 0.2,
 "winner": false
 }
@@ -20184,9 +20184,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-10T23:30:00.533000Z",
+"lastUpdated": "2026-11-11T20:39:59.142000Z",
 "calledAt": "2026-11-04T02:10:30.669Z",
-"totalVotes": 319218,
+"totalVotes": 319348,
 "official": {
 "label": "Virginia Department of Elections \u2014 results and reports",
 "href": "https://www.elections.virginia.gov/resultsreports/"
@@ -20195,14 +20195,14 @@
 {
 "name": "Ben Cline",
 "party": "Republican",
-"votes": 176533,
+"votes": 176575,
 "pct": 55.3,
 "winner": true
 },
 {
 "name": "Beth Macy",
 "party": "Democratic",
-"votes": 142067,
+"votes": 142155,
 "pct": 44.5,
 "winner": false
 },
@@ -20226,9 +20226,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-10T22:32:43.688000Z",
+"lastUpdated": "2026-11-11T20:43:05.357000Z",
 "calledAt": "2026-11-04T01:40:22.097Z",
-"totalVotes": 324496,
+"totalVotes": 324483,
 "official": {
 "label": "Virginia Department of Elections \u2014 results and reports",
 "href": "https://www.elections.virginia.gov/resultsreports/"
@@ -20237,14 +20237,14 @@
 {
 "name": "Eugene Vindman",
 "party": "Democratic",
-"votes": 194254,
+"votes": 194248,
 "pct": 59.9,
 "winner": true
 },
 {
 "name": "Doug Ollivant",
 "party": "Republican",
-"votes": 121891,
+"votes": 121884,
 "pct": 37.6,
 "winner": false
 },
@@ -20352,9 +20352,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-10T22:32:46.458000Z",
+"lastUpdated": "2026-11-11T20:40:49.517000Z",
 "calledAt": "2026-11-04T01:29:35.869Z",
-"totalVotes": 295519,
+"totalVotes": 295713,
 "official": {
 "label": "Virginia Department of Elections \u2014 results and reports",
 "href": "https://www.elections.virginia.gov/resultsreports/"
@@ -20363,21 +20363,21 @@
 {
 "name": "H. Griffith",
 "party": "Republican",
-"votes": 194622,
+"votes": 194729,
 "pct": 65.9,
 "winner": true
 },
 {
 "name": "Joy Powers",
 "party": "Democratic",
-"votes": 100295,
+"votes": 100381,
 "pct": 33.9,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 602,
+"votes": 603,
 "pct": 0.2,
 "winner": false
 }
@@ -20394,9 +20394,9 @@
 "special": false,
 "flipped": false,
 "eevp": 99,
-"lastUpdated": "2026-11-10T22:32:46.096000Z",
+"lastUpdated": "2026-11-11T20:25:45.018000Z",
 "calledAt": "2026-11-04T01:03:36.123Z",
-"totalVotes": 334672,
+"totalVotes": 334863,
 "official": {
 "label": "Virginia Department of Elections \u2014 results and reports",
 "href": "https://www.elections.virginia.gov/resultsreports/"
@@ -20405,28 +20405,28 @@
 {
 "name": "Suhas Subramanyam",
 "party": "Democratic",
-"votes": 206101,
+"votes": 206254,
 "pct": 61.6,
 "winner": true
 },
 {
 "name": "Dave Beckwith",
 "party": "Republican",
-"votes": 121818,
+"votes": 121847,
 "pct": 36.4,
 "winner": false
 },
 {
 "name": "Ahsen Malik",
 "party": "Independent",
-"votes": 6098,
+"votes": 6105,
 "pct": 1.8,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 655,
+"votes": 657,
 "pct": 0.2,
 "winner": false
 }
@@ -20491,10 +20491,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 97.83,
-"lastUpdated": "2026-11-11T02:33:17.255000Z",
+"eevp": 98.1,
+"lastUpdated": "2026-11-11T23:50:29.537000Z",
 "calledAt": "2026-11-04T04:38:49.721Z",
-"totalVotes": 291346,
+"totalVotes": 292098,
 "official": {
 "label": "Washington Secretary of State \u2014 election results",
 "href": "https://results.vote.wa.gov/"
@@ -20503,21 +20503,21 @@
 {
 "name": "Suzan DelBene",
 "party": "Democratic",
-"votes": 196260,
+"votes": 196859,
 "pct": 67.4,
 "winner": true
 },
 {
 "name": "Mary Silva",
 "party": "Republican",
-"votes": 94196,
+"votes": 94350,
 "pct": 32.3,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 890,
+"votes": 889,
 "pct": 0.3,
 "winner": false
 }
@@ -20575,8 +20575,8 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 98.39,
-"lastUpdated": "2026-11-11T02:49:29.267000Z",
+"eevp": 98.38,
+"lastUpdated": "2026-11-11T23:09:08.439000Z",
 "calledAt": "2026-11-04T18:04:01.273Z",
 "totalVotes": 352563,
 "official": {
@@ -20617,10 +20617,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 95.36,
-"lastUpdated": "2026-11-11T02:56:38.637000Z",
+"eevp": 96.42,
+"lastUpdated": "2026-11-11T23:04:16.291000Z",
 "calledAt": "2026-11-06T01:44:28.825Z",
-"totalVotes": 236706,
+"totalVotes": 239179,
 "official": {
 "label": "Washington Secretary of State \u2014 election results",
 "href": "https://results.vote.wa.gov/"
@@ -20629,21 +20629,21 @@
 {
 "name": "Amanda McKinney",
 "party": "Republican",
-"votes": 127434,
-"pct": 53.8,
+"votes": 128950,
+"pct": 53.9,
 "winner": true
 },
 {
 "name": "John Duresky",
 "party": "Democratic",
-"votes": 108728,
+"votes": 109679,
 "pct": 45.9,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 544,
+"votes": 550,
 "pct": 0.2,
 "winner": false
 }
@@ -20659,10 +20659,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 91.24,
-"lastUpdated": "2026-11-11T02:47:27.268000Z",
+"eevp": 92.18,
+"lastUpdated": "2026-11-11T23:07:53.468000Z",
 "calledAt": "2026-11-10T01:36:52.302Z",
-"totalVotes": 305595,
+"totalVotes": 307546,
 "official": {
 "label": "Washington Secretary of State \u2014 election results",
 "href": "https://results.vote.wa.gov/"
@@ -20671,21 +20671,21 @@
 {
 "name": "Michael Baumgartner",
 "party": "Republican",
-"votes": 157701,
-"pct": 51.6,
+"votes": 158539,
+"pct": 51.5,
 "winner": true
 },
 {
 "name": "Carmela Conroy",
 "party": "Democratic",
-"votes": 146799,
-"pct": 48.0,
+"votes": 147897,
+"pct": 48.1,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 1095,
+"votes": 1110,
 "pct": 0.4,
 "winner": false
 }
@@ -20743,10 +20743,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 96.49,
-"lastUpdated": "2026-11-11T00:01:54.882000Z",
+"eevp": 97.17,
+"lastUpdated": "2026-11-11T23:50:38.298000Z",
 "calledAt": "2026-11-04T04:17:15.277Z",
-"totalVotes": 364055,
+"totalVotes": 365516,
 "official": {
 "label": "Washington Secretary of State \u2014 election results",
 "href": "https://results.vote.wa.gov/"
@@ -20755,21 +20755,21 @@
 {
 "name": "Pramila Jayapal",
 "party": "Democratic",
-"votes": 318678,
+"votes": 320001,
 "pct": 87.5,
 "winner": true
 },
 {
 "name": "Nirav Sheth",
 "party": "Republican",
-"votes": 44073,
+"votes": 44212,
 "pct": 12.1,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 1304,
+"votes": 1303,
 "pct": 0.4,
 "winner": false
 }
@@ -20785,10 +20785,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 96.76,
-"lastUpdated": "2026-11-11T02:43:37.231000Z",
+"eevp": 97.13,
+"lastUpdated": "2026-11-11T23:50:35.015000Z",
 "calledAt": "2026-11-04T04:54:58.455Z",
-"totalVotes": 337125,
+"totalVotes": 337610,
 "official": {
 "label": "Washington Secretary of State \u2014 election results",
 "href": "https://results.vote.wa.gov/"
@@ -20797,21 +20797,21 @@
 {
 "name": "Kim Schrier",
 "party": "Democratic",
-"votes": 191870,
+"votes": 192240,
 "pct": 56.9,
 "winner": true
 },
 {
 "name": "Spencer Meline",
 "party": "Republican",
-"votes": 144338,
+"votes": 144458,
 "pct": 42.8,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 917,
+"votes": 912,
 "pct": 0.3,
 "winner": false
 }
@@ -20827,10 +20827,10 @@
 "apStatus": "Called",
 "special": false,
 "flipped": false,
-"eevp": 96.49,
-"lastUpdated": "2026-11-11T00:01:48.780000Z",
+"eevp": 97.17,
+"lastUpdated": "2026-11-11T23:50:31.534000Z",
 "calledAt": "2026-11-04T04:17:09.856Z",
-"totalVotes": 246034,
+"totalVotes": 246909,
 "official": {
 "label": "Washington Secretary of State \u2014 election results",
 "href": "https://results.vote.wa.gov/"
@@ -20839,21 +20839,21 @@
 {
 "name": "Adam Smith",
 "party": "Democratic",
-"votes": 185860,
-"pct": 75.5,
+"votes": 186583,
+"pct": 75.6,
 "winner": true
 },
 {
 "name": "Doug Basler",
 "party": "Republican",
-"votes": 58437,
-"pct": 23.8,
+"votes": 58575,
+"pct": 23.7,
 "winner": false
 },
 {
 "name": "Total Write-ins",
 "party": "Other",
-"votes": 1737,
+"votes": 1751,
 "pct": 0.7,
 "winner": false
 }
