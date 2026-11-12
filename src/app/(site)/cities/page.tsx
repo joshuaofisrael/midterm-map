@@ -17,7 +17,7 @@ const PATH = "/cities";
 
 export const metadata = pageMetadata({
   title: "2026 midterm election info by city",
-  description: `Search Census places in the 50 states, the District of Columbia, and Puerto Rico, then open a state, county, or city page. Names are the U.S. Census Bureau 2026 Gazetteer Files (${GAZETTEER_FILE}, file date ${GAZETTEER_FILE_DATE}). Not an official election website.`,
+  description: `Search Census places in the 50 states, D.C., and Puerto Rico, then open a state, county, or city page. Names come from the Census Bureau 2026 Gazetteer Files.`,
   path: PATH,
 });
 

@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   if (!state) return {};
   return pageMetadata({
     title: `${state.name} cities and towns — 2026 midterm election info`,
-    description: `A–Z index of Census places in ${state.name}, grouped by county, from the U.S. Census Bureau 2026 Gazetteer Files (${GAZETTEER_FILE}, file date ${GAZETTEER_FILE_DATE}). Each city page lists sourced 2026 ballot and voting links. Not an official election website.`,
+    description: `Census places in ${state.name} by county, with sourced 2026 ballot and voting links. Not an official election website.`,
     path: `/cities/${state.code}`,
   });
 }

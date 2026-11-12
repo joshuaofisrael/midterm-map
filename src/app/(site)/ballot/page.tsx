@@ -29,7 +29,7 @@ const ELECTION_DAY_STATUTE = {
 export const metadata = pageMetadata({
   title: "2026 ballot lookup",
   description:
-    "Look up a 2026 sample-ballot sketch by ZIP or starter state, with links to official election offices, Vote.gov, and key voting deadlines. Not an official ballot.",
+    "Look up a 2026 sample-ballot sketch by ZIP or state, with links to official election offices, Vote.gov, and voting deadlines. Not an official ballot.",
   path: "/ballot",
 });
 
