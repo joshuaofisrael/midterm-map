@@ -7,6 +7,8 @@
 - [Home](https://mapthemidterms.com/): Overview of 2026 midterm election results and the site's voter-information tools.
 - [Who won the 2026 elections](https://mapthemidterms.com/results/2026/): Archive of Associated Press-called 2026 Senate, House and governor winners. Races AP has not called are not listed yet. Vote counts are unofficial until a state certifies them.
 - [Results](https://mapthemidterms.com/results/): Results hub for the November 3, 2026 general election, with links to the who-won archive, state pages and majority explainers.
+- [Who are my representatives](https://mapthemidterms.com/representatives/): U.S. senators and House members by state, district or ZIP code, including the 2026 winners who take office in January 2027.
+- [Find your representative by ZIP code](https://mapthemidterms.com/your-representative/): ZIP-code and district lookup for your U.S. House member and senators.
 - [US election calendar 2027 and 2028](https://mapthemidterms.com/calendar/): Special elections, 2027 off-year elections and dated 2028 lines, each cited to a state election office, a statute or the FEC. A contest without a posted date is marked not yet announced.
 - [Election explainers](https://mapthemidterms.com/learn/): Civics explainers, including how a House majority works and how a Senate majority works.
 - [How the House majority works](https://mapthemidterms.com/learn/house-majority/): The House majority rule (218 of 435 seats), for readers asking who controls the House after the 2026 midterms.
@@ -68,4 +70,5 @@ These statewide result pages remain available. For the full set of Associated Pr
 - [Disclaimer](https://mapthemidterms.com/disclaimer/): Accuracy and official sources, no professional relationship, not affiliated with any government or election office, nonpartisan, and tip and affiliate (FTC) disclosures.
 - [Privacy](https://mapthemidterms.com/privacy/): What data the site collects. The data controller is named on that page.
 - [Terms](https://mapthemidterms.com/terms/): Terms of use. The operator is named on that page.
+- [Editorial and corrections policy](https://mapthemidterms.com/editorial-policy/): How the site chooses sources, handles results after Election Day, and corrects mistakes.
 - [Contact](https://mapthemidterms.com/contact/): Contact form. The operator is named on that page.
