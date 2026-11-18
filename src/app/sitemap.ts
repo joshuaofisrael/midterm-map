@@ -183,12 +183,35 @@ const CONTACT_FORM_PATHS = new Set([
 /** October 27, 2026. Editorial explainers and the methods section on About. */
 const EDITORIAL_UPDATED = "2026-10-27";
 
+/**
+ * November 18, 2026. Oklahoma (certified Nov 10) and Florida (certified
+ * Nov 17) winner pages gained a recorded state certification, replacing the
+ * "not yet recorded" line with the certifying authority and date. Only the
+ * per-race pages for those two states' Senate, governor and House contests
+ * changed; the rest of /results/2026 keeps the Nov 9 date below.
+ */
+const CERT_NOV18_UPDATED = "2026-11-18";
+const CERT_NOV18_SLUGS = [
+  "ok-senate",
+  "ok-governor",
+  "ok-house-district-1",
+  "ok-house-district-2",
+  "ok-house-district-3",
+  "ok-house-district-4",
+  "ok-house-district-5",
+  "fl-senate-special",
+  "fl-governor",
+  ...Array.from({ length: 28 }, (_, i) => `fl-house-district-${i + 1}`),
+];
+const CERT_NOV18_PATHS = new Set(CERT_NOV18_SLUGS.map((slug) => `/results/2026/${slug}`));
+
 function lastModifiedFor(path: string): string {
   if (path === "/advertise") return "2026-10-27";
   // 8 Nov 2026 (#138): city and county pages got the Who won 2026 / Calendar nav and state results links.
   if (path === "/cities" || path.startsWith("/cities/")) return "2026-11-08";
   if (path === "/privacy") return "2026-11-09";
   if (path === "/representatives" || path === "/your-representative" || path.startsWith("/representatives/")) return "2026-11-09";
+  if (CERT_NOV18_PATHS.has(path)) return CERT_NOV18_UPDATED;
   if (path === "/results/2026" || path.startsWith("/results/2026/")) return "2026-11-09";
   if (path === "/about" || path === "/learn" || path.startsWith("/learn/")) return EDITORIAL_UPDATED;
   if (COPYRIGHT_NOTICE_PATHS.has(path)) return COPYRIGHT_NOTICE_UPDATED;

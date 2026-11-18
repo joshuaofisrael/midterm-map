@@ -6,12 +6,23 @@
  * Leave a state out until its certification is confirmed from the official page.
  *
  * CERT_DEADLINES_2026 lists the statutory or published state-level certification
- * date where it was confirmed from an accessed source (9 Nov 2026). States not
- * listed have no date shown.
+ * date where it was confirmed from an accessed source (9 Nov 2026, Oklahoma and
+ * Florida rechecked 18 Nov 2026). States not listed have no date shown.
  */
 export type CertSource = { date: string; label: string; href: string };
 
-export const CERTIFIED_2026: Record<string, CertSource> = {};
+export const CERTIFIED_2026: Record<string, CertSource> = {
+  OK: {
+    date: "2026-11-10",
+    label: "Oklahoma State Election Board — November General Election official results",
+    href: "https://oklahoma.gov/elections/elections-results/election-results/2026-election-results/november-general-election.html",
+  },
+  FL: {
+    date: "2026-11-17",
+    label: "Florida Division of Elections — Florida Election Watch, 2026 general election timeline",
+    href: "https://floridaelectionwatch.gov/Timeline",
+  },
+};
 
 const BP = { label: "Ballotpedia — Election results certification dates, 2026", href: "https://ballotpedia.org/Election_results_certification_dates,_2026" };
 

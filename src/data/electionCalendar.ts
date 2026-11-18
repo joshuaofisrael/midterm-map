@@ -1,11 +1,11 @@
 /**
- * Upcoming U.S. election dates checked on November 5, 2026.
- * A date is included only when the linked office or statute prints it,
- * or when the entry says the weekday is computed from a cited statute
- * and is not an announced contest. No candidate ratings.
+ * Upcoming U.S. election dates checked on November 5, 2026, rechecked
+ * November 18, 2026. A date is included only when the linked office or
+ * statute prints it, or when the entry says the weekday is computed from a
+ * cited statute and is not an announced contest. No candidate ratings.
  */
 
-export const CALENDAR_CHECKED_ON = "November 5, 2026";
+export const CALENDAR_CHECKED_ON = "November 18, 2026";
 
 export const CALENDAR_TITLE = "US election calendar 2027 and 2028";
 
@@ -349,7 +349,7 @@ export const ELECTION_CALENDAR: CalendarEvent[] = [
     jurisdiction: "Virginia",
     office: "Presidential primary",
     detail:
-      "In the 2028 column, the Department of Elections schedule prints \"Presidential Primary (if held: March 7).\" The FEC Election Dates page, read November 5, 2026, lists primary dates through the 2026 congressional primaries and does not list a 2028 presidential primary calendar. This line is the date Virginia printed. It is not a national primary date.",
+      "In the 2028 column, the Department of Elections schedule prints \"Presidential Primary (if held: March 7).\" The FEC Election Dates page, read November 18, 2026, lists primary dates through the 2026 congressional primaries and does not list a 2028 presidential primary calendar. This line is the date Virginia printed. It is not a national primary date.",
     basis: "official-calendar",
     sources: [VA_SCHEDULE, FEC_DATES],
   },
@@ -373,7 +373,7 @@ export const ELECTION_CALENDAR: CalendarEvent[] = [
     jurisdiction: "United States",
     office: "Federal general election",
     detail:
-      "2 U.S.C. § 7 sets the Tuesday next after the first Monday in November, in every even-numbered year, as the day for electing U.S. Representatives. In 2028 that Tuesday is November 7. 3 U.S.C. § 21 defines presidential election day as that same weekday, in every fourth year. The Virginia Department of Elections schedule prints November 7 for President and U.S. Representative in its 2028 column. 52 U.S.C. § 30101 defines an election cycle as ending on the date of the next election for that office, and it treats a primary and a general election as separate cycles. State presidential primary dates are not filled in here. The FEC Election Dates page does not yet list them.",
+      "2 U.S.C. § 7 sets the Tuesday next after the first Monday in November, in every even-numbered year, as the day for electing U.S. Representatives. In 2028 that Tuesday is November 7. 3 U.S.C. § 21 defines presidential election day as that same weekday, in every fourth year. The Virginia Department of Elections schedule prints November 7 for President and U.S. Representative in its 2028 column. 52 U.S.C. § 30101 defines an election cycle as ending on the date of the next election for that office, and it treats a primary and a general election as separate cycles. State presidential primary dates are not filled in here. The FEC Election Dates page, read November 18, 2026, does not yet list them.",
     basis: "statute",
     sources: [USC_2_7, USC_3_21, USC_52_30101, VA_SCHEDULE, FEC_DATES],
   },
