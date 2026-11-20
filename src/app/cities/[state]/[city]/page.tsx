@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { cityIsThin } from "@/lib/cityThin";
+import { countyHrefByName, isPrunedCity } from "@/lib/prunedPlaces";
 import { InfoNote } from "@/components/InfoNote";
 import { CityCandidates } from "@/components/CityCandidates";
 import { CityLocal } from "@/components/CityLocal";
@@ -15,7 +16,6 @@ import { contentUpdatedLabel } from "@/lib/contentDate";
 import { citySeoDescription, citySeoTitle, cityStructuredData } from "@/lib/citySeo";
 import { pageMetadata } from "@/lib/metadata";
 import {
-  countyPath,
   misspellingsFor,
   placeDisplayName,
   placeIsStandalone,
@@ -30,7 +30,7 @@ export function generateStaticParams() {
   const params: { state: string; city: string }[] = [];
   for (const state of placeStates()) {
     for (const place of placesForState(state.code)) {
-      if (!placeIsStandalone(place)) continue;
+      if (!placeIsStandalone(place) || isPrunedCity(state.code, place.slug)) continue;
       params.push({ state: state.code, city: place.slug });
     }
   }
@@ -76,11 +76,12 @@ export default async function CityPage({
     return key !== display.toLowerCase() && key !== place.name.toLowerCase();
   });
   const misspellings = misspellingsFor(place.name);
+  const primaryCountyHref = primaryCounty ? countyHrefByName(state.code, primaryCounty) : null;
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Census places", path: "/cities" },
     { name: state.name, path: `/cities/${state.code}` },
-    ...(primaryCounty ? [{ name: primaryCounty, path: countyPath(state.code, primaryCounty) }] : []),
+    ...(primaryCounty && primaryCountyHref ? [{ name: primaryCounty, path: primaryCountyHref }] : []),
     { name: place.name, path },
   ];
 
@@ -104,7 +105,11 @@ export default async function CityPage({
         {primaryCounty ? (
           <>
             {" / "}
-            <Link href={countyPath(state.code, primaryCounty)}>{primaryCounty}</Link>
+            {primaryCountyHref ? (
+              <Link href={primaryCountyHref}>{primaryCounty}</Link>
+            ) : (
+              <span>{primaryCounty}</span>
+            )}
           </>
         ) : null}
         {" / "}
@@ -158,11 +163,14 @@ export default async function CityPage({
           <dd>
             {place.counties.length > 0 ? (
               <ul>
-                {place.counties.map((county) => (
-                  <li key={county}>
-                    <Link href={countyPath(state.code, county)}>{county}</Link>
-                  </li>
-                ))}
+                {place.counties.map((county) => {
+                  const href = countyHrefByName(state.code, county);
+                  return (
+                    <li key={county}>
+                      {href ? <Link href={href}>{county}</Link> : <span>{county}</span>}
+                    </li>
+                  );
+                })}
               </ul>
             ) : (
               "No county on the place file."

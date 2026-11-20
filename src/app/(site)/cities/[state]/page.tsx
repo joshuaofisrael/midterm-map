@@ -23,6 +23,7 @@ import { countiesForState, placeState, placeStates, placesForState } from "@/dat
 import { contentUpdatedLabel } from "@/lib/contentDate";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 import { placeIndexLetter } from "@/lib/placeNames";
+import { countyHrefBySlug } from "@/lib/prunedPlaces";
 
 export const dynamicParams = false;
 
@@ -123,17 +124,24 @@ export default async function StateCitiesPage({ params }: { params: Promise<{ st
           <div key={letter} id={`county-${letter}`} className="mt-4">
             <h3 className="font-semibold">{letter}</h3>
             <ul className="mt-2 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-              {rows.map((county) => (
-                <li key={county.slug}>
-                  <a className="font-medium text-navy hover:underline" href={`/cities/${state.code}/county/${county.slug}/`}>
-                    {county.name}
-                  </a>
-                  <span className="text-ink-muted">
-                    {" "}
-                    · {county.places.length.toLocaleString("en-US")}
-                  </span>
-                </li>
-              ))}
+              {rows.map((county) => {
+                const href = countyHrefBySlug(state.code, county.slug);
+                return (
+                  <li key={county.slug}>
+                    {href ? (
+                      <a className="font-medium text-navy hover:underline" href={href}>
+                        {county.name}
+                      </a>
+                    ) : (
+                      <span className="font-medium">{county.name}</span>
+                    )}
+                    <span className="text-ink-muted">
+                      {" "}
+                      · {county.places.length.toLocaleString("en-US")}
+                    </span>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         ))}

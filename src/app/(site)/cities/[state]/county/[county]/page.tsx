@@ -13,6 +13,7 @@ import { SourceLines } from "@/components/SourceLines";
 import { countyCitation, countyNameCitation, gazetteerCitation, populationCitation } from "@/data/censusSources";
 import { electionOfficeFor } from "@/data/electionOffices";
 import { countiesForState, countyBySlug, placeState, placeStates } from "@/data/places/load";
+import { isPrunedCounty } from "@/lib/prunedPlaces";
 import { absoluteUrl } from "@/data/site";
 import { contentUpdatedLabel } from "@/lib/contentDate";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
@@ -35,6 +36,7 @@ export function generateStaticParams() {
   const params: { state: string; county: string }[] = [];
   for (const state of placeStates()) {
     for (const county of countiesForState(state.code)) {
+      if (isPrunedCounty(state.code, county.slug)) continue;
       params.push({ state: state.code, county: county.slug });
     }
   }

@@ -5,7 +5,14 @@
 import fs from "node:fs";
 import path from "node:path";
 import { ADSENSE_META_TAG } from "../src/lib/adsense.ts";
-import { placeDisplayName, placeTargetPath, redirectSlugTargets, type VariantPlace } from "../src/lib/placeNames.ts";
+import { countySlug, placeDisplayName, placeTargetPath, redirectSlugTargets, type VariantPlace } from "../src/lib/placeNames.ts";
+import {
+  PRUNED_PAGE_COUNT,
+  isPrunedCity,
+  isPrunedCounty,
+  prunedRedirectTarget,
+  stateCitiesPath,
+} from "../src/lib/prunedPlaces.ts";
 
 const root = process.cwd();
 const outDir = path.join(root, "out");
@@ -57,16 +64,57 @@ for (const file of fs.readdirSync(path.join(root, "src/data/places"))) {
     if (fs.existsSync(htmlPath)) {
       throw new Error(`Redirect ${code}/${slug} would overwrite an existing page`);
     }
-    const canonicalPath = target.split("#")[0];
+    const settled = prunedRedirectTarget(target) ?? target;
+    const canonicalPath = settled.split("#")[0];
     const owner = places.find((place) => placeTargetPath(code, place) === target);
     const label = `${placeDisplayName(owner?.name ?? names.get(slug) ?? slug)}, ${code}`;
-    const html = redirectHtml(target, label, `${base}${canonicalPath.endsWith("/") ? canonicalPath : `${canonicalPath}/`}`);
+    const html = redirectHtml(settled, label, `${base}${canonicalPath.endsWith("/") ? canonicalPath : `${canonicalPath}/`}`);
     fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(htmlPath, html);
     redirects += 1;
     bytes += Buffer.byteLength(html);
-    if (code === "MI" && slug === "farmington-hills") farmington = target;
+    if (code === "MI" && slug === "farmington-hills") farmington = settled;
   }
+}
+
+function writeStub(dir: string, target: string, label: string) {
+  const htmlPath = path.join(dir, "index.html");
+  if (fs.existsSync(htmlPath)) {
+    throw new Error(`Pruned redirect would overwrite ${htmlPath}`);
+  }
+  fs.mkdirSync(dir, { recursive: true });
+  const html = redirectHtml(target, label, `${base}${target}`);
+  fs.writeFileSync(htmlPath, html);
+  redirects += 1;
+  bytes += Buffer.byteLength(html);
+}
+
+let pruned = 0;
+for (const file of fs.readdirSync(path.join(root, "src/data/places"))) {
+  if (!/^[A-Z]{2}\.json$/.test(file)) continue;
+  const code = file.slice(0, 2);
+  const places = JSON.parse(fs.readFileSync(path.join(root, "src/data/places", file), "utf8")) as VariantPlace[];
+  const countyNames = new Map<string, string>();
+  for (const place of places) {
+    for (const county of place.counties) countyNames.set(countySlug(county), county);
+    if (!isPrunedCity(code, place.slug)) continue;
+    const target = stateCitiesPath(code);
+    writeStub(
+      path.join(outDir, "cities", code, place.slug),
+      target,
+      `${placeDisplayName(place.name)}, ${code}`,
+    );
+    pruned += 1;
+  }
+  for (const [slug, name] of countyNames) {
+    if (!isPrunedCounty(code, slug)) continue;
+    const target = stateCitiesPath(code);
+    writeStub(path.join(outDir, "cities", code, "county", slug), target, `${name}, ${code}`);
+    pruned += 1;
+  }
+}
+if (pruned !== PRUNED_PAGE_COUNT) {
+  throw new Error(`Pruned redirects written: ${pruned}; list has ${PRUNED_PAGE_COUNT}`);
 }
 
 // Short aliases for top-level pages (e.g. /deadlines/ was linked externally and 404ed).
@@ -107,7 +155,7 @@ function walkBytes(dir: string): number {
 
 const outBytes = walkBytes(outDir);
 console.log(
-  `Redirects: ${redirects} (${(bytes / (1024 * 1024)).toFixed(1)} MiB). out/ is ${(outBytes / (1024 * 1024)).toFixed(1)} MiB.`,
+  `Redirects: ${redirects} including ${pruned} pruned place and county pages (${(bytes / (1024 * 1024)).toFixed(1)} MiB). out/ is ${(outBytes / (1024 * 1024)).toFixed(1)} MiB.`,
 );
 if (outBytes >= 1024 * 1024 * 1024) {
   throw new Error("out/ is at least 1 GiB");

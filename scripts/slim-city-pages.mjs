@@ -93,6 +93,12 @@ for (const state of fs.readdirSync(citiesDir)) {
   }
 }
 
+const prune = JSON.parse(
+  fs.readFileSync(new URL("../src/data/places/gsc-prune-2026-11-19.json", import.meta.url), "utf8"),
+);
+let prunedCities = 0;
+for (const slugs of Object.values(prune.cities)) prunedCities += slugs.length;
+
 let standalone = 0;
 for (const state of manifest.states) {
   const places = JSON.parse(
@@ -103,9 +109,10 @@ for (const state of manifest.states) {
   }
 }
 
-if (pages !== standalone) {
+const expectedPages = standalone - prunedCities;
+if (pages !== expectedPages) {
   throw new Error(
-    `Slimmed ${pages} city pages; ${standalone} places have a population or a congressional district (${manifest.placeCount} Census places total).`,
+    `Slimmed ${pages} city pages; expected ${expectedPages} (${standalone} places with a population or a congressional district, minus ${prunedCities} redirected place pages; ${manifest.placeCount} Census places total).`,
   );
 }
 
