@@ -3,7 +3,7 @@
  * the live tracker stays on one same-origin JSON file, and the public
  * files the scale plan depends on are present.
  */
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 
 const root = process.cwd();
@@ -59,9 +59,8 @@ if (!beacon.includes("static.cloudflareinsights.com/beacon.min.js")) {
   errors.push("Cloudflare Web Analytics beacon missing");
 }
 
-const ads = read("public/ads.txt").trim();
-if (!ads.startsWith("google.com, pub-5681559774142917, DIRECT, f08c47fec0942fa0")) {
-  errors.push("public/ads.txt is missing the AdSense publisher line");
+if (existsSync(path.join(root, "public/ads.txt"))) {
+  errors.push("public/ads.txt must not exist");
 }
 
 const indexNowName = "7d9821210489aaf528bb6f613749ac93.txt";
@@ -71,8 +70,11 @@ if (indexNow !== "7d9821210489aaf528bb6f613749ac93") {
 }
 
 const privacy = read("src/app/(site)/privacy/page.tsx");
-for (const phrase of ["Cloudflare Web Analytics", "Google Analytics", "AdSense"]) {
+for (const phrase of ["Cloudflare Web Analytics", "Google Analytics", "does not show ads", "does not use advertising cookies"]) {
   if (!privacy.includes(phrase)) errors.push(`Privacy policy does not mention ${phrase}`);
+}
+if (/AdSense|ads\.txt/.test(privacy)) {
+  errors.push("Privacy policy still names an ad network or ads.txt");
 }
 
 const headers = read("public/_headers");
@@ -100,4 +102,4 @@ if (errors.length) {
   for (const line of errors) console.error(`  - ${line}`);
   process.exit(1);
 }
-console.log("scale-ready: same-origin live JSON, ads.txt, IndexNow key, privacy names, cache files.");
+console.log("scale-ready: same-origin live JSON, no ads.txt, IndexNow key, privacy names, cache files.");

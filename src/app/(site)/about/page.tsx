@@ -86,7 +86,7 @@ export default function AboutPage() {
           {tipJarEnabled()
             ? "Readers who find this site useful can leave an optional tip through Stripe (“Keep this map free”). Tips are not political contributions and are not tax-deductible. "
             : ""}
-          The site shows Google AdSense ads, which are labeled and kept separate from page content. In the future we may add affiliate links, for example to civics and
+          The site does not show ads and does not use advertising cookies. In the future we may add affiliate links, for example to civics and
           election books; any page with affiliate links will say so directly
           above them. We take no money or advertising from candidates,
           campaigns, parties, or PACs, and tips or commissions do not affect

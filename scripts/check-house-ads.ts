@@ -8,7 +8,7 @@
  */
 import { readdirSync, readFileSync, statSync, existsSync } from "node:fs";
 import path from "node:path";
-import { htmlHead, isRedirectStub } from "../src/lib/adsense.ts";
+import { htmlHead, isRedirectStub } from "../src/lib/htmlDocument.ts";
 import {
   HOUSE_ADS,
   RANKFOOTPRINT_FREE_SCAN,

@@ -8,6 +8,10 @@
 
 This document is an **internal owner checklist**. It is **not legal advice** and **not a lawyer sign-off**. Counsel for Joshua Israel Ventures LLC should review the live site before treating this copy as final.
 
+## November 20, 2026 — advertising withdrawn
+
+The site does not show ads and does not use advertising cookies. The account meta tag, the ad loader, ad slots, and `ads.txt` are removed. Google Analytics 4 (`G-Q9FB3RS751`) and the Cloudflare Web Analytics beacon stay. `/consent.js` still asks before Google Analytics cookies are set. Notes below that describe an ad loader, `ads.txt`, or an ad-network consent message describe the site before this date.
+
 ## What this MVP ships
 
 ### Ownership and identity
@@ -21,7 +25,7 @@ This document is an **internal owner checklist**. It is **not legal advice** and
 ### Required legal pages
 - [x] `/about` — operator, what the site is, what it is not
 - [x] `/disclaimer` — election-specific cautions (not official; not legal advice; not an endorsement; ballots may be incomplete; ratings attributed to named outlets; polls cited or honestly empty; unofficial returns)
-- [x] `/privacy` — no accounts; browser-only ZIP; cookieless Cloudflare Web Analytics (aggregate); GitHub Pages IP logging; no sale/sharing; email handling; retention; EU/UK GDPR and U.S. state-law rights; children; contact
+- [x] `/privacy` — no accounts; the site does not show ads and does not use advertising cookies; browser-only ZIP; cookieless Cloudflare Web Analytics (aggregate); Google Analytics only with consent; GitHub Pages IP logging; no sale/sharing; email handling; retention; EU/UK GDPR and U.S. state-law rights; children; contact
 - [x] `/terms` — informational-only, no warranties, limitation of liability, Florida governing law, LLC operator, corrections, third-party links, image licenses, copyright/takedown contact, severability, no campaign contribution solicitation
 - [x] Footer links: Disclaimer / Privacy / Terms / Copyright & Corrections / Advertising / About / Contact
 - [x] Footer line: “Not an official election website. Verify ballot and voting details with your state or county election office.”
@@ -90,7 +94,7 @@ The public site keeps plain, sourced facts (registration and other deadline date
 Public pages already had `/terms`, `/disclaimer`, `/privacy`, `/about`, and `/contact`. This pass extended those pages and added two:
 
 - `/copyright/` — copyright, content use, DMCA notices through the contact form (no inbox address), and the corrections policy. There is no separate public corrections log. A correction replaces the page text and the page’s stored “Last updated” date changes. The report stays with contact-form records.
-- `/advertising/` — Google AdSense may serve ads (verification meta tag and adsbygoogle.js loader; no ad units placed), Google AdSense publisher line in ads.txt, no paid political advertising, no candidate endorsements, affiliate links disclosed if added.
+- `/advertising/` — as of November 20, 2026, the site does not show ads and does not use advertising cookies. `ads.txt` is not published. No paid political advertising, no candidate endorsements, affiliate links disclosed if added.
 
 Terms now include use at your own risk, indemnification, opinions as the site’s own, market odds (none are shown), third-party links not endorsed, and Florida, USA governing law. Privacy, as of this October 23 note, stated that AdSense was not loaded. That changed on October 24, 2026: the AdSense loader is on every page, and privacy says visitors in the EEA, the UK, and Switzerland get Google’s consent message. High-risk templates carry one static line: informational, not advice, compiled from public sources and AI-assisted, verify with official sources. That line is not injected into the live-results JSON.
 

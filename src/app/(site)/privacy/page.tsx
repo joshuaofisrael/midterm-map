@@ -9,12 +9,11 @@ import { LEGAL } from "@/data/legalEntity";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 import { FORMSUBMIT_PRIVACY, FORMSUBMIT_URL } from "@/data/contact";
 import { CookieChoicesButton, GA_MEASUREMENT_ID } from "@/components/GoogleAnalytics";
-import { GOOGLE_ADS_POLICIES_URL } from "@/lib/adsense";
 
 export const metadata = pageMetadata({
   title: "Privacy Policy",
   description:
-    `Privacy practices for ${SITE.name} (Joshua Israel Ventures LLC): no accounts, in-browser ZIP lookup, a FormSubmit contact form, election-night update emails, cookieless Cloudflare Web Analytics, Google Analytics only with your consent, Google AdSense advertising, GitHub Pages hosting logs, optional tips through Stripe, affiliate link terms, no sale of personal information, and your privacy rights.`,
+    `Privacy for ${SITE.name}: no accounts, no ads, and no advertising cookies. Cookieless Cloudflare Web Analytics. Google Analytics only with consent.`,
   path: "/privacy",
 });
 
@@ -59,8 +58,8 @@ export default function PrivacyPage() {
           This policy explains what information is involved when you visit {SITE.name} (
           {SITE.url}). The site is operated by {LEGAL.legalName}, a {LEGAL.entityType} based in{" "}
           {LEGAL.location} (“we,” “us”). {SITE.name} is a static informational website. It has no
-          user accounts and no comments. It loads Google AdSense, which may serve ads and
-          use cookies (see “Advertising” below).
+          user accounts and no comments. It does not show ads and does not use advertising
+          cookies (see “Advertising” below).
           {" "}
           It offers an optional “Get election-night updates” form.
           {affiliates ? " Some pages contain disclosed affiliate links." : " It has no affiliate links."}
@@ -97,7 +96,7 @@ export default function PrivacyPage() {
             described below.
           </li>
           <li>
-            Advertising: Google AdSense may serve ads and use cookies, as described below.
+            Advertising: the site does not show ads and does not use advertising cookies.
           </li>
           <li>Hosting: security logs kept by GitHub Pages.</li>
           <li>Messages you choose to send us by email or through the contact form (delivered by FormSubmit).</li>
@@ -108,9 +107,8 @@ export default function PrivacyPage() {
           </li>
         </ul>
         <p>
-          The contact form is processed by FormSubmit, which emails your message to us. Google AdSense
-          may serve ads and use cookies; see “Advertising” below. No other ad network’s
-          scripts are loaded.
+          The contact form is processed by FormSubmit, which emails your message to us. The site
+          does not show ads and does not use advertising cookies; see “Advertising” below.
         </p>
 
         <h2>Summary</h2>
@@ -121,7 +119,7 @@ export default function PrivacyPage() {
             storage for this tab, until the tab closes, and does not add it to the page address or
             send it to a third party. An
             older ballot address that still has #zip= is copied into that session storage and the
-            fragment is removed before advertising or analytics scripts run. The Census place search
+            fragment is removed before analytics scripts run. The Census place search
             does not add the ZIP to the page address and does not store it. Each lookup requests a
             public Census file named with the first three digits. Details are under “ZIP and state
             lookup.”
@@ -132,9 +130,8 @@ export default function PrivacyPage() {
           </li>
           <li>Our host, GitHub Pages, logs visitor IP addresses for security purposes.</li>
           <li>
-            We do not sell personal information. We do not use information we collect ourselves for
-            targeted advertising. Google AdSense may use cookies to serve ads, including
-            ads Google personalizes, as described under Advertising.
+            We do not sell personal information. We do not show ads and do not use advertising
+            cookies. We do not use information we collect ourselves for targeted advertising.
           </li>
           <li>
             We also use Google Analytics, but only after a grant: when you click Accept. The Google
@@ -182,8 +179,8 @@ export default function PrivacyPage() {
         <p>
           The ZIP and state fields in both lookups have no form field name. If you submit a form
           before the page’s script has loaded, the browser reloads the page without adding the ZIP
-          or the state to the address, so the ZIP does not reach the host’s logs or the advertising
-          and analytics requests in that case either.
+          or the state to the address, so the ZIP does not reach the host’s logs or the analytics
+          requests in that case either.
         </p>
         <p>
           The request for the ballot page is for <code>/ballot/</code> plus the state code. It has
@@ -196,10 +193,10 @@ export default function PrivacyPage() {
         <p>
           An older ballot address may still contain <code>#zip=</code> and the five digits. Each
           ballot page runs a short inline script at the top of the document head, before
-          Google AdSense and the analytics scripts. That script reads a five-digit{" "}
+          the analytics scripts. That script reads a five-digit{" "}
           <code>#zip=</code>, stores it in <code>mtm-ballot-zip</code>, and removes the fragment
-          with <code>history.replaceState</code> before those later scripts run. Advertising and
-          analytics requests receive the page address after that removal, so the five-digit ZIP is
+          with <code>history.replaceState</code> before those later scripts run. Analytics
+          requests receive the page address after that removal, so the five-digit ZIP is
           not part of those requests. Google Analytics and Cloudflare Web Analytics receive that
           same address. The Census file request described above is unchanged.
         </p>
@@ -216,11 +213,10 @@ export default function PrivacyPage() {
           address, which does not contain the ZIP.
         </p>
         <p>
-          The advertising, consent, and analytics scripts described below run inside the page, as
-          such scripts do on any site that carries them. This site does not pass the ZIP to them.
-          In a test on October 30, 2026, after both lookups no request to Google or Cloudflare contained the five-digit ZIP. In the same test the only storage
-          those scripts left was Google’s consent-message cookie <code>FCCDCF</code>, which did not
-          hold the ZIP.
+          The consent and analytics scripts described below run inside the page. This site does
+          not pass the ZIP to them, and it does not load an advertising script. In a test on
+          October 30, 2026, after both lookups no request to Google or Cloudflare contained the
+          five-digit ZIP. The site does not use advertising cookies.
         </p>
 
         <h2>Analytics: Cloudflare Web Analytics</h2>
@@ -245,11 +241,8 @@ export default function PrivacyPage() {
           Google LLC, to count visits and understand which pages are useful. Analytics storage for
           that tag starts denied. The Google Analytics script is not on the page until there is a
           grant. That grant is this site’s consent script: when you first visit, a banner asks
-          whether you accept analytics cookies, and the script loads only if you click Accept. Where
-          an IAB TCF consent message reports that its rules apply (for example Google’s consent
-          message in the European Economic Area and the United Kingdom), the script loads only if
-          that message’s consent signal allows analytics cookies. Google AdSense is a separate
-          script and is described under Advertising.
+          whether you accept analytics cookies, and the script loads only if you click Accept.
+          The site does not show ads and does not use advertising cookies.
         </p>
         <ul>
           <li>
@@ -280,8 +273,8 @@ export default function PrivacyPage() {
           <li>
             We have turned off Google signals and ad personalization for Google Analytics. That
             tag’s advertising consent signals stay denied, and we do not use Google Analytics data
-            for advertising or share it for targeted advertising. The analytics choice does not
-            replace Google’s advertising consent message.
+            for advertising or share it for targeted advertising. The site does not use
+            advertising cookies.
           </li>
         </ul>
         <p>
@@ -361,91 +354,19 @@ export default function PrivacyPage() {
           ask us to delete your address through the <Link href="/contact">contact form</Link>; it can be removed on request at any time.
         </p>
 
-        <h2 id="advertising">Advertising and ad partners</h2>
+        <h2 id="advertising">Advertising</h2>
         <p>
-          {SITE.name} is free to read and is paid for by advertising. Today the site shows ads from Google
-          AdSense. The file <a href="/ads.txt">ads.txt</a> lists one Google AdSense publisher ID (
-          <code>pub-5681559774142917</code>), and no other ad network&apos;s scripts are loaded. Google
-          describes how it uses information in{" "}
-          <a href={GOOGLE_ADS_POLICIES_URL} rel="noopener noreferrer">
-            Google’s advertising policies
-          </a>
-          .
+          {SITE.name} does not show ads and does not use advertising cookies. No advertising script
+          is loaded. We do not let another company set or read a cookie in order to advertise on
+          this site. A banner labeled Sponsored links to one of our own related sites and does not
+          set a cookie. See the <Link href="/advertising">advertising disclosure</Link>.
         </p>
         <p>
-          We may also work with Mediavine, an advertising management company, to sell and serve ads on the site.
-          Mediavine ads are not running on {SITE.name} today. If that changes, Mediavine and the advertising
-          partners it works with would serve ads under the practices described here, ads.txt would list
-          them, and we would update this page and its “Last updated” date before their ads go live.
-          Mediavine explains its own practices in its{" "}
-          <a href="https://www.mediavine.com/legal-and-privacy-center/" rel="noopener noreferrer">
-            Legal &amp; Privacy Center
-          </a>{" "}
-          and takes privacy choices and requests at its{" "}
-          <a href="https://privacy.mediavine.com/" rel="noopener noreferrer">Privacy Center</a>.
-        </p>
-        <h3>Cookies and similar technologies used by ad partners</h3>
-        <p>
-          Ad partners may set or read cookies, and use similar technologies such as pixels, local storage,
-          and device or advertising identifiers, when an ad loads. They use them to show ads, limit how often
-          you see the same ad, measure whether ads were seen or clicked, detect fraud, and, where allowed,
-          personalize ads. These technologies belong to the ad partners, not to us, and are governed by their
-          own privacy policies. Third-party vendors, including Google, use cookies to serve ads based on a
-          user&apos;s prior visits to this website or other websites. Google&apos;s use of advertising cookies
-          enables it and its partners to serve ads to you based on your visit to this site and/or other sites on
-          the Internet. You may opt out of personalized advertising by visiting{" "}
-          <a href="https://adssettings.google.com">Google Ads Settings</a>.
-        </p>
-        <h3>Personalized and non-personalized ads</h3>
-        <p>
-          Personalized ads are chosen using information about your browsing, such as earlier visits to this
-          and other websites, and an interest profile linked to a cookie or identifier. Non-personalized ads are
-          chosen using context only, such as the page you are reading, your approximate location (based on IP
-          address), the time, and the type of device, and do not use a profile of your past behavior. Even
-          non-personalized ads can use cookies for frequency capping, measurement, and fraud prevention.
-        </p>
-        <h3>Information shared with ad partners</h3>
-        <p>
-          When an ad loads, your browser connects directly to the ad partner. The partner can receive your IP
-          address, browser and device information, the address of the page you are on and the page that sent
-          you there, cookie or device identifiers, the date and time, and your interaction with the ad. In
-          real-time ad auctions, an ad partner can pass some of this information to advertisers and other
-          ad-technology companies that bid to show an ad. We do not give ad partners your name, your email
-          address, contact-form messages, or the ZIP code you type into the lookup.
-        </p>
-        <h3>Your choices and opt-out links</h3>
-        <ul>
-          <li>
-            Google personalized ads: <a href="https://adssettings.google.com">Google Ads Settings</a>
-          </li>
-          <li>
-            Digital Advertising Alliance (U.S.): <a href="https://optout.aboutads.info">optout.aboutads.info</a>
-          </li>
-          <li>
-            Network Advertising Initiative:{" "}
-            <a href="https://optout.networkadvertising.org">optout.networkadvertising.org</a>
-          </li>
-          <li>
-            European Interactive Digital Advertising Alliance (EU/UK):{" "}
-            <a href="https://www.youronlinechoices.eu">www.youronlinechoices.eu</a>
-          </li>
-          <li>
-            Mediavine: <a href="https://privacy.mediavine.com/">Mediavine Privacy Center</a>
-          </li>
-        </ul>
-        <p>
-          Opting out stops personalized ads from participating companies in that browser. You will still see
-          ads, which may be non-personalized. Opt-outs often rely on a cookie, so clearing cookies or using
-          another browser or device can undo them. You can also block or delete cookies in your browser
-          settings. The footer <CookieChoicesButton /> link reopens this site’s analytics choice.
-        </p>
-        <p>
-          Visitors in the European Economic Area, the United Kingdom, and Switzerland can get
-          Google’s consent message before Google’s advertising cookies are used. That message is
-          shown through the AdSense script. Until consent is given there, this site’s default setting
-          denies ad storage. It is separate from this site’s analytics choice:
-          Google Analytics still loads only with a grant, as described under{" "}
-          <Link href="#google-analytics">Google Analytics</Link>.
+          Advertising storage in the consent default stays denied for every visitor, including
+          visitors in the European Economic Area, the United Kingdom, and Switzerland. That is
+          separate from the analytics choice: Google Analytics still loads only with a grant, as
+          described under <Link href="#google-analytics">Google Analytics</Link>. The footer{" "}
+          <CookieChoicesButton /> link reopens that analytics choice. It does not turn on ads.
         </p>
 
         <h2>Affiliate links</h2>
@@ -495,7 +416,6 @@ export default function PrivacyPage() {
           <li>To operate, secure, and fix the website</li>
           <li>To understand aggregate use of pages through Cloudflare Web Analytics</li>
           <li>To measure visits and page use through Google Analytics, if you accept analytics cookies</li>
-          <li>To let Google AdSense serve and measure ads, as described under Advertising</li>
           <li>To respond to messages you send</li>
           {tips && <li>To process, record, and if needed refund tips, and to keep required tax and accounting records</li>}
           <li>To send election updates to an email address you submitted for that purpose</li>
@@ -504,8 +424,8 @@ export default function PrivacyPage() {
         <p>
           We do not sell personal information, and we do not use information we collect ourselves
           for cross-context behavioral advertising (as that term is used in California law) or to
-          profile you. Google AdSense may use cookies to serve and measure ads, including
-          personalized ads, as described under Advertising. We do not make automated decisions about you.
+          profile you. The site does not show ads and does not use advertising cookies. We do not
+          make automated decisions about you.
         </p>
 
         <h2>Retention</h2>
@@ -528,17 +448,15 @@ export default function PrivacyPage() {
           personal information we process. Our legal basis is our legitimate interest in operating,
           securing, and improving a free public information website and in answering messages you
           choose to send. For Google Analytics, the legal basis is your consent. You give it by
-          clicking Accept, and you can withdraw it at any time through the Cookie choices link. For
-          advertising cookies and personalized ads, the legal basis is your consent: visitors in the
-          European Economic Area, the United Kingdom, and Switzerland are asked through Google’s consent
-          message, and ad storage stays denied by default until consent is given. You can withdraw that
-          consent through the same message or by clearing cookies.
+          clicking Accept, and you can withdraw it at any time through the Cookie choices link. The
+          site does not show ads and does not use advertising cookies, so there is no separate
+          consent for advertising cookies. Advertising storage stays denied.
           {tips ? " For tips, the legal basis is processing needed to take your payment and to meet tax and accounting obligations." : ""}
           {" "}
           For election-night updates, the legal basis is your consent, which you can withdraw by
           asking us to remove your email address. Information is processed in the United States by
           us and by our service providers (Cloudflare, GitHub, FormSubmit for contact form messages
-          and election-night update sign-ups, Google for analytics, advertising, and email we
+          and election-night update sign-ups, Google for analytics and email we
           receive
           {tips ? ", Stripe for tips" : ""}). Subject to the conditions in
           those laws, you may ask to access, correct, delete, or restrict our use of your personal
@@ -550,15 +468,12 @@ export default function PrivacyPage() {
         <p>
           Depending on where you live, state law may give you the right to know what personal
           information we have about you, to correct it, to delete it, and to opt out of its sale,
-          sharing for targeted advertising, or profiling. We do not sell personal information for money.
-          Some state laws, such as California’s, can treat letting ad partners collect identifiers on our
-          pages for personalized (targeted) ads as a “sale” or “sharing.” To opt out of that, use the
-          opt-out links under <Link href="#advertising">Advertising and ad partners</Link>, starting with{" "}
-          <a href="https://adssettings.google.com">Google Ads Settings</a> and{" "}
-          <a href="https://optout.aboutads.info">optout.aboutads.info</a>, or send us a request as described
-          below. A browser privacy signal such as Global Privacy Control is separate from those settings and
-          from the analytics choice stored in this browser. We will not treat you differently for exercising
-          a privacy right.
+          sharing for targeted advertising, or profiling. We do not sell personal information for money,
+          and we do not share it for targeted advertising. The site does not show ads and does not use
+          advertising cookies, so there is no ad-network sale or share to opt out of. The{" "}
+          <CookieChoicesButton /> link controls Google Analytics only. A browser privacy signal such as
+          Global Privacy Control is separate from the analytics choice stored in this browser. We will
+          not treat you differently for exercising a privacy right.
         </p>
 
         <h2>How to make a privacy request</h2>

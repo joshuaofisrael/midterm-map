@@ -5,7 +5,6 @@ import { JsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/PageHeader";
 import { affiliateEnabled, tipJarEnabled } from "@/data/monetization";
 import { SITE } from "@/data/site";
-import { GOOGLE_ADS_POLICIES_URL } from "@/lib/adsense";
 import { LEGAL } from "@/data/legalEntity";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
@@ -13,7 +12,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "Advertising and affiliate disclosure",
   description:
-    `Advertising and affiliate disclosure for ${SITE.name}: Google AdSense may serve ads and use cookies. No paid political ads or candidate endorsements.`,
+    `Advertising and affiliate disclosure for ${SITE.name}: the site does not show ads and does not use advertising cookies.`,
   path: "/advertising",
 });
 
@@ -38,24 +37,19 @@ export default function AdvertisingPage() {
         <p>
           {SITE.name} is operated by {LEGAL.legalName}, a {LEGAL.entityType}. This page is the
           advertising and affiliate disclosure. It is part of the <Link href="/terms">terms of use</Link>.
-          The <Link href="/privacy/#advertising">privacy policy</Link> describes cookies and advertising
-          technology.
+          The <Link href="/privacy/#advertising">privacy policy</Link> describes cookies.
         </p>
 
         <h2>Advertising</h2>
         <p>
-          {SITE.name} may show advertisements from Google AdSense. Google and its partners may use
-          cookies to serve and measure those ads. Google describes that use in{" "}
-          <a href={GOOGLE_ADS_POLICIES_URL} rel="noopener noreferrer">
-            Google’s advertising policies
-          </a>
-          . The file <a href="/ads.txt">ads.txt</a> lists one Google AdSense publisher ID (
-          <code>pub-5681559774142917</code>). No other ad network runs on this site or is listed in that file.
-          We do not write a candidate’s ad, and an ad is not an endorsement
-          by {LEGAL.legalName} of the advertiser, a candidate, a party, or a ballot measure.
+          {SITE.name} does not show ads and does not use advertising cookies. No advertising script
+          is loaded. A banner labeled Sponsored links to one of our own related sites. It is not
+          sold to an outside company, and it does not set a cookie. We do not write a candidate’s
+          ad, and a Sponsored banner is not an endorsement by {LEGAL.legalName} of a candidate, a
+          party, or a ballot measure.
         </p>
         <p>
-          If we add another advertising network, we will update this page and the privacy policy first.
+          If we start showing ads, we will update this page and the privacy policy first.
         </p>
 
         <h2>No paid political advertising</h2>
@@ -78,18 +72,16 @@ export default function AdvertisingPage() {
         <h2>No endorsements of candidates</h2>
         <p>
           Nothing on this site is an endorsement of a candidate, party, ticket, or ballot measure.
-          Party labels are for identification only. An advertisement, and an affiliate link if one
+          Party labels are for identification only. A Sponsored banner, and an affiliate link if one
           is shown, are not endorsements.
         </p>
 
-        <h2>Cookies and the EU/UK/CH consent prompt</h2>
+        <h2>Cookies</h2>
         <p>
-          Google AdSense may use cookies to serve and measure ads. This site’s consent script
-          controls Google Analytics: those cookies load only if you click Accept, as the{" "}
-          <Link href="/privacy/#google-analytics">privacy policy</Link> explains. Visitors in the
-          European Economic Area, the United Kingdom, and Switzerland can get Google’s consent
-          message through the AdSense script. That analytics choice
-          does not replace Google’s consent message. Cloudflare Web Analytics is cookieless.
+          The site does not use advertising cookies. This site’s consent script controls Google
+          Analytics: those cookies load only if you click Accept, as the{" "}
+          <Link href="/privacy/#google-analytics">privacy policy</Link> explains. Cloudflare Web
+          Analytics is cookieless.
         </p>
 
         <h2>Affiliate links</h2>

@@ -109,7 +109,7 @@ export function BallotLookup({ initialState = "" }: { initialState?: string }) {
         then uses the five-digit ZIP as the key for a row in that file. This
         lookup does not write the ZIP into local storage or a cookie, and it does
         not match the ZIP to a voter file. A ballot address that still has #zip=
-        is stored and the fragment is removed before advertising or analytics scripts run. The
+        is stored and the fragment is removed before analytics scripts run. The
         Census place search does not store the ZIP. Prefixes map to a starter
         state.
         {matched ? ` This prefix currently maps to ${matched}.` : ""}
