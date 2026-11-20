@@ -6,6 +6,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { placeIsStandalone, placeTargetPath, searchKeys } from "../src/lib/placeNames.ts";
+import { prunedRedirectTarget } from "../src/lib/prunedPlaces.ts";
 
 type Row = [string, string, string, string, number | null, string];
 
@@ -43,7 +44,15 @@ for (const file of fs.readdirSync(dir)) {
   for (const place of list) {
     places += 1;
     if (placeIsStandalone(place)) standalone += 1;
-    const row: Row = [code, place.slug, place.name, place.counties[0] ?? "", place.pop, placeTargetPath(code, place)];
+    const rawPath = placeTargetPath(code, place);
+    const row: Row = [
+      code,
+      place.slug,
+      place.name,
+      place.counties[0] ?? "",
+      place.pop,
+      prunedRedirectTarget(rawPath) ?? rawPath,
+    ];
     const id = `${code}/${place.slug}`;
     const letters = new Set<string>();
     for (const key of searchKeys(place.name)) letters.add(key[0] ?? "0");

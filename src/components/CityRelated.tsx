@@ -6,7 +6,7 @@ import { racesForState } from "@/data/races";
 import { isStateCode } from "@/data/states";
 import { districtShort, repDistrictPath, repState } from "@/data/representatives2026";
 import type { StateCode } from "@/data/types";
-import { countyPath, placeIsStandalone, placeTargetPath } from "@/lib/placeNames";
+import { countyHrefByName, linkedPlaceHref } from "@/lib/prunedPlaces";
 
 export function CityRelated({
   code,
@@ -40,11 +40,14 @@ export function CityRelated({
         <li>
           <Link href={`/cities/${code}`}>Census places in {stateName}</Link>
         </li>
-        {place.counties.map((county) => (
-          <li key={county}>
-            <Link href={countyPath(code, county)}>Places in {county}</Link>
-          </li>
-        ))}
+        {place.counties.map((county) => {
+          const href = countyHrefByName(code, county);
+          return (
+            <li key={county}>
+              {href ? <Link href={href}>Places in {county}</Link> : <span>Places in {county}</span>}
+            </li>
+          );
+        })}
         {districtLinks.map((link) => (
           <li key={link.href}>
             <Link href={link.href}>{link.label}</Link>
@@ -55,13 +58,14 @@ export function CityRelated({
         <>
           <h3>Other places in the same county</h3>
           <ul>
-            {neighbors.map((other) => (
-              <li key={other.geoid}>
-                <Link href={placeIsStandalone(other) ? `/cities/${code}/${other.slug}` : placeTargetPath(code, other)}>
-                  {other.name}
-                </Link>
-              </li>
-            ))}
+            {neighbors.map((other) => {
+              const href = linkedPlaceHref(code, other);
+              return (
+                <li key={other.geoid}>
+                  {href ? <Link href={href}>{other.name}</Link> : <span>{other.name}</span>}
+                </li>
+              );
+            })}
           </ul>
         </>
       ) : null}
@@ -72,13 +76,14 @@ export function CityRelated({
             Ranked by Census interior points. <a href="/sources/#nearest">How nearest places are chosen</a>
           </p>
           <ul>
-            {nearest.map((other) => (
-              <li key={other.geoid}>
-                <Link href={placeIsStandalone(other) ? `/cities/${code}/${other.slug}` : placeTargetPath(code, other)}>
-                  {other.name}
-                </Link>
-              </li>
-            ))}
+            {nearest.map((other) => {
+              const href = linkedPlaceHref(code, other);
+              return (
+                <li key={other.geoid}>
+                  {href ? <Link href={href}>{other.name}</Link> : <span>{other.name}</span>}
+                </li>
+              );
+            })}
           </ul>
         </>
       ) : null}

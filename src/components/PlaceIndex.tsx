@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { PlaceRecord } from "@/data/places/load";
-import { placeDisplayName, placeIndexLetter, placeIsStandalone, placeTargetPath } from "@/lib/placeNames";
+import { placeDisplayName, placeIndexLetter, placeIsStandalone } from "@/lib/placeNames";
+import { linkedPlaceHref } from "@/lib/prunedPlaces";
 import { formatPopulation } from "@/lib/placeText";
 
 const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ#".split("");
@@ -48,19 +49,21 @@ export function PlaceIndex({
           <ul className="mt-2 divide-y divide-line border-y border-line text-sm">
             {groups.get(letter)?.map((place) => {
               const ownPage = placeIsStandalone(place);
+              const href = linkedPlaceHref(stateCode, place);
               return (
                 <li key={place.geoid} className="flex flex-wrap gap-x-3 py-1.5">
-                  <Link
-                    className="font-medium text-navy hover:underline"
-                    href={ownPage ? `/cities/${stateCode}/${place.slug}` : placeTargetPath(stateCode, place)}
-                  >
-                    {placeDisplayName(place.name)}
-                  </Link>
+                  {href ? (
+                    <Link className="font-medium text-navy hover:underline" href={href}>
+                      {placeDisplayName(place.name)}
+                    </Link>
+                  ) : (
+                    <span className="font-medium">{placeDisplayName(place.name)}</span>
+                  )}
                   <span className="text-ink-muted">{place.name}</span>
                   <span className="text-ink-muted">
                     {place.pop == null ? "No 2020 population" : formatPopulation(place.pop)}
                   </span>
-                  {ownPage ? null : <span className="text-ink-muted">Listed on the county page</span>}
+                  {ownPage || !href ? null : <span className="text-ink-muted">Listed on the county page</span>}
                 </li>
               );
             })}
