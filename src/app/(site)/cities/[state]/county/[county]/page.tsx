@@ -13,6 +13,7 @@ import { SourceLines } from "@/components/SourceLines";
 import { countyCitation, countyNameCitation, gazetteerCitation, populationCitation } from "@/data/censusSources";
 import { electionOfficeFor } from "@/data/electionOffices";
 import { countiesForState, countyBySlug, placeState, placeStates } from "@/data/places/load";
+import { countyIsThin } from "@/lib/cityThin";
 import { isPrunedCounty } from "@/lib/prunedPlaces";
 import { absoluteUrl } from "@/data/site";
 import { contentUpdatedLabel } from "@/lib/contentDate";
@@ -56,6 +57,7 @@ export async function generateMetadata({
     title: `2026 Midterm Election Info for ${county.name}, ${state.code}`,
     description: countySeoDescription(county.name, state.name, county.places.length),
     path: `/cities/${state.code}/county/${county.slug}`,
+    index: !countyIsThin(state.code, county.name),
   });
 }
 

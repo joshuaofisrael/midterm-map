@@ -3,7 +3,7 @@ import { REP_STATES, repDistrictPath } from "@/data/representatives2026";
 import type { MetadataRoute } from "next";
 import { countiesForState, placeState, placeStates, placesForState } from "@/data/places/load";
 import { placeIsStandalone } from "@/lib/placeNames";
-import { cityIsThin } from "@/lib/cityThin";
+import { cityIsThin, countyIsThin } from "@/lib/cityThin";
 import { isPrunedCity, isPrunedCounty } from "@/lib/prunedPlaces";
 import { RACES } from "@/data/races";
 import { resultShellForRace, resultShellHasReturns } from "@/data/results";
@@ -326,12 +326,15 @@ function coreSitemap(): MetadataRoute.Sitemap {
 
 function stateSitemap(code: string): MetadataRoute.Sitemap {
   // Pruned zero-impression pages redirect and stay out of the sitemap.
-  // Thin place pages stay noindex and out of the sitemap. /live/ is a redirect
-  // stub whose canonical is on another site, so it is not listed either.
+  // Place and county pages without a contest of their own are noindex and stay
+  // out of the sitemap. /live/ is a redirect stub whose canonical is on another
+  // site, so it is not listed either.
   const places = placesForState(code).filter(
     (place) => placeIsStandalone(place) && !cityIsThin(code, place) && !isPrunedCity(code, place.slug),
   );
-  const counties = countiesForState(code).filter((county) => !isPrunedCounty(code, county.slug));
+  const counties = countiesForState(code).filter(
+    (county) => !isPrunedCounty(code, county.slug) && !countyIsThin(code, county.name),
+  );
   const entries = [
     sitemapEntry(`/cities/${code}`, 0.6),
     ...counties.map((county) => sitemapEntry(`/cities/${code}/county/${county.slug}`, 0.55)),

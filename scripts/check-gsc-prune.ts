@@ -7,7 +7,7 @@ import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
 import path from "node:path";
 import { countiesForState, placeStates, placesForState } from "../src/data/places/load.ts";
 import { SITE, absoluteUrl } from "../src/data/site.ts";
-import { cityIsThin } from "../src/lib/cityThin.ts";
+import { cityIsThin, countyIsThin } from "../src/lib/cityThin.ts";
 import { placeIsStandalone } from "../src/lib/placeNames.ts";
 import {
   PRUNED_PAGE_COUNT,
@@ -79,27 +79,20 @@ if (prunedPaths.size !== PRUNED_PAGE_COUNT) {
   errors.push(`prune path set is ${prunedPaths.size}, list is ${PRUNED_PAGE_COUNT}`);
 }
 
-let oldStateUrls = 0;
-let newStateUrls = 0;
+let stateUrlCount = 0;
 const expectedByFile = new Map<string, Set<string>>();
 for (const state of placeStates()) {
   const expected = new Set<string>();
   expected.add(absoluteUrl(`/cities/${state.code}`));
-  oldStateUrls += 1;
-  newStateUrls += 1;
   for (const county of countiesForState(state.code)) {
-    oldStateUrls += 1;
-    if (isPrunedCounty(state.code, county.slug)) continue;
-    newStateUrls += 1;
+    if (isPrunedCounty(state.code, county.slug) || countyIsThin(state.code, county.name)) continue;
     expected.add(absoluteUrl(`/cities/${state.code}/county/${county.slug}`));
   }
   for (const place of placesForState(state.code)) {
-    if (!placeIsStandalone(place) || cityIsThin(state.code, place)) continue;
-    oldStateUrls += 1;
-    if (isPrunedCity(state.code, place.slug)) continue;
-    newStateUrls += 1;
+    if (!placeIsStandalone(place) || cityIsThin(state.code, place) || isPrunedCity(state.code, place.slug)) continue;
     expected.add(absoluteUrl(`/cities/${state.code}/${place.slug}`));
   }
+  stateUrlCount += expected.size;
   expectedByFile.set(`sitemap/${state.code}.xml`, expected);
 }
 
@@ -138,10 +131,6 @@ for (const file of parsed.files) {
   expectedByFile.delete(rel);
 }
 for (const rel of expectedByFile.keys()) errors.push(`sitemap file not written: ${rel}`);
-
-const removed = oldStateUrls - newStateUrls;
-if (removed !== PRUNED_PAGE_COUNT) errors.push(`removed ${removed} state URLs, expected ${PRUNED_PAGE_COUNT}`);
-if (newStateUrls + removed !== oldStateUrls) errors.push("state sitemap is not the previous set minus pruned URLs");
 
 const seen = new Set<string>();
 for (const loc of pageLocs) {
@@ -279,5 +268,5 @@ if (errors.length) {
 }
 
 console.log(
-  `gsc prune: redirected ${stubs}; sitemap removed ${removed}; sitemap added 0; sitemap URLs ${pageLocs.length} (core ${coreCount}, state ${newStateUrls}); indexable pages missing from sitemap ${indexableMissing}; external canonicals skipped ${externalCanonical}.`,
+  `gsc prune: redirected ${stubs}; sitemap URLs ${pageLocs.length} (core ${coreCount}, state ${stateUrlCount}); indexable pages missing from sitemap ${indexableMissing}; external canonicals skipped ${externalCanonical}.`,
 );

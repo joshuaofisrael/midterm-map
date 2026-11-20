@@ -1,22 +1,39 @@
-# Map the Midterms: county and city indexing criteria (30 Oct 2026)
+# Map the Midterms: county and city indexing criteria
 
-Owner instruction (30 Oct): keep county/city pages with real intros indexed; noindex
-and drop from the sitemap only the thinnest pages. Pages stay live.
+A census place page or county page stays in the index only when the stored
+local-election file has a contest for that jurisdiction. The rule is
+`contestHasSubstance` in `src/lib/cityThin.ts`. Search traffic is not an input.
 
-## Rule (code: `src/lib/cityThin.ts`, used by the city page metadata and `src/app/sitemap.ts`)
-A census-place (city) page is noindex,follow and left out of the sitemap when BOTH:
-1. it has no place- or county-level local contest data (no local races, no county
-   listing note, no "unpublished" county record), and
-2. its population is under `CITY_INDEX_MIN_POP` (10,000).
+## What counts
 
-Every county page stays indexed: each one has unique facts (its own place list,
-congressional districts and data-driven intro from `src/lib/placeIntro.ts`).
+A contest qualifies when it has an office or question line, a named candidate,
+or an incumbent line. Place contests are `local[geoid]`. County contests are
+`localByCounty[county name]`.
 
-## Counts (production build of 30 Oct 2026)
-- County pages indexed: 3,219
-- City pages indexed: 10,119
-- City pages noindex (kept live, out of sitemap): 21,773
-- Alias/redirect pages (noindex): 97,669
+## What does not count
 
-## Undo
-Lower `CITY_INDEX_MIN_POP` to 0 (or make `cityIsThin` return false) and rebuild.
+- County contests or county notes repeated on every place in the county
+- U.S. House and statewide candidate lists
+- Census population, GEOID, and district-name rows
+- Rotated intro sentences built from those shared facts
+- A source citation with no contest
+- A note that a contest exists but its wording or names were not copied
+- An empty-list line or a "no official listing" line
+
+Pages that do not qualify are `noindex, follow`, left out of the sitemap, and
+kept live. State indexes (`/cities/` and `/cities/XX/`), race and candidate
+pages, results, ballot, representatives, learn, and legal pages are not part
+of this rule.
+
+Redirect stubs from the zero-impression prune stay redirects. They are not
+reopened by this rule, including the stubs whose stored file does contain a
+contest.
+
+## Counts (live pages, 20 Nov 2026)
+
+- City pages indexed: 242
+- City pages noindex: 30,687
+- County pages indexed: 298
+- County pages noindex: 770
+
+The absolute URLs of the noindex pages are in `src/data/places/noindex-urls.txt`.

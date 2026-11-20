@@ -1,7 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { countiesForState, placeBySlug, placeStates, placesForState } from "../data/places/load.ts";
-import { cityIsThin } from "./cityThin.ts";
 import { placeIsStandalone } from "./placeNames.ts";
 import {
   PRUNED_CITY_COUNT,
@@ -45,7 +44,6 @@ test("every pruned URL is a real page that the sitemap lists today, and kept pag
     for (const place of placesForState(state.code)) {
       if (isPrunedCity(state.code, place.slug)) {
         assert.equal(placeIsStandalone(place), true);
-        assert.equal(cityIsThin(state.code, place), false);
         assert.equal(linkedPlaceHref(state.code, place), null);
         prunedCities += 1;
         removedFromSitemap += 1;
