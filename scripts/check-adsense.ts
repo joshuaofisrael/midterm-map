@@ -1,34 +1,32 @@
 /**
- * Fails the build when an HTML page with a head lacks the AdSense meta tag or loader
- * (including static city, county, and redirect pages), when an ad unit is present,
- * when the Consent Mode default is not first in <head>, when Ezoic or Adsterra
- * code is present,
- * when ads.txt is missing or different, when robots.txt blocks an AdSense crawler,
- * or when the exported site is 1 GB or larger.
- * The AdSense loader stays limited to substantive pages.
+ * Fails the build when any exported HTML file contains an AdSense marker,
+ * or when ads.txt exists anywhere in out/.
+ * Also requires the Consent Mode default, rejects Ezoic and Adsterra,
+ * requires Google Analytics 4 and the Cloudflare Web Analytics beacon on
+ * every non-redirect page, and keeps the export under 1 GB.
  */
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import path from "node:path";
-import {
-  ADS_TXT_LINE,
-  ADSENSE_CLIENT,
-  ADSENSE_LOADER_TAG,
-  ADSENSE_META_TAG,
-  htmlHead,
-  isRedirectStub,
-  adsAllowedForPath,
-} from "../src/lib/adsense.ts";
+import { htmlHead, isRedirectStub } from "../src/lib/htmlDocument.ts";
 import { isBallotHtml } from "../src/lib/ballotZip.ts";
 import { consentHeadProblems } from "../src/lib/consentHead.ts";
 
 const OUT = path.join(process.cwd(), "out");
 const GIGABYTE = 1024 * 1024 * 1024;
-const ADSENSE_BOTS = ["Mediapartners-Google", "AdsBot-Google", "AdsBot-Google-Mobile"];
-const errors: string[] = [];
+const GA_ID = "G-Q9FB3RS751";
+const BEACON = "static.cloudflareinsights.com/beacon.min.js";
+const BEACON_TOKEN = "acf65aa20fc5402db5459b56440920fe";
+const FORBIDDEN = [
+  "adsbygoogle",
+  "pagead2.googlesyndication.com",
+  "ca-pub-5681559774142917",
+  "google-adsense-account",
+];
 
-let pages = 0;
-let adPages = 0;
+const errors: string[] = [];
+let htmlFiles = 0;
 let redirects = 0;
+let withAnalytics = 0;
 let nonDocuments = 0;
 let bytes = 0;
 
@@ -42,32 +40,36 @@ function walk(dir: string) {
       continue;
     }
     bytes += info.size;
+    if (name === "ads.txt") {
+      errors.push(`${path.relative(OUT, full)} exists in the output`);
+      continue;
+    }
     if (!name.endsWith(".html")) continue;
+    htmlFiles++;
     const html = readFileSync(full, "utf8");
+    const rel = path.relative(OUT, full);
+    const lower = html.toLowerCase();
+    for (const marker of FORBIDDEN) {
+      if (lower.includes(marker.toLowerCase())) errors.push(`${rel}: contains ${marker}`);
+    }
     const head = htmlHead(html);
     if (head === null) {
       nonDocuments++;
       continue;
     }
-    if (isRedirectStub(html)) redirects++;
-    pages++;
-    const rel = path.relative(OUT, full);
-    if (!head.includes(ADSENSE_META_TAG)) errors.push(`${rel}: missing ${ADSENSE_META_TAG}`);
-    const sitePath = "/" + rel.split(path.sep).join("/").replace(/index\.html$/, "");
-    const allow = !isRedirectStub(html) && adsAllowedForPath(sitePath);
-    const hasLoader = head.includes("adsbygoogle.js");
-    const noindex = /<meta[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(head);
-    if (allow && !head.includes(ADSENSE_LOADER_TAG)) errors.push(`${rel}: missing AdSense loader`);
-    if (!allow && hasLoader) errors.push(`${rel}: AdSense loader on a page that must stay ad-free`);
-    if (hasLoader && noindex) errors.push(`${rel}: loader on a noindex page`);
-    if (allow) adPages++;
     const relPosix = rel.split(path.sep).join("/");
     for (const problem of consentHeadProblems(head, html, isBallotHtml(relPosix))) {
       errors.push(`${rel}: ${problem}`);
     }
-    if (/<ins\b[^>]*\badsbygoogle\b/i.test(html) || /adsbygoogle\s*=\s*window\.adsbygoogle/.test(html)) {
-      errors.push(`${rel}: ad unit is present; only the loader is allowed`);
+    if (isRedirectStub(html)) {
+      redirects++;
+      continue;
     }
+    const hasGa = html.includes(GA_ID) && html.includes("/consent.js");
+    const hasBeacon = html.includes(BEACON) && html.includes(BEACON_TOKEN);
+    if (!hasGa) errors.push(`${rel}: missing Google Analytics ${GA_ID} or /consent.js`);
+    if (!hasBeacon) errors.push(`${rel}: missing Cloudflare Web Analytics beacon`);
+    if (hasGa && hasBeacon) withAnalytics++;
   }
 }
 
@@ -81,64 +83,8 @@ function dirSize(dir: string): number {
   return total;
 }
 
-type RobotGroup = { agents: string[]; rules: { allow: boolean; path: string }[] };
-
-function parseRobots(text: string): RobotGroup[] {
-  const groups: RobotGroup[] = [];
-  let current: RobotGroup | null = null;
-  for (const raw of text.split(/\r?\n/)) {
-    const line = raw.replace(/#.*$/, "").trim();
-    if (!line) continue;
-    const match = line.match(/^([^:]+):\s*(.*)$/);
-    if (!match) continue;
-    const field = match[1].trim().toLowerCase();
-    const value = match[2].trim();
-    if (field === "user-agent") {
-      if (!current || current.rules.length > 0) {
-        current = { agents: [], rules: [] };
-        groups.push(current);
-      }
-      current.agents.push(value);
-      continue;
-    }
-    if (!current) continue;
-    if (field === "allow" || field === "disallow") {
-      current.rules.push({ allow: field === "allow", path: value });
-    }
-  }
-  return groups;
-}
-
-function groupFor(groups: RobotGroup[], agent: string): RobotGroup | undefined {
-  const specific = groups.filter((group) =>
-    group.agents.some((name) => name !== "*" && name.toLowerCase() === agent.toLowerCase()),
-  );
-  if (specific.length > 0) return specific[specific.length - 1];
-  return groups.filter((group) => group.agents.includes("*")).pop();
-}
-
-/** True when the group blocks the site root. An empty Disallow allows everything. */
-function blocksRoot(group: RobotGroup | undefined): boolean {
-  if (!group) return false;
-  let blocked = false;
-  let allowLength = -1;
-  let disallowLength = -1;
-  for (const rule of group.rules) {
-    if (rule.path === "") continue;
-    if (rule.path !== "/" && !"/".startsWith(rule.path)) continue;
-    if (rule.allow) {
-      if (rule.path.length >= allowLength) allowLength = rule.path.length;
-    } else if (rule.path.length >= disallowLength) {
-      disallowLength = rule.path.length;
-      blocked = true;
-    }
-  }
-  if (allowLength >= disallowLength) return false;
-  return blocked;
-}
-
 if (!existsSync(OUT)) {
-  console.error("adsense: out/ is missing. Run next build first.");
+  console.error("no-adsense: out/ is missing. Run next build first.");
   process.exit(1);
 }
 
@@ -152,30 +98,24 @@ if (!existsSync(consentDefaultPath)) {
   if (!consentDefault.includes('consent", "default"') || !consentDefault.includes("analytics_storage")) {
     errors.push("consent-default.js does not set a Consent Mode default");
   }
-}
-
-const adsPath = path.join(OUT, "ads.txt");
-if (!existsSync(adsPath)) {
-  errors.push("ads.txt is missing from out/");
-} else {
-  const body = readFileSync(adsPath, "utf8").replace(/\r\n/g, "\n").trim();
-  if (body !== ADS_TXT_LINE) errors.push(`ads.txt must be exactly: ${ADS_TXT_LINE}`);
-}
-
-const robotsPath = path.join(OUT, "robots.txt");
-if (!existsSync(robotsPath)) {
-  errors.push("robots.txt is missing from out/");
-} else {
-  const groups = parseRobots(readFileSync(robotsPath, "utf8"));
-  for (const agent of ADSENSE_BOTS) {
-    const group = groupFor(groups, agent);
-    if (!group) errors.push(`robots.txt has no rule group covering ${agent}`);
-    else if (blocksRoot(group)) errors.push(`robots.txt blocks ${agent} from /`);
+  if (/ad_storage"\s*:\s*"granted"/.test(consentDefault)) {
+    errors.push("consent-default.js grants advertising storage");
   }
 }
 
-if (!ADSENSE_META_TAG.includes(ADSENSE_CLIENT) || !ADSENSE_LOADER_TAG.includes(ADSENSE_CLIENT)) {
-  errors.push("AdSense client id is not in the shared tags");
+const consentPath = path.join(OUT, "consent.js");
+if (!existsSync(consentPath)) {
+  errors.push("consent.js is missing from out/");
+} else {
+  const consent = readFileSync(consentPath, "utf8");
+  if (!consent.includes("googletagmanager.com") || !consent.includes("analytics_storage")) {
+    errors.push("consent.js no longer loads Google Analytics after a grant");
+  }
+  for (const marker of FORBIDDEN) {
+    if (consent.toLowerCase().includes(marker.toLowerCase())) {
+      errors.push(`consent.js contains ${marker}`);
+    }
+  }
 }
 
 if (bytes >= GIGABYTE) {
@@ -183,12 +123,12 @@ if (bytes >= GIGABYTE) {
 }
 
 if (errors.length) {
-  console.error(`adsense: ${errors.length} problem(s)`);
+  console.error(`no-adsense: ${errors.length} problem(s)`);
   for (const line of errors.slice(0, 40)) console.error(`  - ${line}`);
   process.exit(1);
 }
 
 const mb = (bytes / (1024 * 1024)).toFixed(1);
 console.log(
-  `adsense: ${pages} pages have the meta tag, ${adPages} substantive pages load the ad script (${redirects} redirect stubs included); ${nonDocuments} non-documents skipped; ads.txt ok; robots.txt allows AdSense crawlers; out/ is ${mb} MB.`,
+  `no-adsense: ${htmlFiles} HTML files checked, 0 AdSense references; ads.txt absent; GA4 ${GA_ID} and the Cloudflare beacon on ${withAnalytics} pages; ${redirects} redirect stubs have neither (unchanged); ${nonDocuments} non-documents skipped; out/ is ${mb} MB.`,
 );

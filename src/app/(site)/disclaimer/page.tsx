@@ -12,7 +12,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "Disclaimer",
   description:
-    `Election-information disclaimer for ${SITE.name}: information only, not legal, political, voting, or financial advice, not an official government site, not an endorsement. Market odds, if shown, are not predictions or betting advice. Verify with official sources.`,
+    `Disclaimer for ${SITE.name}: information only, not an official election site or an endorsement. Not legal or voting advice. Verify with official sources.`,
   path: "/disclaimer",
 });
 
@@ -175,8 +175,9 @@ export default function DisclaimerPage() {
           {affiliates
             ? `Some pages contain affiliate links. When a page shows them, ${LEGAL.legalName} may earn a commission if you buy through them, at no extra cost to you, and a disclosure appears directly above the links.`
             : `The site does not currently show affiliate links. If it does in the future, ${LEGAL.legalName} may earn a commission when you buy through them, at no extra cost to you, and a disclosure will appear directly above the links.`}{" "}
-          Tips and commissions never affect which races, candidates, polls, or
-          facts we cover. We accept no money or advertising from candidates,
+          The site does not show ads and does not use advertising cookies. Tips and
+          commissions never affect which races, candidates, polls, or facts we cover.
+          We accept no money or advertising from candidates,
           campaigns, parties, or PACs.
         </p>
 

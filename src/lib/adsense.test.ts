@@ -1,76 +1,27 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
+import path from "node:path";
 import test from "node:test";
+import { fileURLToPath } from "node:url";
 import { SITE } from "../data/site.ts";
-import {
-  ADS_TXT_LINE,
-  ADSENSE_CLIENT,
-  ADSENSE_HEAD_TAGS,
-  ADSENSE_LOADER_TAG,
-  ADSENSE_META_TAG,
-  GOOGLE_ADS_POLICIES_URL,
-  ensureAdsenseHead,
-  adsAllowedForPath,
-  stampAdsenseHead,
-  headHasAdsense,
-  htmlHead,
-} from "./adsense.ts";
 
-const SAMPLE = `<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Sample</title>
-</head>
-<body><p>Page</p></body>
-</html>
-`;
+const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "../..");
+const FORBIDDEN = [
+  "adsbygoogle",
+  "pagead2.googlesyndication.com",
+  "ca-pub-5681559774142917",
+  "google-adsense-account",
+];
 
-test("exact AdSense tags use the approved client id and no ad unit", () => {
-  assert.equal(ADSENSE_META_TAG, `<meta name="google-adsense-account" content="${ADSENSE_CLIENT}">`);
-  assert.equal(
-    ADSENSE_LOADER_TAG,
-    `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}" crossorigin="anonymous"></script>`,
-  );
-  assert.equal(ADSENSE_CLIENT, "ca-pub-5681559774142917");
-  assert.doesNotMatch(ADSENSE_HEAD_TAGS, /<ins\b|adsbygoogle\s*=/);
-  assert.equal(ADS_TXT_LINE, "google.com, pub-5681559774142917, DIRECT, f08c47fec0942fa0");
-  assert.equal(GOOGLE_ADS_POLICIES_URL, "https://policies.google.com/technologies/ads");
-});
+function read(rel: string): string {
+  return readFileSync(path.join(root, rel), "utf8");
+}
 
-test("ensureAdsenseHead inserts the exact pair once, including on a redirect stub", () => {
-  const stamped = ensureAdsenseHead(SAMPLE);
-  const head = htmlHead(stamped);
-  assert.ok(head);
-  assert.equal(headHasAdsense(head), true);
-  assert.equal(stamped, ensureAdsenseHead(stamped));
-
-  const redirect = SAMPLE.replace(
-    "</head>",
-    '<meta http-equiv="refresh" content="0; url=/cities/MI/farmington-hills-city/">\n</head>',
-  );
-  const stampedRedirect = ensureAdsenseHead(redirect);
-  assert.equal(headHasAdsense(htmlHead(stampedRedirect) ?? ""), true);
-  assert.match(stampedRedirect, /http-equiv="refresh"/);
-});
-
-test("ensureAdsenseHead replaces a mangled copy and leaves a non-document unchanged", () => {
-  const mangled = SAMPLE.replace(
-    "</head>",
-    '<meta name="google-adsense-account" content="ca-pub-5681559774142917"/>\n<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5681559774142917" crossorigin="anonymous"></script>\n</head>',
-  );
-  const fixed = ensureAdsenseHead(mangled);
-  const head = htmlHead(fixed) ?? "";
-  assert.equal(headHasAdsense(head), true);
-  assert.equal(head.split(ADSENSE_META_TAG).length - 1, 1);
-  assert.equal(head.split("adsbygoogle.js").length - 1, 1);
-  assert.equal(ensureAdsenseHead("not a document"), "not a document");
-});
-
-test("public ads.txt matches the shared line and is not rewritten by this change", () => {
-  const body = readFileSync(new URL("../../public/ads.txt", import.meta.url), "utf8").replace(/\r\n/g, "\n").trim();
-  assert.equal(body, ADS_TXT_LINE);
-});
+function renderedDescription(source: string): string {
+  const match = source.match(/description:\s*\n\s*`([^`]*)`/);
+  assert.ok(match, "meta description template missing");
+  return match[1].replaceAll("${SITE.name}", SITE.name);
+}
 
 test("homepage meta description is 160 characters or fewer", () => {
   assert.ok(
@@ -79,45 +30,90 @@ test("homepage meta description is 160 characters or fewer", () => {
   );
 });
 
-test("privacy and advertising say AdSense may serve ads", () => {
-  const privacy = readFileSync(new URL("../app/(site)/privacy/page.tsx", import.meta.url), "utf8");
-  const advertising = readFileSync(new URL("../app/(site)/advertising/page.tsx", import.meta.url), "utf8");
-  for (const source of [privacy, advertising]) {
-    assert.doesNotMatch(source, /No advertising script is loaded/);
-    assert.doesNotMatch(source, /AdSense is not running/);
-    assert.doesNotMatch(source, /no advertising script loads/i);
-    assert.match(source, /GOOGLE_ADS_POLICIES_URL/);
-    assert.match(source, /European Economic\s+Area/);
-    assert.match(source, /United Kingdom/);
-    assert.match(source, /Switzerland/);
+test("privacy and advertising say the site does not show ads", () => {
+  const privacy = read("src/app/(site)/privacy/page.tsx");
+  const advertising = read("src/app/(site)/advertising/page.tsx");
+  const about = read("src/app/(site)/about/page.tsx");
+  const terms = read("src/app/(site)/terms/page.tsx");
+  const disclaimer = read("src/app/(site)/disclaimer/page.tsx");
+  for (const source of [privacy, advertising, about, terms, disclaimer]) {
+    assert.match(source, /does not show ads/);
+    assert.match(source, /does not use advertising cookies/);
+    assert.doesNotMatch(source, /AdSense/);
+    assert.doesNotMatch(source, /Mediavine/);
+    assert.doesNotMatch(source, /ads\.txt/);
   }
-  assert.doesNotMatch(privacy, /Ezoic/);
-  assert.doesNotMatch(privacy, /Adsterra/);
-  assert.match(privacy, /click Accept/);
+  assert.match(privacy, /Cloudflare Web Analytics/);
+  assert.match(privacy, /Google Analytics/);
+  assert.match(privacy, /G-Q9FB3RS751|GA_MEASUREMENT_ID/);
   assert.match(advertising, /consent script/);
+  assert.match(advertising, /Cloudflare Web\s+Analytics/);
+  for (const [label, source] of [
+    ["privacy", privacy],
+    ["advertising", advertising],
+    ["terms", terms],
+    ["disclaimer", disclaimer],
+  ] as const) {
+    const description = renderedDescription(source);
+    assert.ok(
+      description.length <= 160,
+      `${label} meta description is ${description.length} characters`,
+    );
+  }
 });
 
-test("analytics consent.js stays the Analytics loader and does not load AdSense", () => {
-  const ga = readFileSync(new URL("../components/GoogleAnalytics.tsx", import.meta.url), "utf8");
-  const consent = readFileSync(new URL("../../public/consent.js", import.meta.url), "utf8");
-  const layout = readFileSync(new URL("../app/layout.tsx", import.meta.url), "utf8");
+test("ads.txt and the AdSense stamp are gone", () => {
+  assert.equal(existsSync(path.join(root, "public/ads.txt")), false);
+  assert.equal(existsSync(path.join(root, "src/lib/adsense.ts")), false);
+  assert.equal(existsSync(path.join(root, "scripts/stamp-adsense-html.ts")), false);
+  const pkg = read("package.json");
+  assert.doesNotMatch(pkg, /stamp-adsense-html/);
+  assert.match(pkg, /check-adsense\.ts/);
+  const checker = read("scripts/check-adsense.ts");
+  for (const marker of FORBIDDEN) assert.match(checker, new RegExp(marker.replace(/\./g, "\\.")));
+  assert.match(checker, /ads\.txt/);
+});
+
+test("pages, layouts, and generators do not carry AdSense markers", () => {
+  const skip = new Set(["scripts/check-adsense.ts", "scripts/check-scale-ready.mjs"]);
+  const hits: string[] = [];
+  function walk(dir: string) {
+    for (const name of readdirSync(dir)) {
+      if (name === "node_modules" || name === "out" || name === ".git") continue;
+      const full = path.join(dir, name);
+      const rel = path.relative(root, full);
+      if (statSync(full).isDirectory()) {
+        walk(full);
+        continue;
+      }
+      if (skip.has(rel) || /\.test\.(ts|tsx|mjs|js)$/.test(rel)) continue;
+      if (!/\.(tsx?|jsx?|mjs|js|css|json|txt|html)$/.test(name)) continue;
+      const text = readFileSync(full, "utf8").toLowerCase();
+      for (const marker of FORBIDDEN) {
+        if (text.includes(marker.toLowerCase())) hits.push(`${rel}: ${marker}`);
+      }
+    }
+  }
+  for (const dir of ["src", "public", "scripts"]) walk(path.join(root, dir));
+  assert.deepEqual(hits, []);
+});
+
+test("analytics consent stays, and the layout still loads GA4 and the beacon", () => {
+  const ga = read("src/components/GoogleAnalytics.tsx");
+  const beacon = read("src/components/CloudflareAnalytics.tsx");
+  const consent = read("public/consent.js");
+  const consentDefault = read("public/consent-default.js");
+  const layout = read("src/app/layout.tsx");
+  assert.match(ga, /G-Q9FB3RS751/);
   assert.match(ga, /src="\/consent\.js"/);
+  assert.match(beacon, /static\.cloudflareinsights\.com\/beacon\.min\.js/);
+  assert.match(beacon, /acf65aa20fc5402db5459b56440920fe/);
+  assert.match(layout, /<GoogleAnalyticsHead/);
+  assert.match(layout, /<CloudflareAnalytics/);
   assert.match(consent, /googletagmanager\.com/);
-  assert.doesNotMatch(consent, /adsbygoogle/);
-  assert.match(layout, /google-adsense-account/);
-  assert.doesNotMatch(layout, /ADSENSE_SCRIPT_SRC/);
-});
-
-test("ad loader only on substantive pages; thin, embed, live-free and legal pages get meta only", () => {
-  for (const p of ["/", "/states/pa/", "/races/pa-senate/", "/results/", "/live/", "/voting-deadlines/", "/learn/", "/learn/house-majority/"]) {
-    assert.equal(adsAllowedForPath(p), true, p);
-  }
-  for (const p of ["/cities/pa/erie-city/", "/cities/", "/embed/x/", "/contact/", "/privacy/", "/terms/", "/404/", "/polls/"]) {
-    assert.equal(adsAllowedForPath(p), false, p);
-  }
-  const doc = "<html><head><title>x</title></head><body></body></html>";
-  assert.ok(stampAdsenseHead(doc, true).includes("adsbygoogle.js"));
-  const off = stampAdsenseHead(stampAdsenseHead(doc, true), false);
-  assert.ok(!off.includes("adsbygoogle.js"));
-  assert.ok(off.includes("google-adsense-account"));
+  assert.match(consent, /analytics_storage/);
+  assert.doesNotMatch(consent, /__tcfapi|ezCMP|Gatekeeper/);
+  assert.doesNotMatch(consentDefault, /ad_storage"\s*:\s*"granted"/);
+  assert.match(consentDefault, /analytics_storage: "denied"/);
+  assert.match(consentDefault, /ad_storage: "denied"/);
 });

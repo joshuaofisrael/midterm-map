@@ -1,13 +1,10 @@
 /* Map the Midterms cookie choice for Google Analytics (Consent Mode v2).
    Approach: one prompt.
    - The stamped head (/consent-default.js) sets a Consent Mode default:
-     analytics_storage denied everywhere; ad storage also denied in the EEA,
-     the UK and Switzerland. No third-party CMP is loaded.
-   - This banner is always the analytics prompt. An IAB TCF CMP (Google's
-     EEA/UK message), if present, only sets the ad-storage signals.
-   - This banner:  Accept loads gtag.js. Reject and no
-     choice do not. The choice is kept in localStorage. A TCF decision does
-     not overwrite that stored choice. */
+     analytics_storage denied, and advertising storage denied. This site
+     does not show ads and does not use advertising cookies.
+   - This banner is the analytics prompt. Accept loads gtag.js. Reject
+     and no choice do not. The choice is kept in localStorage. */
 (function () {
   var KEY = "mtm-analytics-consent";
   function read() {
@@ -35,7 +32,6 @@
     });
     window.gtag("set", "ads_data_redaction", true);
     window.gtag("set", "url_passthrough", false);
-    window["gtag_enable_tcf_support"] = true;
     window.__mtmConsentDefault = 1;
   }
   function loadGaScript() {
@@ -104,8 +100,7 @@
     }
     close();
   }
-  function show(focus, force) {
-    if (window.__mtmGatekeeper === true && !force) return;
+  function show(focus) {
     ensureStyle();
     if (document.getElementById("mtm-consent")) return;
     var box = document.createElement("div");
@@ -115,6 +110,7 @@
     box.innerHTML =
       '<div class="in"><p>We use Google Analytics cookies to count visits, only if you accept. ' +
       'The Google script loads only after Accept. Cloudflare Web Analytics (cookieless) runs either way. ' +
+      'This site does not show ads and does not use advertising cookies. ' +
       '<a href="/privacy/#google-analytics">Privacy Policy</a></p>' +
       '<div class="b"><button type="button" class="acc">Accept</button>' +
       '<button type="button" class="rej">Reject</button></div></div>';
@@ -123,84 +119,24 @@
     document.body.appendChild(box);
     if (focus) box.querySelector(".acc").focus();
   }
-  function openGatekeeper() {
-    function open() {
-      try {
-        if (window.ezCMP && typeof window.ezCMP.generateCMPFromPrivacyCenter === "function") {
-          window.ezCMP.generateCMPFromPrivacyCenter();
-          return true;
-        }
-      } catch (e) {}
-      return false;
-    }
-    if (open()) return true;
-    if (window.ezCMPQueue && typeof window.ezCMPQueue.push === "function") {
-      window.ezCMPQueue.push(open);
-      return true;
-    }
-    return false;
-  }
   document.addEventListener("click", function (e) {
     var t = e.target && e.target.closest ? e.target.closest("[data-consent-open]") : null;
     if (!t) return;
     e.preventDefault();
-    if (window.__mtmGatekeeper === true && openGatekeeper()) return;
-    show(true, true);
+    show(true);
   });
-  function purpose(tc, id) {
-    var consents = tc.purpose && tc.purpose.consents;
-    return !!(consents && (consents[id] || consents[String(id)]));
-  }
-  function allPurposes(tc, ids) {
-    for (var i = 0; i < ids.length; i++) if (!purpose(tc, ids[i])) return false;
-    return true;
-  }
   var ourReady = false;
   function ourRegionInit() {
-    if (ourReady || window.__mtmGatekeeper === true) return;
+    if (ourReady) return;
     ourReady = true;
     ensureStyle();
     var v = read();
     if (v === "granted") loadGa();
-    else if (v !== "denied") show(false, false);
-  }
-  // Google's consent message (TCF) only feeds the ad-storage signals that
-  // AdSense reads. It never hides, delays or replaces this site's banner,
-  // and GA loads only after Accept on this banner. If the TCF tool is slow,
-  // fails or is blocked, nothing here waits for it.
-  function applyTcf(tc) {
-    var signal = function (ids) { return allPurposes(tc, ids) ? "granted" : "denied"; };
-    ensureDefault();
-    window.gtag("consent", "update", {
-      ad_storage: signal([1]),
-      ad_user_data: signal([1, 7]),
-      ad_personalization: signal([3, 4])
-    });
-    window.gtag("set", "url_passthrough", false);
-  }
-  function onTcf(tc, ok) {
-    if (!ok || !tc) return;
-    var status = tc.eventStatus;
-    if (status !== "tcloaded" && status !== "useractioncomplete") return;
-    if (tc.gdprApplies === true && (status === "useractioncomplete" || tc.tcString)) applyTcf(tc);
-  }
-  function armTcf() {
-    try {
-      if (typeof window.__tcfapi !== "function") return false;
-      window.__tcfapi("addEventListener", 2, onTcf);
-      return true;
-    } catch (e) { return false; }
+    else if (v !== "denied") show(false);
   }
   function init() {
     ensureDefault();
-    window.__mtmGatekeeper = false;
     ourRegionInit();
-    if (!armTcf()) {
-      var tries = 0;
-      var t = setInterval(function () {
-        if (armTcf() || ++tries > 50) clearInterval(t);
-      }, 200);
-    }
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
   else init();
@@ -209,13 +145,13 @@
   // banner back if it is gone and no choice has been made.
   function recheck() {
     setTimeout(function () {
-      if (window.__mtmGatekeeper === true || document.getElementById("mtm-consent")) return;
+      if (document.getElementById("mtm-consent")) return;
       var v = read();
-      if (v !== "granted" && v !== "denied") show(false, false);
+      if (v !== "granted" && v !== "denied") show(false);
     }, 0);
   }
   if (document.readyState === "complete") recheck();
   else window.addEventListener("load", recheck);
-  // Late re-renders or third-party scripts can also remove it; check again.
+  // Late re-renders can also remove it; check again.
   [1500, 4000, 8000].forEach(function (ms) { setTimeout(recheck, ms); });
 })();

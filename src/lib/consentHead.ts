@@ -2,8 +2,8 @@
  * Consent Mode default head script for mapthemidterms.com.
  * Ezoic and its Gatekeeper CMP were removed (Oct 2026). The only thing stamped
  * at the start of <head> is the same-origin Consent Mode default, which denies
- * analytics_storage everywhere (and ad storage in the EEA, UK and Switzerland)
- * before any Google tag runs. public/consent.js then loads GA only after a grant.
+ * analytics_storage and advertising storage on every page before any Google
+ * tag runs. public/consent.js then loads GA only after a grant.
  */
 import { BALLOT_ZIP_BOOT_SCRIPT, BALLOT_ZIP_STORAGE_KEY, isBallotHtml } from "./ballotZip";
 

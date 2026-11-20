@@ -4,7 +4,6 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { ADSENSE_META_TAG } from "../src/lib/adsense.ts";
 import { countySlug, placeDisplayName, placeTargetPath, redirectSlugTargets, type VariantPlace } from "../src/lib/placeNames.ts";
 import {
   PRUNED_PAGE_COUNT,
@@ -37,7 +36,6 @@ function redirectHtml(targetPath: string, label: string, canonicalUrl: string): 
 <link rel="canonical" href="${escapeHtml(canonicalUrl)}">
 <meta name="robots" content="noindex, follow">
 <meta http-equiv="refresh" content="0; url=${href}">
-${ADSENSE_META_TAG}
 </head>
 <body>
 <p><a href="${href}">${escapeHtml(label)}</a></p>

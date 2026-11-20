@@ -119,9 +119,9 @@ How to read the limit: `100 GB / bytes per pageview` is how many uncached pagevi
 - `/sitemap.xml` is a sitemap index written by `scripts/write-sitemap-index.mjs`. It lists `/sitemap/core.xml` and one file per state. `/`, `/live`, `/results`, state pages, and city pages are in those files.
 - The IndexNow key file is `https://mapthemidterms.com/7d9821210489aaf528bb6f613749ac93.txt`. The body is the same key. `robots.txt` allows `/`.
 
-## Privacy and ads.txt
+## Privacy
 
-`/privacy` names Cloudflare Web Analytics, Google Analytics 4 (measurement ID `G-Q9FB3RS751`), and the ad networks Google AdSense, Ezoic, and Adsterra. The Google AdSense loader (`adsbygoogle.js`, client `ca-pub-5681559774142917`) stays limited to substantive pages. The `google-adsense-account` meta tag is on every HTML page, including city, county, and redirect pages. No AdSense ad unit is placed. Ezoic’s header scripts (Gatekeeper, then `sa.min.js`, `ezstandalone`, and `ezoicanalytics.com/analytics.js`) are on every HTML page. No Ezoic ad placeholder is added on thin or noindexed pages. Adsterra scripts are not loaded. `/ads.txt` is still `google.com, pub-5681559774142917, DIRECT, f08c47fec0942fa0` and is served from `public/ads.txt`. Ezoic and Adsterra are not in that file. Analytics consent stays in `consent.js`. Where Gatekeeper’s TCF signal says GDPR applies (EEA and UK), that prompt is the only one and GA4 Consent Mode is updated from purposes 1, 7, 8, and 10. Elsewhere the site banner remains. Switzerland keeps the site banner; the Consent Mode default for CH is denied.
+`/privacy` names Cloudflare Web Analytics and Google Analytics 4 (measurement ID `G-Q9FB3RS751`). The site does not show ads and does not use advertising cookies. No advertising script or account meta tag is on any page. `/ads.txt` is not published and should answer 404. Analytics consent stays in `consent.js`: Google Analytics loads only after Accept, and advertising storage stays denied. Ezoic and Adsterra scripts are not loaded.
 
 ## Fallback: move the site off GitHub Pages
 
@@ -144,7 +144,7 @@ Keep the Cloudflare zone if you can. Change only the origin records, and **leave
 4. Build command: `npm run build`
 5. Build output directory: `out`
 6. Environment variable: `NEXT_PUBLIC_SITE_URL` = `https://mapthemidterms.com`. Set the Node.js version to 22 (`NODE_VERSION` = `22`).
-7. Deploy. Open the `*.pages.dev` URL and check `/`, `/live/`, `/results/`, one `/states/` page, one `/cities/` page, `/ads.txt`, `/sitemap.xml`, and the IndexNow key file.
+7. Deploy. Open the `*.pages.dev` URL and check `/`, `/live/`, `/results/`, one `/states/` page, one `/cities/` page, `/sitemap.xml`, and the IndexNow key file. `/ads.txt` should answer 404.
 8. **Custom domains** → add `mapthemidterms.com` and `www.mapthemidterms.com`. Cloudflare will offer to replace the GitHub Pages `A`/`AAAA` records. Accept that only when the `*.pages.dev` site looks right.
 9. SSL/TLS stays **Full (strict)**. Pages serves a Cloudflare certificate.
 10. In the GitHub repo, **Settings → Pages → Custom domain**: remove `mapthemidterms.com` after the new host answers. Until you do, GitHub and Pages can both claim the name. You can leave `.github/workflows/pages.yml` in the repo; it will not affect the domain once the custom domain is removed and DNS points at Cloudflare Pages.
@@ -184,7 +184,7 @@ Do not point this at `mapthemidterms.com`. The run below served `out/` with a sm
 
 Uncapped, 20 connections, 8 seconds, same local server: home about 920 requests/second (p99 44 ms), `/live/` about 2,400 requests/second (p99 16 ms), the JSON about 17,000 requests/second (p99 2 ms). Zero errors. That only means the static files are small. GitHub Pages will not do this, and it was not asked to.
 
-A light production check, three HEAD requests, returned 200 for `/`, `/ads.txt`, and the IndexNow key file. That was not a load test.
+A light production check, three HEAD requests, returned 200 for `/`, `/ads.txt`, and the IndexNow key file. That was not a load test. That check predates the November 20, 2026 withdrawal. `/ads.txt` is no longer published and should answer 404.
 
 ## Owner checklist before 3 November 2026
 

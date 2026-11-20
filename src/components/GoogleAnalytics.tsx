@@ -6,8 +6,7 @@ export const CONSENT_STORAGE_KEY = "mtm-analytics-consent";
 
 /**
  * Sitewide head tags for the cookie banner. gtag.js is not in the page.
- * public/consent.js loads it only after Accept, or after a TCF consent
- * signal grants analytics storage. data-keep tells scripts/slim-city-pages.mjs
+ * public/consent.js loads it only after Accept. data-keep tells scripts/slim-city-pages.mjs
  * to leave these tags on Census place pages. The measurement id string has to
  * stay in the HTML for that check. The Consent Mode
  * default is stamped into exported HTML; they are not part of this component.

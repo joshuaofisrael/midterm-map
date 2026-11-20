@@ -1,7 +1,6 @@
 /**
- * After the AdSense stamp, insert the Consent Mode default at the start of <head>
- * on every exported HTML document. Does not move the AdSense meta tag or loader,
- * and does not add ad placeholders.
+ * Insert the Consent Mode default at the start of <head> on every exported
+ * HTML document. Does not add an advertising script.
  */
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import path from "node:path";

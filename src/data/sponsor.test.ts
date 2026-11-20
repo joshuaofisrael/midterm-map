@@ -3,7 +3,6 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import test from "node:test";
 import { fileURLToPath } from "node:url";
-import { adsAllowedForPath } from "../lib/adsense.ts";
 import {
   activeSponsor,
   ELECTION_NIGHT_SPONSOR,
@@ -75,7 +74,6 @@ test("booking copy, checkout URL, and slot markup match the offer", () => {
     "Your ad here on election night: one exclusive sponsor, 3–6 Nov 2026, $1,000.",
   );
   assert.equal(SPONSOR_CHECKOUT_URL, "https://buy.stripe.com/bJe14o4A8dEBe870jKb3r1U");
-  assert.equal(adsAllowedForPath("/advertise/"), false);
 
   const slot = readFileSync(path.join(root, "src/components/SponsorSlot.tsx"), "utf8");
   assert.match(slot, /Advertise here/);

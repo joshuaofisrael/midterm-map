@@ -11,7 +11,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "Terms of Use",
   description:
-    `Terms for ${SITE.name}, operated by Joshua Israel Ventures LLC: information only, not legal, political, voting, or financial advice, no warranty, use at your own risk, limitation of liability, indemnification, and Florida, USA governing law.`,
+    `Terms for ${SITE.name}: information only, not legal or voting advice, no warranty, use at your own risk, and Florida governing law.`,
   path: "/terms",
 });
 
@@ -121,7 +121,8 @@ export default function TermsPage() {
           {affiliates
             ? "Some pages contain affiliate links. If you buy through them, " + LEGAL.legalName + " may earn a commission at no extra cost to you. Each page with affiliate links shows a disclosure directly above them. Commissions do not affect which races, candidates, polls, or facts we cover, and reading lists are chosen for relevance and balance, not commission rates. Purchases are made from the retailer under its own terms."
             : "The site does not currently contain affiliate links. If we add them, each page with affiliate links will show a disclosure directly above them, and commissions will not affect which races, candidates, polls, or facts we cover."}{" "}
-          Advertising practices are described on the{" "}
+          The site does not show ads and does not use advertising cookies. Advertising practices
+          are described on the{" "}
           <Link href="/advertising">advertising and affiliate disclosure</Link> page.
         </p>
 
