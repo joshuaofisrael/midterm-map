@@ -390,7 +390,11 @@ export default function PrivacyPage() {
           and device or advertising identifiers, when an ad loads. They use them to show ads, limit how often
           you see the same ad, measure whether ads were seen or clicked, detect fraud, and, where allowed,
           personalize ads. These technologies belong to the ad partners, not to us, and are governed by their
-          own privacy policies.
+          own privacy policies. Third-party vendors, including Google, use cookies to serve ads based on a
+          user&apos;s prior visits to this website or other websites. Google&apos;s use of advertising cookies
+          enables it and its partners to serve ads to you based on your visit to this site and/or other sites on
+          the Internet. You may opt out of personalized advertising by visiting{" "}
+          <a href="https://adssettings.google.com">Google Ads Settings</a>.
         </p>
         <h3>Personalized and non-personalized ads</h3>
         <p>
