@@ -46,19 +46,9 @@ const CTAS = [
     body: "Senate, governor, and House pages with sourced candidate names, short bios, and outbound citations.",
   },
   {
-    href: "/polls",
-    title: "Polls & ratings",
-    body: "Published surveys with pollster, dates, sample, and source links. Ratings appear only when a named outlet is cited.",
-  },
-  {
-    href: "/results/2026",
-    title: "Who won",
-    body: "Every 2026 Senate, House and governor race the Associated Press has called, with votes and vote share. Unofficial until each state certifies.",
-  },
-  {
-    href: "/results",
-    title: "Key races",
-    body: "Senate, governor, and House contests for November 3, 2026, with the official source named on each page. Unofficial returns until states certify.",
+    href: "/races/#cycle-2026",
+    title: "How 2026 was called",
+    body: "Associated Press calls for every 2026 Senate, House and governor race, with vote counts on the state pages that already printed them. Unofficial until each state certifies.",
   },
   {
     href: "/voting-deadlines",
@@ -80,8 +70,8 @@ export default function HomePage() {
       <HouseAd path="/" />
       <div className="space-y-14">
       <JsonLd data={faqJsonLd(HOME_FAQS)} />
-      <Link href="/results/2026" className="block rounded-xl border-2 border-navy bg-paper-card p-4 text-center font-serif text-xl font-semibold text-navy underline">
-        2026 results: see who won. Counts are unofficial and still updating until states certify (results data last updated {RESULTS_UPDATED}).
+      <Link href="/races/#cycle-2026" className="block rounded-xl border-2 border-navy bg-paper-card p-4 text-center font-serif text-xl font-semibold text-navy underline">
+        2026 calls, with the vote counts already on the state pages. Counts stay unofficial until states certify (results data last updated {RESULTS_UPDATED}).
       </Link>
       <section className="overflow-hidden rounded-2xl border border-navy-deep bg-navy-deep text-white shadow-card">
         <div className="grid lg:grid-cols-[1.15fr_0.85fr]">
@@ -90,7 +80,7 @@ export default function HomePage() {
               {SITE.electionDayLong}
             </p>
             <h1 className="mt-3 max-w-xl font-serif text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
-              One calm map for ballots, races, polls, and returns.
+              One calm map for ballots, races, and voting rules.
             </h1>
             <p className="mt-4 max-w-xl text-lg leading-8 text-white/85">
               {SITE.name} is a neutral voter information utility for the 2026 U.S.

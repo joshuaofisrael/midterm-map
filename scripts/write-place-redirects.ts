@@ -4,7 +4,8 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { countySlug, placeDisplayName, placeTargetPath, redirectSlugTargets, type VariantPlace } from "../src/lib/placeNames.ts";
+import { countySlug, placeDisplayName, placeIsStandalone, placeTargetPath, redirectSlugTargets, type VariantPlace } from "../src/lib/placeNames.ts";
+import { cityIsIndexable, thinZeroRedirectTarget } from "../src/lib/cityIndexable.ts";
 import {
   PRUNED_PAGE_COUNT,
   isPrunedCity,
@@ -12,7 +13,6 @@ import {
   prunedRedirectTarget,
   stateCitiesPath,
 } from "../src/lib/prunedPlaces.ts";
-
 const root = process.cwd();
 const outDir = path.join(root, "out");
 const base = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://mapthemidterms.com").replace(/\/+$/, "");
@@ -62,7 +62,7 @@ for (const file of fs.readdirSync(path.join(root, "src/data/places"))) {
     if (fs.existsSync(htmlPath)) {
       throw new Error(`Redirect ${code}/${slug} would overwrite an existing page`);
     }
-    const settled = prunedRedirectTarget(target) ?? target;
+    const settled = prunedRedirectTarget(target) ?? thinZeroRedirectTarget(target) ?? target;
     const canonicalPath = settled.split("#")[0];
     const owner = places.find((place) => placeTargetPath(code, place) === target);
     const label = `${placeDisplayName(owner?.name ?? names.get(slug) ?? slug)}, ${code}`;
@@ -95,6 +95,15 @@ for (const file of fs.readdirSync(path.join(root, "src/data/places"))) {
   const countyNames = new Map<string, string>();
   for (const place of places) {
     for (const county of place.counties) countyNames.set(countySlug(county), county);
+    if (placeIsStandalone(place) && !isPrunedCity(code, place.slug) && !cityIsIndexable(code, place)) {
+      const target = stateCitiesPath(code);
+      writeStub(
+        path.join(outDir, "cities", code, place.slug),
+        target,
+        `${placeDisplayName(place.name)}, ${code}`,
+      );
+      continue;
+    }
     if (!isPrunedCity(code, place.slug)) continue;
     const target = stateCitiesPath(code);
     writeStub(
@@ -137,7 +146,7 @@ for (const [alias, target, label] of [
   fs.writeFileSync(htmlPath, redirectHtml(target, "Live election results on Map the General", target));
 }
 
-if (farmington !== "/cities/MI/farmington-hills-city/") {
+if (farmington !== "/cities/MI/") {
   throw new Error(`Farmington Hills redirect target was ${farmington || "missing"}`);
 }
 

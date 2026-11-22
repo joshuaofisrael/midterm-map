@@ -1,12 +1,9 @@
-import { RACES_2026 } from "@/data/winners2026";
 import { REP_STATES, repDistrictPath } from "@/data/representatives2026";
 import type { MetadataRoute } from "next";
 import { countiesForState, placeState, placeStates, placesForState } from "@/data/places/load";
-import { placeIsStandalone } from "@/lib/placeNames";
-import { cityIsThin } from "@/lib/cityThin";
-import { isPrunedCity, isPrunedCounty } from "@/lib/prunedPlaces";
+import { cityIsIndexable } from "@/lib/cityIndexable";
+import { isPrunedCounty } from "@/lib/prunedPlaces";
 import { RACES } from "@/data/races";
-import { resultShellForRace, resultShellHasReturns } from "@/data/results";
 import { absoluteUrl, SITE } from "@/data/site";
 import { STARTER_STATES } from "@/data/states";
 import { LEARN_ARTICLES } from "@/data/learn/articles";
@@ -16,13 +13,6 @@ import { contentUpdatedIsoForPath } from "@/lib/contentDate";
 const SITEMAP_URL_LIMIT = 50000;
 
 export const dynamic = "force-static";
-
-/**
- * Per-race /results/{slug} URLs stay out of the sitemap while those pages
- * are empty pre-election shells. Flip this (or rely on resultShellHasReturns)
- * near Election Day (2026-11-03) when unofficial returns have real data.
- */
-const INCLUDE_PER_RACE_RESULTS_IN_SITEMAP = true; // owner rule 11 Oct 2026: every page indexable
 
 /** Date of the October 7, 2026 compliance edit. Unchanged pages keep SITE.lastUpdated. */
 const CONTENT_UPDATED = "2026-10-07";
@@ -278,9 +268,6 @@ function coreSitemap(): MetadataRoute.Sitemap {
     "/voting-deadlines",
     "/calendar",
     "/races",
-    "/polls",
-    "/results",
-    "/election-night-tv",
     "/learn",
     "/about",
     "/disclaimer",
@@ -292,10 +279,7 @@ function coreSitemap(): MetadataRoute.Sitemap {
     "/advertising",
     "/contact",
     "/contact/thanks",
-    "/updates/thanks",
     "/embed/map",
-    "/results/2026",
-    ...RACES_2026.map((w) => `/results/2026/${w.slug}`),
     "/representatives",
     "/your-representative",
     ...REP_STATES.map((s) => `/representatives/${s.code}`),
@@ -305,19 +289,11 @@ function coreSitemap(): MetadataRoute.Sitemap {
   const statePaths = STARTER_STATES.flatMap((state) => [
     `/states/${state.code}`,
     `/ballot/${state.code}`,
-    `/results/state/${state.code}`,
   ]);
 
   const learnPaths = LEARN_ARTICLES.map((article) => `/learn/${article.slug}`);
 
-  const racePaths = RACES.flatMap((race) => {
-    const paths = [`/races/${race.slug}`];
-    const hasReturns = resultShellHasReturns(resultShellForRace(race.slug));
-    if (INCLUDE_PER_RACE_RESULTS_IN_SITEMAP || hasReturns) {
-      paths.push(`/results/${race.slug}`);
-    }
-    return paths;
-  });
+  const racePaths = RACES.map((race) => `/races/${race.slug}`);
 
   return [...staticPaths, ...learnPaths, ...statePaths, ...racePaths].map((path) =>
     sitemapEntry(path, priorityFor(path)),
@@ -328,9 +304,7 @@ function stateSitemap(code: string): MetadataRoute.Sitemap {
   // Pruned zero-impression pages redirect and stay out of the sitemap.
   // Thin place pages stay noindex and out of the sitemap. /live/ is a redirect
   // stub whose canonical is on another site, so it is not listed either.
-  const places = placesForState(code).filter(
-    (place) => placeIsStandalone(place) && !cityIsThin(code, place) && !isPrunedCity(code, place.slug),
-  );
+  const places = placesForState(code).filter((place) => cityIsIndexable(code, place));
   const counties = countiesForState(code).filter((county) => !isPrunedCounty(code, county.slug));
   const entries = [
     sitemapEntry(`/cities/${code}`, 0.6),

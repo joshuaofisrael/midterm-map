@@ -14,8 +14,6 @@ export function CrossLinks({
     { href: "/ballot", label: "Ballot lookup" },
     { href: "/calendar", label: "Election calendar" },
     { href: "/races", label: "Race guides" },
-    { href: "/polls", label: "Polls & ratings" },
-    { href: "/results", label: "Results tracker" },
     { href: "/learn", label: "Explainers" },
   ];
 
@@ -24,12 +22,7 @@ export function CrossLinks({
     links.push({ href: `/ballot/${state}`, label: `${state} sample ballot` });
   }
   if (raceSlug) {
-    const guideHref = `/races/${raceSlug}`;
-    links.push({ href: guideHref, label: "This race guide" });
-    const resultsHref = indexableRaceHref(raceSlug);
-    if (resultsHref !== guideHref) {
-      links.push({ href: resultsHref, label: "This race result" });
-    }
+    links.push({ href: indexableRaceHref(raceSlug), label: "This race guide" });
   }
 
   const unique = links.filter(

@@ -6,6 +6,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { placeIsStandalone, placeTargetPath, searchKeys } from "../src/lib/placeNames.ts";
+import { thinZeroRedirectTarget } from "../src/lib/cityIndexable.ts";
 import { prunedRedirectTarget } from "../src/lib/prunedPlaces.ts";
 
 type Row = [string, string, string, string, number | null, string];
@@ -51,7 +52,7 @@ for (const file of fs.readdirSync(dir)) {
       place.name,
       place.counties[0] ?? "",
       place.pop,
-      prunedRedirectTarget(rawPath) ?? rawPath,
+      prunedRedirectTarget(rawPath) ?? thinZeroRedirectTarget(rawPath) ?? rawPath,
     ];
     const id = `${code}/${place.slug}`;
     const letters = new Set<string>();

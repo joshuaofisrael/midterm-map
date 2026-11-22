@@ -42,13 +42,13 @@ export default function NotFound() {
           </Link>
         </li>
         <li>
-          <Link className="hover:underline" href="/polls">
-            Polls and ratings
+          <Link className="hover:underline" href="/representatives">
+            Representatives
           </Link>
         </li>
         <li>
-          <Link className="hover:underline" href="/results">
-            Results tracker
+          <Link className="hover:underline" href="/learn">
+            Explainers
           </Link>
         </li>
         <li>

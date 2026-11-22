@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { countiesForState, placeBySlug, placeStates, placesForState } from "../data/places/load.ts";
+import { cityIsIndexable, countIndexableCities, thinZeroRedirectTarget } from "./cityIndexable.ts";
 import { cityIsThin } from "./cityThin.ts";
 import { placeIsStandalone } from "./placeNames.ts";
 import {
@@ -65,4 +66,29 @@ test("every pruned URL is a real page that the sitemap lists today, and kept pag
   assert.equal(linkedPlaceHref("NY", nyc), "/cities/NY/new-york-city");
   assert.equal(searchPlaceHref("AK", "chignik-city", "/cities/AK/chignik-city/"), "/cities/AK/");
   assert.equal(searchPlaceHref("NY", "new-york-city", "/cities/NY/new-york-city/"), "/cities/NY/new-york-city/");
+});
+
+test("thin places with impressions stay indexable and zero-impression templates redirect", () => {
+  const nyc = placeBySlug("NY", "new-york-city");
+  assert.ok(nyc);
+  assert.equal(cityIsIndexable("NY", nyc), true);
+  assert.equal(thinZeroRedirectTarget("/cities/NY/new-york-city/"), null);
+  const visitedThin = placeBySlug("FL", "university-cdp-73172");
+  assert.ok(visitedThin);
+  assert.equal(cityIsThin("FL", visitedThin), true);
+  assert.equal(cityIsIndexable("FL", visitedThin), true);
+  let thinZero = 0;
+  for (const state of placeStates()) {
+    for (const place of placesForState(state.code)) {
+      if (!placeIsStandalone(place) || isPrunedCity(state.code, place.slug)) continue;
+      if (cityIsIndexable(state.code, place)) continue;
+      assert.equal(cityIsThin(state.code, place), true);
+      assert.equal(thinZeroRedirectTarget(`/cities/${state.code}/${place.slug}/`), `/cities/${state.code}/`);
+      thinZero += 1;
+      if (thinZero > 3) break;
+    }
+    if (thinZero > 3) break;
+  }
+  assert.ok(thinZero > 0);
+  assert.ok(countIndexableCities() > 16000);
 });

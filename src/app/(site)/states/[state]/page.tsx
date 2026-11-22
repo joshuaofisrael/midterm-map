@@ -13,7 +13,8 @@ import { RaceCard } from "@/components/RaceCard";
 import { StateCandidates } from "@/components/StateCandidates";
 import { KeyDatesSection } from "@/components/ElectionDates";
 import { EmailSignup } from "@/components/EmailSignup";
-import { winnersForState, winnerTitle } from "@/data/winners2026";
+import { Cycle2026Summary } from "@/components/Cycle2026Summary";
+import { stateHasCycle2026 } from "@/lib/cycleRedirects";
 import { MtgNote } from "@/components/MtgNote";
 import { MapTheGeneral } from "@/components/MapTheGeneral";
 import { ShareBar } from "@/components/ShareBar";
@@ -26,7 +27,6 @@ import {
   type StateElectionDates,
 } from "@/data/electionDates";
 import { racesForState } from "@/data/races";
-import { stateResultsPath } from "@/data/results";
 import { stateHubFaqs } from "@/data/stateFaqs";
 import { getState, isStateCode, STARTER_STATES } from "@/data/states";
 import type { StateProfile } from "@/data/types";
@@ -124,26 +124,13 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
                 Census places in {state.name}
               </Link>
             </li>
-            <li>
-              <Link className="font-medium text-navy hover:underline" href="/polls">
-                Polls and ratings hub
-              </Link>
-            </li>
-            <li>
-              <Link className="font-medium text-navy hover:underline" href={stateResultsPath(state.code)}>
-                {state.name} results
-              </Link>
-            </li>
-            <li>
-              <Link className="font-medium text-navy hover:underline" href="https://mapthegeneral.com/us/en/live/">
-                Live results
-              </Link>
-            </li>
-            <li>
-              <Link className="font-medium text-navy hover:underline" href="/results">
-                Results tracker
-              </Link>
-            </li>
+            {stateHasCycle2026(state.code) ? (
+              <li>
+                <Link className="font-medium text-navy hover:underline" href="#cycle-2026">
+                  How 2026 went in {state.name}
+                </Link>
+              </li>
+            ) : null}
             <li>
               <a className="font-medium text-navy hover:underline" href={state.voteGov.href} rel="noopener noreferrer">
                 {state.voteGov.label}
@@ -291,18 +278,7 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
           </Link>
         </p>
       </section>
-      {winnersForState(state.code).length ? (
-        <section aria-labelledby="who-won" className="text-sm leading-6">
-          <h2 id="who-won" className="font-serif text-xl font-semibold">Who won in {state.name} (2026)</h2>
-          <ul className="mt-2 list-disc pl-5">
-            {winnersForState(state.code).map((w) => (
-              <li key={w.slug}>
-                <Link className="text-navy hover:underline" href={`/results/2026/${w.slug}`}>{winnerTitle(w)}</Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ) : null}
+      <Cycle2026Summary code={state.code} />
       <EmailSignup state={state.code} />
       <MtgNote />
       <CrossLinks state={state.code} />

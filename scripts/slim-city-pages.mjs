@@ -13,6 +13,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { countIndexableCities } from "../src/lib/cityIndexable.ts";
 
 const manifest = JSON.parse(
   fs.readFileSync(new URL("../src/data/places/manifest.json", import.meta.url), "utf8"),
@@ -93,26 +94,10 @@ for (const state of fs.readdirSync(citiesDir)) {
   }
 }
 
-const prune = JSON.parse(
-  fs.readFileSync(new URL("../src/data/places/gsc-prune-2026-11-19.json", import.meta.url), "utf8"),
-);
-let prunedCities = 0;
-for (const slugs of Object.values(prune.cities)) prunedCities += slugs.length;
-
-let standalone = 0;
-for (const state of manifest.states) {
-  const places = JSON.parse(
-    fs.readFileSync(new URL(`../src/data/places/${state.code}.json`, import.meta.url), "utf8"),
-  );
-  for (const place of places) {
-    if (place.pop != null || (place.districts && place.districts.length > 0)) standalone += 1;
-  }
-}
-
-const expectedPages = standalone - prunedCities;
+const expectedPages = countIndexableCities();
 if (pages !== expectedPages) {
   throw new Error(
-    `Slimmed ${pages} city pages; expected ${expectedPages} (${standalone} places with a population or a congressional district, minus ${prunedCities} redirected place pages; ${manifest.placeCount} Census places total).`,
+    `Slimmed ${pages} city pages; expected ${expectedPages} indexable place pages (${manifest.placeCount} Census places total).`,
   );
 }
 

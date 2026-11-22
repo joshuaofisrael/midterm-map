@@ -49,7 +49,7 @@ export default function RepresentativesHub() {
       </section>
       <p className="text-sm">
         See also: <Link className="text-navy hover:underline" href="/your-representative">Find your representative</Link>
-        {" · "}<Link className="text-navy hover:underline" href="/results/2026">Who won 2026</Link>
+        {" · "}<Link className="text-navy hover:underline" href="/races/#cycle-2026">How 2026 was called</Link>
         {" · "}<Link className="text-navy hover:underline" href="/calendar">Election calendar</Link>
       </p>
       <CrossLinks />

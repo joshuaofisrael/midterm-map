@@ -3,6 +3,7 @@ import {
   REP_SOURCES, SENATE_LIST_URL, HOUSE_FIND_URL, bioguideUrl, electLine, raceFor, type RepState,
 } from "@/data/representatives2026";
 import { winnerOf } from "@/data/winners2026";
+import { mergedWinnerHref } from "@/lib/cycleRedirects";
 
 const a = "font-medium text-navy underline";
 
@@ -31,7 +32,11 @@ export function SenateTable({ state }: { state: RepState }) {
                 <td className="py-2">
                   {race ? (
                     <>
-                      <Link className={a} href={`/results/2026/${race.slug}`}>{electLine(race)}</Link>
+                      {mergedWinnerHref(race.slug) ? (
+                        <Link className={a} href={mergedWinnerHref(race.slug)!}>{electLine(race)}</Link>
+                      ) : (
+                        <span>{electLine(race)}</span>
+                      )}
                       {win ? " won" : ""}
                       {win && race.special ? " (special election; takes office once the result is certified)" : ""}
                       {win && !race.special ? " (term from January 3, 2027)" : ""}

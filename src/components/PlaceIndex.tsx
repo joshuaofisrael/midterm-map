@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { PlaceRecord } from "@/data/places/load";
 import { placeDisplayName, placeIndexLetter, placeIsStandalone } from "@/lib/placeNames";
-import { linkedPlaceHref } from "@/lib/prunedPlaces";
+import { livePlaceHref } from "@/lib/cityIndexable";
 import { formatPopulation } from "@/lib/placeText";
 
 const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ#".split("");
@@ -49,7 +49,7 @@ export function PlaceIndex({
           <ul className="mt-2 divide-y divide-line border-y border-line text-sm">
             {groups.get(letter)?.map((place) => {
               const ownPage = placeIsStandalone(place);
-              const href = linkedPlaceHref(stateCode, place);
+              const href = livePlaceHref(stateCode, place);
               return (
                 <li key={place.geoid} className="flex flex-wrap gap-x-3 py-1.5">
                   {href ? (

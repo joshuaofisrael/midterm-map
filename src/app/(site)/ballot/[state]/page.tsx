@@ -19,9 +19,9 @@ import { ballotStateFaqs } from "@/data/ballotFaqs";
 import { ballotSectionsForState } from "@/data/ballots";
 import { electionDatesFor, votingDeadlinesStateHref, type StateElectionDates } from "@/data/electionDates";
 import { racesForState } from "@/data/races";
-import { stateResultsPath } from "@/data/results";
 import { getState, isStateCode, STARTER_STATES } from "@/data/states";
 import { contentUpdatedLabel } from "@/lib/contentDate";
+import { stateHasCycle2026 } from "@/lib/cycleRedirects";
 import { faqJsonLd } from "@/lib/format";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 import { ballotOg } from "@/lib/ogCard";
@@ -361,21 +361,13 @@ function ResultsLinks({ state, races }: { state: StateProfile; races: RaceGuide[
     <section className="rounded-xl border border-line bg-paper-card p-5">
       <h2 className="font-serif text-xl font-semibold">{state.name} results on this site</h2>
       <ul className="mt-3 space-y-2 text-sm leading-6">
-        <li>
-          <Link className="text-navy underline" href={stateResultsPath(state.code)}>
-            {state.name} results
-          </Link>
-        </li>
-        <li>
-          <Link className="text-navy underline" href="https://mapthegeneral.com/us/en/live/">
-            Live results
-          </Link>
-        </li>
-        <li>
-          <Link className="text-navy underline" href="/results">
-            Results tracker
-          </Link>
-        </li>
+        {stateHasCycle2026(state.code) ? (
+          <li>
+            <Link className="text-navy underline" href={`/states/${state.code}/#cycle-2026`}>
+              How 2026 went in {state.name}
+            </Link>
+          </li>
+        ) : null}
         <li>
           <Link className="text-navy underline" href={`/states/${state.code}`}>
             {state.name} hub
@@ -383,12 +375,8 @@ function ResultsLinks({ state, races }: { state: StateProfile; races: RaceGuide[
         </li>
         {races.map((race) => (
           <li key={race.slug}>
-            <Link className="text-navy underline" href={`/results/${race.slug}`}>
-              {race.title} results
-            </Link>
-            {" · "}
             <Link className="text-navy underline" href={`/races/${race.slug}`}>
-              Race guide
+              {race.title}
             </Link>
           </li>
         ))}
