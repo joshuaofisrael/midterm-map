@@ -9,6 +9,7 @@ import {
   repDistrictPath, repState,
 } from "@/data/representatives2026";
 import { etDate, statusLine, winnerOf } from "@/data/winners2026";
+import { mergedWinnerHref } from "@/lib/cycleRedirects";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const dynamicParams = false;
@@ -107,7 +108,9 @@ export default async function RepDistrictPage({ params }: { params: Promise<{ st
             <dt className="font-semibold">Elected in 2026 (from January 3, 2027)</dt>
             <dd className="mt-1">
               {win ? `${win.name} (${win.party}), ${win.pct}% per AP` : statusLine(race)}
-              <span className="block"><Link className="text-navy underline" href={`/results/2026/${race.slug}`}>Full {short} 2026 results</Link></span>
+              {mergedWinnerHref(race.slug) ? (
+                <span className="block"><Link className="text-navy underline" href={mergedWinnerHref(race.slug)!}>Full {short} 2026 count</Link></span>
+              ) : null}
             </dd>
           </div>
         </dl>
@@ -128,7 +131,7 @@ export default async function RepDistrictPage({ params }: { params: Promise<{ st
       <nav className="rounded-xl border border-line p-4 text-sm">
         <p>
           <Link className="font-medium text-navy hover:underline" href={`/representatives/${s.code}`}>All {s.name} representatives</Link>
-          {" · "}<Link className="font-medium text-navy hover:underline" href="/results/2026">Who won 2026</Link>
+          {" · "}<Link className="font-medium text-navy hover:underline" href="/races/#cycle-2026">How 2026 was called</Link>
           {" · "}<Link className="font-medium text-navy hover:underline" href="/calendar">Election calendar</Link>
         </p>
         {next ? (

@@ -21,7 +21,6 @@ import { SourceList } from "@/components/SourceList";
 import { TipJar } from "@/components/TipJar";
 import { racePreview } from "@/data/essays/previews";
 import { pollsForRace } from "@/data/polls";
-import { indexableRaceHref } from "@/data/results";
 import { AGGREGATORS } from "@/data/sources";
 import { getRace, RACES, racesForState } from "@/data/races";
 import { getState } from "@/data/states";
@@ -57,8 +56,6 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
   const state = getState(race.state);
   const polls = pollsForRace(race.slug);
   const siblings = racesForState(race.state).filter((item) => item.slug !== race.slug);
-  const resultsHref = indexableRaceHref(race.slug);
-  const resultsReady = resultsHref.startsWith("/results/");
   const faqText = race.faqs.map((faq) => `${faq.question} ${faq.answer}`).join("\n");
   const faqCandidates = race.candidates.filter((candidate) => faqText.includes(candidate.name));
   const crumbs = [
@@ -168,19 +165,6 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
               <li>
                 <Link className="text-navy hover:underline" href={`/ballot/${race.state}`}>
                   {state?.name} sample ballot structure
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-navy hover:underline"
-                  href={resultsReady ? resultsHref : "/results"}
-                >
-                  {resultsReady ? "Results page for this race" : "Results tracker"}
-                </Link>
-              </li>
-              <li>
-                <Link className="text-navy hover:underline" href="/polls">
-                  Polls and ratings hub
                 </Link>
               </li>
               {state && (

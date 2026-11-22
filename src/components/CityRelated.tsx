@@ -6,7 +6,9 @@ import { racesForState } from "@/data/races";
 import { isStateCode } from "@/data/states";
 import { districtShort, repDistrictPath, repState } from "@/data/representatives2026";
 import type { StateCode } from "@/data/types";
-import { countyHrefByName, linkedPlaceHref } from "@/lib/prunedPlaces";
+import { livePlaceHref } from "@/lib/cityIndexable";
+import { stateHasCycle2026 } from "@/lib/cycleRedirects";
+import { countyHrefByName } from "@/lib/prunedPlaces";
 
 export function CityRelated({
   code,
@@ -27,9 +29,9 @@ export function CityRelated({
     <section>
       <h2>Related pages</h2>
       <ul>
-        {isStateCode(code) ? (
+        {isStateCode(code) && stateHasCycle2026(code) ? (
           <li>
-            <Link href={`/results/state/${code}`}>{stateName} 2026 midterm results</Link>
+            <Link href={`/states/${code}/#cycle-2026`}>{stateName} 2026 election</Link>
           </li>
         ) : null}
         {repLinks.map((link) => (
@@ -59,7 +61,7 @@ export function CityRelated({
           <h3>Other places in the same county</h3>
           <ul>
             {neighbors.map((other) => {
-              const href = linkedPlaceHref(code, other);
+              const href = livePlaceHref(code, other);
               return (
                 <li key={other.geoid}>
                   {href ? <Link href={href}>{other.name}</Link> : <span>{other.name}</span>}
@@ -77,7 +79,7 @@ export function CityRelated({
           </p>
           <ul>
             {nearest.map((other) => {
-              const href = linkedPlaceHref(code, other);
+              const href = livePlaceHref(code, other);
               return (
                 <li key={other.geoid}>
                   {href ? <Link href={href}>{other.name}</Link> : <span>{other.name}</span>}

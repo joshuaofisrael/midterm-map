@@ -75,10 +75,7 @@ export function resultShellHasReturns(shell: RaceResultShell): boolean {
  */
 export function indexableRaceHref(raceSlug?: string): string {
   const race = raceSlug ? RACES.find((item) => item.slug === raceSlug) : undefined;
-  if (!race) return "/results";
-  if (race.resultsShellLinked || resultShellHasReturns(resultShellForRace(race.slug))) {
-    return `/results/${race.slug}`;
-  }
+  if (!race) return "/races";
   return `/races/${race.slug}`;
 }
 

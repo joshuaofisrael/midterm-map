@@ -2,16 +2,12 @@ import Link from "next/link";
 import { BallotpediaLink } from "@/components/BallotpediaLink";
 import { SourceLines } from "@/components/SourceLines";
 import type { RaceGuide } from "@/data/types";
-import { indexableRaceHref } from "@/data/results";
 import { getState } from "@/data/states";
 import { chamberLabel, ratingTone } from "@/lib/format";
 
 export function RaceCard({ race, compact = false }: { race: RaceGuide; compact?: boolean }) {
   const state = getState(race.state);
   const primaryRating = race.ratings[0];
-  const resultsHref = indexableRaceHref(race.slug);
-  const resultsReady = resultsHref.startsWith("/results/");
-
   return (
     <article className="flex h-full flex-col rounded-xl border border-line border-t-4 border-t-navy bg-paper-card p-5 shadow-card">
       <div className="flex flex-wrap items-center gap-2">
@@ -58,14 +54,6 @@ export function RaceCard({ race, compact = false }: { race: RaceGuide; compact?:
         <Link className="font-medium text-navy hover:underline" href={`/races/${race.slug}`}>
           Race guide
         </Link>
-        <Link className="text-ink-muted hover:text-navy hover:underline" href={`/polls#${race.slug}`}>
-          Polls
-        </Link>
-        {resultsReady && (
-          <Link className="text-ink-muted hover:text-navy hover:underline" href={resultsHref}>
-            Results
-          </Link>
-        )}
         <Link className="text-ink-muted hover:text-navy hover:underline" href={`/ballot/${race.state}`}>
           Sample ballot
         </Link>

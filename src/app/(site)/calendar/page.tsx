@@ -25,8 +25,7 @@ export const metadata = pageMetadata({
 
 const RELATED = [
   { href: "/", label: "Home" },
-  { href: "/results", label: "Results" },
-  { href: "/results/2026", label: "2026 results" },
+  { href: "/races/#cycle-2026", label: "2026 calls" },
   { href: "/voting-deadlines", label: "2026 voting deadlines" },
   { href: "/learn", label: "Explainers" },
   { href: "/races", label: "Race guides" },

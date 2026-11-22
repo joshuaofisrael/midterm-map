@@ -8,6 +8,7 @@ import {
   REDRAWN_2026, REP_STATES, districtName, districtShort, electLine, raceFor, repDistrictPath, repState,
 } from "@/data/representatives2026";
 import { getState } from "@/data/states";
+import { mergedWinnerHref } from "@/lib/cycleRedirects";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/metadata";
 
 export const dynamicParams = false;
@@ -67,7 +68,7 @@ export default async function RepStatePage({ params }: { params: Promise<{ state
                         <><a className="text-navy underline" href={bio(h.current.bioguide)} rel="noopener noreferrer">{h.current.name}</a> ({h.current.party})</>
                       ) : "Vacant"}
                     </td>
-                    <td className="py-2">{race ? <Link className="text-navy underline" href={`/results/2026/${race.slug}`}>{electLine(race)}</Link> : "—"}</td>
+                    <td className="py-2">{race ? (mergedWinnerHref(race.slug) ? <Link className="text-navy underline" href={mergedWinnerHref(race.slug)!}>{electLine(race)}</Link> : electLine(race)) : "—"}</td>
                   </tr>
                 );
               })}
@@ -81,11 +82,10 @@ export default async function RepStatePage({ params }: { params: Promise<{ state
           {getState(s.code) ? (
             <>
               <Link className="font-medium text-navy hover:underline" href={`/states/${s.code}`}>{s.name} election hub</Link>
-              {" · "}<Link className="font-medium text-navy hover:underline" href={`/results/state/${s.code}`}>{s.name} 2026 results</Link>
               {" · "}
             </>
           ) : null}
-          <Link className="font-medium text-navy hover:underline" href="/results/2026">Who won 2026</Link>
+          <Link className="font-medium text-navy hover:underline" href="/races/#cycle-2026">How 2026 was called</Link>
           {" · "}<Link className="font-medium text-navy hover:underline" href="/your-representative">Find your representative</Link>
           {" · "}<Link className="font-medium text-navy hover:underline" href="/representatives">All states</Link>
         </p>

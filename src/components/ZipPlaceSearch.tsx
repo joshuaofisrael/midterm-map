@@ -2,7 +2,7 @@
 
 import { FormEvent, useId, useState } from "react";
 import manifest from "@/data/places/manifest.json";
-import { searchPlaceHref } from "@/lib/prunedPlaces";
+import { placeSearchHref } from "@/lib/thinRedirect";
 import { electionOfficeFor } from "@/data/electionOffices";
 
 type PlaceHit = [string, string, string];
@@ -121,7 +121,7 @@ export function ZipPlaceSearch({ scopeName }: { scopeName?: string }) {
               <ul className="mt-2 list-disc space-y-1 pl-5">
                 {places.map((place) => (
                   <li key={`${place[0]}-${place[1]}`}>
-                    <a className="font-medium text-navy hover:underline" href={searchPlaceHref(place[0], place[1], `/cities/${place[0]}/${place[1]}/`)}>
+                    <a className="font-medium text-navy hover:underline" href={placeSearchHref(place[0], place[1], `/cities/${place[0]}/${place[1]}/`)}>
                       {place[2]}, {STATE_NAME[place[0]] ?? place[0]}
                     </a>
                   </li>

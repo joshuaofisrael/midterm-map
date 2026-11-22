@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { cityIsThin } from "@/lib/cityThin";
-import { countyHrefByName, isPrunedCity } from "@/lib/prunedPlaces";
+import { cityIsIndexable } from "@/lib/cityIndexable";
+import { countyHrefByName } from "@/lib/prunedPlaces";
 import { InfoNote } from "@/components/InfoNote";
 import { CityCandidates } from "@/components/CityCandidates";
 import { CityLocal } from "@/components/CityLocal";
@@ -30,7 +30,7 @@ export function generateStaticParams() {
   const params: { state: string; city: string }[] = [];
   for (const state of placeStates()) {
     for (const place of placesForState(state.code)) {
-      if (!placeIsStandalone(place) || isPrunedCity(state.code, place.slug)) continue;
+      if (!cityIsIndexable(state.code, place)) continue;
       params.push({ state: state.code, city: place.slug });
     }
   }
@@ -51,7 +51,7 @@ export async function generateMetadata({
     title: citySeoTitle(state.code, place, kind),
     description: citySeoDescription(state.code, state.name, place),
     path: `/cities/${state.code}/${place.slug}`,
-    index: !cityIsThin(state.code, place),
+    index: cityIsIndexable(state.code, place),
   });
 }
 

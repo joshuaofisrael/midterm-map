@@ -22,7 +22,6 @@ export function publishedStateLinks(code: string): SiteLink[] {
   for (const race of racesForState(stateCode)) {
     if (race.chamber !== "senate" && race.chamber !== "governor") continue;
     links.push({ href: `/races/${race.slug}`, label: race.title });
-    links.push({ href: `/results/${race.slug}`, label: `${race.title} results` });
   }
   return links;
 }

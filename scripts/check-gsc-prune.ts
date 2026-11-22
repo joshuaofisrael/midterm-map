@@ -7,7 +7,9 @@ import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
 import path from "node:path";
 import { countiesForState, placeStates, placesForState } from "../src/data/places/load.ts";
 import { SITE, absoluteUrl } from "../src/data/site.ts";
+import { cityIsIndexable, thinZeroRedirectTarget } from "../src/lib/cityIndexable.ts";
 import { cityIsThin } from "../src/lib/cityThin.ts";
+import { cycleRedirectPaths } from "../src/lib/cycleRedirects.ts";
 import { placeIsStandalone } from "../src/lib/placeNames.ts";
 import {
   PRUNED_PAGE_COUNT,
@@ -53,7 +55,8 @@ for path in paths:
     files.append({"file": str(path), "kind": kind, "locs": locs})
 print(json.dumps({"errors": errors, "files": files}))
 `;
-  const result = spawnSync("python3", ["-c", py], { encoding: "utf8" });
+  const result = spawnSync("python3", ["-c", py], { encoding: "utf8", maxBuffer: 64 * 1024 * 1024 });
+  if (result.error) throw new Error(result.error.message);
   if (result.status !== 0) {
     throw new Error(result.stderr || "sitemap XML parse failed");
   }
@@ -81,7 +84,9 @@ if (prunedPaths.size !== PRUNED_PAGE_COUNT) {
 
 let oldStateUrls = 0;
 let newStateUrls = 0;
+let addedThin = 0;
 const expectedByFile = new Map<string, Set<string>>();
+const cyclePaths = cycleRedirectPaths();
 for (const state of placeStates()) {
   const expected = new Set<string>();
   expected.add(absoluteUrl(`/cities/${state.code}`));
@@ -94,9 +99,15 @@ for (const state of placeStates()) {
     expected.add(absoluteUrl(`/cities/${state.code}/county/${county.slug}`));
   }
   for (const place of placesForState(state.code)) {
-    if (!placeIsStandalone(place) || cityIsThin(state.code, place)) continue;
-    oldStateUrls += 1;
-    if (isPrunedCity(state.code, place.slug)) continue;
+    if (!placeIsStandalone(place)) continue;
+    if (!cityIsThin(state.code, place)) {
+      oldStateUrls += 1;
+      if (isPrunedCity(state.code, place.slug)) continue;
+    } else if (!cityIsIndexable(state.code, place)) {
+      continue;
+    } else {
+      addedThin += 1;
+    }
     newStateUrls += 1;
     expected.add(absoluteUrl(`/cities/${state.code}/${place.slug}`));
   }
@@ -116,7 +127,7 @@ for (const file of parsed.files) {
     coreCount = file.locs.length;
     for (const loc of file.locs) {
       const pathname = pathOf(loc);
-      if (prunedPaths.has(pathname) || pathname === "/live/") {
+      if (prunedPaths.has(pathname) || pathname === "/live/" || cyclePaths.has(pathname)) {
         errors.push(`core sitemap lists ${loc}`);
       }
     }
@@ -139,9 +150,11 @@ for (const file of parsed.files) {
 }
 for (const rel of expectedByFile.keys()) errors.push(`sitemap file not written: ${rel}`);
 
-const removed = oldStateUrls - newStateUrls;
+const removed = oldStateUrls - (newStateUrls - addedThin);
 if (removed !== PRUNED_PAGE_COUNT) errors.push(`removed ${removed} state URLs, expected ${PRUNED_PAGE_COUNT}`);
-if (newStateUrls + removed !== oldStateUrls) errors.push("state sitemap is not the previous set minus pruned URLs");
+if (newStateUrls !== oldStateUrls - removed + addedThin) {
+  errors.push("state sitemap is not the previous set minus pruned URLs plus impression cities");
+}
 
 const seen = new Set<string>();
 for (const loc of pageLocs) {
@@ -150,6 +163,8 @@ for (const loc of pageLocs) {
   const pathname = pathOf(loc);
   if (!loc.endsWith("/")) errors.push(`sitemap URL has no trailing slash: ${loc}`);
   if (prunedPaths.has(pathname)) errors.push(`pruned URL still in sitemap: ${loc}`);
+  if (cyclePaths.has(pathname)) errors.push(`cycle redirect still in sitemap: ${loc}`);
+  if (thinZeroRedirectTarget(pathname)) errors.push(`thin redirect still in sitemap: ${loc}`);
 }
 
 let stubs = 0;
@@ -177,8 +192,13 @@ function noteLink(file: string, raw: string) {
   let pathname = raw;
   if (pathname.startsWith(SITE.url)) pathname = pathname.slice(SITE.url.length);
   pathname = pathname.split("#")[0].split("?")[0];
-  if (!pathname.startsWith("/cities/")) return;
   if (!pathname.endsWith("/")) pathname += "/";
+  if (cyclePaths.has(pathname) || thinZeroRedirectTarget(pathname)) {
+    linked += 1;
+    if (linked <= 20) errors.push(`${file} links to redirect ${pathname}`);
+    return;
+  }
+  if (!pathname.startsWith("/cities/")) return;
   if (!prunedPaths.has(pathname)) return;
   linked += 1;
   if (linked <= 20) errors.push(`${file} links to pruned ${pathname}`);
@@ -208,7 +228,9 @@ if (existsSync(searchDir)) {
     for (const row of rows) {
       const target = row[5] ?? "";
       const normalized = target.split("#")[0].endsWith("/") ? target.split("#")[0] : `${target.split("#")[0]}/`;
-      if (prunedPaths.has(normalized)) errors.push(`place-search/${name} points at pruned ${target}`);
+      if (prunedPaths.has(normalized) || thinZeroRedirectTarget(normalized)) {
+        errors.push(`place-search/${name} points at redirect ${target}`);
+      }
     }
   }
 }
@@ -279,5 +301,5 @@ if (errors.length) {
 }
 
 console.log(
-  `gsc prune: redirected ${stubs}; sitemap removed ${removed}; sitemap added 0; sitemap URLs ${pageLocs.length} (core ${coreCount}, state ${newStateUrls}); indexable pages missing from sitemap ${indexableMissing}; external canonicals skipped ${externalCanonical}.`,
+  `gsc prune: redirected ${stubs}; sitemap removed ${removed}; sitemap added ${addedThin}; sitemap URLs ${pageLocs.length} (core ${coreCount}, state ${newStateUrls}); indexable pages missing from sitemap ${indexableMissing}; external canonicals skipped ${externalCanonical}.`,
 );

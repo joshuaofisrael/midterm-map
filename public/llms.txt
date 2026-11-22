@@ -5,8 +5,7 @@
 ## Main pages
 
 - [Home](https://mapthemidterms.com/): Overview of 2026 midterm election results and the site's voter-information tools.
-- [Who won the 2026 elections](https://mapthemidterms.com/results/2026/): Archive of Associated Press-called 2026 Senate, House and governor winners. Races AP has not called are not listed yet. Vote counts are unofficial until a state certifies them.
-- [Results](https://mapthemidterms.com/results/): Results hub for the November 3, 2026 general election, with links to the who-won archive, state pages and majority explainers.
+- [How the 2026 races were called](https://mapthemidterms.com/races/#cycle-2026): Associated Press calls for 2026 Senate, House and governor races. Vote counts that were already on a results page now sit on the state hub. Counts stay unofficial until a state certifies them.
 - [Who are my representatives](https://mapthemidterms.com/representatives/): U.S. senators and House members by state, district or ZIP code, including the 2026 winners who take office in January 2027.
 - [Find your representative by ZIP code](https://mapthemidterms.com/your-representative/): ZIP-code and district lookup for your U.S. House member and senators.
 - [US election calendar 2027 and 2028](https://mapthemidterms.com/calendar/): Special elections, 2027 off-year elections and dated 2028 lines, each cited to a state election office, a statute or the FEC. A contest without a posted date is marked not yet announced.
@@ -15,8 +14,7 @@
 - [How the Senate majority works](https://mapthemidterms.com/learn/senate-majority/): Senate majority rules, for readers asking who controls the Senate after the 2026 midterms.
 - [2026 voting deadlines by state](https://mapthemidterms.com/voting-deadlines/): Registration, early voting and mail-ballot dates for 17 states, each linked to its official source. Election Day has passed; these dates are kept for reference.
 - [Ballot lookup](https://mapthemidterms.com/ballot/): Sample-ballot outlines by ZIP code or state, with links to official election offices.
-- [Race guides](https://mapthemidterms.com/races/): Index of the Senate, governor and House races covered, with sourced candidate details.
-- [Polls](https://mapthemidterms.com/polls/): Published 2026 polls, each attributed to the pollster with a source link.
+- [Race guides](https://mapthemidterms.com/races/): Index of the Senate, governor and House races covered, with sourced candidate details. The 2026 calls are on this page.
 
 ## Census places
 
@@ -44,25 +42,25 @@
 
 ## Featured 2026 race guides (archive)
 
-- [Georgia U.S. Senate 2026](https://mapthemidterms.com/races/ga-senate-2026/): Race guide for the 2026 Georgia Senate contest, with sourced candidate details. Called result: [Who won the Georgia Senate election 2026](https://mapthemidterms.com/results/2026/ga-senate/).
-- [Michigan U.S. Senate 2026](https://mapthemidterms.com/races/mi-senate-2026/): Race guide for the 2026 Michigan Senate contest, with sourced candidate details. Called result: [Who won the Michigan Senate election 2026](https://mapthemidterms.com/results/2026/mi-senate/).
-- [North Carolina U.S. Senate 2026](https://mapthemidterms.com/races/nc-senate-2026/): Race guide for the 2026 North Carolina Senate contest, with sourced candidate details. Called result: [Who won the North Carolina Senate election 2026](https://mapthemidterms.com/results/2026/nc-senate/).
-- [Texas U.S. Senate 2026](https://mapthemidterms.com/races/tx-senate-2026/): Race guide for the 2026 Texas Senate contest, with sourced candidate details. Called result: [Who won the Texas Senate election 2026](https://mapthemidterms.com/results/2026/tx-senate/).
+- [Georgia U.S. Senate 2026](https://mapthemidterms.com/races/ga-senate-2026/): Race guide for the 2026 Georgia Senate contest, with sourced candidate details. The 2026 count is on the [Georgia hub](https://mapthemidterms.com/states/GA/#cycle-2026).
+- [Michigan U.S. Senate 2026](https://mapthemidterms.com/races/mi-senate-2026/): Race guide for the 2026 Michigan Senate contest, with sourced candidate details. The 2026 count is on the [Michigan hub](https://mapthemidterms.com/states/MI/#cycle-2026).
+- [North Carolina U.S. Senate 2026](https://mapthemidterms.com/races/nc-senate-2026/): Race guide for the 2026 North Carolina Senate contest, with sourced candidate details. The 2026 count is on the [North Carolina hub](https://mapthemidterms.com/states/NC/#cycle-2026).
+- [Texas U.S. Senate 2026](https://mapthemidterms.com/races/tx-senate-2026/): Race guide for the 2026 Texas Senate contest, with sourced candidate details. The 2026 count is on the [Texas hub](https://mapthemidterms.com/states/TX/#cycle-2026).
 
-## Statewide results pages (Minnesota, Maine, Iowa, Alaska, Kansas)
+## Statewide guides (Minnesota, Maine, Iowa, Alaska, Kansas)
 
-These statewide result pages remain available. For the full set of Associated Press-called 2026 Senate, House and governor races, see [Who won the 2026 elections](https://mapthemidterms.com/results/2026/). Vote counts stay unofficial until each state certifies them. Candidate names on these pages came from each state's official general-election candidate list.
+These are the race guides. The 2026 calls are on [the race guides hub](https://mapthemidterms.com/races/#cycle-2026) and, where a results page had search traffic, on the state hub. Vote counts stay unofficial until each state certifies them.
 
-- [Minnesota U.S. Senate 2026 results](https://mapthemidterms.com/results/mn-senate-2026/): Class 2 seat. Names from the Secretary of State candidate file. [Race guide](https://mapthemidterms.com/races/mn-senate-2026/).
-- [Minnesota Governor 2026 results](https://mapthemidterms.com/results/mn-governor-2026/): Governor and lieutenant governor tickets from the Secretary of State candidate file. [Race guide](https://mapthemidterms.com/races/mn-governor-2026/).
-- [Maine U.S. Senate 2026 results](https://mapthemidterms.com/results/me-senate-2026/): Class 2 seat. Ranked-choice voting applies to this federal general-election contest, per the Secretary of State. [Race guide](https://mapthemidterms.com/races/me-senate-2026/).
-- [Maine Governor 2026 results](https://mapthemidterms.com/results/me-governor-2026/): The candidate guide says this general election is decided by plurality. [Race guide](https://mapthemidterms.com/races/me-governor-2026/).
-- [Iowa U.S. Senate 2026 results](https://mapthemidterms.com/results/ia-senate-2026/): Class 2 seat. Names from the Secretary of State general-election candidate list. [Race guide](https://mapthemidterms.com/races/ia-senate-2026/).
-- [Iowa Governor 2026 results](https://mapthemidterms.com/results/ia-governor-2026/): Governor and lieutenant governor names from the Secretary of State general-election candidate list. [Race guide](https://mapthemidterms.com/races/ia-governor-2026/).
-- [Alaska U.S. Senate 2026 results](https://mapthemidterms.com/results/ak-senate-2026/): Class 2 seat. Ranked-choice voting, per the Division of Elections. [Race guide](https://mapthemidterms.com/races/ak-senate-2026/).
-- [Alaska Governor 2026 results](https://mapthemidterms.com/results/ak-governor-2026/): Governor and lieutenant governor. Ranked-choice voting, per the Division of Elections. [Race guide](https://mapthemidterms.com/races/ak-governor-2026/).
-- [Kansas U.S. Senate 2026 results](https://mapthemidterms.com/results/ks-senate-2026/): Class 2 seat. Names from the Secretary of State candidate list, 2026 General selection. [Race guide](https://mapthemidterms.com/races/ks-senate-2026/).
-- [Kansas Governor 2026 results](https://mapthemidterms.com/results/ks-governor-2026/): Governor and lieutenant governor rows from the Secretary of State candidate list, 2026 General selection. [Race guide](https://mapthemidterms.com/races/ks-governor-2026/).
+- [Minnesota U.S. Senate 2026](https://mapthemidterms.com/races/mn-senate-2026/): Class 2 seat. Names from the Secretary of State candidate file.
+- [Minnesota Governor 2026](https://mapthemidterms.com/races/mn-governor-2026/): Governor and lieutenant governor tickets from the Secretary of State candidate file.
+- [Maine U.S. Senate 2026](https://mapthemidterms.com/races/me-senate-2026/): Class 2 seat. Ranked-choice voting applies to this federal general-election contest, per the Secretary of State.
+- [Maine Governor 2026](https://mapthemidterms.com/races/me-governor-2026/): The candidate guide says this general election is decided by plurality.
+- [Iowa U.S. Senate 2026](https://mapthemidterms.com/races/ia-senate-2026/): Class 2 seat. Names from the Secretary of State general-election candidate list.
+- [Iowa Governor 2026](https://mapthemidterms.com/races/ia-governor-2026/): Governor and lieutenant governor names from the Secretary of State general-election candidate list.
+- [Alaska U.S. Senate 2026](https://mapthemidterms.com/races/ak-senate-2026/): Class 2 seat. Ranked-choice voting, per the Division of Elections.
+- [Alaska Governor 2026](https://mapthemidterms.com/races/ak-governor-2026/): Governor and lieutenant governor. Ranked-choice voting, per the Division of Elections.
+- [Kansas U.S. Senate 2026](https://mapthemidterms.com/races/ks-senate-2026/): Class 2 seat. Names from the Secretary of State candidate list, 2026 General selection.
+- [Kansas Governor 2026](https://mapthemidterms.com/races/ks-governor-2026/): Governor and lieutenant governor rows from the Secretary of State candidate list, 2026 General selection.
 
 ## About and policies
 

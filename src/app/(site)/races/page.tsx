@@ -12,6 +12,7 @@ import { RaceCard } from "@/components/RaceCard";
 import { RACES_HUB_FAQS } from "@/data/racesFaqs";
 import { RACES, racesByChamber } from "@/data/races";
 import { SITE } from "@/data/site";
+import { Cycle2026Hub } from "@/components/Cycle2026Hub";
 import { contentUpdatedLabel } from "@/lib/contentDate";
 import { faqJsonLd } from "@/lib/format";
 import { VISUALS } from "@/data/visuals";
@@ -66,6 +67,7 @@ export default function RacesPage() {
           </div>
         </section>
       ))}
+      <Cycle2026Hub />
       <section id="faq" className="rounded-xl border border-line bg-paper-card p-5">
         <h2 className="font-serif text-xl font-semibold">Questions readers ask</h2>
         <p className="mt-2 max-w-2xl text-sm text-ink-muted">
@@ -84,14 +86,6 @@ export default function RacesPage() {
         <p className="mt-5 text-sm">
           <Link className="font-medium text-navy hover:underline" href="/ballot">
             Ballot lookup
-          </Link>
-          {" · "}
-          <Link className="font-medium text-navy hover:underline" href="/polls">
-            Polls and ratings
-          </Link>
-          {" · "}
-          <Link className="font-medium text-navy hover:underline" href="/results">
-            Results tracker
           </Link>
           {" · "}
           <a className="font-medium text-navy hover:underline" href={SITE.voteGovUrl} rel="noopener noreferrer">

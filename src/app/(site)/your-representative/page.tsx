@@ -43,7 +43,7 @@ export default function YourRepresentative() {
       </section>
       <p className="text-sm">
         Browse <Link className="text-navy hover:underline" href="/representatives">representatives by state</Link> or see{" "}
-        <Link className="text-navy hover:underline" href="/results/2026">who won every 2026 race</Link>.
+        <Link className="text-navy hover:underline" href="/races/#cycle-2026">how the 2026 races were called</Link>.
       </p>
       <CrossLinks />
       <EmailSignup />
